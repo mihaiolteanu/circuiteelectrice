@@ -1,0 +1,31 @@
+﻿<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>  
+	<mi>R</mi>
+    <mo>=</mo>
+    <mfrac>
+		<mrow>
+			<mi>E</mi>
+		</mrow>
+		<mrow>
+			<mi>I</mi>
+		</mrow>
+	</mfrac>
+	<mo>=</mo>
+	<mfrac>
+		<mrow>
+			<mn>36</mn>
+			<mo rspace='thickmathspace'>&InvisibleTimes;</mo>
+			<mi mathvariant='normal' class='MathML-Unit'>V</mi> 
+		</mrow>
+		<mrow>
+			<mn>4</mn>
+			<mo rspace='thickmathspace'>&InvisibleTimes;</mo>
+			<mi mathvariant='normal'>A</mi> 
+		</mrow>
+	</mfrac>
+	<mo>=</mo>
+	<mn>9</mn>
+	<mo rspace='thickmathspace'>&InvisibleTimes;</mo>
+	<mi mathvariant='normal'>Ω</mi> 
+  </mrow>
+</math>

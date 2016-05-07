@@ -1,0 +1,39 @@
+﻿<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+	<mn>0</mn>
+	<mo rspace='thickmathspace'>&InvisibleTimes;</mo>
+	<msub>
+		<mrow>
+			<mi>I</mi>
+		</mrow>
+		<mrow>
+			<mn>1</mn>
+		</mrow>
+	</msub>
+	<mo>-</mo>
+	<mn>2</mn>
+	<mo rspace='thickmathspace'>&InvisibleTimes;</mo>
+	<msub>
+		<mrow>
+			<mi>I</mi>
+		</mrow>
+		<mrow>
+			<mn>2</mn>
+		</mrow>
+	</msub>
+	<mo>-</mo>
+	<mn>1</mn>
+	<mo rspace='thickmathspace'>&InvisibleTimes;</mo>
+	<msub>
+		<mrow>
+			<mi>I</mi>
+		</mrow>
+		<mrow>
+			<mn>3</mn>
+		</mrow>
+	</msub>
+    <mo>=</mo>
+	<mo>-</mo>
+	<mn>7</mn>
+  </mrow>
+</math>

@@ -1,0 +1,16 @@
+﻿<math xmlns="http://www.w3.org/1998/Math/MathML">
+  <mrow>
+	<msub>
+		<mrow>
+			<mi>I</mi>
+		</mrow>
+		<mrow>
+			<mn>1</mn>
+		</mrow>
+	</msub>
+	<mo>=</mo>
+	<mn>5</mn>
+	<mo rspace="thickmathspace">&InvisibleTimes;</mo>
+	<mi mathvariant="normal" class="MathML-Unit">A</mi>
+  </mrow>
+</math>
