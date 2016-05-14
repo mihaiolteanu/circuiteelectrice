@@ -21,7 +21,8 @@
   
 <div id="contents">
 
-<img src="../poze/00000.png" alt=""/>
+#+CAPTION: 
+[[../poze/00000.png]]
 <p>Regulile matematice sunt bazate pe limitele impuse asupra cantităţilor numerice particulare cu care avem de a face. Când spunem că 1 + 1 = 2, sau 3 + 4 = 7, presupunem din start că utilizăm un sistem de numeraţie zecimal. Regulile aritmetice pe care le considerăm de la sine înţelese - adevărate tot timpul şi în orice situaţie - depind de fapt de ceea ce înţelegem printr-un număr.</p>
 
 

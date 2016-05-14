@@ -22,13 +22,16 @@
 <div id="contents">
 <p>Să considerăm un circuit monofazat de curent alternativ, compus dintr-o sursă de tensiune de 120 V, la frecvenţa de 60 Hz, şi o sarcină rezistivă:</p>
 
-<p><img src="../poze/02211.png" alt="circuit electric monofazat de curent alternativ cu sarcină rezistivă"/></p>
+#+CAPTION: circuit electric monofazat de curent alternativ cu sarcină rezistivă
+[[../poze/02211.png]]
 
-<p><img src="../poze/12120.png" alt="calcule matematice"/></p>
+#+CAPTION: calcule matematice
+[[../poze/12120.png]]
 
 <p>Curentul efectiv prin sarcină va fi de 2 A, iar puterea disipată de 240 W. Deoarece sarcina este pur rezistivă (fără reactanţă), curentul este în fază cu tensiune, iar calculele sunt asemănătoare unui circuit de curent continuu. Formele de undă ale tensiunii, curentului şi puterii, arată asfel:</p>
 
-<p><img src="../poze/02055.png" alt="Formele de undă ale tensiunii, curentului şi puterii într-un circuit monofazat de curent alternativ cu sarcină pur rezistivă"/></p>
+#+CAPTION: Formele de undă ale tensiunii, curentului şi puterii într-un circuit monofazat de curent alternativ cu sarcină pur rezistivă
+[[../poze/02055.png]]
 
 <p>Puterea este tot timpul pozitivă în acest caz. Acest lucru înseamnă că puterea este tot timpul disipată de sarcina rezistivă şi nu este reintrodusă în circuit, aşa cum este cazul sarcinilor reactive. </p>
 
@@ -38,23 +41,29 @@
 
 <p>Ca şi comparaţie, să considerăm un circuit simplu cu o sarcină reactivă:</p>
 
-<p><img src="../poze/02212.png" alt="circuit electric monofazat de curent alternativ cu sarcină inductivă"/></p>
+#+CAPTION: circuit electric monofazat de curent alternativ cu sarcină inductivă
+[[../poze/02212.png]]
 
-<p><img src="../poze/12121.png" alt="calcule matematice"/></p>
+#+CAPTION: calcule matematice
+[[../poze/12121.png]]
 
-<p><img src="../poze/02059.png" alt="Formele de undă ale tensiunii, curentului şi puterii într-un circuit monofazat de curent alternativ cu sarcină pur inductivă"/></p>
+#+CAPTION: Formele de undă ale tensiunii, curentului şi puterii într-un circuit monofazat de curent alternativ cu sarcină pur inductivă
+[[../poze/02059.png]]
 
 <p>În acest caz, puterea variază alternativ între partea pozitivă şi cea negativă. Acest lucru înseamnă că puterea este alternativ absorbită şi eliberată din şi în circuit. Dacă am considera sursa ca fiind un generator mecanic, practic, energia consumată pentru acţionarea arborelui ar fi zero, deoarece sarcina nu consumă deloc putere.</p>
 
 <p>Să considerăm acum un circuit cu sarcină rezistiv-inductivă:</p>
 
-<p><img src="../poze/02213.png" alt="circuit electric monofazat de curent alternativ cu sarcină rezistiv-inductivă"/></p>
+#+CAPTION: circuit electric monofazat de curent alternativ cu sarcină rezistiv-inductivă
+[[../poze/02213.png]]
 
-<p><img src="../poze/12122.png" alt="calcule matematice"/></p>
+#+CAPTION: calcule matematice
+[[../poze/12122.png]]
 
 <p>Aceasta este valoarea efectivă a curentului (1.41 A) pe care ar arăta-o un ampermetru conectat în serie cu rezistorul şi bobina. Graficul formelor de undă arată în acest caz asfel:</p>
 
-<p><img src="../poze/02214.png" alt="cFormele de undă ale tensiunii, curentului şi puterii într-un circuit monofazat de curent alternativ cu sarcină rezistiv-inductivă"/></p>
+#+CAPTION: cFormele de undă ale tensiunii, curentului şi puterii într-un circuit monofazat de curent alternativ cu sarcină rezistiv-inductivă
+[[../poze/02214.png]]
 
 <p>Şi în acest caz, puterea alternează între partea negativă şi cea pozitivă, dar valoarea puterii „pozitive” este mai mare decât cea negativă. Cu alte cuvinte, combinaţie serie rezistor-bobină, va consuma mai multă putere decât va introduce înapoi în circuit.</p>
 

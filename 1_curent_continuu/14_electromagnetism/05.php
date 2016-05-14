@@ -24,11 +24,13 @@
 
 <p>O modalitate relativ simplă de a crea acest câmp magnetic de intensitate variabilă este prin deplasarea unui magnet permanent în apropierea firului sau a înfăşurării. Important: intensitatea câmpului trebuie să crească sau să scadă în intensitate <i>perpendicular</i> pe fir (asfel că liniile de câmp să „taie” conductorul); în caz contrar, nu va exista tensiune indusă în fir:</p>
 
-<p><img src="../poze/00318.png" alt="inducţia electromagnetică"/></p>
+#+CAPTION: inducţia electromagnetică
+[[../poze/00318.png]]
 
 <p>Expresia matematică pentru valoarea tensiunii generate în funcţie de fluxul câmpului magnetic, expresie dedusă tot de Faraday, este următoarea (observaţi utilizarea litere „e” pentru tensiune. Aceasta se referă la tensiuni <i>instantanee</i>, sau tensiune la un anumit moment din timp, şi nu o tensiune constantă, fixă):</p>
 
-<p><img src="../poze/10236.png" alt="ecuaţia lui Faraday pentru inducţia electromagnetică"/></p>
+#+CAPTION: ecuaţia lui Faraday pentru inducţia electromagnetică
+[[../poze/10236.png]]
 
 <p>Termenii „d” sunt specifici analizei matematice şi reprezintă rata de variaţie (creştere, deşcreştere) a fluxului magnetic cu timpul. „N” este numărul de spire din înfăşurare (atunci când aceasta este folosită, pentru o eficienţă electromagnetică maximă).</p>
 

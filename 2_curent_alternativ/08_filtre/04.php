@@ -22,7 +22,8 @@
 <div id="contents">
 <p>Există aplicaţii în care este nevoie de filtrarea unei anumite benzi de frecvenţe din totalul frecvenţelor prezente în semnal. Circuitele de filtrarea realizate pentru îndeplinirea acestui obiectiv pot dintr-un filtru trece-jos şi unul trece-sus, conectate împreună. Rezultatul este un filtru denumit <i>trece-bandă</i>. Diagrama prin care pot fi combinate cele două tipuri de filtre, arată în felul următor:</p>
 
-<p><img src="../poze/02260.png" alt="diagrama bloc a principiului de combinare a filtrelor trece-jos şi trece-sus pentru formarea filtrului trece-bandă"/></p>
+#+CAPTION: diagrama bloc a principiului de combinare a filtrelor trece-jos şi trece-sus pentru formarea filtrului trece-bandă
+[[../poze/02260.png]]
 
 <p>Rezultatul acestei combinaţii serie dintre cele două filtre este un circuit ce va permite trecerea acelor frecvenţe ce se regăsesc între cele două limite, nici mai mari, nici mai mici.</p>
 
@@ -30,17 +31,20 @@
 
 <p>Folosind componente reale, circuitul electric al filtrului trece-bandă asfel conceput, arată asfel:</p>
 
-<p><img src="../poze/02121.png" alt="circuitul electric al filtrului trece-bandă compus dintr-un filtru trece-jos capacitiv şi un filtru trece-sus capacitiv conectate în serie"/></p>
+#+CAPTION: circuitul electric al filtrului trece-bandă compus dintr-un filtru trece-jos capacitiv şi un filtru trece-sus capacitiv conectate în serie
+[[../poze/02121.png]]
 
 <p>Să vedem şi răspunsul în frecvenţă (diagrama Bode) a filtrului capacitiv trece-bandă:</p>
 
-<p><img src="../poze/22031.png" alt="răspunsul în frecvenţă (diagrama Bode) al filtrului trece-bandă compus dintr-un filtru trece-jos capacitiv şi un filtru trece-sus capacitiv conectate în serie"/></p>
+#+CAPTION: răspunsul în frecvenţă (diagrama Bode) al filtrului trece-bandă compus dintr-un filtru trece-jos capacitiv şi un filtru trece-sus capacitiv conectate în serie
+[[../poze/22031.png]]
 
 <h3>Filtrul trece-bandă inductiv</h3>
 
 <p>Filtrele trece-bandă pot fi construite folosind elemente inductive, dar, după cum am mai menţionat, filtrele capacitive sunt preferate în locul celor inductive datorită „purităţii” reactive a condensatoarelor. Circuitul electric al filtrului inductiv arată asfel:</p>
 
-<p><img src="../poze/02122.png" alt="circuitul electric al filtrului trece-bandă inductiv"/></p>
+#+CAPTION: circuitul electric al filtrului trece-bandă inductiv
+[[../poze/02122.png]]
 
 <p>Faptul că filtrul trece-sus se află poziţionat înainte filtrului trece-jos, nu are nicio importanţă din punct de vedere al funcţionalităţii filtrului.</p>
 

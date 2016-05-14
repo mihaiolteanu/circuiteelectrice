@@ -31,7 +31,8 @@
 
 
 
-<img src="../poze/00000.png" alt=""/>
+#+CAPTION: 
+[[../poze/00000.png]]
 
 </div>
 <div id="footer">

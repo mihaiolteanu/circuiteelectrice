@@ -34,7 +34,8 @@
 
 <p>Din punct de vedere electronic, avem de a face cu un oscilator dinte de fierăstrău. Oscilatoarele sunt circuite electronice ce produc o tensiune alternativă dintr-o sursă de tensiune continuă. Un oscilator dinte de fierăstrău funcţionează pe principiul încărcării unui condensator şi descărcării bruşte ale acestuia de fiecare dată când tensiune atince un prag critic. Printre cele mai simple astfel de oscilatoare se numără un oscilator compus din trei componente (neincluzând sursa de putere de c.c): un rezistor, un condensator şi o lampă cu neon.</p>
 
-<p><img src="../poze/03189.png" alt="oscilator dinte de fierăstrău"/></p>
+#+CAPTION: oscilator dinte de fierăstrău
+[[../poze/03189.png]]
 
 <p>Lămpile cu neon nu sunt altceva decât doi electrozi metalici într-un tub de sticlă etanş, separaţi de neonul din interior. La temperatura camerei, fără existenţa niciunei tensiuni aplicate pe cei doi electroci, lampa prezintă o rezistenţă infinită. Totuşi, dacă se depăşeşte o anumită tensiune de prag (această tensiune depinzând de presiunea gazului şi de geometria tubului), neonul se va ioniza (transforma în plasmă) iar rezistenţa sa va scădea brusc. În principiu, lampa cu neon prezintă aceleaşi caracteristici precum aerul în cazul fulgerelor.</p>
 
@@ -42,13 +43,15 @@
 
 <p>Deşi lămpile cu descărcări în gaze, de genul celei de mai sus, sunt folosite de obicei ca şi surse de iluminat, proprietăţile lor de histereză pot fi folosite sub variante mult mai sofisticate, şi anume tuburile tiratron. Fiind de fapt o triodă, tiratronul poate fi pornit cu ajutorul unei tensiune de control mici aplicate între grilă şi catod, şi poate fi oprit prin reducerea tensiunii dintre anod şi catod.</p>
 
-<p><img src="../poze/03018.png" alt="circuit simplu cu tiratron"/></p>
+#+CAPTION: circuit simplu cu tiratron
+[[../poze/03018.png]]
 
 <p>În principiu, tiratroanele erau versiuni controlate ale lămpilor cu neon, proiectate special pentru comutarea curentului pe sarcină. Punctul din interiorul simbolului indică faptul că acest dispozitiv este umplut cu gaz, spre deosebire de celelalte tuburi cu vid. În circuitul de sus tiratronul permite trecerea curentului prin sarcină într-o singură direcţie (observaţi polaritatea rezistorului) atunci când este pornit de către o tensiune de control de c.c. dintre grilă şi catod. Sursa de putere a sarcinii este în c.a., indicând modul în care dispozitivul este oprit: din moment ce tensiunea de c.a. trece periodic printr-o condiţie de 0 V, curentul prin sarcina alimentată în c.a. va atinge periodic o valoarea de 0 A. Această pauză scurtă dintre semi-perioade permite tubului să se răcească şi să se reîntoarcă în starea „oprit”. Conducţia va reîncepe doar dacă va exista o tensiune suficient de mare aplicată de sursa de putere în c.a. şi dacă sursa de c.c. o va permite.</p>
 
 <p>Tensiunea de sarcină într-un astfel de circuit va arăta aproximativ precum în figura alăturată.</p>
 
-<p><img src="../poze/03190.png" alt="forma de undă a tensiunii de sarcină într-un circuit cu tiratron"/></p>
+#+CAPTION: forma de undă a tensiunii de sarcină într-un circuit cu tiratron
+[[../poze/03190.png]]
 
 <p>Pe măsură ce tensiunea de c.a. creşte de la zero volţi spre primul vârf, tensiunea pe sarcină rămâne de zero volţi (curent de sarcină zero) până când este atinsă valoarea tensiunii de prag. În acel moment, tubul trece în starea „pornit” şi începe să conducă, tensiunea de sarcină fiind aceiaşi cu tensiunea sursei de alimentare în c.a. pentru restul perioadei. Chiar şi după ce forma de undă de c.a. scade sub valoarea tensiunii de prag, va mai exista tensiune pe sarcină, şi prin urmare şi curent. Acest lucru se datorează histerezei: dispozitivul rămâne în starea de conducţie (pornit) dincolo de punctul de pornire iniţial, continuând să conducă până în momentul în care tensiunea de alimentare scade spre aproximativ zero volţi. Datorită faptului că tiratroanele sunt dispozitive uni-direcţionale (precum diodele), căderea de tensiune pe sarcină în cazul semi-perioadei negative a semnalului de c.a. este zero. În circuitele practice, se vor folosi mai multe dispozitive aranjate sub forma unei punţi redresoare pentru a permite trecerea întregii forme de undă spre sarcină.</p>
 

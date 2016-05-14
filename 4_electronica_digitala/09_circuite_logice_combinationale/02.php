@@ -32,17 +32,20 @@
 
 <p>Avem nevoie prin urmare de două intrări (a şi b) şi de două ieşiri. Prima ieşire o denumim Σ, deoarece reprezintă suma. A doua ieşire o numim C<sub>out</sub> şi reprezintă bitul de depăşire. Tabelul de adevăr corespunzător este reprezentat mai jos:</p>
 
-<img src="../poze/14164.png" alt="tabel de adevăr"/>
+#+CAPTION: tabel de adevăr
+[[../poze/14164.png]]
 
 <p>Simplificând ecuaţiile booleene, sau realizând o hartă Karnaugh, vom obţine circuitul de mai jos:</p>
 
-<img src="../poze/04454.png" alt="circuit logic combinaţional"/>
+#+CAPTION: circuit logic combinaţional
+[[../poze/04454.png]]
 
 <p>Dar să ne uităm mai atent la rezultate. Coloana Σ nu este altceva decât o poartă logică SAU-exclusiv. Coloana C<sub>out</sub> reprezintă o poartă logică ŞI. Acest dispozitiv poartă numele de half-adder (semisumator), din motive pe care le vom vedea în secţiunea următoare.</p>
 
 <p>Sub forma unei diagrame ladder, circuitul de mai sus arată astfel:</p>
 
-<img src="../poze/04475.png" alt="diagramă ladder"/>
+#+CAPTION: diagramă ladder
+[[../poze/04475.png]]
 
 
 

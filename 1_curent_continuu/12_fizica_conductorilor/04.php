@@ -22,7 +22,8 @@
 <div id="contents">
 <p>Amperajul unui conductor, bazat pe potenţialul curentului de a distruge conductorul. nu este cea mai bună metodă de reprezentare a rezistenţei acestuia. Există situaţii în care căderea de tensiune creată de rezistenţa unui conductor în lungul acestuia duce la apariţia altor probleme decât evitarea incendiilor. De exemplu, să presupunem că proiectăm un circuit unde căderea de tensiune la bornele unui anumit component este extrem de importanţa şi nu trebuie să scadă sub o anumită limită. Dacă acest lucru se întâmplă, căderea de tensiune datorată rezistenţei conductorului poate duce la apariţia unei probleme tehnice a aplicaţiei în cauză.</p>
 
-<p><img src="../poze/00287.png" alt="circuit electric; conductori cu rezistenţă electrică"/></p>
+#+CAPTION: circuit electric; conductori cu rezistenţă electrică
+[[../poze/00287.png]]
 
 <p>În circuitul alăturat, sarcina necesită o cădere de tensiune de cel puţin 220 V în cazul unei surse de tensiune este de 230 V. În acest caz, trebuie să ne asigurăm de faptul că rezistenţa conductorilor nu va genera o cădere de tensiune mai mare de 10 V în lungul acestora. Luând în considerare ambii conductori (dus şi întors), căderea de tensiune maximă admisă în lungul unui conductor este de 5 V. Utilizând legea lui Ohm, putem determina rezistenţa maximă admisă pentru fiecare conductor în parte:</p>
 
@@ -34,7 +35,8 @@ R 0,2 Ω
 
 <p>Ştim că lungimea fiecărui conductor este de 700 m, dar cum putem determina valoarea rezistenţei pentru o anumită lungime şi diametru al firului. Pentru acest lucru avem nevoie de o altă formulă, şi anume:</p>
 
-<p><img src="../poze/10221.png" alt="formula de calcul a rezistenţei electrice"/></p>
+#+CAPTION: formula de calcul a rezistenţei electrice
+[[../poze/10221.png]]
 
 <p>Prin urmare, rezistenţa electrică a unui conductor depinde de rezistivitatea acestuia, simbolizată prin litera grecească <strong>ρ</strong> (ro), de lungimea conductorului (l) şi de aria secţiunii transversale (A). Urmărind ecuaţia de mai sus, putem trage concluzia (deja ştiută) că rezistenţa conductorului creşte odată cu lungimea acestuia şi scade odată cu creşterea ariei secţiunii transversale. Rezistivitatea este o proprietate specifică unui anumit material de a se opune trecerii curentului prin acesta, iar unitatea sa de măsură este ohm-metru (Ω·m).</p>
 

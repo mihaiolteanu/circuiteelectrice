@@ -23,15 +23,18 @@
 <h3>Configuraţia stea (Y)</h3>
 <p>Acest tip de configuraţie este cel considerat până acum în secţiunile precedente. Aceasta se caracterizează prin existenţa unui punct comun tuturor surselor de tensiune:</p>
 
-<p><img src="../poze/02194.png" alt="configuraţia stea trifazată"/></p>
+#+CAPTION: configuraţia stea trifazată
+[[../poze/02194.png]]
 
 <p>Dacă redesenăm circuitul, folosind în loc de sursele de tensiune bobine, reprezentând înfăşurările generatorului, şi rearanjăm poziţia acestora, configuraţia devine mai aparentă:</p>
 
-<p><img src="../poze/02195.png" alt="configuraţia stea trifazată"/></p>
+#+CAPTION: configuraţia stea trifazată
+[[../poze/02195.png]]
 
 <p>Cei trei conductori ce pleacă de la sursele de alimentare (înfăşurări) înspre sarcină, poartă numele de „linii”, iar înfăşurările propriu-zise sunt denumite „faze”. Într-un sistem „Y” (stea), prezenţa conductorului neutru nu este obligatorie, deşi ajută la evitarea problemelor de potenţial în cazul în care una dintre sarcini este scoasă din funcţiune.</p>
 
-<p><img src="../poze/02196.png" alt="configuraţia stea trifazată, fără conductorul neutru"/></p>
+#+CAPTION: configuraţia stea trifazată, fără conductorul neutru
+[[../poze/02196.png]]
 
 <h3>Tensiunea de linie şi tensiunea de fază</h3>
 
@@ -39,57 +42,68 @@
 
 <p>Sursele şi sarcinile dintr-o configuraţie în stea au tot timpul tensiunile de linie mai mari decât tensiunile de fază, iar curenţii de linie egali cu cei de fază. Mai mult, dacă sursa sau sarcina este echilibrată, tensiunea de linie va fi egală cu produsul dintre tensiunea de fază şi radical de ordin doi din trei:</p>
 
-<p><img src="../poze/12115.png" alt="relaţia dintre tensiunile/curenţii de linie şi tensiunile/curenţii de fază într-o sistem de tensiuni trifazate în configuraţie stea"/></p>
+#+CAPTION: relaţia dintre tensiunile/curenţii de linie şi tensiunile/curenţii de fază într-o sistem de tensiuni trifazate în configuraţie stea
+[[../poze/12115.png]]
 
 <h3>Configuraţia triunghi (Δ)</h3>
 
 <p>Un alt tip de configuraţie pentru sistemele de alimentare trifazate este configuraţia triunghi, denumită şi „delta”, după litera grecească Δ:</p>
 
-<p><img src="../poze/02197.png" alt="conexiunea unui sistem alternativ trifazat în configuraţie triunghi"/></p>
+#+CAPTION: conexiunea unui sistem alternativ trifazat în configuraţie triunghi
+[[../poze/02197.png]]
 
 <p>La o primă vedere, am putea presupune că sursele de tensiune asfel conectate, ar produce un scurt-circuit, din cauză că electronii sunt liberi să se deplaseze în jurul triughiului neexistând o altă rezistenţă decât impedanţa internă a înfăşurărilor. Însă, datorită diferenţelor de fază dintre cele trei surse, acest lucru nu se întâmplă.</p>
 
 <p>Putem verifica acest lucru aplicând legea lui Kirchhoff pentru tensiune şi să vedem dacă suma tensiunilor din interiorul buclei formate din laturile triunghiului este într-adevăr zero. Dacă suma este zero, atunci nu va există nicio cădere de tensiune necesară pentru împingerea electronilor de-a lungul buclei, şi prin urmare, nu va exista nici curent şi nici posibilitatea apariţiei scurt-circuitului. Începând cu înfăşurarea de sus şi continuând în direcţie trigonometrică, expresia legii lui Kirchhoff pentru tensiune arată asfel:</p>
 
-<p><img src="../poze/12116.png" alt="suma tensiunilor surselor de alimentare a unui sistem trifazat în configuraţie stea, este egală cu zero"/></p>
+#+CAPTION: suma tensiunilor surselor de alimentare a unui sistem trifazat în configuraţie stea, este egală cu zero
+[[../poze/12116.png]]
 
 <p>Într-adevăr, suma acestor trei vectori este zero.</p>
 
 <p>O altă metodă prin care putem demonstra că nu poate exista curent electric în jurul circuitului format de cele trei surse de alimentare (înfăşurări), este să „deschidem” bucla la unul dintre noduri, şi să calculăm diferenţa de potenţial (tensiunea) dintre cele două ramuri:</p>
 
-<p><img src="../poze/02198.png" alt="conexiunea unui sistem alternativ trifazat în configuraţie triunghi; deschiderea circuitului la unul din noduri pentru asigurarea faptului că nu există circulaţie de curent prin bucla formată din laturile triunghiului; tensiunea măsurată între cele două ramuri trebuie să fie zero"/></p>
+#+CAPTION: conexiunea unui sistem alternativ trifazat în configuraţie triunghi; deschiderea circuitului la unul din noduri pentru asigurarea faptului că nu există circulaţie de curent prin bucla formată din laturile triunghiului; tensiunea măsurată între cele două ramuri trebuie să fie zero
+[[../poze/02198.png]]
 
 <p>Începând cu înfăşurarea din dreapta şi continuând în sens trigonomentric, ecuaţia legii lui Kirchhoff pentru tensiune arată asfel:</p>
 
-<p><img src="../poze/12117.png" alt="suma tensiunilor surselor de alimentare a unui sistem trifazat în configuraţie stea, este egală cu zero"/></p>
+#+CAPTION: suma tensiunilor surselor de alimentare a unui sistem trifazat în configuraţie stea, este egală cu zero
+[[../poze/12117.png]]
 
 <p>Rezultatul obţinut este într-adevăr zero, ceea ce înseamnă că nu va exista circuilaţie de curent în bucla formată de triunghiul surselor de alimentare, atunci când circuitul este închis.</p>
 
 <p>Datorită faptului că fiecare pereche de conductori, într-o configuraţie stea, este conectată direct la bornele unei singure înfăşurări, tensiunea de linie va fi egală cu tensiunea de fază. De asemenea, datorită faptului că fiecare conductor are un punct comun cu două înfăşurări, curentul de linie va fi suma vectorilor celor doi curenţi de fază.</p>
 
-<p><img src="../poze/12118.png" alt="relaţia dintre tensiunile/curenţii de linie şi tensiunile/curenţii de fază într-o sistem de tensiuni trifazate în configuraţie triunghi"/></p>
+#+CAPTION: relaţia dintre tensiunile/curenţii de linie şi tensiunile/curenţii de fază într-o sistem de tensiuni trifazate în configuraţie triunghi
+[[../poze/12118.png]]
 
 <p>Să luăm un circuit ca şi exemplu:</p>
 
-<p><img src="../poze/02199.png" alt="circuit electric trifazat utilizând un sistem de alimentare în configuraţie triunghi (delta)"/></p>
+#+CAPTION: circuit electric trifazat utilizând un sistem de alimentare în configuraţie triunghi (delta)
+[[../poze/02199.png]]
 
 <p>Căderea de tensiune pe fiecare rezistor va fi de 120 V, iar curentul fiecărei faza va fi de 83.33 A:</p>
 
-<p><img src="../poze/12119.png" alt="calcule matematice"/></p>
+#+CAPTION: calcule matematice
+[[../poze/12119.png]]
 
 <p>Un avantaj al utilizării configuraţiei triunghi, constă în lipsa firului neutru. În conecţiunea stea, firul neutru este necesar pentru preluarea oricăror curenţi în cazul în care sarcina este dezechilibrată. Acest lucru nu este însă necesar (nici măcar posibil!) într-o configuraţie triunghi. Fiecare element fiind conectat direct la bornele sursei respective, tensiunea din circuit va fi aceeiaşi indiferent de comportamentul individual al sarcinilor.</p>
 
 <p>Proabil că cel mai mare avantaj a conexiunii triunghi este toleranţa sistemului în caz de defect. Defectarea uneia dintre înfăşurări nu va influenţa tensiunea sarcinii şi nici curentul!</p>
 
-<p><img src="../poze/02200.png" alt="defectarea unei dintre înfăşurări, într-un sistem trifazat în configuraţie triunghi, nu afectează tensiunea de linie şi de fază; singura diferenţă este creşterea curentului în înfăşurările funcţionale rămase"/></p>
+#+CAPTION: defectarea unei dintre înfăşurări, într-un sistem trifazat în configuraţie triunghi, nu afectează tensiunea de linie şi de fază; singura diferenţă este creşterea curentului în înfăşurările funcţionale rămase
+[[../poze/02200.png]]
 
 <p>Singura consecinţă al unui defect într-un dintre înfăşurări pentru un sistem în configuraţie triunghi, este creşterea curentului de fază pentru înfăsurările rămase. Să comparăm acest comportament cu cel al unui sistem în configuraţie stea, dar cu aceeiaşi configuraţie sa sarcinii (triunghi):</p>
 
-<p><img src="../poze/02201.png" alt="defectarea unei dintre înfăşurări, într-un sistem trifazat în configuraţie stea, alimentând o sarcină în configuraţie triunghi"/></p>
+#+CAPTION: defectarea unei dintre înfăşurări, într-un sistem trifazat în configuraţie stea, alimentând o sarcină în configuraţie triunghi
+[[../poze/02201.png]]
 
 <p>Cu o sarcină în configuraţie triunghi (Δ), căderea de tensiune pe două dintre sarcini scade la jumătate (104 V), iar una dintre sarcini rămâne la tensiunea originală, 208 V. O sarcină în configuraţie Y, suferă şi mai mult de pe urma aceluiaşi defect al înfăşurării:</p>
 
-<p><img src="../poze/02202.png" alt="defectarea unei dintre înfăşurări, într-un sistem trifazat în configuraţie stea, alimentând o sarcină în configuraţie stea"/></p>
+#+CAPTION: defectarea unei dintre înfăşurări, într-un sistem trifazat în configuraţie stea, alimentând o sarcină în configuraţie stea
+[[../poze/02202.png]]
 
 <p>În acest caz, numărul sarcinilor ce suferă o reducere a tensiunii se ridică la două, iar căderea de tensiunea pe cea de a treia sarcină este zero! Din această cauză, sursele de tensiune în configuraţie triunghi (Δ) sunt preferate pentru fiabilitatea lor. Totuşi, dacă este necesară o tensiune duală (120/208), sau curenţi de linie mai mici, sunt preferate sistemele în conexiune strea (Y).</p>
 

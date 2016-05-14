@@ -67,41 +67,50 @@
 
 <p>Aceste simboluri şi unităţi pentru mărimile electrice vor fi foarte importante atunci atunci când vom începe să folosim relaţiile dintre ele în cadrul circuitelor. Prima, şi poate cea mai importantă, este relaţia dintre curent, tensiune şi rezistenţă, legea lui Ohm, descoperită de Georg Simon Ohm şi publicată în 1827 în lucrarea <i>Die galvanishe Kette, mathematisch berabeitet</i> (Analiza matematică a circuitului galvanic). Principala descoperire a lui Ohm a fost că, cantitatea de curent printr-un conductor metalic într-un circuit este direct proporţională cu tensiunea aplica asupra sa, oricare ar fi temperatura, lucru exprimat printr-o ecuaţie simplă ce descrie relaţie dintre tensiune, curent şi rezistenţă:</p>
 
-<img src="../poze/10002.png" alt="formulă matematică"/>
+#+CAPTION: formulă matematică
+[[../poze/10002.png]]
 
 <p>În această expresie algebrică, tensiunea(E) este egală cu, curentul(I) înmulţit cu rezistenţa(R). Această formulă poate fi rescrisă sub următoarele forme, în funcţie de I:</p>
 
-<img src="../poze/10003.png" alt="formulă matematică"/>
+#+CAPTION: formulă matematică
+[[../poze/10003.png]]
 
 <p>Să folosim acum aceste ecuaţii pentru a analiza circuitele simple:</p>
 
-<img src="../poze/00032.png" alt="circuit simplu: baterie plus bec"/>
+#+CAPTION: circuit simplu: baterie plus bec
+[[../poze/00032.png]]
 
 <p>În circuitul de mai sus, există doar o singură sursă de tensiune (bateria), şi doar o singură rezistenţă (becul, neglijând rezistenţa datorată conductorilor). În această situaţie legea lui Ohm se poate aplica foarte uşor. În cazul în care cunoaştem două din cele trei variabile (tensiune, curent şi rezistenţă) din acest circuit, putem folosi legea lui Ohm pentru determinarea celei de a treia.</p>
 
 <p>În acest prim exemplu, vom calcula cantitatea de curent (I) dintr-un circuit, atunci când cunoaştem valorile tensiunii (E) şi a rezistenţei (R):</p>
 
-<img src="../poze/00033.png" alt="aflarea curentului într-un circuit simplu, atunci când cunoaştem tensiunea şi rezistenţa folosind legea lui Ohm"/>
+#+CAPTION: aflarea curentului într-un circuit simplu, atunci când cunoaştem tensiunea şi rezistenţa folosind legea lui Ohm
+[[../poze/00033.png]]
 
 <p>Care este valoarea curentului (I) din acest circuit?</p>
 
-<img src="../poze/10004.png" alt="calcule matematice"/>
+#+CAPTION: calcule matematice
+[[../poze/10004.png]]
 
 <p>În al doilea exemplu, vom calcula valoarea rezistenţei (R) într-un circuit, atunci când cunoaştem valorile tensiunii (E) şi a curentului (I):</p>
 
-<img src="../poze/00034.png" alt="aflarea rezistenţei într-un circuit simplu, atunci când cunoaştem tensiunea şi curentul folosind legea lui Ohm"/>
+#+CAPTION: aflarea rezistenţei într-un circuit simplu, atunci când cunoaştem tensiunea şi curentul folosind legea lui Ohm
+[[../poze/00034.png]]
 
 <p>Care este valoarea rezistenţei becului în acest caz?</p>
 
-<img src="../poze/10005.png" alt="calcule matematice"/>
+#+CAPTION: calcule matematice
+[[../poze/10005.png]]
 
 <p>În ultimul exemplu, vom calcula valoarea tensiunii generate de baterie (E), atunci când cunoaştem valoarea curentului (I) şi a rezistenţei (R):</p>
 
-<img src="../poze/00035.png" alt="aflarea tensiunii generate de baterie într-un circuit simplu, atunci când cunoaştem rezistenţa şi curentul folosind legea lui Ohm"/>
+#+CAPTION: aflarea tensiunii generate de baterie într-un circuit simplu, atunci când cunoaştem rezistenţa şi curentul folosind legea lui Ohm
+[[../poze/00035.png]]
 
 <p>Care este valoarea tensiunii generate de baterie?</p>
 
-<img src="../poze/10006.png" alt="calcule matematice"/>
+#+CAPTION: calcule matematice
+[[../poze/10006.png]]
 
 <p class="sumar">Sumar:</p>
 <ul>

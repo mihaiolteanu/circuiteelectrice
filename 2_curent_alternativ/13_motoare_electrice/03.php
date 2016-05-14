@@ -25,7 +25,8 @@
 
 <p>Din moment ce motoarele şi generatoarele electrice au o construcţie similară, cele două funcţii se pot întreschimba. Un motor sincron este similar unui alternator cu câmp rotitor. În figura de mai jos sunt nişte alternatoare cu magneţi permanenţi:</p>
 
-<p><img src="../poze/02424.png" alt="motor sincron"/></p>
+#+CAPTION: motor sincron
+[[../poze/02424.png]]
 
 <p>Această figură ar putea reprezenta fie două alternatoare paralele şi sincronizate acţionate de surse de energie mecanică, fie un alternator conectat la un motor sincron. Sau ar putea reprezenta două motoare, dacă ar fi conectată şi o sursă de putere externă. Important este că, în fiecare caz, rotoarele se rotesc la aceiaşi frecvenţa nominală, şi sunt în fază. Cu alte cuvinte, ele trebuie să fie sincronizate.</p>
 
@@ -39,7 +40,8 @@
 
 <p>Presupunem că motorul se află la viteza de sincronism. Pe măsură ce unda sinusoidală trece în semialternanţa pozitivă, înfăşurarea inferioară a statorului (N) împinge polul nord al rotorului, iar înfăşurarea superioară (S) atrage polul nord al rotorului. Asemănător, polul sud al rotorului este respins de înfăşurarea superioară a statorului (S) şi atras de înfăşurarea inferioară (N). Atunci când amplitudinea undei sinusoidale atinge un maxim (la 2), cuplul ce menţine polul nord al rotorului este maxim. Acest cuplu scade pe măsură ce amplitudinea undei sinusoidale scade spre 0 (la 3), unde cuplul este minim:</p>
 
-<p><img src="../poze/02425.png" alt="motor sincron"/></p>
+#+CAPTION: motor sincron
+[[../poze/02425.png]]
 
 <p>Pe măsură ce polaritatea undei sinusoidale se modifică (negativă, între 3 şi 4), înfăşurarea inferioară a statorului (S în acest caz) respinge polul sud al rotorului şi atrage polul nord al rotorului. Asemanător, înfăşurarea superioară (N) a statorului respinge polul nord al rotorului şi atrage polul sud al acestuia. La (4), unda sinusoidală atinge un maxim negativ, iar cuplul este din nou maxim. Pe măsură ce amplitudinea undei creşte spre 0, cuplul scade. Procesul se repetă apoi pentru o nouă perioadă a unei sinusoidale.</p>
 
@@ -53,7 +55,8 @@
 
 <p>Dar, în loc de realizarea unui număr de 12 înfăşurări separate pentru un motor cu 12 poli, se uitilizează o singură înfăşurare realizată în jurul a 12 poli metalici precum în figura de mai jos:</p>
 
-<p><img src="../poze/02427.png" alt="realizarea unui motor sincron cu mai multe perechi de poli"/></p>
+#+CAPTION: realizarea unui motor sincron cu mai multe perechi de poli
+[[../poze/02427.png]]
 
 <p>Viteza de rotaţie este 1/6 din viteza electrică a curentului alternativ. Viteza rotorului va fi 1/6 din cea a unui motor sincron cu 2 poli. Exemplu: un c.a. de 60 Hz roteşte un motor cu 2 poli la 3600 rpm, iar un motor cu 12 poli la 600 rpm.</p>
 
@@ -63,7 +66,8 @@
 
 <p>Cele trei faze al statorului se adună vectorial pentru a produce un singur câmp magnetic rezultant ce se roteşte de f/2n ori pe secundă, unde f este frecvenţa liniei de alimentare, iar n numărul de poli. Pentru a calcula viteza rotorului în rpm, înmulţim cu 60.</p>
 
-<p><img src="../poze/02428.png" alt="motor sincron trifazat"/></p>
+#+CAPTION: motor sincron trifazat
+[[../poze/02428.png]]
 
 <p>Motorul sincron trifazat cu 4 poli (pe fază) din figura de mai sus se va roti la 1800 rpm (60 Hz) sau la 1500 rpm (50 Hz). Dacă înfăşurările sunt energizate pe rând, în secvenţa φ-1, φ-2, φ-3, rotorul se va afla pe direcţia polilor corespunzători, pe rând. Din moment ce undele sinusoidale se suprapun, câmpul rezultat se va roti, nu discret, ci continuu. De exemplu, atunci când formele de undă φ-1 şi φ-2 coincid, câmpul va avea un maxim în regiunea dintre aceşti poli. Rotorul cu un singur magnet permanent este utilizat doar la motoarele de putere mică. Rotorul cu mai mulţi magneţi permanenţi (figura de mai sus, dreapta) este utilizat pentru sarcini mai mare ale motorului. Motoarele industriale de putere mare sunt prevăzute cu sisteme de autopornire.</p>
 

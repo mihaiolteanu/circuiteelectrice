@@ -22,11 +22,13 @@
 <div id="contents">
 <p>Dacă adunăm doi vectori cu unghiuri diferite, lungimile lor se adună diferit faţă de cele scalare:</p>
 
-<p><img src="../poze/02039.png" alt="adunarea vectorilor cu unghiuri diferite"/></p>
+#+CAPTION: adunarea vectorilor cu unghiuri diferite
+[[../poze/02039.png]]
 
 <p>Dacă două tensiuni alternativ, defazate cu 90<sup>o</sup> între ele, sunt conectate în serie, amplitudinile lor nu se adună sau scad direct precum valorile scalare în cazul curentului continuu. În schimb, aceste tensiuni sunt valori complexe, şi, precum în cazul vectorilor de mai sus a căror adunare se realizează trigonometric, o sursă de 6 V la 0<sup>o</sup> adunată (conectată în serie) cu o sursă de 8 V la 90<sup>o</sup>, rezultă într-o tensiune de 10 V a cărei fază este de 53.13<sup>o</sup>:</p>
 
-<p><img src="../poze/02040.png" alt="adunarea tensiunilor alternative aflate în diferenţă de fază"/></p>
+#+CAPTION: adunarea tensiunilor alternative aflate în diferenţă de fază
+[[../poze/02040.png]]
 
 <p>Prin comparaţie cu circuitele de curent continuu, acest lucru poate părea ciudat la început. De exemplu, cu ajutorul unui voltmetru, putem citi indicaţiile de 6 şi respectiv 8 volţi la borenele celor două surse de curent alternativ, dar tensiunea totală indicată de acesta va fi de „doar” 10 volţi!</p>
 

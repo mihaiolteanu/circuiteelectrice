@@ -28,13 +28,15 @@
 
 <p>Majoritatea dintre noi am văzut modele ale atomului care arată aproximativ asfel:</p>
 
-<p><img src="../poze/03120.png" alt="modelul lui Rutherford al atomului; electronii orbitează în jurul unui mic nucleu pozitiv"/></p>
+#+CAPTION: modelul lui Rutherford al atomului; electronii orbitează în jurul unui mic nucleu pozitiv
+[[../poze/03120.png]]
 
 <p>Acesta este cunoscut sub numele de „modelul lui Rutherford”. Centrul atomului este format din particule de materie minuscule denumite <i>protoni</i> şi <i>neutroni</i>; <i>electronii</i> orbitează în jurul nucleului precum planatele în jurul Soarelui. Nucleul prezintă o sarcină electrică pozitivă datorită prezenţei protonilor, neutronii neavând sarcină electrică, iar electronii ce orbiteză în jurul nucleului poartă o sarcină negativă, întreg ansamblul fiind asfel echilibrat din punct de vedere al sarcinilor electrice. Electronii sunt atraşi de protoni la fel cu planetele sunt atrase prin intermediu gravitaţiei de Soare, dar orbitele sunt stabile datorită mişcării electronilor. Acest model extrem de popular al atomului a fost prezentat pentru prima dată de Ernest Rutherford, ce a determinat pe cale experimentală, în jurul anului 1911, că sarcinile pozitive ale atomului sunt concentrate într-un nucleu dens şi de dimensiuni reduse, în contradicţie cu modelul propus de J.J. Thompson, care susţinea că aceste sarcini sunt distribuite egal în interiorul atomului.</p>
 
 <p>Experimentul de împrăştiere al lui Rutherford a presupus bombardarea unei folii subţiri de aur cu particule Alfa, încărcate pozitiv. Rezultatele au fost neaşteptate. O mică parte din particule au fost deviate la unghiuri foarte mari. Câteva dintre particulele Alfa au fost deviate înapoi, la aproape 180<sup>o</sup>, dar majoritatea particulelor au trecut pur şi simplu prin folia de aur nedeviate, indicând faptul că cea mai mare parte a foliei era compusă din aer. Faptul că o mică parte a particulelor Alfa au fost deviate la unghiuri foarte mare nu se putea explica decât prin prezenţă unui nucleu minuscul, încărcat cu sarcină pozitivă.</p> 
 
-<p><img src="../poze/03389.png" alt="Experimentul de împrăştiere al lui Rutherford; bombardarea unei foiţe de aur cu particule Alfa încărcate pozitiv"/></p>
+#+CAPTION: Experimentul de împrăştiere al lui Rutherford; bombardarea unei foiţe de aur cu particule Alfa încărcate pozitiv
+[[../poze/03389.png]]
 
 <p>Cu toate că acest model al atomului era mai precis decât cel al lui Thompson, totuşi, nici acesta nu era perfect. Au fost întreprinse, prin urmare, noi experimente pentru determinarea structurii atomice corecte, iar aceste eforturi au dus la descoperirile bizare al fizicii cuantice. Astăzi, modelul atomului, aşa cum este el înţeles cel puţin, este destul de complex. Totuşi, comparaţia atomului „lui Rutherford” cu sistemul solar continuă să domine chiar şi în mediile academice.</p>
 
@@ -74,7 +76,8 @@
 
 <p>Numărul maxim de electroni dintr-un strat este descris de ecuaţia 2n<sup>2</sup>, unde este este numărul cuantic principal. Asfel, primul strat (n=1) poate fi ocupat de doar 2 electroni, cel de al doilea strat (n=2) de 8 electroni, al treilea (n=3) de 18 electroni.</p>
 
-<p><img src="../poze/03391.png" alt="numărul cuantic principal şi numărul maxim de electroni pe fiecare strat conform relaţiei 2n^2"/></p>
+#+CAPTION: numărul cuantic principal şi numărul maxim de electroni pe fiecare strat conform relaţiei 2n^2
+[[../poze/03391.png]]
 
 <p>Straturile electronice (de la electron) ale unui atom au fost notate cu litere nu cu cifre. Primul strat (n=1) se notează cu litera K, al doilea (n=2) cu L, al treilea (n=3) cu M, al patrulea (n=4) cu M, al cincilea (n=5) cu O, al şaselea (n=6) cu P şi al şaptelea (n=7) cu Q.</p>
 
@@ -82,11 +85,13 @@
 
 <p>Fiecare strat este compus din <i>substraturi</i>. Substraturile sunt regiuni spaţiale ce descriu locul în care pot exista „nori” electronici iar forma lor este diferită de la un substrat la altul. Primul substrat are forma unei sfere, dacă îl privim sub forma unui nori de electroni ce „înveleşte” tridimensional nucleul atomic. Cel de al doilea substrat însă, este compus din doi „lobi” conectaţi împreună într-un singur punct în apropierea centrului atomului. Al treilea substrat este format dintr-un set de patru „lobi” aranjaţi în jurul nucleului.</p>
 
-<p><img src="../poze/03420.png" alt="reprezentarea substraturilor sub formă orbitală"/></p>
+#+CAPTION: reprezentarea substraturilor sub formă orbitală
+[[../poze/03420.png]]
 
 <p>Numărul orbital este un număr întreg, la fel ca şi numărul principal, doar că înclude şi zero. Aceste numere sunt simbolizate prin intermediul literei <b>l</b>. Numărul substraturilor dintr-un strat este egal cu numărul cuanti orbital. Asfel, primul strat (n=1) are un substrat, numerotat cu 0; al doilea strat (n=2) are două substraturi, 0 şi 1; al treilea strat (n=3) are trei substraturi, 0,1 şi 2. O altă convenţie, foarte des întâlnită, este numerotarea substraturilor prin s (l=0), p (l=1), d (l=2) şi f (l=3)</p>
 
-<p><img src="../poze/03392.png" alt="(a) reprezentarea lui Bohr a atomului de argint, (b) reprezentarea substraturilor atomului de Ag; notaţia spectroscopică"/></p>
+#+CAPTION: (a) reprezentarea lui Bohr a atomului de argint, (b) reprezentarea substraturilor atomului de Ag; notaţia spectroscopică
+[[../poze/03392.png]]
 
 <h3>Numărul cuantic magnetic</h3>
 
@@ -106,23 +111,27 @@
 
 <p>Mai jos este este prezentat aranjamentul electronic al atomului de hidrogen:</p>
 
-<p><img src="../poze/03365.png" alt="aranjamentul electronic al atomului de hidrogen"/></p>
+#+CAPTION: aranjamentul electronic al atomului de hidrogen
+[[../poze/03365.png]]
 
 <p>Cu nucleul format dintr-un singur proton, este suficient un electron pentru ca atomul să atingă achilibrul electrostatic (sarcina electrică pozitivă a protonului este în echilibru cu sarcina electrică negatică a electronului). Acest electron ocupă stratul cel mai de jos (n=1), primul substrat (l=1), în singurul orbital (orientarea spaţială) al acelui substrat (m<sub>l</sub>=0), cu un spin de 1/2. O metodă practică şi des întâlnită de descriere a acestui aranjament constă în scrierea electronilor în funcţie de straturile şi substraturile ocupate; această convenţie portă numele de <i>notaţia spectroscopică</i>. Sub această notaţie, numărul stratului este un număr întreg pozitiv, substratul este o literă (s, p, d, f), iar numărul total de electroni dintr-un substrat (toţi orbitalii şi spinii incluşi) este reprezentat printr-un indice superior. Asfel, hidrogenul, având doar un singur electron în stratul inferior, se poate descrie prin notaţia 1s<sup>1</sup>.</p>
 
 <p>Trecând la următorul atom (în ordinea numărului atomic), avem elementul heliu:</p>
 
-<p><img src="../poze/03366.png" alt="aranjamentul electronic al atomului de heliu"/></p>
+#+CAPTION: aranjamentul electronic al atomului de heliu
+[[../poze/03366.png]]
 
 <p>Nucleul unui atom de heliu are în compoziţia sa doi protoni, iar acest lucru necesită existenţa a doi electroni pentru a echilibra sarcina electrică totală a atomului. Din moment ce ambii electroni, unul cu spin 1/2, celălalt cu spin -1/2, „încap” pe un singur orbital, configuraţia atomului de heliu nu necesită substraturi sau straturi suplimentare pentru cel de al doilea electron.</p>
 
 <p>Totuşi, un atom ce conţine trei sau mai mulţi electron, va necesita substraturi adiţionale pentru toţi acei electroni, din moment ce pe stratul inferior (n=1) încat doar doi electron. Să considerăm următorul atom, cel de litiu.</p>
 
-<p><img src="../poze/03367.png" alt="aranjamentul electronic al atomului de litiu"/></p>
+#+CAPTION: aranjamentul electronic al atomului de litiu
+[[../poze/03367.png]]
 
 <p>Un atom de litiu foloseşte doar o fracţiune din capacitatea stratului L (n=2), capacitatea totală a acestuia fiind de opt electroni (capacitatea maximă a stratului = 2n<sup>2</sup>, unde n este numărul stratului). Dacă examinăm aranjamentul electronic al unui atom cu stratul L completat, putem vedea cum toate combinaţiile de substraturi, orbitali şi spini sunt ocupate de electroni. Elementul ce corespunde acestei configuraţii este neonul.</p>
 
-<p><img src="../poze/03368.png" alt="aranjamentul electronic al atomului de neon"/></p>
+#+CAPTION: aranjamentul electronic al atomului de neon
+[[../poze/03368.png]]
 
 <p>Adesea, atunci când se foloseşte notaţia spectroscopică a unui atom, toate straturile ce sunt ocupate complet sunt ignorate, fiind scrise doar straturile neocupate sau stratul ocupat superior. De exemplu, neonul (prezentat mai sus), ce are două straturi complet ocupate, poate fi descris pur şi simplu prin 2p<sup>6</sup> în loc de  1s<sup>2</sup>2s<sup>2</sup>2p<sup>6</sup>. Litiul, având stratul K complet ocupat, şi doar un singur electron în stratul L, poate fi descris prin notaţia 2s<sup>1</sup> în loc de 1s<sup>2</sup>2s<sup>1</sup>.</p>
 

@@ -33,7 +33,8 @@
 
 <p>Mărimea firelor poate fi măsurată în mai multe moduri. Am putea vorbi despre diametru firului, dar, din moment ce elementul cel mai important legat de deplasarea electronilor este de fapt aria secţiunii transversale, cel mai corect este să desemnăm mărimea unui fir prin intermediul acestei arii.</p>
 
-<p><img src="../poze/00278.png" alt="secţiunea transversală printr-un conductor şi aria acesteia"/></p>
+#+CAPTION: secţiunea transversală printr-un conductor şi aria acesteia
+[[../poze/00278.png]]
 
 <p>Desigur, secţiunea transversală a firului de sus nu este reprezentată la scară. Diametrul firului este de 1,13 mm. Calculând aria secţiunii transversale cu formula de mai jos, obţinem rezultatul de 1 mm<sup>2</sup>:</p>
 

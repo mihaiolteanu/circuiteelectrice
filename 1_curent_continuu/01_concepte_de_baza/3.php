@@ -16,24 +16,28 @@
 	<?php include ("meniu2.html")?>
 </div>
 
-<div id="poza_meniu2"><a href="http://www.flickr.com/photos/judybaxter/2656574939/sizes/l/"><img src="poze/circuit_electric.jpg" alt="circuit electric simplu"/></a></div>
+#+CAPTION: http://www.flickr.com/photos/judybaxter/2656574939/sizes/l/
+[[poza_meniu2]]
  
 <div id="contents">
 <p>Poate vă întrebaţi cum este posibil ca electronii să se deplaseze continuu într-o direcţie uniformă prin fire dacă nu am lua în considerare aceste Surse şi Destinaţii ipotetice. Pentru ca aceste idealizări să funcţioneze, ambele ar trebui să posede o capacitate infinită pentru a putea susţine o curgere continuă a electronilor! Folosind analogia cu mărgelele şi tubul, sursa de mărgele şi destinaţia acestora ar trebui să fie infinit de mari pentru a conţine o cantitate suficientă de mărgele necesară „curgerii” lor continue.</p>
 
 <p>Răspunsul acestui paradox se regăseşte în conceptul de <i>circuit</i>: o buclă continuă şi neîntreruptă pentru curgerea electronilor. Dacă luăm un fir, sau mai multe fire puse cap la cap, şi îl aranjăm sub formă de buclă, asfel încât să formeze un drum continuu, curgerea uniformă a electronilor fără ajutorul surselor şi destinaţiilor ipotetice de mai sus, este posibilă:</p>
 
-<img src="../poze/00012.png" alt="bucla - ciruit electric"/>  
+#+CAPTION: bucla - ciruit electric
+[[../poze/00012.png]]
 
 <p>În cadrul acestui circuit în sensul acelor de ceasornic, fiecare electron împinge electronul din faţa lui, ce împinge electronul din faţa lui, şi aşa mai departe, precum un circuit din mărgele. Asfel, putem susţine o deplasare continuă a electronilor fără a recurge la suresele şi destinaţiile infinite (sures teoretice). Tot ceea ce avem nevoie este prezenţa unei motivaţii pentru aceşti electroni, lucru ce-l vom discuta în următoarea secţiune din acest capitol.</p>
 
 <p>Trebuie realizat faptul că este la fel de importantă continuitatea circuitului precum în cazul  firului conductor analizat mai sus. La fel ca şi în acel exemplu, orice întrerupere a circuitului opreşte curgerea (deplasarea) electronilor:</p>
 
-<img src="../poze/00013.png" alt="ciruit electric întrerupt"/>  
+#+CAPTION: ciruit electric întrerupt
+[[../poze/00013.png]]
 
 <p>Un principiu important de reţinut este că <i>nu contează locul întreruperii</i>. Orice discontinuitate din circuit va întrerupe curgerea electronilor prin întreg circuitul. O curgere continuă a electronilor prin circuit poate fi realizată doar dacă există un circuit continuu şi neîntrerupt printr-un material conductiv prin care aceştia să se poată deplasa.</p>
 
-<img src="../poze/00014.png" alt="ciruit electric întrerupt 2"/>  
+#+CAPTION: ciruit electric întrerupt 2
+[[../poze/00014.png]]
 
 <p class="sumar">Sumar:</p>
 <ul>

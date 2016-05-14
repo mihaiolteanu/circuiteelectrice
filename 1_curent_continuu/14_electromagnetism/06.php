@@ -28,7 +28,8 @@
 
 <p>O proprietate extrem de utilă a transformatorului este capacitatea de transformare a valorilor tensiunii şi curentului după o regulă simplă, determinată de raportul dintre numărul spirelor celor două înfăşurări. Dacă o înfăşurare a transformatorului este alimentată în curent alternativ, valoarea tensiunii indusă în cealaltă înfăşurare, nealimentată, va fi egală cu valoarea tensiunii de alimentare înmulţită cu valoarea raportului dintre numărul spirelor înfăşurărilor (primară şi secundară). De asemenea, curentul prin înfăşurarea secundară se va comporta exact invers: dacă tensiunea de alimentare (din înfăşurarea primară) creşte, curentul va deşcreşte cu aceeiaşi rată. Acest comportament al transformatorului este analog unui angrenaj mecanic:</p>
 
-<p><img src="../poze/00319.png" alt="analogie între reducerea cuplului folosind roţi dinţate şi transformatorul coborâtor de tensiune"/></p>
+#+CAPTION: analogie între reducerea cuplului folosind roţi dinţate şi transformatorul coborâtor de tensiune
+[[../poze/00319.png]]
 
 <p>Un transformator conceput pentru obţineare unei tensiune mai mari la bornele înfăşurări secundare (înfăşurare nealimentată) faţă de cea primară (înfăsurare alimentată) se numeşte transformator ridicător de tensiune, iar unul construit pentru a realiza exact opusul se numeşte transformator coborâtor de tensiune. Valoarea curentului prin fiecare înfăşurare este exact inversă faţă de situaţia precedentă, cea a tensiunii.</p>
 

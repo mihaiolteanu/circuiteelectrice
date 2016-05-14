@@ -49,13 +49,17 @@
 
 <p>Revenind la primul set de ecuaţii, putem observa că aceste sume nu sunt altceva decât tabelul de adevăr al unei porţi logice SAU. Cu alte cuvinte, adunarea booleană corespunde funcţiei logice a porţii SAU, precum şi comutatoarelor conectate în paralel:</p>
 
-<img src="../poze/14009.png" alt="poartă logică SAU şi comutatoare paralel (0 + 0)"/>
+#+CAPTION: poartă logică SAU şi comutatoare paralel (0 + 0)
+[[../poze/14009.png]]
 
-<img src="../poze/14010.png" alt="poartă logică SAU şi comutatoare paralel (0 + 1)"/>
+#+CAPTION: poartă logică SAU şi comutatoare paralel (0 + 1)
+[[../poze/14010.png]]
 
-<img src="../poze/14011.png" alt="poartă logică SAU şi comutatoare paralel (1 + 0)"/>
+#+CAPTION: poartă logică SAU şi comutatoare paralel (1 + 0)
+[[../poze/14011.png]]
 
-<img src="../poze/14012.png" alt="poartă logică SAU şi comutatoare paralel (1 + 1)"/>
+#+CAPTION: poartă logică SAU şi comutatoare paralel (1 + 1)
+[[../poze/14012.png]]
 
 <h2>Scăderea şi împărţirea booleană</h2>
 
@@ -76,27 +80,34 @@
 
 <p>Setul de ecuaţii ar trebui să vă fie cunoscute: sunt aceleaşi reguli ce se regăsesc în tabelul de adevăr al porţii ŞI. Cu alte cuvinte, înmulţirea booleană corespunde funcţiei logice a porţii ŞI, precum şi comutatoarelor conectate în serie:</p>
 
-<img src="../poze/14013.png" alt="poartă logică ŞI şi comutatoare serie (0 x 0)"/>
+#+CAPTION: poartă logică ŞI şi comutatoare serie (0 x 0)
+[[../poze/14013.png]]
 
-<img src="../poze/14014.png" alt="poartă logică ŞI şi comutatoare serie (0 x 1)"/>
+#+CAPTION: poartă logică ŞI şi comutatoare serie (0 x 1)
+[[../poze/14014.png]]
 
-<img src="../poze/14015.png" alt="poartă logică ŞI şi comutatoare serie (1 x 0)"/>
+#+CAPTION: poartă logică ŞI şi comutatoare serie (1 x 0)
+[[../poze/14015.png]]
 
-<img src="../poze/14016.png" alt="poartă logică ŞI şi comutatoare serie (1 x 1)"/>
+#+CAPTION: poartă logică ŞI şi comutatoare serie (1 x 1)
+[[../poze/14016.png]]
 
 <h2>Variabile booleene şi complementul lor</h2>
 
 <p>La fel ca algebra „normală”, algebra booleană utilizează litere pentru desemnarea variabilelor. Dar, faţa de algebra „normală”, aceste variabile se trec tot timpul cu majuscule. Datorită faptului că există doar două stări posibile, fie 1, fie 0, fiecare variabilă posedă şi un complement: valoarea opusă a acesteia. De exemplu, dacă variabila „A” este 0, atunci complementul ei este 1. Complementul se specifică prin intermediul unei linii deasupra variabilei, astfel:</p>
 
-<img src="../poze/14005.png" alt="complementul unei variabile booleene"/>
+#+CAPTION: complementul unei variabile booleene
+[[../poze/14005.png]]
 
 <p>Sub formă scrisă, complementul lui „A” este desemnat prin „A-negat”. Câteodată se utilizează simbolul „'” pentru reprezentarea complementului (A'). De obicei însă, simbolul cu linie este mai folosit decât simbolul „'”. Motivele le vom afla puţin mai încolo.</p>
 
 <p>Complementarea booleeană este echivalentă cu o poartă logică NU, sau cu un contact normal-închis:</p>
 
-<img src="../poze/14017.png" alt="complementul unei variabile booleene; poartă logică SAU şi contact normal-închis"/>
+#+CAPTION: complementul unei variabile booleene; poartă logică SAU şi contact normal-închis
+[[../poze/14017.png]]
 
-<img src="../poze/14018.png" alt="complementul unei variabile booleene; poartă logică SAU şi contact normal-închis"/>
+#+CAPTION: complementul unei variabile booleene; poartă logică SAU şi contact normal-închis
+[[../poze/14018.png]]
 
 <p class="sumar">Sumar:</p>
 <ul>

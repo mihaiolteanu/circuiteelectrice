@@ -45,7 +45,8 @@
 
 <p>Aproape toţi conductorii posedă o anumită rezistenţă măsurabilă (în afară de supraconductoare). În mod normal, presupunem că rezistenţa conductorilor dintr-un circuit este zero, iar curentul ce trece prin ei nu prezintă nicio cădere de tensiune. În realitate, va exista tot timpul o cădere de tensiune în lungul conductorilor, fie că o dorim sau nu.</p>
 
-<p><img src="../poze/00277.png" alt="într-un circuit electric, există tot timpul cădere de tensiune în lungul conductorilor"/></p>
+#+CAPTION: într-un circuit electric, există tot timpul cădere de tensiune în lungul conductorilor
+[[../poze/00277.png]]
 
 <p>Pentru a putea calcula aceste căderi de tensiuni în oricare circuit, trebuie să putem determina rezistenţa oricăror conductori, cunoscând materialul din care este confecţionat, diametrul precum şi lungimea acestuia, lucru ce-l vom explora în următoarele capitole.</p>
 

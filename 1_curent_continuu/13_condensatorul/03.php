@@ -25,19 +25,22 @@
 <h3>Aria armăturilor</h3>
 <p>Toţi ceilalţi factori fiind egali, o aria mai mare a armăturilor se traduce printr-o capacitate mai mare a condensatorului; o arie mai mică înseamnă o valoare mai mică a capacităţii. Exmplicaţia constă în faptul că o aria mai mare poate susţine o flux mai mare al câmpului (sarcină colectată pe armături) pentru o anumită valoare a forţei câmpului (tensiunea dintre armături).</p>
 
-<p><img src="../poze/00295.png" alt="capacitatea condensatorului în funcţie de aria armăturilor"/></p>
+#+CAPTION: capacitatea condensatorului în funcţie de aria armăturilor
+[[../poze/00295.png]]
 
 <h3>Distanţa dintre armături</h3>
 
 <p>Toţi ceialţi factori fiind egali, o distanţă mai mare între armături se traduce printr-o capacitate mai mică a condensatorului; o distanţă mai mică între armături înseamnă o capacitate mai mare. Explicaţia constă în faptul că o distanţă mai mică duce la o forţă mai mare a câmpului (tensiunea dintre armături împărţită la distanţa dintre ele), ce rezultă într-un flux mai mare al câmpului (sarcină colectată pe armături), oricare ar fi valoarea tensiunii aplicate pe armături.</p>
 
-<p><img src="../poze/00296.png" alt="capacitatea condensatorului în funcţie de distanţa dintre armături"/></p>
+#+CAPTION: capacitatea condensatorului în funcţie de distanţa dintre armături
+[[../poze/00296.png]]
 
 <h3>Materialul dielectric</h3>
 
 <p>Toţi ceilalţi factori fiind egali, o permitivitate mai mare a materialului dielectric se traduce printr-o capacitate mai mare a condensatorului; o valoarea mai mică a permitivităţii înseamnă o capacitate mai mică. Deşi explicaţia este puţin mai complicată, unele materiale oferă o opoziţie mai mică fluxului pentru o anumită valoare a forţei câmpului electric. Materialele cu o permitivitate mai ridicată permit existenţa unui flux mai mare (oferă mai puţină opoziţie), şi prin urmare sarcina colectată pe armături poate fi mai mare, oricare ar fi valoarea forţei câmpului (tensiunea aplicată la bornele condensatorului).</p>
 
-<p><img src="../poze/00297.png" alt="capacitatea condensatorului în funcţie de permitivitatea dielectricului"/></p>
+#+CAPTION: capacitatea condensatorului în funcţie de permitivitatea dielectricului
+[[../poze/00297.png]]
 
 <p>În acest context, „relativ” se referă la permitivitatea materialului relativ la permitivitatea vidului. Cu cât numărul este mai mare, cu atât este mai mare permitivitatea materialului. Sticla, de exemplu, cu permitivitatea relativă 7, are de şapte ori permitivitatea vidului şi va permite prin urmare stabilirea unul câmp electric (flux) de şapte ori mai puternic decâţ este posibil în vid, toţi ceilalţi factori fiind egali.</p>
 
@@ -73,12 +76,14 @@ Titanat-Bariu-Stronţiu --------- 7500
 
 <p>O valoare aproximativă pentru capacitatea unui condensator poate fi calculată cu următoarea formulă:</p>
 
-<p><img src="../poze/10230.png" alt="formula de calcul a capacităţii condensatorului"/></p>
+#+CAPTION: formula de calcul a capacităţii condensatorului
+[[../poze/10230.png]]
 
 <h3>Condensatorul variabil</h3>
 <p>După modul de construire al condensatorului acesta poate fi fix (discutat mai sus), sau poate fi variabil. Cel mai uşor factor de exploatat în cazul celor variabile este aria armăturilor, sau mai bine spus, aria de suprapunere a lor.</p>
 
-<p><img src="../poze/50018.jpg" alt="condensator variabil"/></p>
+#+CAPTION: condensator variabil
+[[../poze/50018.jpg]]
 
 <p>Pe măsură ce rotim axul, gradul de suprapunere al armăturilor variază, afectând aria efectivă în care poate exista campul electric între cele două armături. </p>
 

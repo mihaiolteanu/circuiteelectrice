@@ -9,10 +9,10 @@ BEGIN {
     FS = "\""
 }
 # Replace all img tags with an org-mode equivalent.
-/^<img src/{
+/<img src/{
     print "#+CAPTION: " $4
     print "[["$2"]]"
 }
 # Leave the rest of the file intact.
-!/^<img src/
+!/<img src/
 

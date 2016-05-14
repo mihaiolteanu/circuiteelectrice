@@ -28,19 +28,22 @@
 
 <p>Să examinăm un amplificator simplu, iniţial fără reacţie:</p>
 
-<p><img src="../poze/03311.png" alt="amplificator emitor comun, fără reacţie"/></p>
+#+CAPTION: amplificator emitor comun, fără reacţie
+[[../poze/03311.png]]
 
 <p>Configuraţia amplificatorului de mai sus este emitor comun, cu o reţea de polarizare formată din divizorul de tensiune R<sub>1</sub>--R<sub>2</sub>. Condensatorul cuplează semnalul de intrare în c.a., asfel încât sursa de semnal să nu conţină o componentă de c.c. datorită divizorului de tensiune R<sub>1</sub>--R<sub>2</sub>. Rolul rezistorului R<sub>3</sub> este de a controla amplificarea în tensiune, şi l-am putea îndepărta pentru o amplificare în tensiune maximă.</p>
 
 <p>La fel ca în cazul tuturor amplificatoarelor emitor comun, şi acesta <i>inversează</i> semnalul de intrare. Putem vedea mai jos formele de undă ale tensiunilor de intrare şi ieşire:</p>
 
-<p><img src="../poze/03312.png" alt="amplificator emitor comun, fără reacţie; observarea formelor de undă de la intrare şi ieşire"/></p>
+#+CAPTION: amplificator emitor comun, fără reacţie; observarea formelor de undă de la intrare şi ieşire
+[[../poze/03312.png]]
 
 <h3>Reacţia negativă între colector şi bază</h3>
 
 <p>Datorită faptului că semnalul de ieşire este inversat (defazat cu 180<sup>o</sup> (antifază)), orice conxiune între ieşirea (colector) şi intrarea (bază) tranzistorului va duce la apariţia unei reacţii negative:</p>
 
-<p><img src="../poze/03313.png" alt="introducerea reacţiei negative pe colector duce la descreşterea semnalului de ieşire"/></p>
+#+CAPTION: introducerea reacţiei negative pe colector duce la descreşterea semnalului de ieşire
+[[../poze/03313.png]]
 
 <p>Rezistenţele R<sub>1</sub>, R<sub>2</sub>, R<sub>3</sub>, şi R<sub>reacţie</sub> funcţionează împreună precum o reţea de semnale, asfel că tensiunea de la baza tranzistorului (faţă de pământ) reprezintă o medie o tensiunii de intrare şi a tensiunii de reacţie negativă, rezultând un semnal de o amplitudine redusă la intrarea amplificatorului. Asfel, amplificatorul de mai sus, va avea un factoru de amplificare mai redus, dar o liniaritate îmbunătăţiă (reducerea distorsiunilor) şi o bandă de frecvenţe mărită.</p>
 
@@ -48,17 +51,20 @@
 
 <p>Aceasta nu este însă singura modalitate de introducere a reacţiei negative într-un amplificator emitor comun. O altă metodă, deşi mai greu de înţeles la început, constă în introducerea unui rezistor între terminalul emitorului şi împământarea circuitului:</p>
 
-<p><img src="../poze/03314.png" alt="introducerea reacţiei negative pe emitor în configuraţia amplificatorului emitor comun"/></p>
+#+CAPTION: introducerea reacţiei negative pe emitor în configuraţia amplificatorului emitor comun
+[[../poze/03314.png]]
 
 <p>În acest caz, căderea de tensiune pe rezistorul de reacţie va fi direct proporţională cu valoarea curentului prin emitorul tranzistorului, opunându-se în acest fel influenţei semnalului de intrare asupra joncţiunii bază-emitor a tranzistorului. Să ne uităm mai atent la joncţiunea emitor-bază pentru a ne da seama de efectele introducerii acestui rezistor în circuit:</p>
 
-<p><img src="../poze/03315.png" alt="amplificator emitor comun fără reacţie"/></p>
+#+CAPTION: amplificator emitor comun fără reacţie
+[[../poze/03315.png]]
 
 <p>Atunci când nu avem rezistorul de reacţie în circuit (R<sub>reacţie</sub>), tensiunea de intrare (V<sub>intrare</sub>) ce trece de condensatorul de cuplaj şi de reţeaua formată din rezistorii R<sub>1</sub>/R<sub>2</sub>/R<sub>3</sub>, se va regăsi în totalitate pe joncţiunea bază-emitor a tranzistorului sub forma tensiunii de intrare (V<sub>B-E</sub>). Cu alte cuvinte, fără R<sub>reacţie</sub>, V<sub>B-E</sub> = V<sub>intrare</sub>. Prin urmare, dacă V<sub>intrare</sub> creşte cu 100 mV, atunci şi V<sub>B-E</sub> creşte cu 100 mV: variaţia uneia este egală cu variaţia celeilalte, din moment ce ambele tensiunii sunt egale.</p>
 
 <p>Să examinăm acum efectele introducerii rezistorului R<sub>reacţie</sub> între emitor şi împământare:</p>
 
-<p><img src="../poze/03316.png" alt="amplificator emitor comun cu reacţie între emitor şi împământare"/></p>
+#+CAPTION: amplificator emitor comun cu reacţie între emitor şi împământare
+[[../poze/03316.png]]
 
 <p>De data aceasta, V<sub>reacţie</sub> + V<sub>B-E</sub> = V<sub>intrare</sub>. Odată cu introducerea rezistenţei de reacţie în bucla (V<sub>intrare</sub>, V<sub>B-E</sub>), V<sub>B-E</sub> nu va mai fi egală cu V<sub>intrare</sub>. Ştim faptul că rezistorul R<sub>reacţie</sub> va avea o cădere de tensiune la bornele sale proporţională cu valoarea curentului prin emitor, valoare ce este controlată de curentul de bază, curent ce este la rândul lui controlat de căderea de tensiune pe joncţiunea bază emitor (V<sub>B-E</sub>) a trnazistorului. Asfel, dacă tensiunea de intrare creşte, acest lucru va duce la creşterea lui V<sub>B-E</sub>, ce duce la creşterea curentului bazei, ce duce la creşterea curentului prin colector (sarcină), ce cauzează creşterea curentului prin emitor, care la rândul lui va determina creşterea căderii de tensiune pe rezistorul de reacţie R<sub>reacţie</sub>. Dar această creştere a căderii de tensiune pe R<sub>reacţie</sub> se scade din tensiune de intrare (V<sub>intrare</sub>), lucru ce duce la reducerea căderii de tensiune între bază şi emitor (V<sub>B-E</sub>); creşterea reală a lui V<sub>B-E</sub> va fi de fapt mai mică decât creşterea lui V<sub>intrare</sub>. O creştere de 100 mV a tensiunii de intrare nu va mai duce la o creştere de 100 mV a tensiunii de polarizare bază-emitor, întrucât cele două tensiuni <i>nu</i> sunt egale între ele.</p>
 
@@ -70,7 +76,8 @@
 
 <p>Amplificatoarele colector comun nu sunt afectate de deriva termică. De ce? Răspunsul este strâns legat de reacţia negativă:</p>
 
-<p><img src="../poze/03317.png" alt="amplificator colector comun (repetor pe emitor) fără reacţie"/></p>
+#+CAPTION: amplificator colector comun (repetor pe emitor) fără reacţie
+[[../poze/03317.png]]
 
 <p>Putem observa că sarcina amplificatorului colector comun este conectată în exact acelaşi loc în care am introdus R<sub>reacţie</sub> în circuitul precedent, şi anume, între emitor şi împământare. Acest lucru înseamnă că singura cădere de tensiune pe joncţiunea bază-emitor este reprezentată de <i>diferenţa</i> dintre V<sub>intrare</sub> şi V<sub>ieşire</sub>, rezultatul fiind o amplificare în tensiune foarte mică (de obicei aproape de 1). Apariţia derivei termice este imposibilă pentru acest tip de amplificator: în cazul în care curentul bazei ar creşte datorită încălzirii tranzistorului, curentul emitorului va creşte şi el, rezultând o cădere de tensiune mai mare pe sarcină, cădere de tensiune ce se <i>scade</i> din tensiunea de intrare (V<sub>intrare</sub>); acest lucru duce la descreşterea căderii de tensiune între bază şi emitor.</p>
 
@@ -88,7 +95,8 @@
 
 <p>Prin conectarea unui condensator în paralel cu rezistorul de reacţie, putem crea exact situaţia de care avem nevoie: o cale dinspre emitor spre împământare ce este mai uşor de parcurs pentru semnalele de c.a. decât cele de c.c.</p>
 
-<p><img src="../poze/03318.png" alt="amplificator emitor comun cu reacţie negativă pe emitor şi condensator de decuplare al emitorului"/></p>
+#+CAPTION: amplificator emitor comun cu reacţie negativă pe emitor şi condensator de decuplare al emitorului
+[[../poze/03318.png]]
 
 <p>Noul condensator decuplează semnalele de c.a. dinspre emitor spre împământare, asfel încât să nu existe o cădere de tensiune apreciabilă (impedanţă mică, cădere de tensiune mică) între emitor şi împământare, tensiunea care ar putea duce la suprimarea amplificării în tensiune a circuitului. Curentul continuu, pe de altă parte, nu poate trece prin condensatorul de decuplare (impedanţă mare în c.c.) şi trebuie să treacă prin rezistorul de reacţie; acest lucru duce la apariţia unei căderi de tensiune între emitor şi împământare ce afectează amplificarea în tensiune a circuitului şi stabilizează răspunsul amplificatorului în c.c. prevenind astfel deriva termică. Deoarece vrem ca reactanţa (X<sub>C</sub>) acestui condensator să fie cât mai mică posibilă, acesta ar trebui să fie cât mai mare. Deoarece polaritatea acestui condensator nu se va modifica niciodată, putem folosi un condensator polarizat (electrolitic) în această situaţie.</p>
 
@@ -96,7 +104,8 @@
 
 <p>O altă abordare a problemei reducerii amplificării în tensiune datorită utilizării reacţiei negative, este folosirea mai multor etaje de amplificare în loc de unul singur. În cazul în care amplificarea atenuată în tensiune a unui singur tranzistor nu este suficientă pentru aplicaţia respectivă, putem folosi mai mulţi tranzistori pentru compensarea reducerii cauzate de reacţia negativă. Circuitul de mai jos constă dint trei etaje de amplificare în conexiune emitor comun cu reacţie negativă:</p>
 
-<p><img src="../poze/03321.png" alt="amplificator emitor comun în trei etaje cu reacţie negativă"/></p>
+#+CAPTION: amplificator emitor comun în trei etaje cu reacţie negativă
+[[../poze/03321.png]]
 
 <p>Reacţia negativă de la etajul final înspre intrare se realizează prin intermediul unui singur rezistor, R<sub>reacţie</sub>. Din moment ce fiecare etaj este un amplificator emitor comun (inversor), numărul impar de etaje dinspre intrare spre ieşire va inversa semnalul de ieşire, iar reacţia va fi negativă. Se pot folosi valori relativ mari de reacţie fără a sacrifica amplificarea în tensiune, deoarece această amplficare este foarte mare de la bun început.</p>
 

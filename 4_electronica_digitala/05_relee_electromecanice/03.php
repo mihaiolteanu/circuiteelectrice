@@ -29,13 +29,15 @@
 
 <p>Acest tip de contact este normal deschis atunci când bobina nu este energizată. Contactul se închide doar după aplicarea unui curent electric prin bobina releului, şi doar după o anumită perioadă de timp de la aplicarea acestuia. Cu alte cuvinte, direcţia deplasării contactului este identică cu cea a unui contact normal deschis, dar există o întârziere (temporizare) la închiderea contactului. Datorită faptului că temporizarea are loc în direcţia de energizare a bobinei, acest tip de contact mai poartă numele de normal-deschis  cu acţionare întârziată.</p>
 
-<img src="../poze/04043.png" alt="releu temporizat la închidere normal deschis"/>
+#+CAPTION: releu temporizat la închidere normal deschis
+[[../poze/04043.png]]
 
 <p>Releul din figura alăturată este un releu temporizat la închidere, normal-deschis. Acesta se închide după cinci secunde de la energizarea bobinei. Deschiderea se realizează imediat după de-energizarea bobinei.</p>
 
 <div class="clear"></div>
 
-<img src="../poze/04044.png" alt="diagrama timp de funcţionare a contactelor unui releu temporizat la închidere, normal deschis"/>
+#+CAPTION: diagrama timp de funcţionare a contactelor unui releu temporizat la închidere, normal deschis
+[[../poze/04044.png]]
 
 <p>Alăturat este o diagramă de timp ce prezintă modul de funcţionare a contactelor acestui tip de releu temporizat.</p>
 
@@ -45,13 +47,15 @@
 
 <p>Asemenea releului precedent, şi acest dispozitiv este normal-deschis atunci când bobina este de-energizată. La aplicarea unui curent pe bobină, contactele releului se închid. Faţă de cazul precedent însă, temporizarea (întârzierea) are loc după de-energizarea bobine şi nu după energizarea ei. Datorită faptului că temporizarea are loc după de-energizarea bobinei, acest tip de contact mai poartă numele de normal deschis cu întârziere la revenire.</p>
 
-<img src="../poze/04045.png" alt="releu temporizat la deschidere normal deschis"/>
+#+CAPTION: releu temporizat la deschidere normal deschis
+[[../poze/04045.png]]
 
 <p>Releul temporizat la deschidere, normal deschis, din figura alăturată se închide imediat după energizarea bobinei. Deschiderea contactelor are loc însă la cinci secunde după de-energizarea bobinei.</p>
 
 <div class="clear"></div>
 
-<img src="../poze/04046.png" alt="diagrama timp de funcţionare a contactelor unui releu temporizat la deschidere, normal deschis"/>
+#+CAPTION: diagrama timp de funcţionare a contactelor unui releu temporizat la deschidere, normal deschis
+[[../poze/04046.png]]
 
 <p>Diagrama de timp în acest caz, este cea din figura alăturată.</p>
 
@@ -59,25 +63,29 @@
 
 <h2>Releu temporizat la deschidere, normal-închis</h2>
 
-<img src="../poze/04047.png" alt="releu temporizat la deschidere normal închis"/>
+#+CAPTION: releu temporizat la deschidere normal închis
+[[../poze/04047.png]]
 
 <p>Acest tip de contact este normal închis atunci când bobina nu este energizată. Contactul se deschide la aplicarea unui curent prin bobină, dar doar după o anumită perioadă de timp. Cu alte cuvinte, direcţia de deplasare a contactului este identică cu a unui contact normal-închis, doar că există o temporizare în direcţia deschiderii acestuia. Datorită faptului că temporizarea are loc în direcţia energizării bobinei, acest contact mai poartă numele de contact  normal închis cu acţionare întârziată.</p>
 
 <div class="clear"></div>
 
-<img src="../poze/04048.png" alt="diagrama timp de funcţionare a contactelor unui releu temporizat la deschidere, normal închis"/>
+#+CAPTION: diagrama timp de funcţionare a contactelor unui releu temporizat la deschidere, normal închis
+[[../poze/04048.png]]
 
 <div class="clear"></div>
 
 <h2>Releu temporizat la închidere, normal-închis</h2>
 
-<img src="../poze/04049.png" alt="releu temporizat la închidere normal închis"/>
+#+CAPTION: releu temporizat la închidere normal închis
+[[../poze/04049.png]]
 
 <p>Asemenea releului temporizat la deschidere normal-închis, acest tip de contact este normal-închis atunci când bobina nu este energizată. Deschiderea se realizează prin aplicarea unui curent prin bobina releului. Totuşi, la de-energizarea bobinei, contactele se închid cu o anumită întârziere de timp. Acest tip de contact mai poartă numele de contact normal închis cu întârziere la revenire.</p>
 
 <div class="clear"></div>
 
-<img src="../poze/04050.png" alt="diagrama timp de funcţionare a contactelor unui releu temporizat la închidere, normal închis"/>
+#+CAPTION: diagrama timp de funcţionare a contactelor unui releu temporizat la închidere, normal închis
+[[../poze/04050.png]]
 
 <div class="clear"></div>
 
@@ -85,19 +93,22 @@
 
 <p>Releele temporizate mecanice, mai vechi, utilizau amortizoare mecanice sau dispozitive cu pistoane/cilindrii umplute cu fluid pentru îtârzierea deplasării armăturilor. Modelele mai nou utilizează circuite electronice cu reţele rezistor-condensator pentru genererarea întârzierii. Energizarea (instantanee) a releului electromecanic se realizează cu ajutorul semnalului de ieşire al circuitului electronic. Aceste relee electronice sunt mai adaptabile decât variantele mecanice, şi mult mai durabile. Multe modele sunt capabile de efectuarea unor operaţii de temporizare avansate:</p>
 
-<img src="../poze/04051.png" alt="releu temporizat normal-deschis cu o singură închidere"/>
+#+CAPTION: releu temporizat normal-deschis cu o singură închidere
+[[../poze/04051.png]]
 
 <p>Releu temporizat normal-deschis cu o singură închidere. Aceste relee se închid o singură dată, un anumit interval de timp şi apoi se re-deschid, la o tranziţie a intrării de la starea de-energizată la starea energizată.</p>
 
 <div class="clear"></div>
 
-<img src="../poze/04052.png" alt="releu temporizat normal-deschis cu deschideri/închideri repetate"/>
+#+CAPTION: releu temporizat normal-deschis cu deschideri/închideri repetate
+[[../poze/04052.png]]
 
 <p>Releu temporizat normal-deschis cu deschideri/închideri repetate. Acest releu se închide şi se deschide pentru un anumit interval de timp atâta timp cât bobina este energizată.</p>
 
 <div class="clear"></div>
 
-<img src="../poze/04053.png" alt="releu temporizat de supraveghere"/>
+#+CAPTION: releu temporizat de supraveghere
+[[../poze/04053.png]]
 
 <p>Releu temporizat de supraveghere. Acest releu îşi schimbă starea în cazul în care semnalul de intrare nu variază continuu de la starea energizată la starea de-energizată.</p>
 

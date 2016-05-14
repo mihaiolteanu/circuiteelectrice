@@ -30,21 +30,25 @@
 
 <h4>Filtrul trece-bandă în configuraţie LC serie</h4>
 
-<p><img src="../poze/02124.png" alt="filtrul trece-bandă rezonant în configuraţie LC serie"/></p>
+#+CAPTION: filtrul trece-bandă rezonant în configuraţie LC serie
+[[../poze/02124.png]]
 
 <p>Circuitul LC serie permite trecerea semnalului la frecvenţa de rezonanţa (impedanţă mică - scurt-circuit), şi blochează toate celelalte frecvenţe (impedanţă mare - circuit deschis), asfel că acestea nu ajung la sarcină, după cum se poate vedea în diagramă.</p>
 
-<p><img src="../poze/22033.png" alt="răspunsul în frecvenţa a filtrului trece-bandă rezonant în configuraţie LC serie; diagrama Bode"/></p>
+#+CAPTION: răspunsul în frecvenţa a filtrului trece-bandă rezonant în configuraţie LC serie; diagrama Bode
+[[../poze/22033.png]]
 
 <p>Putem observa că în cazul acestui tip de filtru, nu există practic nicio atenuare a semnalului în banda de trecere, asfel că tensiunea de ieşire pe rezistenţa de sarcină este aceeiaşi cu tensiunea de alimentare a sursei; acesta nu este şi cazul filtrelor construite exclusiv din condensatoare sau bobine. De asemenea, din moment ce principiul de funcţionare al filtrului se bazează pe principiul rezonanţei LC serie, frecvenţa de rezonanţă nefiind prin urmare afectată de valoarea rezistenţei prezentă în circuit, valoarea rezistenţei de sarcină nu va influenţa în niciun fel frecvenţa de trecere. Totuşi, diferite valori ale rezistenţei de sarcină vor duce la modificarea pantei diagramei Bode („selectivitatea” filtrului).</p>
 
 <h4>Filtrul trece-bandă în configuraţie LC paralel</h4>
 
-<p><img src="../poze/02125.png" alt="filtrul trece-bandă rezonant în configuraţie LC paralel"/></p>
+#+CAPTION: filtrul trece-bandă rezonant în configuraţie LC paralel
+[[../poze/02125.png]]
 
 <p>Circuitul LC paralel permite trecerea semnalului la frecvenţa de rezonanţa (impedanţă mare - circuit deschis) spre sarcină, şi blochează toate celelalte frecvenţe (impedanţă mică - scurt-sicircuit), căderea de tensiune regăsindu-se în marea ei parte pe R<sub>1</sub>, asfel că acestea nu ajung la sarcină, după cum se poate vedea în diagramă.</p>
 
-<p><img src="../poze/22034.png" alt="răspunsul în frecvenţa a filtrului trece-bandă rezonant în configuraţie LC paralel; diagrama Bode"/></p>
+#+CAPTION: răspunsul în frecvenţa a filtrului trece-bandă rezonant în configuraţie LC paralel; diagrama Bode
+[[../poze/22034.png]]
 
 <p>Acest tip de filtru rezonant, asemenea filtrelor trece-sus şi trece-jos, nu va putea transmite întreaga tensiune de la sursă spre sarcină datorită rezistorului conectat în serie ce va prelua tot timpul o parte din căderea de tensiune totală existentă în circuit.</p>
 
@@ -56,19 +60,23 @@
 
 <h4>Filtrul stop-bandă rezonant în configuraţie LC serie</h4>
 
-<p><img src="../poze/02126.png" alt="filtrul stop-bandă rezonant în configuraţie LC serie"/></p>
+#+CAPTION: filtrul stop-bandă rezonant în configuraţie LC serie
+[[../poze/02126.png]]
 
 <p>Folosit în această combinaţie, filtrul LC prezintă o impedanţă foarte scăzută faţă de semnal, la frecvenţa de rezonaţă, întreaga cădere de tensiune regăsindu-se pe rezistorul R<sub>1</sub>, iar semnalul nu este asfel „văzut” de sarcină.</p>
 
-<p><img src="../poze/22035.png" alt="răspunsul în frecvenţa a filtrului stop-bandă rezonant în configuraţie LC serie; diagrama Bode"/></p>
+#+CAPTION: răspunsul în frecvenţa a filtrului stop-bandă rezonant în configuraţie LC serie; diagrama Bode
+[[../poze/22035.png]]
 
 <h4>Filtrul stop-bandă rezonant în configuraţie LC paralel</h4>
 
-<p><img src="../poze/02126.png" alt="filtrul stop-bandă rezonant în configuraţie LC paralel"/></p>
+#+CAPTION: filtrul stop-bandă rezonant în configuraţie LC paralel
+[[../poze/02126.png]]
 
 <p>Coponentele LC conectate în paralel prezintă o impedanţă mare la frecvenţa de rezonanţă, blocând asfel semnalele de la sursa spre sarcină, la frecvenţa respectivă, şi permite trecerea tuturor celorlalte semnale (alte frecvenţe decăt cea de rezonanţă) de la sursă spre sarcină.</p>
 
-<p><img src="../poze/22036.png" alt="răspunsul în frecvenţa a filtrului stop-bandă rezonant în configuraţie LC paralel; diagrama Bode"/></p>
+#+CAPTION: răspunsul în frecvenţa a filtrului stop-bandă rezonant în configuraţie LC paralel; diagrama Bode
+[[../poze/22036.png]]
 
 <p>Din nou se poate observa faptul că absenţa unui rezistor serie duce la o atenuare minimă a semnalelor dorite. Amplitudinea semnalului la frecvenţa de trecere, pe de altă parte, este foarte mică. Cu alte cuvinte, acesta este un filtru foarte „selectiv”.</p>
 
@@ -82,11 +90,13 @@
 
 <p>Bobinele ar trebui să blocheze trecerea frecvenţelor înalte, iar condensatorul ar trebui să blocheze şi el trecerea aceloraşi frecvenţe, efectele lor combinate permiţând doar trecerea semnalelor de frecvenţă joasă de la sursă spre sarcină.</p>
 
-<p><img src="../poze/02128.png" alt="filtrul trece-jos LC"/></p>
+#+CAPTION: filtrul trece-jos LC
+[[../poze/02128.png]]
 
 <p>La prima vedere, aceasta pare o strategie bună, şi elimină rezistorul serie. Totuşi, trebuie realizat faptul că orice combinaţie condensator-bobină poate duce la efecte rezonante la o anumită frecvenţă, iar acesta nu este un lucru de dorit. Să urmărim răspunsul în frecvenţă a filtrului de mai sus, pe rezistenţa de sarcină (R<sub>sarcină</sub>):</p>
 
-<p><img src="../poze/22037.png" alt="răspunsul în frecvenţa a filtrului trece-jos LC; diagrama Bode"/></p>
+#+CAPTION: răspunsul în frecvenţa a filtrului trece-jos LC; diagrama Bode
+[[../poze/22037.png]]
 
 <p>Ceea ce a fost gândit ca un filtru trece-jos s-a dovedit a fi un filtru trece bandă cu o frecvenţă de trecere în jurul valorii de 526 Hz, frecvenţa de rezonantă a condensatorului şi a bobinei în acest caz.</p>
 
@@ -101,11 +111,13 @@
 
 <p>Asfel, în circuitul de mai sus putem adăuga rezistorul R<sub>g</sub> de 316 Ω în serie cu sursa de tensiune şi modificăm R<sub>sarcină</sub> de la 1.000 Ω la 316 Ω. Dacă ar fi fost necesară alimentarea unei sarcini de 1.000 Ω, am fi putut modifica raportul L/C pentru a păstra egalitatea faţă de sarcină.</p>
 
-<p><img src="../poze/02517.png" alt="răspunsul în frecvenţa a filtrului trece-jos LC cu impedanţele de intrare şi ieşire egalate; diagrama Bode"/></p>
+#+CAPTION: răspunsul în frecvenţa a filtrului trece-jos LC cu impedanţele de intrare şi ieşire egalate; diagrama Bode
+[[../poze/02517.png]]
 
 <p>Răspunsul în frecvenţă al filtrului arată de data aceasta mult mai bine:</p>
 
-<p><img src="../poze/22056.png" alt="răspunsul în frecvenţa a filtrului trece-jos LC cu impedanţele de intrare şi ieşire egalate; diagrama Bode"/></p>
+#+CAPTION: răspunsul în frecvenţa a filtrului trece-jos LC cu impedanţele de intrare şi ieşire egalate; diagrama Bode
+[[../poze/22056.png]]
 
 <p class="sumar">Sumar:</p>
 <ul>

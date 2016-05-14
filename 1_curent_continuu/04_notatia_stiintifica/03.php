@@ -23,7 +23,8 @@
 
 <p><a href="http://ro.wikipedia.org/wiki/Sistemul_interna%C5%A3ional_de_unit%C4%83%C5%A3i">Sistemul metric</a>, pe lângă faptul că reprezintă o colecţie de unităţi de măsură pentru diferite mărimi fizice, este structurat în jurul conceptului de notaţie metrică. Diferenţa faţa de notaţia ştiinţifică o reprezintă faptul că puterile lui zece sunt reprezentate cu ajutorul prefixelor alfabetice. În imaginea alăturată sunt prezentate câteva dintre cele mai uzuale prefixe alături de reprezentarea sub forma puterilor lui zece Pentru o descriere completă a tuturor prefixelor metrice utilizate, vedeţi intrarea de pe wikipedia, <a href="http://ro.wikipedia.org/wiki/Prefix_SI">aici</a>.</p>
 
-<p><img src="../poze/00356.png" alt=""/></p>
+#+CAPTION: 
+[[../poze/00356.png]]
 
 <p>Urmărind această scală, putem vedea că, de exemplu, 2,5 Giga înseamnă de fapt 2,5 x 10<sup>9</sup>, sau 2,5 miliarde. De asemenea, 3,21 pA (picoamperi) înseamnă 3,21 x 10<sup>-12</sup> Amperi.</p>
 

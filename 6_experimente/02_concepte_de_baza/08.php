@@ -25,11 +25,13 @@
 
 <p>Utilizarea unui întrerupător într-un circuit simplu. Pentru acest experiment aveţi nevoie de un întrerupător simplu, mecanic (întrerupător de veioză sau de perete, de exemplu). Vom realiza aşadar circuitul de mai jos:</p>
 
-<img src="../poze/05066.png" alt="circuit electric cu întrerupător"/>
+#+CAPTION: circuit electric cu întrerupător
+[[../poze/05066.png]]
 
 <p>Practic, circuitul va arăta astfel:</p>
 
-<img src="../poze/05067.png" alt="circuit electric cu întrerupător"/>
+#+CAPTION: circuit electric cu întrerupător
+[[../poze/05067.png]]
 
 <h2>Desfăşurarea experimentului</h2>
 

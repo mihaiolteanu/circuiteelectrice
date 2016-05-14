@@ -22,7 +22,8 @@
 <div id="contents">
 <p>La reprezentarea numerelor binare cu ajutorul circuitelor electronice, suntem nevoiţi să utilizăm un număr suficient de circuite cu tranzistori pentru reprezentarea tuturor biţilor. Cu alte cuvinte, la proiectarea unui circuit digital, trebuie să ne decidem câţi biţi vom utilizat (maxim) pentru reprezentarea valorilor, din moment ce fiecare bit necesită un circuit pornit/oprit separat.</p>
 
-<p><img src="../poze/04315.png" alt="abac cu 10 linii; analogie"/></p>
+#+CAPTION: abac cu 10 linii; analogie
+[[../poze/04315.png]]
 
 <p>Acest principiu este analog proiectării unui abac pentru reprezentarea digitală a numerelor zecimale: trebuie mai întâi să ne decidem câte cifre dorim să reprezentăm cu acest dispozitiv primitiv. Fiecare cifră necesită o nouă linie cu mărgele.</p>
 

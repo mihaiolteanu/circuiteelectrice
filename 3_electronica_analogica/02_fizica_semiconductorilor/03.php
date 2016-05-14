@@ -28,17 +28,20 @@
 
 <p>Când atomii se combină pentru formarea substanţelor, straturile, substraturile şi orbitalii exterior se combină între ele, ducând la creşterea energiei disponible pentru electroni. Când un număr foarte mare de atomi sunt foarte aproape unul de celălalt, aceste nivele de energie disponibile formează o <i>bandă</i> de electroni aproape continuă, bandă pe care electroni se pot deplasa cu uşurinţă.</p>
 
-<p><img src="../poze/03370.png" alt="suprapunerea benzilor energetice în cazul metalelor"/></p>
+#+CAPTION: suprapunerea benzilor energetice în cazul metalelor
+[[../poze/03370.png]]
 
 <p>Lăţimea acestor benzi şi distanţa dintre ele determină mobilitatea electronilor în cazul aplicării unui câmp electric asupra lor. În substanţele metalice, benzile libere se suprapun cu benzile ce conţin electroni, ceea ce înseamnă că electronii unui singur atom se pot deplasa la un nivel energetic mai mare necesitând foarte puţină energie externă sau chiar deloc. Asfel, electronii din stratul exterior sunt cunoscuţi sub numele de <i>electroni liberi</i> şi se pot deplasa foarte uşor dacă sunt supuşi unui câmp electric exterior.</p>
 
 <p>Suprapunerea benzilor nu are loc însă în toate substanţele, indiferent de numărul atomilor ce se află în proximitate. În cazul unor substanţe, există o distanţa considerabilă între banda de valenţă (nivelul energetic cel mai mare) şi următoarea bandă goală, denumită <i>banda de conducţie</i>. Prin urmare, electronii de valenţă sunt „legaţi” de atomii lor şi nu pot deveni mobili în cadrul substanţelor fără ajutorul unei energii externe considerabile. Aceste substanţe formează materialele izolatoare (dielectrice).</p>
 
-<p><img src="../poze/03371.png" alt="separarea benzilor energetice în cazul dielectricilor"/></p>
+#+CAPTION: separarea benzilor energetice în cazul dielectricilor
+[[../poze/03371.png]]
 
 <p>Însă, materialele din categoria <i>semiconductorilor</i> au o „distanţă energetică” îngustă între benzile de valenţă şi cele de conducţie. Asfel, cantitatea de energie necesară pentru trecerea electronilor de valenţă în banda de conducţie, de undă devin mobil, este destul de modestă.</p>
 
-<p><img src="../poze/03372.png" alt="separarea benzilor energetice în cazul materialelor semiconductoare"/></p>
+#+CAPTION: separarea benzilor energetice în cazul materialelor semiconductoare
+[[../poze/03372.png]]
 
 <p>La temperaturi joase, energia termică disponibilă pentru „împingerea” electronilor de valenţă peste spaţiul dintre banda de valenţă şi cea conducţie este foarte mică, iar materialul semiconductor se comportă precum un izolator. La temperaturi înalte însă, energia termică devine suficient de mare pentru a forţa electronii peste „distanţa energetică”, iar materialul se va comporta precum un material conductor.</p>
 

@@ -24,7 +24,8 @@
 
 <p>Totuşi, cunoaşterea/calcularea impedanţei caracteristice a liniilor de transmisie este importantă şi atunci când avem de a face cu lungimi finite. Dacă celălalt capăt al unei linii de transmisie finite este deschis, unda de curent ce se propagă în lungimea conductorului trebuie să se oprească la un moment dat, din moment ce electronii nu se pot deplasa într-un circuit deschis. Această întrerupere abruptă a curentului la sfârşitul liniei produce o „îngrămădire” de electroni de-a lungul liniei de transmisie, pentru că aceştia nu au unde să se deplaseze. Dacă ne imaginăm un tren lung în mişcare, cu o anumită cursă între vagoane, iar primul vagon (sau locomotiva) se opreşte brusc într-un parapet fix, acesta se va opri; urmarea este că toate celelalte vagoane din urma lui se vor opri rând pe rând, după ce fiecare parcurge „cursa” sa. Trenul nu se opreşte deodată, ci fiecare vagon pe rând, de la primul, până la ultimul:</p>
 
-<p><img src="../poze/02364.png" alt="oprirea secvenţială a vagoanelor; undă reflectată"/></p>
+#+CAPTION: oprirea secvenţială a vagoanelor; undă reflectată
+[[../poze/02364.png]]
 
 <p>Propagarea unui semnal de la sursă până la capătul unei linii de transmisie (spre sarcină), poartă numele de <i>undă incidentă</i>. Propagarea unui semnal de la sarcină (capătul liniei) spre sursă, poartă numele de <i>undă reflectată</i></p>
 
@@ -36,11 +37,13 @@
 
 <p>Putem ilustra acest fenomen de reflexie al liniilor de transmisie cu un experiment simplu.</p>
 
-<p><img src="../poze/02365.png" alt="exemplificarea propagării undelor de tensiune şi curent cu ajutorului unei sfori"/></p>
+#+CAPTION: exemplificarea propagării undelor de tensiune şi curent cu ajutorului unei sfori
+[[../poze/02365.png]]
 
 <p>Acest lucru este analog unei linii de transmisie cu pierderi interne: puterea semnalului este din ce în ce mai slabă pe măsură ce se propagă în lungimea liniei şi nu se reflectă niciodată înapoi spre sursă. Totuşi, dacă celălalt capăt al sforii este fixat într-un punct în care amplitudinea semnalului nu este încă zero, în lungul sforii va apărea o a doua undă, reflectată înapoi spre mână.</p>
 
-<p><img src="../poze/02366.png" alt="exemplificarea propagării undelor de tensiune şi curent cu ajutorului unei sfori; reflectarea undei"/></p>
+#+CAPTION: exemplificarea propagării undelor de tensiune şi curent cu ajutorului unei sfori; reflectarea undei
+[[../poze/02366.png]]
 
 <p>De obicei, rolul unei linii de transmisie este propagarea (transportul) energiei electrice dintr-un punct în altul. Dar chiar dacă semnalele sunt folosite doar pentru transmitere de informaţii, şi nu pentru alimentarea unei sarcini, situaţia ideală ar fi ca între semnalul original să fie transmis de la sursă spre sarcină şi abosorbit complet de aceasta, pentru un raport semnal/zgomot cât mai bun. Prin urmare, „pierderile” din lungul liniilor de transmisie sunt nedorite, la fel ca şi undele reflectate, deoarece energia reflectată reprezintă energie ce nu este transmisă sarcinii.</p>
 

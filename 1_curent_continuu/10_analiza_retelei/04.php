@@ -26,11 +26,13 @@
 
 <p>Începem cu un circuit ce conţine surse de tensiune convenţionale. Un punct comun E<sub>0</sub> este ales ca şi punct de referinţă. Tensiunile pentru celelalte noduri, E<sub>1</sub> şi E<sub>2</sub> sunt calculate în funcţie de acest punct.</p>
 
-<img src="../poze/00497.png" alt="circuit electric"/>
+#+CAPTION: circuit electric
+[[../poze/00497.png]]
 
 <p>O sursă de tensiune în serie cu o rezistenţă trebuie să fie înlocuită de o sursă de curent echivalentă în paralel cu o rezistenţă. Vom scrie apoi ecuaţiile LKC pentru fiecare nod. Partea dreaptă a ecuaţiei reprezintă valoarea sursei de curent ce alimentează nodul respectiv. Circuitul modificat arată asfel:</p>
 
-<img src="../poze/00498.png" alt="circuit electric"/>
+#+CAPTION: circuit electric
+[[../poze/00498.png]]
 
 <p>Înlocuim rezistenţa rezistorilor în ohmi cu conductanţa acestora în siemens:</p>
 
@@ -46,7 +48,8 @@
 &nbsp;          G<sub>5</sub> = 1/R<sub>5</sub> = 1/1 Ω   = 1.0 S
 </pre>
 
-<img src="../poze/00499.png" alt="circuit electric"/>
+#+CAPTION: circuit electric
+[[../poze/00499.png]]
 
 <p>Conductanţele paralele (rezistorii) pot fi combinaţi prin adunarea conductanţelor. Deşi nu vom redesena circuitul, putem deja aplica metoda nodului de tensiune:</p>
 
@@ -99,7 +102,8 @@
 
 <p>Circuitul de mai jos are trei noduri. Conductanţele nu apar pe desen, dar G<sub>1</sub>=1/R<sub>1</sub>, etc.</p>
 
-<img src="../poze/00500.png" alt="circuit electric"/>
+#+CAPTION: circuit electric
+[[../poze/00500.png]]
 
 <p>Există trei noduri pentru care putem scrie ecuaţii. Coeficienţii sunt pozitivi pentru E<sub>1</sub> (ecuaţia 1), E<sub>2</sub> (ecuaţia 2) şi E<sub>3</sub> (ecuaţia 3). Acestea sunt sumele tuturor conductanţelor conectate la nodurile respective. Toţi ceilalţi coeficienţi sunt negativi, reprezentând conductanţa între noduri. Partea din dreapta a ecuaţiei reprezintă sursa de curent, 0.136092 amperi, singura sursă pentru nodul 1. Celelalte ecuaţii au zero în partea dreapta datorită lipsei unei surse de tensiune.</p>
 

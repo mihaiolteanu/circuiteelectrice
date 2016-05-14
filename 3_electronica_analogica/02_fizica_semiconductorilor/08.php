@@ -24,7 +24,8 @@
 
 <p>Un tranzistor cu efect de câmp (FET - field effect transistor), este un dispozitiv <i>unipolar</i>, ceea ce înseamnă că existenţa curentului depinde de un singur tip de purtători de sarcină. Dacă dispozitivul se bazează pe un material semiconductor de tip N, purtătorii de sarcină sunt electroni. Invers, pentru unul de tip P, purtătorii de sarcină sunt golurile.</p>
 
-<p><img src="../poze/03415.png" alt="tranzistor cu efect de câmp cu joncţiune (JFET); secţiune transversală"/></p>
+#+CAPTION: tranzistor cu efect de câmp cu joncţiune (JFET); secţiune transversală
+[[../poze/03415.png]]
 
 <p>La nivelul circuitului, funcţionarea tranzistorilor cu efect de câmp este simplă. O tensiune aplicată pe <i>poartă</i>, elementul de intrare, controlează rezistenţa unei regiuni unipolare dintre <i>sursă</i> şi <i>drenă</i> denumită <i>canal</i>; într-un dispozitiv de tip N, această regiune este reprezentată de un material semiconductor dopat de tip N<sup>-</sup>, cu terminale la ambele capete. Sursa şi drena sunt terminale echivalente cu emitorul şi colectorul într-un tranzistor bilpolar. Cu alte cuvinte, sursa este locul de plecare al purtătorilor de sarcină, iar drena este locul înspre care aceştia se deplasează. Poarta este echivalentă bazei tranzistorului bipolar, iar în cadrul unui dispozitiv de tip N, este reprezentată de o regiune de tip P<sup>+</sup> (dopată puternic) prezentă pe ambele laturi şi în jurul canalului din centrul semicondcutorului.</p>
 
@@ -34,13 +35,15 @@
 
 <p>În figura de mai jos este reprezentată zona de golire a joncţiunii porţii, datorită difuziei golurilor din regiunea de tip P (poartă) în regiunea de tip N (canal). Această difuzie duce la separarea purtătorilor de sarcină în zona joncţiunii şi o zonă de golire non-conductivă la joncţiune.</p>
 
-<p><img src="../poze/03416.png" alt="canalul tranzistorului cu efect de câmp cu joncţiune (JFET): (a) zona de golire a porţii; (b) creşterea zonei de golire la polarizarea inversă; (c) zona de golire creşte tot mai mult cu creşterea tensiunii de polarizare inversă; (d) blocarea canalului sursă-drenă (S-D) datorită creşterii tensiunii de polarizare inversă "/></p>
+#+CAPTION: canalul tranzistorului cu efect de câmp cu joncţiune (JFET): (a) zona de golire a porţii; (b) creşterea zonei de golire la polarizarea inversă; (c) zona de golire creşte tot mai mult cu creşterea tensiunii de polarizare inversă; (d) blocarea canalului sursă-drenă (S-D) datorită creşterii tensiunii de polarizare inversă 
+[[../poze/03416.png]]
  
 <p>Grosimea zonei de golire poate fi crescută prin aplicarea unei tensiuni moderate de polarizare inversă (figura de mai sus(b)). Acest lucru duce la creşterea rezistenţei canalului sursă-drenă prin îngustarea acestuia. Creşterea în continuare a tensiunii de polarizare inversă duce la creşterea zonei de golire, scăderea grosimii canalului şi creşterea rezistenţei acestuia (c). Peste un anumit nivel (d), tensiunea de polarizare inversă, V<sub>GS</sub> va bloca curentul prin canal, rezistenţa acestuia fiind foarte mare. Tensiunea de blocare, V<sub>P</sub> este de câţiva volţi în majoritatea cazurilor. Pe scurt, rezistenţa canalului sursă-drenă poate fi controlat cu ajutorul valorii de polarizarea inversă a porţii.</p>
 
 <p>Sursa şi drena sunt interschimbabile, ceea ce înseamnă că există posibilitatea deplasării electronilor în oricare dintre direcţii pentru o tensiune mică a bateriei drenei (0.6 V). Cu alte cuvinte, bateria drenei poate fi înlocuită cu o sursă de tensiune scăzută în curent alternativ. Pentru valori mai mari a tensiunii drenei, de ordinul zecilor de volţi pentru dispozitive mici, polaritatea alimentării este cea prezentată în figura de mai jos (a). Atenţie, în unele cărţi de specialitate, poarta (P) mai este denumită şi grilă (G), sau cele două notaţii sunt folosite chiar concomitent. Am ales în această carte să rămânem la denumirea de poartă, iar aceasta este notată corespunzător pe desene cu P. În orice caz, cele două exprimări sunt echivalente.</p>
 
-<p><img src="../poze/03417.png" alt="direcţia curentului într-un tranzistor cu efect de câmp de tip N: (a) secţiune transversală; (b) simbolul schematic"/></p>
+#+CAPTION: direcţia curentului într-un tranzistor cu efect de câmp de tip N: (a) secţiune transversală; (b) simbolul schematic
+[[../poze/03417.png]]
 
 <p>Această sursă de tensiune a drenei, ce nu este prezentă în figurile precedente, distorsionează zona de golre, mărind-o înspre partea drenei. Aceasta este o reprezentare mult mai corectă o tensiunilor de curent continuu ale drenei, de la câţiva volţi la zeci de volţi. Pe măsură ce tensiunea drenă-sursă (U<sub>DS</sub>) creşte, zona de golire dinspre drenă creşte spre această. Acest lucru duce şi la creşterea lungimii canalului, cu efecte asupra rezistenţei (creşte) acestuia. Totuşi, această creştere a rezistenţei datorată creşterii lungimii canalului este foarte mică în comparaţie cu rezistenţa datorată polarizării inverse a porţii. În figura de mai sus (b) este prezentat şi simbolul schematic al unui tranzistor cu efect de câmp cu canal de tip N. Săgeata porţii indică aceeiaşi direcţia ca şi joncţiunea diodei, şi corespunde regiunii de tip P. Celelalte două extremităţi (S şi D), ce nu conţin nicio direcţie, corespund materialului semiconductor de tip N.</p>
 
@@ -50,7 +53,8 @@
 
 <p>Tranzistoarele cu efect de câmp pot fi realizate şi cu canal de tip P, ceea ce înseamnă ca poarta este realizată dintr-un material semiconductor dopat de tip N<sup>+</sup> (dopat puternic). Toate sursele de tensiune sunt inversate într-un circuit cu JFET de tip P faţa de cel cu canal de tip N (figura de mai jos (a)). Săgeata în acest caz este îndreptată dinspre poartă înspre sursa de polarizare inversă (figura de mai jos (b)).</p>
 
-<p><img src="../poze/03418.png" alt="tranzistor cu efect de câmp cu canal de tip P: (a) tensiunile surselor de alimentare sunt inversată faţă de tranzistorul cu canal de tip N; (b) simbolul schematic - direcţia săgeţii porţii este inversată"/></p>
+#+CAPTION: tranzistor cu efect de câmp cu canal de tip P: (a) tensiunile surselor de alimentare sunt inversată faţă de tranzistorul cu canal de tip N; (b) simbolul schematic - direcţia săgeţii porţii este inversată
+[[../poze/03418.png]]
 
 <p>Modul de funcţionare este asemănător tranzistorului cu efect de câmp cu canal de tip N prezentat mai sus.</p>
 
@@ -58,7 +62,8 @@
 
 <p>Dispozitivele discrete sunt confecţionate conform figurii de mai jos (a), iar circuitele integrate cu tranzistoare cu efect de câmp, sunt confecţionate conform figurii de mai jos (b). Poarta este dopată puternic, P<sup>+</sup>, pentru obţinerea unei zone de golire cât mai mari. Sursa şi drena acestui dispozitiv de tip N sunt şi ele dopate puternic, N<sup>+</sup>, pentru obţinerea unei rezistenţe de conexiune cât mai mici. Totuşi, canalului din jurul porţii este dopat uşor, N<sup>-</sup>, pentru a permiter trecerea golurilor dinspre poartă înspre canal.</p>
 
-<p><img src="../poze/03303.png" alt="tranzistorul cu efect de câmp cu joncţiune: (a) secţiune transversală printr-un dispozitiv discret; (b) simbolul schematic; (c) secţiune transversală printr-un circuit integrat"/></p>
+#+CAPTION: tranzistorul cu efect de câmp cu joncţiune: (a) secţiune transversală printr-un dispozitiv discret; (b) simbolul schematic; (c) secţiune transversală printr-un circuit integrat
+[[../poze/03303.png]]
 
 <p class="sumar">Sumar:</p>
 <ul>

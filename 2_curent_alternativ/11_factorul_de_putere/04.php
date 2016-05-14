@@ -25,7 +25,8 @@
 <p>Dacă avem acces la un wattmetru pentru măsurarea puterii reale, putem compara valoarea citită cu valoarea puterii aparente deduse din produsul tensiunii totale cu a curentului total.</p>
 
 
-<p><img src="../poze/00000.png" alt=""/></p>
+#+CAPTION: 
+[[../poze/00000.png]]
 
 <p class="sumar">Sumar:</p>
 <ul>

@@ -27,31 +27,37 @@
 
 <p>Una dintre aceste proprietăţi poartă numele de comutativitate, şi se aplică atât adunării cât şi înmulţirii. Ceea ce ne spune comutativitatea este că, putem inversa ordinea variabilelor atât în cazul adunării, cât şi în cazul înmulţirii. Rezultatul expresiei rămâne neschimbat în ambele cazuri. Comutativitatea adunării arată astfel:</p>
 
-<img src="../poze/14028.png" alt="comutativitatea adunării booleene"/>
+#+CAPTION: comutativitatea adunării booleene
+[[../poze/14028.png]]
 
 <p>Comutativitatea înmulţirii:</p>
 
-<img src="../poze/14029.png" alt="comutativitatea înmulţirii booleene"/>
+#+CAPTION: comutativitatea înmulţirii booleene
+[[../poze/14029.png]]
 
 <h2>Asociativitatea</h2>
 
 <p>Această proprietate spune că putem asocia grupuri de sume sau înmulţiri, prin intermediul parantezelor, fară a modifica rezultatul ecuaţiilor. Şi în acest caz, asociativitatea se aplică atât adunării cât şi înmulţirii. Asociativitatea adunării:</p>
 
-<img src="../poze/14030.png" alt="asociativitatea adunării booleene"/>
+#+CAPTION: asociativitatea adunării booleene
+[[../poze/14030.png]]
 
 <p>Asociativitatea înmulţirii:</p>
 
-<img src="../poze/14031.png" alt="asociativitatea înmulţirii booleene"/>
+#+CAPTION: asociativitatea înmulţirii booleene
+[[../poze/14031.png]]
 
 <h2>Distributivitatea</h2>
 
 <p>Proprietatea de distributivitate precizează modul de dezvoltare a unei expresii booleene formate din înmulţirea unei sume:</p>
 
-<img src="../poze/14032.png" alt="distributivitatea booleeană"/>
+#+CAPTION: distributivitatea booleeană
+[[../poze/14032.png]]
 
 <p>În concluzie, avem trei proprietăţi booleene de bază: comutativitatea, asociativitatea şi distributivitatea:</p>
 
-<img src="../poze/14034.png" alt="proprietăţi boolene: comutativitatea, asociativitatea şi distributivitatea"/>
+#+CAPTION: proprietăţi boolene: comutativitatea, asociativitatea şi distributivitatea
+[[../poze/14034.png]]
 
 
 <p class="sumar">Sumar:</p>

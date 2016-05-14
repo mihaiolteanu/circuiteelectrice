@@ -22,7 +22,8 @@
 <div id="contents">
 <p>Un generator electromecanic este un dispozitiv capabil să genereze putere electrică folosind energie mecanică, de obicei prin intermediul unui ax. Atunci când nu sunt conectate la o sarcină (rezistenţă), generatoarele vor produce o tensiune electrică aproximativ proporţională cu viteza axului. Cu un design şi construcţie precisă, aceste dispizitive pot fi construite asfel încât să genereze tensiuni exacte pentru anumite viteze ale axului; din această cauză pot fi folosite ca şi instrumente de măsură în cadrul echipamentelor mecanice. Un generator special construit pentru această utilizare se numeşte <i>tahometru</i> sau <i>tahogenerator</i>.</p>
 
-<img src="../poze/00191.png" alt="tahogenerator"/>
+#+CAPTION: tahogenerator
+[[../poze/00191.png]]
 
 <p>Măsurând tensiunea produsă de un tahogenerator putem determina vieteza de rotaţia a dispozitivului conectat la bornele acestuia.</p>
 

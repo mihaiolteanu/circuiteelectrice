@@ -22,7 +22,8 @@
 <div id="contents">
 <p>Unghiul acestui „triunghi al puterilor” reprezintă raportul dintre valoarea puterii disipate (sau consumate) şi cantitatea de putere absorbită/returnată. De asemenea, reprezintă şi unghiul de fază al impedanţei circuitului, sub formă polară. Acest raport dintre puterea reală şi puterea aparentă poartă numele de <i>factor de putere</i> al circuitului. De asemenea, din geometria triunghiului, putem deduce că factorul de putere este egal şi cu cosinusul unghiului de fază. Folosind valorile din circuitul precedent:</p>
 
-<p><img src="../poze/12124.png" alt="calculul factorului de putere al circuitului"/></p>
+#+CAPTION: calculul factorului de putere al circuitului
+[[../poze/12124.png]]
 
 <p>Fiind calculat ca un raport, factorul de putere nu are unitate de măsură.</p>
 
@@ -36,17 +37,21 @@
 
 <p>Ştim că puterea reactivă, necorectată, este de 119.998 VAR (inductiv), prin urmare, trebuie să calculăm mărimea corectă a condensatorului, mărime necesară pentru a produce o cantitate egală de putere reactivă (capacitivă). Condensatorul va fi conectat în parelel cu sursa, prun urmare, vom folosi următoarea formulă:</p>
 
-<p><img src="../poze/12125.png" alt="calcule matematice"/></p>
+#+CAPTION: calcule matematice
+[[../poze/12125.png]]
 
 <p>Folosim un condensator cu o capacitate de 22 µF:</p>
 
-<p><img src="../poze/02219.png" alt="corectarea factorului de putere prin adăugarea unui condensator în paralel cu sarcină rezistiv-inductivă"/></p>
+#+CAPTION: corectarea factorului de putere prin adăugarea unui condensator în paralel cu sarcină rezistiv-inductivă
+[[../poze/02219.png]]
 
-<p><img src="../poze/12126.png" alt="calcule matematice"/></p>
+#+CAPTION: calcule matematice
+[[../poze/12126.png]]
 
 <p>Factorul de putere al circuitului a crescut substanţial, fiind foarte aproape de valoarea 1. Curentul principal a scăzut de la 1.41 A la 994.7 mA, iar puterea disipată pe rezistorul de sarcină a rămas neschimbată, 119.365 W.</p>
 
-<p><img src="../poze/12127.png" alt="calcule matematice"/></p>
+#+CAPTION: calcule matematice
+[[../poze/12127.png]]
 
 <p>Din moment ce impedanţa finală este un număr pozitiv, putem spune că, per total, inductivitatea circuitului este mai mare decât capacitatea sa. Dacă corectarea factorului de putere ar fi fost perfectă, unghiul impedanţei ar fi fost zero, sau pur rezistiv. Dacă în schimb, am fi adăugat un condensator prea mare în paralel, am fi obţinut un unghi al impedanţei negativ, indicând faptul că inductivitatea circuitului este mai mică decât capacitatea sa. Cu un factor de putere de 0.9999, defazajul dintre curent şi tensiune este foarte aproape de 0<sup>o</sup>.</p>
 

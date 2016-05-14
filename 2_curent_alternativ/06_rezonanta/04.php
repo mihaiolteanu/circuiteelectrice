@@ -24,7 +24,8 @@
 
 <p>Una dintre aplicaţiile rezonanţei constă în atingerea unei frecvenţe stabile în circuitele folosite pentru producerea semnalelor alternative. De obicei este folosit un circuit paralel în acest scop, condensatorul şi bobina fiind conectate împreună, schimbând energie între ele, alternativ. La fel cum pendulul poate fi folosit pentru stabilizarea frecvenţei oscilaţiilor ceasurilor, un circuit oscilator (paralel) poate fi folosit pentru stabilizarea frecvenţei electrice a unui circuit <i>oscilator</i> de curent alternativ. După cum am mai spus, frecvenţa impusă de circuitul oscilator depinde doar de valorile L şi C, şi nu de amplitudinea tensiunii sau a curentului din circuit.</p>
 
-<p><img src="../poze/02100.png" alt="circuit oscilator LC în curent alternativ"/></p>
+#+CAPTION: circuit oscilator LC în curent alternativ
+[[../poze/02100.png]]
 
 <p>O altă aplicaţie a rezonanţei este în circuitele în care efectele impedanţelor mărite sau micşorate, la o anumită frecvenţă, sunt de dorit. Un circuit rezonant poate fi folosit pentru „blocarea” (impedanţă mare) unei anumite frecvenţe sau a unui domeniu de frecvenţe; circuitul se comportă în acest caz precum un „filtru”, pentru selectarea anumitor frecvenţe în defavoarea altora. Aceste circuite sunt de fapt denumite <i>filtre</i>, iar studiul lor constituie o întreagă disciplină.</p>
 

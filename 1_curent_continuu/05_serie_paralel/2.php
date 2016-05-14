@@ -22,7 +22,8 @@
 <div id="contents">
 <p>Să începem cu un circuit electric format dintr-o baterie şi trei rezistori:</p>
 
-<img src="../poze/00087.png" alt="circuit serie"/>
+#+CAPTION: circuit serie
+[[../poze/00087.png]]
 
 <p>Primul principiu pe care trebuie să-l înţelegem legat de circuitele serie este păstrarea constantă a valorii curentului în întreg circuitul, şi prin urmare, prin fiecare component (prin fiecare component va trece aceeiaşi cantitate de curent electric). Acest lucru se datorează existenţei unei singurei căi pentru trecerea electronilor, iar dacă privim circuitul ca un tub cu bile, putem înţelege de ce rata de deplasare a bilelor trebuie să fie aceeiaşi în orice punct al tubului (circuitului).</p>
 
@@ -30,21 +31,25 @@
 
 <p>Un principiu important de ţinut minte legat de legea lui Ohm, este relaţia dintre tensiune, curent şi a rezistenţă între aceleaşi două puncte din circuit. De exemplu, în cazul unei singure bateri şi a unui singur rezistor în circuit, putem calcula foarte uşor valorile circuitului, pentru că acestea se referă la aceleaşi două puncte din circuit:</p>
 
-<p><img src="../poze/00088.png" alt="circuit serie"/></p>
+#+CAPTION: circuit serie
+[[../poze/00088.png]]
 
-<p><img src="../poze/10056.png" alt="relaţii matematice"/></p>
+#+CAPTION: relaţii matematice
+[[../poze/10056.png]]
 
 <p>Din moment ce punctele 1 şi 2 sunt conectate împreună printr-un fir de o rezistenţă neglijabilă (la fel şi punctele 3 şi 4), putem spune că punctele 1 şi 2 sunt comune, precum şi că punctele 3 şi 4 sunt comune între ele. De asemenea, ştim faptul că avem o tensiune electromotoare de 9 volţi între punctele 1 şi 4 (direct asupra bateriei), şi pentru că punctele 1 şi 2 cu punctele 3 şi 4 sunt comune, trebuie de asemenea să avem tot 9 volţi între punctele 2 şi 3 (direct asupra rezistorului). Prin urmare, putem aplica legea lui Ohm (I=E/R) asupra curentului prin rezistor, pentru că ştim tensiunea (E) la bornele rezistorului precum şi rezistenţa acestuia. Toţi termenii (E, I, R) se aplică în cazul aceloraşi două puncte din circuit, asupra aceluiaşi rezistor, prin urmare putem folosi legea lui Ohm fără nicio problemă.</p>
 
 <p>Totuşi, în circuitele ce conţin mai mult de un singur rezistor, trebuie să fim atenţi cum aplicăm legea lui Ohm. În exemplul de jos cu trei rezistori în circuit, ştim că avem 9 volţi între punctele 1 şi 4, valoare reprezentând forţa electromotoare disponibilă pentru impingerea electronilor prin conexiunea serie realizată din rezistorii R<sub>1</sub>,R<sub>2</sub> şi R<sub>3</sub>. Nu putem însă împărţi cei 9 volţi la 3kΩ, 10kΩ sau 5kΩ pentru a găsi valoarea curentului, pentru că nu cunoaştem defapt valoarea tensiunii pe fiecare din rezistori în parte, cunoaştem valoarea tensiunii pe întreg ansamblul de rezistori doar.</p>
 
-<img src="../poze/00087.png" alt="circuit serie"/>
+#+CAPTION: circuit serie
+[[../poze/00087.png]]
 
 <p>Valoarea de 9 volţi reprezintă o cantitate <i>totală</i> din circuit, pe când valorile de 3kΩ, 10kΩ şi 5kΩ, reprezintă cantităţi <i>individuale</i> din cadrul circuitului de faţă. Dacă ar să folosim în cadrul legii lui Ohm o valoare totală (tensiunea în acest caz) concomitent cu o valoare individuală (rezistenţa în acest caz), rezultatul nu va fi acelaşi pe care îl vom regăsi într-un circuit real.</p>
 
 <p>În cazul lui R<sub>1</sub>, legea lui Ohm se va folosi specificând tensiunea şi curentul la bornele rezistorului R<sub>1</sub>, şi valoarea rezistenţei lui, 3kΩ:</p>
 
-<img src="../poze/10057.png" alt="formula"/>
+#+CAPTION: formula
+[[../poze/10057.png]]
 
 <p>Dar din moment ce nu cunoaştem tensiunea la bornele lui R<sub>1</sub> (doar tensiunea totală pe toţi cei trei rezistori conectaţi în serie), şi nu cunoaştem nici curentul prin R<sub>1</sub> (curentul prin întreg circuitul defapt, deci şi prin ceilalţi doi rezistori), nu putem realiza niciun calcul cu niciuna dintre formule. Acelaşi lucru este valabil şi pentru R<sub>2</sub> şi R<sub>3</sub>.</p>
 
@@ -52,23 +57,28 @@
 
 <p>Cu această observaţia putem enunţa al doilea principiu al circuitelor serie: în oricare circuit serie, rezistenţa totală a circuitului este egală cu suma rezistenţelor individuale a fiecărui rezistor, prin urmare, cu cât avem mai multe rezistenţe în circuit, cu atât mai greu le va fi electronilor să se deplaseze prin circuit. În exemplul nostru, aveam trei rezistori în serie, de 3 kΩ, 10 kΩ, respectiv 5 kΩ, ceea ce rezultă într-o rezistenţă totală de 18Ω:</p>
 
-<img src="../poze/10058.png" alt="formula"/>
+#+CAPTION: formula
+[[../poze/10058.png]]
 
 <p>Ceea ce am făcut de fapt, a fost să calculăm rezistenţa echivalentă a rezistenţelor de 3 kΩ, 10 kΩ şi 5 kΩ luate împreună. Cunoscând acest lucru, putem redesena circuitul cu un singur rezistor echivalent reprezentând combinaţia serie a celor trei rezistori R<sub>1</sub>, R<sub>2</sub> şi R<sub>3</sub>:</p>
 
-<img src="../poze/00089.png" alt="formula"/>
+#+CAPTION: formula
+[[../poze/00089.png]]
 
 <p>Acum avem toate informaţiile necesare pentru a calcula curentul prin circuit, deoarece aven tensiunea între punctele 1 şi 4 (9 volţi), precum şi rezistenţă între punctele 1 şi 4 (18kΩ):</p>
 
-<img src="../poze/10059.png" alt="formula"/>
+#+CAPTION: formula
+[[../poze/10059.png]]
 
 <p>Cunoscând faptul că prin fiecare component în cadrul unui circuit serie, curentul este acelaşi, şi cunoscând valoarea acelui curentu în cazul de faţă, putem merge înapoi la circuitul iniţial şi să notăm valoarea curentului prin fiecare component în parte:</p>
 
-<img src="../poze/00090.png" alt="formula"/>
+#+CAPTION: formula
+[[../poze/00090.png]]
 
 <p>Acum că valoarea curentului prin fiecare rezistor ne este cunoscută, putem folosi legea lui OHm pentru determinarea căderilor de tensiune pe fiecare component în parte:</p>
 
-<img src="../poze/10060.png" alt="formula"/>
+#+CAPTION: formula
+[[../poze/10060.png]]
 
 <p>Putem observa căderea te tensiune pe fiecare rezistor în parte şi faptul că suma acestor căderi de tensiune (1.5 V + 5 V + 2.5 V) este egală cu tensiunea la bornele bateriei, 9 V. Acesta reprezintă al treilea principiu al circuitelor serie: tensiune electromotoare (a bateriei) este egală cu suma căderilor de tensiune pe fiecare component în parte.</p>
 

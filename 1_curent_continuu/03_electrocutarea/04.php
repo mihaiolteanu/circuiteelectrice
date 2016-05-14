@@ -25,17 +25,20 @@
 <h3>Asigurarea circuitelor cu ajurotul întrerupătoarelor</h3>
 <p>Toate circuitele ar trebui să aibă mecanisme de „deconectare” pentru asigurarea tensiunii din circuit. În unele cazuri, aceste dispozitive servesc un scop secundar în circuit, şi anume, deschiderea automată a acestuia în cazul în care valoarea curentului depăşeşte valoarea nominală permisă în circuit; În alte situaţii, întrerupătoarele de deconectare sunt operate manual nu automat. În ambele cazuri, acestea sunt utilizate pentru protecţie şi este necesară folosirea lor corespunzătoare. Trebuie avut în vedere faptul că aceste dispozitive de deconectare trebuie să fie diferite faţă de întrerupătoarele ce închid şi deschid circuitul în mod normal. Acestea sunt dispozitive de siguranţă pentru asigurarea stării de energie zero a circuitului:</p>
 
-<p><img src="../poze/00064.png" alt="întrerupător de siguranţă şi întrerupător de închidere/deschidere a circuitului"/></p>
+#+CAPTION: întrerupător de siguranţă şi întrerupător de închidere/deschidere a circuitului
+[[../poze/00064.png]]
 
 <p>Cu întrerupător în poziţia deschis (precum în figură), continuitatea circuitului este întreruptă şi curentul din circuit este zero. Caderea de tensiune pe sarcină este şi ea zero, deoarece întreaga tensiune a sursei se regăseşte la bornele contactelor întrerupătorului deschis. Observaţi că nu este nevoie de încă un întrerupător în partea de jos a circuitului. Datorită faptului că acea parte din circuit este conectată la împământare, ea este electric comună cu pământul şi nu sunt necesare măsuri suplimentare de siguranţă. Pentru o siguranţă maximă a persoanelor ce lucrează pe partea de sarcină a circuitului, se poate stabili o legătură temporară la pământ a părţii superioare a circuitului, pentru a ne asigura că nu este posibilă în niciun fel apariţia unei căderi de tensiune la bornele sarcinii:</p>
 
-<p><img src="../poze/00065.png" alt="asigurarea suplimentară a unui circuit deconectat de la sursa de putere prin realizarea unei împământări temporare a părţii din circuit neconectate iniţial la împământare"/></p>
+#+CAPTION: asigurarea suplimentară a unui circuit deconectat de la sursa de putere prin realizarea unei împământări temporare a părţii din circuit neconectate iniţial la împământare
+[[../poze/00065.png]]
 
 <p>După realizarea împământării temporare, ambele părţi ale sarcinii sunt conectate la pământ, asigurând o stare de energie zero la bornele acesteia.</p>
 
 <p>Din moment ce existenţa împământărilor pe ambele părţi ale circuitului înseamnă practic scurt-circuitarea sarcinii cu un conductor, putem asigura circuitul prin exact această metodă:</p>
 
-<p><img src="../poze/00066.png" alt="asigurarea suplimentară a unui circuit deconectat de la sursa de putere prin realizarea unui scurt-circuit cu ajutorul unui conductor plasat între cele două părţi ale circuitului"/></p>
+#+CAPTION: asigurarea suplimentară a unui circuit deconectat de la sursa de putere prin realizarea unui scurt-circuit cu ajutorul unui conductor plasat între cele două părţi ale circuitului
+[[../poze/00066.png]]
 
 <p>Indiferent de măsura luată, ambele părţi ale sarcinii se vor afla la aceelaşi potenţial, cel al pământului, neexistând nicio cădere de tensiune între oricare parte/bornă a sarcinii şi persoanele ce lucrează în acel loc prin intermediul pământului. Această tehnică este des întâlnită atunci când se lucrează la întreţinerea liniilor electrice de înaltă tensiune din reţeaua de distribuţie a energiei electrice.</p>
 

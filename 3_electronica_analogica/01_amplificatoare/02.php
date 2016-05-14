@@ -25,7 +25,8 @@
 <p>Toate dispozitivele active controlează curentul prin ele. Unele dispozitive active realizează acest lucru prin intermediul unei tensiuni, iar altele prin intermediul curentulu. Cele care utilizează o tensiune statică ca şi semnal de control, sunt denumite dispozitive <i>controlate în tensiune</i>. Cele care folosesc un alt curent pentru controlul curentului în cauză sunt cunoscute sub numele de dispozitive <i>controlate în curent</i>. Tuburile cu vid sunt dispozitive controlate în tensiune iar tranzistoarele pot fi de ambele tipuri.</p>
 
 
-<p><img src="../poze/00000.png" alt=""/></p>
+#+CAPTION: 
+[[../poze/00000.png]]
 
 <p class="sumar">Sumar:</p>
 <ul>

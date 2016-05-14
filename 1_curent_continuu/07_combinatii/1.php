@@ -22,19 +22,23 @@
 <div id="contents">
 <p>În cazul circuitelor serie simple, toate componentele sunt legate cap la cap şi formează o singură cale pentru curgerea electronilor prin circuit:</p>
 
-<img src="../poze/00082.png" alt="circuit serie"/>
+#+CAPTION: circuit serie
+[[../poze/00082.png]]
 
 <p>În cazul circuitelor parale simple, toate conponentele sunt legate legate între acelaşi set de puncte comune din punct de vedere electric, formându-se asfel mai multe căi pentru curgerea electronilor de la un capăt la celălalt al bateriei:</p>
 
-<img src="../poze/00083.png" alt="circuit serie"/>
+#+CAPTION: circuit serie
+[[../poze/00083.png]]
 
 <p>În ambele cazuri, avem de a face cu anumite seturi specifice de reguli pentru relaţiile dintre tesiune, curent şi rezistenţă. (notă: vezi circuitele serie şi circuitele paralel)</p>
 
 <p>Dar, în cazul în care o parte dintre componente sunt legate în serie şi o altă parte a componentelor în paralel, nu este posibilă aplicarea unei <i>singure</i> reguli pentru întreg circuitul, sau pentru fiecare parte constituentă. În schimb, vom încerca identificarea părţilor serie din circuit şi a părţilor paralele, ca mai apoi să aplicăm regulile necesare în funcţie de tipul circuitului. Să vedem un exemplu:</p>
 
-<img src="../poze/00123.png" alt="circuit serie-paralel combinat"/>
+#+CAPTION: circuit serie-paralel combinat
+[[../poze/00123.png]]
 
-<p><img src="../poze/10126.png" alt="tabel"/></p>
+#+CAPTION: tabel
+[[../poze/10126.png]]
 
 <p>Acesta nu este nici un circuit serie simplu nici unul paralel simplu, ci conţine elementele din ambele tipuri. Curentul iese prin partea de jos a bateriei, se împarte (ramifică) pe cele două ramuri spre R<sub>3</sub> şi R<sub>4</sub>, se re-întâlneşte, se ramifică încă odată spre R<sub>1</sub> şi R<sub>2</sub>, se re-întânleşte din nou şi se re-întoarce la baterie. Există mai mult de un singur drum pentru circulaţia curentului (nu este serie), dar totuşi, există mai mult decât două seturi de puncte electric comune (nu este paralel).</p>
 

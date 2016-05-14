@@ -26,25 +26,30 @@
 
 <p>Relaţiile dintre cele trei tipuri de putere şi rezistenţă, reactanţă şi impedanţa (folosind valori scalare), sunt următoarele:</p>
 
-<p><img src="../poze/12123.png" alt="formulele de calcul pentru puterea reală, reactivă şi aparentă, în funcţie de rezistenţă, reactanţă şi impedanţă"/></p>
+#+CAPTION: formulele de calcul pentru puterea reală, reactivă şi aparentă, în funcţie de rezistenţă, reactanţă şi impedanţă
+[[../poze/12123.png]]
 
 <p>Există două ecuaţii pentru calcularea puterilor reale şi reactive, dar există trei ecuaţii pentru calcularea puterii aparente, P=IE fiind folosită doar în acest scop. Să luăm următoarele circuit pur rezistiv ca şi prim exemplu:</p>
 
-<p><img src="../poze/02215.png" alt="calcularea puterii reale, reactive şi aparente într-un circuit electric de curent alternativ pur rezistiv"/></p>
+#+CAPTION: calcularea puterii reale, reactive şi aparente într-un circuit electric de curent alternativ pur rezistiv
+[[../poze/02215.png]]
 
 <p>Pentru un circuit pur inductiv (pur reactiv):</p>
 
-<p><img src="../poze/02216.png" alt="calcularea puterii reale, reactive şi aparente într-un circuit electric de curent alternativ pur inductiv"/></p>
+#+CAPTION: calcularea puterii reale, reactive şi aparente într-un circuit electric de curent alternativ pur inductiv
+[[../poze/02216.png]]
 
 <p>Pentru un circuit rezistiv-inductiv:</p>
 
-<p><img src="../poze/02217.png" alt="calcularea puterii reale, reactive şi aparente într-un circuit electric de curent alternativ pur rezistiv-inductiv"/></p>
+#+CAPTION: calcularea puterii reale, reactive şi aparente într-un circuit electric de curent alternativ pur rezistiv-inductiv
+[[../poze/02217.png]]
 
 <h3>Triunghiul puterii</h3>
 
 <p>Relaţia dintre cele trei tipuri de putere, reală, reactivă şi aparentă, poate fi exprimată sub formă trigonometrică. Această exprimare este cunoscută sub numele de <i>triunghiul puterii</i>.</p>
 
-<p><img src="../poze/02218.png" alt="triunghiul puterii"/></p>
+#+CAPTION: triunghiul puterii
+[[../poze/02218.png]]
 
 <p>Folosind teorema lui Pitagora, putem afla lungimea oricărei laturi a triunghiului dreptunghic, latură ce reprezintă de fapt puterea respectivă, dacă ştim „lungimile” celorlalte două laturi, sau o lungime şi unghiul de fază din circuit</p>
 

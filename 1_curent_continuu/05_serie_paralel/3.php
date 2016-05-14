@@ -22,19 +22,23 @@
 <div id="contents">
 <p>Să începem cu un circuit paralel format din trei rezistori şi o singură baterie:</p>
 
-<img src="../poze/00092.png" alt="circuit paralel"/>
+#+CAPTION: circuit paralel
+[[../poze/00092.png]]
 
 <p>Primul principiu pe care trebuie să-l înţelegem despre circuitele paralele este legat de faptul că tensiunea este egală la bornele tuturor componentelor din circuit. Acest lucru se datorează existenţei a unui număr de numai două seturi de puncte comune din punct de vedere electric într-un circuit paralel, iar tensiunea măsurată între seturi de puncte comune trebuie să fie tot timpul aceeiaşi. Prin urmare, în circuitul de mai sus, tensiunea la bornele rezistorului R<sub>1</sub> este egală cu tensiunea la bornele rezistorului R<sub>2</sub>egală cu tensiunea (căderea de tensiune) la bornele rezistorului R<sub>3</sub> şi de asemenea egală cu tensiunea (electromotoare) la bornele bateriei.</p>
 
 <p>Ca şi în cazul circuitelor serie, dacă dorim aplicarea legii lui Ohm, valorile tensiunii, curentului şi ale rezistenţei trebuie să fie în acelaşi context (total sau individual) pentru a obţine rezultate reale prin aplicarea formulelor. Totuşi, în circuitul  de mai sus, putem aplica de la început legea lui Ohm fiecărui rezistor în parte, pentru că se cunoaşte tensiunea la bornele fiecărui rezistor (9 voloţi) precum şi rezistenţa fiecărui rezistor:</p>
 
-<img src="../poze/10071.png" alt="circuit paralel"/>
+#+CAPTION: circuit paralel
+[[../poze/10071.png]]
 
 <p>Până în acest moment, nu cunoaştem valoarea totală a curentului, sau rezistenţă totală a acestui circuit paralel, asfel că nu putem aplica legea lui Ohm pentru a afla valoarea totală a curentului prin circuit (între punctele 1 şi 8 de exemplu). Totuşi, putem observa că valoarea totală a curentului prin circuit trebuie să fie egală cu suma valorilor curenţilor prin fiecare ramură (fiecare rezistor în parte):</p>
 
-<p><img src="../poze/00093.png" alt="circuit paralel"/></p>
+#+CAPTION: circuit paralel
+[[../poze/00093.png]]
 
-<p><img src="../poze/10074_2.png" alt="calcule matematice"/></p>
+#+CAPTION: calcule matematice
+[[../poze/10074_2.png]]
 
 <p>Pe măsură ce curentul iese prin terminalul negativ (-) al bateriei la punctul 8 şi se deplasează prin circuit, o parte din această cantitate se împarte în două la punctul 7, o parte mergând spre R<sub>1</sub>. La punctul 6 o parte din cantitate se va întrepta spre R<sub>2</sub>, iar ceea ce mai rămâne va curge spre R<sub>3</sub>. Acelaşi lucru se întâmplă pe partea cealaltă , la punctele 4, 3 şi 2, numai că de această dată curenţii se vor aduna şi vor curge împreună spre terminalul pozitiv al bateriei (+), la punctul 1. Cantitatea de electroni (curentul) ce se deplasează din punctul 2 spre punctul 1 trebuie să fie egală cu suma curenţilor din ramurile ce conţin rezistorii R<sub>1</sub>, R<sub>2</sub> şi R<sub>3</sub>.</p>
 
@@ -42,11 +46,13 @@
 
 <p>Şi în sfârşit, aplicând legea lui Ohm pe întreg circuitul, putem calcula valoarea totală a rezistenţei prezentă în circuit:</p>
 
-<img src="../poze/10074.png" alt="rezistenţa totală din circuit"/>
+#+CAPTION: rezistenţa totală din circuit
+[[../poze/10074.png]]
 
 <p>Trebuie să observăm un lucru foarte important în acest caz! Valoarea rezistenţei totale este de numai 625 Ω: <i>mai puţin</i> decât valoarea oricărei rezistenţe luate separat. În cazul circuitelor serie, unde rezistenţa totală este egală cu suma tuturor rezistenţelor individuale, suma totală a fost <i>mai mare</i> decât valoarea oricărei rezistenţe luate separat. În cadrul circuitelor paralel, este exact invers. Acesta este al doilea principiu al circuitelor electrice paralele, iar matematic, această relaţie între rezistenţa totală şi rezistenţele individuale din circuit poate fi exprimată astfel:</p>
 
-<img src="../poze/10075.png" alt="rezistenţa totală într-un circuit paralel"/>
+#+CAPTION: rezistenţa totală într-un circuit paralel
+[[../poze/10075.png]]
 
 
 <p class="sumar">Sumar:</p>

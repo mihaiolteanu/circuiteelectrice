@@ -24,13 +24,15 @@
 
 <p>Circuitele electronice sunt perfecte pentru reprezentarea numerelor binare. Tranzistorii, atunci când funcţionează la limită, se pot afla într-un din cele două stări: fie în stare blocată (curent de control zero), fie în stare de saturaţie (curent de control maxim). Dacă un circuit cu tranzistor este proiectat pentru maximizarea probabilităţii de funcţionare într-una din cele două stări (evitarea funcţionării tranzistorului în zona activă de funcţionare), acesta poate fi folosit ca şi reprezentare fizică a unui bit. Căderea de tensiune măsurată la ieşirea unui astfel de circuit poate fi folosită pentru reprezentarea unui singur bit. O tensiune joasă reprezentând „0”, şi o tensiune (relativ) înaltă reprezentând „1”.</p>
 
-<p><img src="../poze/04068.png" alt="tranzistor aflat în saturaţie"/></p>
+#+CAPTION: tranzistor aflat în saturaţie
+[[../poze/04068.png]]
 
 <p>În figura alăturată, tranzistorul este saturat datorită tensiunii de intrare de 5 V (prin intermediul comutatorului cu două poziţii). Deoarece este saturat, căderea de tensiune dintre colector şi emitor este foarte mică, rezultând o tensiune de ieşire de practic 0 V. Dacă am folosit acest circuit pentru reprezentarea numerelor binare, am spune că semnalul de intrare este „1” binar, iar semnalul de ieşire este „0” binar. Orice tensiune apropiată de tensiunea de alimentare (având ca referinţă masa), este considerată a fi „1”, iar o lipsă de tensiune este considerată a fi „0”. Alternativ, se folosesc termenii de „înalt” (1 binar) sau jos (0 binar). Termenul general pentru reprezentarea unui bit prin intermediul unei tensiuni poartă numele de „nivel logic”.</p>
 
 <div class="clear"></div>
 
-<img src="../poze/04068.png" alt="tranzistor aflat în saturaţie"/>
+#+CAPTION: tranzistor aflat în saturaţie
+[[../poze/04068.png]]
 
 <p>Trecând comunatorul pe cealalţă poziţie, aplicăm o intrare de 0 binar si obţinem la ieşire 1 binar.</p>
 
@@ -40,13 +42,15 @@
 
 <h2>Poarta inversoare (NU sau NOT)</h2>
 
-<p><img src="../poze/04070.png" alt="poartă inversoare; simbol"/></p>
+#+CAPTION: poartă inversoare; simbol
+[[../poze/04070.png]]
 
 <p>Alăturat este simbolul folosit pentru reprezentarea unei porţi inversoare (NOT). Aceasta se comportă identic cu circuitul analizat mai sus, şi anume: ieşirea porţii este inversă faţa de intrare (intrare 0, ieşire 1 sau intrare 1, ieşire 0). Aceste porţi sunt de fapt circuite cu tranzistoare de genul celui prezentat mai sus, dar, pentru simplificarea analizei circuitelor, se vor folosi aceste simboluri specifice fiecărei porţi.</p>
 
 <div class="clear"></div>
 
-<p><img src="../poze/04099.png" alt="poartă inversoare; simbol alternativ"/></p>
+#+CAPTION: poartă inversoare; simbol alternativ
+[[../poze/04099.png]]
 
 <p>Un simbol alternativ pentru o poartă inversoare este cel din figura alăturată.</p>
 
@@ -56,13 +60,15 @@
 
 <h2>Poarta ne-inversoare (buffer)</h2>
 
-<p><img src="../poze/04087.png" alt="inversare dublă (două porţi inversoare conectate cap-coadă"/></p>
+#+CAPTION: inversare dublă (două porţi inversoare conectate cap-coadă
+[[../poze/04087.png]]
 
 <p>Dacă ar fi să conectăm două porţi inversoare, una în continuarea celeilalte, cele două funcţii de inversare s-ar „anula” reciproc. În acest caz, semnalul de ieşire va fi acelaşi cu cel de intrare.</p>
 
 <div class="clear"></div>
 
-<p><img src="../poze/04088.png" alt="poartă ne-inversoare (buffer); simbol"/></p>
+#+CAPTION: poartă ne-inversoare (buffer); simbol
+[[../poze/04088.png]]
 
 <p>Pentru acest scop, există o poartă logică separată, denumită buffer (sau poartă ne-inversoare). Simbolul este un triunghiu simplu, precum în figura alăturată.</p>
 
@@ -72,13 +78,15 @@
 
 <p>Asemănător simbolului amplificatorului operational, conexiunile de intrare şi de ieşire sunt reprezentate printr-un singur fir, punct de referinţă implicit pentru fiecare cădere de tensiune fiind masa. În circuitele logice, masa este aproape tot timpul reprezentată de către conexiunea negativă a sursei de alimentare. Sursele de alimentare duale sunt rareori folosite în astfel de circuite. Datorită faptului că circuitele logice (cu porţi) sunt de fapt nişte amplficatoare, acestea necesită o sursă de putere pentru funcţionare. La fel ca în cazul AO, conexiunile surselor de alimentare sunt omise pentru simplitate.</p>
 
-<p><img src="../poze/04071.png" alt="poartă inversoare; circuit de alimentare complet"/></p>
+#+CAPTION: poartă inversoare; circuit de alimentare complet
+[[../poze/04071.png]]
 
 <p>Dacă ar fi să reprezentăm toate conexiunile necesare pentru utilizarea acestei porţi, circuitul ar arăta precum cel din figura alăturată.</p>
 
 <div class="clear"></div>
 
-<p><img src="../poze/04072.png" alt="poartă inversoare; circuit de alimentare complet"/></p>
+#+CAPTION: poartă inversoare; circuit de alimentare complet
+[[../poze/04072.png]]
 
 <p>Conductorii surselor de alimentare sunt rareori reprezentaţi în circuitele electronice, chiar şi atunci când sunt reprezentate conexiunile pe fiecare poartă. Astfel, eliminând liniile ce nu sunt necesare, obţinem rezultatul alăturat.</p>
 

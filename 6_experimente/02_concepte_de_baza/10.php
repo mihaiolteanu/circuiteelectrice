@@ -25,11 +25,13 @@
 
 <p>Experimentul de faţă este asemănător experimentului precedent. Veţi avea nevoie de un electromagnet şi un multimetru. Prin realizarea circuitului de mai jos, vom demonstra relaţia dintre intensitatea câmpului magnetic şi tensiunea indusă:</p>
 
-<img src="../poze/05070.png" alt="exemplificarea inducţiei elecromagnetice"/>
+#+CAPTION: exemplificarea inducţiei elecromagnetice
+[[../poze/05070.png]]
 
 <p>Circuitul practic va arăta astfel:</p>
 
-<img src="../poze/05071.png" alt="exemplificarea inducţiei elecromagnetice"/>
+#+CAPTION: exemplificarea inducţiei elecromagnetice
+[[../poze/05071.png]]
 
 <p>Inducţia electromagnetică este inversul fenomenului de electromagnetism. În exemplul precedent am produs un câmp magnetic cu ajutorul unei tensiuni electrice. În exemplul de faţa, vom inversa această situaţie, şi vom produce un curent electric cu ajutorul unui câmp magnetic. Exista totuşi, o diferenţă importantă: în cazul electromagnetismului, câmpul magnetic este produs de un curent constant (curent continuu). Inducţia electromagnetică necesită o deplasare a magnetului sau a bobine pentru a produce o tensiune.</p>
 

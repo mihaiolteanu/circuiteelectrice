@@ -28,43 +28,54 @@
 
 <p>Să luăm acelaşi circuit ca şi exemplu:</p>
 
-<img src="../poze/00209.png" alt="circuit electric"/>
+#+CAPTION: circuit electric
+[[../poze/00209.png]]
 
 <p>Din moment ce avem două surse de putere în acest circuit, va trebui să calculăm două seturi de date pentru căderile de tensiune şi curent, un set pentru circuitul funcţionând doar cu sursa de tensiune de 28 de volţi...</p>
 
-<img src="../poze/00227.png" alt="circuit electric"/>
+#+CAPTION: circuit electric
+[[../poze/00227.png]]
 
 <p>...celălalt pentru circuitul funcţionând doar cu bateria de 7 volţi:</p>
 
-<img src="../poze/00228.png" alt="circuit electric"/>
+#+CAPTION: circuit electric
+[[../poze/00228.png]]
 
 <p>Atunci când redesenăm un circuit pentru analiza serie/paralel cu o singură sursă, toate celelalte surse de tensiune sunt înlocuite de fire (scurt circuit), şi toate sursele de curent sunt înlocuitr de circuite deschise. Din moment ce avem doar surse de tensiune (baterii) în circuitul de mai sus, toate sursele de putere inactive vor fi înlocuite de fire.</p>
 
 <p>Analizând circuitul în care acţionează doar bateria de 28 de volţi, obţinem următoarele valori pentru tensiune şi curent:</p>
 
-<img src="../poze/10192.png" alt="tabel"/>
-<p><img src="../poze/00229.png" alt="circuit electric"/></p>
+#+CAPTION: tabel
+[[../poze/10192.png]]
+#+CAPTION: circuit electric
+[[../poze/00229.png]]
 
 <p>Analizând circuitul în care acţionează doar bateria de 7 de volţi, obţinem următoarele valori pentru tensiune şi curent:</p>
 
-<img src="../poze/10193.png" alt="tabel"/>
-<p><img src="../poze/00230.png" alt="circuit electric"/></p>
+#+CAPTION: tabel
+[[../poze/10193.png]]
+#+CAPTION: circuit electric
+[[../poze/00230.png]]
 
 <p>Atunci când realizăm suprapunerea, trebuie să fim foarte atenţi la polaritatea căderilor şi la direcţia curenţilor, pentru că aceste valori se adună <i>algebric</i>:</p>
 
-<p><img src="../poze/00231.png" alt="tabel"/></p>
+#+CAPTION: tabel
+[[../poze/00231.png]]
 
 <p>Aplicând aceste valori, rezultatul final arată asfel:</p>
 
-<p><img src="../poze/00232.png" alt="circuit electric"/></p>
+#+CAPTION: circuit electric
+[[../poze/00232.png]]
 
 <p>Acelaşi lucru este valabil şi în cazul curenţilor.</p>
 
-<p><img src="../poze/00233.png" alt="tabel"/></p>
+#+CAPTION: tabel
+[[../poze/00233.png]]
 
 <p>Folosind valorile aflate după aplicarea superpoziţiei, circuitul arată asfel:</p>
 
-<p><img src="../poze/00234.png" alt="circuit electric"/></p>
+#+CAPTION: circuit electric
+[[../poze/00234.png]]
 
 <p>Simplu şi elegant în acelaşi timp. Totuşi, teorema superpoziţiei poate fi aplicată doar circuitelor ce pot fi reduse la combinaţii de circuite serie/paralel pentru fiecare sursă de putere (tensiune sau curent) în parte, şi doar atunci când ecuaţiile folosite sunt liniare. Acest lucru înseamnă ca teorema nu potate fi folosită decât pentru determinare tensiunii şi a puteri <i>nu></i> şi a puterii! Puterile disipate în circuit, fiind funcţii neliniare, nu pot fi adunate algebric atunci când se consideră doar o sursă de putere. Aceeiaşi nevoie de liniaritate înseamnă ca teorema este inutilă în circuitele în care rezistenţa componentelor se modifică odată cu tensiunea sau temperatura, ca de exemplu becuri incandescente sau varistoare.</p>
 

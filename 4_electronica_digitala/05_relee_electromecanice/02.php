@@ -23,7 +23,8 @@
 
 <p>Atunci când releele sunt folosite pentru comutarea unor puteri mari prin contactele sale, acestea poartă numele de contactoare. Contactorele au de obicei mai multe contacte, iar aceastea sunt de obicei (deşi nu neapărat) în poziţia normal-deschis: circuitul este deschis atunci când bobina nu este energizată.</p>
 
-<img src="../poze/04042.png" alt="releu electromecanic într-un circuit trifazat pentru controlul unui motor electric"/>
+#+CAPTION: releu electromecanic într-un circuit trifazat pentru controlul unui motor electric
+[[../poze/04042.png]]
 
 <p>Probabil cea mai des întâlnită aplicaţie a contactoarelor constă în controlul motoarelor electrice. </p>
 

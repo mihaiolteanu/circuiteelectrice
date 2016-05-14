@@ -45,19 +45,23 @@
 
 <p>Scenariul pentru o baterie complet încărcată arată aproximativ astfel:</p>
 
-<img src="../poze/00266.png" alt="verificarea stării de încărcare a unei baterii"/>
+#+CAPTION: verificarea stării de încărcare a unei baterii
+[[../poze/00266.png]]
 
 <p>Dacă bateria se descarcă puţin:</p>
 
-<img src="../poze/00267.png" alt="verificarea stării de încărcare a unei baterii"/>
+#+CAPTION: verificarea stării de încărcare a unei baterii
+[[../poze/00267.png]]
 
 <p>Apoi puţin mai mult:</p>
 
-<img src="../poze/00268.png" alt="verificarea stării de încărcare a unei baterii"/>
+#+CAPTION: verificarea stării de încărcare a unei baterii
+[[../poze/00268.png]]
 
 <p>Şi încă puţin până când este complet descărcată:</p>
 
-<img src="../poze/00269.png" alt="verificarea stării de încărcare a unei baterii"/>
+#+CAPTION: verificarea stării de încărcare a unei baterii
+[[../poze/00269.png]]
 
 <p>Observaţi diferenţa dintre valoarea tensiunii măsurată cu ajutorul voltmetrului în funcţie de conectarea sau neconectarea bateriei la o sarcină. Înseamnă oare acest lucru că este inutil să verificăm o baterie doar cu ajutorului unui voltmetru (fără sarcină)? Nu chiar. Dacă un voltmetru simplu indică o valoare de doar 7,5 V pentru o baterie de 13,2 V, putem deduce fără urmă de îndoială că aceasta este descărcată. Totuşi, dacă voltmetrul ar indica 12,5 V, bateria este aproape încărcată. Atenţie însă, mărimea rezistorul folosit pe post de sarcină trebuie să corespundă puterii maxime disipate de baterie. Pentru verificarea bateriilor mari, precum bateriile auto (12 V) de plumb-acid, acest lucru înseamnă că va trebui să folosim un rezistor ce poate suporta o putere de câteva sute de W (watt).</p>
 

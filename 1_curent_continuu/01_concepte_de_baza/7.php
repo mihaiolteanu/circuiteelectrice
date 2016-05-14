@@ -25,11 +25,13 @@
 
 <p>Datorită faptului că tindem să asociem termenul de „pozitiv” cu un „surplus”, şi termenul „negativ” cu o „deficienţă”, standardul tehnic pentru denumirea sarcinii electronilor pare să fie chiar invers. Datorită acestui lucru, mulţi ingineri se decid să menţină vechiul concept al electricităţii, unde „pozitiv” înseamnă un surplus de sarcină, şi notează curgerea curentului în acest fel. Această notaţie a devenit cunoscută sub denumirea de <i>sensul convenţional de deplasare al electronilor</i>:</p>
 
-<img src="../poze/00438.png" alt="sensul convenţional de deplasare al electronilor"/> 
+#+CAPTION: sensul convenţional de deplasare al electronilor
+[[../poze/00438.png]]
 
 <p>Alţii aleg să descrie deplasarea sarcinii exact aşa cum se realizează ea din punct de vedere fizic într-un circuit. Această notaţia a devenit cunoscută sub numele de <i>sensul real de deplasare al electronilor</i>:</p>
 
-<img src="../poze/00439.png" alt="sensul real de deplasare al electronilor"/> 
+#+CAPTION: sensul real de deplasare al electronilor
+[[../poze/00439.png]]
 
 <p>În cazul sensului convenţional de deplasare al electronilor, deplasarea sarcinii electrice este indicată prin denumirile (tehnic incorecte) de + şi -. În acest fel aceste denumiri au sens, dar direcţia de deplasare a sarcinii este incorectă. În cazul sensului real de deplasare al electronilor, urmărim deplasarea reală a electronilor prin circuit, dar denumirile de + şi - sunt puse invers. Contează chiar aşa de mult modul în care punem aceste etichete într-un circuit? Nu, atâta timp cât folosim aceeiaşi notaţie peste tot. Putem folosi direcţia imaginată de Franklin a curgerii electronilor (convenţională) sau cea efectivă (reală) cu aceleaşi rezultate din punct de vedere al analizei circuitului. Conceptele de tensiune, curent, rezistenţă, continuitate şi chiar elemente matematice precum „Legea lui Ohm” (Capitolul 2) sau „Legile lui Kirchhoff” (Capitolul 6) sunt la fel de valide oricare notaţie am folosi-o.</p>
 
@@ -41,21 +43,25 @@
 
 <p>Probabil că cel mai bun exemplu de dispozitiv polarizat o reprezintă <i>dioda</i>.O diodă este o „valvă” electrică cu sens unic. Ideal, dioda oferă deplasare liberă electronilor într-o singură direcţie (rezistenţa foarte mică), dar prevină deplasarea electronilor în direcţia opusă (rezistenţă infinită). Simbolul folosit este acesta:</p>
 
-<img src="../poze/00440.png" alt="simbolul diodei"/> 
+#+CAPTION: simbolul diodei
+[[../poze/00440.png]]
 
 <p>Introdusă într-un circuit cu o baterie şi un bec, se comportă asfel<sup>5</sup>:</p>
 
-<img src="../poze/00441.png" alt="funcţionarea diodei"/> 
+#+CAPTION: funcţionarea diodei
+[[../poze/00441.png]]
 
 <p>Când dioda este plasată în direcţia curgerii curentului, becul se aprinde. Altfel dioda blochează curgerea electronilor precum oricare altă întrerupere din circuit, iar becul nu va lumina.</p>
 
 <p>Dacă folosim notaţia convenţională, săgeata diodei este foarte uşor de înţeles: triunghiul este aşezat în direcţia de curgere a curentului, de la pozitiv spre negativ:</p>
 
-<img src="../poze/00442.png" alt="sensul curentului prin diodă folosind notaţia convenţională"/> 
+#+CAPTION: sensul curentului prin diodă folosind notaţia convenţională
+[[../poze/00442.png]]
 
 <p>Pe de altă parte, dacă folosim notaţia reală de deplasare a electronilor prin circuit, săgeata diodei pare aşezată invers:</p>
 
-<img src="../poze/00443.png" alt="sensul curentului prin diodă folosind notaţia reală"/> 
+#+CAPTION: sensul curentului prin diodă folosind notaţia reală
+[[../poze/00443.png]]
 
 <p>Din acest motiv simplu, mulţi oameni tind să folosească notaţia convenţională atunci când reprezinţă direcţia sarcinii electrice prin circuit. Dispozitivele semiconductoare precum diodele sunt mai uşor de înţeles asfel în cadrul unui circuit. Totuşi, unii aleg să folosească notaţia reală pentru a nu trebui să-şi reamintească lor însuşi de fiecare data faptul că electronic se deplasează <i>de fapt</i> în direcţia opusă, atunci când această direcţie de deplasare devine importantă dintr-un oarecare motiv.</p>
 

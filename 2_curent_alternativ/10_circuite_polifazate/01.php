@@ -21,23 +21,28 @@
   
 <div id="contents">
 
-<p><img src="../poze/02164.png" alt="schema electrică a unui circuit monofazat simplu; sarcini conectat în paralel"/></p>
+#+CAPTION: schema electrică a unui circuit monofazat simplu; sarcini conectat în paralel
+[[../poze/02164.png]]
 
 <p>Schema electrică de sus este a unui circuit electric simplu, monofazat, în curent alternativ. Dacă puterea disipată pe sarcini este suficient de mare, putem denumi o asfel de configuraţie „circuit de putere”. Distincţia dintre un circuit de putere şi un circuit normal poate părea întâmplătoare, dar implicaţiile practice sunt importante.</p>
 
 <p>Una dintre implicaţii este costul şi mărimea conductorilor necesari pentru alimenatrea sarcinilor de la sursa. În mod normal, nu ne interesează asfel de probleme dacă analizăm un circuit doar pentru a învăţa despre electricitate. Totuşi, în viaţa reală, acest lucru este de o importanţă deosebită. Dacă, în circuitul de mai sus, considerăm sursa de tensiune ca fiind de 120 V, iar puterile disipate pe sarcini de 10 kW fiecare, putem determina tipul conductorilor de care avem nevoie.</p>
 
-<p><img src="../poze/02165.png" alt="schema electrică a unui circuit monofazat simplu; sarcini conectat în paralel"/></p>
+#+CAPTION: schema electrică a unui circuit monofazat simplu; sarcini conectat în paralel
+[[../poze/02165.png]]
 
-<p><img src="../poze/12109.png" alt="calcule matematice"/></p>
+#+CAPTION: calcule matematice
+[[../poze/12109.png]]
 
 <p>Putem vedea că valoarea curentului prin circuit este foarte mare în acest caz, 88.33 A pentru fiecare rezistor, adică 166.66 A pentru curentul total din circuit. Conductorii de cupru folosiţi pentru asfel de aplicaţii ar ajunge undeva la 6 mm în diametru, cu o greutate de aproximativ 50 kg  la 100 m, iar cuprul nu este nici el un material ieftin. În cazul în care ar fi să proiectăm un asfel de sistem de putere, cea mai bună strategie ar fi să căutăm soluţii pentru minimizarea acestor tipuri de costuri.</p>
 
 <p>O soluţie ar fi creşterea tensiunii sursei de alimentare folosind sarcini ce disipă aceeiaşi cantitate de putere, 10 kW, pentru această tensiune. Sarcinile ar trebui să aibă valori mai mari ale rezistenţelor dacă vrem să disipe aceeiaşi putere la o tensiune mai mare. Avantajul constă în diminuarea curentului necesar, şi prin urmare, folosirea unor conductori de dimensiuni mai mici, mai uşori şi mai ieftini:</p>
 
-<p><img src="../poze/02166.png" alt="schema electrică a unui circuit monofazat simplu; sarcini conectat în paralel"/></p>
+#+CAPTION: schema electrică a unui circuit monofazat simplu; sarcini conectat în paralel
+[[../poze/02166.png]]
 
-<p><img src="../poze/12110.png" alt="calcule matematice"/></p>
+#+CAPTION: calcule matematice
+[[../poze/12110.png]]
 
 <p>De data aceasta, curentul total este 83.33 A, jumătate faţă de valoarea precedentă. Putem utiliza conductori a căror greutate este jumătate din valoarea precedentă. Aceasta este o reducere considerabilă a costurilor sistemului, fără niciun efect negativ asupra performanţelor. Acesta este şi motivul pentru care sistemele de distribuţie sunt proiectate pentru transmiterea puterilor la tensiuni foarte înalte: pentru a profita de avantajul oferit de utilizarea conductorilor cu diametru mai mic, mai uşori şi mai ieftini.</p>
 
@@ -47,7 +52,8 @@
 
 <p>O soluţie alternativă ar fi utilizarea unei surse de tensiune mai înaltă pentru alimentarea celor două sarcini în serie, căderea de tensiune pe fiecare sarcină fiind asfel jumătate din tensiunea de alimentare. Această soluţie combină eficienţa unui sistem de tensiune înaltă cu siguranţa oferită de un sistem de tensiune joasă.</p>
 
-<p><img src="../poze/02167.png" alt="schema electrică a unui circuit monofazat simplu; sarcinile sunt conectate în serie"/></p>
+#+CAPTION: schema electrică a unui circuit monofazat simplu; sarcinile sunt conectate în serie
+[[../poze/02167.png]]
 
 <p>Puteţi observa pe desen şi polarităţile („+” şi „-”) pentru fiecare tensiune, precum şi direcţia curentului prin circuit. Chiar dacă este un circuit alternativ, vom utiliza aceste notaţii pentru a avea un sistem de referinţă pentru fazele tensiunilor şi a curenţilor, sistem ce se va dovedi folositor în capitolele următoare.</p>
 
@@ -55,9 +61,11 @@
 
 <p>Există însă un dezavantaj al acestui tip de circuit: în cazul defectării uneia dintre sarcinii, dacă aceasta este închisă sau scoasă din circuit, vom avea practic un circuit deschis, curentul scăzând la zero şi întreaga cădere de tensiune se va regăsi pe această sarcină „defecta”. Din acest motiv, trebuie să modificăm puţin circuitul:</p>
 
-<p><img src="../poze/02168.png" alt="schema electrică a unui circuit monofazat simplu; sarcinile sunt conectate în serie; adăugarea unui conductor neutru"/></p>
+#+CAPTION: schema electrică a unui circuit monofazat simplu; sarcinile sunt conectate în serie; adăugarea unui conductor neutru
+[[../poze/02168.png]]
 
-<p><img src="../poze/12111.png" alt="calcule matematice"/></p>
+#+CAPTION: calcule matematice
+[[../poze/12111.png]]
 
 <p>În locul unei singure surse de tensiune de 240 V, folosim două surse de 120 V, conectate în serie şi în fază una cu cealaltă, pentru producerea unei tensiuni de 240 V, şi utilizăm un conductor suplimentar conectat între cele două sarcini şi cele două surse, pentru a prelua curentul în cazul deschiderii uneia dintre sarcini. Dacă suntem atenţi, observăm că firul neutru trebuie să conducă doar diferenţa de curent dintre cele două sarcini. În cazul de mai sus, când sarcinile sunt echilibrate (egale), puterea consumată de acestea este egală, asfel că neutrul nu conduce curent.</p>
 
@@ -65,15 +73,18 @@
 
 <p>O componentă importantă a unui asfel de sistem o reprezintă sursele de tensiune duale în curent alternativ. Din fericire, construcţia unui asfel de sistem nu este dificilă. Din moment ce majoritatea sistemlor de curent alternativ sunt alimentate de un transformator coborâtor de tensiune, acel transformator poate fi construit cu o priză mediană pe înfăşurarea secundară:</p>
 
-<p><img src="../poze/02169.png" alt="transformator coborâtor de tensiune cu priză mediană pe înfăşurarea secundară pentru alimentarea unui sistem de alimentare în curent continuu dual"/></p>
+#+CAPTION: transformator coborâtor de tensiune cu priză mediană pe înfăşurarea secundară pentru alimentarea unui sistem de alimentare în curent continuu dual
+[[../poze/02169.png]]
 
 <p>Notarea polarităţilor („+” şi „-”) devine în acest moment importantă. Aceasta este folosită ca şi sistem de referinţă al fazelor în circuitele de curent alternativ cu surse de alimentare multiple. Cele două surse de mai sus, conectate în serie, pot fi la fel de bine reprezentate folosind notaţia polară: conectate în anti-serie şi defazaj de 180<sup>o</sup> între ele. Cele două moduri de reprezentare sunt echivalente.</p>
 
-<p><img src="../poze/02170.png" alt="reprezentarea alternativă a conexiunilor surselor de alimentare, folosind notaţia polară"/></p>
+#+CAPTION: reprezentarea alternativă a conexiunilor surselor de alimentare, folosind notaţia polară
+[[../poze/02170.png]]
 
 <p>Căderea de tensiune între cele două faze poate fi calculată asfel:</p>
 
-<p><img src="../poze/12112.png" alt="calcule matematice"/></p>
+#+CAPTION: calcule matematice
+[[../poze/12112.png]]
 
 <p>Dacă marcăm conexiunea comună a celor două surse (firul neutru) cu aceeiaşi polaritate (-), atunci va trebui să exprimăm diferenţa de fază a celor două ca fiind 180<sup>o</sup>. În caz contrar, am avea două surse de tensiune acţionând în direcţii opuse, ceea ceea ce ar duce la o diferenţa de 0 V între cele două faze.</p>
 

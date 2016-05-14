@@ -23,7 +23,8 @@
 
 <p>Motoarele sincrone introduc un factor de putere capacitiv în circuitul de alimentare. Acest lucru este adeseori folositor pentru anularea faptorului de putere inductiv, mult mai des întâlnit şi cauzat de motoarele asincrone şi alte tipuri de sarcini inductive. Iniţial, motoarele sincrone industriale au fost folosite pe scară largă datorită acestei abilităti de a corecta fapturul de putere inductiv a motoarelor asincrone.</p>
 
-<p><img src="../poze/00000.png" alt=""/></p>
+#+CAPTION: 
+[[../poze/00000.png]]
 
 <p class="sumar">Sumar:</p>
 <ul>

@@ -27,13 +27,15 @@
 
 <p>În cazul motoarelor de c.a., atât miezul rotorului cât şi cel al statorului este realizat din tole. Aceste tole nu reprezintă altceva decât un set de straturi metalice acoperite şi izolate între ele prin lăcuire. Curenţii turbionari sunt reduşi prin divizarea buclei potenţiale de curent în segmente mai mici şi cu pierderi reduse. Buclele de curent arată conform figurii de mai jos (stânga). Utilizarea tolelor pentru realizarea miezurilor duce la „spargerea” acestor bucle de curent (figura de mai jos, dreapta). De asemenea, adăugarea siliciului (material semiconductor) în aliajul din care sunt realizate toelele, duce la creşterea rezistenţei electrice. Acest lucru duce la descreşterea amplitudinii curenţilor turbionari:</p>
 
-<p><img src="../poze/02422.png" alt="curenţi turbionari în miez masiv şi în miez realizat din tole"/></p>
+#+CAPTION: curenţi turbionari în miez masiv şi în miez realizat din tole
+[[../poze/02422.png]]
 
 <h2>Histereza magnetică</h2>
 
 <p>Histereza magnetică este defazarea în urmă a intensităţii câmpului magnetic în comparaţie cu forţa de magnetizare. Dacă magnetizăm temporar un cui de fier cu ajutorul unei bobine cilindrice, ne aşteptăm ca materialul să-şi pierdă câmpul magnetic după ce bobina nu mai este alimentată. Totuşi, cuiul va păstra o cantitate mică de magnetizare reziduală, B<sub>r</sub>, datorită efectului de histerezis:</p>
 
-<p><img src="../poze/02423.png" alt="pierderi prin histereză"/></p>
+#+CAPTION: pierderi prin histereză
+[[../poze/02423.png]]
 
 <p>Un curent alternativ va trebui să folosează energie, -H<sub>c</sub> (intensitatea câmpului coercitiv), pentru „învingerea” acestei magnetizări reziduale înainte de a putea magnetiza miezul înapoi la zero, sau chiar în direcţia opusă. Pierderile prin histereză au loc la fiecare schimbare de polaritate a curentului alternativ. Pierderea este proporţională cu aria mărginită de curba de histereză de pe grafigul B-H. Pierderile prin histereză în cazul aliajelor din fier moale sunt mai reduse decât în cazul aliajelor din fier carbon „dure”.</p>
 

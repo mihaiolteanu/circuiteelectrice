@@ -30,7 +30,8 @@
 
 <p>Tehnologia electronici a cunoscut o revoluţie în anul 1948, odată cu invenţia <i>tranzistorului</i>. Acest component electric minuscul joacă acelaşi rol ca şi un tub cu vid, dar ocupă un loc mult mai mic şi este mult mai ieftin. Tranzistorii realizează controlul curentului cu ajutorul materialelor <i>semiconductoare</i> şi nu prin vid.</p>
 
-<p><img src="../poze/03375.png" alt="efectul Edison"/></p>
+#+CAPTION: efectul Edison
+[[../poze/03375.png]]
 
 <p class="sumar">Sumar:</p>
 <ul>

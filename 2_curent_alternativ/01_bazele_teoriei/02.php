@@ -22,7 +22,8 @@
 <div id="contents">
 <p>Datorită modului de producere al energiei electrice, unda produsă de modificarea continuă a polarităţii tensiunii, respectiv direcţiei curentului, are o formă <i>sinusoidală</i>:</p>
 
-<p><img src="../poze/02008.png" alt="formă de undă sinusoidală"/></p>
+#+CAPTION: formă de undă sinusoidală
+[[../poze/02008.png]]
 
 <p>Graficul tensiunii cu timpul pentru un generator electric electromecanic ne arată o modificare netedă a polarităţii (dinspre + spre - sau invers); nivelul tensiunii are cea mai rapidă variaţie în jurul valorii de zero, la intersecţia cu axa timpului, şi cea mai lentă în jurul valorilor maxime. Dacă luăm funcţia trigonometrică sinus între 0 şi 360 de grade şi o desenăm pe un grafic, aceasta va fi exact figurii considerate mai sus.</p>
 
@@ -30,7 +31,8 @@
 
 <p>Dacă urmărim variaţia tensiunii produsă de înfăşurările unui generator din oricare punct de pe graficul funcţiei (sinus în acest caz) până în momentul în care graficul începe să se repete, spunem că s-a efectuat exact o perioadă a acelei funcţii. Matematic, perioada unei funcţii se notează cu <i>T</i>. Aceast concept este cel mai uşor de vizualizat între valorile maxime ale funcţiei, dar poate la fel de bine să fie luat în considerare între oricare puncte ale acestuia. Valorile unghiurilor de pe axa orizontală desemnează domeniul funcţiei trigonometrice sinus, dar şi poziţia unghiulară a axului alternatorului aflat în mişcare:</p>
 
-<p><img src="../poze/02009.png" alt="identificarea unei perioade a funcţiei trigonometrice sinus "/></p>
+#+CAPTION: identificarea unei perioade a funcţiei trigonometrice sinus 
+[[../poze/02009.png]]
 
 <p>Din moment ce axa orizontală a graficului desemnează trecerea timpului precum şi poziţia axului alternatorului în grade, unitatea de măsură folosită pentru marcarea unei perioade este timpul, în majoritatea cazurilor măsurat în secunde sau fracţiuni de secundă. Perioada unei unde, măsurată în grade, este tot timpul 360, dar tipul ocupat de o singură perioadă depinde de rata variaţiei tensiunii de la o polaritate spre cealaltă.</p>
 
@@ -44,7 +46,8 @@
 
 <p>Deşi generatoarele electromecanice şi multe alte fenomene fizice produc în mod natural forme de undă sinusoidale, acestea nu sunt singurele forme de unde alternative existente. Există o varietate de unde alternative produse de circuitele electronice. Mai jos sunt câteva exemple:</p>
 
-<p><img src="../poze/02010.png" alt="exemple de formă de undă: dreptunghiulară, triunghiulară, dinte de fierăstrău"/></p>
+#+CAPTION: exemple de formă de undă: dreptunghiulară, triunghiulară, dinte de fierăstrău
+[[../poze/02010.png]]
 
 <p>Acestea nu sunt însă singurele tipuri de forme de undă existente, ci doar câteva dintre cele mai comune. Chiar şi circuitele considerate sinusoidale, dreptunghliare sau triunghiulare pure nu sunt perfecte în realitate. Unele forme de undă sunt atât de complexe încăt nu pot fi clasificate. General vorbind, orice formă de undă ce se apropie de o formă sinusoidală este denumită ca atare, toate celelalte fiind denumite ne-sinusoidale. Forma undei de tensiune sau curent are o importanţă crucială asupra comportamentului unui circuit şi trebuie să fim prin urmare atenţi la diferitele forme de undă existente în practică.</p>
 

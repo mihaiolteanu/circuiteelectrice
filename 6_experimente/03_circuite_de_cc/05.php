@@ -27,13 +27,17 @@
 
 <p>Vom experimenta aşadar cu modul de realizare şi de funcţionare a unui divizor de tensiune. Vom vedea, de asemenea, modul în care se însumează tensiunile în serie. Circuitul pe care îl vom realiza, este următorul (schema plus circuite implementate practic):</p>
 
-<img src="../poze/05106.png" alt="divizor de tensiune cu potenţiometru"/>
+#+CAPTION: divizor de tensiune cu potenţiometru
+[[../poze/05106.png]]
 
-<img src="../poze/05107.png" alt="divizor de tensiune cu potenţiometru"/>
+#+CAPTION: divizor de tensiune cu potenţiometru
+[[../poze/05107.png]]
 
-<img src="../poze/05108.png" alt="divizor de tensiune cu potenţiometru"/>
+#+CAPTION: divizor de tensiune cu potenţiometru
+[[../poze/05108.png]]
 
-<img src="../poze/05109.png" alt="divizor de tensiune cu potenţiometru"/>
+#+CAPTION: divizor de tensiune cu potenţiometru
+[[../poze/05109.png]]
 
 <h2>Desfăşurarea experimentului</h2>
 
@@ -41,11 +45,13 @@
 
 <p>Practic, mina de grafit se comportă precum o <i>pereche</i> de rezistori. Raportul dintre cele două rezistenţe este stabilit de poziţia sondei roşii pe lungimea acestuia:</p>
 
-<img src="../poze/05110.png" alt="divizor de tensiune cu potenţiometru"/>
+#+CAPTION: divizor de tensiune cu potenţiometru
+[[../poze/05110.png]]
 
 <p>Modificaţi apoi poziţia sondelor voltmetrului, astfel încât să măsuraţi tensiunea pe „rezistorul de sus” a minei, astfel:</p>
 
-<img src="../poze/05111.png" alt="divizor de tensiune cu potenţiometru"/>
+#+CAPTION: divizor de tensiune cu potenţiometru
+[[../poze/05111.png]]
 
 <p>Repoziţionaţi sonda neagră pe lungimea minei şi observaţi indicaţia voltmetrului. Care este poziţia pentru care tensiunea indicată de voltmetru este maximă? Există vreo diferenţă între această situaţie şi cea precedentă? De ce?</p>
 
@@ -55,7 +61,8 @@
 
 <p>Conectaţi apoi două baterii în serie, pentru a obţine o tensiune de 12 V pe potenţiometru. Măsuraţi tensiunea totală a bateriei şi măsuraţi apoi tensiunea între aceleaşi două puncte pe potenţiometru (între perie şi borna negativă). Împărţiţi tensiunea măsurată pe potenţiometru cu tensiunea totală măsurată pe baterie. Rezultatul ar trebui să fie 1/3, aceiaşi valoare a divizorului de tensiune ce am găsit-o şi înainte:</p>
 
-<img src="../poze/05114.png" alt="divizor de tensiune cu potenţiometru"/>
+#+CAPTION: divizor de tensiune cu potenţiometru
+[[../poze/05114.png]]
 
 </div>
 <div id="footer">

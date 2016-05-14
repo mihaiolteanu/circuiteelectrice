@@ -35,9 +35,11 @@
 
 <p>Folosiţi multimetrul vostru pentru a determina continuitatea unei plăci electronice de test: un dispozitiv utilizat pentru construirea temporară a circuitelor. Folosiţi conductori subţiri de cupru, inseraţi în locurile libere de pe placă, pentru a putea conecta sondele aparatului de măsură la placă. Testaţi continuitatea lor.</p>
 
-<img src="../poze/05041.png" alt="măsurarea continuităţii unei plăci electronice de test"/>
+#+CAPTION: măsurarea continuităţii unei plăci electronice de test
+[[../poze/05041.png]]
 
-<img src="../poze/05042.png" alt="măsurarea continuităţii unei plăci electronice de test"/>
+#+CAPTION: măsurarea continuităţii unei plăci electronice de test
+[[../poze/05042.png]]
 
 <p>Un concept foarte important în teoria electricităţii, strâns legat de cel al continuităţii, este cel al punctelor comune din punct de vedere electric. Punctele electrice comune, sunt puncte de contact dintr-un circuit sau dispozitiv, ce posedă o rezisenţă electric neglijabilă (extrem de mică) între ele.</p>
 
@@ -51,7 +53,8 @@
 
 <p>Conectaţi sondele aparatului de măsură la terminalii (bornele) rezistorului conform figurii de mai jos, şi observaţi afişajul aparatului:</p>
 
-<img src="../poze/05040.png" alt="măsurarea unui rezistor"/>
+#+CAPTION: măsurarea unui rezistor
+[[../poze/05040.png]]
 
 <p>Dacă acul indicator se află foarte aproape de valoare de zero, va trebui să alegeţi o altă scară de măsură (mai mică), la fel ca în cazul măsurării unei tensiuni.</p>
 
@@ -77,7 +80,8 @@
 
 <p>Luaţi o foaie de hârtie şi trasaţi o linie groasă cu un creion (nu cu pix!). Măsuraţi rezistenţa liniei cu ajutorul ohmmetrului, poziţionând sondele la capătului liniei astfel:</p>
 
-<img src="../poze/05043.png" alt="măsurarea rezistenţei grafitului"/>
+#+CAPTION: măsurarea rezistenţei grafitului
+[[../poze/05043.png]]
 
 <p>Aduceţi vârful sondelor mai aproape una de celaltă, dar menţinând contactul cu linia. Ce se întâmplă cu rezistenţa în acest caz, creşte sau scade? Dacă rezultatele sunt incompatibile, va trebui să retrasaţi linia, astfel încât densitatea ei să fie consistentă. Ce vă spune acest lucru despre legătura dintre rezistenţăşi lungimea unui material conductor?</p>
 
@@ -85,7 +89,8 @@
 
 <p>Conectaţi sondele aparatului de măsură la bornele unei celule fotovoltaice de. Măsuraţi varianţia rezistenţei datorată diferitelor expuneri la lumină. Asemănător experimentului cu LED, este indicat să folosiţi conductori cu crocodili pentru realizarea conexiuni componentului. În acest fel, puteţi ţine celula fotovoltaică în apropierea unei surse de lumină şi schimba în acelaşi timp scara aparatului:</p>
 
-<img src="../poze/05044.png" alt="măsurarea rezistenţei unei celule fotovoltaice"/>
+#+CAPTION: măsurarea rezistenţei unei celule fotovoltaice
+[[../poze/05044.png]]
 
 <p>Experimentăţi cu măsurarea rezistenţei diferitelor tipuri de materiale. Aveţi însă grijă să nu folosiţi ohmmetrul pe un component aflat sub tensiune, precum o baterie, de exemplu. Puteţi măsură rezistenţa următoarelor materiale, de exemplu: plastic, lemn, metal, apă curată, apă murdară, apă sărată, sticlă, diamant (de pe un inel), hârtie, cauciuc şi hârtie.</p>
 

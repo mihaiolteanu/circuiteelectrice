@@ -22,15 +22,18 @@
 <div id="contents">
 <p>Lucrurile încep să se complice atunci când trebuie să comparăm două sau mai multe forme de undă alternative ce sunt defazate între ele. Prin această „defazare” se înţelege faptul că formele de undă nu sunt sincronizate, valorile lor de vârf şi punctele de intersecţie cu axa orizontală nu sunt identice în timp. Figura de mai jos ilustrează acest lucru:</p>
 
-<p><img src="../poze/02019.png" alt="forme de undă sinusoidale defazate între ele"/></p>
+#+CAPTION: forme de undă sinusoidale defazate între ele
+[[../poze/02019.png]]
 
 <p>Cele două unde de mai sus (A şi B) au aceeiaşi amplitudine şi frecvenţă, dar sunt defazate între ele. În exemplele precedente am considerat faptul că funcţia trigonometrică sinus este reprezentată grafic pornind din punctul zero (zero grade), continuând până la valoarea sa maximă pozisitvă la 90 de grade, din nou la zero la 180 de grade, minimă negativă la 270 de grade şi înapoi la punctul de plecare la 360 de grade. Putem folosi această scară pentru axa orizontală pentru a exprima valoarea defazajului dintre cele două unde:</p>
 
-<p><img src="../poze/02020.png" alt="folosirea axei orizontale gradate de la 0 la 360 de grade pentru vizualizarea defazajului dintre două forme de undă sinusoidale - defazaj de 45 de grade"/></p>
+#+CAPTION: folosirea axei orizontale gradate de la 0 la 360 de grade pentru vizualizarea defazajului dintre două forme de undă sinusoidale - defazaj de 45 de grade
+[[../poze/02020.png]]
 
 <p>Defazajul (diferenţa de fază) dintre cele două forme de undă este de 45 de grade, unda A fiind înaintea undei B. O comparaţie între defazaje diferite ale undelor în graficiele de mai jos ilustrează mai bine acest concept:</p>
 
-<p><img src="../poze/02021.png" alt="graficul diferitelor defazaje între două forme de undă"/></p>
+#+CAPTION: graficul diferitelor defazaje între două forme de undă
+[[../poze/02021.png]]
 
 <p>Deoarece formele de undă de mai sus au aceeiaşi frecvenţă, defazajul dintre ele este acelaşi în oricare punct din timp. Din acest motiv, putem exprima defazajul dintre două sau mai multe forme de undă ce au aceeiaşi frecvenţă ca şi o valoare constantă pentru întreagă undă, şi nu doar între două puncte particulare. Putem spune prin urmare că tensiunea A este defazată cu 45 de grade faţă de tensiunea B, de exemplu. Forma de undă ce este în faţă se numeşte <i>defazată înainte</i>, iar cea care este în urmă spunem că este <i>defazată înapoi</i>.</p>
 

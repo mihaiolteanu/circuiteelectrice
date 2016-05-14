@@ -22,7 +22,8 @@
 <div id="contents">
 <p>Utilizarea tensiunii variabile pentru semnalele de instrumentaţie pare o soluţie bună în acest caz. Să vedem aşadar cum am putea folosi un semnal de tensiune pentru a măsura cantiatea de apă dintr-un bazin:</p>
 
-<img src="../poze/00185.png" alt="sistem măsurare nivel apă în bazin folosind potenţiometru"/>
+#+CAPTION: sistem măsurare nivel apă în bazin folosind potenţiometru
+[[../poze/00185.png]]
 
 <p>Traductorul din diagrama de mai sus conţine propria sursă de tensiune, iar potenţiometrul este acţionat de un plutitor ce se află în interiorul bazinului, poziţia acestuia depinzând de nivelul apei. Indicatorul nu este nimic altceva decât un voltmetru cu o scală calibrată (modificată) pentru citirea unei anumite înălţimi a apei (cm, m, etc.) în loc de volţi.</p>
 
@@ -30,7 +31,8 @@
 
 <p>Acest sistem elementar traductor/indicator este fiabil şi uşor de înţeles, însă are unele neajunsuri. Probabil că cel mai mare dintre ele este influenţa pe care o poate avea rezistenţa cablurilor electrice asupra mărimii de măsurat. Voltmetrele reale <b>folosesc</b> („trag”) valori foarte mici ale curentului datorită rezistenţei lor interne, deşi, ideal ar fi să nu folosească deloc. În acest caz, va exista o cantitate mică de curent prin cele două cabluri conductoare. Cablul având la rândul lui o valoare a rezistenţei diferita de zero, va prezenta şi o cădere de tensiune în lungul lui, ca şi în cazul unui rezistor; căderea de tensiune la bornele voltmetrului va fi asfel mai mică decât tensiunea totală generată de traductor prin intermediul potenţiometrului. Această pierdere de tensiune, oricât de mică, constituie o eroare de măsură:</p>
 
-<img src="../poze/00186.png" alt="sistem măsurare nivel apă în bazin folosind potenţiometru"/>
+#+CAPTION: sistem măsurare nivel apă în bazin folosind potenţiometru
+[[../poze/00186.png]]
 
 <p>În figura de mai sus au fost adăugate simbolurile rezistorului pentru cablurile electrice pentru a indica ceea ce se întâmplă de fapt într-un sistem real. Valorile acestor rezistenţe pot fi reduse folosind cabluri electrice mai groase (şi mai scumpe) şi/sau putem evite efectele lor cu ajutorul unui voltmetru cu o rezistenţă internă foarte mică (complexitate sporită).</p>
 

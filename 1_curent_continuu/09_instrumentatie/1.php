@@ -32,7 +32,8 @@
 
 <p>La începutul instrumentaţiei industriale, aerul comprimat era folosit în scopul transmiterii informaţiei de la aparatele de măsură şi controlul acestora. Nivelul presiunii aerului se regăsea în valoarea variabilei de măsurat, oricare era aceea. Aerul curat şi uscat la o presiune de aproximativ 1,5 <a href="http://ro.wikipedia.org/wiki/Bar">bar</a> era furnizat de un compresor de aer prin intermediul unor tuburi spre instrumentul de măsura, ce modifica la rândul său valoarea presiunii în funcţie de cantitatea de măsurat producând asfel un semnal de ieşire. De exemplu, un dispozitiv pneumatic destinat măsurării înălţimii coloanei de apă dintr-un bazin (variabila procesului) va furniza o presiune scăzută a aerului atunci când bazinul este gol, una medie când bazinul este parţial plin şi o presiune ridicată atunci când bazinul este plin.</p>
 
-<img src="../poze/00183.png" alt="sistem măsurare nivel apă în bazin folosind aer comprimat"/>
+#+CAPTION: sistem măsurare nivel apă în bazin folosind aer comprimat
+[[../poze/00183.png]]
 
 <p>Indicatorul nivelului de apă este de fapt un aparat de măsură a presiunii din tubul de aer. Această presiune a aerului, fiind un <i>semnal</i>, reprezintă nivelul apei din bazin. Orice variaţie a nivelului apei este reprezentată printr-o variaţie a presiunii semnalului măsurat. Acest semnal pneumatic are, cel puţin teoretic, o rezoluţie infinită, putând reprezenta orice variaţie cât de mică a nivelului din bazin, şi este prin urmare un semnal <i>analog</i> în adevăratul sens al cuvântului.</p>
 
@@ -40,7 +41,8 @@
 
 <p>Odată cu avansul amplificatoarelor din domeniul electronicii semiconductorilor, folosirea mărimilor de curent şi tensiune în instrumentaţie a devenit practică. În locul utilizării presiunii aerului pentru măsurarea gradului de umplere al unui bazin cu apă, s-a început folosire semnalele electrice pentru furnizarea aceleiaşi informaţii prin intermediul firelor conductoare (în loc de tuburi) fără a mai fi necesară utilizarea unui echipament scump. precum compresoarele de aer, pentru utilizare:</p>
 
-<img src="../poze/00184.png" alt="sistem măsurare nivel apă în bazin folosind aer comprimat"/>
+#+CAPTION: sistem măsurare nivel apă în bazin folosind aer comprimat
+[[../poze/00184.png]]
 
 <p>Deşi semnalele electronice analogice încep să fie înlocuite de cele digitale, este bine să avem o bună înţelegere a principiilor de bază din spatele acestui mod de transmitere a informaţiei.</p>
 

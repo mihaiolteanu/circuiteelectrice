@@ -29,9 +29,11 @@
 
 <p>Pentru realizarea circuitului veţi avea nevoie de două baterii de 6 volţi, un condensator de 0,1 µF, un rezistor de 1 MΩ şi un potenţiometru liniar, simplu, de 5 kΩ. Valoarea potenţiometrului nu este neapărat critică. Totuşi, teoretic, o valoare mai mică a rezistenţei potenţiometrului conduce la rezultate mai bune în acest experiment. Circuitul final arată astfel:</p>
 
-<img src="../poze/05229.png" alt="circuit de diferenţiere"/>
+#+CAPTION: circuit de diferenţiere
+[[../poze/05229.png]]
 
-<img src="../poze/05230.png" alt="circuit de diferenţiere"/>
+#+CAPTION: circuit de diferenţiere
+[[../poze/05230.png]]
 
 <h2>Realizarea circuitului</h2>
 

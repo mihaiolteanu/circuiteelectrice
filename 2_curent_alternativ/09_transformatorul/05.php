@@ -22,21 +22,25 @@
 <div id="contents">
 <p>Nu este neapărat necesar ca transformatoarele să fie realizate din doar două seturi de înfăşurări. Să considerăm următorul circuit:</p>
 
-<p><img src="../poze/02141.png" alt="transformator cu înfăşurări secundare multiple"/></p>
+#+CAPTION: transformator cu înfăşurări secundare multiple
+[[../poze/02141.png]]
 
 <p>În acest caz, toate înfăşurările împart acelaşi miez feromagnetic, fiind cuplate magnetic între ele. Relaţia dintre numărul spirelor înfăşurărilor şi raportul de transformare al tensiunilor considerat la transformatoarele cu două înfăsurări, este valabilă şi în acest caz, unde există înfăsurări multiple. Este posibilă proiectarea unui transformator precum cel din figura de mai sus (o înfăsurare primară şi două înfăşurări secundare) în care, o înfăşurare secundară să fie ridicătoare de tensiune iar cealaltă coborâtoare. Toate circuitele sunt separate electric în acest caz.</p>
 
 <p>Dacă în schimb, nu avem neapărată nevoie de o separare electrică a circuitelor, un efect similar poate fi obţinut şi prin utilizarea prizelor în diferite puncte ale înfăşurării secundare, asfel:</p>
 
-<p><img src="../poze/02142.png" alt="transformator cu înfăşurări secundare multiple folosind prize"/></p>
+#+CAPTION: transformator cu înfăşurări secundare multiple folosind prize
+[[../poze/02142.png]]
 
 <p>O priză nu este altceva decât o conexiune făcută într-un anumit punct de pe sencundarul transformatorului. Ralaţia dintre numărul de spire al înfăşurării şi tensiunea obţinută în secundar este valabilă şi în acest caz, pentru toate prizele transformatorului. Acest lucru poate fi exploatat pentru obţinerea unui domeniu mult mai lar de raporturi de transformare:</p>
 
-<p><img src="../poze/02143.png" alt="transformator cu înfăşurări secundare multiple folosind prize; utilizarea comutatoarelor pentru alegerea raportului de transformare"/></p>
+#+CAPTION: transformator cu înfăşurări secundare multiple folosind prize; utilizarea comutatoarelor pentru alegerea raportului de transformare
+[[../poze/02143.png]]
 
 <p>Trecând mai departe, putem construi un „transformator variabil”, caz în care vom avea un contact variabil ce se deplasează pe înfăşurarea secundară expusă a transformatorului, fiind posibilă conectarea acestuia în oricare punct (priză variabilă).</p>
 
-<p><img src="../poze/02144.png" alt="transformator variabil; utilizarea unui contact variabil ce se deplasează pe înfăşurarea secundară expusă a transformatorului"/></p>
+#+CAPTION: transformator variabil; utilizarea unui contact variabil ce se deplasează pe înfăşurarea secundară expusă a transformatorului
+[[../poze/02144.png]]
 
 <p>Utlizarea acestor contacte variabile nu este practică în proiectarea transformatoarelor industriale de putere mare, dar sunt totuşi folosite pentru ajutarea tensiunilor. În sistemele de putere, aceste ajustări de tensiune trebuie făcute periodic pentru a veni în întâmpinarea variaţiei sarcinilor de-a lungul timpului. În mod normal, aceste tipuri de transformatoare nu sunt proiectate pentru a opera sub curenţi sa sarcină, prin urmare, „reglarea” lor se realizează doar atunci când transformatorul nu este alimentat.</p>
 
@@ -44,23 +48,28 @@
 
 <p>Dacă neglijăm în totalitate separarea electrică dintre înfăşurări, putem construi un transformator folosind doar o singură înfăşurare; dispozitivul asfel creat poartă numele de <i>autotransformator</i>:</p>
 
-<p><img src="../poze/02145.png" alt="autotransformator ridicător de tensiune"/></p>
+#+CAPTION: autotransformator ridicător de tensiune
+[[../poze/02145.png]]
 
 <p>Configuraţia de mai sus este un autotransformator ridicător de tensiune. Un autotransformator coborâtor de tensiune arată asfel:</p>
 
-<p><img src="../poze/02146.png" alt="autotransformator coborâtor de tensiune"/></p>
+#+CAPTION: autotransformator coborâtor de tensiune
+[[../poze/02146.png]]
 
 <p>Autotransformatoarele sunt folosite în principal în aplicaţiile unde este nevoie de o mică reducere sau amplificare a tensiunii pe sarcină. Ca şi alternativă, se poate folosi un transformator normal construit special pentru aplicaţia în cauză, sau se poate folosi un autotransformator coborâtor de tensiune cu înfăşurarea secundară conectată în serie, fie pentru amplificarea tensiunii sau pentru reducerea ei (anti-serie).</p>
 
-<p><img src="../poze/02147.png" alt="folosirea unui autotransformator coborâtor de tensiune cu înfăşurarea secundară conectată în serie pentru amplificarea tensiunii"/></p>
+#+CAPTION: folosirea unui autotransformator coborâtor de tensiune cu înfăşurarea secundară conectată în serie pentru amplificarea tensiunii
+[[../poze/02147.png]]
 
-<p><img src="../poze/02148.png" alt="folosirea unui autotransformator coborâtor de tensiune cu înfăşurarea secundară conectată în serie pentru reducerea tensiunii"/></p>
+#+CAPTION: folosirea unui autotransformator coborâtor de tensiune cu înfăşurarea secundară conectată în serie pentru reducerea tensiunii
+[[../poze/02148.png]]
 
 <p>Principalul avantaj al unui autotransformator precum cel de mai sus, este folosirea unei singure înfăşurări pentru realizarea amplificării sau reducerii tensiunii, fiind mult mai uşor de construit şi mai ieftin decât un trnasformator normal.</p>
 
 <p>Ca şi în cazul transformatoarelor normale, se pot realiza prize şi pe înfăşurările autotransformatoarelor pentru obţinerea variaţiei raporturilor de transformare. Mai mult decât atât, acestea pot fi realizate cu un contact variabil, caz în care transformatoarele poartă numele de <i>Variac</i>:</p>
 
-<p><img src="../poze/02149.png" alt="Variac - autotransformator variabil"/></p>
+#+CAPTION: Variac - autotransformator variabil
+[[../poze/02149.png]]
 
 <p class="sumar">Sumar:</p>
 <ul>

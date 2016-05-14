@@ -30,11 +30,13 @@
 
 <p>Numerele complexe sunt mai uşor de înţeles dacă sunt trecute pe un grafic. Dacă desenăm o linie cu o anumită lungime (amplitudine) şi unghi (direcţie), obţinem o reprezentare grafică a unui număr complex, reprezentare cunoscută în fizica sub numele de <i>vector</i>:</p>
 
-<p><img src="../poze/02025.png" alt="reprezentarea grafică a numerelor complexe sub formă de vectori; diferite lungimi şi unghiuri"/></p>
+#+CAPTION: reprezentarea grafică a numerelor complexe sub formă de vectori; diferite lungimi şi unghiuri
+[[../poze/02025.png]]
 
 <p>Precum în cazul distenţelor şi direcţiilor de pe o hartă, trebuie să avem un sistem de referinţă pentru ca toate aceste valori să aibă un sens. În acest caz, dreapta înseamnă 0<sup>o</sup>, iar unghiurile sunt măsurate în direcţie pozitive în sensul invers acelor de ceasornic:</p>
 
-<p><img src="../poze/02026.png" alt="sistemul de referinţă al vectorilor"/></p>
+#+CAPTION: sistemul de referinţă al vectorilor
+[[../poze/02026.png]]
 
 <p class="sumar">Sumar:</p>
 <ul>

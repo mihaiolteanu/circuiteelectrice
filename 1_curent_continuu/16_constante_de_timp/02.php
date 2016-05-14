@@ -22,11 +22,13 @@
 <div id="contents">
 <p>O bobină complet descărcată (nu există câno magnetic), prin care nu trece niciun curent, la conectarea unei surse de tensiune la bornele sale, se va comporta iniţial asemenea unui circuit deschis (încearcă să menţină un curent de zero amperi), căderea de tensiunea la bornele sale fiind maximă. În timp, curentul creşte spre valoarea maximă permisă de circuit, iar tensiunea scade spre zero. Odată atinsă valoarea de zero volţi (pentru o bobină ideală), curentul rămâne la nivelul maxim, iar bobina se va comporta asemenea unui scurt circuit.</p>
 
-<p><img src="../poze/00332.png" alt="circuit RL"/></p>
+#+CAPTION: circuit RL
+[[../poze/00332.png]]
 
 <p>La închiderea întrerupătorului, căderea de tensiune pe bobină sare direct la valoarea tensiunii bateriei (precum un circuit deschis) şi scade spre zero cu timpul (ajungând să se comporte precum un scurt-circuit). Tensiunea pe bobină se determină calculând care este căderea de tensiune de pe R cunoscând curentul prin bobină; diferenţa dintre tensiunea bateriei şi cea a rezistorului este tensiunea de pe bobină. La închiderea iniţială a întrerupătorului, curentul este zero, dar creşte apoi cu timpul până ajunge să fie egală cu raportul dintre tensiunea furnizată de baterie şi rezistenţa rezistorului conectat în serie (1 Ω în acest caz). Comportamentul acest este exact invers faţă de circuitul RC (rezistor-condensator), unde curentul iniţial a fost maxim iar tensiunea pe condensator zero.</p>
 
-<p><img src="../poze/00333.png" alt="raspunsul timp-tensiune al bobinei la conectarea unei surse de tensiune la bornele sale într-un circuit RL"/></p>
+#+CAPTION: raspunsul timp-tensiune al bobinei la conectarea unei surse de tensiune la bornele sale într-un circuit RL
+[[../poze/00333.png]]
 
 <b><pre>
 ---------------------------------------------

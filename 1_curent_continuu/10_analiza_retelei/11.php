@@ -26,23 +26,28 @@
 
 <p>Revenind la circuitul studiat până acum...</p>
 
-<p><img src="../poze/00209.png" alt="circuit electric"/></p>
+#+CAPTION: circuit electric
+[[../poze/00209.png]]
 
 <p>...conform teoremei transferului maxim de putere, valoarea rezistenţei de sarcină pentru disiparea puterii maxime din circuit, trebuie să fie egală cu rezistenţa Thevenin (0.8 Ω, în acest caz):</p>
 
-<p><img src="../poze/00249.png" alt="circuit electric"/></p>
+#+CAPTION: circuit electric
+[[../poze/00249.png]]
 
 <p>Cu această valoare a rezistenţei, puterea disipată va fi de 39.2 watt:</p>
 
-<p><img src="../poze/10204.png" alt="tabel"/></p>
+#+CAPTION: tabel
+[[../poze/10204.png]]
 
 <p>Dacă micşorăm valoarea rezistenţei de sarcină (la 0.5 Ω în loc de 0.8 Ω, de exemplu), puterea disipată pe sarcină descreşte:</p>
 
-<p><img src="../poze/10205.png" alt="tabel"/></p>
+#+CAPTION: tabel
+[[../poze/10205.png]]
 
 <p>Dacă valoarea rezistenţei sarcinii creşte (la 1.1 Ω în loc de 0.8 Ω, de exemplu), puterea disipată va fi de asemenea mai mică decât valoarea acesteia pentru 0.8 Ω:</p>
 
-<p><img src="../poze/10206.png" alt="tabel"/></p>
+#+CAPTION: tabel
+[[../poze/10206.png]]
 
 <p>Această teoremă este foarte folositoare atunci când dezoltăm un circuit electric pentru folosirea (disiparea) puterii maxime pe sarcină .</p>
 

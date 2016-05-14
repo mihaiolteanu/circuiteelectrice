@@ -24,23 +24,29 @@
 
 <p>Când un circuit de curent alternativ este alimentat de la o sursă de tensiune ce conţine o combinaţie de forme de undă de frecvenţe diferite, componentele acelui circuit vor răspunde diferit fiecărei frecvenţe în parte. Orice component reactiv din circuit, precum condensatorul şi bobina, va avea simultan o impedanţa unică şi diferită faţă de fiecare frecvenţă prezentă în circuit. Din fericire, analiza unui asfel de circuit este destul de uşor de realizat apelând la <i>teorema superpoziţiei</i>, considerând sursa de alimentare cu frecvenţe multiple ca un set de surse cu frecvenţe unice conectate în serie; analiza circuitului se face considerând fiecare „sursă” în pare, însumând la final rezultatele pentru a determina efectul total asupra circuitului:</p>
 
-<p><img src="../poze/02113.png" alt="circuit electric alimentat printr-o combinaţie de frecvenţe de 60 Hz, respectiv 90 Hz"/></p>
+#+CAPTION: circuit electric alimentat printr-o combinaţie de frecvenţe de 60 Hz, respectiv 90 Hz
+[[../poze/02113.png]]
 
 <p>Primul pas constă în analiza circuitului alimentat doar cu sursa de tensiune de 60 Hz:</p>
 
-<p><img src="../poze/02114.png" alt="circuit electric alimentat printr-o combinaţie de frecvenţe de 60 Hz, respectiv 90 Hz - analiza circuitului doar cu sursa de tensiune de 60 Hz"/></p>
+#+CAPTION: circuit electric alimentat printr-o combinaţie de frecvenţe de 60 Hz, respectiv 90 Hz - analiza circuitului doar cu sursa de tensiune de 60 Hz
+[[../poze/02114.png]]
 
-<p><img src="../poze/12094.png" alt="tabel"/></p>
+#+CAPTION: tabel
+[[../poze/12094.png]]
 
 <p>Apoi analizăm circuitul considerând doar efectele sursei de tensiune de 90 Hz:</p>
 
-<p><img src="../poze/02115.png" alt="circuit electric alimentat printr-o combinaţie de frecvenţe de 60 Hz, respectiv 90 Hz - analiza circuitului doar cu sursa de tensiune de 90 Hz"/></p>
+#+CAPTION: circuit electric alimentat printr-o combinaţie de frecvenţe de 60 Hz, respectiv 90 Hz - analiza circuitului doar cu sursa de tensiune de 90 Hz
+[[../poze/02115.png]]
 
-<p><img src="../poze/12095.png" alt="tabel"/></p>
+#+CAPTION: tabel
+[[../poze/12095.png]]
 
 <p>Folosind teorema superpoziţiei (suma efectelor celor două surse de tensiune) pentru căderile de tensiune pe rezistor (R) şi condensator (C), obţinem:</p>
 
-<p><img src="../poze/12096.png" alt="tabel"/></p>
+#+CAPTION: tabel
+[[../poze/12096.png]]
 
 <p>Pentru că cele două tensiuni se află la frecvenţe diferite, nu putem obţine un rezultat final cu o singură valoare a tensiunii, precum putem aduna două tensiuni de amplitudini şi faze diferite dar de <i>aceeiaşi</i> frecvenţă. Cu ajutorul numerelor complexe, putem reprezenta amplitudinea şi faza formelor de undă, dar nu şi frecvenţa.</p>
 

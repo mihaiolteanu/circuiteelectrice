@@ -36,7 +36,8 @@
 
 <p>Folosind o sursă de tensiune de curent alternativ, şi un dispozitiv special ce poartă numele de <i>antenă</i>, putem crea unde electromagnetice (cu o frecvenţă mult mai mică decât cea a luminii) relativ uşor. O antenă nu este altceva decât un dispozitiv construit pentru a produce un câmp electric sau magnetic dispersi. Cele două tipuri fundamentale de antene sunt <i>antena dipol</i> şi <i>antena cadru</i>, prezentate în figura de mai jos:</p>
 
-<img src="../poze/02023.png" alt="tipuri de antenă (dipol şi cadru)"/>
+#+CAPTION: tipuri de antenă (dipol şi cadru)
+[[../poze/02023.png]]
 
 <p>Deşi cele două tipuri de antene nu sunt altceva decât un circuit deschis (dipol), respecitv un scurt-circuit (cadru), aceşti conductori reprezintă surse eficiente de câmpuri electromagnetice atunci când sunt conectate la surse de curent alternativ cu o frecvenţă corespunzătoare. Cei doi conductori ai antenei dipol joacă rolul unui condensator (doi conductori separaţi de un dielectric). Dispersia câmpului electric este însă permisă, spre deosebire de condensatoarele propriu-zise unde acesta este concentrat între două armători.</p>
 
@@ -48,7 +49,8 @@
 
 <p>Alimentată de o sursă de curent alternativ de frecvenţă înaltă, o antenă joacă rolul unui dispozitiv de transimisie. Tensiunea şi curentul alternativ sunt convertite în energie sub forma undelor electromagnetice. Antenele pot de asemenea să intercepteze undele electromagnetice şi să transforme energie lor în tensiunea şi curent alternativ. În acest mod de funcţionare, antena joacă rolul unui dispozitiv de recepţie:</p>
 
-<img src="../poze/02024.png" alt="radioemiţători şi radioreceptori"/>
+#+CAPTION: radioemiţători şi radioreceptori
+[[../poze/02024.png]]
 
 <p class="sumar">Sumar:</p>
 <ul>

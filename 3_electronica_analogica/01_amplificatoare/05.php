@@ -24,15 +24,18 @@
 
 <p>Ca şi unitate, bel-ul a fost folosit pentru reprezentarea pierderilor de putere din liniile telefonice, şi nu pentru reprezentarea amplificărilor. Unitatea poartă numele inventatorului scoţian, Alexander Graham Bell, a cărui muncă fundamentală a dus la dezvoltatea sistemelor telefonice. Sub forma sa originală, bel-ul reprezenta cantitatea de semnal pierdută datorită rezistenţei pe o anumită lungime de conductor electric. Acum, acesta este definit ca logaritm din baza zece a raportului dintre semnalul de ieşire şi cel de intrare:</p>
 
-<p><img src="../poze/13028.png" alt="formula de calcul pentru bel"/></p>
+#+CAPTION: formula de calcul pentru bel
+[[../poze/13028.png]]
 
 <p>Deoarece bel-ul este o unitate logaritmică, acesta este ne-liniar. Să considerăm următorul tabel, ca şi o comparaţie între pierderile de putere exprimate sub formă de raport şi aceleaşi pierderi exprimate sub formă de bel:</p>
 
-<p><img src="../poze/13029.png" alt="tabel; comparaţia între pierderile de putere exprimate sub formă de raport şi aceleaşi pierderi de putere exprimate în beli"/></p>
+#+CAPTION: tabel; comparaţia între pierderile de putere exprimate sub formă de raport şi aceleaşi pierderi de putere exprimate în beli
+[[../poze/13029.png]]
 
 <p>Mai târziu a fost realizat faptul că bel-ul este o unitate de măsură prea mare pentru a fi utilizată direct; prin urmare, a îceput să fie folosit tot mai des prefixul metric <i>deci</i> (1/10, sau 10<sup>-1</sup>), şi anume <i>deci</i>bel-ul, sau dB. Astăzi, expresia „dB” este atât de răspândită încât majoritatea nu relaizează că aceasta este o combinaţie dintre „deci” şi „bel”, sau că măcar există o unitate de măsură numită „bel”. Următorul tabel este asemănător celui precedent, dar de data aceasta valorile sunt exprimate în dB:</p>
 
-<p><img src="../poze/13030.png" alt="tabel; comparaţia între pierderile de putere exprimate sub formă de raport şi aceleaşi pierderi de putere exprimate în decibeli"/></p>
+#+CAPTION: tabel; comparaţia între pierderile de putere exprimate sub formă de raport şi aceleaşi pierderi de putere exprimate în decibeli
+[[../poze/13030.png]]
 
 <p class="sumar">Sumar:</p>
 <ul>

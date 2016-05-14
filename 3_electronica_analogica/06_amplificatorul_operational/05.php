@@ -24,7 +24,8 @@
 
 <h2>Sursa de semnal conectată la intrarea neinversoare (+)</h2>
 
-<p><img src="../poze/03037.png" alt="amplificator operaţional cu reacţie negativă divizată"/></p>
+#+CAPTION: amplificator operaţional cu reacţie negativă divizată
+[[../poze/03037.png]]
 
 <p>Dacă R<sub>1</sub> şi R<sub>2</sub> sunt egale, iar tensiunea de intrare este de 6 V, AO va genera o cădere de tensiune necesară pentru menţinerea unei tensiuni de 6 V pe R<sub>1</sub> (asfel încât tensiunea la intrarea inversoare să fie egală cu 6 V, iar diferenţa de tensiune dintre cele două intrări să fie egală cu zero). Cu un raport al divizorului de tensiune R<sub>1</sub>--R<sub>2</sub> de 2:1, acest lucru va necesita o tensiune de 12 V la ieşirea AO.</p>
 
@@ -32,13 +33,15 @@
 
 <p>Dacă ne uităm pe desenul precedent, ne putem întreba „unde anume se duce curentul de 6 mA”. Figura de mai sus nu prezintă întregul drum, dar în realitate, acest curent vine de la sursa de putere de c.c., trece prin masă, R<sub>1</sub>, R<sub>2</sub>, prin ieşirea AO şi înapoi la borna pozitivă a sursei. Utilizând modelul AO - potenţiometru/detector de nul, calea curentului arată asfel:</p>
 
-<p><img src="../poze/03233.png" alt="modelul amplificator - potenţiometru/detector de nul; calea curentului prin circuit"/></p>
+#+CAPTION: modelul amplificator - potenţiometru/detector de nul; calea curentului prin circuit
+[[../poze/03233.png]]
 
 <p>Sursa de semnal de 6 V nu trebuie să furnizeze niciun curent în circuit: aceasta doar comandă amplificatorului operaţional echilibrul de tensiune dintre cele două intrări, iar ca urmare a acestui fapt, AO produce la ieşire o tensiune de două ori mai mare decât tensiunea de semnal datorită reacţiei divizate a celor doi rezistori de 1 kΩ.</p>
 
 <p>Putem modifica factorul de amplificare în tensiune al acestui circuit, prin simpla modificare a valorilor celor doi rezistori. Amplificarea poate fi calculată asfel:</p>
 
-<p><img src="../poze/13004.png" alt="formula de calcul a amplificării în tensiune al amplificatorului operaţional cu reacţie negativă divizată"/></p>
+#+CAPTION: formula de calcul a amplificării în tensiune al amplificatorului operaţional cu reacţie negativă divizată
+[[../poze/13004.png]]
 
 <p>Se poate observa că amplificarea unui asfel de amplificator nu poate să scadă sub valoarea 1. Dacă ar fi să coborâm valoarea lui R<sub>2</sub> la zero ohmi, circuitul rezultat ar fi identic cu repetorul de tensiune, unde ieşirea este conectată direct la intrarea inversoare. Această amplificare poate fi mărită mult peste 1, prin creşterea valorii rezistorului R<sub>2</sub> faţa de R<sub>1</sub>.</p>
 
@@ -48,13 +51,15 @@
 
 <p>Să reluăm circuitul de mai sus, dar de data aceasta să aplicăm tensiunea de intrare în altă parte:</p>
 
-<p><img src="../poze/03038.png" alt="amplificator operaţional cu reacţie negativă divizată"/></p>
+#+CAPTION: amplificator operaţional cu reacţie negativă divizată
+[[../poze/03038.png]]
 
 <p>Prin conectarea la masă a intrării neinversoare, reacţia negativă de la ieşire va încerca să menţină tensiunea intrării inversoare la 0 V. Din acest motiv, intrarea inversoare, în acest circuit, poartă numele de <i>masă virtuală</i> (având un potenţial de 0 V, dar nefiind conectată direct la masă). Tensiunea de intrare este aplicată de această dată din stânga divizorului de tensiune R<sub>1</sub>--R<sub>2</sub> (= 1 kΩ). Prin urmare, tensiune de ieşire trebuie să ia valoarea de -6 V pentru echilibrarea punctului de mijloc la potenţialul masei (0 V). Folosind metodele amplificatorului neinversor, putem analiza funcţionarea circuitului prin determinarea amplitudinilor şi direcţiilor curenţilor.</p>
 
 <p>Din nou, putem modifica amplficarea în tensiune a circuitului prin modificarea valorilor rezistorilor R<sub>1</sub> şi R<sub>2</sub>. Amplificarea poate fi calculată cu următoarea formulă:</p>
 
-<p><img src="../poze/13005.png" alt="formula de calcul a amplificării în tensiune al amplificatorului operaţional cu reacţie negativă divizată"/></p>
+#+CAPTION: formula de calcul a amplificării în tensiune al amplificatorului operaţional cu reacţie negativă divizată
+[[../poze/13005.png]]
 
 <p>De această dată, amplificarea în tensiune a circuitului <i>poate</i> fi sub 1, depinzând doar de raportul valorilor celor doi rezistori. Polaritatea ieşirii este tot timpul opusă polaritătii tensiunii de intrare. O tensiune de intrare pozitivă înseamnă o tensiune de ieşire negativă, şi invers (faţă de pământ). Din acest motiv, acest circuit este cunoscut sub numele de <i>amplificator inversor</i>. Semnul „-” din formula de mai sus scoate în evidenţă această inversare a polarităţilor.</p>
 

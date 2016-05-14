@@ -27,7 +27,8 @@
 
 <p><i>Explicaţie:</i> Un număr mai mare de spire se traduce printr-o forţă magnetică mai mare (în amperi), pentru o anumită valoare a curentului prin bobină.</p>
 
-<p><img src="../poze/00324.png" alt="valoarea inductanţei create de o bobină în funcţie de numărul de spire din înfăşurare"/></p>
+#+CAPTION: valoarea inductanţei create de o bobină în funcţie de numărul de spire din înfăşurare
+[[../poze/00324.png]]
 
 <h3>Aria înfăşurării</h3>
 
@@ -35,25 +36,29 @@
 
 <p><i>Explicaţie:</i> O arie mai mare a înfăşurării prezintă o opoziţie mai mică faţă de formarea fluxului magnetic, pentru o anumită valoarea a forţei câmpului magnetic.</p>
 
-<p><img src="../poze/00325.png" alt="valoarea inductanţei create de o bobină în funcţie de aria înfăşurării"/></p>
+#+CAPTION: valoarea inductanţei create de o bobină în funcţie de aria înfăşurării
+[[../poze/00325.png]]
 
 <h3>Lungimea înfăşurării</h3>
 <p>Toţi ceialţi factorii fiind egali, cu cât lungimea înfăşurării este mai mare, cu atât inductanţa este mai mică, şi invers.</p>
 
 <p><i>Explicaţie:</i> O cale mai lungă pentru fluxul magnetic rezultă într-o opoziţie crescută faţă de formarea acelui flux, pentru o anumită valoare a forţei magnetice.</p>
 
-<p><img src="../poze/00326.png" alt="valoarea inductanţei create de o bobină în funcţie de lungimea înfăşurării"/></p>
+#+CAPTION: valoarea inductanţei create de o bobină în funcţie de lungimea înfăşurării
+[[../poze/00326.png]]
 
 <h3>Materialul miezului</h3>
 <p>Toţi ceialţi factorii fiind egali, cu cât permeabilitatea magnetică miezului înfăşurării este mai mare, cu atât mai mare este inductanţa, şi invers.</p>
 <p><i>Explicaţie:</i> Un miez dintr-un material cu o permeabilitate magnetică mai mare rezultă într-un flux magnetic mai mare pentru o anumită valoare a forţei magnetice.</p>
 
-<p><img src="../poze/00327.png" alt="valoarea inductanţei create de o bobină în funcţie de materialul miezului - aer vs. fier"/></p>
+#+CAPTION: valoarea inductanţei create de o bobină în funcţie de materialul miezului - aer vs. fier
+[[../poze/00327.png]]
 
 <h3>Formula de calcul a inductanţei</h3>
 <p>O aproximare pentru calcularea inductanţei oricărei înfăşurări se poate obţine cu următoarea formulă:</p>
 
-<p><img src="../poze/10237.png" alt="formula de calcul a inductanţei"/></p>
+#+CAPTION: formula de calcul a inductanţei
+[[../poze/10237.png]]
 
 <p>Această formulă este doar aproximativă, deoarece permeabilitatea magnetică variază odatată cu variaţia intensităţii câmpului magnetic (vezi neliniaritatea curbelor „B-H” pentru diferite materiale). Dacă termenul µ (permeabilitatea) din ecuaţia de mai sus nu este stabil, nici inductanţa (L) nu va fi perfect stabilă atunci când apar variaţii ale curentului prin înfăşurare. Dacă histerezisul miezului este suficient de mare, acest lucru se va răsfrânge asupra inductanţei bobinei. La construcţia bobinelor se încercă minimizarea acestor efecte prin realizarea bobinei în aşa fel încât densitatea fluxului magnetic nu atinge niciodată nivelul de saturaţie, iar bobina funcţionează în porţiunea mai liniară a curbei de magnetizaţie B-H.</p>
 

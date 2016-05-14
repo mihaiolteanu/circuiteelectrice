@@ -30,7 +30,8 @@
 
 <h2>Comutator basculant</h2>
 
-<img src="../poze/04016.png" alt="comutator basculant; simbol"/>
+#+CAPTION: comutator basculant; simbol
+[[../poze/04016.png]]
 
 <p>Aceste tipuri de comutatoare sunt acţionate cu ajutorul unei manete. Această manetă se poate regăsi într-una dintre cele două sau mai multe poziţii disponibile (în funcţie de tip). Comutatorul obişnuit folosit pentru aprinderea şi stingerea luminii în casă, este un bun exemplu de comutator basculant. Majoritatea comutatoarelor basculante se pot regăsi în oricare dintre poziţii. Unele comutatoare sunt însă echipate cu um mecanism intern prin intermediul căruia maneta revine tot timpul într-o poziţie normală, bine stabilită. Funcţionarea (închiderea sau deschiderea circuitului, în funcţie de caz) comutatorului se face doar pentru o perioadă scurtă de timp, după care acesta revina la poziţie iniţială.</p>
 
@@ -38,7 +39,8 @@
 
 <h2>Comutator buton</h2>
 
-<img src="../poze/04017.png" alt="comutator buton; simbol"/>
+#+CAPTION: comutator buton; simbol
+[[../poze/04017.png]]
 
 <p>Comutatoarele buton sunt dispozitive bi-poziţionale acţionate prin intermediul unui buton care apăsat iar apoi eliberat. Majoritatea butoanelor posedă un mecanism intern prin care butonul se reîntoarce la poziţia sa iniţială (ne-apăsat). Prin urmare, acest dispozitiv funcţionează doar pe perioada în care butonul este apăsat, revenind apoi la poziţia sa iniţială. Un bun exemplu de astfel de comutator este butonul de pornire al calculatorului, sau de chemare al liftului. După apăsare, acestea revin la poziţia iniţială.</p>
 
@@ -48,7 +50,8 @@
 
 <h2>Comutator selector</h2>
 
-<img src="../poze/04018.png" alt="comutator selector; simbol"/>
+#+CAPTION: comutator selector; simbol
+[[../poze/04018.png]]
 
 <p>Comutatoarele selectoare sunt acţionate prin intermediul unui buton rotativ pentru selectarea uneia sau a mai multor poziţii. La fel ca şi comutatoarele basculante, acestea se pot regăsi în oricare dintre poziţii, sau pot conţine mecanise pentru funcţionarea de scurtă durată (revenirea la poziţia normală).</p>
 
@@ -56,7 +59,8 @@
 
 <h2>Comutator joystick</h2>
 
-<img src="../poze/04019.png" alt="comutator joystick; simbol"/>
+#+CAPTION: comutator joystick; simbol
+[[../poze/04019.png]]
 
 <p>Un comutator joystick este acţionat prin intermediul unei manete cu un grad de libertate sporit. În funcţie de direcţia de deplasare a manetei, există unul sau mai multe mecanisme de contact ce intră în acţiune. Câteodată, acest lucru depinde şi de distanţa de deplasare a manetei. Cercul şi punctul din simbolul comutatorului indică direcţia de deplasare a manetei pentru acţionarea contactului. Aceste tipuri de comutatoare sunt folosit de obicei pentru macarele şi pentru control industrial.</p>
 
@@ -66,7 +70,8 @@
 
 <h2>Comutator de limitare cu manetă</h2>
 
-<img src="../poze/04021.png" alt="Comutator de limitare cu manetă; simbol"/>
+#+CAPTION: Comutator de limitare cu manetă; simbol
+[[../poze/04021.png]]
 
 <p>Aceste limitatoare sunt asemănătoare comutatoarelor basculante sau selectoare. În cazul acestora însă, maneta este acţionată de un dispozitiv mecanic, şi nu de către un operator uman.</p>
 
@@ -74,7 +79,8 @@
 
 <h2>Comutator de proximitate</h2>
 
-<img src="../poze/04022.png" alt="Comutator de proximitate; simbol"/>
+#+CAPTION: Comutator de proximitate; simbol
+[[../poze/04022.png]]
 
 <p>Comutatoarele de proximitate detectează apropierea unei părţi metalice, fie prin intermediul unui câmp magnetic, fie prin intermediul unui câmp electromagnetic de frecvenţă înaltă. Comtuatoarele de proximitate simple utilizează un magnet permanent pentru acţionarea unui mecanism întrerupător atunci când componenta metalică se apropie prea mult (2-3 cm). Comutatoarele de proximitate mai complexe funcţionează asemenea unui detector de metale, alimentând o bobină cu un curent de frecvenţă înaltă şi măsurând electronic amplitudinea acelui curent. Dacă o componentă metalică (nu neapărat magnetică) se apropie prea mult de bobină, curentul va creşte şi va acţiona mecanismul de monitorizare a circuitului. Simbolul alăturat este al unui comutator de proximitate de tip electronic, indicat prin romb. Simbolul unui dispozitiv non-electric este acelaşi cu simbolul comutatorului de limitare cu manetă.</p>
 
@@ -88,7 +94,8 @@
 
 <h2>Comutator de viteză</h2>
 
-<img src="../poze/04024.png" alt="Comutator de viteză; simbol"/>
+#+CAPTION: Comutator de viteză; simbol
+[[../poze/04024.png]]
 
 <p>Aceste comutatoare pot detecta viteza de rotaţie a unui ax prin intermediul unui mecanism montat pe acesta. Desigur, acest lucru este de preferat a se realiza fără un contact fizic între ax şi comutator, caz în care detecţia se realizează optic sau magnetic.</p>
 
@@ -96,7 +103,8 @@
 
 <h2>Comutator de presiune</h2>
 
-<img src="../poze/04025.png" alt="Comutator de presiune; simbol"/>
+#+CAPTION: Comutator de presiune; simbol
+[[../poze/04025.png]]
 
 <p>Presiunea gazului sau a lichidului poate fi utilizată pentru acţionarea unui mecanism de comutare. Această presiune trebuie să fie aplicată unui piston sau unei diafragme, care la rândul ei va converti prsiunea în forţă mecanică.</p>
 
@@ -104,7 +112,8 @@
 
 <h2>Comutator de temperatură</h2>
 
-<img src="../poze/04026.png" alt="Comutator de temperatură; simbol"/>
+#+CAPTION: Comutator de temperatură; simbol
+[[../poze/04026.png]]
 
 <p>Un mecanism relativ ieftin de detectare a temperaturii constă dintr-o bandă bimetalică: o bandă subţire formată din două metale diferite poziţionate spate-în-spate. Fiecare metal posedă un coeficient de dilatare termică diferit. Această dilatare termică nu este altceva decât tendinţa corpurilor de a-şi creşte volumul în urma variaţiei temperaturii (de obicei în urma creşterii acesteia, dar există şi excepţii). Fenomenul opus poartă numele de contracţie termică.</p>
 
@@ -116,7 +125,8 @@
 
 <h2>Comutator de nivel</h2>
 
-<img src="../poze/04027.png" alt="Comutator de nivel de lichid; simbol"/>
+#+CAPTION: Comutator de nivel de lichid; simbol
+[[../poze/04027.png]]
 
 <p>Un obiect plutitor poate fi folosit pentru acţionarea unui mecanism atunci când nivelul de lichid dintr-un bazin trece peste un anumit nivel. Dacă lichidul este conductor din punct de vedere electric, acesta poate fi folosit ca si conductor pentru închiderea circuitului dintre două sonde metalice. Acestea sunt plasate în bazin la adâncimea corespunzătoare. În majoritatea cazurilor însă, acest lucru nu este practic, ba mai mult, este chiar periculos.</p>
 
@@ -128,7 +138,8 @@
 
 <h3>Comutator nuclear</h3>
 
-<img src="../poze/04030.png" alt="Comutator de nivel nuclear; simbol"/>
+#+CAPTION: Comutator de nivel nuclear; simbol
+[[../poze/04030.png]]
 
 <p>O ultimă metodă de realizare a unui comutator de nivel pe care o luăm aici în considerare, îl reprezintă comutatorul nuclear. Acesta este compus dintr-un material radioactiv ca şi sursă şi un detector de radiatie. Ambele elemente sunt montate în lungul diametrului recipientului pentru lichid sau pentru material solid.. Dacă înălţimea materialului trece de nivelul mecanismului sursă/detector, acesta va atenua puterea recepţionată de detectorul de radiaţie. Această descreştere a radiaţiei pe detector poate fi folosită pentru acţionarea unui mecanism  de comutare, fie pentru măsurarea nivelului, fie pentru declanşarea unei alarme sau chiar şi pentru controlul nivelului din recipient.</p>
 
@@ -138,7 +149,8 @@
 
 <h2>Comutator de curgere</h2>
 
-<img src="../poze/04028.png" alt="Comutator de curgere; simbol"/>
+#+CAPTION: Comutator de curgere; simbol
+[[../poze/04028.png]]
 
 <p>Introdus într-o conductă, un comutator de curgere va detecta viteza de curgere a unui gaz sau a unui lichid. În momentul în care această viteză depăşeşte o anumită limită, se va acţiona mecanismul de comutare. De obicei se folosesc pale sau aripi ce sunt împinse de curgerea substanţei respective. O metodă alternativă constă în detectarea căderii de presiune pe o anumită porţiune a conductei.</p>
 

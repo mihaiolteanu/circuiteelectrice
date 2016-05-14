@@ -26,27 +26,32 @@
 
 <p>Pentru un amplificator de clasa A, curentul de repaus trebuie să fie exact între valoarea sa de saturaţie şi valoarea sa de blocare. Amplificatoarele de clasa B şi C au un curent de repaos zero, din moment ce acestea sunt proiectate pentru funcţionarea în zona de blocare, atunci când nu este aplicat niciun semnal la intrare. Amplificatoarele de clasa AB, au un curent de repaus foarte mic, puţin peste zona de blocare. Pentru a ilustra grafic acest lucru, se trasează o <i>dreaptă de sarcină</i> peste curbele caracteristice ale tranzistorului, pentru ilustrarea modului de funcţionare atunci când tranzistorul este conectat la o sarcină de o anumită valoare:</p>
 
-<p><img src="../poze/03144.png" alt="trasarea dreptei de sarcină pe curbele caracteristice ale tranzistorului"/></p>
+#+CAPTION: trasarea dreptei de sarcină pe curbele caracteristice ale tranzistorului
+[[../poze/03144.png]]
 
 <p>O dreaptă de sarcină reprezintă graficul tensiunii colector-emitor pentru un anumit domeniu al curenţilor de colector. În partea din dreapta jos, tensiunea este maximă şi curentul este zero, reprezentând o condiţie de blocare. În stânga sus, tensiunea este zero, iar curentul este maxim, reprezentând o condiţie de saturaţie. Punctele de intersecţie ale dreptei cu, curbele caracteristice, reprezintă condiţii de operare reale al tranzistorului pentru acei curenţi de bază.</p>
 
 <p>Punctul static de funcţionare poate fi reprezentat pe acest grafic printr-un siplu punct la intersecţia unei curbe caracteristice cu dreapta de sarcină. Pentru un amplificator de clasa A, punctul static de funcţionare se va situa pe mijlocul dreptei de sarcină.</p>
 
-<p><img src="../poze/03145.png" alt="punctul static de funcţionare al amplificatorului clasa A"/></p>
+#+CAPTION: punctul static de funcţionare al amplificatorului clasa A
+[[../poze/03145.png]]
 
 <p>În acest caz particular, punctul static de funcţionare se află pe curba de 40 µA a curentului de bază. Dacă schimbăm însă rezistenţa sarcinii acestui circuit cu o rezistenţă mai mare, acest lucru va afecta panta dreptei de sarcină, întrucât o rezistenţă de sarcină mai mare va limite curentul maxim prin colector la saturaţie, dar nu va modifica tensiunea de blocare colector-emitor. Grafic, rezultatul este o dreaptă de sarcină cu un punct de saturaţie (stânga sus) diferit, dar cu un punct de blocare (dreapta jos) identic:</p>
 
-<p><img src="../poze/03146.png" alt="punctul static de funcţionare al amplificatorului clasa A; modificarea pantei dreptei de sarcină prin creşterea valorii rezistenţei sarcinii"/></p>
+#+CAPTION: punctul static de funcţionare al amplificatorului clasa A; modificarea pantei dreptei de sarcină prin creşterea valorii rezistenţei sarcinii
+[[../poze/03146.png]]
 
 <p>Putem observa că în această situaţie, dreapta de sarcină <i>nu</i> mai intersectează curba caracteristică de 75 µA pe porţiunea sa orizontală. Acest lucru este foarte important de realizat, deoarece porţiunea ne-orizontală a curbei caracteristice reprezintă, după cum am mai menţionat, o condiţie de saturaţie a tranzistorului (curentul colector-emitor nu mai poate fi controlat prin intermediul curentului bazei). Prin urmare, pentru un curent al bazei de 75 µA, tranzistorul (amplificatorul) va fi saturat.</p>
 
 <p>Pentru menţinerea funcţionării liniare (fără distorsiuni), amplificatoarele cu tranzistori nu ar trebui să funcţioneze în zona de saturaţie, adică, acolo un dreapta de sarcină nu intersectează curbele de sarcină pe porţiunea lor orizontală. Vom mai adăuga câteva curbe caracteristice pe grafic, pentru a putea observa până unde putem „impinge” tranzistorul prin creşterea curentului bazei fără ca acesta să intre în zona de saturaţie.</p>
 
-<p><img src="../poze/03147.png" alt="punctul static de funcţionare al amplificatorului clasa A; adăugarea unor curbe de sarcină suplimentară pentru observarea intrării în zona de saturaţie"/></p>
+#+CAPTION: punctul static de funcţionare al amplificatorului clasa A; adăugarea unor curbe de sarcină suplimentară pentru observarea intrării în zona de saturaţie
+[[../poze/03147.png]]
 
 <p>Se poate vedea de pe grafic că cel mai înalt punct de pe dreapta de sacină ce intersectează curbele de sarcină ale tranzistorului pe porţiunea orizontală, este pentru curba de 50 µA (curentul de bază). Acest punct ar trebui considerat nivelul maxim al semnalului de intrare pentru funcţionarea amplificatorului de clasă A. De asemenea, tot pentru funcţionarea corectă a amplificatorului de clasă A, tensiunea de polarizare ar trebui să fie astfel încât punctul static de funcţionare să se regăsească la mijlocul drumului între punctul maxim de funcţionare şi punctul de blocare:</p>
 
-<p><img src="../poze/03148.png" alt="noul punct static de funcţionare al amplificatorului clasa A;"/></p>
+#+CAPTION: noul punct static de funcţionare al amplificatorului clasa A;
+[[../poze/03148.png]]
 
 <p>Asfel, noul punct static de funcţionare, ales pe cale grafică, ne spune că, pentru funcţionarea corectă a amplificatorului de clasă A, pentru sarcina în cauză, curentul bazei trebuie să aibă o valoare de aproximativ 25 µA. Cunoscând această valoare, putem determina mai apoi şi tensiune de polarizare directă în curent continuu.</p>
 

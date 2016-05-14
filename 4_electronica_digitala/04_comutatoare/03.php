@@ -26,19 +26,22 @@
 
 <p>Este important să facem diferenţa între poziţia „normală” a comutatorului şi funcţionarea sa „normală” într-un proces. Să considerăm exemplul unul comutator de curgere ce este utilizat pentru semnalizarea (pe cale sonoră sau vizuală) scăderii debitului de apă dintr-un sistem de răcire. Funcţionarea normală a sistemului de răcire constă într-un debit constant şi suficient de lichid de răcire prin conducte. Să presupunem că urmărim închiderea contactelor comutatorului în cazul pierderii de lichid de răcire (pentru completarea unui circuit electric ce activează alarma vizuală sau auditivă, de exemplu). În acest caz, va trebui să folosim un comutator de curgere cu contacte în poziţia normal-închis şi nu în poziţia normal-deschis. În momentul în care existe un debit normal şi suficient de lichid prin conducte, contactele comutatorului rămân în poziţia deschis. Atunci când debitul lichidului scade sub un anumit nivel critic, contactele se re-întorc în poziţia lor normală, şi anume, normal-închis. Gândiţi-vă tot timpul la starea normală a unui comutator ca la acea stare în care se regăseşte dispozitivul când nu este introdus în sistem (este încă în magazin, de exemplu).</p>
 
-<img src="../poze/04031.png" alt="simbolul comutatorului tip buton în poziţia normal-deschis, respectiv normal-închis"/>
+#+CAPTION: simbolul comutatorului tip buton în poziţia normal-deschis, respectiv normal-închis
+[[../poze/04031.png]]
 
 <p>Simbolul comutatorelor este diferit în funcţie de scopul şi de modul de acţionare. Un comutator normal-deschis este reprezentat în aşa fel încât să reprezinte un contact deschis, care în momentul acţionării să se închidă. Invers, un comutator normal-închis este reprezentat ca şi un contact închis ce se deschide la acţionarea dispozitivului. Alăturat este reprezentat simbolul comutatorului tip buton în poziţia normal-deschis, respectiv normal-închis.</p>
 
 <div class="clear"></div>
 
-<img src="../poze/04029.png" alt="simbolul general al comutatorului în poziţie normal-deschis, respectiv normal-închis"/>
+#+CAPTION: simbolul general al comutatorului în poziţie normal-deschis, respectiv normal-închis
+[[../poze/04029.png]]
 
 <p>Există de asemenea un simbol generic pentru poziţia oricărui tip de comutator, fie normal-deschis, fie normal-închis, asemeni figurii alăturate. Comutatorul din stânga se închide când este acţionat şi este deschis în poziţia normală (atunci când nu este acţionat din exterior). Comutatorul din dreapta se deschide când este acţionat şi este închis în poziţia sa normală (când nu este acţionat). Dacă se folosesc astfel de simboluri pentru reprezentarea comutatoarelor, tipul acestora este de obicei trecut în vecinătatea simbolului, în cuvinte.</p>
 
 <div class="clear"></div>
 
-<img src="../poze/04023.png" alt="simbolul condensatorului folosit în circuitele logice digitale"/>
+#+CAPTION: simbolul condensatorului folosit în circuitele logice digitale
+[[../poze/04023.png]]
 
 <p>Atenţie, nu confundaţi simbolul stânga (în figura de mai sus) cu simbolul condensatorului. În cazul în care se doreşte reprezentarea unui condensator într-un circuit logic, se va folosi simbolul alăturat. În electronica standard, acest simbol este rezervat condensatoarelor polarizate. În circuitele logice digitale, acest simbol este folosit pentru orice tip de condensator, chiar şi în situaţia când condensatorul nu este un condensator polarizat.</p>
 
@@ -48,13 +51,15 @@
 
 <p>În cazul comutatoarelor cu mai multe poziţii, trebuie luat în considerare şi modul de deschidere şi de închidere a contactelor, pe măsură ce selectorul se deplasează de pe o poziţie pe alta.</p>
 
-<img src="../poze/04032.png" alt="comutator cu întrerupere; realizarea contactelor"/>
+#+CAPTION: comutator cu întrerupere; realizarea contactelor
+[[../poze/04032.png]]
 
 <p>Selectorul  comutatorului din figura alăturată realizează contactul (închiderea circuitului) într-una din cele cinci poziţii diferite. Poziţiile sunt numerotate de la 1 la 5. Configuraţia cea mai des întâlnită a unui comutator cu pas reglabil, este aceea în care contactul cu o anumită poziţie este deschis înainte de realizarea contactului (închiderea contactului) cu poziţia următoare. Sub această configuraţie, comutatorul este cunoscut sub numele de comutator cu întrerupere. Ca şi exemplu, să presupunem cazul în care comutatorul se află pe poziţia 3. Dacă selectorul este întors în sensul acelor de ceasornic, acesta va deschide contactul 3, deschizând practic circuitul, şi se va deplasa între poziţia 3 şi 4. În acest moment, ambele circuite (3 şi 4) sunt deschise, ambele contacte fiind deschis. Dacă se continuă deplasarea selectorului în sensul acelor de ceasornic, se va ajunge în poziţia 4, moment în care contactul se închide.</p>
 
 <div class="clear"></div>
 
-<img src="../poze/04033.png" alt="comutator cu suprapunere (comutator fără întrerupere); realizarea contactelor"/>
+#+CAPTION: comutator cu suprapunere (comutator fără întrerupere); realizarea contactelor
+[[../poze/04033.png]]
 
 <p>Există însă situaţii în care nu este permisă în nicio clipă deschiderea completă a circuitului ataşat selectorului. Pentru astfel de aplicaţii, există o altă variantă de comutator, denumită comutator cu suprapunere, sau comutator fără întrerupere. În acest caz, selectorul nu deschide circuitul precedent înainte de realizarea contactului cu circuitul următor (în sensul de rotire). În exemplu precedent, contactul 4 este realizat înaintea deschiderii contactului 3. Compromisul constă în faptul că circuitul trebuie să poată tolera asemenea contacte adiacente realizata simultan (1 cu 2, 2 cu 3, 3 cu 4 şi 4 cu 5).</p>
 
@@ -64,7 +69,8 @@
 
 <p>Când contactul(e) mobil poate fi adus pe unul dintre contactele fixe, acele poziţii sunt denumite „direcţii”. Numărul contactelor mobile poartă numele de poli. Ambele comutatoare prezentate mai sus cu un contact mobil şi cinci contacte staţionare pot fi desemnate ca si comutatoare monopolare cu cinci direcţii.</p>
 
-<img src="../poze/04034.png" alt="comutator bipolar cu cinci direcţii"/>
+#+CAPTION: comutator bipolar cu cinci direcţii
+[[../poze/04034.png]]
 
 <p>Să presupunem că două comutatoare bipolare cu cinci direcţii sunt legate împreună, astfel încât ele să fie acţionate prin intermediul aceluiaşi mecanism. Întregul dispozitiv astfel format poartă numele de comutator bipolar cu cinci direcţii. Simbolul unui astfel de comutator este prezentat în figura alăturată. De menţionat că linia întreruptă trasată între cele două selectoare, desemnează faptul că acestea sunt acţionate simultan de  acelaşi mecanism extern.</p>
 
@@ -72,31 +78,36 @@
 
 <p>Să luăm şi alte exemple de comutatoare:</p>
 
-<img src="../poze/04016.png" alt="comutator monopolar cu o direcţie"/>
+#+CAPTION: comutator monopolar cu o direcţie
+[[../poze/04016.png]]
 
 <p>Comutator monopolar cu o direcţie</p>
 
 <div class="clear"></div>
 
-<img src="../poze/04036.png" alt="comutator bipolar cu o direcţie"/>
+#+CAPTION: comutator bipolar cu o direcţie
+[[../poze/04036.png]]
 
 <p>Comutator bipolar cu o direcţie</p>
 
 <div class="clear"></div>
 
-<img src="../poze/04037.png" alt="comutator monopolar cu două direcţii"/>
+#+CAPTION: comutator monopolar cu două direcţii
+[[../poze/04037.png]]
 
 <p>Comutator monopolar cu două direcţii</p>
 
 <div class="clear"></div>
 
-<img src="../poze/04038.png" alt="comutator bipolar cu două direcţii"/>
+#+CAPTION: comutator bipolar cu două direcţii
+[[../poze/04038.png]]
 
 <p>Comutator bipolar cu două direcţii</p>
 
 <div class="clear"></div>
 
-<img src="../poze/04039.png" alt="comutator cvadripolar cu patru direcţii"/>
+#+CAPTION: comutator cvadripolar cu patru direcţii
+[[../poze/04039.png]]
 
 <p>Comutator cvadripolar cu patru direcţii</p>
 

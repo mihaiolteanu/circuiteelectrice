@@ -125,7 +125,8 @@ T<sub>ref</sub> = temperatura de referinţa pentru care α este specificat
 
 <p>Să luăm un circuit practic pentru a vedea efectele temperaturii asupra rezistenţei şi implicit asupra performanţei circuitului.</p>
 
-<p><img src="../poze/00289.png" alt="circuit electric pentru exemplificare impactului temperaturii asupra rezistenţei şi asupra performanţei circuitului"/></p>
+#+CAPTION: circuit electric pentru exemplificare impactului temperaturii asupra rezistenţei şi asupra performanţei circuitului
+[[../poze/00289.png]]
 
 <p>Rezistenţa totală a conductorilor din acest circuit este de 30 Ω (R<sub>fir1</sub> + R<sub>fir2</sub>) la temperatura standard de 20<sup>o</sup>C. Folosind metoda tabelului pentru analiza circuitului, obţinem următoarele valori:</p>
 

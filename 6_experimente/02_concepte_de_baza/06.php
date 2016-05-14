@@ -25,11 +25,13 @@
 
 <p>Vom încerca în cele ce urmează să arătăm că, în unele cazuri, valoarea rezistenţei nu este constantă. Pentru soluţionarea „misterului” variaţiei rezistenţei, vom face apel la „metoda ştiinţifică”. Pe parcurs, vom realiza circuitul de mai jos:</p>
 
-<img src="../poze/05064.png" alt="circuit electric simplu"/>
+#+CAPTION: circuit electric simplu
+[[../poze/05064.png]]
 
 <p>Practic, circuitul de mai sus va arăta astfel:</p>
 
-<img src="../poze/05065.png" alt="circuit electric simplu"/>
+#+CAPTION: circuit electric simplu
+[[../poze/05065.png]]
 
 <h2>Desfăşurarea experimentului</h2>
 

@@ -24,13 +24,15 @@
 
 <p>Spre deosebire de sarcinile electrice, materialele magnetice posedă doi poli cu efecte opuse, denumite <i>nord</i> şi <i>sud</i> după modul lor de orientare faţă de pământ. După cum a descoperit şi Peregrinus, este imposibilă separarea celor doi poli unul de altul prin secţionarea magnetului în două: fiecare nouă bucată de material posedă propriul sau set de poli nord şi sud:</p>
 
-<p><img src="../poze/00302.png" alt="secţionarea magnetului"/></p>
+#+CAPTION: secţionarea magnetului
+[[../poze/00302.png]]
 
 <p>Asemenea sarcinilor electrice, există doar două tipuri de poli: nord şi sud, prin analogie cu sarcinile pozitive şi negative. Asemenea sarcinilor electrice, polii asemănători se resping, iar ce opuşi se atrag. Această forţă, asemenea forţei cauzate de electricitatea statică, se extinde invizibil prin spaţiu şi poate chiar să treacă prin obiecte precum hârtia sau lemnul fără ca intensitatea sa să scadă simţitor.</p>
 
 <p>Rene Descartes a fost cel care a făcut observaţia conform căreia câmpul magnetic „invizibil” poate fi observat plasând un magnet sub o bucată de hârtie/lemn şi presărând deasupra pilitură de fier. Bucăţile de fier se vor alinia de-a lungul câmpului magnetic, „desenându-i” practic forma. Rezultatul experimentului arată faptul că liniile de câmp continuă neîntrerupte de la un pol al magnetului spre celălalt:</p>
 
-<p><img src="../poze/00303.png" alt="liniile câmpului magnetic pentru un magnet permanent"/></p>
+#+CAPTION: liniile câmpului magnetic pentru un magnet permanent
+[[../poze/00303.png]]
 
 <p>Precum este cazul oricărui tip de câmp (electric, magnetic, gravitaţional), cantitatea totală, sau efectul câpului este desemnată prin noţiunea de <i>flux</i>, iar „împingerea” ce dă naştere fluxului în spaţiu poartă denumirea de <i>forţă</i>. Termenul de „tub” a fost iniţial desemnat de Michael Faraday pentru desemnarea a ceea ce acum sunt denumite linii de câmp, şi anume, succesiunea fluxului magnetic în spaţiu, sau mai bine spus, forma sa. Într-adevăr, mărimea câmpului magnetic este adesea definită ca şi numărul liniilor de câmp, deşi este greu de crezut că asemenea linii discrete şi constante există cu adevărat în realitate.</p>
 
@@ -38,15 +40,18 @@
 
 <p>Fierul este unul dintre materialele ce poate fi uşor magnetizat. Dacă un corp de fier este adus în preajma unui magnet permanent, electronii din interiorul atomilor de fier se reorientează în direcţia câmpului produs de magnetului iar fierul devine „magnetizat”. Magnetizarea fierul se realizează asfel încât să încorporeze liniile câmpului magnetic în forma sa, ceea ce se traduce printr-o atracţie faţă de magnetul permanent indiferent de orientarea acestuia faţă de corpul de fier:</p>
 
-<p><img src="../poze/00304.png" alt="magnetizarea unui corp de fier"/></p>
+#+CAPTION: magnetizarea unui corp de fier
+[[../poze/00304.png]]
 
 <p>Corpul de fier iniţial nemagnetizat devine magnetizat după ce este adus în apropierea magnetului permanent. Indiferent ce pol este adus în apropierea fierului, acesta din urmă se va magnetiza în aşa fel încât să fie atras de magnet:</p>
 
-<p><img src="../poze/00305.png" alt="magnetizarea unui corp de fier"/></p>
+#+CAPTION: magnetizarea unui corp de fier
+[[../poze/00305.png]]
 
 <p>Luând ca şi referinţă proprietăţile magnetice naturale ale fierului, numim material <i>feromagnetic</i> acel material care se magnetizează uşor (electronii atomilor săi se aliniează uşor câmpului magnetic extern). Toate materialele sunt magnetice într-o anumită măsură, iar cele care nu sunt considerate feromagnetice (magnetizate uşor) sunt clasificate fie ca şi materiale <i>paramagnetice</i> (uşor magnetice) sau <i>diamagnetice</i>. Dintre cele două, materialele diamagnetice sunt cele mai ciudate. În prezenţa unui câmp magnetic extern, devin uşor magnetizate în direcţie opusă, asfel că resping câmpul magnetic extern!</p>
 
-<p><img src="../poze/00306.png" alt="magnetizarea unui material diamagnetic"/></p>
+#+CAPTION: magnetizarea unui material diamagnetic
+[[../poze/00306.png]]
 
 <p>În cazul în care un material feromagnetic îşi menţine starea de polarizare şi după încetarea cămpului magnetic extern, spunem că acest material are <i>remanenţă</i> (magnetică) bună. Această proprietate este o calitate necesară pentru un magnet permanent.</p>
 

@@ -26,7 +26,8 @@
 
 <p>Mai jos sunt date ca şi referinţă câteva capsule DIP dintre cele mai utilizate:</p>
 
-<img src="../poze/04160.png" alt="capsule DIP"/>
+#+CAPTION: capsule DIP
+[[../poze/04160.png]]
 
 <div class="clear"></div>
 

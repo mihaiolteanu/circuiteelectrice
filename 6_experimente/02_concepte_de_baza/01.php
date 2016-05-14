@@ -25,7 +25,8 @@
 
 <p>Multimetrul este un instrument electric cu ajutorul căruia se poate măsura tensiunea, curentul şi rezistenţa. Multimetrele digitale dispun de afişaje digitale, precum ceasurile digitale, pentru indicarea acestor mărimi. Multimetrele analogice indică mărimile de mai sus prin intermediul unui ac indicator în lungul unei scale gradate.</p>
 
-<img src="../poze/05035.png" alt="multimetru analogic şi digital"/>
+#+CAPTION: multimetru analogic şi digital
+[[../poze/05035.png]]
 
 <p>Multimetrele analogice sunt de obicei mai ieftine decât variantele digitale. De asemenea, ele sunt mult mai utile pentru începători, ca şi instrument de învăţare. Dacă aveţi posibilitatea, cumpăraţi un multimetru analogic înainte de a achiziţiona unul digital. Până la urmă, ar fi bine să posedaţi ambele tipuri de aparate pentru realizarea acestor experimente.</p>
 
@@ -41,7 +42,8 @@
 
 <p>Poziţionaţi selectorul multimetrului vostru pe poziţia de curent continuu (DC), pe cea mai mare valoare disponibilă. În această situaţie, multimetrul îndeplineşte funcţia de voltmetru. Aduceţi sonda roşie în contact cu borna pozitivă (+) a bateriei, iar sonda neagră cu borna negativă (-). Aparatul de măsură ar trebui acum să vă indice o anumită valoare. Inversaţi contactele (poziţia sondelor) între ele dacă indicaţia aparatului de măsură este negativă. În cazul unui multimetru analogic, o valoare negativă este observată prin deplasarea acului indicator în stânga, şi nu în dreapta.</p>
 
-<img src="../poze/05036-1.png" alt=""/>
+#+CAPTION: 
+[[../poze/05036-1.png]]
 
 <p>Dacă aveţi un multimetru manual, iar selectorul a fost pus pe cea mai mare valoare, indicaţia acestuia va fi slabă. Deplasaţi selectorul la următorul nivel inferior, şi reconectaţi bateria. Indicaţia ar trebui să fie mai puternică acum. Pentru obţinerea celor mai bune rezultate, mutaţi selectorul pe valoarea cea mai mică, dar astfel încât să nu depăşiţi scara de măsură a aparatului. Un multimetru digital va indica o astfel de „abatare” prin notaţia „OL” sau o serie de linii întrerupte, în funcţie de model. Măsuraţi mai multe tipuri de bateri pentru a vă obişnui cu selectarea poziţiilor optime.</p>
 
@@ -51,7 +53,8 @@
 
 <p>Luaţi din nou multimetrul, şi poziţionaţi selectorul pe cea mai mică valoare (DC). Atingeţi cu cele două sonde terminalii unui LED. Un LED, este un dispozitiv proiectat astfel încât să producă lumină la trecerea unui curent foarte mic prin el. Dar LED-urile pot şi să <i>genereze</i> o tensiune de curent continuu când sunt expuse la lumină, asemănător unei celule solare. Îndreptaţi LED-ul spre o sursă puternică de lumină, cu multimetrul conectat la bornele acestuia. Observaţi indicaţia aparatului de măsură:</p>
 
-<img src="../poze/05037.png" alt="multimetru şi LED"/>
+#+CAPTION: multimetru şi LED
+[[../poze/05037.png]]
 
 <p>Bateriile generează tensiune electrică prin intermediul reacţiilor chimice. Când o baterie „moare”, acest lucru înseamnă de fapt că resursele sale chimice s-au terminat. Un LED, pe de altă parte, nu se bazează pe o formă de energie internă pentru generarea tensiunii electrice. Acesta <i>transformă</i> energia optică în energie electrică. Atâtă timp cât va exista o sursă de lumină întreptată asupra acestuia, LED-ul va produce tensiune.</p>
 
@@ -61,7 +64,8 @@
 
 <p>Conectaţi voltmetrul vostru la bornele motorului, la fel ca în cazul LED-ului sau al bateriei. Învârţiţi axul motorului cu mână. Aparatul de măsură ar trebui să indice o cădere de tensiune. Dacă nu puteţi ţine ambele sonde pe bornele bateriei, puteţi folosi terminali tip crocodil, astfel:</p>
 
-<img src="../poze/05038.png" alt="multimetru şi motor electric"/>
+#+CAPTION: multimetru şi motor electric
+[[../poze/05038.png]]
 
 <p>Puteţi determina relaţia dintre tensiune şi viteza de rotaţie a axului? Ce se întâmplă cu indicaţia voltmetrului dacă măriţi viteza acestuia? Inversaţi apoi direcţia de rotaţie. Rezultatul este schimbarea polarităţii căderii de tensiune create de generator. Voltmetrul indică polaritatea prin intermediul direcţiei acului indicator (stânga sau dreapta, aparat analog) sau prin semn (plus sau minus, aparat digital).</p>
 

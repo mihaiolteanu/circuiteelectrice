@@ -27,9 +27,11 @@
 
 <p>Pe parcursul experimentului vom realiza circuitul de mai jos (diagramă plus implementare practică):</p>
 
-<img src="../poze/05144.png" alt="circuit electric cu potenţiometru şi motor"/>
+#+CAPTION: circuit electric cu potenţiometru şi motor
+[[../poze/05144.png]]
 
-<img src="../poze/05145.png" alt="circuit electric cu potenţiometru şi motor"/>
+#+CAPTION: circuit electric cu potenţiometru şi motor
+[[../poze/05145.png]]
 
 <h2>Realizarea reostatului din potenţiometru</h2>
 
@@ -37,17 +39,21 @@
 
 <p>În cea mai simplă comfiguraţie, potenţiometrul poate fi folosit pe post de reostat prin simpla utilizare a doi dintre terminalii acestuia. Cel de al treilea terminal este lăsat neconectat şi neutilizat:</p>
 
-<img src="../poze/05146.png" alt="circuit electric cu potenţiometru şi motor"/>
+#+CAPTION: circuit electric cu potenţiometru şi motor
+[[../poze/05146.png]]
 
-<img src="../poze/05147.png" alt="circuit electric cu potenţiometru şi motor"/>
+#+CAPTION: circuit electric cu potenţiometru şi motor
+[[../poze/05147.png]]
 
 <p>Deplasarea periei potenţiometrului astfel încât aceasta să se apropie de celălalt terminal utilizat rezultă în descreşterea rezistenţei. Direcţia necesară creşterii sau descreşterii rezistenţei poate fi schimbată prin utilizarea unor seturi diferite de terminali:</p>
 
-<img src="../poze/05148.png" alt="potenţiometru"/>
+#+CAPTION: potenţiometru
+[[../poze/05148.png]]
 
 <p>Fiţi atenţi însă să nu folosiţi cei doi terminali externi. Acest lucru nu va duce la modificarea rezistenţei atunci când poziţia periei se schimbă. Cu alte cuvinte, potenţiometrul nu va mai funcţiona ca şi o rezistenţă variabilă:</p>
 
-<img src="../poze/05149.png" alt="potenţiometru"/>
+#+CAPTION: potenţiometru
+[[../poze/05149.png]]
 
 <h2>Controlul vitezei motorului</h2>
 
@@ -59,17 +65,20 @@
 
 <p>Când folosim potenţiometrul pe post de reostat, adesea, terminalul nefolosit este conectat la terminalul perie, astfel:</p>
 
-<img src="../poze/05150.png" alt="circuit electric cu potenţiometru şi motor"/>
+#+CAPTION: circuit electric cu potenţiometru şi motor
+[[../poze/05150.png]]
 
 <p>Într-o primă instanţă, acest lucru pare complet inutil, întrucât nu are niciun impact asupra controlului rezistenţei. Puteţi verifica acest lucru prin introducerea unui nou fir în circuitul realizat. Comparati comportamentul motorului înainte şi după această modificare:</p>
 
-<img src="../poze/05151.png" alt="circuit electric cu potenţiometru şi motor"/>
+#+CAPTION: circuit electric cu potenţiometru şi motor
+[[../poze/05151.png]]
 
 <p>Dacă potenţiometrul este în stare bună de funcţionare, acest conductor adiţional nu are niciun efect asupra funcţionării motorului. Totuşi, dacă peria pierde contactul cu elementul rezistiv din interiorul potenţiometrului, această conexiune adiţională menţine circuitul închis. În unele aplicaţii, acest lucru poate fi important.</p>
 
 <p>Puteţi simula un asemenea „defect” a contactului periei. Deconectaţi terminalul din mijloc al potenţiometrului din circuit. Măsuraţi tensiunea motorului pentru a vă asigura că acesta este încă alimentat:</p>
 
-<img src="../poze/05152.png" alt="circuit electric cu potenţiometru şi motor"/>
+#+CAPTION: circuit electric cu potenţiometru şi motor
+[[../poze/05152.png]]
 
 <h2>Verificarea circuitelor cu voltmetrul în locui ampermetrului</h2>
 

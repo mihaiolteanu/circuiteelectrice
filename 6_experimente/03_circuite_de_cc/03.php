@@ -27,15 +27,19 @@
 
 <p>În urma realizării acetui experiment, vă veţi familiariza cu utilizarea legii lui Kirchhoff pentru tensiune, precum şi cu realizarea unui divizor de tensiune. Vom realiza circuitul de mai jos (diagrama):</p>
 
-<img src="../poze/05083.png" alt="divizor de tensiune"/>
+#+CAPTION: divizor de tensiune
+[[../poze/05083.png]]
 
 <p>Practic, acest poate fi realizat în oricare din formele de mai jos (care va este mai la îndemână):</p>
 
-<img src="../poze/05084.png" alt="divizor de tensiune; circuit practic"/>
+#+CAPTION: divizor de tensiune; circuit practic
+[[../poze/05084.png]]
 
-<img src="../poze/05085.png" alt="divizor de tensiune; circuit practic"/>
+#+CAPTION: divizor de tensiune; circuit practic
+[[../poze/05085.png]]
 
-<img src="../poze/05086.png" alt="divizor de tensiune; circuit practic"/>
+#+CAPTION: divizor de tensiune; circuit practic
+[[../poze/05086.png]]
 
 <p>Alternativ, puteţi încerca realizarea tuturor celor trei variante de mai sus. Vă veţi familiariza astfel cu toate cele trei metode. Fiecare are avantajele şi dezavantajele sale. Ultima variantă - în care toate componentele sunt conectate între ele folosind conductori cu crocodili - este cea mai neprofesională, dar perfectă pentru un experiment precum cel de faţă. Construcţia circuitului pe placa de test este cea mai versatilă. Placa de test permite o densitate mare de componente (multe componente pe o suprafaţă mică), dar circuitului este temporar. Regleta de borne oferă un circuit mult mai permanent, dar o densitatea mică de componente.</p>
 
@@ -47,7 +51,8 @@
 
 <p>Aplicaţi legea lui Ohm (I = E / R) pentru a calcula curentul din circuit. Verificaţi această valoare calculata prin măsurarea curentului cu un ampermetru astfel (metoda este similară indiferent de varianta circuitului):</p>
 
-<img src="../poze/05087.png" alt="divizor de tensiune; măsurarea curentului"/>
+#+CAPTION: divizor de tensiune; măsurarea curentului
+[[../poze/05087.png]]
 
 <p>Dacă valorile rezistorilor pe care i-aţi ales se află într-adevăr în intervalul 1 kΩ - 100 kΩ, iar tensiunea bateriei este de aproximativ 6 V, valoarea curentului ar trebui să fie destul de mică (mA sau µA). Fiţi atenţi la prefixul afişat, într-unul din colţuri, în cazul multimetrelor digitale. Este foarte uşor să uităm aceste prefixe când citim valoarea măsurători.</p>
 
@@ -63,25 +68,32 @@
 
 <p>Identificaţi fiecare punct din circuit cu un număr. Punctele ce sunt electric comune trebuiesc notate cu acelaşi număr, astfel:</p>
 
-<img src="../poze/05089.png" alt="divizor de tensiune; notarea punctelor din circuit"/>
+#+CAPTION: divizor de tensiune; notarea punctelor din circuit
+[[../poze/05089.png]]
 
 <p>Practic, circuitul se poate realiza prin lipirea unei benzi adezive la capătul conductorilor pe care este scris numărul punctului respectiv de contact din circuit:</p>
 
-<img src="../poze/05088.png" alt="divizor de tensiune; notarea punctelor din circuit"/>
+#+CAPTION: divizor de tensiune; notarea punctelor din circuit
+[[../poze/05088.png]]
 
 <p>Folosiţi un voltmetru digital (acest lucru este important!). Măsuraţi căderile de tensiune în jurul buclei formate din punctele 0-1-2-3-0. Notaţi-vă fiecare din aceste tensiuni, cât şi semnul indicat de voltmetrul. Cu alte cuvinte, dacă valoarea afişată de voltmetru este -1,325 V, notaţi această valoare cu semnul minus. <i>Nu</i> inversaţi sondele voltmetrului pentru a obţine o citire „corectă” (pozitivă). Semnul matematic este foarte important pentru exemplificarea legii lui Kirchhoff. Paşii pe care trebuie sa-i urmaţii sunt următorii:</p>
 
-<img src="../poze/05090.png" alt="divizor de tensiune; măsurarea căderilor de tensiune"/>
+#+CAPTION: divizor de tensiune; măsurarea căderilor de tensiune
+[[../poze/05090.png]]
 
-<img src="../poze/05091.png" alt="divizor de tensiune; măsurarea căderilor de tensiune"/>
+#+CAPTION: divizor de tensiune; măsurarea căderilor de tensiune
+[[../poze/05091.png]]
 
-<img src="../poze/05092.png" alt="divizor de tensiune; măsurarea căderilor de tensiune"/>
+#+CAPTION: divizor de tensiune; măsurarea căderilor de tensiune
+[[../poze/05092.png]]
 
-<img src="../poze/05093.png" alt="divizor de tensiune; măsurarea căderilor de tensiune"/>
+#+CAPTION: divizor de tensiune; măsurarea căderilor de tensiune
+[[../poze/05093.png]]
 
 <p>Folosind astfel voltmetrul pentru a „păşi” în jurul circuitului, veţi obţine trei tensiuni pozitive şi o tensiune negativă:</p>
 
-<img src="../poze/05094.png" alt="divizor de tensiune; măsurarea căderilor de tensiune"/>
+#+CAPTION: divizor de tensiune; măsurarea căderilor de tensiune
+[[../poze/05094.png]]
 
 <p>Adunaţi toate aceste valori algebric (respectând semnul). Rezultatul sumei trebuie să fie zero. Acesta este principiul fundamental al legii lui Kirchhoff pentru tensiune: suma algebrică a tutor căderilor de tensiune dintr-o buclă trebuie să fie egală cu zero.</p>
 

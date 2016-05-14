@@ -26,17 +26,20 @@
 
 <p>În cazul amplificatoarelor de clasă A, întreg semnalul de intrare este reprodus la ieşire. Acest mod de operare al tranzistorului poate fi atins doar atunci când acest funcţionează tot timpul în zona activă, neatingând niciodată punctul de saturaţie sau de blocare. Pentru realizarea acestui lucru, este nevoie de o tensiune de polarizare de curent continuu suficient de mare pentru funcţionarea tranzistorului între zona de blocare şi cea de saturaţie. În acest fel, semnalul de intrare în curent alternativ va fi perfect „centrat” între limita superioară şi cea inferioară a nivelului de semnal al amplificatorului.</p>
 
-<p><img src="../poze/03124.png" alt="amplificator clasa A"/></p>
+#+CAPTION: amplificator clasa A
+[[../poze/03124.png]]
 
 <h2>Amplificator clasa B. Configuraţia contratimp</h2>
 
 <p>Amplificatorul de clasă B este ceea ce am obţinut în cazul amplificatorului emitor comun, cu semnal de intrare în curent alternativ dar fără nicio tensiune de polarizare în curent continuu conectată la intrare. În acest caz, tranzistorul petrece doar o jumătate de timp în zona activă de funcţionare, iar în cealaltă jumătate de timp este blocat, datorită faptului că tensiune de intrare este prea mică, sau chiar de polaritate inversă, pentru a putea polariza direct joncţiunea bază-emitor.</p>
 
-<p><img src="../poze/03125.png" alt="amplificator clasa B"/></p>
+#+CAPTION: amplificator clasa B
+[[../poze/03125.png]]
 
 <p>Folosit individual, amplificatorul de clasă B nu este foarte folositor. De cele mai multe ori, distorsiunile foarte mari introduse în forme de undă, prim eliminarea unei semialternanţe, nu sunt acceptabile. Totuşi, această modalitate de polarizare a amplificatoarelor este folositoare dacă se folosesc două amplificatoare de clasă B în configuraţie <i>contratimp</i> (push-pull), fiecare amplificator reproducând doar o jumătate a formei de undă .</p>
 
-<p><img src="../poze/03126.png" alt="conectarea a două amplificatoare clasă B în contratimp (push-pull)"/></p>
+#+CAPTION: conectarea a două amplificatoare clasă B în contratimp (push-pull)
+[[../poze/03126.png]]
 
 <p>Un avantaj al amplificatorului de clasă B (contratimp) faţă de cel de clasă A, constă într-o capacitate mai mare a puterii de ieşire. În clasa A, tranzistorul disipă o putere considerabilă sub formă de căldură datorită faptului că acesta se află tot timpul în zona activă de funcţionare. În clasa B, fiecare tranzistor conduce doar jumătate din timp, iar în cealaltă jumătate este blocat, nu conduce curent electric, şi prin urmare, puterea disipată sub formă de căldură este zero. Asfel, fiecare tranzistor are timp de „odihnă” şi de răcire, atunci când celălalt tranzistor se află în conducţie. Amplificatoarele de clasă A sunt mai simplu de construit, dar sunt limitate doar la aplicaţiie de putere joasă datorită căldurii generate.</p>
 
@@ -48,11 +51,13 @@
 
 <p>Dacă semnalul de intrare al amplificatorului este uşor negativ (sursa de tensiune în curent alternativ inversată), semnalul de ieşire va fi tăiat şi mai mult faţă de semnalul de ieşire al amplificatorului de clasa B. Tranzistorul va petrece majoritatea timpului în stare blocată:</p>
 
-<p><img src="../poze/03127.png" alt="amplificator clasa C"/></p>
+#+CAPTION: amplificator clasa C
+[[../poze/03127.png]]
 
 <p>Deşi această configuraţie nu pare practică, dacă se conectează un circuit rezonant condensator-bobină la ieşire, semnalul ocazional produs de amplificator la ieşire este suficient pentru punerea în funcţionare a oscilatorului:</p>
 
-<p><img src="../poze/03127.png" alt="amplificator clasa C cu ieşire rezonantă"/></p>
+#+CAPTION: amplificator clasa C cu ieşire rezonantă
+[[../poze/03127.png]]
 
 <p>Datorită faptului că tranzistorul este în mare parte a timpului blocat, puterea la bornele sale poate fi mult mai mare decât în cazul celorlalte două configuraţii văzute mai sus. Datorită dependenţei de circuitul rezonante de la ieşire, acest amplificator poate fi folosit doar pentru semnale de o anumită frecvenţă fixă.</p>
 
@@ -62,7 +67,8 @@
 
 <p>Un amplificator clasa D reproduce profilul formei de undă în tensiune de la intrare prin generarea unui semnal de ieşire dreptunghiular cu o rată de pulsaţie mare. <i>Factorul de umplere</i> reprezintă raportul dintre durata în care semnalul este maxim durata în care semnalul este zero. Cu alte cuvinte, reprezintă durata de funcţionare al unui dispozitiv, în general. Factorul de umplere variază odată cu amplitudinea instantanee a semnalului de intrare.</p>
 
-<p><img src="../poze/03230.png" alt="principiul de funcţionare al amplificatorului clasă D; formele de undă de intrare şi ieşire nefiltrată"/></p>
+#+CAPTION: principiul de funcţionare al amplificatorului clasă D; formele de undă de intrare şi ieşire nefiltrată
+[[../poze/03230.png]]
 
 <p>Cu cât amplitudinea instantanee a semnalului de intrare este mai mare, cu atât factorul de umplere a formei de undă dreptunghiulare este mai mare. Singurul motiv pentru folosirea amplificatorului de clasă D, este evitarea funcţionării tranzistorului în zona activă de funcţionare; tranzistorul va fi tot timpul fie blocat fie saturat. Puterea disipată de tranzistor va fi foarte mică în acest caz. Dezavantajul metodei constă în prezenţa armonicilor la ieşire. Din fericire, din moment ce frecvenţa acestor armonici este mult mai mare decât frecvenţa semnalului de intrare, acestea pot fi filtrate relativ uşor cu ajutorul unui filtru trece-jos, rezultând un semnal de ieşire mult mai asemănător cu semnalul de intrare original. Amplificatoarele de clasă D sunt folosite de obicei în locurile unde este nevoie de puteri mari la frecvenţe raltiv joase, precum invertoarele industriale (dispozitive ce transformă curentul continuu în curent alternativ) şi amplificatoarele audio de înaltă performanţă.</p>
 

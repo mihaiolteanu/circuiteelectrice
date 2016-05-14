@@ -116,11 +116,13 @@ inimii după 3 secunde
 
 <p>Obervaţi valorile rezistenţei pentru scenariul contactului cu o bară groasă de 4 cm. Rezistenta măsurată în cazul contactului cu ambele mâini este exact jumătate cazului de contact cu o singură mână.</p>
 
-<p><img src="../poze/00382.png" alt="realizarea contactului cu o bară metalică cu o singură mână"/></p>
+#+CAPTION: realizarea contactului cu o bară metalică cu o singură mână
+[[../poze/00382.png]]
 
 <p>Cu ambele mâini pe bară, suprafaţa de contact este de două ori mai mare decât cu o singură mână. Aceasta este o lecţie importantă de ţinut minte: <span class="important">rezistenţa electrică dintre două puncte de contact scade odată cu creşterea suprafeţei contactului, toţi ceilalţi factori rămânând constanţi</span>. Dacă ţinem bara metalică cu ambele mâini, electronii au două căi <i>paralele</i> de curgere dinspre bară spre corp şi invers.</p>
 
-<p><img src="../poze/00383.png" alt="realizarea contactului cu o bară metalică cu două mâini"/></p>
+#+CAPTION: realizarea contactului cu o bară metalică cu două mâini
+[[../poze/00383.png]]
 
 <p>Conexiunea în paralel rezultă tot timpul într-o rezistenţă electrică totală mai mică decât oricare dintre rezistenţele conectate luate individual.</p>
 
@@ -136,13 +138,17 @@ inimii după 3 secunde
 
 <p>Cea mai bună protecţie împotriva electrocutării este rezistenţa electrică, iar aceasta poate fi adăugată rezistenţei corpului prin folosirea instrumentelor de lucru, echipamentelor, mănuşilor şi încălţămintei izolate electric. Curentul prin circuit (factorul periculos la electrocutare) este raportul dintre tensiunea electrică prezentă şi valoarea <span class="important">totală</span> a rezistenţei în calea curgerii curentului. Valoarea totală a rezistenţelor conectate în serie este mai mare decât valoarea oricărei rezistenţe luată individual (link!).</p>
 
-<p><img src="../poze/00062.png" alt="rezistenţa corpului într-un circuit electric"/></p>
-<p><img src="../poze/10029.png" alt="persoanele ce intră în contact direct cu sursele de tensiune: curentul este limitat doar de rezistenţa corpului"/></p>
+#+CAPTION: rezistenţa corpului într-un circuit electric
+[[../poze/00062.png]]
+#+CAPTION: persoanele ce intră în contact direct cu sursele de tensiune: curentul este limitat doar de rezistenţa corpului
+[[../poze/10029.png]]
 
 <p>Circuitul echivalent pentru aceeiaşi situaţie, dar cu persoana în cauză purtând mănuşi şi încălţăminte de protecţie (izolate electric):</p>
 
-<p><img src="../poze/00063.png" alt="rezistenţa corpului plus cea a încălţăminte şi mănuşilor de protecţie într-un circuit electric"/></p>
-<p><img src="../poze/10030.png" alt="persoanele ce poartă mănuşi şi încălţăminte de protecţie: curentul este limitat acum de valoarea totală a rezistenţei din circuit"/></p>
+#+CAPTION: rezistenţa corpului plus cea a încălţăminte şi mănuşilor de protecţie într-un circuit electric
+[[../poze/00063.png]]
+#+CAPTION: persoanele ce poartă mănuşi şi încălţăminte de protecţie: curentul este limitat acum de valoarea totală a rezistenţei din circuit
+[[../poze/10030.png]]
 
 <p>Deoarece curentul trebuie acum să treacă prin încălţăminte, prin corp şi prin mănuşi pentru a închide circuitul spre baterie, suma tuturor acestor rezistenţe se opune trecerii curentului într-o măsură mai mare decât oricare rezistenţă luată în parte.</p>
 

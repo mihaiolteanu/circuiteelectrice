@@ -32,7 +32,8 @@
 
 <p>Chiar dacă în calculele uzuale nu vom întâlni prea des aceşti termeni, este bine de ştiut că aceştia există.</p>
 
-<p><img src="../poze/00000.png" alt=""/></p>
+#+CAPTION: 
+[[../poze/00000.png]]
 
 <p class="sumar">Sumar:</p>
 <ul>

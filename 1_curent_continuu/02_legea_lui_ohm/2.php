@@ -29,7 +29,8 @@
 
 <p>Un motor diesel de tractor de 100 de cai putere, are o viteză de rotaţie mică, dar un cuplu mare. Um motor de motocicletă de 100 de cai putere, are o viteză de rotaţie foarte mare, dar un cuplu mic. Ambele produc 100 de cai putere, dar la viteze şi cupluri diferite. Ecuaţia pentru calcului cailor putere (CP) este simplă:</p>
 
-<img src="../poze/10011.png" alt="formulă matematică"/>
+#+CAPTION: formulă matematică
+[[../poze/10011.png]]
 
 <p>unde,</p>
 <ul><li>S = viteza arborelui în r.p.m.</li>
@@ -39,7 +40,8 @@
 
 <p>Putem observa că există doar două variabile în partea dreaptă a ecuaţiei, S şi T. Toţi ceilalţi termeni sunt constanţi: 2, π şi 5252, toate sunt constante (nu îşi modifică valoarea în funcţie de timp sau de situaţie). CP (cal putere) variază doar atunci când variază fie viteza fie cuplul şi nimic altceva. Putem rescrie ecuaţia pentru a arăta această relaţie:</p>
 
-<img src="../poze/10012.png" alt="formulă matematică"/>
+#+CAPTION: formulă matematică
+[[../poze/10012.png]]
 
 <p>unde,</p>
 <ul><li>&prop; înseamnă direct proporţional (adesea prescurtat d.p.)</li>
@@ -50,7 +52,8 @@
 
 <p>Pentru circuitele electrice, puterea este o funcţie (depinde) de curent şi tensiune. Nu este surprinzător faptul că această relaţie seamănă izbitor cu formula „proporţională” a calului putere de mai sus:</p>
 
-<img src="../poze/10013.png" alt="formulă matematică"/>
+#+CAPTION: formulă matematică
+[[../poze/10013.png]]
 
 <p>Totuşi, în acest caz, puterea (P) este exact egală curentului (I) înmulţit cu tensiunea (E), şi nu este doar proporţională cu aceast produs (IE). Când folosim această formulă, unitatea de măsură pentru putere este <i>watt</i>-ul, prescurtat prin litera „W”.</p>
 

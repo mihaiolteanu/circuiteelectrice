@@ -22,7 +22,8 @@
 <div id="contents">
 <p>Ce facem în cazul în care avem un circuit mai complicat decât configuraţiile serie considerate până acum? Să luăm acest circuit, de exemplu:</p>
 
-<p><img src="../poze/00335.png" alt="circuit RC complex"/></p>
+#+CAPTION: circuit RC complex
+[[../poze/00335.png]]
 
 <p>Formula constantei de timp (τ=RC) se bazează pe un circuit capacitiv serie simplu, format dintr-un condensator şi un rezistor conectate în serie. Acelaşi lucru este valabil şi pentru constanta de timp în circuitul inductiv serie simplu (τ=L/R). Ce putem face prin urmare într-o situaţie asemănătoare celei de faţă, unde rezistorii sunt conectaţi într-o configuraţie serie-paralel cu condensatorul/bobina?</p>
 
@@ -30,27 +31,34 @@
 
 <p>După ce am identificat condensatorul ca fiind „sarcina” circuitului, îl îndepărtăm şi determinam tensiunea la bornele sarcinii (întrerupătorul este închis)</p>
 
-<p><img src="../poze/00336.png" alt="analiza circuitului RC complex folosind teorema lui Thevenin - tensiunea Thevenin"/></p>
-<p><img src="../poze/10259.png" alt="tabel"/></p>
+#+CAPTION: analiza circuitului RC complex folosind teorema lui Thevenin - tensiunea Thevenin
+[[../poze/00336.png]]
+#+CAPTION: tabel
+[[../poze/10259.png]]
 
 <p>Acest pas al analizei reflectă faptul că tensiunea la bornele sarcinii (aceeiaşi ca la bornele rezistorului R<sub>2</sub>) este de 1.8182 V atunci când nu este conectată nicio sarcină. Dacă suntem atenţi, observăm că această tensiunea este chiar tensiunea finală la bornele condensatorului, deoarece un condensator complet încărcat se comportă precum un circuit deschis (curent zero). Folosim această valoare a tensiunii pentru circuitul echivalent Thevenin.</p>
 
 <p>Pentru determinarea rezistenţei Thevenin, trebuie să eliminăm toate sursele de putere din circuitul original şi să recalculăm rezistenţa aşa cum este ea văzută de la terminalele sarcinii:</p>
 
-<p><img src="../poze/00337.png" alt="analiza circuitului RC complex folosind teorema lui Thevenin - rezistenţa Thevenin"/></p>
-<p><img src="../poze/10260.png" alt="formule"/></p>
+#+CAPTION: analiza circuitului RC complex folosind teorema lui Thevenin - rezistenţa Thevenin
+[[../poze/00337.png]]
+#+CAPTION: formule
+[[../poze/10260.png]]
 
 <p>Următorul pas este redesenarea circuitului original sub forma circuitului echivalent Thevenin:</p>
 
-<p><img src="../poze/00338.png" alt="analiza circuitului RC complex folosind teorema lui Thevenin - circuitul echivalent"/></p>
+#+CAPTION: analiza circuitului RC complex folosind teorema lui Thevenin - circuitul echivalent
+[[../poze/00338.png]]
 
 <p>Constanta de timp pentru acest circuit va fi egală cu produsul dintre rezistenţa Thevenin şi capacitatea condensatorului (τ=RC). Cu valorile de mai sus, putem face următoarele calcule:</p>
 
-<p><img src="../poze/10261.png" alt="formule"/></p>
+#+CAPTION: formule
+[[../poze/10261.png]]
 
 <p>În acest moment putem afla şi tensiunea la bornele condensatorului direct din formula universală de calcul a constantei de timp. Să facem calculele pentru o valoare de 60 de milisecunde. Deoarece este o formulă capacitivă, vom face calculele în funcţie de tensiune:</p>
 
-<p><img src="../poze/10262.png" alt="formule"/></p>
+#+CAPTION: formule
+[[../poze/10262.png]]
 
 <p>Din nou, deoarece valoarea iniţială a tensiunii condensatorului am presupus-o ca fiind zero volţi, căderea de tensiune actuală pe condensator dupa un interval de 60 ms de la închiderea întrerupătorului este suma dintre valoarea iniţială (0 V) şi cea finală (1.3325 V), adică 1.3325 V.</p>
 

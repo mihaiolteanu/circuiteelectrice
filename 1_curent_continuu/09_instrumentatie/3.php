@@ -22,15 +22,18 @@
 <div id="contents">
 <p>Folosind amplificatoare electronice putem construi circuite a căror ieşire să fie o cantitate constantă de curent în loc de o cantitate constantă de tensiune, precum în cazul bateriei de exemplu. Aceste componente folosite împreună poartă denumirea de <i>sursă de curent</i>, iar simbolul este acesta:</p>
 
-<img src="../poze/00187.png" alt="sursă de curent"/>
+#+CAPTION: sursă de curent
+[[../poze/00187.png]]
 
 <p>O sursă de curent generează o valoare a tensiunii suficient de mică sau de mare asfel încâ să producă o cantitate constantă de curent la bornele sale. Acest lucru este exact opusul unei surse de tensiune (o baterie ideală), ce va furniza o cantitate mai mică sau mai mare de curent în funcţie de cerinţele circuitului la care este legată. Întrucât folosim notaţia reală de deplasare a electronilor prin circuit, săgeata simbolului va fi orientată <i>contrar</i> direcţiei de curgere.</p>
 
-<img src="../poze/00188.png" alt="circuit electric cu sursă de curent"/>
+#+CAPTION: circuit electric cu sursă de curent
+[[../poze/00188.png]]
 
 <p>Sursele de curent pot fi construite ca şi dispozitive variabile, la fel ca şi sursele de tensiune, producând valori foarte precise de curent electric. Dacă am construi un traductor cu o sursă de curent variabilă în loc de o sursă de tensiune, am putea realiza un sistem de instrumentaţie bazat pe curent în loc de tensiune:</p>
 
-<img src="../poze/00189.png" alt="sistem de instrumentaţie cu sursă de curent"/>
+#+CAPTION: sistem de instrumentaţie cu sursă de curent
+[[../poze/00189.png]]
 
 <p>Momentan nu ne interesează construcţia internă a sursei de curent din interiorul traductorului, ci doar faptul că ieşirea acestuia variază în funcţie de poziţia plutitorului, la fel ca în cazul potenţiometrului din sistemul de instrumentaţie bazat pe tensiune.</p>
 
@@ -38,7 +41,8 @@
 
 <p>Cel mai folosit standard pentru semnalul de curent este de 4 - 20 miliamperi, unde 4 mA reprezintă 0% din cantitatea de măsurat şi 20 mA reprezintă 100% (12 mA, 50%, etc.). Un avantaj pentru utilizarea acestor valori o constituie uşurinţa folosirii instrumentelor de măsură pentru valorile de 1-5 V. Un simplu rezistor de precizie de 250 ohm conectat în serie cu acest circuit va produce o cădere de tensiune de 1 V la 4 mA şi 5 V la 20 mA: </p>
 
-<img src="../poze/00190.png" alt="sistem de instrumentaţie cu sursă de curent"/>
+#+CAPTION: sistem de instrumentaţie cu sursă de curent
+[[../poze/00190.png]]
 
 <pre>
 ----------------------------------------

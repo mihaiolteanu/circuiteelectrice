@@ -22,11 +22,13 @@
 <div id="contents">
 <p>Această configuraţie este mai complexă decât celelalte două, emitor comun şi colector comun, şi este mai puţin folosită datorită caracteristicilor ciudate de funcţionare:</p>
 
-<p><img src="../poze/03114.png" alt="amplificator în conexiune bază comună"/></p>
+#+CAPTION: amplificator în conexiune bază comună
+[[../poze/03114.png]]
 
 <p>Denumirea de bază comună vine de la faptul că semnalul sursei de alimentare şi sarcina au ca şi punct comun baza tranzistorului:</p>
 
-<p><img src="../poze/03115.png" alt="amplificator în conexiune bază comună; intrarea între emitor şi bază, ieşirea între colector şi bază"/></p>
+#+CAPTION: amplificator în conexiune bază comună; intrarea între emitor şi bază, ieşirea între colector şi bază
+[[../poze/03115.png]]
 
 <p>Probabil că cea mai ciudată caracteristică a acestui tip de configuraţie constă în faptul că sursa de semnal de intrare trebuie să conducă întreg curentul de pe emitor al tranzistorului, după cum este indicat în prima figură prin săgeţile îngroşate. După câte ştim, curentul emitorului este mai mare decât oricare alţi curenţi ai tranzistorului, fiind suma curenţilor de bază şi de colector. În celelalte două configuraţii, sursa de semnal era conectată la baza tranzistorului, curentul prin sursă fiind asfel cel mai mic posibil.</p>
 
@@ -36,29 +38,35 @@
 
 <p>Circuitul practic pe care îl vom studia, arată asfel:</p>
 
-<p><img src="../poze/03116.png" alt="amplificator în conexiune bază comună"/></p>
+#+CAPTION: amplificator în conexiune bază comună
+[[../poze/03116.png]]
 
 <p>Graficul variaţiei tensiunii de ieşire cu tensiune de intrare arată asfel:</p>
 
-<p><img src="../poze/23011.png" alt="amplificator în conexiune bază comună"/></p>
+#+CAPTION: amplificator în conexiune bază comună
+[[../poze/23011.png]]
 
 <p>Putem observa din graficul de mai sus că tensiune de ieşire creşte de la 0 (tranzistor blocat) la 15.75 V (tranzistor saturat) pe câd tensiunea de intrare creşte de la 0.6 V până la doar 1.2 V. Mai precis, tensiunea de ieşire nu începe să crească decât după ce tensiune de intrare a depăşite valoarea de 0.7 V, iar nivelul de saturaţie este atins pentru o tensiune de intrare de 1.12. Acest lucru reprezintă o amplificare în tensiune destul de mare, de 37.5. Putem observa de asemenea, că tensiunea de ieşire (măsurată la bornele rezistorului de sarcină, R<sub>sarcină</sub>) creşte peste valoarea sursei de tensiune (15 V) la saturaţie, datorită conectării în serie a celor două surse de putere.</p>
 
 <p>O nouă analiză a circuitului, de data aceasta cu o sursă de semnal în curent alternativ legată în serie cu o sursă de polarizare de curent continuu, dezvăluie încă odată factorul mare de amplificare în tensiune:</p>
 
-<p><img src="../poze/03117.png" alt="amplificator în conexiune bază comună; adăugarea unei surse de semnal în curent alternativ"/></p>
+#+CAPTION: amplificator în conexiune bază comună; adăugarea unei surse de semnal în curent alternativ
+[[../poze/03117.png]]
 
 <p>După cum se poate observa în figura de mai jos, semnalul de intrare (roşu, mărit de 10 ori pentru uşurinţa vizualizării) este în fază cu cel de ieşire (albastru), ceea ce înseamnă că amplificatorul bază comun este non-inversor:</p>
 
-<p><img src="../poze/23012.png" alt="amplificator în conexiune bază comună; graficul formelor de undă ale tensiunilor de intrare şi de ieşire"/></p>
+#+CAPTION: amplificator în conexiune bază comună; graficul formelor de undă ale tensiunilor de intrare şi de ieşire
+[[../poze/23012.png]]
 
 <p>Putem vizualiza formele de undă ale amplificatorului conectând mai multe osciloscoape, simultan, în punctele de interes:</p>
 
-<p><img src="../poze/03118.png" alt="amplificator în conexiune bază comună; vizualizarea formelor de undă ale tensiunilor"/></p>
+#+CAPTION: amplificator în conexiune bază comună; vizualizarea formelor de undă ale tensiunilor
+[[../poze/03118.png]]
 
 <p>Acelaşi lucru este valabil şi pentru un tranzistor PNP:</p>
 
-<p><img src="../poze/03119.png" alt="amplificator în conexiune bază comună; vizualizarea formelor de undă ale tensiunilor; tranzistor tip PNP"/></p>
+#+CAPTION: amplificator în conexiune bază comună; vizualizarea formelor de undă ale tensiunilor; tranzistor tip PNP
+[[../poze/03119.png]]
 
 <h2>Calcularea factorului de amplificare în tensiune</h2>
 

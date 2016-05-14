@@ -25,11 +25,13 @@
 
 <p>Un mecanism de deplasare priectat special pentru măsurarea puterii este mecanismul de tip dinamometru. Structura acestuia este similară modelelor D'Arsonval şi Weston, cu diferenţa că se utilizează o bobină (staţionară) în locul unui magnet permanent pentru generarea câmpului magnetic. Bobina mobilă este în general alimentată de la tensiunea circuitului, iar bobina staţionară este alimentată de curentul circuitului. Într-un cirucuit, o astfel de strucutră arată astfel:</p>
 
-<img src="../poze/00181.png" alt="conectarea wattmetrului în circuit"/>
+#+CAPTION: conectarea wattmetrului în circuit
+[[../poze/00181.png]]
 
 <p>Bobina de sus (orizontală) măsoară curentul, în timp ce bobina de jos (verticală) măsoară căderea de tensiune. La fel ca în cazul voltmetrelor, deplasarea dinamometrului este de obicei conectată în serie cu un rezistor pentru a nu aplica întreaga cădere de tensiune pe mecanism. Asemanător, bobina (staţionară) de curent va fi prevăzută cu rezistori de şunt pentru a diviza curentul în jurul acesteia. Totuşi, de multe ori nu este nevoie de rezistori de şunt, deoarece grosimea conductorului din care este realizată bobina staţionară poate fi oricât de mare (pentru reducerea curentului), fără a influenţa răspunsul aparatului de măsură. Bobina mobilă nu se poate bucura de această „libertate”, deoarece ea trebuie realizată din conductori cât mai usori pentru a o inerţie minimă.</p>
 
-<img src="../poze/00182.png" alt="electrodinamometru"/>
+#+CAPTION: electrodinamometru
+[[../poze/00182.png]]
 
 
 

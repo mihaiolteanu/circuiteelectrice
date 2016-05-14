@@ -25,11 +25,13 @@
 
 <p>Următorul experiment are ca principal scop realizarea şi înţelegearea circuitului de mai jos:</p>
 
-<img src="../poze/05056.png" alt="circuit electric simplu"/>
+#+CAPTION: circuit electric simplu
+[[../poze/05056.png]]
 
 <p>Practic, circuitul de mai sus arată astfel:</p>
 
-<img src="../poze/05057.png" alt="circuit electric simplu"/>
+#+CAPTION: circuit electric simplu
+[[../poze/05057.png]]
 
 <h2>Atenţie la scurt-circuitarea accidentală a ampermetrului</h2>
 
@@ -39,13 +41,15 @@
 
 <p>În mod ideal, la bornele unui ampermetrului introdus în serie într-un circuit, nu va exista cădere de tensiune. Cu alte cuvinte, acesta se comportă precum un fir conductor, prezentând o rezistenţa foarte mică de la un capăt la celălalt. Prin urmare, un ampermetru se va comporta precum un scurt-circuit dacă este conectat în paralel cu o sursă substanţială de tensiune. Nu încercaţi totuşi să faceţi acest lucru. Curentul foarte mare rezultat poate duce la distrugerea aparatului:</p>
 
-<img src="../poze/05058.png" alt="scurt-circuitarea ampermetrului"/>
+#+CAPTION: scurt-circuitarea ampermetrului
+[[../poze/05058.png]]
 
 <p>Ampermetrele sunt de obicei protejate împotriva unor astfel de scenarii prin intermediul unei siguranţe fuzibile localizate în interiorul carcasei. Încercaţi însă să evitaţi astfel de scenarii.</p>
 
 <p>Puteţi verifica starea siguranţei fuzibile interne a multimetrului trecând pe „Ω” (măsurare rezistenţe), şi măsurând continuitatea între cele două sonde (şi prin siguranţa fuzibilă), astfel:</p>
 
-<img src="../poze/05059.png" alt="circuit electric simplu"/>
+#+CAPTION: circuit electric simplu
+[[../poze/05059.png]]
 
 <h2>Desfăşurarea experimentului</h2>
 
@@ -59,17 +63,20 @@
 
 <p>Refaceţi circuitul pe o placă de test, astfel:</p>
 
-<img src="../poze/05052.png" alt="circuit electric pe placa de test"/>
+#+CAPTION: circuit electric pe placa de test
+[[../poze/05052.png]]
 
 <p>Este foarte posibil ca în acest moment să nu vă daţi seama cum aţi putea conecta un ampermetru la o placă de test. Cum putem conecta ampermetrul pentru a măsura întreaga cantitate de curent şi a nu crea un scurt-circuit. Realizaţi circuitul de mai jos:</p>
 
-<img src="../poze/05060.png" alt="circuit electric pe placa de test"/>
+#+CAPTION: circuit electric pe placa de test
+[[../poze/05060.png]]
 
 <p>Din nou, măsuraţi valoarea curentului prin diferite fire ale acestui circuit. Urmaţi aceleaşi metode precum cele de mai sus. Ce observaţi în legătură cu aceste măsurători? Rezultatele măsurătorilor realizate pe placa de test ar trebui să fie identice cu rezultate obţinute fără placa de test, din exemplul precedent.</p>
 
 <p>Dacă ar fi să construim circuitul de mai sus pe o regletă de borne, rezultatul ar fi similar:</p>
 
-<img src="../poze/05061.png" alt="circuit electric pe regleta de borne"/>
+#+CAPTION: circuit electric pe regleta de borne
+[[../poze/05061.png]]
 
 
 

@@ -22,41 +22,51 @@
 <div id="contents">
 <p>Să considerăm următorul circuit RLC serie:</p>
 
-<p><img src="../poze/02078.png" alt="circuit electric RLC serie"/></p>
+#+CAPTION: circuit electric RLC serie
+[[../poze/02078.png]]
 
 <p>Primul pas este determinarea reactanţelor pentru bobină şi condensator:</p>
 
-<p><img src="../poze/12056.png" alt="formule"/></p>
+#+CAPTION: formule
+[[../poze/12056.png]]
 
 <p>Următorul pas constă în exprimarea tuturor rezistenţelor şi reactanţelor într-o formă matematică comună: impedanţa. Ţineţi minte că reactanţă inductivă (a bobinei) se traduce printr-o impedanţă imaginară pozitivă(+90<sup>o</sup>), iar reactanţă capacitivă (a condensatorului) se traduce printr-i impedanţă imaginară negativă (-90<sup>o</sup>). Rezistenţa, desigur, este considerată o impedanţă „reală” pură (unghi polar de 0<sup>o</sup>:</p>
 
-<p><img src="../poze/12057.png" alt="formule"/></p>
+#+CAPTION: formule
+[[../poze/12057.png]]
 
-<p><img src="../poze/02079.png" alt="circuit electric RLC serie; impedanţele componentelor"/></p>
+#+CAPTION: circuit electric RLC serie; impedanţele componentelor
+[[../poze/02079.png]]
 
 <p>După ce toate valorile opoziţiei faţă de curent au fost exprimate sub forma comună a impedanţei, ca numere complexe, acestea pot fi manipulate la fel ca rezistenţele în curent continuu. Putem scrie toate valorile cunoscute într-un tabel, şi apoi să rezolvăm mai departe acest circuit:</p>
 
-<p><img src="../poze/12058.png" alt="tabel"/></p>
+#+CAPTION: tabel
+[[../poze/12058.png]]
 
 <p>Circuitul de mai sus fiind unul serie, ştim că impedanţa totală este egală cu suma impedanţelor individuale:</p>
 
-<p><img src="../poze/12059.png" alt="formule"/></p>
+#+CAPTION: formule
+[[../poze/12059.png]]
 
 <p>Introducând valoarea impedanţei totale în tabel, obţinem:</p>
 
-<p><img src="../poze/12060.png" alt="tabel"/></p>
+#+CAPTION: tabel
+[[../poze/12060.png]]
 
 <p>Putem acum să aplicăm legea lui Ohm (I=E/R), vertical, în coloana „Total” pentru a găsi curentul total din circuit:</p>
 
-<p><img src="../poze/12061.png" alt="tabel"/></p>
+#+CAPTION: tabel
+[[../poze/12061.png]]
 
 <p>Fiind un circuit serie, curentul trebuie să fie acelaşi prin toate componentele:</p>
 
-<p><img src="../poze/12062.png" alt="tabel"/></p>
+#+CAPTION: tabel
+[[../poze/12062.png]]
 
 <p>Putem aplica acum legea lui Ohm (E=IZ) fiecărui component în parte, pentru determinarea căderilor de tensiune:</p>
 
-<p><img src="../poze/12063.png" alt="tabel"/></p>
+#+CAPTION: tabel
+[[../poze/12063.png]]
 
 <p>Putem observa ceva aparent ciudat în acest caz: cu toate că tensiunea sursei de alimentare este de doar 120 V, tensiunea la bornele condensatorului este de 137.46 V! De ce se întâmplă acest lucru? Răspunsul se află în interacţiunea dintre reactanţele inductive şi capacitive. Exprimată ca şi impedanţă, putem vedea că bobina se opune trecerii curentului într-un mod exact invers faţa de condensator. Exprimată sub formă rectangulară, impedanţă bobinei posedă un termen imaginar pozitiv, iar condensatorul un termen imaginar negativ. Când aceste două impedanţe contrare sunt adunate (în serie), ele tind să se anuleze reciproc! Cu toate că ele se adună, suma lor este defapt mai mică decât oricare dintre impedanţe (inductive sau capacitive) considerate separat. Acest lucru este analog sumei dintre un scalar pozitiv şi unul negativ.</p>
 

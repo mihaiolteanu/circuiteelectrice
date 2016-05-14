@@ -24,23 +24,28 @@
 
 <p>Următoarea ilustraţie exemplifică modul în care o undă incidentă triunghiulară se transformă într-o reflexie „în oglindă” după ce aceasta ajunge la capătul liniei de transmisie (întrerupte). Linia de transmisă este reprezentată în acest caz doar printr-o singură linie, pentru simplitate. Unda incidentă se deplasează de la stânga la dreapta, iar unda reflectată de la dreapta la stânga:</p>
 
-<p><img src="../poze/02372.png" alt="reflexia în oglindă a undei triunghiulare incidente într-o linie electrică întreruptă"/></p>
+#+CAPTION: reflexia în oglindă a undei triunghiulare incidente într-o linie electrică întreruptă
+[[../poze/02372.png]]
 
 <p>Dacă adăugăm cele două forme de undă, descoperim că în lungul liniei se formează de fapt o a treia formă de undă, staţionară:</p>
 
-<p><img src="../poze/02372.png" alt="reflexia în oglindă a undei triunghiulare incidente într-o linie electrică întreruptă; formarea formei de undă staţionare ca sumă dintre unda incidentă şi cea reflectată"/></p>
+#+CAPTION: reflexia în oglindă a undei triunghiulare incidente într-o linie electrică întreruptă; formarea formei de undă staţionare ca sumă dintre unda incidentă şi cea reflectată
+[[../poze/02372.png]]
 
 <p>Cea de a treia undă, cea staţionară, reprezintă de fapt singura tensiune din lungul liniei, fiind suma undelor incidente şi a undelor reflectate. Amplitudinea sa instantanee oscilează, dar unda nu se propagă în lungimea liniei precum celelalte două forme de undă. De observat că punctele de pe linie, ce marchează amplitudinea zero a undei staţionare (locul în care unda incidentă şi cea reflectată se anulează reciproc), au tot timpul aceeiaşi poziţie:</p>
 
-<p><img src="../poze/02376.png" alt="unda staţionară nu se propagă în lungul liniilor de transmisie"/></p>
+#+CAPTION: unda staţionară nu se propagă în lungul liniilor de transmisie
+[[../poze/02376.png]]
 
 <p>Undele staţionare sunt destul de frecvent întâlnite în lumea înconjurătoare. Să considerăm o coardă, legată la un capăt şi „scuturată” la celălalt:</p>
 
-<p><img src="../poze/02373.png" alt="udele staţionare într-o bucată de sfoară legată la un capăt şi mişcată la celălalt"/></p>
+#+CAPTION: udele staţionare într-o bucată de sfoară legată la un capăt şi mişcată la celălalt
+[[../poze/02373.png]]
 
 <p>Atât nodurile (punctele unde vibraţia este foarte mică sau inexistentă), cât şi antinodurilor (punctele unde vibraţia este maximă) rămân fixe de-a lungul corzii. Efectul este şi mai pronunţăt când capătul liber este mişcat la frecvenţa corectă. Corzile fixe prezintă acelaşi comportament. Diferenţa majoră este că aceasta vibrează la frecvenţa sa „corectă” pentru maximizarea efectului undelor staţionare:</p>
 
-<p><img src="../poze/02374.png" alt="vibraţia coardei fixe"/></p>
+#+CAPTION: vibraţia coardei fixe
+[[../poze/02374.png]]
 
 
 

@@ -24,22 +24,27 @@
 
 <p>Metoda de calcuare a rezistenţei este aceeiaşi în ambele cazuri: îndepărtarea tuturor surselor de putere şi determinarea rezistenţei între punctele de conexiune rămase libere. Cele două rezistenţe sunt prin urmare egale:</p>
 
-<p><img src="../poze/00241.png" alt="circuit electric"/></p>
-<p><img src="../poze/00245.png" alt="circuit electric"/></p>
+#+CAPTION: circuit electric
+[[../poze/00241.png]]
+#+CAPTION: circuit electric
+[[../poze/00245.png]]
 
-<p><img src="../poze/10197.png" alt="formulă"/></p>
+#+CAPTION: formulă
+[[../poze/10197.png]]
 
 <p>Luând în considerare faptul că ambele circuite echivalente sunt gândite să se comporte asemenea reţelei originale în ceea ce priveşte alimentarea sarcinii cu tensiune şi curent electric, circuitele Thevenin şi Norton ar trebui şi ele să se comporte identic.</p>
 
 <p>Acest lucru se traduce prin faptul că ambele circuite ar trebui să producă aceeiaşi cădere de tensiune între punctele de contact ale sarcinii, atunci când aceasta nu este prezentă în circuit. Pentru circuitul Thevenin, căderea de tensiune pentru circuitul deschis trebuie să fie egală cu sursa de tensiune Thevenin, 11.2 voţi în acest caz. În cazul circuitului Norton, toţi cei 14 amperi generaţi de sursa de curent trebuie să treacă prin rezistenţa de 0.8 ohmi, producând prin urmare o cădere de tensiune de 11.2 volţi (E=IR). Putem susţine asfel că tensiunea Thevenin este egală cu, curentul Norton înmulţit cu rezistenţa Norton:</p>
 
-<p><img src="../poze/10198.png" alt="formulă"/></p>
+#+CAPTION: formulă
+[[../poze/10198.png]]
 
 <p>Transformarea unui circuit Norton într-un circuit Thevenin se realizează folosind aceeiaşi valoare a rezistenţei şi calculând tensiunea Thevenin cu ajutorul legii lui Ohm.</p>
 
 <p>În aceeiaşi ordine de idei, atât circuitul Thevenin cât şi circuitul Norton ar trebui să genereze aceeiaşi cantitate de curent printr-un scurt circuit între terminalii sarcinii, atunci când aceasta nu este prezentă în circuit. În circuitul Norton, curentul de scurt circuit este exact curentul sursei (de curent), 14 amperi în acest caz. În circuitul Thevenin, întreaga cădere de tensiune de 11.2 volţi se regăseşte la bornele rezistorului de 0.8 ohmi, ceea ce produce exact acelaşi curent prin scurt (circuit), 14 amperi (I=E/R). Putem susţine asfel că, curentul Norton este egal cu tensiune Thevenin împărţită la rezistenţa Thevenin:</p>
 
-<p><img src="../poze/10199.png" alt="formulă"/></p>
+#+CAPTION: formulă
+[[../poze/10199.png]]
 
 <p>Vom utiliza relaţia de echivalenţă dintre cele două teorema în următoarea secţiune.</p>
 

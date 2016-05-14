@@ -23,11 +23,13 @@
 
 <p>Un element ce nu l-am întâlnit până în acest moment în operaţiile booleene este SAU-exclusiv. Deşi funcţia SAU este echivalentă cu o adunare booleeană, funcţia ŞI cu înmulţirea iar funcţia NU cu complementarea, nu există un echivalent boolean pentru funcţia SAU-exclusiv. Acest lucru nu ne împiedică să avem un simbol pentru reprezentarea ei:</p>
 
-<img src="../poze/04297.png" alt="funcţia SAU-exclusiv; simbol"/>
+#+CAPTION: funcţia SAU-exclusiv; simbol
+[[../poze/04297.png]]
 
 <p>Acest simbol este folosit foarte rar în expresiile booleene, deoarece identitătile, proprietăţile şi regulile de simplificare ce implică adunare, înmulţire şi complementare nu se aplică şi acestei expresii. Totuşi, există o modalitate de reprezentare a funcţiei SAU-exclusiv cu ajutorul funcţiilor SAU şi ŞI:</p>
 
-<img src="../poze/04298.png" alt="funcţia SAU-exclusiv realizată cu funcţiile SAU şi ŞI"/>
+#+CAPTION: funcţia SAU-exclusiv realizată cu funcţiile SAU şi ŞI
+[[../poze/04298.png]]
 
 <p>Ca şi echivalenţă booleeană. această regulă poate fi folositoare în cazul simplificării anumitor expresii booleene. Orice expresie de forma AB' + A'B (două porţi ŞI şi o poartă SAU), poate fi înlocuită de o singură poartă SAU-exclusiv.</p>
 

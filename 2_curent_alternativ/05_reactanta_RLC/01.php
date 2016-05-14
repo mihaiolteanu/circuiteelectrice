@@ -38,7 +38,8 @@
 
 <p>Rezistorii perfecţi posedă doar rezistenţă, nu şi reactanţă. Bobinele şi condensatoarele perfecte posedă doar reactanţă, nu şi rezistenţă. Toate componentele posedă impedanţă, şi, datorită acestei proprietăţi universale a componentelor, este normal să exprimăm (traducem) valorile tuturor componentelor (rezistenţă, inductanţă şi capacitate) sub un termen comul, cel al impedanţei, ca prim pas în analiza oricărui circuit de curent alternativ:</p>
 
-<p><img src="../poze/02347.png" alt="rezistor, bobină şi condensator ideal"/></p>
+#+CAPTION: rezistor, bobină şi condensator ideal
+[[../poze/02347.png]]
 
 <h3>Unghiul de fază al impedanţei</h3>
 
@@ -48,7 +49,8 @@
 
 <p>Impedanţele în curent alternativ se comportă analog rezistenţelor în curent continuu: se adună când sunt conectate în serie şi se micşorează în paralel. Legea lui Ohm pentru circuitele de curent alternativ, bazată pe impedanţă, nu pe rezistenţă, arată asfel:</p>
 
-<p><img src="../poze/12021.png" alt="legea lui Ohm pentru circuitele de curent alternativ - impedanţă în loc de rezistenţă"/></p>
+#+CAPTION: legea lui Ohm pentru circuitele de curent alternativ - impedanţă în loc de rezistenţă
+[[../poze/12021.png]]
 
 <p>Legile lui Kirchhoff, precum şi toate metodele de analiză a reţelelor şi toate teoremele valabile pentru curent continuu sunt valabile şi în curent alternativ, atâta timp când valorile sunt exprimate sub formă complexă şi nu scalară. Cu toate că această echivalenţă poate fi greu de aplicat aritmetic, conceptual, ea este simplă şi elegantă. Singura diferenţă reală între circuitele de curent continuu şi alternativ este cea legată de calcularea puterii. Doarece reactanţa nu disipă putere precum o face rezistenţă, conceptul de putere în circuitele de curent alternativ este radical diferit faţă de cele de curent alternativ.</p>
 

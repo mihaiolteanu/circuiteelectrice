@@ -22,15 +22,18 @@
 <div id="contents">
 <p>Până în acest moment, am luat în considerare doar cazul în care cele două înfăşurări ale transformatorului aveau inductanţe identice, ducând la egalitatea tensiunilor şi a curenţilor în cele două înfăşurări. Această egalitate între înfăşurarea primară şi cea secundară nu este însă specifică tuturor transformatoarele. Dacă inductanţele celor două înfăşurări sunt diferite, prin modificarea raportului de spire dintre cele două, şi comportamentul transformatorului suferă modificări. Să considerăm circuitul de mai jos:</p>
 
-<p><img src="../poze/02132_3.png" alt="circuit electric simplu cu transformator"/></p>
+#+CAPTION: circuit electric simplu cu transformator
+[[../poze/02132_3.png]]
 
 <p>În această configuraţie, tensiunea secundarului este de aproximativ 10 ori mai mică decât tensiunea din primare (1 V faţa de 10 V), iar pe de altă parte, curentul din secundar este de aproximativ 10 ori mai mare decât curentul din primar (1 mA faţă de 0.1 mA). Ceea ce avem în circuitul de mai sus, este un dispozitiv ce coboară tensiunea de zece ori şi creşte curentul cu acelaşi factor (coborâtor de tensiune / ridicător de curent):</p>
 
-<p><img src="../poze/02133.png" alt="transformator coborâtor de tensiune"/></p>
+#+CAPTION: transformator coborâtor de tensiune
+[[../poze/02133.png]]
 
 <p>Acesta este un dispozitiv extrem de folositor. Cu ajutorul acestuia se pot foarte uşor multiplica sa împărţi valorile tensiunilor şi ale curenţilor în circuitele de curent continuu. Un transformator ce ridică nivelul tensiunii dinspre primar înspre secundar se numeşte transformator <i>ridicător</i> de tensiune, iar unul care face exact opusul, se numeşte <i>coborâtor</i> de tensiune.</p>
 
-<p><img src="../poze/52012.jpg" alt="secţiune printr-un transformator coborâtor de tensiune"/></p>
+#+CAPTION: secţiune printr-un transformator coborâtor de tensiune
+[[../poze/52012.jpg]]
 
 <p>Transformatorul de mai sus este un transformator coborâtor de tensiune datorită faptului că numărul spirelor din înfăşurarea primară este mai mare decât cel din înfăşurarea secundară. Prin urmare, acesta transformă tensiunea ridicată şi curentul scăzut din primare în tensiune scăzută şi curent ridicat în secundar. Secţiunea mult mai mare a conductorului din secundar este necesară datorită creşterii curentului faţă de înfăşurarea primară.</p>
 
@@ -42,13 +45,16 @@
 
 <p>Dacă ne uităm mai atent la rezultatele obţinute cu circuitul de mai sus, putem vedea o legătură între <i>raportul de transformare</i> al transformatorului şi cele două inductanţe. Se observă că bobina primară are o inductanţă de 100 de ori mai mare decât cea secundară, iar raportul de transformare al tensiunii a fost de 10 la 1. Înfăşurarea cu o inductanţă mai mare va avea o tensiune mai mare şi un curent mai mic decât cealaltă. Din moment ce ambele bobine sunt înfăşurate în jurul aceluiaşi material (pentru un cuplaj magnetic cât mai eficient între ele), singurul parametru care nu este comun ambelor înfăşurări este numărul spirelor din fiecare înfăşurare în parte. Din formula inductanţei (?!), putem observa că aceasta este direct proporţională cu pătratul spirelor înfăsurării:</p>
 
-<p><img src="../poze/12100.png" alt="formula de calcul a inductanţei înfăşurării unei bobine"/></p>
+#+CAPTION: formula de calcul a inductanţei înfăşurării unei bobine
+[[../poze/12100.png]]
 
 <p>Asfel, putem deduce că cele două înfăşurări din exemplul de mai sus, cu un raport al inductanţelor de 100:1, ar trebui să aibă un raport al înfăşurărilor de 10:1 (10<sup>2</sup> = 100). Acesta este exact raportul descoperit între valorile tensiunilor şi ale curenţilor primare şi secundare (10:1). Putem spune prin urmare, că raportul de transformare al unui transformator este egal cu raportul dintre numărul spirelor înfăşurărilor primare şi secundare</p>
 
-<p><img src="../poze/02134.png" alt="transformator coborâtor de tensiune; principiul de transformare al curenţilor şi al tensiunilor"/></p>
+#+CAPTION: transformator coborâtor de tensiune; principiul de transformare al curenţilor şi al tensiunilor
+[[../poze/02134.png]]
 
-<p><img src="../poze/raport_transformare.png" alt="formula matematică de calcul al raportului de transformare al transformatorului electric"/></p>
+#+CAPTION: formula matematică de calcul al raportului de transformare al transformatorului electric
+[[../poze/raport_transformare.png]]
 
 <p class="sumar">Sumar:</p>
 <ul>

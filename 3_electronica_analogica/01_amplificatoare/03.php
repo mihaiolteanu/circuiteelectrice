@@ -26,15 +26,18 @@
 
 <p>O lege fundamentală a fizicii, cea a conservării energiei, spune că energia nu poate fi creată dar nici distrusă. Dacă această lege este adevărată, atunci construirea unui dispozitiv care să ia o cantitate mică de energie şi să o transforme într-o cantitate mare de energie, pe cale magică, nu este posibilă. Toate maşinile, incluzând circuitele electrice şi electronice, au o eficienţă maximă de 100%. În cele mai fericite cazuri, puterea de intrare este egală cu puterea de ieşire:</p>
 
-<p><img src="../poze/03165.png" alt="eficienţa unei maşini ideale este de 100%, dar nu poate fi mai mare de atât"/></p>
+#+CAPTION: eficienţa unei maşini ideale este de 100%, dar nu poate fi mai mare de atât
+[[../poze/03165.png]]
 
 <p>În realitate însă, de cele mai multe ori, maşinile nu ating nici măcar această limită superioară, deoarece o parte din energia de intrare se pierde sub formă de căldură radiată în spaţiul din jur, iar această energie pierdută nu se regăseşte în valoarea energiei de ieşire.</p>
 
-<p><img src="../poze/03166.png" alt="eficienţa unei maşini reale este sub 100%, datorită pierderilor sub formă de căldură"/></p>
+#+CAPTION: eficienţa unei maşini reale este sub 100%, datorită pierderilor sub formă de căldură
+[[../poze/03166.png]]
 
 <p>Au existat numeroase încercări, fără succes însă, de a proiecta şi construi o maşină a cărei putere de ieşire să fie mai mare decât puterea de intrare. Acest lucru nu doar că ar viola legea conservării energiei, dar ar duce lumea într-o revoluţie tehnologică fără precedent, deoarece acest tip de maşină s-ar putea alimenta singură, într-o buclă circulară, şi ar putea genera putere „gratuită”. Această maşină este cunoscută sub numele de <i>perpetuum mobile.</i></p>
 
-<p><img src="../poze/03167.png" alt="eficienţa unui perpetuum mobile este de peste 100%"/></p>
+#+CAPTION: eficienţa unui perpetuum mobile este de peste 100%
+[[../poze/03167.png]]
 
 <p>Deşi au existat multe încercări în acest domeniu, până acum nu s-a reuşit construirea unei maşini capabile să se alimenteze singură, cu propria ei energie plus generarea unei energii suplimentare.</p>
 
@@ -42,7 +45,8 @@
 
 <p>Pentru că elementele active de circuit pot <i>controla</i> cantităţi mari de putere electrică cu ajutorul unei cantităţi mici de putere electrică, acestea pot fi utilizate în circuite pentru duplicarea formei semnalului de intrare cu ajutorul unei surse externe de putere electrică. Rezultatul este un dispozitiv ce pare a transforma pe cale magică un semnal electric de putere mică într-un semnal identic, dar de o putere/amplitudine mai mare. Legea conservării energiei nu este violată, deoarece puterea adiţională este întrodusă în circuit de o sursă externă, de obicei o baterie de curent continuu sau o sursă echivalentă. Amplificatorul nu crează şi nici nu distruge energie, ci doar o „remodelează” într-o formă de undă dorită:</p>
 
-<p><img src="../poze/03168.png" alt="schema bloc de principiu al unui amplificator electronic"/></p>
+#+CAPTION: schema bloc de principiu al unui amplificator electronic
+[[../poze/03168.png]]
 
 <p>Cu alte cuvinte, abilitatea de control al curentului pe care elementele active le posedă, este folosită pentru „transformarea” puterii de curent continuu dintr-o sursă externă în aceeiaşi formă de undă precum a semnalului de intrare, forma semnalului produs la ieşire fiind în acest caz identică cu cea de la intrare, dar de o amplitudine mult mai mare. Tranzistorul, sau alte dispozitive active conţinute într-un amplificator, formează pur şi simplu o <i>copie</i> a formei de undă a semnalului de intrare cu ajutorul sursei externe de curent continuu „brute”.</p>
 

@@ -26,7 +26,8 @@
 
 <p>Dispozitivul din figura de jos (a) este format din două joncţiuni, una între emitor şi bază, iar cealaltă între bază şi colector, aceste joncţiuni formând două zone de golire:</p>
 
-<p><img src="../poze/03412.png" alt="(a) tranzistor bipolar cu joncţiune NPN; (b) polarizarea inversă a joncţiunii bază-colector"/></p>
+#+CAPTION: (a) tranzistor bipolar cu joncţiune NPN; (b) polarizarea inversă a joncţiunii bază-colector
+[[../poze/03412.png]]
 
 <p>În mod normal, joncţiunea bază-colector a tranzistorului este polarizată învers (figura de sus (b)). Acest lucru duce la creşterea regiunii de golire. Această tensiune poate fii de câţiva volţi până la zeci de volţi pentru majoritatea tranzistorilor. În acest caz, nu există curent în circuitul colectorul, exceptând curentul de dispersie de o valoarea foarte mică.</p>
 
@@ -36,11 +37,13 @@
 
 <p>Totuşi, tranzistoarele sunt confecţionate cu o bază foarte subţire. O mică partă a purtătorilor de sarcină majoritari din emitor, injectăţi ca şi purtători de sarcină minoritari în bază, se recombină cu golurile acesteia(figura de jos (b)). De asemenea, o mică parte a electronilor ce intră în bază pe la emitor trec direct prin bază spre borna pozitivă a bateriei. Dar majoritatea curentului din emitor trec prin suprafaţă subţire a bazei direct în colector. Mai mult, modificarea curentului mic al bazei duce la modificări importante ale curentului din colector. Dacă tensiunea bazei scade sub aproximativ 0.6 V, curentul emitor-colector scade la zero.</p>
 
-<p><img src="../poze/03413.png" alt="tranzistor bipolar cu joncţiune NPN şi polarizarea inversă a joncţiunii colector-bază: (a) polarizarea directă a joncţiunii bază-emitor duce la (b) apariţia unui curent de bază mic şi a unui curent emitor-colector mare"/></p>
+#+CAPTION: tranzistor bipolar cu joncţiune NPN şi polarizarea inversă a joncţiunii colector-bază: (a) polarizarea directă a joncţiunii bază-emitor duce la (b) apariţia unui curent de bază mic şi a unui curent emitor-colector mare
+[[../poze/03413.png]]
 
 <p>Să privim însă mai în deaproape la acest mecanism de <i>amplificare al curentului</i> (figura de jos). Considerăm o joncţiune NPN mărită, cu accentul pus pe bază. Chiar dacă nu sunt prezentate în figură, presupunem că joncţiunea emitor-bază este polarizată direct de o sursă de tensiune, iar joncţiunea bază-colector este polarizată invers. Electronii, purtătorii de sarcină majoritari, intră în emitor de la borna negativă a bateriei. Deplasarea electronilor dinspre bază corespunde cu deplasarea acestor dinspre bază spre borna pozitivă a bateriei. Acesta este un curent foarte mic faţă de curentul din emitor.</p>
 
-<p><img src="../poze/03414.png" alt="comportamentul electronilor la intrarea în bază dinspre emitor: (a) pierduţi datorită recombinării cu golurile bazei; (b) se deplasează spre contactul bazei şi înspre borna pozitivă a sursei de aplimentare; (c) moajoritatea trec prin zona îngustă de golire bază-colector înspre colector; (d) electronii sunt atraşi de câmpul electric al zonei de golire înspre colector"/></p>
+#+CAPTION: comportamentul electronilor la intrarea în bază dinspre emitor: (a) pierduţi datorită recombinării cu golurile bazei; (b) se deplasează spre contactul bazei şi înspre borna pozitivă a sursei de aplimentare; (c) moajoritatea trec prin zona îngustă de golire bază-colector înspre colector; (d) electronii sunt atraşi de câmpul electric al zonei de golire înspre colector
+[[../poze/03414.png]]
 
 <p>Majoritatea purtătorilor de sarcină în emitorul de tip N sunt electronii, ce devin purtători de sarcină minoritară la intrarea în baza de tip P. Aceşti electroni au patru posibilităţi după ce intră în baza de tip P. O mică parte „cad” în goluri (figura de sus (a)), lucru ce contribuie la curentul înspre terminalul pozitiv al bateriei. Deşi nu este reprezentată pe figură, golurile pot trece din bază spre emitor, unde se recombină cu electronii, contribuind şi aceştia la curentul bazei. O altă mică parte din electroni (b) trec direct prin bază înspre terminalul pozitiv al bateriei, ca şi cum baza ar fi un rezistor. Atât (a) cât şi (b) contribuie curentului foarte mic al bazei. Curentul bazei este aproximativ 1% din curentul emitor-colector, pentru tranzistoarele mici. Majoritatea electronilor din emitor însă (c), trec direct prin zona îngustă de golire, înspre colector. Putem observa polaritatea zonei de golire ce înconjoară electronul (d). Câmpul electric intens „trage” electronul rapid în colector. Puterea câmpului electric este direct proporţională cu tensiunea de alimentare a bateriei. Asfel, 99% din curentul emitorului trece în colector. Această „trecere” este însă controlată de curentul bazei, ce reprezintă aproximativ 1% din curentul emitorului. Acest lucru reprezintă o amplificare de curent de 99, reprezentat de raportul dintre curentul colectorului şi curentul bazei (I<sub>C</sub>/I<sub>B</sub>), cunoscut şi ca β.</p>
 
@@ -54,7 +57,8 @@
 
 <p>Tranzistoarele bipolare pot fi confencţionate şi sub forma PNP. Diferenţa dintre PNP şi NPN poate fi văzută în figura de mai jos:</p>
 
-<p><img src="../poze/03419.png" alt="diferenţa dintre tranzistorul NPN (a) şi tranzistorul PNP (b)"/></p>
+#+CAPTION: diferenţa dintre tranzistorul NPN (a) şi tranzistorul PNP (b)
+[[../poze/03419.png]]
 
 <p>Diferenţa constă în polaritea joncţiunilor bază-emitor, polaritatea semnalată cu ajutorul săgeţii emitorului în simbolul tranzistorului. Direcţia săgeţii este asemenea direcţiei anodului joncţiunii unei diode, împotriva sensului real de deplasare al electronilor. Pentru tranzistorii NPN, direcţia săgeţii este dinspre bază spre emitor, iar în cazul tranzistorilor PNP, direcţia este dinspre emitor spre bază. Colectorul nu este reprezentat în niciunul dintre cazuri cu ajutorul vreunei săgeţi. Totuşi, polaritatea joncţiunii bază-colector este aceeiaşi cu polaritatea joncţiunii bază-emitor în comparaţie cu o diodă.</p>
 
@@ -62,7 +66,8 @@
 
 <p>Emitorul tranzistorului bipolar cu joncţiune de mai jos este puternic dopat, după cum indică şi notaţia N<sup>+</sup>. Baza are un nivel de dopaj P normal, dar aceasta este mult mai subţire în realitate decât este prezentat în această figură (a).</p>
 
-<p><img src="../poze/03302.png" alt="tranzistor bipolar cu joncţiune: (a) secţiune transversală; (b) simbol; (c) secţiune transversală într-un circuit integrat"/></p>
+#+CAPTION: tranzistor bipolar cu joncţiune: (a) secţiune transversală; (b) simbol; (c) secţiune transversală într-un circuit integrat
+[[../poze/03302.png]]
 
 <p>Procentul de dopaj al colectorului este scăzut, după cum indică notaţia N<sup>-</sup>, pentru ca tensiunea de străpungere a joncţiunii colector-bază să fie cât mai mare, ceea ce înseamnă că sursa de tensiune poate alimenta tranzistorul la tensiuni mai mari. Tranzistoarele de siliciu mici, au o tensiune de străpungere de 60-80 V, dar poate ajunge la sute de volţi pentru tranzistoarele de tensiune înaltă. Dar, colectorul trebuie să fie în acelaşi timp dopat puternic pentru minimizarea pierderilor ohmice (datorită rezistenţelor), în cazul în care tranzistorul trebuie să conducă curenţi mari. Îndeplinirea acestor cerinţeo contradictorii se realizează prin doparea mai puternică a colectorului spre partea de contact metalic, şi doparea mai uşoară a colectorului în apropierea bazei în comparaţie cu emitorul. Tensiunea de străpungere a joncţiunii emitor-bază scade până la aproximativ 7 V datorită dopării puternice a emitorului, în tranzistorii mici. Şi tot datorită acestei dopări puternice, joncţiunea emitor-bază se comportă precum o diodă Zener polarizată invers.</p>
 

@@ -29,11 +29,13 @@
 
 <p>Pe parcursul experimentului vom realiza circuitul de mai jos:</p>
 
-<img src="../poze/05068.png" alt="circuit electric cu electromagnet"/>
+#+CAPTION: circuit electric cu electromagnet
+[[../poze/05068.png]]
 
 <p>Practic, circuitul va arăta astfel:</p>
 
-<img src="../poze/05069.png" alt="circuit electric cu electromagnet"/>
+#+CAPTION: circuit electric cu electromagnet
+[[../poze/05069.png]]
 
 <h2>Desfăşurarea experimentului</h2>
 

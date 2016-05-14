@@ -25,21 +25,25 @@
 
 <p>Să începem cu un circuit logic cu porţi ce necesită o simplificare. Presupunem că intrările A, B şi C sunt asigurate de comutatoare, senzori sau alte porţi logice. Originea acestor semnale nu este importantă din punct de vedere al simplificării.</p>
 
-<img src="../poze/04287.png" alt="circuit cu porţi logice"/>
+#+CAPTION: circuit cu porţi logice
+[[../poze/04287.png]]
 
 <h3>Scrierea expresiei booleene</h3>
 
 <p>Primul pas al simplificării constă în scrierea expresiei booleene pentru acest circuit. Acest pas este cel mai uşor de realizat dacă scriem sub-expresii pentru ieşirea fiecărei porţi, corespunzător semnalelor de intrare. Este bine să reamintim faptul că porţile SAU sunt echivalente adunării booleene, iar porţile ŞI sunt echivalente înmulţirii booleene. Să scriem aşadar sub-expresii la ieşirea primelor trei porţi:</p>
 
-<img src="../poze/04288.png" alt="circuit cu porţi logice; scrierea sub-expresiilor la ieşirea porţilor"/>
+#+CAPTION: circuit cu porţi logice; scrierea sub-expresiilor la ieşirea porţilor
+[[../poze/04288.png]]
 
 <p>Scriem apoi sub-expresiile următoarelor seturi de porţi. În cazul de faţa, avem doar o singură poartă pe nivelul următor:</p>
 
-<img src="../poze/04289.png" alt="circuit cu porţi logice; scrierea sub-expresiilor la ieşirea porţilor"/>
+#+CAPTION: circuit cu porţi logice; scrierea sub-expresiilor la ieşirea porţilor
+[[../poze/04289.png]]
 
 <p>Şi, în sfârşit, ieşirea (Q) circuitului logic este egală cu următoarea expresie:</p>
 
-<img src="../poze/04290.png" alt="circuit cu porţi logice; scrierea sub-expresiilor la ieşirea porţilor"/>
+#+CAPTION: circuit cu porţi logice; scrierea sub-expresiilor la ieşirea porţilor
+[[../poze/04290.png]]
 
 <h3>Simplificarea expresiei booleene</h3>
 
@@ -57,11 +61,13 @@ AB + BC(B + C) = AB + BBC + BCC = AB + BC + BC = AB + BC = B(A + C)
 
 <p>Următorul pas constă în generarea unei scheme logice folosind această expresie booleeană simplificată. Pentru realizarea acestui lucru, evaluăm expresia urmând ordinea matematică a operaţiilor (înmulţirea înainte adunării, operaţiile din interiorul parantezelor înaintea celorlalte). La fiecare pas vom adăuga o nouă poartă. Porţile sau sunt echivalente cu adunarea booleană, iar porţile ŞI sunt echivalente operaţiei de înmulţirea booleană. În exemplul de faţa, începem construirea circuitului cu sub-expresia „A + C”, expresie ce nu este altceva decât o poartă SAU:</p>
 
-<img src="../poze/04291.png" alt="poartă logică SAU"/>
+#+CAPTION: poartă logică SAU
+[[../poze/04291.png]]
 
 <p>Următorul pas în evaluarea expresiei B(A + C) constă în înmulţirea (poartă ŞI) semnalului B cu ieşirea porţii precedente (A + C):</p>
 
-<img src="../poze/04292.png" alt="evaluarea expresiei booleene"/>
+#+CAPTION: evaluarea expresiei booleene
+[[../poze/04292.png]]
 
 <p>Evident, acest circuit este mult mai simplu decât cel original, având doar două porţi logice în loc de cinci. O astfel de reducere a numărului de componente duce la viteze de funcţionare crescute (timpul de propagare a semnalului de la intrare la ieşire este mai scurt), consum de energie mai scăzută, cost mai mic şi o fiabilitate crescută.</p>
 
@@ -69,13 +75,15 @@ AB + BC(B + C) = AB + BBC + BCC = AB + BC + BC = AB + BC = B(A + C)
 
 <p>Circuitele cu relee electromecanice pot profita foarte mult de pe urma simplificării booleene. De obicei, acestea sunt mai lente, consumă mult mai multă energie, costă mai mult, iar durata de viaţă medie este mai scurtă decât cea a porţilor logice semiconductoare. Să considerăm aşadar exemplul de mai jos:</p>
 
-<img src="../poze/04293.png" alt="circuit logic cu relee electromecanice"/>
+#+CAPTION: circuit logic cu relee electromecanice
+[[../poze/04293.png]]
 
 <h3>Scrierea expresiei booleene</h3>
 
 <p>Primul pas al reducerii acestui circuit la forma cea mai simplă este, din nou, transformarea circuitului sub forma unei expresii booleene. Cea mai simplă metodă de realizare a acestui lucru este asemănătoare cu metoda reducerii unui circuit rezistiv serie-paralel la o singură rezistenţă. De exemplu, să considerăm circuitul rezistiv de mai jos, cu rezistorii aranjaţi asemeni contactelor circuitului precedent.</p>
 
-<img src="../poze/04294.png" alt="circuit rezistiv serie-paralel"/>
+#+CAPTION: circuit rezistiv serie-paralel
+[[../poze/04294.png]]
 
 <p>Formula corespunzătoare reducerii acestui circuit la o rezistenţă echivalenta, este următoarea:</p>
 
@@ -85,7 +93,8 @@ R<sub>total</sub> = R<sub>1</sub> // [(R<sub>3</sub> // R<sub>4</sub>) -- R<sub>
 
 <p>Contactele paralele sunt echivalente cu adunarea booleeană, iar contactele serie cu înmulţirea booleeană. Expresia booleenă a circuitului cu relee de mai sus se scrie urmând aceleaşi reguli care se regăsesc în cazul rducerii circuitelor serie-paralel la o rezistenţa totală echivalentă. Simplificarea ne este uşurată dacă scriem sub-expresii booleene la stânga fiecărei linii în parte:</p>
 
-<img src="../poze/04295.png" alt="circuit logic cu relee electromecanice"/>
+#+CAPTION: circuit logic cu relee electromecanice
+[[../poze/04295.png]]
 
 <p>Acum că avem o expresie booleană, tot ceea ce trebuie să facem este să aplicăm regulile de simplificare pentru a aduce expresia la forma ei cea mai simplă (formă ce necesită cele mai puţine relee pentru implementarea fizică).</p>
 
@@ -97,7 +106,8 @@ A + B(A + C) + AC = A + AB + BC + AC = A + BC + AC = A + BC
 
 <p>După cum putem vedea, circuitul redus este mult mai simplu decât originalul, dar funcţia logică pe care o îndeplineşte este neschimbată:</p>
 
-<img src="../poze/04296.png" alt="circuit logic cu relee electromecanice; forma simplificată"/>
+#+CAPTION: circuit logic cu relee electromecanice; forma simplificată
+[[../poze/04296.png]]
 
 
 

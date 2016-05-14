@@ -25,7 +25,8 @@
 
 <p>Vom folosi harta Karnaugh dezvoltată anterior, mai exact forma din dreapta:</p>
 
-<img src="../poze/14093.png" alt="hartă Karnaugh"/>
+#+CAPTION: hartă Karnaugh
+[[../poze/14093.png]]
 
 <h2>Codul Gray</h2>
 
@@ -37,35 +38,43 @@
 
 <p>Să folosim în continuare hărţile Karnaugh cu 3 variabile pentru simplificarea unor expresii booleene. Vom arăta cum să trecem termenii produs ai ecuaţiei nesimplificate în harta Karnaugh. Vom ilustra şi modul de identificare a grupurilor de regiuni adiacente ce duc la formarea sumei de produse simplificate a circuitului logic (expresiei booleene).</p>
 
-<img src="../poze/14107.png" alt="simplificarea unei expresii booleene prin intermediul hărţii Karnaugh"/>
+#+CAPTION: simplificarea unei expresii booleene prin intermediul hărţii Karnaugh
+[[../poze/14107.png]]
 
 <p>Dându-se expresia (A'B'C' + A'B'C), primul pas este introducerea valorilor de 1 pe harta Karnaugh corespunzător poziţiei fiecărui produs al sumei (A'B'C' este echivalent cu 000, iar A'B'C este echivalent cu 001). Identificăm apoi un grup de regiuni alăturate ce conţin valori de 1 (în cazul de faţă, avem doar două astfel de regiuni). Scriem apoi produsul de termeni pentru acest grup, ceea ce reprezintă rezultatul simplificat.</p>
 
-<img src="../poze/14108.png" alt="simplificarea unei expresii booleene prin intermediul hărţii Karnaugh"/>
+#+CAPTION: simplificarea unei expresii booleene prin intermediul hărţii Karnaugh
+[[../poze/14108.png]]
 
 <p>Grupând cei patru termeni de 1 pe harta Karnaugh, rezultatul este asigurat de expresia A'.</p>
 
-<img src="../poze/14109.png" alt="simplificarea unei expresii booleene prin intermediul hărţii Karnaugh"/>
+#+CAPTION: simplificarea unei expresii booleene prin intermediul hărţii Karnaugh
+[[../poze/14109.png]]
 
 <p>Identic, grupând ce patru termeni de 1, putem foarte uşor observa că singura variabilă ce acoperă toate cele patru regiuni este C.</p>
 
-<img src="../poze/14110.png" alt="simplificarea unei expresii booleene prin intermediul hărţii Karnaugh"/>
+#+CAPTION: simplificarea unei expresii booleene prin intermediul hărţii Karnaugh
+[[../poze/14110.png]]
 
 <p>Din moment ce avem două grupuri pe harta Karnaugh de mai sus, rezultatul va fi o sumă de produse, şi anume, A' + B.</p>
 
-<img src="../poze/14111.png" alt="simplificarea unei expresii booleene prin intermediul hărţii Karnaugh"/>
+#+CAPTION: simplificarea unei expresii booleene prin intermediul hărţii Karnaugh
+[[../poze/14111.png]]
 
 <p>Cele două produse de mai sus formează un grup de doi termeni ce se simplifică la BC.</p>
 
-<img src="../poze/14112.png" alt="simplificarea unei expresii booleene prin intermediul hărţii Karnaugh"/>
+#+CAPTION: simplificarea unei expresii booleene prin intermediul hărţii Karnaugh
+[[../poze/14112.png]]
 
 <p>Variabila comună celor patru termeni grupaţi mai sus este B</p>
 
-<img src="../poze/14113.png" alt="simplificarea unei expresii booleene prin intermediul hărţii Karnaugh"/>
+#+CAPTION: simplificarea unei expresii booleene prin intermediul hărţii Karnaugh
+[[../poze/14113.png]]
 
 <p>Cei patru termeni de mai sus formează un singur grup. Putem vizualiza acest grup dacă îndoim extremităţile hărţii pentru a forma un cilindru. În acest caz, regiunile sunt adiacente. În mod normal, un astfel de grup se notează conform figurii din stânga. Din întregul set de variabile (A, B, C), singura variabilă comună este C'. C' este zero în toate cele patru regiuni. Acesta este atunci rezultatul final al simplificării.</p>
 
-<img src="../poze/14114.png" alt="simplificarea unei expresii booleene prin intermediul hărţii Karnaugh"/>
+#+CAPTION: simplificarea unei expresii booleene prin intermediul hărţii Karnaugh
+[[../poze/14114.png]]
 
 <p>Cele şase regiuni rezultate din ecuaţia nesimplificată pot fi organizate în două grupuri de câte patru. Aceste grupuri trebuie să rezulte într-o sumă de două produse, şi anume A' + C'.</p>
 
@@ -73,19 +82,23 @@
 
 <p>Să reluăm mai jos exemplul incineratorului de deşeuri toxice studiat într-un capitol precedent. Vom încerca simplificarea circuitului logic folosind o hartă Karnaugh:</p>
 
-<img src="../poze/14115.png" alt="incinerator deşeuri toxice - simplificarea circuitului logic folosind hărţi Karnaugh"/>
+#+CAPTION: incinerator deşeuri toxice - simplificarea circuitului logic folosind hărţi Karnaugh
+[[../poze/14115.png]]
 
 <p>Ecuaţia booleană de iesire este o sumă de patru produse. Prin urmare, vom avea patru regiuni de 1 pe harta Karnaugh. Grupând regiunile adiacente, avem trei grupuri de câte doi termeni. Vom avea prin urmare o sumă de trei produse, fiecare produs conţinând doi termeni. Circuitul logic simplificat, identic cu cel obţinut cu ajutorul regulilor de simlificare booleană, este redat mai jos:</p>
 
-<img src="../poze/04366.png" alt="incinerator deşeuri toxice - circuitul logic simplificat"/>
+#+CAPTION: incinerator deşeuri toxice - circuitul logic simplificat
+[[../poze/04366.png]]
 
 <p>Făcând o comparaţie între regulile boolene folosite pentru simplificarea circuitului logic al incineratorului...</p>
 
-<img src="../poze/14066.png" alt="incinerator deşeuri toxice - simplificarea booleană"/>
+#+CAPTION: incinerator deşeuri toxice - simplificarea booleană
+[[../poze/14066.png]]
 
 <p>...şi harta Karnaugh, care duce la exact acelaşi rezultat...</p>
 
-<img src="../poze/14144.png" alt="incinerator deşeuri toxice - simplificarea circuitului logic folosind hărţi Karnaugh"/>
+#+CAPTION: incinerator deşeuri toxice - simplificarea circuitului logic folosind hărţi Karnaugh
+[[../poze/14144.png]]
 
 <p>Putem lesne vedea motivul pentru care hărţile Karnaugh sunt preferate pentru simplificarea circuitelor logice în detrimentul simplificării booleene.</p>
 

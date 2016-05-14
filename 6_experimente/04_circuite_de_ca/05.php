@@ -29,9 +29,11 @@
 
 <p>Vom avea nevoie de un detector audio cu căşti şi o bobină de electromagnet. O bobină luată de la un releu electromagnetic sau de la un solenoid (bobină cilindrică fără miez magnetic) este perfectă pentru această aplicaţie. Circuitul realizat arată astfel:</p>
 
-<img src="../poze/05015.png" alt="circuit de detectare a câpurilor electromagnetice"/>
+#+CAPTION: circuit de detectare a câpurilor electromagnetice
+[[../poze/05015.png]]
 
-<img src="../poze/05016.png" alt="circuit de detectare a câpurilor electromagnetice"/>
+#+CAPTION: circuit de detectare a câpurilor electromagnetice
+[[../poze/05016.png]]
 
 <h2>Utilizarea detectorului de câpuri electromagnetice</h2>
 

@@ -34,15 +34,18 @@
 
 <p>Când o linie atinge pământul, circuitul electric se închide prin pământ, ceea ce duce la apariţia unui curent prin acesta până la cel mai apropiat punct de împământare din sistem, asfel:</p>
 
-<p><img src="../poze/00067.png" alt="linie electrică căzută la pământ - posibilitatea apariţiei electrocutării"/></p>
+#+CAPTION: linie electrică căzută la pământ - posibilitatea apariţiei electrocutării
+[[../poze/00067.png]]
 
 <p>Pământul, fiind un conductor (chiar dacă unul prost), va conduce curentul între linia căzută la pământ şi cel mai apropiat punct de împământare, reprezentat de un conductor îngropat în pământ pentru un contact cât mai bun. Datorită faptului că pământul este un conductor electric mult mai slab decât conductoarele electrice de pe stâlpi, majoritatea căderii de tensiune se va regăsi între punctul de contact al cablului căzut la pământ şi conductorul folosit pentru împământare; căderea de tensiune în lungul cablului electric va fi mult mai mică (cifrele din figură sunt foarte aproximative):</p>
 
-<p><img src="../poze/00068.png" alt="linie electrică căzută la pământ - valorile aproximative ale căderilor de tensiune"/></p>
+#+CAPTION: linie electrică căzută la pământ - valorile aproximative ale căderilor de tensiune
+[[../poze/00068.png]]
 
 <p>Dacă distanţa dintre punctul de contact al liniei cu pământul şi locul împământării este mică, atunci va exista o cădere mare de tensiune pe o distanţă relativ scurtă. Prin urmare, o persoană ce stă pe pământ între aceste două puncte este în pericol de electrocutare datorită diferenţei de potenţial dintre picioarele sale (!!! Curentul „alege” calea cea mai puţin rezistentă din punct de vedere electric !!!)</p>
 
-<p><img src="../poze/00069.png" alt="linie electrică căzută la pământ - electrocutarea persoanei ce se află între punctul de contact al liniei electrice şi punctul de împământare al reţelei"/></p>
+#+CAPTION: linie electrică căzută la pământ - electrocutarea persoanei ce se află între punctul de contact al liniei electrice şi punctul de împământare al reţelei
+[[../poze/00069.png]]
 
 <p>Din nou, aceste cifre sunt foarte aproximative, dar ilustrează foarte bine principiul conform cărei o persoană poate deveni victimă a electrocutării datorită unei linii electrică căzute la pământ fără să intre în contact direct cu aceasta!</p>
 

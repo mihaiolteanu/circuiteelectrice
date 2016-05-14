@@ -24,7 +24,8 @@
 
 <p>Pe cât de folosit şi uşor de înţeles este curentul continuu, acesta nu este „tipul” de electricitate folosit în general. Unele surse electrice, precum generatoarele electro-mecanice rotative, produc tensiuni a căror polaritate alternează, inversându-se în acest caz polii pozitivi şi negativi între ei. Fie că vorbim de modificarea polarităţii unei tensiuni sau de modificarea direcţiei de deplasare a electronilor înainte şi înapoi, acest gen de electricitatea poartă denumirea de curent alternativ:</p>
 
-<p><img src="../poze/02001.png" alt="curent continuu vs. curent alternativ"/></p>
+#+CAPTION: curent continuu vs. curent alternativ
+[[../poze/02001.png]]
 
 <p>Deşi simbolul bateriei este folosit pentru a reprezenta orice sursă de curent continuu, în cazul curentului alternativ, simbolul unei surse generige îl reprezintă o linie sinusoidală într-un cerc, precum în figura de mai sus.</p>
 
@@ -34,7 +35,8 @@
 
 <p>În cazul în care construim o maşină ce roteşte un câmp magnetic în jurul unui set de înfăşurări staţionare prin intermediul unui ax, vom constata producerea curentului alternativ pe înfăsurări pe măsură ce axul se roteşte; principiul se bazează pe legea inducţiei electromagnetice a lui Faraday. Acesta este şi principiul de bază a unui generator de curent alternativ, cunoscut şi sub numele de alternator.</p>
 
-<p><img src="../poze/02002.png" alt="principiul generatorului de curent alternativ"/></p>
+#+CAPTION: principiul generatorului de curent alternativ
+[[../poze/02002.png]]
 
 <p>Putem observa că polaritatea tensiunii pe înfăşurare se inversează atunci când prin preajma acestia trece polul opus al magnetului. Conectată la o sursă, această inversare a polarităţii crează un curent invers (în direcţie opusă) prin circuit. Cu cât viteza de rotaţie a axului generatorului este mai mare, cu atât mai repede se roteşte şi magnetul; rezultatul este o tensiune şi curent alternativ ce-şi modifică direcţiile mult mai des în aceeiaşi perioadă de timp.</p>
 
@@ -42,7 +44,8 @@
 
 <p>Deşi generatoarele de curent continuu funcţionează pe baza aceluiaşi principiu al inducţiei electromagnetice ca şi generatoarele de curent alternativ, construcţia acestora nu este aşa de simplă. La un generator de curent continuu, înfăşurarea este montată pe ax, acolo unde la generatorul de curent alternativ se află magnetul permanent, iar contactul dintre înfăşurarea rotativă şi circuitul exterior se realizează cu ajutorul unor contacte staţionare de carbon, numite perii, ce vin în contact cu fâşii de cabon aflate pe înfăşurare. Toate aceste elemente sunt necesare pentru schimbarea polarităţii de ieşire spre circuitul exterior, pentru ca acesta „să vadă” o polaritate constantă (curent continuu):</p>
 
-<p><img src="../poze/02003.png" alt="principiul generatorului de curent continuu"/></p>
+#+CAPTION: principiul generatorului de curent continuu
+[[../poze/02003.png]]
 
 <p>Generatorul de mai sus produce două pulsuri de tensiune la fiecare revoluţie a axului, ambele pulsuri având aceeiaşi direcţie (polaritate). Pentru ca un generator de curent continuu să producă o tensiune <i>constantă</i> şi nu o tensiune intermitentă, acesta trebuie echipat cu seturi multiple de înfăşurări pentru contactul cu periile. Diagrama de mai sus este prin urmare una simplificată.</p>
 
@@ -52,17 +55,20 @@
 
 <p>Un alt domeniu de aplicare al curentului continuu se bazează pe un efect al electromagnetismului cunoscut sub denumirea de <i>inducţie mutuală</i>: două sau mai multe înfăşurări plasate una în vecinătatea celeilalte, asfel încât câmpul magnetic variabil create de o înfăşurare induce o tensiune electrică în cealaltă. Dacă avem două înfăşurări mutual inductive şi alimentăm una dintre ele în curent altenativ, cea de a doua înfăşurare va şi ea străbătută de curent alternativ. O asfel de utilizare a înfăşurătorilor dă naştere unui dispozitiv numit <i>transformator</i>:</p>
 
-<p><img src="../poze/02004.png" alt="principiul transformatorului - un curent alternativ ce alimentează prima înfăşurare dintr-un set de două înfăşurări mutual inductive, va induce un curent alternativ în cea de a doua înfăşurare"/></p>
+#+CAPTION: principiul transformatorului - un curent alternativ ce alimentează prima înfăşurare dintr-un set de două înfăşurări mutual inductive, va induce un curent alternativ în cea de a doua înfăşurare
+[[../poze/02004.png]]
 
 <p>Transformatorul este utilizat în principal pentru ridicarea sau coborârea valorii tensiunii de la înfăşurarea alimentată la cea nealimentată. Prima înfăşurare, cea care este alimentată în curent alternativ, poartă denumirea de <i>primar</i>; cea de a doua înfăşurare, cea în care se induce un curent alternativ dinspre primar, poartă denumirea de <i>secundar</i>. Valoarea tensiunii induse în secundar este egală cu produsul dintre valoarea tensiunii din primar şi raportul dintre numărul de spire din secundar şi numărul de înfăşurări din primar (U<sub>2</sub> = U<sub>1</sub>*n<sub>2</sub>/n<sub>1</sub>). Această relaţie poate fi reprezentată printr-o analogie mecanică, folosind cuplul şi viteza pentru reprezentarea tensiunii şi respectiv a curentului.</p>
 
-<p><img src="../poze/02005.png" alt="analogie între transformator şi angrenajul mecanic unde cuplul reprezintă tensiunea şi viteza reprezintă curentul"/></p>
+#+CAPTION: analogie între transformator şi angrenajul mecanic unde cuplul reprezintă tensiunea şi viteza reprezintă curentul
+[[../poze/02005.png]]
 
 <p>Dacă inversăm raportul numărului de spire dintre primar şi secundar, asfel încât primarul va avea mai puţine spire decât secundarul, atunci transformatorul va „ridica” tensiune de la nivelul existent în primar la un nivel mai mare în secundar.</p>
 
 <p>Abilitatea transformatoarelor de a ridica tensiunea sau de a o coborî este extrem de utilă în proiectare reţelelor de distribuţie a energiei electrice. Atunci când se transportă energie electrică pe distanţe lungi, este mult mai eficient dacă aceasta se realizează la tensiuni înalte şi curenţi mici (diamentrul conductorilor este mai mic, prin urmare şi pierderile sunt mai mici), si coborârea acesteia pentru utilizarea de către consumatori.</p>
 
-<p><img src="../poze/02007.png" alt="principiul reţelei de distribuţie a energiei electrice - folosirea transformatoarelor ridicătoare şi coborâtoare de tensiune"/></p>
+#+CAPTION: principiul reţelei de distribuţie a energiei electrice - folosirea transformatoarelor ridicătoare şi coborâtoare de tensiune
+[[../poze/02007.png]]
 
 <p>Tehnologia proiectării transformatoarelor face posibilă existenţa sistemelor de distribuţie. Fară capacitatea de ridicare şi coborâre a tensiuni, sistemele de distribuţie ar fi mult prea scumpe pentru a fi practice, decât poate, doar pe distanţe scurte, de câţiva kilometri.</p>
 

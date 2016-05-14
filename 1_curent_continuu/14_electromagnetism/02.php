@@ -25,11 +25,13 @@
 
 <p>Experimente detaliate au arătat că orientarea câmpului magnetic produs de un curent electric este tot timpul perpendiculară direcţiei de curgere. O metodă simplă de exemplificare a acestei relaţii este <i>regula mâinii stângi</i>. Această regulă spune că liniile câmpului magnetic produs de curentul electric printr-un fir sunt orientate în direcţia degetelor de la mâna stângă, atunci când aceastea sunt închise iar degetul mare este orientat în direcţia curentului:</p>
 
-<p><img src="../poze/00307.png" alt="regula mâinii stângi"/></p>
+#+CAPTION: regula mâinii stângi
+[[../poze/00307.png]]
 
 <p>Liniile câmpului magnetic încercuiesc conductorul de curent şi nu au un pol „nord” sau „sud” bine definit. În acest caz însă, forţa câpului este foarte slabă, pentru valori normale ale curentului, fiind capabilă să deplaseze acul unui compas de exemplu, dar nu mai mult de atât. Pentru a crea un câmp magnetic mai puternic (forţă şi flux mai mari) cu aceeiaşi valoare a curentului electric, putem forma o serie de bucle cu ajutorul firului; în jurul acesteia, câmpurile magnetice se vor uni pentru a forma un câmp magnetic mai puternic cu o polaritate nord-sud bine definită.</p>
 
-<p><img src="../poze/00308.png" alt="formarea buclei de curent pentru creşterea câmpului magnetic"/></p>
+#+CAPTION: formarea buclei de curent pentru creşterea câmpului magnetic
+[[../poze/00308.png]]
 
 <p>Valoarea forţei magnetice generate de o asfel de buclă este proporţională cu valoarea curentului prin fir înmulţită cu numărul efectiv de bucle formate. Această forţă este denumită <i>forţă magnetomotoare</i> (mmf) şi este similară forţei electromotoare (E) dintr-un circuit electric.</p>
 
@@ -37,11 +39,13 @@
 
 <p>Probabil că cel mai bun exemplu de utilizare al electromagneţilor este <i>motorul electric</i>. Un alt exemplu este <i>releul</i>, un întrerupător controlat pe cale electrică. Dacă mecanismul unui întrerupător este construit asfel încât să poată fi acţionat (închis şi deschis) prin aplicarea unui câmp magnetic, iar electromagnetul este plasat în apropierea acestuia pentru a produce câmpul necesar, este posibilă închiderea şi deschiderea întrerupătorului plin aplicarea unui curent prin acesta. În principiu, acesta este un dispozitiv ce controlează electricitatea cu ajutorul electricităţii.</p>
 
-<p><img src="../poze/00394.png" alt="închiderea contactului la trecerea curentului prin electromagnet"/></p>
+#+CAPTION: închiderea contactului la trecerea curentului prin electromagnet
+[[../poze/00394.png]]
 
 <p>Întrerupătoarele pot fi construite pentru a acţiona multiple contacte, sau pentru a funcţiona „invers” (<i>deschiderea</i> contactelor la trecerea curentului prin electromagnet şi <i>inchiderea</i> lor la încetarea câmpului magnetic).</p>
 
-<p><img src="../poze/00395.png" alt="întrerupător cu contacte multiple şi contact normal închis"/></p>
+#+CAPTION: întrerupător cu contacte multiple şi contact normal închis
+[[../poze/00395.png]]
 
 <p class="sumar">Sumar:</p>
 <ul>

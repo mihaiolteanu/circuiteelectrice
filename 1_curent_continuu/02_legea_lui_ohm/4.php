@@ -17,7 +17,8 @@
   </div>
   
 <div id="meniu2"><?php include ("meniu2.html")?></div>
-<div id="poza_meniu2"><a href="http://www.flickr.com/photos/maurymccown/2381599778/sizes/l/"><img src="poze/rezistori2.jpg" alt="rezistori"/></a></div>
+#+CAPTION: http://www.flickr.com/photos/maurymccown/2381599778/sizes/l/
+[[poza_meniu2]]
   
 <div id="contents">
 
@@ -27,29 +28,35 @@
 
 <p>Simbolul rezistenţei pe care îl vom folosi în circuite este cel în formă de zig-zag:</p>
 
-<img src="../poze/00042.png" alt="simbolul rezistorului"/>
+#+CAPTION: simbolul rezistorului
+[[../poze/00042.png]]
 
 <p>Valorile rezistenţelor în ohmi sunt de obicei reprezentate printr-un număr adiacent, iar dacă într-un singur circuit sunt prezenţi mai mulţi rezistori, fiecare va fi notat cu R<sub>1</sub>, R<sub>2</sub>, R<sub>3</sub>, etc. După cum se poate vedea, simbolurile pentru rezistenţă pot fi prezentate fie orizontal, fie vertical:</p>
 
-<img src="../poze/00043.png" alt="simbolul şi notaţia rezistorului"/>
+#+CAPTION: simbolul şi notaţia rezistorului
+[[../poze/00043.png]]
 
 <p>Rezistoarele reale nu seamănă deloc cu un zig-zag, ci sunt asemenea unor tuburi sau cilindrii cu câte un fir la fiecare capăt pentru conectarea lor în circuit. Mai jos sunt câteva exemple de rezistori de diferite tipuri şi mărimi:</p>
 
-<img src="../poze/50008.jpg" alt="diferite tipuri şi mărimi de rezistori"/>
+#+CAPTION: diferite tipuri şi mărimi de rezistori
+[[../poze/50008.jpg]]
 
 <p>Dacă ne luăm după aparenţa lor fizică, un simbol alternativ pentru rezistori este cel din figura de mai jos<sup>1</sup>:</p>
 
-<img src="../poze/00368.png" alt="simbolul european al rezistorului"/>
+#+CAPTION: simbolul european al rezistorului
+[[../poze/00368.png]]
 
 <p>Rezistoarele pot de asemenea să fie cu rezistenţă variabilă, nu neapărat fixă. Această proprietate o putem întâlni în cadrul unui rezistor construit chiar pentru acest scop, sau o putem întâlni în cadrul unui component a cărui rezistenţă este instabilă în timp:</p>
 
-<img src="../poze/00339.png" alt="simbolul rezistorului variabil"/>
+#+CAPTION: simbolul rezistorului variabil
+[[../poze/00339.png]]
 
 <p>În general, ori de câte ori vedeţi simbolul unui component reprezentat cu o săgeată diagonală prin el, acel component are o valoarea variabilă şi nu statică (fixă). Acest simbol este o convenţie electronică standard.</p>
 
 <p>Rezistoarele variabile trebuie să posede o modalitate de ajustare, fie un arbore rotitor sau un braţ ce poate fi mişcat pentru a varia valoarea rezistenţei electrice. Mai jos avem poza unor dispoizitive numite <i>potenţiometre</i>, ce pot fi folosite ca şi rezistori variabili:</p>
 
-<img src="../poze/50009.jpg" alt="exemplu de potenţiometre - rezistori variabili"/>
+#+CAPTION: exemplu de potenţiometre - rezistori variabili
+[[../poze/50009.jpg]]
 
 <p>Deoarece rezistori produc energie sub formă de căldură la trecerea curentului prin ei datorită frecării, aceştia pof fi împărţiţi în funcţie de cantitatea de căldură ce o pot susţine fără a se supra-încălzi şi distruge. Această categorie este specificată în „watti”. Majoritatea rezistorilor din aparatele electronice portabile sunt în categoria de 1/4 (0.25) watt sau mai puţin. Puterea unui rezistor este aproximativ proporţională cu mărimea sa: cu cât rezistorul este mai mare, cu atât mai mare este puterea sa. De menţionat şi faptul că rezistenţa (în ohmi) nu are deloc legătură cu mărimea!</p>
 
@@ -59,15 +66,18 @@
 
 <p>Pentru a rezuma ceea ce am spus până acum, vom analiza circuitul de mai jos, încercând să determinăm tot ceea ce putem cu ajutorul informaţiilor disponibile:</p>
 
-<img src="../poze/00044.png" alt="circuit electric simplu"/>
+#+CAPTION: circuit electric simplu
+[[../poze/00044.png]]
 
 <p>Tot ceea ce cunoaştem în acest circuit este tensiunea la bornele bariei (10 volţi) şi curentul prin circuit (2 amperi). Nu cunoaştem rezistenţa rezistorului în ohmi sau puterea disipată de acesta în watti. Folosindu-ne însă de ecuaţiile lui Ohm, putem găsi două ecuaţii ce ne pot oferi răspunsuri folosind doar cantitătile cunoascute, tensiunea, respectiv curentul:</p>
 
-<img src="../poze/10022.png" alt="relatii matematice"/>
+#+CAPTION: relatii matematice
+[[../poze/10022.png]]
 
 <p>Introducând cantităţile cunoscute de tensiune (E) şi curent (I) în aceste două ecuaţii, putem determina rezistenţa circuitului (R), şi puterea disipată (P):</p>
 
-<img src="../poze/10023.png" alt="calcule matematice"/>
+#+CAPTION: calcule matematice
+[[../poze/10023.png]]
 
 <p>Pentru circuitul de faţă, în care avem 10 volţi şi 2 amperi, rezistenţa rezistorului trebuie şa fie de 5 Ω. Dacă ar fi să proiectăm un circuit pentru a opera la aceste valori, ar trebui să folosim un rezistor cu o putere de minim 20 de watti; în caz contrar, s-ar distruge din cauza supra-încălzirii.</p>
 

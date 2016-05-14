@@ -25,11 +25,13 @@
 <p>Tiristoarele controlate cu ajutorul luminii sunt adesea cunoscute sub acronimul LASCR (Light Activated 
 Silicon-Controlled Rectifier). Simbolul acestora este prezentat în figura alăturată.</p>
 
-<p><img src="../poze/03228.png" alt="opototiristorul (LASCR); simbol"/></p>
+#+CAPTION: opototiristorul (LASCR); simbol
+[[../poze/03228.png]]
 
 <p>Triacele controlate cu ajutorul luminii nu au un acronim al lor, dar sunt cunoscute sub numele de opto-triace. Simbolul acestora este prezentat în figura alăturată.</p>
 
-<p><img src="../poze/03228.png" alt="optotriacul; simbol"/></p>
+#+CAPTION: optotriacul; simbol
+[[../poze/03228.png]]
 
 </div>
 <div id="footer">

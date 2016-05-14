@@ -17,25 +17,31 @@
 	<?php include ("meniu2.html")?>
 </div>
 
-<div id="poza_meniu2"><a href="http://upload.wikimedia.org/wikipedia/commons/4/44/Lightning_strike_jan_2007.jpg"><img src="poze/fulger.jpg" alt="fulger"/></a></div>
+#+CAPTION: http://upload.wikimedia.org/wikipedia/commons/4/44/Lightning_strike_jan_2007.jpg
+[[poza_meniu2]]
   
 <div id="contents">
 <p>Cu secole în urmă, a fost descoperit faptul că anumite tipuri de materiale se atrag misterios după au fost frecate unul de celălalt. De exemplu: după frecarea unei bucăţi de mătase de o bucată de sticlă, cele două materiale vor tinde să se lipească unul de celălalt. Într-adevăr, există o forţă de atracţie ce acţionează chiar şi atunci când cele două materiale sunt separate unul de celălalt:</p>
-<img src="../poze/00001.png" alt="atracţie între două corpuri încărcate cu sarcină electrică"/>
+#+CAPTION: atracţie între două corpuri încărcate cu sarcină electrică
+[[../poze/00001.png]]
 
 <p>Sticla şi mătasea nu sunt singurele materiale ce se comportă asfel. Oricine s-a frecat vreodată de un balon din latex s-a confruntat cu exact acelaşi fenomen atunci când a observat că balonul tinde să se lipească de el/ea. Parafina şi mătasea sunt o altă pereche de materiale recunoscute de către experimentatori ca manifestând forţe de atracţie după ce au fost frecate unul de celălat:</p>
-<img src="../poze/00002.png" alt="atracţie între două corpuri încărcate cu sarcină electrică"/>
+#+CAPTION: atracţie între două corpuri încărcate cu sarcină electrică
+[[../poze/00002.png]]
 
 <p>Acest fenomen a devenit şi mai interesant după ce a fost descoperit faptul că materiale identice, după ce au fost frecate cu un material corespunzător, se resping întotdeauna:</p>
-<img src="../poze/00003.png" alt="respingere între două corpuri încărcate cu sarcină electrică"/>
+#+CAPTION: respingere între două corpuri încărcate cu sarcină electrică
+[[../poze/00003.png]]
 
 <p>A fost de asemenea observat faptul că o bucată de sticlă frecată cu mătase adusă în apropierea unei bucăţi de parafină frecată cu lână, conduce la fenomenul de atracţie dintre cele două materiale:</p>
-<img src="../poze/00004.png" alt="atracţie între două corpuri încărcate cu sarcină electrică"/>
+#+CAPTION: atracţie între două corpuri încărcate cu sarcină electrică
+[[../poze/00004.png]]
 
 <p>Mai mult decât atât, s-a descoperit că orice material care posedă proprietăţi de atracţie sau respingere după frecare, poate fi clasificat într-una din cele două categorii: atras de sticlă şi respins de parafină, sau respins de sticlă şi atras de parafină. Fie prima, fie a doua posibilitate: nu s-au găsit materiale care să fie atrase sau respinse atât de sticlă cât şi de parafină, sau care să reacţioneze faţă de una fără să reacţioneze faţă de cealaltă.</p>
 
 <p>O atenţie sporită a fost îndreptată spre materialele folosite pentru frecare. S-a descoperit că după frecarea a două bucăţi de sticlă cu două bucăţi de mătase, atât bucăţile de sticlă cât şi bucăţile de mătase se resping reciproc:</p>
-<img src="../poze/00005.png" alt="respingere între două corpuri din materiale identice încărcate cu sarcină electrică"/>
+#+CAPTION: respingere între două corpuri din materiale identice încărcate cu sarcină electrică
+[[../poze/00005.png]]
 
 <p>Acest lucru era foarte straniu. Până la urmă, niciunul dintre aceste materiale nu era vizibil modificat în urma frecării, dar cu siguranţă se comportau diferit după frecare decât înainte. Oricare ar fi fost schimbarea ce avea loc pentru a determina atracţia sau respingerea acestor materiale unul de celălalt, era una invizibilă.</p>
 
@@ -50,7 +56,8 @@
 <p>Măsurători precise ale sarcinii electrice au fost efectuate de către fizicianul francez Charles Coulomb în anii 1780, cu ajutorul unui dispozitiv numit <i>balanţă de torsiune</i>, măsurând forţa generată între două obiecte încărcate din punct de vedere electric. Rezultatele muncii lui Coulomb au dus la dezvoltarea unităţii de măsură pentru sarcina electrică, şi anume <i>coulombul</i>. Dacă două corpuri „punctiforme” (corpuri ipotetice fără suprafaţă) sunt încărcate cu o sarcină egală de 1 coulomb şi plasate la 1 metru distanţă, ar genera o forţă de atragere (sau de respingere, în funcţie de tipul sarcinilor) de aproximativ 9 miliarde de newtoni. Definiţia operaţională a unui coulomb, ca şi unitate a sarcinii electrice (în termeni de forţă generată între cele două puncte încărcate cu sarcină electrică), s-a descoperit că este egală cu un exces sau o deficienţă de aproximativ 6.250.000.000.000.000.000 (6.25 x 10<sup>18</sup> de electroni. Sau invers, un electron are o sarcină de aproximativ 0.00000000000000000016 coulombi (1,6 x 10<sup>-19</sup>). Prin faptul că electronul este cel mai mic purtător de sarcină electrică cunoscut, această ultimă valoare a sarcinii pentru electron a fost desemnată ca <i>sarcina electrică elementară</i>.</p>
 
 <p>Mult mai târziu se va descoperi faptul că acest „fluid” este defapt compus din bucăţi mici de materie numite <i>electroni</i>, denumiţi asfel după cuvântul antic grecesc dat chihlimbarului: un alt material ce manifestă proprietăţi electrice când este frecat de lână. Experimentele realizate de atunci au relevat faptul că toate obiectele (corpurile) sunt compuse din „blocuri” extrem de mici, denumite <i>atomi</i>, iar aceşti atomi la rândul lor sunt compuşi din componente şi mai mici, denumite <i>particule</i>. Cele trei particule fundamentale regăsite în compoziţia majorităţii atomile poartă denumirea de <i>protoni</i>, <i>neutroni</i> şi <i>electroni</i>. Deşi majoritatea atomilor sunt o compoziţie de protoni, neutroni şi electroni, nu toţi atomii au neutroni; un exemplu este isotopul de protiu (<sub>1</sub>H<sup>1</sup>) al hidrogenului, ce reprezintă forma cea mai uşoară şi mai răspândită a hidrogenului, cu doar un singur proton şi un singur electron. Atomii sunt mult prea mici pentru a fi văzuţi, dar dacă am putea privi unul, ar arăta cam aşa:</p>
-<img src="../poze/00006.png" alt="structura unui atom"/>
+#+CAPTION: structura unui atom
+[[../poze/00006.png]]
 
 <p>Chiar dacă fiecare atom dintr-un material tinde să rămână o unitate, în realitate există mult spatiu liber între electroni şi „ciorchinele” de protoni şi neutroni din mijloc</p>
 

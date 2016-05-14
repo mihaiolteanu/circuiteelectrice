@@ -22,33 +22,40 @@
 <div id="contents">
 <p>Folosind aceleaşi valori, vom conecta rezistorul şi condensatorul în paralel, şi vom trece la analiza acestuia folosind metoda tabelului:</p>
 
-<p><img src="../poze/02263.png" alt="circuit electric rezistiv-capacitiv serie; diagrama fazorială"/></p>
+#+CAPTION: circuit electric rezistiv-capacitiv serie; diagrama fazorială
+[[../poze/02263.png]]
 
 <p>Întrucât sursa de tensiune are aceeiaşi frecvenţă ca şi în cazul circuitului serie, iar rezistorul şi condensatorul au aceleaşi valori ale rezistenţei, respectiv capacităţii, valorile impedanţelor trebuie să fie aceleaşi. Prin urmare, putem începe completarea tabelului cu valorile cunoscute:</p>
 
-<p><img src="../poze/12051.png" alt="tabel"/></p>
+#+CAPTION: tabel
+[[../poze/12051.png]]
 
 <p>Fiind un circuit paralel, ştim faptul că tensiunea este aceeiaşi pe fiecare dintre coponente, prin urmare, putem introduce tensiunea totală (10 V&#8736; 0<sup>o</sup>) pe toate coloanele:</p>
 
-<p><img src="../poze/12052.png" alt="tabel"/></p>
+#+CAPTION: tabel
+[[../poze/12052.png]]
 
 <p>Acum putem aplica legea lui Ohm vertical (I=E/Z) pentru cele două coloane din tabel, calculând curentul prin rezistor, respectiv condensator:</p>
 
-<p><img src="../poze/12053.png" alt="tabel"/></p>
+#+CAPTION: tabel
+[[../poze/12053.png]]
 
 <p>Asemenea circuitelor de curent continuu, curentul total este suma curenţilor de ramură (legea lui Kirchhoff pentru curent):</p>
 
-<p><img src="../poze/12054.png" alt="tabel"/></p>
+#+CAPTION: tabel
+[[../poze/12054.png]]
 
 <h3>Formula de calcul a impedanţei totale</h3>
 
 <p>Impedanţa totală poate fi calculată folosind legea lui Ohm (Z=E/I), vertical, pe coloana „Total”. După cum am mai văzut, impedanţa paralelă poate fi calculată folosind o formulă echivalentă cu cea folosită pentru calcularea rezistenţei totale paralele. Trebuie amintit faptul că această regulă a impedanţei paralele se aplică indiferent de tipul impedanţelor ce le avem în paralel. Cu alte cuvinte, nu contează dacă avem circuite compuse exclusiv din rezistori paraleli, bobine paralele, condensatoare paralele sau orice alt tip de combinaţie între cele trei: sub forma impedanţei (Z), toţi termenii sunt comuni şi pot fi aplicaţi uniform în aceeiaşi formulă:</p>
 
-<p><img src="../poze/12036.png" alt="formula de calcul a impedanţei paralele"/></p>
+#+CAPTION: formula de calcul a impedanţei paralele
+[[../poze/12036.png]]
 
 <p>Singurul dezavantaj al acestei ecuaţii este volumul mare de muncă necesar pentru a efectua calculele matematice. Dar, indiferent de metoda ce o aplicăm pentru calcularea imedanţei paralel din circuitul de mai sus (fie folosind legea lui Ohm, fie formula echivalentă), rezultatul este identic:</p>
 
-<p><img src="../poze/12055.png" alt="tabel"/></p>
+#+CAPTION: tabel
+[[../poze/12055.png]]
 
 <p class="sumar">Sumar:</p>
 <ul>

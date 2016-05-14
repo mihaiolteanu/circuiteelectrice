@@ -22,7 +22,8 @@
 <div id="contents">
 <p>Dacă ar fi să conectăm ieşirea unui AO la intrarea sa inversoare (-) şi în acelaşi timp să aplicăm un semnal te tensiune la intrarea sa neinversoare (+), vom vedea că tensiunea de ieşire a AO este foarte apropiată de cea de intrare (pentru simplitate, sursa de putere, circuitul +V/-V şi masa nu au mai fost desenate în figură):</p>
 
-<p><img src="../poze/03034.png" alt="amplificator operaţional; conectarea ieşirii la intrarea neinversoare"/></p>
+#+CAPTION: amplificator operaţional; conectarea ieşirii la intrarea neinversoare
+[[../poze/03034.png]]
 
 <p>Pe măsură ce V<sub>intrare</sub> creşte, V<sub>ieşire</sub> creşte şi ea pe măsura amplificării diferenţiale. Totuşi, pe măsură ce V<sub>ieşire</sub> creşte, această tensiune de ieşire este furnizată înapoi spre intrarea inversoare, ducât asfel la scăderea diferenţei de tensiune dintre cele două intrări şi scăderea tensiunii de ieşire prin urmare. Rezultatul este că, pentru oricare valoare a tensiunii de intrare, tensiunea de ieşire va fi aproape egală cu V<sub>intrare</sub>, dar suficientă pentru menţinerea unei diferenţe de tensiune între V<sub>intrare</sub> şi intrarea (-) a cărei amplificare generează tensiunea de ieşire.</p>
 
@@ -30,15 +31,18 @@
 
 <p>Deoarece amplificarea AO este atât de mare, tensiunea pe intrarea inversoare poate fi menţinuţa aproximativ egală cu V<sub>intrare</sub>. Să presupunem de exemplu că AO din exemplu are o amplficare de 200.000. Dacă V<sub>intrare</sub> = 6 V, tensiunea de ieşire va fi de 5.999970000149999 V. Această valoare este suficientă pentru ca tensiunea diferenţială de 6 V - 5.999970000149999 V = 29.99985 µV, amplficată cu factorul de 200.000 să producă la ieşire exact 5.999970000149999 V; sistemul este asfel în echilibru, iar valoarea tensiunii de ieşire nu se (mai) modifică. După cum se poate vedea, diferenţa de tensiune nu este prea mare (29.99985 µV); din considerente practice, putem presupune că această diferenţă de tensiune dintre cele două intrări este menţinută prin intermediul reacţiei negative la exact 0 V.</p>
 
-<p><img src="../poze/03035.png" alt="amplificator operaţional cu recţie negativă; diferenţa de tensiune dintre cele două intrări este foarte aproape de zero volţi"/></p>
+#+CAPTION: amplificator operaţional cu recţie negativă; diferenţa de tensiune dintre cele două intrări este foarte aproape de zero volţi
+[[../poze/03035.png]]
 
-<p><img src="../poze/03036.png" alt="aproximarea efectelor unui amplificator operaţional cu reacţie negativă"/></p>
+#+CAPTION: aproximarea efectelor unui amplificator operaţional cu reacţie negativă
+[[../poze/03036.png]]
 
 <p>Un mare avantaj al utilizării AO cu reacţie negativă este că valoarea amplificării în tensiune  nu este importantă, atâta timp cât este foarte mare. Dacă amplificarea diferenţială ar fi fost 250.000 în loc de 200.000, atunci tensiunea de ieşire ar fi şi mai apropiată de valoarea V<sub>intrare</sub>. În circuitul prezentat însă, tensiunea de ieşire ar fi (din punct de vedere practic) şi în acest caz egală cu tensiunea de la intrarea neinversoare. Amplificările AO, prin urmare, nu trebuie să fie foarte precise din fabricaţie pentru a putea fi folosite cu succes în circuitele electronice. Circuitul de mai sus va urma pur şi simplu semnalul la intrare, cu o amplificare stabilă de 1.</p>
 
 <p>Reîntorcându-ne la modelulu amplificatorului operaţional, putem să ne imaginăm AO ca fiind o sursă de tensiune variabilă constrolată de un <i>detector de nul</i> extrem de sensibil. „Potenţiometrul” din interiorul AO ce crează o tensiune variabilă, se va deplasa spre orice poziţie este nevoie, asfel încât să „balanseze” intrările inversoare şi neinversoare iar căderea de tensiune pe detectorul de nul, ca urmare a acestui fapt, să fie zero (indicaţia detectorului de nul = 0).</p>
 
-<p><img src="../poze/03232.png" alt="amplificator operaţional cu reacţie negativă - analogie detector de nul şi potenţiometru"/></p>
+#+CAPTION: amplificator operaţional cu reacţie negativă - analogie detector de nul şi potenţiometru
+[[../poze/03232.png]]
 
 <p>Peria potenţiometrului se va mişca asfel încât tensiunea de ieşire să ducă acul indicator al detectorului de nul la zero volţi. Tensiune de ieşire va fi egală cu tensiunea de intrare, 6 V în acest caz. Dacă tensiunea de intrare se modifică, potenţiometrul din interiorul AO îşi va modifica poziţia asfel încât detectorul de nul să fie echilibrat (0 V). Rezultatul este o tensiune de ieşire aproximativ egală cu cea de intrare.</p>
 

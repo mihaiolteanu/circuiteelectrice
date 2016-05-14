@@ -21,7 +21,8 @@
   
 <div id="contents">
 
-<img src="../poze/04040.png" alt="o bobină produce un câmp magnetic la trecerea curentului prin aceasta"/>
+#+CAPTION: o bobină produce un câmp magnetic la trecerea curentului prin aceasta
+[[../poze/04040.png]]
 
 <p>La trecerea curentului electric printr-un canductor, va lua naştere un câmp magnetic în jurul acestuia. În cazul în care conductorul este construit sub forma unei bobine, câmpul magnetic produs se va orienta în lungimea bobine. Cu cât intensitatea curentului este mai mare, cu atât puterea câmpului magnetic este mai mare, toţi ceilalţi factori rămânând neschimbaţi.</p>
 
@@ -31,7 +32,8 @@
 
 <p>Dacă plasăm un obiect magnetic (un obiect metalic, de exemplu) în apropierea unei astfel de bobine, acest obiect se va deplasa atunci când prin bobină trece un curent electric. Obiectul magnetic deplasabil poartă numele de armătură, iar majoritatea lor pot fi deplasate fie prin intermediul curentului continuu, fie cu ajutorul curentului alternativ. Polaritatea câmpului magnetic este irelevantă din punct de vedere al atracţiei armăturii. Aceste dispozitive pot fi folosite pentru deschiderea pe cale electrică a încuietorilor, deschiderea sau închiderea valvelor, deplasarea braţelor mecanice, etc. Totuşi, în situaţia în care aceste dispozitive sunt utilizate pentru acţionarea unui comutator, ele sunt cunoscute sub denumirea de relee electromecanice.</p>
 
-<img src="../poze/04041.png" alt="releu electromecanic într-un circuit electric"/>
+#+CAPTION: releu electromecanic într-un circuit electric
+[[../poze/04041.png]]
 
 <p>Releele sunt foarte practice pentru controlul unei cantităţi mari de curent sau tensiune prin intermediul unui semnal electric de putere mică. Bobina releului ce produce câmpul magnetic poate să consume o putere mai mică de 1 watt, de exemplu, pe când contactele acţionate de acest câmp magnetic pot susţine o putere de sute de ori mai mare. Funcţional, un releu electromecanic se comportă precum un amplificator cu două stări: pornit şi oprit.</p>
 

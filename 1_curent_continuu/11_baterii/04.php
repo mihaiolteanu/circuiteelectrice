@@ -25,7 +25,8 @@
 
 <p>Pe vremuri, un tip special de baterie, cunoscuta sub numele de pilă standard cu mercur, era folosită ca şi etalon (standard) pentru calibrarea tensiunilor. Ieşirea unei pile cu mercur era între 1,0184 şi 1,0194 V c.c. (în funcţie de tipul pilei), fiind extrem de stabilă în timp. Variaţia tensiunii era în jurul valorii de 0,004% pe an. Alternativ, pilele cu mercur erau cunoscute si sub numele de pile cu cadmium sau pile Weston. Structura unei astfel de pile este prezentată în figura de mai jos:</p>
 
-<img src="../poze/00270.png" alt="pilă standard cu mercur"/>
+#+CAPTION: pilă standard cu mercur
+[[../poze/00270.png]]
 
 <p>Din păcate, pilele cu mercur sunt intolerante la „scurgerile” de curent şi nu pot fi măsurate cu un voltmetru analogic fără a compromite acurateţea măsurătorii. Producătorii menţionau un curent nu mai mare de 0,1 mA prin pilă, dar chiar şi această cifră era considerată de moment, sau instantanee maximă. Prin urmare, pilele standard nu puteau fi măsurate decât cu un dispozitiv potenţiometric (detector de nul), pentru care curentul de funcţionare este zero. Scurt-circuitarea unei pile cu mercur este stric interzisă. După scurt-circuitare, pila nu mai putea fi folosită ca şi dispozitiv standard. Pilele cu mercur sunt de asemenea susceptibile la variaţii mici de tensiune în cazul „bruscării” lor fizice sau termice.</p>
 
@@ -39,7 +40,8 @@
 
 <p>Un dispozitiv fascinant, foarte asemănător pilei voltaice, este pila de combustie. Acest dispozitiv utilizează reacţia chimică de combustie (ardere) pentru generarea unui curent electric. Procesul de oxidare chimică (formarea legăturilor ionice ale oxigenului cu alte elemente) poate produce o deplasare de electroni între doi electrozi asemănător unei combinaţii de metale şi electroliţi. O pilă de combustie este practic o baterie alimentată de la o sursă externă de energie chimică:</p>
 
-<img src="../poze/00271.png" alt="pilă de combustie hidrogen-oxigen"/>
+#+CAPTION: pilă de combustie hidrogen-oxigen
+[[../poze/00271.png]]
 
 <p>Pe măsură ce „arde” hidrogen, singurele emisii ale unei pile de combustie sunt apă şi o cantitate mică de căldură. Eficienţa transformării energiei chimice în energie electrică, în cazul unei pile de combustie, este mult mai mare decât limita de eficientă Carnot pentru orice motor cu ardere (combustie) internă.</p>
 
@@ -47,7 +49,8 @@
 
 <p>Un alt tip de „baterie” este celula (pila) solară, un produs al electronicii (semiconductor). Efectul fotoelectric, conform căruia electronii sunt „smulşi” din atomi sub influenţa luminii, este pus în aplicare pentru generarea de curent electric prin intermediul luminii. Eficienţa celulelor solare este destul de mică, dar beneficiile utilizării acesteia ca şi sursă de energie sunt nenumărate: nu există părţi mobile, zgomot, poluare sau emisii şi o viaţa practic infinită:</p>
 
-<img src="../poze/00272.png" alt="celulă solară"/>
+#+CAPTION: celulă solară
+[[../poze/00272.png]]
 
 <h2>Pila chimică de detecţie</h2>
 

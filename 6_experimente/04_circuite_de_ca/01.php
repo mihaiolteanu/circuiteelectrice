@@ -33,9 +33,11 @@
 
 <p>Circuitul final va arăta astfel:</p>
 
-<img src="../poze/05001.png" alt="sursă de tensiune joasă de curent alternativ"/>
+#+CAPTION: sursă de tensiune joasă de curent alternativ
+[[../poze/05001.png]]
 
-<img src="../poze/05002.png" alt="sursă de tensiune joasă de curent alternativ"/>
+#+CAPTION: sursă de tensiune joasă de curent alternativ
+[[../poze/05002.png]]
 
 <h2>Realizarea sursei de tensiune joasă</h2>
 
@@ -51,7 +53,8 @@
 
 <p>Păstraţi acest circuit asamblat, deoarece îl veţi folosi pentru alimentarea altor experimente prezentate de aici înainte. Sursa de tensiune astfel realizată va fi desemnată de acum înainte prin următoarea diagramă:</p>
 
-<img src="../poze/05008.png" alt="sursă de tensiune joasă de curent alternativ"/>
+#+CAPTION: sursă de tensiune joasă de curent alternativ
+[[../poze/05008.png]]
 
 
 

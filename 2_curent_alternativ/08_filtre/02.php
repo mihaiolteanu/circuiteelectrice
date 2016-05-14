@@ -27,21 +27,25 @@
 
 <p>Există două tipuri de circuite capabile să îndeplinească aceste condiţii, şi multe versiuni din fiecare: filtrul trece-jos inductiv şi filtrul trece-jos capacitiv:</p>
 
-<p><img src="../poze/02116.png" alt="filtru trece-jos inductiv"/></p>
+#+CAPTION: filtru trece-jos inductiv
+[[../poze/02116.png]]
 
 <p>În această configuraţie, impedanţa bobinei creşte odată cu creşterea frecvenţei, iar această impedanţă în serie cu rezistenţa de sarcină (bec, motor electric, ventilator, etc.) face ca semnalele de frecvenţă înaltă să nu ajungă la aceasta (blocarea/filtrarea lor). Grafic, comportamentul filtrului, atunci când este supus unei forme de undă multi-frecvenţă, arată asfel:</p>
 
-<p><img src="../poze/22026.png" alt="diagrama Bode pentru filtrul trece-jos inductiv"/></p>
+#+CAPTION: diagrama Bode pentru filtrul trece-jos inductiv
+[[../poze/22026.png]]
 
 <h3>Filtrul trece-jos capacitiv</h3>
 
 <p>Să considerăm şi filtrul trece-jos capacitiv:</p>
 
-<p><img src="../poze/02117.png" alt="filtru trece-jos capacitiv"/></p>
+#+CAPTION: filtru trece-jos capacitiv
+[[../poze/02117.png]]
 
 <p>Impedanţa condensatorului scade odată cu scăderea frecvenţei. Acestă impedanţă mică, conectată în paralel cu rezistenţa de sarcină, duce la scurt-circuitarea celei din urmă la semnalele de frecvenţă înaltă, iar mare parte din căderea de tensiune se va regăsi pentru rezistorul serie R<sub>1</sub>.</p>
 
-<p><img src="../poze/22027.png" alt="diagrama Bode pentru filtrul trece-jos capacitiv"/></p>
+#+CAPTION: diagrama Bode pentru filtrul trece-jos capacitiv
+[[../poze/22027.png]]
 
 <h3>Comparaţie între filtrele trece-jos inductive şi capacitive</h3>
 
@@ -55,11 +59,13 @@
 
 <p>Într-un circuit simplu trece-jos capacitiv sau inductiv, frecvenţa de tăiere reprezintă frecvenţa la care reactanţă capacitivă (în ohmi) este egală cu rezistenţă (în ohmi). Într-un circuit trece-jos capacitiv simplu (un rezistor, un condensator), frecvenţa de tăiere este dată de următoarea formulă:</p>
 
-<p><img src="../poze/12097.png" alt="formula frecvenţei de tăiere pentru un filtru trece-jos capacitiv"/></p>
+#+CAPTION: formula frecvenţei de tăiere pentru un filtru trece-jos capacitiv
+[[../poze/12097.png]]
 
 <p>Realizând calculele, ajungem la valoarea frecvenţei de tăiere, 45.473 Hz. Întrucât formula de mai sus nu ia în considerare şi rezistenţa de sarcină din circuit, refacem graficul de mai sus, eliminând sarcina din circuit:</p>
 
-<p><img src="../poze/22028.png" alt="diagrama Bode pentru filtrul trece-jos capacitiv"/></p>
+#+CAPTION: diagrama Bode pentru filtrul trece-jos capacitiv
+[[../poze/22028.png]]
 
 <p>Este important de ţinut minte că răspunsul filtrului depinde de valorile componentelor acestuia precum <i>şi</i> de impedanţa sarcinii. Dacă ecuaţia frecvenţei de tăiere nu ia în considerare şi această impedanţă, sarcina nu este luată în considerare, iar valorile reale ale frecvenţei de tăiere vor fi diferite de valoarea calculată.</p>
 
@@ -67,13 +73,15 @@
 
 <p>O aplicaţie frecvenţă a filtrului trece-jos capacitiv este în cadrul circuitelor ce prezintă componente sau secţiuni susceptibile zgomotului electric. Un exemplu este suprapunerea zgomotului de curent alternativ peste liniile electrice de curent continuu folosite pentru alimentearea circuitelor sensibile prin capacitatea şi inductanţa mutuală parazită (C<sub>p</sub> şi M<sub>p</sub>:</p>
 
-<p><img src="../poze/02300.png" alt="zgomotul inductiv şi capacitiv introdus de un circuit de curent alternativ într-un circuit de curent continuu sensibil"/></p>
+#+CAPTION: zgomotul inductiv şi capacitiv introdus de un circuit de curent alternativ într-un circuit de curent continuu sensibil
+[[../poze/02300.png]]
 
 <p>Aparatul de măsură din stânga măsoară o tensiune de alimentare în curent cotinuu „curată”. După realizarea cuplajului cu circuitul de curent alternativ, prin inductanţa mutuală şi capacitatea parazită, tensiunea măsurată la bornele sarcinii prezintă un amestec de curent continuu şi curent alternativ, componenta alternativă fiind cea nedorită. În mod normale ne-am aştepta ca E<sub>sarcină</sub> să fie identică cu E<sub>sursă</sub> datorită datorită faptului că nu există întreruperi ale conductorilor de la sursă la sarcină, iar cele două seturi de câte două puncte ar trebui să fie comune din punct de vedere electric. Totuşi, amplitudinea zgomotului poate varia în diferite puncte ale sistemului de curent continuu.</p>
 
 <p>Scopul nostru este de a preveni asfel de zgomote în circuitul de curent continuu, iar pentru aceasta este suficientă conectarea unui filtru trece-jos la ieşirea circuitului, înainte de sarcină, pentru blocarea oricăror semnale de cuplaj nedorite. Sub forma cea mai simplă, acest filtru nu este nimic mai mult decât un condensator conectat direct la bornele sarcinii, acesta prezentând o impedanţă foarte mică faţă de orice zgomot de curent alternativ. Un asfel de condensator poartă numele de <i>condensator de decuplare</i>.</p>
 
-<p><img src="../poze/02301.png" alt="zgomotul inductiv şi capacitiv introdus de un circuit de curent alternativ într-un circuit de curent continuu sensibil; folosirea condensatorului de decuplare"/></p>
+#+CAPTION: zgomotul inductiv şi capacitiv introdus de un circuit de curent alternativ într-un circuit de curent continuu sensibil; folosirea condensatorului de decuplare
+[[../poze/02301.png]]
 
 <p>Capacitatea unui condensator de decuplare este în mod normal în jurul valorii de 0.1 µF, sau peste, fiind capacitatea minimă necesară pentru producerea unei impedanţe suficient de mari pentru scurt-circuitarea oricărui zgomot.</p>
 

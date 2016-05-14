@@ -24,13 +24,15 @@
 
 <p>Am discutat în primul capitol despre conceptul de <i>atom</i>. Atomii sunt compuşi din părţi mai mici denumite <i>particule</i>. Particulele elementare dintr-un atom sunt electronii, protonii şi neutronii. Fiecare dintre aceste particule joacă rolul ei în comportamentul atomului. Activitatea electrică implică mişcarea electronilor, iar identitatea chimică (ce determină în mare tipul de material: coductiv/izolator) este determinată de numărul protonilor din nucleu.</p>
 
-<p><img src="../poze/00006.png" alt="structura atomului"/></p>
+#+CAPTION: structura atomului
+[[../poze/00006.png]]
 
 <p>Dislocarea protonilor din nucleul atomului este foarte greu de realizat, de aici şi stabilitatea identităţii chimice a atomilor în general. Îndepărtarea electronilor, în schimb, este mult mai uşor de realizat. După cum am văzut, frecarea este unul dintre procedeele prin care electronii pot fi „mutaţi” de pe un material pe altul, la fel este şi căldura, procedeu evidenţiat în cazul termocuplei.</p>
 
 <p>Electronii pot servi însă şi unui alt scop: legarea atomilor între ei. Această legare a atomilor prin intermediul electronilor poartă numele de <i>legătură chimică</i>. O reprezentare simplificată a unei asemenea legături dintre doi atomi arată asfel:</p>
 
-<p><img src="../poze/00257.png" alt="legătură chimică între doi atomi"/></p>
+#+CAPTION: legătură chimică între doi atomi
+[[../poze/00257.png]]
 
 <p>Există mai multe tipuri de legături chimice, cea de sus fiind una <i>covalentă</i>, caracterizată prin împărţirea electronilor de către atomi. Deoarece aceste legături sunt bazate pe legături formate de electroni, ele nu pot fi mai puternice decât gradul de imobilitate al electronilor constituenţi. Ceea ce vrem să spunem este că aceste legături chimice pot fi create sau desfăcute de aceleaşi forţe ce induc deplasarea electronilor: căldura, lumina, frecarea, etc.</p>
 
@@ -44,11 +46,13 @@
 
 <p>Formarea ionilor şi a legăturilor ionice din atomi neutrii sau molecule (sau <i>invers</i>) presupune transferul de electroni. Acest transfer poate fi folosit pentru generarea curentului electric. Un dispozitiv construit special în acest scop poartă denumirea de <i>pilă voltaică</i> sau, pe scurt, <i>pilă</i>; aceasta este de obicei formată din doi electrozi metalic introduşi într-o substanţă chimică denumită <i>electrolit</i> special concepută pentru facilitarea unei asfel de reacţii electrochimice (oxidare/reducere):</p>
 
-<p><img src="../poze/00258.png" alt="pilă voltaică"/></p>
+#+CAPTION: pilă voltaică
+[[../poze/00258.png]]
 
 <p>Pila folosită pentru automobile este de obicei cea de „plumb-acid”. Electrodul negativ este confecţionat din plumb (Pb), iar cel pozitiv din dioxid de plumb (IV) (PbO<sub>2</sub>), ambele substanţe fiind metalice. Soluţia de electrolit este o soluţie diluată de acid sulfuric (H<sub>2</sub>SO<sub>4</sub> + H<sub>2</sub>O). Dacă electrozii pilei sunt conectaţi la un circuit extern, asfel încât să fie posibilă deplasarea electronilor de la un electrod la celălalt, atomii de plumb (IV) din electrodul pozitiv (PbO<sub>2</sub> vor câştiga fiecare câte doi electroni pentru a produe Pb(II)O. Atomii de oxigen rezultaţi se vor combina cu ionii pozitivi de hidrogen (H)<sup>+</sup> şi formează apă (H<sub>2</sub>O). Această deplasare a electrolinor spre electrodul PbO<sub>2</sub> îi conferă o sarcină pozitivă. Atomii de plumb din electrodul negativ cedează fiecare câte doi electroni pentru a produce plumb Pb(II), care în conbinaţie cu ionii de sulfat (SO<sub>4</sub><sup>-2</sup>), produşi prin disociaţia ionilor de hidrogen (H<sup>+</sup>) din acidul sulfuric (H<sub>2</sub>SO<sub>4</sub>), formează sulfatul de plumb (PbSO<sub>4</sub>. Deplasarea electronilor dinspre electrodul de plumb îi conferă sarcina electrică negativă. Aceste reacţii sunt reprezentate mai jos:</p>
 
-<p><img src="../poze/00259.png" alt="descărcarea pilei de plumb-acid"/></p>
+#+CAPTION: descărcarea pilei de plumb-acid
+[[../poze/00259.png]]
 
 <p>Acest proces prin care pila produce energie pentru alimentarea sarcinii se numeşte <i>descărcare</i> şi provine de la faptul ca aceasta îşi epuizează rezervele chimice interne în urma acestui proces. Teoretic, după ce întreaga cantitate de acid sulfuric se consumă, din pilămai rămân cei doi electrozi de sulfat de plumb (PbSO<sub>4</sub>) şi o soluţie electrolitică de apă pură (H<sub>2</sub>O); această situaţie nu mai permite formarea legăturilor ionice adiţionale. În acest moment, pila se spune că este <i>complet descărcată</i>. Stadiul de încărcare poate fi determinat în acest caz de concentraţia soluţiei acide.</p>
 
@@ -62,7 +66,8 @@
 
 <p>Încărcarea unei pile de plumb-acid printr-o sursă de curent externă duce la inversarea reacţiilor chimice din interiorul acesteia:</p>
 
-<p><img src="../poze/00393.png" alt="încărcarea pilei de plumb-acid"/></p>
+#+CAPTION: încărcarea pilei de plumb-acid
+[[../poze/00393.png]]
 
 <p class="sumar">Sumar:</p>
 <ul>

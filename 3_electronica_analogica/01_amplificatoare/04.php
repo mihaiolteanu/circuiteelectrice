@@ -24,17 +24,20 @@
 
 <p>De exemplu, dacă la intrarea unui amplificator avem un semnal de tensiune alternativă efectivă de 2 V, iar la ieşire avem o tensiune alternativă efectivă de 30 V, spunem că factorul de amplificare în tensiune al amplificatorului este de 15, adică 30 împărţit la 2.</p>
 
-<p><img src="../poze/13025.png" alt="calcule matematice"/></p>
+#+CAPTION: calcule matematice
+[[../poze/13025.png]]
 
 <p>Prin aceeiaşi metodă, dacă ştim factorul de amplificare şi amplitudinea semnalului de intrare, putem calcula amplitudinea semnalului de ieşire. De exemplu, dacă un amplificator cu un factor de amplificare în curent alternativ de 3.5, are la intrare un semnal de 28 mA efectiv, semnalul de ieşire va fi 98 mA efectiv, sau 3.5 * 28 mA.</p>
 
-<p><img src="../poze/13026.png" alt="calcule matematice"/></p>
+#+CAPTION: calcule matematice
+[[../poze/13026.png]]
 
 <p>În exemplele de mai sus, toate semnalele şi amplificările au fost considerate în curent alternativ. Trebuie menţionat un principiu important: amplificatoarele electronice răspund diferit semnalelor de intrare în curent alternativ şi curent continuu, iar amplificarea celor două poate să fie diferită. Înainte de a putea face calculele amplifcărilor, trebuie să înţelegem cu ce semnale avem de a face în primul rând, alternative sau de continue.</p>
 
 <p>Dacă conectăm mai multe amplificatoare în etaje, factorul de amplificare totale va fi egal cu produsul amplificărilor individuale. În figura de mai jos, un semnal de 1 V este aplicat intrării unui amplificator cu factorul de amplificare 3. Ieşirea acestuia, de 3 V, este introdusă la intrarea unui amplificator cu factorul de amplificare 5, semnalul de la ieşire fiind 15 V:</p>
 
-<p><img src="../poze/03169.png" alt="schema bloc de principiu al legării amplificatoarelor în etaje; amplificarea finală este produsul amplificărilor individuale"/></p>
+#+CAPTION: schema bloc de principiu al legării amplificatoarelor în etaje; amplificarea finală este produsul amplificărilor individuale
+[[../poze/03169.png]]
 
 
 

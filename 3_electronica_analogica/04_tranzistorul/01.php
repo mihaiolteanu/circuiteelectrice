@@ -22,13 +22,15 @@
 <div id="contents">
 <p>Un tranzistor bipolar cu joncţiune (BJT) este alcătuit din trei straturi de materiale semiconductoare, fie de tipul PNP, fie de tipul NPN. Fiecare strat are un nume specific şi un contact pentru conexiunea la circuit:</p>
 
-<p><img src="../poze/03071.png" alt="tranzistorul bipolar cu joncţiune: (a) simbolul PNP; (b) secţiune transversală PNP; (c) simbolul NPN; (d) secţiune transversală NPN"/></p>
+#+CAPTION: tranzistorul bipolar cu joncţiune: (a) simbolul PNP; (b) secţiune transversală PNP; (c) simbolul NPN; (d) secţiune transversală NPN
+[[../poze/03071.png]]
 
 <p>Diferenţa funcţională dintre tranzistorul PNP şi NPN, este modul de polarizare corectă a joncţiunii. Indiferent de starea în care se află, direcţiile curenţilor şi polarităţile tensiunii sunt exact invers la cele două tipuri de tranzistoare.</p>
 
 <p>Tranzistorii sunt regulatori de curent controlaţi în curent. Cu alte cuvinte, tranzistorii limitează valoarea curentului prin ei cu ajutorul unui curent de control mai mic. Curentul principal, cel <i>controlat</i>, pleacă dinspre emitor spre colector (tipul NPN), iar curentul mai mic <i>de control</i>, pleacă dinspre emitor spre bază (tipul NPN). Pentru tranzistorul de tip PNP, direcţia curenţilor este exact inversă. Atenţie, folosim sensul real de deplasare al electronilor, prin urmare, săgeţile indicate pe simbolurile elementelor semiconductoare vor indicat tot timpul <i>împotriva</i> direcţiei de deplasare al electronilor.</p>
 
-<p><img src="../poze/03073.png" alt="controlul tranzistorului bipolar cu joncţiune"/></p>
+#+CAPTION: controlul tranzistorului bipolar cu joncţiune
+[[../poze/03073.png]]
 
 <p>Denumirea tranzistoarelor bipolare vine de la faptul că deplasarea electronilor prin ele are loc prin <i>două</i> tipuri de material semiconductor: P şi N. Cu alte cuvinte, există două tipuri de purtători de sarcină, electroni şi goluri.</p>
 

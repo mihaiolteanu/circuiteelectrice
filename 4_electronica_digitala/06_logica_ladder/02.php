@@ -23,7 +23,8 @@
 
 <h2>Funcţia logică SAU</h2>
 
-<img src="../poze/04009.png" alt="diagramă lader; funcţia SAU"/>
+#+CAPTION: diagramă lader; funcţia SAU
+[[../poze/04009.png]]
 
 <p>Putem construi funcţii logice simple pentru circuitul cu lampă din secţiunea precedentă, folosind contacte multiple. Documentarea acestor circuite se face relativ simplu prin conectarea unor linii adiţionale diagramei iniţiale.</p>
 
@@ -63,7 +64,8 @@
 
 <p>După cum se poate observa din diagrama ladder, lampa se va aprinde (energiza) în cazul în care contactul A sau contactul B este acţionat. Electronii nu au nevoie decât de o singură cale (de la L<sub>1</sub> spre 1) pentru a ajunge spre lampă. Prin urmare, indiferent care contact se închide, A sau B, lampa se va aprinde.</p>
 
-<img src="../poze/04107.png" alt="simbolul porţii logice SAU"/>
+#+CAPTION: simbolul porţii logice SAU
+[[../poze/04107.png]]
 
 <p>Ceea ce am implementat de fapt în acest caz nu este altceva decât o poartă logică SAU, utilizând două contacte normal-deschise şi o lampă.</p>
 
@@ -71,7 +73,8 @@
 
 <h2>Funcţia logică ŞI</h2>
 
-<img src="../poze/04010.png" alt="diagramă lader; funcţia ŞI"/>
+#+CAPTION: diagramă lader; funcţia ŞI
+[[../poze/04010.png]]
 
 <p>Putem imita funcţia unei porţi logice ŞI prin conectarea celor două contacte normal-deschise în serie şi nu în paralel.</p>
 
@@ -105,7 +108,8 @@
 </tr>
 </table>
 
-<img src="../poze/04156-1.png" alt="simbolul porţii logice ŞI"/>
+#+CAPTION: simbolul porţii logice ŞI
+[[../poze/04156-1.png]]
 
 <p>Putem verifica cu ajutorul tabelului de adevăr că acest lucru este într-adevăr corect.</p>
 
@@ -115,7 +119,8 @@
 
 <h2>Funcţia logică NU</h2>
 
-<img src="../poze/04011.png" alt="diagramă ladder; funcţia logică NU"/>
+#+CAPTION: diagramă ladder; funcţia logică NU
+[[../poze/04011.png]]
 
 <p>Funcţia logică de inversare poate fi obţinută prin simpla utilizare a unui contact normal-închis, faţă de un contact normal-deschis precum cele folosite mai sus.</p>
 
@@ -138,7 +143,8 @@
 </tr>
 </table>
 
-<img src="../poze/04070.png" alt="simbolul funcţiei logice NU"/>
+#+CAPTION: simbolul funcţiei logice NU
+[[../poze/04070.png]]
 
 <p>Din nou, putem verifica prin intermediul tabelului de adevăr că acest lucru este corect.</p>
 
@@ -146,7 +152,8 @@
 
 <h2>Funcţia logică ŞI-negat</h2>
 
-<img src="../poze/04012.png" alt="diagramă ladder; funcţia logică ŞI-negat"/>
+#+CAPTION: diagramă ladder; funcţia logică ŞI-negat
+[[../poze/04012.png]]
 
 <p>Dacă luăm funcţia SAU prezentată mai sus şi inversăm fiecare intrare vom obţine funcţia ŞI-negat. Intrările se inversează prin utilizarea contactelor normal-închise în loc de contacte normal-deschise.</p>
 
@@ -180,9 +187,11 @@
 </tr>
 </table>
 
-<img src="../poze/04106.png" alt="simbolul funcţiei logice ŞI-negat"/>
+#+CAPTION: simbolul funcţiei logice ŞI-negat
+[[../poze/04106.png]]
 
-<img src="../poze/04012-1.png" alt="funcţia logică ŞI-negat"/>
+#+CAPTION: funcţia logică ŞI-negat
+[[../poze/04012-1.png]]
 
 <div class="clear"></div>
 
@@ -190,7 +199,8 @@
 
 <h2>Funcţia logică SAU-negat</h2>
 
-<img src="../poze/04013.png" alt="diagramă ladder; funcţia logică SAU-negat"/>
+#+CAPTION: diagramă ladder; funcţia logică SAU-negat
+[[../poze/04013.png]]
 
 <p>Asemănător, dacă luăm funcţia ŞI implementată mai sus, şi inversăm intrările, obţinem funcţia logică SAU-negat. Inversarea intrărilor se realizează şi în acest caz prin utilizarea contactelor normal-închise în loc de contacte normal-deschise.</p>
 
@@ -224,9 +234,11 @@
 </tr>
 </table>
 
-<img src="../poze/04113.png" alt="simbolul porţii logice SAU-negat"/>
+#+CAPTION: simbolul porţii logice SAU-negat
+[[../poze/04113.png]]
 
-<img src="../poze/04013-1.png" alt="funcţia logică SAU-negat"/>
+#+CAPTION: funcţia logică SAU-negat
+[[../poze/04013-1.png]]
 
 <div class="clear"></div>
 
@@ -234,7 +246,8 @@
 
 <h2>Funcţia logică SAU-exclusiv</h2>
 
-<img src="../poze/04014-1.png" alt="diagramă ladder; funcţia logică SAU-exclusiv"/>
+#+CAPTION: diagramă ladder; funcţia logică SAU-exclusiv
+[[../poze/04014-1.png]]
 
 <p>Putem construi circuite logice combinaţionale prin gruparea contactelor în aranjamente serie-paralel. În exemplul alăturat, funcţia SAU-exclusiv este construită prin combinarea porţilor ŞI, SAU şi NU.</p>
 
@@ -268,9 +281,11 @@
 </tr>
 </table>
 
-<img src="../poze/04116.png" alt="simbolul porţii logice SAU-exclusiv"/>
+#+CAPTION: simbolul porţii logice SAU-exclusiv
+[[../poze/04116.png]]
 
-<img src="../poze/04014.png" alt="funcţia logică SAU-exclusiv"/>
+#+CAPTION: funcţia logică SAU-exclusiv
+[[../poze/04014.png]]
 
 <div class="clear"></div>
 
@@ -284,7 +299,8 @@
 
 <h2>Inversarea ieşirii</h2>
 
-<img src="../poze/04055-1.png" alt="diagramă ladder; negarea ieşirii unei funcţii logice"/>
+#+CAPTION: diagramă ladder; negarea ieşirii unei funcţii logice
+[[../poze/04055-1.png]]
 
 <p>Dacă dorim să inversăm ieşirea unei funcţii logice realizate cu ajutorul unui comutator, trebuie să folosim un releu cu un contact normal-închis. De exemplu, dacă vrem să energizăm o sarcină bazându-ne pe negarea (funcţia NU) unui contact normal-deschis, putem realiza diagrama alăturată.</p>
 
@@ -308,13 +324,15 @@
 </tr>
 </table>
 
-<img src="../poze/04055.png" alt="funcţia logică NU"/>
+#+CAPTION: funcţia logică NU
+[[../poze/04055.png]]
 
 <div class="clear"></div>
 
 <p>Releul este indicat pe figură prin notaţia CR1 (releu de control 1). Atunci când bobina releului, simbolizată printr-un cerc pe prima linie, este energizată, contactul de pe linia a doua se deschide. Deschiderea acestui contact de-energizează lampa. De la comutatorul la bobina CR1, funcţia logică este ne-inversată. Contactul normal-închis este acţionat de bobina releului CR1, asigurând o funcţie logică de negare (NU) pe lampă, inversă faţă de starea de acţionare a comutatorului (A).</p>
 
-<img src="../poze/04056-1.png" alt="diagrama ladder; funcţia logică ŞI-negat realizată prin inversarea ieşirii"/>
+#+CAPTION: diagrama ladder; funcţia logică ŞI-negat realizată prin inversarea ieşirii
+[[../poze/04056-1.png]]
 
 <p>Să aplicăm această strategie de inversare uneia dintre funcţiile cu intrare inversată realizate mai sus. Spre exemplu, funcţia logică ŞI folosind diagrama funcţiei ŞI-negat de mai sus. Putem inversa ieşirea cu ajutorul unui releu pentru realizarea unei funcţii ne-inversate.</p>
 
@@ -348,9 +366,11 @@
 </tr>
 </table>
 
-<img src="../poze/04056-2.png" alt="funcţia logică ŞI"/>
+#+CAPTION: funcţia logică ŞI
+[[../poze/04056-2.png]]
 
-<img src="../poze/04056.png" alt="simbolul porţii logice ŞI"/>
+#+CAPTION: simbolul porţii logice ŞI
+[[../poze/04056.png]]
 
 <div class="clear"></div>
 

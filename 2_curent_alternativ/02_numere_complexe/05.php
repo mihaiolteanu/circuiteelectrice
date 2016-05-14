@@ -26,11 +26,13 @@
 
 <p>Forma polară constă în exprimarea unui număr complex prin <i>lungimea</i> (cunoscută şi sub numele de dimensiune, valoare absolută, modul) şi <i>unghiul</i> vectorului (desemnat de obicei prin simbolul &ang;). Să luăm două exemple de vectori împreună cu notaţia lor polară:</p>
 
-<p><img src="../poze/02041.png" alt="notaţia polară a vectorilor; exemple"/></p>
+#+CAPTION: notaţia polară a vectorilor; exemple
+[[../poze/02041.png]]
 
 <p>Orientarea standard pentru unghiurile vectorilor în curent alternativ defineşte unghiul de 0 grade ca fiind în dreapta (axa orizontală), 90<sup>o</sup> sus, 180<sup>o</sup> stânga, 270<sup>o</sup> jos. Atenţie, vectorii a căror unghi este „în jos” pot fi reprezentaţi cu ajutorul notaţiei polare ca fiind vectori pozitivi cu un unghi de peste 180<sup>o</sup>, sau ca numere negative cu unghiuri sub 180<sup>o</sup>. De exemplu, putem spune că un vector cu unghiul &ang;270<sup>o</sup> (direct în jos) are unghiul de -90<sup>o</sup> (notaţie echivalentă). Vectorul de mai sus (7.81 &ang;230.19<sup>o</sup>) poate fi descris de asemenea prin 7.81 &ang;-129.81<sup>o</sup>.</p>
 
-<p><img src="../poze/02026.png" alt="sistemul de referinţă pentru unghiul vectorilor în curent alternativ"/></p>
+#+CAPTION: sistemul de referinţă pentru unghiul vectorilor în curent alternativ
+[[../poze/02026.png]]
 
 <h3>Notaţia rectangulară</h3>
 
@@ -38,15 +40,18 @@
 
 <p>Aceste două valori dimensionale (orizontală şi verticală) sunt simbolizate prin două valori numerice. Pentru a putea face distincţie între cele două dimensiuni, cea verticală este însoţită de notaţia „i” (în matematica pură) sau „j” (în domeniul electric). Aceste litere nu reprezintă o variabilă fizică (precum curentul instantaneu, simbolizat de asemenea prin „i”), ci sunt <i>operatori</i> matematici folosiţi pentru a face distincţia dintre componenta verticală şi cea orizontală a unui vector. Ca şi număr complex complet, valorile cele două componente sunt scrise ca şi sumă:</p>
 
-<p><img src="../poze/02042.png" alt="exprimarea vectorilor folosind notaţia rectangulară"/></p>
+#+CAPTION: exprimarea vectorilor folosind notaţia rectangulară
+[[../poze/02042.png]]
 
 <p>Componenta orizontală este denumită componentă <i>reală</i> deoarece aceasta este compatibilă cu numerele normale, scalare („reale”). Componenta verticală este denumită componenta <i>imaginară</i>, deoarece această dimensiune se află pe o altă direcţie şi nu are nicio legătură cu scara numerelor reale.</p>
 
-<p><img src="../poze/02043.png" alt="sistemul de referinţă vectorial cu notarea axelor reale şi imaginare"/></p>
+#+CAPTION: sistemul de referinţă vectorial cu notarea axelor reale şi imaginare
+[[../poze/02043.png]]
 
 <p>Cele două axe poartă denumirea de <i>axa reală</i> respectiv <i>axa imaginară</i>:</p>
 
-<p><img src="../poze/02044.png" alt="axa reală şi cea imaginară a unui sistem de referinţă vectorial"/></p>
+#+CAPTION: axa reală şi cea imaginară a unui sistem de referinţă vectorial
+[[../poze/02044.png]]
 
 <p>Oricare dintre cele două forme poate fi folosită pentru numerele complexe. Principalul motiv pentru care există două sisteme de notaţie valide se datorează faptului că forma rectangulară este uşor de folosit pentru adunare şi scădere, iar forma polară pentru înmulţire şi împărţire.</p>
 
@@ -54,14 +59,17 @@
 
 <p>Conversia de la o formă la alta se poate realiza pe cale trigonometrică destul de uşor. Pentru a transforma forma polară în forma rectangulară, aflăm mai întâi componenta reală prin înmulţirea lungimii polare cu cosinusul unghiului, iar componenta imaginare prin înmulţirea lungimii polare cu sinusul unghiului. Acest lucru poate fi înţeles mult mai uşor dacă desenăm valorile ca şi laturi ale unui triunghi dreptunghic, ipotenuza acestuia reprezentând exact vecotorul analizat (lungimea şi unghiul său faţă de orizontală reprezintă forma sa polară), latura orizontală fiind componenta reală, iar latura verticală reprezentând componenta imaginară:</p>
 
-<p><img src="../poze/02045.png" alt="relaţia dintre forma polară şi cea rectangulară"/></p>
-<p><img src="../poze/12005.png" alt="transformarea formei polare în formă rectangulară"/></p>
+#+CAPTION: relaţia dintre forma polară şi cea rectangulară
+[[../poze/02045.png]]
+#+CAPTION: transformarea formei polare în formă rectangulară
+[[../poze/12005.png]]
 
 <h3>Transformarea din formă rectangulară în formă polară</h3>
 
 <p>Pentru a realiza conversi de la forma rectangulară la cea polară, găsim mai întâi lungimea polară folosind teorema lui Pitagora, fiindcă lungimea polară este ipotenuza unui triunghiu dreptunghic, iar componenta reală şi cea imaginară sunt reprezentate de latura adiacentă respectiv cea opusă. Găsim unghiul ca fiind raportul dintre arctangenta componentei imaginare şi componenta reală:</p>
 
-<p><img src="../poze/12006.png" alt="transformarea formei rectangulare în formă polară"/></p>
+#+CAPTION: transformarea formei rectangulare în formă polară
+[[../poze/12006.png]]
 
 <p class="sumar">Sumar:</p>
 <ul>

@@ -22,19 +22,23 @@
 <div id="contents">
 <p>Primul dispozitiv din seria dispozitivele multijoncţiune pe care îl vom studia este o diodă cu patru straturi, cunoscută sub numele de diodă PNPN, sau dioda Shockley, după cel care a inventat-o, William Shockley. Acest dispozitiv nu trebuie confundat cu dioda Schottky, dispozitivul metal-semiconductor cunoscut pentru viteza mare de comutaţie. O reprezentare brută a diodei Shockely, reprezentare întâlnită adesea în manuale, constă din patru straturi de material semiconductor P-N-P-N, unul peste altul.</p>
 
-<p><img src="../poze/03192.png" alt="dioda Shockley"/></p>
+#+CAPTION: dioda Shockley
+[[../poze/03192.png]]
 
 <p>Din păcate, această reprezentare nu explică deloc modul de funcţionare al acestui dispozitiv. Să considerăm aşadar o reprezentare alternativă a construcţiei dispozitivului în figura alăturată.</p>
 
-<p><img src="../poze/03193.png" alt="dioda Shockley; reprezentarea alternativă"/></p>
+#+CAPTION: dioda Shockley; reprezentarea alternativă
+[[../poze/03193.png]]
 
 <p>Sub această reprezentare, dispozitivul pare a fi un set de tranzistori bipolari interconectaţi, unul de tip PNP iar celălalt de tip NPN. Utilizând simbolurile standard şi respectând concentraţiile dopărilor, dioda Shockley arată conform figurii alăturate.</p>
 
-<p><img src="../poze/03194.png" alt="dioda Shockley; schemă echivalentă şi simbol"/></p>
+#+CAPTION: dioda Shockley; schemă echivalentă şi simbol
+[[../poze/03194.png]]
 
 <p>Să conectăm un astfel de dispozitiv la o sursă variabilă de tensiune pentru a observa comportamentul acestuia.</p>
 
-<p><img src="../poze/03195.png" alt="circuit cu dioda Shockley"/></p>
+#+CAPTION: circuit cu dioda Shockley
+[[../poze/03195.png]]
 
 <p>Desigur, fără nicio tensiune aplicată, nu va exista niciun curent. O creştere iniţială a tensiunii nu va duce la apariţia niciuni curent datorită faptului că ambii tranzistori se vor afla în starea blocată. Pentru a înţelege motivul unui astfel de comportament, trebuie să înţelegem ce anume este necesar pentru trecerea unui tranzistor în faza de conducţie, şi anume, existenţa unui curent prin joncţiunea bază-emitor. Dar, după cum putem observa din diagramă. curentul de bază prin tranzistorul de jos este controlat de către tranzistorul de sus, iar curentul de bază al tranzistorului de sus este controlat de către tranzistorul de jos. Cu alte cuvinte, niciunl dintre tranzistori nu poate intra în starea de conducţie până când celălalt nu se află şi el în starea de conducţie.</p>
 
@@ -44,35 +48,42 @@
 
 <p>Dacă trecem această serie de evenimente pe un grafic curent-tensiune, histerezisul este evident. Iniţial, observăm circuitul atunci când sursa de tensiune de c.c. (bateria) este de zero volţi.</p>
 
-<p><img src="../poze/03196.png" alt="circuit cu dioda Shockley; graficul curent-tensiune; sursa de c.c. de zero volţi"/></p>
+#+CAPTION: circuit cu dioda Shockley; graficul curent-tensiune; sursa de c.c. de zero volţi
+[[../poze/03196.png]]
 
 <p>Următorul pas este creşterea treptată a tensiunii de c.c. aplicate. Curentul prin circuit este zero sau foarte apropiat de această valoare, datorită faptului că limita de intrare în conducţie a tranzistorului nu a fost atinsă pentru niciunul din cele două dispozitive.</p>
 
-<p><img src="../poze/03197.png" alt="circuit cu dioda Shockley; graficul curent-tensiune; tensiunea sursei de curent continuu creşte treptat"/></p>
+#+CAPTION: circuit cu dioda Shockley; graficul curent-tensiune; tensiunea sursei de curent continuu creşte treptat
+[[../poze/03197.png]]
 
 <p>Atunci când limita de străpungere a unuia dintre tranzistori este atinsă, acest lucru va duce la apariţia unui curent prin colector chiar şi fără existenţa unui curent de bază prin acesta. În mod normal, un astfel de scenariu ar distruge un tranzistor bipolar cu joncţiune, dar joncţiunile PNP ale unei diode Shockley sunt proiectate să suporte acest tip de abuz, într-un mod similar diodelor Zener, ce suporta tensiuni de străpungere inverse fără a se distruge. De dragul exemplificării, vom presupune că tranzistorul inferior este cel care va intra prima dată în conducţie, ducând la apariţia unui curent de bază prin tranzistorul superior.</p>
 
-<p><img src="../poze/03198.png" alt="circuit cu dioda Shockley; graficul curent-tensiune; intrarea în conducţie a unuia dintre tranzistori"/></p>
+#+CAPTION: circuit cu dioda Shockley; graficul curent-tensiune; intrarea în conducţie a unuia dintre tranzistori
+[[../poze/03198.png]]
 
 <p>După ce tranzistorul de sus primeşte un curent de bază, şi acesta va intra în conducţie. Acest fapt duce la intrarea în conducţie normală (existenţa curentului de bază) şi a tranzistorului de jos, ambii tranzistori rămânând în starea de conducţie. Curentul prin circuit trece rapid la valoarea maximă.</p>
 
-<p><img src="../poze/03199.png" alt="circuit cu dioda Shockley; graficul curent-tensiune; intrarea în conducţie a ambilor tranzistori"/></p>
+#+CAPTION: circuit cu dioda Shockley; graficul curent-tensiune; intrarea în conducţie a ambilor tranzistori
+[[../poze/03199.png]]
 
 <p>Reacţia pozitivă este evidentă în această situaţie. Atunci când are loc străpungerea unuia dintre tranzistori, acest lucru duce la existenţa unui curent prin întreaga structură. Acest curent poate fi considerat semnalul de ieşire al dispozitivului. Odată ce s-a stabilit un curent de ieşire, acesta tinde să menţină ambii tranzistori în saturaţie, asigurqnd continuitatea unui curent de ieşire substanţial. Cu alte cuvinte, curentul de ieşire este reintrodus la intrare (curentul de bază al tranzistorului) pentru menţinearea ambilor tranzistori în starea de conducţie.</p>
 
 <p>Cu ambii tranzistori menţinuţi într-o stare de saturaţie prin prezenţa unui curent de bază substanţial, fiecare va continua să conducă chiar şi atunci când tensiunea aplicată este redusă mult sub nivelul de străpungere iniţial. Efectul reacţiei pozitive este de menţinere a ambilor tranzistori într-o stare de saturaţie în ciuda pierderii semnalului de intrare iniţial (tensiunea necesară străpungerii unuia dintre tranzistori).</p>
 
-<p><img src="../poze/03200.png" alt="circuit cu dioda Shockley; graficul curent-tensiune; tranzistorii rămân în starea de conducţie chiar şi după ce tensiunea iniţială scade cu mult sub valoarea de străpungere iniţială"/></p>
+#+CAPTION: circuit cu dioda Shockley; graficul curent-tensiune; tranzistorii rămân în starea de conducţie chiar şi după ce tensiunea iniţială scade cu mult sub valoarea de străpungere iniţială
+[[../poze/03200.png]]
 
 <p>Dacă tensiunea sursei de alimentare în c.c. scade la o valoare mult prea mică, circuitul va atinge eventual un punct în care curentul nu va fi suficient pentru menţinerea ambilor tranzistori în starea de conducţie. Pe măsură ce curentul de colector al unuia dintre tranzistori scade tot mai mult, va duce la scăderea curentului de bază prin celălalt tranzistori, fapt ce duce la reducerea curentului de bază prin primul tranzistor. Acest cerc vicios continuă rapid până în momentul în care ambii tranzistori intră în starea de blocare.</p>
 
-<p><img src="../poze/03201.png" alt="circuit cu dioda Shockley; graficul curent-tensiune; reintrarea tranzistorilor în stare de blocare pe măsură ce tensiunea sursei de c.c. scade sub o anumită valoare"/></p>
+#+CAPTION: circuit cu dioda Shockley; graficul curent-tensiune; reintrarea tranzistorilor în stare de blocare pe măsură ce tensiunea sursei de c.c. scade sub o anumită valoare
+[[../poze/03201.png]]
 
 <p>Din nou putem vedea efectele reacţiei pozitive: faptul că ciclul cauză-efect dintre cei doi tranzistori este „vicios” (a descreşte a curentului prin unul dintre ei duce la descreşterea curentului prin celălalt, ceea ce duce la rândul său la o nouă descreştere a curentului prin primul tranzistor) indică o relaţie pozitivă dintre ieşire (curent controlat) şi intrare (curent de control prin baza tranzistorilor).</p>
 
 <p>Curba graficului rezultată este un exemplu clasic de histereză: pe măsură ce semnalul de intrare (tensiune) creşte şi descreşte, ieşirea (curent) nu urmăreşte aceiaşi cale la creşterea şi descreşterea acesteia.</p>
 
-<p><img src="../poze/03202.png" alt="graficul sub formă de histereză al comportamentului diodei Shockley"/></p>
+#+CAPTION: graficul sub formă de histereză al comportamentului diodei Shockley
+[[../poze/03202.png]]
 
 <p>Pe scurt, dioda Shockley tinde să rămână în stare de conducţie odată ce a fost pornită şi în stare blocată o dată ce a fost oprită. Nu există un mod de operare între aceste două extreme şi nu există o zonă activă de funcţionare precum în cazul tranzistoarelor bipolare de exemplu: acesta este undispozitiv pur oprit-pornit, asemenea tuturor dispozitivelor semiconductoare multijoncţiune.</p>
 

@@ -22,7 +22,8 @@
 <div id="contents">
 <p>Tranzistorii se comportă precum două diode puse spate-în-spate atunci când sunt verificaţi cu ajutorul multimetrului pe post de ohmmetru sau cu funcţie „verificare diodă”, datorită celor trei straturi PNP sau NPN. Tranzistorul de mai jos este de tip PNP; sonda neagră este terminalul negativ (-) iar cea roşie corespunde terminalului pozitiv (+)</p>
 
-<p><img src="../poze/03077.png" alt="verificarea unui tranzistor PNP cu ajutorul unui ohmetru: (a) joncţiunile bază-emitor şi bază-colector sunt polarizate direct, rezistenţa este mică; (b) joncţiunile bază-emitor şi bază-colector sunt polarizare invers, rezistenţa este infinită"/></p>
+#+CAPTION: verificarea unui tranzistor PNP cu ajutorul unui ohmetru: (a) joncţiunile bază-emitor şi bază-colector sunt polarizate direct, rezistenţa este mică; (b) joncţiunile bază-emitor şi bază-colector sunt polarizare invers, rezistenţa este infinită
+[[../poze/03077.png]]
 
 <p>Dacă multimetrul este echipat cu funcţia „verificare diodă”, putem folosi acea funcţie pentru aflarea tensiunii de polarizare directă a joncţiunii P-N. În cazul unui tranzistor NPN, indicaţia aparatului de măsură va fi exact invers.</p>
 
@@ -34,7 +35,8 @@
 
 <p>Să presupunem că luăm un tranzistor la întâmplare, nemarcat, şi începem să măsurăm cu ajutorul multimetrului setat pe funcţie „verificare diodă”. După măsurarea tuturor combinaţiilor de contacte, ajungem la următoarele rezultate:</p>
 
-<p><img src="../poze/03084.png" alt="tranzistor bipolar nemarcat"/></p>
+#+CAPTION: tranzistor bipolar nemarcat
+[[../poze/03084.png]]
 
 <p><b><table>
 <tr>între punctele 1(+) şi 2(-): OL</tr>
@@ -49,7 +51,8 @@
 
 <p>Putem acum căuta contactul comun ambelor seturi de măsurători „conductive”. Acest contact trebuie să fie baza tranzistorului, deoarece acesta este singurul strat, al dispozitivului format din trei straturi, ce este comun ambelor seturi de joncţiuni PN (emitor-bază şi colector-bază). În acest exemplu, contactul căutat este numărul 3, fiind comun combinaţiilor 1-3 şi 2-3. În ambele măsurători, sonda <i>neagră</i> (-) a aparatului de măsură a venit în contact cu contactul 3, ceea ce ne spune că baza acestui tranzistor este realizată dintr-un material semiconductor de tip N. Prin urmare, tranzistorul în cauză este un tranzistor bipolar de tip PNP, cu baza - contactul 3, emitor - contactul 1 şi colector - contactul 2.</p>
 
-<p><img src="../poze/03085.png" alt="tranzistor bipolar nemarcat; contactele determinate cu ajutorul multimetrului"/></p>
+#+CAPTION: tranzistor bipolar nemarcat; contactele determinate cu ajutorul multimetrului
+[[../poze/03085.png]]
 
 <p>După cum putem observa, baza tranzistorului în acest caz <i>nu</i> este contactul din mijloc al tranzistorului, aşa cum ne-am aştepta. Acest lucru se întâmplă foarte des în practică. Singura modalitate prin care ne putem asigura de corectitudinea contactelor este prin verificarea cu ajutorului unui multimetru, sau cu ajutorul catalogului producătorului.</p>
 
@@ -63,13 +66,15 @@
 
 <p>Pentru ilustrarea acestui paradox, putem examina următorul circuit, folosind diagrama fizică a tranzistorului pentru uşurarea explicaţiilor:</p>
 
-<p><img src="../poze/03086.png" alt="tranzistor bipolar pe post de întrerupător; diagrama fizică"/></p>
+#+CAPTION: tranzistor bipolar pe post de întrerupător; diagrama fizică
+[[../poze/03086.png]]
 
 <p>Săgeatea diagonală gri are direcţia deplasării electronilor prin joncţiunea emitor-bază. Acest lucru este clar, din moment ce electroni se deplasează dinspre emitorul de tip N spre baza de tip N: joncţiunea este polarizată direct. Totuşi, joncţiunea bază-colector se comportă mai ciudat. Săgeata îngroşată vericală indică direcţia de deplasare a electronilor dinspre bază spre colector. Din moment ce baza este realizată dintr-un material de tip P iar colectorul dintr-un semiconductor de tip N, direcţia de deplasare a electronilor este inversă faţă de direcţia normală de deplasare printr-o joncţiune P-N! În mod normal, o joncţiune P-N nu ar permite deplasarea inversă a electronilor, cel puţin nu fără a oferi o opoziţie extrem de mare. Totuşi, un tranzistor saturat prezintă o opoziţie foarte mică faţă de deplasarea electronilor de la emitor la colector, lucru demonstrat şi prin faptul că lampa este aprinsă!</p>
 
 <p>Prin urmare, modelul celor două diode puse spate-în-spate poate fi folosit doar pentru înţelegerea modului de verificare al tranzistorilor cu ajutorul aparatului de măsură, nu şi pentru înţelegerea funcţionării acestora în circuitele practice.</p>
 
-<p><img src="../poze/03087.png" alt="modelul celor două diode puse spate-în-spate nu poate fi folosi pentru explicare funcţionării tranzistorilor în circuitele reale"/></p>
+#+CAPTION: modelul celor două diode puse spate-în-spate nu poate fi folosi pentru explicare funcţionării tranzistorilor în circuitele reale
+[[../poze/03087.png]]
 
 <p class="sumar">Sumar:</p>
 <ul>

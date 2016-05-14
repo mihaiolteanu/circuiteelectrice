@@ -29,13 +29,15 @@
 
 <p>Cea mai evidentă problemă este că, amplificatorul poate acum să amplifice doar semnale de curent alternativ. O tensiune constantă de curent continuu, aplicată la intrare, va fi blocată de către condensatorul de cuplaj. Mai mult, din moment ce reactanţa condensatorului este dependentă de frecvenţa, semnalele de curent alternativ de frecvenţe joase nu vor fi amplificate la fel de mult precum semnalele de frecvenţe înalte. Semnalele ne-sinusoidale vor fi distorsionate, din moment ce condensatorul va răspunde diferit la fiecare dintre armonicele sale constituente. Un exemplu extrem ar fi un semnal dreptunghiular de frecvenţa joasă:</p>
 
-<p><img src="../poze/03136.png" alt="un semnal de intrare dreptunghiular, de frecvenţă joasă, conectat la intrarea unui amplifcator folosind un condensator de cuplaj la intrare, este puternic distorsionat la ieşire"/></p>
+#+CAPTION: un semnal de intrare dreptunghiular, de frecvenţă joasă, conectat la intrarea unui amplifcator folosind un condensator de cuplaj la intrare, este puternic distorsionat la ieşire
+[[../poze/03136.png]]
 
 <h3>Cuplaj direct</h3>
 
 <p>În situaţiile în care problemele ridicate de cuplajul capacitiv nu pot fi tolerate, se poate folosi un <i>cuplaj direct</i>. Cuplajul direct foloseşte rezistori în locul condensatorilor.</p>
 
-<p><img src="../poze/03138.png" alt="folosirea cuplajului direct la intrarea tranzistorului/amplificatorului"/></p>
+#+CAPTION: folosirea cuplajului direct la intrarea tranzistorului/amplificatorului
+[[../poze/03138.png]]
 
 <p>Această configuraţie nu este dependentă de frecvenţa, fiindcă nu avem niciun condensator pentru filtrarea semnalului de intrare.</p>
 
@@ -53,7 +55,8 @@
 
 <p>Prin urmare, trebuie să izolăm difuzorul faţă de componenta de curent continuu a curentului de colector, asfel încât acesta să primească doar tensiune de curent alternativ. O modalitate de realizare a acestui lucru, este cuplarea circuitului de colector al tranzistorului la difuzor prin intermediul unui transformator:</p>
 
-<p><img src="../poze/03140.png" alt="conectarea colectorului tranzistorului la difuzor prin intermediul unui condensator de cuplaj"/></p>
+#+CAPTION: conectarea colectorului tranzistorului la difuzor prin intermediul unui condensator de cuplaj
+[[../poze/03140.png]]
 
 <p>Tensiunea indusă în secundarul transformatorului (legat la difuzor) se va datora strict <i>variaţiilor</i> curentului de colector, datorita faptului că inductanţa mutuală a unui transformator funcţionează doar la <i>variaţiile</i> curentului prin înfăşurare. CU alte cuvinte, doar componenta de curent alternativ al curentul de colector va fi cuplată la secundar pentru alimentarea difuzorului.</p>
 
@@ -63,7 +66,8 @@
 
 <p>O altă metodă de izolare a componentei de curent continuu din semnalul de ieşire, este utilizarea unui condensator de cuplaj pe ieşire, într-o manieră similară cuplajului capacitiv de intrare:</p>
 
-<p><img src="../poze/03141.png" alt="folosirea cuplajului capacitiv la ieşirea amplificatorului pentru eliminarea componentei de curent continuu pe sarcină"/></p>
+#+CAPTION: folosirea cuplajului capacitiv la ieşirea amplificatorului pentru eliminarea componentei de curent continuu pe sarcină
+[[../poze/03141.png]]
 
 <p>Circuitul de mai sus seamănă foarte bine cu un amplificator în conexiune emitor comun, având colectorul tranzistorului conectat la baterie printr-un rezistor. Condensatorul se comportă precum un filtru trece-sus; majoritatea semnalului de curent alternativ se va regăsi pe difuzor, dar tensiunea de curent continuu va fi blocată de către filtru. Din nou, valoarea acestui condensator de cuplaj este aleasă asfel încât impedanţa la frecvenţa semnalului să fie cât mai mică.</p>
 
@@ -71,13 +75,15 @@
 
 <p>Blocarea tensiunii de c.c. de la ieşirea unui amplificator, fie prin utilizarea unui transformator sau a unui condensator, este folositoare nu doar în cazul conectării unui amplificator la o sarcină, ci şi la cuplarea unui amplificator la un alt amplificator. Amplificatoarele cu mai multe etaje sunt folosite adesea pentru obţinerea unor factori de amplificare mult mai mari decât este posibil utilizând un singur tranzistor.</p>
 
-<p><img src="../poze/03142.png" alt="amplificator cu trei etaje în configuraţie emitor comun, conectate prin condensatori de cuplaj"/></p>
+#+CAPTION: amplificator cu trei etaje în configuraţie emitor comun, conectate prin condensatori de cuplaj
+[[../poze/03142.png]]
 
 <p>Deşi fiecare etaj se poate cupla direct cu următorul, prin intermediul unui rezistor în loc de condensator, acest lucru face ca întreg amplificatorul să fie <i>foarte</i> sensibil la variaţiile tensiunii de polarizare în c.c., datorită faptului că această tensiune va fi amplificată în fiecare etaj odată cu semnalul de c.a. Dar, dacă etajele sunt cuplate capacitiv între ele, tensiunea de c.c. al unui etaj nu influenţează tensiune de polarizare al următorului etaj, deoarece trecerea acestuia este blocată.</p>
 
 <p>De asemenea, etajele pot fi cuplate prin intermediul transformatoarelor, dar acest lucru nu se relalizează prea des în practică, datorită problemelor menţionate mai sus. O excepţie o reprezintă amplificatoarele de radio-frecvenţă, unde se utilizează transformatoare de cuplaj mici, cu miez de aer (fiind asfle imuni la efectele de saturaţie), ce fac parte dintr-un circuit rezonant pentru blocarea trecerii armonicilor de frecvenţe nedorite dintr-un etaj la celălalt. Circuitele rezonante se folosesc doar atunci când frecvenţa semnalului rămâne constantă, ceea ce este valabil în cazul circuitelor de radio frecvenţă.</p>
 
-<p><img src="../poze/03143.png" alt="amplificator de radio-frecvenţă; ilustrarea folosirii cuplajului cu transformator"/></p>
+#+CAPTION: amplificator de radio-frecvenţă; ilustrarea folosirii cuplajului cu transformator
+[[../poze/03143.png]]
 
 <p>Trebuie menţionat că <i>este</i> posibilă cuplarea directă a amplificatoarelor. În cazurile în care circuitul trebuie să amplifice şi semnale de c.c., aceasta este singura alternativă.</p>
 </div>

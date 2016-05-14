@@ -28,25 +28,29 @@
 
 <p>Unele situaţii de semnale de curent sau tensiune cu frecvenţe multiple sunt create accidental, fiind rezultatul conexiunilor accidentale dintre circuite, denumite <i>cuplaje</i>, cauzate de capacităţile sau inductanţele parazite dintre conductorii acelor circuite. Un exemplu clasic de cuplaj este întâlnit des în industrie, unde o reţea de curent continuu este plasată în apropierea unei reţele de curent alternativ. Prezenţă tensiunilor înalte şi a curenţilor alternativi pot duce la modificarea comportamentului reţelei de curent cotinuu. Capacitatea parazită formată între izolaţiile celor două reţele poate induce tensiune (faţă de împământare) de la cea de curent alternativ la cea de curent continuu, iar inductanţele parazite formate între cele două lungimi ale conductorilor pot duce la situaţia în care curenţii primei reţele să inducă tensiune pe cale electromagnetică în conductorii celei de a doua reţele. Rezultatul este o combinaţie de semnale de curent continuu şi alternativ. Următoarea schemă prezintă modul în care sursa de zgomot de curent alternativ se poate cupla la circuitul de curent alternativ prin inductanţa (M<sub>p</sub>) şi capacitatea parazită (C<sub>p</sub>):</p>
 
-<p><img src="../poze/02302.png" alt="cuplaj inductiv şi cuplaj capacitiv între un circuit de curent continuu şi unul de curent alternativ"/></p>
+#+CAPTION: cuplaj inductiv şi cuplaj capacitiv între un circuit de curent continuu şi unul de curent alternativ
+[[../poze/02302.png]]
 
 <h3>Folosirea cablurilor răsucite şi ecranate</h3>
 
 <p>Atunci când tensiunile alternative parazite se mixează cu semnalele de curent continuu, rezultatele sunt de obicei nedorite. Din acest motiv, reţeaua de alimentare cu energie electrică (curent alternativ, puteri mari) trebuie să fie neapărat separată de reţelele de semnal (curent continuu, puteri mici), iar semnalele transmise prin intermediul cablurilor răsucite (twisted) formate din doi conductori, şi nu doar printr-un singur fir şi conexiunea acestuia la împământare:</p>
 
-<p><img src="../poze/02303.png" alt="cuplaj inductiv şi cuplaj capacitiv între un circuit de curent continuu şi unul de curent alternativ; folosirea cablurilor răsucite şi ecranate pentru reducerea efectelor cuplajelor"/></p>
+#+CAPTION: cuplaj inductiv şi cuplaj capacitiv între un circuit de curent continuu şi unul de curent alternativ; folosirea cablurilor răsucite şi ecranate pentru reducerea efectelor cuplajelor
+[[../poze/02303.png]]
 
 <p>Ecranajul cablului - o folie metalică înfăşurată în jurul celor doi conductori izolaţi - este conectat la împământare, şi izolează ambii conductori faţă de cuplajul electrostatic (capacitiv), blocând orice câmp electric exterior. Răsucirea celor doi conductori, unul lângă celălalt, anulează orice cuplaj electromagnetic (inductanţă mutuală), întrucât orice tensiune parazită indusă va fi aproximativ egală în amplitudine dar defazată cu 180<sup>o</sup> (opoziţie de fază) în ambii conductori, cele două semnale anulându-se practic între ele, rezultând o diferenţă de potenţial aproape nulă.</p>
 
 <p>Cuplajul poate să apară şi între două seturi de conductori de curent alternativ, caz în care ambele semnale vor purta o combinaţie de frecvenţe:</p>
 
-<p><img src="../poze/02304.png" alt="cuplaj inductiv şi cuplaj capacitiv între două circuite de curent alternativ"/></p>
+#+CAPTION: cuplaj inductiv şi cuplaj capacitiv între două circuite de curent alternativ
+[[../poze/02304.png]]
 
 <h3>Alte moduri de generare a frecvenţelor multiple</h3>
 
 <p>Cuplajul este doar unul dintre exemplele de combinare a frecvenţelor, fiind accidental şi de nedorit. În alte cazuri însă, semnalele cu frecvenţe multiple sunt rezultatul proiectării voite a circuitului sau reprezintă o calitate intrinsecă a semnalului analizat. Cel mai uşor mod de producere a semnalelor cu frecvenţe multipe este conectarea surselor de tensiune de frecvenţe diferite în serie:</p>
 
-<p><img src="../poze/02109.png" alt="modul de generare a semnalelor cu frecvenţe multiple"/></p>
+#+CAPTION: modul de generare a semnalelor cu frecvenţe multiple
+[[../poze/02109.png]]
 
 <p>În unele cazuri, frecvenţa mixată a semnalului este produsă de o singură sursă de tensiune. Un exemplu este microfonul, un traductor ce transformă presiunea aerului datorată frecvenţelor audio într-o tensiune a cărei formă de undă corespunde acestor frecvenţe ne-sinusoidale. Foarte puţine sunete naturale sunt formate dintr-o vibraţie sinusoidală pură, ci, majoritatea sunt compuse dintr-o serie de vibraţii la frecvenţe şi amplitudini diferite combinate într-un singur semnal final.</p>
 

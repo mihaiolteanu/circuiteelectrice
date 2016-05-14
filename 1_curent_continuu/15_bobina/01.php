@@ -30,11 +30,13 @@
 
 <p>Simbolul unei bobine, precum cel al condensatorului, este simplu, reprezentând înfăşurarea firului. Deşi o înfăşurare generală este simbolul oricărei bobine, cele cu miez sunt câteodată deosebite de celelalte prin adăugarea a două linii paralele cu axa sa. Un simbol mai nou pentru bobină nu mai reprezintă înfăşurărea propriu-zisă, ci se limitează la reprezentarea câtorva „cocoaşe” în serie:</p>
 
-<p><img src="../poze/00355.png" alt="simbolul bobinei"/></p>
+#+CAPTION: simbolul bobinei
+[[../poze/00355.png]]
 
 <p>Curentul electric produce în cazul de mai sus un câmp magnetic concentrat în jurul bobinei, iar acest flux magnetic reprezintă o stocare de energie cinetică datorată deplasării electronilor prin înfăşurare. Cu cât valoarea curentului prin bobină este mai mare, cu atât va fi mai puternic câmpul magnetic şi cu atât mai mare va fi energia stocată de bobină.</p>
 
-<p><img src="../poze/00320.png" alt="câmpul magnetic în jurul unei bobine conectate în circuit"/></p>
+#+CAPTION: câmpul magnetic în jurul unei bobine conectate în circuit
+[[../poze/00320.png]]
 
 <p>Datorită faptului că bobinele stochează energia cinetică a electronilor ce se deplasează prin înfăşurare sub forma câmpului magnetic, comportamentul acestor dispozitive este foarte diferit de cel al rezistorilor (care pur şi simplu disipă energia sub formă de căldură) dintr-un circuit. Energia stocată dintr-o bobină depinde de cantitatea de curent ce o străbate. Abilitatea unei bobine de a stoca energie în funcţie de curent se traduce printr-o tendinţă de menţinere constantă a curentului ce o străbate. Cu alte cuvinte, bobinele tind să se opună <i>variaţiei</i> curentului. Atunci când valoarea curentului printr-o bobină creşte sau deşcreşte, aceasta „rezistă” <i>variaţiei</i> producând o tensiune la bornele sale de polaritate inversă (opusă) variaţiei.</p>
 
@@ -42,17 +44,20 @@
 
 <p>Asemenea legii de mişcare a lui Newton („un obiect în mişcare tinde să rămână în mişcare; in obiect în repaos tinde să rămână în repaos”) ce descrie tendinţa corpurilor de a se opune variaţiei (schimbărilor) vitezei, putem defini tendinţa unuei bobine de a se opune variaţiei curentului asfel: „Electronii ce se deplasează printr-o bobină tind să rămână în mişcare; electronii ce se află în repaos într-o bobină tind să rămână în repaos.”. Teoretic, o bobină scurt-circuitată va menţine o valoare constantă a curentului la bornele sale fără niciun ajutor extern:</p>
 
-<p><img src="../poze/00321.png" alt="menţinerea constantă a curentului la bornele bobinei scurt-circuitate"/></p>
+#+CAPTION: menţinerea constantă a curentului la bornele bobinei scurt-circuitate
+[[../poze/00321.png]]
 
 <p>Practic însă, abilitatea unei bobine de susţinere individuală a unui curent la bornele sale se poate realiza doar cu ajutorul firelor supraconductoare, deoarece rezistenţa inerentă oricărui conductor normal este suficientă pentru disiparea rapidă a puterii din circuit şi descreşterea a curentului fără vreo sursă externă de putere.</p>
 
 <p>Când curentul printr-o bobină creşte, aceasta va genera o cădere de tensiune în direcţia opusă deplasării electronilor, comportamentul fiind asemenea unei sarcini. În această situaţie, spunem că bobina se <i>încarcă</i>, deoarece energie stocată sub formă de câmp magnetic creşte. Observaţi polaritate tensiuni faţă de direcţia curentului:</p>
 
-<p><img src="../poze/00322.png" alt="bobina se comportă ca o sarcină atunci când absoarbe curent din circuitul exterior"/></p>
+#+CAPTION: bobina se comportă ca o sarcină atunci când absoarbe curent din circuitul exterior
+[[../poze/00322.png]]
 
 <p>Atunci când curentul prin bobină deşcreşte, căderea de tensiune generată de aceasta este îndreptată spre direcţia de deplasare a electronilor, comportamentul fiind asemenea unei surse. În această situaţie, spunem că bobina se <i>descarcă</i>, deoarece stocul de energie descreşte, fiind elibertă în circuitul extern. Obervaţi polaritatea căderii de tensiune faţă de direcţia curentului:</p>
 
-<p><img src="../poze/00323.png" alt="bobina se comportă precum o sursă atunci când eliberează curent în circuitul exterior"/></p>
+#+CAPTION: bobina se comportă precum o sursă atunci când eliberează curent în circuitul exterior
+[[../poze/00323.png]]
 
 <p>Dacă conectăm bursc o bobină nemagnetizată la o sursă de putere, bobina va rezista iniţial curgeri electronilor prin generarea unei căderi de tensiune egală cu cea a sursei. Pe măsură ce curentul începe să crească, se va crea un câmp magnetic din ce în ce mai puternic ce absoarbe energie de la sursă. Eventual, curentul atinge valoarea maximă şi creşterea sa se opreşte. În acest moment, bobina nu mai absoarbe energie de la sursă, iar căderea de tensiune la bornele sale este minimă (tinde spre zero) (curentul rămâne la valoarea sa maximă). Pe măsura ce o bobină stochează o cantiate mai mare de energie, curentul prin aceasta creşte, iar căderea de tensiune scade. Obervaţi că acest comportament este exact opus comportamentului condensatorului, acolo unde stocarea energie duce la creşterea căderii de tensiune pe component! Condensatoarele stochează energia prin menţinerea unei tensiuni statice între armăturile sale, iar bobinele stochează energie prin menţinerea unui curent prin înfăşurarea sa.</p>
 

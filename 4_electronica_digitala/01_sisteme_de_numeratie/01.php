@@ -30,13 +30,15 @@
 
 <p>În cazul în care utilizăm numere pentru înţelegerea proceselor fizice din lumea reală, realizarea predicţiilor ştiinţifice sau pentru calcule economice, avem nevoie de o simbolistică pentru reprezentarea acestora. Aceste notaţii pot fi sub două forme: analogică şi digitală. În cazul reprezentării analogice, cantitatea simbolizată este diviziblă la infinit. În cazul reprezentării digitale, cantitatea simbolizată prezintă o diviziune discretă.</p>
 
-<p><img src="../poze/04096.png" alt="termometru analogic"/></p>
+#+CAPTION: termometru analogic
+[[../poze/04096.png]]
 
 <p>De exemplu, un termometru „clasic” precum în figura alăturată reprezintă un aparat de măsură analogic. Practic putem măsură orice temperatură din intervalul 0-50<sup>o</sup>, rezoluţia termometrului fiind practic infinită. De exemplu, putem spune că temperatura măsurată în acest caz este de 35<sup>o</sup>, dar, dacă avem ochi buni, putem fi mai precişi şi spune că ea este de fapt 35,7<sup>o</sup>. Sau, dacă avem ochi foarte buni, sau un mijloc mult mai precis de citire a scalei, s-ar putea să vedem că temperatura reală este de fapt de 35,72545<sup>o</sup>.</p>
 
 <div class="clear"></div>
 
-<p><img src="/sites/default/files/istock/termometru-digital.jpg" alt="termometru digital"/></p>
+#+CAPTION: termometru digital
+[[/sites/default/files/istock/termometru-digital.jpg]]
 
 <p>Acest lucru nu este valabil şi în cazul unui termometru digital. De exemplu, termometrul din figura alăturată nu poată măsura temperatura cu o precizie mai mare de 0,1<sup>o</sup>C. Astfel că putem citi o temperatură fie de 33,0<sup>o</sup>C, fie o temperatură de 33,1<sup>o</sup>C, dar în niciun caz nu putem citi o valoare între aceste două puncte (de exemplu, 33,0125<sup>o</sup>C), aşa cum am fi putut face cu un termometru analogic.</p>
 

@@ -22,15 +22,18 @@
 <div id="contents">
 <p>Pentru uşurinţa expunerii teoretice (desenării) a circuitelor electronice, amplificatoarele sunt adesea simbolizate printr-un simplu triunghi (figura de mai jos), iar componentele interne sunt „ascunse”. Această simplificare este foarte folositoare pentru cazurile în care construcţia amplificatorului este irelevantă pentru funcţionarea generală a circuitului.</p>
 
-<p><img src="../poze/03022.png" alt="simbolul general al amplificatorului electronic"/></p>
+#+CAPTION: simbolul general al amplificatorului electronic
+[[../poze/03022.png]]
 
 <p>Conexiunile +V şi -V simbolizează borna pozitivă, respectiv negativă, a sursei de alimentare în c.c. Tensiunile de intrare şi de ieşire sunt reprezentate doar ca şi conductoare individuale, deoarece se presupune că toate semnalele au ca şi referinţă o conexiune comună din circuit, denumită <i>masă</i>. Adesea (dar nu tot timpul!), acest punct de referinţă îl reprezintă una dintre bornele sursei de alimentare în c.c., fie cea pozitivă, fie cea negativă. Un circuit practic cu amplificator arată asfel:</p>
 
-<p><img src="../poze/03023.png" alt="circuit practic cu amplificator, folosind simbolul acestuia"/></p>
+#+CAPTION: circuit practic cu amplificator, folosind simbolul acestuia
+[[../poze/03023.png]]
 
 <p>Dacă dorim să folosm amplificatorul şi pentru semnale de c.a., va trebui să folosim două surse de c.c., iar masa să fie situată electric între +V şi -V. Această configuraţie poartă numele de sursă de tensiune <i>duală</i>.</p>
 
-<p><img src="../poze/03024.png" alt="circuit practic cu amplificator; utilizarea unei surse de tensiune duală"/></p>
+#+CAPTION: circuit practic cu amplificator; utilizarea unei surse de tensiune duală
+[[../poze/03024.png]]
 
 <p>Tensiunea de alimentare a amplificatorului este tot 30 V, dar cădere de tensiune de pe sarcină poate lua acum valori teoretice între +15 V şi -15V, în loc de +30 V şi 0 V. Aceasta este o modalitate simplă de obţinere a c.a. la ieşirea unui amplificator fără a fi nevoiţi să folosim cumplaje capacitive sau cuplaje cu transformator la ieşire.</p>
 
@@ -38,7 +41,8 @@
 
 <p>Prin sibolizarea unui circuit complex printr-un cingur triunghi, putem studia mult mai uşor amplificatoare şi circuite mult mai complexe. Unul dintre aceste amplificatoare mai complexe pe care le vom studia, poartă numele de <i>amplificator diferenţial</i>. Faţă de amplificatoarele „normale” ce amplifică un singur semnal de intrare (amplificatoare cu <i>potenţial de referinţă</i>, cele diferenţiale amplifică diferenţa de tensiune dintre două semnale de intrare. Utilizând simboul triunghiului pentru desemnarea acestuia, un amplificator diferenţial arată asfel:</p>
 
-<p><img src="../poze/03025.png" alt="simbolul amplificatorului diferenţial"/></p>
+#+CAPTION: simbolul amplificatorului diferenţial
+[[../poze/03025.png]]
 
 <p>Ca şi în circuitul precedent, toate tensiunile au ca şi referinţă masa circuitului. Se poate observa că un terminal de intrare este marcat cu minus (-) iar celălalt cu plus (+). Întrucât un amplificator diferenţial amplifică diferenţa dintre cele două semnale de la intrare, fiecare intrare influenţează tensiunea de la ieşire în mod diferit (opus). Să considerăm următorul tabel cu tensiunile de intrare/ieşire pentru un amplificator diferenţial cu un factor de amplificare în tensiune de 4:</p>
 
@@ -95,13 +99,15 @@ V<sub>ieşire</sub> = A<sub>V</sub>(Intrare<sub>(+)</sub> - <sub>(-)</sub>)
 
 <p>Pentru a înţelege mai bine modul de funcţionare, putem reprezenta un amplificator diferenţial ca şi o sursă variabilă de tensiune controlată de un voltmetru sensibil, asfel:</p>
 
-<p><img src="../poze/03231.png" alt="amplificatorul diferenţial ca şi sursă variabilă de tensiune controlată de un voltmetru sensibil"/></p>
+#+CAPTION: amplificatorul diferenţial ca şi sursă variabilă de tensiune controlată de un voltmetru sensibil
+[[../poze/03231.png]]
 
 <p>Desigur, figura de mai sus este doar un <i>model</i>, şi nu reprezintă schema reală de construire a amplificatorului. Simbolul „G” reprezintă un galvanometru, o deplasare sensibilă a unui voltmetru. Potenţiometrul conectat între +V şi -V furnizează o tensiune variabilă la contactul de ieşire (ce are ca şi referinţa una dintre bornele sursei de tensiune în c.c.), tensiune stabilită de indicaţia galvanometrului. Trebuie înţeles faptul că orice sursă conectată la ieşirea unui amplificator diferenţial este alimentată de sursa de tensiune de c.c. (baterie), şi <i>nu</i> de semnalul de intrare. Semnalul de intrare (galvanometru) doar <i>controlează</i> ieşirea.</p>
 
 <p>Cu toate aceste polarităţi, este foarte uşor să greşim şi să nu ne dăm seama care va fi ieşirea unui amplificator diferenţial. Pentru evitarea acestor situaţii, putem observa următoarea regulă:</p>
 
-<p><img src="../poze/03026.png" alt="regula amplificatoarelor diferenţiale pentru identificarea ieşirii acestora"/></p>
+#+CAPTION: regula amplificatoarelor diferenţiale pentru identificarea ieşirii acestora
+[[../poze/03026.png]]
 
 <p>Când polaritatea tensiunii <i>diferenţiale</i> de la intrare este aceeiaşi cu polaritatea intrărilor (inversoare şi neinversoare) amplificatorului, tensiunea de ieşire va fi pozitivă. Când polaritatea tensiunii diferenţiale este inversă faţă de cea a intrărilor, ieşirea amplificatorului va fi negativă.</p>
 

@@ -22,7 +22,8 @@
 <div id="contents">
 <p>Să presupunem că avem un miez feromagnetic închis (formă dreptunghiulară) şi înfăşurăm un conductor metalic izolat alimentat în curent alternativ în jurul uneia dintre laturi:</p>
 
-<p><img src="../poze/02305.png" alt="miez feromagnetic dreptunghiular cu o înfăşurare alimentată în curent alternativ"/></p>
+#+CAPTION: miez feromagnetic dreptunghiular cu o înfăşurare alimentată în curent alternativ
+[[../poze/02305.png]]
 
 <p>Fiindcă ceea ce am realizat mai sus este de fapt o bobină, această înfăşurare în jurul miezului feromagnetic ar trebui să se opună tensiunii aplicate datorită reactanţei inductive, limitând asfel curentul prin înfăşurare conform ecuaţiilor X<sub>L</sub> = 2πfL şi I=E/X (sau I=E/Z). Pentru a clarifica acest exemplu totuşi, vom analiza mai atent interacţiunile ce iau naştere între tensiune, curent şi fluxul magnetic în acest dispozitiv.</p>
 
@@ -30,19 +31,23 @@
 
 <p>Formularea relaţiei matematice între fluxul magnetic (Φ) şi tensiunea indusă îi este atribuită lui Michael Faraday, şi arată asfel:</p>
 
-<p><img src="../poze/12138.png" alt="formula matematică a inducţiei electromagnetice"/></p>
+#+CAPTION: formula matematică a inducţiei electromagnetice
+[[../poze/12138.png]]
 
 <p>Tensiunea instantanee indusă (e) în înfăşurare, în orice moment, este egală cu produsul dintre numărul spirelor înfăşurării (N) şi variaţia instantanee a fluxului magnetic (dΦ/dt) a bobinei. Grafic, formele de undă sunt sinusoidale (presupunând că forma de undă a sursei de alimentare este sinusoidală), fluxul fiind defazat în urma tensiunii cu 90<sup>o</sup>:</p>
 
-<p><img src="../poze/02306.png" alt="formele de undă ale tensiunii induse şi a fluxului magnetic - defazate între ele cu 90 de grade"/></p>
+#+CAPTION: formele de undă ale tensiunii induse şi a fluxului magnetic - defazate între ele cu 90 de grade
+[[../poze/02306.png]]
 
 <p>Fluxul magnetic printr-un material feromagnetic este analog curentului printr-un conductor: trebuie să fie „împins” de o forţă exterioară pentru a se forma. În circuitele electrice, această forţă o reprezintă tensiunea (mai precis, tensiunea electromotoare, prescurtat <i>tem</i>). În „circuitele” magnetice, această forţă este reprezentată de tensiunea magnetomotoare (prescurtat <i>tmm</i> si simbolizat prin u<sub>mm</sub>) Tensiunea magnetomotoare şi fluxul magnetic se află în strânsă legătură una cu cealaltă prin intermediul unei proprietăţi a materialelor magnetice, <i>reluctanţa</i>, concept analog rezistenţei în circuitele electrice.</p>
 
-<p><img src="../poze/12139.png" alt="legea lui Ohm pentru circuite electrice şi magnetice; comparaţie"/></p>
+#+CAPTION: legea lui Ohm pentru circuite electrice şi magnetice; comparaţie
+[[../poze/12139.png]]
 
 <p>În exemplul de mai sus, tmm necesară producerii acestui flux magnetic variabil trebuie să fie furnizată de un curent variabil prin înfăşurare. Tensiunea magnetomotoare generată de înfăşurarea unui electromagnet este egală cu produsul dintre curentul prin înfăşurare şi numărul de spire a înfăsurări. Unitatea de măsură a tensiunii magnetomotoare este Amper-spiră. Deoarece relaţia matematică dintre fluxul magnetic şi tmm este direct proporţională, iar relaţia dintre tmm şi curent este de asemenea direct proporţională, curentul prin înfăşurare este în fază cu fluxul magnetic:</p>
 
-<p><img src="../poze/02307.png" alt="formele de undă ale tensiunii induse, a curentului prin înfăşurare şi a fluxului magnetic"/></p>
+#+CAPTION: formele de undă ale tensiunii induse, a curentului prin înfăşurare şi a fluxului magnetic
+[[../poze/02307.png]]
 
 <p>Acesta este şi motivul pentru care curentul într-o bobină este defazat în urma tensiunii cu 90<sup>o</sup>: deoarece aceasta este defazarea necesară producerii unui flux magnetic a cărui rate de variaţie poate produce o tensiune în opoziţie de fază cu tensiunea aplicată. Datorită funcţiei sale de producere a tensiunii magnetomotoare pentru miezul feromagnetic, acest curent este câteodată numit şi <i>curent de magnetizare</i>.</p>
 
@@ -50,7 +55,8 @@
 
 <p>Trebuie menţionat faptul că acest curent prin înfăşurare nu este perfect sinusoidal, iar acest lucru se datorează neliniarităţii curbei de magnetizaţie (B/H) a fierului. Dacă bobina este construită ieftin, folosind cât mai puţin fier cu putinţă, densitatea fluxului magnetic poate atince valori mari, aproape de saturaţie, rezultatul fiind o formă de undă a curentului de magnetizare ce arată aproximativ asfel:</p>
 
-<p><img src="../poze/02336.png" alt="formele de undă ale tensiunii induse, a curentului prin înfăşurare şi a fluxului magnetic; forma de undă a curentului este distorsionată datorită saturaţiei miezului feromagnetic"/></p>
+#+CAPTION: formele de undă ale tensiunii induse, a curentului prin înfăşurare şi a fluxului magnetic; forma de undă a curentului este distorsionată datorită saturaţiei miezului feromagnetic
+[[../poze/02336.png]]
 
 <p>Atunci când un material feromagnetic se apropie de fluxul magnetic de saturaţie, este nevoie de tensiuni magnetomotoare din ce în ce mai mari pentru menţinerea constantă a creşterii fluxului magnetic. Deoarece tmm este direct proporţională cu valoarea curentului prin înfăsurare înfăşurare (u<sub>mm</sub> = NI), creşterea foarte mare a tmm necesare susţinerii creşterii fluxului duce la creşteri mari ale curentului prin înfăşurare, pentru a putea menţine forma de undă a fluxului magnetic nedistorsionată (sinusoidală).</p>
 
@@ -62,25 +68,30 @@
 
 <p>Să reluăm exeplul de mai sus, dar introducem de data această o nouă înfăsurare în jurul aceluiaşi miez feromagnetic. Ca să diferenţiem între cele două înfăşurări, prima înfăşurare o vom denumit <i>înfăşurarea primară</i> sau simplu, <i>primar</i>, iar cea de a doua, <i>înfăşurarea secundară</i>, sau simplu, <i>secundar</i>.</p>
 
-<p><img src="../poze/02308.png" alt="miez feromagnetic; înfăsurarea primară şi secundară"/></p>
+#+CAPTION: miez feromagnetic; înfăsurarea primară şi secundară
+[[../poze/02308.png]]
 
 <p>Dacă cea de a doua înfăşurare este supusă unei variaţii a fluxului magnetic identice cu prima infăşurare, iar numărul de spire al înfăşurării este acelaşi cu a primei înfăşurări, atunci, conform principiului inducţiei electromagnetice, tensiunea indusă în această înfăşurare va fi egală în amplitudine şi fază cu tensiunea sursei de alimentare a primei înfăşurări. În graficul de mai jos, amplitudinea tensiunii induse este voit mai mică, pentru a putea face distincţie între aceasta şi tensiunea de alimentare:</p>
 
-<p><img src="../poze/02309.png" alt="miez feromagnetic; formele de undă ale tensiunilor din primar şi secundar, precum şi a fluxului magnetic şi a curentului din primar"/></p>
+#+CAPTION: miez feromagnetic; formele de undă ale tensiunilor din primar şi secundar, precum şi a fluxului magnetic şi a curentului din primar
+[[../poze/02309.png]]
 
 <p>Acest efect al inducerii unei tensiuni într-o înfăşurare ca răspuns a variaţiei curentului din cealaltă înfăşurare, poartă nuemele de <i>inductanţă mutuală</i>. Unitatea de măsură este Henry, la fel ca inductanţa proprie, iar simbolul matematic este „M”, în loc de „L”:</p>
 
-<p><img src="../poze/12140.png" alt="inductanţa proprie şi inductanţa mutuală; formulele matematice de calcul"/></p>
+#+CAPTION: inductanţa proprie şi inductanţa mutuală; formulele matematice de calcul
+[[../poze/12140.png]]
 
 <p>În acest moment, în înfăşurarea secundară nu există curent deoarece aceasta este deschisă. Dacă conectăm însă un rezistor în acest circuit, curentul alternativ prin înfăşurare va fi în fază cu tensiunea indusă.</p>
 
-<p><img src="../poze/02310.png" alt="miez feromagnetic; înfăsurarea primară şi secundară"/></p>
+#+CAPTION: miez feromagnetic; înfăsurarea primară şi secundară
+[[../poze/02310.png]]
 
 <p>Ne-am putea aştepta ca acest curent secundar să producă un flux magnetic suplimentar în miezul feromagnetic. Acest lucru nu se întâmplă însă. Dacă fluxul magnetic indus în miez ar creşte, acest lucru ar duce la creşterea tensiunii induse a înfăşurării primare. Acest lucru nu se poate întâmpla, doarece tensiunea indusă a primarului trebuie să rămână la aceeiaşi amplitudine şi fază pentru se păstra egalitate dintre aceasta şi tensiunea sursei, potrivit legii lui Kirchhoff pentru tensiune. Prin urmare, fluxul magnetic al miezului nu este afectat de curentul din secundar. Totuşi, ceea ce se modifică este valoarea tensiunii magnetomotoare a circuitului magnetic.</p>
 
 <p>Tensiunea magnetomotoare (tmm) ia naştere ori de câte ori există deplasare de electroni printr-un fir. De obicei, această tensiune este însoţită de flux magnetic, conform legii lui Ohm pentru circuitele magnetice, <b>u<sub>mm</sub> = ΦR</b>. Dar producerea unui flux magnetic suplimentar nu este permisă în acest caz, prin urmare, singura posibilitate de existenţă a tmm în secundar implică apariţia unei tmm contrare (în antifază), şi amplitudine egală, generate de înfăşurarea primară. Acest lucru este exact ceea ce se întâmplă, şi anume,  formarea unui curent alternativ în înfăşurarea primară, defazat cu 180<sup>o</sup> (în antifază) faţă de curentul secundarului, pentru generarea unei tmm contrare şi prevenirea apariţiei unui flux magnetic adiţional prin miez.</p>
 
-<p><img src="../poze/02311.png" alt="miez feromagnetic; înfăsurarea primară şi secundară; conectarea sarcinii în înfăşurarea secundară"/></p>
+#+CAPTION: miez feromagnetic; înfăsurarea primară şi secundară; conectarea sarcinii în înfăşurarea secundară
+[[../poze/02311.png]]
 
 <p>Deşi întreg procesul pare destul de complicat, iar proiectarea transformatoarelor este un subiect complex, ceea ce este important de ţinut minte este aceasta: atunci când asupra înfăşurării primare este aplicată o tensiune alternativă, aceasta produce un flux magnetic în miexul feromagnetic ce induce o tensiune alternativă în înfăsurarea secundară, în fază cu tensiunea sursei de alimentare. Apariţia oricărui curent prin secundar, la conecatarea unei sarcini de exemplu, duce la apariţia unui curent similar în primar, curent menţinut de sursa de alimentare.</p>
 
@@ -88,25 +99,29 @@
 
 <p>Acest dispozitiv este cunoscut sub numele de <i>transformator</i>, deoarece transformă energia electrică în energie magnetică şi înapoi în energie electrică. Deoarece funcţionarea acestuia depinde de inducţia electromagnetică dintre două înfăşurări staţionare şi de variaţia amplitudinii şi „polarităţii” fluxului magnetic, transformatoarele se pot folosi doar în curent alternativ, nu şi în curent continuu. Simbolul electric al transformatorului îl reprezintă două bobine (înfăşurarea primară şi secundară) şi un miez feromagnetic comun celor două:</p>
 
-<p><img src="../poze/02131.png" alt="simbolul transformatorului electric, constând din două bobine (înfăşurarea primară şi secundară) şi un miez feromagnetic comun celor două"/></p>
+#+CAPTION: simbolul transformatorului electric, constând din două bobine (înfăşurarea primară şi secundară) şi un miez feromagnetic comun celor două
+[[../poze/02131.png]]
 
 <p>Chiar dacă majoritatea transformatoarelor sunt confencţionate cu miez feromagnetic, există şi transformatoare în care cuplajul celor două înfăşurări se realizeaza prin aer.</p>
 
 <p>Poza de mai jos reprezintă un transformator tipic folosit pentru iluminatul cu ajutorul lămpilor cu descărcare în gaz. Se pot observa clar cele două înfăşurări din jurul miezului de fier:</p>
 
-<p><img src="../poze/52002.jpg" alt="transformator electric"/></p>
+#+CAPTION: transformator electric
+[[../poze/52002.jpg]]
 
 <p>Înfăşurarea de sus este mai mare decât cea de jos, având mai multe spire în jurul miezului (secţ. urm.!).</p>
 
 <p>În următoarea poză, este prezentată o secţiune printr-un transformator cu cele două înfăşurări şi miezul feromagnetic vizibile. Şi în acest caz, numărul spirelor celor două înfăşurări nu este egal. Secţiunea conductorilor dintre cele două înfăşurări este de asemenea diferită (secţ. urm.!). De asemenea, putem observa că miezul nu este confecţionat dintr-o singură bucată de material ci din foi subţiri (denumite tole) laminate (secţ. urm.!).</p>
 
-<p><img src="../poze/52012.jpg" alt="transformator electric; secţiune"/></p>
+#+CAPTION: transformator electric; secţiune
+[[../poze/52012.jpg]]
 
 <h3>Exemplu</h3>
 
 <p>Putem explica funcţionarea unui transformator simplu prin intermediul unui circuit electric. Vom considera <i>coeficientul de cuplaj magnetic</i> (k) ca având o valoare foarte aproape de perfecţie, şi anume, 0,999. Acest coeficient descrie cât de „strânse” sunt cuplate cele două bobine (înfăşurări) una faţă de cealaltă. Cu cât acest coeficient este mai mare (ideal, 1), cu atât cuplajul magnetic dintre cele două înfăşurări, şi prin urmare, şi eficienţa transferului de energie este mai mare. (Calcule realizate cu SPICE!)</p>
 
-<p><img src="../poze/02132.png" alt="circuit electric simplu cu transformator"/></p>
+#+CAPTION: circuit electric simplu cu transformator
+[[../poze/02132.png]]
 
 <p>Ambele inductanţe ale înfăşurărilor fiind egale (100 H), tensiunile şi curenţii pentru cele două înfăşurări sunt aproximativ egale (10 V, respectiv 10 mA). Diferenţa dintre curentul primar şi cel secundar este defazajul de 90<sup>o</sup> dintre ele, datorat curentului de magnetizare al miezului. Valoarea acestui curent de magnetizare este foarte mică în acest caz, faţă de curentul din primar, asfel că cei doi curenţi sunt aproximativi egali. Această eficienţă mare este tipică transformatoarelor în general. Orice eficienţă de sub 95% este considerată mult prea mică în proiectarea transformatoarelor.</p>
 
@@ -114,17 +129,20 @@
 
 <p>Să vedem ce se întâmplă dacă reducem şi mai mult rezistenţa sarcinii, până la valoarea de 15 Ω. Curentul sarcinii (în secundar) este acum 130 mA, o creştere substanţială faţă de cazul precedent, iar curentul primar este aproximativ egal cu acesta. În schimb, tensiunea prin secundar a scăzut foarte mult comparativ cu valoarea tensiunii din secundar (1.95 V în secundar faţă de 10 V în primar). Motivul acestei diferenţe se regăşeste în imperfecţiunile transformatorului: cuplajul dintre cele două înfăşurări nu este perfect, coeficientul de cuplaj magnetic, k, fiind 0.999, nu 1. Prin urmare, există o inductanţă de <i>scăpări</i> prezentă, ceea ce înseamnă ca o parte a câmpului magnetic nu se regăseşte pe înfăşurarea secundare şi nu poate „transfera” energie din această cauză:</p>
 
-<p><img src="../poze/02312.png" alt="inductanţa de scăpări datorită faptului că fluxul magnetic nu este acelaşi pe cele două înfăşurări"/></p>
+#+CAPTION: inductanţa de scăpări datorită faptului că fluxul magnetic nu este acelaşi pe cele două înfăşurări
+[[../poze/02312.png]]
 
 <p>Acest flux de scăpări doar stochează şi eliberează energia înapoi în circuitul de alimentare prin intermediul inductanţei proprii, comportamentul acesteia fiind al unei impedanţe serie conectate în ambele înfăşurări. Căderea de tensiunea finală este redusă datorită existenţei unei căderi de tensiune pe această „impedanţă serie”. Efectul este cu atât mai pronunţat cu cât curentul sarcinii creşte.</p>
 
-<p><img src="../poze/02313.png" alt="circuit electric echivalent al inductanţelor de scăpări şi transformatorul ideal, fără scăpări"/></p>
+#+CAPTION: circuit electric echivalent al inductanţelor de scăpări şi transformatorul ideal, fără scăpări
+[[../poze/02313.png]]
 
 <p>Dacă cuplajul magnetic dintre cele două înfăşurări ar fi mai „strâns”, de exemplu, k=0.99999 (în loc de 0.999), valorile tensiunii în cele două înfăşurări ar fi din nou aproximativ egale (10 V), păstrându-se şi egalitatea dintre cei doi curenţi.</p>
 
 <p>Din păcate, construirea unui transformator real, cu un asfel de coeficient de cuplaj magnetic, este foarte dificilă. O soluţie de compromis constă în folosirea unei inductanţe mai scăzute pentru ambele înfăşurări (1 H, în loc de 100 H), deoarece o inductanţă mai scăzută duce şi la o inductanţă de scăpări mai scăzută, oricare ar fi coeficientul de cuplaj magnetic. Rezultatul este o cădere de tensiune pe sarcină mult mai bună, menţinând aceeiaşi valoare a curentului şi a cuplajului:</p>
 
-<p><img src="../poze/02132_2.png" alt="circuit electric simplu cu transformator"/></p>
+#+CAPTION: circuit electric simplu cu transformator
+[[../poze/02132_2.png]]
 
 <p>Prin simpla utilizare a unei inductanţe mai mici pentru cele două înfăşurăi, căderea de tensiune pe sarcină este din nou „ideală”, aproximativ 10 V, aceeiaşi valoare cu a sursei de alimentare. Cu siguranţă că ne putem întreba, „Dacă tot ceea ce este necesar pentru atingerea unei performanţe ideale în cazul unei sarcini mari, este reducerea inductanţei, de ce să ne mai facem griji cu privire la eficienţa cuplajului magnetic? Dacă este imposibilă proiectarea transformatoarelor cu coeficienţi de cuplaj perfecţi, dar înfăşurările cu inductanţe mici sunt uşor de construit, atunci de ce nu am construi transformatoare cu inductanţe mici şi cuplaj scăzut pentru obţinerea unei eficienţe ridicate?”</p>
 

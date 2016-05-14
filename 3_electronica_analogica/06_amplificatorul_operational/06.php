@@ -24,7 +24,8 @@
 
 <p>Pentru a putea folosi curentul ca şi metodă de reprezentare a mărimilor fizice, trebuie să putem genera o cantiate precisă de curent în circuitul de semnal. Dar cum putem genera o cantitate precisă de curent dacă nu cunoaştem rezistenţa buclei de circuit. Răspunsul constă în utilizarea unui amplificator cu scopul menţinerii curentului prin circuit la o valoare prestabilită, aplicând o cădere de tensiune mai mică sau mai mare pentru îndeplinirea acestui obiectiv. Un astfel de amplificator se comportă precum o <i>sursă de curent</i>. Un AO cu reacţie negativă este o soluţie foarte bună pentru această problemă:</p>
 
-<p><img src="../poze/03039.png" alt="amplificator operaţional cu reacţie negativă"/></p>
+#+CAPTION: amplificator operaţional cu reacţie negativă
+[[../poze/03039.png]]
 
 <p>Se presupune că tensiunea de intrare a acestui circuit este generată de un circuit traductor/amplificator, calibrat pentru producerea valorii de 1 V pentru 0% din mărimea de măsurat şi 5 V pentru 100% din valoarea mărimii de măsurat. Semnalul de curent analog standar este între 4 mA (0%) şi 20 mA (100%). Pentru o tensiune de intrare de 5 V, rezistorul (de precizie) de 250 Ω va avea o cădere de tensiune de 5 V la bornele sale, rezultând un curent de 20 mA prin bucla circuitului (incluzând rezistorul de sarcină, R<sub>sarcină</sub>). Nu contează rezistenţa rezistorului R<sub>sarcină</sub>, sau cât rezistenţa adiţională este prezentă în circuit datorită conductorilor, atâta timp cât AO are o sursă de putere suficient de mare pentru generarea celor 20 mA prin R<sub>sarcină</sub>. Rezistorul de 250 Ω stabileşte relaţie dintre tensiunea de intrare şi curentul de ieşire, ducând în acest caz la echivalenţa 1-5 V intrare / 4-20 mA ieşire.</p>
 

@@ -22,17 +22,21 @@
 <div id="contents">
 <p>Un efect similar rezonanţie parale are loc şi în circuitele inductiv/capacitive serie. Atunci când este atinsă o stare de rezonanţă (reactanţa capacitivă este egală cu cea inductivă), cele două impedanţe se anulează reciproc iar impedanţa totală scade la zero!</p>
 
-<p><img src="../poze/02098.png" alt="circuit rezonant serie (LC)"/></p>
+#+CAPTION: circuit rezonant serie (LC)
+[[../poze/02098.png]]
 
-<p><img src="../poze/12092.png" alt="formule"/></p>
+#+CAPTION: formule
+[[../poze/12092.png]]
 
 <p>Fiindcă impedanţa serie totală este 0 Ω la frecvenţa de rezonanţă de 159.155 Hz, se va produce un <i>scurt circuit</i> la bornele sursei de curent alternativ la rezonanţă. Graficul curentului în funcţie de frecvenţă arată asfel:</p>
 
-<p><img src="../poze/22006.png" alt="graficul frecvenţă curent pentru un circuit rezonant serie"/></p>
+#+CAPTION: graficul frecvenţă curent pentru un circuit rezonant serie
+[[../poze/22006.png]]
 
 <p>Putem observa de pe grafic, că la frecvenţa de rezonanţă de 159.155 (aproximativ), valoarea curentului prin circuit este maximă, ceea ce sugerează un scurt-circuit. Formula frecvenţei de rezonanţă calculată anterior este valabilă atât pentru circuitele LC paralel cât şi pentru cele serie:</p>
 
-<p><img src="../poze/12091.png" alt="formula de calcul a frecvenţei de rezonanţă pentru circuitele LC serie şi paralel"/></p>
+#+CAPTION: formula de calcul a frecvenţei de rezonanţă pentru circuitele LC serie şi paralel
+[[../poze/12091.png]]
 
 <p>Atenţie, datorită curenţilor mari ce se pot dezvoltă într-un circuit LC serie la rezonantă, este posibilă apariţia unor căderi de tensiune periculoase pe condensator şi bobină, întrucât fiecare component are o impedanţă suficient de mare. Dacă alimentăm acest circuit cu doar 1 V, căderile de tensiune pe cele două componente pot atinge valori impresionante de aproximativ 70 V ! Prin urmare, fiţi foarte atenţi atunci când experimentaţi cu asfel de circuite!</p>
 

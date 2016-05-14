@@ -24,19 +24,22 @@
 
 <p>Pentru ilustrarea faptului că un ciruit relativ simplu poate fi imposibil de redus în subcircuite serie sau paralel, să luam următorul circuit serie-paralel ca şi exemplu:</p>
 
-<img src="../poze/00206.png" alt="circuit electric serie-paralel"/>
+#+CAPTION: circuit electric serie-paralel
+[[../poze/00206.png]]
 
 <p>Pentru analiza circuitului de mai sus paşii sunt următorii: găsirea rezistenţei echivalente pentru R<sub>2</sub> şi R<sub>3</sub> în paralel; adăugarea rezistorului R<sub>1</sub> în serie pentru aflarea rezistenţei echivalente totale; cunoscând tensiunea bateriei B<sub>1</sub> şi rezistenţa totală a circuitului, putem afla curentul total folosind legea lui Ohm (I=E/R); folosirea valorii curentului pentru calcularea căderilor de tensiune din circuit. O procedură destul de simplă până la urma.</p>
 
 <p>Totuşi, dacă adăugăm o singură baterie în circuit, problema analizei circuitului se complică:</p> 
 
-<img src="../poze/00207.png" alt="circuit electric"/>
+#+CAPTION: circuit electric
+[[../poze/00207.png]]
 
 <p>Rezistorii R<sub>2</sub> şi R<sub>3</sub> nu mai sunt conectaţi în paralel unul cu celălalt, pentru că bateria B<sub>2</sub> a fost introdusă în ramura de circuit a lui R<sub>3</sub>. Dacă suntem şi mai atenţi, putem observa că în acest circuit <i>nu</i> există doi rezistori legaţi direct în serie sau paralel unul cu celălalt. Acesta şi este dificultatea problemei: în analiza circuitelor serie-paralel, primul pas era identificarea rezistorilor în serie sau paralel, reducându-i la o rezistenţă echivalentă la următorul pas. Dar dacă niciun rezistor nu este legat în serie sau paralel cu un altul, ce putem face?</p>
 
 <p>Este evident faptul că reducerea acestui circuit relativ simplu, cu doar trei rezistori, este imposibil de realizat prin metoda analizei circuitelor serie-paralel: este ceva cu totul diferit. Totuşi, acesta nu este singurul tip de circuit ce sfidează analiza serie-paralel.</p>
 
-<img src="../poze/00208.png" alt="circuit electric - punte"/>
+#+CAPTION: circuit electric - punte
+[[../poze/00208.png]]
 
 <p>În acest caz avem un circuit în punte; pentru simplitatea exemplului presupunem că <b>nu</b> este echilibrat (raportul R<sub>1</sub>/R<sub>4</sub> nu este egal cu raportul R<sub>2</sub>/R<sub>5</sub>). Dacă puntea ar fi echilibrată, curentul prin R<sub>3</sub> ar fi zero, prin urmare circuitul s-ar putea reduce la o combinaţie serie-paralel (R<sub>1</sub>--R<sub>4</sub> // R<sub>2</sub>--R<sub>5</sub>). Din păcate, iruce curent prin R<sub>3</sub> face imposibilă aplicarea analizei serie-paralel. Rezistorul R<sub>1</sub> nu este în serie cu R<sub>4</sub> datorită existenţei unei alte căi pentru curgerea electronilor, prin R<sub>3</sub>. Dar nici R<sub>2</sub> nu este în serie cu R<sub>5</sub> din aceleaşi motive. De asemenea, R<sub>1</sub> nu este în paralel cu R<sub>2</sub> pentru că existenţa rezistorului R<sub>3</sub> separă terminalii celor doi rezistori în partea de jos. Nici R<sub>4</sub> nu este în paralel cu R<sub>5</sub>.</p> 
 

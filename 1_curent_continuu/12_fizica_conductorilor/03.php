@@ -31,7 +31,8 @@
 
 <p>Simbolul siguranţei fuzibile pe care îl vom folosi, este cel în formă de „S”, precum în figura alăturată.</p>
 
-<p><img src="../poze/00282.png" alt="simbolul siguranţei fuzibile într-un circuit electric"/></p>
+#+CAPTION: simbolul siguranţei fuzibile într-un circuit electric
+[[../poze/00282.png]]
 
 <p>Deoarece siguranţele fuzibile sunt proiectate pentru a se „defecta” în cazul în care limita maximă de curent din circuit este depăşită, este ideal ca acestea să poată fi îndepărtate şi înlocuite cu uşurinţă din circuit. Acest lucru înseamnă că ele vor fi introduse într-o cutie de siguranţe şi nu vor fi lipite sau prinse direct în circuit (poză).</p>
 
@@ -47,11 +48,13 @@
 
 <p>Atunci când siguranţa se arde, întreaga cădere de tensiune a sursei de alimentare se va regăsi pe aceasta, iar curentul din circuit va fi zero.</p>
 
-<p><img src="../poze/00283.png" alt="siguranţă fuzibilă arsă într-un circuit electric"/></p>
+#+CAPTION: siguranţă fuzibilă arsă într-un circuit electric
+[[../poze/00283.png]]
 
 <p>În cazul în care căderea de tensiune la bornele unei siguranţe fuzibile topite este suficient de mare, este posibilă apariţia arcului electric ce duce la apariţia unui curent în circuit, lucru pe care nu-l dorim.</p>
 
-<p><img src="../poze/00284.png" alt="apariţia arcului electric în cazul unei siguranţe fuzibile topite"/></p>
+#+CAPTION: apariţia arcului electric în cazul unei siguranţe fuzibile topite
+[[../poze/00284.png]]
 
 <p>Prin urmare, siguranţele fuzible sunt catalogate atât în funcţie de curentul de „deschidere” cât şi în funcţie de tensiunea de străpungere a dielectricului existent între cele două capete dupa arderea acesteia.</p>
 
@@ -69,11 +72,13 @@
 
 <p>În acest caz, când siguranţa este introdusă în faza circuitului, la deschiderea acesteia, căderea de tensiune între oricare punct al sarcinii şi pământ va fi zero. Atingerea circuitului este sigură în acest caz, eliminând practic pericolul electrocutării.</p>
 
-<p><img src="../poze/00285.png" alt="poziţionarea corectă a siguranţei fuzibile în circuit pe faza acestuia"/></p>
+#+CAPTION: poziţionarea corectă a siguranţei fuzibile în circuit pe faza acestuia
+[[../poze/00285.png]]
 
 <p>În cazul în care siguranţa fuzibilă este introdusă pe neutrul circuitului, în cazul deschiderii acesteia, va exista o tensiune periculoasă între oricare punct al sarcinii şi pământ. Atingerea circuitului în acest caz se poate dovedi periculoasă din punct de vedere al electrocutării.</p>
 
-<p><img src="../poze/00286.png" alt="poziţionarea greşită a siguranţei fuzibile în circuit pe neutrul acestuia"/></p>
+#+CAPTION: poziţionarea greşită a siguranţei fuzibile în circuit pe neutrul acestuia
+[[../poze/00286.png]]
 
 <p>Indiferent dacă folosim siguranţe fuzible simple sau întrerupătoare automate, poziţionarea corectă a acestora în circuit se face conform celor spuse mai sus, şi anume: dispozitivul de siguranţa trebuie plasat pe partea de putere a circuitului şi nu conectat la pământ.</p>
 

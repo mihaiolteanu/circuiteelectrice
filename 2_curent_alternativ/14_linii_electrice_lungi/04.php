@@ -30,7 +30,8 @@
 
 <p>Formula de calcul a lungimii de undă este următoarea:</p>
 
-<p><img src="../poze/12147.png" alt="formula de calcul a lungimii de undă"/></p>
+#+CAPTION: formula de calcul a lungimii de undă
+[[../poze/12147.png]]
 
 <p>Considerând o linie lungă ca având o lungime de cel puţin 1/4 din lungimea de undă, putem vedea de ce toate liniile folosite în circuitele discutate au fost presupuse ca fiind linii electrice scurte. Pentru un circuit la frecvenţa de 60 Hz, liniile de tensiune ar trebui să depăşească 1.200 de kilometri în lungime, înainte ca efectele timpului de propagare a semnalelor să devină importante. Cablurile ce realizează conexiunea dintre difuzoare şi amplificator ar trebui să depăşească lungimea de 7 kilometri pentru ca reflexiile acestuia să afecteze suficient de mult semnalul audio de 10 kHz.</p>
 

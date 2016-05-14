@@ -36,11 +36,13 @@
 
 <p>Simbolul electric al condensatorului este prezentat în următoarea figură:</p>
 
-<p><img src="../poze/00354.png" alt="simbolul condensatorului"/></p>
+#+CAPTION: simbolul condensatorului
+[[../poze/00354.png]]
 
 <p>Atunci când la bornele condensatorului aplicăm o tensiune electrică, între cele două armături ia naştere un câmp electric ce permite existenţa unei diferenţe semnificative de electroni liberi (sarcină) între cele două armături:</p>
 
-<p><img src="../poze/00291.png" alt="câmp electric în interiorul condensatorului"/></p>
+#+CAPTION: câmp electric în interiorul condensatorului
+[[../poze/00291.png]]
 
 <p>Pe măsură ce câmpul electric este format prin aplicarea tensiunii, electronii liberi vor fi forţaţi să se „adune” la terminalul negativ fiind „furaţi” de pe terminalul negativ. Acestă diferenţă de sarcină se traduce prin apariţia unui stoc de energie electrică în condensator şi reprezintă sarcina potenţială a electronilor dintre cele două armături. Cu cât diferenţa numerică a electronilor între cele două armături ale unui condensator este mai mare, cu atât mai mare este fluxul câmpului şi cu atât mai mare „stocul” de energie din condensator.</p>
 
@@ -50,17 +52,20 @@
 
 <p>Asemenea legii de mişcare a lui Isaac Newton (un obiect aflat în mişcare, tinde să rămână în mişcare; un obiect aflat în repaus tinde să rămână în repaus) ce descrie tendinţa obiectelor de a se opune variaţiilor de viteză, putem descrie tendinţă unui condensator de a se opune variaţiei tensiunii asfel: „Un condensator încărcat tinde să rămână încărcat; un condensator descărcat tinde să rămână descărcat.” Ipotetic, un condesator (încărcat sau descărcat) lasat neatins îşi va menţine la infinit starea sa iniţială. Doar o sursă (sau un canal) exterior de curent poate modifica valoarea energiei stocate (implicit şi a tensiunii la bornele sale) de un condensator perfect:</p>
 
-<p><img src="../poze/00292.png" alt="tensiune electrică la bornele condensatorului este menţinută constantă într-un circuit deschis"/></p>
+#+CAPTION: tensiune electrică la bornele condensatorului este menţinută constantă într-un circuit deschis
+[[../poze/00292.png]]
 
 <p>Practic, condensatoarele îşi vor pierde tensiune stocată datorită imperfecţiunilor interne ce permit electronilor să se deplaseze de pe o armătură pe cealaltă. În funcţie de tipul specific de condensator, timpul de „golire” poate fi foarte lung, de până la câţiva ani, pentru condensatoarele ce nu sunt deloc folosite.</p>
 
 <p>Când tensiune la bornele condensatorului creşte, acesta trage curent din circuit; în acest caz condensatorul se comportă ca o sarcină şi spune că se <i>încarcă</i>. Observaţi direcţia de deplasare a electronilor (curentul) faţă de polaritatea tensiunii:</p>
 
-<p><img src="../poze/00293.png" alt="condensatorul ca o sarcină"/></p>
+#+CAPTION: condensatorul ca o sarcină
+[[../poze/00293.png]]
 
 <p>Invers, atunci când tensiunea la bornele condensatorului scade, acesta introduce/generează curent în circuitul extern; în acest caz condensatorul se comportă ca o sursă de putere şi spunem că se <i>descarcă</i>. Stocul de energie din câmpul electric este direcţionat către restul circuitului. Observaţi direcţia de deplasare a electronilor (curentul) faţă de polaritatea tensiunii:</p>
 
-<p><img src="../poze/00293.png" alt="condensatorul ca o sursă"/></p>
+#+CAPTION: condensatorul ca o sursă
+[[../poze/00293.png]]
 
 <p>Dacă introducem brusc o sursă de tensiune la bornele unui condensator descărcat (o creştere bruscă de tensiune), acest va trage curent din circuitul exterior, reprezentat în acest caz de sursa respectivă, până în momentul în care tensiune la bornele sale este egală cu tensiunea sursei. După atingerea acestui punct de încărcare, curentul scade spre zero (condensator încărcat). Invers, dacă o rezistenţă de sarcină este conectată la bornele unui condensator încărcat, acesta va genera curent spre sarcină până în momentul epuizării energiei stocate, iar tensiunea sa va scădea spre zero. După atingerea acestui punct de descărcare, curentul scade spre zero. Putem să ne gândim la condensatoare ca la un fel de baterii secundare prin modul de încărcare şi descărcare al lor.</p>
 

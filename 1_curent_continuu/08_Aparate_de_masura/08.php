@@ -27,7 +27,8 @@
 
 <p>Schema de principiu a unui voltmetru/ampermetru analogic simplu, arată astfel:</p>
 
-<img src="../poze/00417.png" alt="schema de principiu voltmetru/ampermetru"/>
+#+CAPTION: schema de principiu voltmetru/ampermetru
+[[../poze/00417.png]]
 
 <p>În cele trei poziţii de jos ale comutatorului, mecanismul de detecţie al aparatului este conectat la prizele „common” şi V printr-unul din cei trei rezistori serie (R<sub>multiplicare</sub>). În acest caz, aparatul se comportă precum un voltmetru. În cea de a patra poziţie, mecanismul de deplasare este conectat în paralel cu rezistorul de şunt (R<sub>şunt</sub>. Astfel, aparatul este în acest caz un ampermetru. Curentul intră pe la priza „common” şi iese pe la priza A. În ultima poziţie, mecanismul de deplasare este deconectat de la ambele prize roşii (V şi A), dar scurcircuitat prin intermediul comutatorului.</p>
 
@@ -35,7 +36,8 @@
 
 <p>Dacă dorim şi adăugarea unui ohmmetru aparatului de măsură de mai sus, putem înlocui una din cele trei poziţii ale voltmetrului, astfel:</p>
 
-<img src="../poze/00418.png" alt="schema de principiu voltmetru/ampermetru/ohmmetru"/>
+#+CAPTION: schema de principiu voltmetru/ampermetru/ohmmetru
+[[../poze/00418.png]]
 
 <p>Cu toate cele trei funcţii disponibile, acest multimetru mai este cunoscut şi sub numele de volt-ohm-miliampermetru.</p>
 

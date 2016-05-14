@@ -24,25 +24,30 @@
 
 <p>Matematic, relaţia dintre căderea de tensiune pe o bobină şi rata variaţiei curentului prin aceasta, se exprimă asfel:</p>
 
-<p><img src="../poze/12016.png" alt="relaţia dintre căderea de tensiune pe o bobină şi rata variaţiei curentului prin aceasta"/></p>
+#+CAPTION: relaţia dintre căderea de tensiune pe o bobină şi rata variaţiei curentului prin aceasta
+[[../poze/12016.png]]
 
 <p>Expresia <i>di/dt</i> reprezintă derivata curentului cu timpul, adică rata de variaţia a curentului instantaneu (i) cu timpul, în amperi per secundă. „L” reprezintă inductanţă în Henry, iar „e” este tensiunea instantanee. Câteodată în loc de „e” se mai foloseşte şi „v”, dar cele două notaţii sunt echivalente.</p>
 
 <p>Să analizăm un circuit pur inductiv simplu în curent alternativ. În acest, curentul este defazat în urmă faţă de tensiune cu 90<sup>o</sup>:</p>
 
-<p><img src="../poze/02056.png" alt="circuit electric pur inductiv simplu în curent alternativ"/></p>
+#+CAPTION: circuit electric pur inductiv simplu în curent alternativ
+[[../poze/02056.png]]
 
 <p>Graficul tensiunii şi al curentului în acest caz arată aproximativ asfel:</p>
 
-<p><img src="../poze/02057.png" alt="graficul formelor de undă pentru un circuit electric pur inductiv simplu în curent alternativ"/></p>
+#+CAPTION: graficul formelor de undă pentru un circuit electric pur inductiv simplu în curent alternativ
+[[../poze/02057.png]]
 
 <p>Reţineţi faptul că valoarea căderii de tensiune pe bobină este în funcţie de <i>variaţia</i> curentului prin aceasta. Prin urmare, tensiunea instantanee este zero ori de câte ori curentul instantaneu este la valoarea maximă, de vârf (pozitivă sau negativă), deoarece în acest caz variaţia, sau panta, este zero; tensiunea instantanee are o valoare maximă, de vârf, atunci când panta curentului instanteneu, sau variaţia acestuia este maximă (intersecţia formei de undă cu axa orizontală a timpului). Datorită acestui fapt, formele de undă sunt defazate cu 90<sup>o</sup>. Dacă ne uităm pe grafic, observăm că unda de tensiune are un mic „avantaj” faţa de una de curent; prin urmare, spunem că tensiunea este defazată cu 90<sup>o</sup> înaintea curentului, sau echivalent, curentul este defazat cu 90<sup>o</sup> în urma tensiunii.</p>
 
-<p><img src="../poze/02058.png" alt="graficul formelor de undă pentru un circuit electric pur inductiv simplu în curent alternativ - explicaţii"/></p>
+#+CAPTION: graficul formelor de undă pentru un circuit electric pur inductiv simplu în curent alternativ - explicaţii
+[[../poze/02058.png]]
 
 <p>Lucrurile devin şi mai interesante atunci când introducem şi forma de undă a puterii pe grafic:</p>
 
-<p><img src="../poze/02059.png" alt="graficul formelor de undă pentru un circuit electric pur inductiv simplu în curent alternativ"/></p>
+#+CAPTION: graficul formelor de undă pentru un circuit electric pur inductiv simplu în curent alternativ
+[[../poze/02059.png]]
 
 <p>Deoarece puterea instantanee reprezintă produsul dintre tensiunea şi curentul instantaneu (p=ie), puterea este egală cu zero atunci când curentul <i>sau</i> tensiunea instantanee este zero. Ori de câte ori curentu şi tensiunea instantanee sunt ambele pozitive sau ambele negative, puterea este şi ea pozitivă. Dar, datorită faptului că cele două unde de tensiune, respectiv curent, sunt defazate între ele cu 90<sup>o</sup>, există momente în care una este pozitivă şi cealaltă negativă, rezultatul fiind o <i>putere instantanee negativă</i>:</p>
 
@@ -52,7 +57,8 @@
 
 <p>Din moment ce căderea de tensiune pe bobine este proporţională cu rata de variaţie a curentului, căderea de tensiune va fi mai mare pentru variaţii mai rapide de curent, şi mai mică pentru variaţii mai lente. Acest lucru înseamnă că reactanţă în ohmi pentru oricare bobină, este direct proporţională cu frecvenţă curentului alternativ. Matematic, acest lucru se exprimă asfel:</p>
 
-<p><img src="../poze/12017.png" alt="formula matematică pentru calcularea reactanţei inductive"/></p>
+#+CAPTION: formula matematică pentru calcularea reactanţei inductive
+[[../poze/12017.png]]
 
 <p>Dacă avem o bobină de 10 mH şi o conectăm într-un circuit cu frecvenţa variabilă, asfel: 60, 120 şi 2.500 Hz, reactanţa (inductivă) acesteia în fiecare dintre cele trei cazuri este următoarea:</p>
 
@@ -81,14 +87,18 @@
 
 <p>Indiferent de modul în care reprezentăm viteza unghiulară a sistemului, este ştiut faptul că ractanţa bobinei este direct proporţională cu aceasta. Odată cu creşterea frecvenţei sistemului de curent alternativ (creşterea vitezei de rotaţie a arborelui generatorului), opoziţia bobinei faţă de curgerea curentului va fi tot mai mare, şi invers. Curentul alternativ într-un circuit inductiv simplu este egal cu raportul dintre tensiunea şi reactanţa inductivă, asemănător modului de calcul în curent continuu, sau în circuitele rezistive în curent alternativ; să considerăm un exemplu:</p>
 
-<p><img src="../poze/02060.png" alt="circuit electri în curent alternativ pur inductiv"/></p>
-<p><img src="../poze/12018.png" alt="formule"/></p>
+#+CAPTION: circuit electri în curent alternativ pur inductiv
+[[../poze/02060.png]]
+#+CAPTION: formule
+[[../poze/12018.png]]
 
 <p>Totuşi, trebuie să fim atenţi la faptul că tensiunea şi curentul nu sunt în fază în acest caz. După cum am văzut, diferenţa de fază dintre cele două unde este de 90<sup>o</sup>. Dacă reprezentăm aceste unghiuri de fază matematic, sub forma numerelor complexe, observăm că opoziţia unei bobine faţă de curent posedă şi un unghi al fazei:</p>
 
-<p><img src="../poze/12019.png" alt="formule"/></p>
+#+CAPTION: formule
+[[../poze/12019.png]]
 
-<p><img src="../poze/02061.png" alt="curentul este în urma tensiunii în cazul bobinei"/></p>
+#+CAPTION: curentul este în urma tensiunii în cazul bobinei
+[[../poze/02061.png]]
 
 <p>Matematic, spunem că unghiul de fază a opoziţiei bobinei faţă de curent este de 90<sup>o</sup>, ceea ce înseamnă o mărime imaginară pozitivă. Acest unghi de fază este foarte important în analiza circuitelor electrice, în special al celor complexe (în curent alternativ), unde există o interacţiune între rezistenţă şi reactanţă. Se va dovedi extrem de benefică reprezentarea opoziţiei faţă de curent a <i>oricărei</i> componente sub forma numerelor complexe şi nu sub forma cantităţilor scalare.</p>
 

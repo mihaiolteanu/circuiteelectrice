@@ -24,31 +24,36 @@
 
 <p>Pentru adunarea numerelor complexe, adunăm pur şi simplu componentele reale pentru a determina componenta reală a sumei cele două numere complexe; acelaşi lucru este valabil şi pentru componenta imaginară:</p>
 
-<p><img src="../poze/12007.png" alt="adunarea numerelor complexe"/></p>
+#+CAPTION: adunarea numerelor complexe
+[[../poze/12007.png]]
 
 <h3>Scăderea numerelor complexe</h3>
 
 <p>Pentru scăderea numerlor complexe, se aplică acelaşi principiu de mai sus, doar cu scădere în loc de adunare:</p>
 
-<p><img src="../poze/12008.png" alt="scăderea numerelor complexe"/></p>
+#+CAPTION: scăderea numerelor complexe
+[[../poze/12008.png]]
 
 <h3>Înmulţirea numerelor complexe</h3>
 
 <p>Pentru operaţiile de înmulţire şi împărţire forma preferată este cea polară. Atunci când efectuăm înmulţirea numerelor complexe sub formă polară, înmulţim pur şi simplu dimensiunile numerelor complexe pentru determinarea dimensiuni produsului şi <i>adunăm</i> unghiurile numerelor complexe pentru determinarea unghiului final al produsului:</p>
 
-<p><img src="../poze/12009.png" alt="înmulţirea numerelor complexe"/></p>
+#+CAPTION: înmulţirea numerelor complexe
+[[../poze/12009.png]]
 
 <h3>Împărţirea numerelor complexe</h3>
 
 <p>Pentru efectuarea împărţirii numerelor complexe, calculăm pur şi simplu raportul dintre dimensiunea primului număr complex cu dimensiunea celui de al doilea pentru aflarea dimensiunii final a raportului, şi scădem unghiul celui de al doilea număr complex din primul pentru a afla unghiul final al raportului dintre cele două numere complexe:</p>
 
-<p><img src="../poze/12010.png" alt="împărţirea numerelor complexe"/></p>
+#+CAPTION: împărţirea numerelor complexe
+[[../poze/12010.png]]
 
 <h3>Reciproca (inversa) numerelor complexe</h3>
 
 <p>Pentru a obţine reciproca (1/x), sau inversa unui număr complex, calculăm raportul dintre valoarea scalară 1 (unghi zero) şi numărul complex sub formă polară:</p>
 
-<p><img src="../poze/12011.png" alt="reciproca (inversa) numerelor complexe"/></p>
+#+CAPTION: reciproca (inversa) numerelor complexe
+[[../poze/12011.png]]
 
 </div>
 <div id="footer">

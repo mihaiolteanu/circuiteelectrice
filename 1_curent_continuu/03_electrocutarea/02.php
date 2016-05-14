@@ -24,13 +24,15 @@
 
 <p>Fără existenţa a două puncte pe corp necesare intrării şi ieşirii curentului, nu există riscul electrocutării. Din acest motiv păsărilor pot sta pe liniile de înaltă tensiune fără a suferi nicio electrocutare: contactul între acestea şi circuit se realizează doar într-un singur punct.</p>
 
-<p><img src="../poze/00055.png" alt="păsările ce se aşează pe liniile de înaltă tensiune nu se electrocutează"/></p>
+#+CAPTION: păsările ce se aşează pe liniile de înaltă tensiune nu se electrocutează
+[[../poze/00055.png]]
 
 <p>Pentru ca electronii să circule printr-un conductor, este necesară prezenţa unei tensiuni pentru motivarea lor. Tensiunea este <i>tot timpul realtivă între două puncte</i>. Nu există tensiune „la” sau „pe” un anumit punct dintr-un circuit; prin urmare, nu există nicio tensiune aplicată păsării ce face contact cu circuitul în exemplul de mai sus într-un singur punct, prin urmare, nu există nici curent. Da, chiar dacă aceasta atinge circuitul cu <i>ambele</i> picioare, totuşi, ele ating acelaşi fir <i>comun din punct de vedere electric</i>. Din moment ce picioarele păsării ating acelaşi fir electric comun, nu există diferenţă de potenţial (tensiune) între cele două puncte şi nu există nici curent.</p>
 
 <p>Aceste consideraţii pot duce la formarea părerii (greşite!) că nu putem fi electrocutaţi prin atingerea unui singur fir electric. Spre deosebire de păsări, oamenii stau de obicei pe suprafaţa pământului atunci când ating un fir prin care trece curent electric. Adesea, o parte din sistemul de alimentare este conectată întenţionat la pământ, iar persoana ce atinge un singur fir, realizează de fapt contactul între două puncte din circuit (firul şi pământarea):</p>
 
-<p><img src="../poze/00056.png" alt="închiderea circuitului prin pământ la atingerea unui singur fir"/></p>
+#+CAPTION: închiderea circuitului prin pământ la atingerea unui singur fir
+[[../poze/00056.png]]
 
 <p>Simbolul împământării (legării la pământ) este setul de trei linii orizontale cu lungimi descrescătoare, aflat în partea stângă-jos a circuitului de mai sus, precum şi la piciorul persoanei curentate. În realitate, sistemul de împământare a sistemelor de alimentare constă dintr-un conductor metalic îngropat în pământ la o adâncime mare pentru un contact maxim cu acesta. Acel conductor este conectat la rândul său într-un punct din circuit. Conectarea victimei la pământ (împământare) se realizează prin piciorul acesteia, datorită faptului că acesta atinge pământul.</p>
 
@@ -44,25 +46,30 @@
 <h3>Motivul legării la pământ a circuitelor (împământarea)</h3>
 <p>Cât priveşte prima întrebare, prezenţa unui punct de împământare „intenţional” asigură faptul că cel puţin contactul cu o parte din circuit <i>este</i> sigură. Dacă persoana din cazul precedent ar fi să atingă partea de jos a rezistorului, aceasta nu s-ar electrocuta, chiar dacă picioarele sale vin în contact cu pământul:</p>
 
-<p><img src="../poze/00057.png" alt="persoana nu este electrocutată în cazul în care firul atins este conectat la împământare"/></p>
+#+CAPTION: persoana nu este electrocutată în cazul în care firul atins este conectat la împământare
+[[../poze/00057.png]]
 
 <p>Deoarece partea de jos a circuitului este conectată la împământare în partea stângă, conductorul din dreapta jos este comun din punct de vedere electric cu acesta, atunci când este atins precum în figura de mai sus. Din moment ce nu poate exista o diferenţă de potenţial (tensiune) între două puncte comune electric, asupra persoanei ce vine în contact cu firul nu va fi aplicată nicio tensiune iar aceasta nu va suferi niciun şoc electric. Din acelaşi motiv, firul ce conectează circuitul la împământare nu are de obicei izolaţie; orice obiect metalic ce vine în contact cu acesta se va transforma într-un punct electric comun cu pământul, eliminând orice periocul de electrocutare.</p>
 
 <p>Legarea unui circuit la pământ asigură faptul că există cel puţin un punct din circuit care dacă este atins nu duce la electrocutare. Dar dacă nu am lega circuitul deloc la pământ? Nu ar înseamna asta că atingerea oricărui fir ar fi la fel de sigură? Ideal, da. Practic însă, nu. Observaţi ce se întâmplă fără niciun fel de împământare:</p>
 
-<p><img src="../poze/00058.png" alt="circuit neconectat la împământare - atingerea firelor libere este sigură"/></p>
+#+CAPTION: circuit neconectat la împământare - atingerea firelor libere este sigură
+[[../poze/00058.png]]
 
 <p>În ciuda faptului că picioarele persoane vin în contact direct cu pământul, atingerea oricărui punct din circuit este sigură. Din moment ce nu se formează un drum complet/închis prin corpul persoanei, nu este posibilă trecerea niciunui curent prin corpul acesteia. Totuşi, toate acestea se pot schimba radical în momentul formării unei legături accidentale cu pământul, precum atingerea liniilor de înaltă tensiune de către o creangă ce duce la formarea unei legături directe cu pământul:</p>
 
-<p><img src="../poze/00059.png" alt="circuit neconectat la împământare - atingerea firelor libere nu este sigură atunci când există o conectare accidentală a circuitului la pământ"/></p>
+#+CAPTION: circuit neconectat la împământare - atingerea firelor libere nu este sigură atunci când există o conectare accidentală a circuitului la pământ
+[[../poze/00059.png]]
 
 <p>O asemenea conexiune accidentală dintre conductorul circuitului şi pământ poartă numele de <i>defect de împământare</i>. Cauzele defectelor de împământare pot fi numeroase şi prin urmare nu pot fi luate toate în considerare la proiectarea liniilor electrice. În cazul copacilor, este imposibil de prezis cu <i>care fir</i> ar putea aceştia să intre în contact. Dacă contactul se realizează între firul de sus, atunci aceste poate fi atins în siguranţă; dacă în schimb contactul se realizează între copac şi firul de jos, atunci atingerea acestui fir este cea care nu prezintă riscul electrocutării, adică exact invers faţă de cazul precedent.</p>
 
-<p><img src="../poze/00060.png" alt="circuit neconectat la împământare - defectul de împământare poate duce la electrocutare"/></p>
+#+CAPTION: circuit neconectat la împământare - defectul de împământare poate duce la electrocutare
+[[../poze/00060.png]]
 
 <p>Precum am spus şi mai sus, ramurile copacilor sunt doar o sursă potenţială ale defectelor de împământare. Să considerăm un circuit neconectat la pământ, fără niciun contact accidental dintre copac şi pământ, dar de data aceasta avem <i>doi</i> oameni ce ating circuitul în două puncte cu potenţiale diferite:</p>
 
-<p><img src="../poze/00061.png" alt="circuit fără împământare - electrocutarea ambelor persoane atunci când fiecare dintre ele atunge un punct din circuit cu potenţial electric diferit"/></p>
+#+CAPTION: circuit fără împământare - electrocutarea ambelor persoane atunci când fiecare dintre ele atunge un punct din circuit cu potenţial electric diferit
+[[../poze/00061.png]]
 
 <p>În acest caz, contactul fiecărei persoane cu pământul asigură închiderea circuitului prin pământ şi prin ambele persoane. Chiar dacă fiecare din cele două persoane crede că se află în siguranţă în momentul atingerii punctului respectiv din circuit, atingerea lor concomitentă transformă situaţia de mai sus într-un scenariu periculos. De fapt, una dintre persoane reprezintă defectul de împământare în acest caz, ceea ce face ca atingerea conductorului de către cealaltă persoană să fie periculoasă pentru ambii. Acesta este motivul pentru care circuitele fără împământare sunt periculoase: tensiunea dintre oricare punct din circuit şi pământ este imprevizibilă, deoarece este posibilă apariţia unui defect de împământare în orice moment în oricare punct al circuitului. În acest scenariu, doar pasărea este sigură, doarece nu are niciun contact cu pământul. Prin conectarea unui  punct din circuit la pământ, putem asigura siguranţa atingerii cel puţin în acel punct. Deşi nu reprezintă o măsură de siguranţă 100%, tot este mai mare decât lipsa completă a împământării.</p>
 

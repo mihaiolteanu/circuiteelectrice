@@ -24,19 +24,23 @@
 
 <p>Să presupunem că avem două surse de curent continuu conectate în serie, la fel ca în secţiunea precedentă, cu diferenţa că fiecare sursă este defazată cu 120<sup>o</sup> faţă de cealaltă</p>
 
-<p><img src="../poze/02171.png" alt="sistem de alimentare folosind două surse de tensiune de 120 V defazate între ele cu un unghi de 120 de grade"/></p>
+#+CAPTION: sistem de alimentare folosind două surse de tensiune de 120 V defazate între ele cu un unghi de 120 de grade
+[[../poze/02171.png]]
 
 <p>Din moment ce fiecare sursă de tensiune are 120 V, şi fiecare rezistor este conectat direct în paralel cu sursa respectivă, căderea de tensiune pe fiecare sarcină <i>trebuie</i> să fie de asemenea de 120 V. Curenţii prin sarcină fiind 83.33 A, aceastea vor disipa tot 10 kW de putere. Totuşi, tensiunea dintre cele două faze nu mai este 240 V ca în cazul precedent, deoarece diferenţa de fază între cele două tensiuni este 120<sup>o</sup>, nu 180<sup>o</sup> (sau 0<sup>o</sup>).</p>
 
-<p><img src="../poze/12113.png" alt="calcule matematice"/></p>
+#+CAPTION: calcule matematice
+[[../poze/12113.png]]
 
 <p>Putem spune că tensiunea nominală dintre cele două fază este de 208 V, iar notaţia sistemului este 120/208.</p>
 
 <p>Dacă acum calculăm şi curentul prin neutru, folosind legea lui Kirchhoff pentru curent, vom vedea că acesta <i>nu</i> este zero, chiar şi în cazul sarcinilor echilibrate (egale între ele).</p>
 
-<p><img src="../poze/02172.png" alt="sistem de alimentare folosind două surse de tensiune de 120 V defazate între ele cu un unghi de 120 de grade; calcului curentului prin neutru"/></p>
+#+CAPTION: sistem de alimentare folosind două surse de tensiune de 120 V defazate între ele cu un unghi de 120 de grade; calcului curentului prin neutru
+[[../poze/02172.png]]
 
-<p><img src="../poze/12114.png" alt="calcule matematice"/></p>
+#+CAPTION: calcule matematice
+[[../poze/12114.png]]
 
 <p>Prin urmare, firul neutru conduce acelaşi curent de 83.33 A, ca şi celelalte fire.</p>
 
@@ -44,11 +48,13 @@
 
 <p>Putem profita de faptul că neutrul conduce un curent de 83.33 A: din moment ce orcum conduce curent, de ce să nu folosim acest al treilea fir pe post de fază, conectând o altă sarcină în serie cu o sursă de 120 V, defazată cu 240<sup>o</sup> faţă de tensiunea de referinţă? În acest fel, putem transmite mai multă putere (10 kW în plus), fără a fi nevoie de adăugarea unor conductori în plus.</p>
 
-<p><img src="../poze/02173.png" alt="sistem de alimentare folosind trei surse de tensiune de 120 V defazate între ele cu un unghi de 120 de grade; folosirea neutrului pe post de fază"/></p>
+#+CAPTION: sistem de alimentare folosind trei surse de tensiune de 120 V defazate între ele cu un unghi de 120 de grade; folosirea neutrului pe post de fază
+[[../poze/02173.png]]
 
 <p>O analiză matematică completă a tuturor curenţilor şi tensiunilor din circuit ar necesita utilizarea unei teoreme de reţea, cea mai uşoară fiind teorema superpoziţiei. Căderea de tensiune pe fiecare sarcină este de 120 V, iar căderea de tensiune între oricare două fază este de aproximativ 208 V. Curenţii pron conductori sunt egali între ei, şi anume 83.33 A. La aceaste valori, fiecare sarcină va disipa o putere de 10 kW. Putem observa că acest circuit nu are un conductor neutru pentru asigurarea unei tensiuni stabile în cazul în care unul dintre ei este deconectat (sistem dezechilibrat), situaţia fiind similară cu cea întâlnită în secţiunea precedentă. </p>
 
-<p><img src="../poze/02175.png" alt="sistem de alimentare trifazat; adăugarea conductorului neutru"/></p>
+#+CAPTION: sistem de alimentare trifazat; adăugarea conductorului neutru
+[[../poze/02175.png]]
 
 <p>Atâta timp cât sistemul este echilibrat (rezistenţe egale, curenţi egali), conductorul neutru nu va conduce niciun curent. Acesta este folosit însă pentru cazurile în care una dintre sarcini este înlăturată din circuit (defect, oprire, etc.).</p>
 
@@ -58,7 +64,8 @@
 
 <p>Să analizăm unele dintre avantajele unui asfel de circuit trifazat faţă de un circuit monofazat de putere echivalentă. Un sistem monofazat (o singură sursă de alimentare, sau mai multe surse, dar în fază) cu trei sarcini conectate în paralel ar produce un curent total foarte mare (3 * 83.33 A, sau 250 A).</p>
 
-<p><img src="../poze/02176.png" alt="sistem de alimentare monofazat cu trei sarcini conectate în paralel"/></p>
+#+CAPTION: sistem de alimentare monofazat cu trei sarcini conectate în paralel
+[[../poze/02176.png]]
 
 <p>Acest lucru ar necesita conductori cu secţiune foarte mare, cu o greutate de aproximativ optzeci de kilograme la o sută de metri. Dacă distanţa dintre sursă şi sarcină ar depăşi cu puţin un kilometru, am avea nevoie de aproximativ o tonă de cupru pentru realizarea acestui circuit!</p>
 
@@ -68,13 +75,15 @@
 
 <p>Cea mai bună metodă de obţinere a defazajelor dorite este chiar generarea lor directă, folosind generatoare de curent alternativ construite pentru exact acest scop: câmpul magnetic rotitor trece pe lângă trei seturi de înfăşurări, fiecare la o distanţă de 120<sup>o</sup> una faţă de cealaltă în jurul circumferinţei generatorului.</p>
 
-<p><img src="../poze/02178.png" alt="principiul de proiectare al generatoarelor monofazate şi trifazate"/></p>
+#+CAPTION: principiul de proiectare al generatoarelor monofazate şi trifazate
+[[../poze/02178.png]]
 
 <p>Împreună, cele şase înfăşurări ale generatorului trifazat sunt conectate asfel încât să formeze trei perechi de înfăşurări (1a cu 1b, 2a cu 2b, 3a cu 3b), fiecare pereche producând o tensiune alternativă defazată cu 120<sup>o</sup> faţă de oricare dintre celelalte două perechi/tensiuni. Conexiunile fizice existente pentru fiecare pereche de înfăşurări au fost omise pentru simplitate. Acestea se pot vedea însă în cazul generatorului monofazat.</p>
 
 <p>În circuitul considerat, cele trei surse de alimentare au fost conectate în configuraţie stea, sau „Y”, fiecare sursă având o parte conectată la punctul comun (conductorul neutru). Descrierea unei asfel de circuit se face asfel:</p>
 
-<p><img src="../poze/02179.png" alt="sistem de alimentare trifazat în configuraţie stea (Y); schema de reprezentare"/></p>
+#+CAPTION: sistem de alimentare trifazat în configuraţie stea (Y); schema de reprezentare
+[[../poze/02179.png]]
 
 <p>Aceasta însă nu este singura schma de conectare posibilă.</p>
 

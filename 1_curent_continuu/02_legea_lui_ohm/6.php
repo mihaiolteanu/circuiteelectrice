@@ -22,7 +22,8 @@
 
 <p>Până în acest moment am analizat circuite cu o singură baterie şi o singură rezistenţă fără a lua în calcul firele conductoare dintre componente, atâta timp cât am format un circuit complet. Contează lungimea firelor sau „forma” circuitului pentru calculele noastre? Să ne uităm aşadar la câteva configuraţii ale circitelor şi să aflăm:</p>
 
-<img src="../poze/00049.png" alt="circuite electrice simple, diferite forme"/>
+#+CAPTION: circuite electrice simple, diferite forme
+[[../poze/00049.png]]
 
 <p>Atunci când conectăm două puncte dintr-un circuit printr-un fir conductor, presupunem de obicei că acele fire prezintă o rezistenţă neglijabilă. Prin urmare, ele nu contribuie într-o măsură hotărâtoare la rezistenţă totală a circuitului, iar singura rezistenţă pe care o luăm în calcul este rezistenţă componentelor din circuit. În circuitele de mai sus, singura rezistenţă este rezistenţă de 5 Ω a rezistoarelor, şi o vom considera doar pe aceasta în calculele noastre. În realitate, firele metalice <i>au</i> o anumită rezistenţă (precum şi sursele de tensiune!), dar acele rezistenţe sunt în general mult mai mici decât rezistenţa prezentă în celelalte componente din circuit încât pot fi neglijate. Excepţie fac firele din circuitele de putere (curenţi mari), unde chiar şi o rezistenţă foarte mică poate genera căderi de tensiune importante.</p>
 
@@ -30,7 +31,8 @@
 
 <p>Rezultă şi faptul că valorile tensiunii între seturi de puncte „comune” vor fi identice. Adică, tensiunea între punctele 1 şi 4 (la bornele bateriei), este aceeiaşi cu tensiunea dintre punctele 2 şi 3 (la bornele rezistorului). Să analizăm următorul circuit şi să vedem care sunt punctele comune:</p>
 
-<img src="../poze/00050.png" alt="circuite electrice simple, diferite forme"/>
+#+CAPTION: circuite electrice simple, diferite forme
+[[../poze/00050.png]]
 
 <p>Aici avem doar două componente fără a lua în considerare şi firele: bateria şi rezistorul. Cu toate că firele au un drum mai încâlcit, ele formează un circuit şi există câteva puncte comune din punct de vedere electric în acest circuit, şi anume: punctele 1, 2 şi 3 pentru că aceastea sunt toate conectate între ele printr-un singur fir (fără alt component electric între ele). Acelaşi lucru este valabil şi pentru punctele 4, 5 şi 6.</p>
 
@@ -62,11 +64,13 @@
 
 <p>Acest lucru are sens şi din punct de vedere matematic. Cu o baterie de 10 volţi şi un rezistor de 5 Ω, curentul va fi de 2 amperi. Rezistenţa firelor fiind zero, căderea de tensiune pe întregul circuit poate fi determinată cu ajutorul legii lui Ohm, asfel:</p>
 
-<img src="../poze/10267.png" alt="relaţii matematice"/>
+#+CAPTION: relaţii matematice
+[[../poze/10267.png]]
 
 <p>Pentru că punctele comune din punct de vedere electric dintr-un circuit au aceeiaşi tensiunea şi rezistenţă relativă, firele ce conectează aceste puncte sunt de obicei desemnate printr-o aceeiaşi notaţie. Asta nu înseamnă că punctele <i>terminalelor</i> au aceeiaşi denumire, ci doar firele de legătură. De exemplu:</p>
 
-<img src="../poze/00051.png" alt="numerotarea firelor într-un circuit"/>
+#+CAPTION: numerotarea firelor într-un circuit
+[[../poze/00051.png]]
 
 <p>Punctele 1, 2 şi 3 sunt comune, prin urmare firul ce conectează punctele 1 şi 2 este notat asemenea (firul #2) firului ce conectează punctele 2 şi 3 (firul #2). Într-un circuit real, firul dintre punctele 1 şi 2 se poate avea culori şi mărimi diferite faţă de firul ce conectează punctele 2 şi 3, dar notaţia lor ar trebui să fie asemănătoare. Acelaşi lucru este valabil şi pentru firele ce conectează punctele 6, 5 şi 4.</p>
 

@@ -24,13 +24,15 @@
 
 <p>Sursa, poarta şi drena sunt asemănătoare cu cele de la FET-uri. Totuşi, contactul porţii nu realizează o conexiune directă cu materialul semiconductor, cum era cazul FET-urilor. Poarta unui MOSFET reprezintă un strat metalic sau de polisiliciu aşezat peste un strat de dioxid de siliciu (SiO<sub>2</sub>) izolator. Poarta seamănă foarte mult cu un condensator de tip MOS (figura de mai jos).</p>
 
-<p><img src="../poze/03422.png" alt="codensator MOS cu canal de tip N: (a) nepolarizat; (b) polarizat"/></p>
+#+CAPTION: codensator MOS cu canal de tip N: (a) nepolarizat; (b) polarizat
+[[../poze/03422.png]]
 
 <p>La polarizare, polaritatea armăturilor condensatorului va deveni cea a terminalilor bateriei. Armătura inferioară, de tip P formează un canal inversat datorită excesului de electroni din apropierea oxidului format prin respingerea electronilor terminalului negativ al bateriei înspre oxid şi atragerea acestora spre armătura pozitivă. Acest canal duce şi la formare unei zone de golire ce izolează canalul de restul substratului de siliciu.</p>
 
 <p>În figura de mai jos, un condenstor de tip MOS este plasat între o pereche de material semiconductor de tip N aflată într-un substrat de tip P. Când nu există sarcină pe condensator (a), poarta nu este polarizată, iar sursa, drena şi cele două regiuni de tip N rămân izolate din punct de vedere electric.</p>
 
-<p><img src="../poze/03423.png" alt="MOSFET cu canal N: (a) poartă nepolarizată; (b) polarizarea directă a porţii"/></p>
+#+CAPTION: MOSFET cu canal N: (a) poartă nepolarizată; (b) polarizarea directă a porţii
+[[../poze/03423.png]]
 
 <p>Aplicarea unei polarizări directe duce la încărcarea condensatorului (porţii) (figura de mai sus (b)). Poarta de deasupra stratului de oxid se încarcă pozitiv de la baterie. Substratul de tip P de sub poartă se încarcă negativ. Sub poarta oxidului se va forma o regiune inversată cu un exces de electroni. Această regiune conectează sursa şi drena de tip N, formând o regiune continuă de tip N între cele două. Asfel, MOSFET-ul, ca şi FET-ul, este un dispozitiv unipolar. Doar un singur tip de purtător de sarcină este responsabil pentru conducţie. Exemplul de mai sus este un MOSFET cu canat de tip N. Conducţia unui curent mare este posibilă prin aplicarea unei tensiuni între sursă şi drenă. Un circuit practic ar avea conectată o sarcină în serie cu bateria drenei.</p>
 
@@ -40,13 +42,15 @@
 
 <p>Secţiunea transversală a unui MOSFET de tip N este prezentată în figura de mai jos (a). Sursa şi drena sunt dopate puternic, N<sup>+</sup>, pentru reducerea pierderilor rezistive datorită curenţilor dinspre sursă spre drenă. N<sup>-</sup> indică o regiune cu dopaj scăzut. Regiunea P de sub poartă, aflată între sursă şi drenă, poate fi inversată prin aplicarea unei tensiuni de polarizare directă. Simbolul MOSFET-ului este reprezentat în figura de mai jos (b).</p>
 
-<p><img src="../poze/03305.png" alt="MOSFET cu canal N: (a) secţiune transversală; (b) simbolul schematic"/></p>
+#+CAPTION: MOSFET cu canal N: (a) secţiune transversală; (b) simbolul schematic
+[[../poze/03305.png]]
 
 <p>MOSFET-urile sunt dispozitive cu patru terminale: sursă, poartă, drenă şi substrat. Substratul este conectat la sursă în cazul MOSFET-urilor discrete, asfel încât dispozitivul final are doar trei terminale. MOSFET-urile realizate într-un circuit integrat au un substrat comun tuturor dispozitivelor. Această conexiune comună se regăseşte de obicei la ieşirea cipului şi se conectează la împământare sau la o sursă de tensiune.</p>
 
 <p>O altă variantă a MOSFET-ului, V-MOS, este de fapt un MOSFET de putere îmbunătăţit, şi este prezentat în figura de mai jos. O altă variantă, similară, U-MOS, este mult mai uşor de produs.</p>
 
-<p><img src="../poze/03306.png" alt="V-MOS cu canal N: (a) secţiune transversală; (b) simbolul schematic"/></p>
+#+CAPTION: V-MOS cu canal N: (a) secţiune transversală; (b) simbolul schematic
+[[../poze/03306.png]]
 
 <p class="sumar">Sumar:</p>
 <ul>

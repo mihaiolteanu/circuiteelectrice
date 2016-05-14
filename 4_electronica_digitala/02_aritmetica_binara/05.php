@@ -89,7 +89,8 @@ Răspunsuri: 0100100<sub>2</sub> = +36<sub>10</sub>
 
 <p>Din fericire, această metodă de identificare a erorii de depăşire este uşor de implementat într-un circuit electronic.</p>
 
-<p><img src="../poze/00000.png" alt=""/></p>
+#+CAPTION: 
+[[../poze/00000.png]]
 
 </div>
 <div id="footer">

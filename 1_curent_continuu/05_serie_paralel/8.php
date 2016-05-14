@@ -22,7 +22,8 @@
 <div id="contents">
 <p>Pe măsură ce studiaţi circuitele electrice, veţi dori probabil să construiţi propriile circuite utilizând baterii şi rezistori (becuri, de exemplu). Există câteva opţiuni pentru realizarea acestor circuite, unele mai simple decât altele, opţiuni pe care le vom prezenta în acest capitol.</p>
 
-<img src="../poze/00444.png" alt="circuit simplu cu o singură baterie şi un singur rezistor"/>
+#+CAPTION: circuit simplu cu o singură baterie şi un singur rezistor
+[[../poze/00444.png]]
 
 <p>Dacă dorim realizarea unui circuit simplu cu o sigură baterie şi un singur rezistor, putem foarte bine să utilizăm conductori cu cleme (crocodil/banană).</p>
   
@@ -30,25 +31,29 @@
 
 <p>Astfel de conductori, prevăzuţi cu banane pe la capete, reprezintă o metodă practică şi sigură din punct de vedere electric pentru conectarea componentelor între ele.</p>
 
-<img src="../poze/00445.png" alt="circuit simplu cu o singură baterie şi trei rezistori"/>
+#+CAPTION: circuit simplu cu o singură baterie şi trei rezistori
+[[../poze/00445.png]]
 
 <p>Dacă am dori să realizăm un circuit simplu cu o baterie şi trei rezistor, putem utiliza aceiaşi metodă de conectare a conductorilor.</p>
 
 <div class="clear"></div>
 
-<img src="../poze/50042.jpg" alt="placă electronică de test"/>
+#+CAPTION: placă electronică de test
+[[../poze/50042.jpg]]
 
 <p>Totuşi, această tehnică se dovedeşte a nu fi practică atunci când avem de a face cu circuite mult mai complicate decât cele de mai sus. O metodă mult mai practică de realizare a circuitelor temporare este utilizarea unei plăci de test (solderless breadboard), un dispozitiv realizat din plastic ce permite realizarea uşoară a unui număr relativ mare de conexiuni între componente.</p>
 
 <div class="clear"></div>
 
-<img src="../poze/00446.png" alt="circuit electric cu placă de test"/>
+#+CAPTION: circuit electric cu placă de test
+[[../poze/00446.png]]
 
 <p>Alăturat este un exemplu de circuit realizat cu ajutorul plăcii de test.</p>
 
 <div class="clear"></div>
 
-<img src="../poze/00447.png" alt="placă electronică de test - partea anterioară"/>
+#+CAPTION: placă electronică de test - partea anterioară
+[[../poze/00447.png]]
 
 <p>Sub fiecare cavitate există un arc metalic ce prinde orice conductor sau terminal al componentelor introduse în acesta. Aceste arcuri metalice sunt conectate între ele pe spatele plăcii, realizâd astfel conexiuni între conductorii inseraţi prin partea superioară. Modelul plăcii este astfel încât, există o serie de cinci astfel de cavităţi unite vertical între ele, conform figurii alăturate.</p>
 
@@ -56,13 +61,15 @@
 
 <p>Astfel că atunci când inserăm un conductor într-una dintre cavităţi, există încă o serie de patru astfel de cavităţi pe aceeiaşi coloană, ce sunt comune din punct de vedere electric cu prima. Introducerea unui terminal sau conductor în oricare dintre aceste puncte comune este identică din punct de vedere electric cu conectarea directă a terminalilor sau conductorilor celor două componente. Rezultatul este o platformă extrem de flexibilă pentreu realizarea circuitelor electrice sau electronice temporare.</p>
 
-<img src="../poze/00448.png" alt="placă electronică de test - circuit serie cu trei rezistori"/>
+#+CAPTION: placă electronică de test - circuit serie cu trei rezistori
+[[../poze/00448.png]]
 
 <p>De exemplu, circuitul electric de mai sus, format din trei rezistori, poate fi construit cu ajutorul unei plăci de test conform figurii alăturate.</p>
 
 <div class="clear"></div>
 
-<img src="../poze/00449.png" alt="placă electronică de test - circuit paralel cu trei rezistori"/>
+#+CAPTION: placă electronică de test - circuit paralel cu trei rezistori
+[[../poze/00449.png]]
 
 <p>Un alt exemplu, de această dată a unui circuit paralel cu trei rezistori, este prezentat în figura alăturată.</p>
 
@@ -74,19 +81,22 @@
 
 <p>O metodă alternativă constă în utilizarea unei reglete de conexiuni (regletă de borne). Acestea sunt compuse dintr-un material izolator prevăzut cu spaţii metalice pentru prinderea conductorilor cu ajutorul unor şuruburi; acest procedeu este similor modului de conectare al prizelor sau întrerupătoarelor casnice.</p>
 
-<img src="../poze/50033.jpg" alt="regletă de conexiuni"/>
+#+CAPTION: regletă de conexiuni
+[[../poze/50033.jpg]]
 
 <p>Un exemplu de astfel de regletă, având o serie de conductori ataşaţi, este prezentat în poza alăturată.</p>
 
 <div class="clear"></div>
 
-<img src="../poze/50034.jpg" alt="regletă de conexiuni"/>
+#+CAPTION: regletă de conexiuni
+[[../poze/50034.jpg]]
 
 <p>O altă variantă este cea din poza alăturată. Această variantă, denumită şi „europeană” are şuruburile introduse într-un canal pentru a preveni scurt-circuitarea accidentală între terminali prin intermediul unei şurubelniţi sau al unui alt obiect metalic.</p>
 
 <div class="clear"></div>
 
-<img src="../poze/00450.png" alt="regletă de conexiuni; circuit serie"/>
+#+CAPTION: regletă de conexiuni; circuit serie
+[[../poze/00450.png]]
 
 <p>În figura alăturată, este prezentat un circuit serie compus dintr-o singură baterie şi trei rezistori folosind o regletă de conexiuni.</p>
 
@@ -96,7 +106,8 @@
 
 <p>Una dintre deprinderile esenţiale ale celor care vor să pună în practică lecţiile învăţate despre circuitele electrice şi electronice, este „traducerea” unei diagrame într-un circuit real. Diagramele circuitelor sunt de obicei realizate pentru a facilita citirea lor  cu uşurinţă, dar circuitele practice au de cele mai multe ori o orientare complet diferită.</p>
 
-<img src="../poze/00451.png" alt="regletă de conexiuni; circuit paralel"/>
+#+CAPTION: regletă de conexiuni; circuit paralel
+[[../poze/00451.png]]
 
 <p>Să luăm ca şi exemplu un circuit paralel format dintr-o singură baterie şi trei rezistori.</p>
 
@@ -104,13 +115,15 @@
 
 <p>Trecerea de la o diagrama circuitului la realizarea propriu-zisă a acestuia - mai ales atunci când rezistori ce trebuie conectaţi sunt aranjaţi liniar (asemănător circuitelor serie, nu paralel) pe regletă - nu este chiar aşa de evidentă, prin urmare, vom prezenta procesul pas cu pas în cele ce urmează.</p>
 
-<img src="../poze/00452.png" alt="regletă de conexiuni; circuit paralel"/>
+#+CAPTION: regletă de conexiuni; circuit paralel
+[[../poze/00452.png]]
 
 <p>Pentru început, considerăm diagrama iniţială a circuitului şi toate componentele prinse pe regleta de conexiuni dar fără niciun conductor electric între ele.</p>
 
 <div class="clear"></div>
 
-<img src="../poze/00453.png" alt="regletă de conexiuni; circuit paralel"/>
+#+CAPTION: regletă de conexiuni; circuit paralel
+[[../poze/00453.png]]
 
 <p>Apoi, urmărim conductorul dinspre terminalul pozitiv al bateriei spre primul component al diagramei, realizând în acelaşi timp o legătură fizică, prin intermediul unui conductor, între aceste două puncte pe circuitul real. Dacă ne este mai uşor, putem trasa o linie de o culoare diferită pe diagramă, pentru a reprezenta ce tip de conexiuni au fost deja realizate în circuitul real.</p>
 
@@ -118,25 +131,29 @@
 
 <p>Continuând acest proces, fir cu fir, până în momentul în care întreaga schemă electrică (diagramă) a circuitului este acoperită.</p>
 
-<img src="../poze/00454.png" alt="regletă de conexiuni; circuit paralel"/>
+#+CAPTION: regletă de conexiuni; circuit paralel
+[[../poze/00454.png]]
 
 <p>Următorul pas, aşadar, constă în conectarea bornelor superioare a celor doi rezistori rămaşi.</p>
 
 <div class="clear"></div>
 
-<img src="../poze/00455.png" alt="regletă de conexiuni; circuit paralel"/>
+#+CAPTION: regletă de conexiuni; circuit paralel
+[[../poze/00455.png]]
 
 <p>Având toate bornele superioare ale tuturor rezistorilor din circuit conectate la borna pozitivă a bateriei, următorul pas este să conectăm bornele inferioare ale acestora la borna negativă a bateriei.</p>
 
 <div class="clear"></div>
 
-<img src="../poze/00456.png" alt="regletă de conexiuni; circuit paralel; marcarea conductorilor"/>
+#+CAPTION: regletă de conexiuni; circuit paralel; marcarea conductorilor
+[[../poze/00456.png]]
 
 <p>În mod normal, în circuitele practice folosite în industrie, toate firele sunt marcate; conductorii comuni din punct de vedere electric posedă acelaşi număr de marcaj. În exemplu nostru, am marcat conductorii cu 1 şi 2.</p>
 
 <div class="clear"></div>
 
-<img src="../poze/00457.png" alt="regletă de conexiuni; circuit paralel; marcarea conductorilor"/>
+#+CAPTION: regletă de conexiuni; circuit paralel; marcarea conductorilor
+[[../poze/00457.png]]
 
 <p>O altă convenţie constă în modificarea uşoară a diagramei iniţiale pentru a indica punctul de contact propriu-zis al conductorului pe regletă. Acest lucru necesită un sistem de marcaj al regletei: „NB” (numărul blocului), si un număr reprezentând fiecare conexiune metalică de pe regletă.</p>
 

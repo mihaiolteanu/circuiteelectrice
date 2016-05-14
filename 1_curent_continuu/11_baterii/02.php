@@ -24,25 +24,30 @@
 
 <p>Simbolul unei pile constă din două linii paralele, una mai scurtă şi una mai lungă, conectate la capete cu câte un fir:</p>
 
-<p><img src="../poze/00260.png" alt="simbolul electric al pilei"/></p>
+#+CAPTION: simbolul electric al pilei
+[[../poze/00260.png]]
 
 <p>În aceeiaşi ordine de idei, simbolul bateriei constă din mai multe pile conectate în serie:</p>
 
-<p><img src="../poze/00261.png" alt="simbolul electric al bateriei"/></p>
+#+CAPTION: simbolul electric al bateriei
+[[../poze/00261.png]]
 
 <p>După cum am mai spus, tensiunea produsă de un anumita tip de pilă depinde doar de compoziţia ei chimică, mărimea pilei este irelevantă în acest caz. Pentru obţinerea unei tensiuni mai mari prin urmare, trebuie să conectăm mai multe pile în serie. Tensiunea totală la bornele unei baterii este suma tuturor tensiunilor pilelor. O baterie tipică plumb-acid instalată pe un automobil generează o tensiune nominală de 12.0 V (6 x 2.0 V):</p>
 
-<p><img src="../poze/00262.png" alt="conectarea pilelor în serie pentru generarea unei tensiuni mai mari"/></p>
+#+CAPTION: conectarea pilelor în serie pentru generarea unei tensiuni mai mari
+[[../poze/00262.png]]
 
 <p>Ca şi convenţie, simbolul bateriei este desenat de obicei cu doar patru linii lungi/scurte, chiar dacă bateria reală este compusă din mai mult de patru pile. Totuşi, se poate ca în unele cazuri să întâlnim un simbol al bateriei cu foarte multe linii lungi/scurte; folosim acest simbol pentru reprezentarea unei baterii cu o tensiune neobişnuit de mare:</p>
 
-<p><img src="../poze/00263.png" alt="simbolul bateriei cu o tensiune neobişnuit de mare"/></p>
+#+CAPTION: simbolul bateriei cu o tensiune neobişnuit de mare
+[[../poze/00263.png]]
 
 <p>Deşi mărimea fizică a unei pile nu are nicio relevanţă cu privire la valoarea tensiunii generate, are totuşi importanţă atunci când luăm în considerarea rezistenţa acesteia şi prin urmare determină cantitatea maximă de curent ce o poate genera în circuit. Orice celulă voltaică posedă o anumită rezistenţa internă datorată electrozilor şi soluţiei electrolitice. Cu cât pila este mai mare, cu atât este mai mare suprafaţa de contact a electrozilor cu electrolitul, ceea ce se traduce printr-o rezistenţă internă mai <i>scăzută</i>.</p>
 
 <p>Deşi în mod normal considerăm că bateria se comportă ca o sursă perfectă de tensiune (absolut constantă) într-un circuit, considerând curentul ce-o străbate ca depinzând strict de rezistenţa <i>externă</i> a circuitului de care este ataşată, acest lucru nu se întâmplă de fapt în realitate. Deoarece fiecare baterie sau pilă posedă o anumită rezistenţa internă, aceasta afectează valoarea curentului în oricare circuit:</p>
 
-<p><img src="../poze/00264.png" alt="simbolul bateriei cu o tensiune neobişnuit de mare"/></p>
+#+CAPTION: simbolul bateriei cu o tensiune neobişnuit de mare
+[[../poze/00264.png]]
 
 <p>Bateria reală de mai sus posedă o rezistenţă internă de 0.2 Ω; acest lucru afectează performanţa bateriei atunci când alimentează sarcina de 1 Ω. Bateria ideală din stânga nu are rezistenţă internă, şi din această cauză, aplicarea legii lui Ohm (I=E/R) rezultă într-o valoare a curentului de 10 A pentru o rezistenţă de 1 Ω şi 10 V tensiune de alimentare. Dar, bateria reală are o rezistenţă în plus ce se opune şi ea deplasării electronilor, curentul generat în circuit în acest caz este de numai 8.333 A pentru aceeiaşi valoare a sarcinii.</p>
 
@@ -52,7 +57,8 @@
 
 <p>Dacă totuşi avem nevoie de o baterie cu rezistenţă internă mult mai mică (pentru curenţi mai mari) decât cea a unei singure pile, putem conecta mai multe pile în paralel:</p>
 
-<p><img src="../poze/00265.png" alt="conectarea pilelor în paralel pentru o rezistenţă internă mai mică"/></p>
+#+CAPTION: conectarea pilelor în paralel pentru o rezistenţă internă mai mică
+[[../poze/00265.png]]
 
 <p>Circuitul Thevenin echivalent al celor cinci pile în paralel este un circuit cu o singură sursă de tensiune şi un rezistor în serie. Acest circuit are aceeiaşi valoare a tensiunii (2.0 V) dar o rezistenţa mai mică (0.04Ω) decât oricare dintre rezistenţele individuale ale pilelor (0.2 Ω). </p>
 

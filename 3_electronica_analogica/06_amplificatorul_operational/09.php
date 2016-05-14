@@ -22,7 +22,8 @@
 <div id="contents">
 <p>După cum am spus şi în secţiunea precedentă, este de dorit modificarea factorul de amplificare al circuitului fără a schimba mai mult de un rezistor, aşa cum era cazul exemplului precedent. Această posibilitatea se poate realiza cu ajutorul amplificatorului de <i>instrumentaţie</i>:</p>
 
-<p><img src="../poze/03046.png" alt="amplificatorul de instrumentaţie"/></p>
+#+CAPTION: amplificatorul de instrumentaţie
+[[../poze/03046.png]]
 
 <p>Circuitul este construit din două amplificatoare diferenţiale şi trei rezistori ce conectează cele două amplificatoare împreună. Considerăm că toţi rezistorii din circuit sunt egali, cu excepţia rezistorului R<sub>amplificare</sub>. Reacţia negativă a AO din stânga sus duce tensiunea din punctul 1 (deasupra lui R<sub>amplificare</sub>) la o valoare egală cu V<sub>1</sub>. Asemănător, tensiunea la punctul 2 (sub R<sub>amplificare</sub> este menţinută la o valoare egală cu V<sub>2</sub>. Caderea de tensiune la bornele lui R<sub>amplificare</sub> va fi egală cu diferenţa de tensiune dintre V<sub>1</sub> şi V<sub>2</sub>. Această cădere de tensiune duce la apariţia unui curent prin R<sub>amplificare</sub>, şi din moment ce curentul prin buclele de reacţie a celor două amplificatoare este zero, curentul prin R<sub>amplificare</sub> trebuie să fie egal cu valoarea curentului prin cele două rezistoare R din imediata sa vacinătate. Căderea de tensiune între punctele 3 şi 4 va fi prin urmare egală cu:</p>
 

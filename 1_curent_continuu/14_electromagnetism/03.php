@@ -63,7 +63,8 @@
 	</tr>
 	<tr>
 		<td>reluctanţa</td>
-		<td><img src="poze/reluctanta.png" alt="simbolul reluctanţei"/></td>
+#+CAPTION: simbolul reluctanţei
+[[poze/reluctanta.png]]
 		<td>Amper / Weber (A Wb<sup>-1</sup>)</td>
 	</tr>
 	<tr>
@@ -75,11 +76,13 @@
 		
 <p>Relaţiile dintre tensiunea magnetomotoare, fluxul magnet şi reluctanţă sunt asemenea relaţiilor dintre mărimile electrice precum tensiunea electromotoare, curent şi rezistenţă, şi pot fi consuderate un fel de legea lui Ohm pentru circuite magnetice:</p>
 
-<p><img src="../poze/10234.png" alt="comparaţie pentru legea lui Ohm între circuitele electrice şi magnetice"/></p>
+#+CAPTION: comparaţie pentru legea lui Ohm între circuitele electrice şi magnetice
+[[../poze/10234.png]]
 
 <p>Ştiind faptul că permeabilitatea este asemănătoare rezistenţei specifice (inversă), ecuaţia pentru aflarea reluctanţei materialului magnetic este similară celei pentru aflarea rezistenţei conductorului:</p>
 
-<p><img src="../poze/10235.png" alt="comparaţie între rezistenţă electrică şi cea magnetică"/></p>
+#+CAPTION: comparaţie între rezistenţă electrică şi cea magnetică
+[[../poze/10235.png]]
 
 <p>În fiecare dintre cele două cazuri, pentru o bucată mai lungă din acelaşi material opoziţia este mai mare, toţi ceilalţi factorii fiind egali. De asemenea, o secţiune mai mare scade valoarea opoziţiei (rezistenţei electrice şi reluctanţei magnetice), toţi ceilalţi factori fiind egali.</p>
 

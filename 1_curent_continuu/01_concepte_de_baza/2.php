@@ -72,7 +72,8 @@
 
 <p>Trebuie să facem o observaţie importantă. Mişcându-se uniform printr-un conductor, fiecare electron îl împinge pe cel de lângă el, asfel încât toţi electronii se mişcă împreună precum un grup. Punctul de plecare şi cel final al mişcării unui electron printr-un conductor electric este atins practic instant, dintr-un capăt în celălalt al conductorului, chiar dacă viteza de deplasare a fiecărui electron în parte este mică. O analogie aproximativă este cea a unui tub umplut dintr-un capăt în celălalt cu mărgele:</p>
 
-<img src="../poze/00007.png" alt="analogia tubului umplut cu mărgele"/>
+#+CAPTION: analogia tubului umplut cu mărgele
+[[../poze/00007.png]]
 
 <p>Tubul este plin de mărgele, precum un conductor este plin de electroni liberi, pregătiţi să fie puşi în mişcare de o influenţă externă. Dacă o singură mărgea este introdusă brusc în acest tub plin prin partea stângă, o alta va ieşi instant pe partea cealaltă. Chiar dacă fiecare mărgea a parcurs doar o distanţă scurtă, transferul de mişcare prin tub este practic instant (din partea stângă înspre capătul din dreapta), oricât ar fi tubul de lung. În cazul electricităţii, efectul de ansamblu dintr-un capăt în celălalt al conductorului are loc la viteza luminii<sup>2</sup>. Fiecare electron în parte însă, se deplasează prin conductor la o viteza <i>mult</i> mai mică.</p>
 
@@ -80,21 +81,25 @@
 
 <p>Ţineţi minte că electronii se pot deplasa doar atunci când au oportunitatea de a se mişca în spaţiul dintre atomii unui material. Acest lucru înseamnă că există curent electric <i>doar</i> acolo unde există o traiectorie continuă din material conductiv ce permite deplasarea electronilor. În analogia cu mărgelele, acestea pot fi introduse prin partea stângă a tubului (şi ieşi pe partea dreaptă), doar dacă tubul este deschis la celălalt capăt pentru a permite ieşirea mărgelelor. Dacă tubul este închis la capătul din dreapta, mărgelele se vor „aduna” în tub, iar „curgerea” lor nu va avea loc. Acelaşi lucru se poate spune despre curentul electric: curgerea continuă a curentului necesită un drum neîntrerup pentru a permite deplasarea. Putem ilustra acest lucru prin următorul desen:</p>
 
-<img src="../poze/00008.png" alt="drum electric neîntrerupt"/>
+#+CAPTION: drum electric neîntrerupt
+[[../poze/00008.png]]
 
 <p>O linie subţire, continua (precum cea de sus) reprezintă simbolul convenţional pentru o porţiune continuă de fir<sup>3</sup> (electric). Din moment ce firul este compus din material conductiv, precum cuprul, atomii conţinuţi în acesta posedă mulţi electroni liberi ce se pot deplasa cu uşurinţă în interiorul firului. Dar, nu va exista niciodată o deplasarea continuă sau uniformă a electronilor prin acest fir dacă nu au de unde să vină şi încotro să se îndrepte. Să presupunem prin urmare o „Sursă” şi o „Destinaţie” a electronilor:</p>
 
-<img src="../poze/00009.png" alt="drum electric neîntrerupt plus sursa si destinatie"/>
+#+CAPTION: drum electric neîntrerupt plus sursa si destinatie
+[[../poze/00009.png]]
 
 <p>Acum, cu Sursa împingând noi electroni pe fir prin partea stângă, curgerea<sup>4</sup> electronilor prin fir este posibilă (indicată de săgeţi). Dar, această curgere va fi întreruptă în cazul în care calea formată de firul conductor este întreruptă:</p>
 
-<img src="../poze/00010.png" alt="drum electric întrerupt"/>
+#+CAPTION: drum electric întrerupt
+[[../poze/00010.png]]
 
 <p>Întrucât aerul este un dielectric (material izolator), iar spaţiul dintre cele două fire este ocupat de aer, calea ce era înainte continuă, acum este întreruptă, iar electronii nu se pot deplasa de la Sursă la Destinaţie. Această situaţie este asemănătoare tăierii conductei de apă în două şi astupării celor două capete: apa nu poate curge dacă nu are pe unde să iasă din ţeavă. În termeni electrici, atunci când firul era format dintr-o singură bucată avea condiţia de <i>continuitate</i> electrică, iar acum, după tăierea şi separarea firului în două, acea continuitatea este întreruptă.</p>
 
 <p>Dacă ar fi să luam un alt fir ce duce spre Destinaţie şi pur şi simplu am face contact fizic cu firul ce duce spre Sursă, am avea din nou o cale continuă pentru curgerea electronilor. Cele două puncte din diagramă reprezintă contactul fizic (metal-metal) dintre cele două fire:</p>
 
-<img src="../poze/00011.png" alt="drum electric întrerupt, refacut cu un alt fir"/>  
+#+CAPTION: drum electric întrerupt, refacut cu un alt fir
+[[../poze/00011.png]]
 
 <p>Acum avem continuitate dinspre Sursă, prin noua conexiune, în jos, în dreapta, şi apoi în sus, spre Destinaţie. Acest aranjament este analog instalării unui teu într-o înstalaţie de apă pentru dirijarea apei prin această nouă ţeavă, spre destinaţie. Atenţie, segmentul de fir întrerup nu conduce curent electric pentru că nu mai face parte dintr-un drum complet de la Sursă spre Destinaţie.</p>
 

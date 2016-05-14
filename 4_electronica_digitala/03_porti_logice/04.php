@@ -28,7 +28,8 @@
 
 <h2>Poarta logică ŞI (AND)</h2>
 
-<img src="../poze/04100.png" alt="poarta logică ŞI cu două respectiv trei intrări; simbol"/>
+#+CAPTION: poarta logică ŞI cu două respectiv trei intrări; simbol
+[[../poze/04100.png]]
 
 <p>Una dintre cele mai uşor de înţeles porţi este poarta ŞI. Denumirea vine de la faptul că ieşirea porţii va fi 1 dacă şi numai dacă toate intrările sunt 1. Asemenea, ieşirea va fi 0, dacă si numai dacă toate intrările sunt 0. Alăturat este prezentat simbolul porţii ŞI cu două, respectiv trei intrări.</p>
 
@@ -68,13 +69,17 @@
 
 <p>Practic, ceea ce se înţelege din tabelul de adevăr de mai sus poate fi ilustrat în cele ce urmează. Poarta logică ŞI este supusă tuturor posibilităţilor de intrare. Pentru determinarea nivelului logic de ieşire, se foloseşte un LED:</p>
 
-<img src="../poze/04102.png" alt="exemplificarea tabelului de adevăr a porţii logice ŞI printr-un circuit practic"/>
+#+CAPTION: exemplificarea tabelului de adevăr a porţii logice ŞI printr-un circuit practic
+[[../poze/04102.png]]
 
-<img src="../poze/04103.png" alt="exemplificarea tabelului de adevăr a porţii logice ŞI printr-un circuit practic"/>
+#+CAPTION: exemplificarea tabelului de adevăr a porţii logice ŞI printr-un circuit practic
+[[../poze/04103.png]]
 
-<img src="../poze/04104.png" alt="exemplificarea tabelului de adevăr a porţii logice ŞI printr-un circuit practic"/>
+#+CAPTION: exemplificarea tabelului de adevăr a porţii logice ŞI printr-un circuit practic
+[[../poze/04104.png]]
 
-<img src="../poze/04105.png" alt="exemplificarea tabelului de adevăr a porţii logice ŞI printr-un circuit practic"/>
+#+CAPTION: exemplificarea tabelului de adevăr a porţii logice ŞI printr-un circuit practic
+[[../poze/04105.png]]
 
 <div class="clear"></div>
 
@@ -82,13 +87,15 @@
 
 <h2>Poarta logică ŞI-negat (NAND)</h2>
 
-<img src="../poze/04106-1.png" alt="circuitul echivalent al unei porţi logice ŞI negat (NAND)"/>
+#+CAPTION: circuitul echivalent al unei porţi logice ŞI negat (NAND)
+[[../poze/04106-1.png]]
 
 <p>Poarta ŞI negat este o variaţie a porţii ŞI. Practic, comportamentul porţii este acelaşi ca al porţii ŞI, doar că la ieşire este conectată o poartă NU (inversoare).</p> 
 
 <div class="clear"></div>
 
-<img src="../poze/04106.png" alt="poarta logică ŞI negat (NAND); simbol"/>
+#+CAPTION: poarta logică ŞI negat (NAND); simbol
+[[../poze/04106.png]]
 
 <p>Pentru simbolizarea acestui lucru se trece un mic cerculeţ pe terminalul de ieşire.</p>
 
@@ -130,7 +137,8 @@
 
 <h2>Poarta logică SAU (OR)</h2>
 
-<img src="../poze/04107.png" alt="poarta logică SAU (OR); simbol"/>
+#+CAPTION: poarta logică SAU (OR); simbol
+[[../poze/04107.png]]
 
 <p>Ieşirea unei porţi logice SAU este 1 dacă oricare dintre intrări este 1. Ieşirea este 0 doar dacă toate intrările sunt 0.</p>
 
@@ -170,13 +178,17 @@
 
 <p>Următoarele ilustraţii redau modul de funcţionare a porţii SAU, atunci când cele două intrări foarmează toate combinaţiile posibile. Indicaţia vizuală a ieşirii este furnizată de un LED:</p>
 
-<img src="../poze/04109.png" alt="exemplificarea tabelului de adevăr a porţii logice SAU printr0un circuit practic"/>
+#+CAPTION: exemplificarea tabelului de adevăr a porţii logice SAU printr0un circuit practic
+[[../poze/04109.png]]
 
-<img src="../poze/04110.png" alt="exemplificarea tabelului de adevăr a porţii logice SAU printr-un circuit practic"/>
+#+CAPTION: exemplificarea tabelului de adevăr a porţii logice SAU printr-un circuit practic
+[[../poze/04110.png]]
 
-<img src="../poze/04111.png" alt="exemplificarea tabelului de adevăr a porţii logice SAU printr-un circuit practic"/>
+#+CAPTION: exemplificarea tabelului de adevăr a porţii logice SAU printr-un circuit practic
+[[../poze/04111.png]]
 
-<img src="../poze/04112.png" alt="exemplificarea tabelului de adevăr a porţii logice SAU printr-un circuit practic"/>
+#+CAPTION: exemplificarea tabelului de adevăr a porţii logice SAU printr-un circuit practic
+[[../poze/04112.png]]
 
 <div class="clear"></div>
 
@@ -184,13 +196,15 @@
 
 <h2>Poarta logică SAU negat (NOR)</h2>
 
-<img src="../poze/04113-1.png" alt="schema echivalentă a unei porţi SAU negate (NOR)"/>
+#+CAPTION: schema echivalentă a unei porţi SAU negate (NOR)
+[[../poze/04113-1.png]]
 
 <p>După cum probabil v-aţi dat seama, poarta SAU negată este o partă SAU cu valoarea de ieşire negată (0 negat este 1, iar 1 negat este 0). Schema echivalentă este cea din figura alăturată.</p>
 
 <div class="clear"></div>
 
-<img src="../poze/04113.png" alt="simbolul unei porţi SAU negate (NOR)"/>
+#+CAPTION: simbolul unei porţi SAU negate (NOR)
+[[../poze/04113.png]]
 
 <p>Pentru simplificarea reprezentării însă, există desigur un simbol special, conform figurii alăturate.</p>
 
@@ -232,13 +246,15 @@
 
 <h2>Poarta logică ŞI negativă</h2>
 
-<img src="../poze/04114-1.png" alt="schema echivalentă a unei porţi logice ŞI negative"/>
+#+CAPTION: schema echivalentă a unei porţi logice ŞI negative
+[[../poze/04114-1.png]]
 
 <p>O poartă logică ŞI negativă funcţionează la fel ca o poartă ŞI având toate intrările inversate (conectate la porţi NU).</p>
 
 <div class="clear"></div>
 
-<img src="../poze/04114-2.png" alt="simbolul unei porţi logice ŞI negative"/>
+#+CAPTION: simbolul unei porţi logice ŞI negative
+[[../poze/04114-2.png]]
 
 <p>Conform standardului de notare, aceste intrări sunt simbolizate cu ajutorul unor cerculeţe.</p>
 
@@ -278,13 +294,15 @@
 
 <h2>Poarta logică SAU negativă</h2>
 
-<img src="../poze/04115-1.png" alt="schema echivalentă a unei porţi logice SAU negative"/>
+#+CAPTION: schema echivalentă a unei porţi logice SAU negative
+[[../poze/04115-1.png]]
 
 <p>Conform aceluiaşi principiu, o poartă logică SAU negativă se comportă asemenea unei porţi SAU cu toate intrările inversate.</p>
 
 <div class="clear"></div>
 
-<img src="../poze/04115-2.png" alt="simbolul unei porţi logice SAU negative"/>
+#+CAPTION: simbolul unei porţi logice SAU negative
+[[../poze/04115-2.png]]
 
 <p>Conform standardului de notare, aceste intrări inversate sunt simbolizate prin cerculeţe.</p>
 
@@ -324,7 +342,8 @@
 
 <h2>Poarta logică SAU-exlusiv (XOR)</h2>
 
-<img src="../poze/04116.png" alt="simbolul unei porţi logice SAU-exclusiv"/>
+#+CAPTION: simbolul unei porţi logice SAU-exclusiv
+[[../poze/04116.png]]
 
 <p>Ultimele şase variante de porţi logice au fost variaţii directe ale celor trei funcţii de bază: ŞI, SAU şi NU. Poarta SAU-exclusiv este însă diferită.</p>
 
@@ -362,7 +381,8 @@
 
 <div class="clear"></div>
 
-<img src="../poze/04117.png" alt="schema echivalentă a unei porţi logice SAU-exclusiv formată din porţi SI, SAU şi NU"/>
+#+CAPTION: schema echivalentă a unei porţi logice SAU-exclusiv formată din porţi SI, SAU şi NU
+[[../poze/04117.png]]
 
 <p>Circuitele echivalente pentru o poartă SAU-exclusiv sunt formate din porţi ŞI, SAU şi NU. O metodă directă de simularea a unei porţi SAU-exclusiv este prin introducerea în circuit pentru început a unei porţi SAU. Apoi adăugăm porţi astfel încât să impiedicăm o valoare de 1 pe ieşire atunci când ambele intrări sunt 1.</p>
 
@@ -372,7 +392,8 @@
 
 <p>În acest circuit, poarta ŞI de ieşire se comportă ca un repetor (memorie) pentru poarta SAU atunci când ieşirea porţii ŞI-negat este 1. Acest lucru se întâmplă pentru primele trei combinaţii (00, 01 şi 10). Totuşi, atunci când ambele intrări sunt 1, ieşirea porţii SAU-negat este 0, forţând o valoare de 0 pe ieşirea porţii SAU.</p>
 
-<img src="../poze/04118.png" alt="schema echivalentă a unei porţi logice SAU-exclusiv formată din porţi ŞI, SAU şi NU"/>
+#+CAPTION: schema echivalentă a unei porţi logice SAU-exclusiv formată din porţi ŞI, SAU şi NU
+[[../poze/04118.png]]
 
 <p>Un alt circuit echivalent pentru o poartă SAU-exclusiv este format din două porţi ŞI negate (cu ajutorul unei porţi NU). Acestea generează la ieşire o valoare de 1 dacă intrările sunt 01, respectiv 10. O poartă finală SAU  permite o ieşire de 1 dacă cel puţin o poartă ŞI are o ieşire de 1.</p>
 
@@ -382,13 +403,15 @@
 
 <h2>Poarta logică SAU-negat-exclusiv (XNOR)</h2>
 
-<img src="../poze/04119-1.png" alt="schema echivalentă a unei porţi logice SAU-negat-exclusiv"/>
+#+CAPTION: schema echivalentă a unei porţi logice SAU-negat-exclusiv
+[[../poze/04119-1.png]]
 
 <p>Ultima poartă pe care o vom analiza este poarta SAU-negat-exclusiv. Aceasta este echivalentă cu poarta SAU-exclusiv, doar că ieşirea este inversată.</p>
 
 <div class="clear"></div>
 
-<img src="../poze/04119.png" alt="simbolul unei porţi logice SAU-negat-exclusiv"/>
+#+CAPTION: simbolul unei porţi logice SAU-negat-exclusiv
+[[../poze/04119.png]]
 
 <p>Desigur, şi pentru această poartă există un simbol special.</p>
 

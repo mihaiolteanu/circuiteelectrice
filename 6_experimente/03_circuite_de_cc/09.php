@@ -25,9 +25,11 @@
 
 <p>Vom vedea pe parcursul acestui experiment modul de funcţionare şi utilizare a unei termocuple. Veţi avea nevoie de un conductor de cupru şi unul de fier (eventual de aluminiu), ambele dezizolate, o lumânare şi bucăţi de gheaţă. Circuitul electric pe care îl vom realiza este cel de jos:</p>
 
-<img src="../poze/05153.png" alt="realizarea unei termocuple"/>
+#+CAPTION: realizarea unei termocuple
+[[../poze/05153.png]]
 
-<img src="../poze/05154.png" alt="realizarea unei termocuple"/>
+#+CAPTION: realizarea unei termocuple
+[[../poze/05154.png]]
 
 <h2>Realizarea termocuplei</h2>
 
@@ -39,7 +41,8 @@
 
 <p>Aprindeţi o lumânare şi puneţi contactul (vârful) termocuplei în flacără. Observaţi indicaţia voltmetrului. Îndepărtaţi contactul termocuplei din flacără şi lăsaţi-l să se răcească până când indicaţia voltmetrului se apropie din nou de zero.</p>
 
-<img src="../poze/05156.png" alt="generarea tensiunii cu o termocuplă"/>
+#+CAPTION: generarea tensiunii cu o termocuplă
+[[../poze/05156.png]]
 
 <p>Atingeti apoi contactul termocuplei cu un cub de gheaţă şi observaţi indicaţia voltmetrului. Ce puteţi spune despre valoare tensiunii generate, este mai mică sau mai mare decât în cazul precedent? Care este diferenţa dintre polaritatea tensinilor generate în cele două cazuri?</p>
 

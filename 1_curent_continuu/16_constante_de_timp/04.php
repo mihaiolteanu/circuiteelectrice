@@ -29,7 +29,8 @@
 <h3>Descărcarea condensatorului şi a bobinei pe un rezistor</h3>
 <p>Să luăm în considerare ce se întâmplă în cazul fiecărui component reactiv în momentul <i>descărcării</i>, şi anume, atunci când energia stocată în dispozitiv (bobină sau condensator) este eliberată pe un rezistor şi disipată de acesta sub formă de căldură:</p>
 
-<p><img src="../poze/00365.png" alt="descărcarea condensatorului şi a bobinei"/></p>
+#+CAPTION: descărcarea condensatorului şi a bobinei
+[[../poze/00365.png]]
 
 <p>În ambele cazuri, căldura disipată pe/de rezistor constituie energie ce <i>părăseşte</i> circuitul, în consecinţă, componentul reactiv (condensatorul sau bobina) îşi pierde energia stocată în timp; rezultatul este fie o descreştere a tensiunii condensatorului sau o descreştere a curentului bobinei, lucru reprezentat pe grafic. Cu cât rezistorul disipă mai multă putere, cu atât mai rapidă este descărcarea dispozitivelor, deoarece puterea, prin definiţie, este rata transferului de energie cu timpul.</p>
 
@@ -41,14 +42,16 @@
 <h4>Analogia mecanică a energiei potenţiale pentru condensator</h4>
 <p>Să considerăm următoarea ilustraţie pentru condensator, considerând energia stocată în acest ca fiind energie potenţială:</p>
 
-<p><img src="../poze/00366.png" alt="stocarea şi eliberarea energiei potenţiale - analogie pentru modul de stocare al energiei pentru condensator"/></p>
+#+CAPTION: stocarea şi eliberarea energiei potenţiale - analogie pentru modul de stocare al energiei pentru condensator
+[[../poze/00366.png]]
 
 <p>Căruciorul, atunci când se afla în vârful pantei, posedă energie potenţială datorată influenţei gravitaţiei şi poziţiei sale din vârf. Dacă luăm în considerare sistemul de frânare al căruciorului, acesta este analog rezistenţei circuitului/sistemului, iar căruciorul este în acest caz condensatorul; întrebarea este, ce valoare (mică sau mare) a rezistenţai ajută la o eliberare mai rapidă (parcurgerea mai rapidă a pantei) a energiei potenţiale? Desigur, o rezistenţă minimă (lipsa frânelor) ar duce la parcurgerea cea mai rapidă a pantei de către cărucior! Fară ca sistemul de frânare să acţioneze, căruciorul se va deplasa liber pe pantă în jos, folosind („consumând”) energie potenţială pe măsură ce pierde din înălţime. Atunci când sistemul de frânare acţionează la capacitate maximă, căruciorul nu se va deplasa la vale (sau o va face foarte încet), iar energia sa potenţială se va păstra pentru o perioadă mai îndelungată de timp. Acelaşi lucru se întâmplă şi în cazul circutului capacitiv, ce se descarcă rapid dacă rezistenţa sa este mică, şi se descarcă lent dacă rezistenţa este mare.</p>
 
 <h4>Analogia mecanică a energiei cinetice pentru bobină</h4>
 <p>Să considerăm acum o analigie mecanică pentru bobină, reprezentând energie stocată de acesta sub formă cinetică:</p>
 
-<p><img src="../poze/00367.png" alt="stocarea şi eliberarea energiei cinetice - analogie pentru modul de stocare al energiei pentru bobină"/></p>
+#+CAPTION: stocarea şi eliberarea energiei cinetice - analogie pentru modul de stocare al energiei pentru bobină
+[[../poze/00367.png]]
 
 <p>De această dată, căruciorul se află la nivelul solului şi este deja în mişcare. Energia sa în acest caz este energie cinetică (mişcare), nu potenţială (înălţime). Din nou, considerând sistemul de frânare al căruciorului ca fiind analog rezistenţei din circuit, atunci putem considera căruciorul ca fiind bobina; întrebarea în acest caz este este asemănătoare celei din cazul condensatorului, şi anume, ce valoare a rezistenţei facilitează eliberarea rapidă a energiei cinetice stocate? Desigur, o rezistenţă maximă (sistemul de frânarea acţionat la maxim) va încetini căruciorul cel mai repede (într-o perioadă de timp cât mai scurta). Cu sistemul de frânare acţionat la maxim, căruciorul se va opri foarte repede, folosind („consumând”) energia cinetică pe măsură ce încetineşte. Fără acţiunea frânelor, căruciorul se deplasează liber, pentru o perioadă de timp infinita (neglijând frecarea şi rezistenţa aerodinamică în acest caz, de dragul exemplificării), iar energia sa cinetică va fi menţinută (stocată) pentru o perioadă lungă de timp. Analog, un circuit inductiv se descarcă rapid dacă rezistenţa pe care se descarcă este mare şi invers, se descarcă lent dacă rezistenţa este mică.</p>
 

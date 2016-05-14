@@ -29,9 +29,11 @@
 
 <p>Detector audio cu căşti. Circuitul realizat arată astfel:</p>
 
-<img src="../poze/05017.png" alt="detector de câpuri electrice"/>
+#+CAPTION: detector de câpuri electrice
+[[../poze/05017.png]]
 
-<img src="../poze/05018.png" alt="detector de câpuri electrice"/>
+#+CAPTION: detector de câpuri electrice
+[[../poze/05018.png]]
 
 <h2>Utilizarea detectorului de câmpuri electrice</h2>
 

@@ -105,7 +105,8 @@
 
 <p>Lipsa rezistenţei electrice într-un circuit supraconductor conduce la efecte unice. Într-un astfel de circuit, menţinerea curenţilor mari este posibilă fără aplicarea niciunei tensiuni externe.</p>
 
-<p><img src="../poze/00290.png" alt="într-un circuit închis, format din fire supraconductoare, curentul electric poate fi susţinut pentru o perioadă de timp practic infinită, fără aplicarea unei tensiuni externe"/></p>
+#+CAPTION: într-un circuit închis, format din fire supraconductoare, curentul electric poate fi susţinut pentru o perioadă de timp practic infinită, fără aplicarea unei tensiuni externe
+[[../poze/00290.png]]
 
 <p>S-a demonstrat pe cale experimentală faptul că inele din materiale supraconductoare pot susţine curenţi prin ei ani la rând, fără aplicarea unei tensiuni. Practic, nu există o limită teoretică a perioadei de timp pentru care aceşti curenţi pot fi susţinuţi într-un circuit supraconductor. Acest efect pare a fi o formă de mişcare perpetuă. De fapt, nu există nicio lege a fizicii care să nu permită existenţă acestui tip de mişcare, ci doar o lege a fizicii care spune că un sistem nu poate genera mai multă energie decât consumă. În cel mai bun caz, o „maşină de mişcare perpetuă” poate doar să stocheze energie, nu să o şi genereze.</p>
 

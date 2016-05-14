@@ -18,7 +18,8 @@
 <div id="contents">
 <p>Deoarece este nevoie de energie pentru a forţa electronii să se deplaseze împotriva opoziţiei unei rezistenţe, va exista întotdeauna o tensiune electrică între oricare două puncte ale unui circuit ce posedă rezistenţă. Este important de ţinut minte că, deşi cantitatea de curent (cantitatea de electroni ce se deplasează într-un anumit loc în fiecare secundă) este uniformă într-un circuit simplu, cantitatea de tensiune electrică (energia potenţială pe unitate de sarcină) între diferite seturi de puncte dintr-un singur circuit poate varia considerabil:</p>
 
-<img src="../poze/00030.png" alt="curentul este acelaşi în oricare punct al unui circuit electric simplu"/> 
+#+CAPTION: curentul este acelaşi în oricare punct al unui circuit electric simplu
+[[../poze/00030.png]]
 
 <p>Să luăm acest circuit ca şi exemplu. Dacă luăm patru puncte din acest circuit (1, 2, 3 şi 4), vom descoperi că valoarea curentului ce trece prin fir între punctele 1 şi 2 este exact aceeiaşi cu valoarea curentului ce trece prin bec între punctele 2 şi 3. Aceeiaşi cantitate de curent trece prin fir şi între punctele 3 şi 4, precum şi prin baterie între punctele 1 şi 4.</p>
 
@@ -26,7 +27,8 @@
 
 <p>Putem aduce din nou în discuţie analogia rezervorului de apă:</p>
 
-<img src="../poze/00031.png" alt="analogia rezervorului de apă - folosirea energiei eliberate pentru punerea în mişcare a unei roţi de apă"/> 
+#+CAPTION: analogia rezervorului de apă - folosirea energiei eliberate pentru punerea în mişcare a unei roţi de apă
+[[../poze/00031.png]]
 
 <p>Între punctele 2 şi 3, acolo unde apa ce cade eliberează energie asupra roţii, există o diferenţă de presiune, reflectând opoziţia roţii la trecerea apei. Din punctul 1 în punctul 2, sau din punctul 3 la punctul 4, acolo unde apa curge liberă prin rezervor şi bazin întâmpinând o rezistenţă extrem de scăzută, nu există o diferenţă de presiune (nu există energie potenţială). Totuşi, rata de curgere a apei prin acest sistem continuu este aceeiaşi peste tot (presupunând că nivelul apei din rezervor şi bazin nu se schimbă): prin pompă, prin roată şi prin toate ţevile. Acelaşi lucru este valabil şi în cazul circuitelor electrice simple: rata de curgere a electronilor este aceeiaşi în oricare punct al circuitului, cu toate că tensiunile pot varia între diferite seturi de puncte.</p>
 </div>

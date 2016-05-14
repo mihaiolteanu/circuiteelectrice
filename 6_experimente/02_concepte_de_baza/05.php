@@ -25,11 +25,13 @@
 
 <p>În acest experiment vom încerca să ilustrăm „funcţionarea” legii lui Ohm, construind circuitul de mai jos:</p>
 
-<img src="../poze/05062.png" alt="circuit electric simplu"/>
+#+CAPTION: circuit electric simplu
+[[../poze/05062.png]]
 
 <p>Practic, circuitul va arăta astfel:</p>
 
-<img src="../poze/05063.png" alt="circuit electric simplu"/>
+#+CAPTION: circuit electric simplu
+[[../poze/05063.png]]
 
 <h2>Desfăşurarea experimentului</h2>
 

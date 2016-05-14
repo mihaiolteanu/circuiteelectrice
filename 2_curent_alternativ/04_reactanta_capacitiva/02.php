@@ -24,23 +24,28 @@
 
 <p>Matematic, relaţia dintre curentul condensatorului şi rata de variaţie a tensiunii la bornele acestuia, se exprimă asfel:</p>
 
-<p><img src="../poze/12041.png" alt="expresia matematică a relaţiei dintre curentul condensatorului şi rata de variaţie a tensiunii la bornele acestuia"/></p>
+#+CAPTION: expresia matematică a relaţiei dintre curentul condensatorului şi rata de variaţie a tensiunii la bornele acestuia
+[[../poze/12041.png]]
 
 <p>Expresia <i>de/dt</i> exprimă rata de variaţie a tensiunii instantanee (e) în raport cu timpul, calculată în volţi per secundă. Capacitatea (C) este în Farazi, iar curentul instantaneu (i) în Amperi. O exprimare echivalentă este şi dv/dt, folosind „v” în loc de „e” pentru exprimarea tensiunii; cele două notaţii sunt însă echivalente. Să analizăm un circuit simpul pur capacitiv:</p>
 
-<p><img src="../poze/02068.png" alt="circuit electric pur capacitiv şi diagrama fazorială"/></p>
+#+CAPTION: circuit electric pur capacitiv şi diagrama fazorială
+[[../poze/02068.png]]
 
 <p>În circuitul de mai sus, tensiunea este defazată în urma curentului cu 90<sup>o</sup>. Graficul celor două forme de undă arată asfel:</p>
 
-<p><img src="../poze/02069.png" alt="graficul formelor de undă pentru un circuit electric pur capacitiv"/></p>
+#+CAPTION: graficul formelor de undă pentru un circuit electric pur capacitiv
+[[../poze/02069.png]]
 
 <p>Reţineti, curentul printr-un condensator este rezultatul variaţiei tensiunii la bornele acestuia. Prin urmare, curentu instantaneu este zero atunci când tensiunea instantanee este la valoarea sa maximă, pozitivă sau negativă, reprezentând variaţie zero sau pantă zero; curentul instantaneu are valoarea maximă atunci când tensiunea instantanee are variaţia maximă, adică zona în care variaţia este maximă (intersecţia cu axa orizontală a timpului). Rezultă o undă a tensiunii defazată cu -90<sup>o</sup> faţă de curent. Dacă ne uităm pe grafic, curentul pare să aibe un „avantaj” faţă de tensiune; curentul este defazat înaintea tensiunii, sau echivalent, tensiunea este defazată în urma curentului.</p>
 
-<p><img src="../poze/02070.png" alt="graficul explicat al formelor de undă pentru un circuit electric pur capacitiv"/></p>
+#+CAPTION: graficul explicat al formelor de undă pentru un circuit electric pur capacitiv
+[[../poze/02070.png]]
 
 <p>Forma de undă pentru putere este asemănătoare celei existente în cazul circuitului pur inductiv:</p>
 
-<p><img src="../poze/02071.png" alt="graficul formelor de undă pentru un circuit electric pur capacitiv"/></p>
+#+CAPTION: graficul formelor de undă pentru un circuit electric pur capacitiv
+[[../poze/02071.png]]
 
 <p>Defazajul de 90<sup>o</sup> dintre curent şi tensiune duce la o formă a undei de putere ce alternează în mod egal între pozitiv şi negativ. Aceast lucru înseamnă că nu există pierdere de putere (nu se disipă putere) pe condensator ca urmare a variaţiei tensiunii; acesta doar absoarbe putere şi apoi o eliberează din şi înspre circuit, în mod alternativ.</p>
 
@@ -48,7 +53,8 @@
 
 <p>Din moment ce condensatoarele „conduc” curent în proporţie directă cu variaţia tensiunii, acestea vor conduce mai mult curent cu cât variaţia tensiunii este mai mare (durata de încărcare şi descărcare la valorile de vârf este mai mică), şi mai puţin cu cât variaţia tensiunii este mai mică. Acest lucru înseamnă că reactanţă condensatoarelor este <i>invers</i> proporţională cu frecvenţă curentului alternativ.</p>
 
-<p><img src="../poze/12042.png" alt="formula de calcul a reactanţei capacitive"/></p>
+#+CAPTION: formula de calcul a reactanţei capacitive
+[[../poze/12042.png]]
 
 <p>Reactanţă unui condensator de 100 &#181;F:</p>
 <table border="1">
@@ -76,14 +82,18 @@
 
 <p>Curentul alternativ într-un circuit pur capacitiv este egal cu raportul dintre tensiune şi reactanţă capacitivă. Să luăm ca şi exemplu următorul circuit:</p>
 
-<p><img src="../poze/02072.png" alt="circuit capacitiv simplu"/></p>
-<p><img src="../poze/12043.png" alt="calcularea curentului într-un circuit pur capacitiv"/></p>
+#+CAPTION: circuit capacitiv simplu
+[[../poze/02072.png]]
+#+CAPTION: calcularea curentului într-un circuit pur capacitiv
+[[../poze/12043.png]]
 
 <p>Totuşi, trebuie să ne reamintim faptul că tensiunea şi curentul nu sunt în fază în acest caz, curentul fiind defazat cu +90<sup>o</sup> faţă de tensiune. Dacă reprezentăm unghiul de fază al tensiunii şi al curentului sub formă matematică, putem calcula unghiul de fază al opoziţiei reactive a condensatorului faţă de curent:</p>
 
-<p><img src="../poze/12044.png" alt="calcularea opoziţiei condensatorului faţă de curent într-un circuit pur capacitiv"/></p>
+#+CAPTION: calcularea opoziţiei condensatorului faţă de curent într-un circuit pur capacitiv
+[[../poze/12044.png]]
 
-<p><img src="../poze/02073.png" alt="circuit capacitiv simplu - diagrama fazorială"/></p>
+#+CAPTION: circuit capacitiv simplu - diagrama fazorială
+[[../poze/02073.png]]
 
 <p class="sumar">Sumar:</p>
 <ul>

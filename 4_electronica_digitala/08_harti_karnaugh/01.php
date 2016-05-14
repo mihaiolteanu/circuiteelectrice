@@ -26,7 +26,8 @@
 <p>Simplificarea booleană este de fapt mai rapidă în cazul în care avem maxim două variabile booleene. Putem folosi această metodă chiar şi în situaţia în care avem trei variabile, dar metoda booleană este mai greoaie în acest caz. Cu patru variabile de intrare, algebra booleeană devine „imposibilă”. Hărţile Karnaugh sunt mai rapide şi mai uşor de implementat. Acestea pot fi folosite cu succes în situaţiile în care avem până la şase variabile de intrare. Între şase şi opt, mai putem încă folosi aceste hărţi. Peste această valoare, este indicat să folosim un program software specializat pentru realizarea simplificărilor logice.</p>
 
 
-<img src="../poze/00000.png" alt=""/>
+#+CAPTION: 
+[[../poze/00000.png]]
 
 
 <p class="sumar">Sumar:</p>

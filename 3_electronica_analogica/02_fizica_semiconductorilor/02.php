@@ -27,27 +27,33 @@
 
 <p>De exemplu, elementele din grupa I din tabelul periodic, Li, Na, K, Cu, Ag şi Au au doar un singur electron de valenţă (numărul de electroni de pe ultimul strat). Toate aceste elemente posedă proprietăţi chimice similare. Aceşti atomi cedează un electron pentru a reacţiona cu alte elemente, iar această proprietatea face ca aceste elemente să fie conductoare excelente de electricitate.</p>
 
-<p><img src="../poze/03394.png" alt="elementele din grupa I; toate au un singur electron de valenţă, electron care este cedat în reacţia cu alte elemente chimice"/></p>
+#+CAPTION: elementele din grupa I; toate au un singur electron de valenţă, electron care este cedat în reacţia cu alte elemente chimice
+[[../poze/03394.png]]
 
 <p>Elementele din grupa VIIA, Fl, Cl şi BR, au toate câte 7 electroni în stratul exterior (stratul de valenţă). Aceste elemente acceptă un electron pentru completarea stratului de valenţă la 8 electroni. În cazul în care aceste elemente acceptă un electron, ele formează ioni negativi. Din moment ce nu cedeazăelectroni, aceste elemente sunt foarte buni izolatori electrici.</p>
 
-<p><img src="../poze/03394.png" alt="elementele din grupa VIIA; toate au şapte electroni de valenţă, prin urmare, acestea acceptă un electron pentru completarea stratului de valenţă"/></p>
+#+CAPTION: elementele din grupa VIIA; toate au şapte electroni de valenţă, prin urmare, acestea acceptă un electron pentru completarea stratului de valenţă
+[[../poze/03394.png]]
 
 <p>De exemplu, un atom de Cl acceptă un electron al unui atom de Na devenind ion negativ Cl<sup>-</sup>, iar atomul de Na devine ion pozitiv, Na<sup>+</sup>. Un <i>ion</i> este un atom, moleculă sau grupare de atomi care are un exces de sarcină electrică pozitivă sau negativă. Acesta este modul în care Na şi Cl se combină pentru formarea NaCl, sarea de masă, care este defapt o pereche de ioni, Na<sup>+</sup>Cl<sup>-</sup>. Fiindcă sarcinile celor doi ioni sunt de semn contrar, cei doi se atrag reciproc.</p>
 
-<p><img src="../poze/03398.png" alt="Atomul de Na doneazăun electron atomului de Cl, formând ioni pozitivi şi negativ de Na, respectiv Cl"/></p>
+#+CAPTION: Atomul de Na doneazăun electron atomului de Cl, formând ioni pozitivi şi negativ de Na, respectiv Cl
+[[../poze/03398.png]]
 
 <p>Structura cristalină a clorurii de sodiu (NaCl) este prezentată în figura de mai jos.</p>
 
-<p><img src="../poze/03400.png" alt="structura cristalină a clorurii de sodiu (NaCl)"/></p>
+#+CAPTION: structura cristalină a clorurii de sodiu (NaCl)
+[[../poze/03400.png]]
 
 <p>Elementele din grupa a VIIIA, He, Ne, Ar, Kr şi Xe au toate câte 8 electroni pe stratul de valenţă. Acest lucru înseamnă că aceste elemente nici nu donează dar nici nu acceptă electroni, neparticipând la reacţii chimice cu alte elemente. Toate sunt izolatori electrici şi se găsesc sub formă de gaz la temperatura camerei.</p>
 
-<p><img src="../poze/03396.png" alt="elementele din grupa VIIIA au toate câte 8 electroni pe stratul de valentă, prin urmare, aceste elemente nu cedează şi nici nu acceptă electroni, ceea ce înseamnă ca nu pot participa la reacţii chimice"/></p>
+#+CAPTION: elementele din grupa VIIIA au toate câte 8 electroni pe stratul de valentă, prin urmare, aceste elemente nu cedează şi nici nu acceptă electroni, ceea ce înseamnă ca nu pot participa la reacţii chimice
+[[../poze/03396.png]]
 
 <p>Elementele din grupa IVA, C, Si şi Ge au toate câte 4 electroni în stratul de valenţă. Aceste elemente formează compuşi cu alte elemente, dar nu formează ioni. Acest tip de legătură este cunoscută sub numele de <i>legătură covalentă</i>. Se poate observa că atomul din centru are completat stratul de valenţă prin punerea în comun a electronilor atomilor. Figura de mai jos este o reprezentare bi-dimensională a unui aranjament tri-dimensional. Elementele din această grupă prezintă proprietăţile semiconductoare pe care le vom studia în continuare.</p>
 
-<p><img src="../poze/03397.png" alt="elementele din grupa IVA au toate câte 4 electroni pe stratul de valenţă; aceste elemente sunt studiate în electronică pentru proprietăţile lor semiconductoare"/></p>
+#+CAPTION: elementele din grupa IVA au toate câte 4 electroni pe stratul de valenţă; aceste elemente sunt studiate în electronică pentru proprietăţile lor semiconductoare
+[[../poze/03397.png]]
 
 <h3>Structura cristalină</h3>
 

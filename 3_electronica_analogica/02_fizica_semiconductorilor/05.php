@@ -24,7 +24,8 @@
 
 <p>Totuşi daca un <i>singur</i> cristal semiconductor este confecţionat (dopat) cu un material de tip P la un capăt, şi un material de tip N la celălalt capăt, combinaţia respectivă prezintă unele proprietăţi unice. În materialul de tip P, majoritatea purtătorilor de sarcină sunt goluri, aceştia putându-se deplasa liberi prin structura cristalului. În materialul de tip N majoritatea purtătorilor de sarcină sunt electroni, şi aceştia putându-se deplasa liberi prin structura cristalului. În jurul joncţiunii însă (intersecţia dintre cele două tipuri de materiale), electronii materialului N trec peste joncţione şi se combină cu golurile din materialul P (figura de jos, (b)). Regiunea materialului P din apropierea joncţiunii capătă o sarcină nagativă datorită electronilor atraşi, iar Regiunea materialului N din apropierea joncţiunii capătă o sarcină pozitivă datorită electronilor cedaţi. Stratul subţire a acestei structuri cristaline, dintre cele două sarcini de semne contrare, va fi „golit” de majoritatea purtătorilor de sarcină, prin urmare, acesta este cunoscută sub numele de <i>zona de golire</i>, şi devine un material semiconductor pur, non-conductor. De fapt, aproape că avem un material izolator ce separă cele două regiuni conductive P şi N.</p>
 
-<p><img src="../poze/03408.png" alt="(a) două blocuri P şi N de material semiconductor nu au nicio proprietate remarcabilă; (b) un singur cristal dopat atât cu impurităţi P cât şi cu impurităţi N duce la formarea unei bariere de potenţial"/></p>
+#+CAPTION: (a) două blocuri P şi N de material semiconductor nu au nicio proprietate remarcabilă; (b) un singur cristal dopat atât cu impurităţi P cât şi cu impurităţi N duce la formarea unei bariere de potenţial
+[[../poze/03408.png]]
 
 <p>Această separare de sarcini în jurul joncţiunii P-N (zona de golire) constituie în fapt o barieră de potenţial. Această barieră de potenţial trebuie să fie „învinsă” de o sursă de tensiune externă pentru a se putea comporta precum un material conductor. Formarea joncţiunii şi a barierei de potenţial are loc în timpul procesului de fabricaţie. „Înălţimea” barierei de potenţial depinde de materialele folosite pentru fabricarea acestuia. Joncţiunile PN din siliciu au o barieră de potenţial mai ridicată decât joncţiunile fabricate din germaniu.</p>
 
@@ -32,7 +33,8 @@
 
 <p>În figura de mai jos (a), bateria este poziţionată asfel încât electronii să se deplaseze dinspre terminalul negativ înspre materialul de tip N. Aceşti electroni se adună în jurul joncţiunii. Terminalul pozitiv înlătură electronii din materialul semiconductor de tip P, ceea ce duce la crearea golurilor ce se îndreaptă şi ele spre joncţiune. Dacă tensiunea bateriei este suficient de mare pentru a depăşi potenţialul joncţiunii (0.6 V în cazul siliciului), electronii materialului N şi golurile materialului P se combină şi se anihilează reciproc. Acest lucru duce la crearea unui spaţiu liber în structura materialului ce poate susţine o deplasare şi mai mare de purtători de sarcină spre joncţiune. Asfel, curenţii purtătorilor de sarcină majoritari de tip N (electroni) şi de tip P (goluri) se deplasează înspre joncţiune. Recombinaţia ce are loc la joncţiune permite curentului bateriei să se „deplaseze” prin joncţiunea PN a unei asfel de diode. În acest caz, spunem că o asfel de joncţiune este polarizată direct.</p>
 
-<p><img src="../poze/03409.png" alt="polarizarea directă a joncţiunii PN"/></p>
+#+CAPTION: polarizarea directă a joncţiunii PN
+[[../poze/03409.png]]
 
 <h3>Polarizarea inversă a joncţiunii PN</h3>
 

@@ -24,7 +24,8 @@
 
 <p>Matematic, conductanţa este inversa rezistenţei:</p>
 
-<img src="../poze/10079.png" alt="relaţia conductanţă-rezistenţă"/>
+#+CAPTION: relaţia conductanţă-rezistenţă
+[[../poze/10079.png]]
 
 <p>Cu cât valoarea rezistenţei este mai mare, cu atât mai mică va fi cea a conductanţei şi invers. Simbolul folosit pentru desemnarea conductanţei este „G”, iar unitatea de măsură este <i>siemens</i>, abreviat prin „S”.</p>
 
@@ -33,23 +34,28 @@
 
 <p>Rezistenţa totală paralelă este mai <i>mică</i> decât oricare dintre rezistenţele ramurilor luate individual (R<sub>total</sub> mai mică decât R<sub>1</sub>, R<sub>2</sub>, R<sub>3</sub> sau R<sub>4</sub> luate individual):</p>
 
-<img src="../poze/00096.png" alt="circuit paralel"/>
+#+CAPTION: circuit paralel
+[[../poze/00096.png]]
 
 <p>Conductanţa paralelă este mai <i>mare</i> decât oricare dintre conductanţele ramurilor luate individual, deoarece rezistorii paraleli conduct mai bine curantul electricât decât o fac fiecare luat în parte(G<sub>total</sub> mai mare decât G<sub>1</sub>, G<sub>2</sub>, G<sub>3</sub> sau G<sub>4</sub> luate individual):</p>
 
-<img src="../poze/00097.png" alt="circuit paralel, conductanţă"/>
+#+CAPTION: circuit paralel, conductanţă
+[[../poze/00097.png]]
 
 <p>Matematic, această relaţie se exprimă asfel:</p>
 
-<img src="../poze/10080.png" alt="formula conductanţei"/>
+#+CAPTION: formula conductanţei
+[[../poze/10080.png]]
 
 <p>Cunoscând relaţia matematică inversă dintre conductanţă şi rezistenţă (1/x), putem transforma fiecare din termenii formulei de mai sus în rezistenţe:</p>
 
-<img src="../poze/10081.png" alt="formula conductanţei, înlcuită cu rezistenţe"/>
+#+CAPTION: formula conductanţei, înlcuită cu rezistenţe
+[[../poze/10081.png]]
 
 <p>Rezolvând ecuaţie de mai sus pentru R<sub>total</sub>, ajungem la următoarea formulă:</p>
 
-<img src="../poze/10082.png" alt="rezistenţa totală, circuit paralel"/>
+#+CAPTION: rezistenţa totală, circuit paralel
+[[../poze/10082.png]]
 
 <p>Asfel, ajungem la formula rezistenţei totale dintr-un circuit paralel.</p>
 

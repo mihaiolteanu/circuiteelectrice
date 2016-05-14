@@ -22,31 +22,38 @@
 <div id="contents">
 <p>Să luăm în considerare aceleaşi componente din circuitul serie, dar să le conectăm de data aceasta în paralel:</p>
 
-<p><img src="../poze/02262.png" alt="circuit rezistiv-inductiv paralel în curent alternativ"/></p>
+#+CAPTION: circuit rezistiv-inductiv paralel în curent alternativ
+[[../poze/02262.png]]
 
 <p>Deoarece sursa de tensiune are aceeiaşi frecvenţă ca şi în cazul circuitului serie, iar rezistorul şi bobina au aceleaşi valori ale rezistenţei şi inductanţei, acestea trebuie sa aibă aceleaşi valori ale impedanţei. Prin urmare, începem completarea tabelului cu aceleaşi valori date:</p>
 
-<p><img src="../poze/12028.png" alt="tabel"/></p>
+#+CAPTION: tabel
+[[../poze/12028.png]]
 
 <p>Singura diferenţă faţă de cazul precedent, este că de data aceasta vom aplica regulile circuitelor paralele, şi nu cele ale circuitelor serie. Metoda de lucru este practic aceeiaşi ca şi în cazul circuitelor de curent continuu. Cunoaştem faptul că tensiunea este aceeiaşi pe toate componentele într-un circuit paralel, aşa că putem copleta toate coloanele cu aceeiaşi valoare a tensiunii:</p>
 
-<p><img src="../poze/12033.png" alt="tabel"/></p>
+#+CAPTION: tabel
+[[../poze/12033.png]]
 
 <p>Acum putem aplica legea lui Ohm (I=E/Z) vertical pentru cele două coloane, calculând curentul prin rezistor şi curentul prin bobină:</p>
 
-<p><img src="../poze/12034.png" alt="tabel"/></p>
+#+CAPTION: tabel
+[[../poze/12034.png]]
 
 <p>La fel ca în cazul circuitelor de curent continuu, curenţii de ramură în circuitele de curent alternativ se însumează pentru a forma curentul total (legea lui Kirchhoff pentru curent este valabilă şi în acest caz):</p>
 
-<p><img src="../poze/12035.png" alt="tabel"/></p>
+#+CAPTION: tabel
+[[../poze/12035.png]]
 
 <p>Impedanţa totală poate fi calculată folosind legea lui Ohm (Z=E/I) vertical pe coloana „Total”. Impedanţa totală poate fi calculată, de asemenea, folosind o formulă echivalentă celei folosite pentru calcularea rezistenţei totale paralele:</p>
 
-<p><img src="../poze/12036.png" alt="formula de calcul a impedanţei paralele totale"/></p>
+#+CAPTION: formula de calcul a impedanţei paralele totale
+[[../poze/12036.png]]
 
 <p>Indiferent ce motodă folosim, rezultatul este acelaşi:</p>
 
-<p><img src="../poze/12037.png" alt="tabel"/></p>
+#+CAPTION: tabel
+[[../poze/12037.png]]
 
 <p class="sumar">Sumar:</p>
 <ul>

@@ -25,7 +25,8 @@
 
 <p>În momentul în care curentul întâmpină rezistenţa de 5 Ω, se va înregistra o cădere de tensiune la capetele acesteia. Polaritatea acestei căderi de tensiune este minus (-) la punctul 4 şi plus (+) la punctul 3 (ţineţi minte, tensiunea este o mărime relativă între două puncte). Prin urmare, marcăm polaritatea căderii de tensiune la bornele rezistenţei cu aceste simboluri, folosind sensul real de deplasare al electronilor prin circuit, ceea ce înseamnă că borna pe unde curentul <i>intră</i> în rezistor este cea negativă, iar borna (capătul) pe unde curentul <i>iese</i> din rezistor este cea pozitivă.</p>
 
-<img src="../poze/00052.png" alt="marcarea polarităţii căderii de tensiune într-un circuit simplu"/>
+#+CAPTION: marcarea polarităţii căderii de tensiune într-un circuit simplu
+[[../poze/00052.png]]
 
 <pre>
 Între punctele 1 (+) şi 4 (-) = 10 volţi                     

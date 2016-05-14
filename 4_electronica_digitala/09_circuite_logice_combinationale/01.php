@@ -31,15 +31,18 @@
 
 <p>Când ambele intrări sunt 0:</p>
 
-<img src="../poze/04451.png" alt="circuit logic combinaţional format din două porţi logice ŞI-negat"/>
+#+CAPTION: circuit logic combinaţional format din două porţi logice ŞI-negat
+[[../poze/04451.png]]
 
 <p>Când una dintre intrări este 1:</p>
 
-<img src="../poze/04452.png" alt="circuit logic combinaţional format din două porţi logice ŞI-negat"/>
+#+CAPTION: circuit logic combinaţional format din două porţi logice ŞI-negat
+[[../poze/04452.png]]
 
 <p>Când şi cealaltă intrare este 1:</p>
 
-<img src="../poze/04453.png" alt="circuit logic combinaţional format din două porţi logice ŞI-negat"/>
+#+CAPTION: circuit logic combinaţional format din două porţi logice ŞI-negat
+[[../poze/04453.png]]
 
 <p>Prin urmare, porţile ŞI-negat sunt indiferente la ordinea de alimentare a intrărilor. Acelaşi lucru este valabil şi pentru celelalte porţi logice discutate până în acest moment (ŞI, SAU-exclusiv, SAU, SAU-negat, SAU-negat-exclusiv şi NU).</p>
 

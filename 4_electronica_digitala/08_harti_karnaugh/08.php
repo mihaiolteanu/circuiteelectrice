@@ -41,7 +41,8 @@
 
 <p>O expresie booleană este formată de cele mai multe ori din mai mulţi mintermeni, corespunzând mai multor regiuni pe o hartă Karnaugh, precum în exemplul de mai jos:</p>
 
-<img src="../poze/14127.png" alt="simplificarea expresiei booleene prin intermediul hărţii Karnaugh"/>
+#+CAPTION: simplificarea expresiei booleene prin intermediul hărţii Karnaugh
+[[../poze/14127.png]]
 
 <p>Mintermenii multiplii de pe această hartă sunt mintermenii individuali ce i-am analizat mai sus. Ceea ce vrem să reamintim este faptul că valorile de 1 sunt „traduse” de pe harta Karnaugh ca şi o adresă binară transformată direct într-unul sau mai mulţi termeni sub formă de produs. Prin direct, ne referim la faptul că 0 corespunde unei variabile negate, iar 1 corespunde unei variabile „pure”. De exemplu, 010 se transformă direct în A'BC'. În acest exemplu nu a existat nicio simplificare. Totuşi, avem ca şi rezultat o sumă de produse prin intermediul mintermenilor.</p>
 
@@ -61,7 +62,8 @@
 
 <p>Să considerăm acum o funcţie booleană ce este 0 pentru o singură regiune şi 1 în rest:</p>
 
-<img src="../poze/14128.png" alt="simplificarea expresiei booleene prin intermediul hărţii Karnaugh"/>
+#+CAPTION: simplificarea expresiei booleene prin intermediul hărţii Karnaugh
+[[../poze/14128.png]]
 
 <p>Un maxtermen este o expresie booleană a cărei valori este 0 pentru o singură regiune, toate celelalte regiunii ale hărţii Karnaugh sau ale tabelului de adevăr fiind 0. Vedeţi şi explicaţia de la mintermen. Figura de sus stânga prezintă un maxtermen (A + B + C), o sumă de trei termeni simplii. Pe hartă, această sumă este reprezentată printr-un singur 0, toate celelalte regiunii ale hărţii fiind 1. Dacă un maxtermen are un singur 0, iar celelalte regiuni sunt 1, aria maximă pe care o acoperă este 1.</p>
 
@@ -81,19 +83,22 @@
 
 <p>Un alt maxtermen este prezentat în figura de mai jos. Valoarea numerică 000 corespunde termenului A' + B' + C'. Complementul este 111. Introducem o valoare de 0 pentru maxtermenul (A' + B' + C') la această adresă (1, 1, 1) a hărţii Karnaugh de mai jos:</p>
 
-<img src="../poze/14129.png" alt="simplificarea expresiei booleene prin intermediul hărţii Karnaugh"/>
+#+CAPTION: simplificarea expresiei booleene prin intermediul hărţii Karnaugh
+[[../poze/14129.png]]
 
 <h2>Scrierea expresiei booleene simplificate ca şi produs de sume</h2>
 
 <p>O expresie booleană sub formă produsului de sume poate avea mai mulţi maxtermeni, conform figurii de mai jos:</p>
 
-<img src="../poze/14130.png" alt="simplificarea expresiei booleene prin intermediul hărţii Karnaugh"/>
+#+CAPTION: simplificarea expresiei booleene prin intermediul hărţii Karnaugh
+[[../poze/14130.png]]
 
 <p>Maxtermenul (A + B + C) sub formă numerică este 111, iar complementat este 000. Plasăm prin urmare un 0 la adresa (0, 0, 0). Maxtermenul (A + B + C') sub formă numerică este 110, iar complementat este 001. Plasăm prin urmare un zero la adresa (0, 0, 1).</p>
 
 <p>Acum că am construit harta Karnaugh, suntem interesaţi de modul în care putem scrie o formă simplificată a expresiei booleene iniţiale sub formă de produs de sume. Primul pas este gruparea termenilor de 0, precum grupul de mai jos:</p>
 
-<img src="../poze/14131.png" alt="simplificarea expresiei booleene prin intermediul hărţii Karnaugh"/>
+#+CAPTION: simplificarea expresiei booleene prin intermediul hărţii Karnaugh
+[[../poze/14131.png]]
 
 <p>Scriem apoi valoarea binară corespunzătoare termenului-sumă, ce arată astfel: (0, 0, X). Pentru grupul format, atât A cât şi B sunt 0. Dar C este atât 0 cât şi 1. Prin urmare, scriem un X în locul valorii lui C. Formăm complementul: (1, 1, X). Scriem termenul sumă (A + B) ignorând C-ul si X-ul ce l-a înlocuit.</p>
 
@@ -111,15 +116,18 @@
 
 <p>Simplificaţi expresia booleană sub forma produsului de sume de mai jos. Scrieţi rezultatul final sub forma unui produs de sume:</p>
 
-<img src="../poze/14132.png" alt="expresie booleană sub formă de produs de sume"/>
+#+CAPTION: expresie booleană sub formă de produs de sume
+[[../poze/14132.png]]
 
 <p>Soluţie: completăm o hartă Karnaugh cu cei şapte maxtermeni de mai sus (introducem valori de 0). Reţineţi să complementaţi variabile de intrare pentru găsirea adresei corespunzătoare:</p>
 
-<img src="../poze/14133.png" alt="simplificarea expresiei booleene prin intermediul hărţii Karnaugh"/>
+#+CAPTION: simplificarea expresiei booleene prin intermediul hărţii Karnaugh
+[[../poze/14133.png]]
 
 <p>După ce am introdus toţi maxtermenii în tabel, trecem la gruparea regiunilor, precum în figura de mai jos. Grupurile mai mari se traduc printr-un termen-sumă cu mai puţine intrări. Cu cât avem mai puţine grupuri, cu atât vom avea mai puţin termeni-sumă în expresia finală:</p>
 
-<img src="../poze/14134.png" alt="simplificarea expresiei booleene prin intermediul hărţii Karnaugh"/>
+#+CAPTION: simplificarea expresiei booleene prin intermediul hărţii Karnaugh
+[[../poze/14134.png]]
 
 <p>Avem trei grupuri, prin urmare, trebuie să avem trei termeni-sumă în rezultatul final. Detaliile simplificării sunt prezentate în figura de mai sus. Pentru oricare grup, scriem mai întâi adresa de intrare, o comlementăm şi o transformăm într-un termen boolean sub formă de sumă. Rezultatul final este produsul acestor trei termeni-sumă.</p>
 
@@ -127,25 +135,29 @@
 
 <p>Simplificaţi expresia booleană sub formă de produs de sume de mai jos, exprimând rezultatul sub forma unei sume de produse:</p>
 
-<img src="../poze/14132.png" alt="expresie booleană sub formă de produs de sume"/>
+#+CAPTION: expresie booleană sub formă de produs de sume
+[[../poze/14132.png]]
 
 <p>Această problemă este identică cu cea anterioară, cu diferenţa că expresia simplificată se cere sub formă de sumă de produse şi nu sub formă de produs de sume.</p>
 
 <p>Trecem maxtermenii (0) din expresia iniţială pe harta Karnaugh de mai jos (stânga), exact ca în exemplul precedent:</p>
 
-<img src="../poze/14135.png" alt="simplificarea expresiei booleene prin intermediul hărţii Karnaugh"/>
+#+CAPTION: simplificarea expresiei booleene prin intermediul hărţii Karnaugh
+[[../poze/14135.png]]
 
 <p>Completăm apoi toate celelalte regiuni rămase libere cu valori de 1 (dreapta sus).</p>
 
 <p>Formăm grupuri de 1 pentru toate regiunile ce conţin valori de 1. Scriem apoi rezultatul simplificat sub forma sumei de produse, conform secţiunii precedente a acestui capitol. Acest lucru este identic problemei precedente:</p>
 
-<img src="../poze/14136.png" alt="simplificarea expresiei booleene prin intermediul hărţii Karnaugh"/>
+#+CAPTION: simplificarea expresiei booleene prin intermediul hărţii Karnaugh
+[[../poze/14136.png]]
 
 <h2>Comparaţie între soluţiile cu mintermeni şi maxtermeni</h2>
 
 <p>În figura de mai jos sunt ambele soluţii ale exemplelor de mai sus, pentru comparaţie:</p>
 
-<img src="../poze/14137.png" alt="simplificarea expresiei booleene prin intermediul hărţii Karnaugh"/>
+#+CAPTION: simplificarea expresiei booleene prin intermediul hărţii Karnaugh
+[[../poze/14137.png]]
 
 <p>Care soluţie este mai simplă? Dacă ar fi să implementăm fizic rezultatul sub formă de produs de sume, am avea nevoie de trei porţi logice SAU şi o poartă logică ŞI. Invers, darcă ar fi să implementăm rezultatul sub formă de sumă de produse, am avea nevoie de trei porţi ŞI şi o poartă SAU. În ambele situaţii am avea nevoie de patru porţi. Să numărăm atunci şi numărul de intrări ale porţilor. Prima variantă utilizează 8 intrări, iar a doua 7 intrări. Din definiţia costului minim, soluţia sub forma sumei de produse este mai simplă. Acesta este un exemplu tehnic corect, dar care nu ne este de prea mare folos în realitate.</p>
 
@@ -155,15 +167,18 @@
 
 <p>Circuitele cu porţi logice pentru ambele cazuri sunt prezentate mai jos, produsul de sume în stânga şi suma de produse în dreapta:</p>
 
-<img src="../poze/14138.png" alt="simplificarea expresiei booleene prin intermediul hărţii Karnaugh"/>
+#+CAPTION: simplificarea expresiei booleene prin intermediul hărţii Karnaugh
+[[../poze/14138.png]]
 
 <p>Reluăm mai jos (stânga) circuitul sub forma sumei de produse:</p>
 
-<img src="../poze/14139.png" alt="circuite cu porţi logice"/>
+#+CAPTION: circuite cu porţi logice
+[[../poze/14139.png]]
 
 <p>Dacă înlocuim toate porţile logice ŞI din stânga cu porţi logice ŞI-negat, obţinem rezultatu din dreapta sus. Poarta SAU de la intrare este înlocuită de asemenea cu o poartă ŞI-negat. Pentru a demonstra că logica ŞI-SAU este echivalentă cu logică ŞI-negat-ŞI-negat, este suficient să mutăm „cerculeţele” inversoare de la ieşirea celor trei porţi ŞI-negat la intrarea porţii finale ŞI-negat, conform figurii de mai jos:</p>
 
-<img src="../poze/14140.png" alt="circuite cu porţi logice"/>
+#+CAPTION: circuite cu porţi logice
+[[../poze/14140.png]]
 
 <p>În figura de mai sus (dreapta), putem observa că ieşirea unei porţi SI-negat cu intrări inversate este echivalentă din punct de vedere logic cu o poartă SAU, conform teoremei lui DeMorgan şi a negaţiei duble. Această informaţie ne este de ajutor în implementarea fizică a circuitelor digitale atunci când dispunem de circuite logice TTL cu porţi ŞI-negat.</p>
 
@@ -182,7 +197,8 @@
 
 <p>Să reluăm o problemă precedentă ce implică o simplificare sub formă sumei de produse. Vom realiza o simplificare sub forma unui produs de sume de această dată. Putem compara cele două soluţii la final.</p>
 
-<img src="../poze/14141.png" alt="simplificarea expresiei booleene cu ajutorul hărţi Karnaugh"/>
+#+CAPTION: simplificarea expresiei booleene cu ajutorul hărţi Karnaugh
+[[../poze/14141.png]]
 
 <p>Soluţie: în figura de sus stânga avem problema iniţială, o expresie booleană cu 9 mintermeni nesimplificată. Recapitulând, am format patru grupuri de câte patru regiuni fiecare. Rezultatul a fost o sumă de patru produse (partea din stânga, jos).</p>
 
@@ -190,31 +206,37 @@
 
 <p>Comparând cele două soluţii de mai sus, putem observa că soluţia produsului de sume reprezintă soluţia cu cel mai mic cost. Pentru implementarea primei soluţii am avea nevoie de 5 porţii, iar pentru soluţia produsului de sume am avea nevoie doar de 3. Folosind circuite logice TTL, aceasta din urmă este şi atractivă datorită simplităţii rezultatului. Putem găsim porţi logice ŞI şi SAU cu 2 intrări. Mai jos sunt prezentate circuitele logice pentru ambele soluţii</p>
 
-<img src="../poze/14142.png" alt="circuite cu porţi logice"/>
+#+CAPTION: circuite cu porţi logice
+[[../poze/14142.png]]
 
 <p>Să presupunem că avem la dispoziţie circuitele logice TTL de mai jos. În acest caz, cunoaştem şi poziţionarea porţilor logice în interiorul acestora, precum în figura de mai jos:</p>
 
-<img src="../poze/14145.png" alt="circuite logice TTL"/>
+#+CAPTION: circuite logice TTL
+[[../poze/14145.png]]
 
 <p>Circuitele integrate folosite (trei la număr) vor fi identificate prin notaţia U1, U2 respectiv U3. Pentru a face distincţie între porţile individuale din fiecare capsulă, acestea vor fi identificate prin a, b, c, d, etc. Circuitul inversor 7404 va fi U<sub>1</sub>. Porţile inversoare individuale sunt U1-a, U1-b, U1-c, etc. Circuitul SAU 7432 va fi notat cu U2, iar U3 este notaţie folosită pentru circuitul ŞI 7408.</p>
 
 <p>Luând în considerare piningul circuitelor logice folosite mai sus, vom desemna toate intrările şi ieşirile circuitului logic ce vrem să-l construim, conform figurii de mai jos (intrările porţilor nefolosite se vor lega la masă):</p>
 
-<img src="../poze/14146.png" alt="circuit logic"/>
+#+CAPTION: circuit logic
+[[../poze/14146.png]]
 
 <p>Putem găsi cu uşurinţă porţi logice ŞI cu două intrări (7408, stânga). Totuşi, este mai greu să găsim o poartă logică SAU cu patru intrări. Singurul tip de poartă cu patru intrări este un circuit TTL 7420 cu porţi ŞI-negat (dreapta):</p>
 
-<img src="../poze/14147.png" alt="circuite logice TTL"/>
+#+CAPTION: circuite logice TTL
+[[../poze/14147.png]]
 
 <p>Putem transforma poarta logică ŞI-negat cu patru intrări într-o poartă logică SAU cu patru intrări prin inversarea intrărilor acesteia:</p>
 
-<img src="../poze/14148.png" alt="transformarea funcţiei logice ŞI-negat în SAU"/>
+#+CAPTION: transformarea funcţiei logice ŞI-negat în SAU
+[[../poze/14148.png]]
 
 <p>Putem prin urmare folosi circuitul 7420 cu porţi logice ŞI-negat cu patru intrări ca şi poartă SAU prin negarea (inversarea) intrărilor.</p>
 
 <p>Nu vom folosi porţi logice inversoare discrete pentru inversarea intrărilor circuitului 7420. Vom folosi în schimb porţi logice ŞI-negat cu două intrări în locul porţilor ŞI din soluţia booleană cu mintermeni (sumă de produse). Inversarea ieşirii porţilor ŞI-negat cu două intrări este suficientă pentru inversarea necesară realizării porţii logice SAU cu patru intrări:</p>
 
-<img src="../poze/14149.png" alt="circuit logic - notarea intrărilor şi ieşirilor"/>
+#+CAPTION: circuit logic - notarea intrărilor şi ieşirilor
+[[../poze/14149.png]]
 
 <p>Rezultatul de mai sus este singura modalitate practică de realizarea a circuitului folosind TTL cu porţi logice ŞI-negat-ŞI-negat în locul porţilor ŞI-SAU.</p>
 

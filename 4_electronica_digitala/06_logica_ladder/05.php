@@ -26,19 +26,22 @@
 
 <p>Să luăm ca şi exemplu un sistem simplu şi să vedem cum îl putem implementa folosind relee logice. Să presupunem că un laborator mare sau o clădire industrială urmează să fie echipată cu un sistem de alarmă în caz de incendiu. Acest sistem urmează să fie activat de oricare dintre comutatoarele instalate în întreaga clădire. Sistemul ar trebui să funcţioneze astfel încât sirenă să se energizeze dacă oricare dintre comutatoare este acţionat.</p>
 
-<img src="../poze/04065.png" alt="diagrama ladder"/>
+#+CAPTION: diagrama ladder
+[[../poze/04065.png]]
 
 <p>La o primă vedere, ar părea că circuitul logic este extrem de simplu: utilizăm contacte normal-deschise conectate în paralel, precum în figura alăturată. Practic, aceasta este o funcţie logică SAU cu patru intrări. Putem extinde acest circuit pentru a include un număr oricât de mare de comutatoare, fiecare fiind adăugat în serie. Ne vom limita însă la patru în acest exemplu. În orice caz, acesta pare un sistem elementar şi totul pare a fi în regulă.</p>
 
 <p>Dar ce se întâmplă în cazul unui defect de circuit? Natura circuitelor electrice este astfel încât defectele de funcţionare ce constau în deschiderea circuitului sunt mult mai frecvente decât oricare alt tip de defecte. Aceste deschideri ale circuitului se pot datora deschiderii contactelor releelor, întreruperea conductorilor, arderea siguranţelor fuzibile, etc. Luând acest lucru în considerare, pare normal să realizăm un circuit care să fie cât mai tolerant posibil la o astfel de defecţiune.</p>
 
-<img src="../poze/04066.png" alt="diagrama ladder"/>
+#+CAPTION: diagrama ladder
+[[../poze/04066.png]]
 
 <p>Să presupunem, de exemplu, ca firul conductor al comutatorului doi se distruge, ducând la deschiderea circuitului în acest punct. În cazul în care această defecţiune ar avea loc, comutatorul 2 nu ar mai putea energia sirena în cazul în care ar fi acţionat (închis). Acest lucru, evident, nu este de dorit în cazul unui incendiu. Dacă sistemul nu este verificat periodic ( o idee bună oricum), nimeni nu ar putea ştii că există o problemă până când cineva nu ar încerca sa utilizeze acel comutator în caz de urgenţă.</p>
 
 <div class="clear"></div>
 
-<img src="../poze/04067.png" alt="diagrama ladder"/>
+#+CAPTION: diagrama ladder
+[[../poze/04067.png]]
 
 <p>Dar dacă am re-proiecta sistemul astfel încât alarma să se declanşeze (şi) în cazul unui astfel de defect? Astfel, defectul conductorului ar duce la o alarmă de incendiu falsă. Totuşi, acest scenariu este de preferat celui în care comutatorul nu funcţionează deloc în cazuri de urgenţă. Pentru atingerea acestui scop, va trebui să refacem circuit, astfel încât alarma să fie declanşată de un comutator deschis şi nu de unul închis. Comutatoarele vor trebui sa fie normal-închise şi în serie, alimentând bobina unui releu care la rândul ei activează un contact normal-închis ce controlează sirena.</p>
 
@@ -53,7 +56,8 @@
 
 
 
-<img src="../poze/00000.png" alt=""/>
+#+CAPTION: 
+[[../poze/00000.png]]
 
 <div class="clear"></div>
 

@@ -25,23 +25,29 @@
 
 <p>În cele ce urmează vom realiza un circuit simplu, format dintr-un bec şi o baterie, precum cel prezentat în figura de mai jos:</p>
 
-<img src="../poze/05045.png" alt="circuit electric rezitiv simplu"/>
+#+CAPTION: circuit electric rezitiv simplu
+[[../poze/05045.png]]
 
 <p>Practic, circuitul nostru va arăta astfel:</p>
 
-<img src="../poze/05046.png" alt="circuit electric rezitiv simplu"/>
+#+CAPTION: circuit electric rezitiv simplu
+[[../poze/05046.png]]
 
 <p>Acesta reprezintă de fapt cel mai simplu circuit pe care îl vom studia în întreg volumul: o baterie şi un bec. Conectaţi becul la baterie, conform figurii de mai sus. Acesta ar trebui sa se aprindă în cazul în care ambele se află în stare de funcţionare, iar tensiunea bateriei este suficientă pentru a-l aprinde.</p>
 
 <p>În cazul în care există o discontinuitate (circuit deschis), indiferent în ce parte a circuitului, becul nu se va aprinde. <i>Nu</i> contează locul apariţiei unei astfel de discontinuităţi. Experimentaţi cu scenariile prezentate mai jos ca să vă convingeţi de acest lucru:</p>
 
-<img src="../poze/05047.png" alt="discontinuitatea unui circuit electric"/>
+#+CAPTION: discontinuitatea unui circuit electric
+[[../poze/05047.png]]
 
-<img src="../poze/05048.png" alt="discontinuitatea unui circuit electric"/>
+#+CAPTION: discontinuitatea unui circuit electric
+[[../poze/05048.png]]
 
-<img src="../poze/05049.png" alt="discontinuitatea unui circuit electric"/>
+#+CAPTION: discontinuitatea unui circuit electric
+[[../poze/05049.png]]
 
-<img src="../poze/05050.png" alt="discontinuitatea unui circuit electric"/>
+#+CAPTION: discontinuitatea unui circuit electric
+[[../poze/05050.png]]
 
 <h2>Desfăşurarea experimentului</h2>
 
@@ -49,7 +55,8 @@
 
 <p>Acum, întrerupeţi circuitul şi remăsuraţi tensiune între aceleaşi seturi de puncte. Opţional, măsuraţi tensinea în locul întreruperii circuitului, astfel:</p>
 
-<img src="../poze/05051.png" alt="discontinuitatea unui circuit electric"/>
+#+CAPTION: discontinuitatea unui circuit electric
+[[../poze/05051.png]]
 
 <p>Ce tensiuni sunt similare tensiunilor de dinainte? Ce tensiuni sunt diferite după introducerea întreruperii? Ce cantitate de tensiune se regăseşte la locul întreruperii? Care este polaritatea căderii de tensiune de la locul întreruperii, indicată de aparatul de măsură?</p>
 
@@ -57,21 +64,25 @@
 
 <p>Realizaţi acelaşi circuit pe o placă de test. Aveţi grijă să introduceţi becul şi firele pe placă astfel încât să există contact între ele (continuitatea circuitului). Exemplul de mai jos este doar un exemplu, şi nu reprezintă singura modalitate de realizare a unui circuit pe placă:</p>
 
-<img src="../poze/05052.png" alt="circuit electric pe o placă de test"/>
+#+CAPTION: circuit electric pe o placă de test
+[[../poze/05052.png]]
 
 <p>Experimentaţi cu diferite configuraţii ale circuitului pe placa de test. Dacă întâmpinaţi o situaţie în care becul nu se aprinde, iar firele conductoare se încălzesc, aveţi probabil de a face cu un scurt-circuit. Cu alte cuvinte, există un drum cu o rezistenţă mai mică decât a becului. Curentul va „prefera” acest drum în detrimentul becului. Să vedem un astfel de exemplu:</p>
 
-<img src="../poze/05053.png" alt="circuit electric pe o placă de test; scurt-circuit"/>
+#+CAPTION: circuit electric pe o placă de test; scurt-circuit
+[[../poze/05053.png]]
 
 <p>Şi un exemplu tipic de scurt-circuit <i>accidental</i> realizat de obicei de cei care nu sunt familiarizaţi încă cu folosirea plăcii de test:</p>
 
-<img src="../poze/05054.png" alt="circuit electric pe o placă de test; scurt-circuit"/>
+#+CAPTION: circuit electric pe o placă de test; scurt-circuit
+[[../poze/05054.png]]
 
 <p>Vă daţi seama de unde rezultă scurt-circuitul? Astfel de scenarii trebuie însă evitate cu orice preţ, întrucât scurt-circuitele pot duce la distrugeri materiale şi vătămări corporale.</p>
 
 <p>Puteţi de asemenea realiza circuitul de mai sus folosindu-vă de o regletă de borne:</p>
 
-<img src="../poze/05055.png" alt="circuit electric pe o regletă de borne"/>
+#+CAPTION: circuit electric pe o regletă de borne
+[[../poze/05055.png]]
 
 
 

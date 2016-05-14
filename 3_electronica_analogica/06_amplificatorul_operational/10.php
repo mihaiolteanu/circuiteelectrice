@@ -26,7 +26,8 @@
 
 <h2>Circuit de derivare</h2>
 
-<p><img src="/sites/default/files/electronica_analogica/03048.png" alt="circuit de derivare"/></p>
+#+CAPTION: circuit de derivare
+[[/sites/default/files/electronica_analogica/03048.png]]
 
 <p>Partea dreaptă a condensatorului este menţinută constantă la o tensiune de 0 V, datorită efectului „masei virtuale”. Prin urmare, curentul „prin” condensator se datorează doar <i>variaţiei</i> tensiunii de intrare. O tensiune constantă nu va duce la apariţia unui curent prin C, ci doar o tensiune de intrare <i>variabilă</i>.</p>
 
@@ -34,7 +35,8 @@
 
 <p>Formula pentru determinarea tensiunii de ieşire a derivatorului este următoarea:</p>
 
-<p><img src="/sites/default/files/electronica_analogica/13012.png" alt="formula pentru determinarea tensiunii de ieşire a derivatorului"/></p>
+#+CAPTION: formula pentru determinarea tensiunii de ieşire a derivatorului
+[[/sites/default/files/electronica_analogica/13012.png]]
 
 <p>Pe lângă utilizarea acestor circuite ca şi funcţie matematică de derivare în calculatoarele numerice, acestea se folosesc ca şi indicatoare de variaţie a mărimilor în instrumentaţie. O asfel de aplicatie include monitorizarea (sau controlul) ratei de variaţie a temperaturii într-un furnal, unde o creştere sau scădere prea bruscă a temperaturii poate crea probleme. Tensiunea de c.c. produsă de circuitul integrator poate fi folosită pentru acţionarea unui comparator, ce ar putea activa o alarmă sau ar putea controla rata de variaţie, dacă aceasta depăşeşte o anumită valoare prestabilită.</p>
 
@@ -42,7 +44,8 @@
 
 <p>În acest caz, AO va genera la ieşire o tensiune proporţională cu amplitudinea şi durata de timp în care semnalul a deviat de la valoarea de 0 V. Altfel spus, un semnal de intrare constat va genera o anumită <i>variaţie</i> a tensiunii de ieşire: inversul derivatorului. Pentru a realiza acest lucru, trebuie doar să inversăm locul rezistorului cu cel al condensatorului din circuitul precedent:</p>
 
-<p><img src="/sites/default/files/electronica_analogica/03048.png" alt="circuit de integrare"/></p>
+#+CAPTION: circuit de integrare
+[[/sites/default/files/electronica_analogica/03048.png]]
 
 <p>Ca şi în cazul precedent, AO asigură faptul că intrarea inversoare va fi menţinută la o tensiune de 0 V (masa virtuală). Dacă tensiunea de intrare este exact 0 V, nu va exista curent prin rezistor, condensatorul nu se va încărca, şi prin urmare, tensiunea de ieşire nu se va modifica. Nu putem garanta valoarea tensiunii de la ieşire faţă de masă în această situaţie, dar putem afirma că aceasta va fi <i>constantă</i>.</p>
 
@@ -50,7 +53,8 @@
 
 <p>Formula de determinare a tensiunii de ieşire a integratorului este următoarea:</p>
 
-<p><img src="/sites/default/files/electronica_analogica/13013.png" alt="formula de calcul a tensiunii de ieşire a integratorului"/></p>
+#+CAPTION: formula de calcul a tensiunii de ieşire a integratorului
+[[/sites/default/files/electronica_analogica/13013.png]]
 
 <div class="formula">
 <p>unde,</p>

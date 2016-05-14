@@ -26,7 +26,8 @@
 
 <p>Redresorul controlat pe bază de siliciu este o diodă cu patru straturi şi o poartă, asemenea figurii de mai jos (a):</p>
 
-<p><img src="../poze/03424.png" alt="tiristorul SCR (redresor controlat pe bază de siliciu): (a) modul de dopare al straturilor; (b) circuit cu tranzistoare bipolare cu joncţiune echivalent"/></p>
+#+CAPTION: tiristorul SCR (redresor controlat pe bază de siliciu): (a) modul de dopare al straturilor; (b) circuit cu tranzistoare bipolare cu joncţiune echivalent
+[[../poze/03424.png]]
 
 <p>Dacă este „pornit”, acesta se comportă precum o diodă, pentru o singură polaritate a curentului. Dacă nu este „pornit”, nu conduce curent. Modul de funcţionare poate fi exmplicat cu ajutorul conexiunii echivalente realizate din tranzistoare bipolare cu joncţiune din figura de mai sus (b). Un semnal de pornire pozitiv este aplicat între poartă şi catod. Tranzistorul NPN echivalent va începe să conducă curent ceea ce va duce şi la declanşarea conducţiei tranzistorului PNP. În acest moment, tranzistorul NPN va conduce curent chiar şi în absenţa semnalului pe poartă, Odată ce un dispozitiv SCR începe să conducă, o va face atâta timp cât este prezentă o tensiune pe anod (infinit, în cazul circuitului cu baterie de mai sus).</p>
 
@@ -34,7 +35,8 @@
 
 <p>Catodul unui SCR, ce corespunde emitorului echivalent al tranzistorului NPN este puternic dopat, N<sup>+</sup>. Anodul, ce corespunde emitorului echivlanet al tranzistorului PNP, este şi el puternic dopat, P<sup>+</sup>. Celelalte două regiuni din mijloc, ce corespund bazei şi colectorului tranzistoarelor echivalente, sunt dopate mai uşor, N<sup>-</sup> şi P (figura de mai jos (a)). Simbolurile tiristoarelor SCR şi GTO sunt prezentate de asemenea în figura de mai jos ((b) respectiv (c)).</p>
 
-<p><img src="../poze/03307.png" alt="tiristoare: (a) secţiune transversală; (b) simbolul schematic al redresorului controlat pe bază de siliciu (SCR) (c) simbolul tiristorului de tip GTO"/></p>
+#+CAPTION: tiristoare: (a) secţiune transversală; (b) simbolul schematic al redresorului controlat pe bază de siliciu (SCR) (c) simbolul tiristorului de tip GTO
+[[../poze/03307.png]]
 
 <p class="sumar">Sumar:</p>
 <ul>

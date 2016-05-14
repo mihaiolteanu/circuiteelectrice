@@ -33,15 +33,18 @@
 
 <p>Cu cât sensibilitatea (dB) căştilor este mai mare, cu atât mai bine. În mod normal, transformatorul (de adaptare a impedanţelor) folosit în astfel de aplicaţii poartă numele de „transformator audio”. Intrarea, respectiv ieşirea înfăşurărilor, este specificată prin valori ale impedanţelor (1000 Ω: 8 Ω) în loc de tensiune. Puteţi folosi un astfel de transformator audio, sau puteţi folosi un transformator de putere (220 V/6 V). Circuitul realiza arată astfel:</p>
 
-<img src="../poze/05009.png" alt="detector audio de semnal"/>
+#+CAPTION: detector audio de semnal
+[[../poze/05009.png]]
 
-<img src="../poze/05010.png" alt="detector audio de semnal"/>
+#+CAPTION: detector audio de semnal
+[[../poze/05010.png]]
 
 <h2>Realizarea detectorului audio de semnale</h2>
 
 <p>Căştile, fiind cel mai probabil stereo, vor avea o fişă cu 3 contacte. Vom folosi doar două din cele trei puncte de contact în circuitul nostru. Există două posibilităţi de conectare în acest caz, fie în serie, fie în paralel. Aparent însă, cele mai bune rezultate se obţin folosind conexiunea serie:</p>
 
-<img src="../poze/05011.png" alt="conectarea în serie serie şi paralel a difuzoarelor"/>
+#+CAPTION: conectarea în serie serie şi paralel a difuzoarelor
+[[../poze/05011.png]]
 
 <p>Lipiţi cu mare grijă toate conexiunile. Acest detector este extrem de sensibil. Orice conexiuni proaste existente în circuit vor genera zgomote adiţionale nedorite, peste semnalul de tensiune măsurat. Cele două diode conectate în paralel cu primarul transformatorului, împreună cu rezistorul de 1 kΩ, „taie” semnalul de intrare (tensiune) ce depăşeşte 0,7 V. Acest lucru are doar un singur scop: limitarea volumului căştilor audio. Sistemul poate funcţiona foarte bine şi fără aceste diode. Atenţie însă, în acest caz nu va există practic nicio limită a volumului existent în circuit. Simpla conectare a celor două sonde de test la bornele unei baterii (de exemplu) poate produse un sunet asurzitor!</p>
 
@@ -49,9 +52,11 @@
 
 <p>Pentru conectarea dispozitivului realizat mai sus la o sursă de tensiune mai mare de 1 V, va trebui să atenuăm sensibilitatea extrem de mare a acestuia. Acest lucru se poate realiza prin conectarea unui divizor de tensiune la intrarea circuitului:</p>
 
-<img src="../poze/05012.png" alt="atenuarea sensibilităţii detetorului audio"/>
+#+CAPTION: atenuarea sensibilităţii detetorului audio
+[[../poze/05012.png]]
 
-<img src="../poze/05014.png" alt="atenuarea sensibilităţii detetorului audio"/>
+#+CAPTION: atenuarea sensibilităţii detetorului audio
+[[../poze/05014.png]]
 
 <p>Atunci când probaţi un semnal de tensiune cu o amplitudine necunoscută, ajustaţi potenţiometrul divizor de tensiune de 100 kΩ aproximativ la jumătate scalei. Dacă sunetul este prea puternic, reajustaţi potenţiometrul (măriţi rezistenţa) şi reîncercaţi. Dacă sunetul este prea slab, descreşteţi rezistenţa potenţiometrului. Acest detector poate fi folosit chiar şi pentru detectarea semnalelor de curent continuu şi a celor ce se află în bandă de frecvenţa radio (semnale sub şi peste domeniul audio). În acest caz, veţi auzi un „click” la conectarea sau deconectarea sondelor de test la sursa de semnal. Practic, cu un astfel de circuit, puteti detecta curenţi de sub 0,1 µA (c.c.) şi semnale de radiofrecvenţa de până la 2 MHz.</p>
 
@@ -59,7 +64,8 @@
 
 <p>La fel ca în cazul sursei de tensiune, puteţi introduce întreg circuitul într-o carcasă pentru a putea fi folosit în viitor. Prin urmare, rezultatul final ar putea arăta astfel:</p>
 
-<img src="../poze/05013.png" alt="detector audio de semnal; forma finală"/>
+#+CAPTION: detector audio de semnal; forma finală
+[[../poze/05013.png]]
 
 </div>
 <div id="footer">

@@ -37,9 +37,11 @@
 
 <p>Termenul Σ este destul de uşor de obţinut. Aritmetica ne spune că în cazul în care Σ = a + b + C<sub>in</sub> şi Σ<sub>1</sub> = a + b, atunci Σ = Σ<sub>1</sub> + C<sub>in</sub>:</p>
 
-<p><img src="../poze/04455.png" alt="full-adder"/></p>
+#+CAPTION: full-adder
+[[../poze/04455.png]]
 
-<img src="../poze/04476.png" alt="diagramă ladder"/>
+#+CAPTION: diagramă ladder
+[[../poze/04476.png]]
 
 <p>La ce ne ajută însă C<sub>1</sub> şi C<sub>2</sub>? Să analizăm rezultatul adunării celor trei intrări:</p>
 
@@ -52,15 +54,19 @@
 
 <p>Pentru a calcula bitul de rang superior, putem observa că valoarea acestuia este 1 în ambele cazuri în care a + b produce un C<sub>1</sub>. De asemenea, bitul de rang superior este 1 când a + b produce un Σ<sub>1</sub>, iar C<sub>in</sub> este 1. Prin urmare, vom avea un bit de depăşire ori de câte ori avem C<sub>1</sub> sau (Σ<sub>1</sub> şi C<sub>in</sub>). Sumatorul nostru complet (full-adder) cu trei intrări, arată astfel:</p>
 
-<p><img src="../poze/04456.png" alt="full-adder"/></p>
+#+CAPTION: full-adder
+[[../poze/04456.png]]
 
-<img src="../poze/04477.png" alt="diagramă ladder"/>
+#+CAPTION: diagramă ladder
+[[../poze/04477.png]]
 
 <p>Pentru unele circuite, eliminarea uneia sau mai multor tipuri de porţi poate fi importantă. Putem înlocui poarta SAU finală cu o poartă SAU-exclusiv fără a modifica rezultatele. Putem acum conecta două sumatoare pentru realizarea adunării numerelor pe 2 biţi:</p>
 
-<p><img src="../poze/04457.png" alt="full-adder"/></p>
+#+CAPTION: full-adder
+[[../poze/04457.png]]
 
-<img src="../poze/04478.png" alt="diagramă ladder"/>
+#+CAPTION: diagramă ladder
+[[../poze/04478.png]]
 
 <p>A<sub>0</sub> este bitul de rang inferior a lui A iar A<sub>1</sub> este bitul de rang superior a lui A. Acelaşi lucru este valabil şi pentru B. Σ<sub>0</sub> este bitul de rang inferior al sumei iar Σ<sub>1</sub> este bitul de rang superior al sumeri. C<sub>out</sub> este bitul de depăşire.</p>
 
@@ -68,9 +74,11 @@
 
 <p>Un sumator pe doi biţi nu va fi realizat niciodată în acest fel. În schimb, biţi de rang inferior vor trece şi ei printr-un sumator complet (full-adder):</p>
 
-<p><img src="../poze/04458.png" alt="full-adder"/></p>
+#+CAPTION: full-adder
+[[../poze/04458.png]]
 
-<img src="../poze/04479.png" alt="diagramă ladder"/>
+#+CAPTION: diagramă ladder
+[[../poze/04479.png]]
 
 <p>Există câteva motive pentru această alegere. Unul dintre ele este că în acest caz, permitem circuitului să determine dacă bitul de depăşire de rang inferior este inclus în sumă. Acest lucru permite însumarea unor numere mai mari.</p>
 
@@ -90,11 +98,13 @@
 
 <p>Aceste sumatoare complete pot fi extinse pe un număr de biţi oricât de mare. Ca şi exemplu, un sumator pe 8 biţi poate fi realizat astfel:</p>
 
-<img src="../poze/04459.png" alt="conectarea sumatoarelor"/>
+#+CAPTION: conectarea sumatoarelor
+[[../poze/04459.png]]
 
 <p>Acest rezultat este identic utilizării sumatoarelor pe doi biţi pentru realizarea unui sumator pe 4 biţi, şi utilizării a două astfel de sumatoare pe 4 biţi pentru realizarea unui sumator pe 8 biţi:</p>
 
-<img src="../poze/04460.png" alt="conectarea sumatoarelor"/>
+#+CAPTION: conectarea sumatoarelor
+[[../poze/04460.png]]
 
 <p>Fiecare „2+” este un sumator pe 2 biţi şi realizat din două sumatoare complete (full-adder). Fiecare „4+” este un sumator pe 4 biţi realizat din două sumatoare pe 2 biţi. Iar rezultatul celor două sumatoare pe 4 biţi este un sumator pe 8 biţi.</p>
 

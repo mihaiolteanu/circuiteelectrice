@@ -22,11 +22,13 @@
 <div id="contents">
 <p>Condensatorii tind să se comporte asemenea bateriilor secundare datorită posibilităţii de stocare şi eliberare ulterioară a energiei sub formă de câmp electric. Un condensator complet descărcat generează o tensiune de zero volţi la bornele sale, iar un condensator încărcat menţine o valoare constantă a tensiunii la bornele sale, asemenea unei baterii. Atunci când aceştia sunt introduşi într-un circuit cu alte surse de tensiune, abosrb energie de la aceste surse, la fel precum o baterie secundară se încarcă atunci când este conectată la un generator. Un condensator complet descărcat, având cădere de tensiune zero la bornele sale, conectată la o sursă de tensiune, se va comporta iniţial precum un scurt circuit, „trăgând” un curent maxim de la sursă pe măsură ce se încarcă. Cu timpul, tensiunea la bornele sale creşte spre valoarea tensinii aplicate de sursă, iar curent prin condensator scade din această cauză. După ce condensatorul a atins valoarea maximă a tensiunii sursei, încetează să mai tragă curent de la această, şi se comportă practic precum un circuit deschis.</p>
 
-<p><img src="../poze/00330.png" alt="circuit RC"/></p>
+#+CAPTION: circuit RC
+[[../poze/00330.png]]
 
 <p>Atunci când întrerupător este închis prima dată, tensiunea la bornele condensatorului (considerat complet descărcat) este de zero volţi; de aceea, în primă fază se comportă precum un scurt-circuit. Cu timpul, tensiunea condensatorului creşte până la valoarea tensiunii bateriei, moment în care condensatorul se comportă precum un circuit deschis. În această configuraţie, curentul prin circuit este determinat de diferenţe de tensiune dintre baterie şi condensator, împărţită la valoarea rezistenţei, 10 kΩ. Pe măsură ce tensiune condensatorului se apropie de cea a baterie, curentul prin circuit se apropie şi el de valoarea zero. Odată atinsă tensiunea bateriei de către condensator (15 V), curentul va fi exact zero.</p>
 
-<p><img src="../poze/00331.png" alt="circuit RC - graficul variaţiei tensiunii condensatorului cu timpul"/></p>
+#+CAPTION: circuit RC - graficul variaţiei tensiunii condensatorului cu timpul
+[[../poze/00331.png]]
 
 <b><pre>
 ------------------------------------------------

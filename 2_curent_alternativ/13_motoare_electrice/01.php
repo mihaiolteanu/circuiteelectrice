@@ -35,7 +35,8 @@
 
 <p>La nivelul sistemului, un motor „consumă” energie electrică sub forma unei diferenţe de potenţial şi a unui curent, şi produce la ieşire lucru mecanic:</p>
 
-<p><img src="../poze/02421.png" alt="transformarea energiei electrice în energie mecanică şi caldură"/></p>
+#+CAPTION: transformarea energiei electrice în energie mecanică şi caldură
+[[../poze/02421.png]]
 
 <p>Desigur, motoarele electrice nu au o eficienţă de 100%. O parte din energia electrică se pierde sub formă de căldură, o altă formă de energie, datorită pierderilor ohmice (I<sup>2</sup> din înfăşurările motorului. Căldura este un efect nedorit a conversiei electric-mecanic. Ea trebuie îndepărtate din vecinătatea motorului şi poate afecta durata de viaţă a acestuia. Astfel, unul din scopuri este maximizarea eficienţei motoarelor pentru reducerea pierderilor sub formă de căldură. De asemenea, motoarele de c.a. mai au şi alte tipuri de pierderi ne-întâlnite la motoarele de c.c.: histereza şi curenţii turbionari.</p>
 

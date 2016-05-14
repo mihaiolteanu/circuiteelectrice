@@ -25,11 +25,14 @@
 
 <p>Vom vedea în cele ce urmează cum puem realiza media aritmedică a valorilor tensiunilor cu ajutorul unei reţele de rezistori. Aceasta este de fapt o aplicaţie a teoremei lui Millman. Veţi avea nevoie de 3 baterii (sau surse de alimentare în c.c.), fiecare cu o tensiune diferită şi trei rezistori cu rezistenţe egale (între 10 kΩ şi 47 kΩ fiecare). Practic, vom realiza circuitul de mai jos:</p>
 
-<img src="../poze/05115.png" alt="circuit de mediere a tensiunilor printr-o reţea de rezistori"/>
+#+CAPTION: circuit de mediere a tensiunilor printr-o reţea de rezistori
+[[../poze/05115.png]]
 
-<img src="../poze/05116.png" alt="circuit de mediere a tensiunilor printr-o reţea de rezistori"/>
+#+CAPTION: circuit de mediere a tensiunilor printr-o reţea de rezistori
+[[../poze/05116.png]]
 
-<img src="../poze/05117.png" alt="circuit de mediere a tensiunilor printr-o reţea de rezistori"/>
+#+CAPTION: circuit de mediere a tensiunilor printr-o reţea de rezistori
+[[../poze/05117.png]]
 
 <p>Acest circuit realizează funcţia matematică de mediere. Practic, intrarea circuitului constă din cele trei tensiuni, iar ieşirea din media aritmetică a acestora, astfel:</p>
 
@@ -45,7 +48,8 @@ V<sub>ieşire</sub> = (V<sub>1</sub> + V<sub>2</sub> + V<sub>3</sub>) / 3
 
 <p>Dacă una dintre baterii este deconectată, valoarea tensiunii de ieşire va fi egală cu media aritmetică a celor două tensiuni rămase (baterii). În cazul în care conductorii de legătură conectaţi iniţial la bornele bateriei înlăturate din circuit, sunt conectaţi împreună, circuitul va realia media aritmetică a celor două tensiuni rămase împreună cu valoarea de 0 V. Tensiunea de ieşire va fi prin urmare mai mică:</p>
 
-<img src="../poze/05118.png" alt="circuit de mediere a tensiunilor printr-o reţea de rezistori"/>
+#+CAPTION: circuit de mediere a tensiunilor printr-o reţea de rezistori
+[[../poze/05118.png]]
  
 <h2>Concluzii şi notă istorică</h2>
 

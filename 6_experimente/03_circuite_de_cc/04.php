@@ -25,15 +25,19 @@
 
 <p>Asemănător exemplului precedent, vom avea nevoie de o baterie de 6 V şi o serie de rezistori cu valori cuprinse între 1 kΩ şi 100 kΩ. Faţă de exemplul precedent, ne vom familiariza cu legea lui Kirchhoff pentru curent şi cu funcţionarea unui circuit divizor de curent.</p>
 
-<img src="../poze/05097.png" alt="divizor de curent"/>
+#+CAPTION: divizor de curent
+[[../poze/05097.png]]
 
 <p>Circuitul se poate realiza practic în mai multe moduri:</p>
 
-<img src="../poze/05098.png" alt="divizor de curent"/>
+#+CAPTION: divizor de curent
+[[../poze/05098.png]]
 
-<img src="../poze/05102.png" alt="divizor de curent"/>
+#+CAPTION: divizor de curent
+[[../poze/05102.png]]
 
-<img src="../poze/05099.png" alt="divizor de curent"/>
+#+CAPTION: divizor de curent
+[[../poze/05099.png]]
 
 <p>În mod normal, nu este recomandat să conectaţi mai mult de doi conductori sub acelaşi terminal (şurub). În exemplul de mai sus, există trei conductori conectaţi împreună la terminalul din dreapta sus. Am realizat acest lucru doar pentru a demonstra un concept (sumarea curentului la nodul unui circuit), şi nu reprezintă o tehnică profesională de realizare a circuitelor.</p>
 
@@ -47,9 +51,11 @@
 
 <p>Aplicaţi legea lui Ohm (I = E / R) pentru a calcula curentul prin fiecare rezistor. Verificaţi apoi această valoare calculată măsurând curentul real cu ajutorul unui ampermetru, astfel: conectaţi sonda roşie a ampermetrului în punctul de întâlnire a bornelor pozitive (+) ale rezistorilor; conectaţi borna neagră, pe rând, la capătul celălalt (-) al rezistorilor. Observaţi atât atât valoarea cât şi polaritatea curentului. De exemplu, pentru a calcula curentul prin rezistorul R<sub>1</sub>:</p>
 
-<img src="../poze/05100.png" alt="divizor de curent; măsurarea curentului"/>
+#+CAPTION: divizor de curent; măsurarea curentului
+[[../poze/05100.png]]
 
-<img src="../poze/05101.png" alt="divizor de curent; măsurarea curentului"/>
+#+CAPTION: divizor de curent; măsurarea curentului
+[[../poze/05101.png]]
 
 <p>Măsuraţi curentul pentru toţi cei trei rezistori. Comparaţi aceste valori cu rezultatele obţinute anterior. Conectând ampermetrul asemenea figurilor de mai sus, toate cele trei indicaţii trebuie să fie pozitive, nu negative.</p>
 
@@ -57,9 +63,11 @@
 
 <p>Măsuraţi apoi curentul total din circuit, astfel: ţineţi sonda roşie a ampermetrului într-un singur punct din circuit; deconectaţi conductorul ce duce la borna pozitivă (+) a bateriei şi atingeţi-l cu sonda neagră.</p>
 
-<img src="../poze/05103.png" alt="divizor de curent; măsurarea curentului"/>
+#+CAPTION: divizor de curent; măsurarea curentului
+[[../poze/05103.png]]
 
-<img src="../poze/05104.png" alt="divizor de curent; măsurarea curentului"/>
+#+CAPTION: divizor de curent; măsurarea curentului
+[[../poze/05104.png]]
 
 <p>Notaţi-vă atât valoarea cât şi semnul curentului indicat de ampermetru. Faceţi suma algebrică dintre această valoare şi valorile curenţilor pentru cei trei rezistori. Ce observaţi similar legii lui Kirchhoff pentru tensiune? Legea lui Kirchhoff pentru curent spune că suma tuturor curenţilor dintr-un nod trebuie să fie egală cu zero. Această lege este foarte utilă în analiza matematică a circuitelor electrice.</p>
 
