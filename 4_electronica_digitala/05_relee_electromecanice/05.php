@@ -22,7 +22,7 @@
 <div id="contents">
 <p>Pe cât de utile sunt, releele electromecanice au totuşi multe inconveniente. Acestea sunt relativ scumpe, au o durată de viaţă a contactelor limitată, ocupă mult loc, iar timpii de comutaţie sunt mari în comparaţie cu dispozitivele semiconductoare moderne. Aceste limitări se aplică în special releelor de putere. Pentru a întâmpina aceste neajunsuri, mulţi producători oferă relee semiconductoare ce folosesc tiristori, triace sau tranzistori în loc de contactele mecanice.</p>
 
-<img class="floatleft" src="../poze/04054.png" alt="releu semiconductor"/>
+<img src="../poze/04054.png" alt="releu semiconductor"/>
 
 <p>Aceste dispozitive de ieşire (tiristori, triace, tranzistori) sunt cuplate optic la o sursă de lumină (LED) în interiorul releeului. Releul este pornit prin energizarea acestui LED, de obicei prin intermediul unei surse de tensiune de c.c. scăzute. Această izolare optică între intrare şi ieşire se ridică la nivelul celor mai bune relee electromecanice posibile.</p>
 

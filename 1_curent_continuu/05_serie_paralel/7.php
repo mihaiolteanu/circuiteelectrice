@@ -26,7 +26,7 @@
 
 <h2>Analiza defectelor într-un circuit serie simplu</h2>
 
-<img class="floatleft" src="../poze/00098.png" alt="circuit pur rezistiv serie"/>
+<img src="../poze/00098.png" alt="circuit pur rezistiv serie"/>
 
 <p>Să considerăm circuitul alăturat</p>
 
@@ -70,7 +70,7 @@
 
 <div class="clear"></div>
 
-<img class="floatleft" src="../poze/00099.png" alt="circuit pur rezistiv serie; şuntarea rezistorului"/>
+<img src="../poze/00099.png" alt="circuit pur rezistiv serie; şuntarea rezistorului"/>
 
 <p>Să presupunem acum că rezistorul R<sub>2</sub> este scurt-circuitat; acest lucru înseamnă de fapt că, în locul rezistorului avem un simplu fir ce prezintă o rezistenţa aproape nulă. Practic, în circuitul alăturat, spunem că am realizat o <strong>şuntare</strong> a rezistorului R<sub>2</sub> iar firul utilizat poartă numele de conductor de şuntare, sau simplu, şunt.</p>
 
@@ -116,7 +116,7 @@
 
 <p>Odată cu creşterea curentului de la 20 mA la 60 mA, căderea de tensiune pe rezistorii R<sub>1</sub> şi R<sub>3</sub> (a căror rezistenţă nu s-a modificat) creşte şi ea, astfel încât căderea de tensiune totală pe cele două componente rămase să fie tot 9 V. Rezistorul R<sub>2</sub>, fiind şuntat de rezistenţa foarte mică a conductorului de şuntare, este practic eliminat din circuit, rezistenţa dintre cele două captele ale conductorului fiind practic zero. Din această cauză, căderea de tensiune pe rezistorul R<sub>2</sub> este de zero V, chiar dacă valoarea totală a curentului din circuit a crescut.</p>
 
-<img class="floatleft" src="../poze/00100.png" alt="circuit pur rezistiv serie; deschiderea circuitului"/>
+<img src="../poze/00100.png" alt="circuit pur rezistiv serie; deschiderea circuitului"/>
 
 <p>Pe de altă parte, dacă defectul suferit de rezistorul R<sub>2</sub> este de aşa natură încât circuitul va rămâne deschis în acel punct - rezistenţa între cele două captele libere ale conductorilor rămaşi creşte practic spre infinit - efectele asupra circuitului iniţial vor fi diferite, dar la fel de radicale.</p>
 
@@ -162,7 +162,7 @@
 
 <h2>Analiza defectelor într-un circuit paralel simplu</h2>
 
-<img class="floatleft" src="../poze/00101.png" alt="circuit pur rezistiv paralel"/>
+<img src="../poze/00101.png" alt="circuit pur rezistiv paralel"/>
 
 <p>Putem aplica aceleaşi metode şi în cazul unui circuit paralel.</p>
 
@@ -206,7 +206,7 @@
 
 <div class="clear"></div>
 
-<img class="floatleft" src="../poze/00102.png" alt="circuit pur rezistiv paralel; deschiderea rezistenţei"/>
+<img src="../poze/00102.png" alt="circuit pur rezistiv paralel; deschiderea rezistenţei"/>
 
 <h3>Înlăturarea rezistorului</h3>
 
@@ -254,7 +254,7 @@
 
 <p>În cazul acestui circuit paralel, deschiderea unei ramuri afectează doar curentul prin acea ramură precum şi curentul total dincircuit. Căderea de tensiune, fiind egală pe toate componentele va rămâne neschimbată pe toţi rezistorii. Datorită tendinţei sursei de alimentare de menţinere constantă a tensiunii de alimentare, aceasta nu se va modifica, şi datorită faptului că este conectată în paralel cu toţi rezistorii, căderea de tensiune pe fiecare dintre ei, după apariţia defectului, rămâne egală cu 9 V. Din această cauză (rezistenţa constantă, căderea de tensiune constantă) curentul prin ceilalţi doi rezistori nu se modifică nici ei.</p>
 
-<img class="floatleft" src="../poze/00357.png" alt="circuit pur rezistiv paralel cu becuri"/>
+<img src="../poze/00357.png" alt="circuit pur rezistiv paralel cu becuri"/>
 
 <p>Acelaşi lucru îl putem observa şi într-un circuit casnic: toate becurile sunt conectate în paralel. La pornirea sau oprirea unui bec (o ramură din circuitul paralel se închide şi se deschide), funcţionarea celorlalte becuri nu este afectată; singurul lucru care se modifică este curentul prin acel bec (circuit de ramură) şi curentul total din circuit.</p>
 
@@ -262,7 +262,7 @@
 
 <h3>Şuntarea rezistorului</h3>
 
-<img class="floatleft" src="../poze/00103.png" alt="circuit pur rezistiv paralel; şuntarea rezistorului"/>
+<img src="../poze/00103.png" alt="circuit pur rezistiv paralel; şuntarea rezistorului"/>
 
 <p>Într-un caz ideal (surse de tensiune perfecte şi conductori cu rezistenţă zero), rezistorii scurt-circuitaţi dintr-un circuit paralel simplu nu vor avea niciun efect asupra comportamentului celorlalte ramuri din circuit. În realitate însă, efectul nu este acelaşi, după cum putem observa din exemplul alăturat.</p>
 
@@ -308,13 +308,13 @@
 
 <p>Ipoteza critică pe care ne-am asumat-o în această situaţie este că tensiunea de alimentare rămâne constantă pentru un curent infinit introdus în circuit. Acest lucru nu este însă deloc realist. Chiar dacă scurt-circuitul prezintă o rezistenţa mică (faţă de o rezistenţa egală cu zero), nicio sursă reală de tensiune nu poate genera un supra-curent extrem de mare în acelaşi timp cu menţinerea valorii tensiunii la un nivel constant.</p>
 
-<img class="floatleft" src="../poze/00104.png" alt="orice sursă de alimentare prezintă o rezistenţa internă"/>
+<img src="../poze/00104.png" alt="orice sursă de alimentare prezintă o rezistenţa internă"/>
 
 <p>Acest lucru se datorează rezistenţei interne caracteristice tuturor surselor de putere electrice, rezistenţe datorate proprietătilor intrinseci ale materialelor din care sunt construite.</p>
 
 <div class="clear"></div>
 
-<img class="floatleft" src="../poze/00105.png" alt="circuit pur rezistiv paralel; şuntarea rezistorului"/>
+<img src="../poze/00105.png" alt="circuit pur rezistiv paralel; şuntarea rezistorului"/>
 
 <p>Aceste rezistenţe interne, oricât de mici, transformă circuitul paralel de mai sus într-o combinaţie serie-paralel. De obicei, rezistenţele interne al surselor de putere sunt suficient de mici pentru a putea fi ignorate fără nicio problemă, dar odată cu apariţia curenţilor foarte mari datorită componentelor scurt-circuitate, efectelor lor nu mai pot fi neglijate. În acest caz, scurt-circuitarea rezistenţei R<sub>2</sub> va duce la situaţia în care întreaga cădere de tensiune se va regăsi pe rezistenţa internă a bateriei, căderile de tensiune pe R<sub>1</sub>, R<sub>2</sub> şi R<sub>3</sub> fiind aproape zero.</p>
 

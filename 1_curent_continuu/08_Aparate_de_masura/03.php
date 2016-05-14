@@ -24,19 +24,19 @@
 
 <p>Din moment ce voltmetrele se conectează tot timpul în paralel cu componentul sau componentele aflate sub test, orice curent prin voltmetru va modifica curentul total din circuitul de măsurat, ducând inevitabil şi la modificarea tensiunii reale din circuit. Un voltmetru ideal posedă o rezistenţă internă infinita, astfel încât curentul care trece prin acesta să fie de 0 A pentru a nu afecta circuitul testat. Totuşi, astfel de voltmetre nu există decât în paginile cărţilor, nu şi în viaţa reală!</p>
 
-<img class="floatleft" src="../poze/00156.png" alt="măsurarea căderii de tensiune într-un circuit divizor de tensiune cu ajutorul unui voltmetru"/>
+<img src="../poze/00156.png" alt="măsurarea căderii de tensiune într-un circuit divizor de tensiune cu ajutorul unui voltmetru"/>
 
 <p>Să luăm ca şi exemplu circuitul divizor de tensiune din figura alăturată, ca şi un exemplu extrem al efectelor unui voltmetru asupra circuitului de măsurat.</p>
 
 <div class="clear"></div>
 
-<img class="floatleft" src="../poze/00157.png" alt="realizarea unui subcircuit între volmetru şi componentul asupra cărei se face măsurarea tensiunii"/>
+<img src="../poze/00157.png" alt="realizarea unui subcircuit între volmetru şi componentul asupra cărei se face măsurarea tensiunii"/>
 
 <p>Atunci când voltmetrul nu este conectat în circuit, vom aveam o cădere de tensiune de exact 12 V pe fiecare dintre cei doi rezistori (vezi circuitele divizoare de tensiune). Totuşi, dacă voltmetrul considerat în acest exemplu posedă o rezistenţa internă între cele două sonde de 10 MΩ (o valoare normală pentru un voltmetru digital), aceasta va crea un subcircuit paralel cu rezistorul inferior al divizorului.</p>
 
 <div class="clear"></div>
 
-<img class="floatleft" src="../poze/00158.png" alt="modificarea căderilor de tensiune din circuit ca urmare a conectării volmetrului"/>
+<img src="../poze/00158.png" alt="modificarea căderilor de tensiune din circuit ca urmare a conectării volmetrului"/>
 
 <p>Acest lucru duce la scăderea rezistenţei inferioare de la 250 MΩ la 9,61 MΩ (circuit paralel), modificând fundamental căderile de tensiune din circuit.</p>
 
@@ -52,7 +52,7 @@
 
 <p>Impactul creat de voltmetrele electromecanice asupra circuitelor este desemnat prin numărul de ohmi prezenţi între terminalii aparatului pentru fiecare domeniu de tensiune (poziţii diferite ale selectorului). Practic, acesta este un număr exprimat în Ω/V. Voltmetrele digitale posedă de obicei o rezistenţa constantă între sondele aparatului indiferent de domeniu de tensiune ales.</p>
 
-<img class="floatleft" src="../poze/00154.png" alt="volmetru folosind un comutator multi-polar si o serie de rezistori de multiplicare"/>
+<img src="../poze/00154.png" alt="volmetru folosind un comutator multi-polar si o serie de rezistori de multiplicare"/>
 
 <p>Să reluăm exemplu din secţiunea precedentă. Pe domeniul 1000 V, rezistenţa totală este de 1 MΩ (999,5 kΩ + 500Ω), ceea ce înseamnă 1 MΩ / 1000 V, sau 1 kΩ/V. Această sensibilitate rămâne constantă indiferent de domeniul ales:</p>
 
@@ -68,7 +68,7 @@ domeniul 1 V; sensibilitatea: 1 kΩ / 1 V = 1 kΩ / V
 
 <p>Pentru minimizarea efectelor asupra circuitelor, curentul de deplasare maximă trebuie să fie prin urmare cât mai mic. Acest lucru se poate realiza prin reproiectarea aparatului pentru o sensibilitatea maximă (un curent mai mic pentru o deflecţie maximă). Variabila ce trebuie luată însă în considerarea este robusteţea aparatului: cu cât deplasarea este mai sensibilită, cu cât acesta tinde să fie mai fragil.</p>
 
-<img class="floatleft" src="../poze/00370.png" alt="amplificarea curentului voltmetrului pe cale electronică"/>
+<img src="../poze/00370.png" alt="amplificarea curentului voltmetrului pe cale electronică"/>
 
 <p>O altă modalitate constă în amplificarea electronică a curentului necesar deplasării, astfel încât curentul ce este absorbit de către aparat din circuit să fie cât mai mic. Acest tip de circuit electronic poartă numele de amplificator.</p>
 
@@ -80,7 +80,7 @@ domeniul 1 V; sensibilitatea: 1 kΩ / 1 V = 1 kΩ / V
 
 <p>O ultimă soluţie, şi una foarte ingenioasă, la problema efectului introdus de voltmetru în circuit, îl constitue detectorul de nul. Acesta nu necesită un circuit complicat, dar este nevoie de multă pricepere din partea utilizatorului.</p>
 
-<img class="floatleft" src="../poze/00159.png" alt="măsurarea căderii de tensiune din circuit cu ajutorul unui detector de nul"/>
+<img src="../poze/00159.png" alt="măsurarea căderii de tensiune din circuit cu ajutorul unui detector de nul"/>
 
 <p>Într-un detector de nul, o sursă de tensiune de precizie, ajustabilă, este comparată cu tensiune de măsură iar aparatul indică diferenţa de tensiune dintre cele două. În cazul în care indicaţie este zero (nulă), căderea de tensiune din circuitul de test este egală cu tensiunea sursei de tensiune de precizie, iar curentul absorbit din circuit va fi de zero amperi. În unele situaţii, aparatul este prevăzut cu un potenţiometru de precizie pentru reglarea fină a tensiunii.</p>
 
@@ -90,25 +90,25 @@ domeniul 1 V; sensibilitatea: 1 kΩ / 1 V = 1 kΩ / V
 
 <p>Un detector de nul extrem de simplu constă dintr-un set de căşti, utilizând difuzoarele pe post de „ac indicator”. Dacă amplicăm o tensiune de c.c. unui difuzor, curentul rezultat va deplasa conul acestuia, iar difuzorul va produce un „click” scurt. Un alt „click” se poate auzi la deconectarea sursei de c.c.</p>
 
-<img class="floatleft" src="../poze/00425.png" alt="detector de nul realizat cu ajutorul unei perechi de căşti şi un întrerupător"/>
+<img src="../poze/00425.png" alt="detector de nul realizat cu ajutorul unei perechi de căşti şi un întrerupător"/>
 
 <p>Luând în considerare acest principiu, un detector de nul sensibil poate fi realizat dintr-o simplă pereche de căşti şi un întrerupător.</p>
 
 <div class="clear"></div>
 
-<img class="floatleft" src="../poze/00426.png" alt="detector de nul realizat cu ajutorul unei perechi de căşti şi un întrerupător; adăugarea în circuit a unui transformator"/>
+<img src="../poze/00426.png" alt="detector de nul realizat cu ajutorul unei perechi de căşti şi un întrerupător; adăugarea în circuit a unui transformator"/>
 
 <p>Dacă folosim o pereche de căşti de 8 Ω, sensibilitatea aparatului poate fi crescută prin conectarea sa la un transformator coborâtor de tensiune. La închidere/deschiderea întrerupătorului, curentul mic de la intrare va avea o valoare mult mai mare la ieşirea transformatorului. Rezultatul este un „click” mai puternic şi mai uşor de sesizat, chiar şi pentru curenţi mult mai mici.</p>
 
 <div class="clear"></div>
 
-<img class="floatleft" src="../poze/00424.png" alt="detector de nul realizat cu ajutorul unei perechi de căşti şi un întrerupător; exemplu"/>
+<img src="../poze/00424.png" alt="detector de nul realizat cu ajutorul unei perechi de căşti şi un întrerupător; exemplu"/>
 
 <p>Conectat în circuitul cu detector de nul prezentat mai sus, configuraţia arată precum în figura alăturată.</p>
 
 <div class="clear"></div>
 
-<img class="floatleft" src="../poze/00160.png" alt="balanţă de laborator; măsurarea unei greutăţi necunoscute"/>
+<img src="../poze/00160.png" alt="balanţă de laborator; măsurarea unei greutăţi necunoscute"/>
 
 <p>Scopul oricărui detector de nul este să se comporte precum o balanţă de laborator, indicând condiţia de egalitate ale celor două tensiuni, sau, altfel spus, lipsa unei căderi de tensiune între cele două puncte (1 şi 2). O astfel de balanţă nu măsoară de fapt nimic, ci doar indică egalitatea între o greutate necunoscută şi un set de greutăţi calibrate standard.</p>
 
@@ -116,7 +116,7 @@ domeniul 1 V; sensibilitatea: 1 kΩ / 1 V = 1 kΩ / V
 
 <p>Asemănător, detectorul de nul indică pur şi simplu momentul în care căderea de tensiune între punctele 1 şi 2 este egală (potenţialul celor două puncte este egal). Conform legii lui Kirchhoff pentru tensiune, acest lucru se va întâmpla atunci când sursa de tensiune ajustabilă este egală cu căderea de tensiune pe rezistorul R<sub>2</sub>.</p>
 
-<img class="floatleft" src="../poze/00161.png" alt="etector de nul realizat cu ajutorul unei perechi de căşti şi un întrerupător; exemplu"/>
+<img src="../poze/00161.png" alt="etector de nul realizat cu ajutorul unei perechi de căşti şi un întrerupător; exemplu"/>
 
 
 <p>Pentru a utiliza acest instrument, trebuie să ajustăm manual sursa de tensiune prin intermediul unui potenţiometru, acţionând de fiecare data întrerupătorul, până în momentul în care detectorul de nul va indica o condiţie de zero. Circuitul este echilibrat atunci când, în urma acţionării întrerupătorului, nu se va mai auzi nici un sunet la căşti. Valoarea căderii de tensiune pe R<sub>2</sub> va fi citită de pe un volmetru conectat la sursa de tensiune de precizie.</p>

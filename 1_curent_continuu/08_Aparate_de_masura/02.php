@@ -24,7 +24,7 @@
 
 <h2>Modelul D'Arsonval</h2>
 
-<img class="floatleft" src="../poze/00150.png" alt="dispozitiv de măsură D'Arsonval"/>
+<img src="../poze/00150.png" alt="dispozitiv de măsură D'Arsonval"/>
 
 <p>Să luăm ca şi prim exemplu un dispozitiv tip D'Arsonval, cu o rezistenţa internă a bobinei de 500 Ω, şi a cărei deplasare maximă (D.M.) se realizează pentru un curent de 1 mA.</p>
 
@@ -40,7 +40,7 @@ E = 0,5 V
 
 <p>Dacă am dori să folosim acest aparat pentru măsurarea tensiunilor ce nu depăşesc o jumătate de volt, această configuraţie ar fi mai mult decât suficientă. Dar pentru a măsură tensiuni peste această valoare, trebuie să aducem unele modificări. Pentru a obţine o deplasare observabilă a acului pentru o valoare a tensiunii de peste 0,5 V, este nevoie ca doar o parte din tensiune de măsurat să se regăsească pe bobina internă. Desigur, va trebui să modificăm şi scala aparatului de măsură, astfel încât să existe o legătură directă între deplasarea acului indicator şi valoarea reală a tensiuni măsurate.</p>
 
-<img class="floatleft" src="../poze/00151.png" alt="dispozitiv de măsură D'Arsonval"/>
+<img src="../poze/00151.png" alt="dispozitiv de măsură D'Arsonval"/>
 
 <p>Această operaţie se poate realiza foarte uşor cu ajutorul unui divizor de tensiune. Ştiind că un divizor de tensiune se realizează cu ajutorul rezistorilor conectaţi în serie, tot ceea e trebuie să facem este să conectăm un rezistor în serie cu rezistenţa internă a configuraţiei iniţiale (înclusă în dispozitiv), rezultatul fiind un divizor de tensiune format din doi rezistori.</p>
 
@@ -188,7 +188,7 @@ E = 0,5 V
 
 <div class="clear"></div>
 
-<img class="floatleft" src="../poze/00152.png" alt="voltmetru"/>
+<img src="../poze/00152.png" alt="voltmetru"/>
 
 <p>Indiferent de metoda folosită, răspunsul final este acelaşi (9.5 kΩ). Putem aplica ambele metode, pentru a ne asigura că rezultatul final este corect.</p>
 
@@ -196,7 +196,7 @@ E = 0,5 V
 
 <p>Acesta este într-adevăr şi modul de realizare şi utilizare al aparatelor de măsură: dispozitivul de detectare al mărimii de măsurat este construit astfel încât să fie necesară doar o cantitate foarte mică de tensiune şi de curent pentru funcţionarea acestuia, pentru o sensibilitatea cât mai ridicată. Această configuraţie este apoi conectată la un circuit divizor realizat cu rezistori de prezizie, pentru a putea indica o tensiune sau un curent mult mai mari.</p>
 
-<img class="floatleft" src="../poze/00153.png" alt="volmetru folosind un comutator multi-polar si o serie de rezistori de multiplicare"/>
+<img src="../poze/00153.png" alt="volmetru folosind un comutator multi-polar si o serie de rezistori de multiplicare"/>
 
 <p>În general, este foarte utilă prezenţa mai multor astfel de circuite divizoare, pentru a putea măsură o plajă destul de largă de valori folosind acelaşi mecanism de bază pentru detectarea semnalului. Acest lucru se poate realiza printr-un comutator multi-polar şi câţiva rezistori de multiplicare, fiecare pentru o anumită bandă de tensiuni, conform figurii alăturate.</p>
 
@@ -204,13 +204,13 @@ E = 0,5 V
 
 <p>Comutatorul cu cinci poziţii intră în contact doar cu cât un rezistor deodată. În poziţia de jos, acesta nu face contact cu niciun rezistor, fiind de fapt în poziţia „oprit”. Fiecare rezistor realizează o deplasare maximă diferită a voltmetrului, şi toate se bazează pe aceleaşi caracteristici principale (1 mA, 500 Ω).</p>
 
-<img class="floatleft" src="../poze/00154.png" alt="volmetru folosind un comutator multi-polar si o serie de rezistori de multiplicare"/>
+<img src="../poze/00154.png" alt="volmetru folosind un comutator multi-polar si o serie de rezistori de multiplicare"/>
 
 <p>Cu o astfel de variantă, valoarea fiecărui rezistor este determinată folosind aceiaşi metodă utilizată mai sus, cunoscând tensiunea totală necesară în fiecare caz. Pentru un volmetru cu scala tensiunilro de 1 V, 10 V, 100 V şi 1000 V, rezistenţele de multiplicare sunt conform figurii alăturate.</p>
 
 <div class="clear"></div>
 
-<img class="floatleft" src="../poze/00155.png" alt="volmetru folosind un comutator multi-polar si o serie de rezistori de multiplicare"/>
+<img src="../poze/00155.png" alt="volmetru folosind un comutator multi-polar si o serie de rezistori de multiplicare"/>
 
 <p>Putem observa că valorile rezistorilor de multiplicare sunt puţin ciudate. Este puţin probabil să găsim un rezistor de precizie cu o valoare de 999,5 kΩ, astfel încât suntem nevoiţi să folosim o altă configuraţie.</p>
 

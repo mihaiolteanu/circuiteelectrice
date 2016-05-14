@@ -30,7 +30,7 @@
 
 <h2>Galvanometrul</h2>
 
-<img class="floatleft" src="../poze/50030.jpg" alt="galvanometru"/>
+<img src="../poze/50030.jpg" alt="galvanometru"/>
 
 <p>Primele astfel de aparate de măsură construite erau cunoscute sub numele de galvanometre, fiind recunoscute pentru precizia lor. Un model foarte simplu de galvanometru constă dintr-un ac magnetizat (asemenea celui folosit la compas) suspendat la capătul unui fir şi poziţionat în interiorul unei înfăşurări conductoare. La trecerea curentului prin acest colac, se va produce un câmp magnetic ce va modifica poziţia iniţială a acului. Un astfel de aparat antic este prezentat în figura alăturată.</p>
 
@@ -38,7 +38,7 @@
 
 <p>Astfel de aparate nu mai sunt însă practice în prezent, fiind extrem de sensibile la orice tip de mişcare şi la interferenţele datorate câmpului magnetic al pământului. Singurul lor scop rămâne prezentarea conceptelor de bază ale dispozitivelor expermentale. În prezent, termenul de „galvanometru” este utilizat pentru desemnarea oricărui tip de aparat de măsură de o prezicie excepţională nereprezetând neapărat un astfel de dispozitiv prezentat mai sus.</p>
 
-<img class="floatleft" src="../poze/00146.png" alt="principiul de construcţie a unui aparate de măsură electromagnetic (analogic)"/>
+<img src="../poze/00146.png" alt="principiul de construcţie a unui aparate de măsură electromagnetic (analogic)"/>
 
 <p>Aparatele de măsură electromagnetice sunt realizate în prezent dintr-o bobină suspendată într-un câmp magnetic, protejată de majoritatea influenţelor externe. Astfel de dispozitive sunt cunoscute sub numele de aparate de măsură cu magnet permanent.</p>
 
@@ -46,7 +46,7 @@
 
 <p>În figura de mai sus, acul indicator este poziţionat aproximativ la 35% pe scala valorilor, zero fiind în stânga iar valoarea maximă regăsindu-se în partea dreaptă. O creştere a curentului de măsurat va duce la o deplasare a acului indicator spre dreapta iar o descreştere a lui va duce la o deplasare a acului spre stânga. Afişajul aparatului de măsură conţine o scală gradată cu cifre pentru indicarea valorilor mărimii de măsurat, indiferent de tipul acesteia. Cu alte cuvinte, dacă este necesară o valoare de 50 µA pentru deplasarea maximă a acului indicator (spre capătul din dreapta), scala va avea scrisă o valoarea de 0 µA în partea stângă şi o valoare de 50 µA în partea dreaptă; mijlocul va fi desigur 25 µA. În exemplul din figură, acul ar indica în acest caz ipotetic o valoare a curentului de 17,5 µA. De obicei, scala este împărţită în gradaţii mult mai mici, din 5 în 5 µA, sau chiar la 1 µA, pentru a permite o citire mult mai precisă a indicaţiei acului.</p>
 
-<img class="floatleft" src="../poze/00147.png" alt="aparat de măsură; scala conţine atât valori pozitive cât şi valori negative"/>
+<img src="../poze/00147.png" alt="aparat de măsură; scala conţine atât valori pozitive cât şi valori negative"/>
 
 <p>Majoritatea aparatelor pot detecta polaritatea curentului, o direcţie a acestuia ducând la deplasarea acului într-un anumit sens, iar direcţia opusă a curentului ducând la o deplasare în sens contrar al acului indicator. Modele D'Arsonval şi Weston sunt de acest tip.</p>
 
@@ -58,7 +58,7 @@
 
 <p>Deşi majoritatea aparatelor de măsură analogice se bazează pe principiul electromagnetismului, câteva dintre ele se bazează pe electrostatică, cu alte cuvinte, pe forţa de atracţie sau de respingere generată de sarcinile electrice în mediul dintre ele.</p>
 
-<img class="floatleft" src="../poze/00148.png" alt="aparat de măsură electrostatic"/>
+<img src="../poze/00148.png" alt="aparat de măsură electrostatic"/>
 
 <p>Dacă aplicăm o tensiune între două suprafeţe conductoare separate printr-un dielectric format din aer, va exista o forţă fizică de atracţie dintre cele două suprafeţe, forţa capabilă să deplaseze un mecanism de măsurare. Această forţă este direct proporţională cu tensiunea aplicată între plăci şi invers proporţională cu pătratul dinstanţei dintre ele. De asemenea, forţa nu depinde de polaritate, rezultând astfel un dispozitiv insensibil la variaţia polarităţii tensiunii.</p>
 
@@ -68,7 +68,7 @@
 
 <h3>Tubul catodic (CRT)</h3>
 
-<img class="floatleft" src="../poze/00149.png" alt="tubul catodic"/>
+<img src="../poze/00149.png" alt="tubul catodic"/>
 
 <p>O aplicaţie mult mai întâlnită a dispozitivelor electrostatice este tubul catodic. Acestea sunt tuburi speciale din sticlă, similare celor întâlnite la televizoarele clasice. Într-un astfel de tub, un fascicol de electroni ce se deplasează prin vid, este deviat prin intermediul unei tensiuni existente între două plăci metalice aşezate de o parte şi de cealaltă a tubului. Datorită faptului că electronii posedă o sarcină electrică negativă, aceştia tind să fie respinşi de placa negativă şi atraşi de placa pozitivă. O inversare a polarităţii ensiunii dintre cele două plăci va duce la modificarea în sens contrar al traseului fascicolului de electroni, acest dispozitiv fiind prin urmare sensibil la polaritate.</p>
 
@@ -76,7 +76,7 @@
 
 <p>Electronii, având o greutate mult mai mică decât plăcile metalice, deplasează mult mai uşor sub acţiunea forţei dintre cele două plăci decât plăcile propriu-zise. Traseul lor deviat poate fi detectat pe măsură ce aceştia se lovesc de afişajul din sticla de la capătul tubului, unde întâlnesc un strat subţire de fosfor; rezultatul este emiterea unei unde luminoase ce poate fi observată din exteriorul tubului. Cu cât tensiunea dintre cele două plăci este mai mare, cu atât electronii vor fi deviaţi mai puteric de la traseul lor iniţial, punctul luminos de pe afişaj regăsindu-se la o distanţa mai mare faţă de centrul acestuia.</p>
 
-<img class="floatleft" src="../poze/50001.jpg" alt="tub catodic"/>
+<img src="../poze/50001.jpg" alt="tub catodic"/>
 
 <p>Un astfel de tub este prezentat în figura alăturată. Într-un tub real, precum cel alăturat, există două perechi de placi metalice pentru deviaţia electronilor, nu doar una singură, pentru a putea acoperi întreaga aria a afişajului de sticlă din capătul dispozitivului.</p>
 

@@ -26,13 +26,13 @@
 
 <p>Cu siguranţă că există o multitudine de modele, fiecare cu caracteristici diferite, totuşi, multimetrul prezentat aici este unul general, utilizat pentru prezentarea principiilor sale de bază.</p> 
 
-<p><img class="floatleft" src="../poze/noi/00340.png" alt="multimetru digital; prezentare generală"/></p>
+<p><img src="../poze/noi/00340.png" alt="multimetru digital; prezentare generală"/></p>
 
 <p>Putem observa că afişajul este digital, din acest motiv, acest tip de multimetru mai poartă numele de multimetru digital. Selectorul rotativ (setat pe poziţia Off (închis) în acest caz) se poate găsi în 5 poziţii diferite: 2 poziţii „V” (tensiune), 2 poziţii „A” (curent), şi o poziţie Ω (rezistenţă). De asemenea, poziţia marcată cu o pereche de linii orizontale, paralele, una continuă şi cealaltă întreruptă, reprezintă curentul continuu, iar poziţie reprezentată cu ajutorul unei forme de undă sinusoidale, reprezintă curentul alternativ. Cu alte cuvinte, intern, multimetrul utilizează metode diferite pentru măsurarea curentului şi a tensiunii în curent continuu respectiv curent alternativ, de aici şi necesitatea existenţei a două poziţii pentru fiecare dintre cele două variabile.</p>
 
 <p>Pe suprafaţa multimetrului există trei prize în care putem introduce sondele de test. Sondele nu sunt altceva decât conductori speciali utilizaţi pentru realizarea legăturii dintre circuit şi multimetru. Condcutorii sunt acoperiţii de o izolaţie colorată, neagră sau roşie, pentru a preveni contactul direct, iar vârfurile sunt ascuţite şi rigide.</p>
 
-<p><img class="floatleft" src="../poze/noi/00341.png" alt="multimetru digital; prezentare generală"/></p>
+<p><img src="../poze/noi/00341.png" alt="multimetru digital; prezentare generală"/></p>
 
 <p>Sonda neagră va fi tot timpul introdusă în priza neagră a multimetrului, cea marcată cu „COM” (comun). Sonda roşie va fi introdusă fie în priza marcată pentru tensiune şi rezistenţă (V Ω) sau în cea pentru curent (A), în funcţie de ce variabilă dorim să măsurăm.</p>
 
@@ -40,13 +40,13 @@
 
 <h3>Măsurarea unei tensiuni de curent continuu</h3>
 
-<p><img class="floatleft" src="../poze/noi/00342.png" alt="multimetru digital; măsurarea tensiunii de curent continuu a unei baterii"/></p>
+<p><img src="../poze/noi/00342.png" alt="multimetru digital; măsurarea tensiunii de curent continuu a unei baterii"/></p>
 
 <p>Primul exemplu constă din măsurarea unei tensiuni de c.c. la bornele unei baterii. Observaţi prizele la care sunt conectate cele două sonde ale multimetrului (V Ω şi COM) şi faptul că selectorul este setat pe „V” în curent continuu.</p>
 
 <h3>Măsurarea unei tensiuni de curent alternativ</h3>
 
-<p><img class="floatleft" src="../poze/noi/00343.png" alt="multimetru digital; măsurarea tensiunii de curent alternativ la priză"/></p>
+<p><img src="../poze/noi/00343.png" alt="multimetru digital; măsurarea tensiunii de curent alternativ la priză"/></p>
 
 <p>Singura diferenţa constă în schimbarea poziţiei selectorului pe poziţie „V” în curent alternativ. Din moment ce efectuăm tot o măsurătoare de tensiune, sondele multimetrului vor rămâne conectate în aceleaşi prize.</p>
 
@@ -54,7 +54,7 @@
 
 <p>În ambele cazuri de mai sus, este extrem de important să nu atingem vârfurile celor două sonde între ele, atunci când acestea se află în contact cu punctele lor respective din circuit. Dacă acest lucru are loc, se va forma un scurt-circuit, lucru pe care nu-l dorim.</p>
 
-<p><img class="floatleft" src="../poze/noi/00344.png" alt="multimetru digital; măsurarea tensiunii de curent alternativ la priză"/></p>
+<p><img src="../poze/noi/00344.png" alt="multimetru digital; măsurarea tensiunii de curent alternativ la priză"/></p>
 
 <p>Măsurarea tensiunilor este probabil cea mai folosită funcţie a unui multimetru. Este cu siguranţă cea mai folosită metodă pentru asigurarea împotriva electrocutărilor, şi din acest motiv, trebuie foarte bine înţeleasă de către utilizatorul acestuia. Fiindcă tensiunea este tot timpul relativă între două puncte, aparatul de măsură trebuie să fie conectat între două puncte din circuit pentru a putea oferi un rezultat satisfăcător. Acest lucru înseamnă că ambele sonde trebuie ţinute de mânile utilizatorului pentru crearea contactelor. Dar ştim deja că cea mai periculoasă cale pentru curent, în cazul electrocutărilor, este între cele două mâini, deoarece curentu în acest caz trece direct prin inimă; din această cauză, o astfel de măsurătoare reprezintă tot timpul un potenţial pericol.</p>
 
@@ -72,7 +72,7 @@
 
 <p>Prima dată verificăm aparatul de măsură asupra unei surse de tensiune cunoscute, pentru a ne asigura de funcţionarea sa corectă (priză de c.a., de exemplu). Facem acest lucru şi observăm ca multimetrul funcţionează corect. Apoi, trebuie să măsurăm căderea de tensiune dintre aceste fire ale panoului. Dar tensiunea reprezintă o valoare între două puncte, prin urmare, ce puncte trebuie să luăm în considerare?</p>
 
-<p><img class="floatleft" src="../poze/noi/00353.png" alt="panou electric; schiţă"/></p>
+<p><img src="../poze/noi/00353.png" alt="panou electric; schiţă"/></p>
 
 <p>Adevărul este că trebuie să măsurăm căderea de tensiune între toate combinaţiile posibile, A cu B, B cu C şi A cu C. Dacă măsurăm o cădere de tensiune diferită de zero, în oricare din aceste scenarii, circuitul nu se află într-o stare de energie zero. Dar asta nu e tot. Un multimetru nu va înregistra tensiunile de c.c. atunci când selectorul este poziţionat pe c.a. şi invers; prin urmare, trebuie să mai efectuăm un set de trei măsurători pentru fiecare din cele două stări.</p>
 
@@ -82,7 +82,7 @@
 
 <p>În cazul măsurării rezistenţelor, sondele vor rămâne conectate în aceleaşi prize ale multimetrului ca şi în cazul măsurătorilor de tensiune, dar selectorul trebuie poziţionat pe Ω (vezi figura). Măsurătoarea se realizează simplu, prin poziţionarea vârfurilor celor două sonde pe capetele libere ale rezistorilor.</p>
 
-<p><img class="floatleft" src="../poze/noi/00345.png" alt="panou electric; schiţă"/></p>
+<p><img src="../poze/noi/00345.png" alt="panou electric; schiţă"/></p>
 
 <p>Atenţie însă, măsurarea rezistenţelor se face doar asupra componentelor nealimentate! Atunci când multimetrul se află în modul „rezistenţă”, acesta se foloseşte de o mică baterie internă pentru generarea unui curent mic prin componentul de măsurat. Prin sesizarea dificultătii de trecere a curentului prin component, se poate determina rezistenţa acestuia. Dacă există o sursă adiţională de tensiune în circuitul format din aparatul de măsură şi componentul în cauză, măsurătorile realizate vor fi greşite. În cel mai rău caz, prezenţa unei surse adiţionale de tensiune în circuit, poate duce la defectarea aparatului de măsură.</p>
 
@@ -90,25 +90,25 @@
 
 <p>Modul „rezistenţă” a unui multimetru este foarte folositor şi pentru determinarea continuitătii conductorilor. Atunci când exista o un contact bun între vârfurile sondelor, aparatul va indicat o valoarea aproximativ egală cu 0 Ω. Dacă sondele nu ar prezenta nicio rezistenţa internă, această măsurătoare ar da exact 0 Ω.</p>
 
-<p><img class="floatleft" src="../poze/noi/00346.png" alt="multimetru digital; atingerea sondelor între ele"/></p>
+<p><img src="../poze/noi/00346.png" alt="multimetru digital; atingerea sondelor între ele"/></p>
 
 <p>Dacă sondele nu se află în contact direct una cu cealaltă, sau daca sunt conectate la capetele opuse ale unui conductor întrerupt, acesta va indica o rezistenţă infinită, reprezentată de obicei pe afişajul multimetrului prin prescurtarea „O.L.” (open loop (eng.) - circuit deschis).</p>
 
-<p><img class="floatleft" src="../poze/noi/00347.png" alt="multimetru digital; circuit deschis (O.L.)"/></p>
+<p><img src="../poze/noi/00347.png" alt="multimetru digital; circuit deschis (O.L.)"/></p>
 
 <h3>Măsurarea curentului cu ajutorul multimetrului</h3>
 
 <p>Aceasta reprezintă cea mai complexă şi periculoasă aplicaţie a multimetrului. Motivul este destul de simplu: curentul de măsurat trebuie să treacă <b>prin</b> aparatul de măsură, ceea ce înseamnă că multimetrul trebuie integrat în circuit. Pentru a realiza acest lucru, circuit iniţial trebuie oprit, iar multimetrul conectat între cele două puncte ale circuitului deschis. Pentru realizarea propriu-zisă a măsurătorii, selectorul trebuie să se afle în poziţia „A”, fie în c.a., fie în c.c., iar sonda roşie trebuie introdusă în priza marcata cu „A” (vezi figura).</p>
 
-<p><img class="floatleft" src="../poze/noi/00348.png" alt="multimetru digital; măsurarea curentului"/></p>
+<p><img src="../poze/noi/00348.png" alt="multimetru digital; măsurarea curentului"/></p>
 
 <p>Următorul pas este deschiderea circuitului pentru a putea conecta multimetrul.</p>
 
-<p><img class="floatleft" src="../poze/noi/00349.png" alt="multimetru digital; măsurarea curentului; deschiderea circuitului"/></p>
+<p><img src="../poze/noi/00349.png" alt="multimetru digital; măsurarea curentului; deschiderea circuitului"/></p>
 
 <p>Închiderea circuitul se realizează apoi prin multimetru, astfel: conectăm vârfurile sondelor la captele libere ale circuitului deschis, sonda neagră la terminalul negativ al bateriei de 9 V, iar sonda roşie la capătul conductorului liber ce duce la bec.</p>
 
-<p><img class="floatleft" src="../poze/noi/00350.png" alt="multimetru digital; măsurarea curentului; închiderea circuitului prin intermediul multimetrului"/></p>
+<p><img src="../poze/noi/00350.png" alt="multimetru digital; măsurarea curentului; închiderea circuitului prin intermediul multimetrului"/></p>
 
 <p>Deşi acest circuit, cu o sursă de 9 V, este sigur din punct de vedere al electrocutărilor, în circuitele de putere această metodă reprezintă o adevărată sursă de pericol.</p>
 
@@ -116,7 +116,7 @@
 
 <p>La modificarea poziţiei multimetrului din modul „curent” (ampermetru) în modul „tensiune” (voltmetru), se întâmplă adesea să schimbăm poziţia de pe „A” pe „V” dar să uităm sonda roşie în priza „A” şi nu în priza (V Ω). Dacă aparatul de măsură este apoi conectat la bornele unei surse de tensiune suficient de mare, rezultatul va fi un scurt-circuit prin aparatul de măsură. Atunci când multimeturl se află în poziţia „A”, acesta este proiectat pentru o rezistenţă între vârfurile sondelor ce tinde practic la 0 Ω. În poziţia „V”, lucrurile stau exact invers, rezistenţa dintre vârfurile sondelor este de ordinul mega-ohmilor (MΩ).</p>
 
-<p><img class="floatleft" src="../poze/noi/00351.png" alt="multimetru digital setat pentru măsurarea curentului dar folosit pentru măsurarea tensiunii; apariţia scurt-circuitului"/></p>
+<p><img src="../poze/noi/00351.png" alt="multimetru digital setat pentru măsurarea curentului dar folosit pentru măsurarea tensiunii; apariţia scurt-circuitului"/></p>
 
 <p>Pentru a preveni acest lucru, majoritatea multimetrlor produc un avertisment sonor în cazul în care sonda este introdusă în priza „A” iar selectorul este poziţionat pe „V”.</p>
 
@@ -124,7 +124,7 @@
 
 <p>Toate multimetrele de calitate sunt echipate cu siguranţe fuzibile în interior, siguranţe ce se ard la trecerea unui curent excesiv prin ele, precum este cazul exemplului anterior. La fel ca toate dispozitivele de siguranţă, şi aceste siguranţe sunt proiectate în primul rând pentru protecţia echipamentului şi doar apoi pentru protecţia utilizatorului. Un multimetru poate fi utilizat pentru verificarea propriei siguranţe prin setarea pe poziţia „Ω”, iar sondele pe poziţia „A” respectiv „V Ω”. Verificarea se realizează prin contactul direct al celor două sonde.</p>
 
-<p><img class="floatleft" src="../poze/noi/00352.png" alt="multimetru digital; verificarea siguranţei fuzibile interne"/></p>
+<p><img src="../poze/noi/00352.png" alt="multimetru digital; verificarea siguranţei fuzibile interne"/></p>
 
 <p>O siguranţa bună va indica o rezistenţa foarte mică, pe când o siguranţa arsă va indica tot timpul un circuit deschis (O.L.). Valoarea măsurătorii nu este de o importanţă foarte mare, atâta timp cât este mica.</p>
 

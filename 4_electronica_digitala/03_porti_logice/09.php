@@ -43,17 +43,17 @@
 </tr>
 </table>
 
-<img class="floatleft" src="../poze/04070.png" alt="poartă logică NU"/>
+<img src="../poze/04070.png" alt="poartă logică NU"/>
 
 <div class="clear"></div>
 
-<img class="floatleft" src="../poze/04154-1.png" alt="funcţia logică NU realizată cu porţi logice ŞI-negat şi SAU-negat prin interconectarea intrărilor"/>
+<img src="../poze/04154-1.png" alt="funcţia logică NU realizată cu porţi logice ŞI-negat şi SAU-negat prin interconectarea intrărilor"/>
 
 <p>În figura alăturată este prezentat modul de realizare a acestei funcţii folosind porţi logice ŞI-negat şi SAU-negat.</p>
 
 <div class="clear"></div>
 
-<img class="floatleft" src="../poze/04154.png" alt="funcţia logică NU realizată cu porţi logice ŞI-negat şi SAU-negat prin legarea uneia dintre intrări la masă"/>
+<img src="../poze/04154.png" alt="funcţia logică NU realizată cu porţi logice ŞI-negat şi SAU-negat prin legarea uneia dintre intrări la masă"/>
 
 <p>Această metodă de conectare împreună a intrărilor duce la creşterea curentului de intrare. Prin urmare, atât în cazul de faţă, cât şi în exemplele ce urmează, se va folosi conectarea la masă a unuia dintre terminali (celălalt terminal de intrare va fi legat la sursa de alimentare). Funcţional, rezultatul este acelaşi.</p>
 
@@ -78,11 +78,11 @@
 </tr>
 </table>
 
-<img class="floatleft" src="../poze/04088.png" alt="simbolul unei porţi ne-inversoare"/>
+<img src="../poze/04088.png" alt="simbolul unei porţi ne-inversoare"/>
 
 <div class="clear"></div>
 
-<img class="floatleft" src="../poze/04155.png" alt="realizarea funcţiei ne-inversoare cu două etaje de porţi ŞI-negat şi SAU-negat conectate împreună"/>
+<img src="../poze/04155.png" alt="realizarea funcţiei ne-inversoare cu două etaje de porţi ŞI-negat şi SAU-negat conectate împreună"/>
 
 <p>Conform celor spuse mai sus, realizarea acestei funcţii folosind porţi logice ŞI-negat şi SAU-negat se realizează conectând două etaje împreună, conform figurii alăturate.</p>
 
@@ -120,17 +120,17 @@
 </tr>
 </table>
 
-<img class="floatleft" src="../poze/04156-1.png" alt="simbolul porţii logice ŞI"/>
+<img src="../poze/04156-1.png" alt="simbolul porţii logice ŞI"/>
 
 <div class="clear"></div>
 
-<img class="floatleft" src="../poze/04156-2.png" alt="realizarea funcţiei ŞI prin intermediul a două porţi logice ŞI-negat"/>
+<img src="../poze/04156-2.png" alt="realizarea funcţiei ŞI prin intermediul a două porţi logice ŞI-negat"/>
 
 <p>Folosind porţi logice ŞI-negat pentru realizarea funcţiei ŞI, avem nevoie de adăugarea unui etaj inversor (poartă NU) pe ieşirea porţii ŞI-negat. Dar, am văzut mai sus cum se poate realiza o poartă NU folosind o poartă ŞI-negat. Prin urmare, schema finală este cea din figura alăturată.</p>
 
 <div class="clear"></div>
 
-<img class="floatleft" src="../poze/04156.png" alt="realizarea funcţiei ŞI prin intermediul a două porţi logice ŞI-negat"/>
+<img src="../poze/04156.png" alt="realizarea funcţiei ŞI prin intermediul a două porţi logice ŞI-negat"/>
 
 <p>Acelaşi lucru se poate realiza folosind porţi logice SAU-negat, prin inversarea (poartă NU) tuturor intrărilor printr-o poartă SAU-negat. Din nou, am văzut mai sus cum se poate realiza o poartă NU dintr-o poartă SAU-negat.</p>
 
@@ -166,13 +166,13 @@
 </tr>
 </table>
 
-<img class="floatleft" src="../poze/04106.png" alt="simbolul unei porţi logice ŞI-negat"/>
+<img src="../poze/04106.png" alt="simbolul unei porţi logice ŞI-negat"/>
 
 <div class="clear"></div>
 
 <p>Desigur, nu avem ce „construi” la o funcţie ŞI-negat cu ajutorul porţilor ŞI-negat, pentru că nu este nimic de făcut.</p>
 
-<img class="floatleft" src="../poze/04157.png" alt="realizarea funcţiei logice ŞI-negat cu ajutorul porţilor SAU-negat"/>
+<img src="../poze/04157.png" alt="realizarea funcţiei logice ŞI-negat cu ajutorul porţilor SAU-negat"/>
 
 <p>Cu ajutorul porţilor SAU-negat însă, va trebui să inversăm atât intrările cu o poartă SAU-negat, precum şi ieşirea acesteia din urmă (cu o poartă NU). Din nou, am văzut mai sus cum se poate realiza o poartă NU cu ajutorul porţii SAU-negat.</p>
 
@@ -208,17 +208,17 @@
 </tr>
 </table>
 
-<img class="floatleft" src="../poze/04107.png" alt="simbolul porţii logice SAU"/>
+<img src="../poze/04107.png" alt="simbolul porţii logice SAU"/>
 
 <div class="clear"></div>
 
-<img class="floatleft" src="../poze/04158-1.png" alt="realizarea funcţiei logice SAU cu ajutorul porţilor logice SAU-negat"/>
+<img src="../poze/04158-1.png" alt="realizarea funcţiei logice SAU cu ajutorul porţilor logice SAU-negat"/>
 
 <p>Inversarea ieşirii unei porţi SAU-negat (cu ajutorul unei alte porţi SAU-negat conectată ca şi poartă NU) are ca rezultat funcţia SAU. </p>
 
 <div class="clear"></div>
 
-<img class="floatleft" src="../poze/04158.png" alt="realizarea funcţiei logice SAU cu ajutorul porţilor logice SAU-negat"/>
+<img src="../poze/04158.png" alt="realizarea funcţiei logice SAU cu ajutorul porţilor logice SAU-negat"/>
 
 <p>Folosind porţi SAU-negat, trebuie să inversăm toate intrările pentru simularea funcţiei SAU, la fel cum a trebui să inversăm toate intrările unei porţi SAU-negat pentru a obţine funcţie ŞI.</p>
 
@@ -256,11 +256,11 @@
 </tr>
 </table>
 
-<img class="floatleft" src="../poze/04113.png" alt="simbolul porţii SAU-negat"/>
+<img src="../poze/04113.png" alt="simbolul porţii SAU-negat"/>
 
 <div class="clear"></div>
 
-<img class="floatleft" src="../poze/04159.png" alt="realizarea funcţiei SAU-negat prin intermediul porţilor ŞI-negat"/>
+<img src="../poze/04159.png" alt="realizarea funcţiei SAU-negat prin intermediul porţilor ŞI-negat"/>
 
 <p>Pentru realizarea acestei fucţii folosind porţi ŞI-negat, trebuie să inversăm toate intrările şi ieşirea. Procedeul este asemănător cu cel prin care am realizat funcţia ŞI-negat folosind porţi logice SAU-negat.</p>
 

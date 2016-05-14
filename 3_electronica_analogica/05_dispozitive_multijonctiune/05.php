@@ -74,67 +74,67 @@
 
 <p>Majoritatea aplicaţiilor tiristoarelor însă sunt pentru controlul circuitelor de putere în c.a., chiar dacă aceste dispozitive sunt uni-direcţionale (dispozitive de c.c.). În cazul curenţilor bidirecţionali, se pot utiliza mai multe tiristoare în acelaşi circuit. Principalul motiv pentru care tiristoarele sunt folosite pentru circuitele de putere în c.a. este răspunsul unic al acestora faţă de curentul alternativ. După cum am vazut şi în cazul tiratronului şi al DIAC-ului, aceste dispozitive intră în starea de conducţie peste un anumită valoare a formei de undă alternative şi rămâne în această stare pentru tot restul semi-perioadei, până în momentul în care curentul scade la zero. Cu puţin înainte de trecerea prin zero a formei de undă de curent, tiristorul va intra în starea blocată datorită curentului prea mic (acest comportament mai poartă numele şi de comunaţie naturală) şi va trebui re-pornit (re-aprins) în următoarea semi-perioadă. Rezultatul este o formă de undă a curentului echivalentă cu o undă sinusoidală „tăiată”. Graficul formei de undă al DIAC-ului ca şi răspuns la o tensiune de c.a a cărei vârf depăşeşte tensiunea de străpungere este reluat în figura alăturată.</p>
 
-<p><img class="floatleft" src="../poze/03205.png" alt="graficul formei de undă a DIAC-ului"/></p>
+<p><img src="../poze/03205.png" alt="graficul formei de undă a DIAC-ului"/></p>
 
 <p>În cazul DIAC-ului, acea tensiune de străpungere are o valoare fixă. În cazul tiristoarelor, putem controla exact momentul în care dispozitivul intră în starea de conducţie prin aprinderea porţii în orice moment de-a lungul formei de undă. Prin conectarea unui circuit de control adecvat pe poarta tiristorului, putem „tăia” unda sinusoidală în orice punct; rezultatul este un tiristor comandat în timp.</p>
 
 <p>Să considerăm circuitul alăturat, de exemplu. În acest caz, un tiristor este conectate într-un circuit ce controlează puterea pe o sarcină de la o sursă de curent alternativ.</p>
 
-<p><img class="floatleft" src="../poze/03211.png" alt="circuit cu tiristor"/></p>
+<p><img src="../poze/03211.png" alt="circuit cu tiristor"/></p>
 
 <p>Fiind un dispozitiv uni-direcţional, tot ceea ce poată să realizeze este să transmită doar o semi-perioadă spre sarcină. Totuşi, pentru a putea demonstra conceptul de comandă a tiristorului, acest circuit simplu este mai bun decât un circuit folosind două tiristoare pentru comanda întregii forme de undă.</p>
 
 <p>Fără existenţa unui semnal pe poartă şi cu valoarea tensiunii c.a. mult sub tensiunea de străpungere a tiristorului, dispozitivul nu va intra niciodată în starea de conducţie. Conectând poarta tiristorului la anod prin intermediul unei diode redresoare standard (pentru prevenirea curentului invers prin poartă în cazul în care tiristorul posedă un rezistor intern între poartă şi catod), va permite pornirea tiristorului aproape instant la începutul fiecărei semi-perioade pozitive.</p>
 
-<p><img class="floatleft" src="../poze/03212.png" alt="circuit cu tiristor; forma de undă"/></p>
+<p><img src="../poze/03212.png" alt="circuit cu tiristor; forma de undă"/></p>
 
 <p>Putem întârzia pornirea tiristorului prin introducerea unei rezistenţe în circuitul porţii, rezistenţă ce creşte valoarea căderii de tensiune necesară pe poartă. Cu alte cuvinte, dacă mărim rezistenţa la care sunt supuşi electronii în drumul lor către poartă, tensiunea de c.a. va trebui să atingă un punct mai mare în cadrul semi-alternanţei pentru a crea un curent suficient de mare necesar aprinderii tiristorului.</p>
 
-<p><img class="floatleft" src="../poze/03213.png" alt="circuit cu tiristor; forma de undă cu o rezistenţa introdusă în circuitul porţii"/></p>
+<p><img src="../poze/03213.png" alt="circuit cu tiristor; forma de undă cu o rezistenţa introdusă în circuitul porţii"/></p>
 
 <p>Odată cu tăierea alternanţei pozitive a undei sinusoidale la un nivel mai mare decât în cazul precedent prin îtârzierea intrării în conducţie a tiristorului, puterea medie pe sarcină este mai mică. Dacă înlocuim rezistorul fix din circuitul porţii cu un rezistor variabil, putem controla puterea pe sarcină în timp. Creşterea rezistenţei duce la creşterea pragului de aprindere, ducând la o putere mai mică pe sarcină şi invers.</p>
 
-<p><img class="floatleft" src="../poze/03214.png" alt="circuit cu tiristor; rezistor variabil în circuitul porţii"/></p>
+<p><img src="../poze/03214.png" alt="circuit cu tiristor; rezistor variabil în circuitul porţii"/></p>
 
 <p>Din păcate, acest circuit are un neajuns destul de mare. Folosind semnale de curent alternativ pentru aprinderea tiristorului, controlul asupra dispozitivului este limitat pe prima jumătat a alternanţei pozitive. Cu alte cuvinte, nu putem amâna pornirea tiristorului până după atingerea vârfului formei de undă. Astfel că putem opri puterea pe sarcină doar până în punctul maxim în care tiristorul intră în conducţie, punct situat spre vârful formei de undă. În figura alăturată circuitul este setat la puterea minimă la care sarcina poate fi alimentată în această configuraţie.</p>
 
-<p><img class="floatleft" src="../poze/03215.png" alt="circuit cu tiristor; pragul maxim de aprindere al tiristorului"/></p>
+<p><img src="../poze/03215.png" alt="circuit cu tiristor; pragul maxim de aprindere al tiristorului"/></p>
 
 <p>Dacă în această situaţie vom continua să mărimi pragul de aprindere, tiristorul nu va mai intra deloc în conducţie, din moment ce nici măcar vârful formei de undă de c.a. nu va mai fi necesar pentru aprinderea tiristorului. Rezultatul este lipsa totală a puterii pe sarcină.</p>
 
 <p>O soluţie ingenioasă la această problemă constă în introducerea unui condensator pentru modificarea fazei în circuit.</p>
 
-<p><img class="floatleft" src="../poze/03216.png" alt="circuit cu tiristor; adăugarea unui condensator de defazare"/></p>
+<p><img src="../poze/03216.png" alt="circuit cu tiristor; adăugarea unui condensator de defazare"/></p>
 
 <p>Forma de undă de amplitudine mai mică reprezintă căderea de tensiune la bornele condensatorului. Pentru simplitatea exemplificării, presupunem o rezistenţă de comandă maximă, adică tiristorul nu va intra deloc în conducţie iar curentul pe sarcină va fi zero exceptând un curent foarte mic ce trece prin rezistorul de comandă şi prin condensator. Căderea de tensiune pe acest condensator va fi defazată cu un unghi între 0<sup>o</sup> şi 90<sup>o</sup> în urma undei de c.a. Atunci când această tensiune defazată va atinge un nivel suficient de mare, tiristorul va intra în conducţie.</p>
 
 <p>Cu o cădere de tensiune suficient de mare la bornele condensatorului pentru aprinderea periodică a tiristorului, rezultatul formei de undă a sarcinii va fi aproximativ cel alăturat.</p>
 
-<p><img class="floatleft" src="../poze/03217.png" alt="circuit cu tiristor; adăugarea unui condensator de defazare"/></p>
+<p><img src="../poze/03217.png" alt="circuit cu tiristor; adăugarea unui condensator de defazare"/></p>
 
 <p>Datorită faptului că forma de undă a condensatorului se află în creştere chiar şi după ce forma de undă a c.a. şi-a depăşit vârful şi este în scădere, aprinderea tiristorului este posibilă la un prag ce se situează dincolo de acest vârf, reuşindu-se tăierea formei de undă dincolo de limita maximă admisă de configuraţia precedentă. În realitate, forma de undă a tensiunii condensatorului este puţin mai complexă decât este prezentat aici, forma sa sinusoidală fiind distorsionată de fiecare dată când tiristorul intră în conducţie.</p>
 
 <p>Tiristoarele pot fi aprinse cu ajutorul unor circuite mult mai complexe. Chiar dacă circuitul precedent este suficient pentru o aplicaţie simplă precum comanda unei lămpi, comanda motoarelor electrice industriale necesită metode mult mai sofisticate de aprindere. Câteodată se pot folosi transformatoare de impulsuri pentru cuplarea unui circuitu de aprindere pe poarta şi catodul tiristorului pentru asigurarea izolaţiei electrice dintre aprindere şi circuitele de putere.</p>
 
-<p><img class="floatleft" src="../poze/03218.png" alt="utilizarea unui transformator de impulsuri pentru separarea circuitului de aprindere de circuitul de putere"/></p>
+<p><img src="../poze/03218.png" alt="utilizarea unui transformator de impulsuri pentru separarea circuitului de aprindere de circuitul de putere"/></p>
 
 <p>Atunci când se folosesc mai multe tiristoare pentru comanda puterii pe sarcină, adesea catozii nu sunt comuni din punct de vedere electric, făcând dificilă conectarea unui singur circuit de aprindere pentru toate tiristoarele. Un astfel de exemplu îl reprezintă un redresor în punte comandat cu tiristoare.</p>
 
-<p><img class="floatleft" src="../poze/03219.png" alt="punte comandată cu tiristoare"/></p>
+<p><img src="../poze/03219.png" alt="punte comandată cu tiristoare"/></p>
 
 <p>În oricare circuit redresor în punte, diodele redresoare (în acest caz, tiristoarele) trebuie să conducă în perechi opuse: T<sub>1</sub> şi T<sub>3</sub> trebuie aprinse simultan; acelaşi lucru este valabil şi pentru perechea T<sub>2</sub> - T<sub>4</sub>. După cum putem vedea însă, aceste perechi de tiristoare nu posedă aceleaşi conexiuni ale catozilor, ceea ce înseamnă că nu putem pur şi simplu să utilizăm o singură sursă de tensiune pentru aprinderea ambelor dispozitive, precum în figura alăturată.</p>
 
-<p><img class="floatleft" src="../poze/03220.png" alt="punte comandată cu tiristoare"/></p>
+<p><img src="../poze/03220.png" alt="punte comandată cu tiristoare"/></p>
 
 <p>Deşi sursa de impulsuri de tensiune prezentată mai sus va produce aprinderea tiristorului T<sub>4</sub>, tiristorul T<sub>2</sub> nu se va aprinde corespunzător datorită faptului că cele două tiristoare nu au o conexiune comună a catozilor, conexiune utilizată ca şi punct de referinţă al tensiunii de aprindere. Folosind transformatoare de impulsuri pentru conectarea porţilor celor două tiristoare la o sursă de impulsuri de tensiune continuă, va produce rezultatul aşteptat, aprinderea simultană a celor două dispozitive.</p>
 
-<p><img class="floatleft" src="../poze/03221.png" alt="punte comandată cu tiristoare; utilizarea transformatoarelor de impulsuri pentru comanda simultană a tiristoarelor"/></p>
+<p><img src="../poze/03221.png" alt="punte comandată cu tiristoare; utilizarea transformatoarelor de impulsuri pentru comanda simultană a tiristoarelor"/></p>
 
 <p>Trebuie menţionat faptul că acest circuit prezintă doar conexiunile porţilor tiristoarelor T<sub>2</sub> şi T<sub>4</sub>. Transformatoarele de impulsuri şi sursele de tensiune pentru tiristoarele T<sub>1</sub> şi T<sub>3</sub>, la fel şi detaliile surselor de impulsuri de tensiune, au fost omise pentru simplitatea prezentării.</p>
 
 <p>Redresoarele comandate în punte cu tiristoare pot fi folosite şi pentru redresarea tensiunilor trifazate. Un astfel de redresor este prezentat în figura alăturată, fără a include şi transformatoarele de impulsuri şi circuitele de aprindere.</p>
 
-<p><img class="floatleft" src="../poze/03222.png" alt="redresor comandat trifazat în punte cu tiristoare"/></p>
+<p><img src="../poze/03222.png" alt="redresor comandat trifazat în punte cu tiristoare"/></p>
 
 <p class="sumar">Sumar:</p>
 <ul>
