@@ -35,7 +35,7 @@ f(A,B,C,D) = Σ(m1,m2,m3,m4,m5,m7,m8,m9,m11,m12,m13,m15)
 
 <p>Indicii termenilor indică locaţia regiunii, sau adresa, dintr-o hartă Karnaugh. Acesta este cu siguranţa un mod mult mai compact pentru descrierea mintermenilor sau regiunilor unei hărţi Karnaugh.</p>
 
-<img src="../poze/14162.png" width="518" height="371" alt="harta Karnaugh"/>
+<img src="../poze/14162.png" alt="harta Karnaugh"/>
 
 <p>Soluţia exprimată sub formă sumei de produse nu este afectată prin utilizarea acestei terminologii. Mintermenii de pe harta (valorile de 1) sunt grupaţi ca de obicei, iar mai apoi putem scrie o soluţie sub forma sumei de produse.</p>
 
@@ -51,7 +51,7 @@ f(A,B,C,D) = Π(M2, M6, M8, M9, M10, M11, M14)
 
 <p>Din nou, numerele indică adresa sau locaţia pe harta Karnaugh. Pentru maxtermeni, acestea reprezintă locaţiile valorilor de 0. Soluţia sub forma produsului de sume se scrie ca de obicei.</p>
 
-<img src="../poze/14163.png" width="554" height="360" alt="harta Karnaugh"/>
+<img src="../poze/14163.png" alt="harta Karnaugh"/>
 
 
 

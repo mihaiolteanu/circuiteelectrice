@@ -25,7 +25,7 @@
 
 <p>Ne propunem să realizăm o baterie din cartof. Deşi acest experiment foloseşte cartoful pe post de baterie, puteţi folosi o varietate de fructe şi legume pe post de potenţiale baterii. Veţi avea nevoie prin urmare, pe lângă cartof (sau lămâie, de exemplu), de o bucată de zinc sau de metal galvanizat şi un conductor de cupru. Pentru electrodul de zinc, puteţi folos un cui galvanizat. Vom vedea importanţa reacţiilor chimice în funcţionarea bateriilor precum şi modul în care suprafaţa electrozilor influenţează funcţionarea bateriei. Ciurcuitul realizat este următorul:</p>
 
-<img src="../poze/05167.png" width="324" height="205" alt="baterie din cartof"/>
+<img src="../poze/05167.png" alt="baterie din cartof"/>
 
 <h2>Realizarea bateriei din cartof</h2>
 

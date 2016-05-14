@@ -29,11 +29,11 @@
 
 <p>Pentru acest experiment veţi avea nevoie de o baterie de 6 V (sau sursă de tensiune echivalentă), două condensatoare electrolitice mari, de cel puţin 1000 µF, doi rezistori de 1 kΩ şi de un întrerupător. Circuitul realizat arată astfel:</p>
 
-<img src="../poze/05172.png" width="295" height="217" alt="încărcarea şi decărcarea unui condensator"/>
+<img src="../poze/05172.png" alt="încărcarea şi decărcarea unui condensator"/>
 
-<img src="../poze/05173.png" width="250" height="182" alt="încărcarea unui condensator"/>
+<img src="../poze/05173.png" alt="încărcarea unui condensator"/>
 
-<img src="../poze/05174.png" width="265" height="167" alt="decărcarea unui condensator"/>
+<img src="../poze/05174.png" alt="decărcarea unui condensator"/>
 
 <h2>Atenţie la condensatoarele electrolitice</h2>
 

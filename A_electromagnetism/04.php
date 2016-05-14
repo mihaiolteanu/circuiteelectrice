@@ -21,7 +21,7 @@
   
 <div id="contents">
 
-<img src="../poze/00000.png" width="200" height="150" alt=""/>
+<img src="../poze/00000.png" alt=""/>
 
 </div>
 <div id="footer">

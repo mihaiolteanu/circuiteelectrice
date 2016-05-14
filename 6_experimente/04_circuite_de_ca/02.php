@@ -29,7 +29,7 @@
 
 <p>Veţi avea nevoie de bare plate din oţel, diferite şuruburi, piuliţie şi şaibe, conductor de cupru (pentru magnet/transformator) de 0,32 mm şi o sursă de alimentare în curent alternativ de mică putere. Conductorul de cupru pentru magnet/transformator este un conductor subţire izolat prin lăcuire. Puteţi folosi aproape orice diametre, dar cel de 0,32 mm este recomandat pentru simplul fapt că putem realiza multe înfăşurări într-un spaţiu relativ îngust. Transformatorul final va arăta aproximativ astfel:</p>
 
-<img src="../poze/05005.png" width="259" height="180" alt="construirea unui transformator"/>
+<img src="../poze/05005.png" alt="construirea unui transformator"/>
 
 
 

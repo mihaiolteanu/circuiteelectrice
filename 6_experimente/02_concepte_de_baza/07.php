@@ -27,11 +27,11 @@
 
 <p>Scopul acestui experiment este familiarizarea cu legea lui Joule, importanţa puterii nominale a componentelor precum şi importanţa punctelor electric comune. Circuit pe care îl vom realiza este următorul:</p>
 
-<img src="../poze/05122.png" width="168" height="103" alt="circuit electric simplu"/>
+<img src="../poze/05122.png" alt="circuit electric simplu"/>
 
 <p>Practic, circuitul va arăta conform figurii de mai jos. Atenţie însă, nu ţineţi rezistorul între degete atunci când este alimentat.</p>
 
-<img src="../poze/05123.png" width="202" height="141" alt="circuit electric simplu"/>
+<img src="../poze/05123.png" alt="circuit electric simplu"/>
 
 <h2>Realizarea circuitului şi a măsurătorilor</h2>
 
@@ -43,7 +43,7 @@
 
 <p>Cu rezistorul de 330 Ω conectat la baterie, măsuraţi tensiunea cu ajutorul voltmetrului. Putem realiza acest lucru în mai multe feluri. Tensiunea poate fi măsurată direct la bornele bateriei, sau direct la bornele rezistorului. Tensiunea bateriei este aceiaşi cu tensiunea la bornele bateriei în circuitul de faţă. Încercaţi să măsuraţi tensiunea în ambele puncte pentru a vă lămuri că acest lucru este adevărat. Acesta este un principiu al punctelor electric comune, ceea ce avem şi în circuitul de mai jos:</p>
 
-<img src="../poze/05124.png" width="300" height="283" alt="circuit electric simplu"/>
+<img src="../poze/05124.png" alt="circuit electric simplu"/>
 
 <h2>Calcularea puterii disipate</h2>
 

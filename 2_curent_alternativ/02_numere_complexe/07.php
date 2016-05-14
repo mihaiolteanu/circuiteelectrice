@@ -29,11 +29,11 @@
 
 <p>Polaritatea bateriilor este specificată prin intermediul simbolisticii specifice acestora: linia mai scurtă reprezintă tot timpul terminalul negativ (-), iar linia orizontală mai lungă este tot timpul borna pozitivă (+):</p>
 
-<img src="../poze/02348.png" width="80" height="78" alt="simboul şi polaritatea unei baterii electrice"/>
+<img src="../poze/02348.png" alt="simboul şi polaritatea unei baterii electrice"/>
 
 <p>Cu toate că, din punct de vedere matematic, reprezentarea tensiunii bateriei printr-o valoare negativă şi polaritatea bornelor inversată este corectă, acest lucru nu este convenţional:</p>
 
-<img src="../poze/02349.png" width="80" height="78" alt="simboul şi polaritatea unei baterii electrice"/>
+<img src="../poze/02349.png" alt="simboul şi polaritatea unei baterii electrice"/>
 
 <p>Interpretarea unei astfel de notaţii ar fi mai usoară dacă polarităţile „+” şi „-” ar fi văzute ca şi puncte de referinţă pentru sondele voltmetrului. Polaritatea „+” însemnând „roşu” iar „-” însemnând „negru”. Un voltmetru conectat la bateria de mai sus cu sonda roşie la borna de jos şi sonda neagră la borna de sus, ar indica într-adevăr o tensiune negativă (-6 V).</p>
 

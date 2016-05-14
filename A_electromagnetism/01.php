@@ -43,7 +43,7 @@
 
 <p>Din fericire însă, având la dispoziţie cunoştinţele moderne din domeniul fizicii, putem analiza un alt candidat pentru forţele atomice: electricitatea. Forţele electrice sunt observate adesea între obiectele preparate anterior prin frecare (sau alte interacţiuni ale suprafeţelor acestora). Un exemplu practic este prezentat în cele ce urmează: lipiţi două benzi pe o masă şi lipiţi încă două benzi peste acestea. Ridicaţi fiecare pereche de pe masă şi separaţi-le . Cele două bucăţi de deasupra se vor respinge, la fel şi cele două de jos. Totuşi, între o bucată de jos şi una de sus va exista o atracţie.</p> 
 
-<img src="poze/twotapes.png" width="229" height="387" alt="electricitate statică; bandă adezivă"/>
+<img src="poze/twotapes.png" alt="electricitate statică; bandă adezivă"/>
 
 <p>Asemenea forţe electrice sunt similare, dintr-un anumit punct de vedere, gravitaţiei:</p>
 
@@ -112,9 +112,9 @@
 
 <p>Un obiect încărcat electric poate să atragă obiecte ce nu sunt încărcate (electric neutre). Cum este posibil acest lucru? Cu toate că oricare bucată de hârtie (vezi figura de mai jos) are o sarcină totală egală cu zero, aceasta posedă totuşi particule încărcate electric. Aceste particule posedă o anumită libertate de mişcare în interiorul materialului. Să presupunem că banda adezivă este încărcată pozitiv. Particulele mobile din hârtie vor răspunde forţelor electrice generate de sarcina pozitivă regăsită pe bandă. În urma acestei interacţiuni, un capăt al hârtiei va deveni încărcat pozitiv, iar celălalt capăt încărcat negativ. Observaţi că în acest caz nu a avut loc niciun transfer de sarcină electrică între cele două corpuri considerate, ci doar o rearanjare a sarcinilor electrice deja prezente în hârtie. Ca urma a acestei reorganizări, forţa de atracţie dintre hârtie şi banda adezivă este mai puternică decât forţa de respingere, datorită proximităţii capătului negativ al hârtiei faţa de bandă.</p>
 
-<img src="poze/scrapsofpaper.jpg" width="200" height="228" alt="atracţie dintre o bandă adezivă încărcată electric şi bucăţi de hârtie"/>
+<img src="poze/scrapsofpaper.jpg" alt="atracţie dintre o bandă adezivă încărcată electric şi bucăţi de hârtie"/>
 
-<img src="poze/induction.png" width="171" height="212" alt="atracţie dintre o bandă adezivă încărcată electric şi bucăţi de hârtie"/>
+<img src="poze/induction.png" alt="atracţie dintre o bandă adezivă încărcată electric şi bucăţi de hârtie"/>
 
 <h2>Forţa magnetică</h2>
 

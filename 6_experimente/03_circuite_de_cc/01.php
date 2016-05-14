@@ -27,21 +27,21 @@
 
 <p>Pe parcurs, vom realiza circuitul de mai jos (schemă + circuit practic):</p>
 
-<img src="../poze/05072.png" width="133" height="126" alt="conectarea bateriilor în serie"/>
+<img src="../poze/05072.png" alt="conectarea bateriilor în serie"/>
 
-<img src="../poze/05073.png" width="245" height="211" alt="conectarea bateriilor în serie"/>
+<img src="../poze/05073.png" alt="conectarea bateriilor în serie"/>
 
 <h2>Desfăşurarea experimentului</h2>
 
 <p>Conectarea componentelor în serie înseamnă conectarea lor în linie, astfel încât să existe un singur drum pe care să poată circula electronii. Conectaţi aşadar două baterii electrice în serie. Borna pozitivă a unei baterii trebuie să fie conectată la borna negativă a celeilalte. Măsuraţi căderea de tensiune la bornele fiecărei baterii, cu ajutorul unui voltmetru. Măsuraţi apoi căderea de tensiune la bornele celor două baterii conectate în serie. Veţi observa că cele două valori ale tensiunii se adună:</p>
 
-<img src="../poze/05074.png" width="528" height="493" alt="conectarea bateriilor în serie"/>
+<img src="../poze/05074.png" alt="conectarea bateriilor în serie"/>
 
 <p>Încercaţi să conectaţi baterii de tensiuni diferite în serie. De exemplu, conectaţi o baterie de 6 V cu una de 9 V. Care este valoarea totală a tensiunii în acest caz?</p>
 
 <p>Inversaţi apoi conexiunile celor două baterii, conectând borna negativă(-) a uneia dintre baterii cu borna negativă(-) a celeilalte. Pe scurt, conectaţi-le în <i>contra-serie</i>, astfel:</p>
 
-<img src="../poze/05075.png" width="209" height="126" alt="conectarea bateriilor în anti-serie"/>
+<img src="../poze/05075.png" alt="conectarea bateriilor în anti-serie"/>
 
 <p>Care este valoarea tensiunii în acest caz. Care este diferenţa faţă de cazul precedent? Puteţi deduce polaritatea căderii de tensiune, cunoscând polarităţile individuale ale bateriilor şi valorile tensiunilor lor?</p>
 

@@ -29,9 +29,9 @@
 
 <p>Pentru realizarea experimentului, veţi avea nevoie de un tub de hârtie/carton (de la un sul de şerveţele, de exemplu), o bară de fier sau oţel, cu un diametru suficient de mare pentru a umple tubul de carton; conductor de cupru pentru magnet/transformator de 0,32 mm; sursă de tensiune de c.a. şi un bec. Schema electrică realizată arată astfel:</p>
 
-<img src="../poze/05006.png" width="197" height="133" alt="circuit cu bobină variabilă"/>
+<img src="../poze/05006.png" alt="circuit cu bobină variabilă"/>
 
-<img src="../poze/05007.png" width="361" height="249" alt="circuit cu bobină variabilă"/>
+<img src="../poze/05007.png" alt="circuit cu bobină variabilă"/>
 
 <h2>Realizarea bobinei variabile</h2>
 

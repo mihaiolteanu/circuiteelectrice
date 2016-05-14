@@ -27,7 +27,7 @@
 
 <p>Să luăm pentru început cazul conectării bateriilor în serie pentru obţinerea unei tensiuni mai mari:</p>
 
-<img src="../poze/00273.png" width="300" height="99" alt="conectarea bateriilor în serie"/>
+<img src="../poze/00273.png" alt="conectarea bateriilor în serie"/>
 
 <p>Cunoaştem faptul că valoarea curentului într-un circuit serie este aceiaşi în toate punctele. Oricare ar fi valoarea curentului în circuit, aceasta trebuie să fie aceiaşi prin fiecare baterie. Din acest motiv, toate bateriile trebuie să fie egale din punct de vedere al valorii amper-oră. În caz contrar, unele din baterii se vor goli mai repede decât celelalte, iar capacitatea întregului circuit va fi compromisă. Capacitatea amper-oră totală a acestui circuit serie nu este afectate de numărul de baterii conectate.</p>
 
@@ -35,7 +35,7 @@
 
 <p>Să luăm cazul conectării bateriilor în paralel pentru creşterea curentului în circuit (rezistenţă înternă mai mică), sau creşterea capacităţii amper-oră:</p>
 
-<img src="../poze/00274.png" width="331" height="114" alt="conectarea bateriilor în paralel"/>
+<img src="../poze/00274.png" alt="conectarea bateriilor în paralel"/>
 
 <p>Cunoaştem faptul că într-un circuit paralel, căderea de tensiune este egală pe toate ramurile. Trebuie să ne asigurăm aşadar că tensiunea acestor baterii este egală. În caz contrar, vor exista curenţi relativ mari de la o baterie spre alta, bateriile cu o tensiune mai mare dominând bateriile cu tensiune mai mică. Acest lucru nu este de dorit.</p>
 
@@ -43,11 +43,11 @@
 
 <p>În aceiaşi ordine de idei, trebuie să ne asigurăm că orice elemente de protecţie la supracurent (siguranţe fuzibile sau întrerupătoare automate) sunt instalate astfel încât să fie eficiente. Pentru circuitul serie de mai sus, o singură siguranţă fuzibilă este suficientă pentru protecţia la supracurent a conductorilor, din moment ce orice deschidere a circuitului va opri curentul în întreg circuitul:</p>
 
-<img src="../poze/00275.png" width="379" height="96" alt="conectarea bateriilor în serie; protecţia la supracurent"/>
+<img src="../poze/00275.png" alt="conectarea bateriilor în serie; protecţia la supracurent"/>
 
 <p>În cazul unor baterii conectate în paralel însă, o singură siguranţa fuzibilă este suficientă pentru protejarea conductorilor la supracurent (conectată între sarcină şi bateriile conectate în paralel). În acest caz însă, avem şi alte situaţii pe care trebuie să le luăm în considerare. Se ştie faptul că, în cazul bateriilor, pot apărea scurt-circuite interne datorită „defectării” mediului de separare dintre electrozi. Bateriile bune vor domina bateriile defecte (tensiune mică), ducând la apariţia unor curenţi relativ mari pe aceste ramuri. Pentru a ne proteja de un astfel de eveniment, fiecare baterie trebuie protejată la supracurent printr-o singuranţă fuzibilă individuală, pe lângă siguranţa fuzibilă principală:</p>
 
-<img src="../poze/00276.png" width="346" height="147" alt="conectarea bateriilor în paralel; protecţia la supracurent"/>
+<img src="../poze/00276.png" alt="conectarea bateriilor în paralel; protecţia la supracurent"/>
 
 <h2>Alte observaţii legate de baterii şi acumulatori</h2>
 

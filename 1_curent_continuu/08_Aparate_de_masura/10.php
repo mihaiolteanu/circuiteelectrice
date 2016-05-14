@@ -27,7 +27,7 @@
 
 <p>Circuitul în puncte standard, numit adeasea şi punte Wheatstone, arată astfel:</p>
 
-<img src="../poze/00179.png" width="257" height="204" alt="punte Wheatstone"/>
+<img src="../poze/00179.png" alt="punte Wheatstone"/>
 
 <p>Atunci când căderea de tensiune între punctul 1 şi borna negativă a bateriei este egală cu tensiunea dintre punctul 2 şi borna negativă a bateriei, detectorul de nul va indica valoarea zero. În acest caz spunem că puntea este „echilibrată”. Starea de echilibru a balanţei este dependentă da raporturile R<sub>a</sub> / R<sub>b</sub> şi R<sub>1</sub> / R<sub>2</sub> şi este independentă de tensiunea de alimentare (a bateriei).</p>
 
@@ -35,11 +35,11 @@
 
 <p>O cerinţă a acestui sistem de măsură constă în existenţa unor seturi de rezistori variabili de precizie. Din moment ce rezistenţa acestora este cunoscută, pot fi folosiţi ca şi referinţă. De exemplu, dacă folosim o punte Wheatstone pentru a măsura o rezistenţă necunoscută R<sub>x</sub>, va trebui să cunoaştem valorile exacte ale celorlalţi trei rezistori în starea de echilibru, dacă dorim să determinăm valoarea lui R<sub>x</sub>:</p>
 
-<img src="../poze/00180.png" width="257" height="199" alt="punte Wheatstone"/>
+<img src="../poze/00180.png" alt="punte Wheatstone"/>
 
 <p>Ecuaţia de echilibru a punţii Wheatstone este următoarea:</p>
 
-<img src="../poze/00180-1.png" width="120" height="65" alt="formulă"/>
+<img src="../poze/00180-1.png" alt="formulă"/>
 
 <p>Fiecare din cei patru rezistori a unei punţi poartă numele de braţ. Rezistorul conectat în serie cu rezistenţa necunoscută R<sub>x</sub> (R<sub>a</sub> în figura de mai sus) poartă de obicei numele de reostat de reglaj. Din fericire, rezistenţele standard precise şi stabile nu sunt aşa de greu de realizat.</p>
 
@@ -53,41 +53,41 @@
 
 <p>O variantă interesantă a punţii Wheatstone o reprezintă puntea dublă Kelvin, cunoscută şi sub numele de punte Thomson. Aceast circuit este utilizat pentru măsurarea rezistenţelor extrem de mici (sub 1/10 ohmi):</p>
 
-<img src="../poze/00419.png" width="250" height="238" alt="punte Thomson"/>
+<img src="../poze/00419.png" alt="punte Thomson"/>
 
 <p>Rezistorii de valoare mică sunt reprezentaţi prin simboluri cu linie îngroşată, la fel şi conductorii (prin care trece un curent mare) la care sunt conectaţi. Această punte „ciudată” poate fi cel mai bine înţeleasă dacă reluăm puntea Wheatstone standard pentru măsurarea rezistenţelor mici, pentru a ajunge apoi, pas cu pas (datorită problemelor întâmpinate), la forma finală a punţii Thomson.</p>
 
 <p>Dacă am dori să folosim o punte Wheatstone standard pentru a măsura rezistenţe de o valoare foarte mica, circuitul ar artăta astfel:</p>
 
-<img src="../poze/00420.png" width="250" height="232" alt="punte Wheatstone pentru măsurarea rezistenţelor mici"/>
+<img src="../poze/00420.png" alt="punte Wheatstone pentru măsurarea rezistenţelor mici"/>
 
 <p>Când detectorul de nul indică o tensiune zero, ştim că puntea este echilibrată iar raporturile R<sub>a</sub> / R<sub>b</sub> şi R<sub>M</sub> / R<sub>N</sub> sunt egale. Cunoscând valorile rezistorilor R<sub>a</sub>, R<sub>M</sub> şi R<sub>N</sub> putem determina R<sub>x</sub>...aproximativ.</p>
 
 <p>Avem totuşi o problemă: contactele şi firele conductoare dintre R<sub>a</sub> şi R<sub>x</sub> prezintă şi ele o anumită rezistenţă. Aceste rezistenţe parazite pot fi substanţiale în comparaţie cu rezistenţele mici R<sub>a</sub> şi R<sub>x</sub>. De asemenea, căderea de tensiune pe aceste rezistenţe parazite va fi suficient de mare, ducând la un curent mare prin ele. Toate aceste lucruri vor afecta indicaţia detectorului de nul, şi prin urmare, starea de echilibru a punţii:</p>
 
-<img src="../poze/00421.png" width="250" height="234" alt="punte Wheatstone pentru măsurarea rezistenţelor mici"/>
+<img src="../poze/00421.png" alt="punte Wheatstone pentru măsurarea rezistenţelor mici"/>
 
 <p>Din moment ce nu dorim măsurarea acestor rezistenţe parazite, ci doar a rezistenţei R<sub>x</sub>, trebuie găsita o modalitate de corectare a detectorului de nul astfel încât acesta să nu fie influenţat de căderile de tensiune din lungul acestor rezistenţe parazite. În cazul în care conectăm detectorul de nul şi braţele R<sub>M</sub> / R<sub>N</sub> direct la bornele rezistorilor R<sub>a</sub> şi R<sub>x</sub>, ne vom apropia de o soluţia mai practică:</p>
 
-<img src="../poze/00422.png" width="250" height="234" alt="punte Wheatstone pentru măsurarea rezistenţelor mici"/>
+<img src="../poze/00422.png" alt="punte Wheatstone pentru măsurarea rezistenţelor mici"/>
 
 <p>În această configuratie, cele două căderi de tensiune E<sub>fir</sub> din partea de sus şi de jos nu au niciun efect asupra detectorului de nul şi nu vor influenţa precizia măsurătorii lui R<sub>x</sub>. Totuşi, celelalte două căderi de tensiune E<sub>fir</sub> vor cauza probleme.</p>
 
 <p>Cunoscând faptul că partea stângă a detectorului de nul trebuie conectată la cele două borne ale rezistorilor R<sub>a</sub> şi R<sub>x</sub> pentru evitarea introducerii căderilor de tensiune E<sub>fir</sub> în bucla detectorului de nul, şi că orice conductor ce face legătura cu cele două terminale va conduce el însuşi un curent substanţial (ce va duce la căderi de tensiune parazite adiţionale), singura soluţie în această situaţie este realizarea unui drum puternic rezistiv între partea de jos a rezistorului R<sub>a</sub> şi partea de sus a rezistorului R<sub>x</sub>:</p>
 
-<img src="../poze/00423.png" width="250" height="232" alt="punte Thomson (punte Kelvin dublă)"/>
+<img src="../poze/00423.png" alt="punte Thomson (punte Kelvin dublă)"/>
 
 <p>Putem controla căderile de tensiune parazite între R<sub>a</sub> şi R<sub>x</sub> prin dimensionarea celor doi rezistori noi, astfel încât raportul celui de sus cu cel de jos să fie egal cu raportul celor două braţe de pe partea celalată a detectorului de nul. Acesta este şi motivul pentru care aceşti rezistori au fost denumiţi R<sub>m</sub> şi R<sub>n</sub> în schema iniţială a puncţii Thomson: pentru a scoate în evidenţa proporţionalitatea lor cu rezistorii R<sub>M</sub> şi R<sub>N</sub>:</p>
 
-<img src="../poze/00419.png" width="250" height="238" alt="punte Thomson"/>
+<img src="../poze/00419.png" alt="punte Thomson"/>
 
 <p>Raportul R<sub>m</sub> / R<sub>n</sub> fiind egal cu raportul R<sub>M</sub> / R<sub>N</sub>, braţul R<sub>a</sub> (reostatul) este ajustat până în momentul în care detectorul de nul indică echilibrul punţii. În acest moment putem spune că R<sub>a</sub> / R<sub>x</sub> este egal cu R<sub>M</sub> / R<sub>N</sub>. Putem calcula R<sub>x</sub> cu următoarea ecuaţie:</p>
 
-<img src="../poze/10270.png" width="122" height="55" alt="formulă"/>
+<img src="../poze/10270.png" alt="formulă"/>
 
 <p>De fapt, ecuaţia de echilibru a punţii Thomson este următoarea:</p>
 
-<img src="../poze/10271.png" width="475" height="55" alt="formulă"/>
+<img src="../poze/10271.png" alt="formulă"/>
 
 <p>unde R<sub>fir</sub> este rezistenţa firului conductor gros dintre rezistenţa standard de jos R<sub>a</sub> şi rezistenţa de test R<sub>x</sub>.</p>
 

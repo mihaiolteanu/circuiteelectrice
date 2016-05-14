@@ -31,19 +31,19 @@
 
 <p>Începem cu un circuit simplu, format din mecanismul de măsură şi o baterie:</p>
 
-<img src="../poze/00174.png" width="280" height="122" alt="ohmmetru analogic"/>
+<img src="../poze/00174.png" alt="ohmmetru analogic"/>
 
 <p>Când avem o rezistenţă infinită (nu există continuitate între cele două sonde), curentul prin circuitul intern al ohmmetrului este zero. În acest caz, nu avem nicio deplasare, iar acul indicator este poziţionat în partea stângă a scalei de valori. Din acest punct de vedere, indicaţia ohmmetrului este chiar „inversă”, deoarece valoarea maximă (infinit) este la stânga scalei. Indicaţia voltmetrelor şi ampermetrelor este chiar inversă.</p>
 
 <p>Dacă sondele acestui ohmmetru sunt conectate împreună (scurt-circuitate, rezistenţa 0 Ω), curentul prin aparatul de măsură va fi maxim. Valoarea acestui curent este limitată doar de tensiunea bateriei şi de rezistenţa internă a mecanismului de măsură:</p>
 
-<img src="../poze/00175.png" width="280" height="127" alt="ohmmetru analogic"/>
+<img src="../poze/00175.png" alt="ohmmetru analogic"/>
 
 <p>Cu o tensiune a bateriei de 9 V şi o rezistenţa internă a mecanismului de deplasare de doar 500 Ω, curentul prin circuit va fi de 18 mA. Această valoare este mult peste deplasarea maximă (D.M. = 1 mA) permisă de dispozitivul nostru. Un asemenea exces va duce cu siguranţa la distrugerea aparatului.</p>
 
 <p>Pe lânga aceste aspecte, dispozitivul de mai sus nu va fi nici foarte practic. Dacă partea din stânga a scalei reprezintă o rezistenţă infinită, atunci partea din drepta (deplasare maximă) ar trebui să reprezinte 0 Ω. Trebuie să ne asigurăm de faptul că deplasarea acului indicator este maximă spre dreapta doar când sondele sunt conectate împreună (scurt-circuitate). Acest lucru se realizează prin adăugarea unei rezistenţe serie în circuitul aparatului de măsură:</p>
 
-<img src="../poze/00176.png" width="269" height="130" alt="ohmmetru analogic"/>
+<img src="../poze/00176.png" alt="ohmmetru analogic"/>
 
 <p>Pentru determinarea valorii lui R, calculăm rezistenţa totală din circuit necesară pentru a limita curentul la 1 mA (curentul necesar pentru deplasarea maximă). Ştim de asemenea că avem o diferenţa de potenţial de 9 V, dinspre baterie. Valoarea rezistenţei pe care o căutăm va fi diferenţa dintre această rezistenţă totală şi rezistenţa internă a aparatului de măsură:</p>
 
@@ -59,7 +59,7 @@ R = R<sub>total</sub> - 500 Ω = 8,5 kΩ
 
 <p>Răspunsul acestui paradox poartă numele de „scală ne-liniară”. Pe scurt, scala unui ohmmetru nu reprezintă o trecere liniară de la zero spre infinit, pe măsură ce acul indicator se deplasează dinspre dreapta spre stânga. Iniţial, indicaţia este maximă spre dreapta (rezistenţa zero), iar valorile rezistenţelor se adună din ce în ce mai rapid una lângă cealaltă pe măsură ce trecem în partea stângă a scalei:</p>
 
-<img src="../poze/00177.png" width="300" height="269" alt="scala logaritmică a unui ohmmetru"/>
+<img src="../poze/00177.png" alt="scala logaritmică a unui ohmmetru"/>
 
 <p>Nu ne putem apropia de infinit printr-o manieră liniară, pentru că scala nu ar ajunge niciodată acolo! Cu o scală ne-liniară, cantitatea de rezistenţa acoperită de o anumită distanţă creşte pe măsură ce scala se apropie de infinit. În acest caz, putem spune că infinitul este o „valoare” ce poate fi atinsă.</p>
 
@@ -96,7 +96,7 @@ R<sub>test</sub> = 3 kΩ
 
 <p>Prin urmare, scala finală a ohmmetrului arată astfel:</p>
 
-<img src="../poze/00178.png" width="300" height="242" alt="scala logaritmică a unui ohmmetru"/>
+<img src="../poze/00178.png" alt="scala logaritmică a unui ohmmetru"/>
 
 <h2>Dezavantajele metodei de mai sus</h2>
 

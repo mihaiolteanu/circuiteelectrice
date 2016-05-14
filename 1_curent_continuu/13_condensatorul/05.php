@@ -29,7 +29,7 @@
 
 <p>Unele condensatoare sunt construite astfel încât să suporte aplicarea unei tensiuni de o anumită polaritate. Acest lucru se datorează modului lor de realizare: dielectricul reprezintă un strat microscopic de material izolator depus pe una dintre armături prin intermediul unei tensiuni de curent continuu. Aceste condensatoare sunt cunoscute sub numele de condensatoare <i>electrolitice</i>, iar polaritatea lor este tot timpul precizată. Simbolul condensatorului electrolitic este prezentat în următoarea figură:</p>
 
-<img src="../poze/00301.png" width="58" height="79" alt="simbolul condensatorului electrolotic"/>
+<img src="../poze/00301.png" alt="simbolul condensatorului electrolotic"/>
 
 <p>Armătura curbată reprezintă tot timpul armătura negativa. Inversarea polarităţii unui condensator electrolitic duce la distrugerea acelui strat foarte subţire de dielectric şi prin urmare şi a dispozitivului. Totuşi, mărimea dielectricului permite valori mari ale capacităţii relativ la mărimea propriu-zisă a condensatorului. Din acelaşi motiv, condensatoarele electrolitice suportă tensiuni mici faţă de celelalte modele de condensatoare.</p>
 
@@ -37,7 +37,7 @@
 
 <p>Din moment ce armăturile unui condensator prezintă o anumită rezistenţă electrică, şi, din moment ce niciun dielectric nu este un izolator perfect, este imposibilă crearea unui condensator „perfect”. În realitate, un condensator are atât o rezistenţă serie cât si o rezistenţa paralel (de scurgere) suprapuse peste caracteristicile sale pur capacitive:</p>
 
-<img src="../poze/00300.png" width="200" height="206" alt="circuitul echivalent al unui condensator"/>
+<img src="../poze/00300.png" alt="circuitul echivalent al unui condensator"/>
 
 <p>Din fericirea, realizarea condensatoarelor cu o rezisteţă serie foarte mică şi rezistenţă de scurgere foarte mare, este relativ uşoară.</p>
 
