@@ -1,0 +1,621 @@
+* 1. Inductanţa mutuală şi modul de funcţionare
+
+Să presupunem că avem un miez feromagnetic închis (formă
+dreptunghiulară) şi înfăşurăm un conductor metalic izolat alimentat în
+curent alternativ în jurul uneia dintre laturi:
+
+#+CAPTION: miez feromagnetic dreptunghiular cu o înfăşurare alimentată
+în curent alternativ [[../poze/02305.png]]
+
+Fiindcă ceea ce am realizat mai sus este de fapt o bobină, această
+înfăşurare în jurul miezului feromagnetic ar trebui să se opună
+tensiunii aplicate datorită reactanţei inductive, limitând asfel
+curentul prin înfăşurare conform ecuaţiilor X_{L} = 2πfL şi I=E/X (sau
+I=E/Z). Pentru a clarifica acest exemplu totuşi, vom analiza mai atent
+interacţiunile ce iau naştere între tensiune, curent şi fluxul magnetic
+în acest dispozitiv.
+
+Conform legii lui Kirchhoff pentru tensiune, suma tuturor tensiunilor
+dintr-un circuit închis trebuie să fie egală cu zero. În exemplul de mai
+sus, putem aplica această lege generală a electricităţii pentru
+descrierea tensiunilor sursei, respectiv a înfăşurării. Ca în oricare
+circuit format dintr-o singură sursă şi o singură sarcină, căderea de
+tensiune a sarcinii trebuie să fie egală cu tensiunea produsă de sursă,
+presupunând că nu există căderi de tensiune în lungul firelor
+(rezistenţa lor este zero). Cu alte cuvinte, sarcina, reprezentată de
+înfăşurare, trebuie să producă o tensiune de semn contrar şi de aceeiaşi
+amplitudine cu sursa. Dar de unde apare această tensiune opusă tensiunii
+sursei? Dacă sarcina ar fi un rezistor (cazul „b” din figura de mai
+sus), căderea de tensiune ia naştere ca urmare a pierderilor sub formă
+de căldură datorate „frecării” electronilor la trecerea prin această
+rezistenţă. În cazul unei bobine perfecte (rezistenţă zero a
+înfăşurării), tensiunea opusă se prezintă sub o altă formă, şi anume,
+/reacţia/ faţă de fluxul magnetic variabil al miezului de fier. Atunci
+când forma de undă a curentului variză, variază şi fluxul Φ. Variaţia
+fluxului induce un câmp electromagnetic contrar.
+
+Formularea relaţiei matematice între fluxul magnetic (Φ) şi tensiunea
+indusă îi este atribuită lui Michael Faraday, şi arată asfel:
+
+#+CAPTION: formula matematică a inducţiei electromagnetice
+[[../poze/12138.png]]
+
+Tensiunea instantanee indusă (e) în înfăşurare, în orice moment, este
+egală cu produsul dintre numărul spirelor înfăşurării (N) şi variaţia
+instantanee a fluxului magnetic (dΦ/dt) a bobinei. Grafic, formele de
+undă sunt sinusoidale (presupunând că forma de undă a sursei de
+alimentare este sinusoidală), fluxul fiind defazat în urma tensiunii cu
+90^{o}:
+
+#+CAPTION: formele de undă ale tensiunii induse şi a fluxului magnetic -
+defazate între ele cu 90 de grade [[../poze/02306.png]]
+
+Fluxul magnetic printr-un material feromagnetic este analog curentului
+printr-un conductor: trebuie să fie „împins” de o forţă exterioară
+pentru a se forma. În circuitele electrice, această forţă o reprezintă
+tensiunea (mai precis, tensiunea electromotoare, prescurtat /tem/). În
+„circuitele” magnetice, această forţă este reprezentată de tensiunea
+magnetomotoare (prescurtat /tmm/ si simbolizat prin u_{mm}) Tensiunea
+magnetomotoare şi fluxul magnetic se află în strânsă legătură una cu
+cealaltă prin intermediul unei proprietăţi a materialelor magnetice,
+/reluctanţa/, concept analog rezistenţei în circuitele electrice.
+
+#+CAPTION: legea lui Ohm pentru circuite electrice şi magnetice;
+comparaţie [[../poze/12139.png]]
+
+În exemplul de mai sus, tmm necesară producerii acestui flux magnetic
+variabil trebuie să fie furnizată de un curent variabil prin înfăşurare.
+Tensiunea magnetomotoare generată de înfăşurarea unui electromagnet este
+egală cu produsul dintre curentul prin înfăşurare şi numărul de spire a
+înfăsurări. Unitatea de măsură a tensiunii magnetomotoare este
+Amper-spiră. Deoarece relaţia matematică dintre fluxul magnetic şi tmm
+este direct proporţională, iar relaţia dintre tmm şi curent este de
+asemenea direct proporţională, curentul prin înfăşurare este în fază cu
+fluxul magnetic:
+
+#+CAPTION: formele de undă ale tensiunii induse, a curentului prin
+înfăşurare şi a fluxului magnetic [[../poze/02307.png]]
+
+Acesta este şi motivul pentru care curentul într-o bobină este defazat
+în urma tensiunii cu 90^{o}: deoarece aceasta este defazarea necesară
+producerii unui flux magnetic a cărui rate de variaţie poate produce o
+tensiune în opoziţie de fază cu tensiunea aplicată. Datorită funcţiei
+sale de producere a tensiunii magnetomotoare pentru miezul feromagnetic,
+acest curent este câteodată numit şi /curent de magnetizare/.
+
+*** Saturaţie miezului feromagnetic
+
+Trebuie menţionat faptul că acest curent prin înfăşurare nu este perfect
+sinusoidal, iar acest lucru se datorează neliniarităţii curbei de
+magnetizaţie (B/H) a fierului. Dacă bobina este construită ieftin,
+folosind cât mai puţin fier cu putinţă, densitatea fluxului magnetic
+poate atince valori mari, aproape de saturaţie, rezultatul fiind o formă
+de undă a curentului de magnetizare ce arată aproximativ asfel:
+
+#+CAPTION: formele de undă ale tensiunii induse, a curentului prin
+înfăşurare şi a fluxului magnetic; forma de undă a curentului este
+distorsionată datorită saturaţiei miezului feromagnetic
+[[../poze/02336.png]]
+
+Atunci când un material feromagnetic se apropie de fluxul magnetic de
+saturaţie, este nevoie de tensiuni magnetomotoare din ce în ce mai mari
+pentru menţinerea constantă a creşterii fluxului magnetic. Deoarece tmm
+este direct proporţională cu valoarea curentului prin înfăsurare
+înfăşurare (u_{mm} = NI), creşterea foarte mare a tmm necesare
+susţinerii creşterii fluxului duce la creşteri mari ale curentului prin
+înfăşurare, pentru a putea menţine forma de undă a fluxului magnetic
+nedistorsionată (sinusoidală).
+
+Situaţia este însă şi mai complicată datorită pierderilor de energie din
+miezul feromagnetic. Efectul histerezisului şi al curenţilor turbionari
+duce la aceentuarea deformării formei de undă a curentului, alterându-i
+atât forma sinusoidală cât şi defazajul, ce va fi cu puţin sub 90^{o} în
+urma tensiunii. Acest curent al înfăşurării constituit din suma tuturor
+efectelor magnetice asupra înfăsurării, poartă numele de /curent de
+excitaţie/. Distorsionarea curentului de excitaţie a unei înfăşurări cu
+miez feromagnetic (bobină) poate fi minimizată dacă aceasta este
+concepută şi funcţionează la densităţi de flux foarte scăzute. Acest
+lucru necesită însă un miez cu o secţiune transversală mare, ceea ce
+duce la costuri ridicate şi un volum mare. Pentru a simplifica lucrurile
+însă, vom presupune un miez feromagnetic ideal, fără pericolul
+saturaţiei şi fără pierderi, ceea ce duce la un curent de excitaţie
+perfect sinusoidal.
+
+*** Inducerea tensiunii într-o înfăşurare secundară
+
+După cum am văzut în capitolul dedicat bobinelor, defazajul curentul
+faţă de tensiune cu 90^{o} crează o condiţie în care puterea este
+absorbită şi eliberată alternativ de la circuit la bobină şi invers.
+Dacă bobina este perfectă (rezistenţă zero, pierderi în miez zero,
+etc.), puterea disipată de aceasta va fi zero.
+
+Să reluăm exeplul de mai sus, dar introducem de data această o nouă
+înfăsurare în jurul aceluiaşi miez feromagnetic. Ca să diferenţiem între
+cele două înfăşurări, prima înfăşurare o vom denumit /înfăşurarea
+primară/ sau simplu, /primar/, iar cea de a doua, /înfăşurarea
+secundară/, sau simplu, /secundar/.
+
+#+CAPTION: miez feromagnetic; înfăsurarea primară şi secundară
+[[../poze/02308.png]]
+
+Dacă cea de a doua înfăşurare este supusă unei variaţii a fluxului
+magnetic identice cu prima infăşurare, iar numărul de spire al
+înfăşurării este acelaşi cu a primei înfăşurări, atunci, conform
+principiului inducţiei electromagnetice, tensiunea indusă în această
+înfăşurare va fi egală în amplitudine şi fază cu tensiunea sursei de
+alimentare a primei înfăşurări. În graficul de mai jos, amplitudinea
+tensiunii induse este voit mai mică, pentru a putea face distincţie
+între aceasta şi tensiunea de alimentare:
+
+#+CAPTION: miez feromagnetic; formele de undă ale tensiunilor din primar
+şi secundar, precum şi a fluxului magnetic şi a curentului din primar
+[[../poze/02309.png]]
+
+Acest efect al inducerii unei tensiuni într-o înfăşurare ca răspuns a
+variaţiei curentului din cealaltă înfăşurare, poartă nuemele de
+/inductanţă mutuală/. Unitatea de măsură este Henry, la fel ca
+inductanţa proprie, iar simbolul matematic este „M”, în loc de „L”:
+
+#+CAPTION: inductanţa proprie şi inductanţa mutuală; formulele
+matematice de calcul [[../poze/12140.png]]
+
+În acest moment, în înfăşurarea secundară nu există curent deoarece
+aceasta este deschisă. Dacă conectăm însă un rezistor în acest circuit,
+curentul alternativ prin înfăşurare va fi în fază cu tensiunea indusă.
+
+#+CAPTION: miez feromagnetic; înfăsurarea primară şi secundară
+[[../poze/02310.png]]
+
+Ne-am putea aştepta ca acest curent secundar să producă un flux magnetic
+suplimentar în miezul feromagnetic. Acest lucru nu se întâmplă însă.
+Dacă fluxul magnetic indus în miez ar creşte, acest lucru ar duce la
+creşterea tensiunii induse a înfăşurării primare. Acest lucru nu se
+poate întâmpla, doarece tensiunea indusă a primarului trebuie să rămână
+la aceeiaşi amplitudine şi fază pentru se păstra egalitate dintre
+aceasta şi tensiunea sursei, potrivit legii lui Kirchhoff pentru
+tensiune. Prin urmare, fluxul magnetic al miezului nu este afectat de
+curentul din secundar. Totuşi, ceea ce se modifică este valoarea
+tensiunii magnetomotoare a circuitului magnetic.
+
+Tensiunea magnetomotoare (tmm) ia naştere ori de câte ori există
+deplasare de electroni printr-un fir. De obicei, această tensiune este
+însoţită de flux magnetic, conform legii lui Ohm pentru circuitele
+magnetice, *u_{mm} = ΦR*. Dar producerea unui flux magnetic suplimentar
+nu este permisă în acest caz, prin urmare, singura posibilitate de
+existenţă a tmm în secundar implică apariţia unei tmm contrare (în
+antifază), şi amplitudine egală, generate de înfăşurarea primară. Acest
+lucru este exact ceea ce se întâmplă, şi anume, formarea unui curent
+alternativ în înfăşurarea primară, defazat cu 180^{o} (în antifază) faţă
+de curentul secundarului, pentru generarea unei tmm contrare şi
+prevenirea apariţiei unui flux magnetic adiţional prin miez.
+
+#+CAPTION: miez feromagnetic; înfăsurarea primară şi secundară;
+conectarea sarcinii în înfăşurarea secundară [[../poze/02311.png]]
+
+Deşi întreg procesul pare destul de complicat, iar proiectarea
+transformatoarelor este un subiect complex, ceea ce este important de
+ţinut minte este aceasta: atunci când asupra înfăşurării primare este
+aplicată o tensiune alternativă, aceasta produce un flux magnetic în
+miexul feromagnetic ce induce o tensiune alternativă în înfăsurarea
+secundară, în fază cu tensiunea sursei de alimentare. Apariţia oricărui
+curent prin secundar, la conecatarea unei sarcini de exemplu, duce la
+apariţia unui curent similar în primar, curent menţinut de sursa de
+alimentare.
+
+Putem observa faptul ca înfăşurarea primară se comportă precum o sarcină
+faţă de sursa de tensiune, iar înfăşurarea secundară este echivalentă
+unei surse de tensiune alternativă pentru rezistorul conectat la
+capetele acesteia. Faţă de prima situaţia, de data aceasta energia nu
+este abosrbită şi eliberată tot în înfăşurarea primare, ci este
+/cuplată/ cu înfăşurarea secundară unde este folosită pentru alimentarea
+sarcinii (rezistor). Din punct de vedere al sursei, aceasta alimentează
+direct sarcina secundarului. Desigur, curentul din primar este defazat
+cu 90^{o} faţă de tensiune, lucru ce nu s-ar întâmpla într-o alimentare
+directă a rezistorului.
+
+Acest dispozitiv este cunoscut sub numele de /transformator/, deoarece
+transformă energia electrică în energie magnetică şi înapoi în energie
+electrică. Deoarece funcţionarea acestuia depinde de inducţia
+electromagnetică dintre două înfăşurări staţionare şi de variaţia
+amplitudinii şi „polarităţii” fluxului magnetic, transformatoarele se
+pot folosi doar în curent alternativ, nu şi în curent continuu. Simbolul
+electric al transformatorului îl reprezintă două bobine (înfăşurarea
+primară şi secundară) şi un miez feromagnetic comun celor două:
+
+#+CAPTION: simbolul transformatorului electric, constând din două bobine
+(înfăşurarea primară şi secundară) şi un miez feromagnetic comun celor
+două [[../poze/02131.png]]
+
+Chiar dacă majoritatea transformatoarelor sunt confencţionate cu miez
+feromagnetic, există şi transformatoare în care cuplajul celor două
+înfăşurări se realizeaza prin aer.
+
+Poza de mai jos reprezintă un transformator tipic folosit pentru
+iluminatul cu ajutorul lămpilor cu descărcare în gaz. Se pot observa
+clar cele două înfăşurări din jurul miezului de fier:
+
+#+CAPTION: transformator electric [[../poze/52002.jpg]]
+
+Înfăşurarea de sus este mai mare decât cea de jos, având mai multe spire
+în jurul miezului (secţ. urm.!).
+
+În următoarea poză, este prezentată o secţiune printr-un transformator
+cu cele două înfăşurări şi miezul feromagnetic vizibile. Şi în acest
+caz, numărul spirelor celor două înfăşurări nu este egal. Secţiunea
+conductorilor dintre cele două înfăşurări este de asemenea diferită
+(secţ. urm.!). De asemenea, putem observa că miezul nu este confecţionat
+dintr-o singură bucată de material ci din foi subţiri (denumite tole)
+laminate (secţ. urm.!).
+
+#+CAPTION: transformator electric; secţiune [[../poze/52012.jpg]]
+
+*** Exemplu
+
+Putem explica funcţionarea unui transformator simplu prin intermediul
+unui circuit electric. Vom considera /coeficientul de cuplaj magnetic/
+(k) ca având o valoare foarte aproape de perfecţie, şi anume, 0,999.
+Acest coeficient descrie cât de „strânse” sunt cuplate cele două bobine
+(înfăşurări) una faţă de cealaltă. Cu cât acest coeficient este mai mare
+(ideal, 1), cu atât cuplajul magnetic dintre cele două înfăşurări, şi
+prin urmare, şi eficienţa transferului de energie este mai mare.
+(Calcule realizate cu SPICE!)
+
+#+CAPTION: circuit electric simplu cu transformator
+[[../poze/02132.png]]
+
+Ambele inductanţe ale înfăşurărilor fiind egale (100 H), tensiunile şi
+curenţii pentru cele două înfăşurări sunt aproximativ egale (10 V,
+respectiv 10 mA). Diferenţa dintre curentul primar şi cel secundar este
+defazajul de 90^{o} dintre ele, datorat curentului de magnetizare al
+miezului. Valoarea acestui curent de magnetizare este foarte mică în
+acest caz, faţă de curentul din primar, asfel că cei doi curenţi sunt
+aproximativi egali. Această eficienţă mare este tipică
+transformatoarelor în general. Orice eficienţă de sub 95% este
+considerată mult prea mică în proiectarea transformatoarelor.
+
+Dacă reducem rezistenţa sarcini (de la 1 kΩ la 200 Ω), pentru a creşte
+valoarea curentului în secundar, pentru aceeiaşi valoare a tensiunii,
+observăm că şi curentul din înfăşurarea primare creşte. Chiar dacă sursa
+de tensiune alternativă nu este conectată direct la sarcină, ci este
+cuplată electromagnetic, valoarea curentului ce parcurge sarcina este
+aproximativ aceeiaşi cu valoarea curentului dacă sarcina ar fi conectată
+direct la sursă. În acest caz, valoarea curenţilor din înfăşurări va
+creşte de la aproximativ 10 mA la 47 mA. De fapt, egalitatea celor doi
+curenţi este chiar mai accentuată faţă de cazul precedent, deoarece
+curentul de magnetizare este acelaşi ca şi în cazul precedent. De
+asemenea, tensiunea din secundar a scăzut puţin sub influenţă sarcini
+mai mare (curent mai mare), de la aproximativ 10 V la 9.3 V.
+
+Să vedem ce se întâmplă dacă reducem şi mai mult rezistenţa sarcinii,
+până la valoarea de 15 Ω. Curentul sarcinii (în secundar) este acum 130
+mA, o creştere substanţială faţă de cazul precedent, iar curentul primar
+este aproximativ egal cu acesta. În schimb, tensiunea prin secundar a
+scăzut foarte mult comparativ cu valoarea tensiunii din secundar (1.95 V
+în secundar faţă de 10 V în primar). Motivul acestei diferenţe se
+regăşeste în imperfecţiunile transformatorului: cuplajul dintre cele
+două înfăşurări nu este perfect, coeficientul de cuplaj magnetic, k,
+fiind 0.999, nu 1. Prin urmare, există o inductanţă de /scăpări/
+prezentă, ceea ce înseamnă ca o parte a câmpului magnetic nu se
+regăseşte pe înfăşurarea secundare şi nu poate „transfera” energie din
+această cauză:
+
+#+CAPTION: inductanţa de scăpări datorită faptului că fluxul magnetic nu
+este acelaşi pe cele două înfăşurări [[../poze/02312.png]]
+
+Acest flux de scăpări doar stochează şi eliberează energia înapoi în
+circuitul de alimentare prin intermediul inductanţei proprii,
+comportamentul acesteia fiind al unei impedanţe serie conectate în
+ambele înfăşurări. Căderea de tensiunea finală este redusă datorită
+existenţei unei căderi de tensiune pe această „impedanţă serie”. Efectul
+este cu atât mai pronunţat cu cât curentul sarcinii creşte.
+
+#+CAPTION: circuit electric echivalent al inductanţelor de scăpări şi
+transformatorul ideal, fără scăpări [[../poze/02313.png]]
+
+Dacă cuplajul magnetic dintre cele două înfăşurări ar fi mai „strâns”,
+de exemplu, k=0.99999 (în loc de 0.999), valorile tensiunii în cele două
+înfăşurări ar fi din nou aproximativ egale (10 V), păstrându-se şi
+egalitatea dintre cei doi curenţi.
+
+Din păcate, construirea unui transformator real, cu un asfel de
+coeficient de cuplaj magnetic, este foarte dificilă. O soluţie de
+compromis constă în folosirea unei inductanţe mai scăzute pentru ambele
+înfăşurări (1 H, în loc de 100 H), deoarece o inductanţă mai scăzută
+duce şi la o inductanţă de scăpări mai scăzută, oricare ar fi
+coeficientul de cuplaj magnetic. Rezultatul este o cădere de tensiune pe
+sarcină mult mai bună, menţinând aceeiaşi valoare a curentului şi a
+cuplajului:
+
+#+CAPTION: circuit electric simplu cu transformator
+[[../poze/02132\_2.png]]
+
+Prin simpla utilizare a unei inductanţe mai mici pentru cele două
+înfăşurăi, căderea de tensiune pe sarcină este din nou „ideală”,
+aproximativ 10 V, aceeiaşi valoare cu a sursei de alimentare. Cu
+siguranţă că ne putem întreba, „Dacă tot ceea ce este necesar pentru
+atingerea unei performanţe ideale în cazul unei sarcini mari, este
+reducerea inductanţei, de ce să ne mai facem griji cu privire la
+eficienţa cuplajului magnetic? Dacă este imposibilă proiectarea
+transformatoarelor cu coeficienţi de cuplaj perfecţi, dar înfăşurările
+cu inductanţe mici sunt uşor de construit, atunci de ce nu am construi
+transformatoare cu inductanţe mici şi cuplaj scăzut pentru obţinerea
+unei eficienţe ridicate?”
+
+Pentru a răspunde acestei nedumeriri, considerăm un nou circuit, în care
+sarcina de data aceasta este de 1 Ω în loc de 15 Ω, toate celalalte
+valori rămânând egale. Cu inductanţe mai mici pentru înfăşurări,
+tensiunile din primar şi secundar sunt aproximativ egale (10 V), dar
+curenţii celor două înfăşurări nu sunt egali, cel din primar fiind 28.35
+mA, de aproape trei ori mai mare decât cel din secundar, de doar 10 mA.
+De ce se întâmplă acest lucru? Cu o inductanţă mult mai mică a
+înfăşurăii primare, reactanţa inductivă este mult mai mică, şi prin
+urmare, curentul de magnetizare este mult mai mare. O parte importantă a
+curentului din înfăşurarea primară este folosit doar pentru magnetizarea
+miezului feromagnetic şi nu pentru /transferul/ de energie spre
+înfăşurarea secundară.
+
+Un transformator ideal, cu înfăşurări primare şi secundare identice, ar
+dezvolta aceeleaşi căderi de tensiune şi curenţi în ambele înfăşurări,
+indiferent de valoarea sarcinii. Ideal, transformatoarele ar trebui să
+transfere putere electrică din primar în secundar ca şi cum sarcina
+(secundar) ar fi conectată direct la sursă (primar). Acest lucru se
+poate realiza doar dacă există un cuplaj magnetic /perfect/ între cele
+două înfăşurări. Din moment ce acest lucru nu este imposibil,
+transformatoarele trebuiesc proiectate pentru a funcţiona între anumite
+valori ale tensiunii şi sarcinii, valori cunoscute dinainte, pentru a
+oferi maximul de eficienţă.
+
+Sumar:
+
+-  Inductanţa mutuală reprezintă situaţia în care fluxurile magnetice a
+   două sau a mai multor bobine sunt cuplate între ele, asfel încât
+   există o tensiune indusă într-una dintre bobine direc proporţională
+   cu rata de variaţie a curentului în cealaltă
+-  Un transformator este un dispozitiv construit din două sau mai multe
+   bobine, una dintre ele alimentată în curent alternatic ce induce o
+   tensiune alternativă în cealaltă bobină. Dacă a doua bobină este
+   conectată la o sarcină, puterea sursei de tensiune a primei bobine
+   este cuplată electromagnetic la sarcina celei de a doua
+-  Bobina transformatorului alimentată în curent alternativ se numeşte
+   /înfăşurare primară/. Bobina ne-alimentată a transformatorului se
+   numeşte /înfăşurare secundară/
+-  Fluxul magnetic al miezului este defazat cu 90^{o} în urma tensiunii
+   de alimentare. Curentul furnizat de sursa de alimentare în
+   înfăşurarea primară pentru producerea acestui flux magnetic, poartă
+   numele de /curent de magnetizare/, şi este şi acesta defazat cu
+   90^{o} în urma tensiunii de alimentare
+-  Curentul total din primar al unui transformator neconectat la
+   sarcină, se numeşte /curent de excitaţie/, şi este compus din
+   curentul de magnetizare plus curentul datorat pierderilor miezului
+   feromagnetic. Într-un transformator real, forma de undă a acestuia nu
+   este niciodată sinusoidală
+-  Fluxul magnetic al miezului induce o tensiune electrică în orice
+   înfăşurare realizată în jurul acestuia. Tensiunile induse sunt,
+   ideal, în fază cu tensiunea primară (a sursei) şi au aceeiaşi formă
+   de undă
+-  Orice curent prin secundar, datorită sarcinii, va produce un curent
+   echivalent în înfăşurarea primară, curent generat de sursă, ca şi
+   când sursa ar fi conectată direct la sarcină
+
+* 2. Transformatorul ridicător şi coborâtor de tensiune
+
+Până în acest moment, am luat în considerare doar cazul în care cele
+două înfăşurări ale transformatorului aveau inductanţe identice, ducând
+la egalitatea tensiunilor şi a curenţilor în cele două înfăşurări.
+Această egalitate între înfăşurarea primară şi cea secundară nu este
+însă specifică tuturor transformatoarele. Dacă inductanţele celor două
+înfăşurări sunt diferite, prin modificarea raportului de spire dintre
+cele două, şi comportamentul transformatorului suferă modificări. Să
+considerăm circuitul de mai jos:
+
+#+CAPTION: circuit electric simplu cu transformator
+[[../poze/02132\_3.png]]
+
+În această configuraţie, tensiunea secundarului este de aproximativ 10
+ori mai mică decât tensiunea din primare (1 V faţa de 10 V), iar pe de
+altă parte, curentul din secundar este de aproximativ 10 ori mai mare
+decât curentul din primar (1 mA faţă de 0.1 mA). Ceea ce avem în
+circuitul de mai sus, este un dispozitiv ce coboară tensiunea de zece
+ori şi creşte curentul cu acelaşi factor (coborâtor de tensiune /
+ridicător de curent):
+
+#+CAPTION: transformator coborâtor de tensiune [[../poze/02133.png]]
+
+Acesta este un dispozitiv extrem de folositor. Cu ajutorul acestuia se
+pot foarte uşor multiplica sa împărţi valorile tensiunilor şi ale
+curenţilor în circuitele de curent continuu. Un transformator ce ridică
+nivelul tensiunii dinspre primar înspre secundar se numeşte
+transformator /ridicător/ de tensiune, iar unul care face exact opusul,
+se numeşte /coborâtor/ de tensiune.
+
+#+CAPTION: secţiune printr-un transformator coborâtor de tensiune
+[[../poze/52012.jpg]]
+
+Transformatorul de mai sus este un transformator coborâtor de tensiune
+datorită faptului că numărul spirelor din înfăşurarea primară este mai
+mare decât cel din înfăşurarea secundară. Prin urmare, acesta transformă
+tensiunea ridicată şi curentul scăzut din primare în tensiune scăzută şi
+curent ridicat în secundar. Secţiunea mult mai mare a conductorului din
+secundar este necesară datorită creşterii curentului faţă de înfăşurarea
+primară.
+
+Oricare transformator poate fi alimentat şi invers, dinspre secundar
+spre primar, inversându-se asfel şi rolul acestuia: transformatorul
+coborâtor de tensiune devine ridicător de tensiune, şi invers. Totuşi,
+după cum am precizat în secţiunea precedentă, funcţionare eficientă a
+unui transformator se poate realiza doar prin proiectarea acestuia
+pentru anumite valori ale curenţilor şi tensiunilor. Prin urmare, dacă
+am fi să folosim un transformator „invers”, va trebui să respectăm
+parametrii iniţiali pentru tensiune şi curent în cazul fiecărei
+înfăsurări, altfel, transformatorul s-ar putea dovedi extrem de
+ineficient, iar in cazuri extreme, operarea lui necorespunzătoare poate
+duce la distrugerea acestuia datorită curenţilor sau tensiunilor în
+exces.
+
+În general, transformatoarele sunt asfel construite încât este imposibil
+de spus care este înfăşurarea primară şi care cea secundară. O convenţie
+folosită în industrie este notarea cu „H” a înfăşurării cu tensiune mai
+înaltă (primarul, într-un transformator coborâtor; secundarul, într-un
+transformator ridicător) şi cu „X” a înfăşurării cu tensiune mai joasă.
+Prin urmare, un transformator simplu ar trebui să aibă notaţiile
+„H_{1}”, „H_{2}”, „X_{1}” şi „X_{2}”.
+
+Faptul că tensiunea şi curentul sunt „transformate” în direcţii opuse nu
+ar trebui să ne mire. Puterea este egală cu produsul dintre tensiune şi
+curent, iar transformatoarele nu pot produce putere, ci o pot doar
+converti.
+
+Dacă ne uităm mai atent la rezultatele obţinute cu circuitul de mai sus,
+putem vedea o legătură între /raportul de transformare/ al
+transformatorului şi cele două inductanţe. Se observă că bobina primară
+are o inductanţă de 100 de ori mai mare decât cea secundară, iar
+raportul de transformare al tensiunii a fost de 10 la 1. Înfăşurarea cu
+o inductanţă mai mare va avea o tensiune mai mare şi un curent mai mic
+decât cealaltă. Din moment ce ambele bobine sunt înfăşurate în jurul
+aceluiaşi material (pentru un cuplaj magnetic cât mai eficient între
+ele), singurul parametru care nu este comun ambelor înfăşurări este
+numărul spirelor din fiecare înfăşurare în parte. Din formula
+inductanţei (?!), putem observa că aceasta este direct proporţională cu
+pătratul spirelor înfăsurării:
+
+#+CAPTION: formula de calcul a inductanţei înfăşurării unei bobine
+[[../poze/12100.png]]
+
+Asfel, putem deduce că cele două înfăşurări din exemplul de mai sus, cu
+un raport al inductanţelor de 100:1, ar trebui să aibă un raport al
+înfăşurărilor de 10:1 (10^{2} = 100). Acesta este exact raportul
+descoperit între valorile tensiunilor şi ale curenţilor primare şi
+secundare (10:1). Putem spune prin urmare, că raportul de transformare
+al unui transformator este egal cu raportul dintre numărul spirelor
+înfăşurărilor primare şi secundare
+
+#+CAPTION: transformator coborâtor de tensiune; principiul de
+transformare al curenţilor şi al tensiunilor [[../poze/02134.png]]
+#+CAPTION: formula matematică de calcul al raportului de transformare al
+transformatorului electric [[../poze/raport\_transformare.png]]
+
+Sumar:
+
+-  Transformatoarele sunt dispozitive utilizate la ridicarea sau
+   coborârea tensiunii în funcţie de raportul dintre numărul spirelor
+   înfăşurărilor
+-  Un transformator proiectat să ridice tensiunea dinspre primar spre
+   secundar (numărul spirelor din înfăşurarea secundară este mai mare
+   decât numărul celor din primar), se numeşte transformator ridicător
+   de tensiune
+-  Un transformator proiectat să realizeze chiar opusul, coborârea
+   tensiunii dinspre primar spre secundar (numărul spirelor din
+   înfăşurarea secundară este mai mic decât numărul celor din primar),
+   poartă numele de transformator coborâtor de tensiune
+
+* 5. Tipuri de înfăşurări
+
+Nu este neapărat necesar ca transformatoarele să fie realizate din doar
+două seturi de înfăşurări. Să considerăm următorul circuit:
+
+#+CAPTION: transformator cu înfăşurări secundare multiple
+[[../poze/02141.png]]
+
+În acest caz, toate înfăşurările împart acelaşi miez feromagnetic, fiind
+cuplate magnetic între ele. Relaţia dintre numărul spirelor
+înfăşurărilor şi raportul de transformare al tensiunilor considerat la
+transformatoarele cu două înfăsurări, este valabilă şi în acest caz,
+unde există înfăsurări multiple. Este posibilă proiectarea unui
+transformator precum cel din figura de mai sus (o înfăsurare primară şi
+două înfăşurări secundare) în care, o înfăşurare secundară să fie
+ridicătoare de tensiune iar cealaltă coborâtoare. Toate circuitele sunt
+separate electric în acest caz.
+
+Dacă în schimb, nu avem neapărată nevoie de o separare electrică a
+circuitelor, un efect similar poate fi obţinut şi prin utilizarea
+prizelor în diferite puncte ale înfăşurării secundare, asfel:
+
+#+CAPTION: transformator cu înfăşurări secundare multiple folosind prize
+[[../poze/02142.png]]
+
+O priză nu este altceva decât o conexiune făcută într-un anumit punct de
+pe sencundarul transformatorului. Ralaţia dintre numărul de spire al
+înfăşurării şi tensiunea obţinută în secundar este valabilă şi în acest
+caz, pentru toate prizele transformatorului. Acest lucru poate fi
+exploatat pentru obţinerea unui domeniu mult mai lar de raporturi de
+transformare:
+
+#+CAPTION: transformator cu înfăşurări secundare multiple folosind
+prize; utilizarea comutatoarelor pentru alegerea raportului de
+transformare [[../poze/02143.png]]
+
+Trecând mai departe, putem construi un „transformator variabil”, caz în
+care vom avea un contact variabil ce se deplasează pe înfăşurarea
+secundară expusă a transformatorului, fiind posibilă conectarea acestuia
+în oricare punct (priză variabilă).
+
+#+CAPTION: transformator variabil; utilizarea unui contact variabil ce
+se deplasează pe înfăşurarea secundară expusă a transformatorului
+[[../poze/02144.png]]
+
+Utlizarea acestor contacte variabile nu este practică în proiectarea
+transformatoarelor industriale de putere mare, dar sunt totuşi folosite
+pentru ajutarea tensiunilor. În sistemele de putere, aceste ajustări de
+tensiune trebuie făcute periodic pentru a veni în întâmpinarea variaţiei
+sarcinilor de-a lungul timpului. În mod normal, aceste tipuri de
+transformatoare nu sunt proiectate pentru a opera sub curenţi sa
+sarcină, prin urmare, „reglarea” lor se realizează doar atunci când
+transformatorul nu este alimentat.
+
+*** Autotransformatorul
+
+Dacă neglijăm în totalitate separarea electrică dintre înfăşurări, putem
+construi un transformator folosind doar o singură înfăşurare;
+dispozitivul asfel creat poartă numele de /autotransformator/:
+
+#+CAPTION: autotransformator ridicător de tensiune [[../poze/02145.png]]
+
+Configuraţia de mai sus este un autotransformator ridicător de tensiune.
+Un autotransformator coborâtor de tensiune arată asfel:
+
+#+CAPTION: autotransformator coborâtor de tensiune [[../poze/02146.png]]
+
+Autotransformatoarele sunt folosite în principal în aplicaţiile unde
+este nevoie de o mică reducere sau amplificare a tensiunii pe sarcină.
+Ca şi alternativă, se poate folosi un transformator normal construit
+special pentru aplicaţia în cauză, sau se poate folosi un
+autotransformator coborâtor de tensiune cu înfăşurarea secundară
+conectată în serie, fie pentru amplificarea tensiunii sau pentru
+reducerea ei (anti-serie).
+
+#+CAPTION: folosirea unui autotransformator coborâtor de tensiune cu
+înfăşurarea secundară conectată în serie pentru amplificarea tensiunii
+[[../poze/02147.png]] #+CAPTION: folosirea unui autotransformator
+coborâtor de tensiune cu înfăşurarea secundară conectată în serie pentru
+reducerea tensiunii [[../poze/02148.png]]
+
+Principalul avantaj al unui autotransformator precum cel de mai sus,
+este folosirea unei singure înfăşurări pentru realizarea amplificării
+sau reducerii tensiunii, fiind mult mai uşor de construit şi mai ieftin
+decât un trnasformator normal.
+
+Ca şi în cazul transformatoarelor normale, se pot realiza prize şi pe
+înfăşurările autotransformatoarelor pentru obţinerea variaţiei
+raporturilor de transformare. Mai mult decât atât, acestea pot fi
+realizate cu un contact variabil, caz în care transformatoarele poartă
+numele de /Variac/:
+
+#+CAPTION: Variac - autotransformator variabil [[../poze/02149.png]]
+
+Sumar:
+
+-  Este posibilă construirea transformatoarelor cu mai mult de o singură
+   înfăsurare primară şi secundară. Acest lucru permite obţinerea unor
+   raporturi de transformare variabile folosind acelaşi dispozitiv
+-  Există posibilitatea de realizare a „prizelor” pe înfăşurările
+   transformatoarelor: intersecţia contactului electric în puncte
+   diferite din lungul înfăşurării
+-  Transformatoarele variabile se pot realiza folosind un contact
+   variabil pe lungimea infăşurării, putându-se practic realiza prize în
+   orice punct de pe înfăşurare
+-  Un autotransformator este un transformator ce foloseşte o singură
+   înfăşurare pentru ridicarea sau coborârea tensiunii; faţă de un
+   transformator normal, acesta nu oferă separare electrică între primar
+   şi secundar
+-  Un autotransformator variabil poartă numele de Variac
+

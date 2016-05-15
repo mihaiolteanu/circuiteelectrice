@@ -1,0 +1,570 @@
+* 1. Activitatea electronilor în reacţiile chimice
+
+Până în acest moment nu am discutat în detaliu modul de funcţionare al
+bateriilor, ci am presupus pur şi simplu că acestea produc o tensiune
+constantă la bornele lor printr-un proces „misterios”. În cele ce
+urmează vom explora procesul în mare urmând să facem nişte precizări cu
+privire la utilizarea reală a bateriilor în sistemele electrice.
+
+Am discutat în primul capitol despre conceptul de /atom/. Atomii sunt
+compuşi din părţi mai mici denumite /particule/. Particulele elementare
+dintr-un atom sunt electronii, protonii şi neutronii. Fiecare dintre
+aceste particule joacă rolul ei în comportamentul atomului. Activitatea
+electrică implică mişcarea electronilor, iar identitatea chimică (ce
+determină în mare tipul de material: coductiv/izolator) este determinată
+de numărul protonilor din nucleu.
+
+#+CAPTION: structura atomului [[../poze/00006.png]]
+
+Dislocarea protonilor din nucleul atomului este foarte greu de realizat,
+de aici şi stabilitatea identităţii chimice a atomilor în general.
+Îndepărtarea electronilor, în schimb, este mult mai uşor de realizat.
+După cum am văzut, frecarea este unul dintre procedeele prin care
+electronii pot fi „mutaţi” de pe un material pe altul, la fel este şi
+căldura, procedeu evidenţiat în cazul termocuplei.
+
+Electronii pot servi însă şi unui alt scop: legarea atomilor între ei.
+Această legare a atomilor prin intermediul electronilor poartă numele de
+/legătură chimică/. O reprezentare simplificată a unei asemenea legături
+dintre doi atomi arată asfel:
+
+#+CAPTION: legătură chimică între doi atomi [[../poze/00257.png]]
+
+Există mai multe tipuri de legături chimice, cea de sus fiind una
+/covalentă/, caracterizată prin împărţirea electronilor de către atomi.
+Deoarece aceste legături sunt bazate pe legături formate de electroni,
+ele nu pot fi mai puternice decât gradul de imobilitate al electronilor
+constituenţi. Ceea ce vrem să spunem este că aceste legături chimice pot
+fi create sau desfăcute de aceleaşi forţe ce induc deplasarea
+electronilor: căldura, lumina, frecarea, etc.
+
+Atunci când atomii sunt legaţi între ei prin legături chimice, aceştia
+formează materiale cu proprietăţi unice numite /molecule/. Desenul de
+mai sus, cu doi atomi de acelaşi tip legaţi, este un exemplu de moleculă
+simplă. Majoritatea moleculelor sunt formate însă din tipuri diferite de
+atomi. Chiar şi moleculele formate din atomi de acelaşi tip pot prezenta
+proprietăţi fizice radical diferite.
+
+Însă, pentru studierea bateriilor, trebuie să introducem un alt tip de
+legătură chimică, cea /ionică/. Aceasta diferă faţă de legătura
+covalentă prin faptul că un atom al moleculei posedă un exces de
+electroni iar celălalt atom are electroni în minus; în acest caz,
+legătura dintre atomi este rezultatul atracţiei electrostatice dintre
+cele două sarcini diferite („+” şi „-”). Atunci când legăturile ionice
+iau naştere din atomi neutrii, există de fapt un transfer de electroni
+dintre atomii pozitivi şi negativi din punct de vedere electric. Este
+bine de ştiut faptul că moleculele conţine de obicei ambele tipuri de
+legături chimice. Hidroxidul de sodiu (NaOH) este format dintr-o
+legătură ionică dintre atomul de sodiu (pozitiv) şi ionul hidroxil
+(negativ). Ionul hidroxil formează o legătură covalentă (simbolizată
+prin bară) între hidrogen şi atomii de oxigen:
+
+ Na^{+} O---H^{-}
+
+Sodiul pierde doar un electroc, sarcina lui fiind +1 în exemplul de mai
+sus. Dacă un atom pierde mai mult de un electron, sarcina rezultată
+poate fi desemnată prin +2, +3, +4, etc. sau printr-o cifră romană în
+paranteze ce desemnează starea sa de oxidare (pierderea electronilor),
+asfel: (I), (II), (IV), etc. Unii atomi pot avea mai multe stări de
+oxidare, şi este bine să precizăm starea de oxidare în formula
+moleculară pentru evitarea confuziilor.
+
+Formarea ionilor şi a legăturilor ionice din atomi neutrii sau molecule
+(sau /invers/) presupune transferul de electroni. Acest transfer poate
+fi folosit pentru generarea curentului electric. Un dispozitiv construit
+special în acest scop poartă denumirea de /pilă voltaică/ sau, pe scurt,
+/pilă/; aceasta este de obicei formată din doi electrozi metalic
+introduşi într-o substanţă chimică denumită /electrolit/ special
+concepută pentru facilitarea unei asfel de reacţii electrochimice
+(oxidare/reducere):
+
+#+CAPTION: pilă voltaică [[../poze/00258.png]]
+
+Pila folosită pentru automobile este de obicei cea de „plumb-acid”.
+Electrodul negativ este confecţionat din plumb (Pb), iar cel pozitiv din
+dioxid de plumb (IV) (PbO_{2}), ambele substanţe fiind metalice. Soluţia
+de electrolit este o soluţie diluată de acid sulfuric (H_{2}SO_{4} +
+H_{2}O). Dacă electrozii pilei sunt conectaţi la un circuit extern,
+asfel încât să fie posibilă deplasarea electronilor de la un electrod la
+celălalt, atomii de plumb (IV) din electrodul pozitiv (PbO_{2} vor
+câştiga fiecare câte doi electroni pentru a produe Pb(II)O. Atomii de
+oxigen rezultaţi se vor combina cu ionii pozitivi de hidrogen (H)^{+} şi
+formează apă (H_{2}O). Această deplasare a electrolinor spre electrodul
+PbO_{2} îi conferă o sarcină pozitivă. Atomii de plumb din electrodul
+negativ cedează fiecare câte doi electroni pentru a produce plumb
+Pb(II), care în conbinaţie cu ionii de sulfat (SO_{4}^{-2}), produşi
+prin disociaţia ionilor de hidrogen (H^{+}) din acidul sulfuric
+(H_{2}SO_{4}), formează sulfatul de plumb (PbSO_{4}. Deplasarea
+electronilor dinspre electrodul de plumb îi conferă sarcina electrică
+negativă. Aceste reacţii sunt reprezentate mai jos:
+
+#+CAPTION: descărcarea pilei de plumb-acid [[../poze/00259.png]]
+
+Acest proces prin care pila produce energie pentru alimentarea sarcinii
+se numeşte /descărcare/ şi provine de la faptul ca aceasta îşi epuizează
+rezervele chimice interne în urma acestui proces. Teoretic, după ce
+întreaga cantitate de acid sulfuric se consumă, din pilămai rămân cei
+doi electrozi de sulfat de plumb (PbSO_{4}) şi o soluţie electrolitică
+de apă pură (H_{2}O); această situaţie nu mai permite formarea
+legăturilor ionice adiţionale. În acest moment, pila se spune că este
+/complet descărcată/. Stadiul de încărcare poate fi determinat în acest
+caz de concentraţia soluţiei acide.
+
+Nu toate pilele voltaice sunt construite pe baza aceloraşi reacţii
+chimice, dar lucrul cel mai important de reţinut este că electronii sunt
+„motivaţi” să se deplaseze între cei doi electrozi de către reacţiile
+ionice dintre moleculele electrozilor şi moleculele electrolitului.
+Reacţia este activată atunci când există un drum exterior închis
+(complet) pentru formarea curentului electric. La întreruperea acestui
+circuit, reacţiile chimice încetează.
+
+Valoarea tensiunii generate de o celulă depinde de tipul reacţiilor
+chimice ce au loc în interiorul acesteia, mai bine spus, de configuraţia
+chimică a celulei. În exemplul de mai sus, pila de plumb-acid prezintă
+la bornele sale o tensiune nominală de 2.04 V, atunci când este
+încârcată la maxim (cocentraţia de acid ridicată). /Pila Edison/,
+confencţionată din oxid de nickel (electrodul pozitiv) şi fier
+(electrodul negativ), cu o soluţie electrolitică de hidroxid de potasiu
+generează o tensiune nominală de 1.2 V.
+
+*** Încărcarea pilei voltaice
+
+În cazul anumitor tipuri de pile, reacţiile chimice pot fi inversate
+forţând curgerea curentului în sens invers prin pilă. Acest proces
+poartă denumirea de /încărcare/. O asfel de pila reîncărcabilă se
+numeşte /pilă secundară/. O pilă a cărei compoziţii chimice nu poate fi
+readusă la starea iniţială se numeşte /pilă primară/.
+
+Încărcarea unei pile de plumb-acid printr-o sursă de curent externă duce
+la inversarea reacţiilor chimice din interiorul acesteia:
+
+#+CAPTION: încărcarea pilei de plumb-acid [[../poze/00393.png]]
+
+Sumar:
+
+-  
+-  
+
+* 2. Construcţia bateriilor electrice
+
+Cuvântul /baterie/ înseamnă pur şi simplu un grup de componente similare
+aduse împreună. O /baterie electrică/ este un set de pile voltaice
+realizate cu scopul generării unei valori a tensiunii şi curentului mai
+mari decât este posibil cu doar o singură pilă.
+
+Simbolul unei pile constă din două linii paralele, una mai scurtă şi una
+mai lungă, conectate la capete cu câte un fir:
+
+#+CAPTION: simbolul electric al pilei [[../poze/00260.png]]
+
+În aceeiaşi ordine de idei, simbolul bateriei constă din mai multe pile
+conectate în serie:
+
+#+CAPTION: simbolul electric al bateriei [[../poze/00261.png]]
+
+După cum am mai spus, tensiunea produsă de un anumita tip de pilă
+depinde doar de compoziţia ei chimică, mărimea pilei este irelevantă în
+acest caz. Pentru obţinerea unei tensiuni mai mari prin urmare, trebuie
+să conectăm mai multe pile în serie. Tensiunea totală la bornele unei
+baterii este suma tuturor tensiunilor pilelor. O baterie tipică
+plumb-acid instalată pe un automobil generează o tensiune nominală de
+12.0 V (6 x 2.0 V):
+
+#+CAPTION: conectarea pilelor în serie pentru generarea unei tensiuni
+mai mari [[../poze/00262.png]]
+
+Ca şi convenţie, simbolul bateriei este desenat de obicei cu doar patru
+linii lungi/scurte, chiar dacă bateria reală este compusă din mai mult
+de patru pile. Totuşi, se poate ca în unele cazuri să întâlnim un simbol
+al bateriei cu foarte multe linii lungi/scurte; folosim acest simbol
+pentru reprezentarea unei baterii cu o tensiune neobişnuit de mare:
+
+#+CAPTION: simbolul bateriei cu o tensiune neobişnuit de mare
+[[../poze/00263.png]]
+
+Deşi mărimea fizică a unei pile nu are nicio relevanţă cu privire la
+valoarea tensiunii generate, are totuşi importanţă atunci când luăm în
+considerarea rezistenţa acesteia şi prin urmare determină cantitatea
+maximă de curent ce o poate genera în circuit. Orice celulă voltaică
+posedă o anumită rezistenţa internă datorată electrozilor şi soluţiei
+electrolitice. Cu cât pila este mai mare, cu atât este mai mare
+suprafaţa de contact a electrozilor cu electrolitul, ceea ce se traduce
+printr-o rezistenţă internă mai /scăzută/.
+
+Deşi în mod normal considerăm că bateria se comportă ca o sursă perfectă
+de tensiune (absolut constantă) într-un circuit, considerând curentul
+ce-o străbate ca depinzând strict de rezistenţa /externă/ a circuitului
+de care este ataşată, acest lucru nu se întâmplă de fapt în realitate.
+Deoarece fiecare baterie sau pilă posedă o anumită rezistenţa internă,
+aceasta afectează valoarea curentului în oricare circuit:
+
+#+CAPTION: simbolul bateriei cu o tensiune neobişnuit de mare
+[[../poze/00264.png]]
+
+Bateria reală de mai sus posedă o rezistenţă internă de 0.2 Ω; acest
+lucru afectează performanţa bateriei atunci când alimentează sarcina de
+1 Ω. Bateria ideală din stânga nu are rezistenţă internă, şi din această
+cauză, aplicarea legii lui Ohm (I=E/R) rezultă într-o valoare a
+curentului de 10 A pentru o rezistenţă de 1 Ω şi 10 V tensiune de
+alimentare. Dar, bateria reală are o rezistenţă în plus ce se opune şi
+ea deplasării electronilor, curentul generat în circuit în acest caz
+este de numai 8.333 A pentru aceeiaşi valoare a sarcinii.
+
+Bateria ideală în scurt circuit (rezistenţă de 0 Ω a sarcinii) generează
+un curent infinit. Pe de altă parte, bateria reală, poate genera doar 50
+A (10 V/ 0.2 Ω) într-un scurt circuit de 0 Ω datorită rezistenţei
+interne. Ca să nu existe nicio confuzie, reacţiile chimice interne
+produc o tensiune tot de 10 volţi şi în cazul bateriei reale, dar o
+parte din aceasta cade pe rezistenţa internă a bateriei şi prin urmare
+căderea te tensiune pe sarcina circuitului nu este 100% din valoarea
+totală a tensiunii generate de baterie.
+
+În mod normal bateriile sunt folosite în circuite în care rezistenţele
+lor interne sunt neglijabile în comparaţie cu rezistenţele sarcinilor
+(curentul de scurt circuit este mult mai mare decât curentul normal prin
+sarcină), comportamentul lor în acest caz este foarte apropiat de cel al
+bateriilor reale.
+
+Dacă totuşi avem nevoie de o baterie cu rezistenţă internă mult mai mică
+(pentru curenţi mai mari) decât cea a unei singure pile, putem conecta
+mai multe pile în paralel:
+
+#+CAPTION: conectarea pilelor în paralel pentru o rezistenţă internă mai
+mică [[../poze/00265.png]]
+
+Circuitul Thevenin echivalent al celor cinci pile în paralel este un
+circuit cu o singură sursă de tensiune şi un rezistor în serie. Acest
+circuit are aceeiaşi valoare a tensiunii (2.0 V) dar o rezistenţa mai
+mică (0.04Ω) decât oricare dintre rezistenţele individuale ale pilelor
+(0.2 Ω).
+
+Sumar:
+
+-  
+-  
+
+* 3. Capacitatea bateriilor
+
+Datorită faptului că bateriile dau naştere unei curgeri de electroni
+prin circuit prin intermediul reacţiilor chimice (schimb de electroni),
+şi, datorită faptului că numărul de molecule dintr-o baterie este
+limitat, trebuie să existe o limită a cantităţii totale de electroni
+dintr-o baterie ce sunt „împinşi” în circuit, înainte ca rezervele de
+energie a acesteia să se termine. Am putea măsura capacitatea unei
+baterii referindu-ne la numărul total de electroni, dar această cifră ar
+fi extrem de mare. Am putea folosi coulomb-ul (egal cu 6,25 x 10^{18}
+electroni), astfel încât cantităţile cu care lucrăm să fie mult mai
+practice.
+
+** Amper-oră (Ah)
+
+Totuşi, în practică, nu se utilizează mărimile de mai sus, ci se
+lucrează cu amper-oră (Ah). Din moment ce un amper reprezintă o curgere
+de un coulomb de electroni pe secundă, iar într-o oră sunt 3.600 de
+secunde, putem exprima o relaţie directă între numărul de coulombi
+(numărul de electroni) şi amper-oră: 1 Ah - 3600 C.
+
+O baterie cu o capacitate de 1 Ah poate alimenta o sarcină cu un curent
+continuu de 1 A pentru o perioadă de 1 oră, sau 2 A pentru o jumătate de
+oră, etc. După această perioadă, spunem că baterie este descărcată. În
+cazul unei baterii ideale, relaţia dintre curentul continuu şi timpul de
+descărcare este stabilă şi absolută. Bateriile reale nu au însă acest
+comportament. Din acest motiv, atunci când se dă numărul de amperi-oră
+pentru o baterie, acest număr este specificat fie pentru o anumită
+valoare a curentului, fie a timpului, fie se presupune că este dată
+pentru o perioadă de 8 ore (în cazul în care nu este inclus alt factor
+de limitare).
+
+În cazul acumulatorilor, notaţia amper-oră specifică de fapt timpul
+necesar de încărcare pentru o anumită valoare a curentului de încărcare.
+De exemplu, o baterie auto de 70 amperi-oră, complet descărcată, va
+necesita o perioadă de încărcare de 10 ore la un curent de încărcare
+constant de 7 A (70 / 7).
+
+** Descărcarea bateriilor
+
+De exemplu, o baterie auto tipică poate avea o capacitate de 70 Ah,
+specificată pentru un curent de 3,5 A. Acest lucru înseamnă că bateria
+ar putea genera un curent de 3,5 A pentru o perioadă de 20 de ore (70 /
+3,5). Dar, să presupunem că am conecta o sarcină cu o rezistenţă mai
+mică la bornele bateriei, sarcină ce consumă un curent de 70 A. Ecuaţia
+noastră ne-ar spune că în acest caz, bateria ar funcţiona pentru exact o
+oră (70 / 70), dar acest lucru nu este neapărat valabil în realitate. În
+cazul unor curenţi mai mare, bateria va disipa o căldură mai mare pe
+rezistenţa sa internă. Efectul constă în modificarea reacţiilor chimice
+ce au loc în interiorul acesteia. Realitatea este că, bateria se va
+descărca într-o perioadă mai mică de timp decât o oră.
+
+Invers, dacă ar fi să conectăm o sarcină uşoară (1 mA) la bornele
+bateriei, ecuaţia ne-ar spune că baterie ar trebui să genereze putere
+pentru o perioadă de 70.000 de ore, puţin sub 8 ani. Totuşi, sunt foarte
+mari şanse ca energia chmică a unei baterii reale să se consume datorită
+altor factori, precum evaporarea electrolitului, deteriorarea
+electrozilor, scurgeri de curent în interiorul bateriei, înainte de
+perioada de 8 ani calculată mai sus.
+
+În concluzie, relaţia amper-oră este doar o aproximare ideală a unei
+baterii reale. Această trebuie luată în considerare doar pentru valori
+apropiate de curent sau de timp specificate de producător. Unii
+producători specifică însă factori de reducere a capacităţii totale
+pentru funcţionarea la curenţi şi/sau temperaturi diferite de cele
+standard.
+
+** Verificarea stării de încărcare a unei baterii
+
+Pe măsură ce o baterie se descarcă, pe lângă diminuarea stocului de
+energie internă, creşte şi rezistenţa internă a acesteia. Electrolitul
+devine din ce în ce mai puţin conductiv iar tensiunea bateriei scade pe
+măsură ce substanţele chimice devin din ce în ce mai diluate. Cel mai
+înşelător efect al unei baterii care se descarcă este creşterea
+rezistenţei. Cea mai bună metodă de verificare a stării unei baterii
+constă în măsurarea căderii de tensiune la bornele sale când aceasta se
+află /conectată în circuit/ şi generează un curent electric
+considerabil. Altfel, o simplă conectare a voltmetrului la bornele
+bateriei poate indica eronat o baterie „sănătoasă” (tensiune
+corespunzătoare), chiar dacă rezistenţa sa internă a crescut
+considerabil. Curentul electric „considerabil” este determinat de
+parametrii de proiectare a fiecărei baterii în parte. O cădere de
+tensiune prea mică (indicată de voltmetru), va indica, evident, o
+baterie descărcată. Să luăm câteva exemple.
+
+Scenariul pentru o baterie complet încărcată arată aproximativ astfel:
+
+#+CAPTION: verificarea stării de încărcare a unei baterii
+[[../poze/00266.png]]
+
+Dacă bateria se descarcă puţin:
+
+#+CAPTION: verificarea stării de încărcare a unei baterii
+[[../poze/00267.png]]
+
+Apoi puţin mai mult:
+
+#+CAPTION: verificarea stării de încărcare a unei baterii
+[[../poze/00268.png]]
+
+Şi încă puţin până când este complet descărcată:
+
+#+CAPTION: verificarea stării de încărcare a unei baterii
+[[../poze/00269.png]]
+
+Observaţi diferenţa dintre valoarea tensiunii măsurată cu ajutorul
+voltmetrului în funcţie de conectarea sau neconectarea bateriei la o
+sarcină. Înseamnă oare acest lucru că este inutil să verificăm o baterie
+doar cu ajutorului unui voltmetru (fără sarcină)? Nu chiar. Dacă un
+voltmetru simplu indică o valoare de doar 7,5 V pentru o baterie de 13,2
+V, putem deduce fără urmă de îndoială că aceasta este descărcată.
+Totuşi, dacă voltmetrul ar indica 12,5 V, bateria este aproape
+încărcată. Atenţie însă, mărimea rezistorul folosit pe post de sarcină
+trebuie să corespundă puterii maxime disipate de baterie. Pentru
+verificarea bateriilor mari, precum bateriile auto (12 V) de plumb-acid,
+acest lucru înseamnă că va trebui să folosim un rezistor ce poate
+suporta o putere de câteva sute de W (watt).
+
+Sumar:
+
+-  
+-  
+
+* 4. Baterii speciale
+
+** Pila standard cu mercur
+
+Pe vremuri, un tip special de baterie, cunoscuta sub numele de pilă
+standard cu mercur, era folosită ca şi etalon (standard) pentru
+calibrarea tensiunilor. Ieşirea unei pile cu mercur era între 1,0184 şi
+1,0194 V c.c. (în funcţie de tipul pilei), fiind extrem de stabilă în
+timp. Variaţia tensiunii era în jurul valorii de 0,004% pe an.
+Alternativ, pilele cu mercur erau cunoscute si sub numele de pile cu
+cadmium sau pile Weston. Structura unei astfel de pile este prezentată
+în figura de mai jos:
+
+#+CAPTION: pilă standard cu mercur [[../poze/00270.png]]
+
+Din păcate, pilele cu mercur sunt intolerante la „scurgerile” de curent
+şi nu pot fi măsurate cu un voltmetru analogic fără a compromite
+acurateţea măsurătorii. Producătorii menţionau un curent nu mai mare de
+0,1 mA prin pilă, dar chiar şi această cifră era considerată de moment,
+sau instantanee maximă. Prin urmare, pilele standard nu puteau fi
+măsurate decât cu un dispozitiv potenţiometric (detector de nul), pentru
+care curentul de funcţionare este zero. Scurt-circuitarea unei pile cu
+mercur este stric interzisă. După scurt-circuitare, pila nu mai putea fi
+folosită ca şi dispozitiv standard. Pilele cu mercur sunt de asemenea
+susceptibile la variaţii mici de tensiune în cazul „bruscării” lor
+fizice sau termice.
+
+Există două tipuri de pile standard cu mercur, în funcţie de nevoile de
+calibrare: saturate şi nesaturate. Pilele standard saturate oferă cea
+mai bună stabilitate a tensiunii în timp, suferind în schimb de o
+instabilitate termică. Cu alte cuvinte, variaţia tensiunii este
+neglijabilă în timp (o variaţie de doar câţiva microvolţi în decurs de
+10 ani!), dar este mare schimbările de temperatură (zeci de microvolţi
+per grad Celsius). Aceste pile funcţionează cel mai bine în medii de
+laborator controlate din punct de vedere termic, şi unde stabilitatea
+tensiunii este de o importanţa crucială.
+
+Pilele nesaturate oferă o foarte bună stabilitate termică în dauna
+stabilităţii în timp. Tensiunea rămâne practic constantă odată cu
+variaţia temperaturii, dar scade constant cu aproximativ 100 µV pe an.
+Acest celule erau utilizate cel mai adesea ca şi dispozitive de
+calibrare „de teren”. Temperatura ambiantă nu poate fi controlată precis
+în aceste situaţii. Tensiunea nominală a unei pile saturate este de
+1,0186 V, iar a cele nesaturate de 1,019 V.
+
+Dispozitivele de calibrare semiconductoare moderne au înlocuit în
+totalitate pilele standard ca şi referinţe de laborator sau „de teren”
+pentru tensiuni.
+
+** Pila de combustie
+
+Un dispozitiv fascinant, foarte asemănător pilei voltaice, este pila de
+combustie. Acest dispozitiv utilizează reacţia chimică de combustie
+(ardere) pentru generarea unui curent electric. Procesul de oxidare
+chimică (formarea legăturilor ionice ale oxigenului cu alte elemente)
+poate produce o deplasare de electroni între doi electrozi asemănător
+unei combinaţii de metale şi electroliţi. O pilă de combustie este
+practic o baterie alimentată de la o sursă externă de energie chimică:
+
+#+CAPTION: pilă de combustie hidrogen-oxigen [[../poze/00271.png]]
+
+Pe măsură ce „arde” hidrogen, singurele emisii ale unei pile de
+combustie sunt apă şi o cantitate mică de căldură. Eficienţa
+transformării energiei chimice în energie electrică, în cazul unei pile
+de combustie, este mult mai mare decât limita de eficientă Carnot pentru
+orice motor cu ardere (combustie) internă.
+
+** Celula solară
+
+Un alt tip de „baterie” este celula (pila) solară, un produs al
+electronicii (semiconductor). Efectul fotoelectric, conform căruia
+electronii sunt „smulşi” din atomi sub influenţa luminii, este pus în
+aplicare pentru generarea de curent electric prin intermediul luminii.
+Eficienţa celulelor solare este destul de mică, dar beneficiile
+utilizării acesteia ca şi sursă de energie sunt nenumărate: nu există
+părţi mobile, zgomot, poluare sau emisii şi o viaţa practic infinită:
+
+#+CAPTION: celulă solară [[../poze/00272.png]]
+
+** Pila chimică de detecţie
+
+Un alt tip de „baterie” specială este pila chimică de detecţie. Pe
+scurt, aceste pile reacţionează chimic cu o substanţa specifică din
+mediul lor ambiant (din aer) pentru a crea o cădere de tensiune
+proporţională cu concentratia substanţei respective. O aplicaţie
+practică a unei pile chimice de detecţie constă în detecţia şi măsurarea
+concentraţiei de oxigen. Majoritatea analizoarelor de oxigen sunt
+construite în jurul acestor mici pile. Pila chimică trebuie astfel
+proiectată încât să corespundă substenţei(lor) ce se doresc a fi
+detectate. Aceste pile tind să se uzeze, pe măsură de materialele
+chimice se epuizează sau se contaminează în decursul utilizării.
+
+Sumar:
+
+-  
+-  
+
+* 5. Consideraţii practice
+
+La conectarea bateriilor în serie (sau paralel), trebuie să fim atenţi
+la caracteristicile fiecărei baterii, pentru a nu cauza probleme.
+
+** Conectarea în serie a bateriilor
+
+Să luăm pentru început cazul conectării bateriilor în serie pentru
+obţinerea unei tensiuni mai mari:
+
+#+CAPTION: conectarea bateriilor în serie [[../poze/00273.png]]
+
+Cunoaştem faptul că valoarea curentului într-un circuit serie este
+aceiaşi în toate punctele. Oricare ar fi valoarea curentului în circuit,
+aceasta trebuie să fie aceiaşi prin fiecare baterie. Din acest motiv,
+toate bateriile trebuie să fie egale din punct de vedere al valorii
+amper-oră. În caz contrar, unele din baterii se vor goli mai repede
+decât celelalte, iar capacitatea întregului circuit va fi compromisă.
+Capacitatea amper-oră totală a acestui circuit serie nu este afectate de
+numărul de baterii conectate.
+
+** Conectarea în paralel a bateriilor
+
+Să luăm cazul conectării bateriilor în paralel pentru creşterea
+curentului în circuit (rezistenţă înternă mai mică), sau creşterea
+capacităţii amper-oră:
+
+#+CAPTION: conectarea bateriilor în paralel [[../poze/00274.png]]
+
+Cunoaştem faptul că într-un circuit paralel, căderea de tensiune este
+egală pe toate ramurile. Trebuie să ne asigurăm aşadar că tensiunea
+acestor baterii este egală. În caz contrar, vor exista curenţi relativ
+mari de la o baterie spre alta, bateriile cu o tensiune mai mare
+dominând bateriile cu tensiune mai mică. Acest lucru nu este de dorit.
+
+** Protejarea circuitelor cu siguranţe fuzibile
+
+În aceiaşi ordine de idei, trebuie să ne asigurăm că orice elemente de
+protecţie la supracurent (siguranţe fuzibile sau întrerupătoare
+automate) sunt instalate astfel încât să fie eficiente. Pentru circuitul
+serie de mai sus, o singură siguranţă fuzibilă este suficientă pentru
+protecţia la supracurent a conductorilor, din moment ce orice deschidere
+a circuitului va opri curentul în întreg circuitul:
+
+#+CAPTION: conectarea bateriilor în serie; protecţia la supracurent
+[[../poze/00275.png]]
+
+În cazul unor baterii conectate în paralel însă, o singură siguranţa
+fuzibilă este suficientă pentru protejarea conductorilor la supracurent
+(conectată între sarcină şi bateriile conectate în paralel). În acest
+caz însă, avem şi alte situaţii pe care trebuie să le luăm în
+considerare. Se ştie faptul că, în cazul bateriilor, pot apărea
+scurt-circuite interne datorită „defectării” mediului de separare dintre
+electrozi. Bateriile bune vor domina bateriile defecte (tensiune mică),
+ducând la apariţia unor curenţi relativ mari pe aceste ramuri. Pentru a
+ne proteja de un astfel de eveniment, fiecare baterie trebuie protejată
+la supracurent printr-o singuranţă fuzibilă individuală, pe lângă
+siguranţa fuzibilă principală:
+
+#+CAPTION: conectarea bateriilor în paralel; protecţia la supracurent
+[[../poze/00276.png]]
+
+** Alte observaţii legate de baterii şi acumulatori
+
+Atunci când avem de a face cu acumulatori, trebuie să fim atenţi la
+modul lor de încărcare. În fucţie de tipul şi modul de construcţie,
+acumulatorii au nevoi diferite când vine vorba de încărcarea lor. De
+obicei, producătorii oferă unele recomandări cu privire la modul de
+proiectare şi de menţinere a unui sistem electric ce utilizează
+acumulatori.
+
+Există două probleme principale: iterarea şi supraîncărcarea. Iterarea
+se referă la procesul de încărcare şi descărcare a unei baterii. Toate
+bateriile au un anumit număr de iteraţii permise. Supraîncărcarea
+reprezintă condiţia în care curentul continuă să fie forţat în sens
+invers prin acumulator, dincolo de punctul în care acesta a a tins
+încărcarea maximă. În cazul bateriilor de plumb-acid în special,
+supraîncărcarea duce la electroliza apei („fierberea” apei în afara
+bateriei) şi la scurtarea vieţii bateriei.
+
+Toate bateriile care conţin apă în electrolit produc hidrogen datorită
+electrolizei. Acest lucru este în special valabil în cazul bateriilor de
+plumb-acid, dar nu numai. Hidrogenul este un gaz extrem de inflamabil,
+în special în prezenţa oxigenului liber creat de acelaşi proces de
+electroliză, inodor şi incolor. Asemenea baterii reprezintă un real
+pericol de explozie chiar şi în condiţii normale de funcţionare, şi
+trebuie tratate cu mare grijă. Autorul a fost martorul exploziei unei
+baterii de plumb-acid. O singură scânteie creată de îndepărtarea unei
+surse de curent continuu pentru încărcarea unei baterii auto a dus la
+aprinderea hidrogenului din interiorul carcasei bateriei. Partea
+superioară a bateriei s-a desprins, împrăştiind acid sulfuric peste tot.
+Din fericire, personalul purta ochelari şi echipament de protecţie. În
+caz contrar, s-ar fi putut produce arsuri grave.
+
+La conectarea şi deconectarea echipamentului de încărcare a unei
+baterii, asiguraţi-vă că ultima conexiune (sau prima întrerupere a
+circuitului) se realizează la o distanţă suficientă faţă de baterie,
+astfel încât, orice scânteie rezultată să nu conducă la aprinderea
+hidrogenului.
+
+Sumar:
+
+-  
+-  
+

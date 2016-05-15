@@ -1,0 +1,816 @@
+* 1. Principiul de funcţionare
+
+/Dioda/ este un dispozitiv electric ce permite trecerea curentului doar
+într-o singură direcţie. Cea mai folosită diodă în circuitele electrice
+este cea /semiconductoare/, deşi există şi alte tehnologii (vezi fizica
+dispozitivelor semiconductoare!). Simbolul diodelor semiconductoare este
+prezentat în figura de mai jos (săgeţile indică deplasarea reală a
+electronilor prin diodă):
+
+#+CAPTION: simbolul schematic al diodei semiconductoare: săgeţile indică
+direcţia de deplasare a electronilor [[../poze/03246.png]]
+
+La conectarea într-un circuit simplu, format dintr-o baterie şi o lampă,
+dioda fie va permite trecerea curentului spre lampă, fie o va bloca, în
+funcţie de polaritatea tensiunii aplicate.
+
+#+CAPTION: modul de funcţionare al diodei: (a) polarizarea directă a
+diodei - trecerea curentului este permisă; (b) dioda este polarizată
+invers - trecerea curentului este blocată [[../poze/03247.png]]
+
+Atunci când polaritatea bateriei este asfel încât este permisă trecerea
+electronilor prin diodă, spunem că dioda este /polarizată direct/.
+Invers, când trecerea electronilor este blocată datorită inversării
+bateriei, spunem că dioda este /polarizată invers/. Putem să ne gândim
+la diodă ca la un întrerupător: „închisă”, când este polarizată şî
+„deschisă” când este polarizată invers.
+
+Comportamentul diodei este analog comportamentului dispozitivului
+hidraulic denumit /supapă de închidere/. O supapă de închidere permite
+trecerea fluidului doar într-o singură direcţie:
+
+#+CAPTION: analogie dintre o diodă şi o supapă de închidere hidraulică:
+(a) supapa este deschisă şi permite trecerea fluidului; (b) supapa este
+blocată şi nu permite trecerea fluidului [[../poze/03248.png]]
+
+Supapele de închidere sunt de fapt dispozitive controlate cu ajutorul
+presiunii: acestea se deschid şi permit trecerea fluidului dacă
+„polaritatea” presiunii pe suprafaţă lor este corectă. Dacă
+„polaritatea” presiunii este de sens contrar, diferenţa de presiune pe
+suprafaţa valvei va duce la închiderea acesteia, iar curgerea fluidului
+nu mai este posibilă.
+
+Acelaşi lucru este valabil şi în cazul diodelor, doar ca în acest caz
+presiunea este reprezentată de tensiune. Să reluăm circuitul de mai sus,
+dar folosind de această dată un aparat de măsură pentru determinarea
+căderilor de tensiune pe diferite componente ale circuitului.
+
+#+CAPTION: măsurarea căderilor de tensiune într-un circuit simplu cu
+diodă: (a) polarizarea directă a diodei; (b) polarizarea inversă a
+diodei [[../poze/03249.png]]
+
+O diodă polarizată direct conduce curent şi prezintă o cădere mică de
+tensiune la bornele sale, asfel încât majoritatea tensiunii disponibile
+la bornele sursei de alimentare se regăseşte pe lampă (sarcină). Dacă
+polaritatea bateriei este inversată, dioda devine polarizată invers, şi
+/toată/ tensiunea disponibilă la bornele sursei de alimentare se
+regăseşte pe diodă, iar căderea de tensiune pe sarcină va fi egală cu
+zero. Putem considera dioda ca fiind un întrerupător „automat” (se
+închide când este polarizat direct şi se deschide când este polarizat
+invers). Singura diferenţă notabilă este căderea de tensiune mult mai
+mare la bornele diodei (0.7 V), faţa de căderea de tensiune pe un
+întrerupător mecanic (câţiva mV).
+
+Această cădere de tensiune de polarizare directă se datorează acţiunii
+zonei de golire formată de joncţiunea P-N sub influenţa tensiunii
+aplicate. Dacă nu există nicio tensiune aplicată la bornele diodei
+semiconductoare, eixstenţa zonei de golire înguste în jurul joncţiunii
+P-N previne apariţia curentului (figura de mai jos (a)). Purtătorii de
+sarcină aproape că lipsesc în zona de golire, şi prin urmare aceasta se
+comportă precum un izolator.
+
+#+CAPTION: reprezentarea diodei: (a) joncţiunea P-N; (b) simbolul
+schematic; (c) aspectul real al diodei [[../poze/03250.png]]
+
+Dacă dioda este polarizată invers, zona de golire se extinde şi
+blochează şi mai bine trecerea curentului prin dispozitiv.
+
+#+CAPTION: polarizarea inversă a diodei duce la creşterea zonei de
+golire şi la blocarea acesteia [[../poze/03251.png]]
+
+Dacă dioda este polarizată direct însă, zona de golire devine mult mai
+subţire (figura de mai jos (a), polarizare parţială), iar rezistenţa
+faţă de curent scade. Pentru funcţionarea corectă a diodei însă, zona de
+golire trebuie să dispară complet. Acest lucru se poate realiza prin
+aplicarea unei anumite tensiuni minime, denumită /tensiune de polarizare
+directă/ (figura de mai jos (b)), care pentru diodele de siliciu este în
+mod normal 0.7 V, iar pentru cele de germaniu de doar 0.3 V.
+
+#+CAPTION: polarizarea directă a diodei: (a) parţială; (b) completă
+[[../poze/03252.png]]
+
+Căderea de tensiune la bornele diodei rămâne aproximativ constantă
+pentru o gamă largă de curenţi prin diodă. Pentru analiza circuitelor
+electronice simplificate, putem considera căderea de tensiune pe diodă
+ca fiind constantă (nu depinde de valoarea curentului prin diodă).
+
+Ecuaţia exactă ce descrie curentul printr-o diodă poartă numele de
+/ecuaţia diodei/:
+
+#+CAPTION: ecuaţia diodei [[../poze/13047.png]]
+
+Termenul q/KT descrie tensiunea produsă în joncţiunea P-N datorită
+acţiunii temperaturii, şi poartă numele de /tensiune termică/, sau
+V_{t}. La temperatura camerei, această temperatură este de aproximativ
+26 mV. Cunoscând acest fapt, şi considerând factorul de idealitate ca
+fiind 1, putem simplifica ecuaţia de mai sus şi să ajungem la următoarea
+relaţie:
+
+#+CAPTION: ecuaţia diodei simplificată [[../poze/13048.png]]
+
+Această ecuaţie nu trebuie neapărat luată în considerare la analiza
+circuitelor simple cu diode, ci este menţionată aici doar pentru a
+înţelege faptul că există o variaţie a căderii de tensiune la bornele
+diodei pentru diferite valori ale curenţilor prin diodă. Această
+variaţie este foarte mică, aceasta fiind şi motivul pentru care se
+consideră că, la bornele diodei, căderea de tensiune rămâne constantă la
+0.7 (siliciu) sau 0.3 V (germaniu). Totuşi, unele circuite folosesc în
+mod intenţionat relaţia curent/tensiune a joncţiunii P-N, şi ele pot fi
+înţelese doar în contextul acestei ecuaţii. De asemenea, din moment ce
+temperatura este un factor în ecuaţia diodei, o joncţiune P-N polarizată
+direct poate fi folosită ca un dispozitiv de determinare a temperaturii,
+iar această utilizarea poate fi înţeleasă doar dacă înţelegem în primul
+rând ecuaţia diodei de mai sus.
+
+Deşi o diodă polarizată invers, nu permite curentului să treacă prin ea
+datorită extinderii zonei de golire, în realitate există un mic curent
+de scurgere ce trece prin diodă chiar şi la polarizarea inversă, iar
+acest curent poartă numele de /curent invers/. Curentul invers poate fi
+însă ignorat pentru majoritatea aplicaţiilor. Dioda nu poate suporta o
+tensiune de polarizare inversă infinit de mare. Dacă această tensiune
+devine prea mare, dioda va fi distrusă datorită unei condiţii denumită
+/străpungere/. Această tensiune inversă maximă poartă numele de
+/tensiune de străpungere (inversă)/, notată cu V_{s}. Tensiunea de
+străpungerea creşte odată cu creşterea temperaturii şi scade cu scăderea
+temperaturii - exact invers faţă de tensiunea de polarizare directă. Mai
+jos este prezentat graficul curent-tensiune al diodei:
+
+#+CAPTION: graficul curent-tensiune al diodei [[../poze/03253.png]]
+
+Sumar:
+
+-  Dioda este un component electric ce se comportă precum o valvă
+   uni-direcţională de curent
+-  Spunem că dioda este polarizată direct atunci când aceasta permite
+   trecerea curentului prin diodă
+-  Spuenm că dioda este polarizată invers atunci când trecerea
+   curentului prin diodă este blocată
+-  Căderea de tensiune la bornele unei diode polarizate direct poartă
+   numele de tensiune de polarizare directă, şi este de 0.7 V pentru
+   diodele din siliciu şi 0.3 V pentru cele din germaniu. Această
+   tensiune variază foarte puţin pentru diferite valori ale curentului
+   şi temperaturii
+-  Tensiunea de polarizare inversă maximă pe care o poate suporta o
+   diodă fără apariţia fenomenului de „străpungere” ce duce inevitabil
+   la distrugerea acesteia, se numeşte /tensiune de străpungere/, V_{s}
+
+* 2. Verificarea diodei cu ajutorul ohmmetrului
+
+Din moment ce o diodă nu este nimic altceva decât o valvă
+uni-direcţională de curent, putem verifica acest lucru folosind un
+ohmmetru alimentat în curent continuu (cu baterie). La conectarea diodei
+într-o anumită direcţie, aparatul de măsură ar trebui să indice o
+rezistenţă foarte mică (figura de mai jos (a)), iar la conectarea
+inversă, aparatul ar trebui să indice o rezistenţă foarte mare (figura
+de mai jos (b)). („OL” reprezintă o valoarea prea mare ce nu poate fi
+indicată de aparatul de măsură (din engl. Over-Limit); în acest caz,
+putem considera rezistenţa ca fiind infinită).
+
+#+CAPTION: determinarea polarităţii diodei cu ajutorul aparatului de
+măsură: (a) rezistenţa mică între anod şi catod indică polarizarea
+directă a diodei; (b) inversarea sondelor aparatului de măsură duce la
+polarizarea inversă a diodei, indicată de rezistenţa foarte mare
+(infinită) [[../poze/03254.png]]
+
+Desigur, determinarea polarităţii diodei (care terminal este anodul şi
+care catodul) necesită ca în primul rând să cunoaştem care din sondele
+aparatului de măsură este cea pozitivă (+) şi care sondă este cea
+negativă (-), atunci când aparatul este trecut pe funcţia „Ω”. La
+majoritatea multimetrelor digitale, sonda roşie reprezintă terminalul
+pozitiv iar sonda neagră reprezintă terminalul negativ, atunci când
+aparatul setat pe măsurarea rezistenţelor. Totuşi, acest lucru nu este
+valabil pentru toate multimetrele, existând posibilitatea ca sonda
+neagră să fie pozitivă (+) şi cea roşie negativă (-).
+
+Problema folosirii unui ohmmetru pentru verificarea unei diode, este că
+indicaţia afişajului are doar valoare calitativă, nu şi cantitativă. Cu
+alte cuvinte, un ohmmetru poate doar să ne spune dacă dioda funcţionează
+(dacă aceasta conduce curent), dar valoarea rezistenţei obţinute din
+măsurătoare nu ne este de niciun folos. Dacă un ohmmetru indică o
+valoare de 1.73 Ω la polarizarea directă, această valoarea nu este
+folositoare unui tehnician sau celui care proiectează circuitul. Această
+valoare nu reprezintă nici căderea de tensiune la polarizarea directă şi
+nici rezistenţa materialului semiconductor din diodă, ci este o mărime
+dependentă de ambele cantităţi şi variază substanţial în funcţie de
+ohmmetrul folosit pentru efectuarea citirii.
+
+Din acest motiv, unele multimetre digitale sunt prevăzute cu o funcţie
+specială de „verificare a diodei” ce indică tensiunea reală de
+polarizare directă a diodei, în volţi, în loc de o rezistenţă în ohmi.
+Principiul de funcţionare a acestor aparate de măsură constă în forţarea
+unui curent mic prin diodă şi măsurarea căderii de tensiune dintre cele
+două borne ale diodei.
+
+#+CAPTION: determinarea tensiunii de polarizare directă a diodei
+folosind un multimetru digital echipat cu funcţia de verificare a
+diodelor [[../poze/03256.png]]
+
+Totuşi, valoarea tensiunii de polarizare directă indicată de aceste
+aparate va fi de obicei mai mică decât valoarea „normală” de 0.7 V,
+deoarece curent furnizat de aparatul de măsură prin diodă este foarte
+mic. Dacă nu avem la dispoziţie un multimetru cu funcţie de verificare a
+diodelor, sau dacă vrem să măsurăm tensiuena de polarizarea directă a
+diodei folosind un curent mai mare, putem realiza un circuit electric
+precum în figura de mai jos, folosind o baterie, un rezistor şi un
+voltmetru:
+
+#+CAPTION: măsurarea tensiunii de polarizare directă a diodei folosind
+un aparat de măsură (voltmetru), o baterie şi un rezistor: (a) schema
+electrică; (b) schema practică [[../poze/03257.png]]
+
+Sumar:
+
+-  Putem folosi un ohmmetru pentru verificarea calitativă a diodei.
+   Rezistenţa măsurată într-o anumită direcţie ar trebui să fie foarte
+   mică şi foarte mare când inversăm direcţia de măsurare. Atenţia la
+   polaritatea sondelor aparatului de măsură!
+-  Unele multimetre digitale oferă o funcţie de „verificare a diodei” ce
+   indică tensiunea de polarizare directă a diodei atunci când aceasta
+   conduce curent. Asfel de aparate de măsură indică de obicei o
+   tensiune de polarizare direcţa mai mică decât valoarea normală a unei
+   diode, datorită curentului foarte mic generat de aparat prin diodă în
+   timpul măsurătorii
+
+* 3. Parametrii diodei
+
+Pe lângă tensiunea de polarizare directă (V_{f}) şi tensiunea de
+străpungere (V_{s}), mai există mulţi alţi parametrii importanţi ai
+diodelor pentru proiectarea circuitelor şi alegerea componentelor.
+Producătorii de dispozitive semiconductoare oferă aceste specificaţii
+ale produselor în publicaţii denumite /cataloage/. Cataloagele
+producătorilor de componente pot fi găsite în cărţi de specialitate sau
+pe interne.
+
+Pentru simplicarea explicaţiilor, am folosit în unele situaţii
+„tensiunea directă” în loc de „tensiunea de polarizare directă” sau
+„curentul direct” în loc de „curentul de polarizare direct”. Cele două
+exprimări sunt însă echivalente.
+
+Principalele caracteristici ale diodelor, trecute în cataloage, sunt
+următoarele:
+
+*V_{RRM} - tensiunea inversă repetitivă maximă*, este tensiunea maximă
+inversă la care poate rezista dioda, atunci când această tensiune este
+atinsă în mod repetat. Ideal, această valoare ar fi infinită.
+
+*V_{R} sau V_{DC} - tensiunea maximă inversă de curent continuu*, este
+valoarea maximă a tensiunii la care dioda poate funcţiona neîntrerupt,
+fără distrugerea acesteia. Ideal, această valoare a fi infinită.
+
+*V_{F} - tensiunea (de polarizare) directă maximă*, de obicei este
+specificată împreună cu valoarea curentului direct. Ideal, această
+valoare ar fi zero: ideal, dioda nu ar prezenta niciun fel de opoziţie
+în faţa deplasării electronilor. În realitate, tensiunea directă este
+descrisă de ecuaţia diodei.
+
+*I_{F(AV)} - valoarea maximă (medie) a curentului direct*, valoarea
+maximă medie a curentului pe care bobina o poate suportă la polarizarea
+directă. Această limitarea este practic o limitare termincă: câtă
+căldură poate „suporta” joncţiunea P-N, având în vedere că puterea
+disipată reprezintă produsul dintre curent şi tensiune, iar tensiunea de
+polarizare directă depinde atât de curent cât şi de temperatura
+joncţiunii. Ideal, această valoare ar fi infinită.
+
+*I_{FSM} sau i_{f(vârf)} - curentul de polarizare directă maxim*,
+reprezintă curentul de vârf maxim pe care dioda îl poate conduce la
+polarizare directă, fără ca aceast curent să ducă la distrugerea diodei.
+Din nou, această valoare este limitată de capacitatea termică a
+joncţiunii diodei, şi este de obicei mult mai mare decât valoarea
+curentului mediu datorită inerţiei termice. Ideal, această valoare ar fi
+infinită.
+
+*P_{D} - puterea maximă disipată totală*, reprezintă valoarea puterii
+(în watt) pe care dioda o poate disipa fără ca această putere să ducă la
+distrugerea diodei. Această valoare este limitată de capacitatea termică
+a diodei. Ideal, această valoare ar fi infinită.
+
+*T_{J} - temperatura de functionare a joncţiunii*, reprezintă
+temperatura maximă admisă a joncţiunii P-N a diodei, valoare dată de
+obicei în ^{o}C. Căldura reprezintă punctul critic al dispozitivelor
+semiconductoare: acestea /trebuie/ menţiunute la o temperatură cât mai
+apropiată de temperatura camerei pentru funcţionarea lor corectă şi o
+durată de funcţionare cât mai lungă.
+
+*T_{STG} - temperatura de depozitare*, reprezintă valoarea temperaturii
+de stocare a diodelor (nepolarizate).
+
+*R(Θ) - rezistenţa termică*, reprezintă diferenţa dintre temperatura
+joncţiunii şi temperatura aerului exteriori diodei (R(Θ)_{JA}), sau
+dintre joncţiune şi contacte (R(Θ)_{JL}), pentru o anumită putere
+disipată. Valoarea este exprimată în ^{o}C/W. Ideal, această valoare ar
+fi zero, ceea ce ar înseamna că învelişul (carcasa) diodei ar fi un
+conductor şi radiator termic perfect, fiind capabil să transfere
+energiea sub formă de căldură dinspre joncţiune spre mediul exterior
+(sau spre contacte) fără nicio diferenţă de temperatură existenţa în
+grosimea carcasei. O rezistenţă termică ridicată se traduce prin faptul
+că dioda va stoca o temperatură excesivă în jurul joncţiunii (punctul
+critic), în ciuda eforturilor susţinute de răcire a mediului exterior
+diodei; acest lucru duce la limitarea puterii maxime disipate.
+
+*I_{R} - curentul maxim de polarizare inversă*, reprezintă valoarea
+curentului prin diodă la polarizarea inversă şi aplicarea tensiunii de
+polarizare inversă maximă de curent continuu(V_{DC}). Mai este cunoscut
+şi sub numele de /curent de scăpări/. Ideal, această valoare ar fi zero,
+deoarece o diodă perfectă ar bloca toţi curenţii atunci când este
+polarizată inversă. În realitate, această valoarea este mică în
+comparaţie cu valoarea curentului maxim de polarizare directă.
+
+*C_{J} - capacitatea tipică a joncţiunii*, reprezintă capacitatea
+intrinsecă joncţiunii, datorită comportării zonei de golire precum un
+dielectric între anod şi catod. Această valoare este de obicei foarte
+mică, de ordinul picofarazilor (pF).
+
+*t_{rr} - timpul de revenire invers*, reprezintă durata de timp necesară
+„stingerii” diodei atunci când tensiunea la bornele sale alternează
+între polarizare directă şi polarizare inversă. Ideal, această valoare
+ar fi zero: dioda se „stinge” imediat după inversarea polarităţii.
+Pentru o diodă redresoare tipică, timpul de revenire este de oridinul
+zecilor de microsecunde (ms); pentru o diodă de comutaţie rapidă, acest
+timp poate ajunge la doar câteva nanosecunde (ns).
+
+Majoritatea acestor parametrii variază cu temperatura sau alte condiţii
+de operare, prin urmare, o singură valoarea nu poate descrie complet
+niciun parametru. Prin urmare, producătorii pun la dispoziţie grafice
+ale variaţiilor parametrilor cu temperatura (sau alte variabile).
+
+* 4. Circuite redresoare
+
+Cea mai populară aplicaţia e diodelor este /redresarea/. Pe scurt,
+redresarea reprezintă transformarea curentului alternativ în curent
+continuu. Acest lucru implică folosirea unui dispozitiv ce permite
+trecerea electronilor doar într-o singură direcţie, iar dioda realizează
+tocmai acest lucru.
+
+*** Redresorul monoalternanţă
+
+Cel mai simplu circuit de redresare îl reprezintă redresorul
+monoalternanţă. Acesta permite doar trecerea unei jumătăti a formei de
+undă de curent alternativ înspre sarcină:
+
+#+CAPTION: redresorul monoalternanţă [[../poze/03258.png]]
+
+Pentru majoritatea aplicaţiilor de putere însă, redresarea
+monoalternanţă nu este suficientă. Conţinutul armonic al undei de ieşire
+este foarte mare şi prin urmare dificil de filtrat. Mai mult, sursa de
+tensiune alternativă este „văzută” de sursă doar odată la fiecare
+jumătate de perioadă, ceea ce înseamnă că mare parte din capacitatea
+sursei nu este folosită. Redresarea monoalternanţă este totuşi o
+modalitatea foarte uşoară de reducere a puterii generate pe o sarcină
+rezistive. Unele comutatoare cu rezistenţă reglabilă folosite la lămpi,
+aplică întreaga tensiune de curent continuu pe filamentul „lămpii” în
+poziţia „maxim”, şi doar o jumătate (folosind un redresor
+monoalternanţă) din tensiunea maximă disponibilă pe celalaltă poziţie,
+pentru o intensitate luminoasă mai scăzută:
+
+#+CAPTION: utilizarea redresorului monoalternanţă; comutator cu
+rezistenţă reglabilă cu două nivele [[../poze/03259.png]]
+
+Când întrerupătorul este în poziţie mediu, lampa incandescentă primeşte
+aproximativ jumătate din puterea disponibilă la sursa de curent
+alternativ. Datorită faptului că forma de undă monoalternanţa pulsează
+mult mai rapid decât timpul necesar pentru încălzirea şi răcirea
+filamentului, lampa nu „clipeşte”, ci, filamentul ei pur şi simplu
+operează la o temperatură mai mică decât temperatura normală de
+funcţionare.
+
+*** Redresor dublă alternanţă cu punct median
+
+Pentru redresarea şi folosirea ambelor alternanţe a undelor sinusoidale,
+avem nevoie de o altă configuraţie a circuitului redresor, şi anume, un
+redresor /dublă alternanţă/. Una dintre posibilităţi este realizarea
+redresorului cu punct median, folosind un transformator cu priză mediană
+pe înfăşurarea secundară şi două diode:
+
+#+CAPTION: redresor dublă alternanţă cu punct median
+[[../poze/03260.png]]
+
+Putem înţelege mult mai bine funcţionarea acestui redresor dacă luăm pe
+rând fiecare jumătate de perioadă (semi-perioadă). Să cosiderăm de
+exemplu prima jumătate a perioadei, când polaritatea tensiunii de
+alimentare este pozitivă (+) sus şi negativă (-) jos. În această
+situaţie, doar dioda de sus va conduce, iar dioda de jos este blocată.
+Sarcina „vede” prima jumătate a formei de undă sinusoidale, pozitiv sus
+şi negativ jos. Doar partea de sus a înfăşurării secundare a
+transformatorului conduce curent în acest caz:
+
+#+CAPTION: redresor dublă alternanţă cu punct median; observarea primei
+jumătăţi a periodei tensiunii de alimentare alternative
+[[../poze/03261.png]]
+
+În a doua parte a perioadei, polaritatea tensiunii alternative se
+inversează. În acest caz, cealaltă diodă, cea de jos, şi cealaltă
+jumătate a secundarului transformatorului, vor conduce curent, iar
+celelalte porţiuni ale circuitului ce au fost active la pasul precedent,
+nu vor conduce curent. Sarcina „vede” şi în acest caz o jumătate de
+formă de undă sinusoidală, de /aceeiaşi/ polaritate ca şi în cazul
+precedent: pozitiv în partea de sus şi negativ în partea de jos:
+
+#+CAPTION: redresor dublă alternanţă cu punct median; observarea celei
+de a doua jumătăţi a periodei tensiunii de alimentare alternative
+[[../poze/03262.png]]
+
+Un mare dezavantaj al acestei configuraţii este necesitatea folosirii
+unui transformator cu priză mediană pe înfăşurarea secundară. Dacă
+circuitul în cauză este un circuit de putere mare, mărimea şi costul
+unui asfel de transformator pot fi suficient de mari. Prin urmare,
+redresorul dublu alternanţa cu punct median este folosit doar în
+aplicaţiile de putere mică.
+
+Polaritatea sarcinii poate fi inversată prin inversarea direcţiilor
+diodelor. Mai mult, diodele inversate pot fi conectate în paralel cu
+configuraţia pozitivă deja existentă. Rezultatul este un redresor dublă
+alternanţă cu polaritate dublă. Modul de conectare al diodelor este
+acelaşi ca şi la redresorul în punte.
+
+#+CAPTION: redresor dublă alternanţă cu punct median cu polaritate dublă
+[[../poze/03444.png]]
+
+*** Redresor dublă alternanţă în punte
+
+Probabil că cel mai popular redresor este cel dublă alternanţă în punte.
+Aceste utilizează patru diode conectate în punte:
+
+#+CAPTION: Redresor dublă alternanţă în punte [[../poze/03263.png]]
+
+Direcţia curentului pentru semi-perioadele pozitive este prezentată în
+figura de mai jos:
+
+#+CAPTION: Redresor dublă alternanţă în punte; direcţia curentului
+pentru semi-perioadele pozitive [[../poze/03264.png]]
+
+Direcţia curentului pentru semi-perioadele negative este prezentată în
+figura de mai jos:
+
+#+CAPTION: Redresor dublă alternanţă în punte; direcţia curentului
+pentru semi-perioadele negative [[../poze/03265.png]]
+
+Indiferent de polaritatea intrării, curentul prin sarcină are aceeiaşi
+direcţie de curegere. Cu alte cuvinte, o semi-perioadă negativă la sursă
+este o semi-perioadă pozitivă pe sarcină. Curgerea curentului are loc
+prin două diode serie, pentru ambele polarităti. Asfel, căderea de
+tensiune pierdută dinspre sursă spre sarcină datorită diodelor este
+dublă (0.7 · 2 = 1.4 V pentru Si) faţa de redresorul dubă alternanţă cu
+punct median. Acest dezavantaj reprezintă însă o problemă doar pentru
+sursele cu o tensiune de alimentarea foarte scăzută.
+
+Modul corect de aşezare în punte al diodelor poate prezenta pentru
+începători unele dificultăţi. O reprezentare alternativa, dar
+echivalentă, a acestui circuit este mult mai uşor de ţinut minte şi de
+înţeles. Este exact acelaşi circuit, doar că toate diodele sunt
+poziţionate orizontal, şi toate indică în aceeiaşi direcţie:
+
+#+CAPTION: Redresor dublă alternanţă în punte; reprezentare echivalentă
+- toate diodele sunt poziţionate orizontal şi indică aceeiaşi direcţie
+[[../poze/03266.png]]
+
+Un avantaj al acestei notaţii este că poate fi uşor aplicată unei
+versiuni trifazate a redresorului:
+
+#+CAPTION: redresor trifazat dublă alternanţă în punte;
+[[../poze/03267.png]]
+
+...sau oricărei configuraţii polifazate:
+
+#+CAPTION: redresor cu 6 faze dublă alternanţă în punte;
+[[../poze/03268.png]]
+
+*** Forma de undă a tensiunii redresate
+
+În cazul redresării unui circuit de curent alternativ polifazat,
+suprapunerea pulsurilor defazate produc o tensiune de curent continuu
+mult mai „netedă” (cu un conţinut mai mic de curent alternativ) decât
+cea produsă prin redresarea unei singure faze de curent alternativ.
+Acesta este un avantaj important în circuitele redresoare de putere,
+unde doar mărimea fizică a componentelor necesare pentru realizarea
+filtrării ar impune unele limite.
+
+#+CAPTION: forma de undă de curent continuu redresată pentru o sursă de
+tensiune trifazată [[../poze/03269.png]]
+
+Indiferent de tipul redresării - monofazată sau polifazată - cantitatea
+de tensiunea alternativă „amestecată” cu tensiunea de curent continuu de
+ieşire a redresorului, poartă numele de /tensiune de riplu/, sau simplu
+/riplu/. În majoritatea cazurilor, din moment ce la ieşire dorim o
+tensiune de curent continuu pură, riplul reprezintă o tensiune nedorită.
+Dacă puterile implicate nu sunt foarte mari, se pot folosi reţele de
+filtrare pentru reducerea riplului tensiunii de ieşire.
+
+Câteodată, metoda rectificării este descrisă numărând „pulsurile”
+tensiunii de curent continuu pentru fiecare 360^{o} electrice. Un
+redresor monofazat, monoalternanţă, este prin urmare un redresor cu /un
+puls/, deoarece produce un singur puls într-o perioadă completă
+(360^{o}) a formei de undă alternative. Un redresaor monofazata, dublă
+alternanţă (indiferent dacă este cu punct median sau în punte), poate fi
+numit redresor cu /două pulsuri/, deoarece produce două pulsuri de
+tensiune continuă într-o perioadă a tensiunii de curent alternativ. Un
+redresor trifazat, dublă alternanţă poate fi denumit redresor cu /şase
+pulsuri/.
+
+Notaţie 1Ph1W1P ?!?!?! -- ro?!!?
+
+Este posibilă obţinerea unui număru dublu de pulsuri faţă de numărul
+fazelor cu ajutorului unui redresor. Folosind transformatoare, putem
+conecta în paralel un set de redresoare dublă alternanţă în punte asfel
+încât să rezultă mai mult de 6 pulsuri de tensiune continuă pentru cele
+trei faze ale curentului alternativ. Se introduce un defazaj de 30^{o}
+între primarul şi secundarul transformatorului trifazat atunci
+înfăşurările nu sunt de acelaşi tip. Cu alte cuvinte, un transformator
+în configuraţie Y-Δ (stea-triunghi) sau Δ-Y (triunghi-stea), va prezenta
+acest defazaj de 30^{o}, dar nu şi un transformator în configuraţie Y-Y
+sau Δ-Δ. Acest fenoment poate fi exploatat prin utlizarea unui
+transformator în configuraţie Y-Y conectat la un redresor în punte, iar
+un alt transformator în configuraţie Y-Δ conectat la un al doilea
+redresor în punte; cele două punţi redresoare le conectăm apoi în
+parelel. Din moment de tensiunea de riplu dintre cele două redresoare
+este defazată cu 30^{o}, tensiunea de riplu rezultată prin superpoziţia
+lor va fi mai mică decât tensiunea de riplu luată individual pentru cele
+două redresoare: 12 pulsuri pentru o perioadă (360^{o}) în loc de 6.
+
+#+CAPTION: redresor polifazat dublu alternanţa cu două redresoare în
+punte conectate în paralel, folosind un transformator primar şi două
+secundare în configuraţie Y-Y, respectiv Y-Δ [[../poze/03270.png]]
+
+Sumar:
+
+-  Redresarea este transformarea curentului alternativ în curent
+   continuu
+-  Un redresor monoalternanţa este un circuit ce permite aplicarea doar
+   a unei semiperioade (o jumătate de perioadă) a tensiunii de curent
+   alternativ asupra sarcinii, rezultând într-o polaritate
+   non-alternantă a căderii de tensiune a sarcinii. Tensiunea de curent
+   continuu rezultată prezintă o „pulsaţie” semnificativă
+-  Un redresor dublă alternanţă este un circuit ce transformă întreaga
+   perioadă (ambele semiperioade) a tensiunii de curent alternativ
+   într-o serie de pulsuri neîntrerupte de tensiune de aceeiaşi
+   polaritate. Tensiunea de curent continuu rezultată prezintă un număr
+   mai mic de pulsuri
+-  Redresarea tensiunii de curent alternativ polifazate rezultă într-o
+   formă de undă de curent continuu mult mai „netedă” (tensiune de riplu
+   mult mai scăzută) decât redresarea tensiunii monofazate
+
+* 11. Dioda Zener
+
+La conectarea unei diode în serie cu un rezistor într-un circuit de
+curent continuu, asfel încât dioda să fie polarizată direct, căderea de
+tensiune la bornele diodei va rămâne aproximativ constantă pentru o
+plajă largă de tensiuni de alimentare (figura de mai jos (a).
+
+Conforma ecuaţiei diodei, curentul printr-o joncţiune P-N polarizată
+direct este direct proporţională cu /e/ ridicat la puterea tensiunii
+directe (tensiunea de polarizare directă). Deoarece ecuaţia este
+exponenţială, curentul creşte foarte repede pentru creşteri modeste ale
+căderii de tensiune. Cu alte cuvinte, căderea de tensiune la bornele
+unei diode polarizate direct variază foarte puţin pentru variaţi mari
+ale curentului prin diodă. În circuitul din figura de mai jos (a),
+curentul prin diodă este limitate de tensiunea sursei de alimentare, de
+rezistorul conectat în serie şi de căderea de tensiune la bornele
+diodei, care după câte ştim, nu se îndepărtează foarte mult de valoarea
+de 0.7 V. Dacă am fi să creştem tensiunea generată de sursă, căderea de
+tensiune pe rezistor ar creşte cu aproape aceeiaşi valoare, iar căderea
+de tensiune pe diodă ar creşte doar foarte puţin. Invers, o scădere a
+tensiunii generată de sursă, rezultă într-o descreştere aproape identică
+a căderii de tensiune pe rezistor şi doar într-o mică descreştere a
+căderii de tensiune pe diodă. Pe scurt, putem spune că dioda
+/stabilizează/ tensiunea la valoarea de 0.7 V.
+
+Stabilizarea tensiunii este o proprietatea foarte folositoare. Să
+presupunem că am construi un circuit, al cărei sarcini nu ar tolera
+variaţii ale tensiunii sursei de alimentare, dar că acest circuit
+trebuie să fie alimentat de o baterie, a cărei tensiune, după câte se
+ştie, variază pe durata sa de funcţionare. Am putea folosi în acest caz
+circuitul din figura de mai jos (a), iar circuitul în cauză să-l
+conectăm la bornele diodei, asfel încât tensiunea de alimentare a noului
+circuit să rămână stabilă la valoarea de 0.7 V.
+
+Majoritatea circuitelor reale necesită însă o sursă de tensiune
+stabilizată cu o valoare de peste 0.7 V. O modalitate de creştere a
+tensiunii stabilizate este conectarea mai multor diode în serie, asfel
+încât tensiunile de polarizare directă să se însumeze. De exemplu, dacă
+am conecta zece diode în serie, valoarea tensiunii stabilizate ar fi de
+zece ori mai mare faţă de cazul precedent, adică 7 V.
+
+#+CAPTION: sursă de tensiune stabilizată folosind diode: (a) o singură
+diodă (0.7 V); (b) zece diode conectate în serie (7 V)
+[[../poze/03284.png]]
+
+Atâta timp cât tensiunea bateriei nu scade sub 7 V, vor exista tot
+timpul 7 V (tensiune stabilizată) între bornele celor diode conectate în
+serie.
+
+Dacă avem nevoie de tensiuni stabilizate şi mai mari, putem folosi şi
+mai multe diode în serie, sau putem încerca o altă complet diferită,
+folosindu-ne tot de diode. Ştim că tensiunea de polarizare a diodei este
+o valoare aproximativ constantă pentru o plajă largă de condiţii, dar
+acelaşi lucru este valabil şi pentru /tensiune (inversă) de
+străpungere/, iar valoarea acestei tensiuni de străpungere este de
+obicei mult mai mare decât tensiunea directă. Dacă inversăm polaritatea
+diodei în circuitul stabilizator de mai sus, şi creştem tensiunea sursei
+de alimentare până în punctul de străpungere al diodei, dioda va
+stabiliza şi în acest caz tensiunea la acel punct de străpungere,
+nepermiţând tensiunii să crească peste această valoare (figura de jos
+(a)).
+
+#+CAPTION: (a) tensiunea inversă de străpungere pentru o diodă de
+siliciu este aproximativ 100 V; (b) simbolul diodei Zener
+[[../poze/03285.png]]
+
+Din păcate, când diodele redresoare normale ating punctul de stăpungere,
+acest faptul duce şi la distrugerea acestora. Totuşi, se pot construi
+diode speciale ce pot suporta tensiunea de străpungere fără distrugerea
+completă a acestora. Acest tip de diodă poartă numele de /diodă Zener/,
+iar simbolul este cel din figura de sus (b).
+
+La polarizarea directă, diodele Zener se comportă precum diodele
+redresoare standard: tensiunea direcţa are valoarea de 0.7 V, conform
+ecuaţiei diodei. La polarizarea inversă însă, acestea nu conduc curentul
+decât peste o anumită valoare a tensiunii de alimentare, valoare
+denumită /tensiune Zener/; după atingerea acestei valori, dioda Zener va
+putea să conducă un curent substanţil, dar va limita căderea de tensiune
+la bornele sale la acea tensiune zener. Atâta timp când puterea disipată
+sub formă de căldură nu depăşeşte limita termică a diodei, aceasta nu va
+fi afectată în niciun fel.
+
+Diodele zener sunt confencţionate cu tensiuni zener de câţiva volţi până
+la sute de volţi. Tensiunea zener variază uşor cu temperatura, dar
+acestea pot fi folosite cu succes ca dispozitive de stabilizare a
+tensiunii datorită stabilităţii şi acurateţii lor în funcţionare.
+
+#+CAPTION: circuit de stabilizare a tensiunii cu diodă zener; tensiunea
+zener este de 12.6 V [[../poze/03287.png]]
+
+Observaţie! Orientarea diodei zener faţă de sursa de tensiune în circuit
+de mai sus, este asfel încât dioda să fie polarizată invers. Acesta este
+modul corect de conectare a diodelor zener în circuit! Dacă am fi să
+conectăm dioda zener invers, asfel încât să fie polarizată direct,
+aceasta s-ar comporta precum o diodă „normală”, iar tensiune de
+polarizare directă ar avea o valoare de doar 0.7 V.
+
+Ca şi oricare dispozitiv semiconductor, dioda zener este sensibilă la
+temperatură. O temperatură excesivă poate duce la distrugerea diodei,
+asfel că va trebui să se ţină seama de puterea maximă permisă a diodei
+la proiectarea circuitelor. Interesant este faptul că, la distrugerea
+diodei zener, datorită căldurii excesive, distrugerea rezultată duce la
+/scurt-circuitarea/ diodei, nu la /deschiderea/. O asfel de diodă
+„stricată” poate fi detectată foarte uşor, întrucât se comportă precum
+un conductor electric: căderea de tensiune este aproape zero atât la
+polarizarea directă cât şi la polarizarea inversă.
+
+*** Exemplu practic de utilizare a diodei zener
+
+Considerând circuitul precedent, vom rezolva matematic circuitul,
+determinând toate tensiunile, curenţii şi puterile disipate, pentru o
+tensiune zener de 12.6 V, o sursă de tensiune de 45 V şi o valoare a
+rezistorului de 1.000 Ω (figura de mai jos (a)).
+
+#+CAPTION: (a) stabilizator de tensiune cu diodă zener şi un rezistor de
+1.000 Ω; (b) calcularea căderilor de tensiune şi ale curenţilor
+[[../poze/03289.png]]
+
+Să calculăm prima dată puterile pe rezistor şi pe diodă:
+
+#+CAPTION: calcule matematice [[../poze/13049.png]]
+
+O diodă zener cu o putere de 0.5 W şi un rezistor cu o putere de 1.5 sau
+2 W sunt suficiente pentru această aplicaţie.
+
+Dacă puterea excesivă disipată este atât de importanţa, de ce nu am
+proiecta un circuit asfel încât să existe o putere disipată minimă? De
+ce nu am introduce un rezistor cu o valoare foarte mare a rezistenţei,
+limitând prin urmare curentul şi menţinând puterea disipată la valori
+foarte scăzute? Să luăm, de exemplu, următorul circuit cu un rezistor de
+100 kΩ în loc de rezistorul de 1 kΩ din circuitul precedent. Atât
+tensiunea de alimentarea cât şi tensiunea zener sunt cele din exemplul
+precedent.
+
+#+CAPTION: (a) stabilizator de tensiune cu diodă zener şi un rezistor de
+100 kΩ [[../poze/03290.png]]
+
+Având un curent de 100 de ori mai mic decât inainte (324 µA în loc de
+32.4 mA), ambele valori ale puterilor disipate ar trebui să fie de 100
+de ori mai mici:
+
+#+CAPTION: calcule matematice [[../poze/13050.png]]
+
+Acestă configuraţie pare ideală. O putere disipată mai mică înseamnă
+temperaturi de funcţionare mai mici atât pentru dioda zener cât şi
+pentru rezistor şi o pierdere de energie mai mică în sistem.
+Într-adevăr, o rezistenţă mai mare reduce puterile disipate din circuit,
+dar, introduce o /altă/ problemă. Scopul unui stabilizator de tensiune
+este alimentarea unui /alt circuit/ cu o tensiune stabilă. Va trebui
+până la urmă să alimentăm un alt circuit cu 12.6 V, iar acest circuit
+legat la bornele diodei zener va necesita şi el un anumit curent. Să
+considerăm primul circuit, conectat de această dată la o sarcină de 500
+Ω în paralel cu dioda zener:
+
+#+CAPTION: (a) stabilizator de tensiune cu diodă zener şi un rezistor de
+1.000 Ω; conectarea unei sarcini de 500 Ω în paralel cu dioda zener
+[[../poze/03291.png]]
+
+Dacă se menţine o tensiune de 12.6 V pe sarcina de 500 Ω, aceasta va
+„trage” un curent de 25.2 mA. Pentru ca rezistorul de 1 kΩ în serie cu
+sursa de tensiune, să aibă o cădere de tensiune de 32.4 V (45 V,
+tensiunea sursei - 12.6 V, căderea de tensiune pe diodă), acesta va
+trebui să conducă un curent de 32.4 mA. Acest lucru înseamnă ca prin
+dioda zener va trece un curent de 7.2 mA.
+
+Să considerăm acum al doilea circuit de stabilizare a tensiunii cu un
+rezistor de 100 kΩ, alimentând aceeiaşi sarcină de 500 Ω. Ceea ce ar
+trebui să facă acest circuit, este să menţină o cădere de tensiune de
+12.6 V la bornele sarcini, la fel ca în circuitul precedent. Dar, după
+cum putem vedea, circuitul stabilizator /nu poate/ realiza acest lucru:
+
+#+CAPTION: (a) stabilizator de tensiune cu diodă zener şi un rezistor de
+100 kΩ în serie; conectarea unei sarcini de 500 Ω în paralel cu dioda
+zener [[../poze/03292.png]]
+
+Datorită prezenţei rezistorului foarte mare în serie cu sursa de
+tensiune, pe sarcină va exista o cădere de tensiune de doar 224 mV, mult
+mai puţin decât valoarea dorită de 12.6 V. De ce se întâmplă acest
+lucru? Dacă am fi să avem 12.6 V pe sarcină, curentul prin sarcină ar fi
+de 25.2 mA, la fel ca înainte. Acest curent de sarcină ar trebui să
+treacă şi prin rezistorul serie de valoare mult mai mare faţă de cazul
+precedent, iar căderea de tensiune necesară pentru susţinerea unui asfel
+de curent de 25.2 mA ar trebui să fie de 2.520 V! Din moment ce nu avem
+o tensiune aşa de mare la bornele sursei de alimentare, acest lucru nu
+este posibil. De asemenea, putem observa, că în circuitul de mai sus
+dioda este blocată.
+
+Putem înţelege mai uşor situaţia de mai sus dacă îndepărtăm temporar
+dioda zener din circuit şi analizăm doar comportamentul celor doi
+rezistori:
+
+#+CAPTION: (a) stabilizator de tensiune cu diodă zener şi un rezistor de
+100 kΩ în serie; conectarea unei sarcini de 500 Ω în paralel cu dioda
+zener; îndepărtarea temporară a diodei zener [[../poze/03293.png]]
+
+Circuitul stabilizator cu rezistorul de 100 kΩ are totuşi o anumită
+valoare a rezistenţei sarcinii pentru care tensiunea la bornele sale
+este de 12.6 V. Putem afla această valoare făcând un mic calcul.
+Introducem toate valorile cunoscute într-un tabel, de forma celui de mai
+jos:
+
+#+CAPTION: tabel [[../poze/13051.png]]
+
+Căderea de tensiune pe rezistorul serie de 100 kΩ este diferenţa
+căderilor de tensiune dintre sursă (coloana total) şi sarcină:
+
+#+CAPTION: tabel [[../poze/13052.png]]
+
+Putem calcula curentul prin rezistorul serie folosind legea lui Ohm (I =
+E/R):
+
+#+CAPTION: tabel [[../poze/13053.png]]
+
+Fiind un circuit serie, curentul este acelaşi prin toate componentele:
+
+#+CAPTION: tabel [[../poze/13054.png]]
+
+Putem acum calcula rezistenţa sarcinii folosind legea lui Ohm (R = E/I):
+
+#+CAPTION: tabel [[../poze/13055.png]]
+
+Prin urmare, dacă rezistenţa sarcini este exact 38.889 kΩ, vom avea o
+cădere de tensiune de 12.6 V la bornele sale, cu sau fără diodă. Orice
+rezistenţa de sarcină mai mică decât această valoare va duce la o cădere
+de tensiune mai mică de 12.6 V, cu sau fără diodă. Dacă inserăm şi dioda
+zener conform configuraţiei iniţiale, căderea de tensiune maximă pe
+sarcină va fi /stabilizată/ la o valoare maximă de 12.6 V pentru oricare
+sarcină /mai mare/ decât 38.889 kΩ.
+
+Cu valoarea iniţială a rezistorului serie de 1 kΩ, circuitul putea să
+stabilizeze tensiunea chiar şi pentru o sarcină mult mai mică, de 500 Ω.
+Ceea ce vedem este un compromis între puterea disipată şi valoarea
+acceptabilă a sarcinii. Cu cât rezistorul serie este mai mare şi puterea
+disipată este mai mică, cu atât valoarea minimă a rezistenţei sarcinii
+trebuie să fie mai mare. Dacă vrem să stabilizăm tensiunea pentru o
+sarcină mică (rezistenţă mică), circuitul trebuie asfel conceput încât
+să suporte puteri mari de disipaţie.
+
+*** Circuit limitator cu diode zener
+
+Un circuit limitator ce „taie” vârfurile formei de undă aproximativ la
+tensiunea zener a diodelor, este prezentat în figura de mai jos.
+Circuitul este format din două ziode zenere conectate spate-în-spate.
+Rolul rezistorului este de limitare a curentului prin diode, pentru
+protecţia acestora:
+
+#+CAPTION: circuit limitator cu diode zener [[../poze/03445.png]]
+
+Tensiunea de străpungere pentru cele două diode este fixată la 10 V.
+Acest lucru duce la tăierea formei de undă la aproximativ 10 V. Diodele,
+puse spate-în-spate, taie ambele vârfuri. Pentru semialternanţa
+pozitivă, dioda de sus este polarizată invers. Caderea de tensiune pe
+dioda de jos este 0.7 V, fiind polarizată direct. Asfel, tăierea exactă
+a formei de undă se realizează în jurul valorii de 10.7 V. Acelaşi lucru
+este valabil şi pentru semialternanţa negativă (-10.7 V):
+
+#+CAPTION: circuit limitator cu diode zener; formele de undă a tensiunii
+de alimentare şi a tensiunii de ieşire [[../poze/23034.png]]
+
+Sumar:
+
+-  Diodele zener sunt proiectate să funcţioneze polarizate invers.
+   Tensiunea la care aceste diode încep să conducă este denumită
+   /tensiune zener/
+-  Dioda zener poate funcţiona pe post de stabilizator de tensiune
+

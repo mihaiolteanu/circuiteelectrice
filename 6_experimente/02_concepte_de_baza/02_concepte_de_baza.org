@@ -1,0 +1,907 @@
+* 1. Măsurarea tensiunii
+
+** Multimetrul analogic şi digital
+
+Multimetrul este un instrument electric cu ajutorul căruia se poate
+măsura tensiunea, curentul şi rezistenţa. Multimetrele digitale dispun
+de afişaje digitale, precum ceasurile digitale, pentru indicarea acestor
+mărimi. Multimetrele analogice indică mărimile de mai sus prin
+intermediul unui ac indicator în lungul unei scale gradate.
+
+#+CAPTION: multimetru analogic şi digital [[../poze/05035.png]]
+
+Multimetrele analogice sunt de obicei mai ieftine decât variantele
+digitale. De asemenea, ele sunt mult mai utile pentru începători, ca şi
+instrument de învăţare. Dacă aveţi posibilitatea, cumpăraţi un
+multimetru analogic înainte de a achiziţiona unul digital. Până la urmă,
+ar fi bine să posedaţi ambele tipuri de aparate pentru realizarea
+acestor experimente.
+
+** Scopul experimentului
+
+În toate experimentele prezentate în această carte vom folosi un anumit
+echipament de test pentru determinarea unor aspecte ale electricităţii
+ce nu le putem vedea, simţi, auzi, gusta sau mirosi direct.
+Electricitatea, cel puţin în cantităţi mici, nu poate fi sesizată de
+corpul uman. Din acest motiv, cel mai important „ochi” din domeniul
+electricităţii şi al electronicii pe care îl veţi folosi va fi
+multimetrul. În acest experiment aşadar, ne vom familiariza cu măsurarea
+tensiunii.
+
+Multimetrul pe care l-aţi achiziţionat are mai mult ca sigur nişte
+instrucţiuni de bază. Citiţi-le cu atenţie înainte de al utiliza! Dacă
+multimetrul este digital, va necesita o baterie pentru funcţionare. Dacă
+este analogic, nu aveţi nevoie de o baterie pentru funcţionarea lui.
+
+Unele multimetre digitale au o ajustare automată. Un astfel de
+instrument are doar câteva poziţii pe care le putem selecta. Cele cu
+ajustare manuală au mai multe poziţii pentru fiecare mărime de bază:
+câteva poziţii pentru tensiune, câteva pentru curent şi câteva pentru
+rezistenţă. Auto-ajustarea este domeniul aparatelor de măsură mai
+scumpe, fiind analoage maşinilor cu schimbător automat. Un astfel de
+aparat de măsură „schimbă vitezele” automat pentru indentificarea celui
+mai bun domeniu de măsură în cazul fiecărei măsurători.
+
+** Bateria electrică
+
+Poziţionaţi selectorul multimetrului vostru pe poziţia de curent
+continuu (DC), pe cea mai mare valoare disponibilă. În această situaţie,
+multimetrul îndeplineşte funcţia de voltmetru. Aduceţi sonda roşie în
+contact cu borna pozitivă (+) a bateriei, iar sonda neagră cu borna
+negativă (-). Aparatul de măsură ar trebui acum să vă indice o anumită
+valoare. Inversaţi contactele (poziţia sondelor) între ele dacă
+indicaţia aparatului de măsură este negativă. În cazul unui multimetru
+analogic, o valoare negativă este observată prin deplasarea acului
+indicator în stânga, şi nu în dreapta.
+
+#+CAPTION: [[../poze/05036-1.png]]
+
+Dacă aveţi un multimetru manual, iar selectorul a fost pus pe cea mai
+mare valoare, indicaţia acestuia va fi slabă. Deplasaţi selectorul la
+următorul nivel inferior, şi reconectaţi bateria. Indicaţia ar trebui să
+fie mai puternică acum. Pentru obţinerea celor mai bune rezultate,
+mutaţi selectorul pe valoarea cea mai mică, dar astfel încât să nu
+depăşiţi scara de măsură a aparatului. Un multimetru digital va indica o
+astfel de „abatare” prin notaţia „OL” sau o serie de linii întrerupte,
+în funcţie de model. Măsuraţi mai multe tipuri de bateri pentru a vă
+obişnui cu selectarea poziţiilor optime.
+
+Ce se întâmplă dacă atingeţi doar o sondă la un singur capăt al
+bateriei? Cum ar trebui să conectăm aparatul de măsură la bornele
+bateriei pentru a obţine o indicaţie? Ce ne spune acest lucru despre
+utilizarea voltmetrului şi despre natura tensiunii? Există tensiune
+într-un singur punct?
+
+** Măsurarea căderii de tensiune produsă de un LED
+
+Luaţi din nou multimetrul, şi poziţionaţi selectorul pe cea mai mică
+valoare (DC). Atingeţi cu cele două sonde terminalii unui LED. Un LED,
+este un dispozitiv proiectat astfel încât să producă lumină la trecerea
+unui curent foarte mic prin el. Dar LED-urile pot şi să /genereze/ o
+tensiune de curent continuu când sunt expuse la lumină, asemănător unei
+celule solare. Îndreptaţi LED-ul spre o sursă puternică de lumină, cu
+multimetrul conectat la bornele acestuia. Observaţi indicaţia aparatului
+de măsură:
+
+#+CAPTION: multimetru şi LED [[../poze/05037.png]]
+
+Bateriile generează tensiune electrică prin intermediul reacţiilor
+chimice. Când o baterie „moare”, acest lucru înseamnă de fapt că
+resursele sale chimice s-au terminat. Un LED, pe de altă parte, nu se
+bazează pe o formă de energie internă pentru generarea tensiunii
+electrice. Acesta /transformă/ energia optică în energie electrică.
+Atâtă timp cât va exista o sursă de lumină întreptată asupra acestuia,
+LED-ul va produce tensiune.
+
+** Generatorul electric
+
+O altă sursă potenţială de tensiune electrică prin transformarea
+energiei este generatorul. Luaţi un motor mic de curent continuu. Acesta
+se găseşte de obicei în jucării sau alte dispozitive electrice de mici
+dimensiuni, de unde îl puteţi „împrumuta”, sau îl puteţi cumpăra ca
+atare. Orice motor funcţionează ca şi generator dacă învărtim axul
+acestuia.
+
+Conectaţi voltmetrul vostru la bornele motorului, la fel ca în cazul
+LED-ului sau al bateriei. Învârţiţi axul motorului cu mână. Aparatul de
+măsură ar trebui să indice o cădere de tensiune. Dacă nu puteţi ţine
+ambele sonde pe bornele bateriei, puteţi folosi terminali tip crocodil,
+astfel:
+
+#+CAPTION: multimetru şi motor electric [[../poze/05038.png]]
+
+Puteţi determina relaţia dintre tensiune şi viteza de rotaţie a axului?
+Ce se întâmplă cu indicaţia voltmetrului dacă măriţi viteza acestuia?
+Inversaţi apoi direcţia de rotaţie. Rezultatul este schimbarea
+polarităţii căderii de tensiune create de generator. Voltmetrul indică
+polaritatea prin intermediul direcţiei acului indicator (stânga sau
+dreapta, aparat analog) sau prin semn (plus sau minus, aparat digital).
+
+Când sonda roşie este pozitivă (+) iar cea neagră negativă (-),
+voltmetrul va indica „direcţia” normală a căderii de tensiune. Dacă
+polaritatea tensiunii aplicate este inversă (negativ pe sonda roşie şi
+pozitiv pe cea neagră), indicaţia aparatului de măsură va fi „inversă”.
+
+* 2. Măsurarea rezistenţei
+
+** Scopul experimentului
+
+Experimentul următor descrie modul în care putem măsura rezistenţa unor
+obiecte. Nu trebuie neapărat să aveţi toate obiectele descrise mai jos
+pentru a învăţa efectiv despre rezistenţa. De asemenea, puteţi încerca
+şi cu alte obiecte. Totuşi, nu măsuraţi /niciodată/ rezistenţa unui
+obiect sau circuit alimentat (aflat în funcţionare). Cu alte cuvinte,
+/nu/ încercaţi să măsuraţi rezistenţa unei baterii sau a oricărei surse
+substanţiale de tensiune folosind un multimetru setat pe funcţia
+„rezistenţă” (Ω). Neluarea în considerare a acestei atenţionări va duce
+cel mai posibil la distrugerea aparatului de măsură şi eventual la
+rănirea personală.
+
+** Exemplificare conceptului de puncte electric comune
+
+Setaţi multimetrul pe funcţia „Ω”, pe cea mai mare valoare disponibilă.
+În această situaţie, multimetrul îndeplineşte funcţia de ohmmetru.
+Atingeţi cele două sonde (neagră şi roşie) una de celalaltă. În acest
+caz, ohmmetrul ar trebui să indice o rezistenţă de 0 Ω. Dacă folosiţi în
+schimb un multimetru analogic, veţi observa o deplasare maximă a acului
+indicator în partea dreaptă.
+
+Multimetrul poate fi folosit şi pentru detectarea stării de continuitate
+a circuitului, nu doar pentru măsurarea efectivă a valorilor rezistive.
+Putem testa, de exemplu, continuitatea unui fir electric prin conectarea
+celor două sonde la capetele acestuia. Ce se întâmplă cu indicaţia
+aparatului de măsură în acest caz? Ce putem spune despre un astfel de
+conductor electric dacă acul indicator al ohmmetrului nu s-ar deplasa
+deloc?
+
+De menţionat, că multimetrele digitale, setate pe ohmmetru, indică lipsa
+continuităţii electrice dintr-un conductor sau component printr-un
+afişaj non-numeric. Unele model afişează „OL” (din engleză, Open Loop -
+circuit deschis), iar altele o serie de linii întrerupte.
+
+Folosiţi multimetrul vostru pentru a determina continuitatea unei plăci
+electronice de test: un dispozitiv utilizat pentru construirea temporară
+a circuitelor. Folosiţi conductori subţiri de cupru, inseraţi în
+locurile libere de pe placă, pentru a putea conecta sondele aparatului
+de măsură la placă. Testaţi continuitatea lor.
+
+#+CAPTION: măsurarea continuităţii unei plăci electronice de test
+[[../poze/05041.png]] #+CAPTION: măsurarea continuităţii unei plăci
+electronice de test [[../poze/05042.png]]
+
+Un concept foarte important în teoria electricităţii, strâns legat de
+cel al continuităţii, este cel al punctelor comune din punct de vedere
+electric. Punctele electrice comune, sunt puncte de contact dintr-un
+circuit sau dispozitiv, ce posedă o rezisenţă electric neglijabilă
+(extrem de mică) între ele.
+
+Putem spune, prin urmare, conform experimentului de mai sus, că punctele
+verticale de o placă de test sunt comune din punct de vedere electric.
+Acest lucru se datorează faptului că există continuitate electrică între
+ele. Asemanător, punctele orizontale nu sunt electric comune, deoarece
+nu există continuitate electrică între ele.
+
+Acest concept, de puncte comune, este foarte important de stăpânit.
+Motivul constă în faptul că exista câteva aspecte legate de tensiune ce
+au legătură directă cu acest concept, şi sunt foarte importante pentru
+analiza circuitelor şi depanarea lor. De exemplu, între două puncte
+electric comune, nu va exista niciodată o cădere de tensiune
+(substanţială).
+
+** Măsurarea unui rezistor
+
+Alegeţi, de exemplu, un rezistor de 10 kΩ dintr trusa voastră. Valoarea
+rezistenţei este indicată printr-o serie de bezi colorate: maro, negru,
+portocaliu şi încă o culoare reprezentând precizia rezistorului: auriu
+(+/- 5%) sau argintiu (+/- 10%). Se consideră că rezistorii fără culoare
+de precizie au de fapt o precizie de +/- 20%. Alţi rezistori pot avea
+cinci bezi colorate pentru indicarea valorii şi a preciziei. În acest
+caz, culorile pentru un rezistor de 10 kΩ (10.000 Ω) vor fi: maro,
+negru, negru, roşu si o culoare de precizie.
+
+Conectaţi sondele aparatului de măsură la terminalii (bornele)
+rezistorului conform figurii de mai jos, şi observaţi afişajul
+aparatului:
+
+#+CAPTION: măsurarea unui rezistor [[../poze/05040.png]]
+
+Dacă acul indicator se află foarte aproape de valoare de zero, va trebui
+să alegeţi o altă scară de măsură (mai mică), la fel ca în cazul
+măsurării unei tensiuni.
+
+Dacă folosiţi un multimetru digital, ar trebui să vedeţi o cifră foarte
+aproape de 10 pe afişaj, şi un semn „k” mic în partea dreaptă. Acesta
+semnifică prefixul „kilo”, sau 1.000. Asemănător, încercaţi diferite
+scări de măsură prin intermediul selectorului, pentru a vedea care
+dintre ele oferă cea mai bună indicaţie.
+
+Inversaţi acum sondele ohmmetrului între ele. Se modifică în acest caz
+indicaţia aparatului de măsură în vreun fel? Ce ne spune acest lucru
+despre rezistenţa unui rezistor? Ce se întâmplă dacă conectăm doar o
+singură sondă la unul dintre terminalii rezistorului? Ce ne spune acest
+lucru despre natura rezistenţei şi despre felul în care este ea
+măsurată? Cum se compară aceste rezultate cu rezultatele obţinute la
+măsurarea tensiunii?
+
+În timp ce realizaţi măsurătoarea propriu-zisă, încercaţi să nu atingeţi
+ambele sonde cu degetele. Dacă faceţi acest lucru, veţi măsura în
+realitate combinaţia paralelă dintre rezistor şi corp. Acest lucru
+determină o indicaţie mai mică a ohmmetrului decât ar trebui în mod
+normal. Pentru măsurarea unei rezistenţe de 10 kΩ, eroarea va fi minimă,
+dar s-ar putea să fie mult mai mare dacă măsurăm alţi rezistori.
+Încercaţi acest lucru dacă dispuneţi de mai mulţi rezistori, de mărimi
+şi precizii diferite.
+
+** Măsurarea rezistenţei corpului
+
+Puteţi măsură în siguranţa rezistenţa propriului vostru corp. Ţineţi
+vârful uneia dintre sonde între degetele de la mâna, iar sonda cealaltă
+cu degetele de la cealaltă mână. Ţineţi vârful sondelor în lungime, şi
+nu le prindeti exact de vârf. Observaţi indicaţia ohmmetrului. Corpul
+are de obicei o rezistenţa mai mare de 10.000 de ohmi între cele două
+mâini. Ar trebui să obţineţi o valoare aproximativ egală cu aceasta.
+
+Umeziţi-vă degetele cu apă, şi remăsuraţi rezistenţa corpului cu
+ohmmetrul. Ce impact are acest lucru asupra indicaţiei aparatului.
+Umeziţi-vă apoi degetele în apa sărată şi remăsuraţi rezistenţa. Ce
+impact are acest lucru asupra rezistenţei corpului vostru?
+
+Rezistenţa electrică este frecarea întâmpinată de electroni pe măsură ce
+aceştia se deplasează printr-un obiect. Cu cât rezistenţa dintre două
+puncte este mai mare, cu atât deplasarea electronilor între acele două
+puncte este mai dificilă. Cunoscând faptul că electrocutarea este
+cauzată de o deplasarea importantă de electroni prin corpului victimei,
+o creştere a rezistenţei corpului este o măsură excelentă de prevenire a
+accidentelor neplăcute.
+
+** Măsurarea rezistenţei diodei
+
+Măsuraţi rezistenţa unei diode cu un ohmmetru. Încercaţi să inversaţi
+modul de conectare al sondelor pe terminalii diodei şi remăsuraţi
+rezistenţa. Care este diferenţa dintre diodă şi rezistenţa din acest
+punct de vedere?
+
+** Măsurarea rezistenţei grafitului
+
+Luaţi o foaie de hârtie şi trasaţi o linie groasă cu un creion (nu cu
+pix!). Măsuraţi rezistenţa liniei cu ajutorul ohmmetrului, poziţionând
+sondele la capătului liniei astfel:
+
+#+CAPTION: măsurarea rezistenţei grafitului [[../poze/05043.png]]
+
+Aduceţi vârful sondelor mai aproape una de celaltă, dar menţinând
+contactul cu linia. Ce se întâmplă cu rezistenţa în acest caz, creşte
+sau scade? Dacă rezultatele sunt incompatibile, va trebui să retrasaţi
+linia, astfel încât densitatea ei să fie consistentă. Ce vă spune acest
+lucru despre legătura dintre rezistenţăşi lungimea unui material
+conductor?
+
+** Masurarea rezistenţei unei celule fotovoltaice
+
+Conectaţi sondele aparatului de măsură la bornele unei celule
+fotovoltaice de. Măsuraţi varianţia rezistenţei datorată diferitelor
+expuneri la lumină. Asemănător experimentului cu LED, este indicat să
+folosiţi conductori cu crocodili pentru realizarea conexiuni
+componentului. În acest fel, puteţi ţine celula fotovoltaică în
+apropierea unei surse de lumină şi schimba în acelaşi timp scara
+aparatului:
+
+#+CAPTION: măsurarea rezistenţei unei celule fotovoltaice
+[[../poze/05044.png]]
+
+Experimentăţi cu măsurarea rezistenţei diferitelor tipuri de materiale.
+Aveţi însă grijă să nu folosiţi ohmmetrul pe un component aflat sub
+tensiune, precum o baterie, de exemplu. Puteţi măsură rezistenţa
+următoarelor materiale, de exemplu: plastic, lemn, metal, apă curată,
+apă murdară, apă sărată, sticlă, diamant (de pe un inel), hârtie,
+cauciuc şi hârtie.
+
+Sumar:
+
+-  
+-  
+
+* 3. Realizarea unui circuit simplu
+
+** Scopul experimentului
+
+În cele ce urmează vom realiza un circuit simplu, format dintr-un bec şi
+o baterie, precum cel prezentat în figura de mai jos:
+
+#+CAPTION: circuit electric rezitiv simplu [[../poze/05045.png]]
+
+Practic, circuitul nostru va arăta astfel:
+
+#+CAPTION: circuit electric rezitiv simplu [[../poze/05046.png]]
+
+Acesta reprezintă de fapt cel mai simplu circuit pe care îl vom studia
+în întreg volumul: o baterie şi un bec. Conectaţi becul la baterie,
+conform figurii de mai sus. Acesta ar trebui sa se aprindă în cazul în
+care ambele se află în stare de funcţionare, iar tensiunea bateriei este
+suficientă pentru a-l aprinde.
+
+În cazul în care există o discontinuitate (circuit deschis), indiferent
+în ce parte a circuitului, becul nu se va aprinde. /Nu/ contează locul
+apariţiei unei astfel de discontinuităţi. Experimentaţi cu scenariile
+prezentate mai jos ca să vă convingeţi de acest lucru:
+
+#+CAPTION: discontinuitatea unui circuit electric [[../poze/05047.png]]
+#+CAPTION: discontinuitatea unui circuit electric [[../poze/05048.png]]
+#+CAPTION: discontinuitatea unui circuit electric [[../poze/05049.png]]
+#+CAPTION: discontinuitatea unui circuit electric [[../poze/05050.png]]
+
+** Desfăşurarea experimentului
+
+Folosind multimetrul setat pe poziţia DC, măsuraţi căderea de tensiune
+la bornele bateriei, la bornele becului şi la capetele firului de
+scurt-circuit. Familiarizaţi-vă cu valorile normale ale tensiuni într-un
+cirucit aflat în funcţionare.
+
+Acum, întrerupeţi circuitul şi remăsuraţi tensiune între aceleaşi seturi
+de puncte. Opţional, măsuraţi tensinea în locul întreruperii
+circuitului, astfel:
+
+#+CAPTION: discontinuitatea unui circuit electric [[../poze/05051.png]]
+
+Ce tensiuni sunt similare tensiunilor de dinainte? Ce tensiuni sunt
+diferite după introducerea întreruperii? Ce cantitate de tensiune se
+regăseşte la locul întreruperii? Care este polaritatea căderii de
+tensiune de la locul întreruperii, indicată de aparatul de măsură?
+
+Refaceţi circuitul prin reconectarea bateriei la bec, şi întrerupeţi
+circuitul în alt loc. Măsuraţi din nou căderile de tensine.
+Familiarizaţi-va cu valorile tensiunilor într-un circuit deschis.
+
+Realizaţi acelaşi circuit pe o placă de test. Aveţi grijă să introduceţi
+becul şi firele pe placă astfel încât să există contact între ele
+(continuitatea circuitului). Exemplul de mai jos este doar un exemplu,
+şi nu reprezintă singura modalitate de realizare a unui circuit pe
+placă:
+
+#+CAPTION: circuit electric pe o placă de test [[../poze/05052.png]]
+
+Experimentaţi cu diferite configuraţii ale circuitului pe placa de test.
+Dacă întâmpinaţi o situaţie în care becul nu se aprinde, iar firele
+conductoare se încălzesc, aveţi probabil de a face cu un scurt-circuit.
+Cu alte cuvinte, există un drum cu o rezistenţă mai mică decât a
+becului. Curentul va „prefera” acest drum în detrimentul becului. Să
+vedem un astfel de exemplu:
+
+#+CAPTION: circuit electric pe o placă de test; scurt-circuit
+[[../poze/05053.png]]
+
+Şi un exemplu tipic de scurt-circuit /accidental/ realizat de obicei de
+cei care nu sunt familiarizaţi încă cu folosirea plăcii de test:
+
+#+CAPTION: circuit electric pe o placă de test; scurt-circuit
+[[../poze/05054.png]]
+
+Vă daţi seama de unde rezultă scurt-circuitul? Astfel de scenarii
+trebuie însă evitate cu orice preţ, întrucât scurt-circuitele pot duce
+la distrugeri materiale şi vătămări corporale.
+
+Puteţi de asemenea realiza circuitul de mai sus folosindu-vă de o
+regletă de borne:
+
+#+CAPTION: circuit electric pe o regletă de borne [[../poze/05055.png]]
+
+Sumar:
+
+-  
+-  
+
+* 4. Măsurarea curentului
+
+** Scopul experimentului
+
+Următorul experiment are ca principal scop realizarea şi înţelegearea
+circuitului de mai jos:
+
+#+CAPTION: circuit electric simplu [[../poze/05056.png]]
+
+Practic, circuitul de mai sus arată astfel:
+
+#+CAPTION: circuit electric simplu [[../poze/05057.png]]
+
+** Atenţie la scurt-circuitarea accidentală a ampermetrului
+
+Cea mai uitilizată metodă de măsurare a curentului constă în
+întreruperea circuitului şi introducerea unui ampermetru în serie cu
+circuitul. În acest fel toţi electroni ce trec prin circuitu, vor trebui
+să treacă şi prin ampermetru. Deoarece măsurarea curentului în acest fel
+necesită introducerea aparatului de măsură în circuit, acest tip de
+măsurătoare este mai dificilă decât măsurarea tensiunii sau a
+rezistenţei.
+
+Unele multimetre digitale, precum cel din figură, sunt prevăzute cu un
+conector separat pentru măsurarea curentului. Introduceţi sonda roşie în
+acest conector, marcat cu „A”.
+
+În mod ideal, la bornele unui ampermetrului introdus în serie într-un
+circuit, nu va exista cădere de tensiune. Cu alte cuvinte, acesta se
+comportă precum un fir conductor, prezentând o rezistenţa foarte mică de
+la un capăt la celălalt. Prin urmare, un ampermetru se va comporta
+precum un scurt-circuit dacă este conectat în paralel cu o sursă
+substanţială de tensiune. Nu încercaţi totuşi să faceţi acest lucru.
+Curentul foarte mare rezultat poate duce la distrugerea aparatului:
+
+#+CAPTION: scurt-circuitarea ampermetrului [[../poze/05058.png]]
+
+Ampermetrele sunt de obicei protejate împotriva unor astfel de scenarii
+prin intermediul unei siguranţe fuzibile localizate în interiorul
+carcasei. Încercaţi însă să evitaţi astfel de scenarii.
+
+Puteţi verifica starea siguranţei fuzibile interne a multimetrului
+trecând pe „Ω” (măsurare rezistenţe), şi măsurând continuitatea între
+cele două sonde (şi prin siguranţa fuzibilă), astfel:
+
+#+CAPTION: circuit electric simplu [[../poze/05059.png]]
+
+** Desfăşurarea experimentului
+
+Realizaţi circuitul de mai sus constând dintr-o baterie şi un bec
+folosindu-vă de fire conductoare adiţionale. Utilizaţi aceste fire
+pentru conectarea becului la baterie. Verificaţi dacă becul se aprinde
+înainte de a conecta şi ampermetrul în circuit. Întrerupeţi apoi
+circuitul într-un anumit punct, şi conectaţi ampermetrul între cele două
+puncte rămase libere după deschiderea curentului, Măsuraţi valoarea
+curentului.
+
+Ca de obicei, daca aparatul de măsură pe care îl folosiţi este manual,
+selectaţi la început valoarea cea mai mare a scalei. Mutaţi selectorul
+pe poziţii mai joase până când obţineţi cea mai precisă măsurătoare,
+având grijă să nu depăşiţi scare. Dacă indicaţia este „inversă” (acul
+indicator deplasat în stânga, sau o valoare negativă pe afişaj),
+inversaţi sondele între ele şi încercaţi din nou. Când ampermetrul
+indică o citire normală (nu inversă), electronii intră prin sonda neagră
+şi ies prin sonda roşie. Acesta este modul de determinare al direcţiei
+curentului folosind un aparat de măsură.
+
+Pentru o baterie de 6 V şi un bec mic, curentul prin circuit este de
+ordinul miliamperilor (mA). Multimetrele digitale arată de obicei acest
+lucru printr-un mic „m” în partea dreaptă a afişajului.
+
+Încercaţi să întrerupeţi circuitul în alt punct, şi conectaţi
+ampermetrul între acele puncte. Ce puteţi spune despre valoarea
+curentului? De ce credeţi că se întâmplă acest lucru?
+
+Refaceţi circuitul pe o placă de test, astfel:
+
+#+CAPTION: circuit electric pe placa de test [[../poze/05052.png]]
+
+Este foarte posibil ca în acest moment să nu vă daţi seama cum aţi putea
+conecta un ampermetru la o placă de test. Cum putem conecta ampermetrul
+pentru a măsura întreaga cantitate de curent şi a nu crea un
+scurt-circuit. Realizaţi circuitul de mai jos:
+
+#+CAPTION: circuit electric pe placa de test [[../poze/05060.png]]
+
+Din nou, măsuraţi valoarea curentului prin diferite fire ale acestui
+circuit. Urmaţi aceleaşi metode precum cele de mai sus. Ce observaţi în
+legătură cu aceste măsurători? Rezultatele măsurătorilor realizate pe
+placa de test ar trebui să fie identice cu rezultate obţinute fără placa
+de test, din exemplul precedent.
+
+Dacă ar fi să construim circuitul de mai sus pe o regletă de borne,
+rezultatul ar fi similar:
+
+#+CAPTION: circuit electric pe regleta de borne [[../poze/05061.png]]
+
+Sumar:
+
+-  
+-  
+
+* 5. Legea lui Ohm (experiment)
+
+** Scopul experimentului
+
+În acest experiment vom încerca să ilustrăm „funcţionarea” legii lui
+Ohm, construind circuitul de mai jos:
+
+#+CAPTION: circuit electric simplu [[../poze/05062.png]]
+
+Practic, circuitul va arăta astfel:
+
+#+CAPTION: circuit electric simplu [[../poze/05063.png]]
+
+** Desfăşurarea experimentului
+
+Alegeţi un rezistor din trusa voastră. Măsuraţi rezistenţa lui cu
+ajutorul multimetrului. Notaţi-vă rezultatul pentru a-l putea folosi pe
+viitor.
+
+Construiţi un circuit format dintr-o baterie şi un rezistor. În figură,
+circuitul este realizat cu ajutorul unei reglete de borne, dar orice
+mijloc de realizare a circuitului este la fel de bun. Setaţi multimetrul
+pe scara de tensiune apropiată şi măsuraţi căderea de tensiune la
+bornele rezistorului în timp ce este alimentat de la baterie. Notaţi-vă
+acest rezultat pentru a-l putea folosit mai departe, alături de valoarea
+rezistenţei de mai sus.
+
+Poziţionaţi selectorul multimetrului pe cea mai mare scară de curent
+disponibilă. Deschideţi circuitul şi conectaţi ampermetrul între cele
+două puncte libere. Ampermetrul va fi acum în serie cu bateria şi
+rezistorul. Selectaţi cea mai bună scară de tensiune: cea care dă cea
+mai precisă indicaţie a curentului, fără a depăşi scara. Notăţi şi
+această valoare a curentului alături de valoarea rezistenţei şi a
+tensiunii.
+
+Luaţi valorile pentru tensiune şi rezistenţa măsurate mai sus şi
+aplicaţi legea lui Ohm pentru a determina valoarea curentului din
+circuit. Comparaţi valoarea astfel calculată cu valoarea măsurată cu
+ajutorul multimetrului:
+
+I = E / R
+
+unde, E = tensiunea în volţi I = curentul în amperi R = rezistenţa în
+ohmi
+
+Asemănător, luaţi valorile măsurate pentru tensiune şi curent şi
+aplicaţi legea lui Ohm pentru calcularea rezistenţei circuitului.
+Comparaţi valoarea obţinută cu cea măsurată cu ajutorul multimetrului:
+
+R = E / I
+
+Şi, în sfârşit, luaţi valorile măsurate mai sus pentru rezistenţa şi
+curent şi aplicaţi legea lui Ohm pentru calcularea tensiunii
+circuitului. Comparati valoarea calculată cu cea măsurată:
+
+E = IR
+
+Rezultatele obţinute prin măsurări şi prin calcul ar trebui să fie
+foarte apropiate, pentru toate cele trei situaţii. Orice diferenţă între
+respectivele valori ale tensiunii, curentului sau rezistenţei se
+datorează mai mult ca sigur erorilor aparatului de măsură. Totuşi,
+aceste diferenţe ar trebui să fie mici, cel mult câteva procente.
+Desigur, unele aparate de măsură sunt mai precise decât altele.
+
+Înlocuiţi rezistorul din circuitu cu alţi rezistori de mărimi diferite.
+Refaceţi măsurătorile de rezistenţă, tensiune şi curent. Refaceţi apoi
+calculele pentru aceste mărimi (cei trei paşi de mai sus). Observaţi
+relaţia matematică simplă dintre variaţia rezistenţei şi variaţia
+curentului din circuit. Tensiunea ar trebui însă să rămână aproximativ
+egală pentru oricare din rezistorii introduşi în circuit, deoarece
+acesta este rolul unei baterii: să menţină o cădere de tensiune
+constantă între bornele sale.
+
+Sumar:
+
+-  
+-  
+
+* 6. Rezistenţa non-liniară
+
+** Scopul experimentului
+
+Vom încerca în cele ce urmează să arătăm că, în unele cazuri, valoarea
+rezistenţei nu este constantă. Pentru soluţionarea „misterului”
+variaţiei rezistenţei, vom face apel la „metoda ştiinţifică”. Pe
+parcurs, vom realiza circuitul de mai jos:
+
+#+CAPTION: circuit electric simplu [[../poze/05064.png]]
+
+Practic, circuitul de mai sus va arăta astfel:
+
+#+CAPTION: circuit electric simplu [[../poze/05065.png]]
+
+** Desfăşurarea experimentului
+
+Măsuraţi rezistenţa becului cu ajutorul multimetrului. Valoarea acestei
+rezistenţe se datorează filamentului subţire din interiorul becului.
+Rezistenţa acestuia este semnificativ mai mare decât rezistenţa unui
+conductor normal, dar mai mică decât a oricărui rezistor din
+experimentele precedente. Notaţi-vă această valoare a rezistenţei pentru
+utilizarea ei ulterioară.
+
+Construiţi un circuit format dintr-o baterie şi un bec. Selectaţi o
+scară de tensiune apropiată şi măsuraţi căderea de tensiune la bornele
+becului când acesta este alimentat (aprins). Notaţi-vă şi această
+valoare, lângă cea a rezistenţei.
+
+Setaţi-vă multimetrul pe cea mai mare scară de curent disponibilă.
+Deschideţi circuitul şi conectaţi ampermetrul între capetele libere ale
+circuitului deschis. Ampermetrul este acum parte din circuit, fiind
+legat în serie cu bateria şi becul. Selectaţi cea mai bună scară de
+curent. Notaţi-vă si această valoare a curentului alături de celelalte
+două valori de mai sus.
+
+Luaţi valorile tensiunii şi rezistenţei obţinute la măsurătorile de mai
+sus şi aplicaţi legea lui Ohm pentru calcularea curentului din circuit.
+Comparaţi această valoare calculată cu valoarea măsurată a curentului
+din circuit:
+
+I = E / R
+
+Ceea ce ar trebui să observaţi este existenţa unei diferenţe între
+curentul măsurat şi cel calculat. Valoarea calculată este mult mai mare.
+De ce se întâmplă acest lucru?
+
+Pentru a face lucrurile şi mai interesante, încercaţi să măsuraţi din
+nou rezistenţa becului, folosind de această dată un alt model de
+multimetru (dacă dispuneţi de unul, desigur). Va trebui să scoateţi
+becul din circuit pentru a putea face o astfel de măsurătoare, deoarece
+tensiunile existente în exteriorul aparatului de măsură afectează
+valorile măsurate ale rezistenţei. Aceasta este o regulă generală pe
+care va trebui să o ţineţi minte: măsuraţi rezistenţa doar după ce
+componentul respectiv nu mai este alimentat cu energie electrică!
+
+Folosind un ohmmetru diferit, valoarea rezistenţei becului va fi
+probabil diferită. Acest comportament este foarte diferit de cel al
+rezistorilor din ultimul experiment. De ce se întâmplă acest lucru? Ce
+anume ar putea influenţa rezistenţa filamentului lămpii, şi care e
+diferenţa dintre cele două condiţii, aprind şi stins? De asemenea, care
+e diferenţa între măsurătorile efectuate cu diferite tipuri de aparate
+de măsură? De ce se întâmplă acest lucru?
+
+Problema de mai sus este un foarte bun exemplu de aplicare a metodei
+ştiinţifice. Dacă aţi găsit un posibil răspuns pentru variaţia
+rezistenţei becului între cele două condiţii, aprins şi stins, încercaţi
+să reproduceţi această scenariul respectiv prin alte mijloace. De
+exemplu, aţi putea presupune că rezistenţa becului variază datorită
+expunerii la lumină (propria ei lumină, când becul este aprins). Această
+variaţie ar putea prin urmare explica variaţia dintre curenţii măsuraţi
+şi cei calculaţi. Dacă acesta este cazul, încercaţi să expuneţi becul la
+o sursă de lumină externă. Măsuraţi apoi rezistenţa acestuia. Dacă
+observaţi o diferenţă substanţială a rezistenţei între cele două
+scenarii, atunci ipoteza voastră s-ar putea să fie adevărată, deoarece
+aţi demonstrat-o experimental. În caz contrar, ipoteza voastră s-a
+dovedit falsă. Acest lucru înseamnă că există o altă cauză pentru
+variaţia rezistenţei. Care este aceasta?
+
+Sumar:
+
+-  
+-  
+
+* 7. Disiparea puterii
+
+** Scopul experimentului
+
+Pentru realizarea acestui experiment, veţi avea nevoie de doi rezistori
+cu o putere de 0,25 W: unul de 10 Ω şi celălalt de 330 Ω. Nu folosiţi o
+baterie mai mare de 6 V. Este indicat ca termometrul utilizat să fie cât
+mai mic cu putinţă, pentru a putea măsura rapid căldura produsă de
+rezistor.
+
+Scopul acestui experiment este familiarizarea cu legea lui Joule,
+importanţa puterii nominale a componentelor precum şi importanţa
+punctelor electric comune. Circuit pe care îl vom realiza este
+următorul:
+
+#+CAPTION: circuit electric simplu [[../poze/05122.png]]
+
+Practic, circuitul va arăta conform figurii de mai jos. Atenţie însă, nu
+ţineţi rezistorul între degete atunci când este alimentat.
+
+#+CAPTION: circuit electric simplu [[../poze/05123.png]]
+
+** Realizarea circuitului şi a măsurătorilor
+
+Măsuraţi valoarea fiecărui rezistor cu ohmmetrul. Notaţi-vă valorile
+obţinute pentru a le putea folosi în viitor.
+
+Conectaţi rezistorul de 330 Ω la bateria de 6 V, precum în figura de mai
+sus. Folosiţi conductori adiţionali. Conectaţi prima dată conductorii de
+legătură la terminalii rezistorului. Conectaţi apoi (şi nu înainte!)
+conductorii la baterie. Putem evita astfel atingerea suprafeţei
+rezistorului atunci când acesta este alimentat.
+
+Poate vă întrebaţi de ce am încerca să evităm contactul cu suprafaţa
+rezistorului când acesta este alimentat. Răspunsul este că acesta se va
+încălzi. Acesta este şi motivul pentru care avem nevoie de un
+termometru, pentru a măsură această temperatură.
+
+Cu rezistorul de 330 Ω conectat la baterie, măsuraţi tensiunea cu
+ajutorul voltmetrului. Putem realiza acest lucru în mai multe feluri.
+Tensiunea poate fi măsurată direct la bornele bateriei, sau direct la
+bornele rezistorului. Tensiunea bateriei este aceiaşi cu tensiunea la
+bornele bateriei în circuitul de faţă. Încercaţi să măsuraţi tensiunea
+în ambele puncte pentru a vă lămuri că acest lucru este adevărat. Acesta
+este un principiu al punctelor electric comune, ceea ce avem şi în
+circuitul de mai jos:
+
+#+CAPTION: circuit electric simplu [[../poze/05124.png]]
+
+** Calcularea puterii disipate
+
+Acum că avem toate datele necesare (rezistenţa, tensiune şi curent),
+putem calcula puterea disipată. Putem folosi oricare dintre cele trei
+relaţii - cunoscute sub numele de „legea lui Joule” - cunoscând cel
+puţin două valori dintre cele trei enumerate mai sus:
+
+P = IE; P = I^{2}R; P = E^{2} / R
+
+Încercaţi să calculaţi puterea disipată în acest circuit, folosindu-vă
+de cele trei valori măsurate mai sus. Indiferent de formula pe care o
+aplicaţii, rezultatul va fi aproximativ acelaşi. Presupunând că avem o
+baterie de 6 V şi un rezistor de 330 Ω, puterea disipată va fi de 0,109
+W, sau 109 mW. Din moment ce puterea nominală a rezistorului
+(specificată de producător) este de 0,25 W sau 250 mW, rezistorul nostru
+poate disipa fără probleme o putere de 109 mW. Fiindcă valoarea efectivă
+a puterii este aproximativ jumătate din puterea nominală, rezistorul se
+va încălzi putin, dar nu se va supra-încălzi. Atingeţi mijlocul
+rezistorului cu vârful termometrului. Care este temperatura acestuia?
+
+Puterea (maximă) nominală (înscrisă pe component sau specificată de
+producător) a unui component electric nu ne spune cantitatea de putere
+ce o va disipa componentul respectiv. Ne spune în schimb, care este
+cantitate de putere ce o poate disipa fără a duce la distrugerea
+acestuia. Dacă puterea efectiv disipată în timpul funcţionării depăşeşte
+puterea nominală a componentului, temperatura acestuia va creşte atât de
+mult încât va duce la distrugerea lui.
+
+Pentru a ilustra cele spuse mai sus, deconectăti rezistorul de 330 Ω.
+Înlocuiţi-l cu un rezistor de 10 Ω. Evitaţi atingerea acestuia după ce
+aţi alimentat circuitul, deoarece se va încălzi repede. Atenţie, ţineţi
+rezistorul de 10 Ω departe de materiale inflamabile de orice fel, atunci
+când este alimentat!
+
+Probabil că nu veţi avea timp suficient să măsuraţi tensiunea şi
+curentul înainte ca rezistorul să scoată fum. Dacă observaţi un astfel
+de comportament, întrerupeţi circuitul şi lăsaţi rezistorul câteva clipe
+pentru a se răci. Măsuraţi apoi rezistenţa acestuia cu ohmmetrul şi
+vedeţi dacă există o variaţie faţă de valoarea iniţială a rezistenţei.
+Dacă valoarea se încadrează încă în limita de +/-5 (între 9,5 şi 10,5
+Ω), reconectaţi-o în circuit şi lăsaţi-o să mai fumege puţin.
+
+Ce se întâmplă cu valoarea rezistenţei pe măsură ce rezistorul se arde
+din ce în ce mai tare? Distrugerea totală a rezistorului duce la o
+valoare a rezistenţei infinită între cei doi terminali.
+
+Realizaţi acum calculele pentru aflarea puterii disipate de rezistorul
+de 10 Ω folosind legile lui Joule. Un rezistor de 10 Ω conectat la o
+baterie de 6 V va disipa o putere de 3,6 W, de 14,4 ori mai mult decât
+puterea nominală a acestuia. Nu e de mirare atunci că „ia foc” aşa de
+repede după conectarea la baterie.
+
+Sumar:
+
+-  
+-  
+
+* 8. Circuit cu înrerupator
+
+** Scopul experimentului
+
+Utilizarea unui întrerupător într-un circuit simplu. Pentru acest
+experiment aveţi nevoie de un întrerupător simplu, mecanic (întrerupător
+de veioză sau de perete, de exemplu). Vom realiza aşadar circuitul de
+mai jos:
+
+#+CAPTION: circuit electric cu întrerupător [[../poze/05066.png]]
+
+Practic, circuitul va arăta astfel:
+
+#+CAPTION: circuit electric cu întrerupător [[../poze/05067.png]]
+
+** Desfăşurarea experimentului
+
+Construiţi circuitul de mai sus format dintr-o baterie, un întrerupător
+şi un bec, precum în figura de mai sus. Acest circuit este cu atât mai
+impresionant cu cât firele conductoare sunt mai lungi, întrucât se poate
+vedea faptul că întrerupătorul poate controla curentul din circuit,
+indiferent de mărimea circuitului.
+
+Măsuraţi tensiunea la bornele bateriei, la bornele întrerupătorului
+(între cele două şuruburi). Masuraţi tensiunea şi la bornele becului, în
+ambele poziţii ale întrerupătorului. Când întrerupătorul este dezactivat
+(becul este stins), spunem că acesta este deschis. La fel ca în
+exemplele precedente, orice întrerupere a circuitului, indiferent de
+locatie, duce la întreruperea curentului prin întreg circuitul.
+Rezultatul este, evident, stingerea becului.
+
+Sumar:
+
+-  
+-  
+
+* 9. Realizarea unui electromagnet
+
+** Scopul experimentului
+
+Aplicarea „regulii mâini stângi” şi realizarea practică a unui
+electromagnet. Veţi avea nevoie de un conductor lung de electromagnet.
+Aceşti conductori nu sunt altceva decât conductori de cupru izolaţi prin
+lăcuire, folosiţi pentru construirea transformatoarelor sau a motoarelor
+electrice. Puteţi obţine un astfel de conductor dintr-un transformator
+(stricat).
+
+Veţi avea de asemenea nevoie de un bolţ, cui sau o bară metalică.
+Atenţie, oţelul inoxidabil nu este magnetic, si prin urmare nu va putea
+fi folosit pe post de miez electromagnetic!
+
+Pe parcursul experimentului vom realiza circuitul de mai jos:
+
+#+CAPTION: circuit electric cu electromagnet [[../poze/05068.png]]
+
+Practic, circuitul va arăta astfel:
+
+#+CAPTION: circuit electric cu electromagnet [[../poze/05069.png]]
+
+** Desfăşurarea experimentului
+
+Înfăsuraţi pentru început o bandă izolatoare în jurul barei metalice
+(sau cui, ce aveţi la dispoziţie). Acest lucru va proteja conductorii
+împotriva abraziunii. Asiguraţi-vă că după finalizarea înfăsurării, va
+rămân cele două captele libere pentru a putea alimenta electromagnetul.
+Înfăşuraţi apoi conductorul izolat în jurul barei metalice de câteva
+sute de ori, pe cât de egal se poate (nu toate înfăşurările în acelaşi
+loc). Puteţi desigur să suprapuneţi conductorii, întrucât sunt izolaţi
+prin lăcuire.
+
+Singura regulă pe care trebuie să o respectaţi, este că toate
+înfăsurările trebuie să fie realizate în aceiaşi direcţie. De exemplu,
+toate să fie în sensul acelor de ceasornic. După ce aţi făcut câteva
+sute de înfăşurări în jurul elementului metalic, înfăşuraţi un nou strat
+de bandă izolatoare peste conductori. Îndepărtăti lacul izolator de pe
+capetele conductorilor. Conectaţi apoi aceste capete la o baterie.
+
+La trecerea curentului electric prin înfăşurare, va lua naştere un câmp
+magnetic destul de puternic: câte un pol la fiecare capăt al elementului
+metalic. Acest fenoment poartă numele de electromagnetism. Puteţi folosi
+un compas pentru identificarea polilor magnetic Nord şi Sud ai
+electromagnetului.
+
+După ce electromagnetul a fost conectat la baterie, aduceţi un magnet
+permanent în apropierea unuia dintre poli. Observaţi ce tip de forţa
+apare între cei doi, de atracţie sau de respingere? Inversaţi orientarea
+magnetului permanent. Ce tip de forţă există în acest caz? Încercaţi să
+folosiţi electromagnetul pentru a atrage diferite obiecte metalice ce le
+aveţi la îndemână (agrafe, ace de gămălie, etc.), la fel cum aţi folosi
+un magnet permanent.
+
+Sumar:
+
+-  
+-  
+
+* 10. Inducţia electromagnetică
+
+** Scopul experimentului
+
+Experimentul de faţă este asemănător experimentului precedent. Veţi avea
+nevoie de un electromagnet şi un multimetru. Prin realizarea circuitului
+de mai jos, vom demonstra relaţia dintre intensitatea câmpului magnetic
+şi tensiunea indusă:
+
+#+CAPTION: exemplificarea inducţiei elecromagnetice
+[[../poze/05070.png]]
+
+Circuitul practic va arăta astfel:
+
+#+CAPTION: exemplificarea inducţiei elecromagnetice
+[[../poze/05071.png]]
+
+Inducţia electromagnetică este inversul fenomenului de electromagnetism.
+În exemplul precedent am produs un câmp magnetic cu ajutorul unei
+tensiuni electrice. În exemplul de faţa, vom inversa această situaţie,
+şi vom produce un curent electric cu ajutorul unui câmp magnetic. Exista
+totuşi, o diferenţă importantă: în cazul electromagnetismului, câmpul
+magnetic este produs de un curent constant (curent continuu). Inducţia
+electromagnetică necesită o deplasare a magnetului sau a bobine pentru a
+produce o tensiune.
+
+** Desfăşurarea experimentului
+
+Conectaţi multimetrul la capetele înfăşurării. Selectaţi cea mai
+sensibilă scară de curent continuu disponibilă. Deplasaţi magnetul
+permanent înspre electromagnet şi înapoi. Observaţi polaritatea şi
+valoarea tensiunii induse. Deplasaţi magnetul cu viteze diferite. Ce
+anume determină valoarea tensiunii induse?
+
+Încercaţi acelaşi lucru cu capătul celălalt al electromagnetului.
+Încercaţi acelaşi lucru cu partea opusă a magnetului permanen. Comparaţi
+rezultatele.
+
+Dacă folosiţi un multimetru analogic, utilizati conductori de legătură
+(prelungire) pentru a poziţiona aparatul de măsură cât mai departe de
+bobină. Câmpul magnetic generat de magnetul permanent poate afecta buna
+funcţionare a aparatului şi poate indica citiri greşite. Multimetrele
+digitale nu sunt afectate de câpurile magnetice.
+
+Sumar:
+
+-  
+-  
+

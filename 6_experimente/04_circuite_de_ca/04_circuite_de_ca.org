@@ -1,0 +1,383 @@
+* 01. Transformator -- sursă de putere
+
+** Scopul experimentului
+
+Comportamentul unui transformator coborâtor de tensiune; scopul şi
+utilizarea transformatoarelor cu priză mediană; conectarea corectă şi
+sigură a cablurilor de alimentare.
+
+** Materiale necesare
+
+Veţi avea nevoie de un transformator cu priză mediană pe înfăşurarea
+secundară (220 V ca - 12 V ca), o regletă de borne cu cel puţin trei
+terminale, un prelungitor, un întrerupător. Opţional, o carcasă şi o
+siguranţă fuzibilă.
+
+Transformatorul poate fi obţinut dintr-un radio vechi sau cumpărat ca
+atare. Dacă vă decideţi să folosiţi şi siguranţa fuzibilă, alegeţi una
+lentă. Transformatoarele necesită de obicei curenţi mari la conectarea
+iniţială la o sursă de curent alternativ. Aceşti curenţi tranzitorii vor
+topi o siguranţa rapidă. Determinaţi amperajul siguranţei fuzibile prin
+împărţirea puterii transformatorului (VA) la 220 V: cu alte cuvinte,
+calculaţi curentul maxim permis în înfăsurarea primară şi alegeţi o
+siguranţă fuzibilă corespunzătoare.
+
+Circuitul final va arăta astfel:
+
+#+CAPTION: sursă de tensiune joasă de curent alternativ
+[[../poze/05001.png]] #+CAPTION: sursă de tensiune joasă de curent
+alternativ [[../poze/05002.png]]
+
+** Realizarea sursei de tensiune joasă
+
+Atenţie, realizarea acestui experiment implică utilizarea unor tensiuni
+periculoase ! Asiguraţi-vă că toţi conductorii de tensiune înaltă (220
+V) sunt izolaţi corespunzător. Nu trebuie să aveţi sub nicio formă
+conductori dezizolaţi pe partea cu primarul transformatorului. Lipiţi
+toate conexiunile pentru o siguranţă sporita. Folosiţi bandă izolatoare
+adevărată (/nu/ scotch, bandă de împachetat sau orice altă variantă)
+pentru izolarea conexiunilor lipite.
+
+Dacă doriţi introducerea întregului ansamblu într-o carcasă metalică,
+folosiţi o fişă cu trei contacte (alimentare plus împământare).
+Conectaţi împământarea direct pe carcasa metalică pentru o siguranţă
+sporită.
+
+Înainte de introducerea fişei (ştecărului) în priză, verificaţi pentru
+siguranţă aparatul cu un ohmmetru. Cu întrerupătorul închis, măsuraţi
+rezistenţa dintre un contact al fişei şi carcasa metalică. Ar trebui să
+obţineţi o rezistenţă infinită (maximă). Dacă aparatul de măsură
+înregistrează continuitate (o rezistenţă oarecare, dar nu infinită),
+atunci există un scurt-circuit între unul dintre conductoarele de putere
+şi carcasă. Acest lucru este periculos şi trebuie evitat cu orice preţ!
+
+Verificaţi apoi şi înfăşurările transformatorului pentru continuitate.
+Cu întrerupătorul închis, ar trebui să obţineţi o rezistenţă mică între
+cele două contacte ale fişei. Când întrerupătorul este oprit, rezistenţa
+ar trebui să crească spre infinit (circuit deschis - discontinuitate).
+Măsuraţi rezistenţa pe partea secundarului. Rezistenţa înfăşurării
+secundare trebuie să fie mult mai mică decât cea a primarului. De ce?
+
+Introduceţi fişa într-o priză şi închideţi întrerupătorul. Veţi obţine
+la ieşire (pe partea secundarului) o tensiune de curent alternativ între
+perechile de terminale. Între două terminale, tensiunea va fi de 12 V.
+Între unul din aceste terminale şi celălalt terminal, tensiunea va fi
+jumătate, adică 6 V. Acest al treilea terminal reprezintă priza mediană
+pe secundarul transformatorului.
+
+Păstraţi acest circuit asamblat, deoarece îl veţi folosi pentru
+alimentarea altor experimente prezentate de aici înainte. Sursa de
+tensiune astfel realizată va fi desemnată de acum înainte prin
+următoarea diagramă:
+
+#+CAPTION: sursă de tensiune joasă de curent alternativ
+[[../poze/05008.png]]
+
+* 02. Construirea unui transformator
+
+** Scopul experimentului
+
+Construirea unui transformator electric este o ocazie foarte bună de a
+studia efectele electromagnetismului şi inducţia electromagnetică. Acest
+lucru îl vom realiza în cele ce urmează.
+
+** Materiale necesare
+
+Veţi avea nevoie de bare plate din oţel, diferite şuruburi, piuliţie şi
+şaibe, conductor de cupru (pentru magnet/transformator) de 0,32 mm şi o
+sursă de alimentare în curent alternativ de mică putere. Conductorul de
+cupru pentru magnet/transformator este un conductor subţire izolat prin
+lăcuire. Puteţi folosi aproape orice diametre, dar cel de 0,32 mm este
+recomandat pentru simplul fapt că putem realiza multe înfăşurări într-un
+spaţiu relativ îngust. Transformatorul final va arăta aproximativ
+astfel:
+
+#+CAPTION: construirea unui transformator [[../poze/05005.png]]
+
+** Realizarea transformatorului
+
+Înfăşuraţi două bare de oţel de lungimi egale cu un strat subţire de
+bandă izolatoare. Aplicaţi câteva sute de înfăşurări de conductor de
+magnet în jurul acestor bare. Puteţi realiza aceste înfăşurări în număr
+egal sau inegal, în funcţie de transformatorul pe care doriţi să-l
+realizaţi. Este mai bine să începeţi cu un număr egal de înfăşurări.
+Puteţi experimenta apoi cu un număr inegal de înfăsurări.
+
+Conectaţi aceste bare sub forma unui dreptunghi cu ajutorul altor două
+bare de oţel de lungimi mai mici. Folosiţi şuruburi şi piuliţe pentru
+prinderea lor. Este indicat să găuriţi barele înainte de aplicarea
+înfăşurărilor în jurul acestora.
+
+Verificaţi dacă vreuna din înfăşurări este scurt-circuitată după ce aţi
+terminat de înfăşurările. Indicaţia unui ohmmetru conectat între
+capetele înfăşurărilor şi bara de fier ar trebui să fie înfinită
+(circuit deschis). Verificaţi de asemenea continuitate înfăşurărilor,
+prin conectarea ohmmetrului între capetele acestora, pentru a vă asigura
+că nu există întreruperi. Dacă oricare dintre aceste măsurători indică o
+problemă, va trebui să refaceţi înfăsurarea respectivă.
+
+Alimentaţi transformatorul astfel realizat cu o tensiune joasă (conform
+sursei de tensiune realizate în secţiunea precedentă). /Nu/ încercaţi
+alimentarea transformatorului direct de la priza de 220 V, deoarece
+înfăşurările realizate mai sus nu pot suporta o asemenea tensiune.
+
+Măsuraţi tensiunea de ieşire a transformatorului (tensiunea
+secundarului) cu un voltmetru de curent alternativ. Conectaţi o sarcină
+(motor, bec, etc.) la înfăşurarea secundară şi remasuraţi tensiunea.
+Observaţi variaţia (descreşterea) tensiunii înfăşurării secundare pe
+măsură ce curentul creşte.
+
+Desfaceţi sau îndepărtăti unul dintre şuruburi. Veţi creşte astfel
+reluctanţa (analog rezistenţei) circuitului magnetic ce face legătura
+între cele două înfăşurări. Observaţi efectul acestui lucru asupra
+tensiunii de ieşire la mers în gol (fără sarcină) şi sub sarcină.
+
+În cazul în care aţi realizat transformatorul cu înfăşurări inegale,
+încercaţi să-l alimentaţi, pe rând, din ambele părţi (transformator
+coborâtor, respectic ridicător de tensiune) şi conectaţi diferite
+sarcini de ca pe înfăşurărea secundară.
+
+* 03. Bobină variabilă
+
+** Scopul experimentului
+
+Efectele permeabilităţii magnetice asupra inductanţei; cum poate fi
+controlat curentul de către reactanţa inductivă, într-un circuit
+electric de curent alternativ.
+
+** Materiale necesare
+
+Pentru realizarea experimentului, veţi avea nevoie de un tub de
+hârtie/carton (de la un sul de şerveţele, de exemplu), o bară de fier
+sau oţel, cu un diametru suficient de mare pentru a umple tubul de
+carton; conductor de cupru pentru magnet/transformator de 0,32 mm; sursă
+de tensiune de c.a. şi un bec. Schema electrică realizată arată astfel:
+
+#+CAPTION: circuit cu bobină variabilă [[../poze/05006.png]] #+CAPTION:
+circuit cu bobină variabilă [[../poze/05007.png]]
+
+** Realizarea bobinei variabile
+
+Luaţi conductorul de cupru şi realizaţi câteva sute de înfăşurări în
+jurul tubului de hârtie. Conectaţi această bobină în serie cu o sursă de
+tensiune joasă de curent alternativ şi un bec, formând un circuit. Când
+tubul este gol, intensitatea luminoasă a becului ar trebui să fie mare.
+Când introducem bara de oţel, intensitatea becului scade datorită
+creşterii inductanţei (L) şi, prin urmare, a creşterii reactanţei
+inductive (X_{L}).
+
+Ca şi variaţie a circuitului de mai sus, încercaţi să introduceţi
+diferite materiale în tubul de hârtie, precum cupru sau oţel inoxidabil,
+dacă aveţi la îndemână. Nu toate metalele vor avea acelaşi efect,
+datorită diferenţelor de permeabilitate magnetică.
+
+* 04. Detector audio de semnale
+
+** Scopul experimentului
+
+Scopul principal al circuitului realizat în acest experiment constă în
+detectarea semnalelor electrice extrem de mici. Vom vedea însă şi cum
+putem folos un transformator pentru adaptarea impedanţelor şi vom
+utiliza diode pentru „tăierea” tensiunii la un anumit nivel maxim.
+
+Acest tip de detector poate fi folosit pentru echilibrarea punţilor de
+măsură, a circuitelor cu detector de nul şi pentru detectarea semnalelor
+de curent alternativ cu amplitudine mică şi în domeniul frecvenţelor
+audio. Acest echipament se poate dovedi extrem de folositor, mai ales
+pentru cei care au un buget mai restrâns şi nu-şi pot permite un
+osciloscop. Este de asemenea folositor în sensul în care ne permite
+utilizarea unui alt simţ pentru interpretarea comportamentului unui
+circuit.
+
+** Materiale necesare
+
+Veţi avea nevoie de o pereche de căşti de calitate, de tip închis;
+transformator coborâtor de tensiune de 6 V; două diode de redresare; un
+rezistor de 1 kΩ; un potenţimetru de 100 kΩ.
+
+Cu cât sensibilitatea (dB) căştilor este mai mare, cu atât mai bine. În
+mod normal, transformatorul (de adaptare a impedanţelor) folosit în
+astfel de aplicaţii poartă numele de „transformator audio”. Intrarea,
+respectiv ieşirea înfăşurărilor, este specificată prin valori ale
+impedanţelor (1000 Ω: 8 Ω) în loc de tensiune. Puteţi folosi un astfel
+de transformator audio, sau puteţi folosi un transformator de putere
+(220 V/6 V). Circuitul realiza arată astfel:
+
+#+CAPTION: detector audio de semnal [[../poze/05009.png]] #+CAPTION:
+detector audio de semnal [[../poze/05010.png]]
+
+** Realizarea detectorului audio de semnale
+
+Căştile, fiind cel mai probabil stereo, vor avea o fişă cu 3 contacte.
+Vom folosi doar două din cele trei puncte de contact în circuitul
+nostru. Există două posibilităţi de conectare în acest caz, fie în
+serie, fie în paralel. Aparent însă, cele mai bune rezultate se obţin
+folosind conexiunea serie:
+
+#+CAPTION: conectarea în serie serie şi paralel a difuzoarelor
+[[../poze/05011.png]]
+
+Lipiţi cu mare grijă toate conexiunile. Acest detector este extrem de
+sensibil. Orice conexiuni proaste existente în circuit vor genera
+zgomote adiţionale nedorite, peste semnalul de tensiune măsurat. Cele
+două diode conectate în paralel cu primarul transformatorului, împreună
+cu rezistorul de 1 kΩ, „taie” semnalul de intrare (tensiune) ce
+depăşeşte 0,7 V. Acest lucru are doar un singur scop: limitarea
+volumului căştilor audio. Sistemul poate funcţiona foarte bine şi fără
+aceste diode. Atenţie însă, în acest caz nu va există practic nicio
+limită a volumului existent în circuit. Simpla conectare a celor două
+sonde de test la bornele unei baterii (de exemplu) poate produse un
+sunet asurzitor!
+
+** Utilizarea detectorului audio
+
+Pentru conectarea dispozitivului realizat mai sus la o sursă de tensiune
+mai mare de 1 V, va trebui să atenuăm sensibilitatea extrem de mare a
+acestuia. Acest lucru se poate realiza prin conectarea unui divizor de
+tensiune la intrarea circuitului:
+
+#+CAPTION: atenuarea sensibilităţii detetorului audio
+[[../poze/05012.png]] #+CAPTION: atenuarea sensibilităţii detetorului
+audio [[../poze/05014.png]]
+
+Atunci când probaţi un semnal de tensiune cu o amplitudine necunoscută,
+ajustaţi potenţiometrul divizor de tensiune de 100 kΩ aproximativ la
+jumătate scalei. Dacă sunetul este prea puternic, reajustaţi
+potenţiometrul (măriţi rezistenţa) şi reîncercaţi. Dacă sunetul este
+prea slab, descreşteţi rezistenţa potenţiometrului. Acest detector poate
+fi folosit chiar şi pentru detectarea semnalelor de curent continuu şi a
+celor ce se află în bandă de frecvenţa radio (semnale sub şi peste
+domeniul audio). În acest caz, veţi auzi un „click” la conectarea sau
+deconectarea sondelor de test la sursa de semnal. Practic, cu un astfel
+de circuit, puteti detecta curenţi de sub 0,1 µA (c.c.) şi semnale de
+radiofrecvenţa de până la 2 MHz.
+
+Pentru a încerca dispozitivul şi a vă convinge de utilitatea lui, puteţi
+să aduceţi ambele sonde în contact cu vârful limbii, setând
+sensibilitatea la maxim. Tensiunea produsă de contactul metal-electrolit
+(cunoscută sub numele de tensiune galvanică) este foarte mică, dar
+suficientă pentru a produce „click”-uri ori de câte ori atingeţi sau
+îndepărtăţi sondele de pe limbă.
+
+La fel ca în cazul sursei de tensiune, puteţi introduce întreg circuitul
+într-o carcasă pentru a putea fi folosit în viitor. Prin urmare,
+rezultatul final ar putea arăta astfel:
+
+#+CAPTION: detector audio de semnal; forma finală [[../poze/05013.png]]
+
+* 05. Detectarea câpurilor magnetice
+
+** Scopul experimentului
+
+Efectele inducţiei electromagnetice şi tehnici de ecranare
+electromagnetică.
+
+** Materiale necesare
+
+Vom avea nevoie de un detector audio cu căşti şi o bobină de
+electromagnet. O bobină luată de la un releu electromagnetic sau de la
+un solenoid (bobină cilindrică fără miez magnetic) este perfectă pentru
+această aplicaţie. Circuitul realizat arată astfel:
+
+#+CAPTION: circuit de detectare a câpurilor electromagnetice
+[[../poze/05015.png]] #+CAPTION: circuit de detectare a câpurilor
+electromagnetice [[../poze/05016.png]]
+
+** Utilizarea detectorului de câpuri electromagnetice
+
+Practic, circuitul a fost deja realizat în secţiunea precentă, şi constă
+în simpla conectare a unei bobina la ieşirea acestuia (sondele de test).
+Prin urmare, vom trece direct la explicarea modului de utilizare a unui
+astfel de detector.
+
+Folosim şi în acest caz detectorul audio pentru detectarea tensiunilor
+de curent alternativ pentru frecvenţe audio, detector explicat în
+secţiunea precedentă. Folosim de asemena o bobină pentru a detecta
+câpurile magnetice de curent alternativ. Tensiunile produse de bobină
+vor fi destul de mici. Ajustaţi prin urmare sensibilitatea aparatului la
+maxim.
+
+Există multe surse de câmpuri magnetice la dispoziţie. De exemplu,
+aduceţi bobina în apropierea ecranului unui televizor sau a tabloului de
+siguranţe. Orientarea bobinei este la fel de importantă precum distanţa
+dintre aceasta şi sura câmpurilor magnetice. Încercaţi să descoperiţi
+acest lucru singuri! Dacă doriţi sunete mai interesante, aduceţi bobina
+în aproierea plăcii de bază a calculatorului vostru, sau în apropierea
+hard-disk-ului în timp ce copiaţi ceva. Încercaţi să nu atingeţi însă
+nicio parte a plăcii de bază, în timp ce calculatorul este în funcţiune,
+cu oricare dintre părţile metalice expuse ale bobinei de detectare.
+
+O sursă foarte puternică de câmpuri magnetice este transformatorul
+realizat într-una din secţiunile precedente. O altă sursă o reprezintă
+circuitul cu bobină variabilă şi bec, prezentate de asemenea într-una
+din secţiunile precedente.
+
+** Ecranarea bobinelor
+
+Puteţi observa din aceste experimente că nu este necesar contactul fizic
+dintre bobina de detectare şi sursa câmpului magnetic: câpurile
+magnetice există în spaţiul din jurul surselor ce le emit.
+
+Puteţi încerca de asemenea să ecranaţi bobina faţă de o sursă puternică
+de câmpuri magnetice folosind diferite materiale. Încercaţi folie de
+aluminiu, hârtie, oţel, plastic, sau orice alte materiale ce le aveţi la
+dispoziţie. Care din materialele încercate dau cele mai bune rezultate?
+(cel mai bun rezultat înseamnă cel mai mic zgomot înregistrat cu
+ajutorul căştilor). De ce? Care unghiuri (orientări) ale bobine
+minimizează cuplajul magnetic? (detectarea minimă a semnalului). Ce ne
+spune acest rezultat legat de poziţionarea bobinelor atunci când
+interferanţa dintre circuite nu este dorită?
+
+* 06. Detectarea câmpurilor electrice
+
+** Scopul experimentului
+
+Efectele cuplajului capacitiv (electrostatic) şi tehnici de ecranare
+electrostatică.
+
+** Materiale necesare
+
+Detector audio cu căşti. Circuitul realizat arată astfel:
+
+#+CAPTION: detector de câpuri electrice [[../poze/05017.png]] #+CAPTION:
+detector de câpuri electrice [[../poze/05018.png]]
+
+** Utilizarea detectorului de câmpuri electrice
+
+Conectaţi una dintre sondele detectorului la un obiect metalic ce se
+află în contact cu pământul. Aproape orice ţeavă de apă din casă este
+bună pentru acest lucru. Luaţi cealaltă sondă şi apropiaţi-o de un
+aparat electrocasnic. Atenţie, nu încercaţi să realizaţi contactul
+dintre această sondă şi aparatul electrocasnic sau cu orice conductori
+din interiorul acestuia! Dacă auziţi un bâzâit în căşţi, veţi sţii că în
+acea zonă se află un câmp electric.
+
+Ţineţi conductorul de detectare în apropierea unei surse puternice de
+câmp electric şi încercaţi diferite poziţii ale acestuia. Folositi o
+bucaţică de aluminiu ataşată la capătul conductorului pentru maximizarea
+capacităţii, şi prin urmare, a abilităţii acestuia de interceptare a
+câpurilor electrice.
+
+Folosiţi apoi diferite materiele pentru ecranarea conductorului faţă de
+o sursă de câmp electric. Ce materiale dau cele mai bune rezultate? Cum
+se compară acest lucru cu experimentul precedent (detectarea câmpurilor
+magnetice)?
+
+* 07. Circuit de detectare a defazajului
+
+** Scopul experimentului
+
+Exemplificarea faptului că însumarea tensiunilor de curent alternativ nu
+se realizează algebric, ci vectorial (fazorial).
+
+** Materiale necesare
+
+Veţi avea nevoie de o sursă de tensiune de ca, doi condensatori de 0,1
+µF fiecare, nepolarizaţi şi două rezistenţe de 27 kΩ. Este indicat să
+folosiţi condensatori ceramici sub formă de disc, întrucât nu sunt
+sensibili la polaritatea tensiuni (nepolarizaţi), sunt ieftini şi
+durabil. Evitaţi condensatorii marcaţi cu orice tip de polaritate,
+întrucât aceştia se vor distruge dacă îi alimentaţi în curent
+alternativ. Circuitul final va arăta astfel:
+
+#+CAPTION: [[../poze/00000.png]]

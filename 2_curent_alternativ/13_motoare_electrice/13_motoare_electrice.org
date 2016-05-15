@@ -1,0 +1,283 @@
+* 1. Scurtă introducere a motoarelor electrice
+
+** De la curent continuu la curent alternativ
+
+Imediat după introducerea sistemului de distribuţie electrică în curent
+continuu de către Edison în SUA, a început tranziţie graduală spre
+sistemele de curent alternativ mult mai economice. Iluminatul funcţiona
+la fel de bine atât pe curent continuu cât şi pe curent alternativ. Însă
+transportul energiei electrice pe distanţe lungi era însoţit de pierderi
+mai mici dacă se realiza în curent alternativ. Totuşi, motoarele
+electrice erau o problemă la acea vreme. Iniţial, motoarele de c.a. erau
+construite precum cele de c.c. Existau nenumărate probleme datorită
+variaţiei câmpurilor magnetice, în comparaţie cu motoarele de c.c, unde
+câmpurile sunt statice.
+
+** Nikola Tesla şi motorul de inducţie
+
+Charles P. Steinmetz a aduse contribuţii importante în acest domeniu
+prin investigarea pierderilor prin histereză în armăturile de fier.
+Nikola Tesla a proiectat un tip de motor cu totul nou, un motor a cărei
+turbine nu era acţionată de apă sau aburi, ci de către un câmp magnetic
+rotitor. Acest tip nou de motor, motorul de inducţie de c.a., cunoscut
+şi sub numele de motor asincron, este şi în prezent cel mai utilizat
+motor din industrie. Robusteţea şi simplitatea acestuia îi conferă o
+durată de viaţă lungă, fiabilitate înaltă şi costuri de întreţinere
+mici. Cu toate acestea, motoarele de c.a. cu perii, similare celor de
+c.c, sunt folosite pentru puteri mici pe lângă cele de inducţie. Peste
+750 W însă, motoarele Tesla nu au practic „competiţie”.
+
+Circuitele moderne cu semiconductori acţionează motoare de c.c. fără
+perii, cu forme de undă în c.a. generate de surse de putere de c.c.
+Acest motor de curent continuu fără perii, un motor de curent alternativ
+în realitate, înlocuieşte motorul clasic de c.c cu perii în multe
+aplicaţii. Iar motorul pas cu pas, o versiune digitală a motorului, este
+acţionat de forme de undă de c.a. dreptunghiulare, din nou, generate de
+circuite cu semiconductori.
+
+** Transformarea energiei electrice
+
+La nivelul sistemului, un motor „consumă” energie electrică sub forma
+unei diferenţe de potenţial şi a unui curent, şi produce la ieşire lucru
+mecanic:
+
+#+CAPTION: transformarea energiei electrice în energie mecanică şi
+caldură [[../poze/02421.png]]
+
+Desigur, motoarele electrice nu au o eficienţă de 100%. O parte din
+energia electrică se pierde sub formă de căldură, o altă formă de
+energie, datorită pierderilor ohmice (I^{2} din înfăşurările motorului.
+Căldura este un efect nedorit a conversiei electric-mecanic. Ea trebuie
+îndepărtate din vecinătatea motorului şi poate afecta durata de viaţă a
+acestuia. Astfel, unul din scopuri este maximizarea eficienţei
+motoarelor pentru reducerea pierderilor sub formă de căldură. De
+asemenea, motoarele de c.a. mai au şi alte tipuri de pierderi
+ne-întâlnite la motoarele de c.c.: histereza şi curenţii turbionari.
+
+* 2. Histereza şi curenţii turbionari
+
+Primele experimente cu motoarele de c.a. s-au lovit de probleme
+specifice curenţilor alternativi. Aceste probleme au apărut la adaptarea
+motoarelor de c.c. pentru funcţionarea în c.a. Cu toate că puţine
+motoare de c.a. din prezent seamănă cu cele de c.c., aceste probleme au
+trebuit rezolvate înainte ca motoarele de c.a., indiferent de tip, să
+poată trece din faza de proiectare în faza de realizare prorpiu-zisă.
+
+** Miezuri realizate din tole
+
+În cazul motoarelor de c.a., atât miezul rotorului cât şi cel al
+statorului este realizat din tole. Aceste tole nu reprezintă altceva
+decât un set de straturi metalice acoperite şi izolate între ele prin
+lăcuire. Curenţii turbionari sunt reduşi prin divizarea buclei
+potenţiale de curent în segmente mai mici şi cu pierderi reduse. Buclele
+de curent arată conform figurii de mai jos (stânga). Utilizarea tolelor
+pentru realizarea miezurilor duce la „spargerea” acestor bucle de curent
+(figura de mai jos, dreapta). De asemenea, adăugarea siliciului
+(material semiconductor) în aliajul din care sunt realizate toelele,
+duce la creşterea rezistenţei electrice. Acest lucru duce la
+descreşterea amplitudinii curenţilor turbionari:
+
+#+CAPTION: curenţi turbionari în miez masiv şi în miez realizat din tole
+[[../poze/02422.png]]
+
+** Histereza magnetică
+
+Histereza magnetică este defazarea în urmă a intensităţii câmpului
+magnetic în comparaţie cu forţa de magnetizare. Dacă magnetizăm temporar
+un cui de fier cu ajutorul unei bobine cilindrice, ne aşteptăm ca
+materialul să-şi pierdă câmpul magnetic după ce bobina nu mai este
+alimentată. Totuşi, cuiul va păstra o cantitate mică de magnetizare
+reziduală, B_{r}, datorită efectului de histerezis:
+
+#+CAPTION: pierderi prin histereză [[../poze/02423.png]]
+
+Un curent alternativ va trebui să folosează energie, -H_{c}
+(intensitatea câmpului coercitiv), pentru „învingerea” acestei
+magnetizări reziduale înainte de a putea magnetiza miezul înapoi la
+zero, sau chiar în direcţia opusă. Pierderile prin histereză au loc la
+fiecare schimbare de polaritate a curentului alternativ. Pierderea este
+proporţională cu aria mărginită de curba de histereză de pe grafigul
+B-H. Pierderile prin histereză în cazul aliajelor din fier moale sunt
+mai reduse decât în cazul aliajelor din fier carbon „dure”.
+
+** Utilizarea legilor lui Steinmetz
+
+Punerea la punct a legilor lui Steinmetz pentru pierderile din miez, a
+făcut posibilă realizarea motoarelor de c.a. ce se comportau conform
+aşteptărilor. Această realizare a existenţei curenţilor turbionari şi a
+histerezei a fost aplicată mai întâi în realizarea motoarelor electrice
+a căror colector era similar celor de c.c. Astăzi, aceste motoare
+reprezintă doar o mică parte a motoarelor de c.a. Alţii au inventat noi
+tipuri de motoare de c.a. foarte diferite de cele de c.c.
+
+Sumar:
+
+-  
+-  
+
+* 3. Motorul sincron
+
+Motoarele sincrone monofazate de dimensiuni mici sunt folosite în
+aplicaţii ce necesită o sincronizare precisă, precum ceasuri, de
+exemplu. Pentru o putere mai mare de 10 kW, eficienţa crescută şi
+factorul de putere capacitiv, motoarele sincrone sunt folositoare în
+industrie. Motoarele sincrone mari sunt cu câteva procente mai eficiente
+decât motoarele asincrone (de inducţie). Cu toate acestea, motorul
+sincron este mult mai complex.
+
+Din moment ce motoarele şi generatoarele electrice au o construcţie
+similară, cele două funcţii se pot întreschimba. Un motor sincron este
+similar unui alternator cu câmp rotitor. În figura de mai jos sunt nişte
+alternatoare cu magneţi permanenţi:
+
+#+CAPTION: motor sincron [[../poze/02424.png]]
+
+Această figură ar putea reprezenta fie două alternatoare paralele şi
+sincronizate acţionate de surse de energie mecanică, fie un alternator
+conectat la un motor sincron. Sau ar putea reprezenta două motoare, dacă
+ar fi conectată şi o sursă de putere externă. Important este că, în
+fiecare caz, rotoarele se rotesc la aceiaşi frecvenţa nominală, şi sunt
+în fază. Cu alte cuvinte, ele trebuie să fie sincronizate.
+
+Metoda de sincronizare a alternatoarelor este următoarea: (1)
+deschiderea contactelor, (2) antrenarea ambelor alternatoare cu aceiaşi
+viteză, (3) defazarea înainte sau înapoi a unui alternator până când
+ambele ieşiri de c.a. sunt în fază, (4) închiderea contactului în
+perioada în care cele două unităti sunt încă în fază. Odată
+sincronizate, alternatoarele se vor bloca reciproc, necesitând un cuplu
+considerabil pentru de-sincronizarea acestora.
+
+Dacă unuia dintre alternatoarele de mai sus i se aplică un cuplu
+adiţional pe direcţia de rotaţie, unghiul rotorului faţa de câmpul
+magnetic al statorului va creşte. Sincronizarea se păstrează iar rotorul
+va genera energie sistemului de alimentare de c.a. precum un alternator.
+Rotorul va avansa şi faţă de rotorul celuilalt alternator. Dacă aplicăm
+în schimb o sarcină (o frână, de exemplu) unei dintre cele două unităţi
+de mai sus, unghiul rotorul va fi defazat în urma câmpului magnetic al
+statorului. În acest caz, unitatea va consuma energie din reţeaua de
+c.a., comportându-se de fapt precum un motor. Dacă se aplică un cuplu
+sau o sarcină excesivă, rotorul va depăşi unghiul de cuplu maxim, iar
+sincronizarea se va pierde. Cuplul se dezvoltă doar atunci când
+sincronizarea motorului este menţinută.
+
+În cazul unui motor sincron în locul alternatorului (figura de sus,
+dreapta), paşi de sincronizare necesari în cazul alternatoarelor nu sunt
+necesari. Totuşi, motorul sincron nu poate porni singur, şi trebuie adus
+prin urmare aproximativ la viteza alternatorului înainte de
+sincronizarea cu viteza de rotaţie a generatorului de putere electrică.
+Odată adus la această viteză, motorul sincron va menţine sincronizarea
+cu sursa de putere de c.a. si va dezvolta cuplu.
+
+** Poziţia rotorului şi a statorului la funcţionare
+
+Presupunem că motorul se află la viteza de sincronism. Pe măsură ce unda
+sinusoidală trece în semialternanţa pozitivă, înfăşurarea inferioară a
+statorului (N) împinge polul nord al rotorului, iar înfăşurarea
+superioară (S) atrage polul nord al rotorului. Asemănător, polul sud al
+rotorului este respins de înfăşurarea superioară a statorului (S) şi
+atras de înfăşurarea inferioară (N). Atunci când amplitudinea undei
+sinusoidale atinge un maxim (la 2), cuplul ce menţine polul nord al
+rotorului este maxim. Acest cuplu scade pe măsură ce amplitudinea undei
+sinusoidale scade spre 0 (la 3), unde cuplul este minim:
+
+#+CAPTION: motor sincron [[../poze/02425.png]]
+
+Pe măsură ce polaritatea undei sinusoidale se modifică (negativă, între
+3 şi 4), înfăşurarea inferioară a statorului (S în acest caz) respinge
+polul sud al rotorului şi atrage polul nord al rotorului. Asemanător,
+înfăşurarea superioară (N) a statorului respinge polul nord al rotorului
+şi atrage polul sud al acestuia. La (4), unda sinusoidală atinge un
+maxim negativ, iar cuplul este din nou maxim. Pe măsură ce amplitudinea
+undei creşte spre 0, cuplul scade. Procesul se repetă apoi pentru o nouă
+perioadă a unei sinusoidale.
+
+De menţionat că figura de mai sus indică poziţia rotorului atunci fără
+existenţa sarcinii (α = 0^{o}). Practic, conectarea unei sarcini pe
+rotor va determina defazarea rotorului în urma poziţiilor reprezentate
+în figură cu un unghi α. Acest unghi creşte cu sarcina, până în momentul
+în care motorul atinge cuplul maxim, la α = 90^{o} (electric).
+Sincronizarea şi cuplul se pierd peste această valoare a unghiului α.
+
+Curentul din înfăşurările unui motor sincron mono-fazat pulsează la
+schimbarea polarităţii. Dacă viteza magnetului permanent a rotorului
+este apropiată de frecvenţa acestei schimbări de polaritate, motorul se
+va sincroniza pe aceasta. Din moment ce câmpul înfăşurării pulsează dar
+nu se roteşte, este necesară aducerea rotorului la aceiaşi viteză cu cea
+a unui motor auxiliar.
+
+** Viteza de rotaţie a motorului sincron
+
+Un alternator cu doi poli (o pereche de poli N-S) va genera o undă
+sinusoidală de 60 Hz atunci când este rotit la 3600 rpm (rotaţii pe
+minut). 3600 rpm înseamnă 60 de rotaţii pe secundă. Un motor sincron cu
+2 poli se comportă similar. Viteza motorului poate fi redusă prin
+adăugarea unor perechi de poli adiţionali. Un motor cu 4 poli se va roti
+la viteza de 1800 rpm, un motor cu 12 poli la 600 rpm. Motoarele cu
+eficienţă şi cuplu crescut, folosesc un număr şi mai mare de poli pe
+rotor.
+
+Dar, în loc de realizarea unui număr de 12 înfăşurări separate pentru un
+motor cu 12 poli, se uitilizează o singură înfăşurare realizată în jurul
+a 12 poli metalici precum în figura de mai jos:
+
+#+CAPTION: realizarea unui motor sincron cu mai multe perechi de poli
+[[../poze/02427.png]]
+
+Viteza de rotaţie este 1/6 din viteza electrică a curentului alternativ.
+Viteza rotorului va fi 1/6 din cea a unui motor sincron cu 2 poli.
+Exemplu: un c.a. de 60 Hz roteşte un motor cu 2 poli la 3600 rpm, iar un
+motor cu 12 poli la 600 rpm.
+
+** Motorul sincron trifazat
+
+Un motor sincron trifazat precum cel din figura de mai jos, generează un
+câmp electric rotitor în stator. Asemenea motoare nu pot fi pornite
+singure de la o sursă de frecvenţă fixă (50 sau 60 Hz). Mai mult,
+rotorul nu este un magnet permanent precum în exemplul de mai jos, ci un
+electromagnet. Motoarele sincrone industriale de putere mare sunt mai
+eficiente decât motoarele asincrone. Acestea sunt folosite atunci când
+este necesară o viteză constantă. Având un factor de putere capacitiv,
+acestea pot corecta linia de alimentare în cazul unui factor de putere
+inductiv.
+
+Cele trei faze al statorului se adună vectorial pentru a produce un
+singur câmp magnetic rezultant ce se roteşte de f/2n ori pe secundă,
+unde f este frecvenţa liniei de alimentare, iar n numărul de poli.
+Pentru a calcula viteza rotorului în rpm, înmulţim cu 60.
+
+#+CAPTION: motor sincron trifazat [[../poze/02428.png]]
+
+Motorul sincron trifazat cu 4 poli (pe fază) din figura de mai sus se va
+roti la 1800 rpm (60 Hz) sau la 1500 rpm (50 Hz). Dacă înfăşurările sunt
+energizate pe rând, în secvenţa φ-1, φ-2, φ-3, rotorul se va afla pe
+direcţia polilor corespunzători, pe rând. Din moment ce undele
+sinusoidale se suprapun, câmpul rezultat se va roti, nu discret, ci
+continuu. De exemplu, atunci când formele de undă φ-1 şi φ-2 coincid,
+câmpul va avea un maxim în regiunea dintre aceşti poli. Rotorul cu un
+singur magnet permanent este utilizat doar la motoarele de putere mică.
+Rotorul cu mai mulţi magneţi permanenţi (figura de mai sus, dreapta)
+este utilizat pentru sarcini mai mare ale motorului. Motoarele
+industriale de putere mare sunt prevăzute cu sisteme de autopornire.
+
+Sumar:
+
+-  
+-  
+
+* 1. Semnale analogice si digitale
+
+Motoarele sincrone introduc un factor de putere capacitiv în circuitul
+de alimentare. Acest lucru este adeseori folositor pentru anularea
+faptorului de putere inductiv, mult mai des întâlnit şi cauzat de
+motoarele asincrone şi alte tipuri de sarcini inductive. Iniţial,
+motoarele sincrone industriale au fost folosite pe scară largă datorită
+acestei abilităti de a corecta fapturul de putere inductiv a motoarelor
+asincrone.
+
+#+CAPTION: [[../poze/00000.png]]
+
+Sumar:
+
+-  
+-  
+

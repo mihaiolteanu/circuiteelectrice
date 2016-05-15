@@ -1,0 +1,506 @@
+* 1. Semnale analogice şi digitale
+
+Instrumentaţia este un domeniu bazat pe măsurarea şi constrolul
+proceselor fizice. Aceste procese fizice includ presiunea, temperatura,
+rata de curgere şi consitenţa chimică printre altele. Un instrument este
+un dispozitiv ce măsoară şi/sau controlează orice tip de proces fizic.
+Datorită faptului că valorile şi cantităţile de tensiune, curent şi
+rezistenţă sunt uşor de măsurat, manipulat şi de transmis pe distanţe
+mari, acestea sunt adesea folosite pentru reprezentarea acestor tipuri
+de variabile fizice şi transmiterea lor la distanţă.
+
+Un /semnal/ este orice tip de cantitate fizică ce transmite o
+informaţie. Vorbitul este cu siguranţă un tip de semnal, întrucât
+transmite gândurile (informaţii) de la o persoană la alta fizic, prin
+intermediul sunetului. Gesturile sunt de asemenea informaţii transmise
+cu ajutorul luminii. Textul este un alt tip de semnal. În acest capitol,
+cuvântul /semnal/ va fi folosit pentru a /reprezenta/ o cantitate
+fizică.
+
+Un semnal /analog/ este un semnal cu o variaţie continuă, în
+contradicţie cu cel /digital/, ce are o variaţie în trepte. Un exemplu
+bun de analog vs. digital este în cazul ceasurilor: cele analogice
+posedă ace indicatoare şi practic nu au o limită de precizie în ceea ce
+priveşte indicarea exactă a orei; cele digitale în schimb, nu pot indica
+intervale de timp sub capacitatea lor de afişaj, ceea ce în multe cazuri
+se reduce la secunde (/rezoluţie/).
+
+Ambele tipuri de semnale, atât analogice cât şi digitale, îşi găsesc
+aplicaţia în sistemele electronice moderne, iar distincţia dintre aceste
+două tipuri de informaţie va fi reluată în capitolele viitoare. Acum
+însă, ne vom concentra atenţia în special pe semnalele analogice,
+întrucât sistemele ce utilizează aceste tipuri de semnale au de obicei
+un design mai simplu.
+
+Marea majoritate a cantităţilor fizice de măsurat (temperatură,
+umiditate, viteză, etc.) posedă o variabilitate analogică. Dacă o asfel
+de cantitate fizică este utilizată pe post de canal de comunicaţie,
+reprezentarea informaţiei va avea practic o rezoluţie nelimitată.
+
+La începutul instrumentaţiei industriale, aerul comprimat era folosit în
+scopul transmiterii informaţiei de la aparatele de măsură şi controlul
+acestora. Nivelul presiunii aerului se regăsea în valoarea variabilei de
+măsurat, oricare era aceea. Aerul curat şi uscat la o presiune de
+aproximativ 1,5 [[http://ro.wikipedia.org/wiki/Bar][bar]] era furnizat
+de un compresor de aer prin intermediul unor tuburi spre instrumentul de
+măsura, ce modifica la rândul său valoarea presiunii în funcţie de
+cantitatea de măsurat producând asfel un semnal de ieşire. De exemplu,
+un dispozitiv pneumatic destinat măsurării înălţimii coloanei de apă
+dintr-un bazin (variabila procesului) va furniza o presiune scăzută a
+aerului atunci când bazinul este gol, una medie când bazinul este
+parţial plin şi o presiune ridicată atunci când bazinul este plin.
+
+#+CAPTION: sistem măsurare nivel apă în bazin folosind aer comprimat
+[[../poze/00183.png]]
+
+Indicatorul nivelului de apă este de fapt un aparat de măsură a
+presiunii din tubul de aer. Această presiune a aerului, fiind un
+/semnal/, reprezintă nivelul apei din bazin. Orice variaţie a nivelului
+apei este reprezentată printr-o variaţie a presiunii semnalului măsurat.
+Acest semnal pneumatic are, cel puţin teoretic, o rezoluţie infinită,
+putând reprezenta orice variaţie cât de mică a nivelului din bazin, şi
+este prin urmare un semnal /analog/ în adevăratul sens al cuvântului.
+
+Orcât de primitiv ar părea, acest tip de sisteme pneumatice a stat la
+baza multor sisteme industriale de măsură şi control peste tot în lume,
+şi mai sunt şi acum folosite datorită simplicităţii, siguranţei şi
+fiabilităţii lor. Semnalele folosind aerul comprimat sunt uşoar de
+transmis prin tuburi ieftine, uşor de măsurat şi uşor de manipulat cu
+ajutorul dispozitivelor mecanice. Pe lângă asta, acest tip de semnal
+poate fi folosit nu doar pentru /măsurarea/ proceselor fizice, dar şi
+pentru /controlul/ lor. Cun ajutorul unui piston suficient de mare, un
+semnal slab poate fi folosit pentru generarea unei forţe mecanice
+suficient de mari pentru acţionarea unei valve sau controlul unui
+dispozitiv. Au fost create chiar şi sisteme automate complete de control
+folosind presiunea aerului ca şi canal de comunicaţie. Sunt simple şi
+relativ uşor de înţeles. Totuşi, limitele practice pentru precizia
+semnalului comprimat nu sunt suficiente în unele cazuri, mai ales atunci
+când aerul comprimat nu este curat şi uscat, sau atunci când există
+posibilitatea apariţiei spărturilor în ţevi.
+
+Odată cu avansul amplificatoarelor din domeniul electronicii
+semiconductorilor, folosirea mărimilor de curent şi tensiune în
+instrumentaţie a devenit practică. În locul utilizării presiunii aerului
+pentru măsurarea gradului de umplere al unui bazin cu apă, s-a început
+folosire semnalele electrice pentru furnizarea aceleiaşi informaţii prin
+intermediul firelor conductoare (în loc de tuburi) fără a mai fi
+necesară utilizarea unui echipament scump. precum compresoarele de aer,
+pentru utilizare:
+
+#+CAPTION: sistem măsurare nivel apă în bazin folosind aer comprimat
+[[../poze/00184.png]]
+
+Deşi semnalele electronice analogice încep să fie înlocuite de cele
+digitale, este bine să avem o bună înţelegere a principiilor de bază din
+spatele acestui mod de transmitere a informaţiei.
+
+Un concept important aplicat în instrumentaţia semnalelor analogice este
+cel de „zero real”, un principiu standard de utilizare a semnalelor
+asfel încât valoarea zero (bazin de apă gol) sa nu fie confundată cu
+defectul sistemului în cauză. De exemplu, în cazul sistemului pneumatic
+de mai sus, dacă scala valorilor pentru presiune este între 1 şi 2 bar
+(1, 1,1, 1,2...2), cu 1 bar (presiunea aerului din mediul înconjurător)
+reprezentând 0% din valoarea mărimii de măsurat şi 2 bar reprezentând
+100% din aceeiaşi valoare, dacă indicatorul va afişa 1 bar, acest lucru
+ar putea să însemne că bazinul de apă este într-adevăr gol, sau ar putea
+la fel de bine indica faptul că sistemul nu funcţinează (copresorul de
+aer este oprit, ţeava este spartă, traductorul este stricat, etc.).
+
+În schimb, dacă am calibra (seta) instrumentele (traductorul şi
+indicatorul) pentru scara de 1.1 - 2 bar (1,1, 1,2, 1,3...2), asfel
+încât 1.1 bar să reprezinte 0% iar 2 bar 100%, orice tip de defect sau
+nefuncţionare a sistemului va rezulta într-o presiune de 1 bar, şi orice
+tip de măsurători efectuate se vor realiza doar pentru intervalul 1.1 -
+2 bar.
+
+Sumar:
+
+-  Un /semnal/ este orice tip de cantiate ce poate fi detectată şi
+   folosită ca şi informaţie
+-  Un semnal /analog/ este un semnal ce poate fi variat continu sau
+   infinit pentru a reprezenta o variaţie oricât de mică a unei mărimi
+-  Semnalele /pneumatice/ erau folosite pe scară largă în sistemele de
+   instrumentaţie industriale. Aceste tehnici au fost însă abandonate
+   odată cu folosirea semnalelor electrice analogice precum tensiunea şi
+   curentul
+-  Conceptul de /zero real/ se referă la o scară de măsură analogică în
+   care o cantitate diferită de zero este folosită pentru reprezentarea
+   valorii de 0% din variabila de măsurat, astfel încât orice defect al
+   sistemului să poate fi uşor detectabil.
+
+* 2. Sisteme cu semnale de tensiune
+
+Utilizarea tensiunii variabile pentru semnalele de instrumentaţie pare o
+soluţie bună în acest caz. Să vedem aşadar cum am putea folosi un semnal
+de tensiune pentru a măsura cantiatea de apă dintr-un bazin:
+
+#+CAPTION: sistem măsurare nivel apă în bazin folosind potenţiometru
+[[../poze/00185.png]]
+
+Traductorul din diagrama de mai sus conţine propria sursă de tensiune,
+iar potenţiometrul este acţionat de un plutitor ce se află în interiorul
+bazinului, poziţia acestuia depinzând de nivelul apei. Indicatorul nu
+este nimic altceva decât un voltmetru cu o scală calibrată (modificată)
+pentru citirea unei anumite înălţimi a apei (cm, m, etc.) în loc de
+volţi.
+
+Pe măsură ce nivelul apei suferă modificări, plutitorul se va mişca şi
+el. Această mişcare a plutitorului va modifica poziţia periei
+potenţiometrului, modificând asfel căderea de tensiune dintre cele două
+puncte la care este conectat voltmetrul. Prin urmare, tensiunea măsurată
+de voltmetru va depinde de nivelul apei din bazin.
+
+Acest sistem elementar traductor/indicator este fiabil şi uşor de
+înţeles, însă are unele neajunsuri. Probabil că cel mai mare dintre ele
+este influenţa pe care o poate avea rezistenţa cablurilor electrice
+asupra mărimii de măsurat. Voltmetrele reale *folosesc* („trag”) valori
+foarte mici ale curentului datorită rezistenţei lor interne, deşi, ideal
+ar fi să nu folosească deloc. În acest caz, va exista o cantitate mică
+de curent prin cele două cabluri conductoare. Cablul având la rândul lui
+o valoare a rezistenţei diferita de zero, va prezenta şi o cădere de
+tensiune în lungul lui, ca şi în cazul unui rezistor; căderea de
+tensiune la bornele voltmetrului va fi asfel mai mică decât tensiunea
+totală generată de traductor prin intermediul potenţiometrului. Această
+pierdere de tensiune, oricât de mică, constituie o eroare de măsură:
+
+#+CAPTION: sistem măsurare nivel apă în bazin folosind potenţiometru
+[[../poze/00186.png]]
+
+În figura de mai sus au fost adăugate simbolurile rezistorului pentru
+cablurile electrice pentru a indica ceea ce se întâmplă de fapt într-un
+sistem real. Valorile acestor rezistenţe pot fi reduse folosind cabluri
+electrice mai groase (şi mai scumpe) şi/sau putem evite efectele lor cu
+ajutorul unui voltmetru cu o rezistenţă internă foarte mică
+(complexitate sporită).
+
+În ciuda acestui dezavantaj, semnalele de tensiune sunt încă folosite în
+multe aplicaţii datorită design-ului lor extrem de simplu. Un standard
+des folosit este de de 0-10 volţi, unde 0 volţi reprezintă 0% din
+valoarea de măsurat, 10 volţi 100%, 5 volţi 50%, etc. Un alt domeniu
+folosit este cel de 1-5 V, ce utilizează conceptul de „zero real” pentru
+detectarea cazurilor de defect.
+
+Sumar:
+
+-  Tensiunea poate fi folosită ca şi semnal analogic pentru transmiterea
+   informaţiei
+-  Un mare dejavantaj pentru utilizarea tensiunii pe post de informaţie
+   este posibilitatea ca tensiunea la bornele aparatului indicator
+   (voltmetru) să fie mai mică decât căderea de tensiune la bornele
+   sursei de tensiune datorită rezistenţei cablurilor şi utilizării unei
+   cantităţi de curent de către voltmetru. Această cădere de tensiune
+   de-a lungul cablurilor electrice constituie o eroare de măsură.
+
+* 3. Sisteme cu semnale de curent
+
+Folosind amplificatoare electronice putem construi circuite a căror
+ieşire să fie o cantitate constantă de curent în loc de o cantitate
+constantă de tensiune, precum în cazul bateriei de exemplu. Aceste
+componente folosite împreună poartă denumirea de /sursă de curent/, iar
+simbolul este acesta:
+
+#+CAPTION: sursă de curent [[../poze/00187.png]]
+
+O sursă de curent generează o valoare a tensiunii suficient de mică sau
+de mare asfel încâ să producă o cantitate constantă de curent la bornele
+sale. Acest lucru este exact opusul unei surse de tensiune (o baterie
+ideală), ce va furniza o cantitate mai mică sau mai mare de curent în
+funcţie de cerinţele circuitului la care este legată. Întrucât folosim
+notaţia reală de deplasare a electronilor prin circuit, săgeata
+simbolului va fi orientată /contrar/ direcţiei de curgere.
+
+#+CAPTION: circuit electric cu sursă de curent [[../poze/00188.png]]
+
+Sursele de curent pot fi construite ca şi dispozitive variabile, la fel
+ca şi sursele de tensiune, producând valori foarte precise de curent
+electric. Dacă am construi un traductor cu o sursă de curent variabilă
+în loc de o sursă de tensiune, am putea realiza un sistem de
+instrumentaţie bazat pe curent în loc de tensiune:
+
+#+CAPTION: sistem de instrumentaţie cu sursă de curent
+[[../poze/00189.png]]
+
+Momentan nu ne interesează construcţia internă a sursei de curent din
+interiorul traductorului, ci doar faptul că ieşirea acestuia variază în
+funcţie de poziţia plutitorului, la fel ca în cazul potenţiometrului din
+sistemul de instrumentaţie bazat pe tensiune.
+
+Indicatorul utilizat în acest caz nu mai este un voltmetru, ci un
+ampermetru a cărui scară a fost modificată pentru afişarea valorilor în
+centrimetri, metri sau orice altă mărime utilizată pentru reprezentarea
+înălţimii apei din rezervor. Datorită faptului că sistemul este un
+circuit serie (punând la socoteală şi rezistenţa conductorilor),
+curentul va fi /exact/ acelaşi prin toate componentele. Cu sau fără
+rezistenţa conductorilor, curentul prin indicator este acelaşi ca şi
+curentul prin traductor şi prin urmare nu avem de a face cu nicio eroare
+de măsură precum în cazul tensiunii. Acesta este un mare avantaj faţă de
+sistemul precedent.
+
+Cel mai folosit standard pentru semnalul de curent este de 4 - 20
+miliamperi, unde 4 mA reprezintă 0% din cantitatea de măsurat şi 20 mA
+reprezintă 100% (12 mA, 50%, etc.). Un avantaj pentru utilizarea acestor
+valori o constituie uşurinţa folosirii instrumentelor de măsură pentru
+valorile de 1-5 V. Un simplu rezistor de precizie de 250 ohm conectat în
+serie cu acest circuit va produce o cădere de tensiune de 1 V la 4 mA şi
+5 V la 20 mA:
+
+#+CAPTION: sistem de instrumentaţie cu sursă de curent
+[[../poze/00190.png]]
+
+#+BEGIN_EXAMPLE
+    ----------------------------------------
+    | Procentajul |  Semnal de | Semnal de |
+    | măsurătorii |   4-20 mA  |   1-5 V   |
+    ----------------------------------------
+    |      0      |   4.0 mA   |   1.0 V   |
+    ----------------------------------------
+    |     10      |   5.6 mA   |   1.4 V   |
+    ----------------------------------------
+    |     20      |   7.2 mA   |   1.8 V   |
+    ----------------------------------------
+    |     25      |   8.0 mA   |   2.0 V   |
+    ----------------------------------------
+    |     30      |   8.8 mA   |   2.2 V   |
+    ----------------------------------------
+    |     40      |  10.4 mA   |   2.6 V   |
+    ----------------------------------------
+    |     50      |  12.0 mA   |   3.0 V   |
+    ----------------------------------------
+    |     60      |  13.6 mA   |   3.4 V   |
+    ----------------------------------------
+    |     70      |  15.2 mA   |   3.8 V   |
+    ----------------------------------------
+    |     75      |  16.0 mA   |   4.0 V   |
+    ---------------------------------------
+    |     80      |  16.8 mA   |   4.2 V   |
+    ----------------------------------------
+    |     90      |  18.4 mA   |   4.6 V   |
+    ----------------------------------------
+    |    100      |  20.0 mA   |   5.0 V   |
+    ----------------------------------------
+#+END_EXAMPLE
+
+Sumar:
+
+-  O /sursă de curent/ este un dispozitiv, de obicei constituit din mai
+   multe componente electrice, ce păstrează o valoare constantă a
+   curentului prin circuit precum o sursă de curent (baterie ideală)
+   păstrează o valoarea constantă a tensiunii la bornele sale
+-  Un sistem de instrumentaţie pe bază de curent exloatează principiul
+   conexiunii serie a circuitelor conform căruia curentul este acelaşi
+   prin toate componentele; acest fapt ajută la eliminarea erorilor de
+   măsură datorate rezistenţei conductorilor
+-  Cel mai utilizat standard pentru curentul analogic este bucla de
+   curent de 4-20 miliamperi
+
+* 4. Tahogeneratorul
+
+Un generator electromecanic este un dispozitiv capabil să genereze
+putere electrică folosind energie mecanică, de obicei prin intermediul
+unui ax. Atunci când nu sunt conectate la o sarcină (rezistenţă),
+generatoarele vor produce o tensiune electrică aproximativ proporţională
+cu viteza axului. Cu un design şi construcţie precisă, aceste
+dispizitive pot fi construite asfel încât să genereze tensiuni exacte
+pentru anumite viteze ale axului; din această cauză pot fi folosite ca
+şi instrumente de măsură în cadrul echipamentelor mecanice. Un generator
+special construit pentru această utilizare se numeşte /tahometru/ sau
+/tahogenerator/.
+
+#+CAPTION: tahogenerator [[../poze/00191.png]]
+
+Măsurând tensiunea produsă de un tahogenerator putem determina vieteza
+de rotaţia a dispozitivului conectat la bornele acestuia.
+
+Tahogeneratoarele pot fi folosite şi pentru a indica direcţie de rotaţie
+prin intermediul polarităţii („+” sau „-”) tensiunii de ieşire. În
+sisteme de măsură şi control unde direcţie de rotaţie este importantă,
+tahogeneratorul este o metodă uşoară de determinare a acestui lucru.
+Tehogeneratoarele sunt frecvent utulizate pentru determinarea vitezei
+motoarelor electrice
+
+* 5. Termocupla
+
+Un fenomen interesant utilizat în domeniul instrumentaţiei este „efectul
+Seebeck” (notă: wikipedia), ce constă în producerea unei căderi de
+tensiune între două fire datorată diferenţei de temperatură dintre
+acestea. Acest efect este cel mai uşor de observat şi de aplicat cu
+ajutorul unui contact dintre două metale diferite, fiecare metal
+producând un potenţial electric diferit de-a lungul său, ceea ce se
+traduce printr-o tensiune electrică diferită între capetele libere ale
+celor două fire. Aproape orice pereche de metale diferite produc o
+cantitate de tensiune măsurabilă atunci când contactul lor este
+încălzit, unele combinaţii producând o cantitate mai mare decât altele:
+
+#+CAPTION: efectul Seebeck (termocupla) [[../poze/00192.png]]
+
+Efectul Seebeck este destul de liniar, însemnând că tensiunea produsă de
+contactul încălzit dintre două fire este direct proporţională cu
+temperatura. Acest lucru înseamnă ca putem determina temperatura
+contactului măsurând tensiunea produsă. Prin urmare, efectul Seebeck
+constituie o metodă electrică de determinare a temperaturii.
+
+Când o combinaţie de materiale diferite sunt conectate împreună pentru a
+măsura temperatura, dispozitivul format poartă numele de /termocuplă/.
+Termocuplele folosite pentru instrumentaţie folosesc metale de o
+puritate superioare pentru a păstra relaţia temperatură/tensiune cât mai
+liniară şi previzibilă cu putinţă.
+
+Tensiunile Seedbeck sunt destul de mici, de ordinul milivolţilor (mV)
+pentru majoritatea temperaturilor. Din acest motiv sunt destul de greu
+de folosit pentru măsurători precise. De asemenea, faptul că /orice/
+contact dintre oricare două metale diferite produce o cădere de tensiune
+variabilă cu temperatură constituie o problemă la conectarea unui
+voltmetru la termocuplă pentru închiderea circuitului:
+
+#+CAPTION: termocupla - contact secundar [[../poze/00193.png]]
+
+Contactul secundar fier - cupru format prin conexiunea dintre termocuplă
+şi aparatul de măsură din firul de sus va produce o diferenţă de
+potenţial dependentă de temperatură de polaritate diferită faţă de
+tensiunea produsă de punctul de contact iniţial (de măsură). Acest lucru
+înseamnă că tensiunea de la bornele voltmetrului va depinde de
+/diferenţa/ de temperatură dintre cele două contacte, şi nu doar de
+temperatura de la contactul de măsură. Chiar şi în cazul termocuplelor
+ce nu folosesc cuprul pentru contact, combinaţia celor două contacte
+metalice adiţionale (trei cu cea de măsură) , combinaţia celor două
+metale cu conductoarele de cupru ale aparatului de măsură formează un
+contact echivalent contactului de măsură:
+
+#+CAPTION: termocupla - contacte secundare [[../poze/00194.png]]
+
+Acest contact secundar se numeşte contact de /referinţă/ sau contact
+/rece/, pentru a face distincţia între acesta şi contactul de măsură. Nu
+putem evita un asfel de contact într-un circuit ce utilizează
+termocupla. În unele aplicaţii, este necesară măsurarea diferenţei de
+temperatură dinte două puncte, caz în care efectul de mai sus poate fi
+exploatat prin construirea unui sistem foarte simplu de măsură.
+
+#+CAPTION: termocupla - măsurarea diferenţei de temperatură dintre două
+puncte [[../poze/00195.png]]
+
+Totuşi, în marea parte a aplicaţiilor scopul este măsurarea temperaturii
+doar într-un singur punct, caz în care cel de al doilea contact devine
+un rău necesar în funcţionarea termocuplei.
+
+Compensarea pentru tensiunea generată de contactul rece se poate realiza
+cu un circuit construit special pentru măsurarea temperaturii în acel
+punct care să producă o tensiune proporţională şi inversă pentru
+anularea efectelor contactului. Sigur, ne putem întreba, „Dacă trebuie
+să folosim o altă formă de măsurare a temperaturii pentru contracararea
+efectelor nedorite ale termocuplei, de ce nu am folosi acest mod de
+măsurare în primul rând în locul contactului termocuplei?”. Raspunsul
+este acesta: pentru că celelalte forme de măsurare a temperaturii
+disponibile nu sunt le fel de robuste şi universale precum aceasta dar
+pot face foarte bine măsurători la temperatura camerei. De exemplu,
+contactul termocuplei poate fi introdus într-un furnal la temperaturi de
+1.000 ^{o}C, pe când contactul rece poate sta la câţiva zeci de metri
+distanţă într-un loc special amenajat, la temperatura camerei,
+temperatura acestuia fiind măsurată de un dispozitiv ce nu ar putea
+niciodată supravieţui căldurii excesive sau mediului coroziv existent
+într-un furnal.
+
+Tensiunea produsă de contactul termocuplei este stric dependtă de
+temperatură. Orice curent existent în circuitul termocuplei este o
+funcţie a rezistenţei din circuit opusă acestei tensiuni (I=E/R). Cu
+alte cuvinte, relaţia dintre temperatură şi tensiunea Seebeck este fixă,
+pe când relaţia dintre temperatură şi curent este variabilă, depinzând
+de rezistenţa totală din circuit. În cazul în care conductorii
+termocuplei sunt suficient de groşi (rezistenţă mică), putem genera
+curenţi de sute de amperi dintr-un singur contact!
+
+Pentru creşterea preciziei măsurătorilor, voltmetrul folosit într-un
+circuit cu termocuplă este construit cu o rezistenţă foarte mare pentru
+evitarea căderilor de tensiune de-a lungul firelor termocuplei. Problema
+căderilor de tensiune de-al lungul firelor este şi mai gravă în acest
+caz faţă de semnalele de curent continuu discutate mai sus, pentru că în
+acest caz, contactul termocuplei produce o tensiune de doar câţive
+milivolţi. Nu ne putem permite să avem nici măcar o cădere de tensiune
+de un singur milivol pe conductori fără a induce erori serioase de
+măsurare a temperaturii.
+
+În mod ideal, prin urmare, curentul printr-un circuit al termocuplei ar
+trebui să fie zero. Instrumentele moderne folosesc amplificatoare cu
+semiconductori pentru a permite semnalul de tensiune al termocuplei să
+acţioneze asupra aparatului de măsură cu foarte puţin curent tras în
+circuit sau chiar deloc.
+
+*** Termopila
+
+Termocuplele pot fi confecţionate din conductori foarte groşi pentru
+rezistenţă scăzută şi conectate în aşa fel încât să genereze curenţi
+mari pentru alt scop decât măsurarea temperaturii. O asfel de aplicaţie
+este generarea puterii electrice. Conectând multe termocuple în serie,
+alternând temperaturile cald/rece cu fiecare contact, putem construi un
+dispozitiv numit /termopilă/ cu scopul producerii unor cantităţi mari de
+tensiune şi curent:
+
+#+CAPTION: termopilă [[../poze/00196.png]]
+
+Dacă setul contactelor din stânga şi setul contactelor din dreapta sunt
+menţinute la aceeiaşi temperatură, tensiunea generată de fiecare contact
+va fi aceeiaşi dar de semn contrar asfel încât căderea de tensiune per
+ansamblu va fi egală cu zero. Dacă în schimb, încălzim contactele din
+stânga şi le răcim pe cele din dreapta, căderea de tensiune pe fiecare
+contact din stânga va fi mai mare decât căderea de tensiunea pe fiecare
+contact din dreapta, rezultând o cădere de tensiune per ansamblu ce se
+traduce prin suma tuturor diferenţelor căderilor de tensiune dintre
+contacte. Acest lucru este aplicat în cazul unei termopile. În acest caz
+aplicăm o sursă de căldură (combustie, substanţe radioactive, căldură
+solară, etc.) unui set de contacte iar celălalt set este ţinut la
+temperatură cât mai joasă (răcit cu aer sau apă). Şi mai interesant este
+faptul că, în timp ce electroni se deplasează printr-un circuit electric
+extern conectat termopilei, există un transfer de energie sub formă de
+căldură dinspre contactele calde spre cele reci, demonstrând un alt
+efect termo-electric, /efectul Peltier/, şi anume, transfelul căldurii
+prin intermediul curentului electric.
+
+O altă aplicaţie a termocuplelor este măsurarea temperaturii /medii/
+între mai multe locatii. Cel mai uşor mod de realizare a acestei
+măsurători este prin conectarea câtorva termocuple în paralel, asfel
+încât se va face o medie a tuturor semnalelor de ordinul milivolţilor la
+punctul de contact dintre termocuple.
+
+#+CAPTION: termopilă [[../poze/00197.png]]
+
+Din păcate, media ditre aceste tensiuni Seebeck este precisă doar dacă
+rezistenţa firelor fiecărei termocuple este egală. Dacă termocuplele
+sunt amplasate în locatii diferite iar firele lor conectate în paralele
+se întâlnesc într-o singură locaţie, este puţin probabil ca lungimile
+acestora să fie egale. Termocupla cu cea mai mare lungime a firelor din
+punctul de măsura la conexiunea paralel va tinde să aibă şi cea mai mare
+rezistenţă şi prin urmar cel mai mic efect asupra mediei finale a
+tensiunii produse.
+
+Pentru compensarea acestui fenomen, se pot adăuga rezistenţe
+suplimentare fiecărei termocuple din conexiunea paralel pentru a aduce
+rezistenţele tuturor cât mai apropiate ca valoare. Dacă nu este posibilă
+instalarea unor rezistori diferiţi, specifici fiecărei ramuri (pentru ca
+toate rezistenţele termocuplelor să fie egale), se pot instala totuşi
+rezistori cu valori egale, dar mult peste cele ale termocuplei asfel
+încât impactul rezistenţei firelor asupra măsurătorii să fie cât mai mic
+posibil.
+
+Sumar:
+
+-  /Efectul Seebeck/ constă în producerea unei căderi de tensiune între
+   două metale disimilare conectate împreună, temperatură direct
+   proporţională cu temperatura acestui contact
+-  În oricare circuit cu termocuple, există două contacte echivalente
+   formate între două metale diferite. Contactul plasat la locul de
+   măsurare se numeşte contact de /măsură/, iar celălalt contact (singur
+   sau echivalent) este numit contact /rece/
+-  Două contacte de termocuplă pot fi poziţionate în opoziţie unul faţă
+   de celălalt pentru a genera un semnal de tensiune proporţionat cu
+   diferenţa de temperatură dintre ele. Un set de asfel de contacte
+   folosite în scopul producerii curentului electric poartă numele de
+   /termopilă/
+-  Atunci când electronii se deplasează prin contactul unei termopile,
+   există un transfer de energie sub formă de căldură de la un set de
+   contacte la celălalt. Acesta este cunoscut ca şi /efectul Peltier/
+-  Mai multe contacte de termocuplă pot fi aşezate în paralel pentru a
+   genera o cădere de tensiune ce reprezintă media temperaturilor
+   măsurate de fiecare contact în parte.
+-  Este absolut necesar ca prin circuitul termocuplei curentul să fie
+   menţinut la o valoare cât mai mică posibil pentru acurateţea
+   măsurătorii
+

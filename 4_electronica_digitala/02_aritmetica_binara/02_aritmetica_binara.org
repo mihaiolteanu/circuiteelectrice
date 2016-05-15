@@ -1,0 +1,432 @@
+* 1. Valori şi sisteme de numeraţie
+
+Este foarte important să înţelegem că sistemul de numeraţie ales pentru
+reprezentarea valorilor (numerelor) nu are absolut niciun impact asupra
+rezultatului aplicării operaţiilor aritmetice de adunare, scădere,
+înmulţire, împărţire, rădăcini, puteri sau algoritmi. O valoare este tot
+timpul aceiaşi, indiferent de modul în care alegem să o simbolizăm. Fie
+că reprezentăm temperatura de 35^{o} sub această formă (zecimală) sau
+sub forma 100011 (binară), aceasta nu schimbă valoarea reală a
+temperaturii ce o resimţim. Ea rămâne aceiaşi, ceea ce se modifică este
+modul de reprezentare a acesteia.Operaţiile esenţiale şi legăturile
+matematice nu sunt afectate de modificarea sistemului de numeraţie
+pentru reprezentarea valorilor. Această distincţie între valori şi
+sisteme de numeraţie este foarte importantă şi trebuie înţeleasă.
+
+Această distincţie esenţială dintre cei doi termeni este asemănătoare
+distincţie dintre cuvinte şi obiectele asociate acestor cuvinte. O casă
+este tot o casă, indiferent dacă de limba pe care o folosim pentru
+desemnarea acesteia (română, engleză, germană, etc.). Obiectul este ceva
+real, palpabil, pe când cuvântul este doar un simbol pentru
+reprezentarea acelui obiect.
+
+Acestea fiind spuse, o simplă operaţie de aritmetică sub formă binară,
+precum adunarea, pare ciudată pentru o persoană obişnuită să lucreze
+doar cu sistemul de numeraţie zecimal. În acest capitol vom analiza
+tehnicile folosite pentru efectuarea operaţiilor artimetice simple cu
+numere binare. Aceste tehnici vor fi folosite pentru proiectarea
+circuitelor electronice care să realizeze exact acelaşi lucru. Chiar
+dacă suntem obişnuiţi cu operaţiile de adunare şi scădere folosind un
+calculator de mână, calculatorul însăşi foloseşte numerele binare pentru
+obţinerea rezultatului final.
+
+* 2. Adunarea binară
+
+Adunarea numerelor binare este relativ simplă, foarte asemănătoare cu
+adunarea numerelor zecimale. Adunarea se realizează adunând pe coloane
+fiecare bit, pe rând, de la dreapta la stânga, la fel ca în cazul
+adunării zecimale. Spre deosebire de aceasta însă, există puţine reguli
+de memorat:
+
+0 + 0 = 0 1 + 0 = 1 0 + 1 = 1 1 + 1 = 10 1 + 1 + 1 = 11
+
+Când rezultatul adunării pe coloane este format din doi biţi (de ex, 1 +
+1 = 10), bitul din dreapta (0, în acest caz) se scrie iar cel din stânga
+se trece mai departe (1, în acest caz):
+
+#+BEGIN_EXAMPLE
+                              11  1                         11      <--- biţi ce trec mai departe
+         1001101             1001001                     1000111
+       + 0010010           + 0011001                   + 0010110
+       ---------           ---------                   ---------
+         1011111             1100010                     1011101
+#+END_EXAMPLE
+
+Adunarea din stânga nu a dat niciunde doi biţi, pe fiecare coloană suna
+fiind fie 1, fie 0. În celelalte două adunări, există sume care dau fie
+10 fie 11, iar în acest caz bitul din stânga (0 sau 1) se trece mai
+departe la următoarea adunare.
+
+După cum vom vedea mai târziu, se pot construi circuite electronice care
+să realizeze exact această operaţie aritmetică de adunare, prin
+reprezentarea fiecărui bit a fiecărui număr prin intermediul unui semnal
+de tensiune. Acest principiu reprezintă baza efectuării tuturor
+operaţiilor aritmetice realizate de calculatoarele moderne.
+
+#+CAPTION: [[../poze/00000.png]]
+
+Sumar:
+
+-  
+-  
+
+* 3. Numere binare negative
+
+** Bit-ul de semn
+
+Operaţia de scădere se poate realiza asemănător cu cea de adunare prin
+considerarea unuia dintre numere ca fiind negativ. De exemplu, operaţia
+de scădere „7 - 5” este aceiaşi cu cea de adunare „7 + (-5)”, adică,
+adunarea unui număr pozitiv cu un număr negativ. Din moment ce ştim deja
+cum se realizează reprezentarea numerelor pozitive sub formă binară, tot
+ceea ce trebuie să facem este să reprezentăm şi numerele negative sub
+formă binară. De aici va rezulta direct operaţia de scădere.
+
+Un număr zecimal negativ se reprezintă de obicei prin introducerea
+semnului minus(-) la stânga, la fel ca în exemplul de sus (-5). Totuşi,
+scopul notaţie binare este realizarea circuitelor tip oprit/pornit
+pentru reprezentarea valorilor sub forma căderilor de tensiune (două
+valori alternative: „înaltă” şi „joasă”). În această situaţie, nu ne
+putem permite să introducem un al treilea simbol, precum semnul minus,
+din moment ce aceste circuite au doar două stări posibile, pornit sau
+oprit. O soluţie o reprezintă utilizarea unui bit (circuit) doar pentru
+reprezentarea acestui semn matematic şi pentru nimic mai mult:
+
+101_{2} = 5_{10} (pozitiv) Utilizând un bit adiţional (0 = pozitiv, 1 =
+negativ): 0101_{2} = 5_{10} (pozitiv) 1101_{2} = -5_{10} (negativ)
+
+Dar, în această situaţie în care folosim biţi pentru alt scop decât
+pentru reprezentarea valorilor, trebuie să fim foarte atenţi, altfel,
+riscăm ca numărul 1101_{2} să fie interpretat ca fiind 13_{10} în loc de
+-5_{10}. Pentru a nu face astfel de greşeli, trebuie să ne decidem în
+primul rând de câţi biţi avem nevoie pentru a reprezenta cel mai mare
+număr posibil cu care vom lucra în aplicaţia noastră. Ne putem apoi
+asigura că nu vom depăşi această lungime (în biţi) atunci când aplicăm
+operaţiile aritmetice. În exemplul de mai sus, limita inferioară este -7
+(1111_{2}) iar cea superioară 7 (0111_{2}), deoarece al patrulea bit
+este folosit pe post de semn. Doar prin stabilirea acestor numere putem
+fi sigur că nu vom amesteca un număr negativ cu un număr pozitiv, mai
+mare.
+
+Pe cât de simplă pare această abordare, ea nu este foarte practică din
+punct de vedere al aritmeticii. De exemplu, cum efectuăm adunarea unui
+număr negativ (1101_{2}) cu un oricare alt număr, folosind tehnica
+standar al adunării binare? Ar trebui să inventăm o nouă metodă de
+realizare a adunării pentru ca această tehnică să fie practică. Dar,
+dacă realizăm acest lucru, nu vom mai avea avantajul utilizării
+numerelor negative pentru realizarea scăderii prin adunare obişnuită.
+
+** Reprezentarea în complement faţă de doi
+
+Din fericire, există o altă metodă pentru reprezentarea numerelor
+negative ce este compatibilă cu operaţia de adunare obişnuită, şi anume,
+complementarea. Cu această strategie, bit-ul din stânga primeşte un
+statut special, asemenea bit-ului de semn din exemplul precedent.
+Totuşi, de această dată, bit-ul din stânga nu este doar un bit de semn,
+ci posedă şi o valoare. De exemplu, -5 este reprezentat astfel:
+
+1011_{2} = -5_{10} (1 x -8_{10}) + (0 x 4_{10}) + (1 x 2_{10}) + (1 x
+1_{10}) = -5_{10}
+
+Utilizând cei trei biţi din dreapta pentru reprezentarea valorilor de la
+zero la şapte, bit-ul din stânga reprezentând fie zero fie -8, putem
+reprezenta orice număr întreg de la -7 (1001_{2} = -8_{10} + 1_{10} =
+-7_{10}) la plus 7 (01112 = 010 + 710 = 710).
+
+Reprezentarea numerelor pozitive utilizând această notaţie nu este
+diferită faţă de notaţia normală (bit-ul din stânga va fi tot timpul
+zero). Totuşi, reprezentarea numerelor negative nu este chiar aşa de
+intuitivă.
+
+#+BEGIN_EXAMPLE
+    0 = 0000
+    1 = 0001          -1 = 1111
+    2 = 0010          -2 = 1110
+    3 = 0011          -3 = 1101
+    4 = 0100          -4 = 1100
+    5 = 0101          -5 = 1011
+    6 = 0110          -6 = 1010
+    7 = 0111          -7 = 1001
+                      -8 = 1000
+#+END_EXAMPLE
+
+Observăm că numerele binare negative din coloana dreaptă, fiind suma
+celor trei biţi din dreapta plus bitul negativ din dreapta, egal cu
+minus opt, nu se „numără” în aceiaşi ordine precum numerele binare
+pozitive din coloana stângă. În schimb, cei trei biţi trebuie aduşi la
+forma necesară, astfel încât, după adunarea cu minus opt să se obţină
+rezultatul negativ dorit.
+
+Spunem că cei trei biţi din dreapta sunt o reprezentare în complement
+faţă de doi al numărului pozitiv corespunzător. Să facem o comparaţie:
+
+#+BEGIN_EXAMPLE
+    număr pozitiv         complementul faţă de doi
+    ---------------       ------------------------
+    001                    111
+    010                    110
+    011                    101
+    100                    100
+    101                    011
+    110                    010
+    111                    001
+#+END_EXAMPLE
+
+În acest caz (bit-ul al patrulea are valoarea de minus opt),
+reprezentarea în complement faţă de doi a oricărui număr pozitiv este
+valoarea necesară însumări cu minus opt pentru a rezulta aceiaşi
+valoare, dar cu semn schimbat. Din fericire, există o cale uşoară de
+calcul al complementului, pentru oricare număr binar: inversăm toţi
+biţii acelui număr, schimbând 1 cu 0 şi invers. Ajungem astfel la
+reprezentarea în complement faţă de unu a numărului. Pentru soluţia
+dorită de noi, mai trebuie să adăugăm un unu.
+
+De exemplu, pentru obţinerea complementului lui cinci (101_{2}),
+inversăm toţi biţii şi obţinem 010_{2}(complement faţă de unu), apoi
+adăugăm un unu şi obţinem 011_{2}, sau -5_{10} în complement faţă de
+doi.
+
+Este interesant de menţionat faptul că, obţinerea complementului faţă de
+doi a unui număr binar funcţionează la fel de bine şi dacă aplicăm
+inversarea tuturor biţilor, inclusiv bit-ului din stânga. Să luăm
+exemplul precedent, inversarea lui 5 în -5, dar aplicând operaţia de
+inversare tuturor biţilor. Trebuie să includem însă şi bit-ul din stânga
+numărului iniţial (0101_{2}). După inversarea tuturor biţilor, obţinem
+complementul faţa de unu (1010_{2}). Apoi, adăugăm un unu pentru
+obţinerea răspunsului final: 1011_{2}, sau -5_{10} în complement faţă de
+doi, exprimat cu patru biţi.
+
+* 4. Scăderea binară
+
+Putem realiza operaţia de scădere binară utilizând aceleaşi metode
+standard împrumutate de la scăderea zecimală. Totuşi, dacă putem utiliza
+metoda deja cunoscută (şi mai uşoară) a adunării binare pentru
+efectuarea scăderii, ne va fi mai uşor. După cum am văzut, putem
+reprezenta numerele binare negative utilizâd reprezentarea în complement
+a lui doi plus un bit adiţional cu o valoare negativă. Să considerăm un
+exemplu:
+
+7_{10} - 5_{10} (scădere) 7_{10} + (-5_{10}) (adunare echivalentă)
+
+Tot ce trebuie să facem este să reprezentăm numărul 7 şi -5 sub formă
+binară:
+
+0111_{2} = 7 1011_{2} = -5
+
+Nu ne mai rămâne decât să efectuăm adunarea binară:
+
+#+BEGIN_EXAMPLE
+      1111    <--- biţi ce trec mai departe
+       0111
+     + 1011
+      ------
+      10010   <--- ignorăm bit-ul suplimentar
+
+    răspuns = 00102 = 210
+#+END_EXAMPLE
+
+Din moment ce am definit numărul nostru ca fiind compus din trei biţi
+plus bitul cu valoare negativă, putem ignora al cincilea bit din răspuns
+(1), iar rezultatul final este astfel 0010_{2}, sau plus doi, ceea ce
+reprezintă răspunsul corect.
+
+O altă modalitate de a înţelege de ce înlăturăm al cincilea bit, este să
+ţinem minte că bit-ul din stânga are o valoare negativă, egală cu minus
+opt în cazul de faţă. Atunci când adunăm aceste două numere binare,
+realizăm de fapt o scădere a biţilor. În cazul operaţiei de scădere,
+cifrele nu sunt „duse” mai departe spre următoarea operaţie, ci sunt
+împrumutate.
+
+Să considerăm un alt exemplu, cu numere mai mari de data aceasta. Dacă
+vrem să adunăm -25_{10} cu 18_{10}, trebuie să stabilim în primul rând
+numărul de biţi pe care numărul nostru îl va conţine în reprezentarea
+binară. Pentru a putea reprezenta cea mai mare valoarea absolută
+posibilă în acest caz, 25, avem nevoie de cel puţin cinci biţi, plus un
+al şaselea bit pentru valoarea negativă. Să începem prin a reprezenta
+numărul 25 sub formă binară, şi apoi sub forma complementului făţă de
+doi:
+
++25_{10} = 011001_{2} (toţi cei şase biţi) 11001_{2} = 100110_{2}
+(complementul faţa de unu) complementul faţa de unu + 1 = complementul
+faţa de doi = 100111_{2} -25_{10} = 100111_{2} (forma finală)
+
+Mai exact, -25 sub formă binară este de fapt suma dintre bit-ul negativ
+de pe poziţia a şasea cu valoarea de -32 şi ceilalţi cinci biţi
+(00111_{2} = 7_{10}).
+
+Să reprezentăm acum şi numărul 17 sub formă binară, folosind toţi cei
+şase biţi:
+
+18_{10} = 010010_{2}
+
+Adunarea lor ne conduce la următorul rezultat:
+
+#+BEGIN_EXAMPLE
+         11
+       100111
+     + 010010
+      --------
+       111001
+#+END_EXAMPLE
+
+În acest caz nu avem un „surplus” de biţi după adunanre, prin urmare, nu
+trebuie să „scăpăm” de niciunul din ei. Bitul din stânga este 1, ceea ce
+înseamnă că răspunsul, în complement faţă de doi, este negativ (ceea ce
+este corect). Pentru verificare, putem realiza conversia înapoi în forma
+zecimală prin însumarea produsului tuturor biţilor cu valorile lor
+respective, astfel:
+
+(1 x -32_{10}) + (1 x 16_{10}) + (1 x 8_{10}) + (1 x 1_{10}) = -7_{10}
+
+Răspunsul obţinut este corect (18_{10} - 25_{10} = -7_{10}).
+
+* 5. Depăşirea binară
+
+Una din problemele numerelor binare cu semn, este bit-ului de depăşire.
+Acesta apare ca în cazul în care rezultatul adunării sau scăderii
+efectuate între două numere binare este mai mare decât valoarea maximă
+ce poate fi reprezentată cu numărul de biţi alocaţi. Ţineţi minte că
+poziţia bit-ului de semn este fixată la începutul problemei. În exemplul
+precedent, am utilizat cinci biţi pentru reprezentarea unui număr, iar
+bit-ul din stânga a fost utilizat pe post de bit de semn, cu pondere
+negativă. Cu cinci biţi rămaşi pentru reprezentarea valorilor, cel mai
+mare număr ce-l putem scrie astfel este +31_{10}(011111_{2}), iar cel
+mai mic -32_{10}(100000_{2}). Dacă aplicăm o operaţie de adunare unor
+astfel de numere, iar rezultatul este mai mare decât 31_{10} sau mai mic
+decât -32_{10}, răspunsul obţinut nu va fi corect. Să luăm un exemplu:
+
+17_{10} = 10001_{2} 19_{10} = 10011_{2}
+
+Adăugând bit-ul de semn, adunarea celor două numere arată astfel:
+
+#+BEGIN_EXAMPLE
+        1  11  <--- biţi ce se trec mai departe
+        010001
+      + 010011
+      -------- 
+        100100 
+#+END_EXAMPLE
+
+Răspunsul (100100_{2}) este egal cu -28_{10}, nu cu +36_{10}, aşa cum ar
+trebui să obţinem adunând +17_{10} cu +19_{10}. Evident, acest răspuns
+nu este corect. Dar unde am greşit? Din moment ce valoarea reală a sumei
+(36_{10}) depăşeşte limita permisă de cei cinci biţi (plus bit-ul de
+semn), ajungem la o eroare de depăşire binară.
+
+O eroare similară obţinem şi în cazul adunării a două numere negative a
+cărei sumă este mai mică decât -32_{10}:
+
+-17_{10} = 101111_{2} -19_{10} = 101101_{2}
+
+Aplicând operaţia de adunare celor două numere, obţinem:
+
+#+BEGIN_EXAMPLE
+        1 1111  <--- biţi ce se trec mai departe
+         101111
+       + 101101
+       --------
+        1011100 
+#+END_EXAMPLE
+
+După înlăturarea bit-ului în plus, rezultatul final este:
+
+011100_{2} = +28_{10}
+
+Acest răspuns este, desigur, incorect.
+
+Să reconsiderăm cele două exemple de mai sus, dar de această dată
+utilizând şase biţi pentru reprezentarea numărului. Al şaptelea bit va
+fi bit-ul de semn:
+
+#+BEGIN_EXAMPLE
+        1710 + 1910                     (-1710) + (-1910) 
+     
+         1  11                           11 1111
+        0010001                           1101111
+      + 0010011                         + 1101101
+      ---------                         ---------
+        01001002                         110111002 <--- înlăturarea bit-ului suplimentar
+                                        
+    Răspunsuri: 01001002 = +3610
+                10111002 = -3610
+#+END_EXAMPLE
+
+Utilizând un număr suficient de biţi pentru reprezentarea rezultatelor,
+răspunsurile sunt corecte.
+
+În aceste exemple am putut determina erorile de depăşire prin realizarea
+„de mână” a operaţiilor de adunare sub formă zecimală. Această metodă de
+verificare nu este însă foarte eficientă. Până la urmă, întregul scop al
+complementării este realizarea adunării sub formă binară. Acest lucru
+este valabil mai ales în cazul proiectării circuitelor electronice:
+circuitul trebuie să poată sesiza singur existenţa unei erori de
+depăşire, fără ajutor uman.
+
+Cea mai elegantă metodă de rezolvare a acestei situaţii constă în
+verificarea „semnului” sumei şi compararea acestuia cu semnele numerelor
+însumate. Desigur, rezultatul sumei a două numere pozitive este un număr
+pozitiv, iar suma a două numere negative, este un număr negativ. Putem
+observa că, de fiecare dată când avem o situaţie de depăşire, semnul
+sumei este invers faţă de semnul celor două numere adunate: +17_{10}
+plus +19_{10} ne-a dat -28_{10}, sau, -17_{10} plus -19_{10} ne-a dat
++28_{10}. Prin simpla verificare a semnelor, putem să ne dăm seama că
+exista o eroare iar rezultatul este fals.
+
+Ce se întâmplă în cazul în care unul din numere este pozitiv iar
+celălalt negativ? Care ar trebui să fie semnul sumei? Răspunsul este
+simplu: atunci când numerele însumate sunt de semne diferite, nu va
+exista niciodată o eroare de depăşire. Motivul este la fel de simplu:
+depăşirea are loc atunci când valoarea unui număr este mai mare decât
+cea permisă de numărul de biţi utilizaţi. În cazul numerelor de semn
+contrar, valoarea rezultatului trebuie să fie între cele două numere,
+prin urmare, nu poate fi mai mare sau mai mică decât limita maximă
+permisă de numărul de biţi.
+
+Din fericire, această metodă de identificare a erorii de depăşire este
+uşor de implementat într-un circuit electronic.
+
+#+CAPTION: [[../poze/00000.png]]
+
+* 6. Grupări de biţi
+
+La reprezentarea numerelor binare cu ajutorul circuitelor electronice,
+suntem nevoiţi să utilizăm un număr suficient de circuite cu tranzistori
+pentru reprezentarea tuturor biţilor. Cu alte cuvinte, la proiectarea
+unui circuit digital, trebuie să ne decidem câţi biţi vom utilizat
+(maxim) pentru reprezentarea valorilor, din moment ce fiecare bit
+necesită un circuit pornit/oprit separat.
+
+#+CAPTION: abac cu 10 linii; analogie [[../poze/04315.png]]
+
+Acest principiu este analog proiectării unui abac pentru reprezentarea
+digitală a numerelor zecimale: trebuie mai întâi să ne decidem câte
+cifre dorim să reprezentăm cu acest dispozitiv primitiv. Fiecare cifră
+necesită o nouă linie cu mărgele.
+
+Un abac cu 10 linii poate reprezenta un număr zecimal cu 10 cifre, sau o
+valoare maximă de 9.999.999.999. Dacă am dori reprezentarea unui număr
+mai mare decât atât, va trebui să ma adăugăm una sau mai multe linii.
+
+Orice circuit digital se proiectează pe un anumită număr de biţi:
+numărul maxim de biţi alocaţi pentru reprezentarea valorilor numerice.
+Calculatoarele digitale iniţiale erau proiectate pe patru sau pe opt
+biţi. Sistemele moderne sunt proiectate pe 32 sau pe 64 de biţi.
+
+Pentru a vorbi mai uşor de numărul de biţi dintr-o grupare, cele mai
+uzuale au primit şi un nume, astfel:
+
+Bit: unitatea fundamentală a notaţiei binare; echivalentă cu o cifră
+zecimală Crumb, Tydbit sau Tayste: 2 biţi Nibble sau Nybble: 4 biţi
+Nickle: 5 biţi Byte: 8 biţi Deckle: 10 biţi Playte: 16 biţi Dynner: 32
+biţi Word: (în funcţie de sistem)
+
+Cel mai ambiguu termen este word-ul. Pentru un sistem pe 32 de biţi, un
+word înseamnă 32 de biţi. Dacă sistemul utilizează 16 biţi, atunci
+word-ul este de 16 biţi. Termenul playte şi dynner se referă tot timpul
+la 16, respectiv 32 de biţi, indiferent de contextul în care sunt
+folosiţi.
+
+Tot în funcţie de sistem sunt folosiţi şi termenii de „double word” sau
+„longword” (ambii termenii desemnând o lungime dublă faţă de lungimea
+standard), „half-word” (jumătatea lungimii) sau quar (de patru ori
+lungimea standard).

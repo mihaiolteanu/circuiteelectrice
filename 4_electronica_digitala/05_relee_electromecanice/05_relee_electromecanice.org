@@ -1,0 +1,296 @@
+* 1. Construcţia releelor
+
+#+CAPTION: o bobină produce un câmp magnetic la trecerea curentului prin
+aceasta [[../poze/04040.png]]
+
+La trecerea curentului electric printr-un canductor, va lua naştere un
+câmp magnetic în jurul acestuia. În cazul în care conductorul este
+construit sub forma unei bobine, câmpul magnetic produs se va orienta în
+lungimea bobine. Cu cât intensitatea curentului este mai mare, cu atât
+puterea câmpului magnetic este mai mare, toţi ceilalţi factori rămânând
+neschimbaţi.
+
+Bobinele reacţionează la variaţia curentului prin ele datorită energiei
+stocate sub forma acestui câmp magnetic. La construirea unui
+transformator din două bobine înfăşurate în jurul unui miez magnetic
+comun, utilizăm de fapt acest câmp magnetic pentru a transfera energie
+electrice de la o înfăşurare la alta. Totuşi, există şi alte metode mai
+simple şi mai directe de utilizare a câmpurilor electromagnetice. Câmpul
+magnetic produs de o bobină poate fi folosit pentru exercitarea unei
+forţe mecanice asupra oricărui obiect magnetic. În acelaşi fel folosim
+şi magneţi permanenţi pentru atragerea obiectelor magnetice. Diferenţa
+constă în faptul că acest electromagnet (format din bobină) poate fi
+pornit şi oprit prin închiderea şi deschiderea circuitului bobinei.
+
+Dacă plasăm un obiect magnetic (un obiect metalic, de exemplu) în
+apropierea unei astfel de bobine, acest obiect se va deplasa atunci când
+prin bobină trece un curent electric. Obiectul magnetic deplasabil
+poartă numele de armătură, iar majoritatea lor pot fi deplasate fie prin
+intermediul curentului continuu, fie cu ajutorul curentului alternativ.
+Polaritatea câmpului magnetic este irelevantă din punct de vedere al
+atracţiei armăturii. Aceste dispozitive pot fi folosite pentru
+deschiderea pe cale electrică a încuietorilor, deschiderea sau
+închiderea valvelor, deplasarea braţelor mecanice, etc. Totuşi, în
+situaţia în care aceste dispozitive sunt utilizate pentru acţionarea
+unui comutator, ele sunt cunoscute sub denumirea de relee
+electromecanice.
+
+#+CAPTION: releu electromecanic într-un circuit electric
+[[../poze/04041.png]]
+
+Releele sunt foarte practice pentru controlul unei cantităţi mari de
+curent sau tensiune prin intermediul unui semnal electric de putere
+mică. Bobina releului ce produce câmpul magnetic poate să consume o
+putere mai mică de 1 watt, de exemplu, pe când contactele acţionate de
+acest câmp magnetic pot susţine o putere de sute de ori mai mare.
+Funcţional, un releu electromecanic se comportă precum un amplificator
+cu două stări: pornit şi oprit.
+
+La fel ca în cazul tranzistorilor, abilitatea releelor de a controla un
+semnal electric prin intermediul unui alt semnal electric este utilizate
+pentru realizarea funcţiilor logice. Pentru moment însă, vom explora
+abilitatea de „amplificare” a releelor.
+
+În figura de mai sus, bobina releului este energizată prin intermediul
+unei surse de tensiune de 12 V (c.c.). În schimb, comutatorul monopolar
+cu o singură direcţie este conectat într-un circuit electric alimentat
+de la o sursă de tensiune de 480 V (c.a.). În acest caz, curentul
+necesar energizării bobinei este de sute de ori mai mic decât curentul
+nominal al contactului comutatorului.
+
+Un singur dispozitiv bobină/armătură poate fi folosit pentru acţionarea
+mai multor seturi de contacte. Aceste contacte pot fi normal-deschise,
+normal-închise, sau într-o combinaţie a celor două. Asemeni
+comutatoarelor, poziţia „normal” a releelor reprezintă acea stare a
+contactelor atunci când bobina nu este energizată, sau mai bine spus,
+atunci când releul este încă „în cutie”.
+
+Pe lângă abilitatea de control a unui curent mare prin intermediul unui
+curent mic, releele oferă şi o izolaţie electrică între circuitul bobine
+şi circuitul contactelor. Acest lucru înseamnă că cele două elemente
+sunt izolate din punct de vedere electric una de cealaltă. Unul din
+circuite poate fi de c.c, iar celălalt de c.a., precum în exemplul
+anterior, sau chiar şi la tensiuni diferite.
+
+Sumar:
+
+-  Un releu electromecanic este compus dintr-o bobină şi un element
+   magnetic mobil, ce poartă numele de armătură.
+-  La trecerea curentului prin bobină, aceasta produce un câmp magnetic
+   ce atrage armătura. Armătura acţionează la rândul său contactele unui
+   comutator
+
+* 2. Contactoare
+
+Atunci când releele sunt folosite pentru comutarea unor puteri mari prin
+contactele sale, acestea poartă numele de contactoare. Contactorele au
+de obicei mai multe contacte, iar aceastea sunt de obicei (deşi nu
+neapărat) în poziţia normal-deschis: circuitul este deschis atunci când
+bobina nu este energizată.
+
+#+CAPTION: releu electromecanic într-un circuit trifazat pentru
+controlul unui motor electric [[../poze/04042.png]]
+
+Probabil cea mai des întâlnită aplicaţie a contactoarelor constă în
+controlul motoarelor electrice.
+
+Sumar:
+
+-  
+-  
+
+* 3. Relee temporizate
+
+Unele relee sunt prevăzute cun un fel de „amortizor”. Acest mecanism,
+ataşat arăturii releului previne deplasarea imediată şi completă a
+armăturii atunci când bobina este energizată sau de-energizată. Datorită
+acestui lucru, releul are proprietatea unei acţionări temporizate
+(întârziate în timp). Astfel de relee temporizate pot fi construite
+pentru temporizarea deplasării armăturii în momentul energizării
+bobinei, în momentul de-energizării bobinei, sau pentru ambele situaţii.
+
+Releele temporizate au ca şi specificaţie nu doar poziţia normal-închisă
+sau normal-deschisă a contactelor, ci şi modul în care acţionează
+temporizarea (la închiderea sau la deschiderea contactelor). Mai jos
+este o descriere a celor patru tipuri de relee temporizate.
+
+** Releu temporizat la închidere normal deschis
+
+Acest tip de contact este normal deschis atunci când bobina nu este
+energizată. Contactul se închide doar după aplicarea unui curent
+electric prin bobina releului, şi doar după o anumită perioadă de timp
+de la aplicarea acestuia. Cu alte cuvinte, direcţia deplasării
+contactului este identică cu cea a unui contact normal deschis, dar
+există o întârziere (temporizare) la închiderea contactului. Datorită
+faptului că temporizarea are loc în direcţia de energizare a bobinei,
+acest tip de contact mai poartă numele de normal-deschis cu acţionare
+întârziată.
+
+#+CAPTION: releu temporizat la închidere normal deschis
+[[../poze/04043.png]]
+
+Releul din figura alăturată este un releu temporizat la închidere,
+normal-deschis. Acesta se închide după cinci secunde de la energizarea
+bobinei. Deschiderea se realizează imediat după de-energizarea bobinei.
+
+#+CAPTION: diagrama timp de funcţionare a contactelor unui releu
+temporizat la închidere, normal deschis [[../poze/04044.png]]
+
+Alăturat este o diagramă de timp ce prezintă modul de funcţionare a
+contactelor acestui tip de releu temporizat.
+
+** Releu temporizat la deschidere, normal-deschis
+
+Asemenea releului precedent, şi acest dispozitiv este normal-deschis
+atunci când bobina este de-energizată. La aplicarea unui curent pe
+bobină, contactele releului se închid. Faţă de cazul precedent însă,
+temporizarea (întârzierea) are loc după de-energizarea bobine şi nu după
+energizarea ei. Datorită faptului că temporizarea are loc după
+de-energizarea bobinei, acest tip de contact mai poartă numele de normal
+deschis cu întârziere la revenire.
+
+#+CAPTION: releu temporizat la deschidere normal deschis
+[[../poze/04045.png]]
+
+Releul temporizat la deschidere, normal deschis, din figura alăturată se
+închide imediat după energizarea bobinei. Deschiderea contactelor are
+loc însă la cinci secunde după de-energizarea bobinei.
+
+#+CAPTION: diagrama timp de funcţionare a contactelor unui releu
+temporizat la deschidere, normal deschis [[../poze/04046.png]]
+
+Diagrama de timp în acest caz, este cea din figura alăturată.
+
+** Releu temporizat la deschidere, normal-închis
+
+#+CAPTION: releu temporizat la deschidere normal închis
+[[../poze/04047.png]]
+
+Acest tip de contact este normal închis atunci când bobina nu este
+energizată. Contactul se deschide la aplicarea unui curent prin bobină,
+dar doar după o anumită perioadă de timp. Cu alte cuvinte, direcţia de
+deplasare a contactului este identică cu a unui contact normal-închis,
+doar că există o temporizare în direcţia deschiderii acestuia. Datorită
+faptului că temporizarea are loc în direcţia energizării bobinei, acest
+contact mai poartă numele de contact normal închis cu acţionare
+întârziată.
+
+#+CAPTION: diagrama timp de funcţionare a contactelor unui releu
+temporizat la deschidere, normal închis [[../poze/04048.png]]
+
+** Releu temporizat la închidere, normal-închis
+
+#+CAPTION: releu temporizat la închidere normal închis
+[[../poze/04049.png]]
+
+Asemenea releului temporizat la deschidere normal-închis, acest tip de
+contact este normal-închis atunci când bobina nu este energizată.
+Deschiderea se realizează prin aplicarea unui curent prin bobina
+releului. Totuşi, la de-energizarea bobinei, contactele se închid cu o
+anumită întârziere de timp. Acest tip de contact mai poartă numele de
+contact normal închis cu întârziere la revenire.
+
+#+CAPTION: diagrama timp de funcţionare a contactelor unui releu
+temporizat la închidere, normal închis [[../poze/04050.png]]
+
+** Alte tipuri de relee temporizate
+
+Releele temporizate mecanice, mai vechi, utilizau amortizoare mecanice
+sau dispozitive cu pistoane/cilindrii umplute cu fluid pentru îtârzierea
+deplasării armăturilor. Modelele mai nou utilizează circuite electronice
+cu reţele rezistor-condensator pentru genererarea întârzierii.
+Energizarea (instantanee) a releului electromecanic se realizează cu
+ajutorul semnalului de ieşire al circuitului electronic. Aceste relee
+electronice sunt mai adaptabile decât variantele mecanice, şi mult mai
+durabile. Multe modele sunt capabile de efectuarea unor operaţii de
+temporizare avansate:
+
+#+CAPTION: releu temporizat normal-deschis cu o singură închidere
+[[../poze/04051.png]]
+
+Releu temporizat normal-deschis cu o singură închidere. Aceste relee se
+închid o singură dată, un anumit interval de timp şi apoi se re-deschid,
+la o tranziţie a intrării de la starea de-energizată la starea
+energizată.
+
+#+CAPTION: releu temporizat normal-deschis cu deschideri/închideri
+repetate [[../poze/04052.png]]
+
+Releu temporizat normal-deschis cu deschideri/închideri repetate. Acest
+releu se închide şi se deschide pentru un anumit interval de timp atâta
+timp cât bobina este energizată.
+
+#+CAPTION: releu temporizat de supraveghere [[../poze/04053.png]]
+
+Releu temporizat de supraveghere. Acest releu îşi schimbă starea în
+cazul în care semnalul de intrare nu variază continuu de la starea
+energizată la starea de-energizată.
+
+Această ultimă metodă de temporizare este utilă pentru monitorizarea
+sistemelor bazate pe calculatoare. Dacă se foloseşte un calculator
+pentru controlul unui proces critic, este recomandată de obicei
+instalarea unui sistem automat de alarmare în cazul în care calculatorul
+se blochează din diferite motive. O metodă relativ simplă de instalare a
+unui astfel de sistem constă în energizarea şi de-energizarea unei
+bobine prin intermediul unui semnal trimis de calculator. Dacă sistemul
+se blochează, semnalul de intrare pe releu nu se va mai modifica (se va
+bloca la ultima stare). La puţin timp după aceasta, contactul releului
+se va închide semnalizând o problemă.
+
+Sumar:
+
+-  Releele temporizate introduc o anumită întârziere de la momentul
+   energizării/de-energizării bobinei şi până la închiderea/deschiderea
+   contactelor.
+
+* 5. Relee semiconductoare
+
+Pe cât de utile sunt, releele electromecanice au totuşi multe
+inconveniente. Acestea sunt relativ scumpe, au o durată de viaţă a
+contactelor limitată, ocupă mult loc, iar timpii de comutaţie sunt mari
+în comparaţie cu dispozitivele semiconductoare moderne. Aceste limitări
+se aplică în special releelor de putere. Pentru a întâmpina aceste
+neajunsuri, mulţi producători oferă relee semiconductoare ce folosesc
+tiristori, triace sau tranzistori în loc de contactele mecanice.
+
+#+CAPTION: releu semiconductor [[../poze/04054.png]]
+
+Aceste dispozitive de ieşire (tiristori, triace, tranzistori) sunt
+cuplate optic la o sursă de lumină (LED) în interiorul releeului. Releul
+este pornit prin energizarea acestui LED, de obicei prin intermediul
+unei surse de tensiune de c.c. scăzute. Această izolare optică între
+intrare şi ieşire se ridică la nivelul celor mai bune relee
+electromecanice posibile.
+
+Fiind dispozitive semiconductoare, nu există părţi mobile care să se
+deterioreze la uzură. Timpii de comutaţie sunt mult mai mici decât
+viteza maximă posibilă de deplasare a armăturilor în cazul releelor
+mecanice. Nu există pericolul apariţiei arcelor electrice între contacte
+şi nici probleme corozive. Totuşi, aceste dispozitive semiconductoare
+sunt mai scumpe, mai ales pentru curenţi înalţi.
+
+Un avantaj important al releelor cu tiristoare. este tendinţa naturală
+de deschidere a contactelor, într-un circuit de c.a., doar la trecerea
+curentului prin zero. Histereza „naturală” a tiristoarelor menţine
+continutiatea circuitului chiar şi după de-energizarea LED-ului, până în
+momentul în care c.a. scade sub un anumit prag (curentul de menţinere).
+Practic, acest lucru înseamnă că circuitul nu se va întrerupe în
+mijlocul unei semi-perioade (atunci când valoarea curentului este
+maximă, de exemplu). O asemenea întrerupere într-un circuit cu o
+inductanţă mare, va produce în mod normal o creştere mare şi de scurtă
+durată tensiunii. Acest lucru se datorează „căderii” bruşte a câmpului
+magnetic din jurul inductanţei. Acest lucru nu are loc însă în cazul
+unul releu semiconductor echipat cu tiristori.
+
+Un dezavantaj al releelor semiconductoare este tendinţa de
+scurt-circuitare în caz de defect. Releele electromecanice tind să se
+deschidă la defect. Dintre cele două stări, deschiderea la defect este
+considerată mai sigură faţă de scurt-circuitarea la defect. Din acest
+motiv, în anumite aplicaţii, releele electromecanice sunt încă folosite
+în dauna celor semiconductoare.
+
+Sumar:
+
+-  
+-  
+
