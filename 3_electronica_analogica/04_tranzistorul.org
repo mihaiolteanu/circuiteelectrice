@@ -1,4 +1,4 @@
-* 1. Introducere
+* Introducere
 
 Un tranzistor bipolar cu joncţiune (BJT) este alcătuit din trei straturi
 de materiale semiconductoare, fie de tipul PNP, fie de tipul NPN.
@@ -55,7 +55,7 @@ Sumar:
 -  
 -  
 
-* 2. Tranzistorul pe post de întrerupător
+* Tranzistorul pe post de întrerupător
 
 Doarece curentul colectorului tranzistorului este limitat proporţional
 de curentul bazei, acesta poate fi folosit pe poste întrerupător
@@ -154,7 +154,7 @@ Sumar:
 -  Când curentul printr-un tranzistor este maxim, spunem că acesta este
    /saturat/
 
-* 3. Verificarea tranzistorului cu ohmmetrul
+* Verificarea tranzistorului cu ohmmetrul
 
 Tranzistorii se comportă precum două diode puse spate-în-spate atunci
 când sunt verificaţi cu ajutorul multimetrului pe post de ohmmetru sau
@@ -290,7 +290,7 @@ Sumar:
    mai puternic al emitorului. Acest lucru poate fi exploatat pentru
    identificarea tranzistorilor
 
-* 4. Zona activă de funcţionare a tranzistorului
+* Zona activă de funcţionare a tranzistorului
 
 Când baza nu este polarizată, şi prin urmare nu există curent între
 emitor şi colector, spunem că tranzistorul este /blocat/. Invers, când
@@ -461,7 +461,7 @@ Sumar:
 -  β variază pentru fiecare tranzistor în parte
 -  β variază pentru diferite condiţii de operare
 
-* 5. Amplificator cu tranzistor în conexiune emitor comun
+* Amplificator cu tranzistor în conexiune emitor comun
 
 Să reluăm exemplu studiat în secţiunile precedente, unde tranzistorul a
 fost folosit pe post de întrerupător:
@@ -783,7 +783,7 @@ Sumar:
    R_{intrare} reprezintă rezistorul conectat în serie cu baza
    tranzistorului
 
-* 6. Amplificator cu tranzistor în conexiune colector comun
+* Amplificator cu tranzistor în conexiune colector comun
 
 Configuraţa amplificatorului colector comun arată asfel:
 
@@ -991,7 +991,7 @@ Sumar:
    amplificare în curent rezultat este produsul dintre factorii de
    amplificare a fiecărui tranzistor din configuraţie
 
-* 7. Amplificator cu tranzistor în conexiune bază comună
+* Amplificator cu tranzistor în conexiune bază comună
 
 Această configuraţie este mai complexă decât celelalte două, emitor
 comun şi colector comun, şi este mai puţin folosită datorită
@@ -1106,7 +1106,7 @@ Sumar:
    tranzistor, poartă numele de factor alfa (α). Pentru orice
    tranzistor, factorul alfa este subunitar (mai mic decât 1)
 
-* 9. Amplificatoare clasa A, B, AB, C şi D
+* Amplificatoare clasa A, B, AB, C şi D
 
 După modul de reproducere la ieşire a formei de undă de la intrare,
 amplificatoarele pot fi împărţite pe /clase/. Aceaste clase sunt
@@ -1248,7 +1248,7 @@ Sumar:
    de amplificator este mare datorită puterii dispiate sub formă de
    căldură foarte scăzută
 
-* 10. Punctul static de funcţionare al tranzistorului
+* Punctul static de funcţionare al tranzistorului
 
 O stare de /repaus/ se caracterizează prin faptul că semnalul de intrare
 al circuitului este zero. /Curentul de repaus/, de exemplu, este
@@ -1355,7 +1355,7 @@ Sumar:
    află la jumătatea distanţei dintre punctul de blocare şi zona de
    saturaţie a dreptei de sarcină
 
-* 11. Metode de polarizare ale tranzistorului
+* Metode de polarizare ale tranzistorului
 
 Până în acest moment, am folosit o sursă de tensiune de curent continuu
 (baterie) conectată în serie cu semnalul de intrare în curent alternativ
@@ -1510,7 +1510,7 @@ Sumar:
    conectate în serie cu sursa de semnal de curent alternativ de la
    intrare
 
-* 13. Cuplajul de intrare şi cuplajul de ieşire
+* Cuplajul de intrare şi cuplajul de ieşire
 
 ** Cuplaj de intrare
 
@@ -1684,7 +1684,7 @@ Trebuie menţionat că /este/ posibilă cuplarea directă a
 amplificatoarelor. În cazurile în care circuitul trebuie să amplifice şi
 semnale de c.c., aceasta este singura alternativă.
 
-* 14. Amplificatoare cu reacţie
+* Amplificatoare cu reacţie
 
 Dacă un anumit procent din semnalul de ieşire al amplifiatorului este
 conectat la intrarea acestuia, asfel încât amplificatorul amplifică o
