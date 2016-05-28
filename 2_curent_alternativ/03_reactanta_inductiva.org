@@ -5,13 +5,15 @@ tensiunea şi curentul sunt în fază (unghiul de defazaj dintre ele este
 0^{o}):
 
 #+CAPTION: circuit de curent alternativ pur rezistiv - tensiunea şi
-#+CAPTION: curentul sunt în fază [[../poze/02053.png]]
+#+CAPTION: curentul sunt în fază
+[[../poze/02053.png]]
 
 Dacă trecem curentul şi tensiunea din circuitul de mai sus pe un grafic,
 acesta va arăta aproximativ asfel:
 
 #+CAPTION: graficul tensiunii şi al curentului în cazul unui circuit
-#+CAPTION: circuit de curent alternativ pur rezistiv [[../poze/02054.png]]
+#+CAPTION: circuit de curent alternativ pur rezistiv
+[[../poze/02054.png]]
 
 Deoarece rezistorul se opune pur şi simplu deplasării electronilor prin
 circuit în mod direct, în orice moment din timp, forma de undă a căderii
@@ -64,7 +66,8 @@ Matematic, relaţia dintre căderea de tensiune pe o bobină şi rata
 variaţiei curentului prin aceasta, se exprimă asfel:
 
 #+CAPTION: relaţia dintre căderea de tensiune pe o bobină şi rata
-#+CAPTION: variaţiei curentului prin aceasta [[../poze/12016.png]]
+#+CAPTION: variaţiei curentului prin aceasta
+[[../poze/12016.png]]
 
 Expresia /di/dt/ reprezintă derivata curentului cu timpul, adică rata de
 variaţia a curentului instantaneu (i) cu timpul, în amperi per secundă.
@@ -82,7 +85,8 @@ Graficul tensiunii şi al curentului în acest caz arată aproximativ
 asfel:
 
 #+CAPTION: graficul formelor de undă pentru un circuit electric pur
-#+CAPTION: inductiv simplu în curent alternativ [[../poze/02057.png]]
+#+CAPTION: inductiv simplu în curent alternativ
+[[../poze/02057.png]]
 
 Reţineţi faptul că valoarea căderii de tensiune pe bobină este în
 funcţie de /variaţia/ curentului prin aceasta. Prin urmare, tensiunea
@@ -98,13 +102,15 @@ defazată cu 90^{o} înaintea curentului, sau echivalent, curentul este
 defazat cu 90^{o} în urma tensiunii.
 
 #+CAPTION: graficul formelor de undă pentru un circuit electric pur
-#+CAPTION: inductiv simplu în curent alternativ - explicaţii [[../poze/02058.png]]
+#+CAPTION: inductiv simplu în curent alternativ - explicaţii
+[[../poze/02058.png]]
 
 Lucrurile devin şi mai interesante atunci când introducem şi forma de
 undă a puterii pe grafic:
 
 #+CAPTION: graficul formelor de undă pentru un circuit electric pur
-#+CAPTION: inductiv simplu în curent alternativ [[../poze/02059.png]]
+#+CAPTION: inductiv simplu în curent alternativ
+[[../poze/02059.png]]
 
 Deoarece puterea instantanee reprezintă produsul dintre tensiunea şi
 curentul instantaneu (p=ie), puterea este egală cu zero atunci când
@@ -208,8 +214,10 @@ două unde este de 90^{o}. Dacă reprezentăm aceste unghiuri de fază
 matematic, sub forma numerelor complexe, observăm că opoziţia unei
 bobine faţă de curent posedă şi un unghi al fazei:
 
-#+CAPTION: formule [[../poze/12019.png]] #+CAPTION: curentul este în
-#+CAPTION: urma tensiunii în cazul bobinei [[../poze/02061.png]]
+#+CAPTION: formule
+[[../poze/12019.png]] #+CAPTION: curentul este în
+#+CAPTION: urma tensiunii în cazul bobinei
+[[../poze/02061.png]]
 
 Matematic, spunem că unghiul de fază a opoziţiei bobinei faţă de curent
 este de 90^{o}, ceea ce înseamnă o mărime imaginară pozitivă. Acest
@@ -262,7 +270,8 @@ de /impedanţă/, iar simbolul lui este „Z”; unitatea de măsură este de
 asemenea ohm-ul, la fel ca şi a rezistenţei şi a reactanţei. În exemplul
 de mai sus, impedanţa totală a circuitului este:
 
-#+CAPTION: formule [[../poze/12020.png]]
+#+CAPTION: formule
+[[../poze/12020.png]]
 
 Relaţia dintre impedanţă, curent şi tensiune este similară rezistenţei
 din legea lui Ohm:
@@ -282,7 +291,8 @@ Pentru aflarea valorii curentului în circuitul de mai sus, trebuie mai
 întâi să impunem o referinţa pentru unghiul de fază a sursei de
 tensiune, iar în mod normal, aceasta se presupune a fi zero.
 
-#+CAPTION: formule [[../poze/12022.png]]
+#+CAPTION: formule
+[[../poze/12022.png]]
 
 La fel ca şi în cazul circuitelor pur inductive, curentul este defazat
 în urma tensiunii (sursei), cu toată că de data aceasta defazajul nu
@@ -299,13 +309,15 @@ acesta sunt in fază (defazaj de 0^{o}), iar defazajul dintre tensiune şi
 curent în cazul bobinei este de +90^{o}. Putem verifica matematic acest
 lucru:
 
-#+CAPTION: formule [[../poze/12023.png]]
+#+CAPTION: formule
+[[../poze/12023.png]]
 
 În formula de mai sus Z_{R} semnifică impedanţa rezistivă, şi este
 acelaşi lucru cu rezistenţa. Tensiunea şi curentul prin rezistor sunt în
 fază, adică au acelaşi unghiu de fază.
 
-#+CAPTION: formule [[../poze/12024.png]]
+#+CAPTION: formule
+[[../poze/12024.png]]
 
 Tensiunea la bornele bobinei are un unghiu de fază de 52.984^{o} (faţă
 de unghiul de fază de referinţă, 0^{o}), iar curentul prin bobina are un
@@ -317,7 +329,8 @@ Putem de asemenea să demonstrăm matematic că rezultatul sumei acestor
 valori complexe este tensiunea totală, aşa cum rezultă din aplicarea
 legii lui Kirchhoff:
 
-#+CAPTION: formule [[../poze/12025.png]]
+#+CAPTION: formule
+[[../poze/12025.png]]
 
 *** Aplicarea metodei tabelului
 
@@ -327,7 +340,8 @@ va conţine valorile pentru tensiune (E), curent (I) şi impedanţă (Z)
 pentru fiecare component în parte. Nu vom insera valorile propriu-zise
 ale rezistenţei şi inductanţei în ohm sau Henry, ci forma lor complexă:
 
-#+CAPTION: tabel [[../poze/12028.png]]
+#+CAPTION: tabel
+[[../poze/12028.png]]
 
 Deşi nu este neapărat necesar, este folositor să trecem atât forma
 rectangulară (x + jy) cât şi pe cea polară (x ∠y) în fiecare tabel. Dacă
@@ -344,13 +358,15 @@ acesta este un circuit serie, ştim că opoziţia faţă de curgerea
 electronilor (rezistenţă /sau/ impedanţă) este aditivă, iar rezultatul
 îl reprezintă opoziţia totală:
 
-#+CAPTION: tabel [[../poze/12029.png]]
+#+CAPTION: tabel
+[[../poze/12029.png]]
 
 Acum, după ce tensiunea şi impedanţa totală ne sunt cunoscute, putem
 aplica legea lui Ohm (I=E/Z) pentru determinarea curentului total din
 circuit:
 
-#+CAPTION: tabel [[../poze/12030.png]]
+#+CAPTION: tabel
+[[../poze/12030.png]]
 
 La fel ca în cazul circuitelor de curent continuu, curentul total
 într-un circuit de curent alternativ /serie/ este acelaşi prin oricare
@@ -361,13 +377,15 @@ uniformă în întreg circuitul. Prin urmare, putem trece valorile
 curentului total pentru fiecare component în parte (rezistor şi bobină)
 în tabel:
 
-#+CAPTION: tabel [[../poze/12031.png]]
+#+CAPTION: tabel
+[[../poze/12031.png]]
 
 Acum, tot ceea ce mai avem de făcut este să completăm căderea de
 tensiune pe rezistor şi pe bobină. Aflarea acestor valori se realizează
 folosind legea lui Ohm (E=IZ), aplicată pe fiecare coloană a tabelului:
 
-#+CAPTION: tabel [[../poze/12032.png]]
+#+CAPTION: tabel
+[[../poze/12032.png]]
 
 Tabelul este acum complet. De observat că am aplicat exact aceleaşi
 reguli ca şi în analiza circuitelor electrice în curent continuu, cu
@@ -451,7 +469,8 @@ rezistenţei şi inductanţei, acestea trebuie sa aibă aceleaşi valori ale
 impedanţei. Prin urmare, începem completarea tabelului cu aceleaşi
 valori date:
 
-#+CAPTION: tabel [[../poze/12028.png]]
+#+CAPTION: tabel
+[[../poze/12028.png]]
 
 Singura diferenţă faţă de cazul precedent, este că de data aceasta vom
 aplica regulile circuitelor paralele, şi nu cele ale circuitelor serie.
@@ -460,18 +479,21 @@ curent continuu. Cunoaştem faptul că tensiunea este aceeiaşi pe toate
 componentele într-un circuit paralel, aşa că putem copleta toate
 coloanele cu aceeiaşi valoare a tensiunii:
 
-#+CAPTION: tabel [[../poze/12033.png]]
+#+CAPTION: tabel
+[[../poze/12033.png]]
 
 Acum putem aplica legea lui Ohm (I=E/Z) vertical pentru cele două
 coloane, calculând curentul prin rezistor şi curentul prin bobină:
 
-#+CAPTION: tabel [[../poze/12034.png]]
+#+CAPTION: tabel
+[[../poze/12034.png]]
 
 La fel ca în cazul circuitelor de curent continuu, curenţii de ramură în
 circuitele de curent alternativ se însumează pentru a forma curentul
 total (legea lui Kirchhoff pentru curent este valabilă şi în acest caz):
 
-#+CAPTION: tabel [[../poze/12035.png]]
+#+CAPTION: tabel
+[[../poze/12035.png]]
 
 Impedanţa totală poate fi calculată folosind legea lui Ohm (Z=E/I)
 vertical pe coloana „Total”. Impedanţa totală poate fi calculată, de
@@ -483,7 +505,8 @@ calcularea rezistenţei totale paralele:
 
 Indiferent ce motodă folosim, rezultatul este acelaşi:
 
-#+CAPTION: tabel [[../poze/12037.png]]
+#+CAPTION: tabel
+[[../poze/12037.png]]
 
 Sumar:
 

@@ -4,14 +4,16 @@
 cap şi formează o singură cale pentru curgerea electronilor prin
 circuit:
 
-#+CAPTION: circuit serie [[../poze/00082.png]]
+#+CAPTION: circuit serie
+[[../poze/00082.png]]
 
 În cazul circuitelor parale simple, toate conponentele sunt legate
 legate între acelaşi set de puncte comune din punct de vedere electric,
 formându-se asfel mai multe căi pentru curgerea electronilor de la un
 capăt la celălalt al bateriei:
 
-#+CAPTION: circuit serie [[../poze/00083.png]]
+#+CAPTION: circuit serie
+[[../poze/00083.png]]
 
 În ambele cazuri, avem de a face cu anumite seturi specifice de reguli
 pentru relaţiile dintre tesiune, curent şi rezistenţă. (notă: vezi
@@ -24,8 +26,10 @@ constituentă. În schimb, vom încerca identificarea părţilor serie din
 circuit şi a părţilor paralele, ca mai apoi să aplicăm regulile necesare
 în funcţie de tipul circuitului. Să vedem un exemplu:
 
-#+CAPTION: circuit serie-paralel combinat [[../poze/00123.png]]
-#+CAPTION: tabel [[../poze/10126.png]]
+#+CAPTION: circuit serie-paralel combinat
+[[../poze/00123.png]]
+#+CAPTION: tabel
+[[../poze/10126.png]]
 
 Acesta nu este nici un circuit serie simplu nici unul paralel simplu, ci
 conţine elementele din ambele tipuri. Curentul iese prin partea de jos a
@@ -98,8 +102,10 @@ Strategia generală pentru atingerea acestui scop este următoarea:
 Deşi sună destul de complicat, vom înţelege întreg procesul mult mai
 uşor dacă luăm un exemplu practic:
 
-#+CAPTION: circuit serie-paralel combinat [[../poze/00123.png]]
-#+CAPTION: tabel [[../poze/10126.png]]
+#+CAPTION: circuit serie-paralel combinat
+[[../poze/00123.png]]
+#+CAPTION: tabel
+[[../poze/10126.png]]
 
 În exemplul de mai sus, rezistorii R_{1} şi R_{2} sunt conectaţi în
 paralel; la fel şi R_{3} cu R_{4}. Pentru că am identificat aceast tip
@@ -107,7 +113,8 @@ de conecţiune ca fiind una paralelă, putem înlocui fiecare din cele două
 combinaţii printr-o singură rezistenţă echivalentă. Circuitul redesenat
 arată asfel:
 
-#+CAPTION: circuit electric [[../poze/00124.png]]
+#+CAPTION: circuit electric
+[[../poze/00124.png]]
 
 Simbolul (//) este folosit pentru a reprezentă faptul că valoarea celor
 două rezistoare a fost obţinută cu ajutorul formule 1/(1/R). Rezistorul
@@ -118,7 +125,8 @@ doi rezistori R_{3} şi R_{4} legaţi în paralel.
 Tabelul valorilor poate fi mărit cu două coloane pentru a include şi
 valorile acestori doi rezistori echivalenţi:
 
-#+CAPTION: tabel [[../poze/10127.png]]
+#+CAPTION: tabel
+[[../poze/10127.png]]
 
 Ar trebui să devină aparent că circuitul a fost redus la o configuraţie
 serie simplă ce conţine doar doi rezistori (echivalenţi). Pasul final în
@@ -130,26 +138,30 @@ Adăugăm, de asemenea, încă o coloană în tabel. Notaţia coloanei este
 al rezistenţelor în circuit. Simbolul „--” reprezintă conexiune „serie”,
 iar simbolul „//” reprezintă conexiune „paralel”.
 
-#+CAPTION: circuit electric [[../poze/00125.png]] #+CAPTION: tabel
+#+CAPTION: circuit electric
+[[../poze/00125.png]] #+CAPTION: tabel
 [[../poze/10128.png]]
 
 În acest moment putem folosi legea lui Ohm (I=E/R) pentru determinarea
 curentului total prin circuit şi completarea coloanei corespunzătoare
 din tabel:
 
-#+CAPTION: tabel [[../poze/10129.png]]
+#+CAPTION: tabel
+[[../poze/10129.png]]
 
 Reîntorcându-ne la diagrama circuitului, valoarea totală a curentului
 este momentan singura ce apare pe desen:
 
-#+CAPTION: circuit electric [[../poze/00126.png]]
+#+CAPTION: circuit electric
+[[../poze/00126.png]]
 
 Acum putem începe să ne re-întoarcem la paşii anteriori în simplificarea
 circuitului spre configuraţia originală. Pasul următor este să ne
 întoarcem la circuitul în care R_{1}//R_{2} şi R_{3}//R_{4} sunt în
 serie:
 
-#+CAPTION: circuit electric [[../poze/00127.png]]
+#+CAPTION: circuit electric
+[[../poze/00127.png]]
 
 Din moment ce R_{1}//R_{2} şi R_{3}//R_{4} sunt în serie, curentul prin
 ambele seturi de rezistenţe echivalente este acelaşi. Mai mult decât
@@ -158,13 +170,15 @@ curentului total; putem completa coloana curent total din tabel cu
 valoarea curentului total pentru fiecare din cele două grupuri de
 rezistenţe echivalente:
 
-#+CAPTION: tabel [[../poze/10130.png]]
+#+CAPTION: tabel
+[[../poze/10130.png]]
 
 Cunoscând curentul prin rezistenţele echivalente R_{1}//R_{2} şi
 R_{3}//R_{4}, putem aplica legea lui Ohm (E=IR) pentru aflarea căderilor
 de tensiune pentru fiecare grup în parte, completând şi tabelul:
 
-#+CAPTION: circuit electric [[../poze/00128.png]] #+CAPTION: tabel
+#+CAPTION: circuit electric
+[[../poze/00128.png]] #+CAPTION: tabel
 [[../poze/10131.png]]
 
 Deoarece ştim că R_{1}//R_{2} şi R_{3}//R_{4} sunt defapt conexiuni
@@ -173,7 +187,8 @@ sunt egale. Cu alte cuvinte, putem să mai facem un pas înapoi spre
 configuraţia iniţială a circuitului şi să completăm tabelul cu valorile
 calculate:
 
-#+CAPTION: circuit electric [[../poze/00129.png]] #+CAPTION: tabel
+#+CAPTION: circuit electric
+[[../poze/00129.png]] #+CAPTION: tabel
 [[../poze/10132.png]]
 
 Secţiune originală a tabelului pentru rezistori este acum completată
@@ -181,12 +196,14 @@ Secţiune originală a tabelului pentru rezistori este acum completată
 rămase necompletate (I=E/R), putem determina valorile prin R_{1}, R_{2},
 R_{3} şi R_{4}:
 
-#+CAPTION: tabel [[../poze/10133.png]]
+#+CAPTION: tabel
+[[../poze/10133.png]]
 
 Circuitul iniţial cu toate valorile tensiunilor, curenţilor şi a
 rezistenţelor arată asfel:
 
-#+CAPTION: circuit electric [[../poze/00130.png]]
+#+CAPTION: circuit electric
+[[../poze/00130.png]]
 
 Sumar:
 

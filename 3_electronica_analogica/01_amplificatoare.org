@@ -45,7 +45,8 @@ acelaşi rol ca şi un tub cu vid, dar ocupă un loc mult mai mic şi este
 mult mai ieftin. Tranzistorii realizează controlul curentului cu
 ajutorul materialelor /semiconductoare/ şi nu prin vid.
 
-#+CAPTION: efectul Edison [[../poze/03375.png]]
+#+CAPTION: efectul Edison
+[[../poze/03375.png]]
 
 Sumar:
 
@@ -74,7 +75,8 @@ controlul curentului în cauză sunt cunoscute sub numele de dispozitive
 /controlate în curent/. Tuburile cu vid sunt dispozitive controlate în
 tensiune iar tranzistoarele pot fi de ambele tipuri.
 
-#+CAPTION: [[../poze/00000.png]]
+#+CAPTION:
+[[../poze/00000.png]]
 
 Sumar:
 
@@ -106,7 +108,8 @@ electrice şi electronice, au o eficienţă maximă de 100%. În cele mai
 fericite cazuri, puterea de intrare este egală cu puterea de ieşire:
 
 #+CAPTION: eficienţa unei maşini ideale este de 100%, dar nu poate fi
-#+CAPTION: mai mare de atât [[../poze/03165.png]]
+#+CAPTION: mai mare de atât
+[[../poze/03165.png]]
 
 În realitate însă, de cele mai multe ori, maşinile nu ating nici măcar
 această limită superioară, deoarece o parte din energia de intrare se
@@ -114,7 +117,8 @@ pierde sub formă de căldură radiată în spaţiul din jur, iar această
 energie pierdută nu se regăseşte în valoarea energiei de ieşire.
 
 #+CAPTION: eficienţa unei maşini reale este sub 100%, datorită
-#+CAPTION: pierderilor sub formă de căldură [[../poze/03166.png]]
+#+CAPTION: pierderilor sub formă de căldură
+[[../poze/03166.png]]
 
 Au existat numeroase încercări, fără succes însă, de a proiecta şi
 construi o maşină a cărei putere de ieşire să fie mai mare decât puterea
@@ -187,7 +191,8 @@ tensiune alternativă efectivă de 2 V, iar la ieşire avem o tensiune
 alternativă efectivă de 30 V, spunem că factorul de amplificare în
 tensiune al amplificatorului este de 15, adică 30 împărţit la 2.
 
-#+CAPTION: calcule matematice [[../poze/13025.png]]
+#+CAPTION: calcule matematice
+[[../poze/13025.png]]
 
 Prin aceeiaşi metodă, dacă ştim factorul de amplificare şi amplitudinea
 semnalului de intrare, putem calcula amplitudinea semnalului de ieşire.
@@ -195,7 +200,8 @@ De exemplu, dacă un amplificator cu un factor de amplificare în curent
 alternativ de 3.5, are la intrare un semnal de 28 mA efectiv, semnalul
 de ieşire va fi 98 mA efectiv, sau 3.5 * 28 mA.
 
-#+CAPTION: calcule matematice [[../poze/13026.png]]
+#+CAPTION: calcule matematice
+[[../poze/13026.png]]
 
 În exemplele de mai sus, toate semnalele şi amplificările au fost
 considerate în curent alternativ. Trebuie menţionat un principiu
@@ -237,7 +243,8 @@ semnal pierdută datorită rezistenţei pe o anumită lungime de conductor
 electric. Acum, acesta este definit ca logaritm din baza zece a
 raportului dintre semnalul de ieşire şi cel de intrare:
 
-#+CAPTION: formula de calcul pentru bel [[../poze/13028.png]]
+#+CAPTION: formula de calcul pentru bel
+[[../poze/13028.png]]
 
 Deoarece bel-ul este o unitate logaritmică, acesta este ne-liniar. Să
 considerăm următorul tabel, ca şi o comparaţie între pierderile de

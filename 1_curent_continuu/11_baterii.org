@@ -14,7 +14,8 @@ electrică implică mişcarea electronilor, iar identitatea chimică (ce
 determină în mare tipul de material: coductiv/izolator) este determinată
 de numărul protonilor din nucleu.
 
-#+CAPTION: structura atomului [[../poze/00006.png]]
+#+CAPTION: structura atomului
+[[../poze/00006.png]]
 
 Dislocarea protonilor din nucleul atomului este foarte greu de realizat,
 de aici şi stabilitatea identităţii chimice a atomilor în general.
@@ -28,7 +29,8 @@ Această legare a atomilor prin intermediul electronilor poartă numele de
 /legătură chimică/. O reprezentare simplificată a unei asemenea legături
 dintre doi atomi arată asfel:
 
-#+CAPTION: legătură chimică între doi atomi [[../poze/00257.png]]
+#+CAPTION: legătură chimică între doi atomi
+[[../poze/00257.png]]
 
 Există mai multe tipuri de legături chimice, cea de sus fiind una
 /covalentă/, caracterizată prin împărţirea electronilor de către atomi.
@@ -78,7 +80,8 @@ introduşi într-o substanţă chimică denumită /electrolit/ special
 concepută pentru facilitarea unei asfel de reacţii electrochimice
 (oxidare/reducere):
 
-#+CAPTION: pilă voltaică [[../poze/00258.png]]
+#+CAPTION: pilă voltaică
+[[../poze/00258.png]]
 
 Pila folosită pentru automobile este de obicei cea de „plumb-acid”.
 Electrodul negativ este confecţionat din plumb (Pb), iar cel pozitiv din
@@ -98,7 +101,8 @@ prin disociaţia ionilor de hidrogen (H^{+}) din acidul sulfuric
 electronilor dinspre electrodul de plumb îi conferă sarcina electrică
 negativă. Aceste reacţii sunt reprezentate mai jos:
 
-#+CAPTION: descărcarea pilei de plumb-acid [[../poze/00259.png]]
+#+CAPTION: descărcarea pilei de plumb-acid
+[[../poze/00259.png]]
 
 Acest proces prin care pila produce energie pentru alimentarea sarcinii
 se numeşte /descărcare/ şi provine de la faptul ca aceasta îşi epuizează
@@ -138,7 +142,8 @@ readusă la starea iniţială se numeşte /pilă primară/.
 Încărcarea unei pile de plumb-acid printr-o sursă de curent externă duce
 la inversarea reacţiilor chimice din interiorul acesteia:
 
-#+CAPTION: încărcarea pilei de plumb-acid [[../poze/00393.png]]
+#+CAPTION: încărcarea pilei de plumb-acid
+[[../poze/00393.png]]
 
 Sumar:
 
@@ -155,12 +160,14 @@ mari decât este posibil cu doar o singură pilă.
 Simbolul unei pile constă din două linii paralele, una mai scurtă şi una
 mai lungă, conectate la capete cu câte un fir:
 
-#+CAPTION: simbolul electric al pilei [[../poze/00260.png]]
+#+CAPTION: simbolul electric al pilei
+[[../poze/00260.png]]
 
 În aceeiaşi ordine de idei, simbolul bateriei constă din mai multe pile
 conectate în serie:
 
-#+CAPTION: simbolul electric al bateriei [[../poze/00261.png]]
+#+CAPTION: simbolul electric al bateriei
+[[../poze/00261.png]]
 
 După cum am mai spus, tensiunea produsă de un anumita tip de pilă
 depinde doar de compoziţia ei chimică, mărimea pilei este irelevantă în
@@ -171,7 +178,8 @@ plumb-acid instalată pe un automobil generează o tensiune nominală de
 12.0 V (6 x 2.0 V):
 
 #+CAPTION: conectarea pilelor în serie pentru generarea unei tensiuni
-#+CAPTION: mai mari [[../poze/00262.png]]
+#+CAPTION: mai mari
+[[../poze/00262.png]]
 
 Ca şi convenţie, simbolul bateriei este desenat de obicei cu doar patru
 linii lungi/scurte, chiar dacă bateria reală este compusă din mai mult
@@ -230,7 +238,8 @@ Dacă totuşi avem nevoie de o baterie cu rezistenţă internă mult mai mică
 mai multe pile în paralel:
 
 #+CAPTION: conectarea pilelor în paralel pentru o rezistenţă internă mai
-#+CAPTION: mică [[../poze/00265.png]]
+#+CAPTION: mică
+[[../poze/00265.png]]
 
 Circuitul Thevenin echivalent al celor cinci pile în paralel este un
 circuit cu o singură sursă de tensiune şi un rezistor în serie. Acest
@@ -379,7 +388,8 @@ Alternativ, pilele cu mercur erau cunoscute si sub numele de pile cu
 cadmium sau pile Weston. Structura unei astfel de pile este prezentată
 în figura de mai jos:
 
-#+CAPTION: pilă standard cu mercur [[../poze/00270.png]]
+#+CAPTION: pilă standard cu mercur
+[[../poze/00270.png]]
 
 Din păcate, pilele cu mercur sunt intolerante la „scurgerile” de curent
 şi nu pot fi măsurate cu un voltmetru analogic fără a compromite
@@ -425,7 +435,8 @@ poate produce o deplasare de electroni între doi electrozi asemănător
 unei combinaţii de metale şi electroliţi. O pilă de combustie este
 practic o baterie alimentată de la o sursă externă de energie chimică:
 
-#+CAPTION: pilă de combustie hidrogen-oxigen [[../poze/00271.png]]
+#+CAPTION: pilă de combustie hidrogen-oxigen
+[[../poze/00271.png]]
 
 Pe măsură ce „arde” hidrogen, singurele emisii ale unei pile de
 combustie sunt apă şi o cantitate mică de căldură. Eficienţa
@@ -443,7 +454,8 @@ Eficienţa celulelor solare este destul de mică, dar beneficiile
 utilizării acesteia ca şi sursă de energie sunt nenumărate: nu există
 părţi mobile, zgomot, poluare sau emisii şi o viaţa practic infinită:
 
-#+CAPTION: celulă solară [[../poze/00272.png]]
+#+CAPTION: celulă solară
+[[../poze/00272.png]]
 
 ** Pila chimică de detecţie
 
@@ -473,7 +485,8 @@ la caracteristicile fiecărei baterii, pentru a nu cauza probleme.
 Să luăm pentru început cazul conectării bateriilor în serie pentru
 obţinerea unei tensiuni mai mari:
 
-#+CAPTION: conectarea bateriilor în serie [[../poze/00273.png]]
+#+CAPTION: conectarea bateriilor în serie
+[[../poze/00273.png]]
 
 Cunoaştem faptul că valoarea curentului într-un circuit serie este
 aceiaşi în toate punctele. Oricare ar fi valoarea curentului în circuit,
@@ -490,7 +503,8 @@ Să luăm cazul conectării bateriilor în paralel pentru creşterea
 curentului în circuit (rezistenţă înternă mai mică), sau creşterea
 capacităţii amper-oră:
 
-#+CAPTION: conectarea bateriilor în paralel [[../poze/00274.png]]
+#+CAPTION: conectarea bateriilor în paralel
+[[../poze/00274.png]]
 
 Cunoaştem faptul că într-un circuit paralel, căderea de tensiune este
 egală pe toate ramurile. Trebuie să ne asigurăm aşadar că tensiunea

@@ -15,7 +15,8 @@ tensiuni sau de modificarea direcţiei de deplasare a electronilor
 înainte şi înapoi, acest gen de electricitatea poartă denumirea de
 curent alternativ:
 
-#+CAPTION: curent continuu vs. curent alternativ [[../poze/02001.png]]
+#+CAPTION: curent continuu vs. curent alternativ
+[[../poze/02001.png]]
 
 Deşi simbolul bateriei este folosit pentru a reprezenta orice sursă de
 curent continuu, în cazul curentului alternativ, simbolul unei surse
@@ -178,7 +179,8 @@ Datorită modului de producere al energiei electrice, unda produsă de
 modificarea continuă a polarităţii tensiunii, respectiv direcţiei
 curentului, are o formă /sinusoidală/:
 
-#+CAPTION: formă de undă sinusoidală [[../poze/02008.png]]
+#+CAPTION: formă de undă sinusoidală
+[[../poze/02008.png]]
 
 Graficul tensiunii cu timpul pentru un generator electric electromecanic
 ne arată o modificare netedă a polarităţii (dinspre + spre - sau
@@ -249,7 +251,8 @@ alternative produse de circuitele electronice. Mai jos sunt câteva
 exemple:
 
 #+CAPTION: exemple de formă de undă: dreptunghiulară, triunghiulară,
-#+CAPTION: dinte de fierăstrău [[../poze/02010.png]]
+#+CAPTION: dinte de fierăstrău
+[[../poze/02010.png]]
 
 Acestea nu sunt însă singurele tipuri de forme de undă existente, ci
 doar câteva dintre cele mai comune. Chiar şi circuitele considerate
@@ -286,14 +289,16 @@ grafic. Aceasta este denumită /valoarea de vârf/ a unei unde
 alternative:
 
 #+CAPTION: măsurarea tensiunii de vârf pe grafic în cazul unei forme de
-#+CAPTION: undă alternative [[../poze/02011.png]]
+#+CAPTION: undă alternative
+[[../poze/02011.png]]
 
 O altă metodă constă în măsurarea înălţimii totale a forme de undă,
 între cele două vârfuri, valoare ce poartă numele de /amplitudine vârf
 la vârf/:
 
 #+CAPTION: măsurarea amplitudinii vârf la vârf pe grafic în cazul unei
-#+CAPTION: forme de undă alternative [[../poze/02012.png]]
+#+CAPTION: forme de undă alternative
+[[../poze/02012.png]]
 
 Din păcate, ambele modalităţi de calculare a amplitudinii undei
 alternative sunt puţin folositoare atunci când vrem să facem o
@@ -331,7 +336,8 @@ orizontală:
 
 #+CAPTION: valoarea medie practică a tuturor punctelor de pe graficul
 unei forme de undă sinusoidală, considerând toate punctele de pe grafic
-#+CAPTION: ca fiind pozitive [[../poze/02413.png]]
+#+CAPTION: ca fiind pozitive
+[[../poze/02413.png]]
 
 *** Valoarea efectivă a tensiunii sau a curentului (RMS)
 
@@ -348,7 +354,8 @@ realiza aceeiaşi operaţie. Comparaţia dintre cele două tipuri de mişcări
 este analoagă comparaţiei dintre curentul continuu şi cel alternativ:
 
 #+CAPTION: analogie între fierăstră circular (curent continuu) şi
-#+CAPTION: fierăstrău pendular (vertical)(curent alternativ) [[../poze/02014.png]]
+#+CAPTION: fierăstrău pendular (vertical)(curent alternativ)
+[[../poze/02014.png]]
 
 Problema descrierii variaţiei valorilor prezente în curent alternativ
 într-o singură componentă, este prezentă şi în acest caz al analogiei:
@@ -431,7 +438,8 @@ valorii efective ale acestora:
 
 #+CAPTION: coeficienţi pentru calcularea relaţiei dintre valorile de
 vârf, vârf la vârf, medii practice şi valorii efective pentru formele de
-#+CAPTION: undă sinusoidale, dreptunghiulare şi triunghiulare [[../poze/02016.png]]
+#+CAPTION: undă sinusoidale, dreptunghiulare şi triunghiulare
+[[../poze/02016.png]]
 
 Pe lângă aceşti coeficienţi, mai există şi alte modalităţi de exprimare
 a proporţionalităţii între formele de undă fundamentale. /Factorul de
@@ -453,7 +461,8 @@ distorsionate:
 
 #+CAPTION: pentru o formă de undă distorsionată nu putem folosi aceeiaşi
 coeficienţi pentru calcularea relaţiei dintre valorile de vârf, vârf la
-#+CAPTION: vârf, medii şi efective [[../poze/02017.png]]
+#+CAPTION: vârf, medii şi efective
+[[../poze/02017.png]]
 
 Sumar:
 
@@ -501,7 +510,8 @@ a opoziţiei faţă de acesta. Pentru că acesta este însă un circuit pur
 rezistiv, complexităţile circuitelor de curent alternativ nu afectează
 rezolvarea lui.
 
-#+CAPTION: tabel [[../poze/12004.png]]
+#+CAPTION: tabel
+[[../poze/12004.png]]
 
 Un singur lucru foarte important trebuie ţinut minte: toate mărimile
 folosite în curent alternativ trebuiesc exprimate folosind aceeiaşi
@@ -544,7 +554,8 @@ valoarea defazajului dintre cele două unde:
 
 #+CAPTION: folosirea axei orizontale gradate de la 0 la 360 de grade
 pentru vizualizarea defazajului dintre două forme de undă sinusoidale -
-#+CAPTION: defazaj de 45 de grade [[../poze/02020.png]]
+#+CAPTION: defazaj de 45 de grade
+[[../poze/02020.png]]
 
 Defazajul (diferenţa de fază) dintre cele două forme de undă este de 45
 de grade, unda A fiind înaintea undei B. O comparaţie între defazaje
@@ -646,7 +657,8 @@ câmp electric sau magnetic dispersi. Cele două tipuri fundamentale de
 antene sunt /antena dipol/ şi /antena cadru/, prezentate în figura de
 mai jos:
 
-#+CAPTION: tipuri de antenă (dipol şi cadru) [[../poze/02023.png]]
+#+CAPTION: tipuri de antenă (dipol şi cadru)
+[[../poze/02023.png]]
 
 Deşi cele două tipuri de antene nu sunt altceva decât un circuit deschis
 (dipol), respecitv un scurt-circuit (cadru), aceşti conductori
@@ -681,7 +693,8 @@ electromagnetice şi să transforme energie lor în tensiunea şi curent
 alternativ. În acest mod de funcţionare, antena joacă rolul unui
 dispozitiv de recepţie:
 
-#+CAPTION: radioemiţători şi radioreceptori [[../poze/02024.png]]
+#+CAPTION: radioemiţători şi radioreceptori
+[[../poze/02024.png]]
 
 Sumar:
 

@@ -17,7 +17,8 @@ această cauză. După ce condensatorul a atins valoarea maximă a tensiunii
 sursei, încetează să mai tragă curent de la această, şi se comportă
 practic precum un circuit deschis.
 
-#+CAPTION: circuit RC [[../poze/00330.png]]
+#+CAPTION: circuit RC
+[[../poze/00330.png]]
 
 Atunci când întrerupător este închis prima dată, tensiunea la bornele
 condensatorului (considerat complet descărcat) este de zero volţi; de
@@ -32,7 +33,8 @@ Odată atinsă tensiunea bateriei de către condensator (15 V), curentul va
 fi exact zero.
 
 #+CAPTION: circuit RC - graficul variaţiei tensiunii condensatorului cu
-#+CAPTION: timpul [[../poze/00331.png]] **
+#+CAPTION: timpul
+[[../poze/00331.png]] **
 
 #+BEGIN_EXAMPLE
     ------------------------------------------------
@@ -93,7 +95,8 @@ circuit, iar tensiunea scade spre zero. Odată atinsă valoarea de zero
 volţi (pentru o bobină ideală), curentul rămâne la nivelul maxim, iar
 bobina se va comporta asemenea unui scurt circuit.
 
-#+CAPTION: circuit RL [[../poze/00332.png]]
+#+CAPTION: circuit RL
+[[../poze/00332.png]]
 
 La închiderea întrerupătorului, căderea de tensiune pe bobină sare
 direct la valoarea tensiunii bateriei (precum un circuit deschis) şi
@@ -109,7 +112,8 @@ circuitul RC (rezistor-condensator), unde curentul iniţial a fost maxim
 iar tensiunea pe condensator zero.
 
 #+CAPTION: raspunsul timp-tensiune al bobinei la conectarea unei surse
-#+CAPTION: de tensiune la bornele sale într-un circuit RL [[../poze/00333.png]] **
+#+CAPTION: de tensiune la bornele sale într-un circuit RL
+[[../poze/00333.png]] **
 
 #+BEGIN_EXAMPLE
     ---------------------------------------------
@@ -194,23 +198,27 @@ aceste valori se situează cu 63% mai aproape de valoarea lor finală.
 Formula matematică pentru determinarea precisă a procentelor variaţiei
 este următoarea:
 
-#+CAPTION: formulă [[../poze/10241.png]]
+#+CAPTION: formulă
+[[../poze/10241.png]]
 
 Litera /e/ este constanta lui Euler, aproximativ 2.7182818. La formula
 de mai sus s-a ajuns cu ajutorul analizei matematice, după analiza
 asimptotică a valorilor circuitului. După un timp egal cu o constantă de
 timp, procentul variaţiei faţă de valoarea iniţială este de:
 
-#+CAPTION: formulă [[../poze/10242.png]]
+#+CAPTION: formulă
+[[../poze/10242.png]]
 
 După o perioadă de două constante de timp, procentul variaţiei faţă de
 valoarea iniţială este:
 
-#+CAPTION: formulă [[../poze/10243.png]]
+#+CAPTION: formulă
+[[../poze/10243.png]]
 
 După zece constante de timp:
 
-#+CAPTION: formulă [[../poze/10244.png]]
+#+CAPTION: formulă
+[[../poze/10244.png]]
 
 Cu cât perioada de timp de la aplicarea tensiunii bateriei la bornele
 bobinei/condensatorului este mai lungă, cu atât este mai mare valoarea
@@ -223,19 +231,22 @@ aceste valori cu diferenţa dintre valorile iniţiale şi cele finale ale
 tensiunii/curentului:
 
 #+CAPTION: formula universală de calcul a variaţiei valorilor dintr-un
-#+CAPTION: circuit ractiv de curent continuu tranzitoriu [[../poze/10245.png]]
+#+CAPTION: circuit ractiv de curent continuu tranzitoriu
+[[../poze/10245.png]]
 
 *** Analiza circuitului RC
 
 Să analizăm circuitul RC serie de la începutul capitolului:
 
-#+CAPTION: circuit serie RC [[../poze/00330.png]]
+#+CAPTION: circuit serie RC
+[[../poze/00330.png]]
 
 Din moment ce constanta de timp (τ) a unui circuit RC serie este
 produsul dintre rezistenţă şi capacitate, valoarea obţinută este de 1
 secundă:
 
-#+CAPTION: formulă [[../poze/10246.png]]
+#+CAPTION: formulă
+[[../poze/10246.png]]
 
 **** Analiza tensiunii
 
@@ -252,13 +263,15 @@ această valoare pentru tensiunea iniţială. Valoarea finală va fi
 tensiunea bateriei, 15 V. Formula universală pentru tensiunea
 condensatorului în acest circuit arată asfel:
 
-#+CAPTION: formulă [[../poze/10247.png]]
+#+CAPTION: formulă
+[[../poze/10247.png]]
 
 După 7.25 de secunde de la aplicarea tensiunii la bornele
 condensatorului (prin închiderea întrerupătorului), tensiunea va creşte
 asfel:
 
-#+CAPTION: formulă [[../poze/10248.png]]
+#+CAPTION: formulă
+[[../poze/10248.png]]
 
 Deoarece tensiunea iniţială la bornele condensatorului a fost de 0 V, o
 creştere cu 14.989 V se traduce printr-o cădere de tensiune de 14.989 la
@@ -270,7 +283,8 @@ Aceeiaşi formulă poate fi folosită şi pentru determinarea curentului din
 circuit. Ştim că un condensator descărcat se comportă precum un scurt
 circuit, prin urmare, curentul iniţial va fi maximul posibil în circuit:
 
-#+CAPTION: formulă [[../poze/10249.png]]
+#+CAPTION: formulă
+[[../poze/10249.png]]
 
 Ştim de asemenea că valoarea finală a curentului va fi zero, din moment
 ce condensatorul se va comporta eventual precum un circuit deschis, prin
@@ -279,7 +293,8 @@ valorile iniţiale şi cele finale, putem folosi formula universală pentru
 determinarea valorii curentului după 7.25 de secunde de la închiderea
 aceluiaşi circuit RC de mai sus:
 
-#+CAPTION: formulă [[../poze/10250.png]]
+#+CAPTION: formulă
+[[../poze/10250.png]]
 
 Observăm că valoarea obiţinută este negativă, nu pozitivă! Acest lucru
 înseamă o /descreştere/ a curentului şi nu creştere a acestuia în timp.
@@ -294,18 +309,21 @@ tensiunii pe rezistor; aflam apoi curentul prin rezistor (şi prin întreg
 circuitul) folosing legea lui Ohm (I=E/R). În ambele cazuri, ar trebui
 să obţinem acelaşi răspuns:
 
-#+CAPTION: formulă [[../poze/10251.png]]
+#+CAPTION: formulă
+[[../poze/10251.png]]
 
 *** Analiza circuitului L/R
 
 Să analizăm acum circuitul L/R serie de la începutul capitolului:
 
-#+CAPTION: circuitul L/R serie [[../poze/00332.png]]
+#+CAPTION: circuitul L/R serie
+[[../poze/00332.png]]
 
 Cu o inductanţă de 1 Henry şi o rezistenţă serie de 1 ohm, constanta de
 timp a circuitului de faţă este de 1 secundă:
 
-#+CAPTION: formulă [[../poze/10252.png]]
+#+CAPTION: formulă
+[[../poze/10252.png]]
 
 **** Analiza curentului
 
@@ -320,7 +338,8 @@ raportul dintre tensiunea sursei şi rezistenţa totală din circuit
 Dacă vrem să aflăm valoarea curentului la 3.5 secunde după închiderea
 întrerupătorului, aplicăm formula universală asfel:
 
-#+CAPTION: formulă [[../poze/10253.png]]
+#+CAPTION: formulă
+[[../poze/10253.png]]
 
 Din moment ce valoarea iniţială a curentului a fost zero, valoare
 acestuia după 3.5 secunde este de 14.547 amperi.
@@ -330,12 +349,14 @@ acestuia după 3.5 secunde este de 14.547 amperi.
 Având doar un singur rezistor în circuit, calculăm mai întâi căderea de
 tensiune pe acesta pentru timpul de 3.5 s:
 
-#+CAPTION: formulă [[../poze/10254.png]]
+#+CAPTION: formulă
+[[../poze/10254.png]]
 
 Făcând diferenţa între tensiunea bateriei şi cea a rezistorului, căderea
 de tensiune pe bobină este de 0.453 pentru timpul de 3.5 s
 
-#+CAPTION: formulă [[../poze/10255.png]]
+#+CAPTION: formulă
+[[../poze/10255.png]]
 
 Sumar:
 
@@ -435,7 +456,8 @@ Să considerăm următoarea ilustraţie pentru condensator, considerând
 energia stocată în acest ca fiind energie potenţială:
 
 #+CAPTION: stocarea şi eliberarea energiei potenţiale - analogie pentru
-#+CAPTION: modul de stocare al energiei pentru condensator [[../poze/00366.png]]
+#+CAPTION: modul de stocare al energiei pentru condensator
+[[../poze/00366.png]]
 
 Căruciorul, atunci când se afla în vârful pantei, posedă energie
 potenţială datorată influenţei gravitaţiei şi poziţiei sale din vârf.
@@ -460,7 +482,8 @@ Să considerăm acum o analigie mecanică pentru bobină, reprezentând
 energie stocată de acesta sub formă cinetică:
 
 #+CAPTION: stocarea şi eliberarea energiei cinetice - analogie pentru
-#+CAPTION: modul de stocare al energiei pentru bobină [[../poze/00367.png]]
+#+CAPTION: modul de stocare al energiei pentru bobină
+[[../poze/00367.png]]
 
 De această dată, căruciorul se află la nivelul solului şi este deja în
 mişcare. Energia sa în acest caz este energie cinetică (mişcare), nu
@@ -492,7 +515,8 @@ iar bobina poate fi deja străbătuta de un anumit curent la momentul
 iniţial. Să luăm următorul circuit ca şi exemplu; iniţial întrerupătorul
 este deschis, iar la momentul final acesta este închis:
 
-#+CAPTION: circuit L/R [[../poze/00334.png]]
+#+CAPTION: circuit L/R
+[[../poze/00334.png]]
 
 Deoarece acesta este un circuit inductiv, începem analiza prin
 determinarea valorilor iniţiale şi finale ale /curentului/. Acest pas
@@ -502,7 +526,8 @@ după determinarea curentului! Cu întrerupătorul în poziţia deschis
 (condiţia iniţială), rezistenţa serie totală este de 3 Ω, ceea ce
 limitează valoarea finală a curentului din circuit la 5 A:
 
-#+CAPTION: formulă [[../poze/10256.png]]
+#+CAPTION: formulă
+[[../poze/10256.png]]
 
 Asfel, chiar înainte de a închide întrerupătorul, avem un curent de 5 A
 prin bobină, faţă de 0 A în exemplul din secţiunea precedentă (link!).
@@ -511,7 +536,8 @@ este scurt-circuitat, iar valoarea totală a rezistenţei din circuit se
 reduce la 2 Ω (R_{1}); valoarea finală a curentului prin circuit cu
 întrerupătorul închis este:
 
-#+CAPTION: formulă [[../poze/10257.png]]
+#+CAPTION: formulă
+[[../poze/10257.png]]
 
 Prin urmare, bobina din acest circuit are un curent iniţial de 5 A şi
 unul final de 7.5 A. Deoarece ne interesează ce se întâmplă în circuit
@@ -526,7 +552,8 @@ volţi după un timp infinit de la închiderea întrerupătorului, putem
 folosi aceste valori în formula universală a constantei (link!) de timp
 pentru a ajunge la aceleaşi rezultate:
 
-#+CAPTION: formulă [[../poze/10258.png]] **
+#+CAPTION: formulă
+[[../poze/10258.png]] **
 
 #+BEGIN_EXAMPLE
     |-------------------------------------------|
@@ -555,7 +582,8 @@ Ce facem în cazul în care avem un circuit mai complicat decât
 configuraţiile serie considerate până acum? Să luăm acest circuit, de
 exemplu:
 
-#+CAPTION: circuit RC complex [[../poze/00335.png]]
+#+CAPTION: circuit RC complex
+[[../poze/00335.png]]
 
 Formula constantei de timp (τ=RC) se bazează pe un circuit capacitiv
 serie simplu, format dintr-un condensator şi un rezistor conectate în
@@ -610,14 +638,16 @@ Constanta de timp pentru acest circuit va fi egală cu produsul dintre
 rezistenţa Thevenin şi capacitatea condensatorului (τ=RC). Cu valorile
 de mai sus, putem face următoarele calcule:
 
-#+CAPTION: formule [[../poze/10261.png]]
+#+CAPTION: formule
+[[../poze/10261.png]]
 
 În acest moment putem afla şi tensiunea la bornele condensatorului
 direct din formula universală de calcul a constantei de timp. Să facem
 calculele pentru o valoare de 60 de milisecunde. Deoarece este o formulă
 capacitivă, vom face calculele în funcţie de tensiune:
 
-#+CAPTION: formule [[../poze/10262.png]]
+#+CAPTION: formule
+[[../poze/10262.png]]
 
 Din nou, deoarece valoarea iniţială a tensiunii condensatorului am
 presupus-o ca fiind zero volţi, căderea de tensiune actuală pe
@@ -644,13 +674,15 @@ pentru o aplicaţie în funcţie de timp. Pentru acest calcul, trebuie să
 modificăm formula universală a constantei de timp. Cea originală arată
 asfel:
 
-#+CAPTION: formulă [[../poze/10263.png]]
+#+CAPTION: formulă
+[[../poze/10263.png]]
 
 În acest caz dorim însă să realizăm un calcul în funcţie de timp. Pentru
 aceasta, modificăm formula, şi scoatem variabila timp în stânga
 formulei, în loc de „variaţie”:
 
-#+CAPTION: formulă [[../poze/10276.png]]
+#+CAPTION: formulă
+[[../poze/10276.png]]
 
 Unde /ln/ reprezintă /logaritmul natural/: inversa lui /e/:
 
@@ -663,7 +695,8 @@ Folosim acelasi circuit rezistor-condensator de la începutul capitolului
 şi ne folosim de datele deja determinate pentru a afla durata de timp
 pentru a ajunge la ele:
 
-#+CAPTION: circuit RC [[../poze/00330.png]]
+#+CAPTION: circuit RC
+[[../poze/00330.png]]
 
 Constanta de timp este aceeiaşi, 1 secundă (10 kΩ înmulţit cu 100 µF);
 iar valorile iniţiale şi finale rămân şi ele neschimbate (tensiunea
@@ -673,7 +706,8 @@ condensatorul va fi încărcat la 12.970 V. Să întroducem aşadar valoarea
 de 12.970 V în formula determinată mai sus pentru a vedea dacă timpul
 rezultat este de 2 secunde:
 
-#+CAPTION: formulă [[../poze/10266.png]]
+#+CAPTION: formulă
+[[../poze/10266.png]]
 
 Într-adevăr, răspunsul este cel aşteptat, şi anume 2 secunde. Putem însă
 afla duratele de timp necesare încărcarii condensatorului pentru oricare

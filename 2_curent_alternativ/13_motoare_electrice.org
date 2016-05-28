@@ -42,7 +42,8 @@ unei diferenţe de potenţial şi a unui curent, şi produce la ieşire lucru
 mecanic:
 
 #+CAPTION: transformarea energiei electrice în energie mecanică şi
-#+CAPTION: caldură [[../poze/02421.png]]
+#+CAPTION: caldură
+[[../poze/02421.png]]
 
 Desigur, motoarele electrice nu au o eficienţă de 100%. O parte din
 energia electrică se pierde sub formă de căldură, o altă formă de
@@ -89,7 +90,8 @@ materialul să-şi pierdă câmpul magnetic după ce bobina nu mai este
 alimentată. Totuşi, cuiul va păstra o cantitate mică de magnetizare
 reziduală, B_{r}, datorită efectului de histerezis:
 
-#+CAPTION: pierderi prin histereză [[../poze/02423.png]]
+#+CAPTION: pierderi prin histereză
+[[../poze/02423.png]]
 
 Un curent alternativ va trebui să folosează energie, -H_{c}
 (intensitatea câmpului coercitiv), pentru „învingerea” acestei
@@ -130,7 +132,8 @@ similară, cele două funcţii se pot întreschimba. Un motor sincron este
 similar unui alternator cu câmp rotitor. În figura de mai jos sunt nişte
 alternatoare cu magneţi permanenţi:
 
-#+CAPTION: motor sincron [[../poze/02424.png]]
+#+CAPTION: motor sincron
+[[../poze/02424.png]]
 
 Această figură ar putea reprezenta fie două alternatoare paralele şi
 sincronizate acţionate de surse de energie mecanică, fie un alternator
@@ -180,7 +183,8 @@ sinusoidale atinge un maxim (la 2), cuplul ce menţine polul nord al
 rotorului este maxim. Acest cuplu scade pe măsură ce amplitudinea undei
 sinusoidale scade spre 0 (la 3), unde cuplul este minim:
 
-#+CAPTION: motor sincron [[../poze/02425.png]]
+#+CAPTION: motor sincron
+[[../poze/02425.png]]
 
 Pe măsură ce polaritatea undei sinusoidale se modifică (negativă, între
 3 şi 4), înfăşurarea inferioară a statorului (S în acest caz) respinge
@@ -245,7 +249,8 @@ singur câmp magnetic rezultant ce se roteşte de f/2n ori pe secundă,
 unde f este frecvenţa liniei de alimentare, iar n numărul de poli.
 Pentru a calcula viteza rotorului în rpm, înmulţim cu 60.
 
-#+CAPTION: motor sincron trifazat [[../poze/02428.png]]
+#+CAPTION: motor sincron trifazat
+[[../poze/02428.png]]
 
 Motorul sincron trifazat cu 4 poli (pe fază) din figura de mai sus se va
 roti la 1800 rpm (60 Hz) sau la 1500 rpm (50 Hz). Dacă înfăşurările sunt
@@ -274,7 +279,8 @@ motoarele sincrone industriale au fost folosite pe scară largă datorită
 acestei abilităti de a corecta fapturul de putere inductiv a motoarelor
 asincrone.
 
-#+CAPTION: [[../poze/00000.png]]
+#+CAPTION:
+[[../poze/00000.png]]
 
 Sumar:
 

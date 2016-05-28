@@ -5,7 +5,8 @@ sursă de tensiune de 120 V, la frecvenţa de 60 Hz, şi o sarcină
 rezistivă:
 
 #+CAPTION: circuit electric monofazat de curent alternativ cu sarcină
-#+CAPTION: rezistivă [[../poze/02211.png]] #+CAPTION: calcule matematice
+#+CAPTION: rezistivă
+[[../poze/02211.png]] #+CAPTION: calcule matematice
 [[../poze/12120.png]]
 
 Curentul efectiv prin sarcină va fi de 2 A, iar puterea disipată de 240
@@ -37,10 +38,12 @@ sunt evidenţiate cu ajutorul trigonometriei.
 Ca şi comparaţie, să considerăm un circuit simplu cu o sarcină reactivă:
 
 #+CAPTION: circuit electric monofazat de curent alternativ cu sarcină
-#+CAPTION: inductivă [[../poze/02212.png]] #+CAPTION: calcule matematice
+#+CAPTION: inductivă
+[[../poze/02212.png]] #+CAPTION: calcule matematice
 [[../poze/12121.png]] #+CAPTION: Formele de undă ale tensiunii,
 curentului şi puterii într-un circuit monofazat de curent alternativ cu
-#+CAPTION: sarcină pur inductivă [[../poze/02059.png]]
+#+CAPTION: sarcină pur inductivă
+[[../poze/02059.png]]
 
 În acest caz, puterea variază alternativ între partea pozitivă şi cea
 negativă. Acest lucru înseamnă că puterea este alternativ absorbită şi
@@ -51,7 +54,8 @@ arborelui ar fi zero, deoarece sarcina nu consumă deloc putere.
 Să considerăm acum un circuit cu sarcină rezistiv-inductivă:
 
 #+CAPTION: circuit electric monofazat de curent alternativ cu sarcină
-#+CAPTION: rezistiv-inductivă [[../poze/02213.png]] #+CAPTION: calcule matematice
+#+CAPTION: rezistiv-inductivă
+[[../poze/02213.png]] #+CAPTION: calcule matematice
 [[../poze/12122.png]]
 
 Aceasta este valoarea efectivă a curentului (1.41 A) pe care ar arăta-o
@@ -116,12 +120,14 @@ folosită doar în acest scop. Să luăm următoarele circuit pur rezistiv ca
 şi prim exemplu:
 
 #+CAPTION: calcularea puterii reale, reactive şi aparente într-un
-#+CAPTION: circuit electric de curent alternativ pur rezistiv [[../poze/02215.png]]
+#+CAPTION: circuit electric de curent alternativ pur rezistiv
+[[../poze/02215.png]]
 
 Pentru un circuit pur inductiv (pur reactiv):
 
 #+CAPTION: calcularea puterii reale, reactive şi aparente într-un
-#+CAPTION: circuit electric de curent alternativ pur inductiv [[../poze/02216.png]]
+#+CAPTION: circuit electric de curent alternativ pur inductiv
+[[../poze/02216.png]]
 
 Pentru un circuit rezistiv-inductiv:
 
@@ -135,7 +141,8 @@ Relaţia dintre cele trei tipuri de putere, reală, reactivă şi aparentă,
 poate fi exprimată sub formă trigonometrică. Această exprimare este
 cunoscută sub numele de /triunghiul puterii/.
 
-#+CAPTION: triunghiul puterii [[../poze/02218.png]]
+#+CAPTION: triunghiul puterii
+[[../poze/02218.png]]
 
 Folosind teorema lui Pitagora, putem afla lungimea oricărei laturi a
 triunghiului dreptunghic, latură ce reprezintă de fapt puterea
@@ -218,7 +225,8 @@ mărime necesară pentru a produce o cantitate egală de putere reactivă
 (capacitivă). Condensatorul va fi conectat în parelel cu sursa, prun
 urmare, vom folosi următoarea formulă:
 
-#+CAPTION: calcule matematice [[../poze/12125.png]]
+#+CAPTION: calcule matematice
+[[../poze/12125.png]]
 
 Folosim un condensator cu o capacitate de 22 µF:
 
@@ -232,7 +240,8 @@ aproape de valoarea 1. Curentul principal a scăzut de la 1.41 A la 994.7
 mA, iar puterea disipată pe rezistorul de sarcină a rămas neschimbată,
 119.365 W.
 
-#+CAPTION: calcule matematice [[../poze/12127.png]]
+#+CAPTION: calcule matematice
+[[../poze/12127.png]]
 
 Din moment ce impedanţa finală este un număr pozitiv, putem spune că,
 per total, inductivitatea circuitului este mai mare decât capacitatea
@@ -290,7 +299,8 @@ Dacă avem acces la un wattmetru pentru măsurarea puterii reale, putem
 compara valoarea citită cu valoarea puterii aparente deduse din produsul
 tensiunii totale cu a curentului total.
 
-#+CAPTION: [[../poze/00000.png]]
+#+CAPTION:
+[[../poze/00000.png]]
 
 Sumar:
 

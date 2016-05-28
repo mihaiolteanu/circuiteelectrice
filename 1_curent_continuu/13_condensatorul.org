@@ -70,7 +70,8 @@ construcţia a condensatoarelor, în funcţie de aplicaţia necesară.
 Simbolul electric al condensatorului este prezentat în următoarea
 figură:
 
-#+CAPTION: simbolul condensatorului [[../poze/00354.png]]
+#+CAPTION: simbolul condensatorului
+[[../poze/00354.png]]
 
 Atunci când la bornele condensatorului aplicăm o tensiune electrică,
 între cele două armături ia naştere un câmp electric ce permite
@@ -124,7 +125,8 @@ exterior de curent poate modifica valoarea energiei stocate (implicit şi
 a tensiunii la bornele sale) de un condensator perfect:
 
 #+CAPTION: tensiune electrică la bornele condensatorului este menţinută
-#+CAPTION: constantă într-un circuit deschis [[../poze/00292.png]]
+#+CAPTION: constantă într-un circuit deschis
+[[../poze/00292.png]]
 
 Practic, condensatoarele îşi vor pierde tensiune stocată datorită
 imperfecţiunilor interne ce permit electronilor să se deplaseze de pe o
@@ -137,7 +139,8 @@ circuit; în acest caz condensatorul se comportă ca o sarcină şi spune că
 se /încarcă/. Observaţi direcţia de deplasare a electronilor (curentul)
 faţă de polaritatea tensiunii:
 
-#+CAPTION: condensatorul ca o sarcină [[../poze/00293.png]]
+#+CAPTION: condensatorul ca o sarcină
+[[../poze/00293.png]]
 
 Invers, atunci când tensiunea la bornele condensatorului scade, acesta
 introduce/generează curent în circuitul extern; în acest caz
@@ -146,7 +149,8 @@ condensatorul se comportă ca o sursă de putere şi spunem că se
 restul circuitului. Observaţi direcţia de deplasare a electronilor
 (curentul) faţă de polaritatea tensiunii:
 
-#+CAPTION: condensatorul ca o sursă [[../poze/00293.png]]
+#+CAPTION: condensatorul ca o sursă
+[[../poze/00293.png]]
 
 Dacă introducem brusc o sursă de tensiune la bornele unui condensator
 descărcat (o creştere bruscă de tensiune), acest va trage curent din
@@ -230,7 +234,8 @@ esenţială, doarece curentul depinde de /rapiditatea/ variaţiei tensiunii
 exemple. Să presupunem că un condensator este conectat la o sursă de
 tensiune variabilă construită dintr-o baterie şi un potenţiometru:
 
-#+CAPTION: circuit electric [[../poze/00396.png]]
+#+CAPTION: circuit electric
+[[../poze/00396.png]]
 
 Dacă potenţiometrul rămâne în aceeiaşi poziţie (perie este fixă),
 voltmetrul conectat la bornele condensatorului va înregistra o tensiune
@@ -250,7 +255,8 @@ Dacă în schimb peria motenţiometrului se deplasează în mod constant în
 din ce în ce mai mare. Voltmetrul înregistrează o creştere constantă a
 tensiunii indicate:
 
-#+CAPTION: circuit electric [[../poze/00397.png]]
+#+CAPTION: circuit electric
+[[../poze/00397.png]]
 
 Dacă presupunem că deplasarea periei condensatorului în „sus” se
 realizează asfel încât există o /rată/ constantă de creştere a tensiunii
@@ -276,8 +282,10 @@ deplasare a periei condensatorului, variaţia tensiuni (dv/dt) va avea o
 valoare mai mare; curentul prin condensator va fi şi el mai mare în
 acest caz:
 
-#+CAPTION: circuit electric [[../poze/00400.png]] #+CAPTION: tensiunea
-#+CAPTION: şi curentul printr-un condensator [[../poze/00401.png]]
+#+CAPTION: circuit electric
+[[../poze/00400.png]] #+CAPTION: tensiunea
+#+CAPTION: şi curentul printr-un condensator
+[[../poze/00401.png]]
 
 Analiza matematica introduce de fapt conceptul de /rată de variaţie/
 pentru o varietate de funcţii. /Derivata/ unei funcţii, un principiu de
@@ -292,7 +300,8 @@ constant ci la viteze (rate de variaţie) diferite. În acest caz obţinem
 un grafic al variaţiei tensiunii şi curentului ce arată aproximativ
 asfel:
 
-#+CAPTION: circuit electric [[../poze/00402.png]]
+#+CAPTION: circuit electric
+[[../poze/00402.png]]
 
 Putem observă de pe grafic că tot timpul curentul prin condensator este
 proporţional cu rata de variaţie sau /panta/ tensiunii condensatorului.
@@ -315,7 +324,8 @@ negativă şi intră pe cea pozitivă, condensatorul se comportă precum o
 /sursă/ (ex, o baterie), eliberând în circuitul extern energia stoacată
 sub formă de câmp electric.
 
-#+CAPTION: circuit electric [[../poze/00403.png]]
+#+CAPTION: circuit electric
+[[../poze/00403.png]]
 
 Din nou, cantitatea de curent prin condensator este direct proporţională
 cu rata de variaţie a tensiunii la bornele sale. Singura difrentă între
@@ -359,7 +369,8 @@ faptul că o distanţă mai mică duce la o forţă mai mare a câmpului
 oricare ar fi valoarea tensiunii aplicate pe armături.
 
 #+CAPTION: capacitatea condensatorului în funcţie de distanţa dintre
-#+CAPTION: armături [[../poze/00296.png]]
+#+CAPTION: armături
+[[../poze/00296.png]]
 
 *** Materialul dielectric
 
@@ -375,7 +386,8 @@ valoarea forţei câmpului (tensiunea aplicată la bornele
 condensatorului).
 
 #+CAPTION: capacitatea condensatorului în funcţie de permitivitatea
-#+CAPTION: dielectricului [[../poze/00297.png]]
+#+CAPTION: dielectricului
+[[../poze/00297.png]]
 
 În acest context, „relativ” se referă la permitivitatea materialului
 relativ la permitivitatea vidului. Cu cât numărul este mai mare, cu atât
@@ -429,7 +441,8 @@ După modul de construire al condensatorului acesta poate fi fix
 exploatat în cazul celor variabile este aria armăturilor, sau mai bine
 spus, aria de suprapunere a lor.
 
-#+CAPTION: condensator variabil [[../poze/50018.jpg]]
+#+CAPTION: condensator variabil
+[[../poze/50018.jpg]]
 
 Pe măsură ce rotim axul, gradul de suprapunere al armăturilor variază,
 afectând aria efectivă în care poate exista campul electric între cele
@@ -448,13 +461,15 @@ cum am văzut în secţiunea precedentă, creşterea distanţei dintre
 armături, toţi ceilalţi factorii find egali, rezultă în scăderea
 capacităţii.
 
-#+CAPTION: conectarea condensatorilor în serie [[../poze/00298.png]]
+#+CAPTION: conectarea condensatorilor în serie
+[[../poze/00298.png]]
 
 Formula pentru calculul capacităţii serie totale este asemănătoare celei
 pentru calcularea rezistenţei echivalente la conectarea rezistorilor în
 paralel.
 
-#+CAPTION: formula capacităţii serie [[../poze/10231.png]]
+#+CAPTION: formula capacităţii serie
+[[../poze/10231.png]]
 
 *** Conectarea în paralel
 
@@ -467,13 +482,15 @@ tuturor condesatorilor. După cum am văzut în secţiunea precedentă,
 creşterea ariei armăturilor, toţi ceilalţi factori rămânând neschimbaţi,
 duce la o creştere a capacităţii.
 
-#+CAPTION: conectarea condensatorilor în paralel [[../poze/00299.png]]
+#+CAPTION: conectarea condensatorilor în paralel
+[[../poze/00299.png]]
 
 Formula pentru calculul capacităţii paralel totale este asemănătoare
 celei pentru calcularea rezistenţei echivalente la conectarea
 rezistorilor în serie:
 
-#+CAPTION: formula capacităţii paralel [[../poze/10232.png]]
+#+CAPTION: formula capacităţii paralel
+[[../poze/10232.png]]
 
 Sumar:
 
@@ -503,7 +520,8 @@ numele de condensatoare /electrolitice/, iar polaritatea lor este tot
 timpul precizată. Simbolul condensatorului electrolitic este prezentat
 în următoarea figură:
 
-#+CAPTION: simbolul condensatorului electrolotic [[../poze/00301.png]]
+#+CAPTION: simbolul condensatorului electrolotic
+[[../poze/00301.png]]
 
 Armătura curbată reprezintă tot timpul armătura negativa. Inversarea
 polarităţii unui condensator electrolitic duce la distrugerea acelui

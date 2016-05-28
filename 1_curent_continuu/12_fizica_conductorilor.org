@@ -106,7 +106,8 @@ nu prezintă nicio cădere de tensiune. În realitate, va exista tot timpul
 o cădere de tensiune în lungul conductorilor, fie că o dorim sau nu.
 
 #+CAPTION: într-un circuit electric, există tot timpul cădere de
-#+CAPTION: tensiune în lungul conductorilor [[../poze/00277.png]]
+#+CAPTION: tensiune în lungul conductorilor
+[[../poze/00277.png]]
 
 Pentru a putea calcula aceste căderi de tensiuni în oricare circuit,
 trebuie să putem determina rezistenţa oricăror conductori, cunoscând
@@ -303,7 +304,8 @@ topite este suficient de mare, este posibilă apariţia arcului electric
 ce duce la apariţia unui curent în circuit, lucru pe care nu-l dorim.
 
 #+CAPTION: apariţia arcului electric în cazul unei siguranţe fuzibile
-#+CAPTION: topite [[../poze/00284.png]]
+#+CAPTION: topite
+[[../poze/00284.png]]
 
 Prin urmare, siguranţele fuzible sunt catalogate atât în funcţie de
 curentul de „deschidere” cât şi în funcţie de tensiunea de străpungere a
@@ -352,7 +354,8 @@ sarcinii şi pământ va fi zero. Atingerea circuitului este sigură în
 acest caz, eliminând practic pericolul electrocutării.
 
 #+CAPTION: poziţionarea corectă a siguranţei fuzibile în circuit pe faza
-#+CAPTION: acestuia [[../poze/00285.png]]
+#+CAPTION: acestuia
+[[../poze/00285.png]]
 
 În cazul în care siguranţa fuzibilă este introdusă pe neutrul
 circuitului, în cazul deschiderii acesteia, va exista o tensiune
@@ -361,7 +364,8 @@ circuitului în acest caz se poate dovedi periculoasă din punct de vedere
 al electrocutării.
 
 #+CAPTION: poziţionarea greşită a siguranţei fuzibile în circuit pe
-#+CAPTION: neutrul acestuia [[../poze/00286.png]]
+#+CAPTION: neutrul acestuia
+[[../poze/00286.png]]
 
 Indiferent dacă folosim siguranţe fuzible simple sau întrerupătoare
 automate, poziţionarea corectă a acestora în circuit se face conform
@@ -711,7 +715,8 @@ posibilă fără aplicarea niciunei tensiuni externe.
 
 #+CAPTION: într-un circuit închis, format din fire supraconductoare,
 curentul electric poate fi susţinut pentru o perioadă de timp practic
-#+CAPTION: infinită, fără aplicarea unei tensiuni externe [[../poze/00290.png]]
+#+CAPTION: infinită, fără aplicarea unei tensiuni externe
+[[../poze/00290.png]]
 
 S-a demonstrat pe cale experimentală faptul că inele din materiale
 supraconductoare pot susţine curenţi prin ei ani la rând, fără aplicarea

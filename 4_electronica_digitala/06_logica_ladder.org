@@ -7,7 +7,8 @@ desemnând sursa de putere, şi linii orizontale reprezentând circuitele
 de control.
 
 #+CAPTION: diagrama ladder de control a unei lămpi prin intermediul unui
-#+CAPTION: comutator manual [[../poze/04002.png]]
+#+CAPTION: comutator manual
+[[../poze/04002.png]]
 
 Ca şi exemplu de început, o diagramă ladder simplă reprezentând o lampă
 controlată de un comutator manual arată precum în figura alăturată.
@@ -16,13 +17,15 @@ Notaţiile L_{1} şi L_{2} desemnează bornele unei surse de alimentare de
 masă). Aceste notaţii nu au nicio legătură cu notaţia bobinelor.
 
 #+CAPTION: diagrama ladder de control a unei lămpi prin intermediul unui
-#+CAPTION: comutator manual; schema completă [[../poze/04003.png]]
+#+CAPTION: comutator manual; schema completă
+[[../poze/04003.png]]
 
 Transformatorul sau generatorul ce alimentează acest circuit este omis
 pentru simplitate. În realitate, circuitul este cel alăturat.
 
 #+CAPTION: diagrama ladder de control a unei lămpi prin intermediul unui
-#+CAPTION: comutator manual; alimentare în c.c. la 24 V [[../poze/04004.png]]
+#+CAPTION: comutator manual; alimentare în c.c. la 24 V
+[[../poze/04004.png]]
 
 Deşi circuitele logice industriale utilizează o tensiune de 120 V în
 c.a., există şi sisteme realizate la tensiuni mai mici în c.a. sau chiar
@@ -47,7 +50,8 @@ tot timpul practic. Ceea ce contează este ca orice punct comun din punct
 de vedere electric dintr-un circuit de control să fie desemnat prin
 acelaşi număr de fir (conductor).
 
-#+CAPTION: diagrama ladder [[../poze/04005.png]]
+#+CAPTION: diagrama ladder
+[[../poze/04005.png]]
 
 Să luăm de exemplu diagrama ladder alăturată. Conductorul notat cu „25”
 reprezintă de fapt acelaşi fir din punct de vedere electric, chiar dacă
@@ -58,13 +62,15 @@ timpul conectată la dreapta „scării”. Deşi din punct de vedere electric
 locaţia sarcinii nu are nicio importanţă, contează totuşi care capăt al
 „scării” este conectat la masă.
 
-#+CAPTION: diagrama ladder [[../poze/04006.png]]
+#+CAPTION: diagrama ladder
+[[../poze/04006.png]]
 
 Să considerăm exemplul alăturat. În acest caz, lampa (sarcina) este
 conectată în dreapta circuitului, la fel şi masa sursei de alimentare.
 Aceasta nu este o simplă conincidenţă.
 
-#+CAPTION: diagrama ladder; masă accidentală [[../poze/04007.png]]
+#+CAPTION: diagrama ladder; masă accidentală
+[[../poze/04007.png]]
 
 Să presupunem că la un moment dat există o conexiune accidentală între
 conductorul 1 şi masă. Această conexiune poate fi dată de uzura
@@ -75,7 +81,8 @@ scurt-circuitată şi nu se poate aprinde. În cazul închiderii
 comutatorului, acest scurt-circuit va duce la arderea siguranţei
 fuzibile.
 
-#+CAPTION: diagrama ladder; masă accidentală [[../poze/04008.png]]
+#+CAPTION: diagrama ladder; masă accidentală
+[[../poze/04008.png]]
 
 Dar, să vedem ce s-ar întâmpla în cazul unei defecţiuni identice
 (contactul accidental dintre conductorul 1 si masă) în cazul în care
@@ -103,7 +110,8 @@ Sumar:
 
 ** Funcţia logică SAU
 
-#+CAPTION: diagramă lader; funcţia SAU [[../poze/04009.png]]
+#+CAPTION: diagramă lader; funcţia SAU
+[[../poze/04009.png]]
 
 Putem construi funcţii logice simple pentru circuitul cu lampă din
 secţiunea precedentă, folosind contacte multiple. Documentarea acestor
@@ -128,14 +136,16 @@ Electronii nu au nevoie decât de o singură cale (de la L_{1} spre 1)
 pentru a ajunge spre lampă. Prin urmare, indiferent care contact se
 închide, A sau B, lampa se va aprinde.
 
-#+CAPTION: simbolul porţii logice SAU [[../poze/04107.png]]
+#+CAPTION: simbolul porţii logice SAU
+[[../poze/04107.png]]
 
 Ceea ce am implementat de fapt în acest caz nu este altceva decât o
 poartă logică SAU, utilizând două contacte normal-deschise şi o lampă.
 
 ** Funcţia logică ŞI
 
-#+CAPTION: diagramă lader; funcţia ŞI [[../poze/04010.png]]
+#+CAPTION: diagramă lader; funcţia ŞI
+[[../poze/04010.png]]
 
 Putem imita funcţia unei porţi logice ŞI prin conectarea celor două
 contacte normal-deschise în serie şi nu în paralel.
@@ -147,7 +157,8 @@ contacte normal-deschise în serie şi nu în paralel.
 | 1   | 0   | 0        |
 | 1   | 1   | 1        |
 
-#+CAPTION: simbolul porţii logice ŞI [[../poze/04156-1.png]]
+#+CAPTION: simbolul porţii logice ŞI
+[[../poze/04156-1.png]]
 
 Putem verifica cu ajutorul tabelului de adevăr că acest lucru este
 într-adevăr corect.
@@ -158,7 +169,8 @@ ambele contacte sunt închise.
 
 ** Funcţia logică NU
 
-#+CAPTION: diagramă ladder; funcţia logică NU [[../poze/04011.png]]
+#+CAPTION: diagramă ladder; funcţia logică NU
+[[../poze/04011.png]]
 
 Funcţia logică de inversare poate fi obţinută prin simpla utilizare a
 unui contact normal-închis, faţă de un contact normal-deschis precum
@@ -169,7 +181,8 @@ cele folosite mai sus.
 | 0   | 1        |
 | 1   | 0        |
 
-#+CAPTION: simbolul funcţiei logice NU [[../poze/04070.png]]
+#+CAPTION: simbolul funcţiei logice NU
+[[../poze/04070.png]]
 
 Din nou, putem verifica prin intermediul tabelului de adevăr că acest
 lucru este corect.
@@ -190,8 +203,10 @@ contactelor normal-închise în loc de contacte normal-deschise.
 | 1   | 0   | 1        |
 | 1   | 1   | 0        |
 
-#+CAPTION: simbolul funcţiei logice ŞI-negat [[../poze/04106.png]]
-#+CAPTION: funcţia logică ŞI-negat [[../poze/04012-1.png]]
+#+CAPTION: simbolul funcţiei logice ŞI-negat
+[[../poze/04106.png]]
+#+CAPTION: funcţia logică ŞI-negat
+[[../poze/04012-1.png]]
 
 Lampa va fi energizată dacă unul dintre contacte nu este acţionat, şi se
 va stinge doar dacă ambele contacte sunt acţionate simultan.
@@ -213,8 +228,10 @@ loc de contacte normal-deschise.
 | 1   | 0   | 0        |
 | 1   | 1   | 0        |
 
-#+CAPTION: simbolul porţii logice SAU-negat [[../poze/04113.png]]
-#+CAPTION: funcţia logică SAU-negat [[../poze/04013-1.png]]
+#+CAPTION: simbolul porţii logice SAU-negat
+[[../poze/04113.png]]
+#+CAPTION: funcţia logică SAU-negat
+[[../poze/04013-1.png]]
 
 Din cele observate mai sus, putem trage unele concluzii, şi anume:
 contactele paralele sunt echivalente cu o poartă logică SAU; contactele
@@ -237,8 +254,10 @@ este construită prin combinarea porţilor ŞI, SAU şi NU.
 | 1   | 0   | 1        |
 | 1   | 1   | 0        |
 
-#+CAPTION: simbolul porţii logice SAU-exclusiv [[../poze/04116.png]]
-#+CAPTION: funcţia logică SAU-exclusiv [[../poze/04014.png]]
+#+CAPTION: simbolul porţii logice SAU-exclusiv
+[[../poze/04116.png]]
+#+CAPTION: funcţia logică SAU-exclusiv
+[[../poze/04014.png]]
 
 Linia de sus (contactul normal-închis A în serie cu, contactul
 normal-deschis B) este echivalentă cu partea de sus a combinaţiei de
@@ -286,7 +305,8 @@ alăturată.
 | 0   | 0     | 1        |
 | 1   | 1     | 0        |
 
-#+CAPTION: funcţia logică NU [[../poze/04055.png]]
+#+CAPTION: funcţia logică NU
+[[../poze/04055.png]]
 
 Releul este indicat pe figură prin notaţia CR1 (releu de control 1).
 Atunci când bobina releului, simbolizată printr-un cerc pe prima linie,
@@ -297,7 +317,8 @@ de bobina releului CR1, asigurând o funcţie logică de negare (NU) pe
 lampă, inversă faţă de starea de acţionare a comutatorului (A).
 
 #+CAPTION: diagrama ladder; funcţia logică ŞI-negat realizată prin
-#+CAPTION: inversarea ieşirii [[../poze/04056-1.png]]
+#+CAPTION: inversarea ieşirii
+[[../poze/04056-1.png]]
 
 Să aplicăm această strategie de inversare uneia dintre funcţiile cu
 intrare inversată realizate mai sus. Spre exemplu, funcţia logică ŞI
@@ -311,8 +332,10 @@ ajutorul unui releu pentru realizarea unei funcţii ne-inversate.
 | 1   | 0   | 0        |
 | 1   | 1   | 1        |
 
-#+CAPTION: funcţia logică ŞI [[../poze/04056-2.png]] #+CAPTION: simbolul
-#+CAPTION: porţii logice ŞI [[../poze/04056.png]]
+#+CAPTION: funcţia logică ŞI
+[[../poze/04056-2.png]] #+CAPTION: simbolul
+#+CAPTION: porţii logice ŞI
+[[../poze/04056.png]]
 
 De la comutator la bobina CR1, funcţia logică realizată este cea a unei
 porţi ŞI-negat. Contactele CR1 normal-închise inversează şi transformă
@@ -368,7 +391,8 @@ O altă aplicaţie practică a releelor constă în controlul sistemelor în
 care dorim ca două evenimente incompatibile să nu aibă loc în acelaşi
 timp.
 
-#+CAPTION: inversarea fazei unui motor electric [[../poze/04058.png]]
+#+CAPTION: inversarea fazei unui motor electric
+[[../poze/04058.png]]
 
 Un exemplu în acest sens constă controlul direcţiei de rotaţie a unui
 motor electric. Sunt utilizate contactoare pentru schimbarea polarităţii
@@ -420,7 +444,8 @@ contactoarelor pentru prevenirea scurt-circuitului. Unele contactoare
 sunt echipate cu dispozitive de blocare mecanice. Pentru siguranţa
 adiţională însă, se pot folosi şi metode de blocare electrice.
 
-#+CAPTION: [[../poze/00000.png]]
+#+CAPTION:
+[[../poze/00000.png]]
 
 Sumar:
 
@@ -453,7 +478,8 @@ comutatoarele instalate în întreaga clădire. Sistemul ar trebui să
 funcţioneze astfel încât sirenă să se energizeze dacă oricare dintre
 comutatoare este acţionat.
 
-#+CAPTION: diagrama ladder [[../poze/04065.png]]
+#+CAPTION: diagrama ladder
+[[../poze/04065.png]]
 
 La o primă vedere, ar părea că circuitul logic este extrem de simplu:
 utilizăm contacte normal-deschise conectate în paralel, precum în figura
@@ -472,7 +498,8 @@ fuzibile, etc. Luând acest lucru în considerare, pare normal să realizăm
 un circuit care să fie cât mai tolerant posibil la o astfel de
 defecţiune.
 
-#+CAPTION: diagrama ladder [[../poze/04066.png]]
+#+CAPTION: diagrama ladder
+[[../poze/04066.png]]
 
 Să presupunem, de exemplu, ca firul conductor al comutatorului doi se
 distruge, ducând la deschiderea circuitului în acest punct. În cazul în
@@ -483,7 +510,8 @@ verificat periodic ( o idee bună oricum), nimeni nu ar putea ştii că
 există o problemă până când cineva nu ar încerca sa utilizeze acel
 comutator în caz de urgenţă.
 
-#+CAPTION: diagrama ladder [[../poze/04067.png]]
+#+CAPTION: diagrama ladder
+[[../poze/04067.png]]
 
 Dar dacă am re-proiecta sistemul astfel încât alarma să se declanşeze
 (şi) în cazul unui astfel de defect? Astfel, defectul conductorului ar
@@ -512,7 +540,8 @@ să nu funcţioneze corespunzător. Acest lucru se poate întâmpla dacă
 apare un defect în linia a doua a circuitului. Dar totuşi, acest circuit
 este mai sigur şi preferabil din acest punct de vedere.
 
-#+CAPTION: [[../poze/00000.png]]
+#+CAPTION:
+[[../poze/00000.png]]
 
 Sumar:
 
@@ -571,7 +600,8 @@ de PLC ales, dar aceste caracteristici sunt destul de similar pentru a
 permite o introducere „generală” a programării PLC-urilor în acest
 capitol.
 
-#+CAPTION: automat programabil [[../poze/04330.png]]
+#+CAPTION: automat programabil
+[[../poze/04330.png]]
 
 Figura alăturată este cea a unui PLC, văzut din faţă. Cei doi terminali
 L_{1} şi L_{2} din partea superioară sunt pentru alimentarea circuitului
@@ -614,7 +644,8 @@ Acestea sunt doar contacte şi bobine imaginare. Programul este introdus
 şi vizualizat prin intermediul unui PC conectat la portul PLC-ului
 (programming port).
 
-#+CAPTION: automat programabil şi circuit logic [[../poze/04333.png]]
+#+CAPTION: automat programabil şi circuit logic
+[[../poze/04333.png]]
 
 Să considerăm circuitul şi programul alăturat. Atunci când comutatorul
 buton nu este apăsat, intrarea X_{1} a PLC-ului nu este alimentată.
@@ -623,7 +654,8 @@ cu o bobină Y_{1}. Puterea de pe bobina Y_{1} este şi în acest caz zero.
 Prin urmare, ieşirea Y_{1} a PLC-ului rămăne de-energizată, iar lampa
 indicatoare conectată pe această ieşire nu se aprinde.
 
-#+CAPTION: automat programabil şi circuit logic [[../poze/04334.png]]
+#+CAPTION: automat programabil şi circuit logic
+[[../poze/04334.png]]
 
 Apăsarea butonului însă face ca intrarea X_{1} să fie alimentată. În
 acest caz, toate contactele X_{1} ce apar în program vor fi acţionate.
@@ -659,12 +691,14 @@ normal-închis. Soluţia software, aplicabilă cu ajutorul PLC-ului, constă
 în modificarea programului, astfel încât contactul X_{1} să fie
 normal-închis în loc de normal-deschis.
 
-#+CAPTION: automat programabil şi circuit logic [[../poze/04335.png]]
+#+CAPTION: automat programabil şi circuit logic
+[[../poze/04335.png]]
 
 Sistemul modificat, în cazul în care comutatorul nu este acţionat (nu
 este apăsat), este prezentat în figura alăturată.
 
-#+CAPTION: automat programabil şi circuit logic [[../poze/04336.png]]
+#+CAPTION: automat programabil şi circuit logic
+[[../poze/04336.png]]
 
 Când butonul este acţionat, sistemul arată conform figurii alăturate.
 
@@ -674,7 +708,8 @@ Un alt avantaj al implementării logicii de control în varianta software
 faţă de hardware, este că semnalele de intrare pot fi refolosite în
 interiorul programului ori de câte ori este necesar.
 
-#+CAPTION: automat programabil şi circuit logic [[../poze/04337.png]]
+#+CAPTION: automat programabil şi circuit logic
+[[../poze/04337.png]]
 
 De exemplu, circuitul şi programul alăturat sunt proiectate pentru a
 energiza lampa în cazul în care cel puţin două din cele trei comutatoare
@@ -697,7 +732,8 @@ programului. De exemplu, putem adăuga un contact acţionat de ieşirea Y a
 PLC-ului.
 
 #+CAPTION: automat programabil şi circuit logic; sistem de control al
-#+CAPTION: pornirii şi opririi unui motor [[../poze/04338.png]]
+#+CAPTION: pornirii şi opririi unui motor
+[[../poze/04338.png]]
 
 Să considerăm exemplul alăturat. Acesta este un sistem de control al
 pornirii şi opririi unui motor.
@@ -712,7 +748,8 @@ este colorat, ceea ce înseamnă ca este închis şi conduce energie
 electrică.
 
 #+CAPTION: automat programabil şi circuit logic; sistem de control al
-#+CAPTION: pornirii şi opririi unui motor [[../poze/04339.png]]
+#+CAPTION: pornirii şi opririi unui motor
+[[../poze/04339.png]]
 
 Dacă apăsăm butonul de „start”, intrarea X_{1} se va energiza, închizând
 contactul X_{1} din program. Bobina Y_{1} va fi energizată şi se va
@@ -721,7 +758,8 @@ Contactul paralel Y_{1} se va închide şi el, iar circuitul va rămâne
 într-o stare energizată.
 
 #+CAPTION: automat programabil şi circuit logic; sistem de control al
-#+CAPTION: pornirii şi opririi unui motor [[../poze/04340.png]]
+#+CAPTION: pornirii şi opririi unui motor
+[[../poze/04340.png]]
 
 Acum, dacă eliberăm contactorul „start”, contactul X_{1} normal-deschis
 se va reîntoarce la poziţia sa normală (deschis). Motorul va continua
@@ -730,7 +768,8 @@ continuă să alimenteze bobina Y_{1}, care menţine la rândul ei
 energizată ieşirea Y_{1}.
 
 #+CAPTION: automat programabil şi circuit logic; sistem de control al
-#+CAPTION: pornirii şi opririi unui motor [[../poze/04341.png]]
+#+CAPTION: pornirii şi opririi unui motor
+[[../poze/04341.png]]
 
 Pentru a opri motorul, trebuie să apăsăm pentru o durată scurtă
 comutatorul „stop”. Acesta va energiza intrarea X_{2} şi va deschide
@@ -738,7 +777,8 @@ contactul (virtual) normal-închis. Continuitatea circuitului înspre
 bobina Y_{1} va fi întreruptă.
 
 #+CAPTION: automat programabil şi circuit logic; sistem de control al
-#+CAPTION: pornirii şi opririi unui motor [[../poze/04342.png]]
+#+CAPTION: pornirii şi opririi unui motor
+[[../poze/04342.png]]
 
 Când butonul de „stop” este eliberat, intrarea X_{2} se de-energizează.
 Contactul X_{2} se reîntoarce în poziţia sa normală (închis). Motorul nu
@@ -757,7 +797,8 @@ o problemă: în cazul în care conductorul comutatorului de intrare X_{2}
 opri motorul!
 
 #+CAPTION: automat programabil şi circuit logic; sistem de control al
-#+CAPTION: pornirii şi opririi unui motor [[../poze/04371.png]]
+#+CAPTION: pornirii şi opririi unui motor
+[[../poze/04371.png]]
 
 Soluţia acestei probleme constă în inversarea logicii între contactul
 X_{2} din interiorul programului PLC-ului şi comutatorul „stop”. Când
@@ -785,7 +826,8 @@ sunt folosite asemenea releelor de control (CR1, CR2, etc.) pentru
 asigurarea unui semnal logic inversor în caz de nevoie.
 
 #+CAPTION: automat programabil şi circuit logic; utilizarea releelor
-#+CAPTION: interne de control [[../poze/04343.png]]
+#+CAPTION: interne de control
+[[../poze/04343.png]]
 
 Pentru demonstrarea funcţionării unui asemenea tip de releu „intern”, să
 consideram circuitul şi programul alăturat. Acesta este proiectat pentru
@@ -794,7 +836,8 @@ unui program PLC sunt desemnate printr-o singură literă, vom nota releul
 de control intern cu C1 şi nu cu CR1.
 
 #+CAPTION: automat programabil şi circuit logic; utilizarea releelor
-#+CAPTION: interne de control [[../poze/04344.png]]
+#+CAPTION: interne de control
+[[../poze/04344.png]]
 
 În acest circuit, lampa va rămâne aprinsă atâta timp cât oricare dintre
 butoane rămâne ne-acţionat (eliberat). Pentru a opri lampa, va trebui să

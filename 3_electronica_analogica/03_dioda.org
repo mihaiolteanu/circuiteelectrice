@@ -8,7 +8,8 @@ prezentat în figura de mai jos (săgeţile indică deplasarea reală a
 electronilor prin diodă):
 
 #+CAPTION: simbolul schematic al diodei semiconductoare: săgeţile indică
-#+CAPTION: direcţia de deplasare a electronilor [[../poze/03246.png]]
+#+CAPTION: direcţia de deplasare a electronilor
+[[../poze/03246.png]]
 
 La conectarea într-un circuit simplu, format dintr-o baterie şi o lampă,
 dioda fie va permite trecerea curentului spre lampă, fie o va bloca, în
@@ -16,7 +17,8 @@ funcţie de polaritatea tensiunii aplicate.
 
 #+CAPTION: modul de funcţionare al diodei: (a) polarizarea directă a
 diodei - trecerea curentului este permisă; (b) dioda este polarizată
-#+CAPTION: invers - trecerea curentului este blocată [[../poze/03247.png]]
+#+CAPTION: invers - trecerea curentului este blocată
+[[../poze/03247.png]]
 
 Atunci când polaritatea bateriei este asfel încât este permisă trecerea
 electronilor prin diodă, spunem că dioda este /polarizată direct/.
@@ -31,7 +33,8 @@ trecerea fluidului doar într-o singură direcţie:
 
 #+CAPTION: analogie dintre o diodă şi o supapă de închidere hidraulică:
 (a) supapa este deschisă şi permite trecerea fluidului; (b) supapa este
-#+CAPTION: blocată şi nu permite trecerea fluidului [[../poze/03248.png]]
+#+CAPTION: blocată şi nu permite trecerea fluidului
+[[../poze/03248.png]]
 
 Supapele de închidere sunt de fapt dispozitive controlate cu ajutorul
 presiunii: acestea se deschid şi permit trecerea fluidului dacă
@@ -47,7 +50,8 @@ căderilor de tensiune pe diferite componente ale circuitului.
 
 #+CAPTION: măsurarea căderilor de tensiune într-un circuit simplu cu
 diodă: (a) polarizarea directă a diodei; (b) polarizarea inversă a
-#+CAPTION: diodei [[../poze/03249.png]]
+#+CAPTION: diodei
+[[../poze/03249.png]]
 
 O diodă polarizată direct conduce curent şi prezintă o cădere mică de
 tensiune la bornele sale, asfel încât majoritatea tensiunii disponibile
@@ -70,13 +74,15 @@ sarcină aproape că lipsesc în zona de golire, şi prin urmare aceasta se
 comportă precum un izolator.
 
 #+CAPTION: reprezentarea diodei: (a) joncţiunea P-N; (b) simbolul
-#+CAPTION: schematic; (c) aspectul real al diodei [[../poze/03250.png]]
+#+CAPTION: schematic; (c) aspectul real al diodei
+[[../poze/03250.png]]
 
 Dacă dioda este polarizată invers, zona de golire se extinde şi
 blochează şi mai bine trecerea curentului prin dispozitiv.
 
 #+CAPTION: polarizarea inversă a diodei duce la creşterea zonei de
-#+CAPTION: golire şi la blocarea acesteia [[../poze/03251.png]]
+#+CAPTION: golire şi la blocarea acesteia
+[[../poze/03251.png]]
 
 Dacă dioda este polarizată direct însă, zona de golire devine mult mai
 subţire (figura de mai jos (a), polarizare parţială), iar rezistenţa
@@ -97,7 +103,8 @@ ca fiind constantă (nu depinde de valoarea curentului prin diodă).
 Ecuaţia exactă ce descrie curentul printr-o diodă poartă numele de
 /ecuaţia diodei/:
 
-#+CAPTION: ecuaţia diodei [[../poze/13047.png]]
+#+CAPTION: ecuaţia diodei
+[[../poze/13047.png]]
 
 Termenul q/KT descrie tensiunea produsă în joncţiunea P-N datorită
 acţiunii temperaturii, şi poartă numele de /tensiune termică/, sau
@@ -106,7 +113,8 @@ V_{t}. La temperatura camerei, această temperatură este de aproximativ
 fiind 1, putem simplifica ecuaţia de mai sus şi să ajungem la următoarea
 relaţie:
 
-#+CAPTION: ecuaţia diodei simplificată [[../poze/13048.png]]
+#+CAPTION: ecuaţia diodei simplificată
+[[../poze/13048.png]]
 
 Această ecuaţie nu trebuie neapărat luată în considerare la analiza
 circuitelor simple cu diode, ci este menţionată aici doar pentru a
@@ -135,7 +143,8 @@ străpungerea creşte odată cu creşterea temperaturii şi scade cu scăderea
 temperaturii - exact invers faţă de tensiunea de polarizare directă. Mai
 jos este prezentat graficul curent-tensiune al diodei:
 
-#+CAPTION: graficul curent-tensiune al diodei [[../poze/03253.png]]
+#+CAPTION: graficul curent-tensiune al diodei
+[[../poze/03253.png]]
 
 Sumar:
 
@@ -203,7 +212,8 @@ două borne ale diodei.
 
 #+CAPTION: determinarea tensiunii de polarizare directă a diodei
 folosind un multimetru digital echipat cu funcţia de verificare a
-#+CAPTION: diodelor [[../poze/03256.png]]
+#+CAPTION: diodelor
+[[../poze/03256.png]]
 
 Totuşi, valoarea tensiunii de polarizare directă indicată de aceste
 aparate va fi de obicei mai mică decât valoarea „normală” de 0.7 V,
@@ -216,7 +226,8 @@ voltmetru:
 
 #+CAPTION: măsurarea tensiunii de polarizare directă a diodei folosind
 un aparat de măsură (voltmetru), o baterie şi un rezistor: (a) schema
-#+CAPTION: electrică; (b) schema practică [[../poze/03257.png]]
+#+CAPTION: electrică; (b) schema practică
+[[../poze/03257.png]]
 
 Sumar:
 
@@ -347,7 +358,8 @@ Cel mai simplu circuit de redresare îl reprezintă redresorul
 monoalternanţă. Acesta permite doar trecerea unei jumătăti a formei de
 undă de curent alternativ înspre sarcină:
 
-#+CAPTION: redresorul monoalternanţă [[../poze/03258.png]]
+#+CAPTION: redresorul monoalternanţă
+[[../poze/03258.png]]
 
 Pentru majoritatea aplicaţiilor de putere însă, redresarea
 monoalternanţă nu este suficientă. Conţinutul armonic al undei de ieşire
@@ -363,7 +375,8 @@ monoalternanţă) din tensiunea maximă disponibilă pe celalaltă poziţie,
 pentru o intensitate luminoasă mai scăzută:
 
 #+CAPTION: utilizarea redresorului monoalternanţă; comutator cu
-#+CAPTION: rezistenţă reglabilă cu două nivele [[../poze/03259.png]]
+#+CAPTION: rezistenţă reglabilă cu două nivele
+[[../poze/03259.png]]
 
 Când întrerupătorul este în poziţie mediu, lampa incandescentă primeşte
 aproximativ jumătate din puterea disponibilă la sursa de curent
@@ -430,19 +443,22 @@ acelaşi ca şi la redresorul în punte.
 Probabil că cel mai popular redresor este cel dublă alternanţă în punte.
 Aceste utilizează patru diode conectate în punte:
 
-#+CAPTION: Redresor dublă alternanţă în punte [[../poze/03263.png]]
+#+CAPTION: Redresor dublă alternanţă în punte
+[[../poze/03263.png]]
 
 Direcţia curentului pentru semi-perioadele pozitive este prezentată în
 figura de mai jos:
 
 #+CAPTION: Redresor dublă alternanţă în punte; direcţia curentului
-#+CAPTION: pentru semi-perioadele pozitive [[../poze/03264.png]]
+#+CAPTION: pentru semi-perioadele pozitive
+[[../poze/03264.png]]
 
 Direcţia curentului pentru semi-perioadele negative este prezentată în
 figura de mai jos:
 
 #+CAPTION: Redresor dublă alternanţă în punte; direcţia curentului
-#+CAPTION: pentru semi-perioadele negative [[../poze/03265.png]]
+#+CAPTION: pentru semi-perioadele negative
+[[../poze/03265.png]]
 
 Indiferent de polaritatea intrării, curentul prin sarcină are aceeiaşi
 direcţie de curegere. Cu alte cuvinte, o semi-perioadă negativă la sursă
@@ -485,7 +501,8 @@ unde doar mărimea fizică a componentelor necesare pentru realizarea
 filtrării ar impune unele limite.
 
 #+CAPTION: forma de undă de curent continuu redresată pentru o sursă de
-#+CAPTION: tensiune trifazată [[../poze/03269.png]]
+#+CAPTION: tensiune trifazată
+[[../poze/03269.png]]
 
 Indiferent de tipul redresării - monofazată sau polifazată - cantitatea
 de tensiunea alternativă „amestecată” cu tensiunea de curent continuu de
@@ -528,7 +545,8 @@ două redresoare: 12 pulsuri pentru o perioadă (360^{o}) în loc de 6.
 
 #+CAPTION: redresor polifazat dublu alternanţa cu două redresoare în
 punte conectate în paralel, folosind un transformator primar şi două
-#+CAPTION: secundare în configuraţie Y-Y, respectiv Y-Δ [[../poze/03270.png]]
+#+CAPTION: secundare în configuraţie Y-Y, respectiv Y-Δ
+[[../poze/03270.png]]
 
 Sumar:
 
@@ -636,7 +654,8 @@ acestea pot fi folosite cu succes ca dispozitive de stabilizare a
 tensiunii datorită stabilităţii şi acurateţii lor în funcţionare.
 
 #+CAPTION: circuit de stabilizare a tensiunii cu diodă zener; tensiunea
-#+CAPTION: zener este de 12.6 V [[../poze/03287.png]]
+#+CAPTION: zener este de 12.6 V
+[[../poze/03287.png]]
 
 Observaţie! Orientarea diodei zener faţă de sursa de tensiune în circuit
 de mai sus, este asfel încât dioda să fie polarizată invers. Acesta este
@@ -668,7 +687,8 @@ rezistorului de 1.000 Ω (figura de mai jos (a)).
 
 Să calculăm prima dată puterile pe rezistor şi pe diodă:
 
-#+CAPTION: calcule matematice [[../poze/13049.png]]
+#+CAPTION: calcule matematice
+[[../poze/13049.png]]
 
 O diodă zener cu o putere de 0.5 W şi un rezistor cu o putere de 1.5 sau
 2 W sunt suficiente pentru această aplicaţie.
@@ -689,7 +709,8 @@ Având un curent de 100 de ori mai mic decât inainte (324 µA în loc de
 32.4 mA), ambele valori ale puterilor disipate ar trebui să fie de 100
 de ori mai mici:
 
-#+CAPTION: calcule matematice [[../poze/13050.png]]
+#+CAPTION: calcule matematice
+[[../poze/13050.png]]
 
 Acestă configuraţie pare ideală. O putere disipată mai mică înseamnă
 temperaturi de funcţionare mai mici atât pentru dioda zener cât şi
@@ -721,7 +742,8 @@ cum putem vedea, circuitul stabilizator /nu poate/ realiza acest lucru:
 
 #+CAPTION: (a) stabilizator de tensiune cu diodă zener şi un rezistor de
 100 kΩ în serie; conectarea unei sarcini de 500 Ω în paralel cu dioda
-#+CAPTION: zener [[../poze/03292.png]]
+#+CAPTION: zener
+[[../poze/03292.png]]
 
 Datorită prezenţei rezistorului foarte mare în serie cu sursa de
 tensiune, pe sarcină va exista o cădere de tensiune de doar 224 mV, mult
@@ -741,7 +763,8 @@ rezistori:
 
 #+CAPTION: (a) stabilizator de tensiune cu diodă zener şi un rezistor de
 100 kΩ în serie; conectarea unei sarcini de 500 Ω în paralel cu dioda
-#+CAPTION: zener; îndepărtarea temporară a diodei zener [[../poze/03293.png]]
+#+CAPTION: zener; îndepărtarea temporară a diodei zener
+[[../poze/03293.png]]
 
 Circuitul stabilizator cu rezistorul de 100 kΩ are totuşi o anumită
 valoare a rezistenţei sarcinii pentru care tensiunea la bornele sale
@@ -749,25 +772,30 @@ este de 12.6 V. Putem afla această valoare făcând un mic calcul.
 Introducem toate valorile cunoscute într-un tabel, de forma celui de mai
 jos:
 
-#+CAPTION: tabel [[../poze/13051.png]]
+#+CAPTION: tabel
+[[../poze/13051.png]]
 
 Căderea de tensiune pe rezistorul serie de 100 kΩ este diferenţa
 căderilor de tensiune dintre sursă (coloana total) şi sarcină:
 
-#+CAPTION: tabel [[../poze/13052.png]]
+#+CAPTION: tabel
+[[../poze/13052.png]]
 
 Putem calcula curentul prin rezistorul serie folosind legea lui Ohm (I =
 E/R):
 
-#+CAPTION: tabel [[../poze/13053.png]]
+#+CAPTION: tabel
+[[../poze/13053.png]]
 
 Fiind un circuit serie, curentul este acelaşi prin toate componentele:
 
-#+CAPTION: tabel [[../poze/13054.png]]
+#+CAPTION: tabel
+[[../poze/13054.png]]
 
 Putem acum calcula rezistenţa sarcinii folosind legea lui Ohm (R = E/I):
 
-#+CAPTION: tabel [[../poze/13055.png]]
+#+CAPTION: tabel
+[[../poze/13055.png]]
 
 Prin urmare, dacă rezistenţa sarcini este exact 38.889 kΩ, vom avea o
 cădere de tensiune de 12.6 V la bornele sale, cu sau fără diodă. Orice
@@ -794,7 +822,8 @@ Circuitul este format din două ziode zenere conectate spate-în-spate.
 Rolul rezistorului este de limitare a curentului prin diode, pentru
 protecţia acestora:
 
-#+CAPTION: circuit limitator cu diode zener [[../poze/03445.png]]
+#+CAPTION: circuit limitator cu diode zener
+[[../poze/03445.png]]
 
 Tensiunea de străpungere pentru cele două diode este fixată la 10 V.
 Acest lucru duce la tăierea formei de undă la aproximativ 10 V. Diodele,
@@ -805,7 +834,8 @@ a formei de undă se realizează în jurul valorii de 10.7 V. Acelaşi lucru
 este valabil şi pentru semialternanţa negativă (-10.7 V):
 
 #+CAPTION: circuit limitator cu diode zener; formele de undă a tensiunii
-#+CAPTION: de alimentare şi a tensiunii de ieşire [[../poze/23034.png]]
+#+CAPTION: de alimentare şi a tensiunii de ieşire
+[[../poze/23034.png]]
 
 Sumar:
 

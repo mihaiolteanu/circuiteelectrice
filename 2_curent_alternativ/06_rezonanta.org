@@ -28,14 +28,16 @@ curent electric şi va înmagazina energie sub formă de câmp magnetic;
 rezultatul este creşterea curentului în circuit:
 
 #+CAPTION: pendul electric - descărcarea condensatorului, tensiunea
-#+CAPTION: descreşte; încărcarea bobine, curentul creşte [[../poze/02087.png]]
+#+CAPTION: descreşte; încărcarea bobine, curentul creşte
+[[../poze/02087.png]]
 
 Bobina va continua să se încarce şi să menţină curgerea electronilor în
 circuit până când condensatorul va fi complet descărcat (tensiune zero
 la bornele sale):
 
 #+CAPTION: pendul electric - condensator complet descărcat, tensiune
-#+CAPTION: zero; bobină complet încărcată, curent maxim [[../poze/02088.png]]
+#+CAPTION: zero; bobină complet încărcată, curent maxim
+[[../poze/02088.png]]
 
 Bobina va menţine curentul chiar şi fără existenţa unei tensiuni
 aplicate la bornele sale; de fapt, va genera o tensiune (precum o
@@ -52,7 +54,8 @@ ajunge la zero, tensiunea condensatorului va fi maximă, şi de polaritate
 opusă tensiunii iniţiale:
 
 #+CAPTION: pendul electric - condensator încărcat complet, tensiune
-#+CAPTION: maximă; bobină descărcată complet, curent zero [[../poze/02090.png]]
+#+CAPTION: maximă; bobină descărcată complet, curent zero
+[[../poze/02090.png]]
 
 Am ajuns acum la o situaţie foarte similară celei iniţiale:
 condensatorul este complet încărcat iar curentul prin circuit este zero
@@ -62,13 +65,15 @@ de cazul iniţial) şi descreşterea tensiunii pe măsură ce energia
 înmagazinată de condensator tinde spre zero:
 
 #+CAPTION: pendul electric - condensatorul se descarcă, tensiunea
-#+CAPTION: descreşte; bobina se încarcă, curentul creşte [[../poze/02091.png]]
+#+CAPTION: descreşte; bobina se încarcă, curentul creşte
+[[../poze/02091.png]]
 
 Într-un final, condensatorul se va descărca complet (zero volţi), iar
 bobina va deveni încărcată complet (curent maxim):
 
 #+CAPTION: pendul electric - condensator complet descărcat, tensiune
-#+CAPTION: zero; bobină complet încărcată, curent maxim [[../poze/02092.png]]
+#+CAPTION: zero; bobină complet încărcată, curent maxim
+[[../poze/02092.png]]
 
 Bobina, încercând să menţină direcţia curentului, se va comporta din nou
 precum o sursă, generând tensiune electrică precum o baterie pentru
@@ -86,7 +91,8 @@ completarea unei perioade pe parcursul cărei cele două componente au
 schimbat între ele aceeiaşi energie electrică:
 
 #+CAPTION: pendul electric - condensator încărcat complet, tensiune
-#+CAPTION: maximă; bobină descărcată complet, curent zero [[../poze/02094.png]]
+#+CAPTION: maximă; bobină descărcată complet, curent zero
+[[../poze/02094.png]]
 
 Această oscilaţie a energie de la un component la altul va continua cu o
 amplitudine a semnalelor din ce în ce mai mică, descreştere datorată
@@ -112,7 +118,8 @@ viteza pendulului trasate pe un grafic (timp-amplitudine) trasează două
 unde sinusoidale defazate între ele cu 90^{o}.
 
 #+CAPTION: principiul pendulului fizic şi formele de undă descrise de
-#+CAPTION: acesta [[../poze/02095.png]]
+#+CAPTION: acesta
+[[../poze/02095.png]]
 
 În fizică, această oscilaţie sinusoidală naturală este cunoscută sub
 numele de /mişcare armonică simplă/. Aceleaşi principii stau însă şi la
@@ -167,7 +174,8 @@ reactanţa capacitivă scade cu creşterea frecvenţei, există doar o
 singură frecvenţă unde cele două reactanţe vor fi egale.
 
 #+CAPTION: circuit electric paralel simplu rezonant (LC); circuit
-#+CAPTION: oscilator [[../poze/02096.png]]
+#+CAPTION: oscilator
+[[../poze/02096.png]]
 
 În circuitul de mai sus, avem un condensator de 10 µF şi o bobină de 100
 mH. Din moment ce cunoaştem ecuaţiile pentru determinarea reactanţelor,
@@ -176,7 +184,8 @@ punctul în care cele două reactanţe sunt egale între ele, putem rezolva
 ecuaţia formată din egalitatea celor două reactanţa pentru a afla
 frecvenţa de rezonanţă (naturală):
 
-#+CAPTION: formule [[../poze/12088.png]]
+#+CAPTION: formule
+[[../poze/12088.png]]
 
 Aceasta este formula prin care putem afla frecvenţa de rezonanţă a unui
 circuit oscilator, atunci când cunoaştem valorile inductanţei (L) şi a
@@ -191,12 +200,14 @@ ale condensatorului de 10 µF şi a bobinei de 100 mH, ca mai apoi să
 aplicăm formula impedanţei paralele pentru a demonstra matematic ceea ce
 am spus mai sus:
 
-#+CAPTION: formule [[../poze/12089.png]]
+#+CAPTION: formule
+[[../poze/12089.png]]
 
 Prin urmare, ambele impedanţe sunt egale, 100 Ω. Putem acum să folosm
 formula impedanţei paralel:
 
-#+CAPTION: formule [[../poze/12090.png]]
+#+CAPTION: formule
+[[../poze/12090.png]]
 
 Desigur, nu putem face raportul unui număr cu zero pentru a ajunge la un
 rezultat care să aibă sens, dar putem spune că rezultatul tinde spre
@@ -209,7 +220,8 @@ Grafic, amplitudinea curentului din circuit în funcţie de frecvenţa
 sursei de alimentare arată asfel:
 
 #+CAPTION: graficul curent-frecvenţă pentru un circuit oscilator la
-#+CAPTION: frecvenţa de rezonanţă [[../poze/22005.png]]
+#+CAPTION: frecvenţa de rezonanţă
+[[../poze/22005.png]]
 
 Punctul de pe grafic unde curentul este zero, coincide cu frecvenţa de
 rezonanţă calculată mai sus, 159.155 Hz.
@@ -229,8 +241,10 @@ inductiv/capacitive serie. Atunci când este atinsă o stare de rezonanţă
 (reactanţa capacitivă este egală cu cea inductivă), cele două impedanţe
 se anulează reciproc iar impedanţa totală scade la zero!
 
-#+CAPTION: circuit rezonant serie (LC) [[../poze/02098.png]] #+CAPTION:
-#+CAPTION: formule [[../poze/12092.png]]
+#+CAPTION: circuit rezonant serie (LC)
+[[../poze/02098.png]] #+CAPTION:
+#+CAPTION: formule
+[[../poze/12092.png]]
 
 Fiindcă impedanţa serie totală este 0 Ω la frecvenţa de rezonanţă de
 159.155 Hz, se va produce un /scurt circuit/ la bornele sursei de curent
@@ -322,7 +336,8 @@ impedanţă infinită. În circuitele LC serie, înseamnă impedanţă zero (la
 rezonanţă).
 
 #+CAPTION: formula de calcul a frecvenţei de rezonanţă între bobină şi
-#+CAPTION: condensator [[../poze/12091.png]]
+#+CAPTION: condensator
+[[../poze/12091.png]]
 
 Totuşi, dacă începem să introducem rezistenţă în circuitele LC, această
 formulă de calcul pentru rezonanţă nu mai este utilizabilă. Vom luat
@@ -335,7 +350,8 @@ ce se întâmplă atunci când introducem un rezistor în circuit:
 
 #+CAPTION: circuit LC paralel; rezistor serie cu bobina
 [[../poze/02102.png]] #+CAPTION: circuit LC paralel; rezistor serie cu
-#+CAPTION: bobina; graficul variaţiei curentului cu frecvenţa [[../poze/22008.png]]
+#+CAPTION: bobina; graficul variaţiei curentului cu frecvenţa
+[[../poze/22008.png]]
 
 Rezistorul conectat în paralel cu bobina produce un curent minim, ce nu
 este zero, la frecvenţa de 136.8 Hz, şi nu la 159.2 Hz, valoarea
@@ -361,7 +377,8 @@ rezistorul R_{2} de 100 Ω:
 
 #+CAPTION: circuit LC serie; rezistor paralel cu bobina
 [[../poze/02104.png]] #+CAPTION: circuit LC serie; rezistor paralel cu
-#+CAPTION: bobina; graficul variaţiei curentului cu frecvenţa [[../poze/22010.png]]
+#+CAPTION: bobina; graficul variaţiei curentului cu frecvenţa
+[[../poze/22010.png]]
 
 Circuitul rezonant serie (LC) cu un rezistor conectat în paralel cu
 bobina, prezintă un curent maxim la o frecvenţă de 180 Hz, faţă de
@@ -414,7 +431,8 @@ frecvenţa de rezonanţă nu va fi afectată de rezistenţa în plus introdusă
 prezentat mai jos:
 
 #+CAPTION: circuit RLC serie; frecvenţa de rezonanţă nu este afectată de
-#+CAPTION: introducerea unei rezistenţe în serie [[../poze/02106.png]] #+CAPTION:
+#+CAPTION: introducerea unei rezistenţe în serie
+[[../poze/02106.png]] #+CAPTION:
 circuit RLC serie; graficul variaţiei curentului cu frecvenţa
 [[../poze/22012.png]]
 
@@ -458,7 +476,8 @@ putem avea oscilaţie rezonantă folosind doar o bobină, un rezistor şi o
 baterie?
 
 #+CAPTION: circuit electric cu constanta de timp L/R; forma reală şi
-#+CAPTION: forma ideală a undei L/R [[../poze/02108.png]]
+#+CAPTION: forma ideală a undei L/R
+[[../poze/02108.png]]
 
 Toate bobinele prezintă o anumită capacitate parazită datorită modului
 de realizare a înfăşurărilor. De asemenea, conductorii folosiţi pentru

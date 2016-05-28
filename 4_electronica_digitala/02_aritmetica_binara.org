@@ -63,7 +63,8 @@ reprezentarea fiecărui bit a fiecărui număr prin intermediul unui semnal
 de tensiune. Acest principiu reprezintă baza efectuării tuturor
 operaţiilor aritmetice realizate de calculatoarele moderne.
 
-#+CAPTION: [[../poze/00000.png]]
+#+CAPTION:
+[[../poze/00000.png]]
 
 Sumar:
 
@@ -385,7 +386,8 @@ permisă de numărul de biţi.
 Din fericire, această metodă de identificare a erorii de depăşire este
 uşor de implementat într-un circuit electronic.
 
-#+CAPTION: [[../poze/00000.png]]
+#+CAPTION:
+[[../poze/00000.png]]
 
 * 6. Grupări de biţi
 
@@ -396,7 +398,8 @@ unui circuit digital, trebuie să ne decidem câţi biţi vom utilizat
 (maxim) pentru reprezentarea valorilor, din moment ce fiecare bit
 necesită un circuit pornit/oprit separat.
 
-#+CAPTION: abac cu 10 linii; analogie [[../poze/04315.png]]
+#+CAPTION: abac cu 10 linii; analogie
+[[../poze/04315.png]]
 
 Acest principiu este analog proiectării unui abac pentru reprezentarea
 digitală a numerelor zecimale: trebuie mai întâi să ne decidem câte

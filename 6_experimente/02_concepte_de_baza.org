@@ -8,7 +8,8 @@ de afişaje digitale, precum ceasurile digitale, pentru indicarea acestor
 mărimi. Multimetrele analogice indică mărimile de mai sus prin
 intermediul unui ac indicator în lungul unei scale gradate.
 
-#+CAPTION: multimetru analogic şi digital [[../poze/05035.png]]
+#+CAPTION: multimetru analogic şi digital
+[[../poze/05035.png]]
 
 Multimetrele analogice sunt de obicei mai ieftine decât variantele
 digitale. De asemenea, ele sunt mult mai utile pentru începători, ca şi
@@ -54,7 +55,8 @@ indicaţia aparatului de măsură este negativă. În cazul unui multimetru
 analogic, o valoare negativă este observată prin deplasarea acului
 indicator în stânga, şi nu în dreapta.
 
-#+CAPTION: [[../poze/05036-1.png]]
+#+CAPTION:
+[[../poze/05036-1.png]]
 
 Dacă aveţi un multimetru manual, iar selectorul a fost pus pe cea mai
 mare valoare, indicaţia acestuia va fi slabă. Deplasaţi selectorul la
@@ -83,7 +85,8 @@ celule solare. Îndreptaţi LED-ul spre o sursă puternică de lumină, cu
 multimetrul conectat la bornele acestuia. Observaţi indicaţia aparatului
 de măsură:
 
-#+CAPTION: multimetru şi LED [[../poze/05037.png]]
+#+CAPTION: multimetru şi LED
+[[../poze/05037.png]]
 
 Bateriile generează tensiune electrică prin intermediul reacţiilor
 chimice. Când o baterie „moare”, acest lucru înseamnă de fapt că
@@ -108,7 +111,8 @@ măsură ar trebui să indice o cădere de tensiune. Dacă nu puteţi ţine
 ambele sonde pe bornele bateriei, puteţi folosi terminali tip crocodil,
 astfel:
 
-#+CAPTION: multimetru şi motor electric [[../poze/05038.png]]
+#+CAPTION: multimetru şi motor electric
+[[../poze/05038.png]]
 
 Puteţi determina relaţia dintre tensiune şi viteza de rotaţie a axului?
 Ce se întâmplă cu indicaţia voltmetrului dacă măriţi viteza acestuia?
@@ -167,7 +171,8 @@ de măsură la placă. Testaţi continuitatea lor.
 
 #+CAPTION: măsurarea continuităţii unei plăci electronice de test
 [[../poze/05041.png]] #+CAPTION: măsurarea continuităţii unei plăci
-#+CAPTION: electronice de test [[../poze/05042.png]]
+#+CAPTION: electronice de test
+[[../poze/05042.png]]
 
 Un concept foarte important în teoria electricităţii, strâns legat de
 cel al continuităţii, este cel al punctelor comune din punct de vedere
@@ -203,7 +208,8 @@ Conectaţi sondele aparatului de măsură la terminalii (bornele)
 rezistorului conform figurii de mai jos, şi observaţi afişajul
 aparatului:
 
-#+CAPTION: măsurarea unui rezistor [[../poze/05040.png]]
+#+CAPTION: măsurarea unui rezistor
+[[../poze/05040.png]]
 
 Dacă acul indicator se află foarte aproape de valoare de zero, va trebui
 să alegeţi o altă scară de măsură (mai mică), la fel ca în cazul
@@ -267,7 +273,8 @@ Luaţi o foaie de hârtie şi trasaţi o linie groasă cu un creion (nu cu
 pix!). Măsuraţi rezistenţa liniei cu ajutorul ohmmetrului, poziţionând
 sondele la capătului liniei astfel:
 
-#+CAPTION: măsurarea rezistenţei grafitului [[../poze/05043.png]]
+#+CAPTION: măsurarea rezistenţei grafitului
+[[../poze/05043.png]]
 
 Aduceţi vârful sondelor mai aproape una de celaltă, dar menţinând
 contactul cu linia. Ce se întâmplă cu rezistenţa în acest caz, creşte
@@ -308,11 +315,13 @@ Sumar:
 În cele ce urmează vom realiza un circuit simplu, format dintr-un bec şi
 o baterie, precum cel prezentat în figura de mai jos:
 
-#+CAPTION: circuit electric rezitiv simplu [[../poze/05045.png]]
+#+CAPTION: circuit electric rezitiv simplu
+[[../poze/05045.png]]
 
 Practic, circuitul nostru va arăta astfel:
 
-#+CAPTION: circuit electric rezitiv simplu [[../poze/05046.png]]
+#+CAPTION: circuit electric rezitiv simplu
+[[../poze/05046.png]]
 
 Acesta reprezintă de fapt cel mai simplu circuit pe care îl vom studia
 în întreg volumul: o baterie şi un bec. Conectaţi becul la baterie,
@@ -325,10 +334,14 @@ suficientă pentru a-l aprinde.
 apariţiei unei astfel de discontinuităţi. Experimentaţi cu scenariile
 prezentate mai jos ca să vă convingeţi de acest lucru:
 
-#+CAPTION: discontinuitatea unui circuit electric [[../poze/05047.png]]
-#+CAPTION: discontinuitatea unui circuit electric [[../poze/05048.png]]
-#+CAPTION: discontinuitatea unui circuit electric [[../poze/05049.png]]
-#+CAPTION: discontinuitatea unui circuit electric [[../poze/05050.png]]
+#+CAPTION: discontinuitatea unui circuit electric
+[[../poze/05047.png]]
+#+CAPTION: discontinuitatea unui circuit electric
+[[../poze/05048.png]]
+#+CAPTION: discontinuitatea unui circuit electric
+[[../poze/05049.png]]
+#+CAPTION: discontinuitatea unui circuit electric
+[[../poze/05050.png]]
 
 ** Desfăşurarea experimentului
 
@@ -341,7 +354,8 @@ Acum, întrerupeţi circuitul şi remăsuraţi tensiune între aceleaşi seturi
 de puncte. Opţional, măsuraţi tensinea în locul întreruperii
 circuitului, astfel:
 
-#+CAPTION: discontinuitatea unui circuit electric [[../poze/05051.png]]
+#+CAPTION: discontinuitatea unui circuit electric
+[[../poze/05051.png]]
 
 Ce tensiuni sunt similare tensiunilor de dinainte? Ce tensiuni sunt
 diferite după introducerea întreruperii? Ce cantitate de tensiune se
@@ -358,7 +372,8 @@ becul şi firele pe placă astfel încât să există contact între ele
 şi nu reprezintă singura modalitate de realizare a unui circuit pe
 placă:
 
-#+CAPTION: circuit electric pe o placă de test [[../poze/05052.png]]
+#+CAPTION: circuit electric pe o placă de test
+[[../poze/05052.png]]
 
 Experimentaţi cu diferite configuraţii ale circuitului pe placa de test.
 Dacă întâmpinaţi o situaţie în care becul nu se aprinde, iar firele
@@ -383,7 +398,8 @@ la distrugeri materiale şi vătămări corporale.
 Puteţi de asemenea realiza circuitul de mai sus folosindu-vă de o
 regletă de borne:
 
-#+CAPTION: circuit electric pe o regletă de borne [[../poze/05055.png]]
+#+CAPTION: circuit electric pe o regletă de borne
+[[../poze/05055.png]]
 
 Sumar:
 
@@ -397,11 +413,13 @@ Sumar:
 Următorul experiment are ca principal scop realizarea şi înţelegearea
 circuitului de mai jos:
 
-#+CAPTION: circuit electric simplu [[../poze/05056.png]]
+#+CAPTION: circuit electric simplu
+[[../poze/05056.png]]
 
 Practic, circuitul de mai sus arată astfel:
 
-#+CAPTION: circuit electric simplu [[../poze/05057.png]]
+#+CAPTION: circuit electric simplu
+[[../poze/05057.png]]
 
 ** Atenţie la scurt-circuitarea accidentală a ampermetrului
 
@@ -425,7 +443,8 @@ precum un scurt-circuit dacă este conectat în paralel cu o sursă
 substanţială de tensiune. Nu încercaţi totuşi să faceţi acest lucru.
 Curentul foarte mare rezultat poate duce la distrugerea aparatului:
 
-#+CAPTION: scurt-circuitarea ampermetrului [[../poze/05058.png]]
+#+CAPTION: scurt-circuitarea ampermetrului
+[[../poze/05058.png]]
 
 Ampermetrele sunt de obicei protejate împotriva unor astfel de scenarii
 prin intermediul unei siguranţe fuzibile localizate în interiorul
@@ -435,7 +454,8 @@ Puteţi verifica starea siguranţei fuzibile interne a multimetrului
 trecând pe „Ω” (măsurare rezistenţe), şi măsurând continuitatea între
 cele două sonde (şi prin siguranţa fuzibilă), astfel:
 
-#+CAPTION: circuit electric simplu [[../poze/05059.png]]
+#+CAPTION: circuit electric simplu
+[[../poze/05059.png]]
 
 ** Desfăşurarea experimentului
 
@@ -467,14 +487,16 @@ curentului? De ce credeţi că se întâmplă acest lucru?
 
 Refaceţi circuitul pe o placă de test, astfel:
 
-#+CAPTION: circuit electric pe placa de test [[../poze/05052.png]]
+#+CAPTION: circuit electric pe placa de test
+[[../poze/05052.png]]
 
 Este foarte posibil ca în acest moment să nu vă daţi seama cum aţi putea
 conecta un ampermetru la o placă de test. Cum putem conecta ampermetrul
 pentru a măsura întreaga cantitate de curent şi a nu crea un
 scurt-circuit. Realizaţi circuitul de mai jos:
 
-#+CAPTION: circuit electric pe placa de test [[../poze/05060.png]]
+#+CAPTION: circuit electric pe placa de test
+[[../poze/05060.png]]
 
 Din nou, măsuraţi valoarea curentului prin diferite fire ale acestui
 circuit. Urmaţi aceleaşi metode precum cele de mai sus. Ce observaţi în
@@ -485,7 +507,8 @@ de test, din exemplul precedent.
 Dacă ar fi să construim circuitul de mai sus pe o regletă de borne,
 rezultatul ar fi similar:
 
-#+CAPTION: circuit electric pe regleta de borne [[../poze/05061.png]]
+#+CAPTION: circuit electric pe regleta de borne
+[[../poze/05061.png]]
 
 Sumar:
 
@@ -499,11 +522,13 @@ Sumar:
 În acest experiment vom încerca să ilustrăm „funcţionarea” legii lui
 Ohm, construind circuitul de mai jos:
 
-#+CAPTION: circuit electric simplu [[../poze/05062.png]]
+#+CAPTION: circuit electric simplu
+[[../poze/05062.png]]
 
 Practic, circuitul va arăta astfel:
 
-#+CAPTION: circuit electric simplu [[../poze/05063.png]]
+#+CAPTION: circuit electric simplu
+[[../poze/05063.png]]
 
 ** Desfăşurarea experimentului
 
@@ -579,11 +604,13 @@ rezistenţei nu este constantă. Pentru soluţionarea „misterului”
 variaţiei rezistenţei, vom face apel la „metoda ştiinţifică”. Pe
 parcurs, vom realiza circuitul de mai jos:
 
-#+CAPTION: circuit electric simplu [[../poze/05064.png]]
+#+CAPTION: circuit electric simplu
+[[../poze/05064.png]]
 
 Practic, circuitul de mai sus va arăta astfel:
 
-#+CAPTION: circuit electric simplu [[../poze/05065.png]]
+#+CAPTION: circuit electric simplu
+[[../poze/05065.png]]
 
 ** Desfăşurarea experimentului
 
@@ -669,12 +696,14 @@ importanţa puterii nominale a componentelor precum şi importanţa
 punctelor electric comune. Circuit pe care îl vom realiza este
 următorul:
 
-#+CAPTION: circuit electric simplu [[../poze/05122.png]]
+#+CAPTION: circuit electric simplu
+[[../poze/05122.png]]
 
 Practic, circuitul va arăta conform figurii de mai jos. Atenţie însă, nu
 ţineţi rezistorul între degete atunci când este alimentat.
 
-#+CAPTION: circuit electric simplu [[../poze/05123.png]]
+#+CAPTION: circuit electric simplu
+[[../poze/05123.png]]
 
 ** Realizarea circuitului şi a măsurătorilor
 
@@ -701,7 +730,8 @@ bornele bateriei în circuitul de faţă. Încercaţi să măsuraţi tensiunea
 este un principiu al punctelor electric comune, ceea ce avem şi în
 circuitul de mai jos:
 
-#+CAPTION: circuit electric simplu [[../poze/05124.png]]
+#+CAPTION: circuit electric simplu
+[[../poze/05124.png]]
 
 ** Calcularea puterii disipate
 
@@ -769,11 +799,13 @@ experiment aveţi nevoie de un întrerupător simplu, mecanic (întrerupător
 de veioză sau de perete, de exemplu). Vom realiza aşadar circuitul de
 mai jos:
 
-#+CAPTION: circuit electric cu întrerupător [[../poze/05066.png]]
+#+CAPTION: circuit electric cu întrerupător
+[[../poze/05066.png]]
 
 Practic, circuitul va arăta astfel:
 
-#+CAPTION: circuit electric cu întrerupător [[../poze/05067.png]]
+#+CAPTION: circuit electric cu întrerupător
+[[../poze/05067.png]]
 
 ** Desfăşurarea experimentului
 
@@ -813,11 +845,13 @@ fi folosit pe post de miez electromagnetic!
 
 Pe parcursul experimentului vom realiza circuitul de mai jos:
 
-#+CAPTION: circuit electric cu electromagnet [[../poze/05068.png]]
+#+CAPTION: circuit electric cu electromagnet
+[[../poze/05068.png]]
 
 Practic, circuitul va arăta astfel:
 
-#+CAPTION: circuit electric cu electromagnet [[../poze/05069.png]]
+#+CAPTION: circuit electric cu electromagnet
+[[../poze/05069.png]]
 
 ** Desfăşurarea experimentului
 

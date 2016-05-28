@@ -99,17 +99,20 @@ tensiunea aplica asupra sa, oricare ar fi temperatura, lucru exprimat
 printr-o ecuaţie simplă ce descrie relaţie dintre tensiune, curent şi
 rezistenţă:
 
-#+CAPTION: formulă matematică [[../poze/10002.png]]
+#+CAPTION: formulă matematică
+[[../poze/10002.png]]
 
 În această expresie algebrică, tensiunea(E) este egală cu, curentul(I)
 înmulţit cu rezistenţa(R). Această formulă poate fi rescrisă sub
 următoarele forme, în funcţie de I:
 
-#+CAPTION: formulă matematică [[../poze/10003.png]]
+#+CAPTION: formulă matematică
+[[../poze/10003.png]]
 
 Să folosim acum aceste ecuaţii pentru a analiza circuitele simple:
 
-#+CAPTION: circuit simplu: baterie plus bec [[../poze/00032.png]]
+#+CAPTION: circuit simplu: baterie plus bec
+[[../poze/00032.png]]
 
 În circuitul de mai sus, există doar o singură sursă de tensiune
 (bateria), şi doar o singură rezistenţă (becul, neglijând rezistenţa
@@ -128,7 +131,8 @@ cunoaştem tensiunea şi rezistenţa folosind legea lui Ohm
 
 Care este valoarea curentului (I) din acest circuit?
 
-#+CAPTION: calcule matematice [[../poze/10004.png]]
+#+CAPTION: calcule matematice
+[[../poze/10004.png]]
 
 În al doilea exemplu, vom calcula valoarea rezistenţei (R) într-un
 circuit, atunci când cunoaştem valorile tensiunii (E) şi a curentului
@@ -140,7 +144,8 @@ cunoaştem tensiunea şi curentul folosind legea lui Ohm
 
 Care este valoarea rezistenţei becului în acest caz?
 
-#+CAPTION: calcule matematice [[../poze/10005.png]]
+#+CAPTION: calcule matematice
+[[../poze/10005.png]]
 
 În ultimul exemplu, vom calcula valoarea tensiunii generate de baterie
 (E), atunci când cunoaştem valoarea curentului (I) şi a rezistenţei (R):
@@ -151,7 +156,8 @@ atunci când cunoaştem rezistenţa şi curentul folosind legea lui Ohm
 
 Care este valoarea tensiunii generate de baterie?
 
-#+CAPTION: calcule matematice [[../poze/10006.png]]
+#+CAPTION: calcule matematice
+[[../poze/10006.png]]
 
 Sumar:
 
@@ -196,7 +202,8 @@ are o viteză de rotaţie foarte mare, dar un cuplu mic. Ambele produc 100
 de cai putere, dar la viteze şi cupluri diferite. Ecuaţia pentru
 calcului cailor putere (CP) este simplă:
 
-#+CAPTION: formulă matematică [[../poze/10011.png]]
+#+CAPTION: formulă matematică
+[[../poze/10011.png]]
 
 unde,
 
@@ -211,7 +218,8 @@ situaţie). CP (cal putere) variază doar atunci când variază fie viteza
 fie cuplul şi nimic altceva. Putem rescrie ecuaţia pentru a arăta
 această relaţie:
 
-#+CAPTION: formulă matematică [[../poze/10012.png]]
+#+CAPTION: formulă matematică
+[[../poze/10012.png]]
 
 unde,
 
@@ -228,7 +236,8 @@ Pentru circuitele electrice, puterea este o funcţie (depinde) de curent
 şi tensiune. Nu este surprinzător faptul că această relaţie seamănă
 izbitor cu formula „proporţională” a calului putere de mai sus:
 
-#+CAPTION: formulă matematică [[../poze/10013.png]]
+#+CAPTION: formulă matematică
+[[../poze/10013.png]]
 
 Totuşi, în acest caz, puterea (P) este exact egală curentului (I)
 înmulţit cu tensiunea (E), şi nu este doar proporţională cu aceast
@@ -298,12 +307,14 @@ la „watti”. Să aplicăm această formulă unui circuit:
 În circuitul de sus avem o baterie de 18 V, şi un bec cu o rezistenţă de
 3 Ω. Folosind legea lui Ohm pentru determinarea curentului, obţinem:
 
-#+CAPTION: calcule matematice [[../poze/10015.png]]
+#+CAPTION: calcule matematice
+[[../poze/10015.png]]
 
 După ce am aflat valoarea curentului, putem lua această valoare şi să o
 înmulţim cu cea a tensiunii pentru a determina puterea:
 
-#+CAPTION: calcule matematice [[../poze/10016.png]]
+#+CAPTION: calcule matematice
+[[../poze/10016.png]]
 
 Prin urmare, becul degajează o putere de 108 W, atât sub formă de
 lumină, cât şi sub formă de căldură.
@@ -321,14 +332,16 @@ Acum, tensiunea bateriei (tensiunea electromotoare) este de 36 V în loc
 de 18 V cât era înainte. Becul are o valoarea a rezistenţei tot de 3 Ω.
 Curentul este acum:
 
-#+CAPTION: calcule matematice [[../poze/10017.png]]
+#+CAPTION: calcule matematice
+[[../poze/10017.png]]
 
 Trebuia să ne aşteptăm la acest lucru: dacă I = E/R, şi dublăm E-ul pe
 când R-ul rămâne acelaşi, curentul ar trebui să se dubleze. Întradevăr,
 asta s-a şi întâmplat; acum avem 12 A în loc de 6 A câţi aveam înainte.
 Să calculăm acum şi puterea:
 
-#+CAPTION: calcule matematice [[../poze/10018.png]]
+#+CAPTION: calcule matematice
+[[../poze/10018.png]]
 
 Observăm că puterea a crescut precum ne-am fi aşteptat, dar a crescut
 puţin mai mult decât curentul. De ce? Pentru că puterea este funcţie de
@@ -344,11 +357,13 @@ cunoaştem şi tensiunea şi curentul:
 
 În cazul în care cunoaştem doar tensiunea (E) şi rezistenţa (R):
 
-#+CAPTION: formule matematice [[../poze/10019.png]]
+#+CAPTION: formule matematice
+[[../poze/10019.png]]
 
 În cazul în care cunoaştem doar curentul (I) şi rezistenţa (R):
 
-#+CAPTION: calcule matematice [[../poze/10020.png]]
+#+CAPTION: calcule matematice
+[[../poze/10020.png]]
 
 O notă istorică:
 [[http://ro.wikipedia.org/wiki/James_Prescott_Joule][James Prescott
@@ -394,7 +409,8 @@ precise în circuit.
 Simbolul rezistenţei pe care îl vom folosi în circuite este cel în formă
 de zig-zag:
 
-#+CAPTION: simbolul rezistorului [[../poze/00042.png]]
+#+CAPTION: simbolul rezistorului
+[[../poze/00042.png]]
 
 Valorile rezistenţelor în ohmi sunt de obicei reprezentate printr-un
 număr adiacent, iar dacă într-un singur circuit sunt prezenţi mai mulţi
@@ -402,26 +418,30 @@ rezistori, fiecare va fi notat cu R_{1}, R_{2}, R_{3}, etc. După cum se
 poate vedea, simbolurile pentru rezistenţă pot fi prezentate fie
 orizontal, fie vertical:
 
-#+CAPTION: simbolul şi notaţia rezistorului [[../poze/00043.png]]
+#+CAPTION: simbolul şi notaţia rezistorului
+[[../poze/00043.png]]
 
 Rezistoarele reale nu seamănă deloc cu un zig-zag, ci sunt asemenea unor
 tuburi sau cilindrii cu câte un fir la fiecare capăt pentru conectarea
 lor în circuit. Mai jos sunt câteva exemple de rezistori de diferite
 tipuri şi mărimi:
 
-#+CAPTION: diferite tipuri şi mărimi de rezistori [[../poze/50008.jpg]]
+#+CAPTION: diferite tipuri şi mărimi de rezistori
+[[../poze/50008.jpg]]
 
 Dacă ne luăm după aparenţa lor fizică, un simbol alternativ pentru
 rezistori este cel din figura de mai jos^{1}:
 
-#+CAPTION: simbolul european al rezistorului [[../poze/00368.png]]
+#+CAPTION: simbolul european al rezistorului
+[[../poze/00368.png]]
 
 Rezistoarele pot de asemenea să fie cu rezistenţă variabilă, nu neapărat
 fixă. Această proprietate o putem întâlni în cadrul unui rezistor
 construit chiar pentru acest scop, sau o putem întâlni în cadrul unui
 component a cărui rezistenţă este instabilă în timp:
 
-#+CAPTION: simbolul rezistorului variabil [[../poze/00339.png]]
+#+CAPTION: simbolul rezistorului variabil
+[[../poze/00339.png]]
 
 În general, ori de câte ori vedeţi simbolul unui component reprezentat
 cu o săgeată diagonală prin el, acel component are o valoarea variabilă
@@ -463,7 +483,8 @@ Pentru a rezuma ceea ce am spus până acum, vom analiza circuitul de mai
 jos, încercând să determinăm tot ceea ce putem cu ajutorul informaţiilor
 disponibile:
 
-#+CAPTION: circuit electric simplu [[../poze/00044.png]]
+#+CAPTION: circuit electric simplu
+[[../poze/00044.png]]
 
 Tot ceea ce cunoaştem în acest circuit este tensiunea la bornele bariei
 (10 volţi) şi curentul prin circuit (2 amperi). Nu cunoaştem rezistenţa
@@ -472,13 +493,15 @@ Folosindu-ne însă de ecuaţiile lui Ohm, putem găsi două ecuaţii ce ne
 pot oferi răspunsuri folosind doar cantitătile cunoascute, tensiunea,
 respectiv curentul:
 
-#+CAPTION: relatii matematice [[../poze/10022.png]]
+#+CAPTION: relatii matematice
+[[../poze/10022.png]]
 
 Introducând cantităţile cunoscute de tensiune (E) şi curent (I) în
 aceste două ecuaţii, putem determina rezistenţa circuitului (R), şi
 puterea disipată (P):
 
-#+CAPTION: calcule matematice [[../poze/10023.png]]
+#+CAPTION: calcule matematice
+[[../poze/10023.png]]
 
 Pentru circuitul de faţă, în care avem 10 volţi şi 2 amperi, rezistenţa
 rezistorului trebuie şa fie de 5 Ω. Dacă ar fi să proiectăm un circuit
@@ -523,7 +546,8 @@ lucruri sunt evidente, atâta timp cât rezistenţa becului la deplasarea
 electronilor rămâne constantă la 3 Ω.
 
 #+CAPTION: circuit electric simplu, dublarea tensiunii rezultă în
-#+CAPTION: dublarea curentului [[../poze/00045.png]]
+#+CAPTION: dublarea curentului
+[[../poze/00045.png]]
 
 Totuşi, realitatea nu este atât de simplă. Unul din fenomenele
 prezentate într-un capitol viitor este cel al /modificării/ rezistenţei
@@ -554,7 +578,8 @@ constantă a filamentului de 3 Ω, generează un grafic asemănător celui de
 jos:
 
 #+CAPTION: graficul curent-tensiune într-un circuit electric simplu
-#+CAPTION: idealizat [[../poze/00046.png]]
+#+CAPTION: idealizat
+[[../poze/00046.png]]
 
 Linia dreaptă de pe grafic desemnează faptul că rezistenţa este stabilă
 pentru o varietate de tensiuni şi curenţi din circuit. Acest lucru se
@@ -568,7 +593,8 @@ când tensiunea la bornele bateriei variază într-un domeniu larg, este
 reprezentat prin graficul de mai jos:
 
 #+CAPTION: graficul curent-tensiune într-un circuit electric simplu
-#+CAPTION: idealizat [[../poze/00047.png]]
+#+CAPTION: idealizat
+[[../poze/00047.png]]
 
 Acest grafic nu mai este o linie dreaptă. Acesta creşte brusc în partea
 stângă, odată cu creşterea tensiunii de la zero la o valoarea scăzută.
@@ -596,7 +622,8 @@ precum în circuitul precedent, putem observa foarte clar efectul
 neliniar al ionizării:
 
 #+CAPTION: graficul curent-tensiune neliniar în cazul ionizării
-#+CAPTION: dielectricului dintre borne [[../poze/00048.png]]
+#+CAPTION: dielectricului dintre borne
+[[../poze/00048.png]]
 
 Graficul de mai sus este aproximat pentru o grosime a dielectricului
 (aer) de 1cm. O eventuală distanţă mai mare dintre cei doi conductori ar
@@ -774,7 +801,8 @@ Acest lucru are sens şi din punct de vedere matematic. Cu o baterie de
 firelor fiind zero, căderea de tensiune pe întregul circuit poate fi
 determinată cu ajutorul legii lui Ohm, asfel:
 
-#+CAPTION: relaţii matematice [[../poze/10267.png]]
+#+CAPTION: relaţii matematice
+[[../poze/10267.png]]
 
 Pentru că punctele comune din punct de vedere electric dintr-un circuit
 au aceeiaşi tensiunea şi rezistenţă relativă, firele ce conectează
@@ -782,7 +810,8 @@ aceste puncte sunt de obicei desemnate printr-o aceeiaşi notaţie. Asta
 nu înseamnă că punctele /terminalelor/ au aceeiaşi denumire, ci doar
 firele de legătură. De exemplu:
 
-#+CAPTION: numerotarea firelor într-un circuit [[../poze/00051.png]]
+#+CAPTION: numerotarea firelor într-un circuit
+[[../poze/00051.png]]
 
 Punctele 1, 2 şi 3 sunt comune, prin urmare firul ce conectează punctele
 1 şi 2 este notat asemenea (firul #2) firului ce conectează punctele 2
@@ -844,7 +873,8 @@ electronilor prin circuit, ceea ce înseamnă că borna pe unde curentul
 curentul /iese/ din rezistor este cea pozitivă.
 
 #+CAPTION: marcarea polarităţii căderii de tensiune într-un circuit
-#+CAPTION: simplu [[../poze/00052.png]]
+#+CAPTION: simplu
+[[../poze/00052.png]]
 
 #+BEGIN_EXAMPLE
     Între punctele 1 (+) şi 4 (-) = 10 volţi                     

@@ -17,7 +17,8 @@ avem până la şase variabile de intrare. Între şase şi opt, mai putem
 un program software specializat pentru realizarea simplificărilor
 logice.
 
-#+CAPTION: [[../poze/00000.png]]
+#+CAPTION:
+[[../poze/00000.png]]
 
 Sumar:
 
@@ -52,16 +53,19 @@ de mai jos centru, denumit aria dreptunghiulară din afara cercului A cu
 A-negat în loc de U. B şi B-negat se reprezintă similar (figura de mai
 jos dreapta).
 
-#+CAPTION: diagrame Venn [[../poze/14073.png]]
+#+CAPTION: diagrame Venn
+[[../poze/14073.png]]
 
 Ce se întâmplă dacă şi A şi B se află în acelaşi univers? Există patru
 posibilităţi:
 
-#+CAPTION: diagrame Venn [[../poze/14074.png]]
+#+CAPTION: diagrame Venn
+[[../poze/14074.png]]
 
 Să reluăm fiecare din cele patru posibilităţi în parte:
 
-#+CAPTION: diagrame Venn [[../poze/14075.png]]
+#+CAPTION: diagrame Venn
+[[../poze/14075.png]]
 
 Primul exemplu indică faptul că mulţimile A şi B nu au niciun element
 comun, conform diagramei Venn. Regiunile celor două mulţimi nu se
@@ -70,7 +74,8 @@ ar conţine următoarele elemente: A = {1, 2, 3, 4}, B = {5, 6, 7, 8}.
 Niciunul dintre elementele mulţimii A nu este inclus în mulţimea B şi
 invers. Prin urmare, cele două cercuri nu se suprapun.
 
-#+CAPTION: diagrame Venn [[../poze/14076.png]]
+#+CAPTION: diagrame Venn
+[[../poze/14076.png]]
 
 În cel de al doilea exemplu, mulţimea A este inclusă total în mulţimea
 B. Cum putem explica această situaţie? Să presupunem că mulţimile A şi B
@@ -78,7 +83,8 @@ conţin următoarele elemente: A = {1, 2}, B = {1, 2, 3, 4, 5, 6, 7, 8}.
 Toate elementele din A se regăsesc şi în B. Prin urmare, mulţimea A este
 o submulţime a mulţimii B, iar cercul A este inclus în cercul B.
 
-#+CAPTION: diagrame Venn [[../poze/14077.png]]
+#+CAPTION: diagrame Venn
+[[../poze/14077.png]]
 
 În cel de al treilea caz, mulţimile A şi B se suprapun perfect. Din
 diagrama Venn, putem deduce că cele două mulţimi conţin exact aceleaşi
@@ -86,7 +92,8 @@ elemente. Să presupunem că mulţimile arată astfel: A = {1, 2, 3, 4} şi B
 = {1, 2, 3, 4}. Prin urmare A = B. Cele două mulţimi sunt identic egale
 deoarece conţin exact aceleaşi elemente.
 
-#+CAPTION: diagrame Venn [[../poze/14078.png]]
+#+CAPTION: diagrame Venn
+[[../poze/14078.png]]
 
 În ultimul caz, cele două mulţimi se suprapun, dar nu complet ci doar
 parţial. Acest lucru ne spune că există elemente comune celor două
@@ -105,7 +112,8 @@ regiuni haşurate de mai jos, abia apoi vom trece la analizarea regiunii
 comune celor două mulţimi. Să utilizăm expresii booleene pentru
 desemnarea reginilor diagramelor Venn, conform figurii de mai jos:
 
-#+CAPTION: diagrame Venn [[../poze/14079.png]]
+#+CAPTION: diagrame Venn
+[[../poze/14079.png]]
 
 Aria mulţimii A este haşurată cu roşu, iar cea a mulţimii B cu albastru.
 Dacă analizăm întreaga aria haşurată (suma totală a tuturor ariilor
@@ -122,7 +130,8 @@ dublu haşurată de mai jos (stânga). Această arie corespunde funcţiei
 logice ŞI, iar expresia booleană este AB (jos dreapta). Tot ceea ce se
 află în afara ariei dublu haşurate AB reprezintă AB-negat:
 
-#+CAPTION: diagrame Venn [[../poze/14080.png]]
+#+CAPTION: diagrame Venn
+[[../poze/14080.png]]
 
 Observaţii că unele elemente ale mulţimilor A şi B de sus, sunt elemente
 ale mulţimii (AB)-negat, dar niciunul dintre elementele mulţimii
@@ -141,7 +150,8 @@ realizarea funcţiei ŞI (A'B) prin suprapunerea celor două regiuni
 precedente. Am putea să ne oprim aici, dar, pentru claritate, putem
 păstra doar aria dublu haşurată:
 
-#+CAPTION: diagrame Venn [[../poze/14081.png]]
+#+CAPTION: diagrame Venn
+[[../poze/14081.png]]
 
 Expresia A'B reprezintă regiunea în care A' şi B se suprapun. Regiunea
 nehaşurată din afara ariei A'B este (A'B)'.
@@ -157,12 +167,14 @@ funcţiei SAU, vom căuta să reprezentăm întreaga arie formată de cele
 două mulţimi, indiferent de stilul haşurării. Prin urmare A + B'
 reprezintă întreaga arie haşurată:
 
-#+CAPTION: diagrame Venn [[../poze/14082.png]]
+#+CAPTION: diagrame Venn
+[[../poze/14082.png]]
 
 Pentru claritate, putem reprezenta întreaga regiune printr-o singură
 haşurare (jos stânga):
 
-#+CAPTION: diagrame Venn [[../poze/14083.png]]
+#+CAPTION: diagrame Venn
+[[../poze/14083.png]]
 
 *** Diagrama Venn pentru (A + B')'
 
@@ -180,11 +192,13 @@ unei diagrame Venn.
 
 *** Diagrama Venn pentru A' + B' şi (A' + B')'
 
-#+CAPTION: diagrame Venn [[../poze/14085.png]]
+#+CAPTION: diagrame Venn
+[[../poze/14085.png]]
 
 *** Arătaţi că A' + B' = AB
 
-#+CAPTION: diagrame Venn [[../poze/14143.png]]
+#+CAPTION: diagrame Venn
+[[../poze/14143.png]]
 
 ** Diagrame Venn cu 3 variabile
 
@@ -194,7 +208,8 @@ reprezintă epxresia booleană ABC. Există o altă regiune unde A şi B se
 intersectează, reprezentând expresia booleană AB. Similar, interescţia
 ariei A cu C şi B cu C reprezintă expresia booleană AC, reprectiv BC.
 
-#+CAPTION: diagramă Venn cu trei variabile [[../poze/14086.png]]
+#+CAPTION: diagramă Venn cu trei variabile
+[[../poze/14086.png]]
 
 Observând mărimea regiunilor descrise de functia ŞI de mai sus, putem
 vedea că mărimea regiunii variază cu numărul variabilelor asociate
@@ -207,7 +222,8 @@ expresiei ŞI.
 Începem transformarea unei diagrame Venn într-o hartă Karnaugh prin
 desenarea unei mulţimi A în universul A' (figura de mai jos, a):
 
-#+CAPTION: diagrame Venn [[../poze/14087.png]]
+#+CAPTION: diagrame Venn
+[[../poze/14087.png]]
 
 Extindem apoi cercul A (b şi c), modificăm forma lui la punctul (d), şi
 transformăm A într-un dreptunghi (e). Tot ceea ce nu se află în A este
@@ -226,12 +242,14 @@ lucru este pentru a observa ceea ce este comun celor două regiuni
 suprapuse - de exemplu, locul în care A se suprapune cu B. Pătratul din
 dreapta jos (c) corespunde relaţiei AB, unde A se suprapune cu B:
 
-#+CAPTION: diagrame Venn [[../poze/14088.png]]
+#+CAPTION: diagrame Venn
+[[../poze/14088.png]]
 
 Totuşi, nu vom pierde vremea desenând hărţi Karnaugh precum cea de mai
 sus (c), ci vom folosi o versiune simplificată:
 
-#+CAPTION: hărţi Karnaugh [[../poze/14089.png]]
+#+CAPTION: hărţi Karnaugh
+[[../poze/14089.png]]
 
 Coloana formată din cele două celule de sub A' este asociată mulţimii A'
 (stânga); similar pentru celelalte mulţimi. Pentru simplitate, regiunile
@@ -251,7 +269,8 @@ corespunzătoare lui A; marcăm apoi regiunea corspunzătoare lui B.
 Intersecţia celor două regiuni reprezintă AB; trecem un 1 în această
 căsuţă. Nu este însă necesar să încercuim propriu-zis regiunile A şi B:
 
-#+CAPTION: hărţi Karnaugh [[../poze/14090.png]]
+#+CAPTION: hărţi Karnaugh
+[[../poze/14090.png]]
 
 ** Hărţi Karnaigh cu trei variabile
 
@@ -262,7 +281,8 @@ pătrate. C-ul ocupă o regiune pătrată în mijlocul dreptunghiului, iar C'
 este împărţit în două dreptunghiuri verticale de fiecare parte a
 pătratului C:
 
-#+CAPTION: hărţi Karnaugh cu trei variabile [[../poze/14091.png]]
+#+CAPTION: hărţi Karnaugh cu trei variabile
+[[../poze/14091.png]]
 
 În figura finală suprapunem toate cele trei variabile, încercând să
 delimităm clar fiecare regiune. Această hartă Karnaugh cu 3 variabile
@@ -271,7 +291,8 @@ este unic determinată prin intermediul celor trei variabile booleene (A,
 B şi C). De exemplu ABC' reprezintă regiunea din dreapta jos (*), iar
 A'B'C' reprezintă regiunea din stânga sus (x):
 
-#+CAPTION: hărţi Karnaugh cu trei variabile [[../poze/14092.png]]
+#+CAPTION: hărţi Karnaugh cu trei variabile
+[[../poze/14092.png]]
 
 Totuşi, în mod normal nu vom nota o hartă Karnaugh conform figurii de
 mai sus stânga. Notarea hărţilor Karnaugh se va face conform figurii din
@@ -322,13 +343,15 @@ intersecţia coloanei B = 0 cu rândul A = 0. Celelalte ieşiri ale
 tabelului de adevăr, β, χ respectiv δ, corespunzătoare intrărilor AB =
 01, 10 respectiv 11 au de asemenea corespondent pe harta Karnaugh:
 
-#+CAPTION: harta Karnaugh [[../poze/14095.png]]
+#+CAPTION: harta Karnaugh
+[[../poze/14095.png]]
 
 Pentru uşurinţa expunerii, prezentăm mai jos regiunule adiacente ale
 hărţii Karnaugh cu două variabile folosind metoda dreptunghiulară a
 diagramei Venn din secţiunea precedentă:
 
-#+CAPTION: hărţi Karnaugh şi diagrame Venn [[../poze/14096.png]]
+#+CAPTION: hărţi Karnaugh şi diagrame Venn
+[[../poze/14096.png]]
 
 Regiunile α şi χ sunt adiacente pe harta Karnaugh. Nu putem spune
 acelaşi lucru despre tabelul de adevăr precedent, întrucât există o altă
@@ -450,7 +473,8 @@ exemplului precedent.
 
 Simplificaţi circuitul logic de mai jos:
 
-#+CAPTION: circuit logic [[../poze/14103.png]]
+#+CAPTION: circuit logic
+[[../poze/14103.png]]
 
 Scriem expresia booleană pentru circuitul logic iniţial; transferăm
 expresia booleană rezultată într-o hartă Karnaugh; grupăm regiunile
@@ -458,13 +482,15 @@ precum în exemplele precedente; scriem expresii booleene pentru fiecare
 grup, conform exemplelor precedente; redesenăm circuitul logic
 simplificat:
 
-#+CAPTION: simplificarea unui circuit logic [[../poze/14104.png]]
+#+CAPTION: simplificarea unui circuit logic
+[[../poze/14104.png]]
 
 *** Exemplul 6
 
 Simplificaţi circuitul logic de mai jos:
 
-#+CAPTION: circuit logic [[../poze/14105.png]]
+#+CAPTION: circuit logic
+[[../poze/14105.png]]
 
 Scriem expresia booleană pentru circuitul logic iniţial; completăm harta
 Karnaugh; obervăm că nu putem forma niciun grup care să conţină mai mult
@@ -484,7 +510,8 @@ simplificare.
 Vom folosi harta Karnaugh dezvoltată anterior, mai exact forma din
 dreapta:
 
-#+CAPTION: hartă Karnaugh [[../poze/14093.png]]
+#+CAPTION: hartă Karnaugh
+[[../poze/14093.png]]
 
 ** Codul Gray
 
@@ -578,7 +605,8 @@ Să reluăm mai jos exemplul incineratorului de deşeuri toxice studiat
 folosind o hartă Karnaugh:
 
 #+CAPTION: incinerator deşeuri toxice - simplificarea circuitului logic
-#+CAPTION: folosind hărţi Karnaugh [[../poze/14115.png]]
+#+CAPTION: folosind hărţi Karnaugh
+[[../poze/14115.png]]
 
 Ecuaţia booleană de iesire este o sumă de patru produse. Prin urmare,
 vom avea patru regiuni de 1 pe harta Karnaugh. Grupând regiunile
@@ -599,7 +627,8 @@ circuitului logic al incineratorului...
 ...şi harta Karnaugh, care duce la exact acelaşi rezultat...
 
 #+CAPTION: incinerator deşeuri toxice - simplificarea circuitului logic
-#+CAPTION: folosind hărţi Karnaugh [[../poze/14144.png]]
+#+CAPTION: folosind hărţi Karnaugh
+[[../poze/14144.png]]
 
 Putem lesne vedea motivul pentru care hărţile Karnaugh sunt preferate
 pentru simplificarea circuitelor logice în detrimentul simplificării
@@ -615,7 +644,8 @@ Sumar:
 Folosindu-ne de codul Gray, putem construi hărţi Karnaugh mai mari. O
 hartă Karnaugh cu patru variabile arată precum cea de mai jos:
 
-#+CAPTION: hartă Karnaugh cu patru variabile [[../poze/14116.png]]
+#+CAPTION: hartă Karnaugh cu patru variabile
+[[../poze/14116.png]]
 
 Exemplele de mai jos ilustrează simplificarea expresiilor booleene ce
 sunt prea greu de realizat prin intermediul regulilor de simplificare
@@ -626,7 +656,8 @@ mai uşor, mai ales dacă există multe simplificări logice de realizat.
 ** Exemple de simplificare logică cu hărţi Karnaugh de patru variabile
 
 #+CAPTION: simplificarea expresiilor booleene folosind hărţi Karnaugh de
-#+CAPTION: patru variabile [[../poze/14117.png]]
+#+CAPTION: patru variabile
+[[../poze/14117.png]]
 
 Expresia booleană de mai sus conţine 7 produse. Aceşti termeni sunt
 grupaţi de sus în jos şi de la stânga la dreapta pe harta Karnaugh de
@@ -639,7 +670,8 @@ grupuri, rezultatul trebuie să fie o sumă de două produse, prin urmare,
 AB + CD.
 
 #+CAPTION: simplificarea expresiilor booleene folosind hărţi Karnaugh de
-#+CAPTION: patru variabile [[../poze/14118.png]]
+#+CAPTION: patru variabile
+[[../poze/14118.png]]
 
 În cazul de mai sus, „împăturim” cele patru colţuri ale hărţii Karnaugh,
 precum un şerveţel, pentru a observa mai bine adiacenţa celor patru
@@ -649,7 +681,8 @@ variabile nu se vor regăsi în rezultatul final al expresiei
 simplificate.
 
 #+CAPTION: simplificarea expresiilor booleene folosind hărţi Karnaugh de
-#+CAPTION: patru variabile [[../poze/14119.png]]
+#+CAPTION: patru variabile
+[[../poze/14119.png]]
 
 Pentru o vizualizare mai bună, ne putem imagina că îndoim marginile de
 jos şi de sus a hărţii sub forma unui cilindru. În acest caz, ambele
@@ -659,7 +692,8 @@ acestui grup de 8 variabile este B = 0. Rezultatul simplificării este
 prin urmare B'.
 
 #+CAPTION: simplificarea expresiilor booleene folosind hărţi Karnaugh de
-#+CAPTION: patru variabile [[../poze/14120.png]]
+#+CAPTION: patru variabile
+[[../poze/14120.png]]
 
 Expresia booleană de mai sus conţine 9 termeni de produse, dintre care
 trei au doar trei variabile booleene în loc de patru. Diferenţa constă
@@ -674,7 +708,8 @@ decât dacă am fi format un grup de opt şi un grup de patru regiuni, fără
 nicio regiune comună celor două. Soluţia finală este B' + D'.
 
 #+CAPTION: simplificarea expresiilor booleene folosind hărţi Karnaugh de
-#+CAPTION: patru variabile [[../poze/14121.png]]
+#+CAPTION: patru variabile
+[[../poze/14121.png]]
 
 În exemplul de mai sus, trei regiuni formează două grupuri de câte două.
 O a patra regiune nu poate fi combinată cu nicio altă regiune, ceea ce
@@ -686,7 +721,8 @@ Adeseori, există mai mult de o singură soluţie cu cost minim pentru
 expresia nesimplificată. Un astfel de caz este cel de mai jos:
 
 #+CAPTION: simplificarea expresiilor booleene folosind hărţi Karnaugh de
-#+CAPTION: patru variabile [[../poze/14122.png]]
+#+CAPTION: patru variabile
+[[../poze/14122.png]]
 
 Ambele rezultate de mai sus conţin patru termeni, cu trei variabile
 booleene fiecare. Ambele soluţii sunt valide din punct de vedere al
@@ -696,7 +732,8 @@ minim este acea soluţie ce permite o implementare fizică a circuitului
 logic cu un număr cât mai mic de porţi logice şi număr de intrări.
 
 #+CAPTION: simplificarea expresiilor booleene folosind hărţi Karnaugh de
-#+CAPTION: patru variabile [[../poze/14123.png]]
+#+CAPTION: patru variabile
+[[../poze/14123.png]]
 
 În următorul exemplu, cel de mai sus, după ce trecem toate valorile de 1
 pe hartă Karnaugh, realizăm primul pas al simplificării, şi anume,
@@ -712,7 +749,8 @@ Atenţie, nu încercaţi să realizaţi grupuri de câte trei. Grupările
 trebuie să fie sub forma puterilor lui 2, şi anume, 1, 2, 4, 8, etc.
 
 #+CAPTION: simplificarea expresiilor booleene folosind hărţi Karnaugh de
-#+CAPTION: patru variabile [[../poze/14124.png]]
+#+CAPTION: patru variabile
+[[../poze/14124.png]]
 
 Avem din nou mai sus un exemplu ce suportă două soluţi cu cost minim.
 Formăm iniţial cele două grupuri de câte patru regiuni (roşu şi
@@ -723,7 +761,8 @@ este ABD. Indiferent de alegerea făcută, ambele soluţii sunt corecte din
 punct de vedere al minimizării costurilor de implementare.
 
 #+CAPTION: simplificarea expresiilor booleene folosind hărţi Karnaugh de
-#+CAPTION: patru variabile [[../poze/14125.png]]
+#+CAPTION: patru variabile
+[[../poze/14125.png]]
 
 Mai sus este un exemplu de simplificare cu hărţi Karnaugh (stânga)
 precum şi cu regulile algebrei booleene (dreapta). C' (C = 0) reprezintă
@@ -1001,7 +1040,8 @@ Karnaugh [[../poze/14138.png]]
 
 Reluăm mai jos (stânga) circuitul sub forma sumei de produse:
 
-#+CAPTION: circuite cu porţi logice [[../poze/14139.png]]
+#+CAPTION: circuite cu porţi logice
+[[../poze/14139.png]]
 
 Dacă înlocuim toate porţile logice ŞI din stânga cu porţi logice
 ŞI-negat, obţinem rezultatu din dreapta sus. Poarta SAU de la intrare
@@ -1011,7 +1051,8 @@ suficient să mutăm „cerculeţele” inversoare de la ieşirea celor trei
 porţi ŞI-negat la intrarea porţii finale ŞI-negat, conform figurii de
 mai jos:
 
-#+CAPTION: circuite cu porţi logice [[../poze/14140.png]]
+#+CAPTION: circuite cu porţi logice
+[[../poze/14140.png]]
 
 În figura de mai sus (dreapta), putem observa că ieşirea unei porţi
 SI-negat cu intrări inversate este echivalentă din punct de vedere logic
@@ -1062,13 +1103,15 @@ logice TTL, aceasta din urmă este şi atractivă datorită simplităţii
 rezultatului. Putem găsim porţi logice ŞI şi SAU cu 2 intrări. Mai jos
 sunt prezentate circuitele logice pentru ambele soluţii
 
-#+CAPTION: circuite cu porţi logice [[../poze/14142.png]]
+#+CAPTION: circuite cu porţi logice
+[[../poze/14142.png]]
 
 Să presupunem că avem la dispoziţie circuitele logice TTL de mai jos. În
 acest caz, cunoaştem şi poziţionarea porţilor logice în interiorul
 acestora, precum în figura de mai jos:
 
-#+CAPTION: circuite logice TTL [[../poze/14145.png]]
+#+CAPTION: circuite logice TTL
+[[../poze/14145.png]]
 
 Circuitele integrate folosite (trei la număr) vor fi identificate prin
 notaţia U1, U2 respectiv U3. Pentru a face distincţie între porţile
@@ -1082,14 +1125,16 @@ desemna toate intrările şi ieşirile circuitului logic ce vrem să-l
 construim, conform figurii de mai jos (intrările porţilor nefolosite se
 vor lega la masă):
 
-#+CAPTION: circuit logic [[../poze/14146.png]]
+#+CAPTION: circuit logic
+[[../poze/14146.png]]
 
 Putem găsi cu uşurinţă porţi logice ŞI cu două intrări (7408, stânga).
 Totuşi, este mai greu să găsim o poartă logică SAU cu patru intrări.
 Singurul tip de poartă cu patru intrări este un circuit TTL 7420 cu
 porţi ŞI-negat (dreapta):
 
-#+CAPTION: circuite logice TTL [[../poze/14147.png]]
+#+CAPTION: circuite logice TTL
+[[../poze/14147.png]]
 
 Putem transforma poarta logică ŞI-negat cu patru intrări într-o poartă
 logică SAU cu patru intrări prin inversarea intrărilor acesteia:
@@ -1140,7 +1185,8 @@ Indicii termenilor indică locaţia regiunii, sau adresa, dintr-o hartă
 Karnaugh. Acesta este cu siguranţa un mod mult mai compact pentru
 descrierea mintermenilor sau regiunilor unei hărţi Karnaugh.
 
-#+CAPTION: harta Karnaugh [[../poze/14162.png]]
+#+CAPTION: harta Karnaugh
+[[../poze/14162.png]]
 
 Soluţia exprimată sub formă sumei de produse nu este afectată prin
 utilizarea acestei terminologii. Mintermenii de pe harta (valorile de 1)
@@ -1163,7 +1209,8 @@ Din nou, numerele indică adresa sau locaţia pe harta Karnaugh. Pentru
 maxtermeni, acestea reprezintă locaţiile valorilor de 0. Soluţia sub
 forma produsului de sume se scrie ca de obicei.
 
-#+CAPTION: harta Karnaugh [[../poze/14163.png]]
+#+CAPTION: harta Karnaugh
+[[../poze/14163.png]]
 
 Sumar:
 
@@ -1264,7 +1311,8 @@ hărţii Karnaugh de 6 variabile) compară două numere binare. Acesta
 indică dacă cele două numere sunt egale, mai mici sau mai mari unul faţă
 de celălalt. Un astfel de comparator are trei ieşiri:
 
-#+CAPTION: comparator digital de amplitudine [[../poze/14160.png]]
+#+CAPTION: comparator digital de amplitudine
+[[../poze/14160.png]]
 
 Un comparator de amplitudine pe trei biţi are două intrări:
 A_{2}A_{1}A_{0} şi B_{2}B_{1}B_{0}. Un comparator de amplitudine sub

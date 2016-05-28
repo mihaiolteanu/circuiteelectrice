@@ -9,8 +9,10 @@ ale tensiunii diferite, pentru a face experimentul mai interesant.
 
 Pe parcurs, vom realiza circuitul de mai jos (schemă + circuit practic):
 
-#+CAPTION: conectarea bateriilor în serie [[../poze/05072.png]]
-#+CAPTION: conectarea bateriilor în serie [[../poze/05073.png]]
+#+CAPTION: conectarea bateriilor în serie
+[[../poze/05072.png]]
+#+CAPTION: conectarea bateriilor în serie
+[[../poze/05073.png]]
 
 ** Desfăşurarea experimentului
 
@@ -23,7 +25,8 @@ ajutorul unui voltmetru. Măsuraţi apoi căderea de tensiune la bornele
 celor două baterii conectate în serie. Veţi observa că cele două valori
 ale tensiunii se adună:
 
-#+CAPTION: conectarea bateriilor în serie [[../poze/05074.png]]
+#+CAPTION: conectarea bateriilor în serie
+[[../poze/05074.png]]
 
 Încercaţi să conectaţi baterii de tensiuni diferite în serie. De
 exemplu, conectaţi o baterie de 6 V cu una de 9 V. Care este valoarea
@@ -33,7 +36,8 @@ Inversaţi apoi conexiunile celor două baterii, conectând borna
 negativă(-) a uneia dintre baterii cu borna negativă(-) a celeilalte. Pe
 scurt, conectaţi-le în /contra-serie/, astfel:
 
-#+CAPTION: conectarea bateriilor în anti-serie [[../poze/05075.png]]
+#+CAPTION: conectarea bateriilor în anti-serie
+[[../poze/05075.png]]
 
 Care este valoarea tensiunii în acest caz. Care este diferenţa faţă de
 cazul precedent? Puteţi deduce polaritatea căderii de tensiune,
@@ -53,8 +57,10 @@ Vom realiza circuitele de mai jos (schema teoretică şi circuitul
 practic), şi vom observa efectul conectării surselor de putere în
 paralel asupra tensiunii şi a curentului din circuit:
 
-#+CAPTION: conectarea bateriilor în paralel [[../poze/05076.png]]
-#+CAPTION: conectarea bateriilor în paralel [[../poze/05077.png]]
+#+CAPTION: conectarea bateriilor în paralel
+[[../poze/05076.png]]
+#+CAPTION: conectarea bateriilor în paralel
+[[../poze/05077.png]]
 
 ** Derularea experimentului
 
@@ -62,7 +68,8 @@ Conectaţi o baterie de 6 V la un bec de 12 V, cu o putere de 25 sau 50
 W. Becul va lumina relativ slab în acest caz. Utilizaţi voltmetrul
 pentru determinarea căderii de tensiune la bornele becului, astfel:
 
-#+CAPTION: conectarea bateriilor în paralel [[../poze/05078.png]]
+#+CAPTION: conectarea bateriilor în paralel
+[[../poze/05078.png]]
 
 Indicaţia voltmetrului ar trebui să fie mai mică decât tensiunea normală
 a bateriei. Dacă veţi folosi voltmetrul pentru citirea căderii de
@@ -82,7 +89,8 @@ negative (-).
 Adăugaţi pe rând bateriile în paralel, observând tensiunea becului cu
 fiecare nouă baterie:
 
-#+CAPTION: conectarea bateriilor în paralel [[../poze/05079.png]]
+#+CAPTION: conectarea bateriilor în paralel
+[[../poze/05079.png]]
 
 De asemenea, intensitatea luminii becului ar trebui să crească cu
 fiecare nouă baterie adăugată în paralel. Încercaţi să măsuraţi curentul
@@ -90,7 +98,8 @@ unei baterii. Comparaţi această valoare cu valoarea curentului total
 (prin bec). Cea mai uşoară metodă de măsurare a curentului unei singure
 baterii, este următoarea:
 
-#+CAPTION: conectarea bateriilor în paralel [[../poze/05080.png]]
+#+CAPTION: conectarea bateriilor în paralel
+[[../poze/05080.png]]
 
 Întrerupem circuitul pentru o singură baterie. Introducem apoi
 ampermetrul în locul întreruperii, astfel încât circuitul este acum
@@ -99,7 +108,8 @@ curentului total este similară: deschidem circuitul într-un loc prin
 care circulă curentul total şi conectăm ampermatrul între cei doi
 conductori liberi:
 
-#+CAPTION: conectarea bateriilor în paralel [[../poze/05081.png]]
+#+CAPTION: conectarea bateriilor în paralel
+[[../poze/05081.png]]
 
 Observaţi diferenţa dintre curentul unei singure baterii şi curentul
 total. Pentru a obţinea cea mai mare iluminare, avem nevoie însă de o
@@ -109,7 +119,8 @@ genera o tensiune de 12 V. Conectăm apoi două astfel de combinaţii serie
 curentului necesară alimentării becului. Tensiunea pe fiecare baterie va
 fi în acest caz mult mai aproape de 6 V:
 
-#+CAPTION: conectarea bateriilor în paralel [[../poze/05082.png]]
+#+CAPTION: conectarea bateriilor în paralel
+[[../poze/05082.png]]
 
 * 03. Divizor de tensiune
 
@@ -129,14 +140,18 @@ rezistor de valoare mare.
 legii lui Kirchhoff pentru tensiune, precum şi cu realizarea unui
 divizor de tensiune. Vom realiza circuitul de mai jos (diagrama):
 
-#+CAPTION: divizor de tensiune [[../poze/05083.png]]
+#+CAPTION: divizor de tensiune
+[[../poze/05083.png]]
 
 Practic, acest poate fi realizat în oricare din formele de mai jos (care
 va este mai la îndemână):
 
-#+CAPTION: divizor de tensiune; circuit practic [[../poze/05084.png]]
-#+CAPTION: divizor de tensiune; circuit practic [[../poze/05085.png]]
-#+CAPTION: divizor de tensiune; circuit practic [[../poze/05086.png]]
+#+CAPTION: divizor de tensiune; circuit practic
+[[../poze/05084.png]]
+#+CAPTION: divizor de tensiune; circuit practic
+[[../poze/05085.png]]
+#+CAPTION: divizor de tensiune; circuit practic
+[[../poze/05086.png]]
 
 Alternativ, puteţi încerca realizarea tuturor celor trei variante de mai
 sus. Vă veţi familiariza astfel cu toate cele trei metode. Fiecare are
@@ -230,8 +245,10 @@ Kirchhoff. Paşii pe care trebuie sa-i urmaţii sunt următorii:
 
 #+CAPTION: divizor de tensiune; măsurarea căderilor de tensiune
 [[../poze/05090.png]] #+CAPTION: divizor de tensiune; măsurarea
-#+CAPTION: căderilor de tensiune [[../poze/05091.png]] #+CAPTION: divizor de
-#+CAPTION: tensiune; măsurarea căderilor de tensiune [[../poze/05092.png]]
+#+CAPTION: căderilor de tensiune
+[[../poze/05091.png]] #+CAPTION: divizor de
+#+CAPTION: tensiune; măsurarea căderilor de tensiune
+[[../poze/05092.png]]
 #+CAPTION: divizor de tensiune; măsurarea căderilor de tensiune
 [[../poze/05093.png]]
 
@@ -261,12 +278,15 @@ o serie de rezistori cu valori cuprinse între 1 kΩ şi 100 kΩ. Faţă de
 exemplul precedent, ne vom familiariza cu legea lui Kirchhoff pentru
 curent şi cu funcţionarea unui circuit divizor de curent.
 
-#+CAPTION: divizor de curent [[../poze/05097.png]]
+#+CAPTION: divizor de curent
+[[../poze/05097.png]]
 
 Circuitul se poate realiza practic în mai multe moduri:
 
-#+CAPTION: divizor de curent [[../poze/05098.png]] #+CAPTION: divizor de
-#+CAPTION: curent [[../poze/05102.png]] #+CAPTION: divizor de curent
+#+CAPTION: divizor de curent
+[[../poze/05098.png]] #+CAPTION: divizor de
+#+CAPTION: curent
+[[../poze/05102.png]] #+CAPTION: divizor de curent
 [[../poze/05099.png]]
 
 În mod normal, nu este recomandat să conectaţi mai mult de doi
@@ -304,8 +324,10 @@ rezistorilor; conectaţi borna neagră, pe rând, la capătul celălalt (-)
 al rezistorilor. Observaţi atât atât valoarea cât şi polaritatea
 curentului. De exemplu, pentru a calcula curentul prin rezistorul R_{1}:
 
-#+CAPTION: divizor de curent; măsurarea curentului [[../poze/05100.png]]
-#+CAPTION: divizor de curent; măsurarea curentului [[../poze/05101.png]]
+#+CAPTION: divizor de curent; măsurarea curentului
+[[../poze/05100.png]]
+#+CAPTION: divizor de curent; măsurarea curentului
+[[../poze/05101.png]]
 
 Măsuraţi curentul pentru toţi cei trei rezistori. Comparaţi aceste
 valori cu rezultatele obţinute anterior. Conectând ampermetrul asemenea
@@ -318,8 +340,10 @@ Măsuraţi apoi curentul total din circuit, astfel: ţineţi sonda roşie a
 ampermetrului într-un singur punct din circuit; deconectaţi conductorul
 ce duce la borna pozitivă (+) a bateriei şi atingeţi-l cu sonda neagră.
 
-#+CAPTION: divizor de curent; măsurarea curentului [[../poze/05103.png]]
-#+CAPTION: divizor de curent; măsurarea curentului [[../poze/05104.png]]
+#+CAPTION: divizor de curent; măsurarea curentului
+[[../poze/05103.png]]
+#+CAPTION: divizor de curent; măsurarea curentului
+[[../poze/05104.png]]
 
 Notaţi-vă atât valoarea cât şi semnul curentului indicat de ampermetru.
 Faceţi suma algebrică dintre această valoare şi valorile curenţilor
@@ -352,10 +376,14 @@ divizor de tensiune. Vom vedea, de asemenea, modul în care se însumează
 tensiunile în serie. Circuitul pe care îl vom realiza, este următorul
 (schema plus circuite implementate practic):
 
-#+CAPTION: divizor de tensiune cu potenţiometru [[../poze/05106.png]]
-#+CAPTION: divizor de tensiune cu potenţiometru [[../poze/05107.png]]
-#+CAPTION: divizor de tensiune cu potenţiometru [[../poze/05108.png]]
-#+CAPTION: divizor de tensiune cu potenţiometru [[../poze/05109.png]]
+#+CAPTION: divizor de tensiune cu potenţiometru
+[[../poze/05106.png]]
+#+CAPTION: divizor de tensiune cu potenţiometru
+[[../poze/05107.png]]
+#+CAPTION: divizor de tensiune cu potenţiometru
+[[../poze/05108.png]]
+#+CAPTION: divizor de tensiune cu potenţiometru
+[[../poze/05109.png]]
 
 ** Desfăşurarea experimentului
 
@@ -371,12 +399,14 @@ Practic, mina de grafit se comportă precum o /pereche/ de rezistori.
 Raportul dintre cele două rezistenţe este stabilit de poziţia sondei
 roşii pe lungimea acestuia:
 
-#+CAPTION: divizor de tensiune cu potenţiometru [[../poze/05110.png]]
+#+CAPTION: divizor de tensiune cu potenţiometru
+[[../poze/05110.png]]
 
 Modificaţi apoi poziţia sondelor voltmetrului, astfel încât să măsuraţi
 tensiunea pe „rezistorul de sus” a minei, astfel:
 
-#+CAPTION: divizor de tensiune cu potenţiometru [[../poze/05111.png]]
+#+CAPTION: divizor de tensiune cu potenţiometru
+[[../poze/05111.png]]
 
 Repoziţionaţi sonda neagră pe lungimea minei şi observaţi indicaţia
 voltmetrului. Care este poziţia pentru care tensiunea indicată de
@@ -400,7 +430,8 @@ borna negativă). Împărţiţi tensiunea măsurată pe potenţiometru cu
 tensiunea totală măsurată pe baterie. Rezultatul ar trebui să fie 1/3,
 aceiaşi valoare a divizorului de tensiune ce am găsit-o şi înainte:
 
-#+CAPTION: divizor de tensiune cu potenţiometru [[../poze/05114.png]]
+#+CAPTION: divizor de tensiune cu potenţiometru
+[[../poze/05114.png]]
 
 * 06. Potenţiometrul ca şi reostat
 
@@ -418,7 +449,8 @@ plus implementare practică):
 
 #+CAPTION: circuit electric cu potenţiometru şi motor
 [[../poze/05144.png]] #+CAPTION: circuit electric cu potenţiometru şi
-#+CAPTION: motor [[../poze/05145.png]]
+#+CAPTION: motor
+[[../poze/05145.png]]
 
 ** Realizarea reostatului din potenţiometru
 
@@ -435,21 +467,24 @@ de al treilea terminal este lăsat neconectat şi neutilizat:
 
 #+CAPTION: circuit electric cu potenţiometru şi motor
 [[../poze/05146.png]] #+CAPTION: circuit electric cu potenţiometru şi
-#+CAPTION: motor [[../poze/05147.png]]
+#+CAPTION: motor
+[[../poze/05147.png]]
 
 Deplasarea periei potenţiometrului astfel încât aceasta să se apropie de
 celălalt terminal utilizat rezultă în descreşterea rezistenţei. Direcţia
 necesară creşterii sau descreşterii rezistenţei poate fi schimbată prin
 utilizarea unor seturi diferite de terminali:
 
-#+CAPTION: potenţiometru [[../poze/05148.png]]
+#+CAPTION: potenţiometru
+[[../poze/05148.png]]
 
 Fiţi atenţi însă să nu folosiţi cei doi terminali externi. Acest lucru
 nu va duce la modificarea rezistenţei atunci când poziţia periei se
 schimbă. Cu alte cuvinte, potenţiometrul nu va mai funcţiona ca şi o
 rezistenţă variabilă:
 
-#+CAPTION: potenţiometru [[../poze/05149.png]]
+#+CAPTION: potenţiometru
+[[../poze/05149.png]]
 
 ** Controlul vitezei motorului
 
@@ -525,8 +560,10 @@ utilizare a unei termocuple. Veţi avea nevoie de un conductor de cupru
 bucăţi de gheaţă. Circuitul electric pe care îl vom realiza este cel de
 jos:
 
-#+CAPTION: realizarea unei termocuple [[../poze/05153.png]] #+CAPTION:
-#+CAPTION: realizarea unei termocuple [[../poze/05154.png]]
+#+CAPTION: realizarea unei termocuple
+[[../poze/05153.png]] #+CAPTION:
+#+CAPTION: realizarea unei termocuple
+[[../poze/05154.png]]
 
 ** Realizarea termocuplei
 
@@ -551,7 +588,8 @@ flacără. Observaţi indicaţia voltmetrului. Îndepărtaţi contactul
 termocuplei din flacără şi lăsaţi-l să se răcească până când indicaţia
 voltmetrului se apropie din nou de zero.
 
-#+CAPTION: generarea tensiunii cu o termocuplă [[../poze/05156.png]]
+#+CAPTION: generarea tensiunii cu o termocuplă
+[[../poze/05156.png]]
 
 Atingeti apoi contactul termocuplei cu un cub de gheaţă şi observaţi
 indicaţia voltmetrului. Ce puteţi spune despre valoare tensiunii
@@ -581,8 +619,10 @@ fiecare). Practic, vom realiza circuitul de mai jos:
 
 #+CAPTION: circuit de mediere a tensiunilor printr-o reţea de rezistori
 [[../poze/05115.png]] #+CAPTION: circuit de mediere a tensiunilor
-#+CAPTION: printr-o reţea de rezistori [[../poze/05116.png]] #+CAPTION: circuit de
-#+CAPTION: mediere a tensiunilor printr-o reţea de rezistori [[../poze/05117.png]]
+#+CAPTION: printr-o reţea de rezistori
+[[../poze/05116.png]] #+CAPTION: circuit de
+#+CAPTION: mediere a tensiunilor printr-o reţea de rezistori
+[[../poze/05117.png]]
 
 Acest circuit realizează funcţia matematică de mediere. Practic,
 intrarea circuitului constă din cele trei tensiuni, iar ieşirea din
@@ -664,7 +704,8 @@ chimice în funcţionarea bateriilor precum şi modul în care suprafaţa
 electrozilor influenţează funcţionarea bateriei. Ciurcuitul realizat
 este următorul:
 
-#+CAPTION: baterie din cartof [[../poze/05167.png]]
+#+CAPTION: baterie din cartof
+[[../poze/05167.png]]
 
 ** Realizarea bateriei din cartof
 
@@ -781,8 +822,10 @@ critică. Totuşi, teoretic, o valoare mai mică a rezistenţei
 potenţiometrului conduce la rezultate mai bune în acest experiment.
 Circuitul final arată astfel:
 
-#+CAPTION: circuit de diferenţiere [[../poze/05229.png]] #+CAPTION:
-#+CAPTION: circuit de diferenţiere [[../poze/05230.png]]
+#+CAPTION: circuit de diferenţiere
+[[../poze/05229.png]] #+CAPTION:
+#+CAPTION: circuit de diferenţiere
+[[../poze/05230.png]]
 
 ** Realizarea circuitului
 

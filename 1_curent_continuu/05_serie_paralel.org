@@ -9,7 +9,8 @@ Există două modalităţi de bază în care putem conecta mai mult de două
 componente într-un circuit: /serie/ şi /paralel/. Mai jos e un exemplu
 de circuit serie:
 
-#+CAPTION: circuit serie [[../poze/00082.png]]
+#+CAPTION: circuit serie
+[[../poze/00082.png]]
 
 În acest circuit avem 3 rezistori (R_{1},R_{2} şi R_{3}) conectaţi
 într-un singur lanţ de la un terminal al bateriei la celălalt.
@@ -18,7 +19,8 @@ singure căi pentru curgerea electronilor.
 
 Să ne uităm acum şi la celălalt tip de circuit, cel paralel:
 
-#+CAPTION: circuit paralel [[../poze/00083.png]]
+#+CAPTION: circuit paralel
+[[../poze/00083.png]]
 
 Şi în acest caz avem tot 3 rezistori, dar de data această există mai
 multe căi pentru curgerea electronilor. Există o cale de la 8 la 7, 2, 1
@@ -38,7 +40,8 @@ Desigur, complexitatea nu se opreşte nici la circuite serie sau paralel!
 Putem avea de asemenea circuite ce sunt o combinaţie dintre acestea
 două:
 
-#+CAPTION: circuit serie-paralel [[../poze/00084.png]]
+#+CAPTION: circuit serie-paralel
+[[../poze/00084.png]]
 
 În acest circuit, avem două ramuri prin care electroni pot să circule:
 una de la 6 la 5, 2, 1 şi înapoi la 6, iar altă ramură de la 6 la 5, 4,
@@ -50,7 +53,8 @@ combinaţia paralelă R_{1} şi R_{2}.
 Idea de bază într-o conexiune serie este conectarea componentelor de la
 un capăt la altul într-o linie dreaptă:
 
-#+CAPTION: conexiune serie [[../poze/00085.png]]
+#+CAPTION: conexiune serie
+[[../poze/00085.png]]
 
 Idea de bază într-o conexiune paralel, pe de altă parte, este că toate
 componentele sunt conectate între la aceleaşi capete. Într-un circuit
@@ -59,7 +63,8 @@ indiferent de numărul componentelor din circuit conectate. Există mai
 mult de o singură cale pentru deplasarea electronilor, dar o singură
 cădere de tensiune asupra tuturor componentelor"
 
-#+CAPTION: conexiune paralel [[../poze/00086.png]]
+#+CAPTION: conexiune paralel
+[[../poze/00086.png]]
 
 Cele două tipuri de configuraţii, serie şi paralel, prezintă proprietăţi
 electrice total diferite.
@@ -80,7 +85,8 @@ Sumar:
 Să începem cu un circuit electric format dintr-o baterie şi trei
 rezistori:
 
-#+CAPTION: circuit serie [[../poze/00087.png]]
+#+CAPTION: circuit serie
+[[../poze/00087.png]]
 
 Primul principiu pe care trebuie să-l înţelegem legat de circuitele
 serie este păstrarea constantă a valorii curentului în întreg circuitul,
@@ -105,8 +111,10 @@ singur rezistor în circuit, putem calcula foarte uşor valorile
 circuitului, pentru că acestea se referă la aceleaşi două puncte din
 circuit:
 
-#+CAPTION: circuit serie [[../poze/00088.png]] #+CAPTION: relaţii
-#+CAPTION: matematice [[../poze/10056.png]]
+#+CAPTION: circuit serie
+[[../poze/00088.png]] #+CAPTION: relaţii
+#+CAPTION: matematice
+[[../poze/10056.png]]
 
 Din moment ce punctele 1 şi 2 sunt conectate împreună printr-un fir de o
 rezistenţă neglijabilă (la fel şi punctele 3 şi 4), putem spune că
@@ -131,7 +139,8 @@ a găsi valoarea curentului, pentru că nu cunoaştem defapt valoarea
 tensiunii pe fiecare din rezistori în parte, cunoaştem valoarea
 tensiunii pe întreg ansamblul de rezistori doar.
 
-#+CAPTION: circuit serie [[../poze/00087.png]]
+#+CAPTION: circuit serie
+[[../poze/00087.png]]
 
 Valoarea de 9 volţi reprezintă o cantitate /totală/ din circuit, pe când
 valorile de 3kΩ, 10kΩ şi 5kΩ, reprezintă cantităţi /individuale/ din
@@ -144,7 +153,8 @@ care îl vom regăsi într-un circuit real.
 curentul la bornele rezistorului R_{1}, şi valoarea rezistenţei lui,
 3kΩ:
 
-#+CAPTION: formula [[../poze/10057.png]]
+#+CAPTION: formula
+[[../poze/10057.png]]
 
 Dar din moment ce nu cunoaştem tensiunea la bornele lui R_{1} (doar
 tensiunea totală pe toţi cei trei rezistori conectaţi în serie), şi nu
@@ -165,7 +175,8 @@ va fi electronilor să se deplaseze prin circuit. În exemplul nostru,
 aveam trei rezistori în serie, de 3 kΩ, 10 kΩ, respectiv 5 kΩ, ceea ce
 rezultă într-o rezistenţă totală de 18Ω:
 
-#+CAPTION: formula [[../poze/10058.png]]
+#+CAPTION: formula
+[[../poze/10058.png]]
 
 Ceea ce am făcut de fapt, a fost să calculăm rezistenţa echivalentă a
 rezistenţelor de 3 kΩ, 10 kΩ şi 5 kΩ luate împreună. Cunoscând acest
@@ -173,26 +184,30 @@ lucru, putem redesena circuitul cu un singur rezistor echivalent
 reprezentând combinaţia serie a celor trei rezistori R_{1}, R_{2} şi
 R_{3}:
 
-#+CAPTION: formula [[../poze/00089.png]]
+#+CAPTION: formula
+[[../poze/00089.png]]
 
 Acum avem toate informaţiile necesare pentru a calcula curentul prin
 circuit, deoarece aven tensiunea între punctele 1 şi 4 (9 volţi), precum
 şi rezistenţă între punctele 1 şi 4 (18kΩ):
 
-#+CAPTION: formula [[../poze/10059.png]]
+#+CAPTION: formula
+[[../poze/10059.png]]
 
 Cunoscând faptul că prin fiecare component în cadrul unui circuit serie,
 curentul este acelaşi, şi cunoscând valoarea acelui curentu în cazul de
 faţă, putem merge înapoi la circuitul iniţial şi să notăm valoarea
 curentului prin fiecare component în parte:
 
-#+CAPTION: formula [[../poze/00090.png]]
+#+CAPTION: formula
+[[../poze/00090.png]]
 
 Acum că valoarea curentului prin fiecare rezistor ne este cunoscută,
 putem folosi legea lui OHm pentru determinarea căderilor de tensiune pe
 fiecare component în parte:
 
-#+CAPTION: formula [[../poze/10060.png]]
+#+CAPTION: formula
+[[../poze/10060.png]]
 
 Putem observa căderea te tensiune pe fiecare rezistor în parte şi faptul
 că suma acestor căderi de tensiune (1.5 V + 5 V + 2.5 V) este egală cu
@@ -216,7 +231,8 @@ Sumar:
 Să începem cu un circuit paralel format din trei rezistori şi o singură
 baterie:
 
-#+CAPTION: circuit paralel [[../poze/00092.png]]
+#+CAPTION: circuit paralel
+[[../poze/00092.png]]
 
 Primul principiu pe care trebuie să-l înţelegem despre circuitele
 paralele este legat de faptul că tensiunea este egală la bornele tuturor
@@ -237,7 +253,8 @@ de la început legea lui Ohm fiecărui rezistor în parte, pentru că se
 cunoaşte tensiunea la bornele fiecărui rezistor (9 voloţi) precum şi
 rezistenţa fiecărui rezistor:
 
-#+CAPTION: circuit paralel [[../poze/10071.png]]
+#+CAPTION: circuit paralel
+[[../poze/10071.png]]
 
 Până în acest moment, nu cunoaştem valoarea totală a curentului, sau
 rezistenţă totală a acestui circuit paralel, asfel că nu putem aplica
@@ -246,8 +263,10 @@ legea lui Ohm pentru a afla valoarea totală a curentului prin circuit
 totală a curentului prin circuit trebuie să fie egală cu suma valorilor
 curenţilor prin fiecare ramură (fiecare rezistor în parte):
 
-#+CAPTION: circuit paralel [[../poze/00093.png]] #+CAPTION: calcule
-#+CAPTION: matematice [[../poze/10074\_2.png]]
+#+CAPTION: circuit paralel
+[[../poze/00093.png]] #+CAPTION: calcule
+#+CAPTION: matematice
+[[../poze/10074\_2.png]]
 
 Pe măsură ce curentul iese prin terminalul negativ (-) al bateriei la
 punctul 8 şi se deplasează prin circuit, o parte din această cantitate
@@ -267,7 +286,8 @@ ramură în parte.
 Şi în sfârşit, aplicând legea lui Ohm pe întreg circuitul, putem calcula
 valoarea totală a rezistenţei prezentă în circuit:
 
-#+CAPTION: rezistenţa totală din circuit [[../poze/10074.png]]
+#+CAPTION: rezistenţa totală din circuit
+[[../poze/10074.png]]
 
 Trebuie să observăm un lucru foarte important în acest caz! Valoarea
 rezistenţei totale este de numai 625 Ω: /mai puţin/ decât valoarea
@@ -305,7 +325,8 @@ electrică, în opoziţie cu rezistenţa electrică.
 
 Matematic, conductanţa este inversa rezistenţei:
 
-#+CAPTION: relaţia conductanţă-rezistenţă [[../poze/10079.png]]
+#+CAPTION: relaţia conductanţă-rezistenţă
+[[../poze/10079.png]]
 
 Cu cât valoarea rezistenţei este mai mare, cu atât mai mică va fi cea a
 conductanţei şi invers. Simbolul folosit pentru desemnarea conductanţei
@@ -323,18 +344,21 @@ Rezistenţa totală paralelă este mai /mică/ decât oricare dintre
 rezistenţele ramurilor luate individual (R_{total} mai mică decât R_{1},
 R_{2}, R_{3} sau R_{4} luate individual):
 
-#+CAPTION: circuit paralel [[../poze/00096.png]]
+#+CAPTION: circuit paralel
+[[../poze/00096.png]]
 
 Conductanţa paralelă este mai /mare/ decât oricare dintre conductanţele
 ramurilor luate individual, deoarece rezistorii paraleli conduct mai
 bine curantul electricât decât o fac fiecare luat în parte(G_{total} mai
 mare decât G_{1}, G_{2}, G_{3} sau G_{4} luate individual):
 
-#+CAPTION: circuit paralel, conductanţă [[../poze/00097.png]]
+#+CAPTION: circuit paralel, conductanţă
+[[../poze/00097.png]]
 
 Matematic, această relaţie se exprimă asfel:
 
-#+CAPTION: formula conductanţei [[../poze/10080.png]]
+#+CAPTION: formula conductanţei
+[[../poze/10080.png]]
 
 Cunoscând relaţia matematică inversă dintre conductanţă şi rezistenţă
 (1/x), putem transforma fiecare din termenii formulei de mai sus în
@@ -346,7 +370,8 @@ rezistenţe:
 Rezolvând ecuaţie de mai sus pentru R_{total}, ajungem la următoarea
 formulă:
 
-#+CAPTION: rezistenţa totală, circuit paralel [[../poze/10082.png]]
+#+CAPTION: rezistenţa totală, circuit paralel
+[[../poze/10082.png]]
 
 Asfel, ajungem la formula rezistenţei totale dintr-un circuit paralel.
 
@@ -509,7 +534,8 @@ circuitelor paralel.
 
 ** Analiza defectelor într-un circuit serie simplu
 
-#+CAPTION: circuit pur rezistiv serie [[../poze/00098.png]]
+#+CAPTION: circuit pur rezistiv serie
+[[../poze/00098.png]]
 
 Să considerăm circuitul alăturat
 
@@ -699,7 +725,8 @@ se va regăsi pe terminalele rezistorului R_{2}.
 
 ** Analiza defectelor într-un circuit paralel simplu
 
-#+CAPTION: circuit pur rezistiv paralel [[../poze/00101.png]]
+#+CAPTION: circuit pur rezistiv paralel
+[[../poze/00101.png]]
 
 Putem aplica aceleaşi metode şi în cazul unui circuit paralel.
 
@@ -818,7 +845,8 @@ rămâne egală cu 9 V. Din această cauză (rezistenţa constantă, căderea de
 tensiune constantă) curentul prin ceilalţi doi rezistori nu se modifică
 nici ei.
 
-#+CAPTION: circuit pur rezistiv paralel cu becuri [[../poze/00357.png]]
+#+CAPTION: circuit pur rezistiv paralel cu becuri
+[[../poze/00357.png]]
 
 Acelaşi lucru îl putem observa şi într-un circuit casnic: toate becurile
 sunt conectate în paralel. La pornirea sau oprirea unui bec (o ramură
@@ -1014,7 +1042,8 @@ componentelor între ele.
 Dacă am dori să realizăm un circuit simplu cu o baterie şi trei
 rezistor, putem utiliza aceiaşi metodă de conectare a conductorilor.
 
-#+CAPTION: placă electronică de test [[../poze/50042.jpg]]
+#+CAPTION: placă electronică de test
+[[../poze/50042.jpg]]
 
 Totuşi, această tehnică se dovedeşte a nu fi practică atunci când avem
 de a face cu circuite mult mai complicate decât cele de mai sus. O
@@ -1023,7 +1052,8 @@ utilizarea unei plăci de test (solderless breadboard), un dispozitiv
 realizat din plastic ce permite realizarea uşoară a unui număr relativ
 mare de conexiuni între componente.
 
-#+CAPTION: circuit electric cu placă de test [[../poze/00446.png]]
+#+CAPTION: circuit electric cu placă de test
+[[../poze/00446.png]]
 
 Alăturat este un exemplu de circuit realizat cu ajutorul plăcii de test.
 
@@ -1074,19 +1104,22 @@ prevăzut cu spaţii metalice pentru prinderea conductorilor cu ajutorul
 unor şuruburi; acest procedeu este similor modului de conectare al
 prizelor sau întrerupătoarelor casnice.
 
-#+CAPTION: regletă de conexiuni [[../poze/50033.jpg]]
+#+CAPTION: regletă de conexiuni
+[[../poze/50033.jpg]]
 
 Un exemplu de astfel de regletă, având o serie de conductori ataşaţi,
 este prezentat în poza alăturată.
 
-#+CAPTION: regletă de conexiuni [[../poze/50034.jpg]]
+#+CAPTION: regletă de conexiuni
+[[../poze/50034.jpg]]
 
 O altă variantă este cea din poza alăturată. Această variantă, denumită
 şi „europeană” are şuruburile introduse într-un canal pentru a preveni
 scurt-circuitarea accidentală între terminali prin intermediul unei
 şurubelniţi sau al unui alt obiect metalic.
 
-#+CAPTION: regletă de conexiuni; circuit serie [[../poze/00450.png]]
+#+CAPTION: regletă de conexiuni; circuit serie
+[[../poze/00450.png]]
 
 În figura alăturată, este prezentat un circuit serie compus dintr-o
 singură baterie şi trei rezistori folosind o regletă de conexiuni.
@@ -1102,7 +1135,8 @@ sunt de obicei realizate pentru a facilita citirea lor cu uşurinţă, dar
 circuitele practice au de cele mai multe ori o orientare complet
 diferită.
 
-#+CAPTION: regletă de conexiuni; circuit paralel [[../poze/00451.png]]
+#+CAPTION: regletă de conexiuni; circuit paralel
+[[../poze/00451.png]]
 
 Să luăm ca şi exemplu un circuit paralel format dintr-o singură baterie
 şi trei rezistori.
@@ -1113,13 +1147,15 @@ aranjaţi liniar (asemănător circuitelor serie, nu paralel) pe regletă -
 nu este chiar aşa de evidentă, prin urmare, vom prezenta procesul pas cu
 pas în cele ce urmează.
 
-#+CAPTION: regletă de conexiuni; circuit paralel [[../poze/00452.png]]
+#+CAPTION: regletă de conexiuni; circuit paralel
+[[../poze/00452.png]]
 
 Pentru început, considerăm diagrama iniţială a circuitului şi toate
 componentele prinse pe regleta de conexiuni dar fără niciun conductor
 electric între ele.
 
-#+CAPTION: regletă de conexiuni; circuit paralel [[../poze/00453.png]]
+#+CAPTION: regletă de conexiuni; circuit paralel
+[[../poze/00453.png]]
 
 Apoi, urmărim conductorul dinspre terminalul pozitiv al bateriei spre
 primul component al diagramei, realizând în acelaşi timp o legătură
@@ -1131,12 +1167,14 @@ deja realizate în circuitul real.
 Continuând acest proces, fir cu fir, până în momentul în care întreaga
 schemă electrică (diagramă) a circuitului este acoperită.
 
-#+CAPTION: regletă de conexiuni; circuit paralel [[../poze/00454.png]]
+#+CAPTION: regletă de conexiuni; circuit paralel
+[[../poze/00454.png]]
 
 Următorul pas, aşadar, constă în conectarea bornelor superioare a celor
 doi rezistori rămaşi.
 
-#+CAPTION: regletă de conexiuni; circuit paralel [[../poze/00455.png]]
+#+CAPTION: regletă de conexiuni; circuit paralel
+[[../poze/00455.png]]
 
 Având toate bornele superioare ale tuturor rezistorilor din circuit
 conectate la borna pozitivă a bateriei, următorul pas este să conectăm

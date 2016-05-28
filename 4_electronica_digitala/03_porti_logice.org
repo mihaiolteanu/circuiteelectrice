@@ -25,7 +25,8 @@ ieşirea unui astfel de circuit poate fi folosită pentru reprezentarea
 unui singur bit. O tensiune joasă reprezentând „0”, şi o tensiune
 (relativ) înaltă reprezentând „1”.
 
-#+CAPTION: tranzistor aflat în saturaţie [[../poze/04068.png]]
+#+CAPTION: tranzistor aflat în saturaţie
+[[../poze/04068.png]]
 
 În figura alăturată, tranzistorul este saturat datorită tensiunii de
 intrare de 5 V (prin intermediul comutatorului cu două poziţii).
@@ -39,7 +40,8 @@ considerată a fi „0”. Alternativ, se folosesc termenii de „înalt” (1
 binar) sau jos (0 binar). Termenul general pentru reprezentarea unui bit
 prin intermediul unei tensiuni poartă numele de „nivel logic”.
 
-#+CAPTION: tranzistor aflat în saturaţie [[../poze/04068.png]]
+#+CAPTION: tranzistor aflat în saturaţie
+[[../poze/04068.png]]
 
 Trecând comunatorul pe cealalţă poziţie, aplicăm o intrare de 0 binar si
 obţinem la ieşire 1 binar.
@@ -56,7 +58,8 @@ dintr-un număr binar compus din mai mulţi biţi.
 
 ** Poarta inversoare (NU sau NOT)
 
-#+CAPTION: poartă inversoare; simbol [[../poze/04070.png]]
+#+CAPTION: poartă inversoare; simbol
+[[../poze/04070.png]]
 
 Alăturat este simbolul folosit pentru reprezentarea unei porţi
 inversoare (NOT). Aceasta se comportă identic cu circuitul analizat mai
@@ -66,7 +69,8 @@ tranzistoare de genul celui prezentat mai sus, dar, pentru simplificarea
 analizei circuitelor, se vor folosi aceste simboluri specifice fiecărei
 porţi.
 
-#+CAPTION: poartă inversoare; simbol alternativ [[../poze/04099.png]]
+#+CAPTION: poartă inversoare; simbol alternativ
+[[../poze/04099.png]]
 
 Un simbol alternativ pentru o poartă inversoare este cel din figura
 alăturată.
@@ -89,7 +93,8 @@ Dacă ar fi să conectăm două porţi inversoare, una în continuarea
 celeilalte, cele două funcţii de inversare s-ar „anula” reciproc. În
 acest caz, semnalul de ieşire va fi acelaşi cu cel de intrare.
 
-#+CAPTION: poartă ne-inversoare (buffer); simbol [[../poze/04088.png]]
+#+CAPTION: poartă ne-inversoare (buffer); simbol
+[[../poze/04088.png]]
 
 Pentru acest scop, există o poartă logică separată, denumită buffer (sau
 poartă ne-inversoare). Simbolul este un triunghiu simplu, precum în
@@ -202,12 +207,15 @@ posibilităţilor de intrare. Pentru determinarea nivelului logic de
 ieşire, se foloseşte un LED:
 
 #+CAPTION: exemplificarea tabelului de adevăr a porţii logice ŞI
-#+CAPTION: printr-un circuit practic [[../poze/04102.png]] #+CAPTION:
+#+CAPTION: printr-un circuit practic
+[[../poze/04102.png]] #+CAPTION:
 exemplificarea tabelului de adevăr a porţii logice ŞI printr-un circuit
-#+CAPTION: practic [[../poze/04103.png]] #+CAPTION: exemplificarea tabelului de
+#+CAPTION: practic
+[[../poze/04103.png]] #+CAPTION: exemplificarea tabelului de
 adevăr a porţii logice ŞI printr-un circuit practic
 [[../poze/04104.png]] #+CAPTION: exemplificarea tabelului de adevăr a
-#+CAPTION: porţii logice ŞI printr-un circuit practic [[../poze/04105.png]]
+#+CAPTION: porţii logice ŞI printr-un circuit practic
+[[../poze/04105.png]]
 
 LED-ul este alimentat cu energie electrică doar atunci când ambele
 intrări logice sunt 1.
@@ -221,7 +229,8 @@ Poarta ŞI negat este o variaţie a porţii ŞI. Practic, comportamentul
 porţii este acelaşi ca al porţii ŞI, doar că la ieşire este conectată o
 poartă NU (inversoare).
 
-#+CAPTION: poarta logică ŞI negat (NAND); simbol [[../poze/04106.png]]
+#+CAPTION: poarta logică ŞI negat (NAND); simbol
+[[../poze/04106.png]]
 
 Pentru simbolizarea acestui lucru se trece un mic cerculeţ pe terminalul
 de ieşire.
@@ -241,7 +250,8 @@ dacă toate intrările sunt 0 şi invers.
 
 ** Poarta logică SAU (OR)
 
-#+CAPTION: poarta logică SAU (OR); simbol [[../poze/04107.png]]
+#+CAPTION: poarta logică SAU (OR); simbol
+[[../poze/04107.png]]
 
 Ieşirea unei porţi logice SAU este 1 dacă oricare dintre intrări este 1.
 Ieşirea este 0 doar dacă toate intrările sunt 0.
@@ -260,12 +270,15 @@ când cele două intrări foarmează toate combinaţiile posibile. Indicaţia
 vizuală a ieşirii este furnizată de un LED:
 
 #+CAPTION: exemplificarea tabelului de adevăr a porţii logice SAU
-#+CAPTION: printr0un circuit practic [[../poze/04109.png]] #+CAPTION:
+#+CAPTION: printr0un circuit practic
+[[../poze/04109.png]] #+CAPTION:
 exemplificarea tabelului de adevăr a porţii logice SAU printr-un circuit
-#+CAPTION: practic [[../poze/04110.png]] #+CAPTION: exemplificarea tabelului de
+#+CAPTION: practic
+[[../poze/04110.png]] #+CAPTION: exemplificarea tabelului de
 adevăr a porţii logice SAU printr-un circuit practic
 [[../poze/04111.png]] #+CAPTION: exemplificarea tabelului de adevăr a
-#+CAPTION: porţii logice SAU printr-un circuit practic [[../poze/04112.png]]
+#+CAPTION: porţii logice SAU printr-un circuit practic
+[[../poze/04112.png]]
 
 Dacă oricare dintre intrări se află în poziţia 1, LED-ul va fi alimentat
 cu energie electrică.
@@ -279,7 +292,8 @@ După cum probabil v-aţi dat seama, poarta SAU negată este o partă SAU cu
 valoarea de ieşire negată (0 negat este 1, iar 1 negat este 0). Schema
 echivalentă este cea din figura alăturată.
 
-#+CAPTION: simbolul unei porţi SAU negate (NOR) [[../poze/04113.png]]
+#+CAPTION: simbolul unei porţi SAU negate (NOR)
+[[../poze/04113.png]]
 
 Pentru simplificarea reprezentării însă, există desigur un simbol
 special, conform figurii alăturate.
@@ -347,7 +361,8 @@ porţi logice ŞI-negat.
 
 ** Poarta logică SAU-exlusiv (XOR)
 
-#+CAPTION: simbolul unei porţi logice SAU-exclusiv [[../poze/04116.png]]
+#+CAPTION: simbolul unei porţi logice SAU-exclusiv
+[[../poze/04116.png]]
 
 Ultimele şase variante de porţi logice au fost variaţii directe ale
 celor trei funcţii de bază: ŞI, SAU şi NU. Poarta SAU-exclusiv este însă
@@ -365,7 +380,8 @@ fie 0 şi 1, fie 1 şi 0. Altfel, ieşirea este 0 dacă toate intrările se
 află la acelaşi nivel logic.
 
 #+CAPTION: schema echivalentă a unei porţi logice SAU-exclusiv formată
-#+CAPTION: din porţi SI, SAU şi NU [[../poze/04117.png]]
+#+CAPTION: din porţi SI, SAU şi NU
+[[../poze/04117.png]]
 
 Circuitele echivalente pentru o poartă SAU-exclusiv sunt formate din
 porţi ŞI, SAU şi NU. O metodă directă de simularea a unei porţi
@@ -383,7 +399,8 @@ Totuşi, atunci când ambele intrări sunt 1, ieşirea porţii SAU-negat este
 0, forţând o valoare de 0 pe ieşirea porţii SAU.
 
 #+CAPTION: schema echivalentă a unei porţi logice SAU-exclusiv formată
-#+CAPTION: din porţi ŞI, SAU şi NU [[../poze/04118.png]]
+#+CAPTION: din porţi ŞI, SAU şi NU
+[[../poze/04118.png]]
 
 Un alt circuit echivalent pentru o poartă SAU-exclusiv este format din
 două porţi ŞI negate (cu ajutorul unei porţi NU). Acestea generează la
@@ -451,7 +468,8 @@ Să revedem prima dată simbolul şi tabelul de adevăr pentru poarta NU:
 | 0         | 1        |
 | 1         | 0        |
 
-#+CAPTION: poartă logică NU [[../poze/04070.png]]
+#+CAPTION: poartă logică NU
+[[../poze/04070.png]]
 
 #+CAPTION: funcţia logică NU realizată cu porţi logice ŞI-negat şi
 SAU-negat prin interconectarea intrărilor [[../poze/04154-1.png]]
@@ -479,7 +497,8 @@ ne-inversoare:
 | 0         | 0        |
 | 1         | 1        |
 
-#+CAPTION: simbolul unei porţi ne-inversoare [[../poze/04088.png]]
+#+CAPTION: simbolul unei porţi ne-inversoare
+[[../poze/04088.png]]
 
 #+CAPTION: realizarea funcţiei ne-inversoare cu două etaje de porţi
 ŞI-negat şi SAU-negat conectate împreună [[../poze/04155.png]]
@@ -499,7 +518,8 @@ Simbolul şi tabelul de adevăr al porţii logice ŞI:
 | 1   | 0   | 0        |
 | 1   | 1   | 1        |
 
-#+CAPTION: simbolul porţii logice ŞI [[../poze/04156-1.png]]
+#+CAPTION: simbolul porţii logice ŞI
+[[../poze/04156-1.png]]
 
 #+CAPTION: realizarea funcţiei ŞI prin intermediul a două porţi logice
 ŞI-negat [[../poze/04156-2.png]]
@@ -527,7 +547,8 @@ SAU-negat.
 | 1   | 0   | 1        |
 | 1   | 1   | 0        |
 
-#+CAPTION: simbolul unei porţi logice ŞI-negat [[../poze/04106.png]]
+#+CAPTION: simbolul unei porţi logice ŞI-negat
+[[../poze/04106.png]]
 
 Desigur, nu avem ce „construi” la o funcţie ŞI-negat cu ajutorul
 porţilor ŞI-negat, pentru că nu este nimic de făcut.
@@ -549,7 +570,8 @@ cu ajutorul porţii SAU-negat.
 | 1   | 0   | 1        |
 | 1   | 1   | 1        |
 
-#+CAPTION: simbolul porţii logice SAU [[../poze/04107.png]]
+#+CAPTION: simbolul porţii logice SAU
+[[../poze/04107.png]]
 
 #+CAPTION: realizarea funcţiei logice SAU cu ajutorul porţilor logice
 SAU-negat [[../poze/04158-1.png]]
@@ -582,7 +604,8 @@ transformări sunt cunoscute sub numele de „teorema lui DeMorgan”.
 | 1   | 0   | 0        |
 | 1   | 1   | 0        |
 
-#+CAPTION: simbolul porţii SAU-negat [[../poze/04113.png]]
+#+CAPTION: simbolul porţii SAU-negat
+[[../poze/04113.png]]
 
 #+CAPTION: realizarea funcţiei SAU-negat prin intermediul porţilor
 ŞI-negat [[../poze/04159.png]]
@@ -619,7 +642,8 @@ funcţional, dar produs de Fairchild.
 Mai jos sunt date ca şi referinţă câteva capsule DIP dintre cele mai
 utilizate:
 
-#+CAPTION: capsule DIP [[../poze/04160.png]]
+#+CAPTION: capsule DIP
+[[../poze/04160.png]]
 
 Sumar:
 

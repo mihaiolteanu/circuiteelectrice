@@ -35,7 +35,8 @@ cu mărimea curentului.
 
 ** Galvanometrul
 
-#+CAPTION: galvanometru [[../poze/50030.jpg]]
+#+CAPTION: galvanometru
+[[../poze/50030.jpg]]
 
 Primele astfel de aparate de măsură construite erau cunoscute sub numele
 de galvanometre, fiind recunoscute pentru precizia lor. Un model foarte
@@ -55,7 +56,8 @@ măsură de o prezicie excepţională nereprezetând neapărat un astfel de
 dispozitiv prezentat mai sus.
 
 #+CAPTION: principiul de construcţie a unui aparate de măsură
-#+CAPTION: electromagnetic (analogic) [[../poze/00146.png]]
+#+CAPTION: electromagnetic (analogic)
+[[../poze/00146.png]]
 
 Aparatele de măsură electromagnetice sunt realizate în prezent dintr-o
 bobină suspendată într-un câmp magnetic, protejată de majoritatea
@@ -78,7 +80,8 @@ ipotetic o valoare a curentului de 17,5 µA. De obicei, scala este
 pentru a permite o citire mult mai precisă a indicaţiei acului.
 
 #+CAPTION: aparat de măsură; scala conţine atât valori pozitive cât şi
-#+CAPTION: valori negative [[../poze/00147.png]]
+#+CAPTION: valori negative
+[[../poze/00147.png]]
 
 Majoritatea aparatelor pot detecta polaritatea curentului, o direcţie a
 acestuia ducând la deplasarea acului într-un anumit sens, iar direcţia
@@ -100,7 +103,8 @@ electromagnetismului, câteva dintre ele se bazează pe electrostatică, cu
 alte cuvinte, pe forţa de atracţie sau de respingere generată de
 sarcinile electrice în mediul dintre ele.
 
-#+CAPTION: aparat de măsură electrostatic [[../poze/00148.png]]
+#+CAPTION: aparat de măsură electrostatic
+[[../poze/00148.png]]
 
 Dacă aplicăm o tensiune între două suprafeţe conductoare separate
 printr-un dielectric format din aer, va exista o forţă fizică de
@@ -124,7 +128,8 @@ este absolut necesară pentru realizarea unui volmetru profesional.
 
 *** Tubul catodic (CRT)
 
-#+CAPTION: tubul catodic [[../poze/00149.png]]
+#+CAPTION: tubul catodic
+[[../poze/00149.png]]
 
 O aplicaţie mult mai întâlnită a dispozitivelor electrostatice este
 tubul catodic. Acestea sunt tuburi speciale din sticlă, similare celor
@@ -149,7 +154,8 @@ electronii vor fi deviaţi mai puteric de la traseul lor iniţial, punctul
 luminos de pe afişaj regăsindu-se la o distanţa mai mare faţă de centrul
 acestuia.
 
-#+CAPTION: tub catodic [[../poze/50001.jpg]]
+#+CAPTION: tub catodic
+[[../poze/50001.jpg]]
 
 Un astfel de tub este prezentat în figura alăturată. Într-un tub real,
 precum cel alăturat, există două perechi de placi metalice pentru
@@ -199,7 +205,8 @@ indicator.
 
 ** Modelul D'Arsonval
 
-#+CAPTION: dispozitiv de măsură D'Arsonval [[../poze/00150.png]]
+#+CAPTION: dispozitiv de măsură D'Arsonval
+[[../poze/00150.png]]
 
 Să luăm ca şi prim exemplu un dispozitiv tip D'Arsonval, cu o rezistenţa
 internă a bobinei de 500 Ω, şi a cărei deplasare maximă (D.M.) se
@@ -220,7 +227,8 @@ Desigur, va trebui să modificăm şi scala aparatului de măsură, astfel
 încât să existe o legătură directă între deplasarea acului indicator şi
 valoarea reală a tensiuni măsurate.
 
-#+CAPTION: dispozitiv de măsură D'Arsonval [[../poze/00151.png]]
+#+CAPTION: dispozitiv de măsură D'Arsonval
+[[../poze/00151.png]]
 
 Această operaţie se poate realiza foarte uşor cu ajutorul unui divizor
 de tensiune. Ştiind că un divizor de tensiune se realizează cu ajutorul
@@ -280,7 +288,8 @@ tensiune pe rezistenţa internă.
 Ultimul pas constă în aplicarea legii lui Ohm (R = E / I) pentru
 determinarea rezistenţei rezistorului de multiplicare.
 
-#+CAPTION: voltmetru [[../poze/00152.png]]
+#+CAPTION: voltmetru
+[[../poze/00152.png]]
 
 Indiferent de metoda folosită, răspunsul final este acelaşi (9.5 kΩ).
 Putem aplica ambele metode, pentru a ne asigura că rezultatul final este
@@ -308,7 +317,8 @@ conectată la un circuit divizor realizat cu rezistori de prezizie,
 pentru a putea indica o tensiune sau un curent mult mai mari.
 
 #+CAPTION: volmetru folosind un comutator multi-polar si o serie de
-#+CAPTION: rezistori de multiplicare [[../poze/00153.png]]
+#+CAPTION: rezistori de multiplicare
+[[../poze/00153.png]]
 
 În general, este foarte utilă prezenţa mai multor astfel de circuite
 divizoare, pentru a putea măsură o plajă destul de largă de valori
@@ -324,7 +334,8 @@ deplasare maximă diferită a voltmetrului, şi toate se bazează pe
 aceleaşi caracteristici principale (1 mA, 500 Ω).
 
 #+CAPTION: volmetru folosind un comutator multi-polar si o serie de
-#+CAPTION: rezistori de multiplicare [[../poze/00154.png]]
+#+CAPTION: rezistori de multiplicare
+[[../poze/00154.png]]
 
 Cu o astfel de variantă, valoarea fiecărui rezistor este determinată
 folosind aceiaşi metodă utilizată mai sus, cunoscând tensiunea totală
@@ -333,7 +344,8 @@ necesară în fiecare caz. Pentru un volmetru cu scala tensiunilro de 1 V,
 alăturate.
 
 #+CAPTION: volmetru folosind un comutator multi-polar si o serie de
-#+CAPTION: rezistori de multiplicare [[../poze/00155.png]]
+#+CAPTION: rezistori de multiplicare
+[[../poze/00155.png]]
 
 Putem observa că valorile rezistorilor de multiplicare sunt puţin
 ciudate. Este puţin probabil să găsim un rezistor de precizie cu o
@@ -377,14 +389,16 @@ Totuşi, astfel de voltmetre nu există decât în paginile cărţilor, nu şi
 în viaţa reală!
 
 #+CAPTION: măsurarea căderii de tensiune într-un circuit divizor de
-#+CAPTION: tensiune cu ajutorul unui voltmetru [[../poze/00156.png]]
+#+CAPTION: tensiune cu ajutorul unui voltmetru
+[[../poze/00156.png]]
 
 Să luăm ca şi exemplu circuitul divizor de tensiune din figura
 alăturată, ca şi un exemplu extrem al efectelor unui voltmetru asupra
 circuitului de măsurat.
 
 #+CAPTION: realizarea unui subcircuit între volmetru şi componentul
-#+CAPTION: asupra cărei se face măsurarea tensiunii [[../poze/00157.png]]
+#+CAPTION: asupra cărei se face măsurarea tensiunii
+[[../poze/00157.png]]
 
 Atunci când voltmetrul nu este conectat în circuit, vom aveam o cădere
 de tensiune de exact 12 V pe fiecare dintre cei doi rezistori (vezi
@@ -394,7 +408,8 @@ acest exemplu posedă o rezistenţa internă între cele două sonde de 10 MΩ
 subcircuit paralel cu rezistorul inferior al divizorului.
 
 #+CAPTION: modificarea căderilor de tensiune din circuit ca urmare a
-#+CAPTION: conectării volmetrului [[../poze/00158.png]]
+#+CAPTION: conectării volmetrului
+[[../poze/00158.png]]
 
 Acest lucru duce la scăderea rezistenţei inferioare de la 250 MΩ la 9,61
 MΩ (circuit paralel), modificând fundamental căderile de tensiune din
@@ -431,7 +446,8 @@ posedă de obicei o rezistenţa constantă între sondele aparatului
 indiferent de domeniu de tensiune ales.
 
 #+CAPTION: volmetru folosind un comutator multi-polar si o serie de
-#+CAPTION: rezistori de multiplicare [[../poze/00154.png]]
+#+CAPTION: rezistori de multiplicare
+[[../poze/00154.png]]
 
 Să reluăm exemplu din secţiunea precedentă. Pe domeniul 1000 V,
 rezistenţa totală este de 1 MΩ (999,5 kΩ + 500Ω), ceea ce înseamnă 1 MΩ
@@ -487,7 +503,8 @@ nu necesită un circuit complicat, dar este nevoie de multă pricepere din
 partea utilizatorului.
 
 #+CAPTION: măsurarea căderii de tensiune din circuit cu ajutorul unui
-#+CAPTION: detector de nul [[../poze/00159.png]]
+#+CAPTION: detector de nul
+[[../poze/00159.png]]
 
 Într-un detector de nul, o sursă de tensiune de precizie, ajustabilă,
 este comparată cu tensiune de măsură iar aparatul indică diferenţa de
@@ -509,7 +526,8 @@ acestuia, iar difuzorul va produce un „click” scurt. Un alt „click” se
 poate auzi la deconectarea sursei de c.c.
 
 #+CAPTION: detector de nul realizat cu ajutorul unei perechi de căşti şi
-#+CAPTION: un întrerupător [[../poze/00425.png]]
+#+CAPTION: un întrerupător
+[[../poze/00425.png]]
 
 Luând în considerare acest principiu, un detector de nul sensibil poate
 fi realizat dintr-o simplă pereche de căşti şi un întrerupător.
@@ -526,7 +544,8 @@ Rezultatul este un „click” mai puternic şi mai uşor de sesizat, chiar şi
 pentru curenţi mult mai mici.
 
 #+CAPTION: detector de nul realizat cu ajutorul unei perechi de căşti şi
-#+CAPTION: un întrerupător; exemplu [[../poze/00424.png]]
+#+CAPTION: un întrerupător; exemplu
+[[../poze/00424.png]]
 
 Conectat în circuitul cu detector de nul prezentat mai sus, configuraţia
 arată precum în figura alăturată.
@@ -548,7 +567,8 @@ acest lucru se va întâmpla atunci când sursa de tensiune ajustabilă este
 egală cu căderea de tensiune pe rezistorul R_{2}.
 
 #+CAPTION: etector de nul realizat cu ajutorul unei perechi de căşti şi
-#+CAPTION: un întrerupător; exemplu [[../poze/00161.png]]
+#+CAPTION: un întrerupător; exemplu
+[[../poze/00161.png]]
 
 Pentru a utiliza acest instrument, trebuie să ajustăm manual sursa de
 tensiune prin intermediul unui potenţiometru, acţionând de fiecare data
@@ -602,7 +622,8 @@ Considerând aceiaşi deplasare precum în cazul voltmetrului, putem
 observa că un astfel de aparat este destul de limitat, deplasarea maximă
 realizându-se pentru un curent de doar 1 mA.
 
-#+CAPTION: aparat de măsură [[../poze/00150.png]]
+#+CAPTION: aparat de măsură
+[[../poze/00150.png]]
 
 Odată cu extinderea plajei de valori ale aparatului de măsură, trebuie
 să modificăm şi scala valorilor pentru a reflecta această modificare. De
@@ -686,7 +707,8 @@ respectiv de valori, bazându-se pe caracteristicile sistemului de
 detectare al deplasării (1 mA, 500 Ω).
 
 #+CAPTION: ampermetru; determinarea rezistenţelor de şunt conectare în
-#+CAPTION: paralel [[../poze/00164.png]]
+#+CAPTION: paralel
+[[../poze/00164.png]]
 
 Valoarea fiecărui rezistor se determină prin aceiaşi metodă, luând în
 considerare curentul total, deplasarea maximă şi rezistenţa internă.
@@ -722,7 +744,8 @@ rezistorii de precizie cu o putere nominală de 50 W sunt extrem de rari
 ** Măsurarea curentului cu un rezistor de şunt şi un voltmetru
 
 #+CAPTION: utilizarea rezistenţelor de şunt în paralel cu un voltmetru
-#+CAPTION: pentru măsurarea curentului [[../poze/00165.png]]
+#+CAPTION: pentru măsurarea curentului
+[[../poze/00165.png]]
 
 În unele cazuri, rezistorii de şunt sunt utilizaţi în combinaţie cu
 voltmetre cu rezistenţa de intrare ridicată pentru măsurarea curenţilor.
@@ -743,7 +766,8 @@ acest caz, scala voltmetrului poate fi modificată/înlocuită pentru a
 putea citi direct valorile curentului.
 
 #+CAPTION: introducerea unui ampermetru în circuit pentru măsurarea
-#+CAPTION: curentului [[../poze/00166.png]]
+#+CAPTION: curentului
+[[../poze/00166.png]]
 
 Utilizarea unui rezistor de şunt în combinaţie cu un voltmetru poate
 simplifca operaţiile de măsurare ale curenţilor, atunci când acestea
@@ -755,7 +779,8 @@ circuitul.
 #+CAPTION: introducerea unei rezistenţe de şunt în circuit pentru
 măsurarea curentului cu ajutorul unui voltmetru; util în cazul unui
 circuit asupra căruia sunt necesare măsurători dese ale valorii
-#+CAPTION: curentului [[../poze/00167.png]]
+#+CAPTION: curentului
+[[../poze/00167.png]]
 
 Dacă avem un circuit în care această operaţie trebuie realizată des, sau
 dacă dorim simplificarea procesului de măsură, putem plasa permanent un
@@ -793,7 +818,8 @@ Motivul îl reprezintă o cădere de tensiune cât mai mică la bornele
 acestuia. Observaţi că acest lucru este exact opus voltmetrului (curent
 cât mai mic consumat din circuit).
 
-#+CAPTION: circuit paralel pur rezistiv [[../poze/00169.png]]
+#+CAPTION: circuit paralel pur rezistiv
+[[../poze/00169.png]]
 
 Să vedem un exemplu pentru identificarea efectelor unui ampermetru
 asupra circuitului. Atunci când ampermetrul nu este introdus în circuit,
@@ -801,7 +827,8 @@ curentul prin rezistorul de 3 Ω este de 666,7 mA, iar curentul prin
 rezistorul de 1,5 Ω este de 1,33 A.
 
 #+CAPTION: circuit paralel pur rezistiv; introducerea ampermetrului
-#+CAPTION: într-una dintre ramuri [[../poze/00170.png]]
+#+CAPTION: într-una dintre ramuri
+[[../poze/00170.png]]
 
 Dacă ampermetrul cu care efectuăm măsurătorile are o rezistenţă internă
 de 0,5 Ω, introducerea acestuia într-una din ramurile circuitului va
@@ -810,7 +837,8 @@ stânga de la 3 Ω la 3,5 Ω, ampermetrul va indica un curent de 571, 43 mA
 în loc de 666,7 mA.
 
 #+CAPTION: circuit paralel pur rezistiv; introducerea ampermetrului
-#+CAPTION: într-una dintre ramuri [[../poze/00171.png]]
+#+CAPTION: într-una dintre ramuri
+[[../poze/00171.png]]
 
 Introducerea ampermetrului în ramura din dreapta va avea un efect şi mai
 mare asupra curentului din aceasta. În acest caz, curentul de ramură va
@@ -828,7 +856,8 @@ circuitul iniţial, va duce la modificarea comportamentului acestuia.
 ** Cleştele ampermetric (clampmetrul)
 
 #+CAPTION: măsurarea curentului dintr-un circuit cu ajutorul
-#+CAPTION: clampmetrului [[../poze/00172.png]]
+#+CAPTION: clampmetrului
+[[../poze/00172.png]]
 
 O metodă ingenioasă de reducere a impactului pe care îl are un aparat de
 măsură asupra circuitului, este utilizarea conductorului ca parte
@@ -840,7 +869,8 @@ se poate evita contactul direct şi întreruperea circuitului. Un astfel
 de ampermetru poartă numele de clampmetru sau cleşte ampermetric.
 
 #+CAPTION: măsurarea curentului dintr-un circuit cu ajutorul
-#+CAPTION: clampmetrului [[../poze/00173.png]]
+#+CAPTION: clampmetrului
+[[../poze/00173.png]]
 
 Acesta constă practic din doi cleşti ce se pun în jurul conductorului.
 Cu ajutorul acestor dispozitive se pot realiza măsurător rapide şi
@@ -876,7 +906,8 @@ valoare a rezistenţei de măsurat.
 Începem cu un circuit simplu, format din mecanismul de măsură şi o
 baterie:
 
-#+CAPTION: ohmmetru analogic [[../poze/00174.png]]
+#+CAPTION: ohmmetru analogic
+[[../poze/00174.png]]
 
 Când avem o rezistenţă infinită (nu există continuitate între cele două
 sonde), curentul prin circuitul intern al ohmmetrului este zero. În
@@ -891,7 +922,8 @@ rezistenţa 0 Ω), curentul prin aparatul de măsură va fi maxim. Valoarea
 acestui curent este limitată doar de tensiunea bateriei şi de rezistenţa
 internă a mecanismului de măsură:
 
-#+CAPTION: ohmmetru analogic [[../poze/00175.png]]
+#+CAPTION: ohmmetru analogic
+[[../poze/00175.png]]
 
 Cu o tensiune a bateriei de 9 V şi o rezistenţa internă a mecanismului
 de deplasare de doar 500 Ω, curentul prin circuit va fi de 18 mA.
@@ -907,7 +939,8 @@ indicator este maximă spre dreapta doar când sondele sunt conectate
 împreună (scurt-circuitate). Acest lucru se realizează prin adăugarea
 unei rezistenţe serie în circuitul aparatului de măsură:
 
-#+CAPTION: ohmmetru analogic [[../poze/00176.png]]
+#+CAPTION: ohmmetru analogic
+[[../poze/00176.png]]
 
 Pentru determinarea valorii lui R, calculăm rezistenţa totală din
 circuit necesară pentru a limita curentul la 1 mA (curentul necesar
@@ -938,7 +971,8 @@ stânga. Iniţial, indicaţia este maximă spre dreapta (rezistenţa zero),
 iar valorile rezistenţelor se adună din ce în ce mai rapid una lângă
 cealaltă pe măsură ce trecem în partea stângă a scalei:
 
-#+CAPTION: scala logaritmică a unui ohmmetru [[../poze/00177.png]]
+#+CAPTION: scala logaritmică a unui ohmmetru
+[[../poze/00177.png]]
 
 Nu ne putem apropia de infinit printr-o manieră liniară, pentru că scala
 nu ar ajunge niciodată acolo! Cu o scală ne-liniară, cantitatea de
@@ -975,7 +1009,8 @@ R_{total} = E / I = 9 V / 750 µA R_{total} = 12 kΩ R_{test} = R_{total}
 
 Prin urmare, scala finală a ohmmetrului arată astfel:
 
-#+CAPTION: scala logaritmică a unui ohmmetru [[../poze/00178.png]]
+#+CAPTION: scala logaritmică a unui ohmmetru
+[[../poze/00178.png]]
 
 ** Dezavantajele metodei de mai sus
 
@@ -1030,7 +1065,8 @@ valoare stabilă (liniară). Acest lucru este valabil în special în cazul
 materialelor ne-metalice. Un dielectric format dintr-o mică porţiune de
 aer, prezintă (aproximativ) următorul grafic curent-tensiune:
 
-#+CAPTION: graficul curent-tensiune [[../poze/00048.png]]
+#+CAPTION: graficul curent-tensiune
+[[../poze/00048.png]]
 
 Deşi acesta este un exemplu extrem de conducţie non-liniară, aceleaşi
 proprietăţi izolatoare/conductoare se regăsesc şi în cazul altor
@@ -1047,7 +1083,8 @@ Metoda cea mai directă de măsurare a rezistenţelor folosind tensiuni
 înalte, constă în simpla înlocuire a bateriei, păstrând structura
 precedentă a ohmmetrului neschimbată:
 
-#+CAPTION: ohmmetru de tensiune înaltă [[../poze/00371.png]]
+#+CAPTION: ohmmetru de tensiune înaltă
+[[../poze/00371.png]]
 
 Totuşi, cunoscând faptul că rezistenţa unora dintre materiale tinde să
 se modifice odată cu variaţia tensiunii aplicate, ar fi avantajos dacă
@@ -1073,7 +1110,8 @@ deplasare stabilă, indiferent de rezistenţa de măsurat şi de tensiunea
 aplicată. Această nevoie poate fi îndeplinită folosind un sistem
 electromecanic special, sistem tipic megohmmetrelor:
 
-#+CAPTION: megohmmetru [[../poze/00373.png]]
+#+CAPTION: megohmmetru
+[[../poze/00373.png]]
 
 Blocurile rectangulare numerotate din figura de mai sus reprezintă
 secţiuni transversale al bobinelor. Toate cele trei bobine se deplasează
@@ -1091,7 +1129,8 @@ bobinele 2 şi 3, dar nu şi prin bobina 1. Când sunt alimentate, aceste
 bobine încearcă să se alinieze în spaţiul liber dintre cei doi poli
 magnetici. Acul indicator se va deplasa spre dreapta scalei (infinit):
 
-#+CAPTION: megohmmetru [[../poze/00381.png]]
+#+CAPTION: megohmmetru
+[[../poze/00381.png]]
 
 Existenţa unui curent prin bobina 1 (printr-o rezistenţa de măsurat
 conectată între cele două sonde de măsură) tinde să ducă acul indicat
@@ -1236,7 +1275,8 @@ conductori. Există anumiţi terminali speciali, denumiţi terminali
 Kelvin, ce sunt special realizaţi pentru a facilita acest tip de
 măsurători:
 
-#+CAPTION: terminali Kelvin [[../poze/00478.png]]
+#+CAPTION: terminali Kelvin
+[[../poze/00478.png]]
 
 Terminalii/clemele tip crocodil (banane) au ambele jumătăţi ale braţului
 comune din punct de vedere electric (de obicei în zona articulaţiei). În
@@ -1247,7 +1287,8 @@ de măsurat. Astfel, curentul prin braţele „C” (curent) nu trece prin
 braţele „P” (potenţial, sau tensiune) şi nu va exista o cădere de
 tensiune în lungul lor care să ducă la erori de măsură:
 
-#+CAPTION: terminali Kelvin [[../poze/00479.png]]
+#+CAPTION: terminali Kelvin
+[[../poze/00479.png]]
 
 ** Rezistori de şunt de precizie înaltă
 
@@ -1278,7 +1319,8 @@ Pentru ca voltmetrul să măsoare doar căderea de tensiune la bornele
 şuntului, fără nicio altă cădere de tensiune parazită datorată fireloc
 conductoare, şunturile sunt adesea prevăzute cu /patru/ terminali:
 
-#+CAPTION: şunt cu patru terminale [[../poze/00480.png]]
+#+CAPTION: şunt cu patru terminale
+[[../poze/00480.png]]
 
 ** Rezistori de precizie cu patru terminali
 
@@ -1295,7 +1337,8 @@ Observaţi că rezistorul de precizie standard de 1 Ω din figura de mai
 jos are patru terminali: cei doi terminali mari pentru curent şi cei doi
 terminali mai mici pentru tensiune:
 
-#+CAPTION: rezistor de precizie cu patru terminali [[../poze/50044.jpg]]
+#+CAPTION: rezistor de precizie cu patru terminali
+[[../poze/50044.jpg]]
 
 Trebuie să facem observaţia că rezistenţa măsurată astfel, folosind atât
 un voltmetru cât şi un ampermetru, este supusă unei erori compuse.
@@ -1318,7 +1361,8 @@ precizia unui ampermetru obişnuit. Folosind terminali de tip Kelvin
 pentru realizarea contactelor cu rezistenţa de măsură, circuitul arată
 astfel:
 
-#+CAPTION: măsurarea rezistenţei [[../poze/00481.png]]
+#+CAPTION: măsurarea rezistenţei
+[[../poze/00481.png]]
 
 Toţi conductorii din figura de mai sus prin care trece curent sunt
 reprezentaţi cu linie îngroşată, pentru a face distincţie între
@@ -1344,7 +1388,8 @@ rezistenţa.
 Circuitul în puncte standard, numit adeasea şi punte Wheatstone, arată
 astfel:
 
-#+CAPTION: punte Wheatstone [[../poze/00179.png]]
+#+CAPTION: punte Wheatstone
+[[../poze/00179.png]]
 
 Atunci când căderea de tensiune între punctul 1 şi borna negativă a
 bateriei este egală cu tensiunea dintre punctul 2 şi borna negativă a
@@ -1368,11 +1413,13 @@ punte Wheatstone pentru a măsura o rezistenţă necunoscută R_{x}, va
 trebui să cunoaştem valorile exacte ale celorlalţi trei rezistori în
 starea de echilibru, dacă dorim să determinăm valoarea lui R_{x}:
 
-#+CAPTION: punte Wheatstone [[../poze/00180.png]]
+#+CAPTION: punte Wheatstone
+[[../poze/00180.png]]
 
 Ecuaţia de echilibru a punţii Wheatstone este următoarea:
 
-#+CAPTION: formulă [[../poze/00180-1.png]]
+#+CAPTION: formulă
+[[../poze/00180-1.png]]
 
 Fiecare din cei patru rezistori a unei punţi poartă numele de braţ.
 Rezistorul conectat în serie cu rezistenţa necunoscută R_{x} (R_{a} în
@@ -1403,7 +1450,8 @@ O variantă interesantă a punţii Wheatstone o reprezintă puntea dublă
 Kelvin, cunoscută şi sub numele de punte Thomson. Aceast circuit este
 utilizat pentru măsurarea rezistenţelor extrem de mici (sub 1/10 ohmi):
 
-#+CAPTION: punte Thomson [[../poze/00419.png]]
+#+CAPTION: punte Thomson
+[[../poze/00419.png]]
 
 Rezistorii de valoare mică sunt reprezentaţi prin simboluri cu linie
 îngroşată, la fel şi conductorii (prin care trece un curent mare) la
@@ -1458,7 +1506,8 @@ căderi de tensiune parazite adiţionale), singura soluţie în această
 situaţie este realizarea unui drum puternic rezistiv între partea de jos
 a rezistorului R_{a} şi partea de sus a rezistorului R_{x}:
 
-#+CAPTION: punte Thomson (punte Kelvin dublă) [[../poze/00423.png]]
+#+CAPTION: punte Thomson (punte Kelvin dublă)
+[[../poze/00423.png]]
 
 Putem controla căderile de tensiune parazite între R_{a} şi R_{x} prin
 dimensionarea celor doi rezistori noi, astfel încât raportul celui de
@@ -1468,7 +1517,8 @@ aceşti rezistori au fost denumiţi R_{m} şi R_{n} în schema iniţială a
 puncţii Thomson: pentru a scoate în evidenţa proporţionalitatea lor cu
 rezistorii R_{M} şi R_{N}:
 
-#+CAPTION: punte Thomson [[../poze/00419.png]]
+#+CAPTION: punte Thomson
+[[../poze/00419.png]]
 
 Raportul R_{m} / R_{n} fiind egal cu raportul R_{M} / R_{N}, braţul
 R_{a} (reostatul) este ajustat până în momentul în care detectorul de
@@ -1476,11 +1526,13 @@ nul indică echilibrul punţii. În acest moment putem spune că R_{a} /
 R_{x} este egal cu R_{M} / R_{N}. Putem calcula R_{x} cu următoarea
 ecuaţie:
 
-#+CAPTION: formulă [[../poze/10270.png]]
+#+CAPTION: formulă
+[[../poze/10270.png]]
 
 De fapt, ecuaţia de echilibru a punţii Thomson este următoarea:
 
-#+CAPTION: formulă [[../poze/10271.png]]
+#+CAPTION: formulă
+[[../poze/10271.png]]
 
 unde R_{fir} este rezistenţa firului conductor gros dintre rezistenţa
 standard de jos R_{a} şi rezistenţa de test R_{x}.
@@ -1530,7 +1582,8 @@ magnetic. Bobina mobilă este în general alimentată de la tensiunea
 circuitului, iar bobina staţionară este alimentată de curentul
 circuitului. Într-un cirucuit, o astfel de strucutră arată astfel:
 
-#+CAPTION: conectarea wattmetrului în circuit [[../poze/00181.png]]
+#+CAPTION: conectarea wattmetrului în circuit
+[[../poze/00181.png]]
 
 Bobina de sus (orizontală) măsoară curentul, în timp ce bobina de jos
 (verticală) măsoară căderea de tensiune. La fel ca în cazul
@@ -1545,7 +1598,8 @@ aparatului de măsură. Bobina mobilă nu se poate bucura de această
 „libertate”, deoarece ea trebuie realizată din conductori cât mai usori
 pentru a o inerţie minimă.
 
-#+CAPTION: electrodinamometru [[../poze/00182.png]]
+#+CAPTION: electrodinamometru
+[[../poze/00182.png]]
 
 Sumar:
 

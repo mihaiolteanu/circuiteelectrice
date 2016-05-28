@@ -12,7 +12,8 @@ Pentru ilustrarea faptului că un ciruit relativ simplu poate fi
 imposibil de redus în subcircuite serie sau paralel, să luam următorul
 circuit serie-paralel ca şi exemplu:
 
-#+CAPTION: circuit electric serie-paralel [[../poze/00206.png]]
+#+CAPTION: circuit electric serie-paralel
+[[../poze/00206.png]]
 
 Pentru analiza circuitului de mai sus paşii sunt următorii: găsirea
 rezistenţei echivalente pentru R_{2} şi R_{3} în paralel; adăugarea
@@ -25,7 +26,8 @@ circuit. O procedură destul de simplă până la urma.
 Totuşi, dacă adăugăm o singură baterie în circuit, problema analizei
 circuitului se complică:
 
-#+CAPTION: circuit electric [[../poze/00207.png]]
+#+CAPTION: circuit electric
+[[../poze/00207.png]]
 
 Rezistorii R_{2} şi R_{3} nu mai sunt conectaţi în paralel unul cu
 celălalt, pentru că bateria B_{2} a fost introdusă în ramura de circuit
@@ -42,7 +44,8 @@ trei rezistori, este imposibil de realizat prin metoda analizei
 circuitelor serie-paralel: este ceva cu totul diferit. Totuşi, acesta nu
 este singurul tip de circuit ce sfidează analiza serie-paralel.
 
-#+CAPTION: circuit electric - punte [[../poze/00208.png]]
+#+CAPTION: circuit electric - punte
+[[../poze/00208.png]]
 
 În acest caz avem un circuit în punte; pentru simplitatea exemplului
 presupunem că *nu* este echilibrat (raportul R_{1}/R_{4} nu este egal cu
@@ -105,12 +108,14 @@ tuturor căderilor de tensiune din reţea.
 
 Să folosim următorul circuit pentru ilustrarea metodei:
 
-#+CAPTION: circuit electric [[../poze/00209.png]]
+#+CAPTION: circuit electric
+[[../poze/00209.png]]
 
 Primul pas este alegerea unui nod din circuit ca şi punct de referinţă
 pentru curenţii necunoscuţi:
 
-#+CAPTION: circuit electric [[../poze/00210.png]]
+#+CAPTION: circuit electric
+[[../poze/00210.png]]
 
 Ghicim apoi direcţia curenţilor din acest nod, notând curenţii cu I_{1},
 I_{2} şi I_{3}. Nu este neapărat ca direcţiile acestea să fie cele
@@ -119,7 +124,8 @@ dacă intuiţia noastră a fost greşită în momentul rezolvării ecuaţiilor
 matematice pentru curenţi; orice direcţie greşită va apărea în ecuaţii
 cu semnul minus.
 
-#+CAPTION: circuit electric [[../poze/00211.png]]
+#+CAPTION: circuit electric
+[[../poze/00211.png]]
 
 Legea lui Kirchhoff pentru curenţii (LKC) spune că suma algebrică a
 tuturor curenţilor ce intră şi iers dintr-un nod de reţea trebuie să fie
@@ -129,14 +135,16 @@ nod cu semnul pozitiv şi toţi curenţii ce /ies/ dintr-un nod cu semnul
 negativ (acesta este doar o convenţie; inversând semnele rezultatul
 final va fi exact acelaşi):
 
-#+CAPTION: calcul matematic [[../poze/10171.png]]
+#+CAPTION: calcul matematic
+[[../poze/10171.png]]
 
 Pasul următor este notarea tuturor semnelor căderilor de tensiune în
 funcţie de sensul presupus al curenţilor. Ţineţi minte că partea din
 „amonte” a rezistorului va fi tot timpul negativă, iar partea din „aval”
 tot timpul pozitivă întrucât electronii posedă o sarcină negativă.
 
-#+CAPTION: circuit electric [[../poze/00212.png]]
+#+CAPTION: circuit electric
+[[../poze/00212.png]]
 
 Desigur, polaritatea bateriilor rămâne aceeiaşi. Nu este nicio problemă
 dacă polaritatea rezistorului nu se „asortează” cu cea a bateriei atât
@@ -153,14 +161,17 @@ dorim; în cazul de faţa începem de la bornele bateriei şi continuăm în
 sens invers acelor de ceasornic până ajungem în punctul de unde am
 plecat:
 
-#+CAPTION: circuit electric [[../poze/00384.png]] #+CAPTION: circuit
-#+CAPTION: electric [[../poze/00385.png]] #+CAPTION: circuit electric
+#+CAPTION: circuit electric
+[[../poze/00384.png]] #+CAPTION: circuit
+#+CAPTION: electric
+[[../poze/00385.png]] #+CAPTION: circuit electric
 [[../poze/00386.png]] #+CAPTION: circuit electric [[../poze/00387.png]]
 
 După ce am percurs întreaga buclă din stânga, adunăm aceste valori ale
 tensiunii pentru a forma o ecuaţie:
 
-#+CAPTION: calcul matematic [[../poze/10172.png]]
+#+CAPTION: calcul matematic
+[[../poze/10172.png]]
 
 Evident, nu cunoaştem încă valoarea căderilor de tensiune la bornele
 rezistorilor R_{1} şi R_{2} aşa că nu putem introduce valorile lor reale
@@ -172,12 +183,14 @@ dintre curenţii necunoscuţi, I_{1} şi I_{2}, şi valoarea rezistorilor
 prin care aceştia trec, folosind legea lui Ohm (E=IR). Eliminăm de
 asemenea şi valoarea 0 din sumă:
 
-#+CAPTION: calcul matematic [[../poze/10173.png]]
+#+CAPTION: calcul matematic
+[[../poze/10173.png]]
 
 Din moment ce cunoaştem valorile tuturor rezistorilor în ohmi, putem să
 înlocui acele valori în evuaţie pentru uşurinţa calculelor:
 
-#+CAPTION: calcul matematic [[../poze/10174.png]]
+#+CAPTION: calcul matematic
+[[../poze/10174.png]]
 
 Motivul pentru care am redus ecuaţia în acest fel (până la urmă, avem
 tot două necunoscute) este folosirea aceloraşi /variabile necunoscute/
@@ -187,21 +200,26 @@ necesar pentru aflarea soluţiei sistemului final de ecuaţii.
 Aplicând aceeiaşi paşi şi pentru bucla din dreapta, obţinem o altă
 ecuaţie.
 
-#+CAPTION: circuit electric [[../poze/00388.png]] #+CAPTION: circuit
-#+CAPTION: electric [[../poze/00389.png]] #+CAPTION: circuit electric
+#+CAPTION: circuit electric
+[[../poze/00388.png]] #+CAPTION: circuit
+#+CAPTION: electric
+[[../poze/00389.png]] #+CAPTION: circuit electric
 [[../poze/00390.png]] #+CAPTION: circuit electric [[../poze/00391.png]]
-#+CAPTION: calcul matematic [[../poze/10175.png]]
+#+CAPTION: calcul matematic
+[[../poze/10175.png]]
 
 Cunoscând faptul că tensiunea de pe fiecare rezistor poate şi /trebuie/
 să fie exprimată ca şi produsul dintre curent şi rezistenţa fiecarărui
 rezistor, putem rescrie ecuaţia de mai sus asfel:
 
-#+CAPTION: calcul matematic [[../poze/10176.png]]
+#+CAPTION: calcul matematic
+[[../poze/10176.png]]
 
 În acest moment avem un sistem matematic format din trei ecuaţii (o
 ecuaţie LKC şi două ecuaţii LKT) şi trei necunoscute:
 
-#+CAPTION: calcul matematic [[../poze/10177.png]]
+#+CAPTION: calcul matematic
+[[../poze/10177.png]]
 
 Putem rescrie ecuaţiile de mai sus trecând în dreapta valorile cunoscute
 (constantele ecuaţiilor) şi lăsând în partea stângă valorile necunoscute
@@ -209,12 +227,14 @@ Putem rescrie ecuaţiile de mai sus trecând în dreapta valorile cunoscute
 claritate. Putem oberva că toate cele trei variabile sunt prezente în
 toate cele trei ecuaţii:
 
-#+CAPTION: calcul matematic [[../poze/10178.png]]
+#+CAPTION: calcul matematic
+[[../poze/10178.png]]
 
 Rezolvând ecuaţiile de mai sus, ajungem la soluţia celor trei valori
 necunoscute ale curenţilor:
 
-#+CAPTION: calcul matematic [[../poze/10179.png]]
+#+CAPTION: calcul matematic
+[[../poze/10179.png]]
 
 Prin urmare, valoarea curentului I_{1} este de 5 amperi, I_{2} 4 amperi
 iar I_{3} minus 1 amper. Dar ce înseamnă curent „negativ”? În acest caz,
@@ -223,7 +243,8 @@ inversă faţa de direcţia /reală/. Revenind la circuitul iniţial, putem
 reface schema acestuia schimbând direcţia curentului I_{3} schimbând în
 acelaşi timp şi polaritatea căderii de tensiune de pe rezistorul R_{3}.
 
-#+CAPTION: circuit electric [[../poze/00213.png]]
+#+CAPTION: circuit electric
+[[../poze/00213.png]]
 
 Observăm faptul că, prin bateria B_{2} curentul circulă în sens invers
 datorită tensiunii mai ridicate a bateriei B_{1}. În ciuda faptului că
@@ -241,7 +262,8 @@ Cunoscând acum valoarea tuturor curenţilor din circuit, putem calcula
 căderile de tensiune la bornele tuturor rezistorilor folosind legea lui
 Ohm (E=IR):
 
-#+CAPTION: formulă [[../poze/10180.png]]
+#+CAPTION: formulă
+[[../poze/10180.png]]
 
 Sumar:
 
@@ -275,7 +297,8 @@ variabile şi ecuaţii pentru rezolvare, ceea ce reprezintă un avantaj.
 
 Să vedem cun funcţionează această metodă folosind acelaşi circuit:
 
-#+CAPTION: circuit electric [[../poze/00209.png]]
+#+CAPTION: circuit electric
+[[../poze/00209.png]]
 
 Primul pas în metoda buclei este identificarea „buclelor” din circuit
 asfel încât să cuprindem toate componentele. În circuitul de mai sus,
@@ -284,7 +307,8 @@ doua din B_{3}, R_{2}, and R_{3}. Partea cea mai ciudată a acestei
 metode este imaginarea circulaţiei curenţilor prin fiecare dintre aceste
 bucle.
 
-#+CAPTION: circuit electric [[../poze/00215.png]]
+#+CAPTION: circuit electric
+[[../poze/00215.png]]
 
 Alegerea direcţiei fiecărui curent este complet arbitrară precum în
 cazul metodei ramurii de curent, dar ecuaţiile rezultate sunt mai uşor
@@ -303,7 +327,8 @@ electronii posedă o sarcină negativă. Polarităţile bateriei depind
 desigur de orientarea lor în diagramă şi pot să corespundă sau să nu
 corespundă cu polarităţile rezistorilor:
 
-#+CAPTION: circuit electric [[../poze/00216.png]]
+#+CAPTION: circuit electric
+[[../poze/00216.png]]
 
 Utilizând legea lui Kirchhoff pentru tensiune, putem parcurge fiecare
 dintre cele două bucle, generând ecuaţii în funcţie de căderile de
@@ -320,43 +345,50 @@ buclelor (E_{R2}*(I_{1} + I_{2})).
 ochi de reţea în direcţia inversă acelor de ceasornic (direcţia este pur
 arbitrară), obţinând următoarea ecuaţie:
 
-#+CAPTION: calcul matematic [[../poze/10181.png]]
+#+CAPTION: calcul matematic
+[[../poze/10181.png]]
 
 Observaţi faptul că prin rezistorul R_{2} curentul care trece este de
 fapt suma curenţilor celor două bucle( I_{1} şi I_{2}). Acest lucru se
 datorează faptul că ambii curenţi trec prin R_{2} în aceeiaşi direcţie.
 Simplificând ecuaţia obţinem:
 
-#+CAPTION: calcul matematic [[../poze/10182.png]]
+#+CAPTION: calcul matematic
+[[../poze/10182.png]]
 
 În acest moment avem o singură ecuaţie şi/cu două necunoscute. Acest
 lucru înseamnă ca mai avem nevoie de încă o evuaţie pentru a determina
 curenţii buclelor. Această ecuaţia o obţinem prin parcurgerea buclei din
 dreapta a circuitului, şi obţinem:
 
-#+CAPTION: calcul matematic [[../poze/10183.png]]
+#+CAPTION: calcul matematic
+[[../poze/10183.png]]
 
 Simplificând ecuaţia cum am făcut şi înainte, obţinem:
 
-#+CAPTION: calcul matematic [[../poze/10184.png]]
+#+CAPTION: calcul matematic
+[[../poze/10184.png]]
 
 Având două ecuaţii putem folosi metode matematice pentru determinarea
 necunoscutelor I_{1} şi I_{2}:
 
-#+CAPTION: calcul matematic [[../poze/10185.png]]
+#+CAPTION: calcul matematic
+[[../poze/10185.png]]
 
 Dar, atenţie, aceste valori ale curenţilor sunt valabile pentru bucle şi
 nu sunt curenţii efectivi ai /ramurilor/. Să ne întoarcem la circuitul
 iniţial pentru a vedea care este relaţia dintre ei.
 
-#+CAPTION: circuit electric [[../poze/00217.png]]
+#+CAPTION: circuit electric
+[[../poze/00217.png]]
 
 Rezultatul de minus 1 amper pentru curentul buclei I_{2} înseamnă că
 direcţia indicată iniţial (aleator) este incorectă. În realitate,
 direcţia curentului I_{2} este contrară acesteia (observaţi modificarea
 sensului buclei pe desen!)
 
-#+CAPTION: circuit electric [[../poze/00218.png]]
+#+CAPTION: circuit electric
+[[../poze/00218.png]]
 
 Această modificare a direcţiei curentului faţă de ceea ce am presupus
 iniţial va modificat polaritatea căderilor de tensiune pe rezistorii
@@ -374,7 +406,8 @@ amperi într-o direcţie şi I_{2} 1 amper în direcţia opusă, curentul
 /real/ prin R_{2} este diferenţa celor doi, adică 4 amperi şi trece prin
 R_{2} de jos în sus:
 
-#+CAPTION: circuit electric [[../poze/00219.png]]
+#+CAPTION: circuit electric
+[[../poze/00219.png]]
 
 Cu un curent de 4 amperi prin R_{2} rezultă o cădere de tensiune de 8
 volţi.
@@ -388,21 +421,24 @@ ecuaţii folosind metoda ramurii de curent şi doar două folosind metoda
 buclei de curent. Acest avantaj creşte semnificativ atunci când reţeau
 creşte în complexitate:
 
-#+CAPTION: circuit electric [[../poze/00220.png]]
+#+CAPTION: circuit electric
+[[../poze/00220.png]]
 
 Pentru rezolvara acestui circuit folosind metoda ramurii de curent, am
 avea nevoie de 5 variabile pentru fiecare curent posibil din circuit (de
 la I_{1} la I_{5}) şi prin urmare 5 ecuaţii pentru aflarea soluţiei,
 două pentru LKC şi trei pentru LKT:
 
-#+CAPTION: circuit electric [[../poze/00221.png]] #+CAPTION: formule
+#+CAPTION: circuit electric
+[[../poze/00221.png]] #+CAPTION: formule
 [[../poze/10186.png]]
 
 În schimb, folosind metoda buclei de curent avem doar trei necunoscute
 şi prin urmare doar trei ecuaţii de rezolvat pentru rezolvarea reţelei,
 ceea ce constituie un avantaj:
 
-#+CAPTION: circuit electric [[../poze/00222.png]] #+CAPTION: formule
+#+CAPTION: circuit electric
+[[../poze/00222.png]] #+CAPTION: formule
 [[../poze/10187.png]]
 
 Sumar:
@@ -446,7 +482,8 @@ punct comun E_{0} este ales ca şi punct de referinţă. Tensiunile pentru
 celelalte noduri, E_{1} şi E_{2} sunt calculate în funcţie de acest
 punct.
 
-#+CAPTION: circuit electric [[../poze/00497.png]]
+#+CAPTION: circuit electric
+[[../poze/00497.png]]
 
 O sursă de tensiune în serie cu o rezistenţă trebuie să fie înlocuită de
 o sursă de curent echivalentă în paralel cu o rezistenţă. Vom scrie apoi
@@ -454,7 +491,8 @@ ecuaţiile LKC pentru fiecare nod. Partea dreaptă a ecuaţiei reprezintă
 valoarea sursei de curent ce alimentează nodul respectiv. Circuitul
 modificat arată asfel:
 
-#+CAPTION: circuit electric [[../poze/00498.png]]
+#+CAPTION: circuit electric
+[[../poze/00498.png]]
 
 Înlocuim rezistenţa rezistorilor în ohmi cu conductanţa acestora în
 siemens:
@@ -471,7 +509,8 @@ siemens:
                G5 = 1/R5 = 1/1 Ω   = 1.0 S
 #+END_EXAMPLE
 
-#+CAPTION: circuit electric [[../poze/00499.png]]
+#+CAPTION: circuit electric
+[[../poze/00499.png]]
 
 Conductanţele paralele (rezistorii) pot fi combinaţi prin adunarea
 conductanţelor. Deşi nu vom redesena circuitul, putem deja aplica metoda
@@ -549,7 +588,8 @@ Pentru figura de mai sus, ecuaţiile arată asfel:
 Circuitul de mai jos are trei noduri. Conductanţele nu apar pe desen,
 dar G_{1}=1/R_{1}, etc.
 
-#+CAPTION: circuit electric [[../poze/00500.png]]
+#+CAPTION: circuit electric
+[[../poze/00500.png]]
 
 Există trei noduri pentru care putem scrie ecuaţii. Coeficienţii sunt
 pozitivi pentru E_{1} (ecuaţia 1), E_{2} (ecuaţia 2) şi E_{3} (ecuaţia
@@ -610,11 +650,13 @@ combinaţie serie baterie/rezistor. Această teoremă se poate aplica doar
 
 Avem (din nou) circuitul de mai jos:
 
-#+CAPTION: circuit electric [[../poze/00209.png]]
+#+CAPTION: circuit electric
+[[../poze/00209.png]]
 
 Acelaşi circuit redesenat pentru aplicarea teoremei lui Millman:
 
-#+CAPTION: circuit electric [[../poze/00223.png]]
+#+CAPTION: circuit electric
+[[../poze/00223.png]]
 
 Luând în considerare rezisteţa şi tensiunea furnizată în fiecare ramură,
 putem folosi teorema lui Millman pentru aflarea căderilor de tensiune în
@@ -626,17 +668,20 @@ Teorema nu este altceva decât o ecuaţie lungă aplicabilă oricărui
 circuit ce poate fi redesenat ca şi ramuri paralele, fiecare ramură cu
 propria sa sursă de tensiune şi rezistenţă în serie:
 
-#+CAPTION: teorema lui Millman [[../poze/10188.png]]
+#+CAPTION: teorema lui Millman
+[[../poze/10188.png]]
 
 Înlocuind valorile din exemplul de mai sus ajungem la următorul
 rezultat:
 
-#+CAPTION: formulă [[../poze/10189.png]]
+#+CAPTION: formulă
+[[../poze/10189.png]]
 
 Valoarea rezultatului, 8 V, reprezintă căderea de tensiune pe toate
 ramurile:
 
-#+CAPTION: circuit electric [[../poze/00224.png]]
+#+CAPTION: circuit electric
+[[../poze/00224.png]]
 
 Polarităţile tuturor tensiunilor au ca şi referinţa acelaşi punct. În
 exemplul de mai sus, firul de jos este folosit ca şi punct de referinţă,
@@ -649,12 +694,14 @@ Millman (8 V în acest caz) trebuie compoarată cu tensiunea fiecărei
 surse din fiecare ramură, folosind principiul aditivităţii tensiunilor
 în serie:
 
-#+CAPTION: formulă [[../poze/10190.png]]
+#+CAPTION: formulă
+[[../poze/10190.png]]
 
 Pentru aflarea curenţilor prin fiecare ramură, aplicăm legea lui Ohm
 (I=E/R):
 
-#+CAPTION: formulă [[../poze/10191.png]]
+#+CAPTION: formulă
+[[../poze/10191.png]]
 
 Direcţia curentului prin fiecare rezistor este determinată de
 polaritatea fiecărui rezistor şi *nu* de polaritatea bateriei, curentul
@@ -666,7 +713,8 @@ metodelor ramurii de curent şi a buclei de curent. Trebuie să fim atenţi
 la polaritatea căderii de tensiune la bornele rezistorilor, determind de
 acolo direcţie de curgere a curentului.
 
-#+CAPTION: circuit electric [[../poze/00226.png]]
+#+CAPTION: circuit electric
+[[../poze/00226.png]]
 
 Sumar:
 
@@ -694,18 +742,21 @@ funcţionează toate sursele de putere împreună.
 
 Să luăm acelaşi circuit ca şi exemplu:
 
-#+CAPTION: circuit electric [[../poze/00209.png]]
+#+CAPTION: circuit electric
+[[../poze/00209.png]]
 
 Din moment ce avem două surse de putere în acest circuit, va trebui să
 calculăm două seturi de date pentru căderile de tensiune şi curent, un
 set pentru circuitul funcţionând doar cu sursa de tensiune de 28 de
 volţi...
 
-#+CAPTION: circuit electric [[../poze/00227.png]]
+#+CAPTION: circuit electric
+[[../poze/00227.png]]
 
 ...celălalt pentru circuitul funcţionând doar cu bateria de 7 volţi:
 
-#+CAPTION: circuit electric [[../poze/00228.png]]
+#+CAPTION: circuit electric
+[[../poze/00228.png]]
 
 Atunci când redesenăm un circuit pentru analiza serie/paralel cu o
 singură sursă, toate celelalte surse de tensiune sunt înlocuite de fire
@@ -717,33 +768,39 @@ de fire.
 Analizând circuitul în care acţionează doar bateria de 28 de volţi,
 obţinem următoarele valori pentru tensiune şi curent:
 
-#+CAPTION: tabel [[../poze/10192.png]] #+CAPTION: circuit electric
+#+CAPTION: tabel
+[[../poze/10192.png]] #+CAPTION: circuit electric
 [[../poze/00229.png]]
 
 Analizând circuitul în care acţionează doar bateria de 7 de volţi,
 obţinem următoarele valori pentru tensiune şi curent:
 
-#+CAPTION: tabel [[../poze/10193.png]] #+CAPTION: circuit electric
+#+CAPTION: tabel
+[[../poze/10193.png]] #+CAPTION: circuit electric
 [[../poze/00230.png]]
 
 Atunci când realizăm suprapunerea, trebuie să fim foarte atenţi la
 polaritatea căderilor şi la direcţia curenţilor, pentru că aceste valori
 se adună /algebric/:
 
-#+CAPTION: tabel [[../poze/00231.png]]
+#+CAPTION: tabel
+[[../poze/00231.png]]
 
 Aplicând aceste valori, rezultatul final arată asfel:
 
-#+CAPTION: circuit electric [[../poze/00232.png]]
+#+CAPTION: circuit electric
+[[../poze/00232.png]]
 
 Acelaşi lucru este valabil şi în cazul curenţilor.
 
-#+CAPTION: tabel [[../poze/00233.png]]
+#+CAPTION: tabel
+[[../poze/00233.png]]
 
 Folosind valorile aflate după aplicarea superpoziţiei, circuitul arată
 asfel:
 
-#+CAPTION: circuit electric [[../poze/00234.png]]
+#+CAPTION: circuit electric
+[[../poze/00234.png]]
 
 Simplu şi elegant în acelaşi timp. Totuşi, teorema superpoziţiei poate
 fi aplicată doar circuitelor ce pot fi reduse la combinaţii de circuite
@@ -806,7 +863,8 @@ tensiuni şi curentului prin el.
 
 Să reluăm circuitul studiat până acum cu celelalte metode:
 
-#+CAPTION: circuit electric [[../poze/00209.png]]
+#+CAPTION: circuit electric
+[[../poze/00209.png]]
 
 Să presupunem că rezistorul R_{2} este sarcina din acest circuit. Avem
 deja la dispoziţie patru metode pentru determinarea tensiunii şi
@@ -824,11 +882,13 @@ poate fi apoi re-conectată în acest „circuit Thevenin echivalent” şi se
 pot continua calculele pentru întreaga reţea ca şi cum nu ar fi decât un
 simplu circuit serie:
 
-#+CAPTION: circuit electric [[../poze/00235.png]]
+#+CAPTION: circuit electric
+[[../poze/00235.png]]
 
 După conversia circuitului vom avea:
 
-#+CAPTION: circuit electric [[../poze/00236.png]]
+#+CAPTION: circuit electric
+[[../poze/00236.png]]
 
 „Circuitul Thevenin echivalent” este echivalentul electric ale surselor
 şi rezistorilor B_{1}, R_{1}, R_{3} şi B_{2} văzute din cele două puncte
@@ -844,7 +904,8 @@ simplificat, mult mai uşoară decât în cazul circuitului original. Primul
 pas este înlăturarea rezistenţei de sarcină din circuitul original şi
 înlocuirea acestuia cu un circuit deschis:
 
-#+CAPTION: circuit electric [[../poze/00237.png]]
+#+CAPTION: circuit electric
+[[../poze/00237.png]]
 
 Apoi determinăm căderea de tensiune între punctele „fostei” sarcini,
 folind orice metode disponibile. În acest cazu, circuitul original, mai
@@ -852,7 +913,8 @@ puţin sarcina, nu este altceva decât un circuit serie simplu cu două
 baterii; putem aplica prin urmare regulile circuitelor serie, legea lui
 ohm şi legea lui Kirchhoff pentru tensiune:
 
-#+CAPTION: tabel [[../poze/10194.png]] #+CAPTION: circuit electric
+#+CAPTION: tabel
+[[../poze/10194.png]] #+CAPTION: circuit electric
 [[../poze/00238.png]]
 
 Căderea de tensiune între cele două puncte ale sarcinii poate fi dedusă
@@ -860,28 +922,32 @@ din tensiunea bateriei şi căderea de tensiune pe una dintre baterii,
 fiind de 11.2 volţi. Aceasta este tensiunea Thevenin, E_{Thevenin} din
 circuitul echivalent:
 
-#+CAPTION: circuit electric [[../poze/00239.png]]
+#+CAPTION: circuit electric
+[[../poze/00239.png]]
 
 Pentru aflarea rezistenţei serie din circuitul echivalent, trebuie să
 luăm circuitul original, mai puţin sarcina, să înlăturăm sursele de
 putere (la fel ca în cazul teoremei superpoziţiei) şi să determinăm
 rezistenţa de la un terminal la celălalt:
 
-#+CAPTION: circuit electric [[../poze/00240.png]]
+#+CAPTION: circuit electric
+[[../poze/00240.png]]
 
 După înlăturarea celor două baterii, rezistenţa totală măsurată în
 această locaţie este egală cu rezistenţele R_{1} şi R_{3} în paralel:
 0.8 Ω. Aceasta reprezintă rezistenţa Thevenin (R_{Thevenin}) pentru
 circuitul echivalent:
 
-#+CAPTION: circuit electric [[../poze/00241.png]]
+#+CAPTION: circuit electric
+[[../poze/00241.png]]
 
 Cunoscând valoarea rezistorului (2 Ω) dintre cele două puncte de
 conexiune, putem determina căderea de tensiune şi curentul prin acesta,
 ca şi cum întregul circuit nu ar fi altceva decât un simplu circuit
 serie:
 
-#+CAPTION: tabel [[../poze/10195.png]]
+#+CAPTION: tabel
+[[../poze/10195.png]]
 
 Putem oberva că valorile pentru curent şi tensiune (4 amperi, 8 volţi)
 sunt identice cu valorile găsite aplicând celelalte metode de analiză.
@@ -924,11 +990,13 @@ liniare.
 Circuitul iniţial este cel folosit şi în exemplele precedente, şi arată
 asfel:
 
-#+CAPTION: circuit electric [[../poze/00209.png]]
+#+CAPTION: circuit electric
+[[../poze/00209.png]]
 
 Circuitul echivalent după aplicarea teoremei lui Norton va fi următorul:
 
-#+CAPTION: circuit Norton echivalent [[../poze/00242.png]]
+#+CAPTION: circuit Norton echivalent
+[[../poze/00242.png]]
 
 /Sursa de curent/ este un component a cărui scop este furnizarea unei
 valori constante de curent, indiferent de valoarea tensiunii.
@@ -942,14 +1010,16 @@ asemenea similari teoremei precedente.
 Primul pas este identificarea rezistenţei de sarcină şi înlăturarea
 acesteia din circuitul original:
 
-#+CAPTION: circuit electric [[../poze/00237.png]]
+#+CAPTION: circuit electric
+[[../poze/00237.png]]
 
 Pentru aflarea curentului Norton, plasăm un fir (scurt circuit) între
 cele două puncte ale sarcinii şi determinăm curentul rezultat. Observaţi
 că acest pas este exact invers în teorema lui Thevenin, unde am înlocuit
 sarcină cu un circuit deschis:
 
-#+CAPTION: circuit electric [[../poze/00243.png]]
+#+CAPTION: circuit electric
+[[../poze/00243.png]]
 
 Acum avem o cădere de 0 volţi între punctele de conexiune a sarcinii
 (înăturate), ceea ce înseamă că valoarea curentului prin R_{1} depinde
@@ -959,7 +1029,8 @@ circuitului, unde curentul este tot 7 amperi. Prin urmare, curentul
 total prin scurt circuitul sarcinii este de 14 amperi şi reprezintă
 curentul sursei Norton (I_{Norton}).
 
-#+CAPTION: circuit electric [[../poze/00244.png]]
+#+CAPTION: circuit electric
+[[../poze/00244.png]]
 
 Din nou, direcţia săgeţii unei surse de curent este /contrară/
 deplasării reale a electronilor printr-un circuit, notaţie ce o folosim
@@ -973,16 +1044,19 @@ iar sursele de tensiune cu circuit deschis) şi aflăm apoi rezistenţa
 totală dintr-un punct al sarcinii la celălalt (cei doi rezistori legaţi
 în paralel):
 
-#+CAPTION: circuit electric [[../poze/00240.png]]
+#+CAPTION: circuit electric
+[[../poze/00240.png]]
 
 În acest moment circuitul Norton echivalent arată asfel:
 
-#+CAPTION: circuit electric [[../poze/00245.png]]
+#+CAPTION: circuit electric
+[[../poze/00245.png]]
 
 Reconectând rezistenţa de sarcină iniţială (2 Ω), vom analiza circuitul
 Norton precum o conexiune paralelă simplă:
 
-#+CAPTION: tabel [[../poze/10196.png]]
+#+CAPTION: tabel
+[[../poze/10196.png]]
 
 La fel cum am văzut şi în cazul teoremei lui Thevenin, singurele
 informaţii utile din această analiză sunt valoarea tensiunii şi a
@@ -1025,8 +1099,10 @@ Metoda de calcuare a rezistenţei este aceeiaşi în ambele cazuri:
 între punctele de conexiune rămase libere. Cele două rezistenţe sunt
 prin urmare egale:
 
-#+CAPTION: circuit electric [[../poze/00241.png]] #+CAPTION: circuit
-#+CAPTION: electric [[../poze/00245.png]] #+CAPTION: formulă [[../poze/10197.png]]
+#+CAPTION: circuit electric
+[[../poze/00241.png]] #+CAPTION: circuit
+#+CAPTION: electric
+[[../poze/00245.png]] #+CAPTION: formulă [[../poze/10197.png]]
 
 Luând în considerare faptul că ambele circuite echivalente sunt gândite
 să se comporte asemenea reţelei originale în ceea ce priveşte
@@ -1044,7 +1120,8 @@ cădere de tensiune de 11.2 volţi (E=IR). Putem susţine asfel că
 tensiunea Thevenin este egală cu, curentul Norton înmulţit cu rezistenţa
 Norton:
 
-#+CAPTION: formulă [[../poze/10198.png]]
+#+CAPTION: formulă
+[[../poze/10198.png]]
 
 Transformarea unui circuit Norton într-un circuit Thevenin se realizează
 folosind aceeiaşi valoare a rezistenţei şi calculând tensiunea Thevenin
@@ -1061,7 +1138,8 @@ prin scurt (circuit), 14 amperi (I=E/R). Putem susţine asfel că,
 curentul Norton este egal cu tensiune Thevenin împărţită la rezistenţa
 Thevenin:
 
-#+CAPTION: formulă [[../poze/10199.png]]
+#+CAPTION: formulă
+[[../poze/10199.png]]
 
 Vom utiliza relaţia de echivalenţă dintre cele două teorema în
 următoarea secţiune.
@@ -1079,7 +1157,8 @@ Sumar:
 Revenim acum asupra teoremei lui Millman pentru a elucida forma
 „ciudată” a ecuaţiei şi provenienţa acesteia:
 
-#+CAPTION: formulă [[../poze/10188.png]]
+#+CAPTION: formulă
+[[../poze/10188.png]]
 
 Numitorul ecuaţiei seamănă cu numitorul ecuaţiei pentru calculul
 rezistenţei paralele, iar termenii E/R ai numărătorului reprezintă
@@ -1090,7 +1169,8 @@ discutată în secţiunea precedentă. Ecuaţia Millman consideră că fiecare
 ramură reprezintă defapt un circuit Thevenin echivalent; fiecare ramură
 este apoi transformată într-un circuit Norton echivalent.
 
-#+CAPTION: circuit electric [[../poze/00223.png]]
+#+CAPTION: circuit electric
+[[../poze/00223.png]]
 
 În circuitul de mai sus, bateria B_{1} şi rezistorul R_{1} sunt văzute
 ca şi o sursă Thevenin potrivite pentru transformarea într-o sursă
@@ -1100,30 +1180,35 @@ rezistor de 1 Ω conectat în paralel. Ramura din centru, neconţinând
 nicio sursă de tensiune, se transformă într-o sursă de curent Norton de
 0 A în paralel cu un rezistor de 2 Ω:
 
-#+CAPTION: circuit electric [[../poze/00246.png]]
+#+CAPTION: circuit electric
+[[../poze/00246.png]]
 
 Din moment ce valorile sursele de curent sunt aditive algebric, curentul
 total prin circuit este de 7 + 0 + 7, adică 14 A. Această adunare a
 curenţilor surselor Norton este reprezentată la numărătorul ecuaţiei
 Millman:
 
-#+CAPTION: ecuaţia teoremei lui Millman [[../poze/10200.png]]
+#+CAPTION: ecuaţia teoremei lui Millman
+[[../poze/10200.png]]
 
 Toate rezistenţele Norton sunt conectate în paralel. Aceast lucru este
 reprezentat în numitorul ecuaţiei lui Millman:
 
-#+CAPTION: ecuaţia teoremei lui Millman [[../poze/10201.png]]
+#+CAPTION: ecuaţia teoremei lui Millman
+[[../poze/10201.png]]
 
 În cazul de faţă, rezistenţa totală este de 517.43 miliohmi (571.43 mΩ).
 Circuitul echivalent se poate acum redesena şi conţine doar o sursă (de
 curent) Norton şi o singură rezistenţă Norton:
 
-#+CAPTION: circuit electric [[../poze/00247.png]]
+#+CAPTION: circuit electric
+[[../poze/00247.png]]
 
 Folosim legea lui Ohm pentru aflarea căderii de tensiune pe aceste două
 componente (E=IR):
 
-#+CAPTION: formulă [[../poze/10202.png]] #+CAPTION: circuit electric
+#+CAPTION: formulă
+[[../poze/10202.png]] #+CAPTION: circuit electric
 [[../poze/00248.png]]
 
 Pe scurt, ştim despre acest circuit că valoarea totală a curentul este
@@ -1136,7 +1221,8 @@ să facem acum este să punem împreună cele două ecuaţii pentru curentul
 şi rezistenţa totală, mai exact, putem afla tensiunea totală prin
 înmulţirea lor:
 
-#+CAPTION: formulă [[../poze/10203.png]]
+#+CAPTION: formulă
+[[../poze/10203.png]]
 
 În acest moment putem realiza faptul că ecuaţia lui Millman nu este
 nimic altceva decât o transformare Thevenin-Norton împreună cu formula
@@ -1164,28 +1250,33 @@ de asemenea într-o putere de ieşire scăzută dar şi într-o posibilă
 
 Revenind la circuitul studiat până acum...
 
-#+CAPTION: circuit electric [[../poze/00209.png]]
+#+CAPTION: circuit electric
+[[../poze/00209.png]]
 
 ...conform teoremei transferului maxim de putere, valoarea rezistenţei
 de sarcină pentru disiparea puterii maxime din circuit, trebuie să fie
 egală cu rezistenţa Thevenin (0.8 Ω, în acest caz):
 
-#+CAPTION: circuit electric [[../poze/00249.png]]
+#+CAPTION: circuit electric
+[[../poze/00249.png]]
 
 Cu această valoare a rezistenţei, puterea disipată va fi de 39.2 watt:
 
-#+CAPTION: tabel [[../poze/10204.png]]
+#+CAPTION: tabel
+[[../poze/10204.png]]
 
 Dacă micşorăm valoarea rezistenţei de sarcină (la 0.5 Ω în loc de 0.8 Ω,
 de exemplu), puterea disipată pe sarcină descreşte:
 
-#+CAPTION: tabel [[../poze/10205.png]]
+#+CAPTION: tabel
+[[../poze/10205.png]]
 
 Dacă valoarea rezistenţei sarcinii creşte (la 1.1 Ω în loc de 0.8 Ω, de
 exemplu), puterea disipată va fi de asemenea mai mică decât valoarea
 acesteia pentru 0.8 Ω:
 
-#+CAPTION: tabel [[../poze/10206.png]]
+#+CAPTION: tabel
+[[../poze/10206.png]]
 
 Această teoremă este foarte folositoare atunci când dezoltăm un circuit
 electric pentru folosirea (disiparea) puterii maxime pe sarcină .
@@ -1204,7 +1295,8 @@ asfel: conexiunea triunghi (Δ) cunoscută şi sub numele de delta sau Pi
 (π) şi configuraţia stea (Y) cunoscută şi sub numele de T. Ne putem da
 seama de unde vine numele acestora urmărind desenele de mai jos:
 
-#+CAPTION: configuraţii stea, triunghi, Pi şi T [[../poze/00250.png]]
+#+CAPTION: configuraţii stea, triunghi, Pi şi T
+[[../poze/00250.png]]
 
 Este posibilă calcularea reală a valorilor rezistorilor necesari pentru
 formarea unui tip de configuraţie (Δ sau Y) bazându-ne pe valorile
@@ -1231,7 +1323,8 @@ calculele nu sunt atât de complexe.
 O altă aplicaţie a transformării Δ-Y se găseşte în cadrul circuitelor
 punte dezechilibrate, precum cel de jos:
 
-#+CAPTION: punte electrică dezechilibrată [[../poze/00251.png]]
+#+CAPTION: punte electrică dezechilibrată
+[[../poze/00251.png]]
 
 Rezolvarea acestui circuit folosind analiza curentului de ramură sau
 buclei de curent este destul de laborioasă, iar fiindcă există doar o
@@ -1246,7 +1339,8 @@ reţea Y echivalentă pentru înlocuirea lor şi transformăm prin acest pas
 puntea într-un circuit combinat (mai simplu) serie/paralel.
 
 #+CAPTION: punte electrică dezechilibrată alegerea configuraţiei Δ de
-#+CAPTION: transformat în Y [[../poze/00252.png]]
+#+CAPTION: transformat în Y
+[[../poze/00252.png]]
 
 După aplicarea transformării:
 
@@ -1256,28 +1350,32 @@ După aplicarea transformării:
 După efectuarea corectă a calculelor, căderile de tensiune între
 punctele A, B şi C vor fi aceleaşi în ambele circuite
 
-#+CAPTION: formule [[../poze/10208.png]] #+CAPTION: circuit electric
+#+CAPTION: formule
+[[../poze/10208.png]] #+CAPTION: circuit electric
 [[../poze/00254.png]]
 
 Desigur, valorile rezistorilor R_{4} şi R_{5} rămân aceleşi, 18 Ω
 respectiv 12 Ω. Acum putem analiza circuitul precum o combinaţie
 serie/paralel, obţinând următoarele rezultate:
 
-#+CAPTION: tabel [[../poze/10209.png]]
+#+CAPTION: tabel
+[[../poze/10209.png]]
 
 Folosim valorile căderilor de tensiune din tabelul de mai sus pentru
 determinarea căderilor de tensiune între punctele A, B şi C, fiind
 atenţi la adunarea sau scăderea lor (precum este cazul tensiunii între
 punctele B şi C):
 
-#+CAPTION: circuit electric [[../poze/00255.png]] #+CAPTION: formule
+#+CAPTION: circuit electric
+[[../poze/00255.png]] #+CAPTION: formule
 [[../poze/10210.png]]
 
 Cu valorile acestor căderi de tensiune aflate, putem trece la circuitul
 original unde aceste căderi de tensiune sunt aceleaşi (între aceleaşi
 puncte).
 
-#+CAPTION: circuit electric [[../poze/00256.png]]
+#+CAPTION: circuit electric
+[[../poze/00256.png]]
 
 Desigur, căderile de tensiune pe rezistorii R_{4} şi R_{5} sunt aceleaşi
 ca în cazul circuitului transformat (Y).
@@ -1285,7 +1383,8 @@ ca în cazul circuitului transformat (Y).
 Acum putem determina curenţii prin rezistori folosind valorile acestor
 tensiuni şi aplicând repetat legea lui Ohm (I=E/R):
 
-#+CAPTION: formule [[../poze/10211.png]]
+#+CAPTION: formule
+[[../poze/10211.png]]
 
 Sumar:
 

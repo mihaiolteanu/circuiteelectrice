@@ -48,7 +48,8 @@ reprezentării analogice, cantitatea simbolizată este diviziblă la
 infinit. În cazul reprezentării digitale, cantitatea simbolizată
 prezintă o diviziune discretă.
 
-#+CAPTION: termometru analogic [[../poze/04096.png]]
+#+CAPTION: termometru analogic
+[[../poze/04096.png]]
 
 De exemplu, un termometru „clasic” precum în figura alăturată reprezintă
 un aparat de măsură analogic. Practic putem măsură orice temperatură din

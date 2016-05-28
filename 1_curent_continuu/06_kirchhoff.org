@@ -3,32 +3,37 @@
 Să analizăm un circuit electric serie simplu, determinând căderile de
 tensiune pe fiecare rezistor:
 
-#+CAPTION: circuit serie [[../poze/00106.png]]
+#+CAPTION: circuit serie
+[[../poze/00106.png]]
 
 Vom introducele valorile cunoscute precum şi cele ce le vom afla prin
 aplicarea formulelor într-un tabel ce cuprinde tensiunea (E), curentul
 (I) şi rezistenţa (R), precum şi suma acestora în întreg circuitul.
 Valorile sunt exprimate in volţi (V), amperi (A), respectiv ohmi (Ω).
 
-#+CAPTION: tabel [[../poze/10096.png]]
+#+CAPTION: tabel
+[[../poze/10096.png]]
 
 Folosind valorile individuale ale rezistenţelor, putem determina
 valoarea rezistenţei totale din circuit, cunoscând că valoarea totală
 este suma rezistenţelor individuale în cazul circuitelor serie:
 
-#+CAPTION: tabel [[../poze/10097.png]]
+#+CAPTION: tabel
+[[../poze/10097.png]]
 
 De aici, putem folosi legea lui Ohm (I=E/R) pentru determinarea valorii
 totale a curentului, ce va fi aceeiaşi cu valoarea curentului prin
 fiecare rezistor, curenţii fiind egali în toate componentele într-un
 circuit serie:
 
-#+CAPTION: tabel [[../poze/10098.png]]
+#+CAPTION: tabel
+[[../poze/10098.png]]
 
 Cunoscând valoarea curentului (2 mA), putem folosi legea lui Ohm (E=IR)
 pentru calcularea căderilor de tensiune pe fiecare rezistor în parte:
 
-#+CAPTION: tabel [[../poze/10099.png]]
+#+CAPTION: tabel
+[[../poze/10099.png]]
 
 Putem observa că valoarea căderilor de tensiune pe fiecare rezistor este
 proporţională cu rezistenţa, datorită faptului că valoarea curentului
@@ -41,7 +46,8 @@ Dacă ar fi să modificăm valoarea totală a tensiunii din circuit, vom
 vedea că această proporţionalitate a căderilor de tensiune rămâne
 constantă:
 
-#+CAPTION: tabel [[../poze/10100.png]]
+#+CAPTION: tabel
+[[../poze/10100.png]]
 
 Căderea de tensiune pe R_{2} este în continuare exact dublul căderii de
 pe R_{1}, în ciuda modificării tensiunii sursei. Proporţionalitatea
@@ -55,19 +61,22 @@ volţi. Atunci când am crescut tensiunea bateriei până la 180 de volţi
 de 4 ori (de la 10 la 40 de volţi). /Raportul/ dintre căderea de
 tensiune pe R_{1} şi căderea de tensiune totală a rămas însă aceeiaşi:
 
-#+CAPTION: formula [[../poze/10101.png]]
+#+CAPTION: formula
+[[../poze/10101.png]]
 
 De asemenea, niciunul dintre raporturile căderilor de tensiune cu
 tensiunea sursei nu s-au schimbat:
 
-#+CAPTION: formula [[../poze/10102.png]]
+#+CAPTION: formula
+[[../poze/10102.png]]
 
 Din această cauză, un circuit serie poartă adesea numele de /divizor de
 tensiune/, pentru abilitatea sa de divizare a tensiunii totale în
 fracţii proporţionale cu o valoare constantă. Matematic, aceasta se
 poate exprima asfel:
 
-#+CAPTION: formula [[../poze/10103.png]]
+#+CAPTION: formula
+[[../poze/10103.png]]
 
 În cadrul unui circuit divizor de tensiune, raportul dintre rezistenţele
 individuale şi cea totală este acelaşi ca şi raportul dintre căderile de
@@ -79,14 +88,16 @@ de folosirea repetată a legii lui Ohm
 Folosind această formulă, putem re-analiza circuitul de mai sus în mai
 puţini paşi:
 
-#+CAPTION: circuit serie [[../poze/00106.png]] #+CAPTION: tabel
+#+CAPTION: circuit serie
+[[../poze/00106.png]] #+CAPTION: tabel
 [[../poze/10104.png]]
 
 Circuitele divizoare de tensiune se folosesc acolo unde o combinaţie
 specifică de rezistori serie este folosită pentru a „diviza” tensiunea
 în cantiăţi precise (în cazul aparatelor de măsură, de exemplu).
 
-#+CAPTION: circuit divizor de tensiune [[../poze/00107.png]]
+#+CAPTION: circuit divizor de tensiune
+[[../poze/00107.png]]
 
 Unul dintre dispozitivele folosite frecvent ca şi divizor de tensiune
 este /potenţiometrul/, ce este de fapt un rezistor cu un element mobil
@@ -94,7 +105,8 @@ poziţionat cu ajutorul unei manete. Elementul mobil, denumit şi /perie/,
 face contact cu un material rezistiv dezizolat în oricare punct selectat
 manual:
 
-#+CAPTION: potenţiometru [[../poze/00108.png]]
+#+CAPTION: potenţiometru
+[[../poze/00108.png]]
 
 Pe măsură ce contactul periei este se apropie de terminalul 1 şi se
 îndepărtează de terminalul 2, rezistenţa spre terminalul 1 scade iar cea
@@ -102,25 +114,30 @@ către terminalul 2 creşte. Dacă apropiem contactul de terminalul 2, vom
 obţine efectul contrar. Rezistenţa între cele două puncte (1 şi 2) este
 constantă indiferent de poziţia contactului periei.
 
-#+CAPTION: potenţiometru [[../poze/00109.png]]
+#+CAPTION: potenţiometru
+[[../poze/00109.png]]
 
 Mai jos sunt ilustrate două tipuri de potenţiometre, rotative şi
 liniare:
 
-#+CAPTION: construcţia potenţiometrului rotativ [[../poze/00483.png]]
-#+CAPTION: construcţia potenţiometrului liniar [[../poze/00484.png]]
+#+CAPTION: construcţia potenţiometrului rotativ
+[[../poze/00483.png]]
+#+CAPTION: construcţia potenţiometrului liniar
+[[../poze/00484.png]]
 
 Pozele de mai jos reprezintă un potenţiometru rotativ real cu peria
 vizizibilă pentru o mai bună vizualizare. Axul ce deplasează peria este
 rotit în acest caz în sensul acelor de ceasornic aproape la maxim, asfel
 încât aproape atinge terminalul din stânga:
 
-#+CAPTION: potenţiometru rotativ [[../poze/50031.jpg]]
+#+CAPTION: potenţiometru rotativ
+[[../poze/50031.jpg]]
 
 În acest caz, peria este rotită în sensul învers acelor de ceasornic,
 asfel încât aceasta se afla în cealaltă extremă:
 
-#+CAPTION: potenţiometru rotativ [[../poze/50032.jpg]]
+#+CAPTION: potenţiometru rotativ
+[[../poze/50032.jpg]]
 
 Dacă aplicăm o tensiune constantă între cei doi terminali de la
 extremităţi, poziţia periei va „lua” doar o fracţiune din tensiunea
@@ -150,7 +167,8 @@ baterie iar sarcina (bec, de exemplu) o conectăm între terminalul periei
 şi oricare dintre cei doi terminali externi:
 
 #+CAPTION: ajustarea tensiunii pentru un circuit ce necesită o tensiune
-#+CAPTION: mai mică decât cea existentă la bornele bateriei [[../poze/00364.png]]
+#+CAPTION: mai mică decât cea existentă la bornele bateriei
+[[../poze/00364.png]]
 
 Sumar:
 
@@ -166,14 +184,16 @@ Sumar:
 Să luam un circuit serie cu trei rezistori şi să notăm punctele din
 circuit:
 
-#+CAPTION: circuit serie [[../poze/00110.png]]
+#+CAPTION: circuit serie
+[[../poze/00110.png]]
 
 Dacă ar fi să conectăm un voltmetru între punctele 2 şi 1, sonda roşie
 la punctul 2 şi sonda neagră la punctul 1, voltmetru va indica valoarea
 de +45 V. În mod normal, semnul „+” nu este arătat, ci este implicit în
 cazul citirii aparatelor de măsură digitale.
 
-#+CAPTION: formulă [[../poze/10106.png]]
+#+CAPTION: formulă
+[[../poze/10106.png]]
 
 Când o tensiune este exprimată cu indice dublu („2-1” în cazul notaţiei
 „E_{2-1}”), înseamnă ca tensiunea este măsurată între cele două puncte.
@@ -181,15 +201,18 @@ O tensiune exprimată prin „E_{cg}” ar însemna că tensiunea măsurată est
 cea indicată de un voltmetru cu sonda roşie conectată la punctul „c” şi
 sonda neagră la punctul „g”.
 
-#+CAPTION: voltmetru [[../poze/00435.png]]
+#+CAPTION: voltmetru
+[[../poze/00435.png]]
 
 Dacă ar fi să luăm acelaşi voltmetru şi să măsurăm căderea de tensiune
 de pe fiecare rezistor, parcurgând circuitul în sensul acelor de
 ceasornic, cu sonda roşie în faţă şi cu cea neagră în spate, am
 obţine/citi următoarele valori:
 
-#+CAPTION: formule [[../poze/10107.png]] #+CAPTION: parcurgerea
-#+CAPTION: circuitului cu voltmetru [[../poze/00436.png]]
+#+CAPTION: formule
+[[../poze/10107.png]] #+CAPTION: parcurgerea
+#+CAPTION: circuitului cu voltmetru
+[[../poze/00436.png]]
 
 Suntem deja familiarizaţi cu conceptul general al circuitelor serie, si
 anume: suma căderilor de tensiune individuale este egală cu tensiunea
@@ -225,7 +248,8 @@ Pentru o mai bună vizualizare, putem redesena circuitul serie de mai
 sus, asfel încât toate componentele să se regăsească pe aceeiaşi linie
 dreaptă:
 
-#+CAPTION: circuit serie [[../poze/00111.png]]
+#+CAPTION: circuit serie
+[[../poze/00111.png]]
 
 Este exact acelaşi circuit, doar că aranjamentul componentelor este
 diferit. Observaţi polaritatea căderilor de tensiune de pe rezistori în
@@ -275,7 +299,8 @@ Legea lui Kirchhoff pentru tensiunie (prescurtat LKT) funcţionează
 pentru /orice/ configuraţie a circuitului, nu doar pentru cele serie. Să
 vedem un exemplu pentru circuitul paralel prin urmare:
 
-#+CAPTION: circuit paralel [[../poze/00114.png]]
+#+CAPTION: circuit paralel
+[[../poze/00114.png]]
 
 Fiind un circuit paralel, căderile de tensiune pe fiecare rezistor în
 parte sunt aceleaşi precum tensiunea sursei de alimentare: 6 volţi.
@@ -297,7 +322,8 @@ componentelor să fie complet ascunsă şi să avem la dispoziţie doar un
 set de puncte unde să putem măsura tensiunea - şi legea lui Kirchhoff
 tot ar fi valabilă:
 
-#+CAPTION: aplicarea legii lui Kirchhof [[../poze/00115.png]]
+#+CAPTION: aplicarea legii lui Kirchhof
+[[../poze/00115.png]]
 
 Dacă încercăm orice combinaţie de paşi, pornind de la oricare terminal
 în diagrama de mai sus, completând o buclă asfel încât să ajungem la
@@ -314,30 +340,35 @@ Sumar:
 Să analizăm un circuit paralel simplu, determinând valorile curenţilor
 prin fiecare ramură, prin fiecare rezistor în parte:
 
-#+CAPTION: circuit paralel [[../poze/00118.png]]
+#+CAPTION: circuit paralel
+[[../poze/00118.png]]
 
 Cunoscând faptul că pe fiecare component în parte căderea de tensiune
 este aceeiaşi, putem completa tabelul tensiune/curent/rezistenţă asfel
 (mărimile sunt exprimate în volţi, amperi şi ohmi):
 
-#+CAPTION: tabel valori tensiune/curent/rezistenţa [[../poze/10113.png]]
+#+CAPTION: tabel valori tensiune/curent/rezistenţa
+[[../poze/10113.png]]
 
 Folosind legea lui Ohm (I=E/R) putem calcula curentul prin fiecare
 ramură:
 
-#+CAPTION: tabel valori tensiune/curent/rezistenţa [[../poze/10114.png]]
+#+CAPTION: tabel valori tensiune/curent/rezistenţa
+[[../poze/10114.png]]
 
 Ştiind că în circuitele paralele suma curenţilor de pe fiecare ramură
 reprezintă curentul total, putem completa tabelul cu valoarea totală a
 curentului prin circuit, 11 mA:
 
-#+CAPTION: tabel valori tensiune/curent/rezistenţa [[../poze/10115.png]]
+#+CAPTION: tabel valori tensiune/curent/rezistenţa
+[[../poze/10115.png]]
 
 Ultimul pas este calcularea rezistenţei totale, folosind legea lui Ohm
 (R=E/I), sau folosind formula rezistenţelor în paralel; răspunsul va fi
 acelaşi:
 
-#+CAPTION: tabel valori tensiune/curent/rezistenţa [[../poze/10116.png]]
+#+CAPTION: tabel valori tensiune/curent/rezistenţa
+[[../poze/10116.png]]
 
 Ar trebui să fie evident deja faptul că prin fiecare rezistor curentul
 depinde de rezistenţa acestuia, ştiind că valoarea tensiunii prin toţi
@@ -349,7 +380,8 @@ două ori cea a rezistorului R_{1}.
 Dacă ar fi să schimbăm sursa de tensiune din acest circuit, am descoperi
 că (supriză!) acest raport nu se modifică:
 
-#+CAPTION: tabel valori tensiune/curent/rezistenţa [[../poze/10117.png]]
+#+CAPTION: tabel valori tensiune/curent/rezistenţa
+[[../poze/10117.png]]
 
 Curentul prin R_{1} este şi de data aceasta dublu curentului prin R_{3},
 cu toate că valoarea tensiunii de alimentare (tensiunea bateriei) s-a
@@ -370,7 +402,8 @@ Cu ajutorul algebrei, putem determina o formulă pentru calculul
 curentului prin rezistorii paraleli, atunci când cunoaştem curentului
 total, rezistenţa totală şi rezistenţele individuale:
 
-#+CAPTION: formula divizorului de curent [[../poze/10119.png]]
+#+CAPTION: formula divizorului de curent
+[[../poze/10119.png]]
 
 Raportul dintre rezistenţa totală şi rezistenţa individuală este acelaşi
 ca şi între curentul individual (pe ramură) şi cel total. Această
@@ -382,7 +415,8 @@ Folosind circuitul paralel original ca şi exemplu, putem re-calcula
 curentul prin ramuri folosind această formulă, dacă începem prin a
 cunoaşte valoarea totală a curentului şi a rezistenţei:
 
-#+CAPTION: formula divizorului de curent, aplicare [[../poze/10120.png]]
+#+CAPTION: formula divizorului de curent, aplicare
+[[../poze/10120.png]]
 
 Dacă facem o comparaţie între cele două formule divizoare, putem observa
 că sunt extrem de asemănătoare. Putem observa totuşi, că în cazul
@@ -427,12 +461,14 @@ Sumar:
 
 Să considerăm următorul circuit paralel:
 
-#+CAPTION: circuit paralel [[../poze/00120.png]]
+#+CAPTION: circuit paralel
+[[../poze/00120.png]]
 
 Calculând toate valorile tensiunilor şi curenţilor din acest circuit,
 obţinem:
 
-#+CAPTION: tabel valori tensiune/curent/rezistenţă [[../poze/10116.png]]
+#+CAPTION: tabel valori tensiune/curent/rezistenţă
+[[../poze/10116.png]]
 
 În acest moment cunoaştem valorile curenţilor din fiecare ramură precum
 şi valoarea totală a curentului din circuit. Cunoaştem faptul că
@@ -442,7 +478,8 @@ principiu foarte important în acest circuit. Să observăm aşadar ce se
 întâmplă la fiecare nod (locul de întâlnire a cel puţin trei ramuri) din
 acest circuit:
 
-#+CAPTION: circuit paralel [[../poze/00121.png]]
+#+CAPTION: circuit paralel
+[[../poze/00121.png]]
 
 Pe ramura negativă de jos (8-7-6-5), la fiecare nod curentul principal
 se divide pe fiecare ramură succesivă spre rezistori. Pe ramura pozitivă
@@ -451,7 +488,8 @@ principal. Dacă ne uităm mai atent la un anumit nod, precum 3, observă
 că valoarea curentului ce intră într-un nod este egală cu valoarea
 curentului ce părăseşte acel nod:
 
-#+CAPTION: circuit paralel [[../poze/00122.png]]
+#+CAPTION: circuit paralel
+[[../poze/00122.png]]
 
 Avem doi curenţi care intră în nodul 3, din partea dreaptă şi de jos.
 Din partea stângă avem un singur curent care iese din nod, egal ca şi
@@ -478,7 +516,8 @@ nod şi cu „-” dacă iese, suma lor va da tot timpul zero.
 iese din nod prin partea stângă folosind legea lui Kirchhoff pentru
 curent asfel:
 
-#+CAPTION: formulă [[../poze/10125.png]]
+#+CAPTION: formulă
+[[../poze/10125.png]]
 
 Semnul negativ (-) pentru valoarea de 5 mA ne spune faptul că, curentul
 /iese/ din acest nod, în contradicţie cu cei doi curenţi de 2 mA şi 3 mA

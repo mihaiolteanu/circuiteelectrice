@@ -26,7 +26,8 @@ Circuitul final va arăta astfel:
 
 #+CAPTION: sursă de tensiune joasă de curent alternativ
 [[../poze/05001.png]] #+CAPTION: sursă de tensiune joasă de curent
-#+CAPTION: alternativ [[../poze/05002.png]]
+#+CAPTION: alternativ
+[[../poze/05002.png]]
 
 ** Realizarea sursei de tensiune joasă
 
@@ -92,7 +93,8 @@ recomandat pentru simplul fapt că putem realiza multe înfăşurări într-un
 spaţiu relativ îngust. Transformatorul final va arăta aproximativ
 astfel:
 
-#+CAPTION: construirea unui transformator [[../poze/05005.png]]
+#+CAPTION: construirea unui transformator
+[[../poze/05005.png]]
 
 ** Realizarea transformatorului
 
@@ -153,8 +155,10 @@ sau oţel, cu un diametru suficient de mare pentru a umple tubul de
 carton; conductor de cupru pentru magnet/transformator de 0,32 mm; sursă
 de tensiune de c.a. şi un bec. Schema electrică realizată arată astfel:
 
-#+CAPTION: circuit cu bobină variabilă [[../poze/05006.png]] #+CAPTION:
-#+CAPTION: circuit cu bobină variabilă [[../poze/05007.png]]
+#+CAPTION: circuit cu bobină variabilă
+[[../poze/05006.png]] #+CAPTION:
+#+CAPTION: circuit cu bobină variabilă
+[[../poze/05007.png]]
 
 ** Realizarea bobinei variabile
 
@@ -203,8 +207,10 @@ impedanţelor (1000 Ω: 8 Ω) în loc de tensiune. Puteţi folosi un astfel
 de transformator audio, sau puteţi folosi un transformator de putere
 (220 V/6 V). Circuitul realiza arată astfel:
 
-#+CAPTION: detector audio de semnal [[../poze/05009.png]] #+CAPTION:
-#+CAPTION: detector audio de semnal [[../poze/05010.png]]
+#+CAPTION: detector audio de semnal
+[[../poze/05009.png]] #+CAPTION:
+#+CAPTION: detector audio de semnal
+[[../poze/05010.png]]
 
 ** Realizarea detectorului audio de semnale
 
@@ -238,7 +244,8 @@ tensiune la intrarea circuitului:
 
 #+CAPTION: atenuarea sensibilităţii detetorului audio
 [[../poze/05012.png]] #+CAPTION: atenuarea sensibilităţii detetorului
-#+CAPTION: audio [[../poze/05014.png]]
+#+CAPTION: audio
+[[../poze/05014.png]]
 
 Atunci când probaţi un semnal de tensiune cu o amplitudine necunoscută,
 ajustaţi potenţiometrul divizor de tensiune de 100 kΩ aproximativ la
@@ -263,7 +270,8 @@ La fel ca în cazul sursei de tensiune, puteţi introduce întreg circuitul
 într-o carcasă pentru a putea fi folosit în viitor. Prin urmare,
 rezultatul final ar putea arăta astfel:
 
-#+CAPTION: detector audio de semnal; forma finală [[../poze/05013.png]]
+#+CAPTION: detector audio de semnal; forma finală
+[[../poze/05013.png]]
 
 * 05. Detectarea câpurilor magnetice
 
@@ -281,7 +289,8 @@ această aplicaţie. Circuitul realizat arată astfel:
 
 #+CAPTION: circuit de detectare a câpurilor electromagnetice
 [[../poze/05015.png]] #+CAPTION: circuit de detectare a câpurilor
-#+CAPTION: electromagnetice [[../poze/05016.png]]
+#+CAPTION: electromagnetice
+[[../poze/05016.png]]
 
 ** Utilizarea detectorului de câpuri electromagnetice
 
@@ -339,8 +348,10 @@ electrostatică.
 
 Detector audio cu căşti. Circuitul realizat arată astfel:
 
-#+CAPTION: detector de câpuri electrice [[../poze/05017.png]] #+CAPTION:
-#+CAPTION: detector de câpuri electrice [[../poze/05018.png]]
+#+CAPTION: detector de câpuri electrice
+[[../poze/05017.png]] #+CAPTION:
+#+CAPTION: detector de câpuri electrice
+[[../poze/05018.png]]
 
 ** Utilizarea detectorului de câmpuri electrice
 
@@ -380,4 +391,5 @@ durabil. Evitaţi condensatorii marcaţi cu orice tip de polaritate,
 întrucât aceştia se vor distruge dacă îi alimentaţi în curent
 alternativ. Circuitul final va arăta astfel:
 
-#+CAPTION: [[../poze/00000.png]]
+#+CAPTION:
+[[../poze/00000.png]]

@@ -105,7 +105,8 @@ prag critic. Printre cele mai simple astfel de oscilatoare se numără un
 oscilator compus din trei componente (neincluzând sursa de putere de
 c.c): un rezistor, un condensator şi o lampă cu neon.
 
-#+CAPTION: oscilator dinte de fierăstrău [[../poze/03189.png]]
+#+CAPTION: oscilator dinte de fierăstrău
+[[../poze/03189.png]]
 
 Lămpile cu neon nu sunt altceva decât doi electrozi metalici într-un tub
 de sticlă etanş, separaţi de neonul din interior. La temperatura
@@ -133,7 +134,8 @@ tuburile tiratron. Fiind de fapt o triodă, tiratronul poate fi pornit cu
 ajutorul unei tensiune de control mici aplicate între grilă şi catod, şi
 poate fi oprit prin reducerea tensiunii dintre anod şi catod.
 
-#+CAPTION: circuit simplu cu tiratron [[../poze/03018.png]]
+#+CAPTION: circuit simplu cu tiratron
+[[../poze/03018.png]]
 
 În principiu, tiratroanele erau versiuni controlate ale lămpilor cu
 neon, proiectate special pentru comutarea curentului pe sarcină. Punctul
@@ -154,7 +156,8 @@ Tensiunea de sarcină într-un astfel de circuit va arăta aproximativ
 precum în figura alăturată.
 
 #+CAPTION: forma de undă a tensiunii de sarcină într-un circuit cu
-#+CAPTION: tiratron [[../poze/03190.png]]
+#+CAPTION: tiratron
+[[../poze/03190.png]]
 
 Pe măsură ce tensiunea de c.a. creşte de la zero volţi spre primul vârf,
 tensiunea pe sarcină rămâne de zero volţi (curent de sarcină zero) până
@@ -190,7 +193,8 @@ reprezentare brută a diodei Shockely, reprezentare întâlnită adesea în
 manuale, constă din patru straturi de material semiconductor P-N-P-N,
 unul peste altul.
 
-#+CAPTION: dioda Shockley [[../poze/03192.png]]
+#+CAPTION: dioda Shockley
+[[../poze/03192.png]]
 
 Din păcate, această reprezentare nu explică deloc modul de funcţionare
 al acestui dispozitiv. Să considerăm aşadar o reprezentare alternativă a
@@ -210,7 +214,8 @@ dioda Shockley arată conform figurii alăturate.
 Să conectăm un astfel de dispozitiv la o sursă variabilă de tensiune
 pentru a observa comportamentul acestuia.
 
-#+CAPTION: circuit cu dioda Shockley [[../poze/03195.png]]
+#+CAPTION: circuit cu dioda Shockley
+[[../poze/03195.png]]
 
 Desigur, fără nicio tensiune aplicată, nu va exista niciun curent. O
 creştere iniţială a tensiunii nu va duce la apariţia niciuni curent
@@ -266,7 +271,8 @@ histerezisul este evident. Iniţial, observăm circuitul atunci când sursa
 de tensiune de c.c. (bateria) este de zero volţi.
 
 #+CAPTION: circuit cu dioda Shockley; graficul curent-tensiune; sursa de
-#+CAPTION: c.c. de zero volţi [[../poze/03196.png]]
+#+CAPTION: c.c. de zero volţi
+[[../poze/03196.png]]
 
 Următorul pas este creşterea treptată a tensiunii de c.c. aplicate.
 Curentul prin circuit este zero sau foarte apropiat de această valoare,
@@ -274,7 +280,8 @@ datorită faptului că limita de intrare în conducţie a tranzistorului nu
 a fost atinsă pentru niciunul din cele două dispozitive.
 
 #+CAPTION: circuit cu dioda Shockley; graficul curent-tensiune;
-#+CAPTION: tensiunea sursei de curent continuu creşte treptat [[../poze/03197.png]]
+#+CAPTION: tensiunea sursei de curent continuu creşte treptat
+[[../poze/03197.png]]
 
 Atunci când limita de străpungere a unuia dintre tranzistori este
 atinsă, acest lucru va duce la apariţia unui curent prin colector chiar
@@ -288,7 +295,8 @@ conducţie, ducând la apariţia unui curent de bază prin tranzistorul
 superior.
 
 #+CAPTION: circuit cu dioda Shockley; graficul curent-tensiune; intrarea
-#+CAPTION: în conducţie a unuia dintre tranzistori [[../poze/03198.png]]
+#+CAPTION: în conducţie a unuia dintre tranzistori
+[[../poze/03198.png]]
 
 După ce tranzistorul de sus primeşte un curent de bază, şi acesta va
 intra în conducţie. Acest fapt duce la intrarea în conducţie normală
@@ -297,7 +305,8 @@ tranzistori rămânând în starea de conducţie. Curentul prin circuit trece
 rapid la valoarea maximă.
 
 #+CAPTION: circuit cu dioda Shockley; graficul curent-tensiune; intrarea
-#+CAPTION: în conducţie a ambilor tranzistori [[../poze/03199.png]]
+#+CAPTION: în conducţie a ambilor tranzistori
+[[../poze/03199.png]]
 
 Reacţia pozitivă este evidentă în această situaţie. Atunci când are loc
 străpungerea unuia dintre tranzistori, acest lucru duce la existenţa
@@ -333,7 +342,8 @@ ambii tranzistori intră în starea de blocare.
 
 #+CAPTION: circuit cu dioda Shockley; graficul curent-tensiune;
 reintrarea tranzistorilor în stare de blocare pe măsură ce tensiunea
-#+CAPTION: sursei de c.c. scade sub o anumită valoare [[../poze/03201.png]]
+#+CAPTION: sursei de c.c. scade sub o anumită valoare
+[[../poze/03201.png]]
 
 Din nou putem vedea efectele reacţiei pozitive: faptul că ciclul
 cauză-efect dintre cei doi tranzistori este „vicios” (a descreşte a
@@ -378,7 +388,8 @@ dorim în schimb functionarea bidirectională (c.a.), putem folosi două
 diode Shockley, conectate în paralel şi având direcţii opuse pentru a
 forma un nou dip de dispozitiv multijoncţiune, şi anume, DIAC-ul.
 
-#+CAPTION: DIAC-ul; circuitul echivalent şi simbol [[../poze/03204.png]]
+#+CAPTION: DIAC-ul; circuitul echivalent şi simbol
+[[../poze/03204.png]]
 
 DIACU-ul se comportă asemeni unei diode Shockley atunci când tensiunea
 la bornele sale este o tensiune de curent continuu. Cu o tensiuen de
@@ -394,7 +405,8 @@ starea de conducţie, necesitând o nouă străpungere înainte de a putea
 conduce din nou. Rezultatul este o formă de undă asemănătoarea cu cea
 din figura alăturată.
 
-#+CAPTION: DIAC-ul; graficul formelor de undă [[../poze/03205.png]]
+#+CAPTION: DIAC-ul; graficul formelor de undă
+[[../poze/03205.png]]
 
 DIAC-ul nu este aproape niciodată folosit singur ci combinat cu alte
 dispozitive multijoncţiune.
@@ -468,7 +480,8 @@ aparat de măsură ar trebui să indice o continuitate între aceste
 terminale, atunci când sonda roşie este conectată pe poartă iar sonda
 neagră pe catod.
 
-#+CAPTION: verificarea tiristorului cu ohmmetrul [[../poze/03207.png]]
+#+CAPTION: verificarea tiristorului cu ohmmetrul
+[[../poze/03207.png]]
 
 Toate celelaltă măsurători de continuiate vor indica un circuit deschis
 („OL” pe afişajul multimetrului). Trebuie înţeles că acesta este un test
@@ -505,7 +518,8 @@ diagnosticare al tiristoarelor suspecte cât şi o modalitate excelentă de
 tensiune de c.c. şi două butoane folosite pentru aprinderea şi stingerea
 tiristorului.
 
-#+CAPTION: circuit de testare al tiristoarelor [[../poze/03208.png]]
+#+CAPTION: circuit de testare al tiristoarelor
+[[../poze/03208.png]]
 
 Acţionarea întrerupătorului normal-deschis duce la conectarea porţii la
 anod, permiţând trecerea curentului dinspre terminalul negativ al
@@ -545,7 +559,8 @@ folosit pe post de circuit de control al pornirii/opririi unui motor,
 lampă sau orice altă sarcină practică.
 
 #+CAPTION: circuit cu tiristor pentru controlul pornirii/opririi unui
-#+CAPTION: motor [[../poze/03209.png]]
+#+CAPTION: motor
+[[../poze/03209.png]]
 
 ** Circuit de protecţie crowbar
 
@@ -590,7 +605,8 @@ sinusoidală „tăiată”. Graficul formei de undă al DIAC-ului ca şi răspu
 la o tensiune de c.a a cărei vârf depăşeşte tensiunea de străpungere
 este reluat în figura alăturată.
 
-#+CAPTION: graficul formei de undă a DIAC-ului [[../poze/03205.png]]
+#+CAPTION: graficul formei de undă a DIAC-ului
+[[../poze/03205.png]]
 
 În cazul DIAC-ului, acea tensiune de străpungere are o valoare fixă. În
 cazul tiristoarelor, putem controla exact momentul în care dispozitivul
@@ -603,7 +619,8 @@ Să considerăm circuitul alăturat, de exemplu. În acest caz, un tiristor
 este conectate într-un circuit ce controlează puterea pe o sarcină de la
 o sursă de curent alternativ.
 
-#+CAPTION: circuit cu tiristor [[../poze/03211.png]]
+#+CAPTION: circuit cu tiristor
+[[../poze/03211.png]]
 
 Fiind un dispozitiv uni-direcţional, tot ceea ce poată să realizeze este
 să transmită doar o semi-perioadă spre sarcină. Totuşi, pentru a putea
@@ -619,7 +636,8 @@ curentului invers prin poartă în cazul în care tiristorul posedă un
 rezistor intern între poartă şi catod), va permite pornirea tiristorului
 aproape instant la începutul fiecărei semi-perioade pozitive.
 
-#+CAPTION: circuit cu tiristor; forma de undă [[../poze/03212.png]]
+#+CAPTION: circuit cu tiristor; forma de undă
+[[../poze/03212.png]]
 
 Putem întârzia pornirea tiristorului prin introducerea unei rezistenţe
 în circuitul porţii, rezistenţă ce creşte valoarea căderii de tensiune
@@ -629,7 +647,8 @@ trebui să atingă un punct mai mare în cadrul semi-alternanţei pentru a
 crea un curent suficient de mare necesar aprinderii tiristorului.
 
 #+CAPTION: circuit cu tiristor; forma de undă cu o rezistenţa introdusă
-#+CAPTION: în circuitul porţii [[../poze/03213.png]]
+#+CAPTION: în circuitul porţii
+[[../poze/03213.png]]
 
 Odată cu tăierea alternanţei pozitive a undei sinusoidale la un nivel
 mai mare decât în cazul precedent prin îtârzierea intrării în conducţie
@@ -653,7 +672,8 @@ circuitul este setat la puterea minimă la care sarcina poate fi
 alimentată în această configuraţie.
 
 #+CAPTION: circuit cu tiristor; pragul maxim de aprindere al
-#+CAPTION: tiristorului [[../poze/03215.png]]
+#+CAPTION: tiristorului
+[[../poze/03215.png]]
 
 Dacă în această situaţie vom continua să mărimi pragul de aprindere,
 tiristorul nu va mai intra deloc în conducţie, din moment ce nici măcar
@@ -700,7 +720,8 @@ aprindere pe poarta şi catodul tiristorului pentru asigurarea izolaţiei
 electrice dintre aprindere şi circuitele de putere.
 
 #+CAPTION: utilizarea unui transformator de impulsuri pentru separarea
-#+CAPTION: circuitului de aprindere de circuitul de putere [[../poze/03218.png]]
+#+CAPTION: circuitului de aprindere de circuitul de putere
+[[../poze/03218.png]]
 
 Atunci când se folosesc mai multe tiristoare pentru comanda puterii pe
 sarcină, adesea catozii nu sunt comuni din punct de vedere electric,
@@ -708,7 +729,8 @@ făcând dificilă conectarea unui singur circuit de aprindere pentru toate
 tiristoarele. Un astfel de exemplu îl reprezintă un redresor în punte
 comandat cu tiristoare.
 
-#+CAPTION: punte comandată cu tiristoare [[../poze/03219.png]]
+#+CAPTION: punte comandată cu tiristoare
+[[../poze/03219.png]]
 
 În oricare circuit redresor în punte, diodele redresoare (în acest caz,
 tiristoarele) trebuie să conducă în perechi opuse: T_{1} şi T_{3}
@@ -718,7 +740,8 @@ nu posedă aceleaşi conexiuni ale catozilor, ceea ce înseamnă că nu putem
 pur şi simplu să utilizăm o singură sursă de tensiune pentru aprinderea
 ambelor dispozitive, precum în figura alăturată.
 
-#+CAPTION: punte comandată cu tiristoare [[../poze/03220.png]]
+#+CAPTION: punte comandată cu tiristoare
+[[../poze/03220.png]]
 
 Deşi sursa de impulsuri de tensiune prezentată mai sus va produce
 aprinderea tiristorului T_{4}, tiristorul T_{2} nu se va aprinde
@@ -760,7 +783,8 @@ Sumar:
 TRIAC-ul nu este altceva decât două tiristoare în paralel aşezate spate
 în spate.
 
-#+CAPTION: triacul; schema echivalentă şi simbol [[../poze/03223.png]]
+#+CAPTION: triacul; schema echivalentă şi simbol
+[[../poze/03223.png]]
 
 Deoarece tiristoarele individuale sunt mult mai flexibile într-un sistem
 de control, acestea sunt adesea întâlnite în aplicaţiile cu motoare
@@ -771,7 +795,8 @@ acest circuit include şi condensatorul de defazare necesar pentru
 aprinderea dispozitivului dincolo de valoarea de vârf a formei de undă
 de c.a.
 
-#+CAPTION: circuit dimmer cu lampă folosind triac [[../poze/03224.png]]
+#+CAPTION: circuit dimmer cu lampă folosind triac
+[[../poze/03224.png]]
 
 Triacele sunt recunoscute pentru aprinderea lor nesimetrucă. Acest lucru
 înseamnă că tensiunea de străpungere este diferită pentru fiecare din
@@ -793,7 +818,8 @@ impulsurilor pe poartă. Acest lucru se poate realiza cu ajutorul unui
 diac.
 
 #+CAPTION: circuit dimmer cu lampă folosind triac; conectarea unui diac
-#+CAPTION: în serie cu poarta triacului [[../poze/03225.png]]
+#+CAPTION: în serie cu poarta triacului
+[[../poze/03225.png]]
 
 Tensiunile de străpungere ale diacelor tind să fie mult mai simetrice
 (aceeiaşi valoare pentru ambele polarităţi ale formei de undă) faţă de
@@ -825,7 +851,8 @@ fără a lua în considerare condensatorul de defazaj. Cu toate că
 circuitul rezultat nu posedă acelaşi grad de control precum versiunea
 mai complexă (cu condensator şi diac), acesta este funcţional.
 
-#+CAPTION: circuit dimmer cu lampă folosind triac [[../poze/03226.png]]
+#+CAPTION: circuit dimmer cu lampă folosind triac
+[[../poze/03226.png]]
 
 Să presupunem acum că inversăm terminalii principali ai triacului între
 ei. Conform circuitului echivalent cu două tiristoare de mai sus,
@@ -863,10 +890,12 @@ Tiristoarele controlate cu ajutorul luminii sunt adesea cunoscute sub
 acronimul LASCR (Light Activated Silicon-Controlled Rectifier). Simbolul
 acestora este prezentat în figura alăturată.
 
-#+CAPTION: opototiristorul (LASCR); simbol [[../poze/03228.png]]
+#+CAPTION: opototiristorul (LASCR); simbol
+[[../poze/03228.png]]
 
 Triacele controlate cu ajutorul luminii nu au un acronim al lor, dar
 sunt cunoscute sub numele de opto-triace. Simbolul acestora este
 prezentat în figura alăturată.
 
-#+CAPTION: optotriacul; simbol [[../poze/03228.png]]
+#+CAPTION: optotriacul; simbol
+[[../poze/03228.png]]

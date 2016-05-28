@@ -39,7 +39,8 @@ circuit simpul pur capacitiv:
 90^{o}. Graficul celor două forme de undă arată asfel:
 
 #+CAPTION: graficul formelor de undă pentru un circuit electric pur
-#+CAPTION: capacitiv [[../poze/02069.png]]
+#+CAPTION: capacitiv
+[[../poze/02069.png]]
 
 Reţineti, curentul printr-un condensator este rezultatul variaţiei
 tensiunii la bornele acestuia. Prin urmare, curentu instantaneu este
@@ -54,13 +55,15 @@ pare să aibe un „avantaj” faţă de tensiune; curentul este defazat
 curentului.
 
 #+CAPTION: graficul explicat al formelor de undă pentru un circuit
-#+CAPTION: electric pur capacitiv [[../poze/02070.png]]
+#+CAPTION: electric pur capacitiv
+[[../poze/02070.png]]
 
 Forma de undă pentru putere este asemănătoare celei existente în cazul
 circuitului pur inductiv:
 
 #+CAPTION: graficul formelor de undă pentru un circuit electric pur
-#+CAPTION: capacitiv [[../poze/02071.png]]
+#+CAPTION: capacitiv
+[[../poze/02071.png]]
 
 Defazajul de 90^{o} dintre curent şi tensiune duce la o formă a undei de
 putere ce alternează în mod egal între pozitiv şi negativ. Aceast lucru
@@ -112,7 +115,8 @@ Curentul alternativ într-un circuit pur capacitiv este egal cu raportul
 dintre tensiune şi reactanţă capacitivă. Să luăm ca şi exemplu următorul
 circuit:
 
-#+CAPTION: circuit capacitiv simplu [[../poze/02072.png]] #+CAPTION:
+#+CAPTION: circuit capacitiv simplu
+[[../poze/02072.png]] #+CAPTION:
 calcularea curentului într-un circuit pur capacitiv
 [[../poze/12043.png]]
 
@@ -123,8 +127,10 @@ sub formă matematică, putem calcula unghiul de fază al opoziţiei
 reactive a condensatorului faţă de curent:
 
 #+CAPTION: calcularea opoziţiei condensatorului faţă de curent într-un
-#+CAPTION: circuit pur capacitiv [[../poze/12044.png]] #+CAPTION: circuit capacitiv
-#+CAPTION: simplu - diagrama fazorială [[../poze/02073.png]]
+#+CAPTION: circuit pur capacitiv
+[[../poze/12044.png]] #+CAPTION: circuit capacitiv
+#+CAPTION: simplu - diagrama fazorială
+[[../poze/02073.png]]
 
 Sumar:
 
@@ -158,7 +164,8 @@ desemnarea acestei opoziţii faţă de curent se numeşte /impedanţă/,
 simbolizată prin Z şi exprimată în Ohm, la fel ca rezistenţă şi
 reactanţa. În circuitul de sus, impedanţă totală a circuitului este:
 
-#+CAPTION: formule [[../poze/12045.png]]
+#+CAPTION: formule
+[[../poze/12045.png]]
 
 Relaţia dintre impedanţă, curent şi tensiune este similară rezistenţei
 din legea lui Ohm:
@@ -178,32 +185,37 @@ Pentru a calcula curentul din circuitul de mai sus, trebuie să luăm
 prima data o referinţă a unghiului de fază pentru sursa de tensiune; în
 mod normal aceasta se consideră zero.
 
-#+CAPTION: formule [[../poze/12046.png]]
+#+CAPTION: formule
+[[../poze/12046.png]]
 
 Ca şi în cazul circuitului pur capacitiv, curentul este defazat înaintea
 tensiunii (sursei), cu toate că de data aceasta diferenţa este de
 79.325^{o}, nu 90^{o}.
 
 #+CAPTION: defazajul dintre curent şi tensiune într-un circuit electric
-#+CAPTION: rezistiv-capacitiv - formele de undă [[../poze/02075.png]]
+#+CAPTION: rezistiv-capacitiv - formele de undă
+[[../poze/02075.png]]
 
 Să folosim din nou metoda tabelului pentru analiza circuitului de mai
 sus. Primul pas este introducerea tuturor cantităţilor cunoscute în
 tabel:
 
-#+CAPTION: tabel [[../poze/12047.png]]
+#+CAPTION: tabel
+[[../poze/12047.png]]
 
 Într-un circuit serie, curentul total este acelaşi prin toate
 componentele circuitului; prin urmare, valorile curentului din coloana
 „Total” pot fi trecute şi în celelalte două coloane, a rezistorului şi a
 condensatorului:
 
-#+CAPTION: tabel [[../poze/12048.png]]
+#+CAPTION: tabel
+[[../poze/12048.png]]
 
 Continuând analiza, putem aplica legea lui Ohm (E=IR) vertical, pentru
 determniarea căderilor de tensiune pe rezistor şi condensator:
 
-#+CAPTION: tabel [[../poze/12049.png]]
+#+CAPTION: tabel
+[[../poze/12049.png]]
 
 Observaţi faptul că tensiune şi curentul prin rezistor au acelaşi unghi
 de fază, ceea ce înseamnă că E şi I sunt în fază în cazul rezistorului.
@@ -238,7 +250,8 @@ tensiunea. Prin urmare, diagrama fazorială a tensiunii poate fi
 înlocuită cu o diagramă similară a impedanţei:
 
 #+CAPTION: circuit electric rezitiv-capacitiv serie; diagrama fazorială
-#+CAPTION: a tensiunii şi a impedanţei [[../poze/02516.png]]
+#+CAPTION: a tensiunii şi a impedanţei
+[[../poze/02516.png]]
 
 *** Exemplu
 
@@ -288,24 +301,28 @@ ale rezistenţei, respectiv capacităţii, valorile impedanţelor trebuie să
 fie aceleaşi. Prin urmare, putem începe completarea tabelului cu
 valorile cunoscute:
 
-#+CAPTION: tabel [[../poze/12051.png]]
+#+CAPTION: tabel
+[[../poze/12051.png]]
 
 Fiind un circuit paralel, ştim faptul că tensiunea este aceeiaşi pe
 fiecare dintre coponente, prin urmare, putem introduce tensiunea totală
 (10 V∠ 0^{o}) pe toate coloanele:
 
-#+CAPTION: tabel [[../poze/12052.png]]
+#+CAPTION: tabel
+[[../poze/12052.png]]
 
 Acum putem aplica legea lui Ohm vertical (I=E/Z) pentru cele două
 coloane din tabel, calculând curentul prin rezistor, respectiv
 condensator:
 
-#+CAPTION: tabel [[../poze/12053.png]]
+#+CAPTION: tabel
+[[../poze/12053.png]]
 
 Asemenea circuitelor de curent continuu, curentul total este suma
 curenţilor de ramură (legea lui Kirchhoff pentru curent):
 
-#+CAPTION: tabel [[../poze/12054.png]]
+#+CAPTION: tabel
+[[../poze/12054.png]]
 
 *** Formula de calcul a impedanţei totale
 
@@ -320,7 +337,8 @@ condensatoare paralele sau orice alt tip de combinaţie între cele trei:
 sub forma impedanţei (Z), toţi termenii sunt comuni şi pot fi aplicaţi
 uniform în aceeiaşi formulă:
 
-#+CAPTION: formula de calcul a impedanţei paralele [[../poze/12036.png]]
+#+CAPTION: formula de calcul a impedanţei paralele
+[[../poze/12036.png]]
 
 Singurul dezavantaj al acestei ecuaţii este volumul mare de muncă
 necesar pentru a efectua calculele matematice. Dar, indiferent de metoda
@@ -328,7 +346,8 @@ ce o aplicăm pentru calcularea imedanţei paralel din circuitul de mai
 sus (fie folosind legea lui Ohm, fie formula echivalentă), rezultatul
 este identic:
 
-#+CAPTION: tabel [[../poze/12055.png]]
+#+CAPTION: tabel
+[[../poze/12055.png]]
 
 Sumar:
 

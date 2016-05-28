@@ -52,7 +52,8 @@ bucăţi de mătase, atât bucăţile de sticlă cât şi bucăţile de mătase 
 resping reciproc:
 
 #+CAPTION: respingere între două corpuri din materiale identice
-#+CAPTION: încărcate cu sarcină electrică [[../poze/00005.png]]
+#+CAPTION: încărcate cu sarcină electrică
+[[../poze/00005.png]]
 
 Acest lucru era foarte straniu. Până la urmă, niciunul dintre aceste
 materiale nu era vizibil modificat în urma frecării, dar cu siguranţă se
@@ -134,7 +135,8 @@ mai uşoară şi mai răspândită a hidrogenului, cu doar un singur proton şi
 un singur electron. Atomii sunt mult prea mici pentru a fi văzuţi, dar
 dacă am putea privi unul, ar arăta cam aşa:
 
-#+CAPTION: structura unui atom [[../poze/00006.png]]
+#+CAPTION: structura unui atom
+[[../poze/00006.png]]
 
 Chiar dacă fiecare atom dintr-un material tinde să rămână o unitate, în
 realitate există mult spatiu liber între electroni şi „ciorchinele” de
@@ -364,7 +366,8 @@ chiar dacă viteza de deplasare a fiecărui electron în parte este mică. O
 analogie aproximativă este cea a unui tub umplut dintr-un capăt în
 celălalt cu mărgele:
 
-#+CAPTION: analogia tubului umplut cu mărgele [[../poze/00007.png]]
+#+CAPTION: analogia tubului umplut cu mărgele
+[[../poze/00007.png]]
 
 Tubul este plin de mărgele, precum un conductor este plin de electroni
 liberi, pregătiţi să fie puşi în mişcare de o influenţă externă. Dacă o
@@ -397,7 +400,8 @@ despre curentul electric: curgerea continuă a curentului necesită un
 drum neîntrerup pentru a permite deplasarea. Putem ilustra acest lucru
 prin următorul desen:
 
-#+CAPTION: drum electric neîntrerupt [[../poze/00008.png]]
+#+CAPTION: drum electric neîntrerupt
+[[../poze/00008.png]]
 
 O linie subţire, continua (precum cea de sus) reprezintă simbolul
 convenţional pentru o porţiune continuă de fir^{3} (electric). Din
@@ -416,7 +420,8 @@ curgerea^{4} electronilor prin fir este posibilă (indicată de săgeţi).
 Dar, această curgere va fi întreruptă în cazul în care calea formată de
 firul conductor este întreruptă:
 
-#+CAPTION: drum electric întrerupt [[../poze/00010.png]]
+#+CAPTION: drum electric întrerupt
+[[../poze/00010.png]]
 
 Întrucât aerul este un dielectric (material izolator), iar spaţiul
 dintre cele două fire este ocupat de aer, calea ce era înainte continuă,
@@ -491,7 +496,8 @@ buclă, asfel încât să formeze un drum continuu, curgerea uniformă a
 electronilor fără ajutorul surselor şi destinaţiilor ipotetice de mai
 sus, este posibilă:
 
-#+CAPTION: bucla - ciruit electric [[../poze/00012.png]]
+#+CAPTION: bucla - ciruit electric
+[[../poze/00012.png]]
 
 În cadrul acestui circuit în sensul acelor de ceasornic, fiecare
 electron împinge electronul din faţa lui, ce împinge electronul din faţa
@@ -506,7 +512,8 @@ circuitului precum în cazul firului conductor analizat mai sus. La fel
 ca şi în acel exemplu, orice întrerupere a circuitului opreşte curgerea
 (deplasarea) electronilor:
 
-#+CAPTION: ciruit electric întrerupt [[../poze/00013.png]]
+#+CAPTION: ciruit electric întrerupt
+[[../poze/00013.png]]
 
 Un principiu important de reţinut este că /nu contează locul
 întreruperii/. Orice discontinuitate din circuit va întrerupe curgerea
@@ -515,7 +522,8 @@ prin circuit poate fi realizată doar dacă există un circuit continuu şi
 neîntrerupt printr-un material conductiv prin care aceştia să se poată
 deplasa.
 
-#+CAPTION: ciruit electric întrerupt 2 [[../poze/00014.png]]
+#+CAPTION: ciruit electric întrerupt 2
+[[../poze/00014.png]]
 
 Sumar:
 
@@ -553,7 +561,8 @@ acesta datorită faptului că electronii în exces din parafină trec prin
 fir înapoi pe lână, restabilind dezechilibrul creat:
 
 #+CAPTION: restabilirea echilibrului dintre doua corpuri frecate prin
-#+CAPTION: introducerea unui conductor electric [[../poze/00016.png]]
+#+CAPTION: introducerea unui conductor electric
+[[../poze/00016.png]]
 
 Dezechilibrul dintre numărul electronilor din atomii parafinei şi cei ai
 lânei crează o forţă între cele două materiale. Neexistând niciun drum
@@ -593,7 +602,8 @@ energie şi mai mare pentru realizarea acestui lucru, prin urmare, va fi
 energie mai mare decât în cazul precedent
 
 #+CAPTION: curgerea apei din rezervor prin ţeavă spre bazin, nivele
-#+CAPTION: diferite de energie [[../poze/00019.png]]
+#+CAPTION: diferite de energie
+[[../poze/00019.png]]
 
 Electronii nu sunt foarte diferiţi. Dacă frecăm parafina şi lâna
 împreună, „pompăm” electronii de pe „nivelurile” lor normale, dând
@@ -637,7 +647,8 @@ electronii se deplasează de pe un anumit „nivel” pe un altul, aceasta
 are sens doar atunci când este exprimate între două puncte diferite:
 
 #+CAPTION: curgerea apei din rezervor prin ţeavă spre bazin, nivele
-#+CAPTION: diferite de energie [[../poze/00020.png]]
+#+CAPTION: diferite de energie
+[[../poze/00020.png]]
 
 Datorită diferenţei dintre înălţimile căderilor de apă, potenţialul de
 energie eliberată este mai mare prin ţeava din locaţia 2 decât cea din
@@ -672,7 +683,8 @@ continuă a electronilor prin circuit.
 Să luăm pentru început simbolul bateriei electrice şi să construim apoi
 un circuit pas cu pas:
 
-#+CAPTION: simbolul bateriei electrice [[../poze/00021.png]]
+#+CAPTION: simbolul bateriei electrice
+[[../poze/00021.png]]
 
 Orice sursă de tensiune, încluzând bateriile, are două puncte de contact
 electric. În acest caz avem punctul 1 şi punctul 2 de pe desenul de mai
@@ -717,7 +729,8 @@ unei bucle din material conductor, vom iniţia o deplasare continuă a
 electronilor în direcţia acelor de ceasornic (în acest caz particular):
 
 #+CAPTION: deplasarea electronilor printr-un cicruit închis alimentate
-#+CAPTION: de o baterie electrică [[../poze/00023.png]]
+#+CAPTION: de o baterie electrică
+[[../poze/00023.png]]
 
 Atâta timp cât bateria va continua să producă tensiune electrică, iar
 continuitatea circuitului electric nu este întreruptă, electronii vor
@@ -746,7 +759,8 @@ electric se va întrerupe în întreg circuitul, iar întreaga tensiune
 electrică produsă de baterie se va regăsi acum la capetele firelor
 întrerupte, ce erau înainte conectate:
 
-#+CAPTION: întreruperea circuitului electric [[../poze/00024.png]]
+#+CAPTION: întreruperea circuitului electric
+[[../poze/00024.png]]
 
 Observaţi semnele „+” şi „-” puse la capătul firelor unde a fost
 realizată întreruperea circuitului, şi faptul că ele corespund celor
@@ -761,7 +775,8 @@ următorul circuit, în care fiecare colţ al circuitului este marcat
 printr-un număr de referinţă:
 
 #+CAPTION: circuit electric - compararea polaritătii în functie de
-#+CAPTION: locaţie [[../poze/00025.png]]
+#+CAPTION: locaţie
+[[../poze/00025.png]]
 
 Continuitatea circuitului fiind întreruptă între punctele 2 şi 3,
 polaritatea căderii de tensiune între punctele 2 şi 3 este „-” pentru
@@ -773,7 +788,8 @@ Să vedem acum ce se întâmplă dacă conectăm punctele 2 şi 3 din nou
 împreună, dar efectuăm o înrerupere a circuitului între punctele 3 şi 4:
 
 #+CAPTION: circuit electric - compararea polaritătii în functie de
-#+CAPTION: locaţie - locaţie nouă [[../poze/00026.png]]
+#+CAPTION: locaţie - locaţie nouă
+[[../poze/00026.png]]
 
 Întreruperea fiind acum între punctele 3 şi 4, polaritatea căderii de
 tensiune între acest două puncte este „+” pentru 4 şi „-” pentru 3.
@@ -866,7 +882,8 @@ circuitul. Cu o lampă conectată la acest circuit, acest lucru înseamnă
 ca această va înceta să mai lumineze:
 
 #+CAPTION: circuit electric simplu - baterie plus lampă electrică -
-#+CAPTION: întreruperea circuitului [[../poze/00028.png]]
+#+CAPTION: întreruperea circuitului
+[[../poze/00028.png]]
 
 Ca şi înainte, fără existenţa curentului (curgerii electronilor),
 întregul potenţial (tensiune) al bateriei este disponibil în locul
@@ -901,7 +918,8 @@ circuitului este întreruptă
 Probabil că cel mai bun întrerupător pentru ilustrarea principiului de
 bază este un întrerupător de tip „cuţit”:
 
-#+CAPTION: întrerupător tip cuţit cu un contact [[../poze/50010.jpg]]
+#+CAPTION: întrerupător tip cuţit cu un contact
+[[../poze/50010.jpg]]
 
 Un întrerupător de tip „cuţit” nu este altceva decât dintr-un braţ
 mecanic ce poate pivota liber în jurul unei balamale (punct fix), ce
@@ -915,7 +933,8 @@ se efectuează operaţiile de închidere şi deschidere.
 Un alt tip de întrerupător cuţit este format din două contacte
 staţionare în loc de unul:
 
-#+CAPTION: întrerupător tip cuţit cu două contacte [[../poze/50006.jpg]]
+#+CAPTION: întrerupător tip cuţit cu două contacte
+[[../poze/50006.jpg]]
 
 Acest întrerupător are o singură lamă dar două contacte staţionare, ceea
 ce înseamnă ca poate închide sau deschide mai mult de un singur circuit.
@@ -932,7 +951,8 @@ apropiere. Contactele majorităţii întrerupătoarelor moderne sunt închise
 într-o carcasă izolatoare pentru evitarea acestor pericole. Poza de mai
 jos prezintă câteva modele de înterupătoare moderne:
 
-#+CAPTION: întrerupătoare moderne [[../poze/50019.jpg]]
+#+CAPTION: întrerupătoare moderne
+[[../poze/50019.jpg]]
 
 Folisind în continuare terminologia circuitelor electrice, un
 întrerupător ce realizează contactul între cei doi terminali ai săi
@@ -973,7 +993,8 @@ electrică (energia potenţială pe unitate de sarcină) între diferite
 seturi de puncte dintr-un singur circuit poate varia considerabil:
 
 #+CAPTION: curentul este acelaşi în oricare punct al unui circuit
-#+CAPTION: electric simplu [[../poze/00030.png]]
+#+CAPTION: electric simplu
+[[../poze/00030.png]]
 
 Să luăm acest circuit ca şi exemplu. Dacă luăm patru puncte din acest
 circuit (1, 2, 3 şi 4), vom descoperi că valoarea curentului ce trece
@@ -996,7 +1017,8 @@ mare decât tensiune dintre punctele 2 şi 3 (bec).
 Putem aduce din nou în discuţie analogia rezervorului de apă:
 
 #+CAPTION: analogia rezervorului de apă - folosirea energiei eliberate
-#+CAPTION: pentru punerea în mişcare a unei roţi de apă [[../poze/00031.png]]
+#+CAPTION: pentru punerea în mişcare a unei roţi de apă
+[[../poze/00031.png]]
 
 Între punctele 2 şi 3, acolo unde apa ce cade eliberează energie asupra
 roţii, există o diferenţă de presiune, reflectând opoziţia roţii la
@@ -1120,11 +1142,13 @@ oferă deplasare liberă electronilor într-o singură direcţie (rezistenţa
 foarte mică), dar prevină deplasarea electronilor în direcţia opusă
 (rezistenţă infinită). Simbolul folosit este acesta:
 
-#+CAPTION: simbolul diodei [[../poze/00440.png]]
+#+CAPTION: simbolul diodei
+[[../poze/00440.png]]
 
 Introdusă într-un circuit cu o baterie şi un bec, se comportă asfel^{5}:
 
-#+CAPTION: funcţionarea diodei [[../poze/00441.png]]
+#+CAPTION: funcţionarea diodei
+[[../poze/00441.png]]
 
 Când dioda este plasată în direcţia curgerii curentului, becul se
 aprinde. Altfel dioda blochează curgerea electronilor precum oricare

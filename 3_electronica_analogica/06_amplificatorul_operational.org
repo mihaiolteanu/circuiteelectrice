@@ -41,7 +41,8 @@ să folosim două surse de c.c., iar masa să fie situată electric între +V
 şi -V. Această configuraţie poartă numele de sursă de tensiune /duală/.
 
 #+CAPTION: circuit practic cu amplificator; utilizarea unei surse de
-#+CAPTION: tensiune duală [[../poze/03024.png]]
+#+CAPTION: tensiune duală
+[[../poze/03024.png]]
 
 Tensiunea de alimentare a amplificatorului este tot 30 V, dar cădere de
 tensiune de pe sarcină poate lua acum valori teoretice între +15 V şi
@@ -60,7 +61,8 @@ de referinţă/, cele diferenţiale amplifică diferenţa de tensiune dintre
 două semnale de intrare. Utilizând simboul triunghiului pentru
 desemnarea acestuia, un amplificator diferenţial arată asfel:
 
-#+CAPTION: simbolul amplificatorului diferenţial [[../poze/03025.png]]
+#+CAPTION: simbolul amplificatorului diferenţial
+[[../poze/03025.png]]
 
 Ca şi în circuitul precedent, toate tensiunile au ca şi referinţă masa
 circuitului. Se poate observa că un terminal de intrare este marcat cu
@@ -93,7 +95,8 @@ amplificator diferenţial ca şi o sursă variabilă de tensiune controlată
 de un voltmetru sensibil, asfel:
 
 #+CAPTION: amplificatorul diferenţial ca şi sursă variabilă de tensiune
-#+CAPTION: controlată de un voltmetru sensibil [[../poze/03231.png]]
+#+CAPTION: controlată de un voltmetru sensibil
+[[../poze/03231.png]]
 
 Desigur, figura de mai sus este doar un /model/, şi nu reprezintă schema
 reală de construire a amplificatorului. Simbolul „G” reprezintă un
@@ -111,7 +114,8 @@ seama care va fi ieşirea unui amplificator diferenţial. Pentru evitarea
 acestor situaţii, putem observa următoarea regulă:
 
 #+CAPTION: regula amplificatoarelor diferenţiale pentru identificarea
-#+CAPTION: ieşirii acestora [[../poze/03026.png]]
+#+CAPTION: ieşirii acestora
+[[../poze/03026.png]]
 
 Când polaritatea tensiunii /diferenţiale/ de la intrare este aceeiaşi cu
 polaritatea intrărilor (inversoare şi neinversoare) amplificatorului,
@@ -239,7 +243,8 @@ singur AO (la fel şi pentru modelul 741) dintr-un circuit integrat DIP
 (*D*ual *I*nline *P*ackage) cu 8 pini:
 
 #+CAPTION: modul de conectare intern al pinilor unui amplificator
-#+CAPTION: operaţional într-un circuit integrat cu 8 pini [[../poze/03028.png]]
+#+CAPTION: operaţional într-un circuit integrat cu 8 pini
+[[../poze/03028.png]]
 
 Unele circuite integrate conţin două AO într-un singur pachet, incluzând
 modelele polulare TL082 şi 1458. Aceste unităţi „duale” sunt împachetate
@@ -294,7 +299,8 @@ saturaţie negativă de câte ori tensiune de intrare va fi egală cu
 tensiunea de referinţă produsă de potenţiometru. Rezultatul va fi un
 semnal drepunghiular:
 
-#+CAPTION: convertor cu circuit comparator [[../poze/03031.png]]
+#+CAPTION: convertor cu circuit comparator
+[[../poze/03031.png]]
 
 Ajustarea potenţiometrului modifică tensiunea de referinţa aplicată la
 intrarea neinversoare (+), iar acest lucru modifică punctele de
@@ -303,7 +309,8 @@ dreptunghiulară cu un /factor de umplere/ diferit:
 
 #+CAPTION: amplificator operaţional pe post de comparator; modificarea
 tensiunii de referintă duce la modificarea factorului de umplere a undei
-#+CAPTION: dreptunghiulare de la ieşire [[../poze/03032.png]]
+#+CAPTION: dreptunghiulare de la ieşire
+[[../poze/03032.png]]
 
 Semnalul de c.a. de la intrare nu trebuie să fie neapărat un semnal
 sinusoidal pentru ca acest circuit să-şi îndeplinească funcţia. Semnalul
@@ -328,7 +335,8 @@ nivel diferit al sunetului audio, numărul LED-urilor aprinse va indica
 puterea semnalului de intrare.
 
 #+CAPTION: bargraf folosind mai multe amplificatoare operaţionale pe
-#+CAPTION: post de comparatoare [[../poze/03033.png]]
+#+CAPTION: post de comparatoare
+[[../poze/03033.png]]
 
 În circuitul de mai sus LED_{1} va primul care se va aprinde pe măsură
 ce tensiunea de intrare va creşte într-o direcţie pozitivă. Pe măsură ce
@@ -374,7 +382,8 @@ apropiată de cea de intrare (pentru simplitate, sursa de putere,
 circuitul +V/-V şi masa nu au mai fost desenate în figură):
 
 #+CAPTION: amplificator operaţional; conectarea ieşirii la intrarea
-#+CAPTION: neinversoare [[../poze/03034.png]]
+#+CAPTION: neinversoare
+[[../poze/03034.png]]
 
 Pe măsură ce V_{intrare} creşte, V_{ieşire} creşte şi ea pe măsura
 amplificării diferenţiale. Totuşi, pe măsură ce V_{ieşire} creşte,
@@ -412,7 +421,8 @@ reacţiei negative la exact 0 V.
 #+CAPTION: amplificator operaţional cu recţie negativă; diferenţa de
 tensiune dintre cele două intrări este foarte aproape de zero volţi
 [[../poze/03035.png]] #+CAPTION: aproximarea efectelor unui amplificator
-#+CAPTION: operaţional cu reacţie negativă [[../poze/03036.png]]
+#+CAPTION: operaţional cu reacţie negativă
+[[../poze/03036.png]]
 
 Un mare avantaj al utilizării AO cu reacţie negativă este că valoarea
 amplificării în tensiune nu este importantă, atâta timp cât este foarte
@@ -434,7 +444,8 @@ iar căderea de tensiune pe detectorul de nul, ca urmare a acestui fapt,
 să fie zero (indicaţia detectorului de nul = 0).
 
 #+CAPTION: amplificator operaţional cu reacţie negativă - analogie
-#+CAPTION: detector de nul şi potenţiometru [[../poze/03232.png]]
+#+CAPTION: detector de nul şi potenţiometru
+[[../poze/03232.png]]
 
 Peria potenţiometrului se va mişca asfel încât tensiunea de ieşire să
 ducă acul indicator al detectorului de nul la zero volţi. Tensiune de
@@ -532,7 +543,8 @@ sursei. Utilizând modelul AO - potenţiometru/detector de nul, calea
 curentului arată asfel:
 
 #+CAPTION: modelul amplificator - potenţiometru/detector de nul; calea
-#+CAPTION: curentului prin circuit [[../poze/03233.png]]
+#+CAPTION: curentului prin circuit
+[[../poze/03233.png]]
 
 Sursa de semnal de 6 V nu trebuie să furnizeze niciun curent în circuit:
 aceasta doar comandă amplificatorului operaţional echilibrul de tensiune
@@ -696,14 +708,16 @@ Acest circuit nu este altceva decât o aplicaţie practică a teoremei lui
 Millman:
 
 #+CAPTION: circuit rezistiv de mediere a tensiunilor de intrare conform
-#+CAPTION: teoremei lui Millman [[../poze/03041.png]]
+#+CAPTION: teoremei lui Millman
+[[../poze/03041.png]]
 
 Dacă luăm un /circuit de mediere pasiv/ şi îl folosm la intrarea unui AO
 cu un factor de amplificare de 3, putem transforma această funcţie de
 mediere într-o funcţie de /adunare/. Rezultatul este un circuit /sumator
 neinversor/:
 
-#+CAPTION: circuit sumator neinversor [[../poze/03042.png]]
+#+CAPTION: circuit sumator neinversor
+[[../poze/03042.png]]
 
 Cu un divizor de tensiune a cărui raport este 2 kΩ / 1 kΩ, circuitul
 amplificator neinversor va avea o amplificare în tensiune de 3. Având ca
@@ -712,13 +726,15 @@ circuitul de mediere pasiv, şi înmulţind această medie cu 3, ajungem la
 o tensiune de ieşire egală cu /suma/ celor trei tensiuni de intrare
 (V_{1} + V_{2} + V_{3}).
 
-#+CAPTION: formule matematice [[../poze/13007.png]]
+#+CAPTION: formule matematice
+[[../poze/13007.png]]
 
 Acelaşi lucru este realizabil şi cu un AO inversor, folosind un circuit
 de mediere pasiv ca şi componentă a circuitului de reacţie negativa.
 Rezultatul este cunoscut sub numele de circuit /sumator inversor/:
 
-#+CAPTION: circuit sumator inversor [[../poze/03043.png]]
+#+CAPTION: circuit sumator inversor
+[[../poze/03043.png]]
 
 Acum, cu partea dreaptă a circuitului de mediere pasiv conectată la
 punctul de masă virtual al intrării inversoare, teorema lui Millman nu
@@ -754,7 +770,8 @@ menţinând ambele intrări, dar cu un factor de amplificare controlat de
 elemente (rezistori) externe.
 
 #+CAPTION: amplificator diferenţial folosind un AO cu divizoare de
-#+CAPTION: tensiune pe cele două intrări [[../poze/03044.png]]
+#+CAPTION: tensiune pe cele două intrări
+[[../poze/03044.png]]
 
 Dacă valorile tuturor rezistorilor sunt egale, acest amplificator va
 avea o amplificare diferenţială a tensiunii de 1. Analiza acestui
@@ -783,7 +800,8 @@ simplă. Tot ceea ce trebuie să facem este să trecem fiecare semnal de
 intrare print-un repetor de tensiune, asfel:
 
 #+CAPTION: amplificator diferenţial folosind trei amplificatoare
-#+CAPTION: operaţionale [[../poze/03045.png]]
+#+CAPTION: operaţionale
+[[../poze/03045.png]]
 
 De data aceasta, semnalele de intrare V_{1} şi V_{2} sunt conectate
 direct la intrările celor două AO repetoare de tensiune, rezultând o
@@ -804,7 +822,8 @@ factorul de amplificare al circuitului fără a schimba mai mult de un
 rezistor, aşa cum era cazul exemplului precedent. Această posibilitatea
 se poate realiza cu ajutorul amplificatorului de /instrumentaţie/:
 
-#+CAPTION: amplificatorul de instrumentaţie [[../poze/03046.png]]
+#+CAPTION: amplificatorul de instrumentaţie
+[[../poze/03046.png]]
 
 Circuitul este construit din două amplificatoare diferenţiale şi trei
 rezistori ce conectează cele două amplificatoare împreună. Considerăm că
@@ -883,7 +902,8 @@ Formula pentru determinarea tensiunii de ieşire a derivatorului este
 următoarea:
 
 #+CAPTION: formula pentru determinarea tensiunii de ieşire a
-#+CAPTION: derivatorului [[/sites/default/files/electronica\_analogica/13012.png]]
+#+CAPTION: derivatorului
+[[/sites/default/files/electronica\_analogica/13012.png]]
 
 Pe lângă utilizarea acestor circuite ca şi funcţie matematică de
 derivare în calculatoarele numerice, acestea se folosesc ca şi
@@ -972,7 +992,8 @@ se poate aplica o tensiune externă pe aceasta. Să vedem pentru început
 efectele conectării intrării inversoare la masă (0 V):
 
 #+CAPTION: amplificator operaţional cu reacţie pozitivă; intrarea
-#+CAPTION: inversoare conectată la masă [[../poze/03053.png]]
+#+CAPTION: inversoare conectată la masă
+[[../poze/03053.png]]
 
 În acest caz, tensiunea de ieşire va depinde de amplitudinea şi de
 polaritatea tensiunii intrării neinversoare. Dacă această tensiune este
@@ -1003,13 +1024,15 @@ unei unde dreptunghiulare folosind orice tip de undă periodică
 forma de undă în c.a. este pură, un comparator simplu este suficient
 pentru realizarea acestei transformări:
 
-#+CAPTION: comparator cu amplificator diferenţial [[../poze/03054.png]]
+#+CAPTION: comparator cu amplificator diferenţial
+[[../poze/03054.png]]
 
 Pe de altă parte, dacă semnalul de intrare conţine zgomot, ce cauzează
 creşterea sau descreşterea semnificativă a amplitudinii în decurs de o
 perioadă, ieşirea unui asfel de comparator poate varia neaşteptat:
 
-#+CAPTION: comparator cu amplificator diferenţial [[../poze/03055.png]]
+#+CAPTION: comparator cu amplificator diferenţial
+[[../poze/03055.png]]
 
 Ori de câte ori există o tranziţie a semnalului de intrare prin semnalul
 de referinţa, indiferent cât de mică ar fi, ieşirea comparatorului îşi
@@ -1020,7 +1043,8 @@ introduce histereză în circuit. Această histereză va determina rămânerea
 circuitului în starea sa actuală, modificându-şi starea doar dacă
 amplitudinea tensiunii de intrare în c.a. suferă o modificarea /majoră/.
 
-#+CAPTION: comparatorul cu histereză [[../poze/03056.png]]
+#+CAPTION: comparatorul cu histereză
+[[../poze/03056.png]]
 
 Acest rezistor de reacţie crează o referinţă duală pentru circuitul
 comparator. Tensiunea aplicată la intrarea neinversoare (+) ca şi
@@ -1032,7 +1056,8 @@ referinţă a intrării neinversoare va fi mai negativă decât inainte.
 Rezultatul poate fi transpus pe un grafic, asfel:
 
 #+CAPTION: comparatorul cu histereză; formele de undă de la intrare şi
-#+CAPTION: ieşire [[../poze/03057.png]]
+#+CAPTION: ieşire
+[[../poze/03057.png]]
 
 Când ieşirea AO este saturată pozitiv, tensiunea de referinţa va fi cea
 superioară; ieşirea nu va fi saturată pozitiv decât dacă intrarea de
@@ -1056,7 +1081,8 @@ dispozitiv /astabil/: nu posedă o ieşire stabilă.
 Să vedem un circuit oscilator cu AO şi reacţie pozitivă:
 
 #+CAPTION: circuit oscilator cu amplificator operaţional şi reacţie
-#+CAPTION: pozitivă [[../poze/03058.png]]
+#+CAPTION: pozitivă
+[[../poze/03058.png]]
 
 Când ieşirea este saturată pozitiv, V_{referinţa} va fi pozitivă, iar
 condensatorul se va încărca în direcţia pozitivă. Când V_{rampă} este

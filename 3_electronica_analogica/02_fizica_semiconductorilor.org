@@ -24,7 +24,8 @@ Majoritatea dintre noi am văzut modele ale atomului care arată
 aproximativ asfel:
 
 #+CAPTION: modelul lui Rutherford al atomului; electronii orbitează în
-#+CAPTION: jurul unui mic nucleu pozitiv [[../poze/03120.png]]
+#+CAPTION: jurul unui mic nucleu pozitiv
+[[../poze/03120.png]]
 
 Acesta este cunoscut sub numele de „modelul lui Rutherford”. Centrul
 atomului este format din particule de materie minuscule denumite
@@ -236,7 +237,8 @@ Numărul maxim de electroni dintr-un strat este descris de ecuaţia
 de 8 electroni, al treilea (n=3) de 18 electroni.
 
 #+CAPTION: numărul cuantic principal şi numărul maxim de electroni pe
-#+CAPTION: fiecare strat conform relaţiei 2n\^2 [[../poze/03391.png]]
+#+CAPTION: fiecare strat conform relaţiei 2n\^2
+[[../poze/03391.png]]
 
 Straturile electronice (de la electron) ale unui atom au fost notate cu
 litere nu cu cifre. Primul strat (n=1) se notează cu litera K, al doilea
@@ -469,7 +471,8 @@ buni izolatori electrici.
 
 #+CAPTION: elementele din grupa VIIA; toate au şapte electroni de
 valenţă, prin urmare, acestea acceptă un electron pentru completarea
-#+CAPTION: stratului de valenţă [[../poze/03394.png]]
+#+CAPTION: stratului de valenţă
+[[../poze/03394.png]]
 
 De exemplu, un atom de Cl acceptă un electron al unui atom de Na
 devenind ion negativ Cl^{-}, iar atomul de Na devine ion pozitiv,
@@ -480,7 +483,8 @@ defapt o pereche de ioni, Na^{+}Cl^{-}. Fiindcă sarcinile celor doi ioni
 sunt de semn contrar, cei doi se atrag reciproc.
 
 #+CAPTION: Atomul de Na doneazăun electron atomului de Cl, formând ioni
-#+CAPTION: pozitivi şi negativ de Na, respectiv Cl [[../poze/03398.png]]
+#+CAPTION: pozitivi şi negativ de Na, respectiv Cl
+[[../poze/03398.png]]
 
 Structura cristalină a clorurii de sodiu (NaCl) este prezentată în
 figura de mai jos.
@@ -497,7 +501,8 @@ sub formă de gaz la temperatura camerei.
 #+CAPTION: elementele din grupa VIIIA au toate câte 8 electroni pe
 stratul de valentă, prin urmare, aceste elemente nu cedează şi nici nu
 acceptă electroni, ceea ce înseamnă ca nu pot participa la reacţii
-#+CAPTION: chimice [[../poze/03396.png]]
+#+CAPTION: chimice
+[[../poze/03396.png]]
 
 Elementele din grupa IVA, C, Si şi Ge au toate câte 4 electroni în
 stratul de valenţă. Aceste elemente formează compuşi cu alte elemente,
@@ -510,7 +515,8 @@ proprietăţile semiconductoare pe care le vom studia în continuare.
 
 #+CAPTION: elementele din grupa IVA au toate câte 4 electroni pe stratul
 de valenţă; aceste elemente sunt studiate în electronică pentru
-#+CAPTION: proprietăţile lor semiconductoare [[../poze/03397.png]]
+#+CAPTION: proprietăţile lor semiconductoare
+[[../poze/03397.png]]
 
 *** Structura cristalină
 
@@ -626,7 +632,8 @@ valenţă în banda de conducţie, de undă devin mobil, este destul de
 modestă.
 
 #+CAPTION: separarea benzilor energetice în cazul materialelor
-#+CAPTION: semiconductoare [[../poze/03372.png]]
+#+CAPTION: semiconductoare
+[[../poze/03372.png]]
 
 La temperaturi joase, energia termică disponibilă pentru „împingerea”
 electronilor de valenţă peste spaţiul dintre banda de valenţă şi cea
@@ -669,7 +676,8 @@ lucru? Pentru a putea răspunde acestei întrebări, trebuie să ne uităm la
 structura electronică a acestor materiale.
 
 #+CAPTION: strucutra electronică a materialelor semiconductoare;
-#+CAPTION: reprezentarea electronilor şi a golurilor [[../poze/03403.png]]
+#+CAPTION: reprezentarea electronilor şi a golurilor
+[[../poze/03403.png]]
 
 În figura de sus (a), cei patru electroni din stratul de valenţă a unui
 material semiconductor formează legături covalente cu alţi patru atomi.
@@ -782,7 +790,8 @@ Deplasarea electronilor de tip N are loc în banda de conducţie. Putem
 compara această deplasare cu deplasarea golurilor în banda de valenţă.
 
 #+CAPTION: analogia mărgelelor dintr-un tub pentru deplasarea
-#+CAPTION: electronilor şi a golurilor [[../poze/03405.png]]
+#+CAPTION: electronilor şi a golurilor
+[[../poze/03405.png]]
 
 Ceea ce trebuie înţeles este că electroni se deplasează în direcţia
 contrare de deplasare a golurilor. Golurile nu sunt altceva decât
@@ -802,7 +811,8 @@ terminalul pozitiv al bateriei.
 
 #+CAPTION: (a) deplasarea electronilor într-un material semiconductor de
 tip N; (b) (a) deplasarea electronilor într-un material semiconductor de
-#+CAPTION: tip P [[../poze/03407.png]]
+#+CAPTION: tip P
+[[../poze/03407.png]]
 
 Sumar:
 
@@ -878,7 +888,8 @@ Recombinaţia ce are loc la joncţiune permite curentului bateriei să se
 „deplaseze” prin joncţiunea PN a unei asfel de diode. În acest caz,
 spunem că o asfel de joncţiune este polarizată direct.
 
-#+CAPTION: polarizarea directă a joncţiunii PN [[../poze/03409.png]]
+#+CAPTION: polarizarea directă a joncţiunii PN
+[[../poze/03409.png]]
 
 *** Polarizarea inversă a joncţiunii PN
 
@@ -921,7 +932,8 @@ direct. Catodul, din reprezentarea diodei, reprezintă semiconductorului
 de tip N, iar anodul corespune materialului dopat de tip P.
 
 #+CAPTION: (a) joncţiunea PN; simbolul diodei; caracteristica
-#+CAPTION: curent-tensiune a diodei [[../poze/03410.png]]
+#+CAPTION: curent-tensiune a diodei
+[[../poze/03410.png]]
 
 Dacă dioda este polarizată direct, curentul creşte foarte puţin pe
 măsură ce tensiune creşte de la 0 V. În cazul în care materialul
@@ -1021,7 +1033,8 @@ Dispozitivul din figura de jos (a) este format din două joncţiuni, una
 joncţiuni formând două zone de golire:
 
 #+CAPTION: (a) tranzistor bipolar cu joncţiune NPN; (b) polarizarea
-#+CAPTION: inversă a joncţiunii bază-colector [[../poze/03412.png]]
+#+CAPTION: inversă a joncţiunii bază-colector
+[[../poze/03412.png]]
 
 În mod normal, joncţiunea bază-colector a tranzistorului este polarizată
 învers (figura de sus (b)). Acest lucru duce la creşterea regiunii de
@@ -1057,7 +1070,8 @@ scade la zero.
 #+CAPTION: tranzistor bipolar cu joncţiune NPN şi polarizarea inversă a
 joncţiunii colector-bază: (a) polarizarea directă a joncţiunii
 bază-emitor duce la (b) apariţia unui curent de bază mic şi a unui
-#+CAPTION: curent emitor-colector mare [[../poze/03413.png]]
+#+CAPTION: curent emitor-colector mare
+[[../poze/03413.png]]
 
 Să privim însă mai în deaproape la acest mecanism de /amplificare al
 curentului/ (figura de jos). Considerăm o joncţiune NPN mărită, cu
@@ -1074,7 +1088,8 @@ emitor: (a) pierduţi datorită recombinării cu golurile bazei; (b) se
 deplasează spre contactul bazei şi înspre borna pozitivă a sursei de
 aplimentare; (c) moajoritatea trec prin zona îngustă de golire
 bază-colector înspre colector; (d) electronii sunt atraşi de câmpul
-#+CAPTION: electric al zonei de golire înspre colector [[../poze/03414.png]]
+#+CAPTION: electric al zonei de golire înspre colector
+[[../poze/03414.png]]
 
 Majoritatea purtătorilor de sarcină în emitorul de tip N sunt
 electronii, ce devin purtători de sarcină minoritară la intrarea în baza
@@ -1217,7 +1232,8 @@ electroni. Invers, pentru unul de tip P, purtătorii de sarcină sunt
 golurile.
 
 #+CAPTION: tranzistor cu efect de câmp cu joncţiune (JFET); secţiune
-#+CAPTION: transversală [[../poze/03415.png]]
+#+CAPTION: transversală
+[[../poze/03415.png]]
 
 La nivelul circuitului, funcţionarea tranzistorilor cu efect de câmp
 este simplă. O tensiune aplicată pe /poartă/, elementul de intrare,
@@ -1338,7 +1354,8 @@ permiter trecerea golurilor dinspre poartă înspre canal.
 
 #+CAPTION: tranzistorul cu efect de câmp cu joncţiune: (a) secţiune
 transversală printr-un dispozitiv discret; (b) simbolul schematic; (c)
-#+CAPTION: secţiune transversală printr-un circuit integrat [[../poze/03303.png]]
+#+CAPTION: secţiune transversală printr-un circuit integrat
+[[../poze/03303.png]]
 
 Sumar:
 
@@ -1369,7 +1386,8 @@ siliciu (SiO_{2}) izolator. Poarta seamănă foarte mult cu un condensator
 de tip MOS (figura de mai jos).
 
 #+CAPTION: codensator MOS cu canal de tip N: (a) nepolarizat; (b)
-#+CAPTION: polarizat [[../poze/03422.png]]
+#+CAPTION: polarizat
+[[../poze/03422.png]]
 
 La polarizare, polaritatea armăturilor condensatorului va deveni cea a
 terminalilor bateriei. Armătura inferioară, de tip P formează un canal
@@ -1386,7 +1404,8 @@ polarizată, iar sursa, drena şi cele două regiuni de tip N rămân izolate
 din punct de vedere electric.
 
 #+CAPTION: MOSFET cu canal N: (a) poartă nepolarizată; (b) polarizarea
-#+CAPTION: directă a porţii [[../poze/03423.png]]
+#+CAPTION: directă a porţii
+[[../poze/03423.png]]
 
 Aplicarea unei polarizări directe duce la încărcarea condensatorului
 (porţii) (figura de mai sus (b)). Poarta de deasupra stratului de oxid
@@ -1416,7 +1435,8 @@ tensiuni de polarizare directă. Simbolul MOSFET-ului este reprezentat în
 figura de mai jos (b).
 
 #+CAPTION: MOSFET cu canal N: (a) secţiune transversală; (b) simbolul
-#+CAPTION: schematic [[../poze/03305.png]]
+#+CAPTION: schematic
+[[../poze/03305.png]]
 
 MOSFET-urile sunt dispozitive cu patru terminale: sursă, poartă, drenă
 şi substrat. Substratul este conectat la sursă în cazul MOSFET-urilor
@@ -1431,7 +1451,8 @@ O altă variantă a MOSFET-ului, V-MOS, este de fapt un MOSFET de putere
 similară, U-MOS, este mult mai uşor de produs.
 
 #+CAPTION: V-MOS cu canal N: (a) secţiune transversală; (b) simbolul
-#+CAPTION: schematic [[../poze/03306.png]]
+#+CAPTION: schematic
+[[../poze/03306.png]]
 
 Sumar:
 
@@ -1462,7 +1483,8 @@ Redresorul controlat pe bază de siliciu este o diodă cu patru straturi
 
 #+CAPTION: tiristorul SCR (redresor controlat pe bază de siliciu): (a)
 modul de dopare al straturilor; (b) circuit cu tranzistoare bipolare cu
-#+CAPTION: joncţiune echivalent [[../poze/03424.png]]
+#+CAPTION: joncţiune echivalent
+[[../poze/03424.png]]
 
 Dacă este „pornit”, acesta se comportă precum o diodă, pentru o singură
 polaritate a curentului. Dacă nu este „pornit”, nu conduce curent. Modul
@@ -1488,7 +1510,8 @@ asemenea în figura de mai jos ((b) respectiv (c)).
 
 #+CAPTION: tiristoare: (a) secţiune transversală; (b) simbolul schematic
 al redresorului controlat pe bază de siliciu (SCR) (c) simbolul
-#+CAPTION: tiristorului de tip GTO [[../poze/03307.png]]
+#+CAPTION: tiristorului de tip GTO
+[[../poze/03307.png]]
 
 Sumar:
 

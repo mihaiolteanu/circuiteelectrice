@@ -5,7 +5,8 @@ dreptunghiulară) şi înfăşurăm un conductor metalic izolat alimentat în
 curent alternativ în jurul uneia dintre laturi:
 
 #+CAPTION: miez feromagnetic dreptunghiular cu o înfăşurare alimentată
-#+CAPTION: în curent alternativ [[../poze/02305.png]]
+#+CAPTION: în curent alternativ
+[[../poze/02305.png]]
 
 Fiindcă ceea ce am realizat mai sus este de fapt o bobină, această
 înfăşurare în jurul miezului feromagnetic ar trebui să se opună
@@ -48,7 +49,8 @@ alimentare este sinusoidală), fluxul fiind defazat în urma tensiunii cu
 90^{o}:
 
 #+CAPTION: formele de undă ale tensiunii induse şi a fluxului magnetic -
-#+CAPTION: defazate între ele cu 90 de grade [[../poze/02306.png]]
+#+CAPTION: defazate între ele cu 90 de grade
+[[../poze/02306.png]]
 
 Fluxul magnetic printr-un material feromagnetic este analog curentului
 printr-un conductor: trebuie să fie „împins” de o forţă exterioară
@@ -61,7 +63,8 @@ cealaltă prin intermediul unei proprietăţi a materialelor magnetice,
 /reluctanţa/, concept analog rezistenţei în circuitele electrice.
 
 #+CAPTION: legea lui Ohm pentru circuite electrice şi magnetice;
-#+CAPTION: comparaţie [[../poze/12139.png]]
+#+CAPTION: comparaţie
+[[../poze/12139.png]]
 
 În exemplul de mai sus, tmm necesară producerii acestui flux magnetic
 variabil trebuie să fie furnizată de un curent variabil prin înfăşurare.
@@ -74,7 +77,8 @@ asemenea direct proporţională, curentul prin înfăşurare este în fază cu
 fluxul magnetic:
 
 #+CAPTION: formele de undă ale tensiunii induse, a curentului prin
-#+CAPTION: înfăşurare şi a fluxului magnetic [[../poze/02307.png]]
+#+CAPTION: înfăşurare şi a fluxului magnetic
+[[../poze/02307.png]]
 
 Acesta este şi motivul pentru care curentul într-o bobină este defazat
 în urma tensiunii cu 90^{o}: deoarece aceasta este defazarea necesară
@@ -157,7 +161,8 @@ variaţiei curentului din cealaltă înfăşurare, poartă nuemele de
 inductanţa proprie, iar simbolul matematic este „M”, în loc de „L”:
 
 #+CAPTION: inductanţa proprie şi inductanţa mutuală; formulele
-#+CAPTION: matematice de calcul [[../poze/12140.png]]
+#+CAPTION: matematice de calcul
+[[../poze/12140.png]]
 
 În acest moment, în înfăşurarea secundară nu există curent deoarece
 aceasta este deschisă. Dacă conectăm însă un rezistor în acest circuit,
@@ -190,7 +195,8 @@ de curentul secundarului, pentru generarea unei tmm contrare şi
 prevenirea apariţiei unui flux magnetic adiţional prin miez.
 
 #+CAPTION: miez feromagnetic; înfăsurarea primară şi secundară;
-#+CAPTION: conectarea sarcinii în înfăşurarea secundară [[../poze/02311.png]]
+#+CAPTION: conectarea sarcinii în înfăşurarea secundară
+[[../poze/02311.png]]
 
 Deşi întreg procesul pare destul de complicat, iar proiectarea
 transformatoarelor este un subiect complex, ceea ce este important de
@@ -224,7 +230,8 @@ primară şi secundară) şi un miez feromagnetic comun celor două:
 
 #+CAPTION: simbolul transformatorului electric, constând din două bobine
 (înfăşurarea primară şi secundară) şi un miez feromagnetic comun celor
-#+CAPTION: două [[../poze/02131.png]]
+#+CAPTION: două
+[[../poze/02131.png]]
 
 Chiar dacă majoritatea transformatoarelor sunt confencţionate cu miez
 feromagnetic, există şi transformatoare în care cuplajul celor două
@@ -234,7 +241,8 @@ Poza de mai jos reprezintă un transformator tipic folosit pentru
 iluminatul cu ajutorul lămpilor cu descărcare în gaz. Se pot observa
 clar cele două înfăşurări din jurul miezului de fier:
 
-#+CAPTION: transformator electric [[../poze/52002.jpg]]
+#+CAPTION: transformator electric
+[[../poze/52002.jpg]]
 
 Înfăşurarea de sus este mai mare decât cea de jos, având mai multe spire
 în jurul miezului (secţ. urm.!).
@@ -247,7 +255,8 @@ conductorilor dintre cele două înfăşurări este de asemenea diferită
 dintr-o singură bucată de material ci din foi subţiri (denumite tole)
 laminate (secţ. urm.!).
 
-#+CAPTION: transformator electric; secţiune [[../poze/52012.jpg]]
+#+CAPTION: transformator electric; secţiune
+[[../poze/52012.jpg]]
 
 *** Exemplu
 
@@ -300,7 +309,8 @@ regăseşte pe înfăşurarea secundare şi nu poate „transfera” energie din
 această cauză:
 
 #+CAPTION: inductanţa de scăpări datorită faptului că fluxul magnetic nu
-#+CAPTION: este acelaşi pe cele două înfăşurări [[../poze/02312.png]]
+#+CAPTION: este acelaşi pe cele două înfăşurări
+[[../poze/02312.png]]
 
 Acest flux de scăpări doar stochează şi eliberează energia înapoi în
 circuitul de alimentare prin intermediul inductanţei proprii,
@@ -310,7 +320,8 @@ existenţei unei căderi de tensiune pe această „impedanţă serie”. Efectu
 este cu atât mai pronunţat cu cât curentul sarcinii creşte.
 
 #+CAPTION: circuit electric echivalent al inductanţelor de scăpări şi
-#+CAPTION: transformatorul ideal, fără scăpări [[../poze/02313.png]]
+#+CAPTION: transformatorul ideal, fără scăpări
+[[../poze/02313.png]]
 
 Dacă cuplajul magnetic dintre cele două înfăşurări ar fi mai „strâns”,
 de exemplu, k=0.99999 (în loc de 0.999), valorile tensiunii în cele două
@@ -419,7 +430,8 @@ circuitul de mai sus, este un dispozitiv ce coboară tensiunea de zece
 ori şi creşte curentul cu acelaşi factor (coborâtor de tensiune /
 ridicător de curent):
 
-#+CAPTION: transformator coborâtor de tensiune [[../poze/02133.png]]
+#+CAPTION: transformator coborâtor de tensiune
+[[../poze/02133.png]]
 
 Acesta este un dispozitiv extrem de folositor. Cu ajutorul acestuia se
 pot foarte uşor multiplica sa împărţi valorile tensiunilor şi ale
@@ -490,9 +502,11 @@ al unui transformator este egal cu raportul dintre numărul spirelor
 înfăşurărilor primare şi secundare
 
 #+CAPTION: transformator coborâtor de tensiune; principiul de
-#+CAPTION: transformare al curenţilor şi al tensiunilor [[../poze/02134.png]]
+#+CAPTION: transformare al curenţilor şi al tensiunilor
+[[../poze/02134.png]]
 #+CAPTION: formula matematică de calcul al raportului de transformare al
-#+CAPTION: transformatorului electric [[../poze/raport\_transformare.png]]
+#+CAPTION: transformatorului electric
+[[../poze/raport\_transformare.png]]
 
 Sumar:
 
@@ -542,7 +556,8 @@ transformare:
 
 #+CAPTION: transformator cu înfăşurări secundare multiple folosind
 prize; utilizarea comutatoarelor pentru alegerea raportului de
-#+CAPTION: transformare [[../poze/02143.png]]
+#+CAPTION: transformare
+[[../poze/02143.png]]
 
 Trecând mai departe, putem construi un „transformator variabil”, caz în
 care vom avea un contact variabil ce se deplasează pe înfăşurarea
@@ -568,12 +583,14 @@ Dacă neglijăm în totalitate separarea electrică dintre înfăşurări, putem
 construi un transformator folosind doar o singură înfăşurare;
 dispozitivul asfel creat poartă numele de /autotransformator/:
 
-#+CAPTION: autotransformator ridicător de tensiune [[../poze/02145.png]]
+#+CAPTION: autotransformator ridicător de tensiune
+[[../poze/02145.png]]
 
 Configuraţia de mai sus este un autotransformator ridicător de tensiune.
 Un autotransformator coborâtor de tensiune arată asfel:
 
-#+CAPTION: autotransformator coborâtor de tensiune [[../poze/02146.png]]
+#+CAPTION: autotransformator coborâtor de tensiune
+[[../poze/02146.png]]
 
 Autotransformatoarele sunt folosite în principal în aplicaţiile unde
 este nevoie de o mică reducere sau amplificare a tensiunii pe sarcină.
@@ -587,7 +604,8 @@ reducerea ei (anti-serie).
 înfăşurarea secundară conectată în serie pentru amplificarea tensiunii
 [[../poze/02147.png]] #+CAPTION: folosirea unui autotransformator
 coborâtor de tensiune cu înfăşurarea secundară conectată în serie pentru
-#+CAPTION: reducerea tensiunii [[../poze/02148.png]]
+#+CAPTION: reducerea tensiunii
+[[../poze/02148.png]]
 
 Principalul avantaj al unui autotransformator precum cel de mai sus,
 este folosirea unei singure înfăşurări pentru realizarea amplificării
@@ -600,7 +618,8 @@ raporturilor de transformare. Mai mult decât atât, acestea pot fi
 realizate cu un contact variabil, caz în care transformatoarele poartă
 numele de /Variac/:
 
-#+CAPTION: Variac - autotransformator variabil [[../poze/02149.png]]
+#+CAPTION: Variac - autotransformator variabil
+[[../poze/02149.png]]
 
 Sumar:
 

@@ -1,6 +1,7 @@
 * 1. Introducere şi scurt istoric
 
-#+CAPTION: [[../poze/00000.png]]
+#+CAPTION:
+[[../poze/00000.png]]
 
 Regulile matematice sunt bazate pe limitele impuse asupra cantităţilor
 numerice particulare cu care avem de a face. Când spunem că 1 + 1 = 2,
@@ -56,9 +57,12 @@ precum şi comutatoarelor conectate în paralel:
 
 #+CAPTION: poartă logică SAU şi comutatoare paralel (0 + 0)
 [[../poze/14009.png]] #+CAPTION: poartă logică SAU şi comutatoare
-#+CAPTION: paralel (0 + 1) [[../poze/14010.png]] #+CAPTION: poartă logică SAU şi
-#+CAPTION: comutatoare paralel (1 + 0) [[../poze/14011.png]] #+CAPTION: poartă
-#+CAPTION: logică SAU şi comutatoare paralel (1 + 1) [[../poze/14012.png]]
+#+CAPTION: paralel (0 + 1)
+[[../poze/14010.png]] #+CAPTION: poartă logică SAU şi
+#+CAPTION: comutatoare paralel (1 + 0)
+[[../poze/14011.png]] #+CAPTION: poartă
+#+CAPTION: logică SAU şi comutatoare paralel (1 + 1)
+[[../poze/14012.png]]
 
 ** Scăderea şi împărţirea booleană
 
@@ -87,8 +91,10 @@ comutatoarelor conectate în serie:
 #+CAPTION: poartă logică ŞI şi comutatoare serie (0 x 0)
 [[../poze/14013.png]] #+CAPTION: poartă logică ŞI şi comutatoare serie
 (0 x 1) [[../poze/14014.png]] #+CAPTION: poartă logică ŞI şi comutatoare
-#+CAPTION: serie (1 x 0) [[../poze/14015.png]] #+CAPTION: poartă logică ŞI şi
-#+CAPTION: comutatoare serie (1 x 1) [[../poze/14016.png]]
+#+CAPTION: serie (1 x 0)
+[[../poze/14015.png]] #+CAPTION: poartă logică ŞI şi
+#+CAPTION: comutatoare serie (1 x 1)
+[[../poze/14016.png]]
 
 ** Variabile booleene şi complementul lor
 
@@ -100,7 +106,8 @@ complement: valoarea opusă a acesteia. De exemplu, dacă variabila „A”
 este 0, atunci complementul ei este 1. Complementul se specifică prin
 intermediul unei linii deasupra variabilei, astfel:
 
-#+CAPTION: complementul unei variabile booleene [[../poze/14005.png]]
+#+CAPTION: complementul unei variabile booleene
+[[../poze/14005.png]]
 
 Sub formă scrisă, complementul lui „A” este desemnat prin „A-negat”.
 Câteodată se utilizează simbolul „'” pentru reprezentarea complementului
@@ -111,7 +118,8 @@ Complementarea booleeană este echivalentă cu o poartă logică NU, sau cu
 un contact normal-închis:
 
 #+CAPTION: complementul unei variabile booleene; poartă logică SAU şi
-#+CAPTION: contact normal-închis [[../poze/14017.png]] #+CAPTION: complementul unei
+#+CAPTION: contact normal-închis
+[[../poze/14017.png]] #+CAPTION: complementul unei
 variabile booleene; poartă logică SAU şi contact normal-închis
 [[../poze/14018.png]]
 
@@ -188,8 +196,10 @@ A şi A x A'. Dintre acestea, primele două nu sunt deloc diferite de
 identităţile echivalente ale algebrei numerelor reale:
 
 #+CAPTION: identităţi algebrice multiplicative: produsul dintre o
-#+CAPTION: variabilă şi zero [[../poze/14023.png]] #+CAPTION: identităţi algebrice
-#+CAPTION: multiplicative: produsul dintre o variabilă şi unu [[../poze/14024.png]]
+#+CAPTION: variabilă şi zero
+[[../poze/14023.png]] #+CAPTION: identităţi algebrice
+#+CAPTION: multiplicative: produsul dintre o variabilă şi unu
+[[../poze/14024.png]]
 
 Cea de a treia identitate multiplicativă exprimă rezultatul unei
 variabile booleene înmulţită cu ea însăşi. În algebra numerelor reale,
@@ -200,7 +210,8 @@ ce nu poate fi exprimată prin algebra booleană. Nu putem spune că A x A
 valoarea iniţială, din moment ce 0 x 0 = 0 şi 1 x 1 = 1:
 
 #+CAPTION: identităţi algebrice multiplicative: produsul dintre o
-#+CAPTION: variabilă şi ea însăşi [[../poze/14025.png]]
+#+CAPTION: variabilă şi ea însăşi
+[[../poze/14025.png]]
 
 A patra identitate multiplicativă nu are echivalent în algebra numerelor
 reale, doarece utilizaează complementul variabilei. Acest concept este
@@ -210,7 +221,8 @@ produsul oricărei valorii booleene cu 0 este 0, produsul dintre o
 variabilă şi complementul acesteia trebuei să fie 0:
 
 #+CAPTION: identităţi algebrice multiplicative: produsul dintre o
-#+CAPTION: variabilă şi complementul ei [[../poze/14026.png]]
+#+CAPTION: variabilă şi complementul ei
+[[../poze/14026.png]]
 
 În concluzie, avem patru identităti booleene de bază pentru adunare şi
 patru pentru produs (multiplicative):
@@ -248,11 +260,13 @@ este că, putem inversa ordinea variabilelor atât în cazul adunării, cât
 şi în cazul înmulţirii. Rezultatul expresiei rămâne neschimbat în ambele
 cazuri. Comutativitatea adunării arată astfel:
 
-#+CAPTION: comutativitatea adunării booleene [[../poze/14028.png]]
+#+CAPTION: comutativitatea adunării booleene
+[[../poze/14028.png]]
 
 Comutativitatea înmulţirii:
 
-#+CAPTION: comutativitatea înmulţirii booleene [[../poze/14029.png]]
+#+CAPTION: comutativitatea înmulţirii booleene
+[[../poze/14029.png]]
 
 ** Asociativitatea
 
@@ -261,24 +275,28 @@ prin intermediul parantezelor, fară a modifica rezultatul ecuaţiilor. Şi
 în acest caz, asociativitatea se aplică atât adunării cât şi înmulţirii.
 Asociativitatea adunării:
 
-#+CAPTION: asociativitatea adunării booleene [[../poze/14030.png]]
+#+CAPTION: asociativitatea adunării booleene
+[[../poze/14030.png]]
 
 Asociativitatea înmulţirii:
 
-#+CAPTION: asociativitatea înmulţirii booleene [[../poze/14031.png]]
+#+CAPTION: asociativitatea înmulţirii booleene
+[[../poze/14031.png]]
 
 ** Distributivitatea
 
 Proprietatea de distributivitate precizează modul de dezvoltare a unei
 expresii booleene formate din înmulţirea unei sume:
 
-#+CAPTION: distributivitatea booleeană [[../poze/14032.png]]
+#+CAPTION: distributivitatea booleeană
+[[../poze/14032.png]]
 
 În concluzie, avem trei proprietăţi booleene de bază: comutativitatea,
 asociativitatea şi distributivitatea:
 
 #+CAPTION: proprietăţi boolene: comutativitatea, asociativitatea şi
-#+CAPTION: distributivitatea [[../poze/14034.png]]
+#+CAPTION: distributivitatea
+[[../poze/14034.png]]
 
 Sumar:
 
@@ -301,7 +319,8 @@ Identităţile şi proprietăţile exprimate în acest secţiunile precedente
 sunt foarte folositoare simplificării booleene. Toate regulie prezentate
 în această secţiune sunt specifice matematicii booleene.
 
-#+CAPTION: simplificare booleană [[../poze/14035.png]]
+#+CAPTION: simplificare booleană
+[[../poze/14035.png]]
 
 Această regulă poate fi demonstrată simbolic prin scoaterea termenului
 comun (A) în afara sumei. Aplicând apoi regulile A + 1 = 1 şi 1A = A,
@@ -324,7 +343,8 @@ al expresiei de mai sus.
 Următoarea regulă este aproximativ similară cu prima. Practic, ea este
 destul de diferită, iar demonstraţia este puţin mai dificilă:
 
-#+CAPTION: simplificare booleană [[../poze/14037.png]]
+#+CAPTION: simplificare booleană
+[[../poze/14037.png]]
 
 Pentru început, dezvoltăm termenul A, folosind regula precedentă (A + AB
 = A). Scoatem termenul B în afara celei de a doua sume, şi aplicăm apoi
@@ -335,7 +355,8 @@ A + A'B = A + AB + A'B = A + B(A + A') = A + B(1) = A + B
 
 O altă regulă implică simplificarea expresiei unui produs de sume:
 
-#+CAPTION: simplificare booleană [[../poze/14039.png]]
+#+CAPTION: simplificare booleană
+[[../poze/14039.png]]
 
 Pentru a demonstra această relaţie, realizăm pentru început înmulţirea
 celor două sume. Aplicăm apoi identitatea AA = A, apoi regula A + AB = A
@@ -348,7 +369,8 @@ expresiei de mai sus:
 
 Pe scurt, acestea sunt cele trei reguli ale simplificării booleene:
 
-#+CAPTION: regulile simplificării booleene [[../poze/14041.png]]
+#+CAPTION: regulile simplificării booleene
+[[../poze/14041.png]]
 
 Sumar:
 
@@ -364,7 +386,8 @@ Presupunem că intrările A, B şi C sunt asigurate de comutatoare, senzori
 sau alte porţi logice. Originea acestor semnale nu este importantă din
 punct de vedere al simplificării.
 
-#+CAPTION: circuit cu porţi logice [[../poze/04287.png]]
+#+CAPTION: circuit cu porţi logice
+[[../poze/04287.png]]
 
 *** Scrierea expresiei booleene
 
@@ -376,19 +399,22 @@ adunării booleene, iar porţile ŞI sunt echivalente înmulţirii booleene.
 Să scriem aşadar sub-expresii la ieşirea primelor trei porţi:
 
 #+CAPTION: circuit cu porţi logice; scrierea sub-expresiilor la ieşirea
-#+CAPTION: porţilor [[../poze/04288.png]]
+#+CAPTION: porţilor
+[[../poze/04288.png]]
 
 Scriem apoi sub-expresiile următoarelor seturi de porţi. În cazul de
 faţa, avem doar o singură poartă pe nivelul următor:
 
 #+CAPTION: circuit cu porţi logice; scrierea sub-expresiilor la ieşirea
-#+CAPTION: porţilor [[../poze/04289.png]]
+#+CAPTION: porţilor
+[[../poze/04289.png]]
 
 Şi, în sfârşit, ieşirea (Q) circuitului logic este egală cu următoarea
 expresie:
 
 #+CAPTION: circuit cu porţi logice; scrierea sub-expresiilor la ieşirea
-#+CAPTION: porţilor [[../poze/04290.png]]
+#+CAPTION: porţilor
+[[../poze/04290.png]]
 
 *** Simplificarea expresiei booleene
 
@@ -423,12 +449,14 @@ operaţiei de înmulţirea booleană. În exemplul de faţa, începem
 construirea circuitului cu sub-expresia „A + C”, expresie ce nu este
 altceva decât o poartă SAU:
 
-#+CAPTION: poartă logică SAU [[../poze/04291.png]]
+#+CAPTION: poartă logică SAU
+[[../poze/04291.png]]
 
 Următorul pas în evaluarea expresiei B(A + C) constă în înmulţirea
 (poartă ŞI) semnalului B cu ieşirea porţii precedente (A + C):
 
-#+CAPTION: evaluarea expresiei booleene [[../poze/04292.png]]
+#+CAPTION: evaluarea expresiei booleene
+[[../poze/04292.png]]
 
 Evident, acest circuit este mult mai simplu decât cel original, având
 doar două porţi logice în loc de cinci. O astfel de reducere a numărului
@@ -444,7 +472,8 @@ mai multă energie, costă mai mult, iar durata de viaţă medie este mai
 scurtă decât cea a porţilor logice semiconductoare. Să considerăm aşadar
 exemplul de mai jos:
 
-#+CAPTION: circuit logic cu relee electromecanice [[../poze/04293.png]]
+#+CAPTION: circuit logic cu relee electromecanice
+[[../poze/04293.png]]
 
 *** Scrierea expresiei booleene
 
@@ -455,7 +484,8 @@ metoda reducerii unui circuit rezistiv serie-paralel la o singură
 rezistenţă. De exemplu, să considerăm circuitul rezistiv de mai jos, cu
 rezistorii aranjaţi asemeni contactelor circuitului precedent.
 
-#+CAPTION: circuit rezistiv serie-paralel [[../poze/04294.png]]
+#+CAPTION: circuit rezistiv serie-paralel
+[[../poze/04294.png]]
 
 Formula corespunzătoare reducerii acestui circuit la o rezistenţă
 echivalenta, este următoarea:
@@ -469,7 +499,8 @@ regăsesc în cazul rducerii circuitelor serie-paralel la o rezistenţa
 totală echivalentă. Simplificarea ne este uşurată dacă scriem
 sub-expresii booleene la stânga fiecărei linii în parte:
 
-#+CAPTION: circuit logic cu relee electromecanice [[../poze/04295.png]]
+#+CAPTION: circuit logic cu relee electromecanice
+[[../poze/04295.png]]
 
 Acum că avem o expresie booleană, tot ceea ce trebuie să facem este să
 aplicăm regulile de simplificare pentru a aduce expresia la forma ei cea
@@ -502,7 +533,8 @@ complementarea, nu există un echivalent boolean pentru funcţia
 SAU-exclusiv. Acest lucru nu ne împiedică să avem un simbol pentru
 reprezentarea ei:
 
-#+CAPTION: funcţia SAU-exclusiv; simbol [[../poze/04297.png]]
+#+CAPTION: funcţia SAU-exclusiv; simbol
+[[../poze/04297.png]]
 
 Acest simbol este folosit foarte rar în expresiile booleene, deoarece
 identitătile, proprietăţile şi regulile de simplificare ce implică
@@ -538,7 +570,8 @@ Teoremele lui DeMorgan exprimă aceiaşi echivalenţă în sens invers:
 inversând ieşirea unei porţi, funcţia rezultată este aceiaşi cu tipul
 opus de poartă cu intrările inversate:
 
-#+CAPTION: teorema lui DeMorgan [[../poze/04299.png]]
+#+CAPTION: teorema lui DeMorgan
+[[../poze/04299.png]]
 
 O bară deasupra termenului AB se comportă precum un simbol de grup.
 Acest lucru este total diferit faţă de produsul AB inversat separat
@@ -561,7 +594,8 @@ cea mai lungă linie orizontală (cea de sus). Ca şi exemplu, să
 considerăm expresia (A + (BC)')' redusă cu ajutorul teoremelor lui
 DeMorgan:
 
-#+CAPTION: aplicarea teoremei lui DeMorgan [[../poze/04300.png]]
+#+CAPTION: aplicarea teoremei lui DeMorgan
+[[../poze/04300.png]]
 
 Urmând consideraţiile exprimate mai sus, aplicăm următorii paşi:
 
@@ -578,7 +612,8 @@ printr-o poartă NU:
 Ca şi contra-exemplu, nu întrerupeţi niciodată mai mult de un complement
 la un singur pas:
 
-#+CAPTION: întreruperea greşită a complementului [[../poze/14050.png]]
+#+CAPTION: întreruperea greşită a complementului
+[[../poze/14050.png]]
 
 Pe cât de tentant pare, pe atât de incorect este să scurtăm paşi
 simplificării prin întreruperea mai multor complemente deodată. Prin
@@ -587,7 +622,8 @@ urmare, nu faceţi niciodată acest lucru!
 Putem simplifica expresia de mai sus şi prin întreruperea complementului
 scurt în primă instanţă, şi apoi a complementului lung:
 
-#+CAPTION: întreruperea complementului scurt [[../poze/14047.png]]
+#+CAPTION: întreruperea complementului scurt
+[[../poze/14047.png]]
 
 Desigur, rezultatul final este acelaşi şi în acest caz. Paşii necesari
 pentru simplificare sunt însă mai numeroşi faţa de exemplul precedent
@@ -626,7 +662,8 @@ corect.
 Să aplicăm acum principiile teoremelor lui DeMorgan pentru simplificarea
 unui circuit cu porţi logice:
 
-#+CAPTION: circuit cu porţi logice [[../poze/04302.png]]
+#+CAPTION: circuit cu porţi logice
+[[../poze/04302.png]]
 
 *** Expresia booleeană echivalentă
 
@@ -636,7 +673,8 @@ sub-expresiilor la ieşirea fiecărei porţi, pe măsură ce intrările ne
 sunt cunoscute:
 
 #+CAPTION: circuit cu porţi logice; notarea sub-expresiilor la ieşirea
-#+CAPTION: porţilor [[../poze/04303.png]]
+#+CAPTION: porţilor
+[[../poze/04303.png]]
 
 Apoi, notăm ieşirea primei porţi SAU-negat şi ieşirea porţii ŞI-negat.
 Atunci când aveam de a face cu porţi inversate pe ieşire, este mai uşor
@@ -647,13 +685,15 @@ complementul expresiei precedente. Astfel, ne putem asigura că nu uităm
 introducerea complementului în cadrul expresiei:
 
 #+CAPTION: circuit cu porţi logice; notarea sub-expresiilor la ieşirea
-#+CAPTION: porţilor [[../poze/04304.png]]
+#+CAPTION: porţilor
+[[../poze/04304.png]]
 
 Şi, în sfârşit, ultimul pas constă în scrierea expresiei pentru poarta
 SAU-negat finală:
 
 #+CAPTION: circuit cu porţi logice; notarea sub-expresiilor la ieşirea
-#+CAPTION: porţilor [[../poze/04305.png]]
+#+CAPTION: porţilor
+[[../poze/04305.png]]
 
 *** Simplificare expresiei echivalente
 
@@ -695,7 +735,8 @@ Astfel de tehnici de ardere sunt folosite de obicei pentru neutralizarea
 deşeurilor medicale, ce pot fi infectate cu viruşi sau bacterii
 periculoase:
 
-#+CAPTION: incinerator deşeuri toxice [[../poze/04360.png]]
+#+CAPTION: incinerator deşeuri toxice
+[[../poze/04360.png]]
 
 Atâta timp cât flacăra este menţinută în incinerator, injectarea
 deşeurilor toxice pentru neutralizare este sigură. Dacă în schimb
@@ -719,7 +760,8 @@ unui sistem logic:
 
 #+CAPTION: incinerator deşeuri toxice; utilizarea senzorilor şi a
 circuitului logic pentru închiderea alimentării în cazul în care flacăra
-#+CAPTION: nu este detectată [[../poze/04361.png]]
+#+CAPTION: nu este detectată
+[[../poze/04361.png]]
 
 Scopul nostru acum, este să proiectăm circuitul logic astfel încât
 acesta să deschidă valva de admisie doar dacă există flacără (detectată
@@ -811,7 +853,8 @@ fie cu porţi logice:
 Fie cu relee electromecanice:
 
 #+CAPTION: incinerator deşeuri toxice; circuitul logic (relee
-#+CAPTION: electromecanice [[../poze/04365.png]]
+#+CAPTION: electromecanice
+[[../poze/04365.png]]
 
 ** Simplificarea expresiei booleene
 
@@ -832,7 +875,8 @@ fie cu porţi logice:
 Fie cu relee electromecanice:
 
 #+CAPTION: incinerator deşeuri toxice; circuitul logic (relee
-#+CAPTION: electromecanice [[../poze/04367.png]]
+#+CAPTION: electromecanice
+[[../poze/04367.png]]
 
 Sumar:
 

@@ -41,7 +41,8 @@ La începutul instrumentaţiei industriale, aerul comprimat era folosit în
 scopul transmiterii informaţiei de la aparatele de măsură şi controlul
 acestora. Nivelul presiunii aerului se regăsea în valoarea variabilei de
 măsurat, oricare era aceea. Aerul curat şi uscat la o presiune de
-#+CAPTION: aproximativ 1,5 [[http://ro.wikipedia.org/wiki/Bar][bar]] era furnizat
+#+CAPTION: aproximativ 1,5
+[[http://ro.wikipedia.org/wiki/Bar][bar]] era furnizat
 de un compresor de aer prin intermediul unor tuburi spre instrumentul de
 măsura, ce modifica la rândul său valoarea presiunii în funcţie de
 cantitatea de măsurat producând asfel un semnal de ieşire. De exemplu,
@@ -199,7 +200,8 @@ constantă de tensiune, precum în cazul bateriei de exemplu. Aceste
 componente folosite împreună poartă denumirea de /sursă de curent/, iar
 simbolul este acesta:
 
-#+CAPTION: sursă de curent [[../poze/00187.png]]
+#+CAPTION: sursă de curent
+[[../poze/00187.png]]
 
 O sursă de curent generează o valoare a tensiunii suficient de mică sau
 de mare asfel încâ să producă o cantitate constantă de curent la bornele
@@ -209,7 +211,8 @@ funcţie de cerinţele circuitului la care este legată. Întrucât folosim
 notaţia reală de deplasare a electronilor prin circuit, săgeata
 simbolului va fi orientată /contrar/ direcţiei de curgere.
 
-#+CAPTION: circuit electric cu sursă de curent [[../poze/00188.png]]
+#+CAPTION: circuit electric cu sursă de curent
+[[../poze/00188.png]]
 
 Sursele de curent pot fi construite ca şi dispozitive variabile, la fel
 ca şi sursele de tensiune, producând valori foarte precise de curent
@@ -306,7 +309,8 @@ pentru anumite viteze ale axului; din această cauză pot fi folosite ca
 special construit pentru această utilizare se numeşte /tahometru/ sau
 /tahogenerator/.
 
-#+CAPTION: tahogenerator [[../poze/00191.png]]
+#+CAPTION: tahogenerator
+[[../poze/00191.png]]
 
 Măsurând tensiunea produsă de un tahogenerator putem determina vieteza
 de rotaţia a dispozitivului conectat la bornele acestuia.
@@ -331,7 +335,8 @@ celor două fire. Aproape orice pereche de metale diferite produc o
 cantitate de tensiune măsurabilă atunci când contactul lor este
 încălzit, unele combinaţii producând o cantitate mai mare decât altele:
 
-#+CAPTION: efectul Seebeck (termocupla) [[../poze/00192.png]]
+#+CAPTION: efectul Seebeck (termocupla)
+[[../poze/00192.png]]
 
 Efectul Seebeck este destul de liniar, însemnând că tensiunea produsă de
 contactul încălzit dintre două fire este direct proporţională cu
@@ -352,7 +357,8 @@ contact dintre oricare două metale diferite produce o cădere de tensiune
 variabilă cu temperatură constituie o problemă la conectarea unui
 voltmetru la termocuplă pentru închiderea circuitului:
 
-#+CAPTION: termocupla - contact secundar [[../poze/00193.png]]
+#+CAPTION: termocupla - contact secundar
+[[../poze/00193.png]]
 
 Contactul secundar fier - cupru format prin conexiunea dintre termocuplă
 şi aparatul de măsură din firul de sus va produce o diferenţă de
@@ -366,7 +372,8 @@ metalice adiţionale (trei cu cea de măsură) , combinaţia celor două
 metale cu conductoarele de cupru ale aparatului de măsură formează un
 contact echivalent contactului de măsură:
 
-#+CAPTION: termocupla - contacte secundare [[../poze/00194.png]]
+#+CAPTION: termocupla - contacte secundare
+[[../poze/00194.png]]
 
 Acest contact secundar se numeşte contact de /referinţă/ sau contact
 /rece/, pentru a face distincţia între acesta şi contactul de măsură. Nu
@@ -376,7 +383,8 @@ temperatură dinte două puncte, caz în care efectul de mai sus poate fi
 exploatat prin construirea unui sistem foarte simplu de măsură.
 
 #+CAPTION: termocupla - măsurarea diferenţei de temperatură dintre două
-#+CAPTION: puncte [[../poze/00195.png]]
+#+CAPTION: puncte
+[[../poze/00195.png]]
 
 Totuşi, în marea parte a aplicaţiilor scopul este măsurarea temperaturii
 doar într-un singur punct, caz în care cel de al doilea contact devine
@@ -434,7 +442,8 @@ alternând temperaturile cald/rece cu fiecare contact, putem construi un
 dispozitiv numit /termopilă/ cu scopul producerii unor cantităţi mari de
 tensiune şi curent:
 
-#+CAPTION: termopilă [[../poze/00196.png]]
+#+CAPTION: termopilă
+[[../poze/00196.png]]
 
 Dacă setul contactelor din stânga şi setul contactelor din dreapta sunt
 menţinute la aceeiaşi temperatură, tensiunea generată de fiecare contact
@@ -460,7 +469,8 @@ măsurători este prin conectarea câtorva termocuple în paralel, asfel
 încât se va face o medie a tuturor semnalelor de ordinul milivolţilor la
 punctul de contact dintre termocuple.
 
-#+CAPTION: termopilă [[../poze/00197.png]]
+#+CAPTION: termopilă
+[[../poze/00197.png]]
 
 Din păcate, media ditre aceste tensiuni Seebeck este precisă doar dacă
 rezistenţa firelor fiecărei termocuple este egală. Dacă termocuplele

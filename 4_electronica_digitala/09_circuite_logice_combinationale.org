@@ -63,12 +63,14 @@ Prima ieşire o denumim Σ, deoarece reprezintă suma. A doua ieşire o
 numim C_{out} şi reprezintă bitul de depăşire. Tabelul de adevăr
 corespunzător este reprezentat mai jos:
 
-#+CAPTION: tabel de adevăr [[../poze/14164.png]]
+#+CAPTION: tabel de adevăr
+[[../poze/14164.png]]
 
 Simplificând ecuaţiile booleene, sau realizând o hartă Karnaugh, vom
 obţine circuitul de mai jos:
 
-#+CAPTION: circuit logic combinaţional [[../poze/04454.png]]
+#+CAPTION: circuit logic combinaţional
+[[../poze/04454.png]]
 
 Dar să ne uităm mai atent la rezultate. Coloana Σ nu este altceva decât
 o poartă logică SAU-exclusiv. Coloana C_{out} reprezintă o poartă logică
@@ -77,7 +79,8 @@ motive pe care le vom vedea în secţiunea următoare.
 
 Sub forma unei diagrame ladder, circuitul de mai sus arată astfel:
 
-#+CAPTION: diagramă ladder [[../poze/04475.png]]
+#+CAPTION: diagramă ladder
+[[../poze/04475.png]]
 
 Sumar:
 
@@ -114,7 +117,8 @@ Termenul Σ este destul de uşor de obţinut. Aritmetica ne spune că în
 cazul în care Σ = a + b + C_{in} şi Σ_{1} = a + b, atunci Σ = Σ_{1} +
 C_{in}:
 
-#+CAPTION: full-adder [[../poze/04455.png]] #+CAPTION: diagramă ladder
+#+CAPTION: full-adder
+[[../poze/04455.png]] #+CAPTION: diagramă ladder
 [[../poze/04476.png]]
 
 La ce ne ajută însă C_{1} şi C_{2}? Să analizăm rezultatul adunării
@@ -136,7 +140,8 @@ C_{in} este 1. Prin urmare, vom avea un bit de depăşire ori de câte ori
 avem C_{1} sau (Σ_{1} şi C_{in}). Sumatorul nostru complet (full-adder)
 cu trei intrări, arată astfel:
 
-#+CAPTION: full-adder [[../poze/04456.png]] #+CAPTION: diagramă ladder
+#+CAPTION: full-adder
+[[../poze/04456.png]] #+CAPTION: diagramă ladder
 [[../poze/04477.png]]
 
 Pentru unele circuite, eliminarea uneia sau mai multor tipuri de porţi
@@ -144,7 +149,8 @@ poate fi importantă. Putem înlocui poarta SAU finală cu o poartă
 SAU-exclusiv fără a modifica rezultatele. Putem acum conecta două
 sumatoare pentru realizarea adunării numerelor pe 2 biţi:
 
-#+CAPTION: full-adder [[../poze/04457.png]] #+CAPTION: diagramă ladder
+#+CAPTION: full-adder
+[[../poze/04457.png]] #+CAPTION: diagramă ladder
 [[../poze/04478.png]]
 
 A_{0} este bitul de rang inferior a lui A iar A_{1} este bitul de rang
@@ -158,7 +164,8 @@ Un sumator pe doi biţi nu va fi realizat niciodată în acest fel. În
 schimb, biţi de rang inferior vor trece şi ei printr-un sumator complet
 (full-adder):
 
-#+CAPTION: full-adder [[../poze/04458.png]] #+CAPTION: diagramă ladder
+#+CAPTION: full-adder
+[[../poze/04458.png]] #+CAPTION: diagramă ladder
 [[../poze/04479.png]]
 
 Există câteva motive pentru această alegere. Unul dintre ele este că în
@@ -187,13 +194,15 @@ dacă folosim un sumator pe doi biţi.
 Aceste sumatoare complete pot fi extinse pe un număr de biţi oricât de
 mare. Ca şi exemplu, un sumator pe 8 biţi poate fi realizat astfel:
 
-#+CAPTION: conectarea sumatoarelor [[../poze/04459.png]]
+#+CAPTION: conectarea sumatoarelor
+[[../poze/04459.png]]
 
 Acest rezultat este identic utilizării sumatoarelor pe doi biţi pentru
 realizarea unui sumator pe 4 biţi, şi utilizării a două astfel de
 sumatoare pe 4 biţi pentru realizarea unui sumator pe 8 biţi:
 
-#+CAPTION: conectarea sumatoarelor [[../poze/04460.png]]
+#+CAPTION: conectarea sumatoarelor
+[[../poze/04460.png]]
 
 Fiecare „2+” este un sumator pe 2 biţi şi realizat din două sumatoare
 complete (full-adder). Fiecare „4+” este un sumator pe 4 biţi realizat

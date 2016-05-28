@@ -20,7 +20,8 @@ imposibilă separarea celor doi poli unul de altul prin secţionarea
 magnetului în două: fiecare nouă bucată de material posedă propriul sau
 set de poli nord şi sud:
 
-#+CAPTION: secţionarea magnetului [[../poze/00302.png]]
+#+CAPTION: secţionarea magnetului
+[[../poze/00302.png]]
 
 Asemenea sarcinilor electrice, există doar două tipuri de poli: nord şi
 sud, prin analogie cu sarcinile pozitive şi negative. Asemenea
@@ -68,14 +69,16 @@ realizează asfel încât să încorporeze liniile câmpului magnetic în forma
 sa, ceea ce se traduce printr-o atracţie faţă de magnetul permanent
 indiferent de orientarea acestuia faţă de corpul de fier:
 
-#+CAPTION: magnetizarea unui corp de fier [[../poze/00304.png]]
+#+CAPTION: magnetizarea unui corp de fier
+[[../poze/00304.png]]
 
 Corpul de fier iniţial nemagnetizat devine magnetizat după ce este adus
 în apropierea magnetului permanent. Indiferent ce pol este adus în
 apropierea fierului, acesta din urmă se va magnetiza în aşa fel încât să
 fie atras de magnet:
 
-#+CAPTION: magnetizarea unui corp de fier [[../poze/00305.png]]
+#+CAPTION: magnetizarea unui corp de fier
+[[../poze/00305.png]]
 
 Luând ca şi referinţă proprietăţile magnetice naturale ale fierului,
 numim material /feromagnetic/ acel material care se magnetizează uşor
@@ -87,7 +90,8 @@ Dintre cele două, materialele diamagnetice sunt cele mai ciudate. În
 prezenţa unui câmp magnetic extern, devin uşor magnetizate în direcţie
 opusă, asfel că resping câmpul magnetic extern!
 
-#+CAPTION: magnetizarea unui material diamagnetic [[../poze/00306.png]]
+#+CAPTION: magnetizarea unui material diamagnetic
+[[../poze/00306.png]]
 
 În cazul în care un material feromagnetic îşi menţine starea de
 polarizare şi după încetarea cămpului magnetic extern, spunem că acest
@@ -128,7 +132,8 @@ de curentul electric printr-un fir sunt orientate în direcţia degetelor
 de la mâna stângă, atunci când aceastea sunt închise iar degetul mare
 este orientat în direcţia curentului:
 
-#+CAPTION: regula mâinii stângi [[../poze/00307.png]]
+#+CAPTION: regula mâinii stângi
+[[../poze/00307.png]]
 
 Liniile câmpului magnetic încercuiesc conductorul de curent şi nu au un
 pol „nord” sau „sud” bine definit. În acest caz însă, forţa câpului este
@@ -167,7 +172,8 @@ prin acesta. În principiu, acesta este un dispozitiv ce controlează
 electricitatea cu ajutorul electricităţii.
 
 #+CAPTION: închiderea contactului la trecerea curentului prin
-#+CAPTION: electromagnet [[../poze/00394.png]]
+#+CAPTION: electromagnet
+[[../poze/00394.png]]
 
 Întrerupătoarele pot fi construite pentru a acţiona multiple contacte,
 sau pentru a funcţiona „invers” (/deschiderea/ contactelor la trecerea
@@ -254,7 +260,8 @@ Tesla (T)
 
 reluctanţa
 
-#+CAPTION: simbolul reluctanţei [[poze/reluctanta.png]]
+#+CAPTION: simbolul reluctanţei
+[[poze/reluctanta.png]]
 
 Amper / Weber (A Wb^{-1})
 
@@ -270,7 +277,8 @@ electromotoare, curent şi rezistenţă, şi pot fi consuderate un fel de
 legea lui Ohm pentru circuite magnetice:
 
 #+CAPTION: comparaţie pentru legea lui Ohm între circuitele electrice şi
-#+CAPTION: magnetice [[../poze/10234.png]]
+#+CAPTION: magnetice
+[[../poze/10234.png]]
 
 Ştiind faptul că permeabilitatea este asemănătoare rezistenţei specifice
 (inversă), ecuaţia pentru aflarea reluctanţei materialului magnetic este
@@ -338,12 +346,14 @@ valori pozitive cât şi negative. Alicăm întâi o forţă magnetică (curent
 prin spirele electromagnetului) crescătoare. Observăm creşterea
 densităţii fluxului după curba normală de magnetizare:
 
-#+CAPTION: curba de histerezis [[../poze/00310.png]]
+#+CAPTION: curba de histerezis
+[[../poze/00310.png]]
 
 Apoi, oprim curentul prin infăşurarea electromagnetului şi observăm ce
 se întâmplă cu fluxul; lăsăm prima curbă pe grafic.
 
-#+CAPTION: curba de histerezis [[../poze/00311.png]]
+#+CAPTION: curba de histerezis
+[[../poze/00311.png]]
 
 Datorită remanenţei materialului, vom avea un flux magnetic chiar şi
 fără existenţa forţei aplicate mai înainte (nu există curent prin
@@ -351,14 +361,16 @@ fără existenţa forţei aplicate mai înainte (nu există curent prin
 magnet permanent. Următorul pas este să aplicăm un câmp magnetic cu
 aceeiaşi forţă dar în direcţia /opusă/.
 
-#+CAPTION: curba de histerezis [[../poze/00312.png]]
+#+CAPTION: curba de histerezis
+[[../poze/00312.png]]
 
 Densitatea fluxului magnet a atins acum un punct echivalent celui în
 care se afla în cazul aplicării unei intensităţi magnetice (H) pozitive,
 doar că se află în direcţie opusă, negativă. Să observăm comportamentul
 electromagnetului dacă întrerupem din nou curentul prin înfăşurare:
 
-#+CAPTION: curba de histerezis [[../poze/00313.png]]
+#+CAPTION: curba de histerezis
+[[../poze/00313.png]]
 
 Din nou, datorită remanenţei naturale a materialului, acesta va reţine
 un flux magnetic fără existenţa unui curent prin înfăşurare, doar că de
@@ -367,7 +379,8 @@ curentului. Dacă re-introducem curentul prin electromagnet, vom vedea că
 densitatea fluxului magnetic atinge din nou punctul maxim iniţial
 (dreapta sus pe grafic):
 
-#+CAPTION: curba completă de histerezis [[../poze/00314.png]]
+#+CAPTION: curba completă de histerezis
+[[../poze/00314.png]]
 
 Această curbă în formă de „S” se numeşte /curba de histerezis/ al
 materialului feromagnetic pentru o anumită valoare a intensităţii
@@ -391,7 +404,8 @@ scurte). Energia consumată pentru întâmpinarea histerezisului feritei
 atenuează forţă semnalului de zgomot. Curba de histerezis pentru ferită
 este destul de extremă:
 
-#+CAPTION: curba de histerezis pentru ferită [[../poze/00317.png]]
+#+CAPTION: curba de histerezis pentru ferită
+[[../poze/00317.png]]
 
 Sumar:
 
@@ -426,7 +440,8 @@ crească sau să scadă în intensitate /perpendicular/ pe fir (asfel că
 liniile de câmp să „taie” conductorul); în caz contrar, nu va exista
 tensiune indusă în fir:
 
-#+CAPTION: inducţia electromagnetică [[../poze/00318.png]]
+#+CAPTION: inducţia electromagnetică
+[[../poze/00318.png]]
 
 Expresia matematică pentru valoarea tensiunii generate în funcţie de
 fluxul câmpului magnetic, expresie dedusă tot de Faraday, este
@@ -510,7 +525,8 @@ primară) creşte, curentul va deşcreşte cu aceeiaşi rată. Acest
 comportament al transformatorului este analog unui angrenaj mecanic:
 
 #+CAPTION: analogie între reducerea cuplului folosind roţi dinţate şi
-#+CAPTION: transformatorul coborâtor de tensiune [[../poze/00319.png]]
+#+CAPTION: transformatorul coborâtor de tensiune
+[[../poze/00319.png]]
 
 Un transformator conceput pentru obţineare unei tensiune mai mari la
 bornele înfăşurări secundare (înfăşurare nealimentată) faţă de cea
