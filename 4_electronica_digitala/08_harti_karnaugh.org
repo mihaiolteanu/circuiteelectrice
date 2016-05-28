@@ -578,7 +578,7 @@ Să reluăm mai jos exemplul incineratorului de deşeuri toxice studiat
 folosind o hartă Karnaugh:
 
 #+CAPTION: incinerator deşeuri toxice - simplificarea circuitului logic
-folosind hărţi Karnaugh [[../poze/14115.png]]
+#+CAPTION: folosind hărţi Karnaugh [[../poze/14115.png]]
 
 Ecuaţia booleană de iesire este o sumă de patru produse. Prin urmare,
 vom avea patru regiuni de 1 pe harta Karnaugh. Grupând regiunile
@@ -599,7 +599,7 @@ circuitului logic al incineratorului...
 ...şi harta Karnaugh, care duce la exact acelaşi rezultat...
 
 #+CAPTION: incinerator deşeuri toxice - simplificarea circuitului logic
-folosind hărţi Karnaugh [[../poze/14144.png]]
+#+CAPTION: folosind hărţi Karnaugh [[../poze/14144.png]]
 
 Putem lesne vedea motivul pentru care hărţile Karnaugh sunt preferate
 pentru simplificarea circuitelor logice în detrimentul simplificării
@@ -626,7 +626,7 @@ mai uşor, mai ales dacă există multe simplificări logice de realizat.
 ** Exemple de simplificare logică cu hărţi Karnaugh de patru variabile
 
 #+CAPTION: simplificarea expresiilor booleene folosind hărţi Karnaugh de
-patru variabile [[../poze/14117.png]]
+#+CAPTION: patru variabile [[../poze/14117.png]]
 
 Expresia booleană de mai sus conţine 7 produse. Aceşti termeni sunt
 grupaţi de sus în jos şi de la stânga la dreapta pe harta Karnaugh de
@@ -639,7 +639,7 @@ grupuri, rezultatul trebuie să fie o sumă de două produse, prin urmare,
 AB + CD.
 
 #+CAPTION: simplificarea expresiilor booleene folosind hărţi Karnaugh de
-patru variabile [[../poze/14118.png]]
+#+CAPTION: patru variabile [[../poze/14118.png]]
 
 În cazul de mai sus, „împăturim” cele patru colţuri ale hărţii Karnaugh,
 precum un şerveţel, pentru a observa mai bine adiacenţa celor patru
@@ -649,7 +649,7 @@ variabile nu se vor regăsi în rezultatul final al expresiei
 simplificate.
 
 #+CAPTION: simplificarea expresiilor booleene folosind hărţi Karnaugh de
-patru variabile [[../poze/14119.png]]
+#+CAPTION: patru variabile [[../poze/14119.png]]
 
 Pentru o vizualizare mai bună, ne putem imagina că îndoim marginile de
 jos şi de sus a hărţii sub forma unui cilindru. În acest caz, ambele
@@ -659,7 +659,7 @@ acestui grup de 8 variabile este B = 0. Rezultatul simplificării este
 prin urmare B'.
 
 #+CAPTION: simplificarea expresiilor booleene folosind hărţi Karnaugh de
-patru variabile [[../poze/14120.png]]
+#+CAPTION: patru variabile [[../poze/14120.png]]
 
 Expresia booleană de mai sus conţine 9 termeni de produse, dintre care
 trei au doar trei variabile booleene în loc de patru. Diferenţa constă
@@ -674,7 +674,7 @@ decât dacă am fi format un grup de opt şi un grup de patru regiuni, fără
 nicio regiune comună celor două. Soluţia finală este B' + D'.
 
 #+CAPTION: simplificarea expresiilor booleene folosind hărţi Karnaugh de
-patru variabile [[../poze/14121.png]]
+#+CAPTION: patru variabile [[../poze/14121.png]]
 
 În exemplul de mai sus, trei regiuni formează două grupuri de câte două.
 O a patra regiune nu poate fi combinată cu nicio altă regiune, ceea ce
@@ -686,7 +686,7 @@ Adeseori, există mai mult de o singură soluţie cu cost minim pentru
 expresia nesimplificată. Un astfel de caz este cel de mai jos:
 
 #+CAPTION: simplificarea expresiilor booleene folosind hărţi Karnaugh de
-patru variabile [[../poze/14122.png]]
+#+CAPTION: patru variabile [[../poze/14122.png]]
 
 Ambele rezultate de mai sus conţin patru termeni, cu trei variabile
 booleene fiecare. Ambele soluţii sunt valide din punct de vedere al
@@ -696,7 +696,7 @@ minim este acea soluţie ce permite o implementare fizică a circuitului
 logic cu un număr cât mai mic de porţi logice şi număr de intrări.
 
 #+CAPTION: simplificarea expresiilor booleene folosind hărţi Karnaugh de
-patru variabile [[../poze/14123.png]]
+#+CAPTION: patru variabile [[../poze/14123.png]]
 
 În următorul exemplu, cel de mai sus, după ce trecem toate valorile de 1
 pe hartă Karnaugh, realizăm primul pas al simplificării, şi anume,
@@ -712,7 +712,7 @@ Atenţie, nu încercaţi să realizaţi grupuri de câte trei. Grupările
 trebuie să fie sub forma puterilor lui 2, şi anume, 1, 2, 4, 8, etc.
 
 #+CAPTION: simplificarea expresiilor booleene folosind hărţi Karnaugh de
-patru variabile [[../poze/14124.png]]
+#+CAPTION: patru variabile [[../poze/14124.png]]
 
 Avem din nou mai sus un exemplu ce suportă două soluţi cu cost minim.
 Formăm iniţial cele două grupuri de câte patru regiuni (roşu şi
@@ -723,7 +723,7 @@ este ABD. Indiferent de alegerea făcută, ambele soluţii sunt corecte din
 punct de vedere al minimizării costurilor de implementare.
 
 #+CAPTION: simplificarea expresiilor booleene folosind hărţi Karnaugh de
-patru variabile [[../poze/14125.png]]
+#+CAPTION: patru variabile [[../poze/14125.png]]
 
 Mai sus este un exemplu de simplificare cu hărţi Karnaugh (stânga)
 precum şi cu regulile algebrei booleene (dreapta). C' (C = 0) reprezintă

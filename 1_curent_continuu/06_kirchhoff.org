@@ -150,7 +150,7 @@ baterie iar sarcina (bec, de exemplu) o conectăm între terminalul periei
 şi oricare dintre cei doi terminali externi:
 
 #+CAPTION: ajustarea tensiunii pentru un circuit ce necesită o tensiune
-mai mică decât cea existentă la bornele bateriei [[../poze/00364.png]]
+#+CAPTION: mai mică decât cea existentă la bornele bateriei [[../poze/00364.png]]
 
 Sumar:
 
@@ -189,7 +189,7 @@ ceasornic, cu sonda roşie în faţă şi cu cea neagră în spate, am
 obţine/citi următoarele valori:
 
 #+CAPTION: formule [[../poze/10107.png]] #+CAPTION: parcurgerea
-circuitului cu voltmetru [[../poze/00436.png]]
+#+CAPTION: circuitului cu voltmetru [[../poze/00436.png]]
 
 Suntem deja familiarizaţi cu conceptul general al circuitelor serie, si
 anume: suma căderilor de tensiune individuale este egală cu tensiunea

@@ -131,7 +131,7 @@ simplu (un rezistor, un condensator), frecvenţa de tăiere este dată de
 următoarea formulă:
 
 #+CAPTION: formula frecvenţei de tăiere pentru un filtru trece-jos
-capacitiv [[../poze/12097.png]]
+#+CAPTION: capacitiv [[../poze/12097.png]]
 
 Realizând calculele, ajungem la valoarea frecvenţei de tăiere, 45.473
 Hz. Întrucât formula de mai sus nu ia în considerare şi rezistenţa de
@@ -183,7 +183,7 @@ de /condensator de decuplare/.
 
 #+CAPTION: zgomotul inductiv şi capacitiv introdus de un circuit de
 curent alternativ într-un circuit de curent continuu sensibil; folosirea
-condensatorului de decuplare [[../poze/02301.png]]
+#+CAPTION: condensatorului de decuplare [[../poze/02301.png]]
 
 Capacitatea unui condensator de decuplare este în mod normal în jurul
 valorii de 0.1 µF, sau peste, fiind capacitatea minimă necesară pentru
@@ -259,7 +259,7 @@ intrare. Formula de calcul a frecvenţei de tăiere este aceeiaşi ca şi în
 cazul filtrelor trece-jos:
 
 #+CAPTION: formula de calcul a frecvenţei de tăiere a filtrelor
-trece-sus [[../poze/12097.png]]
+#+CAPTION: trece-sus [[../poze/12097.png]]
 
 Rezistenţa din formulă, în cazul circuitului capacitiv trece-sus, este
 chiar rezistenţa de sarcină:
@@ -281,7 +281,7 @@ sau dreapta). Un sistem real ar conţine 6 difuzoare: 2 joase, 2 medii şi
 2 înalte.
 
 #+CAPTION: folosirea filtrelor trece-jos şi trece sus la ieşirea unui
-sistem audio [[../poze/02120.png]]
+#+CAPTION: sistem audio [[../poze/02120.png]]
 
 Pentru a mări şi mai mult performanţele acestui sistem, am putea
 construi un circuit de filtrare capabil să permită trecerea frecvenţelor
@@ -328,14 +328,14 @@ asfel conceput, arată asfel:
 
 #+CAPTION: circuitul electric al filtrului trece-bandă compus dintr-un
 filtru trece-jos capacitiv şi un filtru trece-sus capacitiv conectate în
-serie [[../poze/02121.png]]
+#+CAPTION: serie [[../poze/02121.png]]
 
 Să vedem şi răspunsul în frecvenţă (diagrama Bode) a filtrului capacitiv
 trece-bandă:
 
 #+CAPTION: răspunsul în frecvenţă (diagrama Bode) al filtrului
 trece-bandă compus dintr-un filtru trece-jos capacitiv şi un filtru
-trece-sus capacitiv conectate în serie [[../poze/22031.png]]
+#+CAPTION: trece-sus capacitiv conectate în serie [[../poze/22031.png]]
 
 *** Filtrul trece-bandă inductiv
 
@@ -399,7 +399,7 @@ următor:
 
 #+CAPTION: circuitul electric al filtrului stop-bandă în configuraţie T,
 format din conectarea în paralel a unui filtru trece-jos cu un filtru
-trece-sus [[../poze/02123.png]]
+#+CAPTION: trece-sus [[../poze/02123.png]]
 
 Filtrul trece-jos este compus din R_{1}, R_{2} şi C_{1} în configuraţie
 „T”, iar filtrul trece-sus este compus din C_{2}, C_{3} şi R_{3} de
@@ -416,13 +416,13 @@ Utilizând aceste raţii, frecvenţa maximă de trecere poate fi calculată
 asfel:
 
 #+CAPTION: formula matematică de calcul pentru frecvenţa de trecere a
-unui filtru stop-bandă în dublu T [[../poze/12099.png]]
+#+CAPTION: unui filtru stop-bandă în dublu T [[../poze/12099.png]]
 
 Putem vedea şi răspunsul în frecvenţă foarte bun al acestui filtru,
 folosind proprţiile de mai sus, în diagrama (Bode) de mai jos:
 
 #+CAPTION: răspunsul în frecvenţă al filtrului stop-bandă în
-configuraţie T [[../poze/22032.png]]
+#+CAPTION: configuraţie T [[../poze/22032.png]]
 
 Sumar:
 
@@ -463,7 +463,7 @@ Circuitul LC serie permite trecerea semnalului la frecvenţa de rezonanţa
 sarcină, după cum se poate vedea în diagramă.
 
 #+CAPTION: răspunsul în frecvenţa a filtrului trece-bandă rezonant în
-configuraţie LC serie; diagrama Bode [[../poze/22033.png]]
+#+CAPTION: configuraţie LC serie; diagrama Bode [[../poze/22033.png]]
 
 Putem observa că în cazul acestui tip de filtru, nu există practic nicio
 atenuare a semnalului în banda de trecere, asfel că tensiunea de ieşire
@@ -489,7 +489,7 @@ tensiune regăsindu-se în marea ei parte pe R_{1}, asfel că acestea nu
 ajung la sarcină, după cum se poate vedea în diagramă.
 
 #+CAPTION: răspunsul în frecvenţa a filtrului trece-bandă rezonant în
-configuraţie LC paralel; diagrama Bode [[../poze/22034.png]]
+#+CAPTION: configuraţie LC paralel; diagrama Bode [[../poze/22034.png]]
 
 Acest tip de filtru rezonant, asemenea filtrelor trece-sus şi trece-jos,
 nu va putea transmite întreaga tensiune de la sursă spre sarcină
@@ -518,7 +518,7 @@ tensiune regăsindu-se pe rezistorul R_{1}, iar semnalul nu este asfel
 „văzut” de sarcină.
 
 #+CAPTION: răspunsul în frecvenţa a filtrului stop-bandă rezonant în
-configuraţie LC serie; diagrama Bode [[../poze/22035.png]]
+#+CAPTION: configuraţie LC serie; diagrama Bode [[../poze/22035.png]]
 
 **** Filtrul stop-bandă rezonant în configuraţie LC paralel
 
@@ -532,7 +532,7 @@ semnale (alte frecvenţe decăt cea de rezonanţă) de la sursă spre
 sarcină.
 
 #+CAPTION: răspunsul în frecvenţa a filtrului stop-bandă rezonant în
-configuraţie LC paralel; diagrama Bode [[../poze/22036.png]]
+#+CAPTION: configuraţie LC paralel; diagrama Bode [[../poze/22036.png]]
 
 Din nou se poate observa faptul că absenţa unui rezistor serie duce la o
 atenuare minimă a semnalelor dorite. Amplitudinea semnalului la

@@ -124,7 +124,7 @@ exterior de curent poate modifica valoarea energiei stocate (implicit şi
 a tensiunii la bornele sale) de un condensator perfect:
 
 #+CAPTION: tensiune electrică la bornele condensatorului este menţinută
-constantă într-un circuit deschis [[../poze/00292.png]]
+#+CAPTION: constantă într-un circuit deschis [[../poze/00292.png]]
 
 Practic, condensatoarele îşi vor pierde tensiune stocată datorită
 imperfecţiunilor interne ce permit electronilor să se deplaseze de pe o
@@ -277,7 +277,7 @@ valoare mai mare; curentul prin condensator va fi şi el mai mare în
 acest caz:
 
 #+CAPTION: circuit electric [[../poze/00400.png]] #+CAPTION: tensiunea
-şi curentul printr-un condensator [[../poze/00401.png]]
+#+CAPTION: şi curentul printr-un condensator [[../poze/00401.png]]
 
 Analiza matematica introduce de fapt conceptul de /rată de variaţie/
 pentru o varietate de funcţii. /Derivata/ unei funcţii, un principiu de
@@ -359,7 +359,7 @@ faptul că o distanţă mai mică duce la o forţă mai mare a câmpului
 oricare ar fi valoarea tensiunii aplicate pe armături.
 
 #+CAPTION: capacitatea condensatorului în funcţie de distanţa dintre
-armături [[../poze/00296.png]]
+#+CAPTION: armături [[../poze/00296.png]]
 
 *** Materialul dielectric
 
@@ -375,7 +375,7 @@ valoarea forţei câmpului (tensiunea aplicată la bornele
 condensatorului).
 
 #+CAPTION: capacitatea condensatorului în funcţie de permitivitatea
-dielectricului [[../poze/00297.png]]
+#+CAPTION: dielectricului [[../poze/00297.png]]
 
 În acest context, „relativ” se referă la permitivitatea materialului
 relativ la permitivitatea vidului. Cu cât numărul este mai mare, cu atât

@@ -202,12 +202,12 @@ posibilităţilor de intrare. Pentru determinarea nivelului logic de
 ieşire, se foloseşte un LED:
 
 #+CAPTION: exemplificarea tabelului de adevăr a porţii logice ŞI
-printr-un circuit practic [[../poze/04102.png]] #+CAPTION:
+#+CAPTION: printr-un circuit practic [[../poze/04102.png]] #+CAPTION:
 exemplificarea tabelului de adevăr a porţii logice ŞI printr-un circuit
-practic [[../poze/04103.png]] #+CAPTION: exemplificarea tabelului de
+#+CAPTION: practic [[../poze/04103.png]] #+CAPTION: exemplificarea tabelului de
 adevăr a porţii logice ŞI printr-un circuit practic
 [[../poze/04104.png]] #+CAPTION: exemplificarea tabelului de adevăr a
-porţii logice ŞI printr-un circuit practic [[../poze/04105.png]]
+#+CAPTION: porţii logice ŞI printr-un circuit practic [[../poze/04105.png]]
 
 LED-ul este alimentat cu energie electrică doar atunci când ambele
 intrări logice sunt 1.
@@ -260,12 +260,12 @@ când cele două intrări foarmează toate combinaţiile posibile. Indicaţia
 vizuală a ieşirii este furnizată de un LED:
 
 #+CAPTION: exemplificarea tabelului de adevăr a porţii logice SAU
-printr0un circuit practic [[../poze/04109.png]] #+CAPTION:
+#+CAPTION: printr0un circuit practic [[../poze/04109.png]] #+CAPTION:
 exemplificarea tabelului de adevăr a porţii logice SAU printr-un circuit
-practic [[../poze/04110.png]] #+CAPTION: exemplificarea tabelului de
+#+CAPTION: practic [[../poze/04110.png]] #+CAPTION: exemplificarea tabelului de
 adevăr a porţii logice SAU printr-un circuit practic
 [[../poze/04111.png]] #+CAPTION: exemplificarea tabelului de adevăr a
-porţii logice SAU printr-un circuit practic [[../poze/04112.png]]
+#+CAPTION: porţii logice SAU printr-un circuit practic [[../poze/04112.png]]
 
 Dacă oricare dintre intrări se află în poziţia 1, LED-ul va fi alimentat
 cu energie electrică.
@@ -365,7 +365,7 @@ fie 0 şi 1, fie 1 şi 0. Altfel, ieşirea este 0 dacă toate intrările se
 află la acelaşi nivel logic.
 
 #+CAPTION: schema echivalentă a unei porţi logice SAU-exclusiv formată
-din porţi SI, SAU şi NU [[../poze/04117.png]]
+#+CAPTION: din porţi SI, SAU şi NU [[../poze/04117.png]]
 
 Circuitele echivalente pentru o poartă SAU-exclusiv sunt formate din
 porţi ŞI, SAU şi NU. O metodă directă de simularea a unei porţi
@@ -383,7 +383,7 @@ Totuşi, atunci când ambele intrări sunt 1, ieşirea porţii SAU-negat este
 0, forţând o valoare de 0 pe ieşirea porţii SAU.
 
 #+CAPTION: schema echivalentă a unei porţi logice SAU-exclusiv formată
-din porţi ŞI, SAU şi NU [[../poze/04118.png]]
+#+CAPTION: din porţi ŞI, SAU şi NU [[../poze/04118.png]]
 
 Un alt circuit echivalent pentru o poartă SAU-exclusiv este format din
 două porţi ŞI negate (cu ajutorul unei porţi NU). Acestea generează la

@@ -171,7 +171,7 @@ plumb-acid instalată pe un automobil generează o tensiune nominală de
 12.0 V (6 x 2.0 V):
 
 #+CAPTION: conectarea pilelor în serie pentru generarea unei tensiuni
-mai mari [[../poze/00262.png]]
+#+CAPTION: mai mari [[../poze/00262.png]]
 
 Ca şi convenţie, simbolul bateriei este desenat de obicei cu doar patru
 linii lungi/scurte, chiar dacă bateria reală este compusă din mai mult
@@ -230,7 +230,7 @@ Dacă totuşi avem nevoie de o baterie cu rezistenţă internă mult mai mică
 mai multe pile în paralel:
 
 #+CAPTION: conectarea pilelor în paralel pentru o rezistenţă internă mai
-mică [[../poze/00265.png]]
+#+CAPTION: mică [[../poze/00265.png]]
 
 Circuitul Thevenin echivalent al celor cinci pile în paralel este un
 circuit cu o singură sursă de tensiune şi un rezistor în serie. Acest

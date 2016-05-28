@@ -128,7 +128,7 @@ contactul între acestea şi circuit se realizează doar într-un singur
 punct.
 
 #+CAPTION: păsările ce se aşează pe liniile de înaltă tensiune nu se
-electrocutează [[../poze/00055.png]]
+#+CAPTION: electrocutează [[../poze/00055.png]]
 
 Pentru ca electronii să circule printr-un conductor, este necesară
 prezenţa unei tensiuni pentru motivarea lor. Tensiunea este /tot timpul
@@ -150,7 +150,7 @@ persoana ce atinge un singur fir, realizează de fapt contactul între
 două puncte din circuit (firul şi pământarea):
 
 #+CAPTION: închiderea circuitului prin pământ la atingerea unui singur
-fir [[../poze/00056.png]]
+#+CAPTION: fir [[../poze/00056.png]]
 
 Simbolul împământării (legării la pământ) este setul de trei linii
 orizontale cu lungimi descrescătoare, aflat în partea stângă-jos a
@@ -184,7 +184,7 @@ partea de jos a rezistorului, aceasta nu s-ar electrocuta, chiar dacă
 picioarele sale vin în contact cu pământul:
 
 #+CAPTION: persoana nu este electrocutată în cazul în care firul atins
-este conectat la împământare [[../poze/00057.png]]
+#+CAPTION: este conectat la împământare [[../poze/00057.png]]
 
 Deoarece partea de jos a circuitului este conectată la împământare în
 partea stângă, conductorul din dreapta jos este comun din punct de
@@ -204,7 +204,7 @@ atingerea oricărui fir ar fi la fel de sigură? Ideal, da. Practic însă,
 nu. Observaţi ce se întâmplă fără niciun fel de împământare:
 
 #+CAPTION: circuit neconectat la împământare - atingerea firelor libere
-este sigură [[../poze/00058.png]]
+#+CAPTION: este sigură [[../poze/00058.png]]
 
 În ciuda faptului că picioarele persoane vin în contact direct cu
 pământul, atingerea oricărui punct din circuit este sigură. Din moment
@@ -216,7 +216,7 @@ către o creangă ce duce la formarea unei legături directe cu pământul:
 
 #+CAPTION: circuit neconectat la împământare - atingerea firelor libere
 nu este sigură atunci când există o conectare accidentală a circuitului
-la pământ [[../poze/00059.png]]
+#+CAPTION: la pământ [[../poze/00059.png]]
 
 O asemenea conexiune accidentală dintre conductorul circuitului şi
 pământ poartă numele de /defect de împământare/. Cauzele defectelor de
@@ -229,7 +229,7 @@ atins în siguranţă; dacă în schimb contactul se realizează între copac
 riscul electrocutării, adică exact invers faţă de cazul precedent.
 
 #+CAPTION: circuit neconectat la împământare - defectul de împământare
-poate duce la electrocutare [[../poze/00060.png]]
+#+CAPTION: poate duce la electrocutare [[../poze/00060.png]]
 
 Precum am spus şi mai sus, ramurile copacilor sunt doar o sursă
 potenţială ale defectelor de împământare. Să considerăm un circuit
@@ -239,7 +239,7 @@ puncte cu potenţiale diferite:
 
 #+CAPTION: circuit fără împământare - electrocutarea ambelor persoane
 atunci când fiecare dintre ele atunge un punct din circuit cu potenţial
-electric diferit [[../poze/00061.png]]
+#+CAPTION: electric diferit [[../poze/00061.png]]
 
 În acest caz, contactul fiecărei persoane cu pământul asigură închiderea
 circuitului prin pământ şi prin ambele persoane. Chiar dacă fiecare din
@@ -597,13 +597,13 @@ valoarea oricărei rezistenţe luată individual (link!).
 #+CAPTION: rezistenţa corpului într-un circuit electric
 [[../poze/00062.png]] #+CAPTION: persoanele ce intră în contact direct
 cu sursele de tensiune: curentul este limitat doar de rezistenţa
-corpului [[../poze/10029.png]]
+#+CAPTION: corpului [[../poze/10029.png]]
 
 Circuitul echivalent pentru aceeiaşi situaţie, dar cu persoana în cauză
 purtând mănuşi şi încălţăminte de protecţie (izolate electric):
 
 #+CAPTION: rezistenţa corpului plus cea a încălţăminte şi mănuşilor de
-protecţie într-un circuit electric [[../poze/00063.png]] #+CAPTION:
+#+CAPTION: protecţie într-un circuit electric [[../poze/00063.png]] #+CAPTION:
 persoanele ce poartă mănuşi şi încălţăminte de protecţie: curentul este
 limitat acum de valoarea totală a rezistenţei din circuit
 [[../poze/10030.png]]
@@ -672,7 +672,7 @@ deconectare trebuie să fie diferite faţă de întrerupătoarele ce închid
 siguranţă pentru asigurarea stării de energie zero a circuitului:
 
 #+CAPTION: întrerupător de siguranţă şi întrerupător de
-închidere/deschidere a circuitului [[../poze/00064.png]]
+#+CAPTION: închidere/deschidere a circuitului [[../poze/00064.png]]
 
 Cu întrerupător în poziţia deschis (precum în figură), continuitatea
 circuitului este întreruptă şi curentul din circuit este zero. Caderea
@@ -689,7 +689,7 @@ apariţia unei căderi de tensiune la bornele sarcinii:
 
 #+CAPTION: asigurarea suplimentară a unui circuit deconectat de la sursa
 de putere prin realizarea unei împământări temporare a părţii din
-circuit neconectate iniţial la împământare [[../poze/00065.png]]
+#+CAPTION: circuit neconectate iniţial la împământare [[../poze/00065.png]]
 
 După realizarea împământării temporare, ambele părţi ale sarcinii sunt
 conectate la pământ, asigurând o stare de energie zero la bornele
@@ -701,7 +701,7 @@ asigura circuitul prin exact această metodă:
 
 #+CAPTION: asigurarea suplimentară a unui circuit deconectat de la sursa
 de putere prin realizarea unui scurt-circuit cu ajutorul unui conductor
-plasat între cele două părţi ale circuitului [[../poze/00066.png]]
+#+CAPTION: plasat între cele două părţi ale circuitului [[../poze/00066.png]]
 
 Indiferent de măsura luată, ambele părţi ale sarcinii se vor afla la
 aceelaşi potenţial, cel al pământului, neexistând nicio cădere de
@@ -914,7 +914,7 @@ ceea ce duce la apariţia unui curent prin acesta până la cel mai
 apropiat punct de împământare din sistem, asfel:
 
 #+CAPTION: linie electrică căzută la pământ - posibilitatea apariţiei
-electrocutării [[../poze/00067.png]]
+#+CAPTION: electrocutării [[../poze/00067.png]]
 
 Pământul, fiind un conductor (chiar dacă unul prost), va conduce
 curentul între linia căzută la pământ şi cel mai apropiat punct de
@@ -927,7 +927,7 @@ căderea de tensiune în lungul cablului electric va fi mult mai mică
 (cifrele din figură sunt foarte aproximative):
 
 #+CAPTION: linie electrică căzută la pământ - valorile aproximative ale
-căderilor de tensiune [[../poze/00068.png]]
+#+CAPTION: căderilor de tensiune [[../poze/00068.png]]
 
 Dacă distanţa dintre punctul de contact al liniei cu pământul şi locul
 împământării este mică, atunci va exista o cădere mare de tensiune pe o
@@ -938,7 +938,7 @@ puţin rezistentă din punct de vedere electric !!!)
 
 #+CAPTION: linie electrică căzută la pământ - electrocutarea persoanei
 ce se află între punctul de contact al liniei electrice şi punctul de
-împământare al reţelei [[../poze/00069.png]]
+#+CAPTION: împământare al reţelei [[../poze/00069.png]]
 
 Din nou, aceste cifre sunt foarte aproximative, dar ilustrează foarte
 bine principiul conform cărei o persoană poate deveni victimă a
@@ -1008,7 +1008,7 @@ metalică, precum şi între ele, cu un material plastic sau de cauciuc.
 
 #+CAPTION: conectarea unui aparat electric cu carcasă metalică la
 reţeaua de alimentare - căderea de tensiune între carcasa metalică şi
-pământ este de 0 volţi [[../poze/00071.png]]
+#+CAPTION: pământ este de 0 volţi [[../poze/00071.png]]
 
 Totuşi, în cazul în care unul dintre firele existente în interiorul
 aparatului vine în contact direct cu carcasa metalică, potenţialul
@@ -1020,7 +1020,7 @@ depinde de natura firului ce atinge carcasa:
 #+CAPTION: conectarea unui aparat electric cu carcasă metalică la
 reţeaua de alimentare; la contactul accidental dintre fază şi carcasa
 metalică, există o cădere de tensiune potenţial periculoasă între
-carcasă şi pământ [[../poze/00072.png]]
+#+CAPTION: carcasă şi pământ [[../poze/00072.png]]
 
 În cazul în care firul ce intră în contact cu carcasa metalică este faza
 (firul aflat „sub tensiune”), utilizatorul aparatului se află într-un
@@ -1043,7 +1043,7 @@ poate la fel de bine să fie cel aflat sub tensiune:
 #+CAPTION: conectarea unui aparat electric cu carcasă metalică la
 reţeaua de alimentare; inversarea polarităţii prizei înseamnă ca orice
 fir care vine în contact cu carcasa prezintă un potenţial pericol de
-electrocutare [[../poze/00074.png]]
+#+CAPTION: electrocutare [[../poze/00074.png]]
 
 Aparatele electrice proiectate asfel se folosesc la prizele polarizate,
 un picior al conectorului fiind mai lat iar celălalt mai îngust (prizele
@@ -1067,7 +1067,7 @@ aceasta şi pământ:
 
 #+CAPTION: conectarea unui aparat electric cu carcasă metalică la
 reţeaua de alimentare; folosirea prizei cu împământare pentru
-înlăturarea pericolului electrocutării [[../poze/00075.png]]
+#+CAPTION: înlăturarea pericolului electrocutării [[../poze/00075.png]]
 
 Al treilea contact al conectorului prezent la capătul cablului de
 alimentare asigură o conexiune directă între carcasa metalică a
@@ -1093,7 +1093,7 @@ Asigurarea împotriva electrocutării se poate realiza şi în altă parte,
 nu doar asupra aparatului electric, asfel:
 
 #+CAPTION: conectarea unui aparat electric cu carcasă metalică la
-reţeaua de alimentare; [[../poze/00076.png]]
+#+CAPTION: reţeaua de alimentare; [[../poze/00076.png]]
 
 În cazul unui aparat electric ce funcţionează corespunzător, precum în
 figura de mai sus, valoarea curentului măsurat prin fază ar trebui să
@@ -1109,7 +1109,7 @@ curent între cele două:
 
 #+CAPTION: conectarea unui aparat electric cu carcasă metalică la
 reţeaua de alimentare; diferenţa de curent între fază şi neutru în cazul
-electrocutării [[../poze/00077.png]]
+#+CAPTION: electrocutării [[../poze/00077.png]]
 
 Diferenţa de curent între cei doi conductori, fază şi neutru, va exista
 doar în cazul existenţei unui curent prin împământare, caz în car există
@@ -1202,7 +1202,7 @@ marcată pentru tensiune şi rezistenţă (V Ω) sau în cea pentru curent
 *** Măsurarea unei tensiuni de curent continuu
 
 #+CAPTION: multimetru digital; măsurarea tensiunii de curent continuu a
-unei baterii [[../poze/noi/00342.png]]
+#+CAPTION: unei baterii [[../poze/noi/00342.png]]
 
 Primul exemplu constă din măsurarea unei tensiuni de c.c. la bornele
 unei baterii. Observaţi prizele la care sunt conectate cele două sonde
@@ -1212,7 +1212,7 @@ ale multimetrului (V Ω şi COM) şi faptul că selectorul este setat pe „V”
 *** Măsurarea unei tensiuni de curent alternativ
 
 #+CAPTION: multimetru digital; măsurarea tensiunii de curent alternativ
-la priză [[../poze/noi/00343.png]]
+#+CAPTION: la priză [[../poze/noi/00343.png]]
 
 Singura diferenţa constă în schimbarea poziţiei selectorului pe poziţie
 „V” în curent alternativ. Din moment ce efectuăm tot o măsurătoare de
@@ -1226,7 +1226,7 @@ contact cu punctele lor respective din circuit. Dacă acest lucru are
 loc, se va forma un scurt-circuit, lucru pe care nu-l dorim.
 
 #+CAPTION: multimetru digital; măsurarea tensiunii de curent alternativ
-la priză [[../poze/noi/00344.png]]
+#+CAPTION: la priză [[../poze/noi/00344.png]]
 
 Măsurarea tensiunilor este probabil cea mai folosită funcţie a unui
 multimetru. Este cu siguranţă cea mai folosită metodă pentru asigurarea
@@ -1364,7 +1364,7 @@ Următorul pas este deschiderea circuitului pentru a putea conecta
 multimetrul.
 
 #+CAPTION: multimetru digital; măsurarea curentului; deschiderea
-circuitului [[../poze/noi/00349.png]]
+#+CAPTION: circuitului [[../poze/noi/00349.png]]
 
 Închiderea circuitul se realizează apoi prin multimetru, astfel:
 conectăm vârfurile sondelor la captele libere ale circuitului deschis,
@@ -1372,7 +1372,7 @@ sonda neagră la terminalul negativ al bateriei de 9 V, iar sonda roşie
 la capătul conductorului liber ce duce la bec.
 
 #+CAPTION: multimetru digital; măsurarea curentului; închiderea
-circuitului prin intermediul multimetrului [[../poze/noi/00350.png]]
+#+CAPTION: circuitului prin intermediul multimetrului [[../poze/noi/00350.png]]
 
 Deşi acest circuit, cu o sursă de 9 V, este sigur din punct de vedere al
 electrocutărilor, în circuitele de putere această metodă reprezintă o

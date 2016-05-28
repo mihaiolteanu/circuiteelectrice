@@ -249,7 +249,7 @@ alternative produse de circuitele electronice. Mai jos sunt câteva
 exemple:
 
 #+CAPTION: exemple de formă de undă: dreptunghiulară, triunghiulară,
-dinte de fierăstrău [[../poze/02010.png]]
+#+CAPTION: dinte de fierăstrău [[../poze/02010.png]]
 
 Acestea nu sunt însă singurele tipuri de forme de undă existente, ci
 doar câteva dintre cele mai comune. Chiar şi circuitele considerate
@@ -286,14 +286,14 @@ grafic. Aceasta este denumită /valoarea de vârf/ a unei unde
 alternative:
 
 #+CAPTION: măsurarea tensiunii de vârf pe grafic în cazul unei forme de
-undă alternative [[../poze/02011.png]]
+#+CAPTION: undă alternative [[../poze/02011.png]]
 
 O altă metodă constă în măsurarea înălţimii totale a forme de undă,
 între cele două vârfuri, valoare ce poartă numele de /amplitudine vârf
 la vârf/:
 
 #+CAPTION: măsurarea amplitudinii vârf la vârf pe grafic în cazul unei
-forme de undă alternative [[../poze/02012.png]]
+#+CAPTION: forme de undă alternative [[../poze/02012.png]]
 
 Din păcate, ambele modalităţi de calculare a amplitudinii undei
 alternative sunt puţin folositoare atunci când vrem să facem o
@@ -331,7 +331,7 @@ orizontală:
 
 #+CAPTION: valoarea medie practică a tuturor punctelor de pe graficul
 unei forme de undă sinusoidală, considerând toate punctele de pe grafic
-ca fiind pozitive [[../poze/02413.png]]
+#+CAPTION: ca fiind pozitive [[../poze/02413.png]]
 
 *** Valoarea efectivă a tensiunii sau a curentului (RMS)
 
@@ -348,7 +348,7 @@ realiza aceeiaşi operaţie. Comparaţia dintre cele două tipuri de mişcări
 este analoagă comparaţiei dintre curentul continuu şi cel alternativ:
 
 #+CAPTION: analogie între fierăstră circular (curent continuu) şi
-fierăstrău pendular (vertical)(curent alternativ) [[../poze/02014.png]]
+#+CAPTION: fierăstrău pendular (vertical)(curent alternativ) [[../poze/02014.png]]
 
 Problema descrierii variaţiei valorilor prezente în curent alternativ
 într-o singură componentă, este prezentă şi în acest caz al analogiei:
@@ -431,7 +431,7 @@ valorii efective ale acestora:
 
 #+CAPTION: coeficienţi pentru calcularea relaţiei dintre valorile de
 vârf, vârf la vârf, medii practice şi valorii efective pentru formele de
-undă sinusoidale, dreptunghiulare şi triunghiulare [[../poze/02016.png]]
+#+CAPTION: undă sinusoidale, dreptunghiulare şi triunghiulare [[../poze/02016.png]]
 
 Pe lângă aceşti coeficienţi, mai există şi alte modalităţi de exprimare
 a proporţionalităţii între formele de undă fundamentale. /Factorul de
@@ -453,7 +453,7 @@ distorsionate:
 
 #+CAPTION: pentru o formă de undă distorsionată nu putem folosi aceeiaşi
 coeficienţi pentru calcularea relaţiei dintre valorile de vârf, vârf la
-vârf, medii şi efective [[../poze/02017.png]]
+#+CAPTION: vârf, medii şi efective [[../poze/02017.png]]
 
 Sumar:
 
@@ -544,7 +544,7 @@ valoarea defazajului dintre cele două unde:
 
 #+CAPTION: folosirea axei orizontale gradate de la 0 la 360 de grade
 pentru vizualizarea defazajului dintre două forme de undă sinusoidale -
-defazaj de 45 de grade [[../poze/02020.png]]
+#+CAPTION: defazaj de 45 de grade [[../poze/02020.png]]
 
 Defazajul (diferenţa de fază) dintre cele două forme de undă este de 45
 de grade, unda A fiind înaintea undei B. O comparaţie între defazaje

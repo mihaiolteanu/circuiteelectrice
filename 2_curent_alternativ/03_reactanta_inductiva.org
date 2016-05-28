@@ -5,13 +5,13 @@ tensiunea şi curentul sunt în fază (unghiul de defazaj dintre ele este
 0^{o}):
 
 #+CAPTION: circuit de curent alternativ pur rezistiv - tensiunea şi
-curentul sunt în fază [[../poze/02053.png]]
+#+CAPTION: curentul sunt în fază [[../poze/02053.png]]
 
 Dacă trecem curentul şi tensiunea din circuitul de mai sus pe un grafic,
 acesta va arăta aproximativ asfel:
 
 #+CAPTION: graficul tensiunii şi al curentului în cazul unui circuit
-circuit de curent alternativ pur rezistiv [[../poze/02054.png]]
+#+CAPTION: circuit de curent alternativ pur rezistiv [[../poze/02054.png]]
 
 Deoarece rezistorul se opune pur şi simplu deplasării electronilor prin
 circuit în mod direct, în orice moment din timp, forma de undă a căderii
@@ -64,7 +64,7 @@ Matematic, relaţia dintre căderea de tensiune pe o bobină şi rata
 variaţiei curentului prin aceasta, se exprimă asfel:
 
 #+CAPTION: relaţia dintre căderea de tensiune pe o bobină şi rata
-variaţiei curentului prin aceasta [[../poze/12016.png]]
+#+CAPTION: variaţiei curentului prin aceasta [[../poze/12016.png]]
 
 Expresia /di/dt/ reprezintă derivata curentului cu timpul, adică rata de
 variaţia a curentului instantaneu (i) cu timpul, în amperi per secundă.
@@ -82,7 +82,7 @@ Graficul tensiunii şi al curentului în acest caz arată aproximativ
 asfel:
 
 #+CAPTION: graficul formelor de undă pentru un circuit electric pur
-inductiv simplu în curent alternativ [[../poze/02057.png]]
+#+CAPTION: inductiv simplu în curent alternativ [[../poze/02057.png]]
 
 Reţineţi faptul că valoarea căderii de tensiune pe bobină este în
 funcţie de /variaţia/ curentului prin aceasta. Prin urmare, tensiunea
@@ -98,13 +98,13 @@ defazată cu 90^{o} înaintea curentului, sau echivalent, curentul este
 defazat cu 90^{o} în urma tensiunii.
 
 #+CAPTION: graficul formelor de undă pentru un circuit electric pur
-inductiv simplu în curent alternativ - explicaţii [[../poze/02058.png]]
+#+CAPTION: inductiv simplu în curent alternativ - explicaţii [[../poze/02058.png]]
 
 Lucrurile devin şi mai interesante atunci când introducem şi forma de
 undă a puterii pe grafic:
 
 #+CAPTION: graficul formelor de undă pentru un circuit electric pur
-inductiv simplu în curent alternativ [[../poze/02059.png]]
+#+CAPTION: inductiv simplu în curent alternativ [[../poze/02059.png]]
 
 Deoarece puterea instantanee reprezintă produsul dintre tensiunea şi
 curentul instantaneu (p=ie), puterea este egală cu zero atunci când
@@ -209,7 +209,7 @@ matematic, sub forma numerelor complexe, observăm că opoziţia unei
 bobine faţă de curent posedă şi un unghi al fazei:
 
 #+CAPTION: formule [[../poze/12019.png]] #+CAPTION: curentul este în
-urma tensiunii în cazul bobinei [[../poze/02061.png]]
+#+CAPTION: urma tensiunii în cazul bobinei [[../poze/02061.png]]
 
 Matematic, spunem că unghiul de fază a opoziţiei bobinei faţă de curent
 este de 90^{o}, ceea ce înseamnă o mărime imaginară pozitivă. Acest

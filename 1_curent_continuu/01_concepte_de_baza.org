@@ -52,7 +52,7 @@ bucăţi de mătase, atât bucăţile de sticlă cât şi bucăţile de mătase 
 resping reciproc:
 
 #+CAPTION: respingere între două corpuri din materiale identice
-încărcate cu sarcină electrică [[../poze/00005.png]]
+#+CAPTION: încărcate cu sarcină electrică [[../poze/00005.png]]
 
 Acest lucru era foarte straniu. Până la urmă, niciunul dintre aceste
 materiale nu era vizibil modificat în urma frecării, dar cu siguranţă se
@@ -553,7 +553,7 @@ acesta datorită faptului că electronii în exces din parafină trec prin
 fir înapoi pe lână, restabilind dezechilibrul creat:
 
 #+CAPTION: restabilirea echilibrului dintre doua corpuri frecate prin
-introducerea unui conductor electric [[../poze/00016.png]]
+#+CAPTION: introducerea unui conductor electric [[../poze/00016.png]]
 
 Dezechilibrul dintre numărul electronilor din atomii parafinei şi cei ai
 lânei crează o forţă între cele două materiale. Neexistând niciun drum
@@ -593,7 +593,7 @@ energie şi mai mare pentru realizarea acestui lucru, prin urmare, va fi
 energie mai mare decât în cazul precedent
 
 #+CAPTION: curgerea apei din rezervor prin ţeavă spre bazin, nivele
-diferite de energie [[../poze/00019.png]]
+#+CAPTION: diferite de energie [[../poze/00019.png]]
 
 Electronii nu sunt foarte diferiţi. Dacă frecăm parafina şi lâna
 împreună, „pompăm” electronii de pe „nivelurile” lor normale, dând
@@ -637,7 +637,7 @@ electronii se deplasează de pe un anumit „nivel” pe un altul, aceasta
 are sens doar atunci când este exprimate între două puncte diferite:
 
 #+CAPTION: curgerea apei din rezervor prin ţeavă spre bazin, nivele
-diferite de energie [[../poze/00020.png]]
+#+CAPTION: diferite de energie [[../poze/00020.png]]
 
 Datorită diferenţei dintre înălţimile căderilor de apă, potenţialul de
 energie eliberată este mai mare prin ţeava din locaţia 2 decât cea din
@@ -717,7 +717,7 @@ unei bucle din material conductor, vom iniţia o deplasare continuă a
 electronilor în direcţia acelor de ceasornic (în acest caz particular):
 
 #+CAPTION: deplasarea electronilor printr-un cicruit închis alimentate
-de o baterie electrică [[../poze/00023.png]]
+#+CAPTION: de o baterie electrică [[../poze/00023.png]]
 
 Atâta timp cât bateria va continua să producă tensiune electrică, iar
 continuitatea circuitului electric nu este întreruptă, electronii vor
@@ -761,7 +761,7 @@ următorul circuit, în care fiecare colţ al circuitului este marcat
 printr-un număr de referinţă:
 
 #+CAPTION: circuit electric - compararea polaritătii în functie de
-locaţie [[../poze/00025.png]]
+#+CAPTION: locaţie [[../poze/00025.png]]
 
 Continuitatea circuitului fiind întreruptă între punctele 2 şi 3,
 polaritatea căderii de tensiune între punctele 2 şi 3 este „-” pentru
@@ -773,7 +773,7 @@ Să vedem acum ce se întâmplă dacă conectăm punctele 2 şi 3 din nou
 împreună, dar efectuăm o înrerupere a circuitului între punctele 3 şi 4:
 
 #+CAPTION: circuit electric - compararea polaritătii în functie de
-locaţie - locaţie nouă [[../poze/00026.png]]
+#+CAPTION: locaţie - locaţie nouă [[../poze/00026.png]]
 
 Întreruperea fiind acum între punctele 3 şi 4, polaritatea căderii de
 tensiune între acest două puncte este „+” pentru 4 şi „-” pentru 3.
@@ -866,7 +866,7 @@ circuitul. Cu o lampă conectată la acest circuit, acest lucru înseamnă
 ca această va înceta să mai lumineze:
 
 #+CAPTION: circuit electric simplu - baterie plus lampă electrică -
-întreruperea circuitului [[../poze/00028.png]]
+#+CAPTION: întreruperea circuitului [[../poze/00028.png]]
 
 Ca şi înainte, fără existenţa curentului (curgerii electronilor),
 întregul potenţial (tensiune) al bateriei este disponibil în locul
@@ -973,7 +973,7 @@ electrică (energia potenţială pe unitate de sarcină) între diferite
 seturi de puncte dintr-un singur circuit poate varia considerabil:
 
 #+CAPTION: curentul este acelaşi în oricare punct al unui circuit
-electric simplu [[../poze/00030.png]]
+#+CAPTION: electric simplu [[../poze/00030.png]]
 
 Să luăm acest circuit ca şi exemplu. Dacă luăm patru puncte din acest
 circuit (1, 2, 3 şi 4), vom descoperi că valoarea curentului ce trece
@@ -996,7 +996,7 @@ mare decât tensiune dintre punctele 2 şi 3 (bec).
 Putem aduce din nou în discuţie analogia rezervorului de apă:
 
 #+CAPTION: analogia rezervorului de apă - folosirea energiei eliberate
-pentru punerea în mişcare a unei roţi de apă [[../poze/00031.png]]
+#+CAPTION: pentru punerea în mişcare a unei roţi de apă [[../poze/00031.png]]
 
 Între punctele 2 şi 3, acolo unde apa ce cade eliberează energie asupra
 roţii, există o diferenţă de presiune, reflectând opoziţia roţii la

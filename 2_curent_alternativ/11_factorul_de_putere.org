@@ -5,7 +5,7 @@ sursă de tensiune de 120 V, la frecvenţa de 60 Hz, şi o sarcină
 rezistivă:
 
 #+CAPTION: circuit electric monofazat de curent alternativ cu sarcină
-rezistivă [[../poze/02211.png]] #+CAPTION: calcule matematice
+#+CAPTION: rezistivă [[../poze/02211.png]] #+CAPTION: calcule matematice
 [[../poze/12120.png]]
 
 Curentul efectiv prin sarcină va fi de 2 A, iar puterea disipată de 240
@@ -37,10 +37,10 @@ sunt evidenţiate cu ajutorul trigonometriei.
 Ca şi comparaţie, să considerăm un circuit simplu cu o sarcină reactivă:
 
 #+CAPTION: circuit electric monofazat de curent alternativ cu sarcină
-inductivă [[../poze/02212.png]] #+CAPTION: calcule matematice
+#+CAPTION: inductivă [[../poze/02212.png]] #+CAPTION: calcule matematice
 [[../poze/12121.png]] #+CAPTION: Formele de undă ale tensiunii,
 curentului şi puterii într-un circuit monofazat de curent alternativ cu
-sarcină pur inductivă [[../poze/02059.png]]
+#+CAPTION: sarcină pur inductivă [[../poze/02059.png]]
 
 În acest caz, puterea variază alternativ între partea pozitivă şi cea
 negativă. Acest lucru înseamnă că puterea este alternativ absorbită şi
@@ -51,7 +51,7 @@ arborelui ar fi zero, deoarece sarcina nu consumă deloc putere.
 Să considerăm acum un circuit cu sarcină rezistiv-inductivă:
 
 #+CAPTION: circuit electric monofazat de curent alternativ cu sarcină
-rezistiv-inductivă [[../poze/02213.png]] #+CAPTION: calcule matematice
+#+CAPTION: rezistiv-inductivă [[../poze/02213.png]] #+CAPTION: calcule matematice
 [[../poze/12122.png]]
 
 Aceasta este valoarea efectivă a curentului (1.41 A) pe care ar arăta-o
@@ -116,12 +116,12 @@ folosită doar în acest scop. Să luăm următoarele circuit pur rezistiv ca
 şi prim exemplu:
 
 #+CAPTION: calcularea puterii reale, reactive şi aparente într-un
-circuit electric de curent alternativ pur rezistiv [[../poze/02215.png]]
+#+CAPTION: circuit electric de curent alternativ pur rezistiv [[../poze/02215.png]]
 
 Pentru un circuit pur inductiv (pur reactiv):
 
 #+CAPTION: calcularea puterii reale, reactive şi aparente într-un
-circuit electric de curent alternativ pur inductiv [[../poze/02216.png]]
+#+CAPTION: circuit electric de curent alternativ pur inductiv [[../poze/02216.png]]
 
 Pentru un circuit rezistiv-inductiv:
 

@@ -32,7 +32,7 @@ Odată atinsă tensiunea bateriei de către condensator (15 V), curentul va
 fi exact zero.
 
 #+CAPTION: circuit RC - graficul variaţiei tensiunii condensatorului cu
-timpul [[../poze/00331.png]] **
+#+CAPTION: timpul [[../poze/00331.png]] **
 
 #+BEGIN_EXAMPLE
     ------------------------------------------------
@@ -109,7 +109,7 @@ circuitul RC (rezistor-condensator), unde curentul iniţial a fost maxim
 iar tensiunea pe condensator zero.
 
 #+CAPTION: raspunsul timp-tensiune al bobinei la conectarea unei surse
-de tensiune la bornele sale într-un circuit RL [[../poze/00333.png]] **
+#+CAPTION: de tensiune la bornele sale într-un circuit RL [[../poze/00333.png]] **
 
 #+BEGIN_EXAMPLE
     ---------------------------------------------
@@ -223,7 +223,7 @@ aceste valori cu diferenţa dintre valorile iniţiale şi cele finale ale
 tensiunii/curentului:
 
 #+CAPTION: formula universală de calcul a variaţiei valorilor dintr-un
-circuit ractiv de curent continuu tranzitoriu [[../poze/10245.png]]
+#+CAPTION: circuit ractiv de curent continuu tranzitoriu [[../poze/10245.png]]
 
 *** Analiza circuitului RC
 
@@ -435,7 +435,7 @@ Să considerăm următoarea ilustraţie pentru condensator, considerând
 energia stocată în acest ca fiind energie potenţială:
 
 #+CAPTION: stocarea şi eliberarea energiei potenţiale - analogie pentru
-modul de stocare al energiei pentru condensator [[../poze/00366.png]]
+#+CAPTION: modul de stocare al energiei pentru condensator [[../poze/00366.png]]
 
 Căruciorul, atunci când se afla în vârful pantei, posedă energie
 potenţială datorată influenţei gravitaţiei şi poziţiei sale din vârf.
@@ -460,7 +460,7 @@ Să considerăm acum o analigie mecanică pentru bobină, reprezentând
 energie stocată de acesta sub formă cinetică:
 
 #+CAPTION: stocarea şi eliberarea energiei cinetice - analogie pentru
-modul de stocare al energiei pentru bobină [[../poze/00367.png]]
+#+CAPTION: modul de stocare al energiei pentru bobină [[../poze/00367.png]]
 
 De această dată, căruciorul se află la nivelul solului şi este deja în
 mişcare. Energia sa în acest caz este energie cinetică (mişcare), nu

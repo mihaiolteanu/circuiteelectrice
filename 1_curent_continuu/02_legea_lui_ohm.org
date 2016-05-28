@@ -523,7 +523,7 @@ lucruri sunt evidente, atâta timp cât rezistenţa becului la deplasarea
 electronilor rămâne constantă la 3 Ω.
 
 #+CAPTION: circuit electric simplu, dublarea tensiunii rezultă în
-dublarea curentului [[../poze/00045.png]]
+#+CAPTION: dublarea curentului [[../poze/00045.png]]
 
 Totuşi, realitatea nu este atât de simplă. Unul din fenomenele
 prezentate într-un capitol viitor este cel al /modificării/ rezistenţei
@@ -554,7 +554,7 @@ constantă a filamentului de 3 Ω, generează un grafic asemănător celui de
 jos:
 
 #+CAPTION: graficul curent-tensiune într-un circuit electric simplu
-idealizat [[../poze/00046.png]]
+#+CAPTION: idealizat [[../poze/00046.png]]
 
 Linia dreaptă de pe grafic desemnează faptul că rezistenţa este stabilă
 pentru o varietate de tensiuni şi curenţi din circuit. Acest lucru se
@@ -568,7 +568,7 @@ când tensiunea la bornele bateriei variază într-un domeniu larg, este
 reprezentat prin graficul de mai jos:
 
 #+CAPTION: graficul curent-tensiune într-un circuit electric simplu
-idealizat [[../poze/00047.png]]
+#+CAPTION: idealizat [[../poze/00047.png]]
 
 Acest grafic nu mai este o linie dreaptă. Acesta creşte brusc în partea
 stângă, odată cu creşterea tensiunii de la zero la o valoarea scăzută.
@@ -596,7 +596,7 @@ precum în circuitul precedent, putem observa foarte clar efectul
 neliniar al ionizării:
 
 #+CAPTION: graficul curent-tensiune neliniar în cazul ionizării
-dielectricului dintre borne [[../poze/00048.png]]
+#+CAPTION: dielectricului dintre borne [[../poze/00048.png]]
 
 Graficul de mai sus este aproximat pentru o grosime a dielectricului
 (aer) de 1cm. O eventuală distanţă mai mare dintre cei doi conductori ar
@@ -844,7 +844,7 @@ electronilor prin circuit, ceea ce înseamnă că borna pe unde curentul
 curentul /iese/ din rezistor este cea pozitivă.
 
 #+CAPTION: marcarea polarităţii căderii de tensiune într-un circuit
-simplu [[../poze/00052.png]]
+#+CAPTION: simplu [[../poze/00052.png]]
 
 #+BEGIN_EXAMPLE
     Între punctele 1 (+) şi 4 (-) = 10 volţi                     

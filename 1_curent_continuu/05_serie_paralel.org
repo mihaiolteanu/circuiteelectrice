@@ -106,7 +106,7 @@ circuitului, pentru că acestea se referă la aceleaşi două puncte din
 circuit:
 
 #+CAPTION: circuit serie [[../poze/00088.png]] #+CAPTION: relaţii
-matematice [[../poze/10056.png]]
+#+CAPTION: matematice [[../poze/10056.png]]
 
 Din moment ce punctele 1 şi 2 sunt conectate împreună printr-un fir de o
 rezistenţă neglijabilă (la fel şi punctele 3 şi 4), putem spune că
@@ -247,7 +247,7 @@ totală a curentului prin circuit trebuie să fie egală cu suma valorilor
 curenţilor prin fiecare ramură (fiecare rezistor în parte):
 
 #+CAPTION: circuit paralel [[../poze/00093.png]] #+CAPTION: calcule
-matematice [[../poze/10074\_2.png]]
+#+CAPTION: matematice [[../poze/10074\_2.png]]
 
 Pe măsură ce curentul iese prin terminalul negativ (-) al bateriei la
 punctul 8 şi se deplasează prin circuit, o parte din această cantitate

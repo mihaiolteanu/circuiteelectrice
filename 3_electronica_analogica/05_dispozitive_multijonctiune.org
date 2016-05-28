@@ -154,7 +154,7 @@ Tensiunea de sarcină într-un astfel de circuit va arăta aproximativ
 precum în figura alăturată.
 
 #+CAPTION: forma de undă a tensiunii de sarcină într-un circuit cu
-tiratron [[../poze/03190.png]]
+#+CAPTION: tiratron [[../poze/03190.png]]
 
 Pe măsură ce tensiunea de c.a. creşte de la zero volţi spre primul vârf,
 tensiunea pe sarcină rămâne de zero volţi (curent de sarcină zero) până
@@ -266,7 +266,7 @@ histerezisul este evident. Iniţial, observăm circuitul atunci când sursa
 de tensiune de c.c. (bateria) este de zero volţi.
 
 #+CAPTION: circuit cu dioda Shockley; graficul curent-tensiune; sursa de
-c.c. de zero volţi [[../poze/03196.png]]
+#+CAPTION: c.c. de zero volţi [[../poze/03196.png]]
 
 Următorul pas este creşterea treptată a tensiunii de c.c. aplicate.
 Curentul prin circuit este zero sau foarte apropiat de această valoare,
@@ -274,7 +274,7 @@ datorită faptului că limita de intrare în conducţie a tranzistorului nu
 a fost atinsă pentru niciunul din cele două dispozitive.
 
 #+CAPTION: circuit cu dioda Shockley; graficul curent-tensiune;
-tensiunea sursei de curent continuu creşte treptat [[../poze/03197.png]]
+#+CAPTION: tensiunea sursei de curent continuu creşte treptat [[../poze/03197.png]]
 
 Atunci când limita de străpungere a unuia dintre tranzistori este
 atinsă, acest lucru va duce la apariţia unui curent prin colector chiar
@@ -288,7 +288,7 @@ conducţie, ducând la apariţia unui curent de bază prin tranzistorul
 superior.
 
 #+CAPTION: circuit cu dioda Shockley; graficul curent-tensiune; intrarea
-în conducţie a unuia dintre tranzistori [[../poze/03198.png]]
+#+CAPTION: în conducţie a unuia dintre tranzistori [[../poze/03198.png]]
 
 După ce tranzistorul de sus primeşte un curent de bază, şi acesta va
 intra în conducţie. Acest fapt duce la intrarea în conducţie normală
@@ -297,7 +297,7 @@ tranzistori rămânând în starea de conducţie. Curentul prin circuit trece
 rapid la valoarea maximă.
 
 #+CAPTION: circuit cu dioda Shockley; graficul curent-tensiune; intrarea
-în conducţie a ambilor tranzistori [[../poze/03199.png]]
+#+CAPTION: în conducţie a ambilor tranzistori [[../poze/03199.png]]
 
 Reacţia pozitivă este evidentă în această situaţie. Atunci când are loc
 străpungerea unuia dintre tranzistori, acest lucru duce la existenţa
@@ -333,7 +333,7 @@ ambii tranzistori intră în starea de blocare.
 
 #+CAPTION: circuit cu dioda Shockley; graficul curent-tensiune;
 reintrarea tranzistorilor în stare de blocare pe măsură ce tensiunea
-sursei de c.c. scade sub o anumită valoare [[../poze/03201.png]]
+#+CAPTION: sursei de c.c. scade sub o anumită valoare [[../poze/03201.png]]
 
 Din nou putem vedea efectele reacţiei pozitive: faptul că ciclul
 cauză-efect dintre cei doi tranzistori este „vicios” (a descreşte a
@@ -545,7 +545,7 @@ folosit pe post de circuit de control al pornirii/opririi unui motor,
 lampă sau orice altă sarcină practică.
 
 #+CAPTION: circuit cu tiristor pentru controlul pornirii/opririi unui
-motor [[../poze/03209.png]]
+#+CAPTION: motor [[../poze/03209.png]]
 
 ** Circuit de protecţie crowbar
 
@@ -629,7 +629,7 @@ trebui să atingă un punct mai mare în cadrul semi-alternanţei pentru a
 crea un curent suficient de mare necesar aprinderii tiristorului.
 
 #+CAPTION: circuit cu tiristor; forma de undă cu o rezistenţa introdusă
-în circuitul porţii [[../poze/03213.png]]
+#+CAPTION: în circuitul porţii [[../poze/03213.png]]
 
 Odată cu tăierea alternanţei pozitive a undei sinusoidale la un nivel
 mai mare decât în cazul precedent prin îtârzierea intrării în conducţie
@@ -653,7 +653,7 @@ circuitul este setat la puterea minimă la care sarcina poate fi
 alimentată în această configuraţie.
 
 #+CAPTION: circuit cu tiristor; pragul maxim de aprindere al
-tiristorului [[../poze/03215.png]]
+#+CAPTION: tiristorului [[../poze/03215.png]]
 
 Dacă în această situaţie vom continua să mărimi pragul de aprindere,
 tiristorul nu va mai intra deloc în conducţie, din moment ce nici măcar
@@ -700,7 +700,7 @@ aprindere pe poarta şi catodul tiristorului pentru asigurarea izolaţiei
 electrice dintre aprindere şi circuitele de putere.
 
 #+CAPTION: utilizarea unui transformator de impulsuri pentru separarea
-circuitului de aprindere de circuitul de putere [[../poze/03218.png]]
+#+CAPTION: circuitului de aprindere de circuitul de putere [[../poze/03218.png]]
 
 Atunci când se folosesc mai multe tiristoare pentru comanda puterii pe
 sarcină, adesea catozii nu sunt comuni din punct de vedere electric,
@@ -793,7 +793,7 @@ impulsurilor pe poartă. Acest lucru se poate realiza cu ajutorul unui
 diac.
 
 #+CAPTION: circuit dimmer cu lampă folosind triac; conectarea unui diac
-în serie cu poarta triacului [[../poze/03225.png]]
+#+CAPTION: în serie cu poarta triacului [[../poze/03225.png]]
 
 Tensiunile de străpungere ale diacelor tind să fie mult mai simetrice
 (aceeiaşi valoare pentru ambele polarităţi ale formei de undă) faţă de

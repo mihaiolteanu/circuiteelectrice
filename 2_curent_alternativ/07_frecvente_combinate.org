@@ -37,7 +37,7 @@ curent alternativ se poate cupla la circuitul de curent alternativ prin
 inductanţa (M_{p}) şi capacitatea parazită (C_{p}):
 
 #+CAPTION: cuplaj inductiv şi cuplaj capacitiv între un circuit de
-curent continuu şi unul de curent alternativ [[../poze/02302.png]]
+#+CAPTION: curent continuu şi unul de curent alternativ [[../poze/02302.png]]
 
 *** Folosirea cablurilor răsucite şi ecranate
 
@@ -69,7 +69,7 @@ alternativ, caz în care ambele semnale vor purta o combinaţie de
 frecvenţe:
 
 #+CAPTION: cuplaj inductiv şi cuplaj capacitiv între două circuite de
-curent alternativ [[../poze/02304.png]]
+#+CAPTION: curent alternativ [[../poze/02304.png]]
 
 *** Alte moduri de generare a frecvenţelor multiple
 
@@ -171,14 +171,14 @@ moment, nu mai seamană cu un semnal sinusoidal pur (semnalul combinat
 este cel cu roşu):
 
 #+CAPTION: graficul formei de undă sinusoidale fundamentale, la 50 Hz
-plus armonica a 3-a [[../poze/22014.png]]
+#+CAPTION: plus armonica a 3-a [[../poze/22014.png]]
 
 Panta formei de undă la intersecţia cu axa orizontală a timpului este
 mult mai mare acum, semn că forma de undă iniţială se apropie de cea
 dreptunghiulară. Să adăugăm în continuare şi armonica a 5-a pe grafic:
 
 #+CAPTION: graficul formei de undă sinusoidale fundamentale, la 50 Hz,
-plus armonicele a 3-a şi a 5-a [[../poze/22015.png]]
+#+CAPTION: plus armonicele a 3-a şi a 5-a [[../poze/22015.png]]
 
 Armonica a 5-a (250 Hz) este reprezentată pe graficul de mai sus cu
 albastru, iar efectele combinate a celor două armonici cu fundamentale
@@ -189,9 +189,9 @@ iniţială, iar panta a crescut şi mai mult faţă de cazul precedent.
 Adăugăm pe rând şi armonicele a 7-a, respectiv a 9-a:
 
 #+CAPTION: graficul formei de undă sinusoidale fundamentale, la 50 Hz,
-plus armonicele a 3-a, a 5-a şi a 7-a [[../poze/22016.png]] #+CAPTION:
+#+CAPTION: plus armonicele a 3-a, a 5-a şi a 7-a [[../poze/22016.png]] #+CAPTION:
 graficul formei de undă sinusoidale fundamentale, la 50 Hz, plus
-armonicele a 3-a, a 5-a, a 7-a şi a 9-a [[../poze/22017.png]]
+#+CAPTION: armonicele a 3-a, a 5-a, a 7-a şi a 9-a [[../poze/22017.png]]
 
 Rezultatul însumării celor 5 armonici, cu amplitidinile de rigoare,
 reprezintă o aproximare destul de bună a unui semnal dreptunghiular.
@@ -257,7 +257,7 @@ afişajul unui osciloscop şi prezintă amplitudinea tensiunii (axa
 verticală) cu timpul (axa orizontală):
 
 #+CAPTION: formă de undă sinusoidală afişată pe osciloscop; variaţia
-amplitudine-timp [[../poze/02279.png]]
+#+CAPTION: amplitudine-timp [[../poze/02279.png]]
 
 Dacă observăm cu atenţie unde sinusoidală putem vedea că există anumite
 imperfecţii ale formei acestia. Din păcate, acesta este rezultatul
@@ -284,7 +284,7 @@ este de fapt o combinaţie de semnale sinusoidale de frecvenţe şi
 amplitudini diferite:
 
 #+CAPTION: formă de undă ne-sinusoidală afişată pe osciloscop; variaţia
-amplitudine-timp [[../poze/02281.png]]
+#+CAPTION: amplitudine-timp [[../poze/02281.png]]
 
 Analiza spectrală este mult mai uşor de analizat, întrucât fiecărei note
 (sinusoidale) îi corespune pe grafic un vârf, în funcţie de frecvenţa
@@ -297,8 +297,8 @@ Să luăm în continuare alte forme de undă muzicale, şi să le analizăm
 grafic:
 
 #+CAPTION: formă de undă ne-sinusoidală afişată pe osciloscop; variaţia
-amplitudine-timp [[../poze/02283.png]] #+CAPTION: analiza spectrală a
-unei forme de undă ne-sinusoidale [[../poze/02284.png]]
+#+CAPTION: amplitudine-timp [[../poze/02283.png]] #+CAPTION: analiza spectrală a
+#+CAPTION: unei forme de undă ne-sinusoidale [[../poze/02284.png]]
 
 Primul vârf îl reprezintă fundamentala, iar celelalte vârfuri (2-6) sunt
 armonicele formei de undă ne-sinusoidale considerate mai sus.
@@ -306,14 +306,14 @@ armonicele formei de undă ne-sinusoidale considerate mai sus.
 Un alt exemplu:
 
 #+CAPTION: formă de undă ne-sinusoidală afişată pe osciloscop; variaţia
-amplitudine-timp [[../poze/02285.png]] #+CAPTION: analiza spectrală a
-unei forme de undă ne-sinusoidale [[../poze/02286.png]]
+#+CAPTION: amplitudine-timp [[../poze/02285.png]] #+CAPTION: analiza spectrală a
+#+CAPTION: unei forme de undă ne-sinusoidale [[../poze/02286.png]]
 
 Să luăm din nou o formă de undă dreptunghiulară:
 
 #+CAPTION: formă de undă dreptunghiulară afişată pe osciloscop; variaţia
-amplitudine-timp [[../poze/02287.png]] #+CAPTION: analiza spectrală a
-unui semnal dreptunghiular [[../poze/02288.png]]
+#+CAPTION: amplitudine-timp [[../poze/02287.png]] #+CAPTION: analiza spectrală a
+#+CAPTION: unui semnal dreptunghiular [[../poze/02288.png]]
 
 Conform analizei spectrale, această formă de undă /nu/ conţine armonici
 pare, doar impare. Cu toate că afişajul osciloscopului nu permite
@@ -323,8 +323,8 @@ continuă la infinit, cu o amplitudine din ce în ce mai mică.
 Să considerăm şi un semnal triunghiular:
 
 #+CAPTION: formă de undă triunghiulară afişată pe osciloscop; variaţia
-amplitudine-timp [[../poze/02289.png]] #+CAPTION: analiza spectrală a
-unui semnal triunghiular [[../poze/02290.png]]
+#+CAPTION: amplitudine-timp [[../poze/02289.png]] #+CAPTION: analiza spectrală a
+#+CAPTION: unui semnal triunghiular [[../poze/02290.png]]
 
 În acest caz, nu există practic armonici pare: singurele armonici sunt
 cele pare. Deşi putem vedea vârfuri mici pentru armonicele 2, 4 şi 6,
@@ -337,8 +337,8 @@ respective nu sunt identice.
 Să analizăm şi semnalul dinte de fierăstrău:
 
 #+CAPTION: formă de undă dinte de fierăstrău afişată pe osciloscop;
-variaţia amplitudine-timp [[../poze/02291.png]] #+CAPTION: analiza
-spectrală a unui semnal dinte de fierăstrău [[../poze/02292.png]]
+#+CAPTION: variaţia amplitudine-timp [[../poze/02291.png]] #+CAPTION: analiza
+#+CAPTION: spectrală a unui semnal dinte de fierăstrău [[../poze/02292.png]]
 
 *** Diferenţa dintre armonicile pare şi impare
 
@@ -360,7 +360,7 @@ Cele care nu sunt simetrice faţă de orzontală, conţin însă şi armonici
 pare:
 
 #+CAPTION: forme de undă asimetrice faţă de orizonatală - conţine forme
-de undă pare [[../poze/02294.png]]
+#+CAPTION: de undă pare [[../poze/02294.png]]
 
 Trebuie înţeles faptul că simetria se referă exclusiv la axa orizontală
 a undei, şi nu neapărat la axa orizontală a timpului. Să luăm de exemplu
@@ -374,14 +374,14 @@ niciun fel conţinutul armonicilor (frecvenţa ei este zero):
 
 #+CAPTION: forme de undă ce nu conţin armonici pare (dreptunghiulară,
 triunghiulară şi pur sinusoidală plus o componentă de curent continuu) -
-simetrice faţă de axa lor orizontală [[../poze/02296.png]]
+#+CAPTION: simetrice faţă de axa lor orizontală [[../poze/02296.png]]
 
 Acelaşi lucru este valabil şi pentru formele de undă nesimetrice faţă de
 orizontală, conţinutul armonic al acestor forme de undă nu va fi afectat
 de introducerea componentei de curent continuu:
 
 #+CAPTION: forme de undă asimetrice faţă de orizonatală - conţine forme
-de undă pare [[../poze/02297.png]]
+#+CAPTION: de undă pare [[../poze/02297.png]]
 
 Sumar:
 
@@ -414,14 +414,14 @@ circuitului se face considerând fiecare „sursă” în pare, însumând la
 final rezultatele pentru a determina efectul total asupra circuitului:
 
 #+CAPTION: circuit electric alimentat printr-o combinaţie de frecvenţe
-de 60 Hz, respectiv 90 Hz [[../poze/02113.png]]
+#+CAPTION: de 60 Hz, respectiv 90 Hz [[../poze/02113.png]]
 
 Primul pas constă în analiza circuitului alimentat doar cu sursa de
 tensiune de 60 Hz:
 
 #+CAPTION: circuit electric alimentat printr-o combinaţie de frecvenţe
 de 60 Hz, respectiv 90 Hz - analiza circuitului doar cu sursa de
-tensiune de 60 Hz [[../poze/02114.png]] #+CAPTION: tabel
+#+CAPTION: tensiune de 60 Hz [[../poze/02114.png]] #+CAPTION: tabel
 [[../poze/12094.png]]
 
 Apoi analizăm circuitul considerând doar efectele sursei de tensiune de
@@ -429,7 +429,7 @@ Apoi analizăm circuitul considerând doar efectele sursei de tensiune de
 
 #+CAPTION: circuit electric alimentat printr-o combinaţie de frecvenţe
 de 60 Hz, respectiv 90 Hz - analiza circuitului doar cu sursa de
-tensiune de 90 Hz [[../poze/02115.png]] #+CAPTION: tabel
+#+CAPTION: tensiune de 90 Hz [[../poze/02115.png]] #+CAPTION: tabel
 [[../poze/12095.png]]
 
 Folosind teorema superpoziţiei (suma efectelor celor două surse de

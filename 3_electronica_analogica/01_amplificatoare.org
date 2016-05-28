@@ -106,7 +106,7 @@ electrice şi electronice, au o eficienţă maximă de 100%. În cele mai
 fericite cazuri, puterea de intrare este egală cu puterea de ieşire:
 
 #+CAPTION: eficienţa unei maşini ideale este de 100%, dar nu poate fi
-mai mare de atât [[../poze/03165.png]]
+#+CAPTION: mai mare de atât [[../poze/03165.png]]
 
 În realitate însă, de cele mai multe ori, maşinile nu ating nici măcar
 această limită superioară, deoarece o parte din energia de intrare se
@@ -114,7 +114,7 @@ pierde sub formă de căldură radiată în spaţiul din jur, iar această
 energie pierdută nu se regăseşte în valoarea energiei de ieşire.
 
 #+CAPTION: eficienţa unei maşini reale este sub 100%, datorită
-pierderilor sub formă de căldură [[../poze/03166.png]]
+#+CAPTION: pierderilor sub formă de căldură [[../poze/03166.png]]
 
 Au existat numeroase încercări, fără succes însă, de a proiecta şi
 construi o maşină a cărei putere de ieşire să fie mai mare decât puterea

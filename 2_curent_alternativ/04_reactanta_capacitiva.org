@@ -39,7 +39,7 @@ circuit simpul pur capacitiv:
 90^{o}. Graficul celor două forme de undă arată asfel:
 
 #+CAPTION: graficul formelor de undă pentru un circuit electric pur
-capacitiv [[../poze/02069.png]]
+#+CAPTION: capacitiv [[../poze/02069.png]]
 
 Reţineti, curentul printr-un condensator este rezultatul variaţiei
 tensiunii la bornele acestuia. Prin urmare, curentu instantaneu este
@@ -54,13 +54,13 @@ pare să aibe un „avantaj” faţă de tensiune; curentul este defazat
 curentului.
 
 #+CAPTION: graficul explicat al formelor de undă pentru un circuit
-electric pur capacitiv [[../poze/02070.png]]
+#+CAPTION: electric pur capacitiv [[../poze/02070.png]]
 
 Forma de undă pentru putere este asemănătoare celei existente în cazul
 circuitului pur inductiv:
 
 #+CAPTION: graficul formelor de undă pentru un circuit electric pur
-capacitiv [[../poze/02071.png]]
+#+CAPTION: capacitiv [[../poze/02071.png]]
 
 Defazajul de 90^{o} dintre curent şi tensiune duce la o formă a undei de
 putere ce alternează în mod egal între pozitiv şi negativ. Aceast lucru
@@ -123,8 +123,8 @@ sub formă matematică, putem calcula unghiul de fază al opoziţiei
 reactive a condensatorului faţă de curent:
 
 #+CAPTION: calcularea opoziţiei condensatorului faţă de curent într-un
-circuit pur capacitiv [[../poze/12044.png]] #+CAPTION: circuit capacitiv
-simplu - diagrama fazorială [[../poze/02073.png]]
+#+CAPTION: circuit pur capacitiv [[../poze/12044.png]] #+CAPTION: circuit capacitiv
+#+CAPTION: simplu - diagrama fazorială [[../poze/02073.png]]
 
 Sumar:
 
@@ -185,7 +185,7 @@ tensiunii (sursei), cu toate că de data aceasta diferenţa este de
 79.325^{o}, nu 90^{o}.
 
 #+CAPTION: defazajul dintre curent şi tensiune într-un circuit electric
-rezistiv-capacitiv - formele de undă [[../poze/02075.png]]
+#+CAPTION: rezistiv-capacitiv - formele de undă [[../poze/02075.png]]
 
 Să folosim din nou metoda tabelului pentru analiza circuitului de mai
 sus. Primul pas este introducerea tuturor cantităţilor cunoscute în
@@ -238,7 +238,7 @@ tensiunea. Prin urmare, diagrama fazorială a tensiunii poate fi
 înlocuită cu o diagramă similară a impedanţei:
 
 #+CAPTION: circuit electric rezitiv-capacitiv serie; diagrama fazorială
-a tensiunii şi a impedanţei [[../poze/02516.png]]
+#+CAPTION: a tensiunii şi a impedanţei [[../poze/02516.png]]
 
 *** Exemplu
 

@@ -167,7 +167,7 @@ prin acesta. În principiu, acesta este un dispozitiv ce controlează
 electricitatea cu ajutorul electricităţii.
 
 #+CAPTION: închiderea contactului la trecerea curentului prin
-electromagnet [[../poze/00394.png]]
+#+CAPTION: electromagnet [[../poze/00394.png]]
 
 Întrerupătoarele pot fi construite pentru a acţiona multiple contacte,
 sau pentru a funcţiona „invers” (/deschiderea/ contactelor la trecerea
@@ -270,7 +270,7 @@ electromotoare, curent şi rezistenţă, şi pot fi consuderate un fel de
 legea lui Ohm pentru circuite magnetice:
 
 #+CAPTION: comparaţie pentru legea lui Ohm între circuitele electrice şi
-magnetice [[../poze/10234.png]]
+#+CAPTION: magnetice [[../poze/10234.png]]
 
 Ştiind faptul că permeabilitatea este asemănătoare rezistenţei specifice
 (inversă), ecuaţia pentru aflarea reluctanţei materialului magnetic este
@@ -510,7 +510,7 @@ primară) creşte, curentul va deşcreşte cu aceeiaşi rată. Acest
 comportament al transformatorului este analog unui angrenaj mecanic:
 
 #+CAPTION: analogie între reducerea cuplului folosind roţi dinţate şi
-transformatorul coborâtor de tensiune [[../poze/00319.png]]
+#+CAPTION: transformatorul coborâtor de tensiune [[../poze/00319.png]]
 
 Un transformator conceput pentru obţineare unei tensiune mai mari la
 bornele înfăşurări secundare (înfăşurare nealimentată) faţă de cea

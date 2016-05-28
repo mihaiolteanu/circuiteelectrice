@@ -56,9 +56,9 @@ precum şi comutatoarelor conectate în paralel:
 
 #+CAPTION: poartă logică SAU şi comutatoare paralel (0 + 0)
 [[../poze/14009.png]] #+CAPTION: poartă logică SAU şi comutatoare
-paralel (0 + 1) [[../poze/14010.png]] #+CAPTION: poartă logică SAU şi
-comutatoare paralel (1 + 0) [[../poze/14011.png]] #+CAPTION: poartă
-logică SAU şi comutatoare paralel (1 + 1) [[../poze/14012.png]]
+#+CAPTION: paralel (0 + 1) [[../poze/14010.png]] #+CAPTION: poartă logică SAU şi
+#+CAPTION: comutatoare paralel (1 + 0) [[../poze/14011.png]] #+CAPTION: poartă
+#+CAPTION: logică SAU şi comutatoare paralel (1 + 1) [[../poze/14012.png]]
 
 ** Scăderea şi împărţirea booleană
 
@@ -87,8 +87,8 @@ comutatoarelor conectate în serie:
 #+CAPTION: poartă logică ŞI şi comutatoare serie (0 x 0)
 [[../poze/14013.png]] #+CAPTION: poartă logică ŞI şi comutatoare serie
 (0 x 1) [[../poze/14014.png]] #+CAPTION: poartă logică ŞI şi comutatoare
-serie (1 x 0) [[../poze/14015.png]] #+CAPTION: poartă logică ŞI şi
-comutatoare serie (1 x 1) [[../poze/14016.png]]
+#+CAPTION: serie (1 x 0) [[../poze/14015.png]] #+CAPTION: poartă logică ŞI şi
+#+CAPTION: comutatoare serie (1 x 1) [[../poze/14016.png]]
 
 ** Variabile booleene şi complementul lor
 
@@ -111,7 +111,7 @@ Complementarea booleeană este echivalentă cu o poartă logică NU, sau cu
 un contact normal-închis:
 
 #+CAPTION: complementul unei variabile booleene; poartă logică SAU şi
-contact normal-închis [[../poze/14017.png]] #+CAPTION: complementul unei
+#+CAPTION: contact normal-închis [[../poze/14017.png]] #+CAPTION: complementul unei
 variabile booleene; poartă logică SAU şi contact normal-închis
 [[../poze/14018.png]]
 
@@ -188,8 +188,8 @@ A şi A x A'. Dintre acestea, primele două nu sunt deloc diferite de
 identităţile echivalente ale algebrei numerelor reale:
 
 #+CAPTION: identităţi algebrice multiplicative: produsul dintre o
-variabilă şi zero [[../poze/14023.png]] #+CAPTION: identităţi algebrice
-multiplicative: produsul dintre o variabilă şi unu [[../poze/14024.png]]
+#+CAPTION: variabilă şi zero [[../poze/14023.png]] #+CAPTION: identităţi algebrice
+#+CAPTION: multiplicative: produsul dintre o variabilă şi unu [[../poze/14024.png]]
 
 Cea de a treia identitate multiplicativă exprimă rezultatul unei
 variabile booleene înmulţită cu ea însăşi. În algebra numerelor reale,
@@ -200,7 +200,7 @@ ce nu poate fi exprimată prin algebra booleană. Nu putem spune că A x A
 valoarea iniţială, din moment ce 0 x 0 = 0 şi 1 x 1 = 1:
 
 #+CAPTION: identităţi algebrice multiplicative: produsul dintre o
-variabilă şi ea însăşi [[../poze/14025.png]]
+#+CAPTION: variabilă şi ea însăşi [[../poze/14025.png]]
 
 A patra identitate multiplicativă nu are echivalent în algebra numerelor
 reale, doarece utilizaează complementul variabilei. Acest concept este
@@ -210,7 +210,7 @@ produsul oricărei valorii booleene cu 0 este 0, produsul dintre o
 variabilă şi complementul acesteia trebuei să fie 0:
 
 #+CAPTION: identităţi algebrice multiplicative: produsul dintre o
-variabilă şi complementul ei [[../poze/14026.png]]
+#+CAPTION: variabilă şi complementul ei [[../poze/14026.png]]
 
 În concluzie, avem patru identităti booleene de bază pentru adunare şi
 patru pentru produs (multiplicative):
@@ -278,7 +278,7 @@ expresii booleene formate din înmulţirea unei sume:
 asociativitatea şi distributivitatea:
 
 #+CAPTION: proprietăţi boolene: comutativitatea, asociativitatea şi
-distributivitatea [[../poze/14034.png]]
+#+CAPTION: distributivitatea [[../poze/14034.png]]
 
 Sumar:
 
@@ -376,19 +376,19 @@ adunării booleene, iar porţile ŞI sunt echivalente înmulţirii booleene.
 Să scriem aşadar sub-expresii la ieşirea primelor trei porţi:
 
 #+CAPTION: circuit cu porţi logice; scrierea sub-expresiilor la ieşirea
-porţilor [[../poze/04288.png]]
+#+CAPTION: porţilor [[../poze/04288.png]]
 
 Scriem apoi sub-expresiile următoarelor seturi de porţi. În cazul de
 faţa, avem doar o singură poartă pe nivelul următor:
 
 #+CAPTION: circuit cu porţi logice; scrierea sub-expresiilor la ieşirea
-porţilor [[../poze/04289.png]]
+#+CAPTION: porţilor [[../poze/04289.png]]
 
 Şi, în sfârşit, ieşirea (Q) circuitului logic este egală cu următoarea
 expresie:
 
 #+CAPTION: circuit cu porţi logice; scrierea sub-expresiilor la ieşirea
-porţilor [[../poze/04290.png]]
+#+CAPTION: porţilor [[../poze/04290.png]]
 
 *** Simplificarea expresiei booleene
 
@@ -636,7 +636,7 @@ sub-expresiilor la ieşirea fiecărei porţi, pe măsură ce intrările ne
 sunt cunoscute:
 
 #+CAPTION: circuit cu porţi logice; notarea sub-expresiilor la ieşirea
-porţilor [[../poze/04303.png]]
+#+CAPTION: porţilor [[../poze/04303.png]]
 
 Apoi, notăm ieşirea primei porţi SAU-negat şi ieşirea porţii ŞI-negat.
 Atunci când aveam de a face cu porţi inversate pe ieşire, este mai uşor
@@ -647,13 +647,13 @@ complementul expresiei precedente. Astfel, ne putem asigura că nu uităm
 introducerea complementului în cadrul expresiei:
 
 #+CAPTION: circuit cu porţi logice; notarea sub-expresiilor la ieşirea
-porţilor [[../poze/04304.png]]
+#+CAPTION: porţilor [[../poze/04304.png]]
 
 Şi, în sfârşit, ultimul pas constă în scrierea expresiei pentru poarta
 SAU-negat finală:
 
 #+CAPTION: circuit cu porţi logice; notarea sub-expresiilor la ieşirea
-porţilor [[../poze/04305.png]]
+#+CAPTION: porţilor [[../poze/04305.png]]
 
 *** Simplificare expresiei echivalente
 
@@ -719,7 +719,7 @@ unui sistem logic:
 
 #+CAPTION: incinerator deşeuri toxice; utilizarea senzorilor şi a
 circuitului logic pentru închiderea alimentării în cazul în care flacăra
-nu este detectată [[../poze/04361.png]]
+#+CAPTION: nu este detectată [[../poze/04361.png]]
 
 Scopul nostru acum, este să proiectăm circuitul logic astfel încât
 acesta să deschidă valva de admisie doar dacă există flacără (detectată
@@ -811,7 +811,7 @@ fie cu porţi logice:
 Fie cu relee electromecanice:
 
 #+CAPTION: incinerator deşeuri toxice; circuitul logic (relee
-electromecanice [[../poze/04365.png]]
+#+CAPTION: electromecanice [[../poze/04365.png]]
 
 ** Simplificarea expresiei booleene
 
@@ -832,7 +832,7 @@ fie cu porţi logice:
 Fie cu relee electromecanice:
 
 #+CAPTION: incinerator deşeuri toxice; circuitul logic (relee
-electromecanice [[../poze/04367.png]]
+#+CAPTION: electromecanice [[../poze/04367.png]]
 
 Sumar:
 

@@ -69,7 +69,7 @@ unui întrerupător (figura de mai jos (a)):
 #+CAPTION: (a) controlul unei lămpi cu ajutorul unui întrerupător; (b)
 introducerea în circuit a unui tranzistor NPN în locul întrerupătorului;
 (c) introducerea în circuit a unui tranzistor PNP în locul
-întrerupătorului; [[../poze/03075.png]]
+#+CAPTION: întrerupătorului; [[../poze/03075.png]]
 
 Pentru exemplificare, să inserăm acum un tranzistor (b) în locul
 întrerupătorului mecanic de la punctul (a). Ţineţi minte, curentul
@@ -116,13 +116,13 @@ directe de 0.7 V (V_{BE}) între bază şi emitor, tensiune necesară pentru
 apariţia curentului de bază şi pornirea tranzistorului.
 
 #+CAPTION: controlul unei lămpi cu ajutorul unui tranzistor acţionat de
-o celulă solară [[../poze/03079.png]]
+#+CAPTION: o celulă solară [[../poze/03079.png]]
 
 Sau putem folosi mai multe termocuple conectate în serie pentru
 generarea curentului bazei necesar pornirii tranzistorului:
 
 #+CAPTION: controlul unei lămpi cu ajutorul unui tranzistor acţionat de
-o termocuplă [[../poze/03080.png]]
+#+CAPTION: o termocuplă [[../poze/03080.png]]
 
 Putem folosi chiar şi un microfon, care cu o tensiune şi un curent
 (printr-un aplificator) suficient de mari, ar putea pune tranzistorul în
@@ -131,7 +131,7 @@ alternativ în curent continuu, pentru ca joncţiunea emitor-bază să fie
 tot timpul polarizată direct:
 
 #+CAPTION: controlul unei lămpi cu ajutorul unui tranzistor acţionat de
-un microfon [[../poze/03081.png]]
+#+CAPTION: un microfon [[../poze/03081.png]]
 
 Ceea ce vrem să demonstrăm, este că /orice/ sursă de tensiune în curent
 continuu, capabilă să pornească tranzistorul, poate fi folosită pentru
@@ -165,7 +165,7 @@ negativ (-) iar cea roşie corespunde terminalului pozitiv (+)
 #+CAPTION: verificarea unui tranzistor PNP cu ajutorul unui ohmetru: (a)
 joncţiunile bază-emitor şi bază-colector sunt polarizate direct,
 rezistenţa este mică; (b) joncţiunile bază-emitor şi bază-colector sunt
-polarizare invers, rezistenţa este infinită [[../poze/03077.png]]
+#+CAPTION: polarizare invers, rezistenţa este infinită [[../poze/03077.png]]
 
 Dacă multimetrul este echipat cu funcţia „verificare diodă”, putem
 folosi acea funcţie pentru aflarea tensiunii de polarizare directă a
@@ -228,7 +228,7 @@ tranzistor bipolar de tip PNP, cu baza - contactul 3, emitor - contactul
 1 şi colector - contactul 2.
 
 #+CAPTION: tranzistor bipolar nemarcat; contactele determinate cu
-ajutorul multimetrului [[../poze/03085.png]]
+#+CAPTION: ajutorul multimetrului [[../poze/03085.png]]
 
 După cum putem observa, baza tranzistorului în acest caz /nu/ este
 contactul din mijloc al tranzistorului, aşa cum ne-am aştepta. Acest
@@ -304,7 +304,7 @@ tranzistorul funcţionează în /zona activă/.
 Să considerăm următorul circuit teoretic:
 
 #+CAPTION: circuit pentru exemplificarea zonei active de funcţionare a
-tranzistorului [[../poze/03088.png]]
+#+CAPTION: tranzistorului [[../poze/03088.png]]
 
 Circuitul este format dintr-un tranzistor (Q_{1}) de tip NPN, alimentat
 de o baterie (V_{1}) şi controlat printr-o sursă de curent (I_{1}).
@@ -335,7 +335,7 @@ curent de bază constant de 20 µA:
 #+CAPTION: variaţia curent-tensiune pentru o tensiune de alimentare a
 tranzistorului între 0 V şi 50 V şi un curent de alimentare constant de
 20 µA; curentul prin colector este şi de această dată un curent constant
-de 2 mA [[../poze/23001.png]]
+#+CAPTION: de 2 mA [[../poze/23001.png]]
 
 După cum era de aşteptat, rezultatul este acelaşi. Curentul prin
 colector nu poate trece de 2 mA (de exact 100 de ori valoarea curentului
@@ -354,7 +354,7 @@ menţinând tensiunea bateriei în intervalul 0 - 50 V:
 #+CAPTION: variaţia curent-tensiune pentru o tensiune de alimentare a
 tranzistorului între 0 V şi 50 V şi un curent de alimentare variabil
 între 15 µA şi 75 µA; în acest caz există şi alte curbe de variaţie
-curent-tensiune [[../poze/23002.png]]
+#+CAPTION: curent-tensiune [[../poze/23002.png]]
 
 Pentru curentul maxim de bază, 75 µA, curentul prin colector este (din
 nou) de 100 de ori mai mare, 7.5 mA şi din nou curba curent-tensiune
@@ -377,7 +377,7 @@ singur grafic, pentru un anumit tranzistor, poartă numele de /curbe
 caracteristice/:
 
 #+CAPTION: curbele caracteristice ale tranzistorului bipolar cu
-joncţiune [[../poze/03089.png]]
+#+CAPTION: joncţiune [[../poze/03089.png]]
 
 Trebuie înţeles faptul foarte important, că în graficul de mai sus, avem
 trei variabile: tensiunea colector emitor (E_{colector-emitor}),
@@ -474,7 +474,7 @@ faptului că, ignorând bateria de alimentare, atât pentru sursa de semnal
 un punct comun celor două.
 
 #+CAPTION: amplificator emitor comun: semnalele de intrare şi de ieşire
-au ca punct comun contactul emitorului [[../poze/03102.png]]
+#+CAPTION: au ca punct comun contactul emitorului [[../poze/03102.png]]
 
 În exemplele precedente, am considerat că tranzistorul funcţionează
 saturat (la capacitate maximă). Cunoscând faptul că, curentul prin
@@ -493,7 +493,7 @@ conectarea ampermetrului direct la celula solară:
 
 #+CAPTION: măsurarea intenstăţii luminoase cu ajutorului unui circuit
 format dintr-o celulă solară şi un ampermetru pentru măsurarea
-curentului de la ieşirea celulei [[../poze/03093.png]]
+#+CAPTION: curentului de la ieşirea celulei [[../poze/03093.png]]
 
 Cu toate că această metodă funcţionează pentru măsurători moderate al
 intensităţilor, ea nu poate fi folosită atunci când intensitatea
@@ -539,7 +539,7 @@ Să înlocuim aşadar aparatul de măsură cu un rezistor şi să măsurăm
 tensiunea dintre colector şi emitor:
 
 #+CAPTION: căderea de tensiune dezvoltată pe un tranzistor în conexiune
-emitor comun datorită curentului prin sarcină [[../poze/03095.png]]
+#+CAPTION: emitor comun datorită curentului prin sarcină [[../poze/03095.png]]
 
 Când intensitatea luminoasă pe celula solară este zero, tranzistorul va
 fi blocat şi se va comporta precum un întrerupător deschis între
@@ -566,13 +566,13 @@ emitor comun poartă numele de amplificator /inversor/.
 Să considerăm circuitul:
 
 #+CAPTION: schema amplificatorului cu tranzistor în conexiune emitor
-comun [[../poze/03096.png]]
+#+CAPTION: comun [[../poze/03096.png]]
 
 Graficul variaţiei tensiune-curent arată asfel (căderea de tensiune
 dintre colector şi emitor şi curentul bazei):
 
 #+CAPTION: amplificator cu tranzistor în conexiune emitor comun;
-graficul variaţiei tensiune-curent [[../poze/23003.png]]
+#+CAPTION: graficul variaţiei tensiune-curent [[../poze/23003.png]]
 
 La începutul simulării, curentul generat de sursă (celula solară) este
 zero, tranzistorul este blocat iar căderea de tensiune între colector şi
@@ -608,7 +608,7 @@ nedistorsionat la intrarea tranzistorului. Să îndepărtăm aşadar puntea
 redresoare din circuit şi să înlocuim lampa cu un difuzor:
 
 #+CAPTION: amplificator cu tranzistor în conexiune emitor comun legat la
-difuzor şi acţionat cu ajutorul unui semnal audio [[../poze/03097.png]]
+#+CAPTION: difuzor şi acţionat cu ajutorul unui semnal audio [[../poze/03097.png]]
 
 Fiindcă microfonul poate produce tensiuni mai mari decât tensiunea de
 polarizare directă a joncţiunii bază-emitor, vom conecta şi un rezistor
@@ -671,7 +671,7 @@ intrare:
 
 #+CAPTION: adăugarea unei surse de tensiune în curent continuu pentru
 polarizarea directă a jocţiunii bază-emitor pe toată perioada semnalului
-de intrare [[../poze/03099.png]]
+#+CAPTION: de intrare [[../poze/03099.png]]
 
 Graficul variaţiei tensiune-curent arată de data aceasta asfel:
 
@@ -691,7 +691,7 @@ formele de undă ale tensiunilor ar arăta asfel:
 
 #+CAPTION: observarea formelor de undă ale tensiunilor în diferite
 puncte critice ale unui amplificator cu tranzistor în conexiune
-emitor-comun [[../poze/03110.png]]
+#+CAPTION: emitor-comun [[../poze/03110.png]]
 
 Amplificarea în curent al circuitului de mai sus este dată de factorul
 beta β al tranzistorului, în acest caz particular, 100, sau 40 dB.
@@ -700,7 +700,7 @@ Să urmărim graficul tensiunii pe difuzor (albastru) şi al tensiunii de
 intrare pe tranzistor (roşu, bază-emitor):
 
 #+CAPTION: graficul formelor de undă a tensiunii pe difuzor (albastru)
-şi al tensiunii de intrare a tranzistorului (roşu) [[../poze/23006.png]]
+#+CAPTION: şi al tensiunii de intrare a tranzistorului (roşu) [[../poze/23006.png]]
 
 Dacă am lua aceeiaşi scală, de la 0 la 4 V, putem vedea că forma de undă
 a tensiunii de ieşire are o amplitudine vârf-la-vârf mai mică decât
@@ -744,7 +744,7 @@ rezistorilor respectivi, putem scrie următoarea ecuaţie pentru
 aproximarea amplificării în tensiune:
 
 #+CAPTION: ecuaţia amplificării în tensiune a amplificatorului în
-conexiune emitor comun [[../poze/13017.png]]
+#+CAPTION: conexiune emitor comun [[../poze/13017.png]]
 
 Diferenţa dintre amplificarea reală (2.94) şi cea ideală (3), se
 datorează imperfecţiunilor tranzistorilor în general.
@@ -758,7 +758,7 @@ amplificare în curent şi tensiune sunt aceeiaşi şi pentru amplificatorul
 cu tranzistor PNP, doar polarităţile bateriilor sunt diferite:
 
 #+CAPTION: amplificator în configuraţie emitor comun cu tranzistor de
-tipul PNP [[../poze/03112.png]]
+#+CAPTION: tipul PNP [[../poze/03112.png]]
 
 Sumar:
 
@@ -788,14 +788,14 @@ Sumar:
 Configuraţa amplificatorului colector comun arată asfel:
 
 #+CAPTION: configuraţia amplificatorului cu tranzistor în conexiune
-colector comun [[/sites/default/files/electronica\_analogica/03100.png]]
+#+CAPTION: colector comun [[/sites/default/files/electronica\_analogica/03100.png]]
 
 Denumirea de /colector comun/ vine de la faptul că, ignorând sursa de
 alimentare (bateria), sursa de semnal şi sarcina au ca punct comun
 contactul colectorului:
 
 #+CAPTION: configuraţia amplificatorului cu tranzistor în conexiune
-colector comun [[/sites/default/files/electronica\_analogica/03101.png]]
+#+CAPTION: colector comun [[/sites/default/files/electronica\_analogica/03101.png]]
 
 Se poate observa că prin rezistorul de sarcină trece atât curentul
 colectorului cât şi curentul bazei, fiind conectat în serie cu emitorul.
@@ -876,7 +876,7 @@ formele de undă ale tensiunilor arată asfel:
 
 #+CAPTION: configuraţia amplificatorului cu tranzistor în conexiune
 colector comun; conectarea osciloscoapelor pentru vizualizarea formelor
-de undă [[/sites/default/files/electronica\_analogica/03111.png]]
+#+CAPTION: de undă [[/sites/default/files/electronica\_analogica/03111.png]]
 
 ** Factorul de amplificare în curent
 
@@ -1003,7 +1003,7 @@ Denumirea de bază comună vine de la faptul că semnalul sursei de
 alimentare şi sarcina au ca şi punct comun baza tranzistorului:
 
 #+CAPTION: amplificator în conexiune bază comună; intrarea între emitor
-şi bază, ieşirea între colector şi bază [[../poze/03115.png]]
+#+CAPTION: şi bază, ieşirea între colector şi bază [[../poze/03115.png]]
 
 Probabil că cea mai ciudată caracteristică a acestui tip de configuraţie
 constă în faptul că sursa de semnal de intrare trebuie să conducă întreg
@@ -1051,7 +1051,7 @@ curent alternativ legată în serie cu o sursă de polarizare de curent
 continuu, dezvăluie încă odată factorul mare de amplificare în tensiune:
 
 #+CAPTION: amplificator în conexiune bază comună; adăugarea unei surse
-de semnal în curent alternativ [[../poze/03117.png]]
+#+CAPTION: de semnal în curent alternativ [[../poze/03117.png]]
 
 După cum se poate observa în figura de mai jos, semnalul de intrare
 (roşu, mărit de 10 ori pentru uşurinţa vizualizării) este în fază cu cel
@@ -1059,18 +1059,18 @@ de ieşire (albastru), ceea ce înseamnă că amplificatorul bază comun este
 non-inversor:
 
 #+CAPTION: amplificator în conexiune bază comună; graficul formelor de
-undă ale tensiunilor de intrare şi de ieşire [[../poze/23012.png]]
+#+CAPTION: undă ale tensiunilor de intrare şi de ieşire [[../poze/23012.png]]
 
 Putem vizualiza formele de undă ale amplificatorului conectând mai multe
 osciloscoape, simultan, în punctele de interes:
 
 #+CAPTION: amplificator în conexiune bază comună; vizualizarea formelor
-de undă ale tensiunilor [[../poze/03118.png]]
+#+CAPTION: de undă ale tensiunilor [[../poze/03118.png]]
 
 Acelaşi lucru este valabil şi pentru un tranzistor PNP:
 
 #+CAPTION: amplificator în conexiune bază comună; vizualizarea formelor
-de undă ale tensiunilor; tranzistor tip PNP [[../poze/03119.png]]
+#+CAPTION: de undă ale tensiunilor; tranzistor tip PNP [[../poze/03119.png]]
 
 ** Calcularea factorului de amplificare în tensiune
 
@@ -1208,7 +1208,7 @@ general. Factorul de umplere variază odată cu amplitudinea instantanee a
 semnalului de intrare.
 
 #+CAPTION: principiul de funcţionare al amplificatorului clasă D;
-formele de undă de intrare şi ieşire nefiltrată [[../poze/03230.png]]
+#+CAPTION: formele de undă de intrare şi ieşire nefiltrată [[../poze/03230.png]]
 
 Cu cât amplitudinea instantanee a semnalului de intrare este mai mare,
 cu atât factorul de umplere a formei de undă dreptunghiulare este mai
@@ -1276,7 +1276,7 @@ ilustrarea modului de funcţionare atunci când tranzistorul este conectat
 la o sarcină de o anumită valoare:
 
 #+CAPTION: trasarea dreptei de sarcină pe curbele caracteristice ale
-tranzistorului [[../poze/03144.png]]
+#+CAPTION: tranzistorului [[../poze/03144.png]]
 
 O dreaptă de sarcină reprezintă graficul tensiunii colector-emitor
 pentru un anumit domeniu al curenţilor de colector. În partea din
@@ -1305,7 +1305,7 @@ blocare (dreapta jos) identic:
 
 #+CAPTION: punctul static de funcţionare al amplificatorului clasa A;
 modificarea pantei dreptei de sarcină prin creşterea valorii rezistenţei
-sarcinii [[../poze/03146.png]]
+#+CAPTION: sarcinii [[../poze/03146.png]]
 
 Putem observa că în această situaţie, dreapta de sarcină /nu/ mai
 intersectează curba caracteristică de 75 µA pe porţiunea sa orizontală.
@@ -1326,7 +1326,7 @@ intre în zona de saturaţie.
 
 #+CAPTION: punctul static de funcţionare al amplificatorului clasa A;
 adăugarea unor curbe de sarcină suplimentară pentru observarea intrării
-în zona de saturaţie [[../poze/03147.png]]
+#+CAPTION: în zona de saturaţie [[../poze/03147.png]]
 
 Se poate vedea de pe grafic că cel mai înalt punct de pe dreapta de
 sacină ce intersectează curbele de sarcină ale tranzistorului pe
@@ -1384,7 +1384,7 @@ proiectat şi construit, prin urmare, să vedem cum arată o asfel de
 configuraţie:
 
 #+CAPTION: folosirea unui circuit divizor de tensiune pentru polarizarea
-tranzistorului [[../poze/03130.png]]
+#+CAPTION: tranzistorului [[../poze/03130.png]]
 
 Dacă alegem o pereche de rezistori R_{2} şi R_{3} a căror rezistenţe să
 producă o tensiune de 2.3 V pe rezistorul R_{3} dintr-o tensiune totală
@@ -1409,7 +1409,7 @@ tensiune, asfel:
 
 #+CAPTION: conectarea unui condensator de cuplaj între sursa de semnal
 de curent alternativ şi circuitul divizor de tensiune pentru polarizarea
-tranzistorului [[../poze/03131.png]]
+#+CAPTION: tranzistorului [[../poze/03131.png]]
 
 Condensatorul formează un filtru trece-sus între sursa de tensiune în
 curent alternativ şi divizorul de tensiune în curent continuu; întregul
@@ -1433,7 +1433,7 @@ simplu), prin urmare, poate fi omis din figura de mai jos:
 
 #+CAPTION: aplicarea teoremei superpoziţiei; studierea circuitului de
 intrare al amplificatorului atunci când doar sursa de semnal de curent
-alternativ este conectată în circuit [[../poze/03133.png]]
+#+CAPTION: alternativ este conectată în circuit [[../poze/03133.png]]
 
 Dacă ar fi să conectăm doar sursa de tensiune de curent continuu
 (bateria de 15 V), condensatorul se va comporta precum un circuit
@@ -1453,13 +1453,13 @@ aplicate la intrarea tranzistorului. Observaţi în circuitul considerat
 mai jos, că tranzistorul /nu/ a fost conectat:
 
 #+CAPTION: aplicarea teoremei superpoziţiei; efectele combinate ale
-celor două surse de tensiune [[../poze/03132.png]]
+#+CAPTION: celor două surse de tensiune [[../poze/03132.png]]
 
 Folosind un condensator de 100 µF, putem obţine o impedanţă de 0.8 Ω la
 frecvenţa de 2.000 Hz:
 
 #+CAPTION: aplicarea teoremei superpoziţiei; efectele combinate ale
-celor două surse de tensiune [[../poze/23013.png]]
+#+CAPTION: celor două surse de tensiune [[../poze/23013.png]]
 
 Putem observa că acest circuitu distorsionează puternic forma undei
 curentului de ieşire (albastru). Unda sinusoidală este tăiată pe
@@ -1479,7 +1479,7 @@ tranzistorului, problema polarizării devine mai clară:
 
 #+CAPTION: conectarea tranzistorului la reţeaua formată din condensator
 şi divizorul de tensiune; analiza circuitului folosind modelul
-diodă-sursă-de-curent al tranzistorului [[../poze/03135.png]]
+#+CAPTION: diodă-sursă-de-curent al tranzistorului [[../poze/03135.png]]
 
 Ieşirea unui divizor de tensiune depinde nu doar de mărimea rezistorilor
 săi componenţi, ci şi de cantitatea de curent „divizată” de aceasta spre
@@ -1499,7 +1499,7 @@ exact ceea ce urmăream:
 
 #+CAPTION: modificarea rezistorilor duce la obţinerea unui semnal de
 curent de ieşire nedistorsionat, semnal tipic pentru un amplificator de
-clasa A [[../poze/23014.png]]
+#+CAPTION: clasa A [[../poze/23014.png]]
 
 Sumar:
 
@@ -1542,7 +1542,7 @@ semnal dreptunghiular de frecvenţa joasă:
 
 #+CAPTION: un semnal de intrare dreptunghiular, de frecvenţă joasă,
 conectat la intrarea unui amplifcator folosind un condensator de cuplaj
-la intrare, este puternic distorsionat la ieşire [[../poze/03136.png]]
+#+CAPTION: la intrare, este puternic distorsionat la ieşire [[../poze/03136.png]]
 
 *** Cuplaj direct
 
@@ -1551,7 +1551,7 @@ fi tolerate, se poate folosi un /cuplaj direct/. Cuplajul direct
 foloseşte rezistori în locul condensatorilor.
 
 #+CAPTION: folosirea cuplajului direct la intrarea
-tranzistorului/amplificatorului [[../poze/03138.png]]
+#+CAPTION: tranzistorului/amplificatorului [[../poze/03138.png]]
 
 Această configuraţie nu este dependentă de frecvenţa, fiindcă nu avem
 niciun condensator pentru filtrarea semnalului de intrare.
@@ -1609,7 +1609,7 @@ lucru, este cuplarea circuitului de colector al tranzistorului la
 difuzor prin intermediul unui transformator:
 
 #+CAPTION: conectarea colectorului tranzistorului la difuzor prin
-intermediul unui condensator de cuplaj [[../poze/03140.png]]
+#+CAPTION: intermediul unui condensator de cuplaj [[../poze/03140.png]]
 
 Tensiunea indusă în secundarul transformatorului (legat la difuzor) se
 va datora strict /variaţiilor/ curentului de colector, datorita faptului
@@ -1656,7 +1656,7 @@ amplificare mult mai mari decât este posibil utilizând un singur
 tranzistor.
 
 #+CAPTION: amplificator cu trei etaje în configuraţie emitor comun,
-conectate prin condensatori de cuplaj [[../poze/03142.png]]
+#+CAPTION: conectate prin condensatori de cuplaj [[../poze/03142.png]]
 
 Deşi fiecare etaj se poate cupla direct cu următorul, prin intermediul
 unui rezistor în loc de condensator, acest lucru face ca întreg
@@ -1678,7 +1678,7 @@ folosesc doar atunci când frecvenţa semnalului rămâne constantă, ceea ce
 este valabil în cazul circuitelor de radio frecvenţă.
 
 #+CAPTION: amplificator de radio-frecvenţă; ilustrarea folosirii
-cuplajului cu transformator [[../poze/03143.png]]
+#+CAPTION: cuplajului cu transformator [[../poze/03143.png]]
 
 Trebuie menţionat că /este/ posibilă cuplarea directă a
 amplificatoarelor. În cazurile în care circuitul trebuie să amplifice şi
@@ -1717,7 +1717,7 @@ La fel ca în cazul tuturor amplificatoarelor emitor comun, şi acesta
 ale tensiunilor de intrare şi ieşire:
 
 #+CAPTION: amplificator emitor comun, fără reacţie; observarea formelor
-de undă de la intrare şi ieşire [[../poze/03312.png]]
+#+CAPTION: de undă de la intrare şi ieşire [[../poze/03312.png]]
 
 *** Reacţia negativă între colector şi bază
 
@@ -1726,7 +1726,7 @@ Datorită faptului că semnalul de ieşire este inversat (defazat cu
 (bază) tranzistorului va duce la apariţia unei reacţii negative:
 
 #+CAPTION: introducerea reacţiei negative pe colector duce la
-descreşterea semnalului de ieşire [[../poze/03313.png]]
+#+CAPTION: descreşterea semnalului de ieşire [[../poze/03313.png]]
 
 Rezistenţele R_{1}, R_{2}, R_{3}, şi R_{reacţie} funcţionează împreună
 precum o reţea de semnale, asfel că tensiunea de la baza tranzistorului
@@ -1744,7 +1744,7 @@ de înţeles la început, constă în introducerea unui rezistor între
 terminalul emitorului şi împământarea circuitului:
 
 #+CAPTION: introducerea reacţiei negative pe emitor în configuraţia
-amplificatorului emitor comun [[../poze/03314.png]]
+#+CAPTION: amplificatorului emitor comun [[../poze/03314.png]]
 
 În acest caz, căderea de tensiune pe rezistorul de reacţie va fi direct
 proporţională cu valoarea curentului prin emitorul tranzistorului,
@@ -1768,7 +1768,7 @@ Să examinăm acum efectele introducerii rezistorului R_{reacţie} între
 emitor şi împământare:
 
 #+CAPTION: amplificator emitor comun cu reacţie între emitor şi
-împământare [[../poze/03316.png]]
+#+CAPTION: împământare [[../poze/03316.png]]
 
 De data aceasta, V_{reacţie} + V_{B-E} = V_{intrare}. Odată cu
 introducerea rezistenţei de reacţie în bucla (V_{intrare}, V_{B-E}),
@@ -1892,7 +1892,7 @@ spre împământare ce este mai uşor de parcurs pentru semnalele de c.a.
 decât cele de c.c.
 
 #+CAPTION: amplificator emitor comun cu reacţie negativă pe emitor şi
-condensator de decuplare al emitorului [[../poze/03318.png]]
+#+CAPTION: condensator de decuplare al emitorului [[../poze/03318.png]]
 
 Noul condensator decuplează semnalele de c.a. dinspre emitor spre
 împământare, asfel încât să nu existe o cădere de tensiune apreciabilă

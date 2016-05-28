@@ -306,7 +306,7 @@ dispozitivul când nu este introdus în sistem (este încă în magazin, de
 exemplu).
 
 #+CAPTION: simbolul comutatorului tip buton în poziţia normal-deschis,
-respectiv normal-închis [[../poze/04031.png]]
+#+CAPTION: respectiv normal-închis [[../poze/04031.png]]
 
 Simbolul comutatorelor este diferit în funcţie de scopul şi de modul de
 acţionare. Un comutator normal-deschis este reprezentat în aşa fel încât
@@ -317,7 +317,7 @@ este reprezentat simbolul comutatorului tip buton în poziţia
 normal-deschis, respectiv normal-închis.
 
 #+CAPTION: simbolul general al comutatorului în poziţie normal-deschis,
-respectiv normal-închis [[../poze/04029.png]]
+#+CAPTION: respectiv normal-închis [[../poze/04029.png]]
 
 Există de asemenea un simbol generic pentru poziţia oricărui tip de
 comutator, fie normal-deschis, fie normal-închis, asemeni figurii
@@ -329,7 +329,7 @@ simboluri pentru reprezentarea comutatoarelor, tipul acestora este de
 obicei trecut în vecinătatea simbolului, în cuvinte.
 
 #+CAPTION: simbolul condensatorului folosit în circuitele logice
-digitale [[../poze/04023.png]]
+#+CAPTION: digitale [[../poze/04023.png]]
 
 Atenţie, nu confundaţi simbolul stânga (în figura de mai sus) cu
 simbolul condensatorului. În cazul în care se doreşte reprezentarea unui
@@ -364,7 +364,7 @@ selectorului în sensul acelor de ceasornic, se va ajunge în poziţia 4,
 moment în care contactul se închide.
 
 #+CAPTION: comutator cu suprapunere (comutator fără întrerupere);
-realizarea contactelor [[../poze/04033.png]]
+#+CAPTION: realizarea contactelor [[../poze/04033.png]]
 
 Există însă situaţii în care nu este permisă în nicio clipă deschiderea
 completă a circuitului ataşat selectorului. Pentru astfel de aplicaţii,

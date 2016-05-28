@@ -32,7 +32,7 @@ grafic. Dacă desenăm o linie cu o anumită lungime (amplitudine) şi unghi
 reprezentare cunoscută în fizica sub numele de /vector/:
 
 #+CAPTION: reprezentarea grafică a numerelor complexe sub formă de
-vectori; diferite lungimi şi unghiuri [[../poze/02025.png]]
+#+CAPTION: vectori; diferite lungimi şi unghiuri [[../poze/02025.png]]
 
 Precum în cazul distenţelor şi direcţiilor de pe o hartă, trebuie să
 avem un sistem de referinţă pentru ca toate aceste valori să aibă un
@@ -60,7 +60,7 @@ amplitudinea undei, asfel:
 
 #+CAPTION: reprezentarea formelor de undă în curent alternativ cu
 ajutorul vectorilor, unde lungimea vectorului reprezintă amplitudinea
-undei [[../poze/02031.png]]
+#+CAPTION: undei [[../poze/02031.png]]
 
 Cu cât amplitudinea formei de undă este mai mare, cu atât lungimea
 vectorului corespunzător va fi mai mare. Unghiul vectorului, pe de altă
@@ -73,8 +73,8 @@ proprietate absolută a undelor.
 
 #+CAPTION: reprezentarea formelor de undă în curent alternativ cu
 ajutorul vectorilor; faze şi relaţii pentru defazaje de 0, 90, -90
-respectiv 180 de grade [[../poze/02032.png]] #+CAPTION: relaţia grafică
-dintre defazaj şi unghiul dintre vectori [[../poze/02038.png]]
+#+CAPTION: respectiv 180 de grade [[../poze/02032.png]] #+CAPTION: relaţia grafică
+#+CAPTION: dintre defazaj şi unghiul dintre vectori [[../poze/02038.png]]
 
 Cu cât defazajul dintre formele de undă considerate este mai mare, cu
 atât este mai mare unghiuld dintre vectorii corespunzători.
@@ -95,7 +95,7 @@ posibile asupra oricărei mărimi scalare: adunare, scădere, înmulţire,
 adună precum o mărime scalară:
 
 #+CAPTION: adunarea vectorilor în cazul în care unghiurile lor sunt
-egale [[../poze/02033.png]]
+#+CAPTION: egale [[../poze/02033.png]]
 
 Similar, dacă două sau mai multe surse de curent alternativ cu aceeiaşi
 fază sunt conectate în serie, tensiunile lor se adună asemenea
@@ -103,7 +103,7 @@ tensiunilor bateriilor:
 
 #+CAPTION: dacă două sau mai multe surse de curent alternativ cu
 aceeiaşi fază sunt conectate în serie, tensiunile lor se adună asemenea
-tensiunilor bateriilor [[../poze/02034.png]]
+#+CAPTION: tensiunilor bateriilor [[../poze/02034.png]]
 
 Observaţi notaţia „+” şi „-” la bornele surselor de alimentare în curent
 alternativ. Chiar dacă noţiunea de polaritate nu este aceeiaşi precum în
@@ -146,14 +146,14 @@ După cât am văzut mai sus, există două moduri de reprezentare a
 rezultatului final:
 
 #+CAPTION: cele două moduri de reprezentare a tensiunilor alternative; 0
-sau 180 de grade cu semnul schimbat [[../poze/02037.png]]
+#+CAPTION: sau 180 de grade cu semnul schimbat [[../poze/02037.png]]
 
 O inversare a firelor sursei de curent alternativ este echivalentă cu
 schimbarea fazei acelei surse cu 180 de grade:
 
 #+CAPTION: echivalenţa dintre două surse de tensiune alternative; una cu
 polaritatea schimbată şi faza modificată cu 180 de grade faţă de
-cealaltă [[../poze/02266.png]]
+#+CAPTION: cealaltă [[../poze/02266.png]]
 
 * 4. Adunarea complexă a vectorilor
 
@@ -207,7 +207,7 @@ Vectorul de mai sus (7.81 ∠230.19^{o}) poate fi descris de asemenea prin
 7.81 ∠-129.81^{o}.
 
 #+CAPTION: sistemul de referinţă pentru unghiul vectorilor în curent
-alternativ [[../poze/02026.png]]
+#+CAPTION: alternativ [[../poze/02026.png]]
 
 *** Notaţia rectangulară
 
@@ -239,12 +239,12 @@ dimensiune se află pe o altă direcţie şi nu are nicio legătură cu scara
 numerelor reale.
 
 #+CAPTION: sistemul de referinţă vectorial cu notarea axelor reale şi
-imaginare [[../poze/02043.png]]
+#+CAPTION: imaginare [[../poze/02043.png]]
 
 Cele două axe poartă denumirea de /axa reală/ respectiv /axa imaginară/:
 
 #+CAPTION: axa reală şi cea imaginară a unui sistem de referinţă
-vectorial [[../poze/02044.png]]
+#+CAPTION: vectorial [[../poze/02044.png]]
 
 Oricare dintre cele două forme poate fi folosită pentru numerele
 complexe. Principalul motiv pentru care există două sisteme de notaţie
@@ -267,7 +267,7 @@ componenta imaginară:
 
 #+CAPTION: relaţia dintre forma polară şi cea rectangulară
 [[../poze/02045.png]] #+CAPTION: transformarea formei polare în formă
-rectangulară [[../poze/12005.png]]
+#+CAPTION: rectangulară [[../poze/12005.png]]
 
 *** Transformarea din formă rectangulară în formă polară
 

@@ -55,7 +55,7 @@ măsură de o prezicie excepţională nereprezetând neapărat un astfel de
 dispozitiv prezentat mai sus.
 
 #+CAPTION: principiul de construcţie a unui aparate de măsură
-electromagnetic (analogic) [[../poze/00146.png]]
+#+CAPTION: electromagnetic (analogic) [[../poze/00146.png]]
 
 Aparatele de măsură electromagnetice sunt realizate în prezent dintr-o
 bobină suspendată într-un câmp magnetic, protejată de majoritatea
@@ -78,7 +78,7 @@ ipotetic o valoare a curentului de 17,5 µA. De obicei, scala este
 pentru a permite o citire mult mai precisă a indicaţiei acului.
 
 #+CAPTION: aparat de măsură; scala conţine atât valori pozitive cât şi
-valori negative [[../poze/00147.png]]
+#+CAPTION: valori negative [[../poze/00147.png]]
 
 Majoritatea aparatelor pot detecta polaritatea curentului, o direcţie a
 acestuia ducând la deplasarea acului într-un anumit sens, iar direcţia
@@ -308,7 +308,7 @@ conectată la un circuit divizor realizat cu rezistori de prezizie,
 pentru a putea indica o tensiune sau un curent mult mai mari.
 
 #+CAPTION: volmetru folosind un comutator multi-polar si o serie de
-rezistori de multiplicare [[../poze/00153.png]]
+#+CAPTION: rezistori de multiplicare [[../poze/00153.png]]
 
 În general, este foarte utilă prezenţa mai multor astfel de circuite
 divizoare, pentru a putea măsură o plajă destul de largă de valori
@@ -324,7 +324,7 @@ deplasare maximă diferită a voltmetrului, şi toate se bazează pe
 aceleaşi caracteristici principale (1 mA, 500 Ω).
 
 #+CAPTION: volmetru folosind un comutator multi-polar si o serie de
-rezistori de multiplicare [[../poze/00154.png]]
+#+CAPTION: rezistori de multiplicare [[../poze/00154.png]]
 
 Cu o astfel de variantă, valoarea fiecărui rezistor este determinată
 folosind aceiaşi metodă utilizată mai sus, cunoscând tensiunea totală
@@ -333,7 +333,7 @@ necesară în fiecare caz. Pentru un volmetru cu scala tensiunilro de 1 V,
 alăturate.
 
 #+CAPTION: volmetru folosind un comutator multi-polar si o serie de
-rezistori de multiplicare [[../poze/00155.png]]
+#+CAPTION: rezistori de multiplicare [[../poze/00155.png]]
 
 Putem observa că valorile rezistorilor de multiplicare sunt puţin
 ciudate. Este puţin probabil să găsim un rezistor de precizie cu o
@@ -377,14 +377,14 @@ Totuşi, astfel de voltmetre nu există decât în paginile cărţilor, nu şi
 în viaţa reală!
 
 #+CAPTION: măsurarea căderii de tensiune într-un circuit divizor de
-tensiune cu ajutorul unui voltmetru [[../poze/00156.png]]
+#+CAPTION: tensiune cu ajutorul unui voltmetru [[../poze/00156.png]]
 
 Să luăm ca şi exemplu circuitul divizor de tensiune din figura
 alăturată, ca şi un exemplu extrem al efectelor unui voltmetru asupra
 circuitului de măsurat.
 
 #+CAPTION: realizarea unui subcircuit între volmetru şi componentul
-asupra cărei se face măsurarea tensiunii [[../poze/00157.png]]
+#+CAPTION: asupra cărei se face măsurarea tensiunii [[../poze/00157.png]]
 
 Atunci când voltmetrul nu este conectat în circuit, vom aveam o cădere
 de tensiune de exact 12 V pe fiecare dintre cei doi rezistori (vezi
@@ -394,7 +394,7 @@ acest exemplu posedă o rezistenţa internă între cele două sonde de 10 MΩ
 subcircuit paralel cu rezistorul inferior al divizorului.
 
 #+CAPTION: modificarea căderilor de tensiune din circuit ca urmare a
-conectării volmetrului [[../poze/00158.png]]
+#+CAPTION: conectării volmetrului [[../poze/00158.png]]
 
 Acest lucru duce la scăderea rezistenţei inferioare de la 250 MΩ la 9,61
 MΩ (circuit paralel), modificând fundamental căderile de tensiune din
@@ -431,7 +431,7 @@ posedă de obicei o rezistenţa constantă între sondele aparatului
 indiferent de domeniu de tensiune ales.
 
 #+CAPTION: volmetru folosind un comutator multi-polar si o serie de
-rezistori de multiplicare [[../poze/00154.png]]
+#+CAPTION: rezistori de multiplicare [[../poze/00154.png]]
 
 Să reluăm exemplu din secţiunea precedentă. Pe domeniul 1000 V,
 rezistenţa totală este de 1 MΩ (999,5 kΩ + 500Ω), ceea ce înseamnă 1 MΩ
@@ -487,7 +487,7 @@ nu necesită un circuit complicat, dar este nevoie de multă pricepere din
 partea utilizatorului.
 
 #+CAPTION: măsurarea căderii de tensiune din circuit cu ajutorul unui
-detector de nul [[../poze/00159.png]]
+#+CAPTION: detector de nul [[../poze/00159.png]]
 
 Într-un detector de nul, o sursă de tensiune de precizie, ajustabilă,
 este comparată cu tensiune de măsură iar aparatul indică diferenţa de
@@ -509,7 +509,7 @@ acestuia, iar difuzorul va produce un „click” scurt. Un alt „click” se
 poate auzi la deconectarea sursei de c.c.
 
 #+CAPTION: detector de nul realizat cu ajutorul unei perechi de căşti şi
-un întrerupător [[../poze/00425.png]]
+#+CAPTION: un întrerupător [[../poze/00425.png]]
 
 Luând în considerare acest principiu, un detector de nul sensibil poate
 fi realizat dintr-o simplă pereche de căşti şi un întrerupător.
@@ -526,7 +526,7 @@ Rezultatul este un „click” mai puternic şi mai uşor de sesizat, chiar şi
 pentru curenţi mult mai mici.
 
 #+CAPTION: detector de nul realizat cu ajutorul unei perechi de căşti şi
-un întrerupător; exemplu [[../poze/00424.png]]
+#+CAPTION: un întrerupător; exemplu [[../poze/00424.png]]
 
 Conectat în circuitul cu detector de nul prezentat mai sus, configuraţia
 arată precum în figura alăturată.
@@ -548,7 +548,7 @@ acest lucru se va întâmpla atunci când sursa de tensiune ajustabilă este
 egală cu căderea de tensiune pe rezistorul R_{2}.
 
 #+CAPTION: etector de nul realizat cu ajutorul unei perechi de căşti şi
-un întrerupător; exemplu [[../poze/00161.png]]
+#+CAPTION: un întrerupător; exemplu [[../poze/00161.png]]
 
 Pentru a utiliza acest instrument, trebuie să ajustăm manual sursa de
 tensiune prin intermediul unui potenţiometru, acţionând de fiecare data
@@ -686,7 +686,7 @@ respectiv de valori, bazându-se pe caracteristicile sistemului de
 detectare al deplasării (1 mA, 500 Ω).
 
 #+CAPTION: ampermetru; determinarea rezistenţelor de şunt conectare în
-paralel [[../poze/00164.png]]
+#+CAPTION: paralel [[../poze/00164.png]]
 
 Valoarea fiecărui rezistor se determină prin aceiaşi metodă, luând în
 considerare curentul total, deplasarea maximă şi rezistenţa internă.
@@ -722,7 +722,7 @@ rezistorii de precizie cu o putere nominală de 50 W sunt extrem de rari
 ** Măsurarea curentului cu un rezistor de şunt şi un voltmetru
 
 #+CAPTION: utilizarea rezistenţelor de şunt în paralel cu un voltmetru
-pentru măsurarea curentului [[../poze/00165.png]]
+#+CAPTION: pentru măsurarea curentului [[../poze/00165.png]]
 
 În unele cazuri, rezistorii de şunt sunt utilizaţi în combinaţie cu
 voltmetre cu rezistenţa de intrare ridicată pentru măsurarea curenţilor.
@@ -743,7 +743,7 @@ acest caz, scala voltmetrului poate fi modificată/înlocuită pentru a
 putea citi direct valorile curentului.
 
 #+CAPTION: introducerea unui ampermetru în circuit pentru măsurarea
-curentului [[../poze/00166.png]]
+#+CAPTION: curentului [[../poze/00166.png]]
 
 Utilizarea unui rezistor de şunt în combinaţie cu un voltmetru poate
 simplifca operaţiile de măsurare ale curenţilor, atunci când acestea
@@ -755,7 +755,7 @@ circuitul.
 #+CAPTION: introducerea unei rezistenţe de şunt în circuit pentru
 măsurarea curentului cu ajutorul unui voltmetru; util în cazul unui
 circuit asupra căruia sunt necesare măsurători dese ale valorii
-curentului [[../poze/00167.png]]
+#+CAPTION: curentului [[../poze/00167.png]]
 
 Dacă avem un circuit în care această operaţie trebuie realizată des, sau
 dacă dorim simplificarea procesului de măsură, putem plasa permanent un
@@ -801,7 +801,7 @@ curentul prin rezistorul de 3 Ω este de 666,7 mA, iar curentul prin
 rezistorul de 1,5 Ω este de 1,33 A.
 
 #+CAPTION: circuit paralel pur rezistiv; introducerea ampermetrului
-într-una dintre ramuri [[../poze/00170.png]]
+#+CAPTION: într-una dintre ramuri [[../poze/00170.png]]
 
 Dacă ampermetrul cu care efectuăm măsurătorile are o rezistenţă internă
 de 0,5 Ω, introducerea acestuia într-una din ramurile circuitului va
@@ -810,7 +810,7 @@ stânga de la 3 Ω la 3,5 Ω, ampermetrul va indica un curent de 571, 43 mA
 în loc de 666,7 mA.
 
 #+CAPTION: circuit paralel pur rezistiv; introducerea ampermetrului
-într-una dintre ramuri [[../poze/00171.png]]
+#+CAPTION: într-una dintre ramuri [[../poze/00171.png]]
 
 Introducerea ampermetrului în ramura din dreapta va avea un efect şi mai
 mare asupra curentului din aceasta. În acest caz, curentul de ramură va
@@ -828,7 +828,7 @@ circuitul iniţial, va duce la modificarea comportamentului acestuia.
 ** Cleştele ampermetric (clampmetrul)
 
 #+CAPTION: măsurarea curentului dintr-un circuit cu ajutorul
-clampmetrului [[../poze/00172.png]]
+#+CAPTION: clampmetrului [[../poze/00172.png]]
 
 O metodă ingenioasă de reducere a impactului pe care îl are un aparat de
 măsură asupra circuitului, este utilizarea conductorului ca parte
@@ -840,7 +840,7 @@ se poate evita contactul direct şi întreruperea circuitului. Un astfel
 de ampermetru poartă numele de clampmetru sau cleşte ampermetric.
 
 #+CAPTION: măsurarea curentului dintr-un circuit cu ajutorul
-clampmetrului [[../poze/00173.png]]
+#+CAPTION: clampmetrului [[../poze/00173.png]]
 
 Acesta constă practic din doi cleşti ce se pun în jurul conductorului.
 Cu ajutorul acestor dispozitive se pot realiza măsurător rapide şi

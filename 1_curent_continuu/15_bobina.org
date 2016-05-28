@@ -91,7 +91,7 @@ valoare constantă a curentului la bornele sale fără niciun ajutor
 extern:
 
 #+CAPTION: menţinerea constantă a curentului la bornele bobinei
-scurt-circuitate [[../poze/00321.png]]
+#+CAPTION: scurt-circuitate [[../poze/00321.png]]
 
 Practic însă, abilitatea unei bobine de susţinere individuală a unui
 curent la bornele sale se poate realiza doar cu ajutorul firelor
@@ -106,7 +106,7 @@ asemenea unei sarcini. În această situaţie, spunem că bobina se
 Observaţi polaritate tensiuni faţă de direcţia curentului:
 
 #+CAPTION: bobina se comportă ca o sarcină atunci când absoarbe curent
-din circuitul exterior [[../poze/00322.png]]
+#+CAPTION: din circuitul exterior [[../poze/00322.png]]
 
 Atunci când curentul prin bobină deşcreşte, căderea de tensiune generată
 de aceasta este îndreptată spre direcţia de deplasare a electronilor,
@@ -116,7 +116,7 @@ elibertă în circuitul extern. Obervaţi polaritatea căderii de tensiune
 faţă de direcţia curentului:
 
 #+CAPTION: bobina se comportă precum o sursă atunci când eliberează
-curent în circuitul exterior [[../poze/00323.png]]
+#+CAPTION: curent în circuitul exterior [[../poze/00323.png]]
 
 Dacă conectăm bursc o bobină nemagnetizată la o sursă de putere, bobina
 va rezista iniţial curgeri electronilor prin generarea unei căderi de
@@ -222,7 +222,7 @@ negativă a tensiunii induse ca loc de intrare al electronilor, iar
 partea pozitivă a tensiunii induse ca loc de ieşire al lor.
 
 #+CAPTION: relaţia curent-tensiune în cazul bobinei - rata de variaţie
-constantă a curentului [[../poze/00407.png]]
+#+CAPTION: constantă a curentului [[../poze/00407.png]]
 
 Modificând rata de creştere a curentului prin bobine prin deplasarea în
 sus a periei potenţiometrului la diferite viteze rezultă în valori
@@ -230,7 +230,7 @@ diferite ale căderilor de tensiune la bornele bobine, cu aceeiaşi
 polaritate ca şi mai înainte (opusă creşterii curentului).
 
 #+CAPTION: relaţia curent-tensiune în cazul bobinei - rata de variaţie a
-curentului nu este constantă [[../poze/00408.png]]
+#+CAPTION: curentului nu este constantă [[../poze/00408.png]]
 
 Vedem că şi în acest caz avem de a face cu funcţia /derivată/ în cazul
 bobinei. În termenii analizei matematice, spunem că tensiunea indusă
@@ -317,7 +317,7 @@ magnetică mai mare (în amperi), pentru o anumită valoare a curentului
 prin bobină.
 
 #+CAPTION: valoarea inductanţei create de o bobină în funcţie de numărul
-de spire din înfăşurare [[../poze/00324.png]]
+#+CAPTION: de spire din înfăşurare [[../poze/00324.png]]
 
 *** Aria înfăşurării
 
@@ -330,7 +330,7 @@ faţă de formarea fluxului magnetic, pentru o anumită valoarea a forţei
 câmpului magnetic.
 
 #+CAPTION: valoarea inductanţei create de o bobină în funcţie de aria
-înfăşurării [[../poze/00325.png]]
+#+CAPTION: înfăşurării [[../poze/00325.png]]
 
 *** Lungimea înfăşurării
 
@@ -342,7 +342,7 @@ opoziţie crescută faţă de formarea acelui flux, pentru o anumită valoare
 a forţei magnetice.
 
 #+CAPTION: valoarea inductanţei create de o bobină în funcţie de
-lungimea înfăşurării [[../poze/00326.png]]
+#+CAPTION: lungimea înfăşurării [[../poze/00326.png]]
 
 *** Materialul miezului
 
@@ -355,7 +355,7 @@ mai mare rezultă într-un flux magnetic mai mare pentru o anumită valoare
 a forţei magnetice.
 
 #+CAPTION: valoarea inductanţei create de o bobină în funcţie de
-materialul miezului - aer vs. fier [[../poze/00327.png]]
+#+CAPTION: materialul miezului - aer vs. fier [[../poze/00327.png]]
 
 *** Formula de calcul a inductanţei
 

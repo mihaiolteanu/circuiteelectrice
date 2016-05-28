@@ -69,7 +69,7 @@ curent continuu: se adună când sunt conectate în serie şi se micşorează
 pe impedanţă, nu pe rezistenţă, arată asfel:
 
 #+CAPTION: legea lui Ohm pentru circuitele de curent alternativ -
-impedanţă în loc de rezistenţă [[../poze/12021.png]]
+#+CAPTION: impedanţă în loc de rezistenţă [[../poze/12021.png]]
 
 Legile lui Kirchhoff, precum şi toate metodele de analiză a reţelelor şi
 toate teoremele valabile pentru curent continuu sunt valabile şi în
@@ -100,7 +100,7 @@ desigur, este considerată o impedanţă „reală” pură (unghi polar de
 0^{o}:
 
 #+CAPTION: formule [[../poze/12057.png]] #+CAPTION: circuit electric RLC
-serie; impedanţele componentelor [[../poze/02079.png]]
+#+CAPTION: serie; impedanţele componentelor [[../poze/02079.png]]
 
 După ce toate valorile opoziţiei faţă de curent au fost exprimate sub
 forma comună a impedanţei, ca numere complexe, acestea pot fi manipulate

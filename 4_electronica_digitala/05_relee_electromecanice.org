@@ -1,7 +1,7 @@
 * 1. Construcţia releelor
 
 #+CAPTION: o bobină produce un câmp magnetic la trecerea curentului prin
-aceasta [[../poze/04040.png]]
+#+CAPTION: aceasta [[../poze/04040.png]]
 
 La trecerea curentului electric printr-un canductor, va lua naştere un
 câmp magnetic în jurul acestuia. În cazul în care conductorul este
@@ -89,7 +89,7 @@ neapărat) în poziţia normal-deschis: circuitul este deschis atunci când
 bobina nu este energizată.
 
 #+CAPTION: releu electromecanic într-un circuit trifazat pentru
-controlul unui motor electric [[../poze/04042.png]]
+#+CAPTION: controlul unui motor electric [[../poze/04042.png]]
 
 Probabil cea mai des întâlnită aplicaţie a contactoarelor constă în
 controlul motoarelor electrice.
@@ -134,7 +134,7 @@ normal-deschis. Acesta se închide după cinci secunde de la energizarea
 bobinei. Deschiderea se realizează imediat după de-energizarea bobinei.
 
 #+CAPTION: diagrama timp de funcţionare a contactelor unui releu
-temporizat la închidere, normal deschis [[../poze/04044.png]]
+#+CAPTION: temporizat la închidere, normal deschis [[../poze/04044.png]]
 
 Alăturat este o diagramă de timp ce prezintă modul de funcţionare a
 contactelor acestui tip de releu temporizat.
@@ -157,7 +157,7 @@ Releul temporizat la deschidere, normal deschis, din figura alăturată se
 loc însă la cinci secunde după de-energizarea bobinei.
 
 #+CAPTION: diagrama timp de funcţionare a contactelor unui releu
-temporizat la deschidere, normal deschis [[../poze/04046.png]]
+#+CAPTION: temporizat la deschidere, normal deschis [[../poze/04046.png]]
 
 Diagrama de timp în acest caz, este cea din figura alăturată.
 
@@ -176,7 +176,7 @@ contact mai poartă numele de contact normal închis cu acţionare
 întârziată.
 
 #+CAPTION: diagrama timp de funcţionare a contactelor unui releu
-temporizat la deschidere, normal închis [[../poze/04048.png]]
+#+CAPTION: temporizat la deschidere, normal închis [[../poze/04048.png]]
 
 ** Releu temporizat la închidere, normal-închis
 
@@ -191,7 +191,7 @@ anumită întârziere de timp. Acest tip de contact mai poartă numele de
 contact normal închis cu întârziere la revenire.
 
 #+CAPTION: diagrama timp de funcţionare a contactelor unui releu
-temporizat la închidere, normal închis [[../poze/04050.png]]
+#+CAPTION: temporizat la închidere, normal închis [[../poze/04050.png]]
 
 ** Alte tipuri de relee temporizate
 
@@ -214,7 +214,7 @@ la o tranziţie a intrării de la starea de-energizată la starea
 energizată.
 
 #+CAPTION: releu temporizat normal-deschis cu deschideri/închideri
-repetate [[../poze/04052.png]]
+#+CAPTION: repetate [[../poze/04052.png]]
 
 Releu temporizat normal-deschis cu deschideri/închideri repetate. Acest
 releu se închide şi se deschide pentru un anumit interval de timp atâta

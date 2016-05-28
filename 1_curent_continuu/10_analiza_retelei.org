@@ -154,7 +154,7 @@ sens invers acelor de ceasornic până ajungem în punctul de unde am
 plecat:
 
 #+CAPTION: circuit electric [[../poze/00384.png]] #+CAPTION: circuit
-electric [[../poze/00385.png]] #+CAPTION: circuit electric
+#+CAPTION: electric [[../poze/00385.png]] #+CAPTION: circuit electric
 [[../poze/00386.png]] #+CAPTION: circuit electric [[../poze/00387.png]]
 
 După ce am percurs întreaga buclă din stânga, adunăm aceste valori ale
@@ -188,7 +188,7 @@ Aplicând aceeiaşi paşi şi pentru bucla din dreapta, obţinem o altă
 ecuaţie.
 
 #+CAPTION: circuit electric [[../poze/00388.png]] #+CAPTION: circuit
-electric [[../poze/00389.png]] #+CAPTION: circuit electric
+#+CAPTION: electric [[../poze/00389.png]] #+CAPTION: circuit electric
 [[../poze/00390.png]] #+CAPTION: circuit electric [[../poze/00391.png]]
 #+CAPTION: calcul matematic [[../poze/10175.png]]
 
@@ -1026,7 +1026,7 @@ Metoda de calcuare a rezistenţei este aceeiaşi în ambele cazuri:
 prin urmare egale:
 
 #+CAPTION: circuit electric [[../poze/00241.png]] #+CAPTION: circuit
-electric [[../poze/00245.png]] #+CAPTION: formulă [[../poze/10197.png]]
+#+CAPTION: electric [[../poze/00245.png]] #+CAPTION: formulă [[../poze/10197.png]]
 
 Luând în considerare faptul că ambele circuite echivalente sunt gândite
 să se comporte asemenea reţelei originale în ceea ce priveşte
@@ -1246,7 +1246,7 @@ reţea Y echivalentă pentru înlocuirea lor şi transformăm prin acest pas
 puntea într-un circuit combinat (mai simplu) serie/paralel.
 
 #+CAPTION: punte electrică dezechilibrată alegerea configuraţiei Δ de
-transformat în Y [[../poze/00252.png]]
+#+CAPTION: transformat în Y [[../poze/00252.png]]
 
 După aplicarea transformării:
 

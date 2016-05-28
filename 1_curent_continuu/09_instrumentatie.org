@@ -41,7 +41,7 @@ La începutul instrumentaţiei industriale, aerul comprimat era folosit în
 scopul transmiterii informaţiei de la aparatele de măsură şi controlul
 acestora. Nivelul presiunii aerului se regăsea în valoarea variabilei de
 măsurat, oricare era aceea. Aerul curat şi uscat la o presiune de
-aproximativ 1,5 [[http://ro.wikipedia.org/wiki/Bar][bar]] era furnizat
+#+CAPTION: aproximativ 1,5 [[http://ro.wikipedia.org/wiki/Bar][bar]] era furnizat
 de un compresor de aer prin intermediul unor tuburi spre instrumentul de
 măsura, ce modifica la rândul său valoarea presiunii în funcţie de
 cantitatea de măsurat producând asfel un semnal de ieşire. De exemplu,
@@ -376,7 +376,7 @@ temperatură dinte două puncte, caz în care efectul de mai sus poate fi
 exploatat prin construirea unui sistem foarte simplu de măsură.
 
 #+CAPTION: termocupla - măsurarea diferenţei de temperatură dintre două
-puncte [[../poze/00195.png]]
+#+CAPTION: puncte [[../poze/00195.png]]
 
 Totuşi, în marea parte a aplicaţiilor scopul este măsurarea temperaturii
 doar într-un singur punct, caz în care cel de al doilea contact devine

@@ -6,7 +6,7 @@ lampa se aprinde instant. La deschiderea întrerupătorului, lampe se
 stinge instant.
 
 #+CAPTION: circuit electric simplu, format dintr-o baterie, o lampă şi
-un întrerupător [[../poze/02352.png]]
+#+CAPTION: un întrerupător [[../poze/02352.png]]
 
 De fapt, aprinderea lămpii durează o mică fracţiune de secundă până se
 încălzeşte şi emite lumină, timp necesar pentru ca valoarea curentului
@@ -56,7 +56,7 @@ mişcare de-a lungul suprafeţei apei cu o viteza mai mare decât viteza
 individuală a moleculelor:
 
 #+CAPTION: analogie pentru deplasarea electronilor în conductori;
-punerea în mişcare a unui obiect pe suprafaţa apei [[../poze/02355.png]]
+#+CAPTION: punerea în mişcare a unui obiect pe suprafaţa apei [[../poze/02355.png]]
 
 În aceeiaşi ordine de idei, „unda de curent” se deplasează cu viteza
 luminii, deşi electronii individuali nu au o viteză într-atât de mare.
@@ -80,7 +80,7 @@ conectată la bornele sale, acest circuit este de fapt deschis. Nu va
 exista deloc curent prin acest circuit?
 
 #+CAPTION: circuit electric simplu format din baterie şi întrerupător şi
-conductori de lungime infinită [[../poze/02356.png]]
+#+CAPTION: conductori de lungime infinită [[../poze/02356.png]]
 
 Chiar dacă am putea elimina rezistenţa firelor prin folosirea
 superconductoarelor în acest „experiment”, nu am putea elimina însă
@@ -90,7 +90,7 @@ capacitate electrică parazită între ei.
 
 #+CAPTION: circuit electric simplu format din baterie şi întrerupător şi
 conductori de lungime infinită; apariţia capacităţilor parazite între
-cei doi conductori [[../poze/02359.png]]
+#+CAPTION: cei doi conductori [[../poze/02359.png]]
 
 Aplicarea unei diferenţe de potenţial între doi conductori, duce la
 formarea unui câmp electric între acei doi conductori. Acest câmp
@@ -130,11 +130,11 @@ progresivă la valoarea maximă de tensiune şi curent a capacităţilor şi
 inductanţelor distribuite, asfel:
 
 #+CAPTION: linie electrică lungă neîncărcată; închiderea
-întrerupătorului şi propagarea undei [[../poze/02361.png]] #+CAPTION:
+#+CAPTION: întrerupătorului şi propagarea undei [[../poze/02361.png]] #+CAPTION:
 linie electrică lungă neîncărcată; închiderea întrerupătorului şi
-propagarea undei [[../poze/02362.png]] #+CAPTION: linie electrică lungă
+#+CAPTION: propagarea undei [[../poze/02362.png]] #+CAPTION: linie electrică lungă
 neîncărcată; închiderea întrerupătorului şi propagarea undei cu
-aproximativ viteza luminii [[../poze/02363.png]]
+#+CAPTION: aproximativ viteza luminii [[../poze/02363.png]]
 
 Rezultatul final al acestor interacţiuni este un curent constant, de
 amplitudine limitată, prin sursa de tensiune (baterie). Din moment ce
@@ -162,7 +162,7 @@ Pentru un set de conductori paraleli, cu aer pe post de dielectric,
 impedanţa caracteristică poate fi calculată asfel:
 
 #+CAPTION: calcularea impedanţei caracteristice dintre două conductoare
-separate prin aer [[../poze/12144.png]]
+#+CAPTION: separate prin aer [[../poze/12144.png]]
 
 Dacă linia de transmisie este un cablu coaxial, impedanţa caracteristică
 se calculează asfel:
@@ -185,7 +185,7 @@ vidului. Factorul de viteză a oricărui tip de cablu (coaxial sau alt
 tip), poate fi calculat cu următoarea formulă:
 
 #+CAPTION: formula matematică pentru calcularea factorului de viteză a
-oricărui tip de cablu [[../poze/12148.png]]
+#+CAPTION: oricărui tip de cablu [[../poze/12148.png]]
 
 Impedanţa caracteristică mai este cunoscută şi sub numele de /impedanţă
 naturală/, şi se referă la rezistenţa echivalentă a liniei de transmisie
@@ -212,7 +212,7 @@ a raportului dintre inductanţa liniei pe unitate de lungime şi
 capacitatea liniei pe unitate de lungime:
 
 #+CAPTION: formula matematică pentru calcularea impedanţei
-caracteristice a liniilor electrice lungi [[../poze/12146.png]]
+#+CAPTION: caracteristice a liniilor electrice lungi [[../poze/12146.png]]
 
 Sumar:
 
@@ -300,7 +300,7 @@ Putem ilustra acest fenomen de reflexie al liniilor de transmisie cu un
 experiment simplu.
 
 #+CAPTION: exemplificarea propagării undelor de tensiune şi curent cu
-ajutorului unei sfori [[../poze/02365.png]]
+#+CAPTION: ajutorului unei sfori [[../poze/02365.png]]
 
 Acest lucru este analog unei linii de transmisie cu pierderi interne:
 puterea semnalului este din ce în ce mai slabă pe măsură ce se propagă
@@ -310,7 +310,7 @@ amplitudinea semnalului nu este încă zero, în lungul sforii va apărea o
 a doua undă, reflectată înapoi spre mână.
 
 #+CAPTION: exemplificarea propagării undelor de tensiune şi curent cu
-ajutorului unei sfori; reflectarea undei [[../poze/02366.png]]
+#+CAPTION: ajutorului unei sfori; reflectarea undei [[../poze/02366.png]]
 
 De obicei, rolul unei linii de transmisie este propagarea (transportul)
 energiei electrice dintr-un punct în altul. Dar chiar dacă semnalele
@@ -502,14 +502,14 @@ simplitate. Unda incidentă se deplasează de la stânga la dreapta, iar
 unda reflectată de la dreapta la stânga:
 
 #+CAPTION: reflexia în oglindă a undei triunghiulare incidente într-o
-linie electrică întreruptă [[../poze/02372.png]]
+#+CAPTION: linie electrică întreruptă [[../poze/02372.png]]
 
 Dacă adăugăm cele două forme de undă, descoperim că în lungul liniei se
 formează de fapt o a treia formă de undă, staţionară:
 
 #+CAPTION: reflexia în oglindă a undei triunghiulare incidente într-o
 linie electrică întreruptă; formarea formei de undă staţionare ca sumă
-dintre unda incidentă şi cea reflectată [[../poze/02372.png]]
+#+CAPTION: dintre unda incidentă şi cea reflectată [[../poze/02372.png]]
 
 Cea de a treia undă, cea staţionară, reprezintă de fapt singura tensiune
 din lungul liniei, fiind suma undelor incidente şi a undelor reflectate.
@@ -520,14 +520,14 @@ punctele de pe linie, ce marchează amplitudinea zero a undei staţionare
 au tot timpul aceeiaşi poziţie:
 
 #+CAPTION: unda staţionară nu se propagă în lungul liniilor de
-transmisie [[../poze/02376.png]]
+#+CAPTION: transmisie [[../poze/02376.png]]
 
 Undele staţionare sunt destul de frecvent întâlnite în lumea
 înconjurătoare. Să considerăm o coardă, legată la un capăt şi
 „scuturată” la celălalt:
 
 #+CAPTION: udele staţionare într-o bucată de sfoară legată la un capăt
-şi mişcată la celălalt [[../poze/02373.png]]
+#+CAPTION: şi mişcată la celălalt [[../poze/02373.png]]
 
 Atât nodurile (punctele unde vibraţia este foarte mică sau inexistentă),
 cât şi antinodurilor (punctele unde vibraţia este maximă) rămân fixe

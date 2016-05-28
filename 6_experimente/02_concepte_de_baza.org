@@ -167,7 +167,7 @@ de măsură la placă. Testaţi continuitatea lor.
 
 #+CAPTION: măsurarea continuităţii unei plăci electronice de test
 [[../poze/05041.png]] #+CAPTION: măsurarea continuităţii unei plăci
-electronice de test [[../poze/05042.png]]
+#+CAPTION: electronice de test [[../poze/05042.png]]
 
 Un concept foarte important în teoria electricităţii, strâns legat de
 cel al continuităţii, este cel al punctelor comune din punct de vedere

@@ -7,7 +7,7 @@ desemnând sursa de putere, şi linii orizontale reprezentând circuitele
 de control.
 
 #+CAPTION: diagrama ladder de control a unei lămpi prin intermediul unui
-comutator manual [[../poze/04002.png]]
+#+CAPTION: comutator manual [[../poze/04002.png]]
 
 Ca şi exemplu de început, o diagramă ladder simplă reprezentând o lampă
 controlată de un comutator manual arată precum în figura alăturată.
@@ -16,13 +16,13 @@ Notaţiile L_{1} şi L_{2} desemnează bornele unei surse de alimentare de
 masă). Aceste notaţii nu au nicio legătură cu notaţia bobinelor.
 
 #+CAPTION: diagrama ladder de control a unei lămpi prin intermediul unui
-comutator manual; schema completă [[../poze/04003.png]]
+#+CAPTION: comutator manual; schema completă [[../poze/04003.png]]
 
 Transformatorul sau generatorul ce alimentează acest circuit este omis
 pentru simplitate. În realitate, circuitul este cel alăturat.
 
 #+CAPTION: diagrama ladder de control a unei lămpi prin intermediul unui
-comutator manual; alimentare în c.c. la 24 V [[../poze/04004.png]]
+#+CAPTION: comutator manual; alimentare în c.c. la 24 V [[../poze/04004.png]]
 
 Deşi circuitele logice industriale utilizează o tensiune de 120 V în
 c.a., există şi sisteme realizate la tensiuni mai mici în c.a. sau chiar
@@ -297,7 +297,7 @@ de bobina releului CR1, asigurând o funcţie logică de negare (NU) pe
 lampă, inversă faţă de starea de acţionare a comutatorului (A).
 
 #+CAPTION: diagrama ladder; funcţia logică ŞI-negat realizată prin
-inversarea ieşirii [[../poze/04056-1.png]]
+#+CAPTION: inversarea ieşirii [[../poze/04056-1.png]]
 
 Să aplicăm această strategie de inversare uneia dintre funcţiile cu
 intrare inversată realizate mai sus. Spre exemplu, funcţia logică ŞI
@@ -312,7 +312,7 @@ ajutorul unui releu pentru realizarea unei funcţii ne-inversate.
 | 1   | 1   | 1        |
 
 #+CAPTION: funcţia logică ŞI [[../poze/04056-2.png]] #+CAPTION: simbolul
-porţii logice ŞI [[../poze/04056.png]]
+#+CAPTION: porţii logice ŞI [[../poze/04056.png]]
 
 De la comutator la bobina CR1, funcţia logică realizată este cea a unei
 porţi ŞI-negat. Contactele CR1 normal-închise inversează şi transformă
@@ -697,7 +697,7 @@ programului. De exemplu, putem adăuga un contact acţionat de ieşirea Y a
 PLC-ului.
 
 #+CAPTION: automat programabil şi circuit logic; sistem de control al
-pornirii şi opririi unui motor [[../poze/04338.png]]
+#+CAPTION: pornirii şi opririi unui motor [[../poze/04338.png]]
 
 Să considerăm exemplul alăturat. Acesta este un sistem de control al
 pornirii şi opririi unui motor.
@@ -712,7 +712,7 @@ este colorat, ceea ce înseamnă ca este închis şi conduce energie
 electrică.
 
 #+CAPTION: automat programabil şi circuit logic; sistem de control al
-pornirii şi opririi unui motor [[../poze/04339.png]]
+#+CAPTION: pornirii şi opririi unui motor [[../poze/04339.png]]
 
 Dacă apăsăm butonul de „start”, intrarea X_{1} se va energiza, închizând
 contactul X_{1} din program. Bobina Y_{1} va fi energizată şi se va
@@ -721,7 +721,7 @@ Contactul paralel Y_{1} se va închide şi el, iar circuitul va rămâne
 într-o stare energizată.
 
 #+CAPTION: automat programabil şi circuit logic; sistem de control al
-pornirii şi opririi unui motor [[../poze/04340.png]]
+#+CAPTION: pornirii şi opririi unui motor [[../poze/04340.png]]
 
 Acum, dacă eliberăm contactorul „start”, contactul X_{1} normal-deschis
 se va reîntoarce la poziţia sa normală (deschis). Motorul va continua
@@ -730,7 +730,7 @@ continuă să alimenteze bobina Y_{1}, care menţine la rândul ei
 energizată ieşirea Y_{1}.
 
 #+CAPTION: automat programabil şi circuit logic; sistem de control al
-pornirii şi opririi unui motor [[../poze/04341.png]]
+#+CAPTION: pornirii şi opririi unui motor [[../poze/04341.png]]
 
 Pentru a opri motorul, trebuie să apăsăm pentru o durată scurtă
 comutatorul „stop”. Acesta va energiza intrarea X_{2} şi va deschide
@@ -738,7 +738,7 @@ contactul (virtual) normal-închis. Continuitatea circuitului înspre
 bobina Y_{1} va fi întreruptă.
 
 #+CAPTION: automat programabil şi circuit logic; sistem de control al
-pornirii şi opririi unui motor [[../poze/04342.png]]
+#+CAPTION: pornirii şi opririi unui motor [[../poze/04342.png]]
 
 Când butonul de „stop” este eliberat, intrarea X_{2} se de-energizează.
 Contactul X_{2} se reîntoarce în poziţia sa normală (închis). Motorul nu
@@ -757,7 +757,7 @@ o problemă: în cazul în care conductorul comutatorului de intrare X_{2}
 opri motorul!
 
 #+CAPTION: automat programabil şi circuit logic; sistem de control al
-pornirii şi opririi unui motor [[../poze/04371.png]]
+#+CAPTION: pornirii şi opririi unui motor [[../poze/04371.png]]
 
 Soluţia acestei probleme constă în inversarea logicii între contactul
 X_{2} din interiorul programului PLC-ului şi comutatorul „stop”. Când
@@ -785,7 +785,7 @@ sunt folosite asemenea releelor de control (CR1, CR2, etc.) pentru
 asigurarea unui semnal logic inversor în caz de nevoie.
 
 #+CAPTION: automat programabil şi circuit logic; utilizarea releelor
-interne de control [[../poze/04343.png]]
+#+CAPTION: interne de control [[../poze/04343.png]]
 
 Pentru demonstrarea funcţionării unui asemenea tip de releu „intern”, să
 consideram circuitul şi programul alăturat. Acesta este proiectat pentru
@@ -794,7 +794,7 @@ unui program PLC sunt desemnate printr-o singură literă, vom nota releul
 de control intern cu C1 şi nu cu CR1.
 
 #+CAPTION: automat programabil şi circuit logic; utilizarea releelor
-interne de control [[../poze/04344.png]]
+#+CAPTION: interne de control [[../poze/04344.png]]
 
 În acest circuit, lampa va rămâne aprinsă atâta timp cât oricare dintre
 butoane rămâne ne-acţionat (eliberat). Pentru a opri lampa, va trebui să
