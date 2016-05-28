@@ -1,4 +1,4 @@
-* Câmpul magnetic şi inductanţa
+** Câmpul magnetic şi inductanţa
 
 Atunci când un conductor este parcurs de curent electric (deplasarea
 electronilor), se va forma tot timpul un câmp magnetic în jurul
@@ -160,7 +160,7 @@ Sumar:
    magnetic (şi în consecinţă de a se opune variaţiei curentului) se
    numeşte /inductanţă/ (L). Unitatea sa de măsură este /Henry/ (H)
 
-* Relaţia tensiune-curent pentru bobină
+** Relaţia tensiune-curent pentru bobină
 
 Bobinele nu au o „rezistenţă” stabilă precum rezistenţele sau
 conductoarele. Totuşi, există o relaţie matematică dintre tensiunea şi
@@ -313,13 +313,13 @@ până când curentul scade la zero:
 Pentru efect maxim, marimea bobine ar trebuie să fie cât mai mare
 posibil (o inductanţă de cel puţin 1 Henry).
 
-* Factori ce influenţează inductanţa
+** Factori ce influenţează inductanţa
 
 Există patru factori de bază în construcţia bobinelor ce influenţează
 valoarea inductanţei create. Toţi aceşti factori se referă la valoarea
 fluxului magnetic creat pentru o anumită valoare a forţei magnetice:
 
-*** Numărul spirelor din înfăşurare
+**** Numărul spirelor din înfăşurare
 
 Toţi ceilalţi factori fiind egali, un număr mai mare de spire în
 înfăşurarea bobine rezultă într-o valoare mai mare a inductanţei, şi
@@ -333,7 +333,7 @@ prin bobină.
 #+CAPTION: de spire din înfăşurare
 [[../poze/00324.png]]
 
-*** Aria înfăşurării
+**** Aria înfăşurării
 
 Toţi ceialţi factorii fiind egali, o arie mai mare a înfăşurării
 (privind în lungul înfăşurării la secţiunea transversală a acesteia)
@@ -347,7 +347,7 @@ câmpului magnetic.
 #+CAPTION: înfăşurării
 [[../poze/00325.png]]
 
-*** Lungimea înfăşurării
+**** Lungimea înfăşurării
 
 Toţi ceialţi factorii fiind egali, cu cât lungimea înfăşurării este mai
 mare, cu atât inductanţa este mai mică, şi invers.
@@ -360,7 +360,7 @@ a forţei magnetice.
 #+CAPTION: lungimea înfăşurării
 [[../poze/00326.png]]
 
-*** Materialul miezului
+**** Materialul miezului
 
 Toţi ceialţi factorii fiind egali, cu cât permeabilitatea magnetică
 miezului înfăşurării este mai mare, cu atât mai mare este inductanţa, şi
@@ -374,7 +374,7 @@ a forţei magnetice.
 #+CAPTION: materialul miezului - aer vs. fier
 [[../poze/00327.png]]
 
-*** Formula de calcul a inductanţei
+**** Formula de calcul a inductanţei
 
 O aproximare pentru calcularea inductanţei oricărei înfăşurări se poate
 obţine cu următoarea formulă:
@@ -398,9 +398,9 @@ Bobinele variabile sunt de obicei concepute asfel încât să fie posibilă
 variaţia numărului de înfăşurări folosite în orice moment, sau prin
 schimbarea miezului.
 
-* Bobine serie şi paralel
+** Bobine serie şi paralel
 
-*** Inductanţa bobinelor în serie
+**** Inductanţa bobinelor în serie
 
 La conectarea bobinelor în serie, inductanţa totală este suma
 inductanţelor individuale ale bobinelor. Acest lucru se datorează
@@ -426,7 +426,7 @@ inductanţei serie este asemănătoare celei pentru calculu rezistenţelor
 #+CAPTION: inductanţa totală a bobinelor serie
 [[../poze/10238.png]]
 
-*** Inductanţa bobinelor în paralel
+**** Inductanţa bobinelor în paralel
 
 La conectarea bobinelor în paralel, inductanţa totală este mai mică
 decât inductanţele individuale ale bobinelor. Explicaţia este
@@ -457,13 +457,13 @@ Sumar:
 -  Inductanţele serie se adună
 -  Inductanţele paralel scad
 
-* Consideraţii practice (bobina)
+** Consideraţii practice (bobina)
 
 Bobinele, la fel ca toate celelalte componente, au anumite limite ce
 trebuiesc luate în considerare dacă se doreşte operarea eficientă şi
 siguranţa a circuitelor din care fac parte.
 
-** Curentul maxim printr-o bobină
+*** Curentul maxim printr-o bobină
 
 Bobinele sunt realizate din conductori înfăşuraţi. Orice conductor are o
 limită maximă a capacităţii curentului prin el, limită datorată
@@ -471,7 +471,7 @@ rezistenţei şi abilităţii acestuia de a elimina căldura creată. Din
 această cauză, trebuie să fim atenţi la valoarea curentului maxim
 permisă printr-o bobină.
 
-** Circuitul echivalent a unei bobine
+*** Circuitul echivalent a unei bobine
 
 Orice conductor din care este realizat bobina prezintă o anumită
 rezistenţă electrică. Adeseori, cerinţele circuitului impun cea mai mică
@@ -487,7 +487,7 @@ pentru obţinerea unor efecte parazite neglijabile, bobinele sunt greu de
 găsit în forma lor „pură”. În unele aplicaţii, aceste caracteristici
 nedorite pro pune serioase probleme inginereşti.
 
-** Mărimea fizică a bobinelor
+*** Mărimea fizică a bobinelor
 
 Fizic, bobinele tind să fie mult mai mare decât condensatoarele, pentru
 aceiaşi valoare a energiei stocate. Acest lucru este cu atât mai
@@ -505,7 +505,7 @@ energiei electrice: bobinele realizate din fire supraconductoare
 realizării lor decât condensatoarele de aceiaşi valoare, şi probabil
 sunt şi mai mici.
 
-** Interferenţa cauzată de bobine
+*** Interferenţa cauzată de bobine
 
 Bobinele pot afecta componentele adiacente dintr-un circuit electric sau
 electronic datorită câmpurilor magnetice create. Aceste câmpuri se

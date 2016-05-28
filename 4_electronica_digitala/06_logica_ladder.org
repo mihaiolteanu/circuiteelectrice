@@ -1,4 +1,4 @@
-* Diagrame ladder
+** Diagrame ladder
 
 Diagramele ladder sunt diagrame speciale folosite de obicei în sistemele
 logice de control industrial. Denumirea de ladder (din engleză: scară)
@@ -106,9 +106,9 @@ Sumar:
    modului de interconectare a comutatoarelor şi a releelor
    electromecanice dintr-un circuit logic
 
-* Funcţii logice digitale
+** Funcţii logice digitale
 
-** Funcţia logică SAU
+*** Funcţia logică SAU
 
 #+CAPTION: diagramă lader; funcţia SAU
 [[../poze/04009.png]]
@@ -142,7 +142,7 @@ pentru a ajunge spre lampă. Prin urmare, indiferent care contact se
 Ceea ce am implementat de fapt în acest caz nu este altceva decât o
 poartă logică SAU, utilizând două contacte normal-deschise şi o lampă.
 
-** Funcţia logică ŞI
+*** Funcţia logică ŞI
 
 #+CAPTION: diagramă lader; funcţia ŞI
 [[../poze/04010.png]]
@@ -167,7 +167,7 @@ Putem verifica cu ajutorul tabelului de adevăr că acest lucru este
 acţionate simultan. Curentul va putea trece de la L_{1} la 2 doar dacă
 ambele contacte sunt închise.
 
-** Funcţia logică NU
+*** Funcţia logică NU
 
 #+CAPTION: diagramă ladder; funcţia logică NU
 [[../poze/04011.png]]
@@ -187,7 +187,7 @@ cele folosite mai sus.
 Din nou, putem verifica prin intermediul tabelului de adevăr că acest
 lucru este corect.
 
-** Funcţia logică ŞI-negat
+*** Funcţia logică ŞI-negat
 
 #+CAPTION: diagramă ladder; funcţia logică ŞI-negat
 [[../poze/04012.png]]
@@ -211,7 +211,7 @@ contactelor normal-închise în loc de contacte normal-deschise.
 Lampa va fi energizată dacă unul dintre contacte nu este acţionat, şi se
 va stinge doar dacă ambele contacte sunt acţionate simultan.
 
-** Funcţia logică SAU-negat
+*** Funcţia logică SAU-negat
 
 #+CAPTION: diagramă ladder; funcţia logică SAU-negat
 [[../poze/04013.png]]
@@ -238,7 +238,7 @@ contactele paralele sunt echivalente cu o poartă logică SAU; contactele
 serie sunt echivalente cu o poartă ŞI; contactele normal-închise sunt
 echivalente cu o poartă NU (negare).
 
-** Funcţia logică SAU-exclusiv
+*** Funcţia logică SAU-exclusiv
 
 #+CAPTION: diagramă ladder; funcţia logică SAU-exclusiv
 [[../poze/04014-1.png]]
@@ -278,7 +278,7 @@ reprezentate pe acelaşi releu. Fiecare nou contact adăugat unui releu
 sau unui comutator, fie că este contact normal-închis sau
 normal-deschis) este reprezentat prin acelaşi simbol.
 
-** Marcarea compusă
+*** Marcarea compusă
 
 În unele situaţii, se foloseşte o marcare compusă de genul „A-1” şi
 „A-2” în loc de „A” pentru ambele contacte ale aceluiaşi dispozitiv.
@@ -289,7 +289,7 @@ asemenea notaţie în cele ce urmează. Dacă vedeţi mai multe contacte
 marcate identic (A, B, etc.), puteţi să fiţi siguri că acele contacte
 sunt acţionate de acelaşi mecanism.
 
-** Inversarea ieşirii
+*** Inversarea ieşirii
 
 #+CAPTION: diagramă ladder; negarea ieşirii unei funcţii logice
 [[../poze/04055-1.png]]
@@ -351,9 +351,9 @@ Sumar:
    normal-închis
 -  Pentru inversarea ieşirii unei funcţii logice, se folosesc relee
 
-* Circuite permisive şi de blocare
+** Circuite permisive şi de blocare
 
-** Controlul aprinderii furnalelor
+*** Controlul aprinderii furnalelor
 
 #+CAPTION: diagramă ladder; circuit de control al aprinderii furnalelor
 [[../poze/04057.png]]
@@ -386,7 +386,7 @@ Din moment ce condiţia „noarmală” a oricărui comutator de presiune este
 acest comutator să se deschidă în cazul unei presiuni excesive, trebuie
 să alegem un comutator ce este închis în starea sa normală.
 
-** Controlul pornirii motoarelor electrice
+*** Controlul pornirii motoarelor electrice
 
 O altă aplicaţie practică a releelor constă în controlul sistemelor în
 care dorim ca două evenimente incompatibile să nu aibă loc în acelaşi
@@ -457,7 +457,7 @@ Sumar:
    care două acţiuni ce au loc simultan sunt incompativile (alimentarea
    directă şi indirecta a unui motor electric, simultan, de exemplu)
 
-* Circuite logice cu autoprotecţie
+** Circuite logice cu autoprotecţie
 
 Circuitele logic, fie că sunt compuse din relee electromecanice sau din
 porţi logice semiconductoare, pot fi construite sub mai multe variante
@@ -549,9 +549,9 @@ Sumar:
 -  
 -  
 
-* Automate programabile (PLC)
+** Automate programabile (PLC)
 
-** Scurtă istorie
+*** Scurtă istorie
 
 Înainte de apariţia circuitelor logice cu semiconductori, sistemele
 logice de control erau proiectate şi realizate exclusiv cu relee
@@ -594,7 +594,7 @@ intrare şi de ieşire sunt de 120 V c.a, asemenea releelor
 electromecanice de control. Deşi unele PLC-uri au intrări şi ieşiri de
 c.c de amplitudini mai mici, aceasta este excepţia şi nu regula.
 
-** Programarea PLC-urilor
+*** Programarea PLC-urilor
 
 Modul de conectare şi de programare diferă puţin în funcţie de modelul
 de PLC ales, dar aceste caracteristici sunt destul de similar pentru a
@@ -703,7 +703,7 @@ este apăsat), este prezentat în figura alăturată.
 
 Când butonul este acţionat, sistemul arată conform figurii alăturate.
 
-** Reutilizarea intrărilor
+*** Reutilizarea intrărilor
 
 Un alt avantaj al implementării logicii de control în varianta software
 faţă de hardware, este că semnalele de intrare pot fi refolosite în
@@ -786,7 +786,7 @@ Contactul X_{2} se reîntoarce în poziţia sa normală (închis). Motorul nu
 va reporni însă până când comutatorul de „start” nu este acţionat,
 datorită „pierderii” contactului de reţinere Y_{1}.
 
-** Autoprotecţia
+*** Autoprotecţia
 
 Desigur, proiectarea PLC-urilor astfel încât să conţină elemente de
 autoprotecţie este la fel de importantă precum în cazul sistemelor cu
@@ -819,7 +819,7 @@ motorului în caz de defect. Această variantă este mult mai sigură decât
 cea precedentă, în care, acelaşi tip de defect ar conduce la
 imposibilitatea opririi motorului.
 
-** Relee de control
+*** Relee de control
 
 Pe lângă elementele de intrare (X) şi de ieşire (Y), PLC-urile conţin
 bobine şi contacte ce nu a legătură propriu-zisă cu exteriorul. Aceastea

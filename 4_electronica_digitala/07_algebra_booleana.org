@@ -1,4 +1,4 @@
-* Introducere şi scurt istoric
+** Introducere şi scurt istoric
 
 #+CAPTION:
 [[../poze/00000.png]]
@@ -15,9 +15,9 @@ Sumar:
 -  
 -  
 
-* Aritmetica booleană
+** Aritmetica booleană
 
-** Numere binare şi numere booleene
+*** Numere binare şi numere booleene
 
 Trebuie înţeles încă de la început faptul că numerele booleene nu sunt
 tot una cu numerele binare. Numerele booleene reprezintă un sistem
@@ -28,7 +28,7 @@ cifre: 0 şi 1. Diferenţa constă în faptul că valorile booleene sunt
 limitate la un singur bit (fie 0, fie 1), pe când numerele binare pot fi
 compuse din mai mulţi biţi.
 
-** Adunarea booleană
+*** Adunarea booleană
 
 Să începem aşadar capitolul de algebră booleană prin adunarea numerelor:
 
@@ -67,7 +67,7 @@ precum şi comutatoarelor conectate în paralel:
 #+CAPTION: logică SAU şi comutatoare paralel (1 + 1)
 [[../poze/14012.png]]
 
-** Scăderea şi împărţirea booleană
+*** Scăderea şi împărţirea booleană
 
 În cadrul matematicii booleene nu există noţiunea de scădere. Scăderea
 implică existenţa numerelor negative: 5 - 3 este identic cu 5 + (-3), de
@@ -78,7 +78,7 @@ De asemenea, nu există nici operaţie de împărţirea booleeană. Împărţire
 nu este altceva decât o scădere compusă, la fel cum înmulţirea nu este
 altceva decât adunare compusă.
 
-** Înmulţirea booleană
+*** Înmulţirea booleană
 
 Înmulţirea booleană este permisă, iar regulile sunt aceleaşi cu
 înmulţirea numerelor reale: orice număr înmulţit cu 0 este 0, şi orice
@@ -101,7 +101,7 @@ comutatoarelor conectate în serie:
 #+CAPTION: comutatoare serie (1 x 1)
 [[../poze/14016.png]]
 
-** Variabile booleene şi complementul lor
+*** Variabile booleene şi complementul lor
 
 La fel ca algebra „normală”, algebra booleană utilizează litere pentru
 desemnarea variabilelor. Dar, faţa de algebra „normală”, aceste
@@ -138,9 +138,9 @@ Sumar:
 -  Complementarea booleană este echivalentă unei porţi logice NU, precum
    şi contactelor normal-închise
 
-* Identităţi algebrice booleene
+** Identităţi algebrice booleene
 
-** Ce este o identitate
+*** Ce este o identitate
 
 În matematică, o identitate este o afirmaţie valabilă pentru toate
 valorile posibile ale variabilei sau variabilelor implicate. Identitatea
@@ -150,7 +150,7 @@ acesteia. Asemenea algebrei obişnuite, există identităti specifice
 algebrei booleene. Aceste identităţi sunt bazate pe cele două stări
 posibile ale variabilelor booleene (0 sau 1).
 
-** Identităţi aditive
+*** Identităţi aditive
 
 Prima identitate booleană este suma unei variabile cu zero. Rezultatul
 este valoarea variabilei iniţiale. Această identitate nu este cu nimic
@@ -194,7 +194,7 @@ complementul ei trebuie să fie 1:
 #+CAPTION: suma booleană dintre o variabilă şi complementul acesteia
 [[../poze/14022.png]]
 
-** Identităţi multiplicative
+*** Identităţi multiplicative
 
 La fel cum există patru identităţi booleene aditive (A + 0, A + 1, A + A
 şi A + A'), există şi patru identităti multiplicative: A x 0, A x 1, A x
@@ -237,7 +237,7 @@ patru pentru produs (multiplicative):
 #+CAPTION: identităţi algebrice aditive şi multiplicative
 [[../poze/14027.png]]
 
-** Identitatea complementului dublu
+*** Identitatea complementului dublu
 
 O altă identitate caracteristică complementului unei variabile este cea
 a complementului dublu: o variabilă inversată de două ori. Rezultatul
@@ -254,12 +254,12 @@ Sumar:
 -  
 -  
 
-* Proprietăţi algebrice booleene
+** Proprietăţi algebrice booleene
 
 Un alt tip de identitate matematică, denumită „proprietate”, descrie
 relaţia dintre variabilele unui sistem de numere.
 
-** Comutativitatea
+*** Comutativitatea
 
 Una dintre aceste proprietăţi poartă numele de comutativitate, şi se
 aplică atât adunării cât şi înmulţirii. Ceea ce ne spune comutativitatea
@@ -275,7 +275,7 @@ Comutativitatea înmulţirii:
 #+CAPTION: comutativitatea înmulţirii booleene
 [[../poze/14029.png]]
 
-** Asociativitatea
+*** Asociativitatea
 
 Această proprietate spune că putem asocia grupuri de sume sau înmulţiri,
 prin intermediul parantezelor, fară a modifica rezultatul ecuaţiilor. Şi
@@ -290,7 +290,7 @@ Asociativitatea înmulţirii:
 #+CAPTION: asociativitatea înmulţirii booleene
 [[../poze/14031.png]]
 
-** Distributivitatea
+*** Distributivitatea
 
 Proprietatea de distributivitate precizează modul de dezvoltare a unei
 expresii booleene formate din înmulţirea unei sume:
@@ -310,7 +310,7 @@ Sumar:
 -  
 -  
 
-* Reguli de simplificare booleană
+** Reguli de simplificare booleană
 
 Una dintre cele mai practice aplicaţii ale algebrei boolene constă în
 simplificarea circuitelor logice. Dacă transformăm funcţia logică a unui
@@ -384,9 +384,9 @@ Sumar:
 -  
 -  
 
-* Simplificarea circuitelor logice
+** Simplificarea circuitelor logice
 
-** Simplificarea circuitelor cu porţi logice
+*** Simplificarea circuitelor cu porţi logice
 
 Să începem cu un circuit logic cu porţi ce necesită o simplificare.
 Presupunem că intrările A, B şi C sunt asigurate de comutatoare, senzori
@@ -396,7 +396,7 @@ punct de vedere al simplificării.
 #+CAPTION: circuit cu porţi logice
 [[../poze/04287.png]]
 
-*** Scrierea expresiei booleene
+**** Scrierea expresiei booleene
 
 Primul pas al simplificării constă în scrierea expresiei booleene pentru
 acest circuit. Acest pas este cel mai uşor de realizat dacă scriem
@@ -423,7 +423,7 @@ expresie:
 #+CAPTION: porţilor
 [[../poze/04290.png]]
 
-*** Simplificarea expresiei booleene
+**** Simplificarea expresiei booleene
 
 Acum că avem o expresie booleenă, următorul pas este aplicarea regulilor
 algebrei booleene pentru reducerea expresiei de mai sus la forma ei cea
@@ -444,7 +444,7 @@ Determinaţi apoi rezultatul Q (ieşirea circuitului) pentru toate cele
 opt combinaţii posibile dintre A, B şi C pentru ambele circuitele. Cele
 două tabele trebuie să fie identice.
 
-*** Evaluarea expresiei booleene rezultate
+**** Evaluarea expresiei booleene rezultate
 
 Următorul pas constă în generarea unei scheme logice folosind această
 expresie booleeană simplificată. Pentru realizarea acestui lucru,
@@ -471,7 +471,7 @@ de componente duce la viteze de funcţionare crescute (timpul de
 propagare a semnalului de la intrare la ieşire este mai scurt), consum
 de energie mai scăzută, cost mai mic şi o fiabilitate crescută.
 
-** Simplificarea circuitelor cu relee electromecanice
+*** Simplificarea circuitelor cu relee electromecanice
 
 Circuitele cu relee electromecanice pot profita foarte mult de pe urma
 simplificării booleene. De obicei, acestea sunt mai lente, consumă mult
@@ -482,7 +482,7 @@ exemplul de mai jos:
 #+CAPTION: circuit logic cu relee electromecanice
 [[../poze/04293.png]]
 
-*** Scrierea expresiei booleene
+**** Scrierea expresiei booleene
 
 Primul pas al reducerii acestui circuit la forma cea mai simplă este,
 din nou, transformarea circuitului sub forma unei expresii booleene. Cea
@@ -531,7 +531,7 @@ Sumar:
 -  
 -  
 
-* Funcţia SAU-exclusiv
+** Funcţia SAU-exclusiv
 
 Un element ce nu l-am întâlnit până în acest moment în operaţiile
 booleene este SAU-exclusiv. Deşi funcţia SAU este echivalentă cu o
@@ -562,7 +562,7 @@ Sumar:
 -  
 -  
 
-* Teoremele lui DeMorgan
+** Teoremele lui DeMorgan
 
 DeMorgan a dezvoltat o serie de reguli importante în algebra liniară cu
 privire la complementul de grup. Prin complementul de grup ne referim la
@@ -664,7 +664,7 @@ După cum se poate observa, menţinerea grupării realizate implicit prin
 liniile de complementare, este cruciale pentru obţinerea răspunsului
 corect.
 
-** Simplificarea unui circuit logic - exemplu
+*** Simplificarea unui circuit logic - exemplu
 
 Să aplicăm acum principiile teoremelor lui DeMorgan pentru simplificarea
 unui circuit cu porţi logice:
@@ -672,7 +672,7 @@ unui circuit cu porţi logice:
 #+CAPTION: circuit cu porţi logice
 [[../poze/04302.png]]
 
-*** Expresia booleeană echivalentă
+**** Expresia booleeană echivalentă
 
 Ca de obicei, primul pas al simplificării circuitului constă în găsirea
 expresiei booleene echivalente. Putem face acest lucru prin notarea
@@ -702,7 +702,7 @@ SAU-negat finală:
 #+CAPTION: porţilor
 [[../poze/04305.png]]
 
-*** Simplificare expresiei echivalente
+**** Simplificare expresiei echivalente
 
 Trecem apoi la reducerea acestei expresii folosind identităţile,
 proprietăţile, regulile si teoremele (lui DeMorgan) algebrei booleene:
@@ -710,7 +710,7 @@ proprietăţile, regulile si teoremele (lui DeMorgan) algebrei booleene:
 #+CAPTION: siplificarea expresiei booleene echivalente
 [[../poze/14051.png]]
 
-*** Circuitul echivalent
+**** Circuitul echivalent
 
 Circuitul echivalent al expresiei mult simplificate:
 
@@ -724,7 +724,7 @@ Sumar:
 -  O poartă ŞI-negat este echivalentă cu o poartă SAU-negativă; O poartă
    SAU-negat este echivalentă cu o poartă ŞI-negativă
 
-* Transformarea tabelelor de adevăr în expresii booleene
+** Transformarea tabelelor de adevăr în expresii booleene
 
 Procesul de proiectare al circuitelor digitale începe adesea cu un tabel
 de adevăr. Acest tabel descrie modul de funcţionare al circuitului, pe
@@ -817,7 +817,7 @@ trei intrări sunt 1. Tabelul de adevăr arată astfel:
 #+CAPTION: incinerator deşeuri toxice; tabelul de adevăr
 [[../poze/14062.png]]
 
-** Suma-de-produse
+*** Suma-de-produse
 
 În această situaţie nu este foarte clar ce tip de circuit logic ar
 satisface tabelul de adevăr. O metodă simplă de realizarea a unui astfel
@@ -848,7 +848,7 @@ booleeană ce descrie în întregime tabelul de adevăr:
 #+CAPTION: incinerator deşeuri toxice; tabelul de adevăr
 [[../poze/14065.png]]
 
-** Realizarea circuitului logic
+*** Realizarea circuitului logic
 
 După ce am obţinut expresia booleeană sub formă de sumă-de-produse,
 putem trece la realizarea circuitului logic bazat pe această expresie,
@@ -863,7 +863,7 @@ Fie cu relee electromecanice:
 #+CAPTION: electromecanice
 [[../poze/04365.png]]
 
-** Simplificarea expresiei booleene
+*** Simplificarea expresiei booleene
 
 Din păcate, ambele variante sunt destul de complexe. Din fericire însă,
 putem simplifica expresia iniţială folosing regulile simplificării

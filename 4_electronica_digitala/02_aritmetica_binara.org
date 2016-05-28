@@ -1,4 +1,4 @@
-* Valori şi sisteme de numeraţie
+** Valori şi sisteme de numeraţie
 
 Este foarte important să înţelegem că sistemul de numeraţie ales pentru
 reprezentarea valorilor (numerelor) nu are absolut niciun impact asupra
@@ -30,7 +30,7 @@ dacă suntem obişnuiţi cu operaţiile de adunare şi scădere folosind un
 calculator de mână, calculatorul însăşi foloseşte numerele binare pentru
 obţinerea rezultatului final.
 
-* Adunarea binară
+** Adunarea binară
 
 Adunarea numerelor binare este relativ simplă, foarte asemănătoare cu
 adunarea numerelor zecimale. Adunarea se realizează adunând pe coloane
@@ -71,9 +71,9 @@ Sumar:
 -  
 -  
 
-* Numere binare negative
+** Numere binare negative
 
-** Bit-ul de semn
+*** Bit-ul de semn
 
 Operaţia de scădere se poate realiza asemănător cu cea de adunare prin
 considerarea unuia dintre numere ca fiind negativ. De exemplu, operaţia
@@ -117,7 +117,7 @@ realizare a adunării pentru ca această tehnică să fie practică. Dar,
 dacă realizăm acest lucru, nu vom mai avea avantajul utilizării
 numerelor negative pentru realizarea scăderii prin adunare obişnuită.
 
-** Reprezentarea în complement faţă de doi
+*** Reprezentarea în complement faţă de doi
 
 Din fericire, există o altă metodă pentru reprezentarea numerelor
 negative ce este compatibilă cu operaţia de adunare obişnuită, şi anume,
@@ -197,7 +197,7 @@ complementul faţa de unu (1010_{2}). Apoi, adăugăm un unu pentru
 obţinerea răspunsului final: 1011_{2}, sau -5_{10} în complement faţă de
 doi, exprimat cu patru biţi.
 
-* Scăderea binară
+** Scăderea binară
 
 Putem realiza operaţia de scădere binară utilizând aceleaşi metode
 standard împrumutate de la scăderea zecimală. Totuşi, dacă putem utiliza
@@ -281,7 +281,7 @@ respective, astfel:
 
 Răspunsul obţinut este corect (18_{10} - 25_{10} = -7_{10}).
 
-* Depăşirea binară
+** Depăşirea binară
 
 Una din problemele numerelor binare cu semn, este bit-ului de depăşire.
 Acesta apare ca în cazul în care rezultatul adunării sau scăderii
@@ -389,7 +389,7 @@ uşor de implementat într-un circuit electronic.
 #+CAPTION:
 [[../poze/00000.png]]
 
-* Grupări de biţi
+** Grupări de biţi
 
 La reprezentarea numerelor binare cu ajutorul circuitelor electronice,
 suntem nevoiţi să utilizăm un număr suficient de circuite cu tranzistori

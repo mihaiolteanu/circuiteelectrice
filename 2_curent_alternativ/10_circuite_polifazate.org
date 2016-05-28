@@ -1,4 +1,4 @@
-* Sisteme de alimentare monofazate
+** Sisteme de alimentare monofazate
 
 #+CAPTION: schema electrică a unui circuit monofazat simplu; sarcini
 #+CAPTION: conectat în paralel
@@ -174,7 +174,7 @@ Sumar:
    alimentare (sau mai multe) având doar o singură formă de undă a
    tensiunii
 
-* Sisteme de alimentare trifazate
+** Sisteme de alimentare trifazate
 
 Folosind modul „straniu” de însumare a vectorilor şi a numerelor
 complexe atunci când tensiunile alternative sunt defazate între ele,
@@ -260,7 +260,7 @@ poartă numele de /circuit polifazat/, mai exact, este un /circuit
 trifazat/ (trei surse de alimentare), folosit în sistemele de
 distribuţie a energiei electrice.
 
-*** Avantajele unui sistem de alimentare trifazat
+**** Avantajele unui sistem de alimentare trifazat
 
 Să analizăm unele dintre avantajele unui asfel de circuit trifazat faţă
 de un circuit monofazat de putere echivalentă. Un sistem monofazat (o
@@ -332,7 +332,7 @@ Sumar:
    este creat cu ajutorul generatoarelor polifazate ce utilizează seturi
    multiple de înfăşurări
 
-* Secvenţa fazelor
+** Secvenţa fazelor
 
 Să considerăm din nou generatorul trifazat de curent alternativ din
 cazul precedent şi să analizăm rotaţia magneţilor şi efectele acesteia:
@@ -379,7 +379,7 @@ care, secvenţa fazelor este importantă. Din moment ce voltmetrele şi
 ampermetrele nu pot măsură această secvenţă, avem nevoie de un alt tip
 de instrument pentru această sarcină.
 
-*** Detectarea secvenţei fazelor într-un circuit trifazat
+**** Detectarea secvenţei fazelor într-un circuit trifazat
 
 Un circuit ingenios pentru aceastăa aplicaţie, utilizează un condensator
 pentru introducerea unui defazaj între tensiune şi curent, ce sunt mai
@@ -412,7 +412,7 @@ celei de a doua lămpi va fi mult mai mare, lucru ce poate fi observat
 lesne cu ochiul liber. Dacă inversăm secvenţa fazelor (3-2-1),
 rezultatul este exact invers.
 
-*** Inversarea secvenţei fazelor
+**** Inversarea secvenţei fazelor
 
 Am văzut că putem inversa secvenţa fazelor prin schimbarea sensului de
 rotaţie al generatorului. Totuşi, această modificare de rotaţie nu se
@@ -456,7 +456,7 @@ Sumar:
    faze ale sistemului trifazat între ele, fără efect asupra direcţiei
    de rotaţie a generatorului
 
-* Funcţionarea motorului polifazat
+** Funcţionarea motorului polifazat
 
 Probabil că cel mai mare avantaj al sistemelor de curent alternativ
 polifazata constă în proiectarea şi operarea motoarelor de curent
@@ -491,7 +491,7 @@ au nevoie de puţin ajutor la pornire. Odată ajutate să pornească într-o
 anumită direcţie, vor continua să se rotească în aceeiaşi direcţie,
 atâta timp când este menţinută puterea electrică pe înfăşurări.
 
-*** Pornirea motorului monofazat de curent alternativ
+**** Pornirea motorului monofazat de curent alternativ
 
 În mod normal, acest ajutor vine din partea unor seturi adiţionale de
 înfăşurări poziţionate diferit faţă de seturile de înfăşurări
@@ -603,9 +603,9 @@ Sumar:
    ele, va duce la înversare secvenţei fazelor, şi implicit la direcţia
    de rotaţie a acestuia
 
-* Configuraţii stea şi triunghi trifazate
+** Configuraţii stea şi triunghi trifazate
 
-*** Configuraţia stea (Y)
+**** Configuraţia stea (Y)
 
 Acest tip de configuraţie este cel considerat până acum în secţiunile
 precedente. Aceasta se caracterizează prin existenţa unui punct comun
@@ -630,7 +630,7 @@ potenţial în cazul în care una dintre sarcini este scoasă din funcţiune.
 #+CAPTION: configuraţia stea trifazată, fără conductorul neutru
 [[../poze/02196.png]]
 
-*** Tensiunea de linie şi tensiunea de fază
+**** Tensiunea de linie şi tensiunea de fază
 
 La măsurarea tensiunilor şi curenţilor într-un sistem trifazat, trebuie
 să fim atenţi ce şi unde anume măsurăm. /Tensiunea de linie/ se referă
@@ -656,7 +656,7 @@ tensiunile/curenţii de fază într-o sistem de tensiuni trifazate în
 #+CAPTION: configuraţie stea
 [[../poze/12115.png]]
 
-*** Configuraţia triunghi (Δ)
+**** Configuraţia triunghi (Δ)
 
 Un alt tip de configuraţie pentru sistemele de alimentare trifazate este
 configuraţia triunghi, denumită şi „delta”, după litera grecească Δ:
@@ -804,7 +804,7 @@ Sumar:
    sursele în configuraţie stea pot asigura aceeiaşi putere pe sarcină
    cu un curent de linie mai mic faţă de conexiunea triunghi.
 
-* Transformatorul trifazat
+** Transformatorul trifazat
 
 Din moment ce sistemele trifazate sunt folosite atât de des în sistemele
 de distribuţie a energiei electrice, este necesară folosirea

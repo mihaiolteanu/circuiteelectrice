@@ -1,4 +1,4 @@
-* Ce este un aparat de măsură
+** Ce este un aparat de măsură
 
 Un aparat de măsură este orice dispozitiv special realizat pentru
 afişarea unei mărimi electrice într-un format ce poate fi interpretat de
@@ -19,7 +19,7 @@ corespunzătoare a mărimilor măsurate. În acest capitol ne vom referi
 exclusiv asupra principiilor de funcţionare ale aparatelor de măsură
 analogice (mecanice).
 
-** Principiul aparatelor de măsură electromagnetice
+*** Principiul aparatelor de măsură electromagnetice
 
 Majoritatea aparatelor de măsură analogice se bazează pe principiul
 electromagnetismului, şi anume, pe faptul că trecerea unui curent
@@ -33,7 +33,7 @@ să se deplaseze faţă de cealaltă sursă, aceasta se va deplasa pe măsură
 ce curentul trece prin conductor, deplasarea fiind direct proporţională
 cu mărimea curentului.
 
-** Galvanometrul
+*** Galvanometrul
 
 #+CAPTION: galvanometru
 [[../poze/50030.jpg]]
@@ -96,7 +96,7 @@ curent alternativ. Un dispozitiv sensibil la variaţia polarităţii
 curentului, ar vibra pur şi simplu înainte şi înapoi fără a putea da o
 indicaţie practică a mărimii de măsurat.
 
-** Aparate de măsură electrostatice
+*** Aparate de măsură electrostatice
 
 Deşi majoritatea aparatelor de măsură analogice se bazează pe principiul
 electromagnetismului, câteva dintre ele se bazează pe electrostatică, cu
@@ -126,7 +126,7 @@ mult mai mică. După cum vom vedea în cele ce urmează, o rezistenţa
 electrică mare, rezultând într-un curent mult mai mic prin dispozitiv,
 este absolut necesară pentru realizarea unui volmetru profesional.
 
-*** Tubul catodic (CRT)
+**** Tubul catodic (CRT)
 
 #+CAPTION: tubul catodic
 [[../poze/00149.png]]
@@ -189,7 +189,7 @@ Sumar:
    electronilor de sticla prevăzută cu fosfor de la capătul
    dispozitivului
 
-* Voltmetrul
+** Voltmetrul
 
 Majoritatea aparatelor de măsură sunt dispozitive foarte sensibile.
 Unele modele, precum D'Arsonval, necesită un curent de doar 50 µA pentru
@@ -203,7 +203,7 @@ măsurare a unor tensiuni mult mai mari, folosind aceste dispozitive
 sensibile, trebuie găsită o metodă de reducere a deplasării acului
 indicator.
 
-** Modelul D'Arsonval
+*** Modelul D'Arsonval
 
 #+CAPTION: dispozitiv de măsură D'Arsonval
 [[../poze/00150.png]]
@@ -372,7 +372,7 @@ Sumar:
 -  Realizarea practică a voltmetrelor constă în adăugarea rezistenţelor
    de multiplicare pentru divizarea tensiunii totale de măsurat
 
-* Impactul voltmetrului asupra circuitului
+** Impactul voltmetrului asupra circuitului
 
 Orice aparat de măsură introdus în circuit modifică comportamentul
 acestuia din urmă într-o oarecare măsură. Deşi impactul este inevitabil,
@@ -436,7 +436,7 @@ fi mai mic. Din această cauză, un voltmetru ideal posedă o rezistenţă
 infinită. Dar, indiferent de valoarea acestei rezistenţe, efectul
 prezentat mai sus va fi tot timpul prezent într-un circuit.
 
-** Sensibilitatea voltmetrelor
+*** Sensibilitatea voltmetrelor
 
 Impactul creat de voltmetrele electromecanice asupra circuitelor este
 desemnat prin numărul de ohmi prezenţi între terminalii aparatului
@@ -495,7 +495,7 @@ aparat din circuitul măsurat, dar acesta este de sute sau mii de ori mai
 mici decât curentul absorbit în mod normal de un astfel de aparat fară
 amplificare.
 
-** Detectorul de nul
+*** Detectorul de nul
 
 O ultimă soluţie, şi una foarte ingenioasă, la problema efectului
 introdus de voltmetru în circuit, îl constitue detectorul de nul. Acesta
@@ -607,7 +607,7 @@ Sumar:
    curenţilor şi al tensiunilor. Acesta se evidenţiază prin
    sensibilitatea sa extrem de ridicată
 
-* Ampermetrul
+** Ampermetrul
 
 Un aparat de măsură conceput special pentru măsurarea valorii curentului
 electric (în amperi), poartă numele de ampermetru.
@@ -741,7 +741,7 @@ supra-dimensionare a rezistorilor R_{2} şi R_{3} ar fi binevenită. Dar,
 rezistorii de precizie cu o putere nominală de 50 W sunt extrem de rari
 şi de scumpi. Singura modalitate este realizarea la comandă a acestora.
 
-** Măsurarea curentului cu un rezistor de şunt şi un voltmetru
+*** Măsurarea curentului cu un rezistor de şunt şi un voltmetru
 
 #+CAPTION: utilizarea rezistenţelor de şunt în paralel cu un voltmetru
 #+CAPTION: pentru măsurarea curentului
@@ -807,9 +807,9 @@ Sumar:
    şunt măsurată de voltmetru este în acest caz direct proporţională cu
    valoare acurentului prin şunt
 
-* Impactul ampermetrului asupra circuitului
+** Impactul ampermetrului asupra circuitului
 
-** Ampermetrul ideal
+*** Ampermetrul ideal
 
 Asemenea voltmetrelor, şi ampermetrele tind să influenţeze cantitatea de
 curent din circuitele în care sunt conectate. Totuşi, spre deosebire de
@@ -853,7 +853,7 @@ a unui rezistor de şunt, cel mai indicat lucru este să alegem o
 rezistenţa cât mai mică. Orice rezistenţă adiţională introdusă în
 circuitul iniţial, va duce la modificarea comportamentului acestuia.
 
-** Cleştele ampermetric (clampmetrul)
+*** Cleştele ampermetric (clampmetrul)
 
 #+CAPTION: măsurarea curentului dintr-un circuit cu ajutorul
 #+CAPTION: clampmetrului
@@ -884,9 +884,9 @@ Sumar:
 -  Un *clampmetru* măsoară valoarea curentului prin determinarea
    câmpului magnetic din jurul conductorului
 
-* Ohmmetrul
+** Ohmmetrul
 
-** Scopul ohmmetrului
+*** Scopul ohmmetrului
 
 Chiar daca ohmmetrele mecanice (analogice) sunt folosite destul de rar
 astăzi, fiind înlocuite de instrumentele digitale, modul lor de
@@ -901,7 +901,7 @@ asemenea, de rezistenţe suplimentare pentru a permite trecerea unui
 curent necesar şi suficient prin mecanismul de deplasare, pentru oricare
 valoare a rezistenţei de măsurat.
 
-** Realizarea unui ohmmetru simplu
+*** Realizarea unui ohmmetru simplu
 
 Începem cu un circuit simplu, format din mecanismul de măsură şi o
 baterie:
@@ -952,7 +952,7 @@ aparatului de măsură:
 R_{total} = E / I = 9 V / 1 mA R_{total} = 9 kΩ R = R_{total} - 500 Ω =
 8,5 kΩ
 
-** Împărţirea scalei
+*** Împărţirea scalei
 
 Acum că avem valoarea corectă a rezistorului R, mai avem o problemă:
 scala aparatului de măsură. După cum se ştie deja, în stânga scalei avem
@@ -1012,7 +1012,7 @@ Prin urmare, scala finală a ohmmetrului arată astfel:
 #+CAPTION: scala logaritmică a unui ohmmetru
 [[../poze/00178.png]]
 
-** Dezavantajele metodei de mai sus
+*** Dezavantajele metodei de mai sus
 
 O problemă majoră a acestui aranjament constă în necesitatea utilizării
 unei baterii precise. În caz contrar, valorile citite nu vor fi reale.
@@ -1048,9 +1048,9 @@ Sumar:
 -  
 -  
 
-* Ohmmetre pentru tensiuni înalte
+** Ohmmetre pentru tensiuni înalte
 
-** Limitările ohmmetrelor de joasă tensiune
+*** Limitările ohmmetrelor de joasă tensiune
 
 Majoritatea ohmmetrelor de tipul celui prezentat în secţiunea precedentă
 folosesc o baterie cu o tensiune relativ mică, de 9 V sau chiar mai
@@ -1077,7 +1077,7 @@ punctul de străpungere a unui dielectric. Dacă este necesară măsurarea
 unor astfel de rezistenţe, avem nevoie de un ohmmetru echipat cu o sursă
 de tensiune înaltă.
 
-** Modul de proiectare al ohmmetrelor de tensiune înaltă
+*** Modul de proiectare al ohmmetrelor de tensiune înaltă
 
 Metoda cea mai directă de măsurare a rezistenţelor folosind tensiuni
 înalte, constă în simpla înlocuire a bateriei, păstrând structura
@@ -1103,7 +1103,7 @@ variind tensiunea sursei de alimentare: pe măsură ce tensiunea creşte,
 curentul prin aparat va fi din ce în ce mai mare; deplasarea acului
 indicator va fi la rândul ei din ce în ce mai mare.
 
-** Megohmmetrul
+*** Megohmmetrul
 
 Avem nevoie prin urmare de un sistem electromecanic ce produce o
 deplasare stabilă, indiferent de rezistenţa de măsurat şi de tensiunea
@@ -1152,7 +1152,7 @@ Sumar:
 -  
 -  
 
-* Multimetre
+** Multimetre
 
 Am văzut modul în care un sistem electromecanic poate funcţiona pe post
 de voltmetru, ampermetru sau ohmmetru prin simpla conectare a unor
@@ -1161,7 +1161,7 @@ aparat de măsură universal (multimetru), în care să fie încorporate
 toate funcţiile de mai sus. Acest lucru se realizează practic prin
 utilizarea corespunzătoare a contactelor şi rezistorilor.
 
-** Voltmetru/ampermetru analogic
+*** Voltmetru/ampermetru analogic
 
 Schema de principiu a unui voltmetru/ampermetru analogic simplu, arată
 astfel:
@@ -1179,7 +1179,7 @@ priza „common” şi iese pe la priza A. În ultima poziţie, mecanismul de
 deplasare este deconectat de la ambele prize roşii (V şi A), dar
 scurcircuitat prin intermediul comutatorului.
 
-** Adăugarea unui ohmmetru
+*** Adăugarea unui ohmmetru
 
 Dacă dorim şi adăugarea unui ohmmetru aparatului de măsură de mai sus,
 putem înlocui una din cele trei poziţii ale voltmetrului, astfel:
@@ -1198,9 +1198,9 @@ Sumar:
 -  
 -  
 
-* Terminali tip Kelvin şi rezistori de precizie
+** Terminali tip Kelvin şi rezistori de precizie
 
-** Măsurarea rezistenţelor aflate la distanţă
+*** Măsurarea rezistenţelor aflate la distanţă
 
 Să presupunem că vrem să măsurăm rezistenţa unui anumit component ce se
 află la o distanţă destul de mare de aparatul nostru de măsură
@@ -1219,7 +1219,7 @@ introdusă de conductori poate fi substanţială:
 
 indicaţia ohmmetrului = R_{fir} + R_{măsură} + R_{fir}
 
-** Măsurarea rezistenţei cu o combinaţie ampermetru-voltmetru
+*** Măsurarea rezistenţei cu o combinaţie ampermetru-voltmetru
 
 O metodă ingenioasă de măsurare a unei rezistenţe în acest caz,
 presupune utilizarea împreună a unui ampermetru şi a unui voltmetru.
@@ -1267,7 +1267,7 @@ reducem curentul prin volmetru la o valoare minimă, fie folosind un
 aparat de măsură de calitate (curent mic pentru deplasare maximă), fie
 un sistem cu detector de nul.
 
-** Metoda Kelvin (metoda celor patru conductori)
+*** Metoda Kelvin (metoda celor patru conductori)
 
 Această metodă de măsurare ce evita erorile cauzate de rezistenţa
 conductorilor poartă numele de metoda Kelvin, sau metoda celor patru
@@ -1290,7 +1290,7 @@ tensiune în lungul lor care să ducă la erori de măsură:
 #+CAPTION: terminali Kelvin
 [[../poze/00479.png]]
 
-** Rezistori de şunt de precizie înaltă
+*** Rezistori de şunt de precizie înaltă
 
 Acelaşi principiu de utilizare a diferitelor puncte de conctat pentru
 măsurarea curentului şi a tensiunii poate fi folosit în cazul
@@ -1322,7 +1322,7 @@ conductoare, şunturile sunt adesea prevăzute cu /patru/ terminali:
 #+CAPTION: şunt cu patru terminale
 [[../poze/00480.png]]
 
-** Rezistori de precizie cu patru terminali
+*** Rezistori de precizie cu patru terminali
 
 În aplicatii metrologice (metrologie = "ştiinţă măsurătorilor”), unde
 acurateţea este de o importanţă crucială, rezistorii „standard” de
@@ -1373,7 +1373,7 @@ Sumar:
 -  
 -  
 
-* Circuite în punte - puntea Wheatstone şi Thomson
+** Circuite în punte - puntea Wheatstone şi Thomson
 
 Circuitele în punte se foloesc de un detector de nul pentru a compara
 două tensiuni. Principiul este asemănător unei balanţe de laborator ce
@@ -1383,7 +1383,7 @@ cădere de tensiune necunoscută, circuitele în punte pot fi folosite
 pentru a măsura o varietate de mărimi electrice, una din ele fiind
 rezistenţa.
 
-** Puntea Wheatstone
+*** Puntea Wheatstone
 
 Circuitul în puncte standard, numit adeasea şi punte Wheatstone, arată
 astfel:
@@ -1444,7 +1444,7 @@ măsurarea rezistenţei. Dar circuitele alimentate în curent alternativ
 pot fi folosite pentru a măsura diferite mărimi electrice precum
 inductanţă, capapacitate şi frecvenţă.
 
-** Puntea Thomson (puntea Kelvin dublă)
+*** Puntea Thomson (puntea Kelvin dublă)
 
 O variantă interesantă a punţii Wheatstone o reprezintă puntea dublă
 Kelvin, cunoscută şi sub numele de punte Thomson. Aceast circuit este
@@ -1543,7 +1543,7 @@ cea a punţii Wheatstone normale. R_{x} / R_{a} va fi egal cu R_{N} /
 R_{M}, deoarece ultimul termen al ecuaţiei va fi zero, anulând efectele
 tuturor rezistorilor cu excepţia lui R_{x}, R_{a}, R_{M} şi R_{N}.
 
-** Observaţii asupra punţii Thomson
+*** Observaţii asupra punţii Thomson
 
 În multe cazuri, R_{M}=R_{m} şi R_{N} = R_{n}. Totuşi, cu cât
 rezistenţele R_{m} şi R_{n} sunt mai mici, cu atât detectorul de nul va
@@ -1568,7 +1568,7 @@ Sumar:
 -  
 -  
 
-* Wattmetrul
+** Wattmetrul
 
 Puterea într-un circuit electric este produsul dintre tensiune şi
 curent. Prin urmare, orice aparat de măsura a puterii trebuie să poată
@@ -1606,7 +1606,7 @@ Sumar:
 -  
 -  
 
-* Realizarea practică a rezistenţelor de calibrare
+** Realizarea practică a rezistenţelor de calibrare
 
 De multe ori, în cazul realizării circuitelor de măsură, avem nevoie de
 rezistenţe precise pentru a obţine circuitul dorit. În majoritatea
@@ -1614,7 +1614,7 @@ cazurilor însă, valorile necesare ale rezistorilor nu se găsesc pe
 piaţă. În acest caz, ne vedem nevoiţi să ne construit proprii noştrii
 rezistori.
 
-** Realizarea unei înfăşurări bifilare
+*** Realizarea unei înfăşurări bifilare
 
 O soluţie a acestei dileme este realizarea rezistorilor dintr-un
 conductor special cu rezistenţă mare. Putem folosi o mică „bobină” ca şi
@@ -1635,7 +1635,7 @@ După cum vă puteţi imagina, această se poate dovedi extrem de
 laborioasă, îndeosebi în cazul în care avem nevoie de mai mulţi
 rezistori.
 
-** Conectarea rezistorilor în combinaţii serie-paralel
+*** Conectarea rezistorilor în combinaţii serie-paralel
 
 O soluţie mai uşoară a acestei probleme constă în conectarea mai multor
 rezistori cu rezistenţe cunoscute într-o combinaţie serie-paralel pentru
@@ -1657,7 +1657,7 @@ conductoare şi contactele pastrează pentru totdeauna o rezistenţă zero.
 Dar, în realitate, abilitatea de ajustare sau /calibrare/ a
 instrumentelor în viitor este avantajoasă.
 
-** Utilizarea potenţiometrelor
+*** Utilizarea potenţiometrelor
 
 Ne-am putea gândi ca în acest caz să folosim potenţiometre (conectate ca
 şi reostate, de obicei) ca şi rezistenţe variabile. Potenţiometrul ar

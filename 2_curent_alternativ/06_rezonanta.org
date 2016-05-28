@@ -1,4 +1,4 @@
-* Pendulul electric
+** Pendulul electric
 
 Condensatoarele stochează energie sub formă de câmp electric, iar
 această energie stocată se manifestă electric sub formă de potenţial:
@@ -165,7 +165,7 @@ Sumar:
    exact egală cu frecvenţa naturală de oscilaţie a circuitului LC,
    spunem că circuitul se află într-o stare de /rezonanţă/
 
-* Rezonanţa paralel
+** Rezonanţa paralel
 
 Putem ajunge la o stare de rezonanţă într-un circuit oscilator (LC),
 dacă reactanţele condensatorului şi a bobinei sunt egale între ele.
@@ -234,7 +234,7 @@ Sumar:
    măsură ce frecvenţa sursei de alimentare se apropie de frecvenţa de
    rezonanţă
 
-* Rezonanţa serie
+** Rezonanţa serie
 
 Un efect similar rezonanţie parale are loc şi în circuitele
 inductiv/capacitive serie. Atunci când este atinsă o stare de rezonanţă
@@ -284,7 +284,7 @@ Sumar:
    curenţilor mari din circuit şi a impedanţelor suficient de mari ale
    componentelor
 
-* Aplicaţii ale rezonanţei
+** Aplicaţii ale rezonanţei
 
 Până acum, fenomenul rezonanţei pare doar o curiozitate nefolositoare,
 sau chiar dăunătoare,mai ales în cazul scurt-circuitării sursei de
@@ -328,7 +328,7 @@ Sumar:
    tuturor frecvenţelor din circuit exceptând cele dorite, se numesc
    /filtre/
 
-* Rezonanţa serie-paralel. Antirezonanţa
+** Rezonanţa serie-paralel. Antirezonanţa
 
 În circuitele reactive simple fără rezistenţă (sau rezistenţă foarte
 mică), efectele impedanţelor la frecvenţa de rezonanţă vor fi cele
@@ -347,7 +347,7 @@ capacitate şi inductanţă ca şi înainte: 10 µF şi 100 mH. Frecvenţa de
 rezonanţă, potrivit formulei, ar trebui să fie 159.155 Hz, dar să vedem
 ce se întâmplă atunci când introducem un rezistor în circuit:
 
-*** Circuit LC paralel; rezistor în serie cu bobina
+**** Circuit LC paralel; rezistor în serie cu bobina
 
 #+CAPTION: circuit LC paralel; rezistor serie cu bobina
 [[../poze/02102.png]] 
@@ -359,7 +359,7 @@ Rezistorul conectat în paralel cu bobina produce un curent minim, ce nu
 este zero, la frecvenţa de 136.8 Hz, şi nu la 159.2 Hz, valoarea
 calculată.
 
-*** Circuit LC paralel; condensatorul în serie cu rezistorul
+**** Circuit LC paralel; condensatorul în serie cu rezistorul
 
 #+CAPTION: circuit LC paralel; rezistor serie cu condensatorul
 [[../poze/02103.png]] 
@@ -369,7 +369,7 @@ condensatorul; graficul variaţiei curentului cu frecvenţa
 
 Curentul minim în acest caz este la frecvenţa de 180 Hz, nu la 159.2.
 
-*** Circuit LC serie; rezistor paralel cu bobina
+**** Circuit LC serie; rezistor paralel cu bobina
 
 Întorcându-ne la circuitul LC serie, vom conecta o rezistenţă în paralel
 cu bobina. În circuitul de mai jos, rezistorul R_{1} de 1 Ω este
@@ -388,7 +388,7 @@ Circuitul rezonant serie (LC) cu un rezistor conectat în paralel cu
 bobina, prezintă un curent maxim la o frecvenţă de 180 Hz, faţă de
 159.2.
 
-*** Circuit LC serie; rezistor paralel cu condensatorul
+**** Circuit LC serie; rezistor paralel cu condensatorul
 
 #+CAPTION: circuit LC serie; rezistor paralel cu condensatorul
 [[../poze/02105.png]] 
@@ -399,7 +399,7 @@ condensatorul; graficul variaţiei curentului cu frecvenţa
 Şi în acest caz, curentul maxim prin circuit nu se mai produce la
 frecvenţa de 159.2 Hz, ci la 136.8 Hz.
 
-*** Antirezonanţa
+**** Antirezonanţa
 
 Tendinţa rezistenţei de modificare a punctului în care impedanţa atinge
 maximul sau minimul într-un circuit LC, poartă numel de /antirezonanţă/.
@@ -426,7 +426,7 @@ Pe lângă asta, bobinele se mai confruntă şi cu pierderi, datorită
 miezurilor de fier folosite, efect cunoscut sub numele de /curenţi
 turbionari/.
 
-*** Circuit RLC serie
+**** Circuit RLC serie
 
 O excepţie de la regula conform cărei o rezistenţă adiţională într-un
 circuit LC modifică valoarea rezistenţei de rezonanţă, este circuitul
@@ -445,7 +445,7 @@ circuit RLC serie; graficul variaţiei curentului cu frecvenţa
 Valoarea curentului maxim este din nou atinsă pentru frecvenţa de 159.2
 Hz!
 
-*** Aplicaţiile antirezonanţei
+**** Aplicaţiile antirezonanţei
 
 Este bine de ştiu că antirezonanţa are un efect de amortizare (atenuare)
 a oscilaţiilor circuitelor pur LC, precum cele paralel. La începutul

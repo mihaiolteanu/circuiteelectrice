@@ -1,12 +1,12 @@
-* Transformator -- sursă de putere
+** Transformator -- sursă de putere
 
-** Scopul experimentului
+*** Scopul experimentului
 
 Comportamentul unui transformator coborâtor de tensiune; scopul şi
 utilizarea transformatoarelor cu priză mediană; conectarea corectă şi
 sigură a cablurilor de alimentare.
 
-** Materiale necesare
+*** Materiale necesare
 
 Veţi avea nevoie de un transformator cu priză mediană pe înfăşurarea
 secundară (220 V ca - 12 V ca), o regletă de borne cu cel puţin trei
@@ -30,7 +30,7 @@ Circuitul final va arăta astfel:
 #+CAPTION: alternativ
 [[../poze/05002.png]]
 
-** Realizarea sursei de tensiune joasă
+*** Realizarea sursei de tensiune joasă
 
 Atenţie, realizarea acestui experiment implică utilizarea unor tensiuni
 periculoase ! Asiguraţi-vă că toţi conductorii de tensiune înaltă (220
@@ -75,15 +75,15 @@ următoarea diagramă:
 #+CAPTION: sursă de tensiune joasă de curent alternativ
 [[../poze/05008.png]]
 
-* Construirea unui transformator
+** Construirea unui transformator
 
-** Scopul experimentului
+*** Scopul experimentului
 
 Construirea unui transformator electric este o ocazie foarte bună de a
 studia efectele electromagnetismului şi inducţia electromagnetică. Acest
 lucru îl vom realiza în cele ce urmează.
 
-** Materiale necesare
+*** Materiale necesare
 
 Veţi avea nevoie de bare plate din oţel, diferite şuruburi, piuliţie şi
 şaibe, conductor de cupru (pentru magnet/transformator) de 0,32 mm şi o
@@ -97,7 +97,7 @@ astfel:
 #+CAPTION: construirea unui transformator
 [[../poze/05005.png]]
 
-** Realizarea transformatorului
+*** Realizarea transformatorului
 
 Înfăşuraţi două bare de oţel de lungimi egale cu un strat subţire de
 bandă izolatoare. Aplicaţi câteva sute de înfăşurări de conductor de
@@ -140,15 +140,15 @@ tensiunii de ieşire la mers în gol (fără sarcină) şi sub sarcină.
 coborâtor, respectic ridicător de tensiune) şi conectaţi diferite
 sarcini de ca pe înfăşurărea secundară.
 
-* Bobină variabilă
+** Bobină variabilă
 
-** Scopul experimentului
+*** Scopul experimentului
 
 Efectele permeabilităţii magnetice asupra inductanţei; cum poate fi
 controlat curentul de către reactanţa inductivă, într-un circuit
 electric de curent alternativ.
 
-** Materiale necesare
+*** Materiale necesare
 
 Pentru realizarea experimentului, veţi avea nevoie de un tub de
 hârtie/carton (de la un sul de şerveţele, de exemplu), o bară de fier
@@ -162,7 +162,7 @@ de tensiune de c.a. şi un bec. Schema electrică realizată arată astfel:
 #+CAPTION: circuit cu bobină variabilă
 [[../poze/05007.png]]
 
-** Realizarea bobinei variabile
+*** Realizarea bobinei variabile
 
 Luaţi conductorul de cupru şi realizaţi câteva sute de înfăşurări în
 jurul tubului de hârtie. Conectaţi această bobină în serie cu o sursă de
@@ -177,9 +177,9 @@ diferite materiale în tubul de hârtie, precum cupru sau oţel inoxidabil,
 dacă aveţi la îndemână. Nu toate metalele vor avea acelaşi efect,
 datorită diferenţelor de permeabilitate magnetică.
 
-* Detector audio de semnale
+** Detector audio de semnale
 
-** Scopul experimentului
+*** Scopul experimentului
 
 Scopul principal al circuitului realizat în acest experiment constă în
 detectarea semnalelor electrice extrem de mici. Vom vedea însă şi cum
@@ -195,7 +195,7 @@ osciloscop. Este de asemenea folositor în sensul în care ne permite
 utilizarea unui alt simţ pentru interpretarea comportamentului unui
 circuit.
 
-** Materiale necesare
+*** Materiale necesare
 
 Veţi avea nevoie de o pereche de căşti de calitate, de tip închis;
 transformator coborâtor de tensiune de 6 V; două diode de redresare; un
@@ -215,7 +215,7 @@ de transformator audio, sau puteţi folosi un transformator de putere
 #+CAPTION: detector audio de semnal
 [[../poze/05010.png]]
 
-** Realizarea detectorului audio de semnale
+*** Realizarea detectorului audio de semnale
 
 Căştile, fiind cel mai probabil stereo, vor avea o fişă cu 3 contacte.
 Vom folosi doar două din cele trei puncte de contact în circuitul
@@ -238,7 +238,7 @@ limită a volumului existent în circuit. Simpla conectare a celor două
 sonde de test la bornele unei baterii (de exemplu) poate produse un
 sunet asurzitor!
 
-** Utilizarea detectorului audio
+*** Utilizarea detectorului audio
 
 Pentru conectarea dispozitivului realizat mai sus la o sursă de tensiune
 mai mare de 1 V, va trebui să atenuăm sensibilitatea extrem de mare a
@@ -277,14 +277,14 @@ rezultatul final ar putea arăta astfel:
 #+CAPTION: detector audio de semnal; forma finală
 [[../poze/05013.png]]
 
-* Detectarea câpurilor magnetice
+** Detectarea câpurilor magnetice
 
-** Scopul experimentului
+*** Scopul experimentului
 
 Efectele inducţiei electromagnetice şi tehnici de ecranare
 electromagnetică.
 
-** Materiale necesare
+*** Materiale necesare
 
 Vom avea nevoie de un detector audio cu căşti şi o bobină de
 electromagnet. O bobină luată de la un releu electromagnetic sau de la
@@ -297,7 +297,7 @@ această aplicaţie. Circuitul realizat arată astfel:
 #+CAPTION: electromagnetice
 [[../poze/05016.png]]
 
-** Utilizarea detectorului de câpuri electromagnetice
+*** Utilizarea detectorului de câpuri electromagnetice
 
 Practic, circuitul a fost deja realizat în secţiunea precentă, şi constă
 în simpla conectare a unei bobina la ieşirea acestuia (sondele de test).
@@ -326,7 +326,7 @@ realizat într-una din secţiunile precedente. O altă sursă o reprezintă
 circuitul cu bobină variabilă şi bec, prezentate de asemenea într-una
 din secţiunile precedente.
 
-** Ecranarea bobinelor
+*** Ecranarea bobinelor
 
 Puteţi observa din aceste experimente că nu este necesar contactul fizic
 dintre bobina de detectare şi sursa câmpului magnetic: câpurile
@@ -342,14 +342,14 @@ minimizează cuplajul magnetic? (detectarea minimă a semnalului). Ce ne
 spune acest rezultat legat de poziţionarea bobinelor atunci când
 interferanţa dintre circuite nu este dorită?
 
-* Detectarea câmpurilor electrice
+** Detectarea câmpurilor electrice
 
-** Scopul experimentului
+*** Scopul experimentului
 
 Efectele cuplajului capacitiv (electrostatic) şi tehnici de ecranare
 electrostatică.
 
-** Materiale necesare
+*** Materiale necesare
 
 Detector audio cu căşti. Circuitul realizat arată astfel:
 
@@ -359,7 +359,7 @@ Detector audio cu căşti. Circuitul realizat arată astfel:
 #+CAPTION: detector de câpuri electrice
 [[../poze/05018.png]]
 
-** Utilizarea detectorului de câmpuri electrice
+*** Utilizarea detectorului de câmpuri electrice
 
 Conectaţi una dintre sondele detectorului la un obiect metalic ce se
 află în contact cu pământul. Aproape orice ţeavă de apă din casă este
@@ -380,14 +380,14 @@ o sursă de câmp electric. Ce materiale dau cele mai bune rezultate? Cum
 se compară acest lucru cu experimentul precedent (detectarea câmpurilor
 magnetice)?
 
-* Circuit de detectare a defazajului
+** Circuit de detectare a defazajului
 
-** Scopul experimentului
+*** Scopul experimentului
 
 Exemplificarea faptului că însumarea tensiunilor de curent alternativ nu
 se realizează algebric, ci vectorial (fazorial).
 
-** Materiale necesare
+*** Materiale necesare
 
 Veţi avea nevoie de o sursă de tensiune de ca, doi condensatori de 0,1
 µF fiecare, nepolarizaţi şi două rezistenţe de 27 kΩ. Este indicat să

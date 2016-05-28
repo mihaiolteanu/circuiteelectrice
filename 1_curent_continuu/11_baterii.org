@@ -1,4 +1,4 @@
-* Activitatea electronilor în reacţiile chimice
+** Activitatea electronilor în reacţiile chimice
 
 Până în acest moment nu am discutat în detaliu modul de funcţionare al
 bateriilor, ci am presupus pur şi simplu că acestea produc o tensiune
@@ -131,7 +131,7 @@ confencţionată din oxid de nickel (electrodul pozitiv) şi fier
 (electrodul negativ), cu o soluţie electrolitică de hidroxid de potasiu
 generează o tensiune nominală de 1.2 V.
 
-*** Încărcarea pilei voltaice
+**** Încărcarea pilei voltaice
 
 În cazul anumitor tipuri de pile, reacţiile chimice pot fi inversate
 forţând curgerea curentului în sens invers prin pilă. Acest proces
@@ -150,7 +150,7 @@ Sumar:
 -  
 -  
 
-* Construcţia bateriilor electrice
+** Construcţia bateriilor electrice
 
 Cuvântul /baterie/ înseamnă pur şi simplu un grup de componente similare
 aduse împreună. O /baterie electrică/ este un set de pile voltaice
@@ -252,7 +252,7 @@ Sumar:
 -  
 -  
 
-* Capacitatea bateriilor
+** Capacitatea bateriilor
 
 Datorită faptului că bateriile dau naştere unei curgeri de electroni
 prin circuit prin intermediul reacţiilor chimice (schimb de electroni),
@@ -265,7 +265,7 @@ fi extrem de mare. Am putea folosi coulomb-ul (egal cu 6,25 x 10^{18}
 electroni), astfel încât cantităţile cu care lucrăm să fie mult mai
 practice.
 
-** Amper-oră (Ah)
+*** Amper-oră (Ah)
 
 Totuşi, în practică, nu se utilizează mărimile de mai sus, ci se
 lucrează cu amper-oră (Ah). Din moment ce un amper reprezintă o curgere
@@ -290,7 +290,7 @@ De exemplu, o baterie auto de 70 amperi-oră, complet descărcată, va
 necesita o perioadă de încărcare de 10 ore la un curent de încărcare
 constant de 7 A (70 / 7).
 
-** Descărcarea bateriilor
+*** Descărcarea bateriilor
 
 De exemplu, o baterie auto tipică poate avea o capacitate de 70 Ah,
 specificată pentru un curent de 3,5 A. Acest lucru înseamnă că bateria
@@ -319,7 +319,7 @@ producători specifică însă factori de reducere a capacităţii totale
 pentru funcţionarea la curenţi şi/sau temperaturi diferite de cele
 standard.
 
-** Verificarea stării de încărcare a unei baterii
+*** Verificarea stării de încărcare a unei baterii
 
 Pe măsură ce o baterie se descarcă, pe lângă diminuarea stocului de
 energie internă, creşte şi rezistenţa internă a acesteia. Electrolitul
@@ -375,9 +375,9 @@ Sumar:
 -  
 -  
 
-* Baterii speciale
+** Baterii speciale
 
-** Pila standard cu mercur
+*** Pila standard cu mercur
 
 Pe vremuri, un tip special de baterie, cunoscuta sub numele de pilă
 standard cu mercur, era folosită ca şi etalon (standard) pentru
@@ -425,7 +425,7 @@ Dispozitivele de calibrare semiconductoare moderne au înlocuit în
 totalitate pilele standard ca şi referinţe de laborator sau „de teren”
 pentru tensiuni.
 
-** Pila de combustie
+*** Pila de combustie
 
 Un dispozitiv fascinant, foarte asemănător pilei voltaice, este pila de
 combustie. Acest dispozitiv utilizează reacţia chimică de combustie
@@ -444,7 +444,7 @@ transformării energiei chimice în energie electrică, în cazul unei pile
 de combustie, este mult mai mare decât limita de eficientă Carnot pentru
 orice motor cu ardere (combustie) internă.
 
-** Celula solară
+*** Celula solară
 
 Un alt tip de „baterie” este celula (pila) solară, un produs al
 electronicii (semiconductor). Efectul fotoelectric, conform căruia
@@ -457,7 +457,7 @@ părţi mobile, zgomot, poluare sau emisii şi o viaţa practic infinită:
 #+CAPTION: celulă solară
 [[../poze/00272.png]]
 
-** Pila chimică de detecţie
+*** Pila chimică de detecţie
 
 Un alt tip de „baterie” specială este pila chimică de detecţie. Pe
 scurt, aceste pile reacţionează chimic cu o substanţa specifică din
@@ -475,12 +475,12 @@ Sumar:
 -  
 -  
 
-* Consideraţii practice
+** Consideraţii practice
 
 La conectarea bateriilor în serie (sau paralel), trebuie să fim atenţi
 la caracteristicile fiecărei baterii, pentru a nu cauza probleme.
 
-** Conectarea în serie a bateriilor
+*** Conectarea în serie a bateriilor
 
 Să luăm pentru început cazul conectării bateriilor în serie pentru
 obţinerea unei tensiuni mai mari:
@@ -497,7 +497,7 @@ decât celelalte, iar capacitatea întregului circuit va fi compromisă.
 Capacitatea amper-oră totală a acestui circuit serie nu este afectate de
 numărul de baterii conectate.
 
-** Conectarea în paralel a bateriilor
+*** Conectarea în paralel a bateriilor
 
 Să luăm cazul conectării bateriilor în paralel pentru creşterea
 curentului în circuit (rezistenţă înternă mai mică), sau creşterea
@@ -512,7 +512,7 @@ acestor baterii este egală. În caz contrar, vor exista curenţi relativ
 mari de la o baterie spre alta, bateriile cu o tensiune mai mare
 dominând bateriile cu tensiune mai mică. Acest lucru nu este de dorit.
 
-** Protejarea circuitelor cu siguranţe fuzibile
+*** Protejarea circuitelor cu siguranţe fuzibile
 
 În aceiaşi ordine de idei, trebuie să ne asigurăm că orice elemente de
 protecţie la supracurent (siguranţe fuzibile sau întrerupătoare
@@ -539,7 +539,7 @@ siguranţa fuzibilă principală:
 #+CAPTION: conectarea bateriilor în paralel; protecţia la supracurent
 [[../poze/00276.png]]
 
-** Alte observaţii legate de baterii şi acumulatori
+*** Alte observaţii legate de baterii şi acumulatori
 
 Atunci când avem de a face cu acumulatori, trebuie să fim atenţi la
 modul lor de încărcare. În fucţie de tipul şi modul de construcţie,

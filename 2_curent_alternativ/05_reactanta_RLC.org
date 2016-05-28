@@ -1,10 +1,10 @@
-* R, X şi Z - recapitulare
+** R, X şi Z - recapitulare
 
 Înainte de a începe să explorăm efectele rezistorilor, bobinelor şi a
 condensatoarelor conectate împreună în acelaşi circuit de curent
 alternativ, să recapitulăm mai întâi câteva noţiuni de bază.
 
-*** Rezistenţa (R)
+**** Rezistenţa (R)
 
 Rezistenţa este defapt /frecarea/ întâmpinată de electroni, atunci când
 aceştia se află în mişcare. Toate materialele conductoare posedă o
@@ -14,7 +14,7 @@ căderea de tensiune produsă şi curentul prin aceasta sunt în fază.
 Simbolul matematic pentru rezistenţă este „R”, iar unitatea de măsură
 este Ohm-ul (Ω).
 
-*** Reactanţa (X)
+**** Reactanţa (X)
 
 Reactanţa este defapt /inerţia/ întâmpinată de electroni, atunci când
 aceştia se află în mişcare. Este prezentă peste tot unde există câmpuri
@@ -24,7 +24,7 @@ electrice sau magnetice datorită tensiunii sau curentului aplicat, dar
 defazate cu 90^{o}. Simbolul matematic pentru reactanţă este „X”, iar
 unitatea de măsură este Ohm-ul (Ω).
 
-*** Impedanţa (Z)
+**** Impedanţa (Z)
 
 Impedanţa este o expresie completă a tuturor formelor de opoziţie
 întâmpinate de electroni, atunci când aceştia se află în mişcare, şi
@@ -35,7 +35,7 @@ defazate cu un unghi între 0^{o} şi 90^{o}. Simbolul matematic al
 impedanţei este „Z”, iar unitatea de măsură este Ohm-ul (Ω), sub formă
 complexă.
 
-*** Componente ideale
+**** Componente ideale
 
 Rezistorii perfecţi posedă doar rezistenţă, nu şi reactanţă. Bobinele şi
 condensatoarele perfecte posedă doar reactanţă, nu şi rezistenţă. Toate
@@ -48,7 +48,7 @@ de curent alternativ:
 #+CAPTION: rezistor, bobină şi condensator ideal
 [[../poze/02347.png]]
 
-*** Unghiul de fază al impedanţei
+**** Unghiul de fază al impedanţei
 
 Unghiul de fază al impedanţei pentru fiecare component este diferenţa de
 fază dintre căderea de tensiune la bornele acelui component şi curentul
@@ -62,7 +62,7 @@ tensiune este tot timpul defazată în urma curentului cu 90^{o}, prin
 urmare, unghiul de fază al impedanţei condensatorului (impedanţa
 capacitivă) este -90^{o}.
 
-*** Legile lui Ohm şi Kirchhoff în curent alternativ
+**** Legile lui Ohm şi Kirchhoff în curent alternativ
 
 Impedanţele în curent alternativ se comportă analog rezistenţelor în
 curent continuu: se adună când sunt conectate în serie şi se micşorează
@@ -83,7 +83,7 @@ cea legată de calcularea puterii. Doarece reactanţa nu disipă putere
 precum o face rezistenţă, conceptul de putere în circuitele de curent
 alternativ este radical diferit faţă de cele de curent alternativ.
 
-* Circuite RLC serie
+** Circuite RLC serie
 
 Să considerăm următorul circuit RLC serie:
 
@@ -179,7 +179,7 @@ Sumar:
    conectateîn serie. Acest lucru poate duce la căderi de tensiune pe
    componente mai mari decât tensiunea sursei de alimentare
 
-* Circuite RLC paralel
+** Circuite RLC paralel
 
 Putem folosi aceleaşi componente de la circuitul serie, dar conectate în
 paralel de această dată:
@@ -235,7 +235,7 @@ Sumar:
 -  
 -  
 
-* Circuite RLC serie-paralel
+** Circuite RLC serie-paralel
 
 Să luăm ca şi exemplu următorul circuit serie-paralel:
 
@@ -357,7 +357,7 @@ Sumar:
    evită asfel amestecarea rezistenţelor (R) cu inductanţe (L) şi
    capacităţi (C)
 
-* Susceptanţa şi admitanţa
+** Susceptanţa şi admitanţa
 
 În studiul circuitelor electrice de curent continuu am întâlnit termenul
 de /conductanţă/; aceasta se defineşte ca inversul rezistenţei.

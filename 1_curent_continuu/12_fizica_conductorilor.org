@@ -1,4 +1,4 @@
-* Introducere?
+** Introducere?
 
 Ar trebui să fiţi deja familiarizaţi cu legătura ce există între
 conductivitatea electrică şi tipul materialului. Acele materiale ce
@@ -38,7 +38,7 @@ desprinde de atom (cel puţin, nu uşor) pentru a lua parte la curentul
 total din substanţă. Acest scenariu este tipic materialelor dielectrice
 (izolatoare).
 
-** Conductivitatea electrică
+*** Conductivitatea electrică
 
 În unele texte de specialitate este afirmat faptul că atât
 conductivitatea cât si non-conductivitatea unui element este determinată
@@ -122,9 +122,9 @@ Sumar:
 -  Electronii ce se deplasează printr-un conductor produc o cădere de
    tensiune în lungimea acelui conductor
 
-* Mărimea şi amperajul conductorilor
+** Mărimea şi amperajul conductorilor
 
-** Diametrul conductorilor si deplasarea electronilor
+*** Diametrul conductorilor si deplasarea electronilor
 
 Ar trebui să ne putem da seama de faptul că lichidele ce curg prin
 conducte cu diametru mare trec mai uşor decât lichidele ce curg prin
@@ -135,7 +135,7 @@ secţiunea transversală (grosimea) a conductorului este mai mare, cu atât
 există mai mult loc pentru deplasarea electronilor; acest lucru se
 traduce printr-o rezistenţă mai mică.
 
-** Tipuri de conductoare
+*** Tipuri de conductoare
 
 Conductoarele electrice sunt de obicei rotunde, deşi există câteva
 excepţii de la această regulă, şi confecţionează în două variante de
@@ -148,7 +148,7 @@ suporte îndoituri şi răsuciri repetate mult mai bine decât un singur fir
 de cupru; acesta din urmă tinde să „îmbătrânească” şi să se deterioreze
 (rupă) cu timpul.
 
-** Mărimea conductorilor - aria secţiunii transversale
+*** Mărimea conductorilor - aria secţiunii transversale
 
 Mărimea firelor poate fi măsurată în mai multe moduri. Am putea vorbi
 despre diametru firului, dar, din moment ce elementul cel mai important
@@ -165,7 +165,7 @@ transversale cu formula de mai jos, obţinem rezultatul de 1 mm^{2}:
 
 A = πr^{2} A = 3,14 (1,13 / 2)^{2} A = 1 mm^{2}
 
-** Bare metalice conductoare
+*** Bare metalice conductoare
 
 Pentru anumite aplicaţii ce utilizează curenţi mari, dimensiunea maximă
 practică a firelor circulare nu este suficientă. În aceste situaţii se
@@ -174,7 +174,7 @@ general din cupru sau aluminiu, şi de cele mai multe ori nu sunt
 izolate. Cea mai întâlnită forma este cea rectangulară, dar nu este
 singura.
 
-** Amperajul conductorilor
+*** Amperajul conductorilor
 
 Cu cât aria secţiunii transversale a conductorului este mai mică, cu
 atât este mai mică rezistenţa conductorului pentru a ceeiaşi lungime a
@@ -213,9 +213,9 @@ Sumar:
 -  *Amperajul* unui conductor reprezintă curentul maxim pe care un
    conductor îl poate susţine, fără a duce la distrugerea acestuia
 
-* Siguranţe fuzibile
+** Siguranţe fuzibile
 
-** Definiţia şi scopul siguranţelor fuzibile
+*** Definiţia şi scopul siguranţelor fuzibile
 
 În mod normal, amperajul unui conductor reprezintă o limită a
 circuitului electric ce nu trebuie depăşită în mod intenţionat.
@@ -250,7 +250,7 @@ ideal ca acestea să poată fi îndepărtate şi înlocuite cu uşurinţă din
 circuit. Acest lucru înseamnă că ele vor fi introduse într-o cutie de
 siguranţe şi nu vor fi lipite sau prinse direct în circuit (poză).
 
-** Întrerupătoare automate
+*** Întrerupătoare automate
 
 Întrerupătoarele automate sunt cele mai utilizate dispozitive pentru
 protecţia la supracurent. Aceste dispozitive sunt nişte întrerupătoare
@@ -271,7 +271,7 @@ cazuri, dispozitivul nu se distruge, ci doar se deschide; acesta poate
 fi reînchis prin acţionarea unei manete şi nu necesită nicio înlocuire
 precum esta cazul siguranţelor fuzibile (poza).
 
-** Consideraţii practice
+*** Consideraţii practice
 
 Siguranţele fuzibile sunt catalogate după curentul maxim admis prin ele,
 şi anume, în amperi. Cu toate că funcţionarea acestora depinde de
@@ -311,7 +311,7 @@ Prin urmare, siguranţele fuzible sunt catalogate atât în funcţie de
 curentul de „deschidere” cât şi în funcţie de tensiunea de străpungere a
 dielectricului existent între cele două capete dupa arderea acesteia.
 
-** Siguranţe fuzibile cu temporizare
+*** Siguranţe fuzibile cu temporizare
 
 La apariţia unui curent de 35 A printr-o siguranţă fuzibilă de 30 A,
 aceasta se poate arde instant sau poate prezenta o anumită durată de
@@ -340,7 +340,7 @@ tranzistorii, tind să fie foarte sensibile la supra-curenţi, prin
 urmare, în cazul acestora este nevoie de dispozitive de protecţie rapide
 în circuitele de putere mare.
 
-** Introducerea corectă în circuit a siguranţelor fuzibile
+*** Introducerea corectă în circuit a siguranţelor fuzibile
 
 Siguranţele fuzibile trebuie poziţionate pe faza circuitului, în cazul
 circuitelor cu împământare. Scopul este oprirea curentului prin sarcini
@@ -372,7 +372,7 @@ automate, poziţionarea corectă a acestora în circuit se face conform
 celor spuse mai sus, şi anume: dispozitivul de siguranţa trebuie plasat
 pe partea de putere a circuitului şi nu conectat la pământ.
 
-** Observaţii
+*** Observaţii
 
 Cu toate că protecţia la supra-curent a circuitelor poate oferi într-o
 oarecare măsură o anumită siguranţă la electrocutare în anumite
@@ -405,7 +405,7 @@ Sumar:
 -  Dispozitivele de siguranţa într-un circuit cu împământare se
    instalează pe faza acestuia şi nu pe neutru
 
-* Rezistivitatea şi conductibilitatea electrică
+** Rezistivitatea şi conductibilitatea electrică
 
 Amperajul unui conductor, bazat pe potenţialul curentului de a distruge
 conductorul. nu este cea mai bună metodă de reprezentare a rezistenţei
@@ -490,7 +490,7 @@ aceasta înseamnă o rezistenţa a conductorului de 0,182 Ω, sub valoarea
 maximă impusă de 0,2 Ω; conductorul ales este prin urmare potrivit
 pentru aplicaţia în cauză.
 
-** Conductibilitatea electrică
+*** Conductibilitatea electrică
 
 Conductibilitatea electrică, denumită şi conductivitate electrică,
 *caracterizează capacitatea unui material de a permite deplasarea
@@ -512,7 +512,7 @@ Sumar:
 -  *Conductibilitatea electrică* caracterizează capacitatea unui
    material de a permite deplasarea electronilor prin acesta
 
-* Coeficientul de temperatură al rezistenţei
+** Coeficientul de temperatură al rezistenţei
 
 Tabelul rezistivităţilor diferitelor materiale, prezentat în secţiunea
 precedentă, s-a referit doar la temperatura de 20^{o}. Prin urmare, dupa
@@ -566,7 +566,7 @@ referinţă (T_{ref}) de 20^{o}C)
 | Manganină    | Aliaj             | ± 0.000015   |
 | Constantan   | Aliaj             | - 0.000074   |
 
-** Exemplu
+*** Exemplu
 
 Să luăm un circuit practic pentru a vedea efectele temperaturii asupra
 rezistenţei şi implicit asupra performanţei circuitului.
@@ -623,7 +623,7 @@ Sumar:
    tabel, este următoarea:
     R = R_{ref}[1 + α(T - T_{ref})]
 
-* Supraconductibilitatea
+** Supraconductibilitatea
 
 În cazul răcirii la temperaturi extrem de scăzute, temperaturi apropiate
 de zero absolut (aproximativ -273^{o}C), rezistenţa conductorilor
@@ -664,7 +664,7 @@ există astfel de aplicaţii, utilitatea lor practică este destul de
 scăzută datorită problemelor întâmpinate cu menţinerea temperaturilor
 extrem de scăzute.
 
-** Temperatura de tranziţie
+*** Temperatura de tranziţie
 
 *Pragul de temperatură la care materialul trece din faza de
 conductibilitate normală la supraconductibilitate*, poartă numele de
@@ -692,7 +692,7 @@ tabelul alăturat.
 | Zinc              | Element           | -272,09                       |
 | Niobiu / Staniu   | Aliaj             | -254,9                        |
 
-** Efectul Meissner (vezi video, net)
+*** Efectul Meissner (vezi video, net)
 
 Materialele supraconductoare interacţionează într-un mod interesant cu
 câmpurile magnetice. *Atunci când se află în stare de supraconducţie,
@@ -740,9 +740,9 @@ Sumar:
    minimă la care trebuie adus materialul pentru a intra în faza de
    supraconducţie
 
-* Străpungerea dielectricului
+** Străpungerea dielectricului
 
-** Definiţia străpungerii dielectrice
+*** Definiţia străpungerii dielectrice
 
 Electronii din interiorul atomilor materialelor dielectrice nu se pot
 deplasa la fel de uşor precum în cazul materialelor dielectrice. Totuşi,
@@ -763,7 +763,7 @@ structurii sale moleculare. De obicei, există un „punct critic” ce
 desemnează locul prin care a avut loc deplasarea electronilor în
 momentul străpungerii.
 
-** Rigiditatea dielectrică
+*** Rigiditatea dielectrică
 
 Grosimea materialului joacă un rol important în determinarea tensiunii
 sale de străpungere, tensiune cunoscută şi sub numele de rigiditate

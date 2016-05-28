@@ -1,4 +1,4 @@
-* Ce înseamnă analiza unei reţele
+** Ce înseamnă analiza unei reţele
 
 General vorbind, /analiza reţelei/ este o metodă matematică folosită
 pentru analiza unui circuit (o „reţea” de componente interconectate). În
@@ -97,7 +97,7 @@ Sumar:
 -  Pentru rezolvarea acestor tipuri de probleme se pot folosi sistemele
    de ecuaţii.
 
-* Metoda ramurii de curent
+** Metoda ramurii de curent
 
 Folosind aceasta metodă, presupunem şi indicăm un sens al curenţilor
 prin circuit şi scriem apoi ecuaţiile ce descriu relaţiile dintre
@@ -289,7 +289,7 @@ Sumar:
 7. Calcularea căderilor de tensiune la bornele tuturor rezistorilor
    (E=IR)
 
-* Metoda buclei de curent
+** Metoda buclei de curent
 
 /Metoda buclei de curent/ sau /metoda ochiului de curent/ este
 asemănătoare metodei ramurii de curent prin faptul că foloseşte un
@@ -299,7 +299,7 @@ Diferă de metoda ramurii de curent prin faptul că /nu/ utilizează legea
 lui Kirchhoff pentru curent şi de obicei este nevoie de mai puţine
 variabile şi ecuaţii pentru rezolvare, ceea ce reprezintă un avantaj.
 
-*** Metoda convenţională
+**** Metoda convenţională
 
 Să vedem cun funcţionează această metodă folosind acelaşi circuit:
 
@@ -418,7 +418,7 @@ R_{2} de jos în sus:
 Cu un curent de 4 amperi prin R_{2} rezultă o cădere de tensiune de 8
 volţi.
 
-*** Un alt exemplu
+**** Un alt exemplu
 
 Principalul avantaj al metodei buclei de curent este că în general
 soluţia unei reţele mari poate fi găsită cu relativ puţine ecuaţii şi
@@ -473,7 +473,7 @@ Sumar:
    prin componentele prin care trec mai mulţi curenţi de buclă
 7. Aflarea căderilor de tensiune pe toţi rezistorii (E=IR)
 
-* Metoda nodului de tensiune
+** Metoda nodului de tensiune
 
 Metoda nodului de tensiune pentru analiza circuitelor determină
 tensiunea nodurilor în funcţie de ecuaţiile legii lui Kirchhoff pentru
@@ -483,7 +483,7 @@ valorile rezistorilor în ohmi sunt înlocuite prin conductanţele
 ecivalente în siemens, G = 1/R. Unitatea de măsură pentru conductanţă
 este siemens-ul, S=Ω^{-1}
 
-*** Exemplul 1
+**** Exemplul 1
 
 Începem cu un circuit ce conţine surse de tensiune convenţionale. Un
 punct comun E_{0} este ales ca şi punct de referinţă. Tensiunile pentru
@@ -591,7 +591,7 @@ Pentru figura de mai sus, ecuaţiile arată asfel:
                E2 = -1.5476
 #+END_EXAMPLE
 
-*** Exemplul 2
+**** Exemplul 2
 
 Circuitul de mai jos are trei noduri. Conductanţele nu apar pe desen,
 dar G_{1}=1/R_{1}, etc.
@@ -647,14 +647,14 @@ Sumar:
 8. Se rezolvă sistemul de ecuaţii pentru aflarea tensiunilor de nod
    necunoscute
 
-* Teorema lui Millman
+** Teorema lui Millman
 
 Prin intermediul teoremei lui Millman, circuitul este redesenat ca şi o
 reţea de ramuri paralele, fiecare ramură conţinând un rezistor sau o
 combinaţie serie baterie/rezistor. Această teoremă se poate aplica doar
 în cazul circuitelor ce pot suferi această modificare.
 
-*** Exemplu
+**** Exemplu
 
 Avem (din nou) circuitul de mai jos:
 
@@ -731,7 +731,7 @@ Sumar:
    referinţă unul şi acelaşi punct din circuit (de obicei latura de jos
    a circuitului)
 
-* Teorema superpoziţiei
+** Teorema superpoziţiei
 
 Teorema superpoziţiei reprezintă acea viziune de geniu ce transformă un
 subiect complex într-o versiune simplă şi uşor de înteles.
@@ -746,7 +746,7 @@ sunt /suprapuse/ una peste cealaltă (adunare algebrucă) pentru
 determinarea efectivă a curenţilor şi tensiunilor atunci când în circuit
 funcţionează toate sursele de putere împreună.
 
-*** Exemplu
+**** Exemplu
 
 Să luăm acelaşi circuit ca şi exemplu:
 
@@ -851,7 +851,7 @@ Sumar:
    singură, toate sursele de tensiune se înlocuiesc cu un fir, şi toate
    sursele de curent cu un circuit deschis.
 
-* Teorema lui Thevenin
+** Teorema lui Thevenin
 
 Teorema lui Thevenin susţine că orice circuit liniar poate fi
 simplificat, indiferent de complexitatea sa, la un circuit echivalent cu
@@ -869,7 +869,7 @@ de „sarcină”) este supus modificărilor; reclacularea circuitului este
 necesară cu fiecare valoare a rezistenţei de sarcină pentru determinarea
 tensiuni şi curentului prin el.
 
-*** Exemplu
+**** Exemplu
 
 Să reluăm circuitul studiat până acum cu celelalte metode:
 
@@ -987,7 +987,7 @@ Sumar:
 4. Aflarea căderii de tensiune şi a curentului prin rezistorul de
    sarcină folosind regulile circuitelor serie
 
-* Teorema lui Norton
+** Teorema lui Norton
 
 Conform teoremei lui Norton este posibilă simplificarea oricărui circuit
 liniar, indiferent de complexitate, la un circuit echivalent dotat cu o
@@ -996,7 +996,7 @@ sarcină. La fel ca în cazul teoremei lui Thevenin, termenul „liniar” are
 semnificaţia teoremei superpoziţiei: ecuaţiile implicate trebuie să fie
 liniare.
 
-*** Exemplu:
+**** Exemplu:
 
 Circuitul iniţial este cel folosit şi în exemplele precedente, şi arată
 asfel:
@@ -1097,7 +1097,7 @@ Sumar:
 4. Aflarea tensiunii şi curentului prin sarcină aplicând regulile
    circuitelor paralele
 
-* Echivalenţa teoremelor Thevenin-Norton
+** Echivalenţa teoremelor Thevenin-Norton
 
 Din moment ce ambele teoreme, atât Thevenin cât şi Norton, reprezintă
 metode valide de reducere a reţelelor complexe spre circuite mult mai
@@ -1165,7 +1165,7 @@ Sumar:
 -  Curentul Norton este egal cu tensiune Thevenin împărţită la
    rezistenţa Thevenin
 
-* Teorema lui Millman revizuită
+** Teorema lui Millman revizuită
 
 Revenim acum asupra teoremei lui Millman pentru a elucida forma
 „ciudată” a ecuaţiei şi provenienţa acesteia:
@@ -1243,7 +1243,7 @@ nimic altceva decât o transformare Thevenin-Norton împreună cu formula
 rezistenţei paralele pentru determinarea căderii de tensiune pe toate
 ramurile circuitului.
 
-* Teorema transferului maxim de putere
+** Teorema transferului maxim de putere
 
 Teorema transferului maxim de putere nu este neapărat o metodă de
 analiza a reţelelor ci este folosită pentru optimizarea design-ului
@@ -1302,7 +1302,7 @@ Sumar:
    rezistenţe este egală cu rezistenţa Thevenin sau Norton a reţelei de
    alimentare a sarcinii
 
-* Transformarea triunghi-stea şi stea-triunghi
+** Transformarea triunghi-stea şi stea-triunghi
 
 De multe ori componentele sunt conectate într-o reţea cu trei terminale,
 asfel: conexiunea triunghi (Δ) cunoscută şi sub numele de delta sau Pi
@@ -1332,7 +1332,7 @@ trifazate de curent alternativ, dar acestea sunt de obicei reţele
 echilibrate (toţi rezistorii au aceeiaşi valoare) şi prin urmare
 calculele nu sunt atât de complexe.
 
-*** Exemplu
+**** Exemplu
 
 O altă aplicaţie a transformării Δ-Y se găseşte în cadrul circuitelor
 punte dezechilibrate, precum cel de jos:

@@ -1,4 +1,4 @@
-* Construcţia releelor
+** Construcţia releelor
 
 #+CAPTION: o bobină produce un câmp magnetic la trecerea curentului prin
 #+CAPTION: aceasta
@@ -81,7 +81,7 @@ Sumar:
    ce atrage armătura. Armătura acţionează la rândul său contactele unui
    comutator
 
-* Contactoare
+** Contactoare
 
 Atunci când releele sunt folosite pentru comutarea unor puteri mari prin
 contactele sale, acestea poartă numele de contactoare. Contactorele au
@@ -101,7 +101,7 @@ Sumar:
 -  
 -  
 
-* Relee temporizate
+** Relee temporizate
 
 Unele relee sunt prevăzute cun un fel de „amortizor”. Acest mecanism,
 ataşat arăturii releului previne deplasarea imediată şi completă a
@@ -116,7 +116,7 @@ sau normal-deschisă a contactelor, ci şi modul în care acţionează
 temporizarea (la închiderea sau la deschiderea contactelor). Mai jos
 este o descriere a celor patru tipuri de relee temporizate.
 
-** Releu temporizat la închidere normal deschis
+*** Releu temporizat la închidere normal deschis
 
 Acest tip de contact este normal deschis atunci când bobina nu este
 energizată. Contactul se închide doar după aplicarea unui curent
@@ -142,7 +142,7 @@ bobinei. Deschiderea se realizează imediat după de-energizarea bobinei.
 Alăturat este o diagramă de timp ce prezintă modul de funcţionare a
 contactelor acestui tip de releu temporizat.
 
-** Releu temporizat la deschidere, normal-deschis
+*** Releu temporizat la deschidere, normal-deschis
 
 Asemenea releului precedent, şi acest dispozitiv este normal-deschis
 atunci când bobina este de-energizată. La aplicarea unui curent pe
@@ -165,7 +165,7 @@ loc însă la cinci secunde după de-energizarea bobinei.
 
 Diagrama de timp în acest caz, este cea din figura alăturată.
 
-** Releu temporizat la deschidere, normal-închis
+*** Releu temporizat la deschidere, normal-închis
 
 #+CAPTION: releu temporizat la deschidere normal închis
 [[../poze/04047.png]]
@@ -183,7 +183,7 @@ contact mai poartă numele de contact normal închis cu acţionare
 #+CAPTION: temporizat la deschidere, normal închis
 [[../poze/04048.png]]
 
-** Releu temporizat la închidere, normal-închis
+*** Releu temporizat la închidere, normal-închis
 
 #+CAPTION: releu temporizat la închidere normal închis
 [[../poze/04049.png]]
@@ -199,7 +199,7 @@ contact normal închis cu întârziere la revenire.
 #+CAPTION: temporizat la închidere, normal închis
 [[../poze/04050.png]]
 
-** Alte tipuri de relee temporizate
+*** Alte tipuri de relee temporizate
 
 Releele temporizate mecanice, mai vechi, utilizau amortizoare mecanice
 sau dispozitive cu pistoane/cilindrii umplute cu fluid pentru îtârzierea
@@ -251,7 +251,7 @@ Sumar:
    energizării/de-energizării bobinei şi până la închiderea/deschiderea
    contactelor.
 
-* Relee semiconductoare
+** Relee semiconductoare
 
 Pe cât de utile sunt, releele electromecanice au totuşi multe
 inconveniente. Acestea sunt relativ scumpe, au o durată de viaţă a

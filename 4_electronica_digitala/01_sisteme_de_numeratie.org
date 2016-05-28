@@ -1,4 +1,4 @@
-* Numere şi simboluri
+** Numere şi simboluri
 
 Exprimarea cantităţilor sub formă numerică ni se pare un lucru natural.
 Această situaţie este atât în avantajul cât şi în dezavantajul nostru
@@ -38,7 +38,7 @@ pot exprima esenţa duală a amplitudinii si a unghiului de fază, astfel
 încât am fost nevoiţi să utilizăm numerele complexe, fie sub forma
 rectangulară, fie sub formă polară.
 
-** Forma analogică şi forma digitală
+*** Forma analogică şi forma digitală
 
 În cazul în care utilizăm numere pentru înţelegerea proceselor fizice
 din lumea reală, realizarea predicţiilor ştiinţifice sau pentru calcule
@@ -75,9 +75,9 @@ Sumar:
 -  
 -  
 
-* Sisteme de numeraţie
+** Sisteme de numeraţie
 
-** Sistemul de numeraţie roman
+*** Sistemul de numeraţie roman
 
 Romanii au pus la punct un sistem de numeraţie pe bază de simboluri
 (cifre) pentru reprezentarea cantităţilor, astfel:
@@ -102,7 +102,7 @@ altă problemă majoră a acestui sistem este imposibilitatea reprezentării
 numerelor negative sau a valorii nule (zero), ambele fiind concepte
 foarte importante în matematică.
 
-** Sistemul de numeraţie zecimal
+*** Sistemul de numeraţie zecimal
 
 Una dintre cele mai importante idei ale sistemului zecimal de numeraţie
 se datorează babilonienilor. Aceştia au fost aparent prima civilizaţie
@@ -124,7 +124,7 @@ ori mai mare decât poziţie imediat următoare (din dreapta). Astfel că în
 cazul de mai sus avem poziţia sau cifra unităţilor (6), cifra zecilor
 (0), cifra sutelor (2) şi cifra miilor (1), de la dreapta spre stânga.
 
-** Sistemul de numeraţie binar
+*** Sistemul de numeraţie binar
 
 Ce s-ar întâmpla dacă am realiza un sistem de numeraţie cu aceleaşi
 principii de bază precum sistemul zecimal, dar cu mai puţine sau mai
@@ -143,7 +143,7 @@ multiplicare (în funcţie de poziţie):
 11010 = 2 + 8 + 16 = 26 11010 = (1 x 16) + (1 x 8) + (0 x 4) + (1 x 2) +
 (0 x 1)
 
-** Specificarea bazei
+*** Specificarea bazei
 
 Mai sus, am scris un număru sub formă binară (11010) şi l-am transformat
 în formă zecimală (16 + 8 + 2 = 26). Prin urmare, am amestecat două
@@ -161,7 +161,7 @@ specificată nicio bază, se prespune că se lucrează în baza zece (_{10}).
 De remarcat că, în cazul notaţiei binare, fiecare poziţie poartă numele
 de bit
 
-** Scopul sistemului binar de numeraţie
+*** Scopul sistemului binar de numeraţie
 
 De ce am vrea să folosim acest sistem de numeraţie binar? Sistemul
 decimal, cu cele zece cifre ale sale, este intuitiv şi uşor de înţeles.

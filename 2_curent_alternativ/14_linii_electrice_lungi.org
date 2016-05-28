@@ -1,4 +1,4 @@
-* Circuitele electrice şi viteza luminii
+** Circuitele electrice şi viteza luminii
 
 Să presupunem că avem un circuit electric simplu, format dintr-o
 baterie, o lampă şi un întrerupător. La închiderea întrerupătorului,
@@ -73,7 +73,7 @@ Sumar:
    cu toate că electronii ce compun aceast curent au o viteză mult mai
    mică
 
-* Impedanţa caracteristică
+** Impedanţa caracteristică
 
 Să presupunem totuşi, că am avea un set de conductori de lungime
 infinită, fără nicio lampă conectată la capăt. Ce s-ar întâmpla la
@@ -248,7 +248,7 @@ Sumar:
    factorul de viteză este egal cu inversa rădăcinii pătrate a
    permitivităţii relative a dielectricului dintre cei doi conductori
 
-* Linii electrice finite
+** Linii electrice finite
 
 O linie de transmisie inifită, precum cea considerată în secţiunea
 precedentă, este imposibil de realizat din punct de vedere fizic, prin
@@ -337,7 +337,7 @@ de aceasta, pentru un raport semnal/zgomot cât mai bun. Prin urmare,
 şi undele reflectate, deoarece energia reflectată reprezintă energie ce
 nu este transmisă sarcinii.
 
-*** Eliminarea reflexiei liniilor de transmisie
+**** Eliminarea reflexiei liniilor de transmisie
 
 Reflexiile liniilor de transmisie pot fi eliminate dacă impedanţa
 sarcinii este egală cu impedanţa liniei. De exemplu, un cablu coaxial de
@@ -389,7 +389,7 @@ Sumar:
    impedanţa internă a acesteia nu este exact egală cu impedanţa
    caracteristică a liniei
 
-* Linii electrice lungi şi linii electrice scurte
+** Linii electrice lungi şi linii electrice scurte
 
 În circuitele de curent continuu şi în cele de curent alternativ de
 frecvenţă joasă, impedanţa caracteristică a conductorilor paraleli este
@@ -502,7 +502,7 @@ Sumar:
    exista unde reflectată, şi prin urmare, nu vor exista nici efecte
    nedorite datorate lungimii liniei
 
-* Unde staţionare şi rezonanţa
+** Unde staţionare şi rezonanţa
 
 De câte ori există o diferenţă între impedanţa caracteristică a liniei
 şi impedanţa sarcinii, vor apărea şi reflexii ale undelor. Dacă unda

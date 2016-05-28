@@ -1,4 +1,4 @@
-* Circuite logice combinaţionale - introducere
+** Circuite logice combinaţionale - introducere
 
 Termenul „combinaţional” provine din matematică. În matematică, o
 combinaţie reprezintă o mulţime neordonata. Pe scurt, este un mod de a
@@ -50,7 +50,7 @@ Sumar:
 -  
 -  
 
-* Half-Adder
+** Half-Adder
 
 Ca şi prim exemplu a unui circuit logic combinaţional util, să realizăm
 un dispozitiv ce realizează adunarea a două numere binare. Putem calcula
@@ -87,7 +87,7 @@ Sumar:
 -  
 -  
 
-* Full-Adder
+** Full-Adder
 
 Circuitul half-adder (semi-sumator) este extrem de util până în momentul
 în care dorim adăugarea unor valori ce nu pot fi reprezentate cu un
@@ -161,7 +161,7 @@ superior a lui A. Acelaşi lucru este valabil şi pentru B. Σ_{0} este
 bitul de rang inferior al sumei iar Σ_{1} este bitul de rang superior al
 sumeri. C_{out} este bitul de depăşire.
 
-** Sume de numere mai mari de doi biţi
+*** Sume de numere mai mari de doi biţi
 
 Un sumator pe doi biţi nu va fi realizat niciodată în acest fel. În
 schimb, biţi de rang inferior vor trece şi ei printr-un sumator complet
@@ -193,7 +193,7 @@ bitul de depăşire, putem folosi acest bit de depăşire în următoarea
 sumă. În acest fel, programul poate însuma orice număr de biţi, chiar
 dacă folosim un sumator pe doi biţi.
 
-** Conectarea sumatoarelor între ele
+*** Conectarea sumatoarelor între ele
 
 Aceste sumatoare complete pot fi extinse pe un număr de biţi oricât de
 mare. Ca şi exemplu, un sumator pe 8 biţi poate fi realizat astfel:
@@ -213,7 +213,7 @@ complete (full-adder). Fiecare „4+” este un sumator pe 4 biţi realizat
 din două sumatoare pe 2 biţi. Iar rezultatul celor două sumatoare pe 4
 biţi este un sumator pe 8 biţi.
 
-** Multiplicarea circuitelor simple sau construirea integrală a
+*** Multiplicarea circuitelor simple sau construirea integrală a
 dispozitivului
 
 Există două metode principale de realizare a oricărui circuit logic

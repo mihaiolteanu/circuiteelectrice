@@ -1,4 +1,4 @@
-* Tipuri de comutatoare
+** Tipuri de comutatoare
 
 Un comuntator electric este orice dispozitiv folosit pentru întreruperea
 deplasării electronilor prin circuit. Comutatoarele sunt practic
@@ -28,7 +28,7 @@ Orice comutator proiectat să fie folosit de către un operator uman,
 poartă numele de comutator manual. Există mai multe tipuri de astfel de
 comutatoare.
 
-** Comutator basculant
+*** Comutator basculant
 
 #+CAPTION: comutator basculant; simbol
 [[../poze/04016.png]]
@@ -45,7 +45,7 @@ deschiderea circuitului, în funcţie de caz) comutatorului se face doar
 pentru o perioadă scurtă de timp, după care acesta revina la poziţie
 iniţială.
 
-** Comutator buton
+*** Comutator buton
 
 #+CAPTION: comutator buton; simbol
 [[../poze/04017.png]]
@@ -63,7 +63,7 @@ Unele comutatoare pot rămâe în poziţia apăsat până când acesta este tras
 înapoi. Aceste tipuri de comutatoare sunt prevăzute cu un buton de tip
 cipercă pentru uşurarea acţiunii.
 
-** Comutator selector
+*** Comutator selector
 
 #+CAPTION: comutator selector; simbol
 [[../poze/04018.png]]
@@ -74,7 +74,7 @@ comutatoarele basculante, acestea se pot regăsi în oricare dintre
 poziţii, sau pot conţine mecanise pentru funcţionarea de scurtă durată
 (revenirea la poziţia normală).
 
-** Comutator joystick
+*** Comutator joystick
 
 #+CAPTION: comutator joystick; simbol
 [[../poze/04019.png]]
@@ -88,7 +88,7 @@ deplasare a manetei pentru acţionarea contactului. Aceste tipuri de
 comutatoare sunt folosit de obicei pentru macarele şi pentru control
 industrial.
 
-** Comutatoare de limitare
+*** Comutatoare de limitare
 
 Unele comutatoare sunt special concepute pentru acţionarea lor nu de
 către un operator uman, ci de către mişcarea unui dispozitiv mecanic.
@@ -99,7 +99,7 @@ anumit component, dacă acesta se deplasează prea departe. La fel ca în
 cazul comutatoarelor manuale, există mai multe tipuri de comutatoare de
 limitare.
 
-** Comutator de limitare cu manetă
+*** Comutator de limitare cu manetă
 
 #+CAPTION: Comutator de limitare cu manetă; simbol
 [[../poze/04021.png]]
@@ -108,7 +108,7 @@ Aceste limitatoare sunt asemănătoare comutatoarelor basculante sau
 selectoare. În cazul acestora însă, maneta este acţionată de un
 dispozitiv mecanic, şi nu de către un operator uman.
 
-** Comutator de proximitate
+*** Comutator de proximitate
 
 #+CAPTION: Comutator de proximitate; simbol
 [[../poze/04022.png]]
@@ -135,7 +135,7 @@ sunt folosite în aplicaţii de siguranţă, unde o sursă de lumină poate fi
 folosită pentru detectarea intrării persoanelor neautorizate într-o zonă
 periculoasă.
 
-** Comutatoare de proces
+*** Comutatoare de proces
 
 În multe aplicaţii industriale, este necesară o monitorizare a
 diferitelor mărimit fizice cu ajutorul comutatoarelor. Astfel de
@@ -146,7 +146,7 @@ acele variabile au atins un nivel periculos sau destructiv. Desigur,
 există mai multe variante de astfel de comutatoare de proces, prezentate
 mai jos.
 
-** Comutator de viteză
+*** Comutator de viteză
 
 #+CAPTION: Comutator de viteză; simbol
 [[../poze/04024.png]]
@@ -156,7 +156,7 @@ intermediul unui mecanism montat pe acesta. Desigur, acest lucru este de
 preferat a se realiza fără un contact fizic între ax şi comutator, caz
 în care detecţia se realizează optic sau magnetic.
 
-** Comutator de presiune
+*** Comutator de presiune
 
 #+CAPTION: Comutator de presiune; simbol
 [[../poze/04025.png]]
@@ -166,7 +166,7 @@ unui mecanism de comutare. Această presiune trebuie să fie aplicată unui
 piston sau unei diafragme, care la rândul ei va converti prsiunea în
 forţă mecanică.
 
-** Comutator de temperatură
+*** Comutator de temperatură
 
 #+CAPTION: Comutator de temperatură; simbol
 [[../poze/04026.png]]
@@ -190,7 +190,7 @@ presiune. Pe măsură de becul este încălzit, volumul gazului sau al
 lichidului creşte, generând o creştere de prsiune care mai apoi
 acţionează mecanismul de comutare.
 
-** Comutator de nivel
+*** Comutator de nivel
 
 #+CAPTION: Comutator de nivel de lichid; simbol
 [[../poze/04027.png]]
@@ -222,7 +222,7 @@ electronic şi un magnet/electromagnet. Când materialul solid trece de
 diapazonului. Această modificare a amplitudinii vibraţiilor şi/sau
 frecvenţei este detectată de circuitul electronic.
 
-*** Comutator nuclear
+**** Comutator nuclear
 
 #+CAPTION: Comutator de nivel nuclear; simbol
 [[../poze/04030.png]]
@@ -244,7 +244,7 @@ singurele elemente ce pătrung în interior sunt radiaţiile. Sursele de
 radiaţie sunt extrem de slabe şi nu prezintă niciun risc imediat
 operatorilor sau personalului de întreţinere.
 
-** Comutator de curgere
+*** Comutator de curgere
 
 #+CAPTION: Comutator de curgere; simbol
 [[../poze/04028.png]]
@@ -256,7 +256,7 @@ obicei se folosesc pale sau aripi ce sunt împinse de curgerea substanţei
 respective. O metodă alternativă constă în detectarea căderii de
 presiune pe o anumită porţiune a conductei.
 
-** Observaţie
+*** Observaţie
 
 Desigur, există tot timpul mai multe metode de implentare a unui
 comutator pentru monitorizarea sau controlul unui procez ficiz. De
@@ -276,7 +276,7 @@ Sumar:
 -  Comutatoarele de proces sunt acţionate de variaţia unei anumite
    variabile fizice de proces, precum temperatură, presiune, nivel, etc.
 
-* Poziţia „normală” a contactelor
+** Poziţia „normală” a contactelor
 
 Orice tip de comutator poate fi proiectat astfel încât contactele sale
 să se închidă (stabilirea continuităţii circuitului), sau să se deschidă
@@ -354,7 +354,7 @@ polarizate. În circuitele logice digitale, acest simbol este folosit
 pentru orice tip de condensator, chiar şi în situaţia când condensatorul
 nu este un condensator polarizat.
 
-** Secvenţa realizării contactelor
+*** Secvenţa realizării contactelor
 
 În cazul comutatoarelor cu mai multe poziţii, trebuie luat în
 considerare şi modul de deschidere şi de închidere a contactelor, pe
@@ -392,7 +392,7 @@ realizat înaintea deschiderii contactului 3. Compromisul constă în
 faptul că circuitul trebuie să poată tolera asemenea contacte adiacente
 realizata simultan (1 cu 2, 2 cu 3, 3 cu 4 şi 4 cu 5).
 
-** Comutatoare multipolare
+*** Comutatoare multipolare
 
 Când contactul(e) mobil poate fi adus pe unul dintre contactele fixe,
 acele poziţii sunt denumite „direcţii”. Numărul contactelor mobile

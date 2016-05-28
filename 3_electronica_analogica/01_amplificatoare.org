@@ -1,4 +1,4 @@
-* Circuite electrice şi circuite electronice
+** Circuite electrice şi circuite electronice
 
 Circuitele electrice reprezintă conexiuni ale conductorilor electrici cu
 elemente de circuit, în cadrul cărora are loc o deplasare uniformă de
@@ -53,7 +53,7 @@ Sumar:
 -  
 -  
 
-* Elemente active şi elemente pasive
+** Elemente active şi elemente pasive
 
 Un element de circuit /activ/ este orice tip de component ce poate
 controla deplasarea electronilor (curentul) pe cale electrică. Pentru ca
@@ -83,7 +83,7 @@ Sumar:
 -  
 -  
 
-* Amplificatorul
+** Amplificatorul
 
 Practic, elementele active sunt folosite pentru proprietatea lor de
 /amplificare/. Indiferent dacă dispozitivul în cauză este constrolat în
@@ -177,7 +177,7 @@ Sumar:
 -  
 -  
 
-* Factorul de amplificare
+** Factorul de amplificare
 
 Deoarece amplificatoarele pot să mărească amplitudinea semnalului de
 intrare, ar fi foarte util dacă am descrie această proprietatea a lor
@@ -227,7 +227,7 @@ Sumar:
 -  
 -  
 
-* Decibelul
+** Decibelul
 
 În cea mai simplă formă, factorul de amplificare al amplificatorului
 este un raport dintre semnalul de ieşire şi cel de intrare, fiind o

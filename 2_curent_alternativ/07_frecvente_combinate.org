@@ -1,4 +1,4 @@
-* Introducere
+** Introducere
 
 Circuitele studiate până în acest moment au fost alimentate integral
 într-o singură frecvenţă sinusoidală. În multe aplicaţii însă, frecvenţa
@@ -16,7 +16,7 @@ sau polaritatea sa variază asimetric. Indiferent de caz, atunci când
 avem mai multe frecvenţe în acelaşi circuit, analiza acestuia este mult
 mai complexă decât ceea ce am văzut până acum.
 
-*** Cuplajele inductive şi capacitive accidentale
+**** Cuplajele inductive şi capacitive accidentale
 
 Unele situaţii de semnale de curent sau tensiune cu frecvenţe multiple
 sunt create accidental, fiind rezultatul conexiunilor accidentale dintre
@@ -40,7 +40,7 @@ inductanţa (M_{p}) şi capacitatea parazită (C_{p}):
 #+CAPTION: curent continuu şi unul de curent alternativ
 [[../poze/02302.png]]
 
-*** Folosirea cablurilor răsucite şi ecranate
+**** Folosirea cablurilor răsucite şi ecranate
 
 Atunci când tensiunile alternative parazite se mixează cu semnalele de
 curent continuu, rezultatele sunt de obicei nedorite. Din acest motiv,
@@ -73,7 +73,7 @@ frecvenţe:
 #+CAPTION: curent alternativ
 [[../poze/02304.png]]
 
-*** Alte moduri de generare a frecvenţelor multiple
+**** Alte moduri de generare a frecvenţelor multiple
 
 Cuplajul este doar unul dintre exemplele de combinare a frecvenţelor,
 fiind accidental şi de nedorit. În alte cazuri însă, semnalele cu
@@ -93,7 +93,7 @@ Foarte puţine sunete naturale sunt formate dintr-o vibraţie sinusoidală
 pură, ci, majoritatea sunt compuse dintr-o serie de vibraţii la
 frecvenţe şi amplitudini diferite combinate într-un singur semnal final.
 
-*** Sunetele muzicale
+**** Sunetele muzicale
 
 Acordurile muzicale sunt produse printr-un amestec de frecvenţe cu
 frecvenţă de bază, fiecare dintre acestea fiind un multiplu al
@@ -132,7 +132,7 @@ Sumar:
    semnalul cu cea mai mică frecvenţă. Celelalte forme de undă sunt
    multiplii ale frecvenţei fundamentale, şi poartă numele de /armonici/
 
-* Forme de undă dreptunghiulare
+** Forme de undă dreptunghiulare
 
 Este cunoscut faptul că /orice/ semnal periodic (ce se repetă în timp)
 ne-sinusoidal poate fi reprezentat ca şi combinaţie de semnale continue,
@@ -252,7 +252,7 @@ Sumar:
    infinită de unde sinusoidale (armonici) de frecvenţă multiplu impar
    ale acesteia şi amplitudini descrescătoare
 
-* Analiza spectrală
+** Analiza spectrală
 
 Analiza Fourier computerizată, în special sub forma algoritmului /FFT/
 (Fast Fourier Transform), este un instrument excelent pentru înţelegerea
@@ -365,7 +365,7 @@ Să analizăm şi semnalul dinte de fierăstrău:
 #+CAPTION: spectrală a unui semnal dinte de fierăstrău
 [[../poze/02292.png]]
 
-*** Diferenţa dintre armonicile pare şi impare
+**** Diferenţa dintre armonicile pare şi impare
 
 Distincţia dintre o formă de undă ce conţine armonici pare şi o formă de
 undă ce nu conţine aceste armonici se poate observa grafic, înaintea
@@ -418,7 +418,7 @@ Sumar:
 -  Componenta de curent continuu prezentă în semnal nu are niciun fel de
    impact asupra conţinutului armonic al formei de undă în cauză
 
-* Efecte asupra circuitelor
+** Efecte asupra circuitelor
 
 Principiul conform căruia formele de undă periodice ne-sinusoidale sunt
 compuse dintr-o serie de unde sinusoidale de frecvenţe şi amplitudini

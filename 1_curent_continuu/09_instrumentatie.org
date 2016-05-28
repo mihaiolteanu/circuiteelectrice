@@ -1,4 +1,4 @@
-* Semnale analogice şi digitale
+** Semnale analogice şi digitale
 
 Instrumentaţia este un domeniu bazat pe măsurarea şi constrolul
 proceselor fizice. Aceste procese fizice includ presiunea, temperatura,
@@ -129,7 +129,7 @@ Sumar:
    valorii de 0% din variabila de măsurat, astfel încât orice defect al
    sistemului să poate fi uşor detectabil.
 
-* Sisteme cu semnale de tensiune
+** Sisteme cu semnale de tensiune
 
 Utilizarea tensiunii variabile pentru semnalele de instrumentaţie pare o
 soluţie bună în acest caz. Să vedem aşadar cum am putea folosi un semnal
@@ -192,7 +192,7 @@ Sumar:
    cantităţi de curent de către voltmetru. Această cădere de tensiune
    de-a lungul cablurilor electrice constituie o eroare de măsură.
 
-* Sisteme cu semnale de curent
+** Sisteme cu semnale de curent
 
 Folosind amplificatoare electronice putem construi circuite a căror
 ieşire să fie o cantitate constantă de curent în loc de o cantitate
@@ -296,7 +296,7 @@ Sumar:
 -  Cel mai utilizat standard pentru curentul analogic este bucla de
    curent de 4-20 miliamperi
 
-* Tahogeneratorul
+** Tahogeneratorul
 
 Un generator electromecanic este un dispozitiv capabil să genereze
 putere electrică folosind energie mecanică, de obicei prin intermediul
@@ -322,7 +322,7 @@ tahogeneratorul este o metodă uşoară de determinare a acestui lucru.
 Tehogeneratoarele sunt frecvent utulizate pentru determinarea vitezei
 motoarelor electrice
 
-* Termocupla
+** Termocupla
 
 Un fenomen interesant utilizat în domeniul instrumentaţiei este „efectul
 Seebeck” (notă: wikipedia), ce constă în producerea unei căderi de
@@ -432,7 +432,7 @@ semiconductori pentru a permite semnalul de tensiune al termocuplei să
 acţioneze asupra aparatului de măsură cu foarte puţin curent tras în
 circuit sau chiar deloc.
 
-*** Termopila
+**** Termopila
 
 Termocuplele pot fi confecţionate din conductori foarte groşi pentru
 rezistenţă scăzută şi conectate în aşa fel încât să genereze curenţi

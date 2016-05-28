@@ -1,4 +1,4 @@
-* Circuite rezistive în curent alternativ
+** Circuite rezistive în curent alternativ
 
 Să considerăm un circuit de curent alternativ pur rezistiv, caz în care
 tensiunea şi curentul sunt în fază (unghiul de defazaj dintre ele este
@@ -45,7 +45,7 @@ timpul putere ce este generată de sursă şi degajată de acesta sub formă
 de căldură. Indiferent de valoarea curentului, pozitivă sau negativă, un
 rezistor va disipa tot timpul energie.
 
-* Circuite inductive în curent alternativ
+** Circuite inductive în curent alternativ
 
 Bobinele au în schimb un comportament diferit faţă de cel al
 rezistorilor atunci când sunt introduse în circuit. Faţă de rezistor,
@@ -166,7 +166,7 @@ fiecare dintre cele trei cazuri este următoarea:
 | 120                 | 7.5398            |
 | 2500                | 157.0796          |
 
-*** Viteza unghiulară a sistemului
+**** Viteza unghiulară a sistemului
 
 În formula de calcul a reactanţei inductive, termenul „2πf” are un
 înţeles aparte. Este numărul de radiani pe secundă la care se „roteşte”
@@ -246,7 +246,7 @@ Sumar:
    este opoziţia faţă de deplasarea electronilor (curent) în curent
    alternativ
 
-* Circuite rezistiv-inductive serie. Impedanţa
+** Circuite rezistiv-inductive serie. Impedanţa
 
 În secţiunile precedente, am văzut ce se întâmplă într-un circuit
 electric de curent alternativ simplu pur rezistiv, respectiv pur
@@ -334,7 +334,7 @@ legii lui Kirchhoff:
 #+CAPTION: formule
 [[../poze/12025.png]]
 
-*** Aplicarea metodei tabelului
+**** Aplicarea metodei tabelului
 
 Cu toate aceste valori rezultate, chiar şi pentru un circuit simplu
 precum este acesta, este mai uşor să aplicăm metoda tabelului. Tabelul
@@ -397,7 +397,7 @@ cât diferenţa de fază este reprezentată corect, nu există nicio
 diferenţă fundamentală între analiza unui circuit de curent alternativ
 faţă de unul în curent continuu.
 
-*** Indicaţia instrumentelor de măsură
+**** Indicaţia instrumentelor de măsură
 
 Să luăm acum în considerare relaţie dintre valorile calculate mai sus şi
 indicaţia tensiunii şi a curentului dată de instrumentele de măsură.
@@ -415,7 +415,7 @@ decât forma polară pentru măsurătorile reale. Dacă ar fi să folosim doar
 o singură notaţie, cea mai bună alegere ar fi cea polară, pentru că este
 singura ce are legătură directă cu măsurătorile reale.
 
-*** Diagrama impedanţei
+**** Diagrama impedanţei
 
 Impedanţa (Z) unui circuit serie R-L poate fi calculată cunoscând
 rezistenţă (R) şi reactanţa inductivă (X_{L}). Din moment ce E=IR,
@@ -426,7 +426,7 @@ cu tensiunea. Prin urmare, diagrama fazorială a tensiunii poate fi
 #+CAPTION: diagrama fazorială a impedanţei într-un circuit R-L serie
 [[../poze/02515.png]]
 
-*** Exemplu
+**** Exemplu
 
 Găsiţi impedanţă totală a circuitului format dintr-un rezistor de 40 Ω
 conectat în serie cu o bobină de 79.59 mH, la o frecvenţă a sursei de
@@ -457,7 +457,7 @@ Sumar:
    forma tensiunea totală din circuit, iar impedanţele se adună pentru a
    forma impedanţa totală
 
-* Circuite rezistiv-inductive paralel în curent alternativ
+** Circuite rezistiv-inductive paralel în curent alternativ
 
 Să luăm în considerare aceleaşi componente din circuitul serie, dar să
 le conectăm de data aceasta în paralel:

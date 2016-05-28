@@ -1,4 +1,4 @@
-* Histerezis
+** Histerezis
 
 Dispozitivele multijoncţiune sunt o clasă de componente semiconductoare
 cu histereză, o proprietate prin care un sistem nu se reîntoarce la
@@ -34,7 +34,7 @@ Sumar:
 -  
 -  
 
-* Tuburi electronice cu descărcare în gaze
+** Tuburi electronice cu descărcare în gaze
 
 Înainte de a studia însă Dispozitivele multijoncţiune, este indicat să
 luăm în considerare şi predecesorul tehnologic al acestora, şi anume,
@@ -182,7 +182,7 @@ Dispozitivele multijoncţiune moderne realizează însă acelaşi lucru
 precum dispozitivul prezentat mai sus: pornirea şi oprirea curenţilor
 prin intermediul histerezei.
 
-* Dioda Shockley
+** Dioda Shockley
 
 Primul dispozitiv din seria dispozitivele multijoncţiune pe care îl vom
 studia este o diodă cu patru straturi, cunoscută sub numele de diodă
@@ -380,7 +380,7 @@ Sumar:
 -  Pentru blocarea unei diode Shockley, este necesară reducerea
    curentului prin această sub un anumit prag critic
 
-* DIAC-ul
+** DIAC-ul
 
 Şi diodele Shockley sunt dispozitive unidirecţionale, la fel ca toate
 diodele: acestea conduct curentul doar într-o singură direcţie. Dacă
@@ -411,7 +411,7 @@ din figura alăturată.
 DIAC-ul nu este aproape niciodată folosit singur ci combinat cu alte
 dispozitive multijoncţiune.
 
-* Tiristorul
+** Tiristorul
 
 Diodele Shockley sunt dispozitive interesante, dar aplicaţiile lor sunt
 limitate. Utilitatea lor poate fi extinsă prin echiparea lor cu o altă
@@ -562,7 +562,7 @@ lampă sau orice altă sarcină practică.
 #+CAPTION: motor
 [[../poze/03209.png]]
 
-** Circuit de protecţie crowbar
+*** Circuit de protecţie crowbar
 
 O altă utilizare practică a unui tiristor într-un circuit de c.c. o
 reprezintă un dispozitiv crowbar pentru protecţia la supratensiune. Un
@@ -778,7 +778,7 @@ Sumar:
 -  Pentru aprinderea tiristorului, tensiunea trebuie aplicată între
    poartă şi catod, pozitivă pe poartă şi negativă pe catod
 
-* TRIAC-ul
+** TRIAC-ul
 
 TRIAC-ul nu este altceva decât două tiristoare în paralel aşezate spate
 în spate.
@@ -879,7 +879,7 @@ Sumar:
    corectă a triacului, curentul pe poartă trebuie să treacă prin
    terminalul A_{2}
 
-* Optotiristorul
+** Optotiristorul
 
 Asemenea tranzistorilor bipolari, atât tiristoarele cât şi triacele se
 pot construi sub forma dispozitivelor sensibile la lumină; în acest caz,

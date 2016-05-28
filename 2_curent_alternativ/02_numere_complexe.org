@@ -1,4 +1,4 @@
-* Introducere
+** Introducere
 
 Dacă dorim de exemplu să descriem distanţa dintre două oraşe, putem
 folosi o singură cifră, în kilometri, sau orice altă unitate de măsură
@@ -54,7 +54,7 @@ Sumar:
    folosit şi termenul de /fazor/, acolo unde unghiul vectorului
    reprezintă diferenţa de fază între formele de undă
 
-* Vectori şi forme de undă în curent alternativ
+** Vectori şi forme de undă în curent alternativ
 
 Să luăm câteva exemple de reprezentare a formelor de undă în curent
 alternativ cu ajutorul vectorilor, unde lungimea vectorului reprezintă
@@ -92,7 +92,7 @@ Sumar:
    reprezintă diferenţa de fază (defazajul) undei faţă de unda de
    referinţă
 
-* Adunarea simplă a vectorilor
+** Adunarea simplă a vectorilor
 
 Operaţiile ce pot fi efectuate asupra vectorilor sunt aceleaşi care sunt
 posibile asupra oricărei mărimi scalare: adunare, scădere, înmulţire,
@@ -165,7 +165,7 @@ polaritatea schimbată şi faza modificată cu 180 de grade faţă de
 #+CAPTION: cealaltă
 [[../poze/02266.png]]
 
-* Adunarea complexă a vectorilor
+** Adunarea complexă a vectorilor
 
 Dacă adunăm doi vectori cu unghiuri diferite, lungimile lor se adună
 diferit faţă de cele scalare:
@@ -190,14 +190,14 @@ citi indicaţiile de 6 şi respectiv 8 volţi la borenele celor două surse
 de curent alternativ, dar tensiunea totală indicată de acesta va fi de
 „doar” 10 volţi!
 
-* Notaţia polară şi rectangulară a numerelor complexe
+** Notaţia polară şi rectangulară a numerelor complexe
 
 Pentru a putea lucra cu aceste numere complexe fără a fi nevoiţi să
 desenăm tot timpul vectori, avem nevoie de o notaţie matematică
 standard. Există două forme pentru notaţia numerelor complexe: /polară/
 şi /rectangulară/.
 
-*** Notaţia polară
+**** Notaţia polară
 
 Forma polară constă în exprimarea unui număr complex prin /lungimea/
 (cunoscută şi sub numele de dimensiune, valoare absolută, modul) şi
@@ -221,7 +221,7 @@ Vectorul de mai sus (7.81 ∠230.19^{o}) poate fi descris de asemenea prin
 #+CAPTION: alternativ
 [[../poze/02026.png]]
 
-*** Notaţia rectangulară
+**** Notaţia rectangulară
 
 Forma rectangulară constă în reprezentarea vectorului prin componentele
 sale orizontale şi verticale. În esenţă, vectorului unghiular este
@@ -266,7 +266,7 @@ valide se datorează faptului că forma rectangulară este uşor de folosit
 pentru adunare şi scădere, iar forma polară pentru înmulţire şi
 împărţire.
 
-*** Transformarea din formă polară în formă rectangulară
+**** Transformarea din formă polară în formă rectangulară
 
 Conversia de la o formă la alta se poate realiza pe cale trigonometrică
 destul de uşor. Pentru a transforma forma polară în forma rectangulară,
@@ -285,7 +285,7 @@ componenta imaginară:
 #+CAPTION: rectangulară
 [[../poze/12005.png]]
 
-*** Transformarea din formă rectangulară în formă polară
+**** Transformarea din formă rectangulară în formă polară
 
 Pentru a realiza conversi de la forma rectangulară la cea polară, găsim
 mai întâi lungimea polară folosind teorema lui Pitagora, fiindcă
@@ -316,9 +316,9 @@ Sumar:
    latura opusă, verticală, reprezentând componenta rectangulară
    „imaginară”
 
-* Aritmetica numerelor complexe
+** Aritmetica numerelor complexe
 
-*** Adunarea numerelor complexe
+**** Adunarea numerelor complexe
 
 Pentru adunarea numerelor complexe, adunăm pur şi simplu componentele
 reale pentru a determina componenta reală a sumei cele două numere
@@ -327,7 +327,7 @@ complexe; acelaşi lucru este valabil şi pentru componenta imaginară:
 #+CAPTION: adunarea numerelor complexe
 [[../poze/12007.png]]
 
-*** Scăderea numerelor complexe
+**** Scăderea numerelor complexe
 
 Pentru scăderea numerlor complexe, se aplică acelaşi principiu de mai
 sus, doar cu scădere în loc de adunare:
@@ -335,7 +335,7 @@ sus, doar cu scădere în loc de adunare:
 #+CAPTION: scăderea numerelor complexe
 [[../poze/12008.png]]
 
-*** Înmulţirea numerelor complexe
+**** Înmulţirea numerelor complexe
 
 Pentru operaţiile de înmulţire şi împărţire forma preferată este cea
 polară. Atunci când efectuăm înmulţirea numerelor complexe sub formă
@@ -346,7 +346,7 @@ complexe pentru determinarea unghiului final al produsului:
 #+CAPTION: înmulţirea numerelor complexe
 [[../poze/12009.png]]
 
-*** Împărţirea numerelor complexe
+**** Împărţirea numerelor complexe
 
 Pentru efectuarea împărţirii numerelor complexe, calculăm pur şi simplu
 raportul dintre dimensiunea primului număr complex cu dimensiunea celui
@@ -357,7 +357,7 @@ unghiul final al raportului dintre cele două numere complexe:
 #+CAPTION: împărţirea numerelor complexe
 [[../poze/12010.png]]
 
-*** Reciproca (inversa) numerelor complexe
+**** Reciproca (inversa) numerelor complexe
 
 Pentru a obţine reciproca (1/x), sau inversa unui număr complex,
 calculăm raportul dintre valoarea scalară 1 (unghi zero) şi numărul
@@ -366,9 +366,9 @@ complex sub formă polară:
 #+CAPTION: reciproca (inversa) numerelor complexe
 [[../poze/12011.png]]
 
-* Clarificări legate de polaritatea curentului alternativ
+** Clarificări legate de polaritatea curentului alternativ
 
-** Polaritatea căderilor de tensiune
+*** Polaritatea căderilor de tensiune
 
 Numerele complexe sunt folositoare pentru analiza circuitelor de curent
 alternativ, deoarece reprezintă o metodă comodă de reprezentare

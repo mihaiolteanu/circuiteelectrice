@@ -1,6 +1,6 @@
-* Conectarea bateriilor în serie
+** Conectarea bateriilor în serie
 
-** Scopul experimentului
+*** Scopul experimentului
 
 Vom vedea mai jos modul de conectare a bateriilor pentru a obţine
 diferite valori ale tensiunii rezultate. Deşi putem folosi baterii de
@@ -14,7 +14,7 @@ Pe parcurs, vom realiza circuitul de mai jos (schemă + circuit practic):
 #+CAPTION: conectarea bateriilor în serie
 [[../poze/05073.png]]
 
-** Desfăşurarea experimentului
+*** Desfăşurarea experimentului
 
 Conectarea componentelor în serie înseamnă conectarea lor în linie,
 astfel încât să existe un singur drum pe care să poată circula
@@ -49,9 +49,9 @@ Sumar:
 -  
 -  
 
-* Conectarea bateriilor în paralel
+** Conectarea bateriilor în paralel
 
-** Scopul experimentului
+*** Scopul experimentului
 
 Vom realiza circuitele de mai jos (schema teoretică şi circuitul
 practic), şi vom observa efectul conectării surselor de putere în
@@ -62,7 +62,7 @@ paralel asupra tensiunii şi a curentului din circuit:
 #+CAPTION: conectarea bateriilor în paralel
 [[../poze/05077.png]]
 
-** Derularea experimentului
+*** Derularea experimentului
 
 Conectaţi o baterie de 6 V la un bec de 12 V, cu o putere de 25 sau 50
 W. Becul va lumina relativ slab în acest caz. Utilizaţi voltmetrul
@@ -122,9 +122,9 @@ fi în acest caz mult mai aproape de 6 V:
 #+CAPTION: conectarea bateriilor în paralel
 [[../poze/05082.png]]
 
-* Divizor de tensiune
+** Divizor de tensiune
 
-** Scopul experimentului
+*** Scopul experimentului
 
 Pentru derularea acestui experiment veţi avea nevoie de diferiţi
 rezistori cu valori între 1 kΩ şi 100 kΩ. Altfel, s-ar putea să nu
@@ -164,7 +164,7 @@ componente pe o suprafaţă mică), dar circuitului este temporar. Regleta
 de borne oferă un circuit mult mai permanent, dar o densitatea mică de
 componente.
 
-** Desfăşurarea experimentului
+*** Desfăşurarea experimentului
 
 Alegeţi trei rezistori şi măsuraţi valoarea rezistenţei fiecăruia cu un
 ohmmetru. Notaţi-vă aceste valori pentru utilizarea lor ulterioara.
@@ -203,7 +203,7 @@ ajutorul voltmetrului căderea de tensiune reală pe fiecare rezistor,
 verificând astfel acurateţea calculelor. Din nou, cele două valori, cea
 calculată şi cea măsurată, trebuie să fie extrem de apropiate.
 
-** Explicarea divizorului de tensiune
+*** Explicarea divizorului de tensiune
 
 Fiecare cădere de tensiune a rezistorilor este doar o fracţiune din
 tensiunea totală. De aici şi denumirea de /divizor de tensiune/ a
@@ -219,7 +219,7 @@ respectiv va fi 50% din această valoare, adică 3 V. Dacă tensiunea
 totală este 20 V, căderea de tensiune la bornele rezistorului va fi de
 10 V, sau 50% din 20 V.
 
-** Validarea legii lui Kirchhoff pentru tensiune
+*** Validarea legii lui Kirchhoff pentru tensiune
 
 Identificaţi fiecare punct din circuit cu un număr. Punctele ce sunt
 electric comune trebuiesc notate cu acelaşi număr, astfel:
@@ -271,9 +271,9 @@ Suma algebrică a căderilor de tensiune va fi tot timpul egală cu zero.
 Această lege este valabilă indiferent de configuraţia circuitului
 studiat: serie, paralel, serie-paralel sau circuit complex.
 
-* Divizor de curent
+** Divizor de curent
 
-** Scopul experimentului
+*** Scopul experimentului
 
 Asemănător exemplului precedent, vom avea nevoie de o baterie de 6 V şi
 o serie de rezistori cu valori cuprinse între 1 kΩ şi 100 kΩ. Faţă de
@@ -303,7 +303,7 @@ profesională de realizare a circuitelor.
 Experimentaţi cu toate cele trei variante de realizare a circuitului
 pentru a vă familiariza cu avantajele şi dezavantajele fiecăruia.
 
-** Desfăşurarea experimentului
+*** Desfăşurarea experimentului
 
 Alegeţi trei rezistori şi măsuraţi valoarea rezistenţei fiecăruia dintre
 ei cu ajutorulu unui ohmmetru. Notaţi-vă valoarea acestora pe o hârtie.
@@ -338,7 +338,7 @@ valori cu rezultatele obţinute anterior. Conectând ampermetrul asemenea
 figurilor de mai sus, toate cele trei indicaţii trebuie să fie pozitive,
 nu negative.
 
-** Validarea legii lui Kirchhoff pentru curent
+*** Validarea legii lui Kirchhoff pentru curent
 
 Măsuraţi apoi curentul total din circuit, astfel: ţineţi sonda roşie a
 ampermetrului într-un singur punct din circuit; deconectaţi conductorul
@@ -356,7 +356,7 @@ pentru tensiune? Legea lui Kirchhoff pentru curent spune că suma tuturor
 curenţilor dintr-un nod trebuie să fie egală cu zero. Această lege este
 foarte utilă în analiza matematică a circuitelor electrice.
 
-** Explicare divizorului de curent
+*** Explicare divizorului de curent
 
 Observaţi cele patru valori ale curenţilor obţinute din măsurători.
 Consideraţi-le pe toate ca şi valori pozitive. Primele trei reprezintă
@@ -366,9 +366,9 @@ ramură. Fiecare curent de ramură este o fracţiune, sau un procent, din
 curentul total. Din acest motiv, acest tip de circuit (cu rezistori
 conectaţi în paralel) poartă numele de divizor de curent.
 
-* Divizor de tensiune cu potenţiometru
+** Divizor de tensiune cu potenţiometru
 
-** Scopul experimentului
+*** Scopul experimentului
 
 Pentru derularea acestui experiment veţi avea nevoie de două baterii de
 6 V, o mină de grafit (creion mecanic), un potenţimetru liniar cu o
@@ -389,7 +389,7 @@ tensiunile în serie. Circuitul pe care îl vom realiza, este următorul
 #+CAPTION: divizor de tensiune cu potenţiometru
 [[../poze/05109.png]]
 
-** Desfăşurarea experimentului
+*** Desfăşurarea experimentului
 
 Începeţi experimentul cu circuitul format din mina de creion. Grafitul
 din care este realizată mina este un conductor prost de curent electric.
@@ -417,7 +417,7 @@ voltmetrului. Care este poziţia pentru care tensiunea indicată de
 voltmetru este maximă? Există vreo diferenţă între această situaţie şi
 cea precedentă? De ce?
 
-** Circuitul cu potenţiometru
+*** Circuitul cu potenţiometru
 
 Realizaţi circuitul cu potenţiometru prezentat la începutul capitolului,
 în locul celui cu mină de creion. Măsuraţi tensiunea bateriei în timp ce
@@ -437,9 +437,9 @@ aceiaşi valoare a divizorului de tensiune ce am găsit-o şi înainte:
 #+CAPTION: divizor de tensiune cu potenţiometru
 [[../poze/05114.png]]
 
-* Potenţiometrul ca şi reostat
+** Potenţiometrul ca şi reostat
 
-** Scopul experimentului
+*** Scopul experimentului
 
 Vom avea nevoie de o baterie de 6 V, un potenţiometru liniar cu o
 singură înfăşurare (5 kΩ) şi un motor electric mic cu magneţi
@@ -457,7 +457,7 @@ plus implementare practică):
 #+CAPTION: motor
 [[../poze/05145.png]]
 
-** Realizarea reostatului din potenţiometru
+*** Realizarea reostatului din potenţiometru
 
 Potenţiometrele se utilizează de obicei pe post de divizori de tensiune,
 poziţia periei determinând raportul de divizare. Totuşi, există
@@ -492,7 +492,7 @@ rezistenţă variabilă:
 #+CAPTION: potenţiometru
 [[../poze/05149.png]]
 
-** Controlul vitezei motorului
+*** Controlul vitezei motorului
 
 Realizaţi circuitul prezentat la început, utilizând doar doi terminali
 ai potenţiometrului. Observaţi modul în care poate fi controlată viteza
@@ -511,7 +511,7 @@ reostat este destul de mare. O metodă mult mai eficientă constă în
 alimentarea motorului cu o putere pulsatorie, folosind un tranzistor. O
 metodă similară este folosită şi în cazul dimmer-elor casnice.
 
-** Conectarea terminalului liber la terminalul-perie (opţional)
+*** Conectarea terminalului liber la terminalul-perie (opţional)
 
 Când folosim potenţiometrul pe post de reostat, adesea, terminalul
 nefolosit este conectat la terminalul perie, astfel:
@@ -540,7 +540,7 @@ tensiunea motorului pentru a vă asigura că acesta este încă alimentat:
 #+CAPTION: circuit electric cu potenţiometru şi motor
 [[../poze/05152.png]]
 
-** Verificarea circuitelor cu voltmetrul în locui ampermetrului
+*** Verificarea circuitelor cu voltmetrul în locui ampermetrului
 
 Ar fi trebuit să măsuraţi curentul din circuit în loc de tensiunea
 motorului pentru a verifica continuitatea circuitului (circuit închis).
@@ -556,9 +556,9 @@ la fel de bine măsura tensiunea în detrimentul măsurării curentului
 (utilizarea voltmetrului în detrimentul ampermetrului), pentru a
 verifica exact acelaşi lucru, varianta tensiunii este cea indicată.
 
-* Termoelectricitate
+** Termoelectricitate
 
-** Scopul experimentului
+*** Scopul experimentului
 
 Vom vedea pe parcursul acestui experiment modul de funcţionare şi
 utilizare a unei termocuple. Veţi avea nevoie de un conductor de cupru
@@ -572,7 +572,7 @@ jos:
 #+CAPTION: realizarea unei termocuple
 [[../poze/05154.png]]
 
-** Realizarea termocuplei
+*** Realizarea termocuplei
 
 Răsuciţi un capăt al conductorului de fier cu un capăt al conductorului
 de cupru. Conectaţi celelalte capete rămase libere la o bornă de
@@ -588,7 +588,7 @@ voltmetrului cu cele două capete rămase libere. Dacă temperatura
 contactului este egală cu temperatură capetelor libere, tensiunea
 produsă va fi 0 V. Indicaţia voltmetrului indică exact acest lucru.
 
-** Generarea tensiunii cu ajutorul termocuplei create
+*** Generarea tensiunii cu ajutorul termocuplei create
 
 Aprindeţi o lumânare şi puneţi contactul (vârful) termocuplei în
 flacără. Observaţi indicaţia voltmetrului. Îndepărtaţi contactul
@@ -613,9 +613,9 @@ temperaturii. Ralaţia matematică dintre diferenţa temperaturii şi
 tensiunea rezultată este destul de liniară. Prin măsurarea tensiunii,
 putem determina temperatura la punctul de contact.
 
-* Circuit de mediere
+** Circuit de mediere
 
-** Scopul experimentului
+*** Scopul experimentului
 
 Vom vedea în cele ce urmează cum puem realiza media aritmedică a
 valorilor tensiunilor cu ajutorul unei reţele de rezistori. Aceasta este
@@ -639,7 +639,7 @@ media aritmetică a acestora, astfel:
 
 V_{ieşire} = (V_{1} + V_{2} + V_{3}) / 3
 
-** Realizarea şi funţionarea circuitului de mediere
+*** Realizarea şi funţionarea circuitului de mediere
 
 Construiţi acest circuit conform figurii de mai sus. Măsuraţi apoi
 tensiunile celor trei baterii cu ajutorul unui voltmetru. Notaţi-vă
@@ -669,7 +669,7 @@ valoarea de 0 V. Tensiunea de ieşire va fi prin urmare mai mică:
 #+CAPTION: circuit de mediere a tensiunilor printr-o reţea de rezistori
 [[../poze/05118.png]]
 
-** Concluzii şi notă istorică
+*** Concluzii şi notă istorică
 
 Datorită simplităţii acestui circuit, nu-l putem numi un „calculator” în
 adevăratul sens al cuvântului. Totuşi, acesta realizează foarte funcţia
@@ -699,9 +699,9 @@ acestea, realizarea practică a unor astfel de circuite, pentru
 circuitelor electrice în general. Ce alte operaţii matematice credeţi că
 pot fi realizate cu astfel de circuite analogice?
 
-* Baterie din cartof
+** Baterie din cartof
 
-** Scopul experimentului
+*** Scopul experimentului
 
 Ne propunem să realizăm o baterie din cartof. Deşi acest experiment
 foloseşte cartoful pe post de baterie, puteţi folosi o varietate de
@@ -716,7 +716,7 @@ este următorul:
 #+CAPTION: baterie din cartof
 [[../poze/05167.png]]
 
-** Realizarea bateriei din cartof
+*** Realizarea bateriei din cartof
 
 Introduceţi atât cuiul cât şi conductorul de cupru în cartof. Măsuraţi
 tensiunea produsă de baterie cu un voltmetru. Asta e tot!
@@ -734,15 +734,15 @@ cartofi în configuraţii serie, paralel sau serie-paralel, putem obţine o
 tensiune şi un curent destul de mare pentru alimentarea unei sarcini
 mici. Puteţi realiza acest lucru?
 
-* Încărcarea şi descărcarea condensatorului
+** Încărcarea şi descărcarea condensatorului
 
-** Scopul experimentului
+*** Scopul experimentului
 
 Vom observa modul de încărcare şi descărcare al condensatoarelor. Vom
 calcula constanta de timp a circuitului şi capacitatea rezultată prin
 conectarea condensatoarelor în serie şi paralel.
 
-** Materiale necesare
+*** Materiale necesare
 
 Pentru acest experiment veţi avea nevoie de o baterie de 6 V (sau sursă
 de tensiune echivalentă), două condensatoare electrolitice mari, de cel
@@ -756,7 +756,7 @@ realizat arată astfel:
 #+CAPTION: decărcarea unui condensator
 [[../poze/05174.png]]
 
-** Atenţie la condensatoarele electrolitice
+*** Atenţie la condensatoarele electrolitice
 
 Acest experiment necesită utilizarea unor condensatoare mari pentru
 producerea unor constante de timp adecvate. Altfel, nu am putea urmări
@@ -775,7 +775,7 @@ condensatoarelor electrolitice constă de obicei în explozia lor şi
 împrăştierea materialelor chimice din interior. Încercaţi să evitaţi
 acest lucru !
 
-** Realizarea circuitului şi măsurarea constantei de timp
+*** Realizarea circuitului şi măsurarea constantei de timp
 
 Construiţi circuitul de încărcare a condensatorului, precum în figura de
 mai sus. Măsuraţi tensiunea la terminalele condensatorului atunci când
@@ -816,15 +816,15 @@ deosebire este că de această dată, tensiunea este maximă la închiderea
 Experimentaţi şi în acest caz cu diferite combinaţii de rezistori şi
 condensatoare.
 
-* Circuit de diferenţiere
+** Circuit de diferenţiere
 
-** Scopul experimentului
+*** Scopul experimentului
 
 Experimentul indică modul de realizare a unui circuit de diferenţiere.
 După realizarea circuitului, veţi putea obţine o înţelegere emipirică a
 derivatei unei funcţii.
 
-** Materiale necesare
+*** Materiale necesare
 
 Pentru realizarea circuitului veţi avea nevoie de două baterii de 6
 volţi, un condensator de 0,1 µF, un rezistor de 1 MΩ şi un potenţiometru
@@ -839,7 +839,7 @@ Circuitul final arată astfel:
 #+CAPTION: circuit de diferenţiere
 [[../poze/05230.png]]
 
-** Realizarea circuitului
+*** Realizarea circuitului
 
 Măsuraţi tensiune dintre peria potenţiometrului şi punctul de masă
 reprezentat în figura de mai sus (terminalul negativ al bateriei de 6 V
@@ -862,7 +862,7 @@ indicaţie stabilă a tensiunii. Ce tip de deplasare a potenţiometrului
 oferă cea mai stabilă indicaţie a tensiunii la bornele rezistorului de 1
 MΩ?
 
-** Derivata unei funcţii în analiza matematică
+*** Derivata unei funcţii în analiza matematică
 
 O funcţie matematică ce reprezintă rata de variaţie a unei variabile
 faţă de o alta, poartă numele de derivată. Acest circuit simplu

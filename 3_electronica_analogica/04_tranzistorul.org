@@ -1,4 +1,4 @@
-* Introducere
+** Introducere
 
 Un tranzistor bipolar cu joncţiune (BJT) este alcătuit din trei straturi
 de materiale semiconductoare, fie de tipul PNP, fie de tipul NPN.
@@ -55,7 +55,7 @@ Sumar:
 -  
 -  
 
-* Tranzistorul pe post de întrerupător
+** Tranzistorul pe post de întrerupător
 
 Doarece curentul colectorului tranzistorului este limitat proporţional
 de curentul bazei, acesta poate fi folosit pe poste întrerupător
@@ -158,7 +158,7 @@ Sumar:
 -  Când curentul printr-un tranzistor este maxim, spunem că acesta este
    /saturat/
 
-* Verificarea tranzistorului cu ohmmetrul
+** Verificarea tranzistorului cu ohmmetrul
 
 Tranzistorii se comportă precum două diode puse spate-în-spate atunci
 când sunt verificaţi cu ajutorul multimetrului pe post de ohmmetru sau
@@ -177,7 +177,7 @@ folosi acea funcţie pentru aflarea tensiunii de polarizare directă a
 joncţiunii P-N. În cazul unui tranzistor NPN, indicaţia aparatului de
 măsură va fi exact invers.
 
-*** Determinarea tipului şi contactelor unui tranzistor bipolar nemarcat
+**** Determinarea tipului şi contactelor unui tranzistor bipolar nemarcat
 
 Dacă folosim funcţia „verificare diodă”, vom vedea că joncţiunea
 emitor-bază are o tensiune directă mai mare decât joncţiunea
@@ -243,7 +243,7 @@ lucru se întâmplă foarte des în practică. Singura modalitate prin care
 ne putem asigura de corectitudinea contactelor este prin verificarea cu
 ajutorului unui multimetru, sau cu ajutorul catalogului producătorului.
 
-*** Determinarea integrităţii unui tranzistor
+**** Determinarea integrităţii unui tranzistor
 
 Ştiind faptul că un tranzistor se comportă precum două diode aşezate
 spate-în-spate la testarea conductivităţii cu un aparat de măsură, dacă
@@ -252,7 +252,7 @@ mai puţine de două dintre cele şase combinaţii de contate, putem spune
 cu singuranţă că tranzistorul este defect, sau ca dispozitivul aflat sub
 inspecţie /nu/ este un tranzistor şi un cu totul alt dispozitiv!.
 
-*** Modul de funcţionare al tranzistorului
+**** Modul de funcţionare al tranzistorului
 
 Totuşi, modelul „celor două diode” nu poate explica funcţionarea
 tranzistorului ca şi dispozitiv de amplifcare a semnalului.
@@ -297,7 +297,7 @@ Sumar:
    mai puternic al emitorului. Acest lucru poate fi exploatat pentru
    identificarea tranzistorilor
 
-* Zona activă de funcţionare a tranzistorului
+** Zona activă de funcţionare a tranzistorului
 
 Când baza nu este polarizată, şi prin urmare nu există curent între
 emitor şi colector, spunem că tranzistorul este /blocat/. Invers, când
@@ -373,7 +373,7 @@ decisiv ce contribuie la valoarea curentului prin colector este curentul
 bazei, tensiunea bateriei (V_{1}) fiind irelevantă atâta timp cât se
 situează peste o anumită valoare minimă.
 
-** Curbele caracteristice
+*** Curbele caracteristice
 
 Această relaţie dintre curent şi tensiune este fundamental diferită faţă
 de relaţia curent-tensiune a rezistorului. În cazul rezistorului,
@@ -397,7 +397,7 @@ curentul de la emitor la colector (I_{colector}) şi curentul bazei
 20 µA la 40 până la 75 µA, vom avea o altă curbă caracteristică, şi
 practic, pot exista o infinitate de curbe între aceste valori.
 
-** Factorul beta (factorul de amplificare în curent)
+*** Factorul beta (factorul de amplificare în curent)
 
 Din moment ce tranzistorul se comportă precum un regulator de curent,
 limitând curentu colectorului printr-o proporţie fixă faţă de curentul
@@ -427,7 +427,7 @@ temperatura tranzistorului, frecvenţa semnalului amplificat, plus alte
 variabile. Deşi teoretic vom considera β ca fiind constant pentru
 oricare tranzistor, în realitate acest lucru nu este valabil!
 
-** Modelul diodă-potenţiometru al tranzistorului
+*** Modelul diodă-potenţiometru al tranzistorului
 
 Pentru a înţelege mai uşor modul de funcţionare al tranzistorului, putem
 considera următorul model teoretic:
@@ -442,7 +442,7 @@ dintre cele două componente, ceea ce duce la controlul curentului prin
 colector. Tranzistorul de sus este de tipul NPN. Tranzistorul de tipul
 PNP, va avea dioda bază-emitor inversată.
 
-** Modelul diodă-sursă-de-curent al tranzistorului
+*** Modelul diodă-sursă-de-curent al tranzistorului
 
 Un model mult mai precis însă, este cel din figura de mai jos:
 
@@ -473,7 +473,7 @@ Sumar:
 -  β variază pentru fiecare tranzistor în parte
 -  β variază pentru diferite condiţii de operare
 
-* Amplificator cu tranzistor în conexiune emitor comun
+** Amplificator cu tranzistor în conexiune emitor comun
 
 Să reluăm exemplu studiat în secţiunile precedente, unde tranzistorul a
 fost folosit pe post de întrerupător:
@@ -603,7 +603,7 @@ saturării, unde nu atinge de fapt niciodată valoarea zero. Un tranzistor
 saturat nu poate atinge niciodată o cădere de tensiune de exact 0 volţi
 între colector şi emitor datorită efectelor joncţiunii sale interne.
 
-** Amplificarea semnalelor alternative
+*** Amplificarea semnalelor alternative
 
 Adesea avem nevoie însă de un amplificator în curent alternativ. O
 aplicaţia practică este utilizarea acestui tip de amplicare în sistemele
@@ -774,7 +774,7 @@ aproximarea amplificării în tensiune:
 Diferenţa dintre amplificarea reală (2.94) şi cea ideală (3), se
 datorează imperfecţiunilor tranzistorilor în general.
 
-** Amplificator emitor comun cu tranzistor PNP
+*** Amplificator emitor comun cu tranzistor PNP
 
 Până acum am folosit doar tranzistori de tipul NPN, dar putem la fel de
 bine utiliza tranzistori NPN în /orice/ tip de configuraţie, atâta timp
@@ -809,7 +809,7 @@ Sumar:
    R_{intrare} reprezintă rezistorul conectat în serie cu baza
    tranzistorului
 
-* Amplificator cu tranzistor în conexiune colector comun
+** Amplificator cu tranzistor în conexiune colector comun
 
 Configuraţa amplificatorului colector comun arată asfel:
 
@@ -854,7 +854,7 @@ amplificatorul colector comun are un factor de amplificare în tensiune
 (A_{V}) extrem de apropiat de valoarea 1. Din această cauză, conexiunea
 colector comun mai este denumită şi /repetor pe emitor/.
 
-** Explicaţie
+*** Explicaţie
 
 Este relativ uşor de înţeles motivul pentru care căderea de tensiune pe
 sarcina amplificatorului în colector comun este aproximativ egală cu
@@ -879,7 +879,7 @@ pentru tensiune. Cu alte cuvinte, tensiunea sarcinii va fi tot timpul cu
 aproximativ 0.7 V mai mică decât tensiunea de intrare, atunci când
 tranzistorul se află în stare de conducţie.
 
-** Utilizarea unei surse de curent continuu
+*** Utilizarea unei surse de curent continuu
 
 Pentru amplficarea semnalelor de curent alternativ cu ajutorul
 configuraţiei colector comun, este nevoie de utilizarea unei surse de
@@ -907,7 +907,7 @@ colector comun; conectarea osciloscoapelor pentru vizualizarea formelor
 #+CAPTION: de undă
 [[/sites/default/files/electronica\_analogica/03111.png]]
 
-** Factorul de amplificare în curent
+*** Factorul de amplificare în curent
 
 Din moment ce această configuraţie nu oferă nicio amplificare în
 tensiune, singura amplificare realizată este în curent. Configuraţia
@@ -925,7 +925,7 @@ amplificare în curent (A_{I}) egală cu β plus 1:
 colector comun; calcularea factorului de amplificare în curent
 [[/sites/default/files/electronica\_analogica/13020.png]]
 
-** Amplificator colector comun cu tranzistor PNP
+*** Amplificator colector comun cu tranzistor PNP
 
 Şi în acest caz, se pot utiliza tranzistori de tip PNP pentru realizarea
 amplificatorului colector comun. Toate calculele sunt identice. Singura
@@ -936,7 +936,7 @@ curenţilor:
 conexiune colector comun;
 [[/sites/default/files/electronica\_analogica/03113.png]]
 
-** Stabilizarea tensiunii cu tranzistor în conexiune colector comun
+*** Stabilizarea tensiunii cu tranzistor în conexiune colector comun
 
 O aplicaţie populară a tranzistorului colector comun constă în
 stabilizarea surselor de putere în curent continuu. Una dintre soluţii
@@ -970,7 +970,7 @@ mai mică decât căderea de tensiune pe dioda zener. Acest lucru poate fi
 însă corectat prin utilizarea unei diode zener cu o tensiune zener mai
 mare cu 0.7 V decât tensiunea necesară pentru aplicaţia în cauză.
 
-** Tranzistor Darlington
+*** Tranzistor Darlington
 
 În unele aplicaţii, factorul de amplificare în curent al unui singur
 tranzistor în configuraţie colector comun nu este suficient. În acest
@@ -1020,7 +1020,7 @@ Sumar:
    amplificare în curent rezultat este produsul dintre factorii de
    amplificare a fiecărui tranzistor din configuraţie
 
-* Amplificator cu tranzistor în conexiune bază comună
+** Amplificator cu tranzistor în conexiune bază comună
 
 Această configuraţie este mai complexă decât celelalte două, emitor
 comun şi colector comun, şi este mai puţin folosită datorită
@@ -1055,7 +1055,7 @@ nevoie de un alt parametru de bază al tranzistorului: raportul dintre
 curentul colectorului şi curentul emitorului, raport ce este tot timpul
 mai mic decât 1, şi poartă numele de /factorul alfa/ (α).
 
-** Circuitul practic
+*** Circuitul practic
 
 Circuitul practic pe care îl vom studia, arată asfel:
 
@@ -1109,7 +1109,7 @@ Acelaşi lucru este valabil şi pentru un tranzistor PNP:
 #+CAPTION: de undă ale tensiunilor; tranzistor tip PNP
 [[../poze/03119.png]]
 
-** Calcularea factorului de amplificare în tensiune
+*** Calcularea factorului de amplificare în tensiune
 
 Calcularea factorului de amplificare în tensiune pentru configuraţie
 bază comună este destul de dificilă şi presupune aproximări ale
@@ -1143,13 +1143,13 @@ Sumar:
    tranzistor, poartă numele de factor alfa (α). Pentru orice
    tranzistor, factorul alfa este subunitar (mai mic decât 1)
 
-* Amplificatoare clasa A, B, AB, C şi D
+** Amplificatoare clasa A, B, AB, C şi D
 
 După modul de reproducere la ieşire a formei de undă de la intrare,
 amplificatoarele pot fi împărţite pe /clase/. Aceaste clase sunt
 desemnate cu literele A, B, AB, C şi D.
 
-** Amplificator clasa A
+*** Amplificator clasa A
 
 În cazul amplificatoarelor de clasă A, întreg semnalul de intrare este
 reprodus la ieşire. Acest mod de operare al tranzistorului poate fi
@@ -1164,7 +1164,7 @@ superioară şi cea inferioară a nivelului de semnal al amplificatorului.
 #+CAPTION: amplificator clasa A
 [[../poze/03124.png]]
 
-** Amplificator clasa B. Configuraţia contratimp
+*** Amplificator clasa B. Configuraţia contratimp
 
 Amplificatorul de clasă B este ceea ce am obţinut în cazul
 amplificatorului emitor comun, cu semnal de intrare în curent alternativ
@@ -1201,12 +1201,12 @@ celălalt tranzistor se află în conducţie. Amplificatoarele de clasă A
 sunt mai simplu de construit, dar sunt limitate doar la aplicaţiie de
 putere joasă datorită căldurii generate.
 
-** Amplificator clasa AB
+*** Amplificator clasa AB
 
 Amplificatoarele de clasă AB sunt undeva între clasa A şi clasa B;
 tranzistorul conduce mai mult de 50% din timp, dar mai puţin de 100%.
 
-** Amplificator clasa C
+*** Amplificator clasa C
 
 Dacă semnalul de intrare al amplificatorului este uşor negativ (sursa de
 tensiune în curent alternativ inversată), semnalul de ieşire va fi tăiat
@@ -1230,7 +1230,7 @@ două configuraţii văzute mai sus. Datorită dependenţei de circuitul
 rezonante de la ieşire, acest amplificator poate fi folosit doar pentru
 semnale de o anumită frecvenţă fixă.
 
-** Amplificator clasa D
+*** Amplificator clasa D
 
 Acest tip de amplificator este total diferit fată de amplificatoarele de
 clasă A, B, AB sau C. Acesta nu este obţinut prin apliocarea unei
@@ -1289,7 +1289,7 @@ Sumar:
    de amplificator este mare datorită puterii dispiate sub formă de
    căldură foarte scăzută
 
-* Punctul static de funcţionare al tranzistorului
+** Punctul static de funcţionare al tranzistorului
 
 O stare de /repaus/ se caracterizează prin faptul că semnalul de intrare
 al circuitului este zero. /Curentul de repaus/, de exemplu, este
@@ -1399,7 +1399,7 @@ Sumar:
    află la jumătatea distanţei dintre punctul de blocare şi zona de
    saturaţie a dreptei de sarcină
 
-* Metode de polarizare ale tranzistorului
+** Metode de polarizare ale tranzistorului
 
 Până în acest moment, am folosit o sursă de tensiune de curent continuu
 (baterie) conectată în serie cu semnalul de intrare în curent alternativ
@@ -1561,11 +1561,11 @@ Sumar:
    conectate în serie cu sursa de semnal de curent alternativ de la
    intrare
 
-* Cuplajul de intrare şi cuplajul de ieşire
+** Cuplajul de intrare şi cuplajul de ieşire
 
-** Cuplaj de intrare
+*** Cuplaj de intrare
 
-*** Cuplaj capacitiv
+**** Cuplaj capacitiv
 
 Pentru a rezolva problemele de polarizare în curent continuu ale
 amplificatorului, fără utilizarea unei baterii conectată în serie cu
@@ -1596,7 +1596,7 @@ conectat la intrarea unui amplifcator folosind un condensator de cuplaj
 #+CAPTION: la intrare, este puternic distorsionat la ieşire
 [[../poze/03136.png]]
 
-*** Cuplaj direct
+**** Cuplaj direct
 
 În situaţiile în care problemele ridicate de cuplajul capacitiv nu pot
 fi tolerate, se poate folosi un /cuplaj direct/. Cuplajul direct
@@ -1629,7 +1629,7 @@ situaţii însă, /nu/ este permisă atenuarea semnalului de intrare sub
 ncio formă , pentru obţinerea unei amplificării în tensiunea cât mai
 bune; în acest caz, un cuplaj direct nu este o soluţie foarte bună.
 
-** Cuplaj de ieşire
+*** Cuplaj de ieşire
 
 În circuitul din exemplu, sarcina este reprezentată de un difuzor.
 Majoritatea difuzoarelor sunt electromagnetice: acestea folosesc forţa
@@ -1653,7 +1653,7 @@ serie cu tranzistorul, iar tranzistorul nu poate conduce curent decât
 într-o singură direcţie. Acest lucru nu este acceptabil pentru niciun
 amplificator audio.
 
-*** Transformator de cuplaj
+**** Transformator de cuplaj
 
 Prin urmare, trebuie să izolăm difuzorul faţă de componenta de curent
 continuu a curentului de colector, asfel încât acesta să primească doar
@@ -1681,7 +1681,7 @@ duce la magnetizarea miezului doar într-o singură polaritate, ceea ce
 înseamnă ca transformatorul se va satura mult mai uşor într-una dintr-e
 polarităţile semnalului de curent alternativ decât în cealaltă.
 
-*** Cuplaj capacitiv
+**** Cuplaj capacitiv
 
 O altă metodă de izolare a componentei de curent continuu din semnalul
 de ieşire, este utilizarea unui condensator de cuplaj pe ieşire, într-o
@@ -1699,7 +1699,7 @@ difuzor, dar tensiunea de curent continuu va fi blocată de către filtru.
 Din nou, valoarea acestui condensator de cuplaj este aleasă asfel încât
 impedanţa la frecvenţa semnalului să fie cât mai mică.
 
-** Conectarea etajelor
+*** Conectarea etajelor
 
 Blocarea tensiunii de c.c. de la ieşirea unui amplificator, fie prin
 utilizarea unui transformator sau a unui condensator, este folositoare
@@ -1740,7 +1740,7 @@ Trebuie menţionat că /este/ posibilă cuplarea directă a
 amplificatoarelor. În cazurile în care circuitul trebuie să amplifice şi
 semnale de c.c., aceasta este singura alternativă.
 
-* Amplificatoare cu reacţie
+** Amplificatoare cu reacţie
 
 Dacă un anumit procent din semnalul de ieşire al amplifiatorului este
 conectat la intrarea acestuia, asfel încât amplificatorul amplifică o
@@ -1749,7 +1749,7 @@ parte din propriul său semnal de ieşire, rezultatul va fi un
 amplitudinii semnalului de intrare, iar o /reacţie negativă/ duce la
 scăderea semnalului de intrare.
 
-** Amplificator cu reacţie negativă
+*** Amplificator cu reacţie negativă
 
 Un amplificator echipat cu reacţie negativa este mai stabil,
 distorsionează mai puţin semnalul de intrare şi, în general, este
@@ -1777,7 +1777,7 @@ ale tensiunilor de intrare şi ieşire:
 #+CAPTION: de undă de la intrare şi ieşire
 [[../poze/03312.png]]
 
-*** Reacţia negativă între colector şi bază
+**** Reacţia negativă între colector şi bază
 
 Datorită faptului că semnalul de ieşire este inversat (defazat cu
 180^{o} (antifază)), orice conxiune între ieşirea (colector) şi intrarea
@@ -1795,7 +1795,7 @@ redusă la intrarea amplificatorului. Asfel, amplificatorul de mai sus,
 va avea un factoru de amplificare mai redus, dar o liniaritate
 îmbunătăţiă (reducerea distorsiunilor) şi o bandă de frecvenţe mărită.
 
-*** Reacţia negativă între emitor şi împământarea circuitului
+**** Reacţia negativă între emitor şi împământarea circuitului
 
 Aceasta nu este însă singura modalitate de introducere a reacţiei
 negative într-un amplificator emitor comun. O altă metodă, deşi mai greu
@@ -1856,7 +1856,7 @@ Ca urmare, tensiunea de intrare exercită un control mai redus asupra
 tranzistorului faţă de cazurile precedente, iar amplificarea în tensiune
 este şi ea redusă ca urmare a introducerii rezistorului de reacţie.
 
-** Deriva termică
+*** Deriva termică
 
 În circuitele emitor comun practice, reacţia negativă nu este doar un
 lux, ci o necesitate pentru funcţionarea stabilă a circuitului. Într-o
@@ -1896,7 +1896,7 @@ rezultând o cădere de tensiune mai mare pe sarcină, cădere de tensiune
 ce se /scade/ din tensiunea de intrare (V_{intrare}); acest lucru duce
 la descreşterea căderii de tensiune între bază şi emitor.
 
-** Dependenţa amplificării în tensiunea de factorul beta este redusă cu
+*** Dependenţa amplificării în tensiunea de factorul beta este redusă cu
 ajutorul reacţiei negative
 
 Prin adăugarea unui rezistor de reacţie între emitor şi împământare în
@@ -1925,7 +1925,7 @@ asemenea măsură precum fără reacţie; circuitul va fi în acest caz mult
 mai previzibil, în ciuda variaţiilor factorului β al tranzistorilor
 folosiţi.
 
-** Condensatorul de decuplare
+*** Condensatorul de decuplare
 
 Faptul că trebuie să introducem o reacţie negativă într-un amplificator
 emitor comun pentru evitarea derivei termice nu este o soluţie
@@ -1972,7 +1972,7 @@ fie cât mai mare. Deoarece polaritatea acestui condensator nu se va
 modifica niciodată, putem folosi un condensator polarizat (electrolitic)
 în această situaţie.
 
-** Folosirea amplificatoarelor etajate pentru reducerea pierderilor de
+*** Folosirea amplificatoarelor etajate pentru reducerea pierderilor de
 amplificare în tensiune
 
 O altă abordare a problemei reducerii amplificării în tensiune datorită

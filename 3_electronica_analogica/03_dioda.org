@@ -1,4 +1,4 @@
-* Principiul de funcţionare
+** Principiul de funcţionare
 
 /Dioda/ este un dispozitiv electric ce permite trecerea curentului doar
 într-o singură direcţie. Cea mai folosită diodă în circuitele electrice
@@ -163,7 +163,7 @@ Sumar:
    diodă fără apariţia fenomenului de „străpungere” ce duce inevitabil
    la distrugerea acesteia, se numeşte /tensiune de străpungere/, V_{s}
 
-* Verificarea diodei cu ajutorul ohmmetrului
+** Verificarea diodei cu ajutorul ohmmetrului
 
 Din moment ce o diodă nu este nimic altceva decât o valvă
 uni-direcţională de curent, putem verifica acest lucru folosind un
@@ -242,7 +242,7 @@ Sumar:
    diode, datorită curentului foarte mic generat de aparat prin diodă în
    timpul măsurătorii
 
-* Parametrii diodei
+** Parametrii diodei
 
 Pe lângă tensiunea de polarizare directă (V_{f}) şi tensiunea de
 străpungere (V_{s}), mai există mulţi alţi parametrii importanţi ai
@@ -344,7 +344,7 @@ de operare, prin urmare, o singură valoarea nu poate descrie complet
 niciun parametru. Prin urmare, producătorii pun la dispoziţie grafice
 ale variaţiilor parametrilor cu temperatura (sau alte variabile).
 
-* Circuite redresoare
+** Circuite redresoare
 
 Cea mai populară aplicaţia e diodelor este /redresarea/. Pe scurt,
 redresarea reprezintă transformarea curentului alternativ în curent
@@ -352,7 +352,7 @@ continuu. Acest lucru implică folosirea unui dispozitiv ce permite
 trecerea electronilor doar într-o singură direcţie, iar dioda realizează
 tocmai acest lucru.
 
-*** Redresorul monoalternanţă
+**** Redresorul monoalternanţă
 
 Cel mai simplu circuit de redresare îl reprezintă redresorul
 monoalternanţă. Acesta permite doar trecerea unei jumătăti a formei de
@@ -386,7 +386,7 @@ filamentului, lampa nu „clipeşte”, ci, filamentul ei pur şi simplu
 operează la o temperatură mai mică decât temperatura normală de
 funcţionare.
 
-*** Redresor dublă alternanţă cu punct median
+**** Redresor dublă alternanţă cu punct median
 
 Pentru redresarea şi folosirea ambelor alternanţe a undelor sinusoidale,
 avem nevoie de o altă configuraţie a circuitului redresor, şi anume, un
@@ -438,7 +438,7 @@ acelaşi ca şi la redresorul în punte.
 #+CAPTION: redresor dublă alternanţă cu punct median cu polaritate dublă
 [[../poze/03444.png]]
 
-*** Redresor dublă alternanţă în punte
+**** Redresor dublă alternanţă în punte
 
 Probabil că cel mai popular redresor este cel dublă alternanţă în punte.
 Aceste utilizează patru diode conectate în punte:
@@ -490,7 +490,7 @@ versiuni trifazate a redresorului:
 #+CAPTION: redresor cu 6 faze dublă alternanţă în punte;
 [[../poze/03268.png]]
 
-*** Forma de undă a tensiunii redresate
+**** Forma de undă a tensiunii redresate
 
 În cazul redresării unui circuit de curent alternativ polifazat,
 suprapunerea pulsurilor defazate produc o tensiune de curent continuu
@@ -566,7 +566,7 @@ Sumar:
    formă de undă de curent continuu mult mai „netedă” (tensiune de riplu
    mult mai scăzută) decât redresarea tensiunii monofazate
 
-* Dioda Zener
+** Dioda Zener
 
 La conectarea unei diode în serie cu un rezistor într-un circuit de
 curent continuu, asfel încât dioda să fie polarizată direct, căderea de
@@ -674,7 +674,7 @@ diodei zener, datorită căldurii excesive, distrugerea rezultată duce la
 un conductor electric: căderea de tensiune este aproape zero atât la
 polarizarea directă cât şi la polarizarea inversă.
 
-*** Exemplu practic de utilizare a diodei zener
+**** Exemplu practic de utilizare a diodei zener
 
 Considerând circuitul precedent, vom rezolva matematic circuitul,
 determinând toate tensiunile, curenţii şi puterile disipate, pentru o
@@ -814,7 +814,7 @@ trebuie să fie mai mare. Dacă vrem să stabilizăm tensiunea pentru o
 sarcină mică (rezistenţă mică), circuitul trebuie asfel conceput încât
 să suporte puteri mari de disipaţie.
 
-*** Circuit limitator cu diode zener
+**** Circuit limitator cu diode zener
 
 Un circuit limitator ce „taie” vârfurile formei de undă aproximativ la
 tensiunea zener a diodelor, este prezentat în figura de mai jos.

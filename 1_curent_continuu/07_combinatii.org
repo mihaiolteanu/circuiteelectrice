@@ -1,4 +1,4 @@
-* Ce este un circuit serie-paralel
+** Ce este un circuit serie-paralel
 
 În cazul circuitelor serie simple, toate componentele sunt legate cap la
 cap şi formează o singură cale pentru curgerea electronilor prin
@@ -67,7 +67,7 @@ Sumar:
    selectiv atunci când avea de a face cu un circuit combinat
    serie-paralel
 
-* Tehnici de analiză a circuitelor
+** Tehnici de analiză a circuitelor
 
 Scopul analizei circuitului serie-paralel este determinarea tuturor
 căderilor de tensiune, curenţilor şi puterilor disipate în circuit.

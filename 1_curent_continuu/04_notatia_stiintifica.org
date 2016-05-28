@@ -1,6 +1,6 @@
-* Notaţia ştiinţifică
+** Notaţia ştiinţifică
 
-** Scop
+*** Scop
 
 În multe discipline ştiinţifice şi inginereşti, trebuie să lucrăm adesea
 cu valori foarte mari sau foarte mici. Unele dintre aceste cantităţi
@@ -19,7 +19,7 @@ fiecare secundă, sub influenţa unui curent de 1 Amper:
 de incomod să lucrăm cu atât de multe cifre, chiar şi cu ajutorul
 calculatoarelor.
 
-** Cifre semnificative
+*** Cifre semnificative
 
 În cazul celor două numere de mai sus, putem observa că există relativ
 puţine cifre diferite de zero în componenţa acestora. În cazul masei
@@ -46,7 +46,7 @@ decimal. În acest caz, un asemenea număr poate fi scris printr-o
 prescurtarea matematică pentru a fi mai uşor de citit. Prescurtarea
 poartă denumirea de *notaţia ştiinţifică*.
 
-*** Numere mari folosind notaţia ştiinţifică
+**** Numere mari folosind notaţia ştiinţifică
 
 Folosind notaţia ştiinţifică, un număr poate fi scris prin intermediul
 cifrelor semnificative ca şi o valoare între 1 şi 10 (sau -1 şi -10
@@ -63,7 +63,7 @@ Avantajele notaţiei ştiinţifice sunt evidente: numărul nu mai este atât
 de „imposibil” de scris iar cifrele semnificative sunt foare uşor de
 identificat.
 
-*** Numere mici folosind notaţia ştiinţifică
+**** Numere mici folosind notaţia ştiinţifică
 
 Ce putem face însă în cazul numerelor foarte mici, precum masa
 protonului în grame? Putem folosi şi în acest caz notaţia ştiinţifică,
@@ -92,9 +92,9 @@ următoarea:
 
 greutatea = 3,005 x 10^{3} kg
 
-* Aritmetica notaţiei ştiinţifice
+** Aritmetica notaţiei ştiinţifice
 
-** Înmulţirea numerelor sub forma notaţiei ştiinţifice
+*** Înmulţirea numerelor sub forma notaţiei ştiinţifice
 
 Beneficiile notaţiei ştiinţifice nu se opresc doar la uşurinţa scrierii
 numerelor. O asemenea notaţie este uşor de folosit în cazul înmulţirii
@@ -148,7 +148,7 @@ Ceea ce înseamnă:
 
 22,5 x 10^{21} electroni sau 2,25 x 10^{22} electroni
 
-** Împărţirea numerelor sub forma notaţiei ştiinţifice
+*** Împărţirea numerelor sub forma notaţiei ştiinţifice
 
 Pentru ilustrarea operaţiei de împărţire cu numere sub forma notaţiei
 ştiinţifice, putem să luăm exemplul de mai sus invers, şi anume, să
@@ -166,7 +166,7 @@ secunde deoarece, 10^{a} / 10^{b} = 10^{a - b}
 Putem vedea că am ajuns la aceeiaşi valoarea, 3600 secunde (3,6 x
 10^{3}).
 
-* Notaţia metrică
+** Notaţia metrică
 
 [[http://ro.wikipedia.org/wiki/Sistemul_interna%C5%A3ional_de_unit%C4%83%C5%A3i][Sistemul
 metric]], pe lângă faptul că reprezintă o colecţie de unităţi de măsură
@@ -195,7 +195,7 @@ o greutate de 0,000267 grame, cele două notaţii arată astfel:
 2,67 x 10^{-4} g (notaţia ştiinţifică) 267 µg (notaţia metrică) sau
 0,267 mg (notaţia metrică)
 
-** Conversia prefixelor metrice
+*** Conversia prefixelor metrice
 
 Pentru a exprima o cantiate printr-un prefix metric diferit faţă de cel
 iniţial, trebuie doar să mutăm virgula decimală spre stânga sau spre

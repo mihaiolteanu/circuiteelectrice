@@ -1,4 +1,4 @@
-* Siguranţa în domeniul electric
+** Siguranţa în domeniul electric
 
 Pe măsură ce curentul electric „curge” printr-un material, orice
 opoziţie în calea deplasării electronilor (rezistenţă) are ca rezultat
@@ -71,7 +71,7 @@ asfixiere sau stop cardiac. În mod ironic, personalul medical foloseşte
 un şoc electric aplicat deasupra pieptului victimei pentru a „porni”
 inima aflată în fibrilaţie.
 
-*** Efectele curentului alternativ faţă de cele ale curentului continuu
+**** Efectele curentului alternativ faţă de cele ale curentului continuu
 
 Modul în care curentul alternativ afectează corpul viu depinde în mare
 măsura de frecvenţă. Frecvenţele joase (50 şi 60 Hz, folosita în Europa,
@@ -112,7 +112,7 @@ Sumar:
    măsură încât inima să nu mai funcţioneze corect ducând la o conduţie
    cunoscută sub numele de fibrilaţie
 
-* Drumul curentului în cazul electrocutării
+** Drumul curentului în cazul electrocutării
 
 După cum am văzut deja, deplasarea continuă a electronilor necesită
 prezenţa unui circuit închis. Acesta este motivul pentru care şocul
@@ -177,7 +177,7 @@ Câteva întrebări sunt binevenite:
    electrocutaţi datorită curgerii curentului prin pământ, de ce să nu
    folosim pământul ca şi conductor în circuitele noastre de putere?
 
-*** Motivul legării la pământ a circuitelor (împământarea)
+**** Motivul legării la pământ a circuitelor (împământarea)
 
 Cât priveşte prima întrebare, prezenţa unui punct de împământare
 „intenţional” asigură faptul că cel puţin contactul cu o parte din
@@ -265,7 +265,7 @@ putem asigura siguranţa atingerii cel puţin în acel punct. Deşi nu
 reprezintă o măsură de siguranţă 100%, tot este mai mare decât lipsa
 completă a împământării.
 
-*** Protecţia la electrocutare prin purtarea încălţămintei adecvate
+**** Protecţia la electrocutare prin purtarea încălţămintei adecvate
 
 Pentru a răspunde celei de a doua întrebări, încălţămintea cu talpă de
 cauciuc /asigură/ întradevăr o anumită protecţie la electrocutare prin
@@ -297,7 +297,7 @@ Din cele de mai sus reiese că faţă de piele, cauciucul este un material
 izolator mult mai bun, iar prezenţa apei într-un material poros precum
 pielea, reduce /semnificativ/ rezitenţa electrică a acestuia.
 
-*** Pământul nu este un foarte bun conductor
+**** Pământul nu este un foarte bun conductor
 
 Ca să răspundem şi la a treia întrebare, pământul nu este un conductor
 foarte bun, cel puţin nu atunci când este uscat. Acesta este un
@@ -337,7 +337,7 @@ Sumar:
    curentul pe care îl poate conduce este suficient pentru accidentarea
    gravă sau chiar decesul persoane în cauză
 
-* Legea lui Ohm (din nou!)
+** Legea lui Ohm (din nou!)
 
 În cadrul teoriei siguranţei electrice este rostită adeseori fraza: /Nu
 tensiunea omoară, ci curentul!/ Deşi există o urmă de adevăr în această
@@ -390,7 +390,7 @@ indicată de un multimetru va fi de aproximativ un milion de ohmi (1 MΩ)
 rezistenţă mai mică dacă strângem puternic sondele în mână decât atunci
 când le ţinem uşor.
 
-*** Valoarea curentului peste care acesta devine periculos
+**** Valoarea curentului peste care acesta devine periculos
 
 Care este valoarea pentru care curentul este periculos? Răspunsul la
 această întrebare depinde şi el de câţiva factori. Fiecare corp este
@@ -437,7 +437,7 @@ S-a sugerat că o valoarea a curentului de doar 17 mA (0.017 A!) este
 suficientă în anumite condiţii pentru inducerea fibrilaţiei inimii
 atunci când este aplicată de-a lungul pieptului.
 
-*** Scenarii
+**** Scenarii
 
 Să presupunem de exemplu că am prinde în ambele mâini terminalele unei
 surse de tensiune alternativă la o frecvenţă de 60 Hz. Care este
@@ -564,7 +564,7 @@ individual.
 siguranţă; tot ce depăşeşte această valoare reprezintă un potenţial
 pericol de electrocutare.
 
-*** Folosiţi o singură mână când lucraţi cu circuitele electrice
+**** Folosiţi o singură mână când lucraţi cu circuitele electrice
 
 Drumul urmat de curent prin corpul uman este foarte important atunci
 când vorbim de efectele sale asupra organismului. Curentul afectează
@@ -590,7 +590,7 @@ pericolul este mai mare în eventualitatea unui şoc electric, şansele
 apariţiei acestuia sunt mai mici datorită coordonării crescute faţă de
 mâna dreapta a acestora.
 
-*** Folosiţi echipamente şi instrumente de lucru izolate electric
+**** Folosiţi echipamente şi instrumente de lucru izolate electric
 
 Cea mai bună protecţie împotriva electrocutării este rezistenţa
 electrică, iar aceasta poate fi adăugată rezistenţei corpului prin
@@ -624,7 +624,7 @@ prin mănuşi pentru a închide circuitul spre baterie, suma tuturor
 acestor rezistenţe se opune trecerii curentului într-o măsură mai mare
 decât oricare rezistenţă luată în parte.
 
-*** Siguranţa liniilor de înaltă tensiune
+**** Siguranţa liniilor de înaltă tensiune
 
 Siguranţa este unul din motivele pentru care conductoarele electrice
 sunt de obicei acoperite cu izolaţie de plastic sau cauciuc: pentru a
@@ -659,7 +659,7 @@ Sumar:
    alimentat, este indicat să lucrăm doar cu o singură mână pentru a
    preveni închiderea circuitului prin piept
 
-* Practici de bază
+** Practici de bază
 
 Dacă este posibil, închideţi întotdeauna alimentarea reţelei electrice
 înainte de atingerea oricăror elemente de circuit. Trebuie de asemenea
@@ -668,7 +668,7 @@ considerat sigur. Asigurarea faptului că în circuit nu se află energie
 periculoasă (starea de energie zero) se face prin înlăturarea energiei
 potenţiale sau stocate din circuit.
 
-*** Asigurarea circuitelor cu ajurotul întrerupătoarelor
+**** Asigurarea circuitelor cu ajurotul întrerupătoarelor
 
 Toate circuitele ar trebui să aibă mecanisme de „deconectare” pentru
 asigurarea tensiunii din circuit. În unele cazuri, aceste dispozitive
@@ -730,7 +730,7 @@ circuit. O modalitate este să acţionăm (închidem) întrerupătorul
 motorului/becului/ sau oricărui alt element din circuit la care lucrăm.
 Dacă acesta porneşte, înseamnă că încă mai există energie în circuit.
 
-*** Folosirea aparatului de măsură pentru asigurarea electrică a
+**** Folosirea aparatului de măsură pentru asigurarea electrică a
 circuitului
 
 În afară de asta, va trebui întotdeauna să ne asigurăm de prezenţă
@@ -758,7 +758,7 @@ vă puteţi asigura că nu sunteţi păcăliţi de un aparat de măsură stricat
 Eventual, folosiţi un al doilea aparat de măsură în cazul în care nu
 sunteţi absolut sigur de indicaţia primului aparat.
 
-*** Atingerea circuitului după luarea tuturor măsurilor de siguranţă
+**** Atingerea circuitului după luarea tuturor măsurilor de siguranţă
 
 Într-un final, după ce toate măsurile de siguranţă au fost luate,
 atingerea directă a elementelor şi conductorilor din circuit este
@@ -797,7 +797,7 @@ Sumar:
    apariţiei şocului electric, reacţia muşchilor va îndepărta mână de
    pericolul existent
 
-* Reacţia în cazuri de urgenţă
+** Reacţia în cazuri de urgenţă
 
 În ciuda tuturor măsurilor de siguranţă luate, din când în când au loc
 şi accidente neplăcute. În majoritatea cazurilor acestea sunt urmarea
@@ -869,7 +869,7 @@ Sumar:
    după câteva ore de la accident. Pericolul şocului electric nu ia
    sfârşit după acordarea imediată a asistenţei medicale
 
-* Surse potenţiale de pericol
+** Surse potenţiale de pericol
 
 Cu siguranţă că există un adevărat pericol de electrocutare atunci când
 lucrăm într-un circuit electric. Totuşi, posibilitatea apariţiei
@@ -989,7 +989,7 @@ Sumar:
    acest fel nu va exista o diferenţa de potenţial asupra corpului
    victimei şi nici posibilitatea apariţiei unui curent periculos
 
-* Proiectarea aparatelor electrice
+** Proiectarea aparatelor electrice
 
 Odată cu realizarea împământării circuitului, cel puţin un punct din
 circuit este comun cu pământul şi prin urmare nu prezintă niciun risc de
@@ -1108,7 +1108,7 @@ aparatului şi pământ, existând asfel un real pericol de electrocutare
 pentru persoanele ce vin în contact direct cu carcasa aparatului în
 cazul apariţiei defectelor.
 
-*** Detectarea diferenţei de curent între fază şi neutru
+**** Detectarea diferenţei de curent între fază şi neutru
 
 Asigurarea împotriva electrocutării se poate realiza şi în altă parte,
 nu doar asupra aparatului electric, asfel:
@@ -1168,7 +1168,7 @@ Sumar:
    circuitul se deschide automat pentru a preveni pericolul apariţiei
    electrocutării
 
-* Utilizarea aparatelor de măsură
+** Utilizarea aparatelor de măsură
 
 Utilizarea corectă şi în condiţii de siguranţă a unui aparat de măsură
 este o deprindere extrem de importantă pentru orice electrician sau
@@ -1220,9 +1220,9 @@ cea marcată cu „COM” (comun). Sonda roşie va fi introdusă fie în priza
 marcată pentru tensiune şi rezistenţă (V Ω) sau în cea pentru curent
 (A), în funcţie de ce variabilă dorim să măsurăm.
 
-** Utilizarea multimetrului - exemple
+*** Utilizarea multimetrului - exemple
 
-*** Măsurarea unei tensiuni de curent continuu
+**** Măsurarea unei tensiuni de curent continuu
 
 #+CAPTION: multimetru digital; măsurarea tensiunii de curent continuu a
 #+CAPTION: unei baterii
@@ -1233,7 +1233,7 @@ unei baterii. Observaţi prizele la care sunt conectate cele două sonde
 ale multimetrului (V Ω şi COM) şi faptul că selectorul este setat pe „V”
 în curent continuu.
 
-*** Măsurarea unei tensiuni de curent alternativ
+**** Măsurarea unei tensiuni de curent alternativ
 
 #+CAPTION: multimetru digital; măsurarea tensiunii de curent alternativ
 #+CAPTION: la priză
@@ -1243,7 +1243,7 @@ Singura diferenţa constă în schimbarea poziţiei selectorului pe poziţie
 „V” în curent alternativ. Din moment ce efectuăm tot o măsurătoare de
 tensiune, sondele multimetrului vor rămâne conectate în aceleaşi prize.
 
-*** Surse de pericol
+**** Surse de pericol
 
 În ambele cazuri de mai sus, este extrem de important să nu atingem
 vârfurile celor două sonde între ele, atunci când acestea se află în
@@ -1292,7 +1292,7 @@ asigurarea unui circuit împotriva electrocutării, fiţi siguri că aţi
 efectuat măsurătorile atât în c.c. cât şi în c.a., chiar daca nu v-aţi
 aştepta să le găsiţi pe amandouă!
 
-*** Numărul măsurătorilor necesare
+**** Numărul măsurătorilor necesare
 
 Atunci când verificăm prezenţa unor posibile tensiuni periculoase,
 trebuie să luăm în calcul toate punctele din scenariul respectiv.
@@ -1332,7 +1332,7 @@ simplu. Desigur, după ce toate măsurătorile au fost încheiate, trebuie
 să re-testăm funcţionarea corectă a multimetrului, prin măsurarea unei
 căderi de tensiune cunoscute (priza, de exemplu).
 
-*** Măsurarea rezistenţelor
+**** Măsurarea rezistenţelor
 
 În cazul măsurării rezistenţelor, sondele vor rămâne conectate în
 aceleaşi prize ale multimetrului ca şi în cazul măsurătorilor de
@@ -1353,7 +1353,7 @@ din aparatul de măsură şi componentul în cauză, măsurătorile realizate
 vor fi greşite. În cel mai rău caz, prezenţa unei surse adiţionale de
 tensiune în circuit, poate duce la defectarea aparatului de măsură.
 
-*** Continuitatea firelor
+**** Continuitatea firelor
 
 Modul „rezistenţă” a unui multimetru este foarte folositor şi pentru
 determinarea continuitătii conductorilor. Atunci când exista o un
@@ -1373,7 +1373,7 @@ deschis).
 #+CAPTION: multimetru digital; circuit deschis (O.L.)
 [[../poze/noi/00347.png]]
 
-*** Măsurarea curentului cu ajutorul multimetrului
+**** Măsurarea curentului cu ajutorul multimetrului
 
 Aceasta reprezintă cea mai complexă şi periculoasă aplicaţie a
 multimetrului. Motivul este destul de simplu: curentul de măsurat
@@ -1408,7 +1408,7 @@ Deşi acest circuit, cu o sursă de 9 V, este sigur din punct de vedere al
 electrocutărilor, în circuitele de putere această metodă reprezintă o
 adevărată sursă de pericol.
 
-*** Selectarea curentului sau a tensiunii
+**** Selectarea curentului sau a tensiunii
 
 La modificarea poziţiei multimetrului din modul „curent” (ampermetru) în
 modul „tensiune” (voltmetru), se întâmplă adesea să schimbăm poziţia de
@@ -1428,7 +1428,7 @@ Pentru a preveni acest lucru, majoritatea multimetrlor produc un
 avertisment sonor în cazul în care sonda este introdusă în priza „A” iar
 selectorul este poziţionat pe „V”.
 
-*** Verificarea siguranţei fuzibile interne
+**** Verificarea siguranţei fuzibile interne
 
 Toate multimetrele de calitate sunt echipate cu siguranţe fuzibile în
 interior, siguranţe ce se ard la trecerea unui curent excesiv prin ele,

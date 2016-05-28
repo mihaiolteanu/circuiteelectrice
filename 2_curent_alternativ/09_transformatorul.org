@@ -1,4 +1,4 @@
-* Inductanţa mutuală şi modul de funcţionare
+** Inductanţa mutuală şi modul de funcţionare
 
 Să presupunem că avem un miez feromagnetic închis (formă
 dreptunghiulară) şi înfăşurăm un conductor metalic izolat alimentat în
@@ -87,7 +87,7 @@ tensiune în opoziţie de fază cu tensiunea aplicată. Datorită funcţiei
 sale de producere a tensiunii magnetomotoare pentru miezul feromagnetic,
 acest curent este câteodată numit şi /curent de magnetizare/.
 
-*** Saturaţie miezului feromagnetic
+**** Saturaţie miezului feromagnetic
 
 Trebuie menţionat faptul că acest curent prin înfăşurare nu este perfect
 sinusoidal, iar acest lucru se datorează neliniarităţii curbei de
@@ -125,7 +125,7 @@ duce la costuri ridicate şi un volum mare. Pentru a simplifica lucrurile
 saturaţiei şi fără pierderi, ceea ce duce la un curent de excitaţie
 perfect sinusoidal.
 
-*** Inducerea tensiunii într-o înfăşurare secundară
+**** Inducerea tensiunii într-o înfăşurare secundară
 
 După cum am văzut în capitolul dedicat bobinelor, defazajul curentul
 faţă de tensiune cu 90^{o} crează o condiţie în care puterea este
@@ -258,7 +258,7 @@ laminate (secţ. urm.!).
 #+CAPTION: transformator electric; secţiune
 [[../poze/52012.jpg]]
 
-*** Exemplu
+**** Exemplu
 
 Putem explica funcţionarea unui transformator simplu prin intermediul
 unui circuit electric. Vom considera /coeficientul de cuplaj magnetic/
@@ -408,7 +408,7 @@ Sumar:
    echivalent în înfăşurarea primară, curent generat de sursă, ca şi
    când sursa ar fi conectată direct la sarcină
 
-* Transformatorul ridicător şi coborâtor de tensiune
+** Transformatorul ridicător şi coborâtor de tensiune
 
 Până în acest moment, am luat în considerare doar cazul în care cele
 două înfăşurări ale transformatorului aveau inductanţe identice, ducând
@@ -522,7 +522,7 @@ Sumar:
    înfăşurarea secundară este mai mic decât numărul celor din primar),
    poartă numele de transformator coborâtor de tensiune
 
-* Tipuri de înfăşurări
+** Tipuri de înfăşurări
 
 Nu este neapărat necesar ca transformatoarele să fie realizate din doar
 două seturi de înfăşurări. Să considerăm următorul circuit:
@@ -577,7 +577,7 @@ transformatoare nu sunt proiectate pentru a opera sub curenţi sa
 sarcină, prin urmare, „reglarea” lor se realizează doar atunci când
 transformatorul nu este alimentat.
 
-*** Autotransformatorul
+**** Autotransformatorul
 
 Dacă neglijăm în totalitate separarea electrică dintre înfăşurări, putem
 construi un transformator folosind doar o singură înfăşurare;

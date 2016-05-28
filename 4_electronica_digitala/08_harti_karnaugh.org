@@ -1,4 +1,4 @@
-* De ce hărţi Karnaugh
+** De ce hărţi Karnaugh
 
 La ce ne folosesc hărţile Karnaugh? Harta Karnaugh, asemenea algebrei
 booleene, este o metodă de simplificare a circuitelor logice digitale.
@@ -25,14 +25,14 @@ Sumar:
 -  
 -  
 
-* Diagrame Venn
+** Diagrame Venn
 
 Matematicienii utilizează diagramele Venn pentru reprezentarea
 relaţiilor logice dintre mulţimi (colecţii de obiecte). Ne vom folosi de
 diagramele Venn pentru a face tranziţia dintre algebra booleană şi
 hărţile Karnaugh.
 
-** Mulţimi şi submulţimi
+*** Mulţimi şi submulţimi
 
 O mulţime este o colecţie de obiecte dintr-un univers dat. Elementele
 mulţimii sunt obiecte ce aparţin mulţimii. Elementele unei mulţimi au de
@@ -43,7 +43,7 @@ o mulţime mai mică, sau o submulţime a mulţimii numerelor întregi
 pozitive. Un alt exemplu este mulţimea tuturor băieţilor dintr-o clasă
 (reprezentând universul discuţiei). Vă puteţi gândi şi la alte mulţimi?
 
-** Diagrame Venn - exemple
+*** Diagrame Venn - exemple
 
 Diagrama Venn din figura de mai jos stânga, reprezintă mulţimea A (în
 interiorul cercului) din universul U (aria dreptunghiulară). Dacă tot
@@ -102,9 +102,9 @@ cele două mulţimi ar arăta astfel: A = {1, 2, 3, 4} şi B = {3, 4, 5, 6}.
 Ambele mulţimi conţin elementele 3 şi 4. Acesta este şi motivul pentru
 care cele două cercuri sunt suprapuse.
 
-* Relaţii booleene cu diagrame Venn
+** Relaţii booleene cu diagrame Venn
 
-** Funcţia logică SAU (adunarea booleană)
+*** Funcţia logică SAU (adunarea booleană)
 
 În ultimul exemplu din secţiunea precedentă, mulţimile A şi B s-au
 suprapus parţial. Iniţial, ne vom concentra atenţia asupra întregii
@@ -122,7 +122,7 @@ sus. Aceasta corespunde funcţiei logice SAU, iar expresia booleană este
 A + B, aria fiind cea haşurată cu linii diagonale. Tot ceea ce se află
 în afară ariei haşurate reprezintă (A + B)-negat.
 
-** Funcţia logică ŞI (înmulţirea booleană)
+*** Funcţia logică ŞI (înmulţirea booleană)
 
 O altă metodă de interpretare a diagramei Venn cu regiuni suprapuse,
 este analizarea regiunii comune atât mulţimii A cât şi mulţimii B, aria
@@ -137,9 +137,9 @@ Observaţii că unele elemente ale mulţimilor A şi B de sus, sunt elemente
 ale mulţimii (AB)-negat, dar niciunul dintre elementele mulţimii
 (AB)-negat nu se află în interiorul ariei dublu haşurate AB.
 
-** Expresii booleene
+*** Expresii booleene
 
-*** Diagrama Venn pentru A'B
+**** Diagrama Venn pentru A'B
 
 Vom trece acum la dezvoltarea unei expresii booleene. De exemplu, să
 presupunem că dorim reprezentarea prin diagrame Venn a expresiei
@@ -156,7 +156,7 @@ păstra doar aria dublu haşurată:
 Expresia A'B reprezintă regiunea în care A' şi B se suprapun. Regiunea
 nehaşurată din afara ariei A'B este (A'B)'.
 
-*** Diagrama Venn pentru B' + A
+**** Diagrama Venn pentru B' + A
 
 Putem încerca acelaşi lucru cu expresia booleană SAU. De exemplu, să
 presupunem că dorim să reprezentăm prin diagrame Venn expresia B' + A.
@@ -176,7 +176,7 @@ haşurare (jos stânga):
 #+CAPTION: diagrame Venn
 [[../poze/14083.png]]
 
-*** Diagrama Venn pentru (A + B')'
+**** Diagrama Venn pentru (A + B')'
 
 Aria haşurată cu verde de mai sus este rezultatul expresiei A + B'.
 Trecând la (A + B')', căutam complementul expresiei A + B', reprezentat
@@ -190,17 +190,17 @@ Venn pot fi utilizate pentru verificare şi vizualizare. În exemplul de
 mai sus, am verificat şi vizualizat teorema lui DeMorgan cu ajutorului
 unei diagrame Venn.
 
-*** Diagrama Venn pentru A' + B' şi (A' + B')'
+**** Diagrama Venn pentru A' + B' şi (A' + B')'
 
 #+CAPTION: diagrame Venn
 [[../poze/14085.png]]
 
-*** Arătaţi că A' + B' = AB
+**** Arătaţi că A' + B' = AB
 
 #+CAPTION: diagrame Venn
 [[../poze/14143.png]]
 
-** Diagrame Venn cu 3 variabile
+*** Diagrame Venn cu 3 variabile
 
 Diagrama Venn de mai jos conţine trei regiuni haşurate, A (roşu), B
 (albastru) si C (verde). Interescţie tuturor regiunilor în centru
@@ -215,9 +215,9 @@ Observând mărimea regiunilor descrise de functia ŞI de mai sus, putem
 vedea că mărimea regiunii variază cu numărul variabilelor asociate
 expresiei ŞI.
 
-* Transformarea diagramelor Venn în hărţi Karnaugh
+** Transformarea diagramelor Venn în hărţi Karnaugh
 
-** Hărţi Karnaigh cu două variabile
+*** Hărţi Karnaigh cu două variabile
 
 Începem transformarea unei diagrame Venn într-o hartă Karnaugh prin
 desenarea unei mulţimi A în universul A' (figura de mai jos, a):
@@ -261,7 +261,7 @@ diagonală. A-ul de deasupra diagonalei indică faptul că variabila A (şi
 A') aparţine coloanelor. 0 este folosit pentru A' iar 1 pentru A. B-ul
 de sub diagonală este asociat cu liniile: 0 pentru B' şi 1 pentru B.
 
-*** Exemplu
+**** Exemplu
 
 Marcaţi căsuţele corespunzătoare expresiei booleene AB în diagrama
 Karnaugh de mai sus cu 1. Soluţie: haşurăm sau încercuim regiunea
@@ -272,7 +272,7 @@ căsuţă. Nu este însă necesar să încercuim propriu-zis regiunile A şi B:
 #+CAPTION: hărţi Karnaugh
 [[../poze/14090.png]]
 
-** Hărţi Karnaigh cu trei variabile
+*** Hărţi Karnaigh cu trei variabile
 
 Trecem acum la dezvoltarea unei hărţi Karnaugh pornind de la diagrame
 Venn. Universul (interiorul dreptunghiului negru) este împărţit în două
@@ -306,7 +306,7 @@ fiecare dată, ci doar 1 şi 0. Noaţia B'C', B'C, BC şi BC' din stânga
 este echivalentă cu 00, 01, 11 respectiv 10 din dreapta. A şi A' sunt
 echivalente cu 0 respectiv 1.
 
-* Hărţi Karnaugh, tabele de adevăr şi expresii booleene
+** Hărţi Karnaugh, tabele de adevăr şi expresii booleene
 
 Hărţile Karnaugh simplifică funcţiile logice mult mai rapid şi mai uşor
 în comparaţie cu algebra booleană. Dorim simplificarea circuitelor logic
@@ -371,9 +371,9 @@ Pe scurt, am încercat să grupăm variabilele booleene pe regiuni astfel
 încât să reiasă elementele lor comune. Hărţile Karnaugh sunt organizate
 pentru a ne oferi exact această „imagine”.
 
-** Exemple de utilizare a hărţilor Karnaugh
+*** Exemple de utilizare a hărţilor Karnaugh
 
-*** Exemplul 1
+**** Exemplul 1
 
 Tabelul de adevăr de mai jos conţine două valori de 1. Harta Karnaugh
 trebuie să conţină şi ea tot două valori de 1. Luăm prima valoare de 1
@@ -404,7 +404,7 @@ expresia booleană asociată hărţii Karnaugh precedente este B. Acest
 lucru poate fi observa mai uşor comparând diagramele Venn din dreapta,
 în mod special coloana B.
 
-*** Exemplul 2
+**** Exemplul 2
 
 Scrieţi expresia booleană asociată hărţii Karnaugh de mai jos:
 
@@ -415,7 +415,7 @@ Urmând o logică asemănătoare celei de mai sus, grupăm toate valorile de
 1 şi găsim variabila comună întregului grup astfel format; rezultatul
 este A'.
 
-*** Exemplul 3
+**** Exemplul 3
 
 Pentru tabelul de adevăr de mai jos, găsiţi harta Karnaugh
 corespunzătoare şi scrieţi apoi expresia booleană folosind rezultatul
@@ -450,7 +450,7 @@ cea corectă cât şi cea „greşită” sunt de fapt corecte din punct de
 vedere logic. Ambele circuite vor genera aceiaşi ieşire. Pur şi simplu,
 circuitul corect presupune un cost mai redus de implementare fizică.
 
-*** Exemplul 4
+**** Exemplul 4
 
 Completaţi o hartă Karnaugh folosind expresia booleană de mai jos.
 Scrieţi apoi expresia booleană a rezultatului:
@@ -469,7 +469,7 @@ Similar, introducem şi ceilalţi doi termeni de 1.
 Trecem apoi la gruparea termenilor şi simplificarea rezultatului conform
 exemplului precedent.
 
-*** Exemplul 5
+**** Exemplul 5
 
 Simplificaţi circuitul logic de mai jos:
 
@@ -485,7 +485,7 @@ simplificat:
 #+CAPTION: simplificarea unui circuit logic
 [[../poze/14104.png]]
 
-*** Exemplul 6
+**** Exemplul 6
 
 Simplificaţi circuitul logic de mai jos:
 
@@ -497,7 +497,7 @@ Karnaugh; obervăm că nu putem forma niciun grup care să conţină mai mult
 de două regiuni 1; prin urmare, simplificarea nu este posibilă, iar
 expresia finală este identică cu cea iniţială (SAU-exclusiv).
 
-* Simplificarea circuitelor logice cu hărţi Karnaugh
+** Simplificarea circuitelor logice cu hărţi Karnaugh
 
 Exemplele de simplificare a circuitelor logice de până acum puteau fi
 realizate la fel de bine şi cu ajutorul algebrei booleene. Problemele de
@@ -513,7 +513,7 @@ dreapta:
 #+CAPTION: hartă Karnaugh
 [[../poze/14093.png]]
 
-** Codul Gray
+*** Codul Gray
 
 Observaţi secvenţa numerelor din partea superioară a harţii. Aceasta nu
 este o secvenţa binară (00, 01, 10, 11), ci este o secvenţă de tipul 00,
@@ -532,7 +532,7 @@ nu vom mai putea identifica carcateristicile specifice funcţiei pe cale
 vizuală. Regiunile adiacente variază cu un singur bit, deoarece secvenţa
 de cod Gray variază la rândul ei doar cu un singur bit.
 
-** Hărţi Karnaugh cu 3 variabile - exemple de simplificare
+*** Hărţi Karnaugh cu 3 variabile - exemple de simplificare
 
 Să folosim în continuare hărţile Karnaugh cu 3 variabile pentru
 simplificarea unor expresii booleene. Vom arăta cum să trecem termenii
@@ -598,7 +598,7 @@ Cele şase regiuni rezultate din ecuaţia nesimplificată pot fi organizate
 în două grupuri de câte patru. Aceste grupuri trebuie să rezulte într-o
 sumă de două produse, şi anume A' + C'.
 
-** Incinerator deşeuri toxice - reconsiderare
+*** Incinerator deşeuri toxice - reconsiderare
 
 Să reluăm mai jos exemplul incineratorului de deşeuri toxice studiat
 într-un capitol precedent. Vom încerca simplificarea circuitului logic
@@ -639,7 +639,7 @@ Sumar:
 -  
 -  
 
-* Hărţi Karnaugh de patru variabile
+** Hărţi Karnaugh de patru variabile
 
 Folosindu-ne de codul Gray, putem construi hărţi Karnaugh mai mari. O
 hartă Karnaugh cu patru variabile arată precum cea de mai jos:
@@ -653,7 +653,7 @@ booleană. Aceste expresii pot fi simplificate cu algebra booleană.
 Totuşi, utilizarea hărţilor Karnaugh este un procedeu mult mai rapid si
 mai uşor, mai ales dacă există multe simplificări logice de realizat.
 
-** Exemple de simplificare logică cu hărţi Karnaugh de patru variabile
+*** Exemple de simplificare logică cu hărţi Karnaugh de patru variabile
 
 #+CAPTION: simplificarea expresiilor booleene folosind hărţi Karnaugh de
 #+CAPTION: patru variabile
@@ -780,7 +780,7 @@ Sumar:
 -  
 -  
 
-* Mintermeni şi maxtermeni
+** Mintermeni şi maxtermeni
 
 Până în acest moment am căutat soluţii sub forma unei sume de produse la
 problemele de simplificare booleană. Pentru fiecare dintre aceste
@@ -792,7 +792,7 @@ extragerea termenilor sub formă de produs nu este nouă. Vrem doar să
 stabilim o procedură formală pentru mintermeni, ca mai apoi, să putem
 face o comparaţie cu noua procedură pentru maxtermeni.
 
-** Analiza regiunilor ce conţin valori de 1 - mintermeni
+*** Analiza regiunilor ce conţin valori de 1 - mintermeni
 
 Un mintermen este o expresie booleană rezultând într-o valoare de 1
 pentru ieşirea unei singure regiuni dintr-o hartă Karnaugh. Toate
@@ -855,7 +855,7 @@ produse dintr-o hartă Karnaugh:
 Nimic nou până în acest moment. Am scris doar paşii de urmat în cazul
 mintermenilor. Acelaşi lucru îl vom face şi în cazul maxtermenilor.
 
-** Analiza regiunilor ce conţin valori de 0 - maxtermeni
+*** Analiza regiunilor ce conţin valori de 0 - maxtermeni
 
 Să considerăm acum o funcţie booleană ce este 0 pentru o singură regiune
 şi 1 în rest:
@@ -907,7 +907,7 @@ adresă (1, 1, 1) a hărţii Karnaugh de mai jos:
 #+CAPTION: simplificarea expresiei booleene prin intermediul hărţii
 Karnaugh [[../poze/14129.png]]
 
-** Scrierea expresiei booleene simplificate ca şi produs de sume
+*** Scrierea expresiei booleene simplificate ca şi produs de sume
 
 O expresie booleană sub formă produsului de sume poate avea mai mulţi
 maxtermeni, conform figurii de mai jos:
@@ -946,7 +946,7 @@ produs de sume:
    Rezultatul fiecărui grup este un termen sub formă de sumă, iar
    rezultatul final este produsul acestor termeni-sumă
 
-*** Exemplul 1
+**** Exemplul 1
 
 Simplificaţi expresia booleană sub forma produsului de sume de mai jos.
 Scrieţi rezultatul final sub forma unui produs de sume:
@@ -975,7 +975,7 @@ mai sus. Pentru oricare grup, scriem mai întâi adresa de intrare, o
 comlementăm şi o transformăm într-un termen boolean sub formă de sumă.
 Rezultatul final este produsul acestor trei termeni-sumă.
 
-*** Exemplul 2
+**** Exemplul 2
 
 Simplificaţi expresia booleană sub formă de produs de sume de mai jos,
 exprimând rezultatul sub forma unei sume de produse:
@@ -1004,7 +1004,7 @@ problemei precedente:
 #+CAPTION: simplificarea expresiei booleene prin intermediul hărţii
 Karnaugh [[../poze/14136.png]]
 
-** Comparaţie între soluţiile cu mintermeni şi maxtermeni
+*** Comparaţie între soluţiile cu mintermeni şi maxtermeni
 
 În figura de mai jos sunt ambele soluţii ale exemplelor de mai sus,
 pentru comparaţie:
@@ -1030,7 +1030,7 @@ altă parte, soluţia produsului de sume este acceptabilă dacă folosim
 circuite CMOS, deoarece avem astfel la dispoziţie porţi SAU-negat de
 toate mărimile.
 
-** Echivalenţa circuitelor ŞI-SAU cu circuitele ŞI-negat-ŞI-negat
+*** Echivalenţa circuitelor ŞI-SAU cu circuitele ŞI-negat-ŞI-negat
 
 Circuitele cu porţi logice pentru ambele cazuri sunt prezentate mai jos,
 produsul de sume în stânga şi suma de produse în dreapta:
@@ -1076,7 +1076,7 @@ Paşii necesari construirii logicii ŞI-negat-ŞI-negat în locul logicii
 -  Folosim catalogul producătorului pentru conectarea pinilor
    circuitului integrat la intrările si ieşirile porţilor din circuit
 
-*** Exemplul 1
+**** Exemplul 1
 
 Să reluăm o problemă precedentă ce implică o simplificare sub formă
 sumei de produse. Vom realiza o simplificare sub forma unui produs de
@@ -1164,14 +1164,14 @@ Sumar:
 -  
 -  
 
-* Notaţia Σ (sumă) şi notaţia Π (produs)
+** Notaţia Σ (sumă) şi notaţia Π (produs)
 
 Ca şi referinţa, această secţiune introduce terminologia folosită în
 unele texte pentru descrierea mintermenilor şi maxtermenilor aparţinând
 hărţilor Karnaugh. Mai departe de atât, această secţiune nu conţine
 nimic nou.
 
-** Notaţia Σ (sumă) pentru mintermeni
+*** Notaţia Σ (sumă) pentru mintermeni
 
 Simbolul Σ (sigma) indică o sumă iar litera „m” indică mintermenii. Prin
 urmare, Σm reprezintă o sumă de mintermeni. Următorul exemplu ilustrează
@@ -1193,7 +1193,7 @@ utilizarea acestei terminologii. Mintermenii de pe harta (valorile de 1)
 sunt grupaţi ca de obicei, iar mai apoi putem scrie o soluţie sub forma
 sumei de produse.
 
-** Notaţia Π (produs) pentru maxtemeni
+*** Notaţia Π (produs) pentru maxtemeni
 
 Mai jos luăm în considerare şi terminologia folosită pentru descrierea
 unei liste de maxtermeni. Produsul este indicat prin litera Π (pi), iar
@@ -1217,7 +1217,7 @@ Sumar:
 -  
 -  
 
-* Hărţi Karnaugh de 5 şi 6 variabile
+** Hărţi Karnaugh de 5 şi 6 variabile
 
 Pentru reducerea circuitelor logice mai mari se folosesc, evident, hărţi
 Karnaugh mai mare. Dar care este mărimea maximă (practică) a unei hărţi
@@ -1225,7 +1225,7 @@ Karnaugh? Acest lucru depinde de numărul de intrări a circuitului logic
 considerat. Practic, se poate constata că această limită este de 6
 intrări. Prezentăm mai jos aşadar hărţile Karnaugh de 5 şi 6 variabile.
 
-** Harta Karnaugh de 5 variabile
+*** Harta Karnaugh de 5 variabile
 
 Prima variantă a hărţii Karnaugh de 5 variabile este modelul în oglindă.
 Desigur, numerotarea se realizează în cod Gray (partea de sus). Acesta
@@ -1249,7 +1249,7 @@ precum am spus mai sus, secvenţa 00, 01, 11, 10 se regăseşte în partea
 superioară a ambelor sub-hărţi. Secvenţa formată din cele opt numere de
 3 biţi nu este cod Gray.
 
-*** Harta Karnaugh cu 5 variabile - exemplu
+**** Harta Karnaugh cu 5 variabile - exemplu
 
 Să proiectăm un circuit cu 5 intrări binare (A, B, C, D, E), A fiind
 bit-ul cel mai semnificativ. Circuitul va trebui să producă o ieşire
@@ -1297,7 +1297,7 @@ variabilele A, B şi E sunt aceleaşi (001) pentru grup. Pe de altă parte,
 CD = xx (acesta variabile nu sunt identice pentru grup). Din moment ce
 ABCDE = 00xx1, grupul de patru regiuni este acoperit de A'B'XXE = A'B'E.
 
-** Hartă Karnaugh de 6 variabile
+*** Hartă Karnaugh de 6 variabile
 
 Luăm acum un exemplu de utilizare a unei hărţi Karnaugh de 6 variabile.
 Am suprapus (imaginar) cele patru sub-hărţi pentru a putea vizualiza

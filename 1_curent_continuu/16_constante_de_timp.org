@@ -1,4 +1,4 @@
-* Răspunsul tranzitoriu al condensatorului
+** Răspunsul tranzitoriu al condensatorului
 
 Condensatorii tind să se comporte asemenea bateriilor secundare datorită
 posibilităţii de stocare şi eliberare ulterioară a energiei sub formă de
@@ -84,7 +84,7 @@ Sumar:
    variabile au o variaţie puternică la început, şi se apropie tot mai
    greu de valorile lor finale odată cu trecerea timpului
 
-* Răspunsul tranzitoriu al bobinei
+** Răspunsul tranzitoriu al bobinei
 
 O bobină complet descărcată (nu există câno magnetic), prin care nu
 trece niciun curent, la conectarea unei surse de tensiune la bornele
@@ -153,9 +153,9 @@ Sumar:
    valoarea maximă, iar tensiunea de la valoarea maximă la zero; ambele
    variabile au o variaţie puternică la început.
 
-* Calcularea tensiunii şi a curentului
+** Calcularea tensiunii şi a curentului
 
-*** Valorile iniţiale şi cele finale
+**** Valorile iniţiale şi cele finale
 
 Există o metodă sigură de calcul a tuturor variabilelor dintr-un circuit
 reactiv (cu bobine şi/sau condensatori) de curent continuu. Primul pas
@@ -173,7 +173,7 @@ circuitului capacitiv considerând condensatorul un circuit deschis, iar
 scurt-circuit, deoarece acesta este comportamentul lor după ce sunt
 încărcate la maxim (dupa o perioadă de timp infinită).
 
-*** Constanta de timp
+**** Constanta de timp
 
 Următorul pas este calcularea /constantei de timp/ a circuitului: timpul
 necesar pentru ca valorile tensiunii şi ale curentului să variaze cu
@@ -234,7 +234,7 @@ tensiunii/curentului:
 #+CAPTION: circuit ractiv de curent continuu tranzitoriu
 [[../poze/10245.png]]
 
-*** Analiza circuitului RC
+**** Analiza circuitului RC
 
 Să analizăm circuitul RC serie de la începutul capitolului:
 
@@ -248,7 +248,7 @@ secundă:
 #+CAPTION: formulă
 [[../poze/10246.png]]
 
-**** Analiza tensiunii
+***** Analiza tensiunii
 
 Analizăm în acest caz tensiunea deoarece este valoarea pe care
 condensatoarele încearcă să o menţină constantă. Cu toate că formula se
@@ -277,7 +277,7 @@ Deoarece tensiunea iniţială la bornele condensatorului a fost de 0 V, o
 creştere cu 14.989 V se traduce printr-o cădere de tensiune de 14.989 la
 bornele condensatorului după 7.25 s de la inchiderea circuitului.
 
-**** Analiza curentului
+***** Analiza curentului
 
 Aceeiaşi formulă poate fi folosită şi pentru determinarea curentului din
 circuit. Ştim că un condensator descărcat se comportă precum un scurt
@@ -312,7 +312,7 @@ să obţinem acelaşi răspuns:
 #+CAPTION: formulă
 [[../poze/10251.png]]
 
-*** Analiza circuitului L/R
+**** Analiza circuitului L/R
 
 Să analizăm acum circuitul L/R serie de la începutul capitolului:
 
@@ -325,7 +325,7 @@ timp a circuitului de faţă este de 1 secundă:
 #+CAPTION: formulă
 [[../poze/10252.png]]
 
-**** Analiza curentului
+***** Analiza curentului
 
 Deoarece este un circuit inductiv, iar bobinele ştim că se opun
 variaţiei curentului, vom aplica formula universală folosind valorile
@@ -344,7 +344,7 @@ Dacă vrem să aflăm valoarea curentului la 3.5 secunde după închiderea
 Din moment ce valoarea iniţială a curentului a fost zero, valoare
 acestuia după 3.5 secunde este de 14.547 amperi.
 
-**** Analiza tensiunii
+***** Analiza tensiunii
 
 Având doar un singur rezistor în circuit, calculăm mai întâi căderea de
 tensiune pe acesta pentru timpul de 3.5 s:
@@ -377,7 +377,7 @@ Paşii pentru analiza circuitelor RC şi L/R:
    universale. În caz contrar, valoarea actuală este suma dintre
    variaţia calculată şi valoarea iniţială a variabilei
 
-* De ce L/R şi nu LR
+** De ce L/R şi nu LR
 
 Pentru cei care studiază teoria circuitelor electrice pentru prima dată,
 este destul de greu de înţeles motivul pentru care calculul constantei
@@ -405,7 +405,7 @@ constantă valoarea tensiunii de la terminalele sale. Energia
 electromagnetică a bobinei tinde să menţină constantă valoarea
 curentului prin ea.
 
-*** Descărcarea condensatorului şi a bobinei pe un rezistor
+**** Descărcarea condensatorului şi a bobinei pe un rezistor
 
 Să luăm în considerare ce se întâmplă în cazul fiecărui component
 reactiv în momentul /descărcării/, şi anume, atunci când energia stocată
@@ -439,7 +439,7 @@ rezistenţei pentru maximizarea căderii de tensiune, oricare ar fi
 valoarea curentului (luând în considerare faptul că produsul dintre
 tensiune şi curent este egal cu puterea).
 
-*** Analogie mecanică pentru modul de stocare al energiei din
+**** Analogie mecanică pentru modul de stocare al energiei din
 componentele reactive
 
 Ca şi o analogie, putem recurge la o exemplificare mecanică a stocării
@@ -450,7 +450,7 @@ rezervoare de /energie cinetică/. Mecanic, energia potenţială poate fi
 reprezentată cu ajutorul unei mase suspendate, iar energia cinetică cu
 ajutorul unei mase aflate în mişcare.
 
-**** Analogia mecanică a energiei potenţiale pentru condensator
+***** Analogia mecanică a energiei potenţiale pentru condensator
 
 Să considerăm următoarea ilustraţie pentru condensator, considerând
 energia stocată în acest ca fiind energie potenţială:
@@ -476,7 +476,7 @@ pentru o perioadă mai îndelungată de timp. Acelaşi lucru se întâmplă şi
 în cazul circutului capacitiv, ce se descarcă rapid dacă rezistenţa sa
 este mică, şi se descarcă lent dacă rezistenţa este mare.
 
-**** Analogia mecanică a energiei cinetice pentru bobină
+***** Analogia mecanică a energiei cinetice pentru bobină
 
 Să considerăm acum o analigie mecanică pentru bobină, reprezentând
 energie stocată de acesta sub formă cinetică:
@@ -504,7 +504,7 @@ Analog, un circuit inductiv se descarcă rapid dacă rezistenţa pe care se
 descarcă este mare şi invers, se descarcă lent dacă rezistenţa este
 mică.
 
-* Cazuri speciale de calcul
+** Cazuri speciale de calcul
 
 Există cazuri de analiză a circuitelor de curent continuu tranzitorii în
 care componentele reactive (condensatori sau bobine) nu sunt iniţial
@@ -576,7 +576,7 @@ pentru a ajunge la aceleaşi rezultate:
     |-------------------------------------------|
 #+END_EXAMPLE
 
-* Circuite complexe
+** Circuite complexe
 
 Ce facem în cazul în care avem un circuit mai complicat decât
 configuraţiile serie considerate până acum? Să luăm acest circuit, de
@@ -665,7 +665,7 @@ Sumar:
    analizăm comportamentul circuitului în timp, folosind formula
    universală a constantei de timp
 
-* Rezolvarea circuitului pentru variabila timp
+** Rezolvarea circuitului pentru variabila timp
 
 În unele cazuri este necesară determinarea duratei de timp pentru care
 circuitul va atinge o valoarea predeterminată. Acest lucru este în
@@ -689,7 +689,7 @@ Unde /ln/ reprezintă /logaritmul natural/: inversa lui /e/:
 Dacă e^{x} = a, atunci ln a = x: puterea la care trebuie ridicat /e/
 pentru a produce rezultatul /a/
 
-*** Exemplu
+**** Exemplu
 
 Folosim acelasi circuit rezistor-condensator de la începutul capitolului
 şi ne folosim de datele deja determinate pentru a afla durata de timp

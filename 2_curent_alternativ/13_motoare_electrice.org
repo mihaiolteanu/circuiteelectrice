@@ -1,6 +1,6 @@
-* Scurtă introducere a motoarelor electrice
+** Scurtă introducere a motoarelor electrice
 
-** De la curent continuu la curent alternativ
+*** De la curent continuu la curent alternativ
 
 Imediat după introducerea sistemului de distribuţie electrică în curent
 continuu de către Edison în SUA, a început tranziţie graduală spre
@@ -13,7 +13,7 @@ construite precum cele de c.c. Existau nenumărate probleme datorită
 variaţiei câmpurilor magnetice, în comparaţie cu motoarele de c.c, unde
 câmpurile sunt statice.
 
-** Nikola Tesla şi motorul de inducţie
+*** Nikola Tesla şi motorul de inducţie
 
 Charles P. Steinmetz a aduse contribuţii importante în acest domeniu
 prin investigarea pierderilor prin histereză în armăturile de fier.
@@ -35,7 +35,7 @@ aplicaţii. Iar motorul pas cu pas, o versiune digitală a motorului, este
 acţionat de forme de undă de c.a. dreptunghiulare, din nou, generate de
 circuite cu semiconductori.
 
-** Transformarea energiei electrice
+*** Transformarea energiei electrice
 
 La nivelul sistemului, un motor „consumă” energie electrică sub forma
 unei diferenţe de potenţial şi a unui curent, şi produce la ieşire lucru
@@ -55,7 +55,7 @@ motoarelor pentru reducerea pierderilor sub formă de căldură. De
 asemenea, motoarele de c.a. mai au şi alte tipuri de pierderi
 ne-întâlnite la motoarele de c.c.: histereza şi curenţii turbionari.
 
-* Histereza şi curenţii turbionari
+** Histereza şi curenţii turbionari
 
 Primele experimente cu motoarele de c.a. s-au lovit de probleme
 specifice curenţilor alternativi. Aceste probleme au apărut la adaptarea
@@ -64,7 +64,7 @@ motoare de c.a. din prezent seamănă cu cele de c.c., aceste probleme au
 trebuit rezolvate înainte ca motoarele de c.a., indiferent de tip, să
 poată trece din faza de proiectare în faza de realizare prorpiu-zisă.
 
-** Miezuri realizate din tole
+*** Miezuri realizate din tole
 
 În cazul motoarelor de c.a., atât miezul rotorului cât şi cel al
 statorului este realizat din tole. Aceste tole nu reprezintă altceva
@@ -81,7 +81,7 @@ descreşterea amplitudinii curenţilor turbionari:
 #+CAPTION: curenţi turbionari în miez masiv şi în miez realizat din tole
 [[../poze/02422.png]]
 
-** Histereza magnetică
+*** Histereza magnetică
 
 Histereza magnetică este defazarea în urmă a intensităţii câmpului
 magnetic în comparaţie cu forţa de magnetizare. Dacă magnetizăm temporar
@@ -102,7 +102,7 @@ proporţională cu aria mărginită de curba de histereză de pe grafigul
 B-H. Pierderile prin histereză în cazul aliajelor din fier moale sunt
 mai reduse decât în cazul aliajelor din fier carbon „dure”.
 
-** Utilizarea legilor lui Steinmetz
+*** Utilizarea legilor lui Steinmetz
 
 Punerea la punct a legilor lui Steinmetz pentru pierderile din miez, a
 făcut posibilă realizarea motoarelor de c.a. ce se comportau conform
@@ -117,7 +117,7 @@ Sumar:
 -  
 -  
 
-* Motorul sincron
+** Motorul sincron
 
 Motoarele sincrone monofazate de dimensiuni mici sunt folosite în
 aplicaţii ce necesită o sincronizare precisă, precum ceasuri, de
@@ -171,7 +171,7 @@ sincronizarea cu viteza de rotaţie a generatorului de putere electrică.
 Odată adus la această viteză, motorul sincron va menţine sincronizarea
 cu sursa de putere de c.a. si va dezvolta cuplu.
 
-** Poziţia rotorului şi a statorului la funcţionare
+*** Poziţia rotorului şi a statorului la funcţionare
 
 Presupunem că motorul se află la viteza de sincronism. Pe măsură ce unda
 sinusoidală trece în semialternanţa pozitivă, înfăşurarea inferioară a
@@ -209,7 +209,7 @@ va sincroniza pe aceasta. Din moment ce câmpul înfăşurării pulsează dar
 nu se roteşte, este necesară aducerea rotorului la aceiaşi viteză cu cea
 a unui motor auxiliar.
 
-** Viteza de rotaţie a motorului sincron
+*** Viteza de rotaţie a motorului sincron
 
 Un alternator cu doi poli (o pereche de poli N-S) va genera o undă
 sinusoidală de 60 Hz atunci când este rotit la 3600 rpm (rotaţii pe
@@ -232,7 +232,7 @@ Viteza rotorului va fi 1/6 din cea a unui motor sincron cu 2 poli.
 Exemplu: un c.a. de 60 Hz roteşte un motor cu 2 poli la 3600 rpm, iar un
 motor cu 12 poli la 600 rpm.
 
-** Motorul sincron trifazat
+*** Motorul sincron trifazat
 
 Un motor sincron trifazat precum cel din figura de mai jos, generează un
 câmp electric rotitor în stator. Asemenea motoare nu pot fi pornite
@@ -269,7 +269,7 @@ Sumar:
 -  
 -  
 
-* Semnale analogice si digitale
+** Semnale analogice si digitale
 
 Motoarele sincrone introduc un factor de putere capacitiv în circuitul
 de alimentare. Acest lucru este adeseori folositor pentru anularea

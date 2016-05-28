@@ -1,4 +1,4 @@
-* Circuite pur rezistive
+** Circuite pur rezistive
 
 Vezi subcapitolul precedent (3.1)
 
@@ -7,7 +7,7 @@ Sumar:
 -  
 -  
 
-* Circuite pur capacitive
+** Circuite pur capacitive
 
 Comportamentul condensatoarelor este diferit faţă de cel al
 rezistorilor. Pe când rezistorii opun o rezistenţă direct proporţională
@@ -145,7 +145,7 @@ Sumar:
    cuvinte, cu cât frecvenţa este mai mare, cu atât opoziţia faţa de
    curent este mai mică (cu atât conduce mai bine)
 
-* Circuite rezistiv-capacitive serie
+** Circuite rezistiv-capacitive serie
 
 Până acum am văzut doar ce se întâmplă într-un circuit pur rezistiv,
 respectiv pur inductiv. Acum vom analiza cele două componente conectate
@@ -227,7 +227,7 @@ curentului din circuit. Acest lucru ne spune că tensiunea şi curentul
 condensatorului sunt defazate cu exact 90^{o} între ele (în cazul
 condensatorului!).
 
-*** Indicaţia instrumentelor de măsură
+**** Indicaţia instrumentelor de măsură
 
 Din nou, trebuie să insistăm pe faptul că valorile calculate ce
 corespund cu măsurătorile reale luate de aparatele de măsură, sunt cele
@@ -243,7 +243,7 @@ reale. Dacă ar fi să folosim doar o singură notaţie, cea mai bună
 alegere ar fi cea polară, pentru că este singura ce are legătură directă
 cu măsurătorile reale.
 
-*** Diagrama impedanţei
+**** Diagrama impedanţei
 
 Impedanţa (Z) unui circuit serie R-L poate fi calculată cunoscând
 rezistenţă (R) şi reactanţa inductivă (XL). Din moment ce E=IR, E=IXL şi
@@ -255,7 +255,7 @@ tensiunea. Prin urmare, diagrama fazorială a tensiunii poate fi
 #+CAPTION: a tensiunii şi a impedanţei
 [[../poze/02516.png]]
 
-*** Exemplu
+**** Exemplu
 
 Găsiţi impedanţă unui circuit serie format dintr-un rezistor de 40 Ω şi
 un condensator de 88.42 mF la frecvenţa de 60 Hz. Răspuns: Z = 40 - j30
@@ -289,7 +289,7 @@ Sumar:
    de tensiune se însumează, iar suma lor este tensiunea totală iar
    impedanţele se adună rezultând impedanţa totală
 
-* Circuite rezistiv-capacitive paralel
+** Circuite rezistiv-capacitive paralel
 
 Folosind aceleaşi valori, vom conecta rezistorul şi condensatorul în
 paralel, şi vom trece la analiza acestuia folosind metoda tabelului:
@@ -326,7 +326,7 @@ curenţilor de ramură (legea lui Kirchhoff pentru curent):
 #+CAPTION: tabel
 [[../poze/12054.png]]
 
-*** Formula de calcul a impedanţei totale
+**** Formula de calcul a impedanţei totale
 
 Impedanţa totală poate fi calculată folosind legea lui Ohm (Z=E/I),
 vertical, pe coloana „Total”. După cum am mai văzut, impedanţa paralelă

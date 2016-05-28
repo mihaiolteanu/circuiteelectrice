@@ -1,4 +1,4 @@
-* Ce este un filtru
+** Ce este un filtru
 
 În unele cazuri este necesară folosirea unor circuite capabile să
 filtreze selectiv o anumită frecvenţă, sau un domeniu de frecvenţe,
@@ -49,13 +49,13 @@ Sumar:
 -  O diagramă Bode este un grafic a cărei axă orizontală este frecvenţa,
    şi nu timpul
 
-* Filtrul trece-jos
+** Filtrul trece-jos
 
 Prin definiţie, filtrul trece-jos permite trecerea (impedanţă mică)
 semnalelor de frecvenţă joasă şi blochează trecerea (impedanţă mare)
 celor de frecvenţă înaltă.
 
-*** Filtrul trece-jos inductiv
+**** Filtrul trece-jos inductiv
 
 Există două tipuri de circuite capabile să îndeplinească aceste
 condiţii, şi multe versiuni din fiecare: filtrul trece-jos inductiv şi
@@ -74,7 +74,7 @@ multi-frecvenţă, arată asfel:
 #+CAPTION: diagrama Bode pentru filtrul trece-jos inductiv
 [[../poze/22026.png]]
 
-*** Filtrul trece-jos capacitiv
+**** Filtrul trece-jos capacitiv
 
 Să considerăm şi filtrul trece-jos capacitiv:
 
@@ -90,7 +90,7 @@ R_{1}.
 #+CAPTION: diagrama Bode pentru filtrul trece-jos capacitiv
 [[../poze/22027.png]]
 
-*** Comparaţie între filtrele trece-jos inductive şi capacitive
+**** Comparaţie între filtrele trece-jos inductive şi capacitive
 
 Filtrul trece-jos inductiv este cât se poate de simplu, constând doar
 dintr-un singur comonent, bobina. Versiunea capacitivă a aceluiaşi
@@ -119,7 +119,7 @@ cea mai bună alegere pentru filtrarea formei de undă. Pe de altă parte,
 dacă priorităţile principale sunt un volum şi o greutate scăzută, atunci
 filtrul capacitiv este cea mai bună alegere.
 
-*** Frecvenţa de tăiere
+**** Frecvenţa de tăiere
 
 Toate filtrele trece-jos au o anumită proprietate, şi anume, /frecvenţa
 de tăiere/, şi reprezintă frecvenţa peste care tensiunea de ieşire a
@@ -150,7 +150,7 @@ frecvenţei de tăiere nu ia în considerare şi această impedanţă, sarcina
 nu este luată în considerare, iar valorile reale ale frecvenţei de
 tăiere vor fi diferite de valoarea calculată.
 
-*** Folosirea filtrului trece-jos capacitiv pentru eliminarea zgomotului
+**** Folosirea filtrului trece-jos capacitiv pentru eliminarea zgomotului
 
 O aplicaţie frecvenţă a filtrului trece-jos capacitiv este în cadrul
 circuitelor ce prezintă componente sau secţiuni susceptibile zgomotului
@@ -209,7 +209,7 @@ Sumar:
    Peste acestă frecvenţa de tăiere, valoarea tensiunii de ieşire este
    sub 70.7% din tensiune de intrare, şi invers
 
-* Filtrul trece-sus
+** Filtrul trece-sus
 
 Filtrul trece-sus este exact opusul filtrului trece-jos, după cum
 sugerează şi numele: permite trecerea semnalelor de frecvenţă înaltă şi
@@ -217,7 +217,7 @@ blochează trecerea semnalelor de frecvenţă joasă. Modul de conectare al
 elementelor reactive în circuit este exact opus faţă de filtrele
 trece-jos.
 
-*** Filtrul trece-sus capacitiv
+**** Filtrul trece-sus capacitiv
 
 #+CAPTION: filtru trece-sus capacitiv
 [[../poze/02118.png]]
@@ -232,7 +232,7 @@ blocheaze semnalele de frecvenţă joasă ce ar putea ajunge pe sarcină.
 După cum se poate vedea în diagrama Bode, răspunsul filtrului capacitiv
 trece-sus creşte cu creşterea frecvenţei.
 
-*** Filtrul trece-sus inductiv
+**** Filtrul trece-sus inductiv
 
 #+CAPTION: filtru trece-sus inductiv
 [[../poze/02119.png]]
@@ -249,14 +249,14 @@ R_{1}.
 După cum se poate vedea în diagrama Bode, răspunsul filtrului inductiv
 trece-sus creşte cu creşterea frecvenţei.
 
-*** Comparaţie între filtrele trece-sus inductive şi capacitive
+**** Comparaţie între filtrele trece-sus inductive şi capacitive
 
 De data aceasta, schema filtrului capacitiv trece-sus este mai simplă
 decât cea inductivă, necesitând doar un singur component în plus, un
 condensator. Din nou, puritatea reactivă a condensatoarelor faţă de
 bobine face ca filtrele capacitive să fie cel mai des folosite.
 
-*** Frecvenţa de taiere
+**** Frecvenţa de taiere
 
 La fel ca în cazul filtrelor trece-jos, şi filtrele trece-sus au o
 /frecvenţă de tăiere/ specifică. Peste valoarea aceste frecvenţă,
@@ -271,7 +271,7 @@ cazul filtrelor trece-jos:
 Rezistenţa din formulă, în cazul circuitului capacitiv trece-sus, este
 chiar rezistenţa de sarcină:
 
-*** Filtrarea unui sistem audio
+**** Filtrarea unui sistem audio
 
 Să considerăm un sistem audio, ca şi exemplu. Un condensator conectat în
 serie cu tweeter-ul (înaltele) are rolul de filtru trece-sus, impunând
@@ -312,7 +312,7 @@ Sumar:
    intrare. Peste această frecvenţă de tăiere, tensiunea de ieşire este
    mai mare decât 70.7% din tensiunea de intrare, şi invers
 
-* Filtrul trece-bandă
+** Filtrul trece-bandă
 
 Există aplicaţii în care este nevoie de filtrarea unei anumite benzi de
 frecvenţe din totalul frecvenţelor prezente în semnal. Circuitele de
@@ -329,7 +329,7 @@ Rezultatul acestei combinaţii serie dintre cele două filtre este un
 circuit ce va permite trecerea acelor frecvenţe ce se regăsesc între
 cele două limite, nici mai mari, nici mai mici.
 
-*** Filtrul trece-bandă capacitiv
+**** Filtrul trece-bandă capacitiv
 
 Folosind componente reale, circuitul electric al filtrului trece-bandă
 asfel conceput, arată asfel:
@@ -347,7 +347,7 @@ trece-bandă compus dintr-un filtru trece-jos capacitiv şi un filtru
 #+CAPTION: trece-sus capacitiv conectate în serie
 [[../poze/22031.png]]
 
-*** Filtrul trece-bandă inductiv
+**** Filtrul trece-bandă inductiv
 
 Filtrele trece-bandă pot fi construite folosind elemente inductive, dar,
 după cum am mai menţionat, filtrele capacitive sunt preferate în locul
@@ -361,7 +361,7 @@ Faptul că filtrul trece-sus se află poziţionat înainte filtrului
 trece-jos, nu are nicio importanţă din punct de vedere al
 funcţionalităţii filtrului.
 
-*** Limitele unui asfel de filtru
+**** Limitele unui asfel de filtru
 
 Deşi idea combinării celor două filtre, trece-jos şi trece-sus,
 într-unul singur, pentru a realiza un filtru trece-bandă, este bună,
@@ -388,7 +388,7 @@ Sumar:
    unui filtru trece-jos şi a unui filtru trece-sus, indiferent de
    ordinea lor
 
-* Filtrul stop-bandă
+** Filtrul stop-bandă
 
 Filtrul stop-bandă permite trecerea tuturor frecvenţelor ce se află
 peste sau sub un anumit domeniu/bandă de frecvenţe determinat de
@@ -402,7 +402,7 @@ filtrului:
 în paralel a unui filtru trece-jos cu un filtru trece-sus
 [[../poze/02261.png]]
 
-*** Filtrul stop-bandă capacitiv
+**** Filtrul stop-bandă capacitiv
 
 Folosind componente reale, circuitul stop-bandă capacitiv arată în felul
 următor:
@@ -447,7 +447,7 @@ Sumar:
    configuraţie „T”, prin urmare, acest tip de filtru mai este cunoscut
    şi sub numele de „filtru stop-bandă în dublu-T”
 
-* Filtre rezonante
+** Filtre rezonante
 
 Filtrele considerate până în acest moment au fost compuse exclusiv din
 condensatoare /sau/ bobine, dar nu ambele tipuri de componente în
@@ -460,12 +460,12 @@ circuitele LC paralel impedanţă maximă la frecvenţa de rezonanţă. Există
 prin urmare două strategii de bază pentru construcţie filtrelor trece-
 respectiv stop-bandă.
 
-*** Filtrul trece-bandă rezonant
+**** Filtrul trece-bandă rezonant
 
 Pentru acest tip de filtru, există două strategii: circuit LC serie sau
 LC paralel.
 
-**** Filtrul trece-bandă în configuraţie LC serie
+***** Filtrul trece-bandă în configuraţie LC serie
 
 #+CAPTION: filtrul trece-bandă rezonant în configuraţie LC serie
 [[../poze/02124.png]]
@@ -491,7 +491,7 @@ influenţa în niciun fel frecvenţa de trecere. Totuşi, diferite valori
 ale rezistenţei de sarcină vor duce la modificarea pantei diagramei Bode
 („selectivitatea” filtrului).
 
-**** Filtrul trece-bandă în configuraţie LC paralel
+***** Filtrul trece-bandă în configuraţie LC paralel
 
 #+CAPTION: filtrul trece-bandă rezonant în configuraţie LC paralel
 [[../poze/02125.png]]
@@ -517,12 +517,12 @@ frecvenţe din cele recepţionate de antenă. Practic, se foloseşte un disc
 selector pentru alegerea postului de radio, disc ce modifică capacitatea
 unui condensator variabil dintr-un circuit LC paralel.
 
-*** Filtrul stop-bandă rezonant
+**** Filtrul stop-bandă rezonant
 
 Din nou, avem două strategii la dispoziţie, circuitul LC serie sau LC
 paralel.
 
-**** Filtrul stop-bandă rezonant în configuraţie LC serie
+***** Filtrul stop-bandă rezonant în configuraţie LC serie
 
 #+CAPTION: filtrul stop-bandă rezonant în configuraţie LC serie
 [[../poze/02126.png]]
@@ -536,7 +536,7 @@ tensiune regăsindu-se pe rezistorul R_{1}, iar semnalul nu este asfel
 #+CAPTION: configuraţie LC serie; diagrama Bode
 [[../poze/22035.png]]
 
-**** Filtrul stop-bandă rezonant în configuraţie LC paralel
+***** Filtrul stop-bandă rezonant în configuraţie LC paralel
 
 #+CAPTION: filtrul stop-bandă rezonant în configuraţie LC paralel
 [[../poze/02126.png]]
@@ -563,14 +563,14 @@ abilitatea filtrului de discriminare precisă a frecvenţelor, şi este
 posibilă introducerea efectelor antirezonante ce afectează frecvenţele
 de trecere.
 
-*** Filtre trece-jos şi trece-sus rezonante
+**** Filtre trece-jos şi trece-sus rezonante
 
 După ce am analizat filtrele standard RC şi LC trece-jos şi trece-sus,
 ne-am putea imagina că se poate realiza o proiectare mai eficientă a
 acestor tipuri de filtre combinând efectele condensatoarelor şi a
 bobinelor în acelaşi circuit.
 
-**** Filtru trece-jos capacitiv-inductiv
+***** Filtru trece-jos capacitiv-inductiv
 
 Bobinele ar trebui să blocheze trecerea frecvenţelor înalte, iar
 condensatorul ar trebui să blocheze şi el trecerea aceloraşi frecvenţe,

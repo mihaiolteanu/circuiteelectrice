@@ -1,4 +1,4 @@
-* Semnale digitale şi porţi
+** Semnale digitale şi porţi
 
 Deşi sistemul de numeraţie binar reprezintă un concept matematic
 abstract interesant, încă nu am spus nimic despre aplicaţiile practice
@@ -56,7 +56,7 @@ folosi pentru stocare (circuite de memorare) sau manipulare (circuite de
 calcul). Ieşirea fiecărei porţi reprezintă în acest caz un singur bit
 dintr-un număr binar compus din mai mulţi biţi.
 
-** Poarta inversoare (NU sau NOT)
+*** Poarta inversoare (NU sau NOT)
 
 #+CAPTION: poartă inversoare; simbol
 [[../poze/04070.png]]
@@ -84,7 +84,7 @@ porţii, lăsând doar triunghiul, acest simbol nu ar mai indica o
 inversare, ci o amplificare. Un astfel de simbol, şi o astfel de poartă
 chiar există, şi poartă numele de poarta ne-inversoare, sau buffer.
 
-** Poarta ne-inversoare (buffer)
+*** Poarta ne-inversoare (buffer)
 
 #+CAPTION: inversare dublă (două porţi inversoare conectate cap-coadă
 [[../poze/04087.png]]
@@ -100,7 +100,7 @@ Pentru acest scop, există o poartă logică separată, denumită buffer (sau
 poartă ne-inversoare). Simbolul este un triunghiu simplu, precum în
 figura alăturată.
 
-** Reprezentarea conexiunilor
+*** Reprezentarea conexiunilor
 
 Asemănător simbolului amplificatorului operational, conexiunile de
 intrare şi de ieşire sunt reprezentate printr-un singur fir, punct de
@@ -132,7 +132,7 @@ masa. Punctele marcate cu V_{cc} sunt toate conectate la acelaşi punct,
 iar acel punct este borna pozitivă a sursei de alimentare de curent
 continuu. Valoarea acesteia este de obicei de 5 V.
 
-** Tabelul de adevăr
+*** Tabelul de adevăr
 
 | Intrare   | Ieşire   |
 |-----------+----------|
@@ -163,7 +163,7 @@ Sumar:
    relaţiilor dintre mărimile de intrare şi cele de ieşire dintr-un
    circuit logic
 
-* Porţi logice cu două intrări
+** Porţi logice cu două intrări
 
 Având doar o intrare, singurele porţi „disponibile” sunt cele inversoare
 şi cele ne-inversoare. Pentru a lucra cu mai multe posibilităţi, trebuie
@@ -180,7 +180,7 @@ Datorită faptului că există aşa de multe posibilităţi folosind doar două
 terminale, există mai multe tipuri de porţi logice cu două intrări. Vom
 prezenta mai jos fiecare tip.
 
-** Poarta logică ŞI (AND)
+*** Poarta logică ŞI (AND)
 
 #+CAPTION: poarta logică ŞI cu două respectiv trei intrări; simbol
 [[../poze/04100.png]]
@@ -223,7 +223,7 @@ adevăr a porţii logice ŞI printr-un circuit practic
 LED-ul este alimentat cu energie electrică doar atunci când ambele
 intrări logice sunt 1.
 
-** Poarta logică ŞI-negat (NAND)
+*** Poarta logică ŞI-negat (NAND)
 
 #+CAPTION: circuitul echivalent al unei porţi logice ŞI negat (NAND)
 [[../poze/04106-1.png]]
@@ -251,7 +251,7 @@ pentru poarta ŞI.
 După câte se poate observa, principiul este asemănător: ieşirea este 1
 dacă toate intrările sunt 0 şi invers.
 
-** Poarta logică SAU (OR)
+*** Poarta logică SAU (OR)
 
 #+CAPTION: poarta logică SAU (OR); simbol
 [[../poze/04107.png]]
@@ -289,7 +289,7 @@ adevăr a porţii logice SAU printr-un circuit practic
 Dacă oricare dintre intrări se află în poziţia 1, LED-ul va fi alimentat
 cu energie electrică.
 
-** Poarta logică SAU negat (NOR)
+*** Poarta logică SAU negat (NOR)
 
 #+CAPTION: schema echivalentă a unei porţi SAU negate (NOR)
 [[../poze/04113-1.png]]
@@ -316,7 +316,7 @@ Tabelul de adevăr este exact invers faţă de cel al porţii SAU.
 Principiul de bază este următorul: ieşirea este zero dacă cel puţin una
 dintre intrări este 1 şi este 1 doar atunci când ambele intrări sunt 0.
 
-** Poarta logică ŞI negativă
+*** Poarta logică ŞI negativă
 
 #+CAPTION: schema echivalentă a unei porţi logice ŞI negative
 [[../poze/04114-1.png]]
@@ -341,7 +341,7 @@ Contrar intuiţiei, comportamentul logic al unei porţi ŞI negative nu
 este acelaşi cu al unei porţi ŞI negate. De fapt, tabelul său de adevăr
 este identic cu al unei porţi logic SAU negate.
 
-** Poarta logică SAU negativă
+*** Poarta logică SAU negativă
 
 #+CAPTION: schema echivalentă a unei porţi logice SAU negative
 [[../poze/04115-1.png]]
@@ -365,7 +365,7 @@ simbolizate prin cerculeţe.
 Comportamentul logic şi tabelul de adevăr este exact acelaşi cu al unei
 porţi logice ŞI-negat.
 
-** Poarta logică SAU-exlusiv (XOR)
+*** Poarta logică SAU-exlusiv (XOR)
 
 #+CAPTION: simbolul unei porţi logice SAU-exclusiv
 [[../poze/04116.png]]
@@ -417,7 +417,7 @@ de 1.
 Porţile SAU-exclusiv sunt utilizate în circuitele unde este necesară o
 comparaţie bit cu bine a două sau mai multe numere binare.
 
-** Poarta logică SAU-negat-exclusiv (XNOR)
+*** Poarta logică SAU-negat-exclusiv (XNOR)
 
 #+CAPTION: schema echivalentă a unei porţi logice SAU-negat-exclusiv
 [[../poze/04119-1.png]]
@@ -451,7 +451,7 @@ Sumar:
 -  Poarta logică SAU: ieşirea este 1 dacă intrarea A sau intrarea B este
    1
 
-* Principiul universalităţii
+** Principiul universalităţii
 
 Porţile logice ŞI-negat şi SAU-negat posedă o proprietate specială: sunt
 universale. Cu alte cuvinte, având un număr suficient de astfel de
@@ -465,7 +465,7 @@ fiind derivate prin interconectarea acestor tipuri de porţi.
 
 Vom lua mai jos câteva astfel de exemple.
 
-** Realizarea funcţiei NU
+*** Realizarea funcţiei NU
 
 Să revedem prima dată simbolul şi tabelul de adevăr pentru poarta NU:
 
@@ -493,7 +493,7 @@ exemplele ce urmează, se va folosi conectarea la masă a unuia dintre
 terminali (celălalt terminal de intrare va fi legat la sursa de
 alimentare). Funcţional, rezultatul este acelaşi.
 
-** Realizarea funcţiei ne-inversoare (buffer)
+*** Realizarea funcţiei ne-inversoare (buffer)
 
 Să revedem prima dată simbolul şi tabelul de adevăr pentru o poartă
 ne-inversoare:
@@ -513,7 +513,7 @@ Conform celor spuse mai sus, realizarea acestei funcţii folosind porţi
 logice ŞI-negat şi SAU-negat se realizează conectând două etaje
 împreună, conform figurii alăturate.
 
-** Realizarea funcţiei ŞI
+*** Realizarea funcţiei ŞI
 
 Simbolul şi tabelul de adevăr al porţii logice ŞI:
 
@@ -544,7 +544,7 @@ inversarea (poartă NU) tuturor intrărilor printr-o poartă SAU-negat. Din
 nou, am văzut mai sus cum se poate realiza o poartă NU dintr-o poartă
 SAU-negat.
 
-** Realizarea funcţiei ŞI-negat
+*** Realizarea funcţiei ŞI-negat
 
 | A   | B   | Ieşire   |
 |-----+-----+----------|
@@ -567,7 +567,7 @@ intrările cu o poartă SAU-negat, precum şi ieşirea acesteia din urmă (cu
 o poartă NU). Din nou, am văzut mai sus cum se poate realiza o poartă NU
 cu ajutorul porţii SAU-negat.
 
-** Realizarea funcţiei SAU
+*** Realizarea funcţiei SAU
 
 | A   | B   | Ieşire   |
 |-----+-----+----------|
@@ -601,7 +601,7 @@ comportă precum o poartă SAU-negat; şi, în fine, o poartă SAU se
 comportă precum o poartă ŞI-negat. În cadrul algebrei booleene, aceste
 transformări sunt cunoscute sub numele de „teorema lui DeMorgan”.
 
-** Realizarea funcţiei SAU-negat
+*** Realizarea funcţiei SAU-negat
 
 | A   | B   | Ieşire   |
 |-----+-----+----------|
@@ -625,7 +625,7 @@ Sumar:
 -  
 -  
 
-* Modul de împachetare
+** Modul de împachetare
 
 Circuitele digitale cu porţi logice sunt confecţionate ca şi circuite
 integrate: toţi tranzistori şi rezistorii ce intră în componenţa

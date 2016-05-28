@@ -1,4 +1,4 @@
-* Câmpuri şi capacitatea electrică
+** Câmpuri şi capacitatea electrică
 
 Atunci când între doi conductori există o tensiune electrică, spunem că
 există un câmp electric în spaţiul dintre ei. Vorbind de câmpuri ne
@@ -201,7 +201,7 @@ Sumar:
    numele de /capacitate/. Unitatea de măsură este Farad-ul (F)
 -  Denumirea nouă pentru /condensator/ este /capacitor/
 
-* Relaţia tensiune-curent pentru condensator
+** Relaţia tensiune-curent pentru condensator
 
 Condensatorii nu au o „rezistenţă” stabilă precum am rezistorii. Totuşi,
 există o relaţie matematică precisă între tensiunea şi curentului unui
@@ -339,7 +339,7 @@ curent cu semn negativ, indicând de fapt direcţia de deplasare a
 electronilor la descărcarea condensatorului, în sens opus faţă de
 încărcarea acestuia.
 
-* Factori ce afectează capacitatea electrică
+** Factori ce afectează capacitatea electrică
 
 Există trei factori de bază în construcţia condensatoarelor ce afectează
 valoarea capacităţii asfel create. Toţi aceşti factori afectează
@@ -347,7 +347,7 @@ valoarea fluxului de câmp (diferenţa relativă de electroni între
 armături) dezvoltat între armături pentru o anumită valoare a forţei
 câmpului electric.
 
-*** Aria armăturilor
+**** Aria armăturilor
 
 Toţi ceilalţi factori fiind egali, o aria mai mare a armăturilor se
 traduce printr-o capacitate mai mare a condensatorului; o arie mai mică
@@ -359,7 +359,7 @@ colectată pe armături) pentru o anumită valoare a forţei câmpului
 #+CAPTION: capacitatea condensatorului în funcţie de aria armăturilor
 [[../poze/00295.png]]
 
-*** Distanţa dintre armături
+**** Distanţa dintre armături
 
 Toţi ceialţi factori fiind egali, o distanţă mai mare între armături se
 traduce printr-o capacitate mai mică a condensatorului; o distanţă mai
@@ -373,7 +373,7 @@ oricare ar fi valoarea tensiunii aplicate pe armături.
 #+CAPTION: armături
 [[../poze/00296.png]]
 
-*** Materialul dielectric
+**** Materialul dielectric
 
 Toţi ceilalţi factori fiind egali, o permitivitate mai mare a
 materialului dielectric se traduce printr-o capacitate mai mare a
@@ -435,7 +435,7 @@ calculată cu următoarea formulă:
 #+CAPTION: formula de calcul a capacităţii condensatorului
 [[../poze/10230.png]]
 
-*** Condensatorul variabil
+**** Condensatorul variabil
 
 După modul de construire al condensatorului acesta poate fi fix
 (discutat mai sus), sau poate fi variabil. Cel mai uşor factor de
@@ -449,9 +449,9 @@ Pe măsură ce rotim axul, gradul de suprapunere al armăturilor variază,
 afectând aria efectivă în care poate exista campul electric între cele
 două armături.
 
-* Conectarea condensatorilor în serie şi paralel
+** Conectarea condensatorilor în serie şi paralel
 
-*** Conectarea în serie
+**** Conectarea în serie
 
 La conectarea condensatorilor în serie, capacitatea totală este mai mică
 decât capcitatea oricărui condensator individual. Dacă doi sau mai mulţi
@@ -472,7 +472,7 @@ paralel.
 #+CAPTION: formula capacităţii serie
 [[../poze/10231.png]]
 
-*** Conectarea în paralel
+**** Conectarea în paralel
 
 Atunci când conectarea condensatorilor se realizează în paralel,
 capacitatea echivalentă totală este suma capacităţilor individuale ale
@@ -498,13 +498,13 @@ Sumar:
 -  Capacităţile condensatorilor se reduc la conectarea în serie
 -  Capacităţile condensatorilor se adună la conectarea în paralel
 
-* Consideraţii practice (condensatorul)
+** Consideraţii practice (condensatorul)
 
 Condensatoarele, la fel ca toate celelalte componente, au unele limite
 de funcţionare şi utilizare. Acestea trebuie respectate dacă dorim o
 funcţionare corectă şi sigură a circuitelor electrice cu condensatoare.
 
-** Tensiunea maximă, polaritate şi condensatorul electrolitic
+*** Tensiunea maximă, polaritate şi condensatorul electrolitic
 
 Din moment ce condensatoarele nu sunt altceva decât doi conductori
 separaţi printr-un mediu dielectric, trebuie să fim atenţi la tensiunea
@@ -532,7 +532,7 @@ relativ la mărimea propriu-zisă a condensatorului. Din acelaşi motiv,
 condensatoarele electrolitice suportă tensiuni mici faţă de celelalte
 modele de condensatoare.
 
-** Circuitul echivalent al condensatorului
+*** Circuitul echivalent al condensatorului
 
 Din moment ce armăturile unui condensator prezintă o anumită rezistenţă
 electrică, şi, din moment ce niciun dielectric nu este un izolator
@@ -547,7 +547,7 @@ pur capacitive:
 Din fericirea, realizarea condensatoarelor cu o rezisteţă serie foarte
 mică şi rezistenţă de scurgere foarte mare, este relativ uşoară.
 
-** Mărimea fizică a condensatoarelor
+*** Mărimea fizică a condensatoarelor
 
 În majoritatea aplicaţiilor, mărimea (cât mai mică) joacă un rol
 ingineresc important. Cu cât componentele sunt mai mici, cu atât mai

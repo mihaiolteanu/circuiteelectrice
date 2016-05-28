@@ -1,6 +1,6 @@
-* Măsurarea tensiunii
+** Măsurarea tensiunii
 
-** Multimetrul analogic şi digital
+*** Multimetrul analogic şi digital
 
 Multimetrul este un instrument electric cu ajutorul căruia se poate
 măsura tensiunea, curentul şi rezistenţa. Multimetrele digitale dispun
@@ -18,7 +18,7 @@ multimetru analogic înainte de a achiziţiona unul digital. Până la urmă,
 ar fi bine să posedaţi ambele tipuri de aparate pentru realizarea
 acestor experimente.
 
-** Scopul experimentului
+*** Scopul experimentului
 
 În toate experimentele prezentate în această carte vom folosi un anumit
 echipament de test pentru determinarea unor aspecte ale electricităţii
@@ -43,7 +43,7 @@ scumpe, fiind analoage maşinilor cu schimbător automat. Un astfel de
 aparat de măsură „schimbă vitezele” automat pentru indentificarea celui
 mai bun domeniu de măsură în cazul fiecărei măsurători.
 
-** Bateria electrică
+*** Bateria electrică
 
 Poziţionaţi selectorul multimetrului vostru pe poziţia de curent
 continuu (DC), pe cea mai mare valoare disponibilă. În această situaţie,
@@ -74,7 +74,7 @@ bateriei pentru a obţine o indicaţie? Ce ne spune acest lucru despre
 utilizarea voltmetrului şi despre natura tensiunii? Există tensiune
 într-un singur punct?
 
-** Măsurarea căderii de tensiune produsă de un LED
+*** Măsurarea căderii de tensiune produsă de un LED
 
 Luaţi din nou multimetrul, şi poziţionaţi selectorul pe cea mai mică
 valoare (DC). Atingeţi cu cele două sonde terminalii unui LED. Un LED,
@@ -96,7 +96,7 @@ electrice. Acesta /transformă/ energia optică în energie electrică.
 Atâtă timp cât va exista o sursă de lumină întreptată asupra acestuia,
 LED-ul va produce tensiune.
 
-** Generatorul electric
+*** Generatorul electric
 
 O altă sursă potenţială de tensiune electrică prin transformarea
 energiei este generatorul. Luaţi un motor mic de curent continuu. Acesta
@@ -126,9 +126,9 @@ voltmetrul va indica „direcţia” normală a căderii de tensiune. Dacă
 polaritatea tensiunii aplicate este inversă (negativ pe sonda roşie şi
 pozitiv pe cea neagră), indicaţia aparatului de măsură va fi „inversă”.
 
-* Măsurarea rezistenţei
+** Măsurarea rezistenţei
 
-** Scopul experimentului
+*** Scopul experimentului
 
 Experimentul următor descrie modul în care putem măsura rezistenţa unor
 obiecte. Nu trebuie neapărat să aveţi toate obiectele descrise mai jos
@@ -141,7 +141,7 @@ substanţiale de tensiune folosind un multimetru setat pe funcţia
 cel mai posibil la distrugerea aparatului de măsură şi eventual la
 rănirea personală.
 
-** Exemplificare conceptului de puncte electric comune
+*** Exemplificare conceptului de puncte electric comune
 
 Setaţi multimetrul pe funcţia „Ω”, pe cea mai mare valoare disponibilă.
 În această situaţie, multimetrul îndeplineşte funcţia de ohmmetru.
@@ -194,7 +194,7 @@ analiza circuitelor şi depanarea lor. De exemplu, între două puncte
 electric comune, nu va exista niciodată o cădere de tensiune
 (substanţială).
 
-** Măsurarea unui rezistor
+*** Măsurarea unui rezistor
 
 Alegeţi, de exemplu, un rezistor de 10 kΩ dintr trusa voastră. Valoarea
 rezistenţei este indicată printr-o serie de bezi colorate: maro, negru,
@@ -239,7 +239,7 @@ dar s-ar putea să fie mult mai mare dacă măsurăm alţi rezistori.
 Încercaţi acest lucru dacă dispuneţi de mai mulţi rezistori, de mărimi
 şi precizii diferite.
 
-** Măsurarea rezistenţei corpului
+*** Măsurarea rezistenţei corpului
 
 Puteţi măsură în siguranţa rezistenţa propriului vostru corp. Ţineţi
 vârful uneia dintre sonde între degetele de la mâna, iar sonda cealaltă
@@ -261,14 +261,14 @@ cauzată de o deplasarea importantă de electroni prin corpului victimei,
 o creştere a rezistenţei corpului este o măsură excelentă de prevenire a
 accidentelor neplăcute.
 
-** Măsurarea rezistenţei diodei
+*** Măsurarea rezistenţei diodei
 
 Măsuraţi rezistenţa unei diode cu un ohmmetru. Încercaţi să inversaţi
 modul de conectare al sondelor pe terminalii diodei şi remăsuraţi
 rezistenţa. Care este diferenţa dintre diodă şi rezistenţa din acest
 punct de vedere?
 
-** Măsurarea rezistenţei grafitului
+*** Măsurarea rezistenţei grafitului
 
 Luaţi o foaie de hârtie şi trasaţi o linie groasă cu un creion (nu cu
 pix!). Măsuraţi rezistenţa liniei cu ajutorul ohmmetrului, poziţionând
@@ -284,7 +284,7 @@ linia, astfel încât densitatea ei să fie consistentă. Ce vă spune acest
 lucru despre legătura dintre rezistenţăşi lungimea unui material
 conductor?
 
-** Masurarea rezistenţei unei celule fotovoltaice
+*** Masurarea rezistenţei unei celule fotovoltaice
 
 Conectaţi sondele aparatului de măsură la bornele unei celule
 fotovoltaice de. Măsuraţi varianţia rezistenţei datorată diferitelor
@@ -309,9 +309,9 @@ Sumar:
 -  
 -  
 
-* Realizarea unui circuit simplu
+** Realizarea unui circuit simplu
 
-** Scopul experimentului
+*** Scopul experimentului
 
 În cele ce urmează vom realiza un circuit simplu, format dintr-un bec şi
 o baterie, precum cel prezentat în figura de mai jos:
@@ -344,7 +344,7 @@ prezentate mai jos ca să vă convingeţi de acest lucru:
 #+CAPTION: discontinuitatea unui circuit electric
 [[../poze/05050.png]]
 
-** Desfăşurarea experimentului
+*** Desfăşurarea experimentului
 
 Folosind multimetrul setat pe poziţia DC, măsuraţi căderea de tensiune
 la bornele bateriei, la bornele becului şi la capetele firului de
@@ -407,9 +407,9 @@ Sumar:
 -  
 -  
 
-* Măsurarea curentului
+** Măsurarea curentului
 
-** Scopul experimentului
+*** Scopul experimentului
 
 Următorul experiment are ca principal scop realizarea şi înţelegearea
 circuitului de mai jos:
@@ -422,7 +422,7 @@ Practic, circuitul de mai sus arată astfel:
 #+CAPTION: circuit electric simplu
 [[../poze/05057.png]]
 
-** Atenţie la scurt-circuitarea accidentală a ampermetrului
+*** Atenţie la scurt-circuitarea accidentală a ampermetrului
 
 Cea mai uitilizată metodă de măsurare a curentului constă în
 întreruperea circuitului şi introducerea unui ampermetru în serie cu
@@ -458,7 +458,7 @@ cele două sonde (şi prin siguranţa fuzibilă), astfel:
 #+CAPTION: circuit electric simplu
 [[../poze/05059.png]]
 
-** Desfăşurarea experimentului
+*** Desfăşurarea experimentului
 
 Realizaţi circuitul de mai sus constând dintr-o baterie şi un bec
 folosindu-vă de fire conductoare adiţionale. Utilizaţi aceste fire
@@ -516,9 +516,9 @@ Sumar:
 -  
 -  
 
-* Legea lui Ohm (experiment)
+** Legea lui Ohm (experiment)
 
-** Scopul experimentului
+*** Scopul experimentului
 
 În acest experiment vom încerca să ilustrăm „funcţionarea” legii lui
 Ohm, construind circuitul de mai jos:
@@ -531,7 +531,7 @@ Practic, circuitul va arăta astfel:
 #+CAPTION: circuit electric simplu
 [[../poze/05063.png]]
 
-** Desfăşurarea experimentului
+*** Desfăşurarea experimentului
 
 Alegeţi un rezistor din trusa voastră. Măsuraţi rezistenţa lui cu
 ajutorul multimetrului. Notaţi-vă rezultatul pentru a-l putea folosi pe
@@ -596,9 +596,9 @@ Sumar:
 -  
 -  
 
-* Rezistenţa non-liniară
+** Rezistenţa non-liniară
 
-** Scopul experimentului
+*** Scopul experimentului
 
 Vom încerca în cele ce urmează să arătăm că, în unele cazuri, valoarea
 rezistenţei nu este constantă. Pentru soluţionarea „misterului”
@@ -613,7 +613,7 @@ Practic, circuitul de mai sus va arăta astfel:
 #+CAPTION: circuit electric simplu
 [[../poze/05065.png]]
 
-** Desfăşurarea experimentului
+*** Desfăşurarea experimentului
 
 Măsuraţi rezistenţa becului cu ajutorul multimetrului. Valoarea acestei
 rezistenţe se datorează filamentului subţire din interiorul becului.
@@ -682,9 +682,9 @@ Sumar:
 -  
 -  
 
-* Disiparea puterii
+** Disiparea puterii
 
-** Scopul experimentului
+*** Scopul experimentului
 
 Pentru realizarea acestui experiment, veţi avea nevoie de doi rezistori
 cu o putere de 0,25 W: unul de 10 Ω şi celălalt de 330 Ω. Nu folosiţi o
@@ -706,7 +706,7 @@ Practic, circuitul va arăta conform figurii de mai jos. Atenţie însă, nu
 #+CAPTION: circuit electric simplu
 [[../poze/05123.png]]
 
-** Realizarea circuitului şi a măsurătorilor
+*** Realizarea circuitului şi a măsurătorilor
 
 Măsuraţi valoarea fiecărui rezistor cu ohmmetrul. Notaţi-vă valorile
 obţinute pentru a le putea folosi în viitor.
@@ -734,7 +734,7 @@ circuitul de mai jos:
 #+CAPTION: circuit electric simplu
 [[../poze/05124.png]]
 
-** Calcularea puterii disipate
+*** Calcularea puterii disipate
 
 Acum că avem toate datele necesare (rezistenţa, tensiune şi curent),
 putem calcula puterea disipată. Putem folosi oricare dintre cele trei
@@ -791,9 +791,9 @@ Sumar:
 -  
 -  
 
-* Circuit cu înrerupator
+** Circuit cu înrerupator
 
-** Scopul experimentului
+*** Scopul experimentului
 
 Utilizarea unui întrerupător într-un circuit simplu. Pentru acest
 experiment aveţi nevoie de un întrerupător simplu, mecanic (întrerupător
@@ -808,7 +808,7 @@ Practic, circuitul va arăta astfel:
 #+CAPTION: circuit electric cu întrerupător
 [[../poze/05067.png]]
 
-** Desfăşurarea experimentului
+*** Desfăşurarea experimentului
 
 Construiţi circuitul de mai sus format dintr-o baterie, un întrerupător
 şi un bec, precum în figura de mai sus. Acest circuit este cu atât mai
@@ -829,9 +829,9 @@ Sumar:
 -  
 -  
 
-* Realizarea unui electromagnet
+** Realizarea unui electromagnet
 
-** Scopul experimentului
+*** Scopul experimentului
 
 Aplicarea „regulii mâini stângi” şi realizarea practică a unui
 electromagnet. Veţi avea nevoie de un conductor lung de electromagnet.
@@ -854,7 +854,7 @@ Practic, circuitul va arăta astfel:
 #+CAPTION: circuit electric cu electromagnet
 [[../poze/05069.png]]
 
-** Desfăşurarea experimentului
+*** Desfăşurarea experimentului
 
 Înfăsuraţi pentru început o bandă izolatoare în jurul barei metalice
 (sau cui, ce aveţi la dispoziţie). Acest lucru va proteja conductorii
@@ -891,9 +891,9 @@ Sumar:
 -  
 -  
 
-* Inducţia electromagnetică
+** Inducţia electromagnetică
 
-** Scopul experimentului
+*** Scopul experimentului
 
 Experimentul de faţă este asemănător experimentului precedent. Veţi avea
 nevoie de un electromagnet şi un multimetru. Prin realizarea circuitului
@@ -917,7 +917,7 @@ magnetic este produs de un curent constant (curent continuu). Inducţia
 electromagnetică necesită o deplasare a magnetului sau a bobine pentru a
 produce o tensiune.
 
-** Desfăşurarea experimentului
+*** Desfăşurarea experimentului
 
 Conectaţi multimetrul la capetele înfăşurării. Selectaţi cea mai
 sensibilă scară de curent continuu disponibilă. Deplasaţi magnetul

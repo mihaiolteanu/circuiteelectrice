@@ -1,4 +1,4 @@
-* Ce este curentul alternativ
+** Ce este curentul alternativ
 
 În primul capitol am luat în considerare doar curentul continuu, termen
 folosit în electricitate pentru a defini deplasarea electronilor într-o
@@ -35,7 +35,7 @@ pot construi generatoare electrice, motoare electrice şi sisteme de
 distribuţie a energiei electrice mult superioare din punct de vedere al
 eficienţei faţă de curentul continuu.
 
-*** Generarea curentului alternativ
+**** Generarea curentului alternativ
 
 În cazul în care construim o maşină ce roteşte un câmp magnetic în jurul
 unui set de înfăşurări staţionare prin intermediul unui ax, vom constata
@@ -55,7 +55,7 @@ axului generatorului este mai mare, cu atât mai repede se roteşte şi
 magnetul; rezultatul este o tensiune şi curent alternativ ce-şi modifică
 direcţiile mult mai des în aceeiaşi perioadă de timp.
 
-*** Generarea curentului continuu
+**** Generarea curentului continuu
 
 Deşi generatoarele de curent continuu funcţionează pe baza aceluiaşi
 principiu al inducţiei electromagnetice ca şi generatoarele de curent
@@ -89,7 +89,7 @@ comutatoare pentru funcţionarea sa, şi este prin urmare imun la asfel de
 probleme. Avantajele curentului alternativ faţă de cel continuu se
 regăsesc şi în cazul confecţionării motoarelor electrice.
 
-*** Transformatorul
+**** Transformatorul
 
 Un alt domeniu de aplicare al curentului continuu se bazează pe un efect
 al electromagnetismului cunoscut sub denumirea de /inducţie mutuală/:
@@ -173,7 +173,7 @@ Sumar:
 -  Curentul din secundar = Curentul din primar (numărul de spire din
    primar / numărul de spire din secundar
 
-* Forme de undă în curent alternativ
+** Forme de undă în curent alternativ
 
 Datorită modului de producere al energiei electrice, unda produsă de
 modificarea continuă a polarităţii tensiunii, respectiv direcţiei
@@ -223,7 +223,7 @@ unde, măsurată în grade, este tot timpul 360, dar tipul ocupat de o
 singură perioadă depinde de rata variaţiei tensiunii de la o polaritate
 spre cealaltă.
 
-*** Frecvenţa
+**** Frecvenţa
 
 O metodă şi mai des folosită pentru a descrie alternanţa curentului
 alternativ este exact rata acestei oscilaţii, denumită /frecventă/,
@@ -242,7 +242,7 @@ egală cu inversul perioadei (f = 1 / T) De exemplu, pentru o perioadă T
 vizualizarea formelor de undă (a variaţiei tensiunii sau curentului cu
 timpul) se numeşte /osciloscop/
 
-*** Alte forme de undă
+**** Alte forme de undă
 
 Deşi generatoarele electromecanice şi multe alte fenomene fizice produc
 în mod natural forme de undă sinusoidale, acestea nu sunt singurele
@@ -276,7 +276,7 @@ Sumar:
    egal cu o perioadă efectuată într-un interval de o secundă
 -  f = 1 / T
 
-* Amplitudinea curentului alternativ
+** Amplitudinea curentului alternativ
 
 În curent continuu, unde valoarea tensiunii şi a curentului sunt
 constante în timp, exprimarea cantităţii acestora în orice moment este
@@ -339,7 +339,7 @@ unei forme de undă sinusoidală, considerând toate punctele de pe grafic
 #+CAPTION: ca fiind pozitive
 [[../poze/02413.png]]
 
-*** Valoarea efectivă a tensiunii sau a curentului (RMS)
+**** Valoarea efectivă a tensiunii sau a curentului (RMS)
 
 O altă metodă de aflare a valorii reale a amplitudinii unei unde se
 bazează pe capacitatea acesteia de a efectua lucru mecanic util atunci
@@ -490,7 +490,7 @@ Sumar:
 -  Factorul de formă a unei unde alternative este raportul dintre
    valoarea sa efectivă şi cea medie
 
-* Rezolvarea circuitelor simple de curent alternativ
+** Rezolvarea circuitelor simple de curent alternativ
 
 Rezolvarea circuitelor de curent alternativ se poate dovedi extrem de
 complexă în unele cazuri datorită comportamentului condensatoarelor şi
@@ -532,7 +532,7 @@ Sumar:
    circuitele complexe, cantiăţile folosite vor trebui să fie exprimate
    într-o formă matematică mai complexă
 
-* Fazele curentului alternativ
+** Fazele curentului alternativ
 
 Lucrurile încep să se complice atunci când trebuie să comparăm două sau
 mai multe forme de undă alternative ce sunt defazate între ele. Prin
@@ -604,14 +604,14 @@ Sumar:
    existente; matematic, acest lucru se realizează cu ajutorul numerelor
    complexe
 
-* Principii ale undelor radio
+** Principii ale undelor radio
 
 Una dintre cele mai fascinante aplicaţii a energiei electrice constă în
 generarea undelor invizibile de energie, şi anume, a undelor radio. Deşi
 subiectul este prea vast pentru a fi acoperit în acest scurt capitol,
 vom prezenta totuşi unele principii de bază.
 
-** Unde electromagnetice
+*** Unde electromagnetice
 
 Odată cu descoperirea accidentală a electromagnetismului de către
 Oersted, lumea ştiinţifică a realizat legătura strânsă dintre
@@ -648,7 +648,7 @@ razele-X şi radiaţia gamma. Singura diferenţă dintre aceste tipuri de
 radiaţie electromagnetică este frecvenţa lor de oscilaţie (schimbarea
 polarităţii câmpurilor electrice şi magnetice).
 
-** Crearea undelor electromagnetice cu ajutorul antenelor
+*** Crearea undelor electromagnetice cu ajutorul antenelor
 
 Folosind o sursă de tensiune de curent alternativ, şi un dispozitiv
 special ce poartă numele de /antenă/, putem crea unde electromagnetice
@@ -684,7 +684,7 @@ este valabil şi pentru antena cadru, cu deosebirea că aceasta radiază
 iniţial un câmp magnetic şi nu electric. Rezultatul final este însă
 acelaşi: producerea controlată a unui câmp electromagnetic.
 
-** Transmisia şi recepţia undelor electromagnetice
+*** Transmisia şi recepţia undelor electromagnetice
 
 Alimentată de o sursă de curent alternativ de frecvenţă înaltă, o antenă
 joacă rolul unui dispozitiv de transimisie. Tensiunea şi curentul

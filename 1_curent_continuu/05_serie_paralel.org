@@ -1,4 +1,4 @@
-* Ce sunt circuitele „serie” şi „paralel”
+** Ce sunt circuitele „serie” şi „paralel”
 
 Circuitele formate dintr-o singură baterie şi o singură rezistenţă sunt
 foarte uşor de analizat, dar nu sunt foarte des întâlnite în practică.
@@ -80,7 +80,7 @@ Sumar:
    curentului formată din cel puţin o sarcină (rezistenţă) din circuit.
 -  Legea lui Ohm: E = IR; I = E/R; R = E/I
 
-* Circuite serie simple
+** Circuite serie simple
 
 Să începem cu un circuit electric format dintr-o baterie şi trei
 rezistori:
@@ -227,7 +227,7 @@ Sumar:
    individuale de tensiune pe fiecare component în parte: E_{Total} =
    E_{1} + E_{2} + . . . E_{n}.
 
-* Circuite paralel simple
+** Circuite paralel simple
 
 Să începem cu un circuit paralel format din trei rezistori şi o singură
 baterie:
@@ -315,7 +315,7 @@ Sumar:
    individual prin fiecare ramură: I_{Total} = I_{1} + I_{2} + . . .
    I_{n}.
 
-* Conductanţa
+** Conductanţa
 
 Prin definiţie, rezistenţa este mărimea ce măsoară /frecarea/
 întâmpinată de electroni atunci când se deplasează prin componentul
@@ -385,7 +385,7 @@ Sumar:
    „Siemens”.
 -  Matematic, conductanţa este inversul rezistenţei: G=1/R
 
-* Calcularea puterii
+** Calcularea puterii
 
 La calcularea puterii disipate pe componentele rezistive, putem folosi
 oricare dintre ecuaţiile de putere în funcţie de mărimile cunoscute:
@@ -443,7 +443,7 @@ Sumar:
    suma puterilor individuale de pe fiecare componente:
    P_{total} = P_{1} + P_{2} + ... + P_{n}
 
-* Aplicarea corectă a legii lui Ohm
+** Aplicarea corectă a legii lui Ohm
 
 Una dintre cele mai frecvente greşeli ale începătorilor în aplicarea
 legii lui Ohm constă în utilizarea greşită a mărimilor pentru tensiune,
@@ -516,7 +516,7 @@ Sumar:
 -  Folosind metoda tabelului, vom aplica regulie circuitelor
    serie/paralel pe fiecare linie
 
-* Analiza circuitelor defecte
+** Analiza circuitelor defecte
 
 Sarcina unui tehnician presupune adesea localizarea şi remedierea sau
 înlocuirea componentelor dintr-un circuit defect. Identificarea
@@ -534,7 +534,7 @@ ansamblul său, indiferent de configuraţia acestuia. Vom explora unele
 dintre aceste efecte atât în cazul circuitelor serie cât şi în cazul
 circuitelor paralel.
 
-** Analiza defectelor într-un circuit serie simplu
+*** Analiza defectelor într-un circuit serie simplu
 
 #+CAPTION: circuit pur rezistiv serie
 [[../poze/00098.png]]
@@ -725,7 +725,7 @@ circuit necesară producerii unor căderi de tensiune pe rezistorii R_{1}
 sau R_{3}. În schimb, întreaga cădere de tensiune dezvoltată de baterie
 se va regăsi pe terminalele rezistorului R_{2}.
 
-** Analiza defectelor într-un circuit paralel simplu
+*** Analiza defectelor într-un circuit paralel simplu
 
 #+CAPTION: circuit pur rezistiv paralel
 [[../poze/00101.png]]
@@ -783,7 +783,7 @@ Să observăm prima dată comportamentul unui circuit paralel „sănătos”.
 #+CAPTION: circuit pur rezistiv paralel; deschiderea rezistenţei
 [[../poze/00102.png]]
 
-*** Înlăturarea rezistorului
+**** Înlăturarea rezistorului
 
 Să presupunem acum deschiderea rezistenţei R_{2} în acest circuit
 paralel.
@@ -857,7 +857,7 @@ celorlalte becuri nu este afectată; singurul lucru care se modifică este
 curentul prin acel bec (circuit de ramură) şi curentul total din
 circuit.
 
-*** Şuntarea rezistorului
+**** Şuntarea rezistorului
 
 #+CAPTION: circuit pur rezistiv paralel; şuntarea rezistorului
 [[../poze/00103.png]]
@@ -1019,7 +1019,7 @@ Sumar:
    decât dacă sunt supuşi unui stres fizic sau electric peste limitele
    normale de funcţionare
 
-* Construirea circuitelor rezistive simple
+** Construirea circuitelor rezistive simple
 
 Pe măsură ce studiaţi circuitele electrice, veţi dori probabil să
 construiţi propriile circuite utilizând baterii şi rezistori (becuri, de
@@ -1098,7 +1098,7 @@ asemenea, plăcile sunt limitate la curenţi destul de mici (sub 1 A).
 Acele arcuri metalice au o suprafaţă de contact destul de mică, prin
 urmare, nu pot suporta curenţi mari fără încălzirea lor excesivă.
 
-** Regleta de conexiuni
+*** Regleta de conexiuni
 
 O metodă alternativă constă în utilizarea unei reglete de conexiuni
 (regletă de borne). Acestea sunt compuse dintr-un material izolator

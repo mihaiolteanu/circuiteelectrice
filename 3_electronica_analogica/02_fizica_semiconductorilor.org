@@ -1,4 +1,4 @@
-* Fizica cuantică
+** Fizica cuantică
 
 Invenţia dispozitivelor semiconductoare a constituit cu siguranţă o nouă
 revoluţie industrială. Aceste dispozitive au făcut posibilă
@@ -18,7 +18,7 @@ semiconductoare. Majoritatea textelor de electronică încearcă să explice
 semiconductorii cu ajutorul fizicii „clasice”, lucru ce duce la o
 confuzie şi mai mare, nu la înţelegerea subiectului.
 
-*** Modelul atomului
+**** Modelul atomului
 
 Majoritatea dintre noi am văzut modele ale atomului care arată
 aproximativ asfel:
@@ -204,7 +204,7 @@ fi descris de patru numere cuantice, şi anume: număr cuantic principal,
 orbital, magnetic şi de spin. Toate aceste numere luate împreună
 determină starea unui electron la un moment dat.
 
-*** Numărul cuantic principal
+**** Numărul cuantic principal
 
 Simbolizat prin litera *n*, acest număr descrie /stratul/ pe care se
 află un electron. Învelişul electronic este un spaţiu din jurul
@@ -245,7 +245,7 @@ litere nu cu cifre. Primul strat (n=1) se notează cu litera K, al doilea
 (n=2) cu L, al treilea (n=3) cu M, al patrulea (n=4) cu M, al cincilea
 (n=5) cu O, al şaselea (n=6) cu P şi al şaptelea (n=7) cu Q.
 
-*** Numărul cuantic orbital
+**** Numărul cuantic orbital
 
 Fiecare strat este compus din /substraturi/. Substraturile sunt regiuni
 spaţiale ce descriu locul în care pot exista „nori” electronici iar
@@ -272,7 +272,7 @@ cuanti orbital. Asfel, primul strat (n=1) are un substrat, numerotat cu
 reprezentarea substraturilor atomului de Ag; notaţia spectroscopică
 [[../poze/03392.png]]
 
-*** Numărul cuantic magnetic
+**** Numărul cuantic magnetic
 
 Numărul cuantic magnetic al unui electron determină orientarea formei
 substratului. „Lobii” substraturile pot fi orientăţi în mai multe
@@ -289,7 +289,7 @@ un singur orbital, numerotat cu 0; al doilea substrat (l=1) al oricărui
 strat conţine trei orbitali, -1, 0, 1; al treilea substrat (l=2) conţine
 cinci orbitali, numerotaţi cu -2, -1, 0, 1 şi 2; etc.
 
-*** Numărul cuantic de spin
+**** Numărul cuantic de spin
 
 Proprietatea de „spin” a electronilor a fost descoperită pe cale
 experimentală. O observaţie mai atentă a liniilor spectrale a reliefat
@@ -303,7 +303,7 @@ Numărul de spin este simbolizat prin *m_{s}*. În fiecare orbital, din
 fiecare substrat al fiecărui strat, pot exista doi electroni, unul cu
 spin +1/2, iar celălalt cu spin -1/2.
 
-*** Principiul de excluziune al lui Pauli
+**** Principiul de excluziune al lui Pauli
 
 Explicarea aşezării electronilor în atom cu ajutorul acestor numere
 cuantice poartă numele de /principiul de excluziune al lui Pauli/. Acest
@@ -434,9 +434,9 @@ Sumar:
    ocupate complet nu au aproape niciun efect asupra formării
    legăturilor chimice ale elementelor
 
-* Valenţa şi structura cristalină
+** Valenţa şi structura cristalină
 
-*** Valenţa
+**** Valenţa
 
 Electronii din stratul exterior, sau stratul de valenţă, sunt cunoscuţi
 sub numele de electroni de /valenţă/. Aceşti electroni sunt responsabil
@@ -518,7 +518,7 @@ de valenţă; aceste elemente sunt studiate în electronică pentru
 #+CAPTION: proprietăţile lor semiconductoare
 [[../poze/03397.png]]
 
-*** Structura cristalină
+**** Structura cristalină
 
 Majoritatea substanţelor inorganice formează o structură ordonată
 denumită /cristal/ atunci când se formează legături între atomii sau
@@ -566,7 +566,7 @@ Sumar:
 -  Majoritatea dispozitivelor semiconductoare sunt confecţionate din
    monocristale
 
-* Teoria benzilor de energie
+** Teoria benzilor de energie
 
 Fizica cuantică descrie starea electronilor dintr-un atom cu ajutorul
 celor patru numere cuantice. Aceste numere descriu /stările permise/ ale
@@ -662,7 +662,7 @@ Sumar:
    valenţă şi banda de conducţie. Semiconductorii puri nu sunt nici buni
    izolatori, nici buni conductori
 
-* Electroni şi goluri
+** Electroni şi goluri
 
 Materialele semiconductoare pure sunt izolatori relativ buni, în
 comparaţie cu metalele, dar nu sunt la fel de bune precum sticla, de
@@ -716,7 +716,7 @@ unui material semiconductor este cunoscută sub numele de /dopare/.
 Doparea creşte conductivitatea semiconductorului, pentru ca acesta să se
 comporta mai mult ca un metal decât ca un izolator.
 
-*** Impuritatea donoare de tip N
+**** Impuritatea donoare de tip N
 
 Creşterea numărului sarcinilor electrice negative din structura
 cristalină a unui material semiconductor se poate realiza prin doparea
@@ -755,7 +755,7 @@ acceptorului de tip P (bor) şi a siliciului (pentru referinţă)
 (b)impuritatea donorului de tip N crează electroni liberi;
 (c)impuritatea acceptorului de tip P crează goluri [[../poze/03404.png]]
 
-*** Impuritatea acceptoare de tip P
+**** Impuritatea acceptoare de tip P
 
 De asemenea, este posibilă introducerea unei purităţi cu trei electroni
 în stratul de valenţă, adică un electron în minus faţă siliciu. Acest
@@ -779,7 +779,7 @@ elementele din grupa IIIA a tebelului periodic: B (bor), Al (aluminiu),
 Ga (galiu) şi In (indiu). Borul este folosit pe post de dopant pentru
 siliciu şi diamant, iar indiul pentru germaniu.
 
-*** Deplasarea electronilor şi a golurilor
+**** Deplasarea electronilor şi a golurilor
 
 Există o strânsă legătură, în analogia „mărgelelor dintr-un tub”, între
 deplasarea golurilor şi deplasarea electronilor. Mărgelele reprezintă
@@ -827,7 +827,7 @@ Sumar:
    semiconductorului. Un asfel de material este conductor, iar
    purtătorii de sarcină majoritari sunt în acest caz golurile
 
-* Joncţiunea P-N
+** Joncţiunea P-N
 
 Dacă un bloc de material semiconductor de tip P este adus în contact cu
 un bloc de material semiconductor de tip N (figura de mai jos (a)),
@@ -870,7 +870,7 @@ barierei de potenţial are loc în timpul procesului de fabricaţie.
 fabricarea acestuia. Joncţiunile PN din siliciu au o barieră de
 potenţial mai ridicată decât joncţiunile fabricate din germaniu.
 
-*** Polarizarea directă a joncţiunii PN
+**** Polarizarea directă a joncţiunii PN
 
 În figura de mai jos (a), bateria este poziţionată asfel încât
 electronii să se deplaseze dinspre terminalul negativ înspre materialul
@@ -891,7 +891,7 @@ spunem că o asfel de joncţiune este polarizată direct.
 #+CAPTION: polarizarea directă a joncţiunii PN
 [[../poze/03409.png]]
 
-*** Polarizarea inversă a joncţiunii PN
+**** Polarizarea inversă a joncţiunii PN
 
 Dacă polaritatea bateriei este inversată (figura de sus (b)),
 majoritatea purtătorilor de sarcină vor fi atraşi dinspre joncţiune spre
@@ -919,7 +919,7 @@ Sumar:
 -  Joncţiunea PN polarizată direct, conduce curent electric
 -  Joncţiunea PN polarizată învers, nu conduce aproape deloc curent
 
-* Dioda
+** Dioda
 
 După cum am precizat şi în secţiunea precedentă, dioda este realizată
 prin introducerea de impurităţi de tip N şi P în acelaşi cristal
@@ -975,7 +975,7 @@ tipuri de curenţi de dispersie cresc odată cu creşterea temperaturii. În
 cazul germaniului, curentul de dispersie este de câteva ori mai mare
 decât în cazul siliciului.
 
-*** Dioda cu joncţiune
+**** Dioda cu joncţiune
 
 Deşi la început, cea mai folosită diodă a fost diodă cu contact
 punctiform (figura de mai jos, (a)), majoritatea diodelor folosite
@@ -1012,7 +1012,7 @@ Sumar:
 -  
 -  
 
-* Tranzistorul bipolar cu joncţiune (BJT)
+** Tranzistorul bipolar cu joncţiune (BJT)
 
 Primul tranzistor bipolar a fost inventat la „Bell Labs” de către
 William Shockley, Walter Brattain, şi John Bardeen în 1948 (de fapt,
@@ -1135,7 +1135,7 @@ Faptul că baza este subţire iar emitorul puternic dopat, ţin foarte sus
 ramificaţiei curentului emitorului de 100% în 1% bază şi 99% colector.
 Eficienţă emitorului este cunoscută ca şi α = I_{C}/I_{E}.
 
-*** Joncţiunea PNP
+**** Joncţiunea PNP
 
 Tranzistoarele bipolare pot fi confencţionate şi sub forma PNP.
 Diferenţa dintre PNP şi NPN poate fi văzută în figura de mai jos:
@@ -1153,7 +1153,7 @@ Colectorul nu este reprezentat în niciunul dintre cazuri cu ajutorul
 vreunei săgeţi. Totuşi, polaritatea joncţiunii bază-colector este
 aceeiaşi cu polaritatea joncţiunii bază-emitor în comparaţie cu o diodă.
 
-*** Structura
+**** Structura
 
 Emitorul tranzistorului bipolar cu joncţiune de mai jos este puternic
 dopat, după cum indică şi notaţia N^{+}. Baza are un nivel de dopaj P
@@ -1212,7 +1212,7 @@ Sumar:
    β=I_{C}/I_{B}, iar valoarea ei este de la 100 la 300 pentru
    tranzistorii mici
 
-* Tranzistorul cu efect de câmp (JFET)
+** Tranzistorul cu efect de câmp (JFET)
 
 Tranzistorul cu efect de câmp a fost propus de Julius Liliendfel în 1926
 şi 1933 sub formă de patent. Shockley, Brattain şi Bardeen au investigat
@@ -1323,7 +1323,7 @@ variaţia tensiunii de polarizare înversă a porţii (P). O sarcină
 conectată în serie cu bateria „vede” o versiune amplificată a variaţiei
 tensiunii de pe poartă.
 
-*** Tranzistorul cu efect de câmp cu canal de tip P
+**** Tranzistorul cu efect de câmp cu canal de tip P
 
 Tranzistoarele cu efect de câmp pot fi realizate şi cu canal de tip P,
 ceea ce înseamnă ca poarta este realizată dintr-un material
@@ -1341,7 +1341,7 @@ tip N; (b) simbolul schematic - direcţia săgeţii porţii este inversată
 Modul de funcţionare este asemănător tranzistorului cu efect de câmp cu
 canal de tip N prezentat mai sus.
 
-*** Modul de confecţionare
+**** Modul de confecţionare
 
 Dispozitivele discrete sunt confecţionate conform figurii de mai jos
 (a), iar circuitele integrate cu tranzistoare cu efect de câmp, sunt
@@ -1366,7 +1366,7 @@ Sumar:
 -  Polarizarea inversă a porţii duce la variaţia rezistenţei canalului
    prin extinderea zonei de golire
 
-* Tranzistorul cu efect de câmp cu poartă izolată (MOSFET)
+** Tranzistorul cu efect de câmp cu poartă izolată (MOSFET)
 
 Tranzistorul cu efect de câmp cu poartă izolată (IGFET), cunoscut şi sub
 numele de „tranzistor cu efect de câmp cu metal oxid” (MOSFET), este un
@@ -1424,7 +1424,7 @@ tensiune aplicată porţii controlează curentul dinspre sursă spre drenă.
 Poarta nu necesită un curent permanent, ci are nevoie doar de un curent
 iniţial pentru încărcarea condensatorului porţii.
 
-*** Modul de confecţionare
+**** Modul de confecţionare
 
 Secţiunea transversală a unui MOSFET de tip N este prezentată în figura
 de mai jos (a). Sursa şi drena sunt dopate puternic, N^{+}, pentru
@@ -1465,7 +1465,7 @@ Sumar:
    funcţionării, ci doar prezenţa unui curent iniţial pentru încărcarea
    „condensatorului”
 
-* Tiristorul
+** Tiristorul
 
 Tiristoarele reprezintă o plajă largă de dispozitive semiconductoare
 bipolare folosind patru (sau mai multe) straturi alternante N-P-N-P. În
@@ -1498,7 +1498,7 @@ poartă, Odată ce un dispozitiv SCR începe să conducă, o va face atâta
 timp cât este prezentă o tensiune pe anod (infinit, în cazul circuitului
 cu baterie de mai sus).
 
-*** Modul de confencţionare
+**** Modul de confencţionare
 
 Catodul unui SCR, ce corespunde emitorului echivalent al tranzistorului
 NPN este puternic dopat, N^{+}. Anodul, ce corespunde emitorului
