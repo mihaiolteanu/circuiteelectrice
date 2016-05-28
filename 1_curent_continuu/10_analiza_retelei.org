@@ -162,10 +162,13 @@ sens invers acelor de ceasornic până ajungem în punctul de unde am
 plecat:
 
 #+CAPTION: circuit electric
-[[../poze/00384.png]] #+CAPTION: circuit
+[[../poze/00384.png]] 
+#+CAPTION: circuit
 #+CAPTION: electric
-[[../poze/00385.png]] #+CAPTION: circuit electric
-[[../poze/00386.png]] #+CAPTION: circuit electric [[../poze/00387.png]]
+[[../poze/00385.png]] 
+#+CAPTION: circuit electric
+[[../poze/00386.png]] 
+#+CAPTION: circuit electric [[../poze/00387.png]]
 
 După ce am percurs întreaga buclă din stânga, adunăm aceste valori ale
 tensiunii pentru a forma o ecuaţie:
@@ -201,10 +204,13 @@ Aplicând aceeiaşi paşi şi pentru bucla din dreapta, obţinem o altă
 ecuaţie.
 
 #+CAPTION: circuit electric
-[[../poze/00388.png]] #+CAPTION: circuit
+[[../poze/00388.png]] 
+#+CAPTION: circuit
 #+CAPTION: electric
-[[../poze/00389.png]] #+CAPTION: circuit electric
-[[../poze/00390.png]] #+CAPTION: circuit electric [[../poze/00391.png]]
+[[../poze/00389.png]] 
+#+CAPTION: circuit electric
+[[../poze/00390.png]] 
+#+CAPTION: circuit electric [[../poze/00391.png]]
 #+CAPTION: calcul matematic
 [[../poze/10175.png]]
 
@@ -430,7 +436,8 @@ la I_{1} la I_{5}) şi prin urmare 5 ecuaţii pentru aflarea soluţiei,
 două pentru LKC şi trei pentru LKT:
 
 #+CAPTION: circuit electric
-[[../poze/00221.png]] #+CAPTION: formule
+[[../poze/00221.png]] 
+#+CAPTION: formule
 [[../poze/10186.png]]
 
 În schimb, folosind metoda buclei de curent avem doar trei necunoscute
@@ -438,7 +445,8 @@ două pentru LKC şi trei pentru LKT:
 ceea ce constituie un avantaj:
 
 #+CAPTION: circuit electric
-[[../poze/00222.png]] #+CAPTION: formule
+[[../poze/00222.png]] 
+#+CAPTION: formule
 [[../poze/10187.png]]
 
 Sumar:
@@ -769,14 +777,16 @@ Analizând circuitul în care acţionează doar bateria de 28 de volţi,
 obţinem următoarele valori pentru tensiune şi curent:
 
 #+CAPTION: tabel
-[[../poze/10192.png]] #+CAPTION: circuit electric
+[[../poze/10192.png]] 
+#+CAPTION: circuit electric
 [[../poze/00229.png]]
 
 Analizând circuitul în care acţionează doar bateria de 7 de volţi,
 obţinem următoarele valori pentru tensiune şi curent:
 
 #+CAPTION: tabel
-[[../poze/10193.png]] #+CAPTION: circuit electric
+[[../poze/10193.png]] 
+#+CAPTION: circuit electric
 [[../poze/00230.png]]
 
 Atunci când realizăm suprapunerea, trebuie să fim foarte atenţi la
@@ -914,7 +924,8 @@ baterii; putem aplica prin urmare regulile circuitelor serie, legea lui
 ohm şi legea lui Kirchhoff pentru tensiune:
 
 #+CAPTION: tabel
-[[../poze/10194.png]] #+CAPTION: circuit electric
+[[../poze/10194.png]] 
+#+CAPTION: circuit electric
 [[../poze/00238.png]]
 
 Căderea de tensiune între cele două puncte ale sarcinii poate fi dedusă
@@ -1100,9 +1111,11 @@ Metoda de calcuare a rezistenţei este aceeiaşi în ambele cazuri:
 prin urmare egale:
 
 #+CAPTION: circuit electric
-[[../poze/00241.png]] #+CAPTION: circuit
+[[../poze/00241.png]] 
+#+CAPTION: circuit
 #+CAPTION: electric
-[[../poze/00245.png]] #+CAPTION: formulă [[../poze/10197.png]]
+[[../poze/00245.png]] 
+#+CAPTION: formulă [[../poze/10197.png]]
 
 Luând în considerare faptul că ambele circuite echivalente sunt gândite
 să se comporte asemenea reţelei originale în ceea ce priveşte
@@ -1208,7 +1221,8 @@ Folosim legea lui Ohm pentru aflarea căderii de tensiune pe aceste două
 componente (E=IR):
 
 #+CAPTION: formulă
-[[../poze/10202.png]] #+CAPTION: circuit electric
+[[../poze/10202.png]] 
+#+CAPTION: circuit electric
 [[../poze/00248.png]]
 
 Pe scurt, ştim despre acest circuit că valoarea totală a curentul este
@@ -1351,7 +1365,8 @@ După efectuarea corectă a calculelor, căderile de tensiune între
 punctele A, B şi C vor fi aceleaşi în ambele circuite
 
 #+CAPTION: formule
-[[../poze/10208.png]] #+CAPTION: circuit electric
+[[../poze/10208.png]] 
+#+CAPTION: circuit electric
 [[../poze/00254.png]]
 
 Desigur, valorile rezistorilor R_{4} şi R_{5} rămân aceleşi, 18 Ω
@@ -1367,7 +1382,8 @@ atenţi la adunarea sau scăderea lor (precum este cazul tensiunii între
 punctele B şi C):
 
 #+CAPTION: circuit electric
-[[../poze/00255.png]] #+CAPTION: formule
+[[../poze/00255.png]] 
+#+CAPTION: formule
 [[../poze/10210.png]]
 
 Cu valorile acestor căderi de tensiune aflate, putem trece la circuitul

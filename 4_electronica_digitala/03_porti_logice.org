@@ -208,12 +208,15 @@ ieşire, se foloseşte un LED:
 
 #+CAPTION: exemplificarea tabelului de adevăr a porţii logice ŞI
 #+CAPTION: printr-un circuit practic
-[[../poze/04102.png]] #+CAPTION:
+[[../poze/04102.png]] 
+#+CAPTION:
 exemplificarea tabelului de adevăr a porţii logice ŞI printr-un circuit
 #+CAPTION: practic
-[[../poze/04103.png]] #+CAPTION: exemplificarea tabelului de
+[[../poze/04103.png]] 
+#+CAPTION: exemplificarea tabelului de
 adevăr a porţii logice ŞI printr-un circuit practic
-[[../poze/04104.png]] #+CAPTION: exemplificarea tabelului de adevăr a
+[[../poze/04104.png]] 
+#+CAPTION: exemplificarea tabelului de adevăr a
 #+CAPTION: porţii logice ŞI printr-un circuit practic
 [[../poze/04105.png]]
 
@@ -271,12 +274,15 @@ vizuală a ieşirii este furnizată de un LED:
 
 #+CAPTION: exemplificarea tabelului de adevăr a porţii logice SAU
 #+CAPTION: printr0un circuit practic
-[[../poze/04109.png]] #+CAPTION:
+[[../poze/04109.png]] 
+#+CAPTION:
 exemplificarea tabelului de adevăr a porţii logice SAU printr-un circuit
 #+CAPTION: practic
-[[../poze/04110.png]] #+CAPTION: exemplificarea tabelului de
+[[../poze/04110.png]] 
+#+CAPTION: exemplificarea tabelului de
 adevăr a porţii logice SAU printr-un circuit practic
-[[../poze/04111.png]] #+CAPTION: exemplificarea tabelului de adevăr a
+[[../poze/04111.png]] 
+#+CAPTION: exemplificarea tabelului de adevăr a
 #+CAPTION: porţii logice SAU printr-un circuit practic
 [[../poze/04112.png]]
 

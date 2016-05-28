@@ -121,7 +121,8 @@ distribuite, prevenind creşterea curentului spre infinit.
 
 #+CAPTION: circuit electric simplu format din baterie şi întrerupător şi
 conductori de lungime infinită; capacităţile şi inductanţele parazite
-[[../poze/02357.png]] #+CAPTION: circuit electric simplu format din
+[[../poze/02357.png]] 
+#+CAPTION: circuit electric simplu format din
 baterie şi întrerupător şi conductori de lungime infinită; închiderea
 întrerupătorului şi apariţia câpurilor electrice şi magnetice
 [[../poze/02358.png]]
@@ -135,10 +136,12 @@ inductanţelor distribuite, asfel:
 
 #+CAPTION: linie electrică lungă neîncărcată; închiderea
 #+CAPTION: întrerupătorului şi propagarea undei
-[[../poze/02361.png]] #+CAPTION:
+[[../poze/02361.png]] 
+#+CAPTION:
 linie electrică lungă neîncărcată; închiderea întrerupătorului şi
 #+CAPTION: propagarea undei
-[[../poze/02362.png]] #+CAPTION: linie electrică lungă
+[[../poze/02362.png]] 
+#+CAPTION: linie electrică lungă
 neîncărcată; închiderea întrerupătorului şi propagarea undei cu
 #+CAPTION: aproximativ viteza luminii
 [[../poze/02363.png]]

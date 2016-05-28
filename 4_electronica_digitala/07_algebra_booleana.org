@@ -56,11 +56,14 @@ cuvinte, adunarea booleană corespunde funcţiei logice a porţii SAU,
 precum şi comutatoarelor conectate în paralel:
 
 #+CAPTION: poartă logică SAU şi comutatoare paralel (0 + 0)
-[[../poze/14009.png]] #+CAPTION: poartă logică SAU şi comutatoare
+[[../poze/14009.png]] 
+#+CAPTION: poartă logică SAU şi comutatoare
 #+CAPTION: paralel (0 + 1)
-[[../poze/14010.png]] #+CAPTION: poartă logică SAU şi
+[[../poze/14010.png]] 
+#+CAPTION: poartă logică SAU şi
 #+CAPTION: comutatoare paralel (1 + 0)
-[[../poze/14011.png]] #+CAPTION: poartă
+[[../poze/14011.png]] 
+#+CAPTION: poartă
 #+CAPTION: logică SAU şi comutatoare paralel (1 + 1)
 [[../poze/14012.png]]
 
@@ -89,10 +92,12 @@ se regăsesc în tabelul de adevăr al porţii ŞI. Cu alte cuvinte,
 comutatoarelor conectate în serie:
 
 #+CAPTION: poartă logică ŞI şi comutatoare serie (0 x 0)
-[[../poze/14013.png]] #+CAPTION: poartă logică ŞI şi comutatoare serie
+[[../poze/14013.png]] 
+#+CAPTION: poartă logică ŞI şi comutatoare serie
 (0 x 1) [[../poze/14014.png]] #+CAPTION: poartă logică ŞI şi comutatoare
 #+CAPTION: serie (1 x 0)
-[[../poze/14015.png]] #+CAPTION: poartă logică ŞI şi
+[[../poze/14015.png]] 
+#+CAPTION: poartă logică ŞI şi
 #+CAPTION: comutatoare serie (1 x 1)
 [[../poze/14016.png]]
 
@@ -119,7 +124,8 @@ un contact normal-închis:
 
 #+CAPTION: complementul unei variabile booleene; poartă logică SAU şi
 #+CAPTION: contact normal-închis
-[[../poze/14017.png]] #+CAPTION: complementul unei
+[[../poze/14017.png]] 
+#+CAPTION: complementul unei
 variabile booleene; poartă logică SAU şi contact normal-închis
 [[../poze/14018.png]]
 
@@ -197,7 +203,8 @@ identităţile echivalente ale algebrei numerelor reale:
 
 #+CAPTION: identităţi algebrice multiplicative: produsul dintre o
 #+CAPTION: variabilă şi zero
-[[../poze/14023.png]] #+CAPTION: identităţi algebrice
+[[../poze/14023.png]] 
+#+CAPTION: identităţi algebrice
 #+CAPTION: multiplicative: produsul dintre o variabilă şi unu
 [[../poze/14024.png]]
 

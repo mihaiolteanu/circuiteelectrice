@@ -25,7 +25,8 @@ siguranţă fuzibilă corespunzătoare.
 Circuitul final va arăta astfel:
 
 #+CAPTION: sursă de tensiune joasă de curent alternativ
-[[../poze/05001.png]] #+CAPTION: sursă de tensiune joasă de curent
+[[../poze/05001.png]] 
+#+CAPTION: sursă de tensiune joasă de curent
 #+CAPTION: alternativ
 [[../poze/05002.png]]
 
@@ -156,7 +157,8 @@ carton; conductor de cupru pentru magnet/transformator de 0,32 mm; sursă
 de tensiune de c.a. şi un bec. Schema electrică realizată arată astfel:
 
 #+CAPTION: circuit cu bobină variabilă
-[[../poze/05006.png]] #+CAPTION:
+[[../poze/05006.png]] 
+#+CAPTION:
 #+CAPTION: circuit cu bobină variabilă
 [[../poze/05007.png]]
 
@@ -208,7 +210,8 @@ de transformator audio, sau puteţi folosi un transformator de putere
 (220 V/6 V). Circuitul realiza arată astfel:
 
 #+CAPTION: detector audio de semnal
-[[../poze/05009.png]] #+CAPTION:
+[[../poze/05009.png]] 
+#+CAPTION:
 #+CAPTION: detector audio de semnal
 [[../poze/05010.png]]
 
@@ -243,7 +246,8 @@ acestuia. Acest lucru se poate realiza prin conectarea unui divizor de
 tensiune la intrarea circuitului:
 
 #+CAPTION: atenuarea sensibilităţii detetorului audio
-[[../poze/05012.png]] #+CAPTION: atenuarea sensibilităţii detetorului
+[[../poze/05012.png]] 
+#+CAPTION: atenuarea sensibilităţii detetorului
 #+CAPTION: audio
 [[../poze/05014.png]]
 
@@ -288,7 +292,8 @@ un solenoid (bobină cilindrică fără miez magnetic) este perfectă pentru
 această aplicaţie. Circuitul realizat arată astfel:
 
 #+CAPTION: circuit de detectare a câpurilor electromagnetice
-[[../poze/05015.png]] #+CAPTION: circuit de detectare a câpurilor
+[[../poze/05015.png]] 
+#+CAPTION: circuit de detectare a câpurilor
 #+CAPTION: electromagnetice
 [[../poze/05016.png]]
 
@@ -349,7 +354,8 @@ electrostatică.
 Detector audio cu căşti. Circuitul realizat arată astfel:
 
 #+CAPTION: detector de câpuri electrice
-[[../poze/05017.png]] #+CAPTION:
+[[../poze/05017.png]] 
+#+CAPTION:
 #+CAPTION: detector de câpuri electrice
 [[../poze/05018.png]]
 

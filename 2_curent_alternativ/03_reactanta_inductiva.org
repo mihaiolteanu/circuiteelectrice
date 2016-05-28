@@ -206,7 +206,8 @@ calcul în curent continuu, sau în circuitele rezistive în curent
 alternativ; să considerăm un exemplu:
 
 #+CAPTION: circuit electri în curent alternativ pur inductiv
-[[../poze/02060.png]] #+CAPTION: formule [[../poze/12018.png]]
+[[../poze/02060.png]] 
+#+CAPTION: formule [[../poze/12018.png]]
 
 Totuşi, trebuie să fim atenţi la faptul că tensiunea şi curentul nu sunt
 în fază în acest caz. După cum am văzut, diferenţa de fază dintre cele
@@ -215,7 +216,8 @@ matematic, sub forma numerelor complexe, observăm că opoziţia unei
 bobine faţă de curent posedă şi un unghi al fazei:
 
 #+CAPTION: formule
-[[../poze/12019.png]] #+CAPTION: curentul este în
+[[../poze/12019.png]] 
+#+CAPTION: curentul este în
 #+CAPTION: urma tensiunii în cazul bobinei
 [[../poze/02061.png]]
 

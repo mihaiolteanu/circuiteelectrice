@@ -283,7 +283,8 @@ valoare mai mare; curentul prin condensator va fi şi el mai mare în
 acest caz:
 
 #+CAPTION: circuit electric
-[[../poze/00400.png]] #+CAPTION: tensiunea
+[[../poze/00400.png]] 
+#+CAPTION: tensiunea
 #+CAPTION: şi curentul printr-un condensator
 [[../poze/00401.png]]
 

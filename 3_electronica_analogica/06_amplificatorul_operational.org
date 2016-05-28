@@ -420,7 +420,8 @@ reacţiei negative la exact 0 V.
 
 #+CAPTION: amplificator operaţional cu recţie negativă; diferenţa de
 tensiune dintre cele două intrări este foarte aproape de zero volţi
-[[../poze/03035.png]] #+CAPTION: aproximarea efectelor unui amplificator
+[[../poze/03035.png]] 
+#+CAPTION: aproximarea efectelor unui amplificator
 #+CAPTION: operaţional cu reacţie negativă
 [[../poze/03036.png]]
 

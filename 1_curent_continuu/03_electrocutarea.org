@@ -602,7 +602,8 @@ Valoarea totală a rezistenţelor conectate în serie este mai mare decât
 valoarea oricărei rezistenţe luată individual (link!).
 
 #+CAPTION: rezistenţa corpului într-un circuit electric
-[[../poze/00062.png]] #+CAPTION: persoanele ce intră în contact direct
+[[../poze/00062.png]] 
+#+CAPTION: persoanele ce intră în contact direct
 cu sursele de tensiune: curentul este limitat doar de rezistenţa
 #+CAPTION: corpului
 [[../poze/10029.png]]
@@ -612,7 +613,8 @@ purtând mănuşi şi încălţăminte de protecţie (izolate electric):
 
 #+CAPTION: rezistenţa corpului plus cea a încălţăminte şi mănuşilor de
 #+CAPTION: protecţie într-un circuit electric
-[[../poze/00063.png]] #+CAPTION:
+[[../poze/00063.png]] 
+#+CAPTION:
 persoanele ce poartă mănuşi şi încălţăminte de protecţie: curentul este
 limitat acum de valoarea totală a rezistenţei din circuit
 [[../poze/10030.png]]

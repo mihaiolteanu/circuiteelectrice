@@ -170,7 +170,8 @@ locurile libere de pe placă, pentru a putea conecta sondele aparatului
 de măsură la placă. Testaţi continuitatea lor.
 
 #+CAPTION: măsurarea continuităţii unei plăci electronice de test
-[[../poze/05041.png]] #+CAPTION: măsurarea continuităţii unei plăci
+[[../poze/05041.png]] 
+#+CAPTION: măsurarea continuităţii unei plăci
 #+CAPTION: electronice de test
 [[../poze/05042.png]]
 

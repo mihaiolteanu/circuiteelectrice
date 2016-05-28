@@ -118,7 +118,8 @@ cazul în care Σ = a + b + C_{in} şi Σ_{1} = a + b, atunci Σ = Σ_{1} +
 C_{in}:
 
 #+CAPTION: full-adder
-[[../poze/04455.png]] #+CAPTION: diagramă ladder
+[[../poze/04455.png]] 
+#+CAPTION: diagramă ladder
 [[../poze/04476.png]]
 
 La ce ne ajută însă C_{1} şi C_{2}? Să analizăm rezultatul adunării
@@ -141,7 +142,8 @@ avem C_{1} sau (Σ_{1} şi C_{in}). Sumatorul nostru complet (full-adder)
 cu trei intrări, arată astfel:
 
 #+CAPTION: full-adder
-[[../poze/04456.png]] #+CAPTION: diagramă ladder
+[[../poze/04456.png]] 
+#+CAPTION: diagramă ladder
 [[../poze/04477.png]]
 
 Pentru unele circuite, eliminarea uneia sau mai multor tipuri de porţi
@@ -150,7 +152,8 @@ SAU-exclusiv fără a modifica rezultatele. Putem acum conecta două
 sumatoare pentru realizarea adunării numerelor pe 2 biţi:
 
 #+CAPTION: full-adder
-[[../poze/04457.png]] #+CAPTION: diagramă ladder
+[[../poze/04457.png]] 
+#+CAPTION: diagramă ladder
 [[../poze/04478.png]]
 
 A_{0} este bitul de rang inferior a lui A iar A_{1} este bitul de rang
@@ -165,7 +168,8 @@ schimb, biţi de rang inferior vor trece şi ei printr-un sumator complet
 (full-adder):
 
 #+CAPTION: full-adder
-[[../poze/04458.png]] #+CAPTION: diagramă ladder
+[[../poze/04458.png]] 
+#+CAPTION: diagramă ladder
 [[../poze/04479.png]]
 
 Există câteva motive pentru această alegere. Unul dintre ele este că în

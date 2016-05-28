@@ -89,7 +89,8 @@ Folosind această formulă, putem re-analiza circuitul de mai sus în mai
 puţini paşi:
 
 #+CAPTION: circuit serie
-[[../poze/00106.png]] #+CAPTION: tabel
+[[../poze/00106.png]] 
+#+CAPTION: tabel
 [[../poze/10104.png]]
 
 Circuitele divizoare de tensiune se folosesc acolo unde o combinaţie
@@ -210,7 +211,8 @@ ceasornic, cu sonda roşie în faţă şi cu cea neagră în spate, am
 obţine/citi următoarele valori:
 
 #+CAPTION: formule
-[[../poze/10107.png]] #+CAPTION: parcurgerea
+[[../poze/10107.png]] 
+#+CAPTION: parcurgerea
 #+CAPTION: circuitului cu voltmetru
 [[../poze/00436.png]]
 

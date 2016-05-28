@@ -333,7 +333,8 @@ ajutorul unui releu pentru realizarea unei funcţii ne-inversate.
 | 1   | 1   | 1        |
 
 #+CAPTION: funcţia logică ŞI
-[[../poze/04056-2.png]] #+CAPTION: simbolul
+[[../poze/04056-2.png]] 
+#+CAPTION: simbolul
 #+CAPTION: porţii logice ŞI
 [[../poze/04056.png]]
 

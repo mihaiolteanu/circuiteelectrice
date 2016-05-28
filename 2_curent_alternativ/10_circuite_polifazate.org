@@ -20,7 +20,8 @@ fiecare, putem determina tipul conductorilor de care avem nevoie.
 
 #+CAPTION: schema electrică a unui circuit monofazat simplu; sarcini
 #+CAPTION: conectat în paralel
-[[../poze/02165.png]] #+CAPTION: calcule matematice
+[[../poze/02165.png]] 
+#+CAPTION: calcule matematice
 [[../poze/12109.png]]
 
 Putem vedea că valoarea curentului prin circuit este foarte mare în
@@ -41,7 +42,8 @@ conductori de dimensiuni mai mici, mai uşori şi mai ieftini:
 
 #+CAPTION: schema electrică a unui circuit monofazat simplu; sarcini
 #+CAPTION: conectat în paralel
-[[../poze/02166.png]] #+CAPTION: calcule matematice
+[[../poze/02166.png]] 
+#+CAPTION: calcule matematice
 [[../poze/12110.png]]
 
 De data aceasta, curentul total este 83.33 A, jumătate faţă de valoarea
@@ -108,7 +110,8 @@ Din acest motiv, trebuie să modificăm puţin circuitul:
 
 #+CAPTION: schema electrică a unui circuit monofazat simplu; sarcinile
 sunt conectate în serie; adăugarea unui conductor neutru
-[[../poze/02168.png]] #+CAPTION: calcule matematice
+[[../poze/02168.png]] 
+#+CAPTION: calcule matematice
 [[../poze/12111.png]]
 
 În locul unei singure surse de tensiune de 240 V, folosim două surse de
@@ -207,7 +210,8 @@ sarcinilor echilibrate (egale între ele).
 #+CAPTION: sistem de alimentare folosind două surse de tensiune de 120 V
 defazate între ele cu un unghi de 120 de grade; calcului curentului prin
 #+CAPTION: neutru
-[[../poze/02172.png]] #+CAPTION: calcule matematice
+[[../poze/02172.png]] 
+#+CAPTION: calcule matematice
 [[../poze/12114.png]]
 
 Prin urmare, firul neutru conduce acelaşi curent de 83.33 A, ca şi

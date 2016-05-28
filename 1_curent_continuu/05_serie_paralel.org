@@ -112,7 +112,8 @@ circuitului, pentru că acestea se referă la aceleaşi două puncte din
 circuit:
 
 #+CAPTION: circuit serie
-[[../poze/00088.png]] #+CAPTION: relaţii
+[[../poze/00088.png]] 
+#+CAPTION: relaţii
 #+CAPTION: matematice
 [[../poze/10056.png]]
 
@@ -264,7 +265,8 @@ totală a curentului prin circuit trebuie să fie egală cu suma valorilor
 curenţilor prin fiecare ramură (fiecare rezistor în parte):
 
 #+CAPTION: circuit paralel
-[[../poze/00093.png]] #+CAPTION: calcule
+[[../poze/00093.png]] 
+#+CAPTION: calcule
 #+CAPTION: matematice
 [[../poze/10074\_2.png]]
 

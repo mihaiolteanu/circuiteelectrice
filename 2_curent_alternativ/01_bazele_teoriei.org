@@ -500,7 +500,8 @@ rezistori, putem aplica aceleaşi regului ca şi în cazul curentului
 alternativ fără alte complicaţii.
 
 #+CAPTION: circuit electric simplu în curent alternativ
-[[../poze/02018.png]] #+CAPTION: formule [[../poze/12003.png]]
+[[../poze/02018.png]] 
+#+CAPTION: formule [[../poze/12003.png]]
 
 Rezistenţele serie se adună, cele în paralel se diminuează, iar legile
 lui Ohm şi Kirchhoff sunt şi ele valabile. De fapt, după cum vom vedea,

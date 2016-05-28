@@ -244,9 +244,11 @@ matematic este foarte important pentru exemplificarea legii lui
 Kirchhoff. Paşii pe care trebuie sa-i urmaţii sunt următorii:
 
 #+CAPTION: divizor de tensiune; măsurarea căderilor de tensiune
-[[../poze/05090.png]] #+CAPTION: divizor de tensiune; măsurarea
+[[../poze/05090.png]] 
+#+CAPTION: divizor de tensiune; măsurarea
 #+CAPTION: căderilor de tensiune
-[[../poze/05091.png]] #+CAPTION: divizor de
+[[../poze/05091.png]] 
+#+CAPTION: divizor de
 #+CAPTION: tensiune; măsurarea căderilor de tensiune
 [[../poze/05092.png]]
 #+CAPTION: divizor de tensiune; măsurarea căderilor de tensiune
@@ -284,9 +286,11 @@ curent şi cu funcţionarea unui circuit divizor de curent.
 Circuitul se poate realiza practic în mai multe moduri:
 
 #+CAPTION: divizor de curent
-[[../poze/05098.png]] #+CAPTION: divizor de
+[[../poze/05098.png]] 
+#+CAPTION: divizor de
 #+CAPTION: curent
-[[../poze/05102.png]] #+CAPTION: divizor de curent
+[[../poze/05102.png]] 
+#+CAPTION: divizor de curent
 [[../poze/05099.png]]
 
 În mod normal, nu este recomandat să conectaţi mai mult de doi
@@ -448,7 +452,8 @@ Pe parcursul experimentului vom realiza circuitul de mai jos (diagramă
 plus implementare practică):
 
 #+CAPTION: circuit electric cu potenţiometru şi motor
-[[../poze/05144.png]] #+CAPTION: circuit electric cu potenţiometru şi
+[[../poze/05144.png]] 
+#+CAPTION: circuit electric cu potenţiometru şi
 #+CAPTION: motor
 [[../poze/05145.png]]
 
@@ -466,7 +471,8 @@ de reostat prin simpla utilizare a doi dintre terminalii acestuia. Cel
 de al treilea terminal este lăsat neconectat şi neutilizat:
 
 #+CAPTION: circuit electric cu potenţiometru şi motor
-[[../poze/05146.png]] #+CAPTION: circuit electric cu potenţiometru şi
+[[../poze/05146.png]] 
+#+CAPTION: circuit electric cu potenţiometru şi
 #+CAPTION: motor
 [[../poze/05147.png]]
 
@@ -561,7 +567,8 @@ bucăţi de gheaţă. Circuitul electric pe care îl vom realiza este cel de
 jos:
 
 #+CAPTION: realizarea unei termocuple
-[[../poze/05153.png]] #+CAPTION:
+[[../poze/05153.png]] 
+#+CAPTION:
 #+CAPTION: realizarea unei termocuple
 [[../poze/05154.png]]
 
@@ -618,9 +625,11 @@ diferită şi trei rezistori cu rezistenţe egale (între 10 kΩ şi 47 kΩ
 fiecare). Practic, vom realiza circuitul de mai jos:
 
 #+CAPTION: circuit de mediere a tensiunilor printr-o reţea de rezistori
-[[../poze/05115.png]] #+CAPTION: circuit de mediere a tensiunilor
+[[../poze/05115.png]] 
+#+CAPTION: circuit de mediere a tensiunilor
 #+CAPTION: printr-o reţea de rezistori
-[[../poze/05116.png]] #+CAPTION: circuit de
+[[../poze/05116.png]] 
+#+CAPTION: circuit de
 #+CAPTION: mediere a tensiunilor printr-o reţea de rezistori
 [[../poze/05117.png]]
 
@@ -741,8 +750,10 @@ puţin 1000 µF, doi rezistori de 1 kΩ şi de un întrerupător. Circuitul
 realizat arată astfel:
 
 #+CAPTION: încărcarea şi decărcarea unui condensator
-[[../poze/05172.png]] #+CAPTION: încărcarea unui condensator
-[[../poze/05173.png]] #+CAPTION: decărcarea unui condensator
+[[../poze/05172.png]] 
+#+CAPTION: încărcarea unui condensator
+[[../poze/05173.png]] 
+#+CAPTION: decărcarea unui condensator
 [[../poze/05174.png]]
 
 ** Atenţie la condensatoarele electrolitice
@@ -823,7 +834,8 @@ potenţiometrului conduce la rezultate mai bune în acest experiment.
 Circuitul final arată astfel:
 
 #+CAPTION: circuit de diferenţiere
-[[../poze/05229.png]] #+CAPTION:
+[[../poze/05229.png]] 
+#+CAPTION:
 #+CAPTION: circuit de diferenţiere
 [[../poze/05230.png]]
 

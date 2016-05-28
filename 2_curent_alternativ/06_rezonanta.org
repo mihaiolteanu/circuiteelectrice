@@ -242,7 +242,8 @@ inductiv/capacitive serie. Atunci când este atinsă o stare de rezonanţă
 se anulează reciproc iar impedanţa totală scade la zero!
 
 #+CAPTION: circuit rezonant serie (LC)
-[[../poze/02098.png]] #+CAPTION:
+[[../poze/02098.png]] 
+#+CAPTION:
 #+CAPTION: formule
 [[../poze/12092.png]]
 
@@ -349,7 +350,8 @@ ce se întâmplă atunci când introducem un rezistor în circuit:
 *** Circuit LC paralel; rezistor în serie cu bobina
 
 #+CAPTION: circuit LC paralel; rezistor serie cu bobina
-[[../poze/02102.png]] #+CAPTION: circuit LC paralel; rezistor serie cu
+[[../poze/02102.png]] 
+#+CAPTION: circuit LC paralel; rezistor serie cu
 #+CAPTION: bobina; graficul variaţiei curentului cu frecvenţa
 [[../poze/22008.png]]
 
@@ -360,7 +362,8 @@ calculată.
 *** Circuit LC paralel; condensatorul în serie cu rezistorul
 
 #+CAPTION: circuit LC paralel; rezistor serie cu condensatorul
-[[../poze/02103.png]] #+CAPTION: circuit LC paralel; rezistor serie cu
+[[../poze/02103.png]] 
+#+CAPTION: circuit LC paralel; rezistor serie cu
 condensatorul; graficul variaţiei curentului cu frecvenţa
 [[../poze/22009.png]]
 
@@ -376,7 +379,8 @@ introducem în circuit pentru influenţarea frecvenţei de rezonanţă este
 rezistorul R_{2} de 100 Ω:
 
 #+CAPTION: circuit LC serie; rezistor paralel cu bobina
-[[../poze/02104.png]] #+CAPTION: circuit LC serie; rezistor paralel cu
+[[../poze/02104.png]] 
+#+CAPTION: circuit LC serie; rezistor paralel cu
 #+CAPTION: bobina; graficul variaţiei curentului cu frecvenţa
 [[../poze/22010.png]]
 
@@ -387,7 +391,8 @@ bobina, prezintă un curent maxim la o frecvenţă de 180 Hz, faţă de
 *** Circuit LC serie; rezistor paralel cu condensatorul
 
 #+CAPTION: circuit LC serie; rezistor paralel cu condensatorul
-[[../poze/02105.png]] #+CAPTION: circuit LC serie; rezistor paralel cu
+[[../poze/02105.png]] 
+#+CAPTION: circuit LC serie; rezistor paralel cu
 condensatorul; graficul variaţiei curentului cu frecvenţa
 [[../poze/22011.png]]
 
@@ -432,7 +437,8 @@ prezentat mai jos:
 
 #+CAPTION: circuit RLC serie; frecvenţa de rezonanţă nu este afectată de
 #+CAPTION: introducerea unei rezistenţe în serie
-[[../poze/02106.png]] #+CAPTION:
+[[../poze/02106.png]] 
+#+CAPTION:
 circuit RLC serie; graficul variaţiei curentului cu frecvenţa
 [[../poze/22012.png]]
 

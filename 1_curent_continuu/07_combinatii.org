@@ -139,7 +139,8 @@ al rezistenţelor în circuit. Simbolul „--” reprezintă conexiune „serie�
 iar simbolul „//” reprezintă conexiune „paralel”.
 
 #+CAPTION: circuit electric
-[[../poze/00125.png]] #+CAPTION: tabel
+[[../poze/00125.png]] 
+#+CAPTION: tabel
 [[../poze/10128.png]]
 
 În acest moment putem folosi legea lui Ohm (I=E/R) pentru determinarea
@@ -178,7 +179,8 @@ R_{3}//R_{4}, putem aplica legea lui Ohm (E=IR) pentru aflarea căderilor
 de tensiune pentru fiecare grup în parte, completând şi tabelul:
 
 #+CAPTION: circuit electric
-[[../poze/00128.png]] #+CAPTION: tabel
+[[../poze/00128.png]] 
+#+CAPTION: tabel
 [[../poze/10131.png]]
 
 Deoarece ştim că R_{1}//R_{2} şi R_{3}//R_{4} sunt defapt conexiuni
@@ -188,7 +190,8 @@ configuraţia iniţială a circuitului şi să completăm tabelul cu valorile
 calculate:
 
 #+CAPTION: circuit electric
-[[../poze/00129.png]] #+CAPTION: tabel
+[[../poze/00129.png]] 
+#+CAPTION: tabel
 [[../poze/10132.png]]
 
 Secţiune originală a tabelului pentru rezistori este acum completată

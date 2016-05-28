@@ -104,7 +104,8 @@ desigur, este considerată o impedanţă „reală” pură (unghi polar de
 0^{o}:
 
 #+CAPTION: formule
-[[../poze/12057.png]] #+CAPTION: circuit electric RLC
+[[../poze/12057.png]] 
+#+CAPTION: circuit electric RLC
 #+CAPTION: serie; impedanţele componentelor
 [[../poze/02079.png]]
 
@@ -248,7 +249,8 @@ reactanţelor (X) bobinelor şi condensatoarelor iar apoi să exprimă
 reactanţele (X) şi rezistenţele (R) sub formă de impedanţe (Z):
 
 #+CAPTION: tabel
-[[../poze/12070.png]] #+CAPTION: tabel
+[[../poze/12070.png]] 
+#+CAPTION: tabel
 [[../poze/12071.png]]
 
 Putem acum să completăm valorile iniţiale în tabel:
@@ -294,14 +296,16 @@ acelaşi curent, întrucât ele sunt în serie. Putem trece prin urmare
 aceste valori în ambele coloane:
 
 #+CAPTION: tabel
-[[../poze/12076.png]] #+CAPTION: tabel
+[[../poze/12076.png]] 
+#+CAPTION: tabel
 [[../poze/12077.png]]
 
 Acum putem calcula căderile de tensiune pe C_{1} şi pe combinaţia
 serie-paralel R//(L--C_{2} folosind legea lui Ohm (E=IZ), vertical:
 
 #+CAPTION: tabel
-[[../poze/12078.png]] #+CAPTION: tabel
+[[../poze/12078.png]] 
+#+CAPTION: tabel
 [[../poze/12079.png]]
 
 Din nou, putem căuta componente ce au aceeiaşi cădere de tensiune sau
@@ -312,7 +316,8 @@ Asfel, putem trece valorile tensiunii calculate mai sus în coloanele R
 şi L--C_{2}:
 
 #+CAPTION: tabel
-[[../poze/12081.png]] #+CAPTION: tabel
+[[../poze/12081.png]] 
+#+CAPTION: tabel
 [[../poze/12082.png]]
 
 Următorul pas este calcularea curentului prin rezistor şi prin
@@ -320,7 +325,8 @@ combinaţia serie L--C_{2}. Tot ceea ce trebuie să facem este să aplicăm
 legea lui Ohm (I=E/Z), vertical, în ambele coloane:
 
 #+CAPTION: tabel
-[[../poze/12083.png]] #+CAPTION: tabel
+[[../poze/12083.png]] 
+#+CAPTION: tabel
 [[../poze/12084.png]]
 
 Din moment ce L şi C_{2} sunt conectate în serie şi cunoaştem curentul

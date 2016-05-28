@@ -116,7 +116,8 @@ dintre tensiune şi reactanţă capacitivă. Să luăm ca şi exemplu următorul
 circuit:
 
 #+CAPTION: circuit capacitiv simplu
-[[../poze/02072.png]] #+CAPTION:
+[[../poze/02072.png]] 
+#+CAPTION:
 calcularea curentului într-un circuit pur capacitiv
 [[../poze/12043.png]]
 
@@ -128,7 +129,8 @@ reactive a condensatorului faţă de curent:
 
 #+CAPTION: calcularea opoziţiei condensatorului faţă de curent într-un
 #+CAPTION: circuit pur capacitiv
-[[../poze/12044.png]] #+CAPTION: circuit capacitiv
+[[../poze/12044.png]] 
+#+CAPTION: circuit capacitiv
 #+CAPTION: simplu - diagrama fazorială
 [[../poze/02073.png]]
 

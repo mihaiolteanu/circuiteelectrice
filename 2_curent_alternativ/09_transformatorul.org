@@ -602,7 +602,8 @@ reducerea ei (anti-serie).
 
 #+CAPTION: folosirea unui autotransformator coborâtor de tensiune cu
 înfăşurarea secundară conectată în serie pentru amplificarea tensiunii
-[[../poze/02147.png]] #+CAPTION: folosirea unui autotransformator
+[[../poze/02147.png]] 
+#+CAPTION: folosirea unui autotransformator
 coborâtor de tensiune cu înfăşurarea secundară conectată în serie pentru
 #+CAPTION: reducerea tensiunii
 [[../poze/02148.png]]
