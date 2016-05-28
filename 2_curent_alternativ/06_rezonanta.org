@@ -1,4 +1,4 @@
-* 1. Pendulul electric
+* Pendulul electric
 
 Condensatoarele stochează energie sub formă de câmp electric, iar
 această energie stocată se manifestă electric sub formă de potenţial:
@@ -165,7 +165,7 @@ Sumar:
    exact egală cu frecvenţa naturală de oscilaţie a circuitului LC,
    spunem că circuitul se află într-o stare de /rezonanţă/
 
-* 2. Rezonanţa paralel
+* Rezonanţa paralel
 
 Putem ajunge la o stare de rezonanţă într-un circuit oscilator (LC),
 dacă reactanţele condensatorului şi a bobinei sunt egale între ele.
@@ -234,7 +234,7 @@ Sumar:
    măsură ce frecvenţa sursei de alimentare se apropie de frecvenţa de
    rezonanţă
 
-* 3. Rezonanţa serie
+* Rezonanţa serie
 
 Un efect similar rezonanţie parale are loc şi în circuitele
 inductiv/capacitive serie. Atunci când este atinsă o stare de rezonanţă
@@ -284,7 +284,7 @@ Sumar:
    curenţilor mari din circuit şi a impedanţelor suficient de mari ale
    componentelor
 
-* 4. Aplicaţii ale rezonanţei
+* Aplicaţii ale rezonanţei
 
 Până acum, fenomenul rezonanţei pare doar o curiozitate nefolositoare,
 sau chiar dăunătoare,mai ales în cazul scurt-circuitării sursei de
@@ -328,7 +328,7 @@ Sumar:
    tuturor frecvenţelor din circuit exceptând cele dorite, se numesc
    /filtre/
 
-* 5. Rezonanţa serie-paralel. Antirezonanţa
+* Rezonanţa serie-paralel. Antirezonanţa
 
 În circuitele reactive simple fără rezistenţă (sau rezistenţă foarte
 mică), efectele impedanţelor la frecvenţa de rezonanţă vor fi cele

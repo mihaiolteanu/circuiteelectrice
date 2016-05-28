@@ -1,4 +1,4 @@
-* 1. Introducere
+* Introducere
 
 Dacă dorim de exemplu să descriem distanţa dintre două oraşe, putem
 folosi o singură cifră, în kilometri, sau orice altă unitate de măsură
@@ -54,7 +54,7 @@ Sumar:
    folosit şi termenul de /fazor/, acolo unde unghiul vectorului
    reprezintă diferenţa de fază între formele de undă
 
-* 2. Vectori şi forme de undă în curent alternativ
+* Vectori şi forme de undă în curent alternativ
 
 Să luăm câteva exemple de reprezentare a formelor de undă în curent
 alternativ cu ajutorul vectorilor, unde lungimea vectorului reprezintă
@@ -92,7 +92,7 @@ Sumar:
    reprezintă diferenţa de fază (defazajul) undei faţă de unda de
    referinţă
 
-* 3. Adunarea simplă a vectorilor
+* Adunarea simplă a vectorilor
 
 Operaţiile ce pot fi efectuate asupra vectorilor sunt aceleaşi care sunt
 posibile asupra oricărei mărimi scalare: adunare, scădere, înmulţire,
@@ -165,7 +165,7 @@ polaritatea schimbată şi faza modificată cu 180 de grade faţă de
 #+CAPTION: cealaltă
 [[../poze/02266.png]]
 
-* 4. Adunarea complexă a vectorilor
+* Adunarea complexă a vectorilor
 
 Dacă adunăm doi vectori cu unghiuri diferite, lungimile lor se adună
 diferit faţă de cele scalare:
@@ -190,7 +190,7 @@ citi indicaţiile de 6 şi respectiv 8 volţi la borenele celor două surse
 de curent alternativ, dar tensiunea totală indicată de acesta va fi de
 „doar” 10 volţi!
 
-* 5. Notaţia polară şi rectangulară a numerelor complexe
+* Notaţia polară şi rectangulară a numerelor complexe
 
 Pentru a putea lucra cu aceste numere complexe fără a fi nevoiţi să
 desenăm tot timpul vectori, avem nevoie de o notaţie matematică
@@ -316,7 +316,7 @@ Sumar:
    latura opusă, verticală, reprezentând componenta rectangulară
    „imaginară”
 
-* 6. Aritmetica numerelor complexe
+* Aritmetica numerelor complexe
 
 *** Adunarea numerelor complexe
 
@@ -366,7 +366,7 @@ complex sub formă polară:
 #+CAPTION: reciproca (inversa) numerelor complexe
 [[../poze/12011.png]]
 
-* 7. Clarificări legate de polaritatea curentului alternativ
+* Clarificări legate de polaritatea curentului alternativ
 
 ** Polaritatea căderilor de tensiune
 

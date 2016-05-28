@@ -1,4 +1,4 @@
-* 1. Câmpuri şi capacitatea electrică
+* Câmpuri şi capacitatea electrică
 
 Atunci când între doi conductori există o tensiune electrică, spunem că
 există un câmp electric în spaţiul dintre ei. Vorbind de câmpuri ne
@@ -201,7 +201,7 @@ Sumar:
    numele de /capacitate/. Unitatea de măsură este Farad-ul (F)
 -  Denumirea nouă pentru /condensator/ este /capacitor/
 
-* 2. Relaţia tensiune-curent pentru condensator
+* Relaţia tensiune-curent pentru condensator
 
 Condensatorii nu au o „rezistenţă” stabilă precum am rezistorii. Totuşi,
 există o relaţie matematică precisă între tensiunea şi curentului unui
@@ -339,7 +339,7 @@ curent cu semn negativ, indicând de fapt direcţia de deplasare a
 electronilor la descărcarea condensatorului, în sens opus faţă de
 încărcarea acestuia.
 
-* 3. Factori ce afectează capacitatea electrică
+* Factori ce afectează capacitatea electrică
 
 Există trei factori de bază în construcţia condensatoarelor ce afectează
 valoarea capacităţii asfel create. Toţi aceşti factori afectează
@@ -449,7 +449,7 @@ Pe măsură ce rotim axul, gradul de suprapunere al armăturilor variază,
 afectând aria efectivă în care poate exista campul electric între cele
 două armături.
 
-* 4. Conectarea condensatorilor în serie şi paralel
+* Conectarea condensatorilor în serie şi paralel
 
 *** Conectarea în serie
 
@@ -498,7 +498,7 @@ Sumar:
 -  Capacităţile condensatorilor se reduc la conectarea în serie
 -  Capacităţile condensatorilor se adună la conectarea în paralel
 
-* 5. Consideraţii practice (condensatorul)
+* Consideraţii practice (condensatorul)
 
 Condensatoarele, la fel ca toate celelalte componente, au unele limite
 de funcţionare şi utilizare. Acestea trebuie respectate dacă dorim o

@@ -1,4 +1,4 @@
-* 1. Câmpul magnetic şi inductanţa
+* Câmpul magnetic şi inductanţa
 
 Atunci când un conductor este parcurs de curent electric (deplasarea
 electronilor), se va forma tot timpul un câmp magnetic în jurul
@@ -160,7 +160,7 @@ Sumar:
    magnetic (şi în consecinţă de a se opune variaţiei curentului) se
    numeşte /inductanţă/ (L). Unitatea sa de măsură este /Henry/ (H)
 
-* 2. Relaţia tensiune-curent pentru bobină
+* Relaţia tensiune-curent pentru bobină
 
 Bobinele nu au o „rezistenţă” stabilă precum rezistenţele sau
 conductoarele. Totuşi, există o relaţie matematică dintre tensiunea şi
@@ -313,7 +313,7 @@ până când curentul scade la zero:
 Pentru efect maxim, marimea bobine ar trebuie să fie cât mai mare
 posibil (o inductanţă de cel puţin 1 Henry).
 
-* 3. Factori ce influenţează inductanţa
+* Factori ce influenţează inductanţa
 
 Există patru factori de bază în construcţia bobinelor ce influenţează
 valoarea inductanţei create. Toţi aceşti factori se referă la valoarea
@@ -398,7 +398,7 @@ Bobinele variabile sunt de obicei concepute asfel încât să fie posibilă
 variaţia numărului de înfăşurări folosite în orice moment, sau prin
 schimbarea miezului.
 
-* 4. Bobine serie şi paralel
+* Bobine serie şi paralel
 
 *** Inductanţa bobinelor în serie
 
@@ -457,7 +457,7 @@ Sumar:
 -  Inductanţele serie se adună
 -  Inductanţele paralel scad
 
-* 5. Consideraţii practice (bobina)
+* Consideraţii practice (bobina)
 
 Bobinele, la fel ca toate celelalte componente, au anumite limite ce
 trebuiesc luate în considerare dacă se doreşte operarea eficientă şi

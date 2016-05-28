@@ -1,4 +1,4 @@
-* 1. Scurtă introducere a motoarelor electrice
+* Scurtă introducere a motoarelor electrice
 
 ** De la curent continuu la curent alternativ
 
@@ -55,7 +55,7 @@ motoarelor pentru reducerea pierderilor sub formă de căldură. De
 asemenea, motoarele de c.a. mai au şi alte tipuri de pierderi
 ne-întâlnite la motoarele de c.c.: histereza şi curenţii turbionari.
 
-* 2. Histereza şi curenţii turbionari
+* Histereza şi curenţii turbionari
 
 Primele experimente cu motoarele de c.a. s-au lovit de probleme
 specifice curenţilor alternativi. Aceste probleme au apărut la adaptarea
@@ -117,7 +117,7 @@ Sumar:
 -  
 -  
 
-* 3. Motorul sincron
+* Motorul sincron
 
 Motoarele sincrone monofazate de dimensiuni mici sunt folosite în
 aplicaţii ce necesită o sincronizare precisă, precum ceasuri, de
@@ -269,7 +269,7 @@ Sumar:
 -  
 -  
 
-* 1. Semnale analogice si digitale
+* Semnale analogice si digitale
 
 Motoarele sincrone introduc un factor de putere capacitiv în circuitul
 de alimentare. Acest lucru este adeseori folositor pentru anularea

@@ -1,4 +1,4 @@
-* 1. Inductanţa mutuală şi modul de funcţionare
+* Inductanţa mutuală şi modul de funcţionare
 
 Să presupunem că avem un miez feromagnetic închis (formă
 dreptunghiulară) şi înfăşurăm un conductor metalic izolat alimentat în
@@ -408,7 +408,7 @@ Sumar:
    echivalent în înfăşurarea primară, curent generat de sursă, ca şi
    când sursa ar fi conectată direct la sarcină
 
-* 2. Transformatorul ridicător şi coborâtor de tensiune
+* Transformatorul ridicător şi coborâtor de tensiune
 
 Până în acest moment, am luat în considerare doar cazul în care cele
 două înfăşurări ale transformatorului aveau inductanţe identice, ducând
@@ -522,7 +522,7 @@ Sumar:
    înfăşurarea secundară este mai mic decât numărul celor din primar),
    poartă numele de transformator coborâtor de tensiune
 
-* 5. Tipuri de înfăşurări
+* Tipuri de înfăşurări
 
 Nu este neapărat necesar ca transformatoarele să fie realizate din doar
 două seturi de înfăşurări. Să considerăm următorul circuit:

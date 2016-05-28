@@ -1,4 +1,4 @@
-* 1. Magneţi permanenţi
+* Magneţi permanenţi
 
 Faptul că unele tipuri de roci minerale posedă proprietăţi neobişnuite
 de atracţie atunci când se află în apropierea fierului, a fost
@@ -109,7 +109,7 @@ Sumar:
 -  Materialele /diamagnetice/ tind să respingă câmpurile magnetice prin
    magnetizarea în direcţie opusă
 
-* 2. Electromagnetism
+* Electromagnetism
 
 Descoperirea relaţiei dintre magnetism şi electricitate a fost făcută,
 precum multe alte descoperiri ştiinţifice, aproape din întâmplare. În
@@ -200,7 +200,7 @@ Sumar:
    dintre curentul ce parcurge electromagnetul şi numărul de înfăşurări
    complete formate de conductor
 
-* 3. Unităţi de măsură ale câmpului magnetic
+* Unităţi de măsură ale câmpului magnetic
 
 În cadrul discuţiei despre magnetism, vom întâlni următoarele mărimi:
 
@@ -301,7 +301,7 @@ aplicat decât în cazul circuitelor electric. Acest efect este analog
 existenţei unui rezistor ce şi-ar modifica rezistenţa pe măsură ce
 curentul ce-l străbate variază.
 
-* 4. Permeabilitatea şi saturaţia
+* Permeabilitatea şi saturaţia
 
 Nonliniaritatea permeabilităţii materialelor poate fi trasată pe un
 grafic pentru o mai bună înţelegere a ei. Plasăm intensitatea câmpului
@@ -422,7 +422,7 @@ Sumar:
    re-magnetizarea sa în direcţia opusă, condiţia este cunoscută sub
    numele de /histerezis/
 
-* 5. Inducţia electromagnetică
+* Inducţia electromagnetică
 
 Deşi Oersted a fost cel care a descoperit existenţa
 electromagnetismului, totuşi,
@@ -490,7 +490,7 @@ Sumar:
    lui Faraday. Un dispozitiv construit special pentru folosirea acestui
    principiu/efect se numeşte /bobină/
 
-* 6. Inductanţa mutuală. Transformatorul
+* Inductanţa mutuală. Transformatorul
 
 Dacă două înfăşurări străbătute de curent electric sunt aduse una în
 vecinătatea celeilalte, asfel încât câmpul magnetic al uneia să se

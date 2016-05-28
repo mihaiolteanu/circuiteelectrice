@@ -1,4 +1,4 @@
-* 1. Diagrame ladder
+* Diagrame ladder
 
 Diagramele ladder sunt diagrame speciale folosite de obicei în sistemele
 logice de control industrial. Denumirea de ladder (din engleză: scară)
@@ -106,7 +106,7 @@ Sumar:
    modului de interconectare a comutatoarelor şi a releelor
    electromecanice dintr-un circuit logic
 
-* 2. Funcţii logice digitale
+* Funcţii logice digitale
 
 ** Funcţia logică SAU
 
@@ -351,7 +351,7 @@ Sumar:
    normal-închis
 -  Pentru inversarea ieşirii unei funcţii logice, se folosesc relee
 
-* 3. Circuite permisive şi de blocare
+* Circuite permisive şi de blocare
 
 ** Controlul aprinderii furnalelor
 
@@ -457,7 +457,7 @@ Sumar:
    care două acţiuni ce au loc simultan sunt incompativile (alimentarea
    directă şi indirecta a unui motor electric, simultan, de exemplu)
 
-* 5. Circuite logice cu autoprotecţie
+* Circuite logice cu autoprotecţie
 
 Circuitele logic, fie că sunt compuse din relee electromecanice sau din
 porţi logice semiconductoare, pot fi construite sub mai multe variante
@@ -549,7 +549,7 @@ Sumar:
 -  
 -  
 
-* 6. Automate programabile (PLC)
+* Automate programabile (PLC)
 
 ** Scurtă istorie
 

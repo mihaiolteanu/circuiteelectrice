@@ -1,4 +1,4 @@
-* 1. Principiul de funcţionare
+* Principiul de funcţionare
 
 /Dioda/ este un dispozitiv electric ce permite trecerea curentului doar
 într-o singură direcţie. Cea mai folosită diodă în circuitele electrice
@@ -163,7 +163,7 @@ Sumar:
    diodă fără apariţia fenomenului de „străpungere” ce duce inevitabil
    la distrugerea acesteia, se numeşte /tensiune de străpungere/, V_{s}
 
-* 2. Verificarea diodei cu ajutorul ohmmetrului
+* Verificarea diodei cu ajutorul ohmmetrului
 
 Din moment ce o diodă nu este nimic altceva decât o valvă
 uni-direcţională de curent, putem verifica acest lucru folosind un
@@ -242,7 +242,7 @@ Sumar:
    diode, datorită curentului foarte mic generat de aparat prin diodă în
    timpul măsurătorii
 
-* 3. Parametrii diodei
+* Parametrii diodei
 
 Pe lângă tensiunea de polarizare directă (V_{f}) şi tensiunea de
 străpungere (V_{s}), mai există mulţi alţi parametrii importanţi ai
@@ -344,7 +344,7 @@ de operare, prin urmare, o singură valoarea nu poate descrie complet
 niciun parametru. Prin urmare, producătorii pun la dispoziţie grafice
 ale variaţiilor parametrilor cu temperatura (sau alte variabile).
 
-* 4. Circuite redresoare
+* Circuite redresoare
 
 Cea mai populară aplicaţia e diodelor este /redresarea/. Pe scurt,
 redresarea reprezintă transformarea curentului alternativ în curent
@@ -566,7 +566,7 @@ Sumar:
    formă de undă de curent continuu mult mai „netedă” (tensiune de riplu
    mult mai scăzută) decât redresarea tensiunii monofazate
 
-* 11. Dioda Zener
+* Dioda Zener
 
 La conectarea unei diode în serie cu un rezistor într-un circuit de
 curent continuu, asfel încât dioda să fie polarizată direct, căderea de

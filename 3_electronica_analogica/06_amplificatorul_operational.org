@@ -1,4 +1,4 @@
-* 1. Introducere
+* Introducere
 
 Amplificatorul operaţional (AO) este cu siguranţă cel mai folositor
 dispozitiv din întreaga electronică analogică. Cu doar o mână de
@@ -11,7 +11,7 @@ este utilizarea /reacţiei negative/, principiu ce stă la baza tuturor
 prezentate aici în circuitele cu amplificatoare operaţionale, se extind
 cu mult dincolo de aplicaţiile lor imediate în electronică.
 
-* 2. Amplificatorul cu potenţial de referinţă şi amplificatorul
+* Amplificatorul cu potenţial de referinţă şi amplificatorul
 diferenţial
 
 Pentru uşurinţa expunerii teoretice (desenării) a circuitelor
@@ -160,7 +160,7 @@ Sumar:
 -  Tensiunea de ieşire a unui amplificator diferenţial este dată de
    ecuaţia V_{ieşire} = A_{V}(V_{(+)} - V_{(-)})
 
-* 3. Amplificatorul operaţional
+* Amplificatorul operaţional
 
 Cu mult înainte de apariţia tehnologiei digitale, calculatoarele erau
 construite electronic pentru efectuarea calculelor, folosind curenţi şi
@@ -373,7 +373,7 @@ Sumar:
    referintă, ce controlează, sau /modulează/ durata (lăţimea) pulsului
    semnalului de ieşire
 
-* 4. Reacţia negativă
+* Reacţia negativă
 
 Dacă ar fi să conectăm ieşirea unui AO la intrarea sa inversoare (-) şi
 în acelaşi timp să aplicăm un semnal te tensiune la intrarea sa
@@ -497,7 +497,7 @@ Sumar:
    a tensiunii de saturaţie poartă numele de /tensiunea pozitivă de
    saturaţie/, respectiv /tensiunea negativă de saturaţie/
 
-* 5. Reacţia prin divizor de tensiune
+* Reacţia prin divizor de tensiune
 
 Dacă adăugăm un divizor de tensiune la reacţia negativă, asfel încât
 doar o /fracţiune/ din tensiunea de ieşire este reintrodusă la intrarea
@@ -630,7 +630,7 @@ Sumar:
    intrare. Amplificarea în tensiune a circuitului este dată de
    următoarea formulă: A_{V} = -R_{2} / R_{1}
 
-* 7. Amplificatorul tensiune-curent
+* Amplificatorul tensiune-curent
 
 În circuitele de instrumentaţie, semnalele de c.c. sunt folosite adesea
 pentru reprezentarea analogică a unei mărimi fizice precum temperatura,
@@ -694,7 +694,7 @@ Sumar:
    la ieşire o cădere de tensiune necesară pentru menţinerea curentului
    prin circuitul de semnal la o valoarea bine stabilită
 
-* 8. Circuite sumatoare şi de mediere
+* Circuite sumatoare şi de mediere
 
 Dacă luăm trei rezistori egali şi conectăm unul din capetele fiecăruia
 dintre ei la un punct comun şi aplicăm apoi trei tensiuni de intrare,
@@ -758,7 +758,7 @@ Sumar:
    tensiune de la intrare. Folosind AO, circuitele de sumare pot fi
    /neinversoare/ şi /inversoare/
 
-* 8. Realizarea unui amplificator diferenţial
+* Realizarea unui amplificator diferenţial
 
 Un aplificator fără reacţie negativă este deja un amplficator
 diferenţial, amplificând diferenţa de tensiune dintre cele două intrări.
@@ -816,7 +816,7 @@ Sumar:
 -  
 -  
 
-* 10. Amplificatorul de instrumentaţie
+* Amplificatorul de instrumentaţie
 
 După cum am spus şi în secţiunea precedentă, este de dorit modificarea
 factorul de amplificare al circuitului fără a schimba mai mult de un
@@ -864,7 +864,7 @@ Sumar:
    şi un factor de amplificare ajustabil prin intermediul variaţiei
    rezistenţei unui singur rezistor
 
-* 11. Circuite de derivare şi integrare
+* Circuite de derivare şi integrare
 
 Prin introducerea reactanţei electrice în buclele de reacţie ale
 amplificatoarelor operaţionale, ieşirea acestora va depinde de variaţie
@@ -976,7 +976,7 @@ Sumar:
    reactive (de obicei condensatoare şi nu bobine) în bucla de reacţia a
    circuitului amplificatorului operational
 
-* 12. Reacţia pozitivă
+* Reacţia pozitivă
 
 Spre deosebire de reacţia negativă, ce conectează ieşirea
 amplificatorului la intrarea sa inversoare (-), /reacţia pozitivă/

@@ -1,4 +1,4 @@
-* 1. Puterea în circuitele de curent alternativ rezistive şi reactive
+* Puterea în circuitele de curent alternativ rezistive şi reactive
 
 Să considerăm un circuit monofazat de curent alternativ, compus dintr-o
 sursă de tensiune de 120 V, la frecvenţa de 60 Hz, şi o sarcină
@@ -89,7 +89,7 @@ Sumar:
    elementele reactive. Tensiune şi curentul sunt defazate cu un unghi
    între 0 şi 90 de grade
 
-* 2. Puterea reală, reactivă şi aparentă
+* Puterea reală, reactivă şi aparentă
 
 Se ştie că elementele reactive precum bobinele şi condensatoarele nu
 disipă putere, dar existenţa căderii de tensiune şi curentului la
@@ -169,7 +169,7 @@ Sumar:
    - latura adiacentă, Q - latura opusă, S - ipotenuză, unghiul opus
    este egal cu unghiul de fază al impedanţei din circuit (Z)
 
-* 3. Calcularea şi corectarea factorului de putere
+* Calcularea şi corectarea factorului de putere
 
 Unghiul acestui „triunghi al puterilor” reprezintă raportul dintre
 valoarea puterii disipate (sau consumate) şi cantitatea de putere
@@ -288,7 +288,7 @@ Sumar:
    aproape tot timpul, factorul de putere se corectează prin adăugarea
    unui condensator în paralel cu sarcina
 
-* 4. Corectarea practică a factorului de putere
+* Corectarea practică a factorului de putere
 
 Atunci când avem nevoie de corectarea practică a factorului de putere
 într-un sistem de putere în curent alternativ, probabil că nu vom fi

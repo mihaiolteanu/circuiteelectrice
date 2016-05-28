@@ -1,4 +1,4 @@
-* 1. Sisteme de alimentare monofazate
+* Sisteme de alimentare monofazate
 
 #+CAPTION: schema electrică a unui circuit monofazat simplu; sarcini
 #+CAPTION: conectat în paralel
@@ -174,7 +174,7 @@ Sumar:
    alimentare (sau mai multe) având doar o singură formă de undă a
    tensiunii
 
-* 2. Sisteme de alimentare trifazate
+* Sisteme de alimentare trifazate
 
 Folosind modul „straniu” de însumare a vectorilor şi a numerelor
 complexe atunci când tensiunile alternative sunt defazate între ele,
@@ -332,7 +332,7 @@ Sumar:
    este creat cu ajutorul generatoarelor polifazate ce utilizează seturi
    multiple de înfăşurări
 
-* 3. Secvenţa fazelor
+* Secvenţa fazelor
 
 Să considerăm din nou generatorul trifazat de curent alternativ din
 cazul precedent şi să analizăm rotaţia magneţilor şi efectele acesteia:
@@ -456,7 +456,7 @@ Sumar:
    faze ale sistemului trifazat între ele, fără efect asupra direcţiei
    de rotaţie a generatorului
 
-* 4. Funcţionarea motorului polifazat
+* Funcţionarea motorului polifazat
 
 Probabil că cel mai mare avantaj al sistemelor de curent alternativ
 polifazata constă în proiectarea şi operarea motoarelor de curent
@@ -603,7 +603,7 @@ Sumar:
    ele, va duce la înversare secvenţei fazelor, şi implicit la direcţia
    de rotaţie a acestuia
 
-* 5. Configuraţii stea şi triunghi trifazate
+* Configuraţii stea şi triunghi trifazate
 
 *** Configuraţia stea (Y)
 
@@ -804,7 +804,7 @@ Sumar:
    sursele în configuraţie stea pot asigura aceeiaşi putere pe sarcină
    cu un curent de linie mai mic faţă de conexiunea triunghi.
 
-* 6. Transformatorul trifazat
+* Transformatorul trifazat
 
 Din moment ce sistemele trifazate sunt folosite atât de des în sistemele
 de distribuţie a energiei electrice, este necesară folosirea

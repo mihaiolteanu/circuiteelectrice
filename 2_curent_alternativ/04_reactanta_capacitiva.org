@@ -1,4 +1,4 @@
-* 1. Circuite pur rezistive
+* Circuite pur rezistive
 
 Vezi subcapitolul precedent (3.1)
 
@@ -7,7 +7,7 @@ Sumar:
 -  
 -  
 
-* 2. Circuite pur capacitive
+* Circuite pur capacitive
 
 Comportamentul condensatoarelor este diferit faţă de cel al
 rezistorilor. Pe când rezistorii opun o rezistenţă direct proporţională
@@ -145,7 +145,7 @@ Sumar:
    cuvinte, cu cât frecvenţa este mai mare, cu atât opoziţia faţa de
    curent este mai mică (cu atât conduce mai bine)
 
-* 3. Circuite rezistiv-capacitive serie
+* Circuite rezistiv-capacitive serie
 
 Până acum am văzut doar ce se întâmplă într-un circuit pur rezistiv,
 respectiv pur inductiv. Acum vom analiza cele două componente conectate
@@ -289,7 +289,7 @@ Sumar:
    de tensiune se însumează, iar suma lor este tensiunea totală iar
    impedanţele se adună rezultând impedanţa totală
 
-* 4. Circuite rezistiv-capacitive paralel
+* Circuite rezistiv-capacitive paralel
 
 Folosind aceleaşi valori, vom conecta rezistorul şi condensatorul în
 paralel, şi vom trece la analiza acestuia folosind metoda tabelului:

@@ -1,4 +1,4 @@
-* 1. Ce este un filtru
+* Ce este un filtru
 
 În unele cazuri este necesară folosirea unor circuite capabile să
 filtreze selectiv o anumită frecvenţă, sau un domeniu de frecvenţe,
@@ -49,7 +49,7 @@ Sumar:
 -  O diagramă Bode este un grafic a cărei axă orizontală este frecvenţa,
    şi nu timpul
 
-* 2. Filtrul trece-jos
+* Filtrul trece-jos
 
 Prin definiţie, filtrul trece-jos permite trecerea (impedanţă mică)
 semnalelor de frecvenţă joasă şi blochează trecerea (impedanţă mare)
@@ -209,7 +209,7 @@ Sumar:
    Peste acestă frecvenţa de tăiere, valoarea tensiunii de ieşire este
    sub 70.7% din tensiune de intrare, şi invers
 
-* 3. Filtrul trece-sus
+* Filtrul trece-sus
 
 Filtrul trece-sus este exact opusul filtrului trece-jos, după cum
 sugerează şi numele: permite trecerea semnalelor de frecvenţă înaltă şi
@@ -312,7 +312,7 @@ Sumar:
    intrare. Peste această frecvenţă de tăiere, tensiunea de ieşire este
    mai mare decât 70.7% din tensiunea de intrare, şi invers
 
-* 4. Filtrul trece-bandă
+* Filtrul trece-bandă
 
 Există aplicaţii în care este nevoie de filtrarea unei anumite benzi de
 frecvenţe din totalul frecvenţelor prezente în semnal. Circuitele de
@@ -388,7 +388,7 @@ Sumar:
    unui filtru trece-jos şi a unui filtru trece-sus, indiferent de
    ordinea lor
 
-* 5. Filtrul stop-bandă
+* Filtrul stop-bandă
 
 Filtrul stop-bandă permite trecerea tuturor frecvenţelor ce se află
 peste sau sub un anumit domeniu/bandă de frecvenţe determinat de
@@ -447,7 +447,7 @@ Sumar:
    configuraţie „T”, prin urmare, acest tip de filtru mai este cunoscut
    şi sub numele de „filtru stop-bandă în dublu-T”
 
-* 6. Filtre rezonante
+* Filtre rezonante
 
 Filtrele considerate până în acest moment au fost compuse exclusiv din
 condensatoare /sau/ bobine, dar nu ambele tipuri de componente în

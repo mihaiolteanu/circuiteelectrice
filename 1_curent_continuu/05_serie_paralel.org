@@ -1,4 +1,4 @@
-* 1. Ce sunt circuitele „serie” şi „paralel”
+* Ce sunt circuitele „serie” şi „paralel”
 
 Circuitele formate dintr-o singură baterie şi o singură rezistenţă sunt
 foarte uşor de analizat, dar nu sunt foarte des întâlnite în practică.
@@ -80,7 +80,7 @@ Sumar:
    curentului formată din cel puţin o sarcină (rezistenţă) din circuit.
 -  Legea lui Ohm: E = IR; I = E/R; R = E/I
 
-* 2. Circuite serie simple
+* Circuite serie simple
 
 Să începem cu un circuit electric format dintr-o baterie şi trei
 rezistori:
@@ -227,7 +227,7 @@ Sumar:
    individuale de tensiune pe fiecare component în parte: E_{Total} =
    E_{1} + E_{2} + . . . E_{n}.
 
-* 3. Circuite paralel simple
+* Circuite paralel simple
 
 Să începem cu un circuit paralel format din trei rezistori şi o singură
 baterie:
@@ -315,7 +315,7 @@ Sumar:
    individual prin fiecare ramură: I_{Total} = I_{1} + I_{2} + . . .
    I_{n}.
 
-* 4. Conductanţa
+* Conductanţa
 
 Prin definiţie, rezistenţa este mărimea ce măsoară /frecarea/
 întâmpinată de electroni atunci când se deplasează prin componentul
@@ -385,7 +385,7 @@ Sumar:
    „Siemens”.
 -  Matematic, conductanţa este inversul rezistenţei: G=1/R
 
-* 5. Calcularea puterii
+* Calcularea puterii
 
 La calcularea puterii disipate pe componentele rezistive, putem folosi
 oricare dintre ecuaţiile de putere în funcţie de mărimile cunoscute:
@@ -443,7 +443,7 @@ Sumar:
    suma puterilor individuale de pe fiecare componente:
    P_{total} = P_{1} + P_{2} + ... + P_{n}
 
-* 6. Aplicarea corectă a legii lui Ohm
+* Aplicarea corectă a legii lui Ohm
 
 Una dintre cele mai frecvente greşeli ale începătorilor în aplicarea
 legii lui Ohm constă în utilizarea greşită a mărimilor pentru tensiune,
@@ -516,7 +516,7 @@ Sumar:
 -  Folosind metoda tabelului, vom aplica regulie circuitelor
    serie/paralel pe fiecare linie
 
-* 7. Analiza circuitelor defecte
+* Analiza circuitelor defecte
 
 Sarcina unui tehnician presupune adesea localizarea şi remedierea sau
 înlocuirea componentelor dintr-un circuit defect. Identificarea
@@ -1019,7 +1019,7 @@ Sumar:
    decât dacă sunt supuşi unui stres fizic sau electric peste limitele
    normale de funcţionare
 
-* 8. Construirea circuitelor rezistive simple
+* Construirea circuitelor rezistive simple
 
 Pe măsură ce studiaţi circuitele electrice, veţi dori probabil să
 construiţi propriile circuite utilizând baterii şi rezistori (becuri, de

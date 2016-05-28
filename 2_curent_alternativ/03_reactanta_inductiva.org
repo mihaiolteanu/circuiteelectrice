@@ -1,4 +1,4 @@
-* 1. Circuite rezistive în curent alternativ
+* Circuite rezistive în curent alternativ
 
 Să considerăm un circuit de curent alternativ pur rezistiv, caz în care
 tensiunea şi curentul sunt în fază (unghiul de defazaj dintre ele este
@@ -45,7 +45,7 @@ timpul putere ce este generată de sursă şi degajată de acesta sub formă
 de căldură. Indiferent de valoarea curentului, pozitivă sau negativă, un
 rezistor va disipa tot timpul energie.
 
-* 2. Circuite inductive în curent alternativ
+* Circuite inductive în curent alternativ
 
 Bobinele au în schimb un comportament diferit faţă de cel al
 rezistorilor atunci când sunt introduse în circuit. Faţă de rezistor,
@@ -246,7 +246,7 @@ Sumar:
    este opoziţia faţă de deplasarea electronilor (curent) în curent
    alternativ
 
-* 3. Circuite rezistiv-inductive serie. Impedanţa
+* Circuite rezistiv-inductive serie. Impedanţa
 
 În secţiunile precedente, am văzut ce se întâmplă într-un circuit
 electric de curent alternativ simplu pur rezistiv, respectiv pur
@@ -457,7 +457,7 @@ Sumar:
    forma tensiunea totală din circuit, iar impedanţele se adună pentru a
    forma impedanţa totală
 
-* 4. Circuite rezistiv-inductive paralel în curent alternativ
+* Circuite rezistiv-inductive paralel în curent alternativ
 
 Să luăm în considerare aceleaşi componente din circuitul serie, dar să
 le conectăm de data aceasta în paralel:

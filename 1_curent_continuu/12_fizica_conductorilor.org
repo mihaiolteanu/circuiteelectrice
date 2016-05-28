@@ -1,4 +1,4 @@
-* 1. Introducere?
+* Introducere?
 
 Ar trebui să fiţi deja familiarizaţi cu legătura ce există între
 conductivitatea electrică şi tipul materialului. Acele materiale ce
@@ -122,7 +122,7 @@ Sumar:
 -  Electronii ce se deplasează printr-un conductor produc o cădere de
    tensiune în lungimea acelui conductor
 
-* 2. Mărimea şi amperajul conductorilor
+* Mărimea şi amperajul conductorilor
 
 ** Diametrul conductorilor si deplasarea electronilor
 
@@ -213,7 +213,7 @@ Sumar:
 -  *Amperajul* unui conductor reprezintă curentul maxim pe care un
    conductor îl poate susţine, fără a duce la distrugerea acestuia
 
-* 3. Siguranţe fuzibile
+* Siguranţe fuzibile
 
 ** Definiţia şi scopul siguranţelor fuzibile
 
@@ -405,7 +405,7 @@ Sumar:
 -  Dispozitivele de siguranţa într-un circuit cu împământare se
    instalează pe faza acestuia şi nu pe neutru
 
-* 4. Rezistivitatea şi conductibilitatea electrică
+* Rezistivitatea şi conductibilitatea electrică
 
 Amperajul unui conductor, bazat pe potenţialul curentului de a distruge
 conductorul. nu este cea mai bună metodă de reprezentare a rezistenţei
@@ -512,7 +512,7 @@ Sumar:
 -  *Conductibilitatea electrică* caracterizează capacitatea unui
    material de a permite deplasarea electronilor prin acesta
 
-* 5. Coeficientul de temperatură al rezistenţei
+* Coeficientul de temperatură al rezistenţei
 
 Tabelul rezistivităţilor diferitelor materiale, prezentat în secţiunea
 precedentă, s-a referit doar la temperatura de 20^{o}. Prin urmare, dupa
@@ -623,7 +623,7 @@ Sumar:
    tabel, este următoarea:
     R = R_{ref}[1 + α(T - T_{ref})]
 
-* 6. Supraconductibilitatea
+* Supraconductibilitatea
 
 În cazul răcirii la temperaturi extrem de scăzute, temperaturi apropiate
 de zero absolut (aproximativ -273^{o}C), rezistenţa conductorilor
@@ -740,7 +740,7 @@ Sumar:
    minimă la care trebuie adus materialul pentru a intra în faza de
    supraconducţie
 
-* 7. Străpungerea dielectricului
+* Străpungerea dielectricului
 
 ** Definiţia străpungerii dielectrice
 

@@ -1,4 +1,4 @@
-* 1. Construcţia releelor
+* Construcţia releelor
 
 #+CAPTION: o bobină produce un câmp magnetic la trecerea curentului prin
 #+CAPTION: aceasta
@@ -81,7 +81,7 @@ Sumar:
    ce atrage armătura. Armătura acţionează la rândul său contactele unui
    comutator
 
-* 2. Contactoare
+* Contactoare
 
 Atunci când releele sunt folosite pentru comutarea unor puteri mari prin
 contactele sale, acestea poartă numele de contactoare. Contactorele au
@@ -101,7 +101,7 @@ Sumar:
 -  
 -  
 
-* 3. Relee temporizate
+* Relee temporizate
 
 Unele relee sunt prevăzute cun un fel de „amortizor”. Acest mecanism,
 ataşat arăturii releului previne deplasarea imediată şi completă a
@@ -251,7 +251,7 @@ Sumar:
    energizării/de-energizării bobinei şi până la închiderea/deschiderea
    contactelor.
 
-* 5. Relee semiconductoare
+* Relee semiconductoare
 
 Pe cât de utile sunt, releele electromecanice au totuşi multe
 inconveniente. Acestea sunt relativ scumpe, au o durată de viaţă a

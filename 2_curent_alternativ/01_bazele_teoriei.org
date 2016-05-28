@@ -1,4 +1,4 @@
-* 1. Ce este curentul alternativ
+* Ce este curentul alternativ
 
 În primul capitol am luat în considerare doar curentul continuu, termen
 folosit în electricitate pentru a defini deplasarea electronilor într-o
@@ -173,7 +173,7 @@ Sumar:
 -  Curentul din secundar = Curentul din primar (numărul de spire din
    primar / numărul de spire din secundar
 
-* 2. Forme de undă în curent alternativ
+* Forme de undă în curent alternativ
 
 Datorită modului de producere al energiei electrice, unda produsă de
 modificarea continuă a polarităţii tensiunii, respectiv direcţiei
@@ -276,7 +276,7 @@ Sumar:
    egal cu o perioadă efectuată într-un interval de o secundă
 -  f = 1 / T
 
-* 3. Amplitudinea curentului alternativ
+* Amplitudinea curentului alternativ
 
 În curent continuu, unde valoarea tensiunii şi a curentului sunt
 constante în timp, exprimarea cantităţii acestora în orice moment este
@@ -490,7 +490,7 @@ Sumar:
 -  Factorul de formă a unei unde alternative este raportul dintre
    valoarea sa efectivă şi cea medie
 
-* 4. Rezolvarea circuitelor simple de curent alternativ
+* Rezolvarea circuitelor simple de curent alternativ
 
 Rezolvarea circuitelor de curent alternativ se poate dovedi extrem de
 complexă în unele cazuri datorită comportamentului condensatoarelor şi
@@ -532,7 +532,7 @@ Sumar:
    circuitele complexe, cantiăţile folosite vor trebui să fie exprimate
    într-o formă matematică mai complexă
 
-* 5. Fazele curentului alternativ
+* Fazele curentului alternativ
 
 Lucrurile încep să se complice atunci când trebuie să comparăm două sau
 mai multe forme de undă alternative ce sunt defazate între ele. Prin
@@ -604,7 +604,7 @@ Sumar:
    existente; matematic, acest lucru se realizează cu ajutorul numerelor
    complexe
 
-* 6. Principii ale undelor radio
+* Principii ale undelor radio
 
 Una dintre cele mai fascinante aplicaţii a energiei electrice constă în
 generarea undelor invizibile de energie, şi anume, a undelor radio. Deşi

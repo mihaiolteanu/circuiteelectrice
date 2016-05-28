@@ -1,4 +1,4 @@
-* 1. Ce înseamnă analiza unei reţele
+* Ce înseamnă analiza unei reţele
 
 General vorbind, /analiza reţelei/ este o metodă matematică folosită
 pentru analiza unui circuit (o „reţea” de componente interconectate). În
@@ -97,7 +97,7 @@ Sumar:
 -  Pentru rezolvarea acestor tipuri de probleme se pot folosi sistemele
    de ecuaţii.
 
-* 2. Metoda ramurii de curent
+* Metoda ramurii de curent
 
 Folosind aceasta metodă, presupunem şi indicăm un sens al curenţilor
 prin circuit şi scriem apoi ecuaţiile ce descriu relaţiile dintre
@@ -289,7 +289,7 @@ Sumar:
 7. Calcularea căderilor de tensiune la bornele tuturor rezistorilor
    (E=IR)
 
-* 3. Metoda buclei de curent
+* Metoda buclei de curent
 
 /Metoda buclei de curent/ sau /metoda ochiului de curent/ este
 asemănătoare metodei ramurii de curent prin faptul că foloseşte un
@@ -473,7 +473,7 @@ Sumar:
    prin componentele prin care trec mai mulţi curenţi de buclă
 7. Aflarea căderilor de tensiune pe toţi rezistorii (E=IR)
 
-* 4. Metoda nodului de tensiune
+* Metoda nodului de tensiune
 
 Metoda nodului de tensiune pentru analiza circuitelor determină
 tensiunea nodurilor în funcţie de ecuaţiile legii lui Kirchhoff pentru
@@ -647,7 +647,7 @@ Sumar:
 8. Se rezolvă sistemul de ecuaţii pentru aflarea tensiunilor de nod
    necunoscute
 
-* 5. Teorema lui Millman
+* Teorema lui Millman
 
 Prin intermediul teoremei lui Millman, circuitul este redesenat ca şi o
 reţea de ramuri paralele, fiecare ramură conţinând un rezistor sau o
@@ -731,7 +731,7 @@ Sumar:
    referinţă unul şi acelaşi punct din circuit (de obicei latura de jos
    a circuitului)
 
-* 6. Teorema superpoziţiei
+* Teorema superpoziţiei
 
 Teorema superpoziţiei reprezintă acea viziune de geniu ce transformă un
 subiect complex într-o versiune simplă şi uşor de înteles.
@@ -851,7 +851,7 @@ Sumar:
    singură, toate sursele de tensiune se înlocuiesc cu un fir, şi toate
    sursele de curent cu un circuit deschis.
 
-* 7. Teorema lui Thevenin
+* Teorema lui Thevenin
 
 Teorema lui Thevenin susţine că orice circuit liniar poate fi
 simplificat, indiferent de complexitatea sa, la un circuit echivalent cu
@@ -987,7 +987,7 @@ Sumar:
 4. Aflarea căderii de tensiune şi a curentului prin rezistorul de
    sarcină folosind regulile circuitelor serie
 
-* 8. Teorema lui Norton
+* Teorema lui Norton
 
 Conform teoremei lui Norton este posibilă simplificarea oricărui circuit
 liniar, indiferent de complexitate, la un circuit echivalent dotat cu o
@@ -1097,7 +1097,7 @@ Sumar:
 4. Aflarea tensiunii şi curentului prin sarcină aplicând regulile
    circuitelor paralele
 
-* 9. Echivalenţa teoremelor Thevenin-Norton
+* Echivalenţa teoremelor Thevenin-Norton
 
 Din moment ce ambele teoreme, atât Thevenin cât şi Norton, reprezintă
 metode valide de reducere a reţelelor complexe spre circuite mult mai
@@ -1165,7 +1165,7 @@ Sumar:
 -  Curentul Norton este egal cu tensiune Thevenin împărţită la
    rezistenţa Thevenin
 
-* 10. Teorema lui Millman revizuită
+* Teorema lui Millman revizuită
 
 Revenim acum asupra teoremei lui Millman pentru a elucida forma
 „ciudată” a ecuaţiei şi provenienţa acesteia:
@@ -1243,7 +1243,7 @@ nimic altceva decât o transformare Thevenin-Norton împreună cu formula
 rezistenţei paralele pentru determinarea căderii de tensiune pe toate
 ramurile circuitului.
 
-* 11. Teorema transferului maxim de putere
+* Teorema transferului maxim de putere
 
 Teorema transferului maxim de putere nu este neapărat o metodă de
 analiza a reţelelor ci este folosită pentru optimizarea design-ului
@@ -1302,7 +1302,7 @@ Sumar:
    rezistenţe este egală cu rezistenţa Thevenin sau Norton a reţelei de
    alimentare a sarcinii
 
-* 12. Transformarea triunghi-stea şi stea-triunghi
+* Transformarea triunghi-stea şi stea-triunghi
 
 De multe ori componentele sunt conectate într-o reţea cu trei terminale,
 asfel: conexiunea triunghi (Δ) cunoscută şi sub numele de delta sau Pi

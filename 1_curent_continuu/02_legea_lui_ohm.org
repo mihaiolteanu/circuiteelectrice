@@ -1,4 +1,4 @@
-* 1. Relaţia dintre tensiune, curent şi rezistenţă
+* Relaţia dintre tensiune, curent şi rezistenţă
 
 Un circuit electric este format atunci când este construit un drum prin
 care electronii se pot deplasa continuu. Această mişcare continuă de
@@ -166,7 +166,7 @@ Sumar:
 -  Rezistenţa se măsoară în /ohmi/ şi este simbolizată prin „R”
 -  Legea lui Ohm: E = IR; I = E/R; R = E/I
 
-* 2. Puterea în circuitele electrice
+* Puterea în circuitele electrice
 
 Pe lângă tensiune şi curent, mai există o altă mărime a activităţii
 electronilor liberi din circuit: /puterea/. În primul rând trebuie să
@@ -295,7 +295,7 @@ Sumar:
    descriu acelaşi principiu fizic, un cal putere fiind egal cu 745.7 de
    watti
 
-* 3. Calcularea puterii electrice
+* Calcularea puterii electrice
 
 Am văzut formula pentru determinarea puterii într-un circuit electric:
 prin înmulţirea curentului (în amperi) cu tensiunea (în volţi) ajungem
@@ -382,7 +382,7 @@ Sumar:
 -  Legea lui Joule (ecuaţiile de putere): P = I^{2}R ; P = IE ; P =
    E^{2}/R
 
-* 4. Rezistori
+* Rezistori
 
 #+CAPTION: http://www.flickr.com/photos/maurymccown/2381599778/sizes/l/
 [[poza\_meniu2]]
@@ -527,7 +527,7 @@ Sumar:
 
 [[#meniu][↑ sus]]
 
-* 5. Conducţie neliniară
+* Conducţie neliniară
 
 Legea lui Ohm este un instrument simplu şi puternic pentru analiza
 circuitelor electrice, dar are şi unele limitaţii pe care trebuie să le
@@ -709,7 +709,7 @@ Sumar:
 
 [[#meniu][↑ sus]]
 
-* 6. Conexiunea unui circuit
+* Conexiunea unui circuit
 
 Până în acest moment am analizat circuite cu o singură baterie şi o
 singură rezistenţă fără a lua în calcul firele conductoare dintre
@@ -854,7 +854,7 @@ Sumar:
 
 [[#meniu][↑ sus]]
 
-* 7. Polaritatea căderilor de tensiune
+* Polaritatea căderilor de tensiune
 
 Putem determina direcţia curgerii electronilor într-un circuit, urmărind
 drumul ce duce de la terminalul negativ (-) la cel pozitiv (+) al

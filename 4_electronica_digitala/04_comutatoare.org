@@ -1,4 +1,4 @@
-* 1. Tipuri de comutatoare
+* Tipuri de comutatoare
 
 Un comuntator electric este orice dispozitiv folosit pentru întreruperea
 deplasării electronilor prin circuit. Comutatoarele sunt practic
@@ -276,7 +276,7 @@ Sumar:
 -  Comutatoarele de proces sunt acţionate de variaţia unei anumite
    variabile fizice de proces, precum temperatură, presiune, nivel, etc.
 
-* 3. Poziţia „normală” a contactelor
+* Poziţia „normală” a contactelor
 
 Orice tip de comutator poate fi proiectat astfel încât contactele sale
 să se închidă (stabilirea continuităţii circuitului), sau să se deschidă

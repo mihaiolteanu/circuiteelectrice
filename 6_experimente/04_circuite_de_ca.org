@@ -1,4 +1,4 @@
-* 01. Transformator -- sursă de putere
+* Transformator -- sursă de putere
 
 ** Scopul experimentului
 
@@ -75,7 +75,7 @@ următoarea diagramă:
 #+CAPTION: sursă de tensiune joasă de curent alternativ
 [[../poze/05008.png]]
 
-* 02. Construirea unui transformator
+* Construirea unui transformator
 
 ** Scopul experimentului
 
@@ -140,7 +140,7 @@ tensiunii de ieşire la mers în gol (fără sarcină) şi sub sarcină.
 coborâtor, respectic ridicător de tensiune) şi conectaţi diferite
 sarcini de ca pe înfăşurărea secundară.
 
-* 03. Bobină variabilă
+* Bobină variabilă
 
 ** Scopul experimentului
 
@@ -177,7 +177,7 @@ diferite materiale în tubul de hârtie, precum cupru sau oţel inoxidabil,
 dacă aveţi la îndemână. Nu toate metalele vor avea acelaşi efect,
 datorită diferenţelor de permeabilitate magnetică.
 
-* 04. Detector audio de semnale
+* Detector audio de semnale
 
 ** Scopul experimentului
 
@@ -277,7 +277,7 @@ rezultatul final ar putea arăta astfel:
 #+CAPTION: detector audio de semnal; forma finală
 [[../poze/05013.png]]
 
-* 05. Detectarea câpurilor magnetice
+* Detectarea câpurilor magnetice
 
 ** Scopul experimentului
 
@@ -342,7 +342,7 @@ minimizează cuplajul magnetic? (detectarea minimă a semnalului). Ce ne
 spune acest rezultat legat de poziţionarea bobinelor atunci când
 interferanţa dintre circuite nu este dorită?
 
-* 06. Detectarea câmpurilor electrice
+* Detectarea câmpurilor electrice
 
 ** Scopul experimentului
 
@@ -380,7 +380,7 @@ o sursă de câmp electric. Ce materiale dau cele mai bune rezultate? Cum
 se compară acest lucru cu experimentul precedent (detectarea câmpurilor
 magnetice)?
 
-* 07. Circuit de detectare a defazajului
+* Circuit de detectare a defazajului
 
 ** Scopul experimentului
 

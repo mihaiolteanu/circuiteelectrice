@@ -1,4 +1,4 @@
-* 1. Semnale digitale şi porţi
+* Semnale digitale şi porţi
 
 Deşi sistemul de numeraţie binar reprezintă un concept matematic
 abstract interesant, încă nu am spus nimic despre aplicaţiile practice
@@ -163,7 +163,7 @@ Sumar:
    relaţiilor dintre mărimile de intrare şi cele de ieşire dintr-un
    circuit logic
 
-* 4. Porţi logice cu două intrări
+* Porţi logice cu două intrări
 
 Având doar o intrare, singurele porţi „disponibile” sunt cele inversoare
 şi cele ne-inversoare. Pentru a lucra cu mai multe posibilităţi, trebuie
@@ -451,7 +451,7 @@ Sumar:
 -  Poarta logică SAU: ieşirea este 1 dacă intrarea A sau intrarea B este
    1
 
-* 9. Principiul universalităţii
+* Principiul universalităţii
 
 Porţile logice ŞI-negat şi SAU-negat posedă o proprietate specială: sunt
 universale. Cu alte cuvinte, având un număr suficient de astfel de
@@ -625,7 +625,7 @@ Sumar:
 -  
 -  
 
-* 10. Modul de împachetare
+* Modul de împachetare
 
 Circuitele digitale cu porţi logice sunt confecţionate ca şi circuite
 integrate: toţi tranzistori şi rezistorii ce intră în componenţa

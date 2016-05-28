@@ -1,4 +1,4 @@
-* 1. Măsurarea tensiunii
+* Măsurarea tensiunii
 
 ** Multimetrul analogic şi digital
 
@@ -126,7 +126,7 @@ voltmetrul va indica „direcţia” normală a căderii de tensiune. Dacă
 polaritatea tensiunii aplicate este inversă (negativ pe sonda roşie şi
 pozitiv pe cea neagră), indicaţia aparatului de măsură va fi „inversă”.
 
-* 2. Măsurarea rezistenţei
+* Măsurarea rezistenţei
 
 ** Scopul experimentului
 
@@ -309,7 +309,7 @@ Sumar:
 -  
 -  
 
-* 3. Realizarea unui circuit simplu
+* Realizarea unui circuit simplu
 
 ** Scopul experimentului
 
@@ -407,7 +407,7 @@ Sumar:
 -  
 -  
 
-* 4. Măsurarea curentului
+* Măsurarea curentului
 
 ** Scopul experimentului
 
@@ -516,7 +516,7 @@ Sumar:
 -  
 -  
 
-* 5. Legea lui Ohm (experiment)
+* Legea lui Ohm (experiment)
 
 ** Scopul experimentului
 
@@ -596,7 +596,7 @@ Sumar:
 -  
 -  
 
-* 6. Rezistenţa non-liniară
+* Rezistenţa non-liniară
 
 ** Scopul experimentului
 
@@ -682,7 +682,7 @@ Sumar:
 -  
 -  
 
-* 7. Disiparea puterii
+* Disiparea puterii
 
 ** Scopul experimentului
 
@@ -791,7 +791,7 @@ Sumar:
 -  
 -  
 
-* 8. Circuit cu înrerupator
+* Circuit cu înrerupator
 
 ** Scopul experimentului
 
@@ -829,7 +829,7 @@ Sumar:
 -  
 -  
 
-* 9. Realizarea unui electromagnet
+* Realizarea unui electromagnet
 
 ** Scopul experimentului
 
@@ -891,7 +891,7 @@ Sumar:
 -  
 -  
 
-* 10. Inducţia electromagnetică
+* Inducţia electromagnetică
 
 ** Scopul experimentului
 

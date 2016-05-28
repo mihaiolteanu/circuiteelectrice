@@ -1,4 +1,4 @@
-* 1. R, X şi Z - recapitulare
+* R, X şi Z - recapitulare
 
 Înainte de a începe să explorăm efectele rezistorilor, bobinelor şi a
 condensatoarelor conectate împreună în acelaşi circuit de curent
@@ -83,7 +83,7 @@ cea legată de calcularea puterii. Doarece reactanţa nu disipă putere
 precum o face rezistenţă, conceptul de putere în circuitele de curent
 alternativ este radical diferit faţă de cele de curent alternativ.
 
-* 2. Circuite RLC serie
+* Circuite RLC serie
 
 Să considerăm următorul circuit RLC serie:
 
@@ -179,7 +179,7 @@ Sumar:
    conectateîn serie. Acest lucru poate duce la căderi de tensiune pe
    componente mai mari decât tensiunea sursei de alimentare
 
-* 3. Circuite RLC paralel
+* Circuite RLC paralel
 
 Putem folosi aceleaşi componente de la circuitul serie, dar conectate în
 paralel de această dată:
@@ -235,7 +235,7 @@ Sumar:
 -  
 -  
 
-* 4. Circuite RLC serie-paralel
+* Circuite RLC serie-paralel
 
 Să luăm ca şi exemplu următorul circuit serie-paralel:
 
@@ -357,7 +357,7 @@ Sumar:
    evită asfel amestecarea rezistenţelor (R) cu inductanţe (L) şi
    capacităţi (C)
 
-* 5. Susceptanţa şi admitanţa
+* Susceptanţa şi admitanţa
 
 În studiul circuitelor electrice de curent continuu am întâlnit termenul
 de /conductanţă/; aceasta se defineşte ca inversul rezistenţei.

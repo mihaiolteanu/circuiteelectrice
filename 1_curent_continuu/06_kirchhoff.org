@@ -1,4 +1,4 @@
-* 1. Circuite divizoare de tensiune. Potenţiometrul
+* Circuite divizoare de tensiune. Potenţiometrul
 
 Să analizăm un circuit electric serie simplu, determinând căderile de
 tensiune pe fiecare rezistor:
@@ -180,7 +180,7 @@ Sumar:
    de conectare, folosit frecvent pe post de divizor de tensiune
    ajustabil.
 
-* 2. Legea lui Kirchhoff pentru tensiune
+* Legea lui Kirchhoff pentru tensiune
 
 Să luam un circuit serie cu trei rezistori şi să notăm punctele din
 circuit:
@@ -337,7 +337,7 @@ Sumar:
 -  Legea lui Kirchhoff pentru tensiune: *„Suma algebrică a tuturor
    căderilor de tensiune dintr-o bulcă trebuie să fie egală cu zero”*
 
-* 3. Circuite divizoare de curent
+* Circuite divizoare de curent
 
 Să analizăm un circuit paralel simplu, determinând valorile curenţilor
 prin fiecare ramură, prin fiecare rezistor în parte:
@@ -459,7 +459,7 @@ Sumar:
    ramură în parte, proporţiile fiind strict dependente de valorile
    rezistenţelor: I_{n} = I_{Total} (R_{Total} / R_{n})
 
-* 4. Legea lui Kirchhoff pentru curent
+* Legea lui Kirchhoff pentru curent
 
 Să considerăm următorul circuit paralel:
 

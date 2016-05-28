@@ -1,4 +1,4 @@
-* 1. Electricitate statică
+* Electricitate statică
 
 #+CAPTION:
 http://upload.wikimedia.org/wikipedia/commons/4/44/Lightning\_strike\_jan\_2007.jpg
@@ -239,7 +239,7 @@ Sumar:
 -  Numărul protoniilor din nucleu determină identitatea atomului ca şi
    element unic
 
-* 2. Conductori, dielectrici şi deplasarea electronilor
+* Conductori, dielectrici şi deplasarea electronilor
 
 Electronii diferitelor tipuri de atomi posedă grade diferite de
 libertate. În cazul unor tipuri de materiale, precum metalele,
@@ -475,7 +475,7 @@ Sumar:
    pentru a facilita atât intrarea cât şi ieşirea electronilor din acel
    conductor
 
-* 3. Circuite electrice
+* Circuite electrice
 
 #+CAPTION: http://www.flickr.com/photos/judybaxter/2656574939/sizes/l/
 [[poza\_meniu2]]
@@ -536,7 +536,7 @@ Sumar:
    circuitului de a susţine curgerea electronilor. Orice întrerupere,
    /oriunde/ în circuit împiedică curgerea electronilor prin acesta
 
-* 4. Tensiunea şi curentul
+* Tensiunea şi curentul
 
 Precum am menţionat mai sus, doar un drum continuu (circuit) nu este
 suficient pentru a putea deplasa electronii: avem de asemenea nevoie de
@@ -824,7 +824,7 @@ Sumar:
    de asemenea relativă, ea depinde de ambele puncte la care se face
    referire.
 
-* 5. Rezistenţa
+* Rezistenţa
 
 #+CAPTION:
 http://upload.wikimedia.org/wikipedia/commons/e/e3/3\_Resistors.jpg
@@ -981,7 +981,7 @@ Sumar:
    întrerupător închis este un întrerupător ce oferă un drum direct, cu
    o rezistenţă scăzută, electronilor pentru curgere.
 
-* 6. Tensiune şi curent într-un circuit practic
+* Tensiune şi curent într-un circuit practic
 
 Deoarece este nevoie de energie pentru a forţa electronii să se
 deplaseze împotriva opoziţiei unei rezistenţe, va exista întotdeauna o
@@ -1033,7 +1033,7 @@ simple: rata de curgere a electronilor este aceeiaşi în oricare punct al
 circuitului, cu toate că tensiunile pot varia între diferite seturi de
 puncte.
 
-* 7. Sensul convenţional şi sensul real de deplasare al electronilor
+* Sensul convenţional şi sensul real de deplasare al electronilor
 
 /„Cel mai frumos lucru legat de standarde este că există atât de multe
 din care putem alege”/

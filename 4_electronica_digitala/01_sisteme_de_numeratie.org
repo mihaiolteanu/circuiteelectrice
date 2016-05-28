@@ -1,4 +1,4 @@
-* 1. Numere şi simboluri
+* Numere şi simboluri
 
 Exprimarea cantităţilor sub formă numerică ni se pare un lucru natural.
 Această situaţie este atât în avantajul cât şi în dezavantajul nostru
@@ -75,7 +75,7 @@ Sumar:
 -  
 -  
 
-* 2. Sisteme de numeraţie
+* Sisteme de numeraţie
 
 ** Sistemul de numeraţie roman
 

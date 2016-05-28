@@ -1,4 +1,4 @@
-* 1. Activitatea electronilor în reacţiile chimice
+* Activitatea electronilor în reacţiile chimice
 
 Până în acest moment nu am discutat în detaliu modul de funcţionare al
 bateriilor, ci am presupus pur şi simplu că acestea produc o tensiune
@@ -150,7 +150,7 @@ Sumar:
 -  
 -  
 
-* 2. Construcţia bateriilor electrice
+* Construcţia bateriilor electrice
 
 Cuvântul /baterie/ înseamnă pur şi simplu un grup de componente similare
 aduse împreună. O /baterie electrică/ este un set de pile voltaice
@@ -252,7 +252,7 @@ Sumar:
 -  
 -  
 
-* 3. Capacitatea bateriilor
+* Capacitatea bateriilor
 
 Datorită faptului că bateriile dau naştere unei curgeri de electroni
 prin circuit prin intermediul reacţiilor chimice (schimb de electroni),
@@ -375,7 +375,7 @@ Sumar:
 -  
 -  
 
-* 4. Baterii speciale
+* Baterii speciale
 
 ** Pila standard cu mercur
 
@@ -475,7 +475,7 @@ Sumar:
 -  
 -  
 
-* 5. Consideraţii practice
+* Consideraţii practice
 
 La conectarea bateriilor în serie (sau paralel), trebuie să fim atenţi
 la caracteristicile fiecărei baterii, pentru a nu cauza probleme.

@@ -1,4 +1,4 @@
-* 1. Fizica cuantică
+* Fizica cuantică
 
 Invenţia dispozitivelor semiconductoare a constituit cu siguranţă o nouă
 revoluţie industrială. Aceste dispozitive au făcut posibilă
@@ -434,7 +434,7 @@ Sumar:
    ocupate complet nu au aproape niciun efect asupra formării
    legăturilor chimice ale elementelor
 
-* 2. Valenţa şi structura cristalină
+* Valenţa şi structura cristalină
 
 *** Valenţa
 
@@ -566,7 +566,7 @@ Sumar:
 -  Majoritatea dispozitivelor semiconductoare sunt confecţionate din
    monocristale
 
-* 3. Teoria benzilor de energie
+* Teoria benzilor de energie
 
 Fizica cuantică descrie starea electronilor dintr-un atom cu ajutorul
 celor patru numere cuantice. Aceste numere descriu /stările permise/ ale
@@ -662,7 +662,7 @@ Sumar:
    valenţă şi banda de conducţie. Semiconductorii puri nu sunt nici buni
    izolatori, nici buni conductori
 
-* 4. Electroni şi goluri
+* Electroni şi goluri
 
 Materialele semiconductoare pure sunt izolatori relativ buni, în
 comparaţie cu metalele, dar nu sunt la fel de bune precum sticla, de
@@ -827,7 +827,7 @@ Sumar:
    semiconductorului. Un asfel de material este conductor, iar
    purtătorii de sarcină majoritari sunt în acest caz golurile
 
-* 5. Joncţiunea P-N
+* Joncţiunea P-N
 
 Dacă un bloc de material semiconductor de tip P este adus în contact cu
 un bloc de material semiconductor de tip N (figura de mai jos (a)),
@@ -919,7 +919,7 @@ Sumar:
 -  Joncţiunea PN polarizată direct, conduce curent electric
 -  Joncţiunea PN polarizată învers, nu conduce aproape deloc curent
 
-* 6. Dioda
+* Dioda
 
 După cum am precizat şi în secţiunea precedentă, dioda este realizată
 prin introducerea de impurităţi de tip N şi P în acelaşi cristal
@@ -1012,7 +1012,7 @@ Sumar:
 -  
 -  
 
-* 7. Tranzistorul bipolar cu joncţiune (BJT)
+* Tranzistorul bipolar cu joncţiune (BJT)
 
 Primul tranzistor bipolar a fost inventat la „Bell Labs” de către
 William Shockley, Walter Brattain, şi John Bardeen în 1948 (de fapt,
@@ -1212,7 +1212,7 @@ Sumar:
    β=I_{C}/I_{B}, iar valoarea ei este de la 100 la 300 pentru
    tranzistorii mici
 
-* 8. Tranzistorul cu efect de câmp (JFET)
+* Tranzistorul cu efect de câmp (JFET)
 
 Tranzistorul cu efect de câmp a fost propus de Julius Liliendfel în 1926
 şi 1933 sub formă de patent. Shockley, Brattain şi Bardeen au investigat
@@ -1366,7 +1366,7 @@ Sumar:
 -  Polarizarea inversă a porţii duce la variaţia rezistenţei canalului
    prin extinderea zonei de golire
 
-* 9. Tranzistorul cu efect de câmp cu poartă izolată (MOSFET)
+* Tranzistorul cu efect de câmp cu poartă izolată (MOSFET)
 
 Tranzistorul cu efect de câmp cu poartă izolată (IGFET), cunoscut şi sub
 numele de „tranzistor cu efect de câmp cu metal oxid” (MOSFET), este un
@@ -1465,7 +1465,7 @@ Sumar:
    funcţionării, ci doar prezenţa unui curent iniţial pentru încărcarea
    „condensatorului”
 
-* 10. Tiristorul
+* Tiristorul
 
 Tiristoarele reprezintă o plajă largă de dispozitive semiconductoare
 bipolare folosind patru (sau mai multe) straturi alternante N-P-N-P. În

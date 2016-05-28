@@ -1,4 +1,4 @@
-* 1. Introducere
+* Introducere
 
 Circuitele studiate până în acest moment au fost alimentate integral
 într-o singură frecvenţă sinusoidală. În multe aplicaţii însă, frecvenţa
@@ -132,7 +132,7 @@ Sumar:
    semnalul cu cea mai mică frecvenţă. Celelalte forme de undă sunt
    multiplii ale frecvenţei fundamentale, şi poartă numele de /armonici/
 
-* 2. Forme de undă dreptunghiulare
+* Forme de undă dreptunghiulare
 
 Este cunoscut faptul că /orice/ semnal periodic (ce se repetă în timp)
 ne-sinusoidal poate fi reprezentat ca şi combinaţie de semnale continue,
@@ -252,7 +252,7 @@ Sumar:
    infinită de unde sinusoidale (armonici) de frecvenţă multiplu impar
    ale acesteia şi amplitudini descrescătoare
 
-* 4. Analiza spectrală
+* Analiza spectrală
 
 Analiza Fourier computerizată, în special sub forma algoritmului /FFT/
 (Fast Fourier Transform), este un instrument excelent pentru înţelegerea
@@ -418,7 +418,7 @@ Sumar:
 -  Componenta de curent continuu prezentă în semnal nu are niciun fel de
    impact asupra conţinutului armonic al formei de undă în cauză
 
-* 5. Efecte asupra circuitelor
+* Efecte asupra circuitelor
 
 Principiul conform căruia formele de undă periodice ne-sinusoidale sunt
 compuse dintr-o serie de unde sinusoidale de frecvenţe şi amplitudini

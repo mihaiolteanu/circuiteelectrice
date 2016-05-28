@@ -1,4 +1,4 @@
-* 1. Circuite logice combinaţionale - introducere
+* Circuite logice combinaţionale - introducere
 
 Termenul „combinaţional” provine din matematică. În matematică, o
 combinaţie reprezintă o mulţime neordonata. Pe scurt, este un mod de a
@@ -50,7 +50,7 @@ Sumar:
 -  
 -  
 
-* 2. Half-Adder
+* Half-Adder
 
 Ca şi prim exemplu a unui circuit logic combinaţional util, să realizăm
 un dispozitiv ce realizează adunarea a două numere binare. Putem calcula
@@ -87,7 +87,7 @@ Sumar:
 -  
 -  
 
-* 3. Full-Adder
+* Full-Adder
 
 Circuitul half-adder (semi-sumator) este extrem de util până în momentul
 în care dorim adăugarea unor valori ce nu pot fi reprezentate cu un

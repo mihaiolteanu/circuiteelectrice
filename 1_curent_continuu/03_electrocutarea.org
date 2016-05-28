@@ -1,4 +1,4 @@
-* 1. Siguranţa în domeniul electric
+* Siguranţa în domeniul electric
 
 Pe măsură ce curentul electric „curge” printr-un material, orice
 opoziţie în calea deplasării electronilor (rezistenţă) are ca rezultat
@@ -112,7 +112,7 @@ Sumar:
    măsură încât inima să nu mai funcţioneze corect ducând la o conduţie
    cunoscută sub numele de fibrilaţie
 
-* 2. Drumul curentului în cazul electrocutării
+* Drumul curentului în cazul electrocutării
 
 După cum am văzut deja, deplasarea continuă a electronilor necesită
 prezenţa unui circuit închis. Acesta este motivul pentru care şocul
@@ -337,7 +337,7 @@ Sumar:
    curentul pe care îl poate conduce este suficient pentru accidentarea
    gravă sau chiar decesul persoane în cauză
 
-* 3. Legea lui Ohm (din nou!)
+* Legea lui Ohm (din nou!)
 
 În cadrul teoriei siguranţei electrice este rostită adeseori fraza: /Nu
 tensiunea omoară, ci curentul!/ Deşi există o urmă de adevăr în această
@@ -659,7 +659,7 @@ Sumar:
    alimentat, este indicat să lucrăm doar cu o singură mână pentru a
    preveni închiderea circuitului prin piept
 
-* 4. Practici de bază
+* Practici de bază
 
 Dacă este posibil, închideţi întotdeauna alimentarea reţelei electrice
 înainte de atingerea oricăror elemente de circuit. Trebuie de asemenea
@@ -797,7 +797,7 @@ Sumar:
    apariţiei şocului electric, reacţia muşchilor va îndepărta mână de
    pericolul existent
 
-* 5. Reacţia în cazuri de urgenţă
+* Reacţia în cazuri de urgenţă
 
 În ciuda tuturor măsurilor de siguranţă luate, din când în când au loc
 şi accidente neplăcute. În majoritatea cazurilor acestea sunt urmarea
@@ -869,7 +869,7 @@ Sumar:
    după câteva ore de la accident. Pericolul şocului electric nu ia
    sfârşit după acordarea imediată a asistenţei medicale
 
-* 6. Surse potenţiale de pericol
+* Surse potenţiale de pericol
 
 Cu siguranţă că există un adevărat pericol de electrocutare atunci când
 lucrăm într-un circuit electric. Totuşi, posibilitatea apariţiei
@@ -989,7 +989,7 @@ Sumar:
    acest fel nu va exista o diferenţa de potenţial asupra corpului
    victimei şi nici posibilitatea apariţiei unui curent periculos
 
-* 7. Proiectarea aparatelor electrice
+* Proiectarea aparatelor electrice
 
 Odată cu realizarea împământării circuitului, cel puţin un punct din
 circuit este comun cu pământul şi prin urmare nu prezintă niciun risc de
@@ -1168,7 +1168,7 @@ Sumar:
    circuitul se deschide automat pentru a preveni pericolul apariţiei
    electrocutării
 
-* 8. Utilizarea aparatelor de măsură
+* Utilizarea aparatelor de măsură
 
 Utilizarea corectă şi în condiţii de siguranţă a unui aparat de măsură
 este o deprindere extrem de importantă pentru orice electrician sau

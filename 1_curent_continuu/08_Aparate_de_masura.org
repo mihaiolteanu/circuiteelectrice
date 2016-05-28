@@ -1,4 +1,4 @@
-* 1. Ce este un aparat de măsură
+* Ce este un aparat de măsură
 
 Un aparat de măsură este orice dispozitiv special realizat pentru
 afişarea unei mărimi electrice într-un format ce poate fi interpretat de
@@ -189,7 +189,7 @@ Sumar:
    electronilor de sticla prevăzută cu fosfor de la capătul
    dispozitivului
 
-* 2. Voltmetrul
+* Voltmetrul
 
 Majoritatea aparatelor de măsură sunt dispozitive foarte sensibile.
 Unele modele, precum D'Arsonval, necesită un curent de doar 50 µA pentru
@@ -372,7 +372,7 @@ Sumar:
 -  Realizarea practică a voltmetrelor constă în adăugarea rezistenţelor
    de multiplicare pentru divizarea tensiunii totale de măsurat
 
-* 3. Impactul voltmetrului asupra circuitului
+* Impactul voltmetrului asupra circuitului
 
 Orice aparat de măsură introdus în circuit modifică comportamentul
 acestuia din urmă într-o oarecare măsură. Deşi impactul este inevitabil,
@@ -607,7 +607,7 @@ Sumar:
    curenţilor şi al tensiunilor. Acesta se evidenţiază prin
    sensibilitatea sa extrem de ridicată
 
-* 4. Ampermetrul
+* Ampermetrul
 
 Un aparat de măsură conceput special pentru măsurarea valorii curentului
 electric (în amperi), poartă numele de ampermetru.
@@ -807,7 +807,7 @@ Sumar:
    şunt măsurată de voltmetru este în acest caz direct proporţională cu
    valoare acurentului prin şunt
 
-* 5. Impactul ampermetrului asupra circuitului
+* Impactul ampermetrului asupra circuitului
 
 ** Ampermetrul ideal
 
@@ -884,7 +884,7 @@ Sumar:
 -  Un *clampmetru* măsoară valoarea curentului prin determinarea
    câmpului magnetic din jurul conductorului
 
-* 6. Ohmmetrul
+* Ohmmetrul
 
 ** Scopul ohmmetrului
 
@@ -1048,7 +1048,7 @@ Sumar:
 -  
 -  
 
-* 7. Ohmmetre pentru tensiuni înalte
+* Ohmmetre pentru tensiuni înalte
 
 ** Limitările ohmmetrelor de joasă tensiune
 
@@ -1152,7 +1152,7 @@ Sumar:
 -  
 -  
 
-* 8. Multimetre
+* Multimetre
 
 Am văzut modul în care un sistem electromecanic poate funcţiona pe post
 de voltmetru, ampermetru sau ohmmetru prin simpla conectare a unor
@@ -1198,7 +1198,7 @@ Sumar:
 -  
 -  
 
-* 9. Terminali tip Kelvin şi rezistori de precizie
+* Terminali tip Kelvin şi rezistori de precizie
 
 ** Măsurarea rezistenţelor aflate la distanţă
 
@@ -1373,7 +1373,7 @@ Sumar:
 -  
 -  
 
-* 10. Circuite în punte - puntea Wheatstone şi Thomson
+* Circuite în punte - puntea Wheatstone şi Thomson
 
 Circuitele în punte se foloesc de un detector de nul pentru a compara
 două tensiuni. Principiul este asemănător unei balanţe de laborator ce
@@ -1568,7 +1568,7 @@ Sumar:
 -  
 -  
 
-* 11. Wattmetrul
+* Wattmetrul
 
 Puterea într-un circuit electric este produsul dintre tensiune şi
 curent. Prin urmare, orice aparat de măsura a puterii trebuie să poată
@@ -1606,7 +1606,7 @@ Sumar:
 -  
 -  
 
-* 12. Realizarea practică a rezistenţelor de calibrare
+* Realizarea practică a rezistenţelor de calibrare
 
 De multe ori, în cazul realizării circuitelor de măsură, avem nevoie de
 rezistenţe precise pentru a obţine circuitul dorit. În majoritatea

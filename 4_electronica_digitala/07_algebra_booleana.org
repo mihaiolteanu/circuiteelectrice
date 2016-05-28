@@ -1,4 +1,4 @@
-* 1. Introducere şi scurt istoric
+* Introducere şi scurt istoric
 
 #+CAPTION:
 [[../poze/00000.png]]
@@ -15,7 +15,7 @@ Sumar:
 -  
 -  
 
-* 2. Aritmetica booleană
+* Aritmetica booleană
 
 ** Numere binare şi numere booleene
 
@@ -138,7 +138,7 @@ Sumar:
 -  Complementarea booleană este echivalentă unei porţi logice NU, precum
    şi contactelor normal-închise
 
-* 3. Identităţi algebrice booleene
+* Identităţi algebrice booleene
 
 ** Ce este o identitate
 
@@ -254,7 +254,7 @@ Sumar:
 -  
 -  
 
-* 4. Proprietăţi algebrice booleene
+* Proprietăţi algebrice booleene
 
 Un alt tip de identitate matematică, denumită „proprietate”, descrie
 relaţia dintre variabilele unui sistem de numere.
@@ -310,7 +310,7 @@ Sumar:
 -  
 -  
 
-* 5. Reguli de simplificare booleană
+* Reguli de simplificare booleană
 
 Una dintre cele mai practice aplicaţii ale algebrei boolene constă în
 simplificarea circuitelor logice. Dacă transformăm funcţia logică a unui
@@ -384,7 +384,7 @@ Sumar:
 -  
 -  
 
-* 6. Simplificarea circuitelor logice
+* Simplificarea circuitelor logice
 
 ** Simplificarea circuitelor cu porţi logice
 
@@ -531,7 +531,7 @@ Sumar:
 -  
 -  
 
-* 7. Funcţia SAU-exclusiv
+* Funcţia SAU-exclusiv
 
 Un element ce nu l-am întâlnit până în acest moment în operaţiile
 booleene este SAU-exclusiv. Deşi funcţia SAU este echivalentă cu o
@@ -562,7 +562,7 @@ Sumar:
 -  
 -  
 
-* 8. Teoremele lui DeMorgan
+* Teoremele lui DeMorgan
 
 DeMorgan a dezvoltat o serie de reguli importante în algebra liniară cu
 privire la complementul de grup. Prin complementul de grup ne referim la
@@ -724,7 +724,7 @@ Sumar:
 -  O poartă ŞI-negat este echivalentă cu o poartă SAU-negativă; O poartă
    SAU-negat este echivalentă cu o poartă ŞI-negativă
 
-* 9. Transformarea tabelelor de adevăr în expresii booleene
+* Transformarea tabelelor de adevăr în expresii booleene
 
 Procesul de proiectare al circuitelor digitale începe adesea cu un tabel
 de adevăr. Acest tabel descrie modul de funcţionare al circuitului, pe

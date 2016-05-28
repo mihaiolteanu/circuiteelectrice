@@ -1,4 +1,4 @@
-* 1. De ce hărţi Karnaugh
+* De ce hărţi Karnaugh
 
 La ce ne folosesc hărţile Karnaugh? Harta Karnaugh, asemenea algebrei
 booleene, este o metodă de simplificare a circuitelor logice digitale.
@@ -25,7 +25,7 @@ Sumar:
 -  
 -  
 
-* 2. Diagrame Venn
+* Diagrame Venn
 
 Matematicienii utilizează diagramele Venn pentru reprezentarea
 relaţiilor logice dintre mulţimi (colecţii de obiecte). Ne vom folosi de
@@ -102,7 +102,7 @@ cele două mulţimi ar arăta astfel: A = {1, 2, 3, 4} şi B = {3, 4, 5, 6}.
 Ambele mulţimi conţin elementele 3 şi 4. Acesta este şi motivul pentru
 care cele două cercuri sunt suprapuse.
 
-* 3. Relaţii booleene cu diagrame Venn
+* Relaţii booleene cu diagrame Venn
 
 ** Funcţia logică SAU (adunarea booleană)
 
@@ -215,7 +215,7 @@ Observând mărimea regiunilor descrise de functia ŞI de mai sus, putem
 vedea că mărimea regiunii variază cu numărul variabilelor asociate
 expresiei ŞI.
 
-* 4. Transformarea diagramelor Venn în hărţi Karnaugh
+* Transformarea diagramelor Venn în hărţi Karnaugh
 
 ** Hărţi Karnaigh cu două variabile
 
@@ -306,7 +306,7 @@ fiecare dată, ci doar 1 şi 0. Noaţia B'C', B'C, BC şi BC' din stânga
 este echivalentă cu 00, 01, 11 respectiv 10 din dreapta. A şi A' sunt
 echivalente cu 0 respectiv 1.
 
-* 5. Hărţi Karnaugh, tabele de adevăr şi expresii booleene
+* Hărţi Karnaugh, tabele de adevăr şi expresii booleene
 
 Hărţile Karnaugh simplifică funcţiile logice mult mai rapid şi mai uşor
 în comparaţie cu algebra booleană. Dorim simplificarea circuitelor logic
@@ -497,7 +497,7 @@ Karnaugh; obervăm că nu putem forma niciun grup care să conţină mai mult
 de două regiuni 1; prin urmare, simplificarea nu este posibilă, iar
 expresia finală este identică cu cea iniţială (SAU-exclusiv).
 
-* 6. Simplificarea circuitelor logice cu hărţi Karnaugh
+* Simplificarea circuitelor logice cu hărţi Karnaugh
 
 Exemplele de simplificare a circuitelor logice de până acum puteau fi
 realizate la fel de bine şi cu ajutorul algebrei booleene. Problemele de
@@ -639,7 +639,7 @@ Sumar:
 -  
 -  
 
-* 4. Hărţi Karnaugh de patru variabile
+* Hărţi Karnaugh de patru variabile
 
 Folosindu-ne de codul Gray, putem construi hărţi Karnaugh mai mari. O
 hartă Karnaugh cu patru variabile arată precum cea de mai jos:
@@ -780,7 +780,7 @@ Sumar:
 -  
 -  
 
-* 8. Mintermeni şi maxtermeni
+* Mintermeni şi maxtermeni
 
 Până în acest moment am căutat soluţii sub forma unei sume de produse la
 problemele de simplificare booleană. Pentru fiecare dintre aceste
@@ -1164,7 +1164,7 @@ Sumar:
 -  
 -  
 
-* 9. Notaţia Σ (sumă) şi notaţia Π (produs)
+* Notaţia Σ (sumă) şi notaţia Π (produs)
 
 Ca şi referinţa, această secţiune introduce terminologia folosită în
 unele texte pentru descrierea mintermenilor şi maxtermenilor aparţinând
@@ -1217,7 +1217,7 @@ Sumar:
 -  
 -  
 
-* 11. Hărţi Karnaugh de 5 şi 6 variabile
+* Hărţi Karnaugh de 5 şi 6 variabile
 
 Pentru reducerea circuitelor logice mai mari se folosesc, evident, hărţi
 Karnaugh mai mare. Dar care este mărimea maximă (practică) a unei hărţi

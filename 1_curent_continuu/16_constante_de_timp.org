@@ -1,4 +1,4 @@
-* 1. Răspunsul tranzitoriu al condensatorului
+* Răspunsul tranzitoriu al condensatorului
 
 Condensatorii tind să se comporte asemenea bateriilor secundare datorită
 posibilităţii de stocare şi eliberare ulterioară a energiei sub formă de
@@ -84,7 +84,7 @@ Sumar:
    variabile au o variaţie puternică la început, şi se apropie tot mai
    greu de valorile lor finale odată cu trecerea timpului
 
-* 2. Răspunsul tranzitoriu al bobinei
+* Răspunsul tranzitoriu al bobinei
 
 O bobină complet descărcată (nu există câno magnetic), prin care nu
 trece niciun curent, la conectarea unei surse de tensiune la bornele
@@ -153,7 +153,7 @@ Sumar:
    valoarea maximă, iar tensiunea de la valoarea maximă la zero; ambele
    variabile au o variaţie puternică la început.
 
-* 3. Calcularea tensiunii şi a curentului
+* Calcularea tensiunii şi a curentului
 
 *** Valorile iniţiale şi cele finale
 
@@ -377,7 +377,7 @@ Paşii pentru analiza circuitelor RC şi L/R:
    universale. În caz contrar, valoarea actuală este suma dintre
    variaţia calculată şi valoarea iniţială a variabilei
 
-* 4. De ce L/R şi nu LR
+* De ce L/R şi nu LR
 
 Pentru cei care studiază teoria circuitelor electrice pentru prima dată,
 este destul de greu de înţeles motivul pentru care calculul constantei
@@ -504,7 +504,7 @@ Analog, un circuit inductiv se descarcă rapid dacă rezistenţa pe care se
 descarcă este mare şi invers, se descarcă lent dacă rezistenţa este
 mică.
 
-* 5. Cazuri speciale de calcul
+* Cazuri speciale de calcul
 
 Există cazuri de analiză a circuitelor de curent continuu tranzitorii în
 care componentele reactive (condensatori sau bobine) nu sunt iniţial
@@ -576,7 +576,7 @@ pentru a ajunge la aceleaşi rezultate:
     |-------------------------------------------|
 #+END_EXAMPLE
 
-* 6. Circuite complexe
+* Circuite complexe
 
 Ce facem în cazul în care avem un circuit mai complicat decât
 configuraţiile serie considerate până acum? Să luăm acest circuit, de
@@ -665,7 +665,7 @@ Sumar:
    analizăm comportamentul circuitului în timp, folosind formula
    universală a constantei de timp
 
-* 7. Rezolvarea circuitului pentru variabila timp
+* Rezolvarea circuitului pentru variabila timp
 
 În unele cazuri este necesară determinarea duratei de timp pentru care
 circuitul va atinge o valoarea predeterminată. Acest lucru este în

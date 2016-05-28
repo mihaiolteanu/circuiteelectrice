@@ -1,4 +1,4 @@
-* 1. Notaţia ştiinţifică
+* Notaţia ştiinţifică
 
 ** Scop
 
@@ -92,7 +92,7 @@ următoarea:
 
 greutatea = 3,005 x 10^{3} kg
 
-* 2. Aritmetica notaţiei ştiinţifice
+* Aritmetica notaţiei ştiinţifice
 
 ** Înmulţirea numerelor sub forma notaţiei ştiinţifice
 
@@ -166,7 +166,7 @@ secunde deoarece, 10^{a} / 10^{b} = 10^{a - b}
 Putem vedea că am ajuns la aceeiaşi valoarea, 3600 secunde (3,6 x
 10^{3}).
 
-* 3. Notaţia metrică
+* Notaţia metrică
 
 [[http://ro.wikipedia.org/wiki/Sistemul_interna%C5%A3ional_de_unit%C4%83%C5%A3i][Sistemul
 metric]], pe lângă faptul că reprezintă o colecţie de unităţi de măsură

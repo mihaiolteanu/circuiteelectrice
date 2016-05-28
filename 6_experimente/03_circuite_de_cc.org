@@ -1,4 +1,4 @@
-* 01. Conectarea bateriilor în serie
+* Conectarea bateriilor în serie
 
 ** Scopul experimentului
 
@@ -49,7 +49,7 @@ Sumar:
 -  
 -  
 
-* 02. Conectarea bateriilor în paralel
+* Conectarea bateriilor în paralel
 
 ** Scopul experimentului
 
@@ -122,7 +122,7 @@ fi în acest caz mult mai aproape de 6 V:
 #+CAPTION: conectarea bateriilor în paralel
 [[../poze/05082.png]]
 
-* 03. Divizor de tensiune
+* Divizor de tensiune
 
 ** Scopul experimentului
 
@@ -271,7 +271,7 @@ Suma algebrică a căderilor de tensiune va fi tot timpul egală cu zero.
 Această lege este valabilă indiferent de configuraţia circuitului
 studiat: serie, paralel, serie-paralel sau circuit complex.
 
-* 04. Divizor de curent
+* Divizor de curent
 
 ** Scopul experimentului
 
@@ -366,7 +366,7 @@ ramură. Fiecare curent de ramură este o fracţiune, sau un procent, din
 curentul total. Din acest motiv, acest tip de circuit (cu rezistori
 conectaţi în paralel) poartă numele de divizor de curent.
 
-* 05. Divizor de tensiune cu potenţiometru
+* Divizor de tensiune cu potenţiometru
 
 ** Scopul experimentului
 
@@ -437,7 +437,7 @@ aceiaşi valoare a divizorului de tensiune ce am găsit-o şi înainte:
 #+CAPTION: divizor de tensiune cu potenţiometru
 [[../poze/05114.png]]
 
-* 06. Potenţiometrul ca şi reostat
+* Potenţiometrul ca şi reostat
 
 ** Scopul experimentului
 
@@ -556,7 +556,7 @@ la fel de bine măsura tensiunea în detrimentul măsurării curentului
 (utilizarea voltmetrului în detrimentul ampermetrului), pentru a
 verifica exact acelaşi lucru, varianta tensiunii este cea indicată.
 
-* 09. Termoelectricitate
+* Termoelectricitate
 
 ** Scopul experimentului
 
@@ -613,7 +613,7 @@ temperaturii. Ralaţia matematică dintre diferenţa temperaturii şi
 tensiunea rezultată este destul de liniară. Prin măsurarea tensiunii,
 putem determina temperatura la punctul de contact.
 
-* 14. Circuit de mediere
+* Circuit de mediere
 
 ** Scopul experimentului
 
@@ -699,7 +699,7 @@ acestea, realizarea practică a unor astfel de circuite, pentru
 circuitelor electrice în general. Ce alte operaţii matematice credeţi că
 pot fi realizate cu astfel de circuite analogice?
 
-* 15. Baterie din cartof
+* Baterie din cartof
 
 ** Scopul experimentului
 
@@ -734,7 +734,7 @@ cartofi în configuraţii serie, paralel sau serie-paralel, putem obţine o
 tensiune şi un curent destul de mare pentru alimentarea unei sarcini
 mici. Puteţi realiza acest lucru?
 
-* 16. Încărcarea şi descărcarea condensatorului
+* Încărcarea şi descărcarea condensatorului
 
 ** Scopul experimentului
 
@@ -816,7 +816,7 @@ deosebire este că de această dată, tensiunea este maximă la închiderea
 Experimentaţi şi în acest caz cu diferite combinaţii de rezistori şi
 condensatoare.
 
-* 17. Circuit de diferenţiere
+* Circuit de diferenţiere
 
 ** Scopul experimentului
 
