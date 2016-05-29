@@ -1,4 +1,4 @@
-* concepte de baza
+* Concepte de baza
 
 ** Măsurarea tensiunii
 
@@ -942,7 +942,7 @@ Sumar:
 -  
 -  
 
-* circuite de cc
+* Circuite de cc
 
 ** Conectarea bateriilor în serie
 
@@ -1825,7 +1825,7 @@ exemplu excelent al eleganţei circuitelor analogice în realizarea
 calculelor matematice. Desigur, se pot realiza circuite de diferenţiere
 mult mai precise prin combinarea reţelelor rezistor-condensator cu
 circuite electronice de amplificare.
-* circuite de ca
+* Circuite de ca
 
 ** Transformator -- sursă de putere
 

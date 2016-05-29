@@ -1,4 +1,4 @@
-* concepte de baza
+* Concepte de baza
 
 ** Electricitate statică
 
@@ -1180,7 +1180,7 @@ dintr-un oarecare motiv.
 
 Pentru restul cărţii se va folosi notaţia reală de deplasare a
 electronilor.
-* legea lui ohm
+* Legea lui ohm
 
 ** Relaţia dintre tensiune, curent şi rezistenţă
 
@@ -2091,7 +2091,7 @@ Sumar:
    /pozitivă/ pentru ieşire.
 
 [[#meniu][↑ sus]]
-* electrocutarea
+* Electrocutarea
 
 ** Siguranţa în domeniul electric
 
@@ -3547,7 +3547,7 @@ Sumar:
 -  *Multimetrul* este un aparat de măsură capabil să măsoare tensiunea,
    curentul şi rezistenţa
 
-* notatia stiintifica
+* Notatia stiintifica
 
 ** Notaţia ştiinţifică
 
@@ -3781,7 +3781,7 @@ Sumar:
 -  
 -  
 
-* serie paralel
+* Serie paralel
 
 ** Ce sunt circuitele „serie” şi „paralel”
 
@@ -5000,7 +5000,7 @@ Sumar:
 -  Pentru realizarea practică a circuitelor se pot utiliza placi de
    teste, reglete de conexiuni sau plăci imprimate
 
-* kirchhoff
+* Kirchhoff
 
 ** Circuite divizoare de tensiune. Potenţiometrul
 
@@ -5539,7 +5539,7 @@ Sumar:
    curenţilor ce intră şi ies dintr-un nod trebuie să fie egală cu
    zero”*
 
-* combinatii
+* Combinatii
 
 ** Ce este un circuit serie-paralel
 
@@ -7481,7 +7481,7 @@ Sumar:
 -  
 -  
 
-* instrumentatie
+* Instrumentatie
 
 ** Semnale analogice şi digitale
 
@@ -7999,7 +7999,7 @@ Sumar:
    menţinut la o valoare cât mai mică posibil pentru acurateţea
    măsurătorii
 
-* analiza retelei
+* Analiza retelei
 
 ** Ce înseamnă analiza unei reţele
 
@@ -9420,7 +9420,7 @@ Sumar:
    căderilor de tensiune din circuitul Y sunt aceleaşi şi în circuitul Δ
    între punctele A, B şi C
 
-* baterii
+* Baterii
 
 ** Activitatea electronilor în reacţiile chimice
 
@@ -10006,7 +10006,7 @@ Sumar:
 -  
 -  
 
-* fizica conductorilor
+* Fizica conductorilor
 
 ** Introducere?
 
@@ -10803,7 +10803,7 @@ Sumar:
    tensiunea la care un dielectric permite trecerea unui curent, acesta
    comportându-se precum un conductor
 
-* condensatorul
+* Condensatorul
 
 ** Câmpuri şi capacitatea electrică
 
@@ -11380,7 +11380,7 @@ Sumar:
 -  
 -  
 
-* electromagnetism
+* Electromagnetism
 
 ** Magneţi permanenţi
 
@@ -11932,7 +11932,7 @@ Sumar:
    variabile, nu şi în cazul celor constante. Din această cauză, ele
    sunt dispozitive de curent alternativ şi nu de curent continuu
 
-* bobina
+* Bobina
 
 ** Câmpul magnetic şi inductanţa
 
@@ -12462,7 +12462,7 @@ Sumar:
 -  
 -  
 
-* constante de timp
+* Constante de timp
 
 ** Răspunsul tranzitoriu al condensatorului
 

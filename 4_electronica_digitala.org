@@ -1,4 +1,4 @@
-* sisteme de numeratie
+* Sisteme de numeratie
 
 ** Numere şi simboluri
 
@@ -181,7 +181,7 @@ format numeric: benzi magnetice, CD-uri, hard-disk-uri, etc.
    sunt sistemele de numeraţie şi despre sistemul zecimal]]
    (stefamedia.ro)
 
-* aritmetica binara
+* Aritmetica binara
 
 ** Valori şi sisteme de numeraţie
 
@@ -618,7 +618,7 @@ Tot în funcţie de sistem sunt folosiţi şi termenii de „double word” sau
 „longword” (ambii termenii desemnând o lungime dublă faţă de lungimea
 standard), „half-word” (jumătatea lungimii) sau quar (de patru ori
 lungimea standard).
-* porti logice
+* Porti logice
 
 ** Semnale digitale şi porţi
 
@@ -1278,7 +1278,7 @@ Sumar:
 -  
 -  
 
-* comutatoare
+* Comutatoare
 
 ** Tipuri de comutatoare
 
@@ -1734,7 +1734,7 @@ Sumar:
    mobile. Numărul de direcţi a unui comutator se referă la numărul
    contactelor staţionare disponibile pentru fiecare contact mobil
 
-* relee electromecanice
+* Relee electromecanice
 
 ** Construcţia releelor
 
@@ -2041,7 +2041,7 @@ Sumar:
 -  
 -  
 
-* logica ladder
+* Logica ladder
 
 ** Diagrame ladder
 
@@ -2899,7 +2899,7 @@ Sumar:
 -  
 -  
 
-* algebra booleana
+* Algebra booleana
 
 ** Introducere şi scurt istoric
 
@@ -3793,7 +3793,7 @@ Sumar:
 -  
 -  
 
-* harti karnaugh
+* Harti karnaugh
 
 ** De ce hărţi Karnaugh
 
@@ -5159,7 +5159,7 @@ Sumar:
 -  
 -  
 
-* circuite logice combinationale
+* Circuite logice combinationale
 
 ** Circuite logice combinaţionale - introducere
 

@@ -1,4 +1,4 @@
-* bazele teoriei
+* Bazele teoriei
 
 ** Ce este curentul alternativ
 
@@ -704,7 +704,7 @@ Sumar:
 -  
 -  
 
-* numere complexe
+* Numere complexe
 
 ** Introducere
 
@@ -1149,7 +1149,7 @@ Sumar:
 -  
 -  
 
-* reactanta inductiva
+* Reactanta inductiva
 
 ** Circuite rezistive în curent alternativ
 
@@ -1681,7 +1681,7 @@ Sumar:
    însumează şi dau naştere curentului total, iar impedanţele totală
    este mai mică decât impedanţa fiecărei ramuri luate în parte
 
-* reactanta capacitiva
+* Reactanta capacitiva
 
 ** Circuite pur rezistive
 
@@ -2056,7 +2056,7 @@ Sumar:
    decât fiecare dintre impedanţele individuale luate separat (cu
    ajutorul formulei echivalente)
 
-* reactanta RLC
+* Reactanta RLC
 
 ** R, X şi Z - recapitulare
 
@@ -2457,7 +2457,7 @@ Sumar:
 -  
 -  
 
-* rezonanta
+* Rezonanta
 
 ** Pendulul electric
 
@@ -2980,7 +2980,7 @@ Sumar:
 -  Într-un circuit RLC serie, rezistenţa adiţională în circuit /nu/
    produce antirezonanţă.
 
-* frecvente combinate
+* Frecvente combinate
 
 ** Introducere
 
@@ -3490,7 +3490,7 @@ Sumar:
    cuplaj capacitiv, cuplaj inductiv, radiaţie electromagnetică, sau o
    combinaţie dintre acestea
 
-* filtre
+* Filtre
 
 ** Ce este un filtru
 
@@ -4127,7 +4127,7 @@ Sumar:
    fără a fi necesară conectarea rezistorilor ce doar ar „împiedica”
    trecere frecvenţelor dorite dinstre sursă spre sarcină
 
-* transformatorul
+* Transformatorul
 
 ** Inductanţa mutuală şi modul de funcţionare
 
@@ -4770,7 +4770,7 @@ Sumar:
    şi secundar
 -  Un autotransformator variabil poartă numele de Variac
 
-* circuite polifazate
+* Circuite polifazate
 
 ** Sisteme de alimentare monofazate
 
@@ -5711,7 +5711,7 @@ Sumar:
 -  
 -  
 
-* factorul de putere
+* Factorul de putere
 
 ** Puterea în circuitele de curent alternativ rezistive şi reactive
 
@@ -6027,7 +6027,7 @@ Sumar:
 -  
 -  
 
-* motoare electrice
+* Motoare electrice
 
 ** Scurtă introducere a motoarelor electrice
 
@@ -6318,7 +6318,7 @@ Sumar:
 -  
 -  
 
-* linii electrice lungi
+* Linii electrice lungi
 
 ** Circuitele electrice şi viteza luminii
 

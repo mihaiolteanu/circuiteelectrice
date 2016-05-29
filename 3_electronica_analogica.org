@@ -1,4 +1,4 @@
-* amplificatoare
+* Amplificatoare
 
 ** Circuite electrice şi circuite electronice
 
@@ -275,7 +275,7 @@ Sumar:
 -  
 -  
 
-* fizica semiconductorilor
+* Fizica semiconductorilor
 
 ** Fizica cuantică
 
@@ -1804,7 +1804,7 @@ Sumar:
 -  Un dispozitiv GTO poate fi oprit prin aplicarea unui puls negativ
    asupra porţii
 
-* dioda
+* Dioda
 
 ** Principiul de funcţionare
 
@@ -2652,7 +2652,7 @@ Sumar:
    /tensiune zener/
 -  Dioda zener poate funcţiona pe post de stabilizator de tensiune
 
-* tranzistorul
+* Tranzistorul
 
 ** Introducere
 
@@ -4690,7 +4690,7 @@ Sumar:
    variaţia semnalului de ieşire este mai mică pentru o anumită variaţie
    a semnalui de intrare
 
-* dispozitive multijonctiune
+* Dispozitive multijonctiune
 
 ** Histerezis
 
@@ -5593,7 +5593,7 @@ prezentat în figura alăturată.
 
 #+CAPTION: optotriacul; simbol
 [[./poze/03228.png]]
-* amplificatorul operational
+* Amplificatorul operational
 
 ** Introducere
 
