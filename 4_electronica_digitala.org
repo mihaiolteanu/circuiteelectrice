@@ -51,7 +51,7 @@ infinit. În cazul reprezentării digitale, cantitatea simbolizată
 prezintă o diviziune discretă.
 
 #+CAPTION: termometru analogic
-[[../poze/04096.png]]
+[[./poze/04096.png]]
 
 De exemplu, un termometru „clasic” precum în figura alăturată reprezintă
 un aparat de măsură analogic. Practic putem măsură orice temperatură din
@@ -249,7 +249,7 @@ de tensiune. Acest principiu reprezintă baza efectuării tuturor
 operaţiilor aritmetice realizate de calculatoarele moderne.
 
 #+CAPTION:
-[[../poze/00000.png]]
+[[./poze/00000.png]]
 
 Sumar:
 
@@ -572,7 +572,7 @@ Din fericire, această metodă de identificare a erorii de depăşire este
 uşor de implementat într-un circuit electronic.
 
 #+CAPTION:
-[[../poze/00000.png]]
+[[./poze/00000.png]]
 
 ** Grupări de biţi
 
@@ -584,7 +584,7 @@ unui circuit digital, trebuie să ne decidem câţi biţi vom utilizat
 necesită un circuit pornit/oprit separat.
 
 #+CAPTION: abac cu 10 linii; analogie
-[[../poze/04315.png]]
+[[./poze/04315.png]]
 
 Acest principiu este analog proiectării unui abac pentru reprezentarea
 digitală a numerelor zecimale: trebuie mai întâi să ne decidem câte
@@ -648,7 +648,7 @@ unui singur bit. O tensiune joasă reprezentând „0”, şi o tensiune
 (relativ) înaltă reprezentând „1”.
 
 #+CAPTION: tranzistor aflat în saturaţie
-[[../poze/04068.png]]
+[[./poze/04068.png]]
 
 În figura alăturată, tranzistorul este saturat datorită tensiunii de
 intrare de 5 V (prin intermediul comutatorului cu două poziţii).
@@ -663,7 +663,7 @@ binar) sau jos (0 binar). Termenul general pentru reprezentarea unui bit
 prin intermediul unei tensiuni poartă numele de „nivel logic”.
 
 #+CAPTION: tranzistor aflat în saturaţie
-[[../poze/04068.png]]
+[[./poze/04068.png]]
 
 Trecând comunatorul pe cealalţă poziţie, aplicăm o intrare de 0 binar si
 obţinem la ieşire 1 binar.
@@ -681,7 +681,7 @@ dintr-un număr binar compus din mai mulţi biţi.
 *** Poarta inversoare (NU sau NOT)
 
 #+CAPTION: poartă inversoare; simbol
-[[../poze/04070.png]]
+[[./poze/04070.png]]
 
 Alăturat este simbolul folosit pentru reprezentarea unei porţi
 inversoare (NOT). Aceasta se comportă identic cu circuitul analizat mai
@@ -692,7 +692,7 @@ analizei circuitelor, se vor folosi aceste simboluri specifice fiecărei
 porţi.
 
 #+CAPTION: poartă inversoare; simbol alternativ
-[[../poze/04099.png]]
+[[./poze/04099.png]]
 
 Un simbol alternativ pentru o poartă inversoare este cel din figura
 alăturată.
@@ -709,14 +709,14 @@ chiar există, şi poartă numele de poarta ne-inversoare, sau buffer.
 *** Poarta ne-inversoare (buffer)
 
 #+CAPTION: inversare dublă (două porţi inversoare conectate cap-coadă
-[[../poze/04087.png]]
+[[./poze/04087.png]]
 
 Dacă ar fi să conectăm două porţi inversoare, una în continuarea
 celeilalte, cele două funcţii de inversare s-ar „anula” reciproc. În
 acest caz, semnalul de ieşire va fi acelaşi cu cel de intrare.
 
 #+CAPTION: poartă ne-inversoare (buffer); simbol
-[[../poze/04088.png]]
+[[./poze/04088.png]]
 
 Pentru acest scop, există o poartă logică separată, denumită buffer (sau
 poartă ne-inversoare). Simbolul este un triunghiu simplu, precum în
@@ -735,13 +735,13 @@ necesită o sursă de putere pentru funcţionare. La fel ca în cazul AO,
 conexiunile surselor de alimentare sunt omise pentru simplitate.
 
 #+CAPTION: poartă inversoare; circuit de alimentare complet
-[[../poze/04071.png]]
+[[./poze/04071.png]]
 
 Dacă ar fi să reprezentăm toate conexiunile necesare pentru utilizarea
 acestei porţi, circuitul ar arăta precum cel din figura alăturată.
 
 #+CAPTION: poartă inversoare; circuit de alimentare complet
-[[../poze/04072.png]]
+[[./poze/04072.png]]
 
 Conductorii surselor de alimentare sunt rareori reprezentaţi în
 circuitele electronice, chiar şi atunci când sunt reprezentate
@@ -805,7 +805,7 @@ prezenta mai jos fiecare tip.
 *** Poarta logică ŞI (AND)
 
 #+CAPTION: poarta logică ŞI cu două respectiv trei intrări; simbol
-[[../poze/04100.png]]
+[[./poze/04100.png]]
 
 Una dintre cele mai uşor de înţeles porţi este poarta ŞI. Denumirea vine
 de la faptul că ieşirea porţii va fi 1 dacă şi numai dacă toate
@@ -830,17 +830,17 @@ ieşire, se foloseşte un LED:
 
 #+CAPTION: exemplificarea tabelului de adevăr a porţii logice ŞI
 #+CAPTION: printr-un circuit practic
-[[../poze/04102.png]] 
+[[./poze/04102.png]] 
 #+CAPTION:
 exemplificarea tabelului de adevăr a porţii logice ŞI printr-un circuit
 #+CAPTION: practic
-[[../poze/04103.png]] 
+[[./poze/04103.png]] 
 #+CAPTION: exemplificarea tabelului de
 adevăr a porţii logice ŞI printr-un circuit practic
-[[../poze/04104.png]] 
+[[./poze/04104.png]] 
 #+CAPTION: exemplificarea tabelului de adevăr a
 #+CAPTION: porţii logice ŞI printr-un circuit practic
-[[../poze/04105.png]]
+[[./poze/04105.png]]
 
 LED-ul este alimentat cu energie electrică doar atunci când ambele
 intrări logice sunt 1.
@@ -848,14 +848,14 @@ intrări logice sunt 1.
 *** Poarta logică ŞI-negat (NAND)
 
 #+CAPTION: circuitul echivalent al unei porţi logice ŞI negat (NAND)
-[[../poze/04106-1.png]]
+[[./poze/04106-1.png]]
 
 Poarta ŞI negat este o variaţie a porţii ŞI. Practic, comportamentul
 porţii este acelaşi ca al porţii ŞI, doar că la ieşire este conectată o
 poartă NU (inversoare).
 
 #+CAPTION: poarta logică ŞI negat (NAND); simbol
-[[../poze/04106.png]]
+[[./poze/04106.png]]
 
 Pentru simbolizarea acestui lucru se trece un mic cerculeţ pe terminalul
 de ieşire.
@@ -876,7 +876,7 @@ dacă toate intrările sunt 0 şi invers.
 *** Poarta logică SAU (OR)
 
 #+CAPTION: poarta logică SAU (OR); simbol
-[[../poze/04107.png]]
+[[./poze/04107.png]]
 
 Ieşirea unei porţi logice SAU este 1 dacă oricare dintre intrări este 1.
 Ieşirea este 0 doar dacă toate intrările sunt 0.
@@ -896,17 +896,17 @@ vizuală a ieşirii este furnizată de un LED:
 
 #+CAPTION: exemplificarea tabelului de adevăr a porţii logice SAU
 #+CAPTION: printr0un circuit practic
-[[../poze/04109.png]] 
+[[./poze/04109.png]] 
 #+CAPTION:
 exemplificarea tabelului de adevăr a porţii logice SAU printr-un circuit
 #+CAPTION: practic
-[[../poze/04110.png]] 
+[[./poze/04110.png]] 
 #+CAPTION: exemplificarea tabelului de
 adevăr a porţii logice SAU printr-un circuit practic
-[[../poze/04111.png]] 
+[[./poze/04111.png]] 
 #+CAPTION: exemplificarea tabelului de adevăr a
 #+CAPTION: porţii logice SAU printr-un circuit practic
-[[../poze/04112.png]]
+[[./poze/04112.png]]
 
 Dacă oricare dintre intrări se află în poziţia 1, LED-ul va fi alimentat
 cu energie electrică.
@@ -914,14 +914,14 @@ cu energie electrică.
 *** Poarta logică SAU negat (NOR)
 
 #+CAPTION: schema echivalentă a unei porţi SAU negate (NOR)
-[[../poze/04113-1.png]]
+[[./poze/04113-1.png]]
 
 După cum probabil v-aţi dat seama, poarta SAU negată este o partă SAU cu
 valoarea de ieşire negată (0 negat este 1, iar 1 negat este 0). Schema
 echivalentă este cea din figura alăturată.
 
 #+CAPTION: simbolul unei porţi SAU negate (NOR)
-[[../poze/04113.png]]
+[[./poze/04113.png]]
 
 Pentru simplificarea reprezentării însă, există desigur un simbol
 special, conform figurii alăturate.
@@ -941,13 +941,13 @@ dintre intrări este 1 şi este 1 doar atunci când ambele intrări sunt 0.
 *** Poarta logică ŞI negativă
 
 #+CAPTION: schema echivalentă a unei porţi logice ŞI negative
-[[../poze/04114-1.png]]
+[[./poze/04114-1.png]]
 
 O poartă logică ŞI negativă funcţionează la fel ca o poartă ŞI având
 toate intrările inversate (conectate la porţi NU).
 
 #+CAPTION: simbolul unei porţi logice ŞI negative
-[[../poze/04114-2.png]]
+[[./poze/04114-2.png]]
 
 Conform standardului de notare, aceste intrări sunt simbolizate cu
 ajutorul unor cerculeţe.
@@ -966,13 +966,13 @@ este identic cu al unei porţi logic SAU negate.
 *** Poarta logică SAU negativă
 
 #+CAPTION: schema echivalentă a unei porţi logice SAU negative
-[[../poze/04115-1.png]]
+[[./poze/04115-1.png]]
 
 Conform aceluiaşi principiu, o poartă logică SAU negativă se comportă
 asemenea unei porţi SAU cu toate intrările inversate.
 
 #+CAPTION: simbolul unei porţi logice SAU negative
-[[../poze/04115-2.png]]
+[[./poze/04115-2.png]]
 
 Conform standardului de notare, aceste intrări inversate sunt
 simbolizate prin cerculeţe.
@@ -990,7 +990,7 @@ porţi logice ŞI-negat.
 *** Poarta logică SAU-exlusiv (XOR)
 
 #+CAPTION: simbolul unei porţi logice SAU-exclusiv
-[[../poze/04116.png]]
+[[./poze/04116.png]]
 
 Ultimele şase variante de porţi logice au fost variaţii directe ale
 celor trei funcţii de bază: ŞI, SAU şi NU. Poarta SAU-exclusiv este însă
@@ -1009,7 +1009,7 @@ află la acelaşi nivel logic.
 
 #+CAPTION: schema echivalentă a unei porţi logice SAU-exclusiv formată
 #+CAPTION: din porţi SI, SAU şi NU
-[[../poze/04117.png]]
+[[./poze/04117.png]]
 
 Circuitele echivalente pentru o poartă SAU-exclusiv sunt formate din
 porţi ŞI, SAU şi NU. O metodă directă de simularea a unei porţi
@@ -1028,7 +1028,7 @@ Totuşi, atunci când ambele intrări sunt 1, ieşirea porţii SAU-negat este
 
 #+CAPTION: schema echivalentă a unei porţi logice SAU-exclusiv formată
 #+CAPTION: din porţi ŞI, SAU şi NU
-[[../poze/04118.png]]
+[[./poze/04118.png]]
 
 Un alt circuit echivalent pentru o poartă SAU-exclusiv este format din
 două porţi ŞI negate (cu ajutorul unei porţi NU). Acestea generează la
@@ -1042,14 +1042,14 @@ comparaţie bit cu bine a două sau mai multe numere binare.
 *** Poarta logică SAU-negat-exclusiv (XNOR)
 
 #+CAPTION: schema echivalentă a unei porţi logice SAU-negat-exclusiv
-[[../poze/04119-1.png]]
+[[./poze/04119-1.png]]
 
 Ultima poartă pe care o vom analiza este poarta SAU-negat-exclusiv.
 Aceasta este echivalentă cu poarta SAU-exclusiv, doar că ieşirea este
 inversată.
 
 #+CAPTION: simbolul unei porţi logice SAU-negat-exclusiv
-[[../poze/04119.png]]
+[[./poze/04119.png]]
 
 Desigur, şi pentru această poartă există un simbol special.
 
@@ -1097,17 +1097,17 @@ Să revedem prima dată simbolul şi tabelul de adevăr pentru poarta NU:
 | 1         | 0        |
 
 #+CAPTION: poartă logică NU
-[[../poze/04070.png]]
+[[./poze/04070.png]]
 
 #+CAPTION: funcţia logică NU realizată cu porţi logice ŞI-negat şi
-SAU-negat prin interconectarea intrărilor [[../poze/04154-1.png]]
+SAU-negat prin interconectarea intrărilor [[./poze/04154-1.png]]
 
 În figura alăturată este prezentat modul de realizare a acestei funcţii
 folosind porţi logice ŞI-negat şi SAU-negat.
 
 #+CAPTION: funcţia logică NU realizată cu porţi logice ŞI-negat şi
 SAU-negat prin legarea uneia dintre intrări la masă
-[[../poze/04154.png]]
+[[./poze/04154.png]]
 
 Această metodă de conectare împreună a intrărilor duce la creşterea
 curentului de intrare. Prin urmare, atât în cazul de faţă, cât şi în
@@ -1126,10 +1126,10 @@ ne-inversoare:
 | 1         | 1        |
 
 #+CAPTION: simbolul unei porţi ne-inversoare
-[[../poze/04088.png]]
+[[./poze/04088.png]]
 
 #+CAPTION: realizarea funcţiei ne-inversoare cu două etaje de porţi
-ŞI-negat şi SAU-negat conectate împreună [[../poze/04155.png]]
+ŞI-negat şi SAU-negat conectate împreună [[./poze/04155.png]]
 
 Conform celor spuse mai sus, realizarea acestei funcţii folosind porţi
 logice ŞI-negat şi SAU-negat se realizează conectând două etaje
@@ -1147,10 +1147,10 @@ Simbolul şi tabelul de adevăr al porţii logice ŞI:
 | 1   | 1   | 1        |
 
 #+CAPTION: simbolul porţii logice ŞI
-[[../poze/04156-1.png]]
+[[./poze/04156-1.png]]
 
 #+CAPTION: realizarea funcţiei ŞI prin intermediul a două porţi logice
-ŞI-negat [[../poze/04156-2.png]]
+ŞI-negat [[./poze/04156-2.png]]
 
 Folosind porţi logice ŞI-negat pentru realizarea funcţiei ŞI, avem
 nevoie de adăugarea unui etaj inversor (poartă NU) pe ieşirea porţii
@@ -1159,7 +1159,7 @@ folosind o poartă ŞI-negat. Prin urmare, schema finală este cea din
 figura alăturată.
 
 #+CAPTION: realizarea funcţiei ŞI prin intermediul a două porţi logice
-ŞI-negat [[../poze/04156.png]]
+ŞI-negat [[./poze/04156.png]]
 
 Acelaşi lucru se poate realiza folosind porţi logice SAU-negat, prin
 inversarea (poartă NU) tuturor intrărilor printr-o poartă SAU-negat. Din
@@ -1176,13 +1176,13 @@ SAU-negat.
 | 1   | 1   | 0        |
 
 #+CAPTION: simbolul unei porţi logice ŞI-negat
-[[../poze/04106.png]]
+[[./poze/04106.png]]
 
 Desigur, nu avem ce „construi” la o funcţie ŞI-negat cu ajutorul
 porţilor ŞI-negat, pentru că nu este nimic de făcut.
 
 #+CAPTION: realizarea funcţiei logice ŞI-negat cu ajutorul porţilor
-SAU-negat [[../poze/04157.png]]
+SAU-negat [[./poze/04157.png]]
 
 Cu ajutorul porţilor SAU-negat însă, va trebui să inversăm atât
 intrările cu o poartă SAU-negat, precum şi ieşirea acesteia din urmă (cu
@@ -1199,16 +1199,16 @@ cu ajutorul porţii SAU-negat.
 | 1   | 1   | 1        |
 
 #+CAPTION: simbolul porţii logice SAU
-[[../poze/04107.png]]
+[[./poze/04107.png]]
 
 #+CAPTION: realizarea funcţiei logice SAU cu ajutorul porţilor logice
-SAU-negat [[../poze/04158-1.png]]
+SAU-negat [[./poze/04158-1.png]]
 
 Inversarea ieşirii unei porţi SAU-negat (cu ajutorul unei alte porţi
 SAU-negat conectată ca şi poartă NU) are ca rezultat funcţia SAU.
 
 #+CAPTION: realizarea funcţiei logice SAU cu ajutorul porţilor logice
-SAU-negat [[../poze/04158.png]]
+SAU-negat [[./poze/04158.png]]
 
 Folosind porţi SAU-negat, trebuie să inversăm toate intrările pentru
 simularea funcţiei SAU, la fel cum a trebui să inversăm toate intrările
@@ -1233,10 +1233,10 @@ transformări sunt cunoscute sub numele de „teorema lui DeMorgan”.
 | 1   | 1   | 0        |
 
 #+CAPTION: simbolul porţii SAU-negat
-[[../poze/04113.png]]
+[[./poze/04113.png]]
 
 #+CAPTION: realizarea funcţiei SAU-negat prin intermediul porţilor
-ŞI-negat [[../poze/04159.png]]
+ŞI-negat [[./poze/04159.png]]
 
 Pentru realizarea acestei fucţii folosind porţi ŞI-negat, trebuie să
 inversăm toate intrările şi ieşirea. Procedeul este asemănător cu cel
@@ -1271,7 +1271,7 @@ Mai jos sunt date ca şi referinţă câteva capsule DIP dintre cele mai
 utilizate:
 
 #+CAPTION: capsule DIP
-[[../poze/04160.png]]
+[[./poze/04160.png]]
 
 Sumar:
 
@@ -1313,7 +1313,7 @@ comutatoare.
 *** Comutator basculant
 
 #+CAPTION: comutator basculant; simbol
-[[../poze/04016.png]]
+[[./poze/04016.png]]
 
 Aceste tipuri de comutatoare sunt acţionate cu ajutorul unei manete.
 Această manetă se poate regăsi într-una dintre cele două sau mai multe
@@ -1330,7 +1330,7 @@ iniţială.
 *** Comutator buton
 
 #+CAPTION: comutator buton; simbol
-[[../poze/04017.png]]
+[[./poze/04017.png]]
 
 Comutatoarele buton sunt dispozitive bi-poziţionale acţionate prin
 intermediul unui buton care apăsat iar apoi eliberat. Majoritatea
@@ -1348,7 +1348,7 @@ cipercă pentru uşurarea acţiunii.
 *** Comutator selector
 
 #+CAPTION: comutator selector; simbol
-[[../poze/04018.png]]
+[[./poze/04018.png]]
 
 Comutatoarele selectoare sunt acţionate prin intermediul unui buton
 rotativ pentru selectarea uneia sau a mai multor poziţii. La fel ca şi
@@ -1359,7 +1359,7 @@ poziţii, sau pot conţine mecanise pentru funcţionarea de scurtă durată
 *** Comutator joystick
 
 #+CAPTION: comutator joystick; simbol
-[[../poze/04019.png]]
+[[./poze/04019.png]]
 
 Un comutator joystick este acţionat prin intermediul unei manete cu un
 grad de libertate sporit. În funcţie de direcţia de deplasare a manetei,
@@ -1384,7 +1384,7 @@ limitare.
 *** Comutator de limitare cu manetă
 
 #+CAPTION: Comutator de limitare cu manetă; simbol
-[[../poze/04021.png]]
+[[./poze/04021.png]]
 
 Aceste limitatoare sunt asemănătoare comutatoarelor basculante sau
 selectoare. În cazul acestora însă, maneta este acţionată de un
@@ -1393,7 +1393,7 @@ dispozitiv mecanic, şi nu de către un operator uman.
 *** Comutator de proximitate
 
 #+CAPTION: Comutator de proximitate; simbol
-[[../poze/04022.png]]
+[[./poze/04022.png]]
 
 Comutatoarele de proximitate detectează apropierea unei părţi metalice,
 fie prin intermediul unui câmp magnetic, fie prin intermediul unui câmp
@@ -1431,7 +1431,7 @@ mai jos.
 *** Comutator de viteză
 
 #+CAPTION: Comutator de viteză; simbol
-[[../poze/04024.png]]
+[[./poze/04024.png]]
 
 Aceste comutatoare pot detecta viteza de rotaţie a unui ax prin
 intermediul unui mecanism montat pe acesta. Desigur, acest lucru este de
@@ -1441,7 +1441,7 @@ preferat a se realiza fără un contact fizic între ax şi comutator, caz
 *** Comutator de presiune
 
 #+CAPTION: Comutator de presiune; simbol
-[[../poze/04025.png]]
+[[./poze/04025.png]]
 
 Presiunea gazului sau a lichidului poate fi utilizată pentru acţionarea
 unui mecanism de comutare. Această presiune trebuie să fie aplicată unui
@@ -1451,7 +1451,7 @@ forţă mecanică.
 *** Comutator de temperatură
 
 #+CAPTION: Comutator de temperatură; simbol
-[[../poze/04026.png]]
+[[./poze/04026.png]]
 
 Un mecanism relativ ieftin de detectare a temperaturii constă dintr-o
 bandă bimetalică: o bandă subţire formată din două metale diferite
@@ -1475,7 +1475,7 @@ acţionează mecanismul de comutare.
 *** Comutator de nivel
 
 #+CAPTION: Comutator de nivel de lichid; simbol
-[[../poze/04027.png]]
+[[./poze/04027.png]]
 
 Un obiect plutitor poate fi folosit pentru acţionarea unui mecanism
 atunci când nivelul de lichid dintr-un bazin trece peste un anumit
@@ -1507,7 +1507,7 @@ frecvenţei este detectată de circuitul electronic.
 **** Comutator nuclear
 
 #+CAPTION: Comutator de nivel nuclear; simbol
-[[../poze/04030.png]]
+[[./poze/04030.png]]
 
 O ultimă metodă de realizare a unui comutator de nivel pe care o luăm
 aici în considerare, îl reprezintă comutatorul nuclear. Acesta este
@@ -1529,7 +1529,7 @@ operatorilor sau personalului de întreţinere.
 *** Comutator de curgere
 
 #+CAPTION: Comutator de curgere; simbol
-[[../poze/04028.png]]
+[[./poze/04028.png]]
 
 Introdus într-o conductă, un comutator de curgere va detecta viteza de
 curgere a unui gaz sau a unui lichid. În momentul în care această viteză
@@ -1601,7 +1601,7 @@ exemplu).
 
 #+CAPTION: simbolul comutatorului tip buton în poziţia normal-deschis,
 #+CAPTION: respectiv normal-închis
-[[../poze/04031.png]]
+[[./poze/04031.png]]
 
 Simbolul comutatorelor este diferit în funcţie de scopul şi de modul de
 acţionare. Un comutator normal-deschis este reprezentat în aşa fel încât
@@ -1613,7 +1613,7 @@ normal-deschis, respectiv normal-închis.
 
 #+CAPTION: simbolul general al comutatorului în poziţie normal-deschis,
 #+CAPTION: respectiv normal-închis
-[[../poze/04029.png]]
+[[./poze/04029.png]]
 
 Există de asemenea un simbol generic pentru poziţia oricărui tip de
 comutator, fie normal-deschis, fie normal-închis, asemeni figurii
@@ -1626,7 +1626,7 @@ obicei trecut în vecinătatea simbolului, în cuvinte.
 
 #+CAPTION: simbolul condensatorului folosit în circuitele logice
 #+CAPTION: digitale
-[[../poze/04023.png]]
+[[./poze/04023.png]]
 
 Atenţie, nu confundaţi simbolul stânga (în figura de mai sus) cu
 simbolul condensatorului. În cazul în care se doreşte reprezentarea unui
@@ -1643,7 +1643,7 @@ considerare şi modul de deschidere şi de închidere a contactelor, pe
 măsură ce selectorul se deplasează de pe o poziţie pe alta.
 
 #+CAPTION: comutator cu întrerupere; realizarea contactelor
-[[../poze/04032.png]]
+[[./poze/04032.png]]
 
 Selectorul comutatorului din figura alăturată realizează contactul
 (închiderea circuitului) într-una din cele cinci poziţii diferite.
@@ -1662,7 +1662,7 @@ moment în care contactul se închide.
 
 #+CAPTION: comutator cu suprapunere (comutator fără întrerupere);
 #+CAPTION: realizarea contactelor
-[[../poze/04033.png]]
+[[./poze/04033.png]]
 
 Există însă situaţii în care nu este permisă în nicio clipă deschiderea
 completă a circuitului ataşat selectorului. Pentru astfel de aplicaţii,
@@ -1683,7 +1683,7 @@ contact mobil şi cinci contacte staţionare pot fi desemnate ca si
 comutatoare monopolare cu cinci direcţii.
 
 #+CAPTION: comutator bipolar cu cinci direcţii
-[[../poze/04034.png]]
+[[./poze/04034.png]]
 
 Să presupunem că două comutatoare bipolare cu cinci direcţii sunt legate
 împreună, astfel încât ele să fie acţionate prin intermediul aceluiaşi
@@ -1696,27 +1696,27 @@ simultan de acelaşi mecanism extern.
 Să luăm şi alte exemple de comutatoare:
 
 #+CAPTION: comutator monopolar cu o direcţie
-[[../poze/04016.png]]
+[[./poze/04016.png]]
 
 Comutator monopolar cu o direcţie
 
 #+CAPTION: comutator bipolar cu o direcţie
-[[../poze/04036.png]]
+[[./poze/04036.png]]
 
 Comutator bipolar cu o direcţie
 
 #+CAPTION: comutator monopolar cu două direcţii
-[[../poze/04037.png]]
+[[./poze/04037.png]]
 
 Comutator monopolar cu două direcţii
 
 #+CAPTION: comutator bipolar cu două direcţii
-[[../poze/04038.png]]
+[[./poze/04038.png]]
 
 Comutator bipolar cu două direcţii
 
 #+CAPTION: comutator cvadripolar cu patru direcţii
-[[../poze/04039.png]]
+[[./poze/04039.png]]
 
 Comutator cvadripolar cu patru direcţii
 
@@ -1740,7 +1740,7 @@ Sumar:
 
 #+CAPTION: o bobină produce un câmp magnetic la trecerea curentului prin
 #+CAPTION: aceasta
-[[../poze/04040.png]]
+[[./poze/04040.png]]
 
 La trecerea curentului electric printr-un canductor, va lua naştere un
 câmp magnetic în jurul acestuia. În cazul în care conductorul este
@@ -1775,7 +1775,7 @@ unui comutator, ele sunt cunoscute sub denumirea de relee
 electromecanice.
 
 #+CAPTION: releu electromecanic într-un circuit electric
-[[../poze/04041.png]]
+[[./poze/04041.png]]
 
 Releele sunt foarte practice pentru controlul unei cantităţi mari de
 curent sau tensiune prin intermediul unui semnal electric de putere
@@ -1829,7 +1829,7 @@ bobina nu este energizată.
 
 #+CAPTION: releu electromecanic într-un circuit trifazat pentru
 #+CAPTION: controlul unui motor electric
-[[../poze/04042.png]]
+[[./poze/04042.png]]
 
 Probabil cea mai des întâlnită aplicaţie a contactoarelor constă în
 controlul motoarelor electrice.
@@ -1867,7 +1867,7 @@ acest tip de contact mai poartă numele de normal-deschis cu acţionare
 întârziată.
 
 #+CAPTION: releu temporizat la închidere normal deschis
-[[../poze/04043.png]]
+[[./poze/04043.png]]
 
 Releul din figura alăturată este un releu temporizat la închidere,
 normal-deschis. Acesta se închide după cinci secunde de la energizarea
@@ -1875,7 +1875,7 @@ bobinei. Deschiderea se realizează imediat după de-energizarea bobinei.
 
 #+CAPTION: diagrama timp de funcţionare a contactelor unui releu
 #+CAPTION: temporizat la închidere, normal deschis
-[[../poze/04044.png]]
+[[./poze/04044.png]]
 
 Alăturat este o diagramă de timp ce prezintă modul de funcţionare a
 contactelor acestui tip de releu temporizat.
@@ -1891,7 +1891,7 @@ de-energizarea bobinei, acest tip de contact mai poartă numele de normal
 deschis cu întârziere la revenire.
 
 #+CAPTION: releu temporizat la deschidere normal deschis
-[[../poze/04045.png]]
+[[./poze/04045.png]]
 
 Releul temporizat la deschidere, normal deschis, din figura alăturată se
 închide imediat după energizarea bobinei. Deschiderea contactelor are
@@ -1899,14 +1899,14 @@ loc însă la cinci secunde după de-energizarea bobinei.
 
 #+CAPTION: diagrama timp de funcţionare a contactelor unui releu
 #+CAPTION: temporizat la deschidere, normal deschis
-[[../poze/04046.png]]
+[[./poze/04046.png]]
 
 Diagrama de timp în acest caz, este cea din figura alăturată.
 
 *** Releu temporizat la deschidere, normal-închis
 
 #+CAPTION: releu temporizat la deschidere normal închis
-[[../poze/04047.png]]
+[[./poze/04047.png]]
 
 Acest tip de contact este normal închis atunci când bobina nu este
 energizată. Contactul se deschide la aplicarea unui curent prin bobină,
@@ -1919,12 +1919,12 @@ contact mai poartă numele de contact normal închis cu acţionare
 
 #+CAPTION: diagrama timp de funcţionare a contactelor unui releu
 #+CAPTION: temporizat la deschidere, normal închis
-[[../poze/04048.png]]
+[[./poze/04048.png]]
 
 *** Releu temporizat la închidere, normal-închis
 
 #+CAPTION: releu temporizat la închidere normal închis
-[[../poze/04049.png]]
+[[./poze/04049.png]]
 
 Asemenea releului temporizat la deschidere normal-închis, acest tip de
 contact este normal-închis atunci când bobina nu este energizată.
@@ -1935,7 +1935,7 @@ contact normal închis cu întârziere la revenire.
 
 #+CAPTION: diagrama timp de funcţionare a contactelor unui releu
 #+CAPTION: temporizat la închidere, normal închis
-[[../poze/04050.png]]
+[[./poze/04050.png]]
 
 *** Alte tipuri de relee temporizate
 
@@ -1950,7 +1950,7 @@ durabile. Multe modele sunt capabile de efectuarea unor operaţii de
 temporizare avansate:
 
 #+CAPTION: releu temporizat normal-deschis cu o singură închidere
-[[../poze/04051.png]]
+[[./poze/04051.png]]
 
 Releu temporizat normal-deschis cu o singură închidere. Aceste relee se
 închid o singură dată, un anumit interval de timp şi apoi se re-deschid,
@@ -1959,14 +1959,14 @@ energizată.
 
 #+CAPTION: releu temporizat normal-deschis cu deschideri/închideri
 #+CAPTION: repetate
-[[../poze/04052.png]]
+[[./poze/04052.png]]
 
 Releu temporizat normal-deschis cu deschideri/închideri repetate. Acest
 releu se închide şi se deschide pentru un anumit interval de timp atâta
 timp cât bobina este energizată.
 
 #+CAPTION: releu temporizat de supraveghere
-[[../poze/04053.png]]
+[[./poze/04053.png]]
 
 Releu temporizat de supraveghere. Acest releu îşi schimbă starea în
 cazul în care semnalul de intrare nu variază continuu de la starea
@@ -2000,7 +2000,7 @@ neajunsuri, mulţi producători oferă relee semiconductoare ce folosesc
 tiristori, triace sau tranzistori în loc de contactele mecanice.
 
 #+CAPTION: releu semiconductor
-[[../poze/04054.png]]
+[[./poze/04054.png]]
 
 Aceste dispozitive de ieşire (tiristori, triace, tranzistori) sunt
 cuplate optic la o sursă de lumină (LED) în interiorul releeului. Releul
@@ -2053,7 +2053,7 @@ de control.
 
 #+CAPTION: diagrama ladder de control a unei lămpi prin intermediul unui
 #+CAPTION: comutator manual
-[[../poze/04002.png]]
+[[./poze/04002.png]]
 
 Ca şi exemplu de început, o diagramă ladder simplă reprezentând o lampă
 controlată de un comutator manual arată precum în figura alăturată.
@@ -2063,14 +2063,14 @@ masă). Aceste notaţii nu au nicio legătură cu notaţia bobinelor.
 
 #+CAPTION: diagrama ladder de control a unei lămpi prin intermediul unui
 #+CAPTION: comutator manual; schema completă
-[[../poze/04003.png]]
+[[./poze/04003.png]]
 
 Transformatorul sau generatorul ce alimentează acest circuit este omis
 pentru simplitate. În realitate, circuitul este cel alăturat.
 
 #+CAPTION: diagrama ladder de control a unei lămpi prin intermediul unui
 #+CAPTION: comutator manual; alimentare în c.c. la 24 V
-[[../poze/04004.png]]
+[[./poze/04004.png]]
 
 Deşi circuitele logice industriale utilizează o tensiune de 120 V în
 c.a., există şi sisteme realizate la tensiuni mai mici în c.a. sau chiar
@@ -2096,7 +2096,7 @@ de vedere electric dintr-un circuit de control să fie desemnat prin
 acelaşi număr de fir (conductor).
 
 #+CAPTION: diagrama ladder
-[[../poze/04005.png]]
+[[./poze/04005.png]]
 
 Să luăm de exemplu diagrama ladder alăturată. Conductorul notat cu „25”
 reprezintă de fapt acelaşi fir din punct de vedere electric, chiar dacă
@@ -2108,14 +2108,14 @@ locaţia sarcinii nu are nicio importanţă, contează totuşi care capăt al
 „scării” este conectat la masă.
 
 #+CAPTION: diagrama ladder
-[[../poze/04006.png]]
+[[./poze/04006.png]]
 
 Să considerăm exemplul alăturat. În acest caz, lampa (sarcina) este
 conectată în dreapta circuitului, la fel şi masa sursei de alimentare.
 Aceasta nu este o simplă conincidenţă.
 
 #+CAPTION: diagrama ladder; masă accidentală
-[[../poze/04007.png]]
+[[./poze/04007.png]]
 
 Să presupunem că la un moment dat există o conexiune accidentală între
 conductorul 1 şi masă. Această conexiune poate fi dată de uzura
@@ -2127,7 +2127,7 @@ comutatorului, acest scurt-circuit va duce la arderea siguranţei
 fuzibile.
 
 #+CAPTION: diagrama ladder; masă accidentală
-[[../poze/04008.png]]
+[[./poze/04008.png]]
 
 Dar, să vedem ce s-ar întâmpla în cazul unei defecţiuni identice
 (contactul accidental dintre conductorul 1 si masă) în cazul în care
@@ -2156,7 +2156,7 @@ Sumar:
 *** Funcţia logică SAU
 
 #+CAPTION: diagramă lader; funcţia SAU
-[[../poze/04009.png]]
+[[./poze/04009.png]]
 
 Putem construi funcţii logice simple pentru circuitul cu lampă din
 secţiunea precedentă, folosind contacte multiple. Documentarea acestor
@@ -2182,7 +2182,7 @@ pentru a ajunge spre lampă. Prin urmare, indiferent care contact se
 închide, A sau B, lampa se va aprinde.
 
 #+CAPTION: simbolul porţii logice SAU
-[[../poze/04107.png]]
+[[./poze/04107.png]]
 
 Ceea ce am implementat de fapt în acest caz nu este altceva decât o
 poartă logică SAU, utilizând două contacte normal-deschise şi o lampă.
@@ -2190,7 +2190,7 @@ poartă logică SAU, utilizând două contacte normal-deschise şi o lampă.
 *** Funcţia logică ŞI
 
 #+CAPTION: diagramă lader; funcţia ŞI
-[[../poze/04010.png]]
+[[./poze/04010.png]]
 
 Putem imita funcţia unei porţi logice ŞI prin conectarea celor două
 contacte normal-deschise în serie şi nu în paralel.
@@ -2203,7 +2203,7 @@ contacte normal-deschise în serie şi nu în paralel.
 | 1   | 1   | 1        |
 
 #+CAPTION: simbolul porţii logice ŞI
-[[../poze/04156-1.png]]
+[[./poze/04156-1.png]]
 
 Putem verifica cu ajutorul tabelului de adevăr că acest lucru este
 într-adevăr corect.
@@ -2215,7 +2215,7 @@ ambele contacte sunt închise.
 *** Funcţia logică NU
 
 #+CAPTION: diagramă ladder; funcţia logică NU
-[[../poze/04011.png]]
+[[./poze/04011.png]]
 
 Funcţia logică de inversare poate fi obţinută prin simpla utilizare a
 unui contact normal-închis, faţă de un contact normal-deschis precum
@@ -2227,7 +2227,7 @@ cele folosite mai sus.
 | 1   | 0        |
 
 #+CAPTION: simbolul funcţiei logice NU
-[[../poze/04070.png]]
+[[./poze/04070.png]]
 
 Din nou, putem verifica prin intermediul tabelului de adevăr că acest
 lucru este corect.
@@ -2235,7 +2235,7 @@ lucru este corect.
 *** Funcţia logică ŞI-negat
 
 #+CAPTION: diagramă ladder; funcţia logică ŞI-negat
-[[../poze/04012.png]]
+[[./poze/04012.png]]
 
 Dacă luăm funcţia SAU prezentată mai sus şi inversăm fiecare intrare vom
 obţine funcţia ŞI-negat. Intrările se inversează prin utilizarea
@@ -2249,9 +2249,9 @@ contactelor normal-închise în loc de contacte normal-deschise.
 | 1   | 1   | 0        |
 
 #+CAPTION: simbolul funcţiei logice ŞI-negat
-[[../poze/04106.png]]
+[[./poze/04106.png]]
 #+CAPTION: funcţia logică ŞI-negat
-[[../poze/04012-1.png]]
+[[./poze/04012-1.png]]
 
 Lampa va fi energizată dacă unul dintre contacte nu este acţionat, şi se
 va stinge doar dacă ambele contacte sunt acţionate simultan.
@@ -2259,7 +2259,7 @@ va stinge doar dacă ambele contacte sunt acţionate simultan.
 *** Funcţia logică SAU-negat
 
 #+CAPTION: diagramă ladder; funcţia logică SAU-negat
-[[../poze/04013.png]]
+[[./poze/04013.png]]
 
 Asemănător, dacă luăm funcţia ŞI implementată mai sus, şi inversăm
 intrările, obţinem funcţia logică SAU-negat. Inversarea intrărilor se
@@ -2274,9 +2274,9 @@ loc de contacte normal-deschise.
 | 1   | 1   | 0        |
 
 #+CAPTION: simbolul porţii logice SAU-negat
-[[../poze/04113.png]]
+[[./poze/04113.png]]
 #+CAPTION: funcţia logică SAU-negat
-[[../poze/04013-1.png]]
+[[./poze/04013-1.png]]
 
 Din cele observate mai sus, putem trage unele concluzii, şi anume:
 contactele paralele sunt echivalente cu o poartă logică SAU; contactele
@@ -2286,7 +2286,7 @@ echivalente cu o poartă NU (negare).
 *** Funcţia logică SAU-exclusiv
 
 #+CAPTION: diagramă ladder; funcţia logică SAU-exclusiv
-[[../poze/04014-1.png]]
+[[./poze/04014-1.png]]
 
 Putem construi circuite logice combinaţionale prin gruparea contactelor
 în aranjamente serie-paralel. În exemplul alăturat, funcţia SAU-exclusiv
@@ -2300,9 +2300,9 @@ este construită prin combinarea porţilor ŞI, SAU şi NU.
 | 1   | 1   | 0        |
 
 #+CAPTION: simbolul porţii logice SAU-exclusiv
-[[../poze/04116.png]]
+[[./poze/04116.png]]
 #+CAPTION: funcţia logică SAU-exclusiv
-[[../poze/04014.png]]
+[[./poze/04014.png]]
 
 Linia de sus (contactul normal-închis A în serie cu, contactul
 normal-deschis B) este echivalentă cu partea de sus a combinaţiei de
@@ -2337,7 +2337,7 @@ sunt acţionate de acelaşi mecanism.
 *** Inversarea ieşirii
 
 #+CAPTION: diagramă ladder; negarea ieşirii unei funcţii logice
-[[../poze/04055-1.png]]
+[[./poze/04055-1.png]]
 
 Dacă dorim să inversăm ieşirea unei funcţii logice realizate cu ajutorul
 unui comutator, trebuie să folosim un releu cu un contact normal-închis.
@@ -2351,7 +2351,7 @@ alăturată.
 | 1   | 1     | 0        |
 
 #+CAPTION: funcţia logică NU
-[[../poze/04055.png]]
+[[./poze/04055.png]]
 
 Releul este indicat pe figură prin notaţia CR1 (releu de control 1).
 Atunci când bobina releului, simbolizată printr-un cerc pe prima linie,
@@ -2363,7 +2363,7 @@ lampă, inversă faţă de starea de acţionare a comutatorului (A).
 
 #+CAPTION: diagrama ladder; funcţia logică ŞI-negat realizată prin
 #+CAPTION: inversarea ieşirii
-[[../poze/04056-1.png]]
+[[./poze/04056-1.png]]
 
 Să aplicăm această strategie de inversare uneia dintre funcţiile cu
 intrare inversată realizate mai sus. Spre exemplu, funcţia logică ŞI
@@ -2378,10 +2378,10 @@ ajutorul unui releu pentru realizarea unei funcţii ne-inversate.
 | 1   | 1   | 1        |
 
 #+CAPTION: funcţia logică ŞI
-[[../poze/04056-2.png]] 
+[[./poze/04056-2.png]] 
 #+CAPTION: simbolul
 #+CAPTION: porţii logice ŞI
-[[../poze/04056.png]]
+[[./poze/04056.png]]
 
 De la comutator la bobina CR1, funcţia logică realizată este cea a unei
 porţi ŞI-negat. Contactele CR1 normal-închise inversează şi transformă
@@ -2401,7 +2401,7 @@ Sumar:
 *** Controlul aprinderii furnalelor
 
 #+CAPTION: diagramă ladder; circuit de control al aprinderii furnalelor
-[[../poze/04057.png]]
+[[./poze/04057.png]]
 
 O aplicaţie practică a logicii digitale, bazate pe relee şi comutatoare,
 constă în controlul sistemelor în care există o serie de condiţii ce
@@ -2438,7 +2438,7 @@ care dorim ca două evenimente incompatibile să nu aibă loc în acelaşi
 timp.
 
 #+CAPTION: inversarea fazei unui motor electric
-[[../poze/04058.png]]
+[[./poze/04058.png]]
 
 Un exemplu în acest sens constă controlul direcţiei de rotaţie a unui
 motor electric. Sunt utilizate contactoare pentru schimbarea polarităţii
@@ -2454,7 +2454,7 @@ terminalul 1. Inversarea fazei duce la inversarea direcţiei de rotaţie a
 motorului.
 
 #+CAPTION: diagrama ladder; controlul pornirii unui motor electric
-[[../poze/04059.png]]
+[[./poze/04059.png]]
 
 Să examinăm circuitul de control a acestor două contactoare. În dreapta
 avem un contact normal-închis (OL). Acesta este contactul termic de
@@ -2471,7 +2471,7 @@ M_{2} le inversează. Faza A se va afla în scurt-circuit cu faza B şi
 invers. Evident, acesta nu este un sistem de control bun.
 
 #+CAPTION: diagrama ladder; controlul pornirii unui motor electric
-[[../poze/04060.png]]
+[[./poze/04060.png]]
 
 Pentru a preveni acest lucru, putem să proiectăm circuitul astfel încât
 energizarea unuia dintre contactoare săprevină energizarea celuilalt.
@@ -2491,7 +2491,7 @@ sunt echipate cu dispozitive de blocare mecanice. Pentru siguranţa
 adiţională însă, se pot folosi şi metode de blocare electrice.
 
 #+CAPTION:
-[[../poze/00000.png]]
+[[./poze/00000.png]]
 
 Sumar:
 
@@ -2525,7 +2525,7 @@ funcţioneze astfel încât sirenă să se energizeze dacă oricare dintre
 comutatoare este acţionat.
 
 #+CAPTION: diagrama ladder
-[[../poze/04065.png]]
+[[./poze/04065.png]]
 
 La o primă vedere, ar părea că circuitul logic este extrem de simplu:
 utilizăm contacte normal-deschise conectate în paralel, precum în figura
@@ -2545,7 +2545,7 @@ un circuit care să fie cât mai tolerant posibil la o astfel de
 defecţiune.
 
 #+CAPTION: diagrama ladder
-[[../poze/04066.png]]
+[[./poze/04066.png]]
 
 Să presupunem, de exemplu, ca firul conductor al comutatorului doi se
 distruge, ducând la deschiderea circuitului în acest punct. În cazul în
@@ -2557,7 +2557,7 @@ există o problemă până când cineva nu ar încerca sa utilizeze acel
 comutator în caz de urgenţă.
 
 #+CAPTION: diagrama ladder
-[[../poze/04067.png]]
+[[./poze/04067.png]]
 
 Dar dacă am re-proiecta sistemul astfel încât alarma să se declanşeze
 (şi) în cazul unui astfel de defect? Astfel, defectul conductorului ar
@@ -2587,7 +2587,7 @@ apare un defect în linia a doua a circuitului. Dar totuşi, acest circuit
 este mai sigur şi preferabil din acest punct de vedere.
 
 #+CAPTION:
-[[../poze/00000.png]]
+[[./poze/00000.png]]
 
 Sumar:
 
@@ -2647,7 +2647,7 @@ permite o introducere „generală” a programării PLC-urilor în acest
 capitol.
 
 #+CAPTION: automat programabil
-[[../poze/04330.png]]
+[[./poze/04330.png]]
 
 Figura alăturată este cea a unui PLC, văzut din faţă. Cei doi terminali
 L_{1} şi L_{2} din partea superioară sunt pentru alimentarea circuitului
@@ -2658,7 +2658,7 @@ Terminalul din stânga jos (common), reprezintă masa, ce se conectează la
 L_{2}.
 
 #+CAPTION: automat programabil; intrarea X1 energizată
-[[../poze/04331.png]]
+[[./poze/04331.png]]
 
 În interioriul carcasei PLC-ului, între fiecare terminal de intrare şi
 terminalul de masă, există conectat câte un dispozitiv opto-izolator
@@ -2669,7 +2669,7 @@ energizată poate fi „citită” prin intermediul unui LED aprins pe carcasa
 dispozitivului.
 
 #+CAPTION: automat programabil; intrarea X1 energizată
-[[../poze/04332.png]]
+[[./poze/04332.png]]
 
 Semnalele de ieşire sunt generate de circuitul intern al PLC-ului prin
 activarea unui dispozitiv de comutare (tranzistor, triac, sau chiar
@@ -2691,7 +2691,7 @@ Acestea sunt doar contacte şi bobine imaginare. Programul este introdus
 (programming port).
 
 #+CAPTION: automat programabil şi circuit logic
-[[../poze/04333.png]]
+[[./poze/04333.png]]
 
 Să considerăm circuitul şi programul alăturat. Atunci când comutatorul
 buton nu este apăsat, intrarea X_{1} a PLC-ului nu este alimentată.
@@ -2701,7 +2701,7 @@ Prin urmare, ieşirea Y_{1} a PLC-ului rămăne de-energizată, iar lampa
 indicatoare conectată pe această ieşire nu se aprinde.
 
 #+CAPTION: automat programabil şi circuit logic
-[[../poze/04334.png]]
+[[./poze/04334.png]]
 
 Apăsarea butonului însă face ca intrarea X_{1} să fie alimentată. În
 acest caz, toate contactele X_{1} ce apar în program vor fi acţionate.
@@ -2738,13 +2738,13 @@ normal-închis. Soluţia software, aplicabilă cu ajutorul PLC-ului, constă
 normal-închis în loc de normal-deschis.
 
 #+CAPTION: automat programabil şi circuit logic
-[[../poze/04335.png]]
+[[./poze/04335.png]]
 
 Sistemul modificat, în cazul în care comutatorul nu este acţionat (nu
 este apăsat), este prezentat în figura alăturată.
 
 #+CAPTION: automat programabil şi circuit logic
-[[../poze/04336.png]]
+[[./poze/04336.png]]
 
 Când butonul este acţionat, sistemul arată conform figurii alăturate.
 
@@ -2755,7 +2755,7 @@ faţă de hardware, este că semnalele de intrare pot fi refolosite în
 interiorul programului ori de câte ori este necesar.
 
 #+CAPTION: automat programabil şi circuit logic
-[[../poze/04337.png]]
+[[./poze/04337.png]]
 
 De exemplu, circuitul şi programul alăturat sunt proiectate pentru a
 energiza lampa în cazul în care cel puţin două din cele trei comutatoare
@@ -2779,7 +2779,7 @@ PLC-ului.
 
 #+CAPTION: automat programabil şi circuit logic; sistem de control al
 #+CAPTION: pornirii şi opririi unui motor
-[[../poze/04338.png]]
+[[./poze/04338.png]]
 
 Să considerăm exemplul alăturat. Acesta este un sistem de control al
 pornirii şi opririi unui motor.
@@ -2795,7 +2795,7 @@ electrică.
 
 #+CAPTION: automat programabil şi circuit logic; sistem de control al
 #+CAPTION: pornirii şi opririi unui motor
-[[../poze/04339.png]]
+[[./poze/04339.png]]
 
 Dacă apăsăm butonul de „start”, intrarea X_{1} se va energiza, închizând
 contactul X_{1} din program. Bobina Y_{1} va fi energizată şi se va
@@ -2805,7 +2805,7 @@ Contactul paralel Y_{1} se va închide şi el, iar circuitul va rămâne
 
 #+CAPTION: automat programabil şi circuit logic; sistem de control al
 #+CAPTION: pornirii şi opririi unui motor
-[[../poze/04340.png]]
+[[./poze/04340.png]]
 
 Acum, dacă eliberăm contactorul „start”, contactul X_{1} normal-deschis
 se va reîntoarce la poziţia sa normală (deschis). Motorul va continua
@@ -2815,7 +2815,7 @@ energizată ieşirea Y_{1}.
 
 #+CAPTION: automat programabil şi circuit logic; sistem de control al
 #+CAPTION: pornirii şi opririi unui motor
-[[../poze/04341.png]]
+[[./poze/04341.png]]
 
 Pentru a opri motorul, trebuie să apăsăm pentru o durată scurtă
 comutatorul „stop”. Acesta va energiza intrarea X_{2} şi va deschide
@@ -2824,7 +2824,7 @@ bobina Y_{1} va fi întreruptă.
 
 #+CAPTION: automat programabil şi circuit logic; sistem de control al
 #+CAPTION: pornirii şi opririi unui motor
-[[../poze/04342.png]]
+[[./poze/04342.png]]
 
 Când butonul de „stop” este eliberat, intrarea X_{2} se de-energizează.
 Contactul X_{2} se reîntoarce în poziţia sa normală (închis). Motorul nu
@@ -2844,7 +2844,7 @@ opri motorul!
 
 #+CAPTION: automat programabil şi circuit logic; sistem de control al
 #+CAPTION: pornirii şi opririi unui motor
-[[../poze/04371.png]]
+[[./poze/04371.png]]
 
 Soluţia acestei probleme constă în inversarea logicii între contactul
 X_{2} din interiorul programului PLC-ului şi comutatorul „stop”. Când
@@ -2873,7 +2873,7 @@ asigurarea unui semnal logic inversor în caz de nevoie.
 
 #+CAPTION: automat programabil şi circuit logic; utilizarea releelor
 #+CAPTION: interne de control
-[[../poze/04343.png]]
+[[./poze/04343.png]]
 
 Pentru demonstrarea funcţionării unui asemenea tip de releu „intern”, să
 consideram circuitul şi programul alăturat. Acesta este proiectat pentru
@@ -2883,7 +2883,7 @@ de control intern cu C1 şi nu cu CR1.
 
 #+CAPTION: automat programabil şi circuit logic; utilizarea releelor
 #+CAPTION: interne de control
-[[../poze/04344.png]]
+[[./poze/04344.png]]
 
 În acest circuit, lampa va rămâne aprinsă atâta timp cât oricare dintre
 butoane rămâne ne-acţionat (eliberat). Pentru a opri lampa, va trebui să
@@ -2904,7 +2904,7 @@ Sumar:
 ** Introducere şi scurt istoric
 
 #+CAPTION:
-[[../poze/00000.png]]
+[[./poze/00000.png]]
 
 Regulile matematice sunt bazate pe limitele impuse asupra cantităţilor
 numerice particulare cu care avem de a face. Când spunem că 1 + 1 = 2,
@@ -2959,16 +2959,16 @@ cuvinte, adunarea booleană corespunde funcţiei logice a porţii SAU,
 precum şi comutatoarelor conectate în paralel:
 
 #+CAPTION: poartă logică SAU şi comutatoare paralel (0 + 0)
-[[../poze/14009.png]] 
+[[./poze/14009.png]] 
 #+CAPTION: poartă logică SAU şi comutatoare
 #+CAPTION: paralel (0 + 1)
-[[../poze/14010.png]] 
+[[./poze/14010.png]] 
 #+CAPTION: poartă logică SAU şi
 #+CAPTION: comutatoare paralel (1 + 0)
-[[../poze/14011.png]] 
+[[./poze/14011.png]] 
 #+CAPTION: poartă
 #+CAPTION: logică SAU şi comutatoare paralel (1 + 1)
-[[../poze/14012.png]]
+[[./poze/14012.png]]
 
 *** Scăderea şi împărţirea booleană
 
@@ -2995,14 +2995,14 @@ se regăsesc în tabelul de adevăr al porţii ŞI. Cu alte cuvinte,
 comutatoarelor conectate în serie:
 
 #+CAPTION: poartă logică ŞI şi comutatoare serie (0 x 0)
-[[../poze/14013.png]] 
+[[./poze/14013.png]] 
 #+CAPTION: poartă logică ŞI şi comutatoare serie
-(0 x 1) [[../poze/14014.png]] #+CAPTION: poartă logică ŞI şi comutatoare
+(0 x 1) [[./poze/14014.png]] #+CAPTION: poartă logică ŞI şi comutatoare
 #+CAPTION: serie (1 x 0)
-[[../poze/14015.png]] 
+[[./poze/14015.png]] 
 #+CAPTION: poartă logică ŞI şi
 #+CAPTION: comutatoare serie (1 x 1)
-[[../poze/14016.png]]
+[[./poze/14016.png]]
 
 *** Variabile booleene şi complementul lor
 
@@ -3015,7 +3015,7 @@ este 0, atunci complementul ei este 1. Complementul se specifică prin
 intermediul unei linii deasupra variabilei, astfel:
 
 #+CAPTION: complementul unei variabile booleene
-[[../poze/14005.png]]
+[[./poze/14005.png]]
 
 Sub formă scrisă, complementul lui „A” este desemnat prin „A-negat”.
 Câteodată se utilizează simbolul „'” pentru reprezentarea complementului
@@ -3027,10 +3027,10 @@ un contact normal-închis:
 
 #+CAPTION: complementul unei variabile booleene; poartă logică SAU şi
 #+CAPTION: contact normal-închis
-[[../poze/14017.png]] 
+[[./poze/14017.png]] 
 #+CAPTION: complementul unei
 variabile booleene; poartă logică SAU şi contact normal-închis
-[[../poze/14018.png]]
+[[./poze/14018.png]]
 
 Sumar:
 
@@ -3060,7 +3060,7 @@ este valoarea variabilei iniţiale. Această identitate nu este cu nimic
 diferită faţă de echivalentul algebric al numerelor reale:
 
 #+CAPTION: identitate booleană; suma unei variabile cu zero
-[[../poze/14019.png]]
+[[./poze/14019.png]]
 
 Indiferent de valoare lui A, ieşirea va fi tot timpul aceiaşi. Când A =
 1, ieşirea va fi 1; când A = 0, ieşirea va fi 0.
@@ -3069,7 +3069,7 @@ Următoarea identitate este cu siguranţă diferită faţă de cele văzute în
 algebra obişnuită. Aici putem vedea că suma unei variabile cu 1 este 1:
 
 #+CAPTION: identitate booleană; suma unei variabile cu unu
-[[../poze/14020.png]]
+[[./poze/14020.png]]
 
 Indiferent de valoarea lui A, suma lui A cu 1 va fi tot timpul 1.
 Practic, ieşirea circuitului nu ţine cont de valoarea lui A, ci este
@@ -3080,7 +3080,7 @@ acest lucru înseamnă conectarea intrărilor unei porţi logice SAU şi
 activarea lor cu acelaşi semnal:
 
 #+CAPTION: identitate booleană; suma unei variabile cu ea însăşi
-[[../poze/14021.png]]
+[[./poze/14021.png]]
 
 În algebra numerelor reale, suma a două variabile identice este dublul
 variabilei iniţiale (x + x = 2x). Dar în cadrul algebrei booleene nu
@@ -3095,7 +3095,7 @@ oricărei variabile booleene cu 1 este 1, suma dintre o variabilă şi
 complementul ei trebuie să fie 1:
 
 #+CAPTION: suma booleană dintre o variabilă şi complementul acesteia
-[[../poze/14022.png]]
+[[./poze/14022.png]]
 
 *** Identităţi multiplicative
 
@@ -3106,10 +3106,10 @@ identităţile echivalente ale algebrei numerelor reale:
 
 #+CAPTION: identităţi algebrice multiplicative: produsul dintre o
 #+CAPTION: variabilă şi zero
-[[../poze/14023.png]] 
+[[./poze/14023.png]] 
 #+CAPTION: identităţi algebrice
 #+CAPTION: multiplicative: produsul dintre o variabilă şi unu
-[[../poze/14024.png]]
+[[./poze/14024.png]]
 
 Cea de a treia identitate multiplicativă exprimă rezultatul unei
 variabile booleene înmulţită cu ea însăşi. În algebra numerelor reale,
@@ -3121,7 +3121,7 @@ valoarea iniţială, din moment ce 0 x 0 = 0 şi 1 x 1 = 1:
 
 #+CAPTION: identităţi algebrice multiplicative: produsul dintre o
 #+CAPTION: variabilă şi ea însăşi
-[[../poze/14025.png]]
+[[./poze/14025.png]]
 
 A patra identitate multiplicativă nu are echivalent în algebra numerelor
 reale, doarece utilizaează complementul variabilei. Acest concept este
@@ -3132,13 +3132,13 @@ variabilă şi complementul acesteia trebuei să fie 0:
 
 #+CAPTION: identităţi algebrice multiplicative: produsul dintre o
 #+CAPTION: variabilă şi complementul ei
-[[../poze/14026.png]]
+[[./poze/14026.png]]
 
 În concluzie, avem patru identităti booleene de bază pentru adunare şi
 patru pentru produs (multiplicative):
 
 #+CAPTION: identităţi algebrice aditive şi multiplicative
-[[../poze/14027.png]]
+[[./poze/14027.png]]
 
 *** Identitatea complementului dublu
 
@@ -3150,7 +3150,7 @@ numerelor reale: un număr par de astfel de înmulţiri se anulează, iar
 rezultatul final este valoarea iniţială:
 
 #+CAPTION: identitate algebrică booleeană; complementul dublu
-[[../poze/14033.png]]
+[[./poze/14033.png]]
 
 Sumar:
 
@@ -3171,12 +3171,12 @@ este că, putem inversa ordinea variabilelor atât în cazul adunării, cât
 cazuri. Comutativitatea adunării arată astfel:
 
 #+CAPTION: comutativitatea adunării booleene
-[[../poze/14028.png]]
+[[./poze/14028.png]]
 
 Comutativitatea înmulţirii:
 
 #+CAPTION: comutativitatea înmulţirii booleene
-[[../poze/14029.png]]
+[[./poze/14029.png]]
 
 *** Asociativitatea
 
@@ -3186,12 +3186,12 @@ prin intermediul parantezelor, fară a modifica rezultatul ecuaţiilor. Şi
 Asociativitatea adunării:
 
 #+CAPTION: asociativitatea adunării booleene
-[[../poze/14030.png]]
+[[./poze/14030.png]]
 
 Asociativitatea înmulţirii:
 
 #+CAPTION: asociativitatea înmulţirii booleene
-[[../poze/14031.png]]
+[[./poze/14031.png]]
 
 *** Distributivitatea
 
@@ -3199,14 +3199,14 @@ Proprietatea de distributivitate precizează modul de dezvoltare a unei
 expresii booleene formate din înmulţirea unei sume:
 
 #+CAPTION: distributivitatea booleeană
-[[../poze/14032.png]]
+[[./poze/14032.png]]
 
 În concluzie, avem trei proprietăţi booleene de bază: comutativitatea,
 asociativitatea şi distributivitatea:
 
 #+CAPTION: proprietăţi boolene: comutativitatea, asociativitatea şi
 #+CAPTION: distributivitatea
-[[../poze/14034.png]]
+[[./poze/14034.png]]
 
 Sumar:
 
@@ -3230,7 +3230,7 @@ sunt foarte folositoare simplificării booleene. Toate regulie prezentate
 în această secţiune sunt specifice matematicii booleene.
 
 #+CAPTION: simplificare booleană
-[[../poze/14035.png]]
+[[./poze/14035.png]]
 
 Această regulă poate fi demonstrată simbolic prin scoaterea termenului
 comun (A) în afara sumei. Aplicând apoi regulile A + 1 = 1 şi 1A = A,
@@ -3254,7 +3254,7 @@ Următoarea regulă este aproximativ similară cu prima. Practic, ea este
 destul de diferită, iar demonstraţia este puţin mai dificilă:
 
 #+CAPTION: simplificare booleană
-[[../poze/14037.png]]
+[[./poze/14037.png]]
 
 Pentru început, dezvoltăm termenul A, folosind regula precedentă (A + AB
 = A). Scoatem termenul B în afara celei de a doua sume, şi aplicăm apoi
@@ -3266,7 +3266,7 @@ A + A'B = A + AB + A'B = A + B(A + A') = A + B(1) = A + B
 O altă regulă implică simplificarea expresiei unui produs de sume:
 
 #+CAPTION: simplificare booleană
-[[../poze/14039.png]]
+[[./poze/14039.png]]
 
 Pentru a demonstra această relaţie, realizăm pentru început înmulţirea
 celor două sume. Aplicăm apoi identitatea AA = A, apoi regula A + AB = A
@@ -3280,7 +3280,7 @@ expresiei de mai sus:
 Pe scurt, acestea sunt cele trei reguli ale simplificării booleene:
 
 #+CAPTION: regulile simplificării booleene
-[[../poze/14041.png]]
+[[./poze/14041.png]]
 
 Sumar:
 
@@ -3297,7 +3297,7 @@ sau alte porţi logice. Originea acestor semnale nu este importantă din
 punct de vedere al simplificării.
 
 #+CAPTION: circuit cu porţi logice
-[[../poze/04287.png]]
+[[./poze/04287.png]]
 
 **** Scrierea expresiei booleene
 
@@ -3310,21 +3310,21 @@ Să scriem aşadar sub-expresii la ieşirea primelor trei porţi:
 
 #+CAPTION: circuit cu porţi logice; scrierea sub-expresiilor la ieşirea
 #+CAPTION: porţilor
-[[../poze/04288.png]]
+[[./poze/04288.png]]
 
 Scriem apoi sub-expresiile următoarelor seturi de porţi. În cazul de
 faţa, avem doar o singură poartă pe nivelul următor:
 
 #+CAPTION: circuit cu porţi logice; scrierea sub-expresiilor la ieşirea
 #+CAPTION: porţilor
-[[../poze/04289.png]]
+[[./poze/04289.png]]
 
 Şi, în sfârşit, ieşirea (Q) circuitului logic este egală cu următoarea
 expresie:
 
 #+CAPTION: circuit cu porţi logice; scrierea sub-expresiilor la ieşirea
 #+CAPTION: porţilor
-[[../poze/04290.png]]
+[[./poze/04290.png]]
 
 **** Simplificarea expresiei booleene
 
@@ -3360,13 +3360,13 @@ construirea circuitului cu sub-expresia „A + C”, expresie ce nu este
 altceva decât o poartă SAU:
 
 #+CAPTION: poartă logică SAU
-[[../poze/04291.png]]
+[[./poze/04291.png]]
 
 Următorul pas în evaluarea expresiei B(A + C) constă în înmulţirea
 (poartă ŞI) semnalului B cu ieşirea porţii precedente (A + C):
 
 #+CAPTION: evaluarea expresiei booleene
-[[../poze/04292.png]]
+[[./poze/04292.png]]
 
 Evident, acest circuit este mult mai simplu decât cel original, având
 doar două porţi logice în loc de cinci. O astfel de reducere a numărului
@@ -3383,7 +3383,7 @@ scurtă decât cea a porţilor logice semiconductoare. Să considerăm aşadar
 exemplul de mai jos:
 
 #+CAPTION: circuit logic cu relee electromecanice
-[[../poze/04293.png]]
+[[./poze/04293.png]]
 
 **** Scrierea expresiei booleene
 
@@ -3395,7 +3395,7 @@ rezistenţă. De exemplu, să considerăm circuitul rezistiv de mai jos, cu
 rezistorii aranjaţi asemeni contactelor circuitului precedent.
 
 #+CAPTION: circuit rezistiv serie-paralel
-[[../poze/04294.png]]
+[[./poze/04294.png]]
 
 Formula corespunzătoare reducerii acestui circuit la o rezistenţă
 echivalenta, este următoarea:
@@ -3410,7 +3410,7 @@ totală echivalentă. Simplificarea ne este uşurată dacă scriem
 sub-expresii booleene la stânga fiecărei linii în parte:
 
 #+CAPTION: circuit logic cu relee electromecanice
-[[../poze/04295.png]]
+[[./poze/04295.png]]
 
 Acum că avem o expresie booleană, tot ceea ce trebuie să facem este să
 aplicăm regulile de simplificare pentru a aduce expresia la forma ei cea
@@ -3427,7 +3427,7 @@ După cum putem vedea, circuitul redus este mult mai simplu decât
 originalul, dar funcţia logică pe care o îndeplineşte este neschimbată:
 
 #+CAPTION: circuit logic cu relee electromecanice; forma simplificată
-[[../poze/04296.png]]
+[[./poze/04296.png]]
 
 Sumar:
 
@@ -3444,7 +3444,7 @@ SAU-exclusiv. Acest lucru nu ne împiedică să avem un simbol pentru
 reprezentarea ei:
 
 #+CAPTION: funcţia SAU-exclusiv; simbol
-[[../poze/04297.png]]
+[[./poze/04297.png]]
 
 Acest simbol este folosit foarte rar în expresiile booleene, deoarece
 identitătile, proprietăţile şi regulile de simplificare ce implică
@@ -3453,7 +3453,7 @@ Totuşi, există o modalitate de reprezentare a funcţiei SAU-exclusiv cu
 ajutorul funcţiilor SAU şi ŞI:
 
 #+CAPTION: funcţia SAU-exclusiv realizată cu funcţiile SAU şi ŞI
-[[../poze/04298.png]]
+[[./poze/04298.png]]
 
 Ca şi echivalenţă booleeană. această regulă poate fi folositoare în
 cazul simplificării anumitor expresii booleene. Orice expresie de forma
@@ -3481,7 +3481,7 @@ inversând ieşirea unei porţi, funcţia rezultată este aceiaşi cu tipul
 opus de poartă cu intrările inversate:
 
 #+CAPTION: teorema lui DeMorgan
-[[../poze/04299.png]]
+[[./poze/04299.png]]
 
 O bară deasupra termenului AB se comportă precum un simbol de grup.
 Acest lucru este total diferit faţă de produsul AB inversat separat
@@ -3496,7 +3496,7 @@ este rupt în doua, operaţia de sub el se modifică din adunare în
 propriul ei complement. Ca şi exemplu:
 
 #+CAPTION: înteruperea complementului în aplicarea teoremei lui DeMorgan
-[[../poze/14045.png]]
+[[./poze/14045.png]]
 
 Când există mai multe complemente deasupra aceleiaşi expresii, nu putem
 întrerupe decât un complement pe rând. Cel mai uşor este să începem cu
@@ -3505,25 +3505,25 @@ considerăm expresia (A + (BC)')' redusă cu ajutorul teoremelor lui
 DeMorgan:
 
 #+CAPTION: aplicarea teoremei lui DeMorgan
-[[../poze/04300.png]]
+[[./poze/04300.png]]
 
 Urmând consideraţiile exprimate mai sus, aplicăm următorii paşi:
 
 #+CAPTION: înteruperea complementului în aplicarea teoremei lui DeMorgan
-[[../poze/14046.png]]
+[[./poze/14046.png]]
 
 Ca şi rezultat, circuitul original este redus la un circuit format
 dintr-o poartă ŞI cu trei intrări, unde intrarea A este inversată
 printr-o poartă NU:
 
 #+CAPTION: circuit logic simplificat cu ajutorul teoremei lui DeMorgan
-[[../poze/04301.png]]
+[[./poze/04301.png]]
 
 Ca şi contra-exemplu, nu întrerupeţi niciodată mai mult de un complement
 la un singur pas:
 
 #+CAPTION: întreruperea greşită a complementului
-[[../poze/14050.png]]
+[[./poze/14050.png]]
 
 Pe cât de tentant pare, pe atât de incorect este să scurtăm paşi
 simplificării prin întreruperea mai multor complemente deodată. Prin
@@ -3533,7 +3533,7 @@ Putem simplifica expresia de mai sus şi prin întreruperea complementului
 scurt în primă instanţă, şi apoi a complementului lung:
 
 #+CAPTION: întreruperea complementului scurt
-[[../poze/14047.png]]
+[[./poze/14047.png]]
 
 Desigur, rezultatul final este acelaşi şi în acest caz. Paşii necesari
 pentru simplificare sunt însă mai numeroşi faţa de exemplul precedent
@@ -3555,13 +3555,13 @@ paranteze, dar în alte cazuri s-ar putea să conteze. Să luăm un alt
 exemplu, meţinând parantezele:
 
 #+CAPTION: simplificarea expresiei booleene cu ajutorul teoremei lui
-DeMorgan [[../poze/14048.png]]
+DeMorgan [[./poze/14048.png]]
 
 În cazul în care nu menţinem parantezele, riscăm să obţinem un răspuns
 greşit:
 
 #+CAPTION: simplificarea expresiei booleene cu ajutorul teoremei lui
-DeMorgan [[../poze/14049.png]]
+DeMorgan [[./poze/14049.png]]
 
 După cum se poate observa, menţinerea grupării realizate implicit prin
 liniile de complementare, este cruciale pentru obţinerea răspunsului
@@ -3573,7 +3573,7 @@ Să aplicăm acum principiile teoremelor lui DeMorgan pentru simplificarea
 unui circuit cu porţi logice:
 
 #+CAPTION: circuit cu porţi logice
-[[../poze/04302.png]]
+[[./poze/04302.png]]
 
 **** Expresia booleeană echivalentă
 
@@ -3584,7 +3584,7 @@ sunt cunoscute:
 
 #+CAPTION: circuit cu porţi logice; notarea sub-expresiilor la ieşirea
 #+CAPTION: porţilor
-[[../poze/04303.png]]
+[[./poze/04303.png]]
 
 Apoi, notăm ieşirea primei porţi SAU-negat şi ieşirea porţii ŞI-negat.
 Atunci când aveam de a face cu porţi inversate pe ieşire, este mai uşor
@@ -3596,14 +3596,14 @@ introducerea complementului în cadrul expresiei:
 
 #+CAPTION: circuit cu porţi logice; notarea sub-expresiilor la ieşirea
 #+CAPTION: porţilor
-[[../poze/04304.png]]
+[[./poze/04304.png]]
 
 Şi, în sfârşit, ultimul pas constă în scrierea expresiei pentru poarta
 SAU-negat finală:
 
 #+CAPTION: circuit cu porţi logice; notarea sub-expresiilor la ieşirea
 #+CAPTION: porţilor
-[[../poze/04305.png]]
+[[./poze/04305.png]]
 
 **** Simplificare expresiei echivalente
 
@@ -3611,14 +3611,14 @@ Trecem apoi la reducerea acestei expresii folosind identităţile,
 proprietăţile, regulile si teoremele (lui DeMorgan) algebrei booleene:
 
 #+CAPTION: siplificarea expresiei booleene echivalente
-[[../poze/14051.png]]
+[[./poze/14051.png]]
 
 **** Circuitul echivalent
 
 Circuitul echivalent al expresiei mult simplificate:
 
 #+CAPTION: circuit cu porţi logice echivalent (simplificat)
-[[../poze/04306.png]]
+[[./poze/04306.png]]
 
 Sumar:
 
@@ -3646,7 +3646,7 @@ deşeurilor medicale, ce pot fi infectate cu viruşi sau bacterii
 periculoase:
 
 #+CAPTION: incinerator deşeuri toxice
-[[../poze/04360.png]]
+[[./poze/04360.png]]
 
 Atâta timp cât flacăra este menţinută în incinerator, injectarea
 deşeurilor toxice pentru neutralizare este sigură. Dacă în schimb
@@ -3671,7 +3671,7 @@ unui sistem logic:
 #+CAPTION: incinerator deşeuri toxice; utilizarea senzorilor şi a
 circuitului logic pentru închiderea alimentării în cazul în care flacăra
 #+CAPTION: nu este detectată
-[[../poze/04361.png]]
+[[./poze/04361.png]]
 
 Scopul nostru acum, este să proiectăm circuitul logic astfel încât
 acesta să deschidă valva de admisie doar dacă există flacără (detectată
@@ -3684,14 +3684,14 @@ admisie doar în cazul în care toţi cei trei senzori detectează flacăra.
 În acest caz, tabelul de adevăr arată astfel:
 
 #+CAPTION: incinerator deşeuri toxice; tabelul de adevăr
-[[../poze/14061.png]]
+[[./poze/14061.png]]
 
 Această funcţionalitate poate fi asigurată folosind o poartă ŞI cu trei
 intrări: ieşirea circuitului este 1 doar dacă intrarea A ŞI intrarea B
 ŞI intrarea C este 1:
 
 #+CAPTION: incinerator deşeuri toxice; adăugarea circuitului logic
-[[../poze/04362.png]]
+[[./poze/04362.png]]
 
 Dacă folosim în schimb relee electromecanice, putem crea această funcţie
 ŞI prin conectarea celor trei contacte în serie. Sau pur şi simplu
@@ -3700,7 +3700,7 @@ care se poate deschide valva de admisie, este dacă toţi cei trei senzori
 indică prezenţa flăcării:
 
 #+CAPTION: incinerator deşeuri toxice; utilizare relee electromecanice
-[[../poze/04363.png]]
+[[./poze/04363.png]]
 
 Deşi această strategie maximizează siguranţa sistemului, este totuşi
 foarte sensibilă la defect. În cazul în care unul din cei trei senzori
@@ -3718,7 +3718,7 @@ intrări, a cărui ieşire este 1 în cazul în care cel puţin două din cele
 trei intrări sunt 1. Tabelul de adevăr arată astfel:
 
 #+CAPTION: incinerator deşeuri toxice; tabelul de adevăr
-[[../poze/14062.png]]
+[[./poze/14062.png]]
 
 *** Suma-de-produse
 
@@ -3737,19 +3737,19 @@ căutăm), iar intrările sunt A = 0, B = 1 şi C = 1. Produsul acestor trei
 variabile este unu dacă expresia arată astfel: A'BC.
 
 #+CAPTION: incinerator deşeuri toxice; tabelul de adevăr
-[[../poze/14063.png]]
+[[./poze/14063.png]]
 
 Să completăm şi celelalte rânduri care au o ieşire de 1, cu produsul
 termenilor:
 
 #+CAPTION: incinerator deşeuri toxice; tabelul de adevăr
-[[../poze/14064.png]]
+[[./poze/14064.png]]
 
 Însumăm toate aceste patru expresii, pentru a crea o singură expresie
 booleeană ce descrie în întregime tabelul de adevăr:
 
 #+CAPTION: incinerator deşeuri toxice; tabelul de adevăr
-[[../poze/14065.png]]
+[[./poze/14065.png]]
 
 *** Realizarea circuitului logic
 
@@ -3758,13 +3758,13 @@ putem trece la realizarea circuitului logic bazat pe această expresie,
 fie cu porţi logice:
 
 #+CAPTION: incinerator deşeuri toxice; circuitul logic (porţi logice)
-[[../poze/04364.png]]
+[[./poze/04364.png]]
 
 Fie cu relee electromecanice:
 
 #+CAPTION: incinerator deşeuri toxice; circuitul logic (relee
 #+CAPTION: electromecanice
-[[../poze/04365.png]]
+[[./poze/04365.png]]
 
 *** Simplificarea expresiei booleene
 
@@ -3773,20 +3773,20 @@ putem simplifica expresia iniţială folosing regulile simplificării
 booleene:
 
 #+CAPTION: incinerator deşeuri toxice; simplificarea expresiei booleene
-[[../poze/14066.png]]
+[[./poze/14066.png]]
 
 Ca şi rezultat al simplificării, putem acum construi un circuit logic
 mult simplificat, dar care îndeplineşte exact aceiaşi funcţie logică,
 fie cu porţi logice:
 
 #+CAPTION: incinerator deşeuri toxice; circuitul logic (porţi logice)
-[[../poze/04366.png]]
+[[./poze/04366.png]]
 
 Fie cu relee electromecanice:
 
 #+CAPTION: incinerator deşeuri toxice; circuitul logic (relee
 #+CAPTION: electromecanice
-[[../poze/04367.png]]
+[[./poze/04367.png]]
 
 Sumar:
 
@@ -3815,7 +3815,7 @@ un program software specializat pentru realizarea simplificărilor
 logice.
 
 #+CAPTION:
-[[../poze/00000.png]]
+[[./poze/00000.png]]
 
 Sumar:
 
@@ -3851,18 +3851,18 @@ A-negat în loc de U. B şi B-negat se reprezintă similar (figura de mai
 jos dreapta).
 
 #+CAPTION: diagrame Venn
-[[../poze/14073.png]]
+[[./poze/14073.png]]
 
 Ce se întâmplă dacă şi A şi B se află în acelaşi univers? Există patru
 posibilităţi:
 
 #+CAPTION: diagrame Venn
-[[../poze/14074.png]]
+[[./poze/14074.png]]
 
 Să reluăm fiecare din cele patru posibilităţi în parte:
 
 #+CAPTION: diagrame Venn
-[[../poze/14075.png]]
+[[./poze/14075.png]]
 
 Primul exemplu indică faptul că mulţimile A şi B nu au niciun element
 comun, conform diagramei Venn. Regiunile celor două mulţimi nu se
@@ -3872,7 +3872,7 @@ Niciunul dintre elementele mulţimii A nu este inclus în mulţimea B şi
 invers. Prin urmare, cele două cercuri nu se suprapun.
 
 #+CAPTION: diagrame Venn
-[[../poze/14076.png]]
+[[./poze/14076.png]]
 
 În cel de al doilea exemplu, mulţimea A este inclusă total în mulţimea
 B. Cum putem explica această situaţie? Să presupunem că mulţimile A şi B
@@ -3881,7 +3881,7 @@ Toate elementele din A se regăsesc şi în B. Prin urmare, mulţimea A este
 o submulţime a mulţimii B, iar cercul A este inclus în cercul B.
 
 #+CAPTION: diagrame Venn
-[[../poze/14077.png]]
+[[./poze/14077.png]]
 
 În cel de al treilea caz, mulţimile A şi B se suprapun perfect. Din
 diagrama Venn, putem deduce că cele două mulţimi conţin exact aceleaşi
@@ -3890,7 +3890,7 @@ elemente. Să presupunem că mulţimile arată astfel: A = {1, 2, 3, 4} şi B
 deoarece conţin exact aceleaşi elemente.
 
 #+CAPTION: diagrame Venn
-[[../poze/14078.png]]
+[[./poze/14078.png]]
 
 În ultimul caz, cele două mulţimi se suprapun, dar nu complet ci doar
 parţial. Acest lucru ne spune că există elemente comune celor două
@@ -3910,7 +3910,7 @@ comune celor două mulţimi. Să utilizăm expresii booleene pentru
 desemnarea reginilor diagramelor Venn, conform figurii de mai jos:
 
 #+CAPTION: diagrame Venn
-[[../poze/14079.png]]
+[[./poze/14079.png]]
 
 Aria mulţimii A este haşurată cu roşu, iar cea a mulţimii B cu albastru.
 Dacă analizăm întreaga aria haşurată (suma totală a tuturor ariilor
@@ -3928,7 +3928,7 @@ logice ŞI, iar expresia booleană este AB (jos dreapta). Tot ceea ce se
 află în afara ariei dublu haşurate AB reprezintă AB-negat:
 
 #+CAPTION: diagrame Venn
-[[../poze/14080.png]]
+[[./poze/14080.png]]
 
 Observaţii că unele elemente ale mulţimilor A şi B de sus, sunt elemente
 ale mulţimii (AB)-negat, dar niciunul dintre elementele mulţimii
@@ -3948,7 +3948,7 @@ precedente. Am putea să ne oprim aici, dar, pentru claritate, putem
 păstra doar aria dublu haşurată:
 
 #+CAPTION: diagrame Venn
-[[../poze/14081.png]]
+[[./poze/14081.png]]
 
 Expresia A'B reprezintă regiunea în care A' şi B se suprapun. Regiunea
 nehaşurată din afara ariei A'B este (A'B)'.
@@ -3965,13 +3965,13 @@ două mulţimi, indiferent de stilul haşurării. Prin urmare A + B'
 reprezintă întreaga arie haşurată:
 
 #+CAPTION: diagrame Venn
-[[../poze/14082.png]]
+[[./poze/14082.png]]
 
 Pentru claritate, putem reprezenta întreaga regiune printr-o singură
 haşurare (jos stânga):
 
 #+CAPTION: diagrame Venn
-[[../poze/14083.png]]
+[[./poze/14083.png]]
 
 **** Diagrama Venn pentru (A + B')'
 
@@ -3990,12 +3990,12 @@ unei diagrame Venn.
 **** Diagrama Venn pentru A' + B' şi (A' + B')'
 
 #+CAPTION: diagrame Venn
-[[../poze/14085.png]]
+[[./poze/14085.png]]
 
 **** Arătaţi că A' + B' = AB
 
 #+CAPTION: diagrame Venn
-[[../poze/14143.png]]
+[[./poze/14143.png]]
 
 *** Diagrame Venn cu 3 variabile
 
@@ -4006,7 +4006,7 @@ intersectează, reprezentând expresia booleană AB. Similar, interescţia
 ariei A cu C şi B cu C reprezintă expresia booleană AC, reprectiv BC.
 
 #+CAPTION: diagramă Venn cu trei variabile
-[[../poze/14086.png]]
+[[./poze/14086.png]]
 
 Observând mărimea regiunilor descrise de functia ŞI de mai sus, putem
 vedea că mărimea regiunii variază cu numărul variabilelor asociate
@@ -4020,7 +4020,7 @@ expresiei ŞI.
 desenarea unei mulţimi A în universul A' (figura de mai jos, a):
 
 #+CAPTION: diagrame Venn
-[[../poze/14087.png]]
+[[./poze/14087.png]]
 
 Extindem apoi cercul A (b şi c), modificăm forma lui la punctul (d), şi
 transformăm A într-un dreptunghi (e). Tot ceea ce nu se află în A este
@@ -4040,13 +4040,13 @@ suprapuse - de exemplu, locul în care A se suprapune cu B. Pătratul din
 dreapta jos (c) corespunde relaţiei AB, unde A se suprapune cu B:
 
 #+CAPTION: diagrame Venn
-[[../poze/14088.png]]
+[[./poze/14088.png]]
 
 Totuşi, nu vom pierde vremea desenând hărţi Karnaugh precum cea de mai
 sus (c), ci vom folosi o versiune simplificată:
 
 #+CAPTION: hărţi Karnaugh
-[[../poze/14089.png]]
+[[./poze/14089.png]]
 
 Coloana formată din cele două celule de sub A' este asociată mulţimii A'
 (stânga); similar pentru celelalte mulţimi. Pentru simplitate, regiunile
@@ -4067,7 +4067,7 @@ Intersecţia celor două regiuni reprezintă AB; trecem un 1 în această
 căsuţă. Nu este însă necesar să încercuim propriu-zis regiunile A şi B:
 
 #+CAPTION: hărţi Karnaugh
-[[../poze/14090.png]]
+[[./poze/14090.png]]
 
 *** Hărţi Karnaigh cu trei variabile
 
@@ -4079,7 +4079,7 @@ este împărţit în două dreptunghiuri verticale de fiecare parte a
 pătratului C:
 
 #+CAPTION: hărţi Karnaugh cu trei variabile
-[[../poze/14091.png]]
+[[./poze/14091.png]]
 
 În figura finală suprapunem toate cele trei variabile, încercând să
 delimităm clar fiecare regiune. Această hartă Karnaugh cu 3 variabile
@@ -4089,7 +4089,7 @@ B şi C). De exemplu ABC' reprezintă regiunea din dreapta jos (*), iar
 A'B'C' reprezintă regiunea din stânga sus (x):
 
 #+CAPTION: hărţi Karnaugh cu trei variabile
-[[../poze/14092.png]]
+[[./poze/14092.png]]
 
 Totuşi, în mod normal nu vom nota o hartă Karnaugh conform figurii de
 mai sus stânga. Notarea hărţilor Karnaugh se va face conform figurii din
@@ -4121,7 +4121,7 @@ jos, deschis sau închis, adevărat sau fals, în funcţie de caz. Există
 tuturor celor cinci exemple.
 
 #+CAPTION: reprezentarea unei funcţii logice prin metode diferite
-[[../poze/14094.png]]
+[[./poze/14094.png]]
 
 Aceste patru ieşiri pot fi observate prin intermediul unei lampi la
 ieşirea circuitului ce utilizează logica ladder. Aceste ieşiri pot fi
@@ -4141,14 +4141,14 @@ tabelului de adevăr, β, χ respectiv δ, corespunzătoare intrărilor AB =
 01, 10 respectiv 11 au de asemenea corespondent pe harta Karnaugh:
 
 #+CAPTION: harta Karnaugh
-[[../poze/14095.png]]
+[[./poze/14095.png]]
 
 Pentru uşurinţa expunerii, prezentăm mai jos regiunule adiacente ale
 hărţii Karnaugh cu două variabile folosind metoda dreptunghiulară a
 diagramei Venn din secţiunea precedentă:
 
 #+CAPTION: hărţi Karnaugh şi diagrame Venn
-[[../poze/14096.png]]
+[[./poze/14096.png]]
 
 Regiunile α şi χ sunt adiacente pe harta Karnaugh. Nu putem spune
 acelaşi lucru despre tabelul de adevăr precedent, întrucât există o altă
@@ -4180,13 +4180,13 @@ aceiaşi adresă; scrieţi un 1 în acea regiune; repetaţi procesul pentru
 valoarea 1 din ultima linie a tabelului de adevăr.
 
 #+CAPTION: transformarea tabelului de adevăr în harta Karnaugh
-[[../poze/14098.png]]
+[[./poze/14098.png]]
 
 Să încercăm să scriem acum pentru harta Karnaugh de mai sus şi expresia
 booleană. Soluţia este prezentată mai jos:
 
 #+CAPTION: transformarea hărţii Karnaugh în expresie booleană
-[[../poze/14099.png]]
+[[./poze/14099.png]]
 
 Căutam regiuni adiacente (regiunile diagonale nu sunt adiacente),
 întrucât acestea vor avea una sau mai multe variabile booleene în comun:
@@ -4206,7 +4206,7 @@ lucru poate fi observa mai uşor comparând diagramele Venn din dreapta,
 Scrieţi expresia booleană asociată hărţii Karnaugh de mai jos:
 
 #+CAPTION: transformarea hărţii Karnaugh în expresie booleană
-[[../poze/14099.png]]
+[[./poze/14099.png]]
 
 Urmând o logică asemănătoare celei de mai sus, grupăm toate valorile de
 1 şi găsim variabila comună întregului grup astfel format; rezultatul
@@ -4219,7 +4219,7 @@ corespunzătoare şi scrieţi apoi expresia booleană folosind rezultatul
 obţinut:
 
 #+CAPTION: transformarea tabelului de adevăr în harta Karnaugh
-[[../poze/14101.png]]
+[[./poze/14101.png]]
 
 Soluţie: transferăm valorile de 1 din tabelul de adevăr în locaţiile
 corespunzătoare pe harta Karnaugh; grupăm cele două valori de 1 pe
@@ -4253,7 +4253,7 @@ Completaţi o hartă Karnaugh folosind expresia booleană de mai jos.
 Scrieţi apoi expresia booleană a rezultatului:
 
 #+CAPTION: transformarea expresiei booleene în harta Karnaugh
-[[../poze/14102.png]]
+[[./poze/14102.png]]
 
 Expresia booleană conţine trei sume de produse. Va exista câte o valoare
 de 1 pe harta Karnaugh pentru fiecare produs. Deşi, în general, numărul
@@ -4271,7 +4271,7 @@ exemplului precedent.
 Simplificaţi circuitul logic de mai jos:
 
 #+CAPTION: circuit logic
-[[../poze/14103.png]]
+[[./poze/14103.png]]
 
 Scriem expresia booleană pentru circuitul logic iniţial; transferăm
 expresia booleană rezultată într-o hartă Karnaugh; grupăm regiunile
@@ -4280,14 +4280,14 @@ grup, conform exemplelor precedente; redesenăm circuitul logic
 simplificat:
 
 #+CAPTION: simplificarea unui circuit logic
-[[../poze/14104.png]]
+[[./poze/14104.png]]
 
 **** Exemplul 6
 
 Simplificaţi circuitul logic de mai jos:
 
 #+CAPTION: circuit logic
-[[../poze/14105.png]]
+[[./poze/14105.png]]
 
 Scriem expresia booleană pentru circuitul logic iniţial; completăm harta
 Karnaugh; obervăm că nu putem forma niciun grup care să conţină mai mult
@@ -4308,7 +4308,7 @@ Vom folosi harta Karnaugh dezvoltată anterior, mai exact forma din
 dreapta:
 
 #+CAPTION: hartă Karnaugh
-[[../poze/14093.png]]
+[[./poze/14093.png]]
 
 *** Codul Gray
 
@@ -4339,7 +4339,7 @@ formarea sumei de produse simplificate a circuitului logic (expresiei
 booleene).
 
 #+CAPTION: simplificarea unei expresii booleene prin intermediul hărţii
-Karnaugh [[../poze/14107.png]]
+Karnaugh [[./poze/14107.png]]
 
 Dându-se expresia (A'B'C' + A'B'C), primul pas este introducerea
 valorilor de 1 pe harta Karnaugh corespunzător poziţiei fiecărui produs
@@ -4350,36 +4350,36 @@ produsul de termeni pentru acest grup, ceea ce reprezintă rezultatul
 simplificat.
 
 #+CAPTION: simplificarea unei expresii booleene prin intermediul hărţii
-Karnaugh [[../poze/14108.png]]
+Karnaugh [[./poze/14108.png]]
 
 Grupând cei patru termeni de 1 pe harta Karnaugh, rezultatul este
 asigurat de expresia A'.
 
 #+CAPTION: simplificarea unei expresii booleene prin intermediul hărţii
-Karnaugh [[../poze/14109.png]]
+Karnaugh [[./poze/14109.png]]
 
 Identic, grupând ce patru termeni de 1, putem foarte uşor observa că
 singura variabilă ce acoperă toate cele patru regiuni este C.
 
 #+CAPTION: simplificarea unei expresii booleene prin intermediul hărţii
-Karnaugh [[../poze/14110.png]]
+Karnaugh [[./poze/14110.png]]
 
 Din moment ce avem două grupuri pe harta Karnaugh de mai sus, rezultatul
 va fi o sumă de produse, şi anume, A' + B.
 
 #+CAPTION: simplificarea unei expresii booleene prin intermediul hărţii
-Karnaugh [[../poze/14111.png]]
+Karnaugh [[./poze/14111.png]]
 
 Cele două produse de mai sus formează un grup de doi termeni ce se
 simplifică la BC.
 
 #+CAPTION: simplificarea unei expresii booleene prin intermediul hărţii
-Karnaugh [[../poze/14112.png]]
+Karnaugh [[./poze/14112.png]]
 
 Variabila comună celor patru termeni grupaţi mai sus este B
 
 #+CAPTION: simplificarea unei expresii booleene prin intermediul hărţii
-Karnaugh [[../poze/14113.png]]
+Karnaugh [[./poze/14113.png]]
 
 Cei patru termeni de mai sus formează un singur grup. Putem vizualiza
 acest grup dacă îndoim extremităţile hărţii pentru a forma un cilindru.
@@ -4389,7 +4389,7 @@ B, C), singura variabilă comună este C'. C' este zero în toate cele
 patru regiuni. Acesta este atunci rezultatul final al simplificării.
 
 #+CAPTION: simplificarea unei expresii booleene prin intermediul hărţii
-Karnaugh [[../poze/14114.png]]
+Karnaugh [[./poze/14114.png]]
 
 Cele şase regiuni rezultate din ecuaţia nesimplificată pot fi organizate
 în două grupuri de câte patru. Aceste grupuri trebuie să rezulte într-o
@@ -4403,7 +4403,7 @@ folosind o hartă Karnaugh:
 
 #+CAPTION: incinerator deşeuri toxice - simplificarea circuitului logic
 #+CAPTION: folosind hărţi Karnaugh
-[[../poze/14115.png]]
+[[./poze/14115.png]]
 
 Ecuaţia booleană de iesire este o sumă de patru produse. Prin urmare,
 vom avea patru regiuni de 1 pe harta Karnaugh. Grupând regiunile
@@ -4413,19 +4413,19 @@ logic simplificat, identic cu cel obţinut cu ajutorul regulilor de
 simlificare booleană, este redat mai jos:
 
 #+CAPTION: incinerator deşeuri toxice - circuitul logic simplificat
-[[../poze/04366.png]]
+[[./poze/04366.png]]
 
 Făcând o comparaţie între regulile boolene folosite pentru simplificarea
 circuitului logic al incineratorului...
 
 #+CAPTION: incinerator deşeuri toxice - simplificarea booleană
-[[../poze/14066.png]]
+[[./poze/14066.png]]
 
 ...şi harta Karnaugh, care duce la exact acelaşi rezultat...
 
 #+CAPTION: incinerator deşeuri toxice - simplificarea circuitului logic
 #+CAPTION: folosind hărţi Karnaugh
-[[../poze/14144.png]]
+[[./poze/14144.png]]
 
 Putem lesne vedea motivul pentru care hărţile Karnaugh sunt preferate
 pentru simplificarea circuitelor logice în detrimentul simplificării
@@ -4442,7 +4442,7 @@ Folosindu-ne de codul Gray, putem construi hărţi Karnaugh mai mari. O
 hartă Karnaugh cu patru variabile arată precum cea de mai jos:
 
 #+CAPTION: hartă Karnaugh cu patru variabile
-[[../poze/14116.png]]
+[[./poze/14116.png]]
 
 Exemplele de mai jos ilustrează simplificarea expresiilor booleene ce
 sunt prea greu de realizat prin intermediul regulilor de simplificare
@@ -4454,7 +4454,7 @@ mai uşor, mai ales dacă există multe simplificări logice de realizat.
 
 #+CAPTION: simplificarea expresiilor booleene folosind hărţi Karnaugh de
 #+CAPTION: patru variabile
-[[../poze/14117.png]]
+[[./poze/14117.png]]
 
 Expresia booleană de mai sus conţine 7 produse. Aceşti termeni sunt
 grupaţi de sus în jos şi de la stânga la dreapta pe harta Karnaugh de
@@ -4468,7 +4468,7 @@ AB + CD.
 
 #+CAPTION: simplificarea expresiilor booleene folosind hărţi Karnaugh de
 #+CAPTION: patru variabile
-[[../poze/14118.png]]
+[[./poze/14118.png]]
 
 În cazul de mai sus, „împăturim” cele patru colţuri ale hărţii Karnaugh,
 precum un şerveţel, pentru a observa mai bine adiacenţa celor patru
@@ -4479,7 +4479,7 @@ simplificate.
 
 #+CAPTION: simplificarea expresiilor booleene folosind hărţi Karnaugh de
 #+CAPTION: patru variabile
-[[../poze/14119.png]]
+[[./poze/14119.png]]
 
 Pentru o vizualizare mai bună, ne putem imagina că îndoim marginile de
 jos şi de sus a hărţii sub forma unui cilindru. În acest caz, ambele
@@ -4490,7 +4490,7 @@ prin urmare B'.
 
 #+CAPTION: simplificarea expresiilor booleene folosind hărţi Karnaugh de
 #+CAPTION: patru variabile
-[[../poze/14120.png]]
+[[./poze/14120.png]]
 
 Expresia booleană de mai sus conţine 9 termeni de produse, dintre care
 trei au doar trei variabile booleene în loc de patru. Diferenţa constă
@@ -4506,7 +4506,7 @@ nicio regiune comună celor două. Soluţia finală este B' + D'.
 
 #+CAPTION: simplificarea expresiilor booleene folosind hărţi Karnaugh de
 #+CAPTION: patru variabile
-[[../poze/14121.png]]
+[[./poze/14121.png]]
 
 În exemplul de mai sus, trei regiuni formează două grupuri de câte două.
 O a patra regiune nu poate fi combinată cu nicio altă regiune, ceea ce
@@ -4519,7 +4519,7 @@ expresia nesimplificată. Un astfel de caz este cel de mai jos:
 
 #+CAPTION: simplificarea expresiilor booleene folosind hărţi Karnaugh de
 #+CAPTION: patru variabile
-[[../poze/14122.png]]
+[[./poze/14122.png]]
 
 Ambele rezultate de mai sus conţin patru termeni, cu trei variabile
 booleene fiecare. Ambele soluţii sunt valide din punct de vedere al
@@ -4530,7 +4530,7 @@ logic cu un număr cât mai mic de porţi logice şi număr de intrări.
 
 #+CAPTION: simplificarea expresiilor booleene folosind hărţi Karnaugh de
 #+CAPTION: patru variabile
-[[../poze/14123.png]]
+[[./poze/14123.png]]
 
 În următorul exemplu, cel de mai sus, după ce trecem toate valorile de 1
 pe hartă Karnaugh, realizăm primul pas al simplificării, şi anume,
@@ -4547,7 +4547,7 @@ trebuie să fie sub forma puterilor lui 2, şi anume, 1, 2, 4, 8, etc.
 
 #+CAPTION: simplificarea expresiilor booleene folosind hărţi Karnaugh de
 #+CAPTION: patru variabile
-[[../poze/14124.png]]
+[[./poze/14124.png]]
 
 Avem din nou mai sus un exemplu ce suportă două soluţi cu cost minim.
 Formăm iniţial cele două grupuri de câte patru regiuni (roşu şi
@@ -4559,7 +4559,7 @@ punct de vedere al minimizării costurilor de implementare.
 
 #+CAPTION: simplificarea expresiilor booleene folosind hărţi Karnaugh de
 #+CAPTION: patru variabile
-[[../poze/14125.png]]
+[[./poze/14125.png]]
 
 Mai sus este un exemplu de simplificare cu hărţi Karnaugh (stânga)
 precum şi cu regulile algebrei booleene (dreapta). C' (C = 0) reprezintă
@@ -4623,7 +4623,7 @@ mintermeni, corespunzând mai multor regiuni pe o hartă Karnaugh, precum
 în exemplul de mai jos:
 
 #+CAPTION: simplificarea expresiei booleene prin intermediul hărţii
-Karnaugh [[../poze/14127.png]]
+Karnaugh [[./poze/14127.png]]
 
 Mintermenii multiplii de pe această hartă sunt mintermenii individuali
 ce i-am analizat mai sus. Ceea ce vrem să reamintim este faptul că
@@ -4658,7 +4658,7 @@ Să considerăm acum o funcţie booleană ce este 0 pentru o singură regiune
 şi 1 în rest:
 
 #+CAPTION: simplificarea expresiei booleene prin intermediul hărţii
-Karnaugh [[../poze/14128.png]]
+Karnaugh [[./poze/14128.png]]
 
 Un maxtermen este o expresie booleană a cărei valori este 0 pentru o
 singură regiune, toate celelalte regiunii ale hărţii Karnaugh sau ale
@@ -4702,7 +4702,7 @@ Introducem o valoare de 0 pentru maxtermenul (A' + B' + C') la această
 adresă (1, 1, 1) a hărţii Karnaugh de mai jos:
 
 #+CAPTION: simplificarea expresiei booleene prin intermediul hărţii
-Karnaugh [[../poze/14129.png]]
+Karnaugh [[./poze/14129.png]]
 
 *** Scrierea expresiei booleene simplificate ca şi produs de sume
 
@@ -4710,7 +4710,7 @@ O expresie booleană sub formă produsului de sume poate avea mai mulţi
 maxtermeni, conform figurii de mai jos:
 
 #+CAPTION: simplificarea expresiei booleene prin intermediul hărţii
-Karnaugh [[../poze/14130.png]]
+Karnaugh [[./poze/14130.png]]
 
 Maxtermenul (A + B + C) sub formă numerică este 111, iar complementat
 este 000. Plasăm prin urmare un 0 la adresa (0, 0, 0). Maxtermenul (A +
@@ -4723,7 +4723,7 @@ de produs de sume. Primul pas este gruparea termenilor de 0, precum
 grupul de mai jos:
 
 #+CAPTION: simplificarea expresiei booleene prin intermediul hărţii
-Karnaugh [[../poze/14131.png]]
+Karnaugh [[./poze/14131.png]]
 
 Scriem apoi valoarea binară corespunzătoare termenului-sumă, ce arată
 astfel: (0, 0, X). Pentru grupul format, atât A cât şi B sunt 0. Dar C
@@ -4749,14 +4749,14 @@ Simplificaţi expresia booleană sub forma produsului de sume de mai jos.
 Scrieţi rezultatul final sub forma unui produs de sume:
 
 #+CAPTION: expresie booleană sub formă de produs de sume
-[[../poze/14132.png]]
+[[./poze/14132.png]]
 
 Soluţie: completăm o hartă Karnaugh cu cei şapte maxtermeni de mai sus
 (introducem valori de 0). Reţineţi să complementaţi variabile de intrare
 pentru găsirea adresei corespunzătoare:
 
 #+CAPTION: simplificarea expresiei booleene prin intermediul hărţii
-Karnaugh [[../poze/14133.png]]
+Karnaugh [[./poze/14133.png]]
 
 După ce am introdus toţi maxtermenii în tabel, trecem la gruparea
 regiunilor, precum în figura de mai jos. Grupurile mai mari se traduc
@@ -4764,7 +4764,7 @@ printr-un termen-sumă cu mai puţine intrări. Cu cât avem mai puţine
 grupuri, cu atât vom avea mai puţin termeni-sumă în expresia finală:
 
 #+CAPTION: simplificarea expresiei booleene prin intermediul hărţii
-Karnaugh [[../poze/14134.png]]
+Karnaugh [[./poze/14134.png]]
 
 Avem trei grupuri, prin urmare, trebuie să avem trei termeni-sumă în
 rezultatul final. Detaliile simplificării sunt prezentate în figura de
@@ -4778,7 +4778,7 @@ Simplificaţi expresia booleană sub formă de produs de sume de mai jos,
 exprimând rezultatul sub forma unei sume de produse:
 
 #+CAPTION: expresie booleană sub formă de produs de sume
-[[../poze/14132.png]]
+[[./poze/14132.png]]
 
 Această problemă este identică cu cea anterioară, cu diferenţa că
 expresia simplificată se cere sub formă de sumă de produse şi nu sub
@@ -4788,7 +4788,7 @@ Trecem maxtermenii (0) din expresia iniţială pe harta Karnaugh de mai
 jos (stânga), exact ca în exemplul precedent:
 
 #+CAPTION: simplificarea expresiei booleene prin intermediul hărţii
-Karnaugh [[../poze/14135.png]]
+Karnaugh [[./poze/14135.png]]
 
 Completăm apoi toate celelalte regiuni rămase libere cu valori de 1
 (dreapta sus).
@@ -4799,7 +4799,7 @@ secţiunii precedente a acestui capitol. Acest lucru este identic
 problemei precedente:
 
 #+CAPTION: simplificarea expresiei booleene prin intermediul hărţii
-Karnaugh [[../poze/14136.png]]
+Karnaugh [[./poze/14136.png]]
 
 *** Comparaţie între soluţiile cu mintermeni şi maxtermeni
 
@@ -4807,7 +4807,7 @@ Karnaugh [[../poze/14136.png]]
 pentru comparaţie:
 
 #+CAPTION: simplificarea expresiei booleene prin intermediul hărţii
-Karnaugh [[../poze/14137.png]]
+Karnaugh [[./poze/14137.png]]
 
 Care soluţie este mai simplă? Dacă ar fi să implementăm fizic rezultatul
 sub formă de produs de sume, am avea nevoie de trei porţi logice SAU şi
@@ -4833,12 +4833,12 @@ Circuitele cu porţi logice pentru ambele cazuri sunt prezentate mai jos,
 produsul de sume în stânga şi suma de produse în dreapta:
 
 #+CAPTION: simplificarea expresiei booleene prin intermediul hărţii
-Karnaugh [[../poze/14138.png]]
+Karnaugh [[./poze/14138.png]]
 
 Reluăm mai jos (stânga) circuitul sub forma sumei de produse:
 
 #+CAPTION: circuite cu porţi logice
-[[../poze/14139.png]]
+[[./poze/14139.png]]
 
 Dacă înlocuim toate porţile logice ŞI din stânga cu porţi logice
 ŞI-negat, obţinem rezultatu din dreapta sus. Poarta SAU de la intrare
@@ -4849,7 +4849,7 @@ porţi ŞI-negat la intrarea porţii finale ŞI-negat, conform figurii de
 mai jos:
 
 #+CAPTION: circuite cu porţi logice
-[[../poze/14140.png]]
+[[./poze/14140.png]]
 
 În figura de mai sus (dreapta), putem observa că ieşirea unei porţi
 SI-negat cu intrări inversate este echivalentă din punct de vedere logic
@@ -4880,7 +4880,7 @@ sumei de produse. Vom realiza o simplificare sub forma unui produs de
 sume de această dată. Putem compara cele două soluţii la final.
 
 #+CAPTION: simplificarea expresiei booleene cu ajutorul hărţi Karnaugh
-[[../poze/14141.png]]
+[[./poze/14141.png]]
 
 Soluţie: în figura de sus stânga avem problema iniţială, o expresie
 booleană cu 9 mintermeni nesimplificată. Recapitulând, am format patru
@@ -4901,14 +4901,14 @@ rezultatului. Putem găsim porţi logice ŞI şi SAU cu 2 intrări. Mai jos
 sunt prezentate circuitele logice pentru ambele soluţii
 
 #+CAPTION: circuite cu porţi logice
-[[../poze/14142.png]]
+[[./poze/14142.png]]
 
 Să presupunem că avem la dispoziţie circuitele logice TTL de mai jos. În
 acest caz, cunoaştem şi poziţionarea porţilor logice în interiorul
 acestora, precum în figura de mai jos:
 
 #+CAPTION: circuite logice TTL
-[[../poze/14145.png]]
+[[./poze/14145.png]]
 
 Circuitele integrate folosite (trei la număr) vor fi identificate prin
 notaţia U1, U2 respectiv U3. Pentru a face distincţie între porţile
@@ -4923,7 +4923,7 @@ construim, conform figurii de mai jos (intrările porţilor nefolosite se
 vor lega la masă):
 
 #+CAPTION: circuit logic
-[[../poze/14146.png]]
+[[./poze/14146.png]]
 
 Putem găsi cu uşurinţă porţi logice ŞI cu două intrări (7408, stânga).
 Totuşi, este mai greu să găsim o poartă logică SAU cu patru intrări.
@@ -4931,13 +4931,13 @@ Singurul tip de poartă cu patru intrări este un circuit TTL 7420 cu
 porţi ŞI-negat (dreapta):
 
 #+CAPTION: circuite logice TTL
-[[../poze/14147.png]]
+[[./poze/14147.png]]
 
 Putem transforma poarta logică ŞI-negat cu patru intrări într-o poartă
 logică SAU cu patru intrări prin inversarea intrărilor acesteia:
 
 #+CAPTION: transformarea funcţiei logice ŞI-negat în SAU
-[[../poze/14148.png]]
+[[./poze/14148.png]]
 
 Putem prin urmare folosi circuitul 7420 cu porţi logice ŞI-negat cu
 patru intrări ca şi poartă SAU prin negarea (inversarea) intrărilor.
@@ -4950,7 +4950,7 @@ este suficientă pentru inversarea necesară realizării porţii logice SAU
 cu patru intrări:
 
 #+CAPTION: circuit logic - notarea intrărilor şi ieşirilor
-[[../poze/14149.png]]
+[[./poze/14149.png]]
 
 Rezultatul de mai sus este singura modalitate practică de realizarea a
 circuitului folosind TTL cu porţi logice ŞI-negat-ŞI-negat în locul
@@ -4983,7 +4983,7 @@ Karnaugh. Acesta este cu siguranţa un mod mult mai compact pentru
 descrierea mintermenilor sau regiunilor unei hărţi Karnaugh.
 
 #+CAPTION: harta Karnaugh
-[[../poze/14162.png]]
+[[./poze/14162.png]]
 
 Soluţia exprimată sub formă sumei de produse nu este afectată prin
 utilizarea acestei terminologii. Mintermenii de pe harta (valorile de 1)
@@ -5007,7 +5007,7 @@ maxtermeni, acestea reprezintă locaţiile valorilor de 0. Soluţia sub
 forma produsului de sume se scrie ca de obicei.
 
 #+CAPTION: harta Karnaugh
-[[../poze/14163.png]]
+[[./poze/14163.png]]
 
 Sumar:
 
@@ -5030,12 +5030,12 @@ se reflectă aproximativ la mijlocul hărţii. Acest stil este folosit de
 textele mai vechi:
 
 #+CAPTION: hartă Karnaugh de 5 variabile (stil vechi, în oglindă)
-[[../poze/14150.png]]
+[[./poze/14150.png]]
 
 Varianta preferată, cea cu suprapunere, este prezentată mai jos:
 
 #+CAPTION: hartă Karnaugh de 5 variabile (stil nou, cu suprapunere)
-[[../poze/14151.png]]
+[[./poze/14151.png]]
 
 Această variantă constă pur şi simplu din două (patru pentru o hartă
 Karnaugh de 6 variabile) hărţi identice, cu excepţia bitului cel mai
@@ -5056,7 +5056,7 @@ Prezentăm mai jos o soluţie sub forma hărţii Karnaugh de 5 variabile în
 oglindă, folosind cod Gray:
 
 #+CAPTION: hartă Karnaugh de 5 variabile (stil vechi, în oglindă)
-[[../poze/14152.png]]
+[[./poze/14152.png]]
 
 Numerele prime sunt (1,2,3,5,7,11,13,17,19,23,29,31). Introducem o
 valoare de 1 în fiecare regiune corespunzătoare. Trecem apoi la gruparea
@@ -5074,7 +5074,7 @@ Să considerăm şi varianta hărţii Karnaugh cu 5 variabile, cu
 suprapunere:
 
 #+CAPTION: hartă Karnaugh de 5 variabile (stil nou, cu suprapunere)
-[[../poze/14153.png]]
+[[./poze/14153.png]]
 
 Dacă facem o coparaţie între cele două variante de sus, anumite regiuni
 din partea dreaptă a hărţii îşi modifică locatie, din moment ce adresele
@@ -5087,7 +5087,7 @@ AB'DE este compus din două regiuni suprapuse. Grupul A'B'E este format
 din două perechi de regiuni suprapuse:
 
 #+CAPTION: hartă Karnaugh de 5 variabile (stil nou, cu suprapunere)
-[[../poze/14154.png]]
+[[./poze/14154.png]]
 
 Pentru grupul A'B'E de patru regiuni, ABCDE = 00xx1. Cu alte cuvinte,
 variabilele A, B şi E sunt aceleaşi (001) pentru grup. Pe de altă parte,
@@ -5101,7 +5101,7 @@ Am suprapus (imaginar) cele patru sub-hărţi pentru a putea vizualiza
 gruparea de patru regiuni corespunzătoare ieşirii C'F':
 
 #+CAPTION: hartă Karnaugh de 6 variabile (suprapunere)
-[[../poze/14159.png]]
+[[./poze/14159.png]]
 
 Un comparator de amplitudine (utilizat pentru ilustrarea utilizării
 hărţii Karnaugh de 6 variabile) compară două numere binare. Acesta
@@ -5109,7 +5109,7 @@ indică dacă cele două numere sunt egale, mai mici sau mai mari unul faţă
 de celălalt. Un astfel de comparator are trei ieşiri:
 
 #+CAPTION: comparator digital de amplitudine
-[[../poze/14160.png]]
+[[./poze/14160.png]]
 
 Un comparator de amplitudine pe trei biţi are două intrări:
 A_{2}A_{1}A_{0} şi B_{2}B_{1}B_{0}. Un comparator de amplitudine sub
@@ -5126,7 +5126,7 @@ deşi, în exemplul de mai jos nu este cazul. Putem observa totuşi că
 există regiuni comune sub-hărţilor:
 
 #+CAPTION: hartă Karnaugh de 6 variabile (suprapunere)
-[[../poze/14161.png]]
+[[./poze/14161.png]]
 
 Ieşirea A>B este reprezentată de ABC>XYZ pe harta de mai sus. Ori de
 căte ori ABC este mai mare decât XYZ, avem o valoare de 1 pe hartă. Pe
@@ -5191,17 +5191,17 @@ alimentate în diferite combinaţii.
 Când ambele intrări sunt 0:
 
 #+CAPTION: circuit logic combinaţional format din două porţi logice
-ŞI-negat [[../poze/04451.png]]
+ŞI-negat [[./poze/04451.png]]
 
 Când una dintre intrări este 1:
 
 #+CAPTION: circuit logic combinaţional format din două porţi logice
-ŞI-negat [[../poze/04452.png]]
+ŞI-negat [[./poze/04452.png]]
 
 Când şi cealaltă intrare este 1:
 
 #+CAPTION: circuit logic combinaţional format din două porţi logice
-ŞI-negat [[../poze/04453.png]]
+ŞI-negat [[./poze/04453.png]]
 
 Prin urmare, porţile ŞI-negat sunt indiferente la ordinea de alimentare
 a intrărilor. Acelaşi lucru este valabil şi pentru celelalte porţi
@@ -5227,13 +5227,13 @@ numim C_{out} şi reprezintă bitul de depăşire. Tabelul de adevăr
 corespunzător este reprezentat mai jos:
 
 #+CAPTION: tabel de adevăr
-[[../poze/14164.png]]
+[[./poze/14164.png]]
 
 Simplificând ecuaţiile booleene, sau realizând o hartă Karnaugh, vom
 obţine circuitul de mai jos:
 
 #+CAPTION: circuit logic combinaţional
-[[../poze/04454.png]]
+[[./poze/04454.png]]
 
 Dar să ne uităm mai atent la rezultate. Coloana Σ nu este altceva decât
 o poartă logică SAU-exclusiv. Coloana C_{out} reprezintă o poartă logică
@@ -5243,7 +5243,7 @@ motive pe care le vom vedea în secţiunea următoare.
 Sub forma unei diagrame ladder, circuitul de mai sus arată astfel:
 
 #+CAPTION: diagramă ladder
-[[../poze/04475.png]]
+[[./poze/04475.png]]
 
 Sumar:
 
@@ -5281,9 +5281,9 @@ cazul în care Σ = a + b + C_{in} şi Σ_{1} = a + b, atunci Σ = Σ_{1} +
 C_{in}:
 
 #+CAPTION: full-adder
-[[../poze/04455.png]] 
+[[./poze/04455.png]] 
 #+CAPTION: diagramă ladder
-[[../poze/04476.png]]
+[[./poze/04476.png]]
 
 La ce ne ajută însă C_{1} şi C_{2}? Să analizăm rezultatul adunării
 celor trei intrări:
@@ -5305,9 +5305,9 @@ avem C_{1} sau (Σ_{1} şi C_{in}). Sumatorul nostru complet (full-adder)
 cu trei intrări, arată astfel:
 
 #+CAPTION: full-adder
-[[../poze/04456.png]] 
+[[./poze/04456.png]] 
 #+CAPTION: diagramă ladder
-[[../poze/04477.png]]
+[[./poze/04477.png]]
 
 Pentru unele circuite, eliminarea uneia sau mai multor tipuri de porţi
 poate fi importantă. Putem înlocui poarta SAU finală cu o poartă
@@ -5315,9 +5315,9 @@ SAU-exclusiv fără a modifica rezultatele. Putem acum conecta două
 sumatoare pentru realizarea adunării numerelor pe 2 biţi:
 
 #+CAPTION: full-adder
-[[../poze/04457.png]] 
+[[./poze/04457.png]] 
 #+CAPTION: diagramă ladder
-[[../poze/04478.png]]
+[[./poze/04478.png]]
 
 A_{0} este bitul de rang inferior a lui A iar A_{1} este bitul de rang
 superior a lui A. Acelaşi lucru este valabil şi pentru B. Σ_{0} este
@@ -5331,9 +5331,9 @@ schimb, biţi de rang inferior vor trece şi ei printr-un sumator complet
 (full-adder):
 
 #+CAPTION: full-adder
-[[../poze/04458.png]] 
+[[./poze/04458.png]] 
 #+CAPTION: diagramă ladder
-[[../poze/04479.png]]
+[[./poze/04479.png]]
 
 Există câteva motive pentru această alegere. Unul dintre ele este că în
 acest caz, permitem circuitului să determine dacă bitul de depăşire de
@@ -5362,14 +5362,14 @@ Aceste sumatoare complete pot fi extinse pe un număr de biţi oricât de
 mare. Ca şi exemplu, un sumator pe 8 biţi poate fi realizat astfel:
 
 #+CAPTION: conectarea sumatoarelor
-[[../poze/04459.png]]
+[[./poze/04459.png]]
 
 Acest rezultat este identic utilizării sumatoarelor pe doi biţi pentru
 realizarea unui sumator pe 4 biţi, şi utilizării a două astfel de
 sumatoare pe 4 biţi pentru realizarea unui sumator pe 8 biţi:
 
 #+CAPTION: conectarea sumatoarelor
-[[../poze/04460.png]]
+[[./poze/04460.png]]
 
 Fiecare „2+” este un sumator pe 2 biţi şi realizat din două sumatoare
 complete (full-adder). Fiecare „4+” este un sumator pe 4 biţi realizat

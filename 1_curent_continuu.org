@@ -14,7 +14,7 @@ există o forţă de atracţie ce acţionează chiar şi atunci când cele două
 materiale sunt separate unul de celălalt:
 
 #+CAPTION: atracţie între două corpuri încărcate cu sarcină electrică
-[[../poze/00001.png]]
+[[./poze/00001.png]]
 
 Sticla şi mătasea nu sunt singurele materiale ce se comportă asfel.
 Oricine s-a frecat vreodată de un balon din latex s-a confruntat cu
@@ -24,21 +24,21 @@ recunoscute de către experimentatori ca manifestând forţe de atracţie
 după ce au fost frecate unul de celălat:
 
 #+CAPTION: atracţie între două corpuri încărcate cu sarcină electrică
-[[../poze/00002.png]]
+[[./poze/00002.png]]
 
 Acest fenomen a devenit şi mai interesant după ce a fost descoperit
 faptul că materiale identice, după ce au fost frecate cu un material
 corespunzător, se resping întotdeauna:
 
 #+CAPTION: respingere între două corpuri încărcate cu sarcină electrică
-[[../poze/00003.png]]
+[[./poze/00003.png]]
 
 A fost de asemenea observat faptul că o bucată de sticlă frecată cu
 mătase adusă în apropierea unei bucăţi de parafină frecată cu lână,
 conduce la fenomenul de atracţie dintre cele două materiale:
 
 #+CAPTION: atracţie între două corpuri încărcate cu sarcină electrică
-[[../poze/00004.png]]
+[[./poze/00004.png]]
 
 Mai mult decât atât, s-a descoperit că orice material care posedă
 proprietăţi de atracţie sau respingere după frecare, poate fi clasificat
@@ -55,7 +55,7 @@ resping reciproc:
 
 #+CAPTION: respingere între două corpuri din materiale identice
 #+CAPTION: încărcate cu sarcină electrică
-[[../poze/00005.png]]
+[[./poze/00005.png]]
 
 Acest lucru era foarte straniu. Până la urmă, niciunul dintre aceste
 materiale nu era vizibil modificat în urma frecării, dar cu siguranţă se
@@ -138,7 +138,7 @@ un singur electron. Atomii sunt mult prea mici pentru a fi văzuţi, dar
 dacă am putea privi unul, ar arăta cam aşa:
 
 #+CAPTION: structura unui atom
-[[../poze/00006.png]]
+[[./poze/00006.png]]
 
 Chiar dacă fiecare atom dintr-un material tinde să rămână o unitate, în
 realitate există mult spatiu liber între electroni şi „ciorchinele” de
@@ -369,7 +369,7 @@ analogie aproximativă este cea a unui tub umplut dintr-un capăt în
 celălalt cu mărgele:
 
 #+CAPTION: analogia tubului umplut cu mărgele
-[[../poze/00007.png]]
+[[./poze/00007.png]]
 
 Tubul este plin de mărgele, precum un conductor este plin de electroni
 liberi, pregătiţi să fie puşi în mişcare de o influenţă externă. Dacă o
@@ -403,7 +403,7 @@ drum neîntrerup pentru a permite deplasarea. Putem ilustra acest lucru
 prin următorul desen:
 
 #+CAPTION: drum electric neîntrerupt
-[[../poze/00008.png]]
+[[./poze/00008.png]]
 
 O linie subţire, continua (precum cea de sus) reprezintă simbolul
 convenţional pentru o porţiune continuă de fir^{3} (electric). Din
@@ -415,7 +415,7 @@ au de unde să vină şi încotro să se îndrepte. Să presupunem prin urmare
 o „Sursă” şi o „Destinaţie” a electronilor:
 
 #+CAPTION: drum electric neîntrerupt plus sursa si destinatie
-[[../poze/00009.png]]
+[[./poze/00009.png]]
 
 Acum, cu Sursa împingând noi electroni pe fir prin partea stângă,
 curgerea^{4} electronilor prin fir este posibilă (indicată de săgeţi).
@@ -423,7 +423,7 @@ Dar, această curgere va fi întreruptă în cazul în care calea formată de
 firul conductor este întreruptă:
 
 #+CAPTION: drum electric întrerupt
-[[../poze/00010.png]]
+[[./poze/00010.png]]
 
 Întrucât aerul este un dielectric (material izolator), iar spaţiul
 dintre cele două fire este ocupat de aer, calea ce era înainte continuă,
@@ -441,7 +441,7 @@ cale continuă pentru curgerea electronilor. Cele două puncte din
 diagramă reprezintă contactul fizic (metal-metal) dintre cele două fire:
 
 #+CAPTION: drum electric întrerupt, refacut cu un alt fir
-[[../poze/00011.png]]
+[[./poze/00011.png]]
 
 Acum avem continuitate dinspre Sursă, prin noua conexiune, în jos, în
 dreapta, şi apoi în sus, spre Destinaţie. Acest aranjament este analog
@@ -499,7 +499,7 @@ electronilor fără ajutorul surselor şi destinaţiilor ipotetice de mai
 sus, este posibilă:
 
 #+CAPTION: bucla - ciruit electric
-[[../poze/00012.png]]
+[[./poze/00012.png]]
 
 În cadrul acestui circuit în sensul acelor de ceasornic, fiecare
 electron împinge electronul din faţa lui, ce împinge electronul din faţa
@@ -515,7 +515,7 @@ ca şi în acel exemplu, orice întrerupere a circuitului opreşte curgerea
 (deplasarea) electronilor:
 
 #+CAPTION: ciruit electric întrerupt
-[[../poze/00013.png]]
+[[./poze/00013.png]]
 
 Un principiu important de reţinut este că /nu contează locul
 întreruperii/. Orice discontinuitate din circuit va întrerupe curgerea
@@ -525,7 +525,7 @@ neîntrerupt printr-un material conductiv prin care aceştia să se poată
 deplasa.
 
 #+CAPTION: ciruit electric întrerupt 2
-[[../poze/00014.png]]
+[[./poze/00014.png]]
 
 Sumar:
 
@@ -555,7 +555,7 @@ sarcină între cele două. Acest dezechilibru se manifestă printr-o forţă
 de atracţie între cele două corpuri:
 
 #+CAPTION: forţa de atracţie dintre două obiecte frecate între ele
-[[../poze/00015.png]]
+[[./poze/00015.png]]
 
 Dacă introducem un fir conductor între cele două corpuri încărcate din
 punct de vedere electric, vom observa o curgere a electronilor prin
@@ -564,7 +564,7 @@ fir înapoi pe lână, restabilind dezechilibrul creat:
 
 #+CAPTION: restabilirea echilibrului dintre doua corpuri frecate prin
 #+CAPTION: introducerea unui conductor electric
-[[../poze/00016.png]]
+[[./poze/00016.png]]
 
 Dezechilibrul dintre numărul electronilor din atomii parafinei şi cei ai
 lânei crează o forţă între cele două materiale. Neexistând niciun drum
@@ -583,7 +583,7 @@ asemănătoare energiei înmagazinate într-un rezervor de apă aflat la
 mai scăzut:
 
 #+CAPTION: pomparea apei dintr-un bazin într-un rezervor
-[[../poze/00017.png]]
+[[./poze/00017.png]]
 
 Influenţa gravitaţiei asupra apei din rezervor dă naştere unei forţe ce
 tinde să deplaseze apa spre nivelul inferior. Dacă construim o ţeavă de
@@ -591,7 +591,7 @@ la rezervor spre bazin, apa va curge sub influenţa gravitaţiei din
 rezervor prin ţeavă spre bazin:
 
 #+CAPTION: curgerea apei din rezervor prin ţeavă spre bazin
-[[../poze/00018.png]]
+[[./poze/00018.png]]
 
 Este nevoie de o anumită energie pentru pomparea apei de la un nivel
 inferior (bazin) la unul superior (rezervor), iar curgerea apei prin
@@ -605,7 +605,7 @@ energie mai mare decât în cazul precedent
 
 #+CAPTION: curgerea apei din rezervor prin ţeavă spre bazin, nivele
 #+CAPTION: diferite de energie
-[[../poze/00019.png]]
+[[./poze/00019.png]]
 
 Electronii nu sunt foarte diferiţi. Dacă frecăm parafina şi lâna
 împreună, „pompăm” electronii de pe „nivelurile” lor normale, dând
@@ -650,7 +650,7 @@ are sens doar atunci când este exprimate între două puncte diferite:
 
 #+CAPTION: curgerea apei din rezervor prin ţeavă spre bazin, nivele
 #+CAPTION: diferite de energie
-[[../poze/00020.png]]
+[[./poze/00020.png]]
 
 Datorită diferenţei dintre înălţimile căderilor de apă, potenţialul de
 energie eliberată este mai mare prin ţeava din locaţia 2 decât cea din
@@ -686,7 +686,7 @@ Să luăm pentru început simbolul bateriei electrice şi să construim apoi
 un circuit pas cu pas:
 
 #+CAPTION: simbolul bateriei electrice
-[[../poze/00021.png]]
+[[./poze/00021.png]]
 
 Orice sursă de tensiune, încluzând bateriile, are două puncte de contact
 electric. În acest caz avem punctul 1 şi punctul 2 de pe desenul de mai
@@ -716,7 +716,7 @@ va exista o deplasare a electronilor prin baterie, pentru că nu există
 un drum continuu prin care electronii să se poată deplasa.
 
 #+CAPTION: analogie baterie electrică - rezervor plin
-[[../poze/00022.png]]
+[[./poze/00022.png]]
 
 Acelaşi principu se aplică şi în cazul analogiei rezervorului şi pomei
 de apă: fără un drum (ţeavă) înapoi spre bazin, energia înmagazinată în
@@ -732,7 +732,7 @@ electronilor în direcţia acelor de ceasornic (în acest caz particular):
 
 #+CAPTION: deplasarea electronilor printr-un cicruit închis alimentate
 #+CAPTION: de o baterie electrică
-[[../poze/00023.png]]
+[[./poze/00023.png]]
 
 Atâta timp cât bateria va continua să producă tensiune electrică, iar
 continuitatea circuitului electric nu este întreruptă, electronii vor
@@ -762,7 +762,7 @@ electrică produsă de baterie se va regăsi acum la capetele firelor
 întrerupte, ce erau înainte conectate:
 
 #+CAPTION: întreruperea circuitului electric
-[[../poze/00024.png]]
+[[./poze/00024.png]]
 
 Observaţi semnele „+” şi „-” puse la capătul firelor unde a fost
 realizată întreruperea circuitului, şi faptul că ele corespund celor
@@ -778,7 +778,7 @@ printr-un număr de referinţă:
 
 #+CAPTION: circuit electric - compararea polaritătii în functie de
 #+CAPTION: locaţie
-[[../poze/00025.png]]
+[[./poze/00025.png]]
 
 Continuitatea circuitului fiind întreruptă între punctele 2 şi 3,
 polaritatea căderii de tensiune între punctele 2 şi 3 este „-” pentru
@@ -791,7 +791,7 @@ Să vedem acum ce se întâmplă dacă conectăm punctele 2 şi 3 din nou
 
 #+CAPTION: circuit electric - compararea polaritătii în functie de
 #+CAPTION: locaţie - locaţie nouă
-[[../poze/00026.png]]
+[[./poze/00026.png]]
 
 Întreruperea fiind acum între punctele 3 şi 4, polaritatea căderii de
 tensiune între acest două puncte este „+” pentru 4 şi „-” pentru 3.
@@ -854,7 +854,7 @@ Conectată la o sursă de tensiune, o lampă electrică arată asfel într-un
 circuit:
 
 #+CAPTION: circuit electric simplu - baterie plus lampă electrică (bec)
-[[../poze/00027.png]]
+[[./poze/00027.png]]
 
 Atunci când electroni ajung la filamentul din material conductor subţire
 al lămpii, întâmpină o rezistenţă mult mai mare la deplasare faţă de cea
@@ -885,7 +885,7 @@ ca această va înceta să mai lumineze:
 
 #+CAPTION: circuit electric simplu - baterie plus lampă electrică -
 #+CAPTION: întreruperea circuitului
-[[../poze/00028.png]]
+[[./poze/00028.png]]
 
 Ca şi înainte, fără existenţa curentului (curgerii electronilor),
 întregul potenţial (tensiune) al bateriei este disponibil în locul
@@ -906,7 +906,7 @@ denumit /întrerupător/, montat într-o locaţie oarecare, dar asfel încât
 să putem controla deplasarea electronilor prin circuit:
 
 #+CAPTION: circuit electric simplu plus întrerupător
-[[../poze/00029.png]]
+[[./poze/00029.png]]
 
 Acesta este modul în care o întrerupătorul poate controla becul din
 cameră. Întrerupătorul însăşi constă dintr-o pereche de contacte
@@ -921,7 +921,7 @@ Probabil că cel mai bun întrerupător pentru ilustrarea principiului de
 bază este un întrerupător de tip „cuţit”:
 
 #+CAPTION: întrerupător tip cuţit cu un contact
-[[../poze/50010.jpg]]
+[[./poze/50010.jpg]]
 
 Un întrerupător de tip „cuţit” nu este altceva decât dintr-un braţ
 mecanic ce poate pivota liber în jurul unei balamale (punct fix), ce
@@ -936,7 +936,7 @@ Un alt tip de întrerupător cuţit este format din două contacte
 staţionare în loc de unul:
 
 #+CAPTION: întrerupător tip cuţit cu două contacte
-[[../poze/50006.jpg]]
+[[./poze/50006.jpg]]
 
 Acest întrerupător are o singură lamă dar două contacte staţionare, ceea
 ce înseamnă ca poate închide sau deschide mai mult de un singur circuit.
@@ -954,7 +954,7 @@ apropiere. Contactele majorităţii întrerupătoarelor moderne sunt închise
 jos prezintă câteva modele de înterupătoare moderne:
 
 #+CAPTION: întrerupătoare moderne
-[[../poze/50019.jpg]]
+[[./poze/50019.jpg]]
 
 Folisind în continuare terminologia circuitelor electrice, un
 întrerupător ce realizează contactul între cei doi terminali ai săi
@@ -996,7 +996,7 @@ seturi de puncte dintr-un singur circuit poate varia considerabil:
 
 #+CAPTION: curentul este acelaşi în oricare punct al unui circuit
 #+CAPTION: electric simplu
-[[../poze/00030.png]]
+[[./poze/00030.png]]
 
 Să luăm acest circuit ca şi exemplu. Dacă luăm patru puncte din acest
 circuit (1, 2, 3 şi 4), vom descoperi că valoarea curentului ce trece
@@ -1020,7 +1020,7 @@ Putem aduce din nou în discuţie analogia rezervorului de apă:
 
 #+CAPTION: analogia rezervorului de apă - folosirea energiei eliberate
 #+CAPTION: pentru punerea în mişcare a unei roţi de apă
-[[../poze/00031.png]]
+[[./poze/00031.png]]
 
 Între punctele 2 şi 3, acolo unde apa ce cade eliberează energie asupra
 roţii, există o diferenţă de presiune, reflectând opoziţia roţii la
@@ -1075,14 +1075,14 @@ devenit cunoscută sub denumirea de /sensul convenţional de deplasare al
 electronilor/:
 
 #+CAPTION: sensul convenţional de deplasare al electronilor
-[[../poze/00438.png]]
+[[./poze/00438.png]]
 
 Alţii aleg să descrie deplasarea sarcinii exact aşa cum se realizează ea
 din punct de vedere fizic într-un circuit. Această notaţia a devenit
 cunoscută sub numele de /sensul real de deplasare al electronilor/:
 
 #+CAPTION: sensul real de deplasare al electronilor
-[[../poze/00439.png]]
+[[./poze/00439.png]]
 
 În cazul sensului convenţional de deplasare al electronilor, deplasarea
 sarcinii electrice este indicată prin denumirile (tehnic incorecte) de +
@@ -1145,12 +1145,12 @@ foarte mică), dar prevină deplasarea electronilor în direcţia opusă
 (rezistenţă infinită). Simbolul folosit este acesta:
 
 #+CAPTION: simbolul diodei
-[[../poze/00440.png]]
+[[./poze/00440.png]]
 
 Introdusă într-un circuit cu o baterie şi un bec, se comportă asfel^{5}:
 
 #+CAPTION: funcţionarea diodei
-[[../poze/00441.png]]
+[[./poze/00441.png]]
 
 Când dioda este plasată în direcţia curgerii curentului, becul se
 aprinde. Altfel dioda blochează curgerea electronilor precum oricare
@@ -1161,13 +1161,13 @@ Dacă folosim notaţia convenţională, săgeata diodei este foarte uşor de
 la pozitiv spre negativ:
 
 #+CAPTION: sensul curentului prin diodă folosind notaţia convenţională
-[[../poze/00442.png]]
+[[./poze/00442.png]]
 
 Pe de altă parte, dacă folosim notaţia reală de deplasare a electronilor
 prin circuit, săgeata diodei pare aşezată invers:
 
 #+CAPTION: sensul curentului prin diodă folosind notaţia reală
-[[../poze/00443.png]]
+[[./poze/00443.png]]
 
 Din acest motiv simplu, mulţi oameni tind să folosească notaţia
 convenţională atunci când reprezinţă direcţia sarcinii electrice prin
@@ -1284,19 +1284,19 @@ printr-o ecuaţie simplă ce descrie relaţie dintre tensiune, curent şi
 rezistenţă:
 
 #+CAPTION: formulă matematică
-[[../poze/10002.png]]
+[[./poze/10002.png]]
 
 În această expresie algebrică, tensiunea(E) este egală cu, curentul(I)
 înmulţit cu rezistenţa(R). Această formulă poate fi rescrisă sub
 următoarele forme, în funcţie de I:
 
 #+CAPTION: formulă matematică
-[[../poze/10003.png]]
+[[./poze/10003.png]]
 
 Să folosim acum aceste ecuaţii pentru a analiza circuitele simple:
 
 #+CAPTION: circuit simplu: baterie plus bec
-[[../poze/00032.png]]
+[[./poze/00032.png]]
 
 În circuitul de mai sus, există doar o singură sursă de tensiune
 (bateria), şi doar o singură rezistenţă (becul, neglijând rezistenţa
@@ -1311,12 +1311,12 @@ circuit, atunci când cunoaştem valorile tensiunii (E) şi a rezistenţei
 
 #+CAPTION: aflarea curentului într-un circuit simplu, atunci când
 cunoaştem tensiunea şi rezistenţa folosind legea lui Ohm
-[[../poze/00033.png]]
+[[./poze/00033.png]]
 
 Care este valoarea curentului (I) din acest circuit?
 
 #+CAPTION: calcule matematice
-[[../poze/10004.png]]
+[[./poze/10004.png]]
 
 În al doilea exemplu, vom calcula valoarea rezistenţei (R) într-un
 circuit, atunci când cunoaştem valorile tensiunii (E) şi a curentului
@@ -1324,24 +1324,24 @@ circuit, atunci când cunoaştem valorile tensiunii (E) şi a curentului
 
 #+CAPTION: aflarea rezistenţei într-un circuit simplu, atunci când
 cunoaştem tensiunea şi curentul folosind legea lui Ohm
-[[../poze/00034.png]]
+[[./poze/00034.png]]
 
 Care este valoarea rezistenţei becului în acest caz?
 
 #+CAPTION: calcule matematice
-[[../poze/10005.png]]
+[[./poze/10005.png]]
 
 În ultimul exemplu, vom calcula valoarea tensiunii generate de baterie
 (E), atunci când cunoaştem valoarea curentului (I) şi a rezistenţei (R):
 
 #+CAPTION: aflarea tensiunii generate de baterie într-un circuit simplu,
 atunci când cunoaştem rezistenţa şi curentul folosind legea lui Ohm
-[[../poze/00035.png]]
+[[./poze/00035.png]]
 
 Care este valoarea tensiunii generate de baterie?
 
 #+CAPTION: calcule matematice
-[[../poze/10006.png]]
+[[./poze/10006.png]]
 
 Sumar:
 
@@ -1387,7 +1387,7 @@ de cai putere, dar la viteze şi cupluri diferite. Ecuaţia pentru
 calcului cailor putere (CP) este simplă:
 
 #+CAPTION: formulă matematică
-[[../poze/10011.png]]
+[[./poze/10011.png]]
 
 unde,
 
@@ -1403,7 +1403,7 @@ fie cuplul şi nimic altceva. Putem rescrie ecuaţia pentru a arăta
 această relaţie:
 
 #+CAPTION: formulă matematică
-[[../poze/10012.png]]
+[[./poze/10012.png]]
 
 unde,
 
@@ -1421,7 +1421,7 @@ Pentru circuitele electrice, puterea este o funcţie (depinde) de curent
 izbitor cu formula „proporţională” a calului putere de mai sus:
 
 #+CAPTION: formulă matematică
-[[../poze/10013.png]]
+[[./poze/10013.png]]
 
 Totuşi, în acest caz, puterea (P) este exact egală curentului (I)
 înmulţit cu tensiunea (E), şi nu este doar proporţională cu aceast
@@ -1486,19 +1486,19 @@ prin înmulţirea curentului (în amperi) cu tensiunea (în volţi) ajungem
 la „watti”. Să aplicăm această formulă unui circuit:
 
 #+CAPTION: circuit simplu: baterie plus bec, calcularea puterii
-[[../poze/00040.png]]
+[[./poze/00040.png]]
 
 În circuitul de sus avem o baterie de 18 V, şi un bec cu o rezistenţă de
 3 Ω. Folosind legea lui Ohm pentru determinarea curentului, obţinem:
 
 #+CAPTION: calcule matematice
-[[../poze/10015.png]]
+[[./poze/10015.png]]
 
 După ce am aflat valoarea curentului, putem lua această valoare şi să o
 înmulţim cu cea a tensiunii pentru a determina puterea:
 
 #+CAPTION: calcule matematice
-[[../poze/10016.png]]
+[[./poze/10016.png]]
 
 Prin urmare, becul degajează o putere de 108 W, atât sub formă de
 lumină, cât şi sub formă de căldură.
@@ -1510,14 +1510,14 @@ bateriei creşte iar rezistenţa becului rămâne aceeiaşi. Şi puterea va
 creşte de asemenea:
 
 #+CAPTION: circuit simplu: baterie plus bec, calcularea puterii 2
-[[../poze/00041.png]]
+[[./poze/00041.png]]
 
 Acum, tensiunea bateriei (tensiunea electromotoare) este de 36 V în loc
 de 18 V cât era înainte. Becul are o valoarea a rezistenţei tot de 3 Ω.
 Curentul este acum:
 
 #+CAPTION: calcule matematice
-[[../poze/10017.png]]
+[[./poze/10017.png]]
 
 Trebuia să ne aşteptăm la acest lucru: dacă I = E/R, şi dublăm E-ul pe
 când R-ul rămâne acelaşi, curentul ar trebui să se dubleze. Întradevăr,
@@ -1525,7 +1525,7 @@ asta s-a şi întâmplat; acum avem 12 A în loc de 6 A câţi aveam înainte.
 Să calculăm acum şi puterea:
 
 #+CAPTION: calcule matematice
-[[../poze/10018.png]]
+[[./poze/10018.png]]
 
 Observăm că puterea a crescut precum ne-am fi aşteptat, dar a crescut
 puţin mai mult decât curentul. De ce? Pentru că puterea este funcţie de
@@ -1542,12 +1542,12 @@ cunoaştem şi tensiunea şi curentul:
 În cazul în care cunoaştem doar tensiunea (E) şi rezistenţa (R):
 
 #+CAPTION: formule matematice
-[[../poze/10019.png]]
+[[./poze/10019.png]]
 
 În cazul în care cunoaştem doar curentul (I) şi rezistenţa (R):
 
 #+CAPTION: calcule matematice
-[[../poze/10020.png]]
+[[./poze/10020.png]]
 
 O notă istorică:
 [[http://ro.wikipedia.org/wiki/James_Prescott_Joule][James Prescott
@@ -1594,7 +1594,7 @@ Simbolul rezistenţei pe care îl vom folosi în circuite este cel în formă
 de zig-zag:
 
 #+CAPTION: simbolul rezistorului
-[[../poze/00042.png]]
+[[./poze/00042.png]]
 
 Valorile rezistenţelor în ohmi sunt de obicei reprezentate printr-un
 număr adiacent, iar dacă într-un singur circuit sunt prezenţi mai mulţi
@@ -1603,7 +1603,7 @@ poate vedea, simbolurile pentru rezistenţă pot fi prezentate fie
 orizontal, fie vertical:
 
 #+CAPTION: simbolul şi notaţia rezistorului
-[[../poze/00043.png]]
+[[./poze/00043.png]]
 
 Rezistoarele reale nu seamănă deloc cu un zig-zag, ci sunt asemenea unor
 tuburi sau cilindrii cu câte un fir la fiecare capăt pentru conectarea
@@ -1611,13 +1611,13 @@ lor în circuit. Mai jos sunt câteva exemple de rezistori de diferite
 tipuri şi mărimi:
 
 #+CAPTION: diferite tipuri şi mărimi de rezistori
-[[../poze/50008.jpg]]
+[[./poze/50008.jpg]]
 
 Dacă ne luăm după aparenţa lor fizică, un simbol alternativ pentru
 rezistori este cel din figura de mai jos^{1}:
 
 #+CAPTION: simbolul european al rezistorului
-[[../poze/00368.png]]
+[[./poze/00368.png]]
 
 Rezistoarele pot de asemenea să fie cu rezistenţă variabilă, nu neapărat
 fixă. Această proprietate o putem întâlni în cadrul unui rezistor
@@ -1625,7 +1625,7 @@ construit chiar pentru acest scop, sau o putem întâlni în cadrul unui
 component a cărui rezistenţă este instabilă în timp:
 
 #+CAPTION: simbolul rezistorului variabil
-[[../poze/00339.png]]
+[[./poze/00339.png]]
 
 În general, ori de câte ori vedeţi simbolul unui component reprezentat
 cu o săgeată diagonală prin el, acel component are o valoarea variabilă
@@ -1638,7 +1638,7 @@ rezistenţei electrice. Mai jos avem poza unor dispoizitive numite
 /potenţiometre/, ce pot fi folosite ca şi rezistori variabili:
 
 #+CAPTION: exemplu de potenţiometre - rezistori variabili
-[[../poze/50009.jpg]]
+[[./poze/50009.jpg]]
 
 Deoarece rezistori produc energie sub formă de căldură la trecerea
 curentului prin ei datorită frecării, aceştia pof fi împărţiţi în
@@ -1668,7 +1668,7 @@ jos, încercând să determinăm tot ceea ce putem cu ajutorul informaţiilor
 disponibile:
 
 #+CAPTION: circuit electric simplu
-[[../poze/00044.png]]
+[[./poze/00044.png]]
 
 Tot ceea ce cunoaştem în acest circuit este tensiunea la bornele bariei
 (10 volţi) şi curentul prin circuit (2 amperi). Nu cunoaştem rezistenţa
@@ -1678,14 +1678,14 @@ pot oferi răspunsuri folosind doar cantitătile cunoascute, tensiunea,
 respectiv curentul:
 
 #+CAPTION: relatii matematice
-[[../poze/10022.png]]
+[[./poze/10022.png]]
 
 Introducând cantităţile cunoscute de tensiune (E) şi curent (I) în
 aceste două ecuaţii, putem determina rezistenţa circuitului (R), şi
 puterea disipată (P):
 
 #+CAPTION: calcule matematice
-[[../poze/10023.png]]
+[[./poze/10023.png]]
 
 Pentru circuitul de faţă, în care avem 10 volţi şi 2 amperi, rezistenţa
 rezistorului trebuie şa fie de 5 Ω. Dacă ar fi să proiectăm un circuit
@@ -1731,7 +1731,7 @@ electronilor rămâne constantă la 3 Ω.
 
 #+CAPTION: circuit electric simplu, dublarea tensiunii rezultă în
 #+CAPTION: dublarea curentului
-[[../poze/00045.png]]
+[[./poze/00045.png]]
 
 Totuşi, realitatea nu este atât de simplă. Unul din fenomenele
 prezentate într-un capitol viitor este cel al /modificării/ rezistenţei
@@ -1763,7 +1763,7 @@ jos:
 
 #+CAPTION: graficul curent-tensiune într-un circuit electric simplu
 #+CAPTION: idealizat
-[[../poze/00046.png]]
+[[./poze/00046.png]]
 
 Linia dreaptă de pe grafic desemnează faptul că rezistenţa este stabilă
 pentru o varietate de tensiuni şi curenţi din circuit. Acest lucru se
@@ -1778,7 +1778,7 @@ reprezentat prin graficul de mai jos:
 
 #+CAPTION: graficul curent-tensiune într-un circuit electric simplu
 #+CAPTION: idealizat
-[[../poze/00047.png]]
+[[./poze/00047.png]]
 
 Acest grafic nu mai este o linie dreaptă. Acesta creşte brusc în partea
 stângă, odată cu creşterea tensiunii de la zero la o valoarea scăzută.
@@ -1807,7 +1807,7 @@ neliniar al ionizării:
 
 #+CAPTION: graficul curent-tensiune neliniar în cazul ionizării
 #+CAPTION: dielectricului dintre borne
-[[../poze/00048.png]]
+[[./poze/00048.png]]
 
 Graficul de mai sus este aproximat pentru o grosime a dielectricului
 (aer) de 1cm. O eventuală distanţă mai mare dintre cei doi conductori ar
@@ -1865,7 +1865,7 @@ curent/tensiune în acest caz este negativă, fenomenul este cunoscut sub
 denumirea de /rezistenţă negativă/.
 
 #+CAPTION: graficul curent-tensiune neliniar cu rezistenţă negativă
-[[../poze/00362.png]]
+[[./poze/00362.png]]
 
 Pentru simplitatea expunerii totuşi, vom considera rezistenţele din
 circuit stabile în timp oricare ar fi condiţiile de funcţionare,
@@ -1902,7 +1902,7 @@ lungimea firelor sau „forma” circuitului pentru calculele noastre? Să ne
 uităm aşadar la câteva configuraţii ale circitelor şi să aflăm:
 
 #+CAPTION: circuite electrice simple, diferite forme
-[[../poze/00049.png]]
+[[./poze/00049.png]]
 
 Atunci când conectăm două puncte dintr-un circuit printr-un fir
 conductor, presupunem de obicei că acele fire prezintă o rezistenţă
@@ -1937,7 +1937,7 @@ rezistorului). Să analizăm următorul circuit şi să vedem care sunt
 punctele comune:
 
 #+CAPTION: circuite electrice simple, diferite forme
-[[../poze/00050.png]]
+[[./poze/00050.png]]
 
 Aici avem doar două componente fără a lua în considerare şi firele:
 bateria şi rezistorul. Cu toate că firele au un drum mai încâlcit, ele
@@ -1986,7 +1986,7 @@ firelor fiind zero, căderea de tensiune pe întregul circuit poate fi
 determinată cu ajutorul legii lui Ohm, asfel:
 
 #+CAPTION: relaţii matematice
-[[../poze/10267.png]]
+[[./poze/10267.png]]
 
 Pentru că punctele comune din punct de vedere electric dintr-un circuit
 au aceeiaşi tensiunea şi rezistenţă relativă, firele ce conectează
@@ -1995,7 +1995,7 @@ nu înseamnă că punctele /terminalelor/ au aceeiaşi denumire, ci doar
 firele de legătură. De exemplu:
 
 #+CAPTION: numerotarea firelor într-un circuit
-[[../poze/00051.png]]
+[[./poze/00051.png]]
 
 Punctele 1, 2 şi 3 sunt comune, prin urmare firul ce conectează punctele
 1 şi 2 este notat asemenea (firul #2) firului ce conectează punctele 2
@@ -2058,7 +2058,7 @@ curentul /iese/ din rezistor este cea pozitivă.
 
 #+CAPTION: marcarea polarităţii căderii de tensiune într-un circuit
 #+CAPTION: simplu
-[[../poze/00052.png]]
+[[./poze/00052.png]]
 
 #+BEGIN_EXAMPLE
     Între punctele 1 (+) şi 4 (-) = 10 volţi                     
@@ -2224,7 +2224,7 @@ punct.
 
 #+CAPTION: păsările ce se aşează pe liniile de înaltă tensiune nu se
 #+CAPTION: electrocutează
-[[../poze/00055.png]]
+[[./poze/00055.png]]
 
 Pentru ca electronii să circule printr-un conductor, este necesară
 prezenţa unei tensiuni pentru motivarea lor. Tensiunea este /tot timpul
@@ -2247,7 +2247,7 @@ două puncte din circuit (firul şi pământarea):
 
 #+CAPTION: închiderea circuitului prin pământ la atingerea unui singur
 #+CAPTION: fir
-[[../poze/00056.png]]
+[[./poze/00056.png]]
 
 Simbolul împământării (legării la pământ) este setul de trei linii
 orizontale cu lungimi descrescătoare, aflat în partea stângă-jos a
@@ -2282,7 +2282,7 @@ picioarele sale vin în contact cu pământul:
 
 #+CAPTION: persoana nu este electrocutată în cazul în care firul atins
 #+CAPTION: este conectat la împământare
-[[../poze/00057.png]]
+[[./poze/00057.png]]
 
 Deoarece partea de jos a circuitului este conectată la împământare în
 partea stângă, conductorul din dreapta jos este comun din punct de
@@ -2303,7 +2303,7 @@ nu. Observaţi ce se întâmplă fără niciun fel de împământare:
 
 #+CAPTION: circuit neconectat la împământare - atingerea firelor libere
 #+CAPTION: este sigură
-[[../poze/00058.png]]
+[[./poze/00058.png]]
 
 În ciuda faptului că picioarele persoane vin în contact direct cu
 pământul, atingerea oricărui punct din circuit este sigură. Din moment
@@ -2316,7 +2316,7 @@ către o creangă ce duce la formarea unei legături directe cu pământul:
 #+CAPTION: circuit neconectat la împământare - atingerea firelor libere
 nu este sigură atunci când există o conectare accidentală a circuitului
 #+CAPTION: la pământ
-[[../poze/00059.png]]
+[[./poze/00059.png]]
 
 O asemenea conexiune accidentală dintre conductorul circuitului şi
 pământ poartă numele de /defect de împământare/. Cauzele defectelor de
@@ -2330,7 +2330,7 @@ riscul electrocutării, adică exact invers faţă de cazul precedent.
 
 #+CAPTION: circuit neconectat la împământare - defectul de împământare
 #+CAPTION: poate duce la electrocutare
-[[../poze/00060.png]]
+[[./poze/00060.png]]
 
 Precum am spus şi mai sus, ramurile copacilor sunt doar o sursă
 potenţială ale defectelor de împământare. Să considerăm un circuit
@@ -2341,7 +2341,7 @@ puncte cu potenţiale diferite:
 #+CAPTION: circuit fără împământare - electrocutarea ambelor persoane
 atunci când fiecare dintre ele atunge un punct din circuit cu potenţial
 #+CAPTION: electric diferit
-[[../poze/00061.png]]
+[[./poze/00061.png]]
 
 În acest caz, contactul fiecărei persoane cu pământul asigură închiderea
 circuitului prin pământ şi prin ambele persoane. Chiar dacă fiecare din
@@ -2639,7 +2639,7 @@ groasă de 4 cm. Rezistenta măsurată în cazul contactului cu ambele mâini
 este exact jumătate cazului de contact cu o singură mână.
 
 #+CAPTION: realizarea contactului cu o bară metalică cu o singură mână
-[[../poze/00382.png]]
+[[./poze/00382.png]]
 
 Cu ambele mâini pe bară, suprafaţa de contact este de două ori mai mare
 decât cu o singură mână. Aceasta este o lecţie importantă de ţinut
@@ -2649,7 +2649,7 @@ constanţi. Dacă ţinem bara metalică cu ambele mâini, electronii au două
 căi /paralele/ de curgere dinspre bară spre corp şi invers.
 
 #+CAPTION: realizarea contactului cu o bară metalică cu două mâini
-[[../poze/00383.png]]
+[[./poze/00383.png]]
 
 Conexiunea în paralel rezultă tot timpul într-o rezistenţă electrică
 totală mai mică decât oricare dintre rezistenţele conectate luate
@@ -2697,22 +2697,22 @@ Valoarea totală a rezistenţelor conectate în serie este mai mare decât
 valoarea oricărei rezistenţe luată individual (link!).
 
 #+CAPTION: rezistenţa corpului într-un circuit electric
-[[../poze/00062.png]] 
+[[./poze/00062.png]] 
 #+CAPTION: persoanele ce intră în contact direct
 cu sursele de tensiune: curentul este limitat doar de rezistenţa
 #+CAPTION: corpului
-[[../poze/10029.png]]
+[[./poze/10029.png]]
 
 Circuitul echivalent pentru aceeiaşi situaţie, dar cu persoana în cauză
 purtând mănuşi şi încălţăminte de protecţie (izolate electric):
 
 #+CAPTION: rezistenţa corpului plus cea a încălţăminte şi mănuşilor de
 #+CAPTION: protecţie într-un circuit electric
-[[../poze/00063.png]] 
+[[./poze/00063.png]] 
 #+CAPTION:
 persoanele ce poartă mănuşi şi încălţăminte de protecţie: curentul este
 limitat acum de valoarea totală a rezistenţei din circuit
-[[../poze/10030.png]]
+[[./poze/10030.png]]
 
 Deoarece curentul trebuie acum să treacă prin încălţăminte, prin corp şi
 prin mănuşi pentru a închide circuitul spre baterie, suma tuturor
@@ -2779,7 +2779,7 @@ siguranţă pentru asigurarea stării de energie zero a circuitului:
 
 #+CAPTION: întrerupător de siguranţă şi întrerupător de
 #+CAPTION: închidere/deschidere a circuitului
-[[../poze/00064.png]]
+[[./poze/00064.png]]
 
 Cu întrerupător în poziţia deschis (precum în figură), continuitatea
 circuitului este întreruptă şi curentul din circuit este zero. Caderea
@@ -2797,7 +2797,7 @@ apariţia unei căderi de tensiune la bornele sarcinii:
 #+CAPTION: asigurarea suplimentară a unui circuit deconectat de la sursa
 de putere prin realizarea unei împământări temporare a părţii din
 #+CAPTION: circuit neconectate iniţial la împământare
-[[../poze/00065.png]]
+[[./poze/00065.png]]
 
 După realizarea împământării temporare, ambele părţi ale sarcinii sunt
 conectate la pământ, asigurând o stare de energie zero la bornele
@@ -2810,7 +2810,7 @@ asigura circuitul prin exact această metodă:
 #+CAPTION: asigurarea suplimentară a unui circuit deconectat de la sursa
 de putere prin realizarea unui scurt-circuit cu ajutorul unui conductor
 #+CAPTION: plasat între cele două părţi ale circuitului
-[[../poze/00066.png]]
+[[./poze/00066.png]]
 
 Indiferent de măsura luată, ambele părţi ale sarcinii se vor afla la
 aceelaşi potenţial, cel al pământului, neexistând nicio cădere de
@@ -3024,7 +3024,7 @@ apropiat punct de împământare din sistem, asfel:
 
 #+CAPTION: linie electrică căzută la pământ - posibilitatea apariţiei
 #+CAPTION: electrocutării
-[[../poze/00067.png]]
+[[./poze/00067.png]]
 
 Pământul, fiind un conductor (chiar dacă unul prost), va conduce
 curentul între linia căzută la pământ şi cel mai apropiat punct de
@@ -3038,7 +3038,7 @@ căderea de tensiune în lungul cablului electric va fi mult mai mică
 
 #+CAPTION: linie electrică căzută la pământ - valorile aproximative ale
 #+CAPTION: căderilor de tensiune
-[[../poze/00068.png]]
+[[./poze/00068.png]]
 
 Dacă distanţa dintre punctul de contact al liniei cu pământul şi locul
 împământării este mică, atunci va exista o cădere mare de tensiune pe o
@@ -3050,7 +3050,7 @@ puţin rezistentă din punct de vedere electric !!!)
 #+CAPTION: linie electrică căzută la pământ - electrocutarea persoanei
 ce se află între punctul de contact al liniei electrice şi punctul de
 #+CAPTION: împământare al reţelei
-[[../poze/00069.png]]
+[[./poze/00069.png]]
 
 Din nou, aceste cifre sunt foarte aproximative, dar ilustrează foarte
 bine principiul conform cărei o persoană poate deveni victimă a
@@ -3093,7 +3093,7 @@ conductorul conectat la împământare se numeşte /neutru/, iar celălalt
 conductor este conductorul /sub tensiune/ sau /fază/:
 
 #+CAPTION: legarea unei părţi a circuitului monofazat la împământare
-[[../poze/00070.png]]
+[[./poze/00070.png]]
 
 În ceea ce priveşte sursa de alimentare şi sarcina propriu-zisă,
 existenţa punctului de împământare nu are niciun efect asupra
@@ -3121,7 +3121,7 @@ metalică, precum şi între ele, cu un material plastic sau de cauciuc.
 #+CAPTION: conectarea unui aparat electric cu carcasă metalică la
 reţeaua de alimentare - căderea de tensiune între carcasa metalică şi
 #+CAPTION: pământ este de 0 volţi
-[[../poze/00071.png]]
+[[./poze/00071.png]]
 
 Totuşi, în cazul în care unul dintre firele existente în interiorul
 aparatului vine în contact direct cu carcasa metalică, potenţialul
@@ -3134,7 +3134,7 @@ depinde de natura firului ce atinge carcasa:
 reţeaua de alimentare; la contactul accidental dintre fază şi carcasa
 metalică, există o cădere de tensiune potenţial periculoasă între
 #+CAPTION: carcasă şi pământ
-[[../poze/00072.png]]
+[[./poze/00072.png]]
 
 În cazul în care firul ce intră în contact cu carcasa metalică este faza
 (firul aflat „sub tensiune”), utilizatorul aparatului se află într-un
@@ -3144,7 +3144,7 @@ metalică, nu există niciun pericol de electrocutare:
 #+CAPTION: conectarea unui aparat electric cu carcasă metalică la
 reţeaua de alimentare; la contactul accidental dintre neutru şi carcasa
 metalică, nu există niciun pericol de electrocutare
-[[../poze/00073.png]]
+[[./poze/00073.png]]
 
 Pentru a se asigura că primul caz este mai puţin probabil decât
 celălalt, se încearcă în general proiectarea aparatelor electrice asfel
@@ -3158,7 +3158,7 @@ poate la fel de bine să fie cel aflat sub tensiune:
 reţeaua de alimentare; inversarea polarităţii prizei înseamnă ca orice
 fir care vine în contact cu carcasa prezintă un potenţial pericol de
 #+CAPTION: electrocutare
-[[../poze/00074.png]]
+[[./poze/00074.png]]
 
 Aparatele electrice proiectate asfel se folosesc la prizele polarizate,
 un picior al conectorului fiind mai lat iar celălalt mai îngust (prizele
@@ -3183,7 +3183,7 @@ aceasta şi pământ:
 #+CAPTION: conectarea unui aparat electric cu carcasă metalică la
 reţeaua de alimentare; folosirea prizei cu împământare pentru
 #+CAPTION: înlăturarea pericolului electrocutării
-[[../poze/00075.png]]
+[[./poze/00075.png]]
 
 Al treilea contact al conectorului prezent la capătul cablului de
 alimentare asigură o conexiune directă între carcasa metalică a
@@ -3210,7 +3210,7 @@ nu doar asupra aparatului electric, asfel:
 
 #+CAPTION: conectarea unui aparat electric cu carcasă metalică la
 #+CAPTION: reţeaua de alimentare;
-[[../poze/00076.png]]
+[[./poze/00076.png]]
 
 În cazul unui aparat electric ce funcţionează corespunzător, precum în
 figura de mai sus, valoarea curentului măsurat prin fază ar trebui să
@@ -3227,7 +3227,7 @@ curent între cele două:
 #+CAPTION: conectarea unui aparat electric cu carcasă metalică la
 reţeaua de alimentare; diferenţa de curent între fază şi neutru în cazul
 #+CAPTION: electrocutării
-[[../poze/00077.png]]
+[[./poze/00077.png]]
 
 Diferenţa de curent între cei doi conductori, fază şi neutru, va exista
 doar în cazul existenţei unui curent prin împământare, caz în car există
@@ -3242,7 +3242,7 @@ prevenirea electrocutării:
 #+CAPTION: conectarea unui aparat electric cu carcasă metalică la
 reţeaua de alimentare; deschiderea automată a întrerupătorului în cazul
 existenţei unei diferenţe prea mari între curenţii fazei şi al neutrului
-[[../poze/00078.png]]
+[[./poze/00078.png]]
 
 Sumar:
 
@@ -3285,7 +3285,7 @@ caracteristici diferite, totuşi, multimetrul prezentat aici este unul
 general, utilizat pentru prezentarea principiilor sale de bază.
 
 #+CAPTION: multimetru digital; prezentare generală
-[[../poze/noi/00340.png]]
+[[./poze/noi/00340.png]]
 
 Putem observa că afişajul este digital, din acest motiv, acest tip de
 multimetru mai poartă numele de multimetru digital. Selectorul rotativ
@@ -3308,7 +3308,7 @@ pentru a preveni contactul direct, iar vârfurile sunt ascuţite şi
 rigide.
 
 #+CAPTION: multimetru digital; prezentare generală
-[[../poze/noi/00341.png]]
+[[./poze/noi/00341.png]]
 
 Sonda neagră va fi tot timpul introdusă în priza neagră a multimetrului,
 cea marcată cu „COM” (comun). Sonda roşie va fi introdusă fie în priza
@@ -3321,7 +3321,7 @@ marcată pentru tensiune şi rezistenţă (V Ω) sau în cea pentru curent
 
 #+CAPTION: multimetru digital; măsurarea tensiunii de curent continuu a
 #+CAPTION: unei baterii
-[[../poze/noi/00342.png]]
+[[./poze/noi/00342.png]]
 
 Primul exemplu constă din măsurarea unei tensiuni de c.c. la bornele
 unei baterii. Observaţi prizele la care sunt conectate cele două sonde
@@ -3332,7 +3332,7 @@ ale multimetrului (V Ω şi COM) şi faptul că selectorul este setat pe „V”
 
 #+CAPTION: multimetru digital; măsurarea tensiunii de curent alternativ
 #+CAPTION: la priză
-[[../poze/noi/00343.png]]
+[[./poze/noi/00343.png]]
 
 Singura diferenţa constă în schimbarea poziţiei selectorului pe poziţie
 „V” în curent alternativ. Din moment ce efectuăm tot o măsurătoare de
@@ -3347,7 +3347,7 @@ loc, se va forma un scurt-circuit, lucru pe care nu-l dorim.
 
 #+CAPTION: multimetru digital; măsurarea tensiunii de curent alternativ
 #+CAPTION: la priză
-[[../poze/noi/00344.png]]
+[[./poze/noi/00344.png]]
 
 Măsurarea tensiunilor este probabil cea mai folosită funcţie a unui
 multimetru. Este cu siguranţă cea mai folosită metodă pentru asigurarea
@@ -3407,7 +3407,7 @@ aceste fire ale panoului. Dar tensiunea reprezintă o valoare între două
 puncte, prin urmare, ce puncte trebuie să luăm în considerare?
 
 #+CAPTION: panou electric; schiţă
-[[../poze/noi/00353.png]]
+[[./poze/noi/00353.png]]
 
 Adevărul este că trebuie să măsurăm căderea de tensiune între toate
 combinaţiile posibile, A cu B, B cu C şi A cu C. Dacă măsurăm o cădere
@@ -3436,7 +3436,7 @@ Măsurătoarea se realizează simplu, prin poziţionarea vârfurilor celor
 două sonde pe capetele libere ale rezistorilor.
 
 #+CAPTION: panou electric; schiţă
-[[../poze/noi/00345.png]]
+[[./poze/noi/00345.png]]
 
 Atenţie însă, măsurarea rezistenţelor se face doar asupra componentelor
 nealimentate! Atunci când multimetrul se află în modul „rezistenţă”,
@@ -3457,7 +3457,7 @@ aproximativ egală cu 0 Ω. Dacă sondele nu ar prezenta nicio rezistenţa
 internă, această măsurătoare ar da exact 0 Ω.
 
 #+CAPTION: multimetru digital; atingerea sondelor între ele
-[[../poze/noi/00346.png]]
+[[./poze/noi/00346.png]]
 
 Dacă sondele nu se află în contact direct una cu cealaltă, sau daca sunt
 conectate la capetele opuse ale unui conductor întrerupt, acesta va
@@ -3466,7 +3466,7 @@ multimetrului prin prescurtarea „O.L.” (open loop (eng.) - circuit
 deschis).
 
 #+CAPTION: multimetru digital; circuit deschis (O.L.)
-[[../poze/noi/00347.png]]
+[[./poze/noi/00347.png]]
 
 **** Măsurarea curentului cu ajutorul multimetrului
 
@@ -3481,14 +3481,14 @@ fie în c.c., iar sonda roşie trebuie introdusă în priza marcata cu „A”
 (vezi figura).
 
 #+CAPTION: multimetru digital; măsurarea curentului
-[[../poze/noi/00348.png]]
+[[./poze/noi/00348.png]]
 
 Următorul pas este deschiderea circuitului pentru a putea conecta
 multimetrul.
 
 #+CAPTION: multimetru digital; măsurarea curentului; deschiderea
 #+CAPTION: circuitului
-[[../poze/noi/00349.png]]
+[[./poze/noi/00349.png]]
 
 Închiderea circuitul se realizează apoi prin multimetru, astfel:
 conectăm vârfurile sondelor la captele libere ale circuitului deschis,
@@ -3497,7 +3497,7 @@ la capătul conductorului liber ce duce la bec.
 
 #+CAPTION: multimetru digital; măsurarea curentului; închiderea
 #+CAPTION: circuitului prin intermediul multimetrului
-[[../poze/noi/00350.png]]
+[[./poze/noi/00350.png]]
 
 Deşi acest circuit, cu o sursă de 9 V, este sigur din punct de vedere al
 electrocutărilor, în circuitele de putere această metodă reprezintă o
@@ -3517,7 +3517,7 @@ rezistenţa dintre vârfurile sondelor este de ordinul mega-ohmilor (MΩ).
 
 #+CAPTION: multimetru digital setat pentru măsurarea curentului dar
 folosit pentru măsurarea tensiunii; apariţia scurt-circuitului
-[[../poze/noi/00351.png]]
+[[./poze/noi/00351.png]]
 
 Pentru a preveni acest lucru, majoritatea multimetrlor produc un
 avertisment sonor în cazul în care sonda este introdusă în priza „A” iar
@@ -3535,7 +3535,7 @@ prin setarea pe poziţia „Ω”, iar sondele pe poziţia „A” respectiv „
 Verificarea se realizează prin contactul direct al celor două sonde.
 
 #+CAPTION: multimetru digital; verificarea siguranţei fuzibile interne
-[[../poze/noi/00352.png]]
+[[./poze/noi/00352.png]]
 
 O siguranţa bună va indica o rezistenţa foarte mică, pe când o siguranţa
 arsă va indica tot timpul un circuit deschis (O.L.). Valoarea
@@ -3731,7 +3731,7 @@ vedeţi intrarea de pe wikipedia,
 [[http://ro.wikipedia.org/wiki/Prefix_SI][aici]].
 
 #+CAPTION:
-[[../poze/00356.png]]
+[[./poze/00356.png]]
 
 Urmărind această scală, putem vedea că, de exemplu, 2,5 Giga înseamnă de
 fapt 2,5 x 10^{9}, sau 2,5 miliarde. De asemenea, 3,21 pA (picoamperi)
@@ -3795,7 +3795,7 @@ componente într-un circuit: /serie/ şi /paralel/. Mai jos e un exemplu
 de circuit serie:
 
 #+CAPTION: circuit serie
-[[../poze/00082.png]]
+[[./poze/00082.png]]
 
 În acest circuit avem 3 rezistori (R_{1},R_{2} şi R_{3}) conectaţi
 într-un singur lanţ de la un terminal al bateriei la celălalt.
@@ -3805,7 +3805,7 @@ singure căi pentru curgerea electronilor.
 Să ne uităm acum şi la celălalt tip de circuit, cel paralel:
 
 #+CAPTION: circuit paralel
-[[../poze/00083.png]]
+[[./poze/00083.png]]
 
 Şi în acest caz avem tot 3 rezistori, dar de data această există mai
 multe căi pentru curgerea electronilor. Există o cale de la 8 la 7, 2, 1
@@ -3826,7 +3826,7 @@ Putem avea de asemenea circuite ce sunt o combinaţie dintre acestea
 două:
 
 #+CAPTION: circuit serie-paralel
-[[../poze/00084.png]]
+[[./poze/00084.png]]
 
 În acest circuit, avem două ramuri prin care electroni pot să circule:
 una de la 6 la 5, 2, 1 şi înapoi la 6, iar altă ramură de la 6 la 5, 4,
@@ -3839,7 +3839,7 @@ Idea de bază într-o conexiune serie este conectarea componentelor de la
 un capăt la altul într-o linie dreaptă:
 
 #+CAPTION: conexiune serie
-[[../poze/00085.png]]
+[[./poze/00085.png]]
 
 Idea de bază într-o conexiune paralel, pe de altă parte, este că toate
 componentele sunt conectate între la aceleaşi capete. Într-un circuit
@@ -3849,7 +3849,7 @@ mult de o singură cale pentru deplasarea electronilor, dar o singură
 cădere de tensiune asupra tuturor componentelor"
 
 #+CAPTION: conexiune paralel
-[[../poze/00086.png]]
+[[./poze/00086.png]]
 
 Cele două tipuri de configuraţii, serie şi paralel, prezintă proprietăţi
 electrice total diferite.
@@ -3871,7 +3871,7 @@ Să începem cu un circuit electric format dintr-o baterie şi trei
 rezistori:
 
 #+CAPTION: circuit serie
-[[../poze/00087.png]]
+[[./poze/00087.png]]
 
 Primul principiu pe care trebuie să-l înţelegem legat de circuitele
 serie este păstrarea constantă a valorii curentului în întreg circuitul,
@@ -3897,10 +3897,10 @@ circuitului, pentru că acestea se referă la aceleaşi două puncte din
 circuit:
 
 #+CAPTION: circuit serie
-[[../poze/00088.png]] 
+[[./poze/00088.png]] 
 #+CAPTION: relaţii
 #+CAPTION: matematice
-[[../poze/10056.png]]
+[[./poze/10056.png]]
 
 Din moment ce punctele 1 şi 2 sunt conectate împreună printr-un fir de o
 rezistenţă neglijabilă (la fel şi punctele 3 şi 4), putem spune că
@@ -3926,7 +3926,7 @@ tensiunii pe fiecare din rezistori în parte, cunoaştem valoarea
 tensiunii pe întreg ansamblul de rezistori doar.
 
 #+CAPTION: circuit serie
-[[../poze/00087.png]]
+[[./poze/00087.png]]
 
 Valoarea de 9 volţi reprezintă o cantitate /totală/ din circuit, pe când
 valorile de 3kΩ, 10kΩ şi 5kΩ, reprezintă cantităţi /individuale/ din
@@ -3940,7 +3940,7 @@ curentul la bornele rezistorului R_{1}, şi valoarea rezistenţei lui,
 3kΩ:
 
 #+CAPTION: formula
-[[../poze/10057.png]]
+[[./poze/10057.png]]
 
 Dar din moment ce nu cunoaştem tensiunea la bornele lui R_{1} (doar
 tensiunea totală pe toţi cei trei rezistori conectaţi în serie), şi nu
@@ -3962,7 +3962,7 @@ aveam trei rezistori în serie, de 3 kΩ, 10 kΩ, respectiv 5 kΩ, ceea ce
 rezultă într-o rezistenţă totală de 18Ω:
 
 #+CAPTION: formula
-[[../poze/10058.png]]
+[[./poze/10058.png]]
 
 Ceea ce am făcut de fapt, a fost să calculăm rezistenţa echivalentă a
 rezistenţelor de 3 kΩ, 10 kΩ şi 5 kΩ luate împreună. Cunoscând acest
@@ -3971,14 +3971,14 @@ reprezentând combinaţia serie a celor trei rezistori R_{1}, R_{2} şi
 R_{3}:
 
 #+CAPTION: formula
-[[../poze/00089.png]]
+[[./poze/00089.png]]
 
 Acum avem toate informaţiile necesare pentru a calcula curentul prin
 circuit, deoarece aven tensiunea între punctele 1 şi 4 (9 volţi), precum
 şi rezistenţă între punctele 1 şi 4 (18kΩ):
 
 #+CAPTION: formula
-[[../poze/10059.png]]
+[[./poze/10059.png]]
 
 Cunoscând faptul că prin fiecare component în cadrul unui circuit serie,
 curentul este acelaşi, şi cunoscând valoarea acelui curentu în cazul de
@@ -3986,14 +3986,14 @@ faţă, putem merge înapoi la circuitul iniţial şi să notăm valoarea
 curentului prin fiecare component în parte:
 
 #+CAPTION: formula
-[[../poze/00090.png]]
+[[./poze/00090.png]]
 
 Acum că valoarea curentului prin fiecare rezistor ne este cunoscută,
 putem folosi legea lui OHm pentru determinarea căderilor de tensiune pe
 fiecare component în parte:
 
 #+CAPTION: formula
-[[../poze/10060.png]]
+[[./poze/10060.png]]
 
 Putem observa căderea te tensiune pe fiecare rezistor în parte şi faptul
 că suma acestor căderi de tensiune (1.5 V + 5 V + 2.5 V) este egală cu
@@ -4018,7 +4018,7 @@ Să începem cu un circuit paralel format din trei rezistori şi o singură
 baterie:
 
 #+CAPTION: circuit paralel
-[[../poze/00092.png]]
+[[./poze/00092.png]]
 
 Primul principiu pe care trebuie să-l înţelegem despre circuitele
 paralele este legat de faptul că tensiunea este egală la bornele tuturor
@@ -4040,7 +4040,7 @@ cunoaşte tensiunea la bornele fiecărui rezistor (9 voloţi) precum şi
 rezistenţa fiecărui rezistor:
 
 #+CAPTION: circuit paralel
-[[../poze/10071.png]]
+[[./poze/10071.png]]
 
 Până în acest moment, nu cunoaştem valoarea totală a curentului, sau
 rezistenţă totală a acestui circuit paralel, asfel că nu putem aplica
@@ -4050,10 +4050,10 @@ totală a curentului prin circuit trebuie să fie egală cu suma valorilor
 curenţilor prin fiecare ramură (fiecare rezistor în parte):
 
 #+CAPTION: circuit paralel
-[[../poze/00093.png]] 
+[[./poze/00093.png]] 
 #+CAPTION: calcule
 #+CAPTION: matematice
-[[../poze/10074\_2.png]]
+[[./poze/10074\_2.png]]
 
 Pe măsură ce curentul iese prin terminalul negativ (-) al bateriei la
 punctul 8 şi se deplasează prin circuit, o parte din această cantitate
@@ -4074,7 +4074,7 @@ ramură în parte.
 valoarea totală a rezistenţei prezentă în circuit:
 
 #+CAPTION: rezistenţa totală din circuit
-[[../poze/10074.png]]
+[[./poze/10074.png]]
 
 Trebuie să observăm un lucru foarte important în acest caz! Valoarea
 rezistenţei totale este de numai 625 Ω: /mai puţin/ decât valoarea
@@ -4087,7 +4087,7 @@ această relaţie între rezistenţa totală şi rezistenţele individuale din
 circuit poate fi exprimată astfel:
 
 #+CAPTION: rezistenţa totală într-un circuit paralel
-[[../poze/10075.png]]
+[[./poze/10075.png]]
 
 Sumar:
 
@@ -4113,7 +4113,7 @@ electrică, în opoziţie cu rezistenţa electrică.
 Matematic, conductanţa este inversa rezistenţei:
 
 #+CAPTION: relaţia conductanţă-rezistenţă
-[[../poze/10079.png]]
+[[./poze/10079.png]]
 
 Cu cât valoarea rezistenţei este mai mare, cu atât mai mică va fi cea a
 conductanţei şi invers. Simbolul folosit pentru desemnarea conductanţei
@@ -4132,7 +4132,7 @@ rezistenţele ramurilor luate individual (R_{total} mai mică decât R_{1},
 R_{2}, R_{3} sau R_{4} luate individual):
 
 #+CAPTION: circuit paralel
-[[../poze/00096.png]]
+[[./poze/00096.png]]
 
 Conductanţa paralelă este mai /mare/ decât oricare dintre conductanţele
 ramurilor luate individual, deoarece rezistorii paraleli conduct mai
@@ -4140,25 +4140,25 @@ bine curantul electricât decât o fac fiecare luat în parte(G_{total} mai
 mare decât G_{1}, G_{2}, G_{3} sau G_{4} luate individual):
 
 #+CAPTION: circuit paralel, conductanţă
-[[../poze/00097.png]]
+[[./poze/00097.png]]
 
 Matematic, această relaţie se exprimă asfel:
 
 #+CAPTION: formula conductanţei
-[[../poze/10080.png]]
+[[./poze/10080.png]]
 
 Cunoscând relaţia matematică inversă dintre conductanţă şi rezistenţă
 (1/x), putem transforma fiecare din termenii formulei de mai sus în
 rezistenţe:
 
 #+CAPTION: formula conductanţei, înlcuită cu rezistenţe
-[[../poze/10081.png]]
+[[./poze/10081.png]]
 
 Rezolvând ecuaţie de mai sus pentru R_{total}, ajungem la următoarea
 formulă:
 
 #+CAPTION: rezistenţa totală, circuit paralel
-[[../poze/10082.png]]
+[[./poze/10082.png]]
 
 Asfel, ajungem la formula rezistenţei totale dintr-un circuit paralel.
 
@@ -4322,7 +4322,7 @@ circuitelor paralel.
 *** Analiza defectelor într-un circuit serie simplu
 
 #+CAPTION: circuit pur rezistiv serie
-[[../poze/00098.png]]
+[[./poze/00098.png]]
 
 Să considerăm circuitul alăturat
 
@@ -4377,7 +4377,7 @@ parametrii normali, putem determina pe cale matematică toţi curenţi şi
 căderile de tensiune din circuit.
 
 #+CAPTION: circuit pur rezistiv serie; şuntarea rezistorului
-[[../poze/00099.png]]
+[[./poze/00099.png]]
 
 Să presupunem acum că rezistorul R_{2} este scurt-circuitat; acest lucru
 înseamnă de fapt că, în locul rezistorului avem un simplu fir ce
@@ -4448,7 +4448,7 @@ este de zero V, chiar dacă valoarea totală a curentului din circuit a
 crescut.
 
 #+CAPTION: circuit pur rezistiv serie; deschiderea circuitului
-[[../poze/00100.png]]
+[[./poze/00100.png]]
 
 Pe de altă parte, dacă defectul suferit de rezistorul R_{2} este de aşa
 natură încât circuitul va rămâne deschis în acel punct - rezistenţa
@@ -4513,7 +4513,7 @@ se va regăsi pe terminalele rezistorului R_{2}.
 *** Analiza defectelor într-un circuit paralel simplu
 
 #+CAPTION: circuit pur rezistiv paralel
-[[../poze/00101.png]]
+[[./poze/00101.png]]
 
 Putem aplica aceleaşi metode şi în cazul unui circuit paralel.
 
@@ -4566,7 +4566,7 @@ R
 Să observăm prima dată comportamentul unui circuit paralel „sănătos”.
 
 #+CAPTION: circuit pur rezistiv paralel; deschiderea rezistenţei
-[[../poze/00102.png]]
+[[./poze/00102.png]]
 
 **** Înlăturarea rezistorului
 
@@ -4633,7 +4633,7 @@ tensiune constantă) curentul prin ceilalţi doi rezistori nu se modifică
 nici ei.
 
 #+CAPTION: circuit pur rezistiv paralel cu becuri
-[[../poze/00357.png]]
+[[./poze/00357.png]]
 
 Acelaşi lucru îl putem observa şi într-un circuit casnic: toate becurile
 sunt conectate în paralel. La pornirea sau oprirea unui bec (o ramură
@@ -4645,7 +4645,7 @@ circuit.
 **** Şuntarea rezistorului
 
 #+CAPTION: circuit pur rezistiv paralel; şuntarea rezistorului
-[[../poze/00103.png]]
+[[./poze/00103.png]]
 
 Într-un caz ideal (surse de tensiune perfecte şi conductori cu
 rezistenţă zero), rezistorii scurt-circuitaţi dintr-un circuit paralel
@@ -4716,14 +4716,14 @@ extrem de mare în acelaşi timp cu menţinerea valorii tensiunii la un
 nivel constant.
 
 #+CAPTION: orice sursă de alimentare prezintă o rezistenţa internă
-[[../poze/00104.png]]
+[[./poze/00104.png]]
 
 Acest lucru se datorează rezistenţei interne caracteristice tuturor
 surselor de putere electrice, rezistenţe datorate proprietătilor
 intrinseci ale materialelor din care sunt construite.
 
 #+CAPTION: circuit pur rezistiv paralel; şuntarea rezistorului
-[[../poze/00105.png]]
+[[./poze/00105.png]]
 
 Aceste rezistenţe interne, oricât de mici, transformă circuitul paralel
 de mai sus într-o combinaţie serie-paralel. De obicei, rezistenţele
@@ -4813,7 +4813,7 @@ unele mai simple decât altele, opţiuni pe care le vom prezenta în acest
 capitol.
 
 #+CAPTION: circuit simplu cu o singură baterie şi un singur rezistor
-[[../poze/00444.png]]
+[[./poze/00444.png]]
 
 Dacă dorim realizarea unui circuit simplu cu o sigură baterie şi un
 singur rezistor, putem foarte bine să utilizăm conductori cu cleme
@@ -4824,13 +4824,13 @@ metodă practică şi sigură din punct de vedere electric pentru conectarea
 componentelor între ele.
 
 #+CAPTION: circuit simplu cu o singură baterie şi trei rezistori
-[[../poze/00445.png]]
+[[./poze/00445.png]]
 
 Dacă am dori să realizăm un circuit simplu cu o baterie şi trei
 rezistor, putem utiliza aceiaşi metodă de conectare a conductorilor.
 
 #+CAPTION: placă electronică de test
-[[../poze/50042.jpg]]
+[[./poze/50042.jpg]]
 
 Totuşi, această tehnică se dovedeşte a nu fi practică atunci când avem
 de a face cu circuite mult mai complicate decât cele de mai sus. O
@@ -4840,12 +4840,12 @@ realizat din plastic ce permite realizarea uşoară a unui număr relativ
 mare de conexiuni între componente.
 
 #+CAPTION: circuit electric cu placă de test
-[[../poze/00446.png]]
+[[./poze/00446.png]]
 
 Alăturat este un exemplu de circuit realizat cu ajutorul plăcii de test.
 
 #+CAPTION: placă electronică de test - partea anterioară
-[[../poze/00447.png]]
+[[./poze/00447.png]]
 
 Sub fiecare cavitate există un arc metalic ce prinde orice conductor sau
 terminal al componentelor introduse în acesta. Aceste arcuri metalice
@@ -4864,14 +4864,14 @@ platformă extrem de flexibilă pentreu realizarea circuitelor electrice
 sau electronice temporare.
 
 #+CAPTION: placă electronică de test - circuit serie cu trei rezistori
-[[../poze/00448.png]]
+[[./poze/00448.png]]
 
 De exemplu, circuitul electric de mai sus, format din trei rezistori,
 poate fi construit cu ajutorul unei plăci de test conform figurii
 alăturate.
 
 #+CAPTION: placă electronică de test - circuit paralel cu trei rezistori
-[[../poze/00449.png]]
+[[./poze/00449.png]]
 
 Un alt exemplu, de această dată a unui circuit paralel cu trei
 rezistori, este prezentat în figura alăturată.
@@ -4892,13 +4892,13 @@ unor şuruburi; acest procedeu este similor modului de conectare al
 prizelor sau întrerupătoarelor casnice.
 
 #+CAPTION: regletă de conexiuni
-[[../poze/50033.jpg]]
+[[./poze/50033.jpg]]
 
 Un exemplu de astfel de regletă, având o serie de conductori ataşaţi,
 este prezentat în poza alăturată.
 
 #+CAPTION: regletă de conexiuni
-[[../poze/50034.jpg]]
+[[./poze/50034.jpg]]
 
 O altă variantă este cea din poza alăturată. Această variantă, denumită
 şi „europeană” are şuruburile introduse într-un canal pentru a preveni
@@ -4906,7 +4906,7 @@ scurt-circuitarea accidentală între terminali prin intermediul unei
 şurubelniţi sau al unui alt obiect metalic.
 
 #+CAPTION: regletă de conexiuni; circuit serie
-[[../poze/00450.png]]
+[[./poze/00450.png]]
 
 În figura alăturată, este prezentat un circuit serie compus dintr-o
 singură baterie şi trei rezistori folosind o regletă de conexiuni.
@@ -4923,7 +4923,7 @@ circuitele practice au de cele mai multe ori o orientare complet
 diferită.
 
 #+CAPTION: regletă de conexiuni; circuit paralel
-[[../poze/00451.png]]
+[[./poze/00451.png]]
 
 Să luăm ca şi exemplu un circuit paralel format dintr-o singură baterie
 şi trei rezistori.
@@ -4935,14 +4935,14 @@ nu este chiar aşa de evidentă, prin urmare, vom prezenta procesul pas cu
 pas în cele ce urmează.
 
 #+CAPTION: regletă de conexiuni; circuit paralel
-[[../poze/00452.png]]
+[[./poze/00452.png]]
 
 Pentru început, considerăm diagrama iniţială a circuitului şi toate
 componentele prinse pe regleta de conexiuni dar fără niciun conductor
 electric între ele.
 
 #+CAPTION: regletă de conexiuni; circuit paralel
-[[../poze/00453.png]]
+[[./poze/00453.png]]
 
 Apoi, urmărim conductorul dinspre terminalul pozitiv al bateriei spre
 primul component al diagramei, realizând în acelaşi timp o legătură
@@ -4955,20 +4955,20 @@ Continuând acest proces, fir cu fir, până în momentul în care întreaga
 schemă electrică (diagramă) a circuitului este acoperită.
 
 #+CAPTION: regletă de conexiuni; circuit paralel
-[[../poze/00454.png]]
+[[./poze/00454.png]]
 
 Următorul pas, aşadar, constă în conectarea bornelor superioare a celor
 doi rezistori rămaşi.
 
 #+CAPTION: regletă de conexiuni; circuit paralel
-[[../poze/00455.png]]
+[[./poze/00455.png]]
 
 Având toate bornele superioare ale tuturor rezistorilor din circuit
 conectate la borna pozitivă a bateriei, următorul pas este să conectăm
 bornele inferioare ale acestora la borna negativă a bateriei.
 
 #+CAPTION: regletă de conexiuni; circuit paralel; marcarea conductorilor
-[[../poze/00456.png]]
+[[./poze/00456.png]]
 
 În mod normal, în circuitele practice folosite în industrie, toate
 firele sunt marcate; conductorii comuni din punct de vedere electric
@@ -4976,7 +4976,7 @@ posedă acelaşi număr de marcaj. În exemplu nostru, am marcat conductorii
 cu 1 şi 2.
 
 #+CAPTION: regletă de conexiuni; circuit paralel; marcarea conductorilor
-[[../poze/00457.png]]
+[[./poze/00457.png]]
 
 O altă convenţie constă în modificarea uşoară a diagramei iniţiale
 pentru a indica punctul de contact propriu-zis al conductorului pe
@@ -5008,7 +5008,7 @@ Să analizăm un circuit electric serie simplu, determinând căderile de
 tensiune pe fiecare rezistor:
 
 #+CAPTION: circuit serie
-[[../poze/00106.png]]
+[[./poze/00106.png]]
 
 Vom introducele valorile cunoscute precum şi cele ce le vom afla prin
 aplicarea formulelor într-un tabel ce cuprinde tensiunea (E), curentul
@@ -5016,14 +5016,14 @@ aplicarea formulelor într-un tabel ce cuprinde tensiunea (E), curentul
 Valorile sunt exprimate in volţi (V), amperi (A), respectiv ohmi (Ω).
 
 #+CAPTION: tabel
-[[../poze/10096.png]]
+[[./poze/10096.png]]
 
 Folosind valorile individuale ale rezistenţelor, putem determina
 valoarea rezistenţei totale din circuit, cunoscând că valoarea totală
 este suma rezistenţelor individuale în cazul circuitelor serie:
 
 #+CAPTION: tabel
-[[../poze/10097.png]]
+[[./poze/10097.png]]
 
 De aici, putem folosi legea lui Ohm (I=E/R) pentru determinarea valorii
 totale a curentului, ce va fi aceeiaşi cu valoarea curentului prin
@@ -5031,13 +5031,13 @@ fiecare rezistor, curenţii fiind egali în toate componentele într-un
 circuit serie:
 
 #+CAPTION: tabel
-[[../poze/10098.png]]
+[[./poze/10098.png]]
 
 Cunoscând valoarea curentului (2 mA), putem folosi legea lui Ohm (E=IR)
 pentru calcularea căderilor de tensiune pe fiecare rezistor în parte:
 
 #+CAPTION: tabel
-[[../poze/10099.png]]
+[[./poze/10099.png]]
 
 Putem observa că valoarea căderilor de tensiune pe fiecare rezistor este
 proporţională cu rezistenţa, datorită faptului că valoarea curentului
@@ -5051,7 +5051,7 @@ vedea că această proporţionalitate a căderilor de tensiune rămâne
 constantă:
 
 #+CAPTION: tabel
-[[../poze/10100.png]]
+[[./poze/10100.png]]
 
 Căderea de tensiune pe R_{2} este în continuare exact dublul căderii de
 pe R_{1}, în ciuda modificării tensiunii sursei. Proporţionalitatea
@@ -5066,13 +5066,13 @@ de 4 ori (de la 10 la 40 de volţi). /Raportul/ dintre căderea de
 tensiune pe R_{1} şi căderea de tensiune totală a rămas însă aceeiaşi:
 
 #+CAPTION: formula
-[[../poze/10101.png]]
+[[./poze/10101.png]]
 
 De asemenea, niciunul dintre raporturile căderilor de tensiune cu
 tensiunea sursei nu s-au schimbat:
 
 #+CAPTION: formula
-[[../poze/10102.png]]
+[[./poze/10102.png]]
 
 Din această cauză, un circuit serie poartă adesea numele de /divizor de
 tensiune/, pentru abilitatea sa de divizare a tensiunii totale în
@@ -5080,7 +5080,7 @@ fracţii proporţionale cu o valoare constantă. Matematic, aceasta se
 poate exprima asfel:
 
 #+CAPTION: formula
-[[../poze/10103.png]]
+[[./poze/10103.png]]
 
 În cadrul unui circuit divizor de tensiune, raportul dintre rezistenţele
 individuale şi cea totală este acelaşi ca şi raportul dintre căderile de
@@ -5093,16 +5093,16 @@ Folosind această formulă, putem re-analiza circuitul de mai sus în mai
 puţini paşi:
 
 #+CAPTION: circuit serie
-[[../poze/00106.png]] 
+[[./poze/00106.png]] 
 #+CAPTION: tabel
-[[../poze/10104.png]]
+[[./poze/10104.png]]
 
 Circuitele divizoare de tensiune se folosesc acolo unde o combinaţie
 specifică de rezistori serie este folosită pentru a „diviza” tensiunea
 în cantiăţi precise (în cazul aparatelor de măsură, de exemplu).
 
 #+CAPTION: circuit divizor de tensiune
-[[../poze/00107.png]]
+[[./poze/00107.png]]
 
 Unul dintre dispozitivele folosite frecvent ca şi divizor de tensiune
 este /potenţiometrul/, ce este de fapt un rezistor cu un element mobil
@@ -5111,7 +5111,7 @@ face contact cu un material rezistiv dezizolat în oricare punct selectat
 manual:
 
 #+CAPTION: potenţiometru
-[[../poze/00108.png]]
+[[./poze/00108.png]]
 
 Pe măsură ce contactul periei este se apropie de terminalul 1 şi se
 îndepărtează de terminalul 2, rezistenţa spre terminalul 1 scade iar cea
@@ -5120,15 +5120,15 @@ obţine efectul contrar. Rezistenţa între cele două puncte (1 şi 2) este
 constantă indiferent de poziţia contactului periei.
 
 #+CAPTION: potenţiometru
-[[../poze/00109.png]]
+[[./poze/00109.png]]
 
 Mai jos sunt ilustrate două tipuri de potenţiometre, rotative şi
 liniare:
 
 #+CAPTION: construcţia potenţiometrului rotativ
-[[../poze/00483.png]]
+[[./poze/00483.png]]
 #+CAPTION: construcţia potenţiometrului liniar
-[[../poze/00484.png]]
+[[./poze/00484.png]]
 
 Pozele de mai jos reprezintă un potenţiometru rotativ real cu peria
 vizizibilă pentru o mai bună vizualizare. Axul ce deplasează peria este
@@ -5136,13 +5136,13 @@ rotit în acest caz în sensul acelor de ceasornic aproape la maxim, asfel
 încât aproape atinge terminalul din stânga:
 
 #+CAPTION: potenţiometru rotativ
-[[../poze/50031.jpg]]
+[[./poze/50031.jpg]]
 
 În acest caz, peria este rotită în sensul învers acelor de ceasornic,
 asfel încât aceasta se afla în cealaltă extremă:
 
 #+CAPTION: potenţiometru rotativ
-[[../poze/50032.jpg]]
+[[./poze/50032.jpg]]
 
 Dacă aplicăm o tensiune constantă între cei doi terminali de la
 extremităţi, poziţia periei va „lua” doar o fracţiune din tensiunea
@@ -5151,7 +5151,7 @@ terminali. Valoarea acestei fracţii depinde în întregime de poziţia
 fizică a periei:
 
 #+CAPTION: potenţiometru ca şi divizor de tensiune variabilă
-[[../poze/00363.png]]
+[[./poze/00363.png]]
 
 Ca şi în cazul unui divizor de tensiune fix, /coeficientul de diviziune/
 este strict o funcţie de rezistenţă şi nu depinde de valoarea tensiunii
@@ -5173,7 +5173,7 @@ baterie iar sarcina (bec, de exemplu) o conectăm între terminalul periei
 
 #+CAPTION: ajustarea tensiunii pentru un circuit ce necesită o tensiune
 #+CAPTION: mai mică decât cea existentă la bornele bateriei
-[[../poze/00364.png]]
+[[./poze/00364.png]]
 
 Sumar:
 
@@ -5190,7 +5190,7 @@ Să luam un circuit serie cu trei rezistori şi să notăm punctele din
 circuit:
 
 #+CAPTION: circuit serie
-[[../poze/00110.png]]
+[[./poze/00110.png]]
 
 Dacă ar fi să conectăm un voltmetru între punctele 2 şi 1, sonda roşie
 la punctul 2 şi sonda neagră la punctul 1, voltmetru va indica valoarea
@@ -5198,7 +5198,7 @@ de +45 V. În mod normal, semnul „+” nu este arătat, ci este implicit în
 cazul citirii aparatelor de măsură digitale.
 
 #+CAPTION: formulă
-[[../poze/10106.png]]
+[[./poze/10106.png]]
 
 Când o tensiune este exprimată cu indice dublu („2-1” în cazul notaţiei
 „E_{2-1}”), înseamnă ca tensiunea este măsurată între cele două puncte.
@@ -5207,7 +5207,7 @@ cea indicată de un voltmetru cu sonda roşie conectată la punctul „c” şi
 sonda neagră la punctul „g”.
 
 #+CAPTION: voltmetru
-[[../poze/00435.png]]
+[[./poze/00435.png]]
 
 Dacă ar fi să luăm acelaşi voltmetru şi să măsurăm căderea de tensiune
 de pe fiecare rezistor, parcurgând circuitul în sensul acelor de
@@ -5215,10 +5215,10 @@ ceasornic, cu sonda roşie în faţă şi cu cea neagră în spate, am
 obţine/citi următoarele valori:
 
 #+CAPTION: formule
-[[../poze/10107.png]] 
+[[./poze/10107.png]] 
 #+CAPTION: parcurgerea
 #+CAPTION: circuitului cu voltmetru
-[[../poze/00436.png]]
+[[./poze/00436.png]]
 
 Suntem deja familiarizaţi cu conceptul general al circuitelor serie, si
 anume: suma căderilor de tensiune individuale este egală cu tensiunea
@@ -5227,7 +5227,7 @@ de polaritatea („+” sau „-”) citirilor, descoperim o altă variantă a
 acestui principiu: suma tensiunilor măsurată în acest fel este zero:
 
 #+CAPTION: măsurarea tensiunii între diferite puncte ale circuitului
-[[../poze/10108.png]]
+[[./poze/10108.png]]
 
 Acest principiu este cunoscut sub denumirea de /legea lui Kirchhoff
 pentru tensiune/ (descoperită în 1847 de către
@@ -5248,14 +5248,14 @@ tensiune va fi tot zero. Pentru a demonstra acest lucru, putem
 „modifica” bucla asfel (3-2-1-4-3):
 
 #+CAPTION: măsurarea tensiunii între diferite puncte ale circuitului
-[[../poze/10109.png]]
+[[./poze/10109.png]]
 
 Pentru o mai bună vizualizare, putem redesena circuitul serie de mai
 sus, asfel încât toate componentele să se regăsească pe aceeiaşi linie
 dreaptă:
 
 #+CAPTION: circuit serie
-[[../poze/00111.png]]
+[[./poze/00111.png]]
 
 Este exact acelaşi circuit, doar că aranjamentul componentelor este
 diferit. Observaţi polaritatea căderilor de tensiune de pe rezistori în
@@ -5271,14 +5271,14 @@ Acestea sunt indicaţiile pe care un voltmetru introdus în circuit le-ar
 afişa (sonda neagră în stânga, cea roşie în dreapta):
 
 #+CAPTION: circuit serie, măsurarea cu ajutorul voltmetrului
-[[../poze/00112.png]]
+[[./poze/00112.png]]
 
 Dacă am fi să luăm acelaşi voltmetru pentru a citi căderile de tensiunea
 pentru combinaţiile componentelor din circuit începând cu R_{1}, putem
 observa adunarea algebrică a tensiunilor (spre zero):
 
 #+CAPTION: circuit serie, măsurarea cu ajutorul voltmetrului
-[[../poze/00113.png]]
+[[./poze/00113.png]]
 
 În cadrul măsurătorilor de mai sus, putem observa importanţa
 /polarităţii/ căderilor de tensiune atunci când le adunăm. Citind
@@ -5306,14 +5306,14 @@ pentru /orice/ configuraţie a circuitului, nu doar pentru cele serie. Să
 vedem un exemplu pentru circuitul paralel prin urmare:
 
 #+CAPTION: circuit paralel
-[[../poze/00114.png]]
+[[./poze/00114.png]]
 
 Fiind un circuit paralel, căderile de tensiune pe fiecare rezistor în
 parte sunt aceleaşi precum tensiunea sursei de alimentare: 6 volţi.
 Măsurând tensiunile în bucla 2-3-4-5-6-7-2, obţinem:
 
 #+CAPTION: rezultate măsurători tensiune circuit paralel
-[[../poze/10110.png]]
+[[./poze/10110.png]]
 
 Observaţi notaţia căderii de tensiune totale (sumei) cu E_{2-2}. Din
 moment ce am început măsurătorile buclei la punctul 2 şi am terminat tot
@@ -5329,7 +5329,7 @@ set de puncte unde să putem măsura tensiunea - şi legea lui Kirchhoff
 tot ar fi valabilă:
 
 #+CAPTION: aplicarea legii lui Kirchhof
-[[../poze/00115.png]]
+[[./poze/00115.png]]
 
 Dacă încercăm orice combinaţie de paşi, pornind de la oricare terminal
 în diagrama de mai sus, completând o buclă asfel încât să ajungem la
@@ -5347,34 +5347,34 @@ Să analizăm un circuit paralel simplu, determinând valorile curenţilor
 prin fiecare ramură, prin fiecare rezistor în parte:
 
 #+CAPTION: circuit paralel
-[[../poze/00118.png]]
+[[./poze/00118.png]]
 
 Cunoscând faptul că pe fiecare component în parte căderea de tensiune
 este aceeiaşi, putem completa tabelul tensiune/curent/rezistenţă asfel
 (mărimile sunt exprimate în volţi, amperi şi ohmi):
 
 #+CAPTION: tabel valori tensiune/curent/rezistenţa
-[[../poze/10113.png]]
+[[./poze/10113.png]]
 
 Folosind legea lui Ohm (I=E/R) putem calcula curentul prin fiecare
 ramură:
 
 #+CAPTION: tabel valori tensiune/curent/rezistenţa
-[[../poze/10114.png]]
+[[./poze/10114.png]]
 
 Ştiind că în circuitele paralele suma curenţilor de pe fiecare ramură
 reprezintă curentul total, putem completa tabelul cu valoarea totală a
 curentului prin circuit, 11 mA:
 
 #+CAPTION: tabel valori tensiune/curent/rezistenţa
-[[../poze/10115.png]]
+[[./poze/10115.png]]
 
 Ultimul pas este calcularea rezistenţei totale, folosind legea lui Ohm
 (R=E/I), sau folosind formula rezistenţelor în paralel; răspunsul va fi
 acelaşi:
 
 #+CAPTION: tabel valori tensiune/curent/rezistenţa
-[[../poze/10116.png]]
+[[./poze/10116.png]]
 
 Ar trebui să fie evident deja faptul că prin fiecare rezistor curentul
 depinde de rezistenţa acestuia, ştiind că valoarea tensiunii prin toţi
@@ -5387,7 +5387,7 @@ Dacă ar fi să schimbăm sursa de tensiune din acest circuit, am descoperi
 că (supriză!) acest raport nu se modifică:
 
 #+CAPTION: tabel valori tensiune/curent/rezistenţa
-[[../poze/10117.png]]
+[[./poze/10117.png]]
 
 Curentul prin R_{1} este şi de data aceasta dublu curentului prin R_{3},
 cu toate că valoarea tensiunii de alimentare (tensiunea bateriei) s-a
@@ -5400,7 +5400,7 @@ tensiunea sursei a crescut de patru ori, raportul dintre curentul
 ramurii şi curentul total a rămas acelaşi:
 
 #+CAPTION: formula raport curent ramura, curent total
-[[../poze/10118.png]]
+[[./poze/10118.png]]
 
 Din acest motiv, un circuit paralel este denumit adesea un /divizor de
 curent/ pentru abilitatea sa de divizare a curentului total în fracţii.
@@ -5409,7 +5409,7 @@ curentului prin rezistorii paraleli, atunci când cunoaştem curentului
 total, rezistenţa totală şi rezistenţele individuale:
 
 #+CAPTION: formula divizorului de curent
-[[../poze/10119.png]]
+[[./poze/10119.png]]
 
 Raportul dintre rezistenţa totală şi rezistenţa individuală este acelaşi
 ca şi între curentul individual (pe ramură) şi cel total. Această
@@ -5422,7 +5422,7 @@ curentul prin ramuri folosind această formulă, dacă începem prin a
 cunoaşte valoarea totală a curentului şi a rezistenţei:
 
 #+CAPTION: formula divizorului de curent, aplicare
-[[../poze/10120.png]]
+[[./poze/10120.png]]
 
 Dacă facem o comparaţie între cele două formule divizoare, putem observa
 că sunt extrem de asemănătoare. Putem observa totuşi, că în cazul
@@ -5431,7 +5431,7 @@ R_{total}, iar în cazul divizorului de curent, raportul este chiar
 inversi R_{total} la R_{n}:
 
 #+CAPTION: formulele divizorului de tensiune şi curent
-[[../poze/10120.png]]
+[[./poze/10120.png]]
 
 Este foarte uşor să încurcăm cele două ecuaţii prin inversarea
 raportului rezistenţelor. O modalitate simplă de memorare a formei
@@ -5455,7 +5455,7 @@ rezistenţei folosită pe post de şunt pentru a „devia” cantitatea precisă
 de curent prin dispozitiv în orice situaţie.
 
 #+CAPTION: circuit divizor curent pentru aparat de măsură
-[[../poze/00119.png]]
+[[./poze/00119.png]]
 
 Sumar:
 
@@ -5468,13 +5468,13 @@ Sumar:
 Să considerăm următorul circuit paralel:
 
 #+CAPTION: circuit paralel
-[[../poze/00120.png]]
+[[./poze/00120.png]]
 
 Calculând toate valorile tensiunilor şi curenţilor din acest circuit,
 obţinem:
 
 #+CAPTION: tabel valori tensiune/curent/rezistenţă
-[[../poze/10116.png]]
+[[./poze/10116.png]]
 
 În acest moment cunoaştem valorile curenţilor din fiecare ramură precum
 şi valoarea totală a curentului din circuit. Cunoaştem faptul că
@@ -5485,7 +5485,7 @@ principiu foarte important în acest circuit. Să observăm aşadar ce se
 acest circuit:
 
 #+CAPTION: circuit paralel
-[[../poze/00121.png]]
+[[./poze/00121.png]]
 
 Pe ramura negativă de jos (8-7-6-5), la fiecare nod curentul principal
 se divide pe fiecare ramură succesivă spre rezistori. Pe ramura pozitivă
@@ -5495,7 +5495,7 @@ că valoarea curentului ce intră într-un nod este egală cu valoarea
 curentului ce părăseşte acel nod:
 
 #+CAPTION: circuit paralel
-[[../poze/00122.png]]
+[[./poze/00122.png]]
 
 Avem doi curenţi care intră în nodul 3, din partea dreaptă şi de jos.
 Din partea stângă avem un singur curent care iese din nod, egal ca şi
@@ -5523,7 +5523,7 @@ iese din nod prin partea stângă folosind legea lui Kirchhoff pentru
 curent asfel:
 
 #+CAPTION: formulă
-[[../poze/10125.png]]
+[[./poze/10125.png]]
 
 Semnul negativ (-) pentru valoarea de 5 mA ne spune faptul că, curentul
 /iese/ din acest nod, în contradicţie cu cei doi curenţi de 2 mA şi 3 mA
@@ -5548,7 +5548,7 @@ cap şi formează o singură cale pentru curgerea electronilor prin
 circuit:
 
 #+CAPTION: circuit serie
-[[../poze/00082.png]]
+[[./poze/00082.png]]
 
 În cazul circuitelor parale simple, toate conponentele sunt legate
 legate între acelaşi set de puncte comune din punct de vedere electric,
@@ -5556,7 +5556,7 @@ formându-se asfel mai multe căi pentru curgerea electronilor de la un
 capăt la celălalt al bateriei:
 
 #+CAPTION: circuit serie
-[[../poze/00083.png]]
+[[./poze/00083.png]]
 
 În ambele cazuri, avem de a face cu anumite seturi specifice de reguli
 pentru relaţiile dintre tesiune, curent şi rezistenţă. (notă: vezi
@@ -5570,9 +5570,9 @@ circuit şi a părţilor paralele, ca mai apoi să aplicăm regulile necesare
 în funcţie de tipul circuitului. Să vedem un exemplu:
 
 #+CAPTION: circuit serie-paralel combinat
-[[../poze/00123.png]]
+[[./poze/00123.png]]
 #+CAPTION: tabel
-[[../poze/10126.png]]
+[[./poze/10126.png]]
 
 Acesta nu este nici un circuit serie simplu nici unul paralel simplu, ci
 conţine elementele din ambele tipuri. Curentul iese prin partea de jos a
@@ -5646,9 +5646,9 @@ Deşi sună destul de complicat, vom înţelege întreg procesul mult mai
 uşor dacă luăm un exemplu practic:
 
 #+CAPTION: circuit serie-paralel combinat
-[[../poze/00123.png]]
+[[./poze/00123.png]]
 #+CAPTION: tabel
-[[../poze/10126.png]]
+[[./poze/10126.png]]
 
 În exemplul de mai sus, rezistorii R_{1} şi R_{2} sunt conectaţi în
 paralel; la fel şi R_{3} cu R_{4}. Pentru că am identificat aceast tip
@@ -5657,7 +5657,7 @@ combinaţii printr-o singură rezistenţă echivalentă. Circuitul redesenat
 arată asfel:
 
 #+CAPTION: circuit electric
-[[../poze/00124.png]]
+[[./poze/00124.png]]
 
 Simbolul (//) este folosit pentru a reprezentă faptul că valoarea celor
 două rezistoare a fost obţinută cu ajutorul formule 1/(1/R). Rezistorul
@@ -5669,7 +5669,7 @@ Tabelul valorilor poate fi mărit cu două coloane pentru a include şi
 valorile acestori doi rezistori echivalenţi:
 
 #+CAPTION: tabel
-[[../poze/10127.png]]
+[[./poze/10127.png]]
 
 Ar trebui să devină aparent că circuitul a fost redus la o configuraţie
 serie simplă ce conţine doar doi rezistori (echivalenţi). Pasul final în
@@ -5682,22 +5682,22 @@ al rezistenţelor în circuit. Simbolul „--” reprezintă conexiune „serie�
 iar simbolul „//” reprezintă conexiune „paralel”.
 
 #+CAPTION: circuit electric
-[[../poze/00125.png]] 
+[[./poze/00125.png]] 
 #+CAPTION: tabel
-[[../poze/10128.png]]
+[[./poze/10128.png]]
 
 În acest moment putem folosi legea lui Ohm (I=E/R) pentru determinarea
 curentului total prin circuit şi completarea coloanei corespunzătoare
 din tabel:
 
 #+CAPTION: tabel
-[[../poze/10129.png]]
+[[./poze/10129.png]]
 
 Reîntorcându-ne la diagrama circuitului, valoarea totală a curentului
 este momentan singura ce apare pe desen:
 
 #+CAPTION: circuit electric
-[[../poze/00126.png]]
+[[./poze/00126.png]]
 
 Acum putem începe să ne re-întoarcem la paşii anteriori în simplificarea
 circuitului spre configuraţia originală. Pasul următor este să ne
@@ -5705,7 +5705,7 @@ circuitului spre configuraţia originală. Pasul următor este să ne
 serie:
 
 #+CAPTION: circuit electric
-[[../poze/00127.png]]
+[[./poze/00127.png]]
 
 Din moment ce R_{1}//R_{2} şi R_{3}//R_{4} sunt în serie, curentul prin
 ambele seturi de rezistenţe echivalente este acelaşi. Mai mult decât
@@ -5715,16 +5715,16 @@ valoarea curentului total pentru fiecare din cele două grupuri de
 rezistenţe echivalente:
 
 #+CAPTION: tabel
-[[../poze/10130.png]]
+[[./poze/10130.png]]
 
 Cunoscând curentul prin rezistenţele echivalente R_{1}//R_{2} şi
 R_{3}//R_{4}, putem aplica legea lui Ohm (E=IR) pentru aflarea căderilor
 de tensiune pentru fiecare grup în parte, completând şi tabelul:
 
 #+CAPTION: circuit electric
-[[../poze/00128.png]] 
+[[./poze/00128.png]] 
 #+CAPTION: tabel
-[[../poze/10131.png]]
+[[./poze/10131.png]]
 
 Deoarece ştim că R_{1}//R_{2} şi R_{3}//R_{4} sunt defapt conexiuni
 echivalente paralele, iar căderile de tensiune în circuitele paralele
@@ -5733,9 +5733,9 @@ configuraţia iniţială a circuitului şi să completăm tabelul cu valorile
 calculate:
 
 #+CAPTION: circuit electric
-[[../poze/00129.png]] 
+[[./poze/00129.png]] 
 #+CAPTION: tabel
-[[../poze/10132.png]]
+[[./poze/10132.png]]
 
 Secţiune originală a tabelului pentru rezistori este acum completată
 (coloana R_{1} la R_{4}). Aplicând legea lui Ohm pentru celelalte valori
@@ -5743,13 +5743,13 @@ rămase necompletate (I=E/R), putem determina valorile prin R_{1}, R_{2},
 R_{3} şi R_{4}:
 
 #+CAPTION: tabel
-[[../poze/10133.png]]
+[[./poze/10133.png]]
 
 Circuitul iniţial cu toate valorile tensiunilor, curenţilor şi a
 rezistenţelor arată asfel:
 
 #+CAPTION: circuit electric
-[[../poze/00130.png]]
+[[./poze/00130.png]]
 
 Sumar:
 
@@ -5804,7 +5804,7 @@ cu mărimea curentului.
 *** Galvanometrul
 
 #+CAPTION: galvanometru
-[[../poze/50030.jpg]]
+[[./poze/50030.jpg]]
 
 Primele astfel de aparate de măsură construite erau cunoscute sub numele
 de galvanometre, fiind recunoscute pentru precizia lor. Un model foarte
@@ -5825,7 +5825,7 @@ dispozitiv prezentat mai sus.
 
 #+CAPTION: principiul de construcţie a unui aparate de măsură
 #+CAPTION: electromagnetic (analogic)
-[[../poze/00146.png]]
+[[./poze/00146.png]]
 
 Aparatele de măsură electromagnetice sunt realizate în prezent dintr-o
 bobină suspendată într-un câmp magnetic, protejată de majoritatea
@@ -5849,7 +5849,7 @@ pentru a permite o citire mult mai precisă a indicaţiei acului.
 
 #+CAPTION: aparat de măsură; scala conţine atât valori pozitive cât şi
 #+CAPTION: valori negative
-[[../poze/00147.png]]
+[[./poze/00147.png]]
 
 Majoritatea aparatelor pot detecta polaritatea curentului, o direcţie a
 acestuia ducând la deplasarea acului într-un anumit sens, iar direcţia
@@ -5872,7 +5872,7 @@ alte cuvinte, pe forţa de atracţie sau de respingere generată de
 sarcinile electrice în mediul dintre ele.
 
 #+CAPTION: aparat de măsură electrostatic
-[[../poze/00148.png]]
+[[./poze/00148.png]]
 
 Dacă aplicăm o tensiune între două suprafeţe conductoare separate
 printr-un dielectric format din aer, va exista o forţă fizică de
@@ -5897,7 +5897,7 @@ este absolut necesară pentru realizarea unui volmetru profesional.
 **** Tubul catodic (CRT)
 
 #+CAPTION: tubul catodic
-[[../poze/00149.png]]
+[[./poze/00149.png]]
 
 O aplicaţie mult mai întâlnită a dispozitivelor electrostatice este
 tubul catodic. Acestea sunt tuburi speciale din sticlă, similare celor
@@ -5923,7 +5923,7 @@ luminos de pe afişaj regăsindu-se la o distanţa mai mare faţă de centrul
 acestuia.
 
 #+CAPTION: tub catodic
-[[../poze/50001.jpg]]
+[[./poze/50001.jpg]]
 
 Un astfel de tub este prezentat în figura alăturată. Într-un tub real,
 precum cel alăturat, există două perechi de placi metalice pentru
@@ -5974,7 +5974,7 @@ indicator.
 *** Modelul D'Arsonval
 
 #+CAPTION: dispozitiv de măsură D'Arsonval
-[[../poze/00150.png]]
+[[./poze/00150.png]]
 
 Să luăm ca şi prim exemplu un dispozitiv tip D'Arsonval, cu o rezistenţa
 internă a bobinei de 500 Ω, şi a cărei deplasare maximă (D.M.) se
@@ -5996,7 +5996,7 @@ Desigur, va trebui să modificăm şi scala aparatului de măsură, astfel
 valoarea reală a tensiuni măsurate.
 
 #+CAPTION: dispozitiv de măsură D'Arsonval
-[[../poze/00151.png]]
+[[./poze/00151.png]]
 
 Această operaţie se poate realiza foarte uşor cu ajutorul unui divizor
 de tensiune. Ştiind că un divizor de tensiune se realizează cu ajutorul
@@ -6057,7 +6057,7 @@ Ultimul pas constă în aplicarea legii lui Ohm (R = E / I) pentru
 determinarea rezistenţei rezistorului de multiplicare.
 
 #+CAPTION: voltmetru
-[[../poze/00152.png]]
+[[./poze/00152.png]]
 
 Indiferent de metoda folosită, răspunsul final este acelaşi (9.5 kΩ).
 Putem aplica ambele metode, pentru a ne asigura că rezultatul final este
@@ -6086,7 +6086,7 @@ pentru a putea indica o tensiune sau un curent mult mai mari.
 
 #+CAPTION: volmetru folosind un comutator multi-polar si o serie de
 #+CAPTION: rezistori de multiplicare
-[[../poze/00153.png]]
+[[./poze/00153.png]]
 
 În general, este foarte utilă prezenţa mai multor astfel de circuite
 divizoare, pentru a putea măsură o plajă destul de largă de valori
@@ -6103,7 +6103,7 @@ aceleaşi caracteristici principale (1 mA, 500 Ω).
 
 #+CAPTION: volmetru folosind un comutator multi-polar si o serie de
 #+CAPTION: rezistori de multiplicare
-[[../poze/00154.png]]
+[[./poze/00154.png]]
 
 Cu o astfel de variantă, valoarea fiecărui rezistor este determinată
 folosind aceiaşi metodă utilizată mai sus, cunoscând tensiunea totală
@@ -6113,7 +6113,7 @@ alăturate.
 
 #+CAPTION: volmetru folosind un comutator multi-polar si o serie de
 #+CAPTION: rezistori de multiplicare
-[[../poze/00155.png]]
+[[./poze/00155.png]]
 
 Putem observa că valorile rezistorilor de multiplicare sunt puţin
 ciudate. Este puţin probabil să găsim un rezistor de precizie cu o
@@ -6158,7 +6158,7 @@ Totuşi, astfel de voltmetre nu există decât în paginile cărţilor, nu şi
 
 #+CAPTION: măsurarea căderii de tensiune într-un circuit divizor de
 #+CAPTION: tensiune cu ajutorul unui voltmetru
-[[../poze/00156.png]]
+[[./poze/00156.png]]
 
 Să luăm ca şi exemplu circuitul divizor de tensiune din figura
 alăturată, ca şi un exemplu extrem al efectelor unui voltmetru asupra
@@ -6166,7 +6166,7 @@ circuitului de măsurat.
 
 #+CAPTION: realizarea unui subcircuit între volmetru şi componentul
 #+CAPTION: asupra cărei se face măsurarea tensiunii
-[[../poze/00157.png]]
+[[./poze/00157.png]]
 
 Atunci când voltmetrul nu este conectat în circuit, vom aveam o cădere
 de tensiune de exact 12 V pe fiecare dintre cei doi rezistori (vezi
@@ -6177,7 +6177,7 @@ subcircuit paralel cu rezistorul inferior al divizorului.
 
 #+CAPTION: modificarea căderilor de tensiune din circuit ca urmare a
 #+CAPTION: conectării volmetrului
-[[../poze/00158.png]]
+[[./poze/00158.png]]
 
 Acest lucru duce la scăderea rezistenţei inferioare de la 250 MΩ la 9,61
 MΩ (circuit paralel), modificând fundamental căderile de tensiune din
@@ -6215,7 +6215,7 @@ indiferent de domeniu de tensiune ales.
 
 #+CAPTION: volmetru folosind un comutator multi-polar si o serie de
 #+CAPTION: rezistori de multiplicare
-[[../poze/00154.png]]
+[[./poze/00154.png]]
 
 Să reluăm exemplu din secţiunea precedentă. Pe domeniul 1000 V,
 rezistenţa totală este de 1 MΩ (999,5 kΩ + 500Ω), ceea ce înseamnă 1 MΩ
@@ -6247,7 +6247,7 @@ curent mai mic pentru o deflecţie maximă). Variabila ce trebuie luată
 mai sensibilită, cu cât acesta tinde să fie mai fragil.
 
 #+CAPTION: amplificarea curentului voltmetrului pe cale electronică
-[[../poze/00370.png]]
+[[./poze/00370.png]]
 
 O altă modalitate constă în amplificarea electronică a curentului
 necesar deplasării, astfel încât curentul ce este absorbit de către
@@ -6272,7 +6272,7 @@ partea utilizatorului.
 
 #+CAPTION: măsurarea căderii de tensiune din circuit cu ajutorul unui
 #+CAPTION: detector de nul
-[[../poze/00159.png]]
+[[./poze/00159.png]]
 
 Într-un detector de nul, o sursă de tensiune de precizie, ajustabilă,
 este comparată cu tensiune de măsură iar aparatul indică diferenţa de
@@ -6295,14 +6295,14 @@ poate auzi la deconectarea sursei de c.c.
 
 #+CAPTION: detector de nul realizat cu ajutorul unei perechi de căşti şi
 #+CAPTION: un întrerupător
-[[../poze/00425.png]]
+[[./poze/00425.png]]
 
 Luând în considerare acest principiu, un detector de nul sensibil poate
 fi realizat dintr-o simplă pereche de căşti şi un întrerupător.
 
 #+CAPTION: detector de nul realizat cu ajutorul unei perechi de căşti şi
 un întrerupător; adăugarea în circuit a unui transformator
-[[../poze/00426.png]]
+[[./poze/00426.png]]
 
 Dacă folosim o pereche de căşti de 8 Ω, sensibilitatea aparatului poate
 fi crescută prin conectarea sa la un transformator coborâtor de
@@ -6313,13 +6313,13 @@ pentru curenţi mult mai mici.
 
 #+CAPTION: detector de nul realizat cu ajutorul unei perechi de căşti şi
 #+CAPTION: un întrerupător; exemplu
-[[../poze/00424.png]]
+[[./poze/00424.png]]
 
 Conectat în circuitul cu detector de nul prezentat mai sus, configuraţia
 arată precum în figura alăturată.
 
 #+CAPTION: balanţă de laborator; măsurarea unei greutăţi necunoscute
-[[../poze/00160.png]]
+[[./poze/00160.png]]
 
 Scopul oricărui detector de nul este să se comporte precum o balanţă de
 laborator, indicând condiţia de egalitate ale celor două tensiuni, sau,
@@ -6336,7 +6336,7 @@ egală cu căderea de tensiune pe rezistorul R_{2}.
 
 #+CAPTION: etector de nul realizat cu ajutorul unei perechi de căşti şi
 #+CAPTION: un întrerupător; exemplu
-[[../poze/00161.png]]
+[[./poze/00161.png]]
 
 Pentru a utiliza acest instrument, trebuie să ajustăm manual sursa de
 tensiune prin intermediul unui potenţiometru, acţionând de fiecare data
@@ -6391,7 +6391,7 @@ observa că un astfel de aparat este destul de limitat, deplasarea maximă
 realizându-se pentru un curent de doar 1 mA.
 
 #+CAPTION: aparat de măsură
-[[../poze/00150.png]]
+[[./poze/00150.png]]
 
 Odată cu extinderea plajei de valori ale aparatului de măsură, trebuie
 să modificăm şi scala valorilor pentru a reflecta această modificare. De
@@ -6401,7 +6401,7 @@ modificăm marcajul astfel: 0 A în partea stângă şi 5 A în partea
 dreaptă, în loc de 0 mA şi 1 mA.
 
 #+CAPTION: ampermetru; adăugarea unei rezistenţe de şunt
-[[../poze/00162.png]]
+[[./poze/00162.png]]
 
 După ce ne-am hotărât ca vrem să extindem domeniul maxim la 5 A, vom
 trece la determinarea rezistenţei de şuntare. Aceasta va asigura o
@@ -6460,7 +6460,7 @@ Desigur, în realitate, rezistenţa de şunt se regăşeste în interiorul
 aparatului de măsură.
 
 #+CAPTION: ampermetru; adăugarea rezistenţelor de şunt
-[[../poze/00163.png]]
+[[./poze/00163.png]]
 
 La fel ca şi în cazul voltmetrelor, pot exista mai multe valori ale
 curenţilor de deplasare maximă. Acest lucru se realizează prin
@@ -6476,7 +6476,7 @@ detectare al deplasării (1 mA, 500 Ω).
 
 #+CAPTION: ampermetru; determinarea rezistenţelor de şunt conectare în
 #+CAPTION: paralel
-[[../poze/00164.png]]
+[[./poze/00164.png]]
 
 Valoarea fiecărui rezistor se determină prin aceiaşi metodă, luând în
 considerare curentul total, deplasarea maximă şi rezistenţa internă.
@@ -6513,7 +6513,7 @@ rezistorii de precizie cu o putere nominală de 50 W sunt extrem de rari
 
 #+CAPTION: utilizarea rezistenţelor de şunt în paralel cu un voltmetru
 #+CAPTION: pentru măsurarea curentului
-[[../poze/00165.png]]
+[[./poze/00165.png]]
 
 În unele cazuri, rezistorii de şunt sunt utilizaţi în combinaţie cu
 voltmetre cu rezistenţa de intrare ridicată pentru măsurarea curenţilor.
@@ -6535,7 +6535,7 @@ putea citi direct valorile curentului.
 
 #+CAPTION: introducerea unui ampermetru în circuit pentru măsurarea
 #+CAPTION: curentului
-[[../poze/00166.png]]
+[[./poze/00166.png]]
 
 Utilizarea unui rezistor de şunt în combinaţie cu un voltmetru poate
 simplifca operaţiile de măsurare ale curenţilor, atunci când acestea
@@ -6548,7 +6548,7 @@ circuitul.
 măsurarea curentului cu ajutorul unui voltmetru; util în cazul unui
 circuit asupra căruia sunt necesare măsurători dese ale valorii
 #+CAPTION: curentului
-[[../poze/00167.png]]
+[[./poze/00167.png]]
 
 Dacă avem un circuit în care această operaţie trebuie realizată des, sau
 dacă dorim simplificarea procesului de măsură, putem plasa permanent un
@@ -6563,7 +6563,7 @@ exista o mică eroare de măsură datorită prezenţei şuntului, dar aceasta
 se încadrează în limite acceptabile.
 
 #+CAPTION: ampermetru; adăugarea rezistenţelor de şunt
-[[../poze/00163.png]]
+[[./poze/00163.png]]
 
 Sumar:
 
@@ -6587,7 +6587,7 @@ acestuia. Observaţi că acest lucru este exact opus voltmetrului (curent
 cât mai mic consumat din circuit).
 
 #+CAPTION: circuit paralel pur rezistiv
-[[../poze/00169.png]]
+[[./poze/00169.png]]
 
 Să vedem un exemplu pentru identificarea efectelor unui ampermetru
 asupra circuitului. Atunci când ampermetrul nu este introdus în circuit,
@@ -6596,7 +6596,7 @@ rezistorul de 1,5 Ω este de 1,33 A.
 
 #+CAPTION: circuit paralel pur rezistiv; introducerea ampermetrului
 #+CAPTION: într-una dintre ramuri
-[[../poze/00170.png]]
+[[./poze/00170.png]]
 
 Dacă ampermetrul cu care efectuăm măsurătorile are o rezistenţă internă
 de 0,5 Ω, introducerea acestuia într-una din ramurile circuitului va
@@ -6606,7 +6606,7 @@ stânga de la 3 Ω la 3,5 Ω, ampermetrul va indica un curent de 571, 43 mA
 
 #+CAPTION: circuit paralel pur rezistiv; introducerea ampermetrului
 #+CAPTION: într-una dintre ramuri
-[[../poze/00171.png]]
+[[./poze/00171.png]]
 
 Introducerea ampermetrului în ramura din dreapta va avea un efect şi mai
 mare asupra curentului din aceasta. În acest caz, curentul de ramură va
@@ -6625,7 +6625,7 @@ circuitul iniţial, va duce la modificarea comportamentului acestuia.
 
 #+CAPTION: măsurarea curentului dintr-un circuit cu ajutorul
 #+CAPTION: clampmetrului
-[[../poze/00172.png]]
+[[./poze/00172.png]]
 
 O metodă ingenioasă de reducere a impactului pe care îl are un aparat de
 măsură asupra circuitului, este utilizarea conductorului ca parte
@@ -6638,7 +6638,7 @@ de ampermetru poartă numele de clampmetru sau cleşte ampermetric.
 
 #+CAPTION: măsurarea curentului dintr-un circuit cu ajutorul
 #+CAPTION: clampmetrului
-[[../poze/00173.png]]
+[[./poze/00173.png]]
 
 Acesta constă practic din doi cleşti ce se pun în jurul conductorului.
 Cu ajutorul acestor dispozitive se pot realiza măsurător rapide şi
@@ -6675,7 +6675,7 @@ valoare a rezistenţei de măsurat.
 baterie:
 
 #+CAPTION: ohmmetru analogic
-[[../poze/00174.png]]
+[[./poze/00174.png]]
 
 Când avem o rezistenţă infinită (nu există continuitate între cele două
 sonde), curentul prin circuitul intern al ohmmetrului este zero. În
@@ -6691,7 +6691,7 @@ acestui curent este limitată doar de tensiunea bateriei şi de rezistenţa
 internă a mecanismului de măsură:
 
 #+CAPTION: ohmmetru analogic
-[[../poze/00175.png]]
+[[./poze/00175.png]]
 
 Cu o tensiune a bateriei de 9 V şi o rezistenţa internă a mecanismului
 de deplasare de doar 500 Ω, curentul prin circuit va fi de 18 mA.
@@ -6708,7 +6708,7 @@ indicator este maximă spre dreapta doar când sondele sunt conectate
 unei rezistenţe serie în circuitul aparatului de măsură:
 
 #+CAPTION: ohmmetru analogic
-[[../poze/00176.png]]
+[[./poze/00176.png]]
 
 Pentru determinarea valorii lui R, calculăm rezistenţa totală din
 circuit necesară pentru a limita curentul la 1 mA (curentul necesar
@@ -6740,7 +6740,7 @@ iar valorile rezistenţelor se adună din ce în ce mai rapid una lângă
 cealaltă pe măsură ce trecem în partea stângă a scalei:
 
 #+CAPTION: scala logaritmică a unui ohmmetru
-[[../poze/00177.png]]
+[[./poze/00177.png]]
 
 Nu ne putem apropia de infinit printr-o manieră liniară, pentru că scala
 nu ar ajunge niciodată acolo! Cu o scală ne-liniară, cantitatea de
@@ -6778,7 +6778,7 @@ R_{total} = E / I = 9 V / 750 µA R_{total} = 12 kΩ R_{test} = R_{total}
 Prin urmare, scala finală a ohmmetrului arată astfel:
 
 #+CAPTION: scala logaritmică a unui ohmmetru
-[[../poze/00178.png]]
+[[./poze/00178.png]]
 
 *** Dezavantajele metodei de mai sus
 
@@ -6834,7 +6834,7 @@ materialelor ne-metalice. Un dielectric format dintr-o mică porţiune de
 aer, prezintă (aproximativ) următorul grafic curent-tensiune:
 
 #+CAPTION: graficul curent-tensiune
-[[../poze/00048.png]]
+[[./poze/00048.png]]
 
 Deşi acesta este un exemplu extrem de conducţie non-liniară, aceleaşi
 proprietăţi izolatoare/conductoare se regăsesc şi în cazul altor
@@ -6852,7 +6852,7 @@ Metoda cea mai directă de măsurare a rezistenţelor folosind tensiuni
 precedentă a ohmmetrului neschimbată:
 
 #+CAPTION: ohmmetru de tensiune înaltă
-[[../poze/00371.png]]
+[[./poze/00371.png]]
 
 Totuşi, cunoscând faptul că rezistenţa unora dintre materiale tinde să
 se modifice odată cu variaţia tensiunii aplicate, ar fi avantajos dacă
@@ -6860,7 +6860,7 @@ am putea selecta tensiunea de funcţionare a ohmmetrului în funcţie de
 condiţiile de realizare a măsurătorii:
 
 #+CAPTION: ohmmetru de tensiune înaltă (tensiune variabilă)
-[[../poze/00372.png]]
+[[./poze/00372.png]]
 
 Din păcate, această situaţie crează o problemă de calibrare a
 ohmmetrului. Dacă deplasarea acului indicator este maximă cu o anumită
@@ -6879,7 +6879,7 @@ aplicată. Această nevoie poate fi îndeplinită folosind un sistem
 electromecanic special, sistem tipic megohmmetrelor:
 
 #+CAPTION: megohmmetru
-[[../poze/00373.png]]
+[[./poze/00373.png]]
 
 Blocurile rectangulare numerotate din figura de mai sus reprezintă
 secţiuni transversale al bobinelor. Toate cele trei bobine se deplasează
@@ -6889,7 +6889,7 @@ poziţia iniţială. Când aparatul nu este alimentat, acul indicator va
 astfel:
 
 #+CAPTION: megohmmetru; modul de conectare al bobinelor
-[[../poze/00374.png]]
+[[./poze/00374.png]]
 
 Când avem o rezistenţă infinită între cele două sonde (circuit deschis,
 precum în figura de sus), singurul curent existent în circuit va fi prin
@@ -6898,7 +6898,7 @@ bobine încearcă să se alinieze în spaţiul liber dintre cei doi poli
 magnetici. Acul indicator se va deplasa spre dreapta scalei (infinit):
 
 #+CAPTION: megohmmetru
-[[../poze/00381.png]]
+[[./poze/00381.png]]
 
 Existenţa unui curent prin bobina 1 (printr-o rezistenţa de măsurat
 conectată între cele două sonde de măsură) tinde să ducă acul indicat
@@ -6935,7 +6935,7 @@ Schema de principiu a unui voltmetru/ampermetru analogic simplu, arată
 astfel:
 
 #+CAPTION: schema de principiu voltmetru/ampermetru
-[[../poze/00417.png]]
+[[./poze/00417.png]]
 
 În cele trei poziţii de jos ale comutatorului, mecanismul de detecţie al
 aparatului este conectat la prizele „common” şi V printr-unul din cei
@@ -6953,7 +6953,7 @@ Dacă dorim şi adăugarea unui ohmmetru aparatului de măsură de mai sus,
 putem înlocui una din cele trei poziţii ale voltmetrului, astfel:
 
 #+CAPTION: schema de principiu voltmetru/ampermetru/ohmmetru
-[[../poze/00418.png]]
+[[./poze/00418.png]]
 
 Cu toate cele trei funcţii disponibile, acest multimetru mai este
 cunoscut şi sub numele de volt-ohm-miliampermetru.
@@ -6978,7 +6978,7 @@ rezistenţa conductorilor (R_{fir}) ce realizează conexiunea ohmmetrului
 cu rezistenţa de măsurat (R_{măsură}):
 
 #+CAPTION: măsurarea rezistenţelor aflate la distanţă
-[[../poze/00474.png]]
+[[./poze/00474.png]]
 
 În mod normal, rezistenţa fireloc conductoare este foarte mică. Dar,
 dacă firele conductoare sunt foarte lungi, sau în cazul în care
@@ -6997,7 +6997,7 @@ componentului dacă măsurăm curentul ce trece prin el şi căderea de
 tensiune la bornele sale:
 
 #+CAPTION: măsurarea rezistenţei cu o combinaţie ampermetru-voltmetru
-[[../poze/00475.png]]
+[[./poze/00475.png]]
 
 Valoarea curentului este aceiaşi în întreg circuitul, deoarece este un
 circuit serie. Întrucât măsurăm doar căderea de tensiune la bornele
@@ -7016,7 +7016,7 @@ din nou rezistenţa „parazită” a firelor conductoare în circuit. Ce este
 de făcut în acest caz?
 
 #+CAPTION: măsurarea rezistenţei cu o combinaţie ampermetru-voltmetru
-[[../poze/00476.png]]
+[[./poze/00476.png]]
 
 Dacă suntem puţin mai atenţi, putem observa că nu există nicio problemă
 legată de căderea de tensiune în lungul conductorilor, deoarece valoarea
@@ -7027,7 +7027,7 @@ conectat în apropierea componentului de măsurat şi voltmetru conectat la
 o distanţă apreciabilă:
 
 #+CAPTION: măsurarea rezistenţei cu o combinaţie ampermetru-voltmetru
-[[../poze/00477.png]]
+[[./poze/00477.png]]
 
 Orice cădere de tensiune existentă pe conductorii principali nu va fi
 măsurată de voltmetru. Precizia măsurătorii poate fi îmbunătăţită dacă
@@ -7044,7 +7044,7 @@ Kelvin, ce sunt special realizaţi pentru a facilita acest tip de
 măsurători:
 
 #+CAPTION: terminali Kelvin
-[[../poze/00478.png]]
+[[./poze/00478.png]]
 
 Terminalii/clemele tip crocodil (banane) au ambele jumătăţi ale braţului
 comune din punct de vedere electric (de obicei în zona articulaţiei). În
@@ -7056,7 +7056,7 @@ braţele „P” (potenţial, sau tensiune) şi nu va exista o cădere de
 tensiune în lungul lor care să ducă la erori de măsură:
 
 #+CAPTION: terminali Kelvin
-[[../poze/00479.png]]
+[[./poze/00479.png]]
 
 *** Rezistori de şunt de precizie înaltă
 
@@ -7072,7 +7072,7 @@ fi măsurat cu o precizie ridicată prin măsurarea căderii de tensiune la
 bornele şuntului:
 
 #+CAPTION: măsurarea curentului cu ajutorul rezistorilor de şunt
-[[../poze/00165.png]]
+[[./poze/00165.png]]
 
 Măsurarea curentului cu ajutorului unui rezistor de şunt şi un voltmetru
 este indicată în aplicaţiile de curent înalt. În astfel de cazuri,
@@ -7088,7 +7088,7 @@ Pentru ca voltmetrul să măsoare doar căderea de tensiune la bornele
 conductoare, şunturile sunt adesea prevăzute cu /patru/ terminali:
 
 #+CAPTION: şunt cu patru terminale
-[[../poze/00480.png]]
+[[./poze/00480.png]]
 
 *** Rezistori de precizie cu patru terminali
 
@@ -7106,7 +7106,7 @@ jos are patru terminali: cei doi terminali mari pentru curent şi cei doi
 terminali mai mici pentru tensiune:
 
 #+CAPTION: rezistor de precizie cu patru terminali
-[[../poze/50044.jpg]]
+[[./poze/50044.jpg]]
 
 Trebuie să facem observaţia că rezistenţa măsurată astfel, folosind atât
 un voltmetru cât şi un ampermetru, este supusă unei erori compuse.
@@ -7130,7 +7130,7 @@ pentru realizarea contactelor cu rezistenţa de măsură, circuitul arată
 astfel:
 
 #+CAPTION: măsurarea rezistenţei
-[[../poze/00481.png]]
+[[./poze/00481.png]]
 
 Toţi conductorii din figura de mai sus prin care trece curent sunt
 reprezentaţi cu linie îngroşată, pentru a face distincţie între
@@ -7157,7 +7157,7 @@ Circuitul în puncte standard, numit adeasea şi punte Wheatstone, arată
 astfel:
 
 #+CAPTION: punte Wheatstone
-[[../poze/00179.png]]
+[[./poze/00179.png]]
 
 Atunci când căderea de tensiune între punctul 1 şi borna negativă a
 bateriei este egală cu tensiunea dintre punctul 2 şi borna negativă a
@@ -7182,12 +7182,12 @@ trebui să cunoaştem valorile exacte ale celorlalţi trei rezistori în
 starea de echilibru, dacă dorim să determinăm valoarea lui R_{x}:
 
 #+CAPTION: punte Wheatstone
-[[../poze/00180.png]]
+[[./poze/00180.png]]
 
 Ecuaţia de echilibru a punţii Wheatstone este următoarea:
 
 #+CAPTION: formulă
-[[../poze/00180-1.png]]
+[[./poze/00180-1.png]]
 
 Fiecare din cei patru rezistori a unei punţi poartă numele de braţ.
 Rezistorul conectat în serie cu rezistenţa necunoscută R_{x} (R_{a} în
@@ -7219,7 +7219,7 @@ Kelvin, cunoscută şi sub numele de punte Thomson. Aceast circuit este
 utilizat pentru măsurarea rezistenţelor extrem de mici (sub 1/10 ohmi):
 
 #+CAPTION: punte Thomson
-[[../poze/00419.png]]
+[[./poze/00419.png]]
 
 Rezistorii de valoare mică sunt reprezentaţi prin simboluri cu linie
 îngroşată, la fel şi conductorii (prin care trece un curent mare) la
@@ -7232,7 +7232,7 @@ Dacă am dori să folosim o punte Wheatstone standard pentru a măsura
 rezistenţe de o valoare foarte mica, circuitul ar artăta astfel:
 
 #+CAPTION: punte Wheatstone pentru măsurarea rezistenţelor mici
-[[../poze/00420.png]]
+[[./poze/00420.png]]
 
 Când detectorul de nul indică o tensiune zero, ştim că puntea este
 echilibrată iar raporturile R_{a} / R_{b} şi R_{M} / R_{N} sunt egale.
@@ -7248,7 +7248,7 @@ lucruri vor afecta indicaţia detectorului de nul, şi prin urmare, starea
 de echilibru a punţii:
 
 #+CAPTION: punte Wheatstone pentru măsurarea rezistenţelor mici
-[[../poze/00421.png]]
+[[./poze/00421.png]]
 
 Din moment ce nu dorim măsurarea acestor rezistenţe parazite, ci doar a
 rezistenţei R_{x}, trebuie găsita o modalitate de corectare a
@@ -7258,7 +7258,7 @@ conectăm detectorul de nul şi braţele R_{M} / R_{N} direct la bornele
 rezistorilor R_{a} şi R_{x}, ne vom apropia de o soluţia mai practică:
 
 #+CAPTION: punte Wheatstone pentru măsurarea rezistenţelor mici
-[[../poze/00422.png]]
+[[./poze/00422.png]]
 
 În această configuratie, cele două căderi de tensiune E_{fir} din partea
 de sus şi de jos nu au niciun efect asupra detectorului de nul şi nu vor
@@ -7275,7 +7275,7 @@ situaţie este realizarea unui drum puternic rezistiv între partea de jos
 a rezistorului R_{a} şi partea de sus a rezistorului R_{x}:
 
 #+CAPTION: punte Thomson (punte Kelvin dublă)
-[[../poze/00423.png]]
+[[./poze/00423.png]]
 
 Putem controla căderile de tensiune parazite între R_{a} şi R_{x} prin
 dimensionarea celor doi rezistori noi, astfel încât raportul celui de
@@ -7286,7 +7286,7 @@ puncţii Thomson: pentru a scoate în evidenţa proporţionalitatea lor cu
 rezistorii R_{M} şi R_{N}:
 
 #+CAPTION: punte Thomson
-[[../poze/00419.png]]
+[[./poze/00419.png]]
 
 Raportul R_{m} / R_{n} fiind egal cu raportul R_{M} / R_{N}, braţul
 R_{a} (reostatul) este ajustat până în momentul în care detectorul de
@@ -7295,12 +7295,12 @@ R_{x} este egal cu R_{M} / R_{N}. Putem calcula R_{x} cu următoarea
 ecuaţie:
 
 #+CAPTION: formulă
-[[../poze/10270.png]]
+[[./poze/10270.png]]
 
 De fapt, ecuaţia de echilibru a punţii Thomson este următoarea:
 
 #+CAPTION: formulă
-[[../poze/10271.png]]
+[[./poze/10271.png]]
 
 unde R_{fir} este rezistenţa firului conductor gros dintre rezistenţa
 standard de jos R_{a} şi rezistenţa de test R_{x}.
@@ -7351,7 +7351,7 @@ circuitului, iar bobina staţionară este alimentată de curentul
 circuitului. Într-un cirucuit, o astfel de strucutră arată astfel:
 
 #+CAPTION: conectarea wattmetrului în circuit
-[[../poze/00181.png]]
+[[./poze/00181.png]]
 
 Bobina de sus (orizontală) măsoară curentul, în timp ce bobina de jos
 (verticală) măsoară căderea de tensiune. La fel ca în cazul
@@ -7367,7 +7367,7 @@ aparatului de măsură. Bobina mobilă nu se poate bucura de această
 pentru a o inerţie minimă.
 
 #+CAPTION: electrodinamometru
-[[../poze/00182.png]]
+[[./poze/00182.png]]
 
 Sumar:
 
@@ -7397,7 +7397,7 @@ curentului prin conductor este anulat. De asemenea, un câmp magnetic
 extern nu poate induce o cădere de tensiune în lungul conductorului:
 
 #+CAPTION: înfăşurare bifilară; realizarea rezistorilor
-[[../poze/00413.png]]
+[[./poze/00413.png]]
 
 După cum vă puteţi imagina, această se poate dovedi extrem de
 laborioasă, îndeosebi în cazul în care avem nevoie de mai mulţi
@@ -7413,7 +7413,7 @@ duplicată mult mai uşor pentru crearea unor rezistenţe multiple cu
 aceiaşi valoare:
 
 #+CAPTION: conectarea rezistorilor în combinaţii serie-paralel
-[[../poze/00414.png]]
+[[./poze/00414.png]]
 
 Dezavantajul ambelor metode constă în faptul că ambele rezistenţe
 rezultate au o valoare fixă. Într-o lume perfectă, mecanismele de
@@ -7447,7 +7447,7 @@ unei combinaţii mai mari de rezistori. Acest lucru va crea un domeniu
 limitat de selecţie. Să urmărim următorul exemplu:
 
 #+CAPTION: conectarea rezistorilor în combinaţii serie-paralel
-[[../poze/00415.png]]
+[[./poze/00415.png]]
 
 În acest caz, potenţiometrul de 1 kΩ, conectat ca şi reostat, introduce
 în circuit o rezistenţă variabilă între 0 Ω şi 1 kΩ. Conectat în serie
@@ -7463,7 +7463,7 @@ potenţiometrului asupra valorii totale a rezistenţei circuitului prin
 conectarea unui rezistor de valoare fixă în paralel:
 
 #+CAPTION: conectarea rezistorilor în combinaţii serie-paralel
-[[../poze/00416.png]]
+[[./poze/00416.png]]
 
 Acum, ajustarea rezistorului se poate face doar în limita a 500 Ω, de la
 8 kΩ la 8,5 kΩ. O precizie de +/- 1 Ω este egală cu 1 parte din 500, sau
@@ -7537,7 +7537,7 @@ aerului atunci când bazinul este gol, una medie când bazinul este
 parţial plin şi o presiune ridicată atunci când bazinul este plin.
 
 #+CAPTION: sistem măsurare nivel apă în bazin folosind aer comprimat
-[[../poze/00183.png]]
+[[./poze/00183.png]]
 
 Indicatorul nivelului de apă este de fapt un aparat de măsură a
 presiunii din tubul de aer. Această presiune a aerului, fiind un
@@ -7574,7 +7574,7 @@ necesară utilizarea unui echipament scump. precum compresoarele de aer,
 pentru utilizare:
 
 #+CAPTION: sistem măsurare nivel apă în bazin folosind aer comprimat
-[[../poze/00184.png]]
+[[./poze/00184.png]]
 
 Deşi semnalele electronice analogice încep să fie înlocuite de cele
 digitale, este bine să avem o bună înţelegere a principiilor de bază din
@@ -7621,7 +7621,7 @@ soluţie bună în acest caz. Să vedem aşadar cum am putea folosi un semnal
 de tensiune pentru a măsura cantiatea de apă dintr-un bazin:
 
 #+CAPTION: sistem măsurare nivel apă în bazin folosind potenţiometru
-[[../poze/00185.png]]
+[[./poze/00185.png]]
 
 Traductorul din diagrama de mai sus conţine propria sursă de tensiune,
 iar potenţiometrul este acţionat de un plutitor ce se află în interiorul
@@ -7650,7 +7650,7 @@ totală generată de traductor prin intermediul potenţiometrului. Această
 pierdere de tensiune, oricât de mică, constituie o eroare de măsură:
 
 #+CAPTION: sistem măsurare nivel apă în bazin folosind potenţiometru
-[[../poze/00186.png]]
+[[./poze/00186.png]]
 
 În figura de mai sus au fost adăugate simbolurile rezistorului pentru
 cablurile electrice pentru a indica ceea ce se întâmplă de fapt într-un
@@ -7686,7 +7686,7 @@ componente folosite împreună poartă denumirea de /sursă de curent/, iar
 simbolul este acesta:
 
 #+CAPTION: sursă de curent
-[[../poze/00187.png]]
+[[./poze/00187.png]]
 
 O sursă de curent generează o valoare a tensiunii suficient de mică sau
 de mare asfel încâ să producă o cantitate constantă de curent la bornele
@@ -7697,7 +7697,7 @@ notaţia reală de deplasare a electronilor prin circuit, săgeata
 simbolului va fi orientată /contrar/ direcţiei de curgere.
 
 #+CAPTION: circuit electric cu sursă de curent
-[[../poze/00188.png]]
+[[./poze/00188.png]]
 
 Sursele de curent pot fi construite ca şi dispozitive variabile, la fel
 ca şi sursele de tensiune, producând valori foarte precise de curent
@@ -7706,7 +7706,7 @@ electric. Dacă am construi un traductor cu o sursă de curent variabilă
 instrumentaţie bazat pe curent în loc de tensiune:
 
 #+CAPTION: sistem de instrumentaţie cu sursă de curent
-[[../poze/00189.png]]
+[[./poze/00189.png]]
 
 Momentan nu ne interesează construcţia internă a sursei de curent din
 interiorul traductorului, ci doar faptul că ieşirea acestuia variază în
@@ -7733,7 +7733,7 @@ serie cu acest circuit va produce o cădere de tensiune de 1 V la 4 mA şi
 5 V la 20 mA:
 
 #+CAPTION: sistem de instrumentaţie cu sursă de curent
-[[../poze/00190.png]]
+[[./poze/00190.png]]
 
 #+BEGIN_EXAMPLE
     ----------------------------------------
@@ -7795,7 +7795,7 @@ special construit pentru această utilizare se numeşte /tahometru/ sau
 /tahogenerator/.
 
 #+CAPTION: tahogenerator
-[[../poze/00191.png]]
+[[./poze/00191.png]]
 
 Măsurând tensiunea produsă de un tahogenerator putem determina vieteza
 de rotaţia a dispozitivului conectat la bornele acestuia.
@@ -7821,7 +7821,7 @@ cantitate de tensiune măsurabilă atunci când contactul lor este
 încălzit, unele combinaţii producând o cantitate mai mare decât altele:
 
 #+CAPTION: efectul Seebeck (termocupla)
-[[../poze/00192.png]]
+[[./poze/00192.png]]
 
 Efectul Seebeck este destul de liniar, însemnând că tensiunea produsă de
 contactul încălzit dintre două fire este direct proporţională cu
@@ -7843,7 +7843,7 @@ variabilă cu temperatură constituie o problemă la conectarea unui
 voltmetru la termocuplă pentru închiderea circuitului:
 
 #+CAPTION: termocupla - contact secundar
-[[../poze/00193.png]]
+[[./poze/00193.png]]
 
 Contactul secundar fier - cupru format prin conexiunea dintre termocuplă
 şi aparatul de măsură din firul de sus va produce o diferenţă de
@@ -7858,7 +7858,7 @@ metale cu conductoarele de cupru ale aparatului de măsură formează un
 contact echivalent contactului de măsură:
 
 #+CAPTION: termocupla - contacte secundare
-[[../poze/00194.png]]
+[[./poze/00194.png]]
 
 Acest contact secundar se numeşte contact de /referinţă/ sau contact
 /rece/, pentru a face distincţia între acesta şi contactul de măsură. Nu
@@ -7869,7 +7869,7 @@ exploatat prin construirea unui sistem foarte simplu de măsură.
 
 #+CAPTION: termocupla - măsurarea diferenţei de temperatură dintre două
 #+CAPTION: puncte
-[[../poze/00195.png]]
+[[./poze/00195.png]]
 
 Totuşi, în marea parte a aplicaţiilor scopul este măsurarea temperaturii
 doar într-un singur punct, caz în care cel de al doilea contact devine
@@ -7928,7 +7928,7 @@ dispozitiv numit /termopilă/ cu scopul producerii unor cantităţi mari de
 tensiune şi curent:
 
 #+CAPTION: termopilă
-[[../poze/00196.png]]
+[[./poze/00196.png]]
 
 Dacă setul contactelor din stânga şi setul contactelor din dreapta sunt
 menţinute la aceeiaşi temperatură, tensiunea generată de fiecare contact
@@ -7955,7 +7955,7 @@ măsurători este prin conectarea câtorva termocuple în paralel, asfel
 punctul de contact dintre termocuple.
 
 #+CAPTION: termopilă
-[[../poze/00197.png]]
+[[./poze/00197.png]]
 
 Din păcate, media ditre aceste tensiuni Seebeck este precisă doar dacă
 rezistenţa firelor fiecărei termocuple este egală. Dacă termocuplele
@@ -8016,7 +8016,7 @@ imposibil de redus în subcircuite serie sau paralel, să luam următorul
 circuit serie-paralel ca şi exemplu:
 
 #+CAPTION: circuit electric serie-paralel
-[[../poze/00206.png]]
+[[./poze/00206.png]]
 
 Pentru analiza circuitului de mai sus paşii sunt următorii: găsirea
 rezistenţei echivalente pentru R_{2} şi R_{3} în paralel; adăugarea
@@ -8030,7 +8030,7 @@ Totuşi, dacă adăugăm o singură baterie în circuit, problema analizei
 circuitului se complică:
 
 #+CAPTION: circuit electric
-[[../poze/00207.png]]
+[[./poze/00207.png]]
 
 Rezistorii R_{2} şi R_{3} nu mai sunt conectaţi în paralel unul cu
 celălalt, pentru că bateria B_{2} a fost introdusă în ramura de circuit
@@ -8048,7 +8048,7 @@ circuitelor serie-paralel: este ceva cu totul diferit. Totuşi, acesta nu
 este singurul tip de circuit ce sfidează analiza serie-paralel.
 
 #+CAPTION: circuit electric - punte
-[[../poze/00208.png]]
+[[./poze/00208.png]]
 
 În acest caz avem un circuit în punte; pentru simplitatea exemplului
 presupunem că *nu* este echilibrat (raportul R_{1}/R_{4} nu este egal cu
@@ -8112,13 +8112,13 @@ tuturor căderilor de tensiune din reţea.
 Să folosim următorul circuit pentru ilustrarea metodei:
 
 #+CAPTION: circuit electric
-[[../poze/00209.png]]
+[[./poze/00209.png]]
 
 Primul pas este alegerea unui nod din circuit ca şi punct de referinţă
 pentru curenţii necunoscuţi:
 
 #+CAPTION: circuit electric
-[[../poze/00210.png]]
+[[./poze/00210.png]]
 
 Ghicim apoi direcţia curenţilor din acest nod, notând curenţii cu I_{1},
 I_{2} şi I_{3}. Nu este neapărat ca direcţiile acestea să fie cele
@@ -8128,7 +8128,7 @@ matematice pentru curenţi; orice direcţie greşită va apărea în ecuaţii
 cu semnul minus.
 
 #+CAPTION: circuit electric
-[[../poze/00211.png]]
+[[./poze/00211.png]]
 
 Legea lui Kirchhoff pentru curenţii (LKC) spune că suma algebrică a
 tuturor curenţilor ce intră şi iers dintr-un nod de reţea trebuie să fie
@@ -8139,7 +8139,7 @@ negativ (acesta este doar o convenţie; inversând semnele rezultatul
 final va fi exact acelaşi):
 
 #+CAPTION: calcul matematic
-[[../poze/10171.png]]
+[[./poze/10171.png]]
 
 Pasul următor este notarea tuturor semnelor căderilor de tensiune în
 funcţie de sensul presupus al curenţilor. Ţineţi minte că partea din
@@ -8147,7 +8147,7 @@ funcţie de sensul presupus al curenţilor. Ţineţi minte că partea din
 tot timpul pozitivă întrucât electronii posedă o sarcină negativă.
 
 #+CAPTION: circuit electric
-[[../poze/00212.png]]
+[[./poze/00212.png]]
 
 Desigur, polaritatea bateriilor rămâne aceeiaşi. Nu este nicio problemă
 dacă polaritatea rezistorului nu se „asortează” cu cea a bateriei atât
@@ -8165,19 +8165,19 @@ sens invers acelor de ceasornic până ajungem în punctul de unde am
 plecat:
 
 #+CAPTION: circuit electric
-[[../poze/00384.png]] 
+[[./poze/00384.png]] 
 #+CAPTION: circuit
 #+CAPTION: electric
-[[../poze/00385.png]] 
+[[./poze/00385.png]] 
 #+CAPTION: circuit electric
-[[../poze/00386.png]] 
-#+CAPTION: circuit electric [[../poze/00387.png]]
+[[./poze/00386.png]] 
+#+CAPTION: circuit electric [[./poze/00387.png]]
 
 După ce am percurs întreaga buclă din stânga, adunăm aceste valori ale
 tensiunii pentru a forma o ecuaţie:
 
 #+CAPTION: calcul matematic
-[[../poze/10172.png]]
+[[./poze/10172.png]]
 
 Evident, nu cunoaştem încă valoarea căderilor de tensiune la bornele
 rezistorilor R_{1} şi R_{2} aşa că nu putem introduce valorile lor reale
@@ -8190,13 +8190,13 @@ prin care aceştia trec, folosind legea lui Ohm (E=IR). Eliminăm de
 asemenea şi valoarea 0 din sumă:
 
 #+CAPTION: calcul matematic
-[[../poze/10173.png]]
+[[./poze/10173.png]]
 
 Din moment ce cunoaştem valorile tuturor rezistorilor în ohmi, putem să
 înlocui acele valori în evuaţie pentru uşurinţa calculelor:
 
 #+CAPTION: calcul matematic
-[[../poze/10174.png]]
+[[./poze/10174.png]]
 
 Motivul pentru care am redus ecuaţia în acest fel (până la urmă, avem
 tot două necunoscute) este folosirea aceloraşi /variabile necunoscute/
@@ -8207,28 +8207,28 @@ Aplicând aceeiaşi paşi şi pentru bucla din dreapta, obţinem o altă
 ecuaţie.
 
 #+CAPTION: circuit electric
-[[../poze/00388.png]] 
+[[./poze/00388.png]] 
 #+CAPTION: circuit
 #+CAPTION: electric
-[[../poze/00389.png]] 
+[[./poze/00389.png]] 
 #+CAPTION: circuit electric
-[[../poze/00390.png]] 
-#+CAPTION: circuit electric [[../poze/00391.png]]
+[[./poze/00390.png]] 
+#+CAPTION: circuit electric [[./poze/00391.png]]
 #+CAPTION: calcul matematic
-[[../poze/10175.png]]
+[[./poze/10175.png]]
 
 Cunoscând faptul că tensiunea de pe fiecare rezistor poate şi /trebuie/
 să fie exprimată ca şi produsul dintre curent şi rezistenţa fiecarărui
 rezistor, putem rescrie ecuaţia de mai sus asfel:
 
 #+CAPTION: calcul matematic
-[[../poze/10176.png]]
+[[./poze/10176.png]]
 
 În acest moment avem un sistem matematic format din trei ecuaţii (o
 ecuaţie LKC şi două ecuaţii LKT) şi trei necunoscute:
 
 #+CAPTION: calcul matematic
-[[../poze/10177.png]]
+[[./poze/10177.png]]
 
 Putem rescrie ecuaţiile de mai sus trecând în dreapta valorile cunoscute
 (constantele ecuaţiilor) şi lăsând în partea stângă valorile necunoscute
@@ -8237,13 +8237,13 @@ claritate. Putem oberva că toate cele trei variabile sunt prezente în
 toate cele trei ecuaţii:
 
 #+CAPTION: calcul matematic
-[[../poze/10178.png]]
+[[./poze/10178.png]]
 
 Rezolvând ecuaţiile de mai sus, ajungem la soluţia celor trei valori
 necunoscute ale curenţilor:
 
 #+CAPTION: calcul matematic
-[[../poze/10179.png]]
+[[./poze/10179.png]]
 
 Prin urmare, valoarea curentului I_{1} este de 5 amperi, I_{2} 4 amperi
 iar I_{3} minus 1 amper. Dar ce înseamnă curent „negativ”? În acest caz,
@@ -8253,7 +8253,7 @@ reface schema acestuia schimbând direcţia curentului I_{3} schimbând în
 acelaşi timp şi polaritatea căderii de tensiune de pe rezistorul R_{3}.
 
 #+CAPTION: circuit electric
-[[../poze/00213.png]]
+[[./poze/00213.png]]
 
 Observăm faptul că, prin bateria B_{2} curentul circulă în sens invers
 datorită tensiunii mai ridicate a bateriei B_{1}. În ciuda faptului că
@@ -8272,7 +8272,7 @@ căderile de tensiune la bornele tuturor rezistorilor folosind legea lui
 Ohm (E=IR):
 
 #+CAPTION: formulă
-[[../poze/10180.png]]
+[[./poze/10180.png]]
 
 Sumar:
 
@@ -8307,7 +8307,7 @@ variabile şi ecuaţii pentru rezolvare, ceea ce reprezintă un avantaj.
 Să vedem cun funcţionează această metodă folosind acelaşi circuit:
 
 #+CAPTION: circuit electric
-[[../poze/00209.png]]
+[[./poze/00209.png]]
 
 Primul pas în metoda buclei este identificarea „buclelor” din circuit
 asfel încât să cuprindem toate componentele. În circuitul de mai sus,
@@ -8317,7 +8317,7 @@ metode este imaginarea circulaţiei curenţilor prin fiecare dintre aceste
 bucle.
 
 #+CAPTION: circuit electric
-[[../poze/00215.png]]
+[[./poze/00215.png]]
 
 Alegerea direcţiei fiecărui curent este complet arbitrară precum în
 cazul metodei ramurii de curent, dar ecuaţiile rezultate sunt mai uşor
@@ -8337,7 +8337,7 @@ desigur de orientarea lor în diagramă şi pot să corespundă sau să nu
 corespundă cu polarităţile rezistorilor:
 
 #+CAPTION: circuit electric
-[[../poze/00216.png]]
+[[./poze/00216.png]]
 
 Utilizând legea lui Kirchhoff pentru tensiune, putem parcurge fiecare
 dintre cele două bucle, generând ecuaţii în funcţie de căderile de
@@ -8355,7 +8355,7 @@ ochi de reţea în direcţia inversă acelor de ceasornic (direcţia este pur
 arbitrară), obţinând următoarea ecuaţie:
 
 #+CAPTION: calcul matematic
-[[../poze/10181.png]]
+[[./poze/10181.png]]
 
 Observaţi faptul că prin rezistorul R_{2} curentul care trece este de
 fapt suma curenţilor celor două bucle( I_{1} şi I_{2}). Acest lucru se
@@ -8363,7 +8363,7 @@ datorează faptul că ambii curenţi trec prin R_{2} în aceeiaşi direcţie.
 Simplificând ecuaţia obţinem:
 
 #+CAPTION: calcul matematic
-[[../poze/10182.png]]
+[[./poze/10182.png]]
 
 În acest moment avem o singură ecuaţie şi/cu două necunoscute. Acest
 lucru înseamnă ca mai avem nevoie de încă o evuaţie pentru a determina
@@ -8371,25 +8371,25 @@ curenţii buclelor. Această ecuaţia o obţinem prin parcurgerea buclei din
 dreapta a circuitului, şi obţinem:
 
 #+CAPTION: calcul matematic
-[[../poze/10183.png]]
+[[./poze/10183.png]]
 
 Simplificând ecuaţia cum am făcut şi înainte, obţinem:
 
 #+CAPTION: calcul matematic
-[[../poze/10184.png]]
+[[./poze/10184.png]]
 
 Având două ecuaţii putem folosi metode matematice pentru determinarea
 necunoscutelor I_{1} şi I_{2}:
 
 #+CAPTION: calcul matematic
-[[../poze/10185.png]]
+[[./poze/10185.png]]
 
 Dar, atenţie, aceste valori ale curenţilor sunt valabile pentru bucle şi
 nu sunt curenţii efectivi ai /ramurilor/. Să ne întoarcem la circuitul
 iniţial pentru a vedea care este relaţia dintre ei.
 
 #+CAPTION: circuit electric
-[[../poze/00217.png]]
+[[./poze/00217.png]]
 
 Rezultatul de minus 1 amper pentru curentul buclei I_{2} înseamnă că
 direcţia indicată iniţial (aleator) este incorectă. În realitate,
@@ -8397,7 +8397,7 @@ direcţia curentului I_{2} este contrară acesteia (observaţi modificarea
 sensului buclei pe desen!)
 
 #+CAPTION: circuit electric
-[[../poze/00218.png]]
+[[./poze/00218.png]]
 
 Această modificare a direcţiei curentului faţă de ceea ce am presupus
 iniţial va modificat polaritatea căderilor de tensiune pe rezistorii
@@ -8416,7 +8416,7 @@ amperi într-o direcţie şi I_{2} 1 amper în direcţia opusă, curentul
 R_{2} de jos în sus:
 
 #+CAPTION: circuit electric
-[[../poze/00219.png]]
+[[./poze/00219.png]]
 
 Cu un curent de 4 amperi prin R_{2} rezultă o cădere de tensiune de 8
 volţi.
@@ -8431,7 +8431,7 @@ buclei de curent. Acest avantaj creşte semnificativ atunci când reţeau
 creşte în complexitate:
 
 #+CAPTION: circuit electric
-[[../poze/00220.png]]
+[[./poze/00220.png]]
 
 Pentru rezolvara acestui circuit folosind metoda ramurii de curent, am
 avea nevoie de 5 variabile pentru fiecare curent posibil din circuit (de
@@ -8439,18 +8439,18 @@ la I_{1} la I_{5}) şi prin urmare 5 ecuaţii pentru aflarea soluţiei,
 două pentru LKC şi trei pentru LKT:
 
 #+CAPTION: circuit electric
-[[../poze/00221.png]] 
+[[./poze/00221.png]] 
 #+CAPTION: formule
-[[../poze/10186.png]]
+[[./poze/10186.png]]
 
 În schimb, folosind metoda buclei de curent avem doar trei necunoscute
 şi prin urmare doar trei ecuaţii de rezolvat pentru rezolvarea reţelei,
 ceea ce constituie un avantaj:
 
 #+CAPTION: circuit electric
-[[../poze/00222.png]] 
+[[./poze/00222.png]] 
 #+CAPTION: formule
-[[../poze/10187.png]]
+[[./poze/10187.png]]
 
 Sumar:
 
@@ -8494,7 +8494,7 @@ celelalte noduri, E_{1} şi E_{2} sunt calculate în funcţie de acest
 punct.
 
 #+CAPTION: circuit electric
-[[../poze/00497.png]]
+[[./poze/00497.png]]
 
 O sursă de tensiune în serie cu o rezistenţă trebuie să fie înlocuită de
 o sursă de curent echivalentă în paralel cu o rezistenţă. Vom scrie apoi
@@ -8503,7 +8503,7 @@ valoarea sursei de curent ce alimentează nodul respectiv. Circuitul
 modificat arată asfel:
 
 #+CAPTION: circuit electric
-[[../poze/00498.png]]
+[[./poze/00498.png]]
 
 Înlocuim rezistenţa rezistorilor în ohmi cu conductanţa acestora în
 siemens:
@@ -8521,7 +8521,7 @@ siemens:
 #+END_EXAMPLE
 
 #+CAPTION: circuit electric
-[[../poze/00499.png]]
+[[./poze/00499.png]]
 
 Conductanţele paralele (rezistorii) pot fi combinaţi prin adunarea
 conductanţelor. Deşi nu vom redesena circuitul, putem deja aplica metoda
@@ -8600,7 +8600,7 @@ Circuitul de mai jos are trei noduri. Conductanţele nu apar pe desen,
 dar G_{1}=1/R_{1}, etc.
 
 #+CAPTION: circuit electric
-[[../poze/00500.png]]
+[[./poze/00500.png]]
 
 Există trei noduri pentru care putem scrie ecuaţii. Coeficienţii sunt
 pozitivi pentru E_{1} (ecuaţia 1), E_{2} (ecuaţia 2) şi E_{3} (ecuaţia
@@ -8662,12 +8662,12 @@ combinaţie serie baterie/rezistor. Această teoremă se poate aplica doar
 Avem (din nou) circuitul de mai jos:
 
 #+CAPTION: circuit electric
-[[../poze/00209.png]]
+[[./poze/00209.png]]
 
 Acelaşi circuit redesenat pentru aplicarea teoremei lui Millman:
 
 #+CAPTION: circuit electric
-[[../poze/00223.png]]
+[[./poze/00223.png]]
 
 Luând în considerare rezisteţa şi tensiunea furnizată în fiecare ramură,
 putem folosi teorema lui Millman pentru aflarea căderilor de tensiune în
@@ -8680,19 +8680,19 @@ circuit ce poate fi redesenat ca şi ramuri paralele, fiecare ramură cu
 propria sa sursă de tensiune şi rezistenţă în serie:
 
 #+CAPTION: teorema lui Millman
-[[../poze/10188.png]]
+[[./poze/10188.png]]
 
 Înlocuind valorile din exemplul de mai sus ajungem la următorul
 rezultat:
 
 #+CAPTION: formulă
-[[../poze/10189.png]]
+[[./poze/10189.png]]
 
 Valoarea rezultatului, 8 V, reprezintă căderea de tensiune pe toate
 ramurile:
 
 #+CAPTION: circuit electric
-[[../poze/00224.png]]
+[[./poze/00224.png]]
 
 Polarităţile tuturor tensiunilor au ca şi referinţa acelaşi punct. În
 exemplul de mai sus, firul de jos este folosit ca şi punct de referinţă,
@@ -8706,13 +8706,13 @@ surse din fiecare ramură, folosind principiul aditivităţii tensiunilor
 în serie:
 
 #+CAPTION: formulă
-[[../poze/10190.png]]
+[[./poze/10190.png]]
 
 Pentru aflarea curenţilor prin fiecare ramură, aplicăm legea lui Ohm
 (I=E/R):
 
 #+CAPTION: formulă
-[[../poze/10191.png]]
+[[./poze/10191.png]]
 
 Direcţia curentului prin fiecare rezistor este determinată de
 polaritatea fiecărui rezistor şi *nu* de polaritatea bateriei, curentul
@@ -8725,7 +8725,7 @@ la polaritatea căderii de tensiune la bornele rezistorilor, determind de
 acolo direcţie de curgere a curentului.
 
 #+CAPTION: circuit electric
-[[../poze/00226.png]]
+[[./poze/00226.png]]
 
 Sumar:
 
@@ -8754,7 +8754,7 @@ funcţionează toate sursele de putere împreună.
 Să luăm acelaşi circuit ca şi exemplu:
 
 #+CAPTION: circuit electric
-[[../poze/00209.png]]
+[[./poze/00209.png]]
 
 Din moment ce avem două surse de putere în acest circuit, va trebui să
 calculăm două seturi de date pentru căderile de tensiune şi curent, un
@@ -8762,12 +8762,12 @@ set pentru circuitul funcţionând doar cu sursa de tensiune de 28 de
 volţi...
 
 #+CAPTION: circuit electric
-[[../poze/00227.png]]
+[[./poze/00227.png]]
 
 ...celălalt pentru circuitul funcţionând doar cu bateria de 7 volţi:
 
 #+CAPTION: circuit electric
-[[../poze/00228.png]]
+[[./poze/00228.png]]
 
 Atunci când redesenăm un circuit pentru analiza serie/paralel cu o
 singură sursă, toate celelalte surse de tensiune sunt înlocuite de fire
@@ -8780,40 +8780,40 @@ Analizând circuitul în care acţionează doar bateria de 28 de volţi,
 obţinem următoarele valori pentru tensiune şi curent:
 
 #+CAPTION: tabel
-[[../poze/10192.png]] 
+[[./poze/10192.png]] 
 #+CAPTION: circuit electric
-[[../poze/00229.png]]
+[[./poze/00229.png]]
 
 Analizând circuitul în care acţionează doar bateria de 7 de volţi,
 obţinem următoarele valori pentru tensiune şi curent:
 
 #+CAPTION: tabel
-[[../poze/10193.png]] 
+[[./poze/10193.png]] 
 #+CAPTION: circuit electric
-[[../poze/00230.png]]
+[[./poze/00230.png]]
 
 Atunci când realizăm suprapunerea, trebuie să fim foarte atenţi la
 polaritatea căderilor şi la direcţia curenţilor, pentru că aceste valori
 se adună /algebric/:
 
 #+CAPTION: tabel
-[[../poze/00231.png]]
+[[./poze/00231.png]]
 
 Aplicând aceste valori, rezultatul final arată asfel:
 
 #+CAPTION: circuit electric
-[[../poze/00232.png]]
+[[./poze/00232.png]]
 
 Acelaşi lucru este valabil şi în cazul curenţilor.
 
 #+CAPTION: tabel
-[[../poze/00233.png]]
+[[./poze/00233.png]]
 
 Folosind valorile aflate după aplicarea superpoziţiei, circuitul arată
 asfel:
 
 #+CAPTION: circuit electric
-[[../poze/00234.png]]
+[[./poze/00234.png]]
 
 Simplu şi elegant în acelaşi timp. Totuşi, teorema superpoziţiei poate
 fi aplicată doar circuitelor ce pot fi reduse la combinaţii de circuite
@@ -8877,7 +8877,7 @@ tensiuni şi curentului prin el.
 Să reluăm circuitul studiat până acum cu celelalte metode:
 
 #+CAPTION: circuit electric
-[[../poze/00209.png]]
+[[./poze/00209.png]]
 
 Să presupunem că rezistorul R_{2} este sarcina din acest circuit. Avem
 deja la dispoziţie patru metode pentru determinarea tensiunii şi
@@ -8896,12 +8896,12 @@ pot continua calculele pentru întreaga reţea ca şi cum nu ar fi decât un
 simplu circuit serie:
 
 #+CAPTION: circuit electric
-[[../poze/00235.png]]
+[[./poze/00235.png]]
 
 După conversia circuitului vom avea:
 
 #+CAPTION: circuit electric
-[[../poze/00236.png]]
+[[./poze/00236.png]]
 
 „Circuitul Thevenin echivalent” este echivalentul electric ale surselor
 şi rezistorilor B_{1}, R_{1}, R_{3} şi B_{2} văzute din cele două puncte
@@ -8918,7 +8918,7 @@ pas este înlăturarea rezistenţei de sarcină din circuitul original şi
 înlocuirea acestuia cu un circuit deschis:
 
 #+CAPTION: circuit electric
-[[../poze/00237.png]]
+[[./poze/00237.png]]
 
 Apoi determinăm căderea de tensiune între punctele „fostei” sarcini,
 folind orice metode disponibile. În acest cazu, circuitul original, mai
@@ -8927,9 +8927,9 @@ baterii; putem aplica prin urmare regulile circuitelor serie, legea lui
 ohm şi legea lui Kirchhoff pentru tensiune:
 
 #+CAPTION: tabel
-[[../poze/10194.png]] 
+[[./poze/10194.png]] 
 #+CAPTION: circuit electric
-[[../poze/00238.png]]
+[[./poze/00238.png]]
 
 Căderea de tensiune între cele două puncte ale sarcinii poate fi dedusă
 din tensiunea bateriei şi căderea de tensiune pe una dintre baterii,
@@ -8937,7 +8937,7 @@ fiind de 11.2 volţi. Aceasta este tensiunea Thevenin, E_{Thevenin} din
 circuitul echivalent:
 
 #+CAPTION: circuit electric
-[[../poze/00239.png]]
+[[./poze/00239.png]]
 
 Pentru aflarea rezistenţei serie din circuitul echivalent, trebuie să
 luăm circuitul original, mai puţin sarcina, să înlăturăm sursele de
@@ -8945,7 +8945,7 @@ putere (la fel ca în cazul teoremei superpoziţiei) şi să determinăm
 rezistenţa de la un terminal la celălalt:
 
 #+CAPTION: circuit electric
-[[../poze/00240.png]]
+[[./poze/00240.png]]
 
 După înlăturarea celor două baterii, rezistenţa totală măsurată în
 această locaţie este egală cu rezistenţele R_{1} şi R_{3} în paralel:
@@ -8953,7 +8953,7 @@ această locaţie este egală cu rezistenţele R_{1} şi R_{3} în paralel:
 circuitul echivalent:
 
 #+CAPTION: circuit electric
-[[../poze/00241.png]]
+[[./poze/00241.png]]
 
 Cunoscând valoarea rezistorului (2 Ω) dintre cele două puncte de
 conexiune, putem determina căderea de tensiune şi curentul prin acesta,
@@ -8961,7 +8961,7 @@ ca şi cum întregul circuit nu ar fi altceva decât un simplu circuit
 serie:
 
 #+CAPTION: tabel
-[[../poze/10195.png]]
+[[./poze/10195.png]]
 
 Putem oberva că valorile pentru curent şi tensiune (4 amperi, 8 volţi)
 sunt identice cu valorile găsite aplicând celelalte metode de analiză.
@@ -9005,12 +9005,12 @@ Circuitul iniţial este cel folosit şi în exemplele precedente, şi arată
 asfel:
 
 #+CAPTION: circuit electric
-[[../poze/00209.png]]
+[[./poze/00209.png]]
 
 Circuitul echivalent după aplicarea teoremei lui Norton va fi următorul:
 
 #+CAPTION: circuit Norton echivalent
-[[../poze/00242.png]]
+[[./poze/00242.png]]
 
 /Sursa de curent/ este un component a cărui scop este furnizarea unei
 valori constante de curent, indiferent de valoarea tensiunii.
@@ -9025,7 +9025,7 @@ Primul pas este identificarea rezistenţei de sarcină şi înlăturarea
 acesteia din circuitul original:
 
 #+CAPTION: circuit electric
-[[../poze/00237.png]]
+[[./poze/00237.png]]
 
 Pentru aflarea curentului Norton, plasăm un fir (scurt circuit) între
 cele două puncte ale sarcinii şi determinăm curentul rezultat. Observaţi
@@ -9033,7 +9033,7 @@ că acest pas este exact invers în teorema lui Thevenin, unde am înlocuit
 sarcină cu un circuit deschis:
 
 #+CAPTION: circuit electric
-[[../poze/00243.png]]
+[[./poze/00243.png]]
 
 Acum avem o cădere de 0 volţi între punctele de conexiune a sarcinii
 (înăturate), ceea ce înseamă că valoarea curentului prin R_{1} depinde
@@ -9044,7 +9044,7 @@ total prin scurt circuitul sarcinii este de 14 amperi şi reprezintă
 curentul sursei Norton (I_{Norton}).
 
 #+CAPTION: circuit electric
-[[../poze/00244.png]]
+[[./poze/00244.png]]
 
 Din nou, direcţia săgeţii unei surse de curent este /contrară/
 deplasării reale a electronilor printr-un circuit, notaţie ce o folosim
@@ -9059,18 +9059,18 @@ totală dintr-un punct al sarcinii la celălalt (cei doi rezistori legaţi
 în paralel):
 
 #+CAPTION: circuit electric
-[[../poze/00240.png]]
+[[./poze/00240.png]]
 
 În acest moment circuitul Norton echivalent arată asfel:
 
 #+CAPTION: circuit electric
-[[../poze/00245.png]]
+[[./poze/00245.png]]
 
 Reconectând rezistenţa de sarcină iniţială (2 Ω), vom analiza circuitul
 Norton precum o conexiune paralelă simplă:
 
 #+CAPTION: tabel
-[[../poze/10196.png]]
+[[./poze/10196.png]]
 
 La fel cum am văzut şi în cazul teoremei lui Thevenin, singurele
 informaţii utile din această analiză sunt valoarea tensiunii şi a
@@ -9114,11 +9114,11 @@ Metoda de calcuare a rezistenţei este aceeiaşi în ambele cazuri:
 prin urmare egale:
 
 #+CAPTION: circuit electric
-[[../poze/00241.png]] 
+[[./poze/00241.png]] 
 #+CAPTION: circuit
 #+CAPTION: electric
-[[../poze/00245.png]] 
-#+CAPTION: formulă [[../poze/10197.png]]
+[[./poze/00245.png]] 
+#+CAPTION: formulă [[./poze/10197.png]]
 
 Luând în considerare faptul că ambele circuite echivalente sunt gândite
 să se comporte asemenea reţelei originale în ceea ce priveşte
@@ -9137,7 +9137,7 @@ tensiunea Thevenin este egală cu, curentul Norton înmulţit cu rezistenţa
 Norton:
 
 #+CAPTION: formulă
-[[../poze/10198.png]]
+[[./poze/10198.png]]
 
 Transformarea unui circuit Norton într-un circuit Thevenin se realizează
 folosind aceeiaşi valoare a rezistenţei şi calculând tensiunea Thevenin
@@ -9155,7 +9155,7 @@ curentul Norton este egal cu tensiune Thevenin împărţită la rezistenţa
 Thevenin:
 
 #+CAPTION: formulă
-[[../poze/10199.png]]
+[[./poze/10199.png]]
 
 Vom utiliza relaţia de echivalenţă dintre cele două teorema în
 următoarea secţiune.
@@ -9174,7 +9174,7 @@ Revenim acum asupra teoremei lui Millman pentru a elucida forma
 „ciudată” a ecuaţiei şi provenienţa acesteia:
 
 #+CAPTION: formulă
-[[../poze/10188.png]]
+[[./poze/10188.png]]
 
 Numitorul ecuaţiei seamănă cu numitorul ecuaţiei pentru calculul
 rezistenţei paralele, iar termenii E/R ai numărătorului reprezintă
@@ -9186,7 +9186,7 @@ ramură reprezintă defapt un circuit Thevenin echivalent; fiecare ramură
 este apoi transformată într-un circuit Norton echivalent.
 
 #+CAPTION: circuit electric
-[[../poze/00223.png]]
+[[./poze/00223.png]]
 
 În circuitul de mai sus, bateria B_{1} şi rezistorul R_{1} sunt văzute
 ca şi o sursă Thevenin potrivite pentru transformarea într-o sursă
@@ -9197,7 +9197,7 @@ nicio sursă de tensiune, se transformă într-o sursă de curent Norton de
 0 A în paralel cu un rezistor de 2 Ω:
 
 #+CAPTION: circuit electric
-[[../poze/00246.png]]
+[[./poze/00246.png]]
 
 Din moment ce valorile sursele de curent sunt aditive algebric, curentul
 total prin circuit este de 7 + 0 + 7, adică 14 A. Această adunare a
@@ -9205,28 +9205,28 @@ curenţilor surselor Norton este reprezentată la numărătorul ecuaţiei
 Millman:
 
 #+CAPTION: ecuaţia teoremei lui Millman
-[[../poze/10200.png]]
+[[./poze/10200.png]]
 
 Toate rezistenţele Norton sunt conectate în paralel. Aceast lucru este
 reprezentat în numitorul ecuaţiei lui Millman:
 
 #+CAPTION: ecuaţia teoremei lui Millman
-[[../poze/10201.png]]
+[[./poze/10201.png]]
 
 În cazul de faţă, rezistenţa totală este de 517.43 miliohmi (571.43 mΩ).
 Circuitul echivalent se poate acum redesena şi conţine doar o sursă (de
 curent) Norton şi o singură rezistenţă Norton:
 
 #+CAPTION: circuit electric
-[[../poze/00247.png]]
+[[./poze/00247.png]]
 
 Folosim legea lui Ohm pentru aflarea căderii de tensiune pe aceste două
 componente (E=IR):
 
 #+CAPTION: formulă
-[[../poze/10202.png]] 
+[[./poze/10202.png]] 
 #+CAPTION: circuit electric
-[[../poze/00248.png]]
+[[./poze/00248.png]]
 
 Pe scurt, ştim despre acest circuit că valoarea totală a curentul este
 dată de suma tuturor tensiunilor pe ramuri împărţite la curenţi lor
@@ -9239,7 +9239,7 @@ să facem acum este să punem împreună cele două ecuaţii pentru curentul
 înmulţirea lor:
 
 #+CAPTION: formulă
-[[../poze/10203.png]]
+[[./poze/10203.png]]
 
 În acest moment putem realiza faptul că ecuaţia lui Millman nu este
 nimic altceva decât o transformare Thevenin-Norton împreună cu formula
@@ -9268,32 +9268,32 @@ de asemenea într-o putere de ieşire scăzută dar şi într-o posibilă
 Revenind la circuitul studiat până acum...
 
 #+CAPTION: circuit electric
-[[../poze/00209.png]]
+[[./poze/00209.png]]
 
 ...conform teoremei transferului maxim de putere, valoarea rezistenţei
 de sarcină pentru disiparea puterii maxime din circuit, trebuie să fie
 egală cu rezistenţa Thevenin (0.8 Ω, în acest caz):
 
 #+CAPTION: circuit electric
-[[../poze/00249.png]]
+[[./poze/00249.png]]
 
 Cu această valoare a rezistenţei, puterea disipată va fi de 39.2 watt:
 
 #+CAPTION: tabel
-[[../poze/10204.png]]
+[[./poze/10204.png]]
 
 Dacă micşorăm valoarea rezistenţei de sarcină (la 0.5 Ω în loc de 0.8 Ω,
 de exemplu), puterea disipată pe sarcină descreşte:
 
 #+CAPTION: tabel
-[[../poze/10205.png]]
+[[./poze/10205.png]]
 
 Dacă valoarea rezistenţei sarcinii creşte (la 1.1 Ω în loc de 0.8 Ω, de
 exemplu), puterea disipată va fi de asemenea mai mică decât valoarea
 acesteia pentru 0.8 Ω:
 
 #+CAPTION: tabel
-[[../poze/10206.png]]
+[[./poze/10206.png]]
 
 Această teoremă este foarte folositoare atunci când dezoltăm un circuit
 electric pentru folosirea (disiparea) puterii maxime pe sarcină .
@@ -9313,7 +9313,7 @@ asfel: conexiunea triunghi (Δ) cunoscută şi sub numele de delta sau Pi
 seama de unde vine numele acestora urmărind desenele de mai jos:
 
 #+CAPTION: configuraţii stea, triunghi, Pi şi T
-[[../poze/00250.png]]
+[[./poze/00250.png]]
 
 Este posibilă calcularea reală a valorilor rezistorilor necesari pentru
 formarea unui tip de configuraţie (Δ sau Y) bazându-ne pe valorile
@@ -9328,7 +9328,7 @@ echivalente Δ şi Y se comportă identic.
 Există câteva ecuaţii pentru transformare unei reţele în celelate:
 
 #+CAPTION: transformarea triunghi-stea şi stea-triunghi, formule
-[[../poze/10207.png]]
+[[./poze/10207.png]]
 
 Acest tip de configuraţii sunt frecvent întâlnite în sistemele de putere
 trifazate de curent alternativ, dar acestea sunt de obicei reţele
@@ -9341,7 +9341,7 @@ O altă aplicaţie a transformării Δ-Y se găseşte în cadrul circuitelor
 punte dezechilibrate, precum cel de jos:
 
 #+CAPTION: punte electrică dezechilibrată
-[[../poze/00251.png]]
+[[./poze/00251.png]]
 
 Rezolvarea acestui circuit folosind analiza curentului de ramură sau
 buclei de curent este destul de laborioasă, iar fiindcă există doar o
@@ -9357,27 +9357,27 @@ puntea într-un circuit combinat (mai simplu) serie/paralel.
 
 #+CAPTION: punte electrică dezechilibrată alegerea configuraţiei Δ de
 #+CAPTION: transformat în Y
-[[../poze/00252.png]]
+[[./poze/00252.png]]
 
 După aplicarea transformării:
 
 #+CAPTION: punte electrică dezechilibrată Δ transformat în Y
-[[../poze/00253.png]]
+[[./poze/00253.png]]
 
 După efectuarea corectă a calculelor, căderile de tensiune între
 punctele A, B şi C vor fi aceleaşi în ambele circuite
 
 #+CAPTION: formule
-[[../poze/10208.png]] 
+[[./poze/10208.png]] 
 #+CAPTION: circuit electric
-[[../poze/00254.png]]
+[[./poze/00254.png]]
 
 Desigur, valorile rezistorilor R_{4} şi R_{5} rămân aceleşi, 18 Ω
 respectiv 12 Ω. Acum putem analiza circuitul precum o combinaţie
 serie/paralel, obţinând următoarele rezultate:
 
 #+CAPTION: tabel
-[[../poze/10209.png]]
+[[./poze/10209.png]]
 
 Folosim valorile căderilor de tensiune din tabelul de mai sus pentru
 determinarea căderilor de tensiune între punctele A, B şi C, fiind
@@ -9385,16 +9385,16 @@ atenţi la adunarea sau scăderea lor (precum este cazul tensiunii între
 punctele B şi C):
 
 #+CAPTION: circuit electric
-[[../poze/00255.png]] 
+[[./poze/00255.png]] 
 #+CAPTION: formule
-[[../poze/10210.png]]
+[[./poze/10210.png]]
 
 Cu valorile acestor căderi de tensiune aflate, putem trece la circuitul
 original unde aceste căderi de tensiune sunt aceleaşi (între aceleaşi
 puncte).
 
 #+CAPTION: circuit electric
-[[../poze/00256.png]]
+[[./poze/00256.png]]
 
 Desigur, căderile de tensiune pe rezistorii R_{4} şi R_{5} sunt aceleaşi
 ca în cazul circuitului transformat (Y).
@@ -9403,7 +9403,7 @@ Acum putem determina curenţii prin rezistori folosind valorile acestor
 tensiuni şi aplicând repetat legea lui Ohm (I=E/R):
 
 #+CAPTION: formule
-[[../poze/10211.png]]
+[[./poze/10211.png]]
 
 Sumar:
 
@@ -9439,7 +9439,7 @@ determină în mare tipul de material: coductiv/izolator) este determinată
 de numărul protonilor din nucleu.
 
 #+CAPTION: structura atomului
-[[../poze/00006.png]]
+[[./poze/00006.png]]
 
 Dislocarea protonilor din nucleul atomului este foarte greu de realizat,
 de aici şi stabilitatea identităţii chimice a atomilor în general.
@@ -9454,7 +9454,7 @@ Această legare a atomilor prin intermediul electronilor poartă numele de
 dintre doi atomi arată asfel:
 
 #+CAPTION: legătură chimică între doi atomi
-[[../poze/00257.png]]
+[[./poze/00257.png]]
 
 Există mai multe tipuri de legături chimice, cea de sus fiind una
 /covalentă/, caracterizată prin împărţirea electronilor de către atomi.
@@ -9505,7 +9505,7 @@ concepută pentru facilitarea unei asfel de reacţii electrochimice
 (oxidare/reducere):
 
 #+CAPTION: pilă voltaică
-[[../poze/00258.png]]
+[[./poze/00258.png]]
 
 Pila folosită pentru automobile este de obicei cea de „plumb-acid”.
 Electrodul negativ este confecţionat din plumb (Pb), iar cel pozitiv din
@@ -9526,7 +9526,7 @@ electronilor dinspre electrodul de plumb îi conferă sarcina electrică
 negativă. Aceste reacţii sunt reprezentate mai jos:
 
 #+CAPTION: descărcarea pilei de plumb-acid
-[[../poze/00259.png]]
+[[./poze/00259.png]]
 
 Acest proces prin care pila produce energie pentru alimentarea sarcinii
 se numeşte /descărcare/ şi provine de la faptul ca aceasta îşi epuizează
@@ -9567,7 +9567,7 @@ readusă la starea iniţială se numeşte /pilă primară/.
 la inversarea reacţiilor chimice din interiorul acesteia:
 
 #+CAPTION: încărcarea pilei de plumb-acid
-[[../poze/00393.png]]
+[[./poze/00393.png]]
 
 Sumar:
 
@@ -9585,13 +9585,13 @@ Simbolul unei pile constă din două linii paralele, una mai scurtă şi una
 mai lungă, conectate la capete cu câte un fir:
 
 #+CAPTION: simbolul electric al pilei
-[[../poze/00260.png]]
+[[./poze/00260.png]]
 
 În aceeiaşi ordine de idei, simbolul bateriei constă din mai multe pile
 conectate în serie:
 
 #+CAPTION: simbolul electric al bateriei
-[[../poze/00261.png]]
+[[./poze/00261.png]]
 
 După cum am mai spus, tensiunea produsă de un anumita tip de pilă
 depinde doar de compoziţia ei chimică, mărimea pilei este irelevantă în
@@ -9603,7 +9603,7 @@ plumb-acid instalată pe un automobil generează o tensiune nominală de
 
 #+CAPTION: conectarea pilelor în serie pentru generarea unei tensiuni
 #+CAPTION: mai mari
-[[../poze/00262.png]]
+[[./poze/00262.png]]
 
 Ca şi convenţie, simbolul bateriei este desenat de obicei cu doar patru
 linii lungi/scurte, chiar dacă bateria reală este compusă din mai mult
@@ -9612,7 +9612,7 @@ al bateriei cu foarte multe linii lungi/scurte; folosim acest simbol
 pentru reprezentarea unei baterii cu o tensiune neobişnuit de mare:
 
 #+CAPTION: simbolul bateriei cu o tensiune neobişnuit de mare
-[[../poze/00263.png]]
+[[./poze/00263.png]]
 
 Deşi mărimea fizică a unei pile nu are nicio relevanţă cu privire la
 valoarea tensiunii generate, are totuşi importanţă atunci când luăm în
@@ -9631,7 +9631,7 @@ Deoarece fiecare baterie sau pilă posedă o anumită rezistenţa internă,
 aceasta afectează valoarea curentului în oricare circuit:
 
 #+CAPTION: simbolul bateriei cu o tensiune neobişnuit de mare
-[[../poze/00264.png]]
+[[./poze/00264.png]]
 
 Bateria reală de mai sus posedă o rezistenţă internă de 0.2 Ω; acest
 lucru afectează performanţa bateriei atunci când alimentează sarcina de
@@ -9663,7 +9663,7 @@ mai multe pile în paralel:
 
 #+CAPTION: conectarea pilelor în paralel pentru o rezistenţă internă mai
 #+CAPTION: mică
-[[../poze/00265.png]]
+[[./poze/00265.png]]
 
 Circuitul Thevenin echivalent al celor cinci pile în paralel este un
 circuit cu o singură sursă de tensiune şi un rezistor în serie. Acest
@@ -9764,22 +9764,22 @@ baterie descărcată. Să luăm câteva exemple.
 Scenariul pentru o baterie complet încărcată arată aproximativ astfel:
 
 #+CAPTION: verificarea stării de încărcare a unei baterii
-[[../poze/00266.png]]
+[[./poze/00266.png]]
 
 Dacă bateria se descarcă puţin:
 
 #+CAPTION: verificarea stării de încărcare a unei baterii
-[[../poze/00267.png]]
+[[./poze/00267.png]]
 
 Apoi puţin mai mult:
 
 #+CAPTION: verificarea stării de încărcare a unei baterii
-[[../poze/00268.png]]
+[[./poze/00268.png]]
 
 Şi încă puţin până când este complet descărcată:
 
 #+CAPTION: verificarea stării de încărcare a unei baterii
-[[../poze/00269.png]]
+[[./poze/00269.png]]
 
 Observaţi diferenţa dintre valoarea tensiunii măsurată cu ajutorul
 voltmetrului în funcţie de conectarea sau neconectarea bateriei la o
@@ -9813,7 +9813,7 @@ cadmium sau pile Weston. Structura unei astfel de pile este prezentată
 în figura de mai jos:
 
 #+CAPTION: pilă standard cu mercur
-[[../poze/00270.png]]
+[[./poze/00270.png]]
 
 Din păcate, pilele cu mercur sunt intolerante la „scurgerile” de curent
 şi nu pot fi măsurate cu un voltmetru analogic fără a compromite
@@ -9860,7 +9860,7 @@ unei combinaţii de metale şi electroliţi. O pilă de combustie este
 practic o baterie alimentată de la o sursă externă de energie chimică:
 
 #+CAPTION: pilă de combustie hidrogen-oxigen
-[[../poze/00271.png]]
+[[./poze/00271.png]]
 
 Pe măsură ce „arde” hidrogen, singurele emisii ale unei pile de
 combustie sunt apă şi o cantitate mică de căldură. Eficienţa
@@ -9879,7 +9879,7 @@ utilizării acesteia ca şi sursă de energie sunt nenumărate: nu există
 părţi mobile, zgomot, poluare sau emisii şi o viaţa practic infinită:
 
 #+CAPTION: celulă solară
-[[../poze/00272.png]]
+[[./poze/00272.png]]
 
 *** Pila chimică de detecţie
 
@@ -9910,7 +9910,7 @@ Să luăm pentru început cazul conectării bateriilor în serie pentru
 obţinerea unei tensiuni mai mari:
 
 #+CAPTION: conectarea bateriilor în serie
-[[../poze/00273.png]]
+[[./poze/00273.png]]
 
 Cunoaştem faptul că valoarea curentului într-un circuit serie este
 aceiaşi în toate punctele. Oricare ar fi valoarea curentului în circuit,
@@ -9928,7 +9928,7 @@ curentului în circuit (rezistenţă înternă mai mică), sau creşterea
 capacităţii amper-oră:
 
 #+CAPTION: conectarea bateriilor în paralel
-[[../poze/00274.png]]
+[[./poze/00274.png]]
 
 Cunoaştem faptul că într-un circuit paralel, căderea de tensiune este
 egală pe toate ramurile. Trebuie să ne asigurăm aşadar că tensiunea
@@ -9946,7 +9946,7 @@ protecţia la supracurent a conductorilor, din moment ce orice deschidere
 a circuitului va opri curentul în întreg circuitul:
 
 #+CAPTION: conectarea bateriilor în serie; protecţia la supracurent
-[[../poze/00275.png]]
+[[./poze/00275.png]]
 
 În cazul unor baterii conectate în paralel însă, o singură siguranţa
 fuzibilă este suficientă pentru protejarea conductorilor la supracurent
@@ -9961,7 +9961,7 @@ la supracurent printr-o singuranţă fuzibilă individuală, pe lângă
 siguranţa fuzibilă principală:
 
 #+CAPTION: conectarea bateriilor în paralel; protecţia la supracurent
-[[../poze/00276.png]]
+[[./poze/00276.png]]
 
 *** Alte observaţii legate de baterii şi acumulatori
 
@@ -10117,7 +10117,7 @@ o cădere de tensiune în lungul conductorilor, fie că o dorim sau nu.
 
 #+CAPTION: într-un circuit electric, există tot timpul cădere de
 #+CAPTION: tensiune în lungul conductorilor
-[[../poze/00277.png]]
+[[./poze/00277.png]]
 
 Pentru a putea calcula aceste căderi de tensiuni în oricare circuit,
 trebuie să putem determina rezistenţa oricăror conductori, cunoscând
@@ -10167,7 +10167,7 @@ transversale, cel mai corect este să desemnăm mărimea unui fir prin
 intermediul acestei arii.
 
 #+CAPTION: secţiunea transversală printr-un conductor şi aria acesteia
-[[../poze/00278.png]]
+[[./poze/00278.png]]
 
 Desigur, secţiunea transversală a firului de sus nu este reprezentată la
 scară. Diametrul firului este de 1,13 mm. Calculând aria secţiunii
@@ -10252,7 +10252,7 @@ Simbolul siguranţei fuzibile pe care îl vom folosi, este cel în formă de
 „S”, precum în figura alăturată.
 
 #+CAPTION: simbolul siguranţei fuzibile într-un circuit electric
-[[../poze/00282.png]]
+[[./poze/00282.png]]
 
 Deoarece siguranţele fuzibile sunt proiectate pentru a se „defecta” în
 cazul în care limita maximă de curent din circuit este depăşită, este
@@ -10307,7 +10307,7 @@ Atunci când siguranţa se arde, întreaga cădere de tensiune a sursei de
 alimentare se va regăsi pe aceasta, iar curentul din circuit va fi zero.
 
 #+CAPTION: siguranţă fuzibilă arsă într-un circuit electric
-[[../poze/00283.png]]
+[[./poze/00283.png]]
 
 În cazul în care căderea de tensiune la bornele unei siguranţe fuzibile
 topite este suficient de mare, este posibilă apariţia arcului electric
@@ -10315,7 +10315,7 @@ ce duce la apariţia unui curent în circuit, lucru pe care nu-l dorim.
 
 #+CAPTION: apariţia arcului electric în cazul unei siguranţe fuzibile
 #+CAPTION: topite
-[[../poze/00284.png]]
+[[./poze/00284.png]]
 
 Prin urmare, siguranţele fuzible sunt catalogate atât în funcţie de
 curentul de „deschidere” cât şi în funcţie de tensiunea de străpungere a
@@ -10365,7 +10365,7 @@ acest caz, eliminând practic pericolul electrocutării.
 
 #+CAPTION: poziţionarea corectă a siguranţei fuzibile în circuit pe faza
 #+CAPTION: acestuia
-[[../poze/00285.png]]
+[[./poze/00285.png]]
 
 În cazul în care siguranţa fuzibilă este introdusă pe neutrul
 circuitului, în cazul deschiderii acesteia, va exista o tensiune
@@ -10375,7 +10375,7 @@ al electrocutării.
 
 #+CAPTION: poziţionarea greşită a siguranţei fuzibile în circuit pe
 #+CAPTION: neutrul acestuia
-[[../poze/00286.png]]
+[[./poze/00286.png]]
 
 Indiferent dacă folosim siguranţe fuzible simple sau întrerupătoare
 automate, poziţionarea corectă a acestora în circuit se face conform
@@ -10429,7 +10429,7 @@ rezistenţei conductorului poate duce la apariţia unei probleme tehnice a
 aplicaţiei în cauză.
 
 #+CAPTION: circuit electric; conductori cu rezistenţă electrică
-[[../poze/00287.png]]
+[[./poze/00287.png]]
 
 În circuitul alăturat, sarcina necesită o cădere de tensiune de cel
 puţin 220 V în cazul unei surse de tensiune este de 230 V. În acest caz,
@@ -10447,7 +10447,7 @@ determina valoarea rezistenţei pentru o anumită lungime şi diametru al
 firului. Pentru acest lucru avem nevoie de o altă formulă, şi anume:
 
 #+CAPTION: formula de calcul a rezistenţei electrice
-[[../poze/10221.png]]
+[[./poze/10221.png]]
 
 Prin urmare, rezistenţa electrică a unui conductor depinde de
 rezistivitatea acestuia, simbolizată prin litera grecească *ρ* (ro), de
@@ -10583,7 +10583,7 @@ rezistenţei şi implicit asupra performanţei circuitului.
 
 #+CAPTION: circuit electric pentru exemplificare impactului temperaturii
 asupra rezistenţei şi asupra performanţei circuitului
-[[../poze/00289.png]]
+[[./poze/00289.png]]
 
 Rezistenţa totală a conductorilor din acest circuit este de 30 Ω
 (R_{fir1} + R_{fir2}) la temperatura standard de 20^{o}C. Folosind
@@ -10726,7 +10726,7 @@ posibilă fără aplicarea niciunei tensiuni externe.
 #+CAPTION: într-un circuit închis, format din fire supraconductoare,
 curentul electric poate fi susţinut pentru o perioadă de timp practic
 #+CAPTION: infinită, fără aplicarea unei tensiuni externe
-[[../poze/00290.png]]
+[[./poze/00290.png]]
 
 S-a demonstrat pe cale experimentală faptul că inele din materiale
 supraconductoare pot susţine curenţi prin ei ani la rând, fără aplicarea
@@ -10878,7 +10878,7 @@ Simbolul electric al condensatorului este prezentat în următoarea
 figură:
 
 #+CAPTION: simbolul condensatorului
-[[../poze/00354.png]]
+[[./poze/00354.png]]
 
 Atunci când la bornele condensatorului aplicăm o tensiune electrică,
 între cele două armături ia naştere un câmp electric ce permite
@@ -10886,7 +10886,7 @@ existenţa unei diferenţe semnificative de electroni liberi (sarcină)
 între cele două armături:
 
 #+CAPTION: câmp electric în interiorul condensatorului
-[[../poze/00291.png]]
+[[./poze/00291.png]]
 
 Pe măsură ce câmpul electric este format prin aplicarea tensiunii,
 electronii liberi vor fi forţaţi să se „adune” la terminalul negativ
@@ -10933,7 +10933,7 @@ a tensiunii la bornele sale) de un condensator perfect:
 
 #+CAPTION: tensiune electrică la bornele condensatorului este menţinută
 #+CAPTION: constantă într-un circuit deschis
-[[../poze/00292.png]]
+[[./poze/00292.png]]
 
 Practic, condensatoarele îşi vor pierde tensiune stocată datorită
 imperfecţiunilor interne ce permit electronilor să se deplaseze de pe o
@@ -10947,7 +10947,7 @@ se /încarcă/. Observaţi direcţia de deplasare a electronilor (curentul)
 faţă de polaritatea tensiunii:
 
 #+CAPTION: condensatorul ca o sarcină
-[[../poze/00293.png]]
+[[./poze/00293.png]]
 
 Invers, atunci când tensiunea la bornele condensatorului scade, acesta
 introduce/generează curent în circuitul extern; în acest caz
@@ -10957,7 +10957,7 @@ restul circuitului. Observaţi direcţia de deplasare a electronilor
 (curentul) faţă de polaritatea tensiunii:
 
 #+CAPTION: condensatorul ca o sursă
-[[../poze/00293.png]]
+[[./poze/00293.png]]
 
 Dacă introducem brusc o sursă de tensiune la bornele unui condensator
 descărcat (o creştere bruscă de tensiune), acest va trage curent din
@@ -11015,7 +11015,7 @@ există o relaţie matematică precisă între tensiunea şi curentului unui
 condensator:
 
 #+CAPTION: relaţia dintre curent şi tensiune pentru condensatoare
-[[../poze/10268.png]]
+[[./poze/10268.png]]
 
 Litera „i” semnifică curentul /instantaneu/, adică valoarea curentului
 la un anumit moment din timp. Acest lucru este în contrast cu valoarea
@@ -11042,7 +11042,7 @@ exemple. Să presupunem că un condensator este conectat la o sursă de
 tensiune variabilă construită dintr-o baterie şi un potenţiometru:
 
 #+CAPTION: circuit electric
-[[../poze/00396.png]]
+[[./poze/00396.png]]
 
 Dacă potenţiometrul rămâne în aceeiaşi poziţie (perie este fixă),
 voltmetrul conectat la bornele condensatorului va înregistra o tensiune
@@ -11055,7 +11055,7 @@ deplasare a electronilor de pe o armătură a condensatorului pe alta, şi
 prin urmare nu există nici curent.
 
 #+CAPTION: tensiunea şi curentul printr-un condensator
-[[../poze/00398.png]]
+[[./poze/00398.png]]
 
 Dacă în schimb peria motenţiometrului se deplasează în mod constant în
 „sus” (spre borna pozitivă), căderea de tensiune pe condensator va fi
@@ -11063,7 +11063,7 @@ din ce în ce mai mare. Voltmetrul înregistrează o creştere constantă a
 tensiunii indicate:
 
 #+CAPTION: circuit electric
-[[../poze/00397.png]]
+[[./poze/00397.png]]
 
 Dacă presupunem că deplasarea periei condensatorului în „sus” se
 realizează asfel încât există o /rată/ constantă de creştere a tensiunii
@@ -11082,7 +11082,7 @@ se comportă precum o /sarcină/; electronii intră pe armătura negativă şi
 ies din armătura pozitivă, acumulând energie sub formă de câmp electric.
 
 #+CAPTION: tensiunea şi curentul printr-un condensator
-[[../poze/00399.png]]
+[[./poze/00399.png]]
 
 Dacă repetăm scenariul de mai sus, doar că în acest caz, mărim rata de
 deplasare a periei condensatorului, variaţia tensiuni (dv/dt) va avea o
@@ -11090,10 +11090,10 @@ valoare mai mare; curentul prin condensator va fi şi el mai mare în
 acest caz:
 
 #+CAPTION: circuit electric
-[[../poze/00400.png]] 
+[[./poze/00400.png]] 
 #+CAPTION: tensiunea
 #+CAPTION: şi curentul printr-un condensator
-[[../poze/00401.png]]
+[[./poze/00401.png]]
 
 Analiza matematica introduce de fapt conceptul de /rată de variaţie/
 pentru o varietate de funcţii. /Derivata/ unei funcţii, un principiu de
@@ -11109,7 +11109,7 @@ un grafic al variaţiei tensiunii şi curentului ce arată aproximativ
 asfel:
 
 #+CAPTION: circuit electric
-[[../poze/00402.png]]
+[[./poze/00402.png]]
 
 Putem observă de pe grafic că tot timpul curentul prin condensator este
 proporţional cu rata de variaţie sau /panta/ tensiunii condensatorului.
@@ -11133,7 +11133,7 @@ negativă şi intră pe cea pozitivă, condensatorul se comportă precum o
 sub formă de câmp electric.
 
 #+CAPTION: circuit electric
-[[../poze/00403.png]]
+[[./poze/00403.png]]
 
 Din nou, cantitatea de curent prin condensator este direct proporţională
 cu rata de variaţie a tensiunii la bornele sale. Singura difrentă între
@@ -11164,7 +11164,7 @@ colectată pe armături) pentru o anumită valoare a forţei câmpului
 (tensiunea dintre armături).
 
 #+CAPTION: capacitatea condensatorului în funcţie de aria armăturilor
-[[../poze/00295.png]]
+[[./poze/00295.png]]
 
 **** Distanţa dintre armături
 
@@ -11178,7 +11178,7 @@ oricare ar fi valoarea tensiunii aplicate pe armături.
 
 #+CAPTION: capacitatea condensatorului în funcţie de distanţa dintre
 #+CAPTION: armături
-[[../poze/00296.png]]
+[[./poze/00296.png]]
 
 **** Materialul dielectric
 
@@ -11195,7 +11195,7 @@ condensatorului).
 
 #+CAPTION: capacitatea condensatorului în funcţie de permitivitatea
 #+CAPTION: dielectricului
-[[../poze/00297.png]]
+[[./poze/00297.png]]
 
 În acest context, „relativ” se referă la permitivitatea materialului
 relativ la permitivitatea vidului. Cu cât numărul este mai mare, cu atât
@@ -11240,7 +11240,7 @@ O valoare aproximativă pentru capacitatea unui condensator poate fi
 calculată cu următoarea formulă:
 
 #+CAPTION: formula de calcul a capacităţii condensatorului
-[[../poze/10230.png]]
+[[./poze/10230.png]]
 
 **** Condensatorul variabil
 
@@ -11250,7 +11250,7 @@ exploatat în cazul celor variabile este aria armăturilor, sau mai bine
 spus, aria de suprapunere a lor.
 
 #+CAPTION: condensator variabil
-[[../poze/50018.jpg]]
+[[./poze/50018.jpg]]
 
 Pe măsură ce rotim axul, gradul de suprapunere al armăturilor variază,
 afectând aria efectivă în care poate exista campul electric între cele
@@ -11270,14 +11270,14 @@ armături, toţi ceilalţi factorii find egali, rezultă în scăderea
 capacităţii.
 
 #+CAPTION: conectarea condensatorilor în serie
-[[../poze/00298.png]]
+[[./poze/00298.png]]
 
 Formula pentru calculul capacităţii serie totale este asemănătoare celei
 pentru calcularea rezistenţei echivalente la conectarea rezistorilor în
 paralel.
 
 #+CAPTION: formula capacităţii serie
-[[../poze/10231.png]]
+[[./poze/10231.png]]
 
 **** Conectarea în paralel
 
@@ -11291,14 +11291,14 @@ creşterea ariei armăturilor, toţi ceilalţi factori rămânând neschimbaţi,
 duce la o creştere a capacităţii.
 
 #+CAPTION: conectarea condensatorilor în paralel
-[[../poze/00299.png]]
+[[./poze/00299.png]]
 
 Formula pentru calculul capacităţii paralel totale este asemănătoare
 celei pentru calcularea rezistenţei echivalente la conectarea
 rezistorilor în serie:
 
 #+CAPTION: formula capacităţii paralel
-[[../poze/10232.png]]
+[[./poze/10232.png]]
 
 Sumar:
 
@@ -11329,7 +11329,7 @@ timpul precizată. Simbolul condensatorului electrolitic este prezentat
 în următoarea figură:
 
 #+CAPTION: simbolul condensatorului electrolotic
-[[../poze/00301.png]]
+[[./poze/00301.png]]
 
 Armătura curbată reprezintă tot timpul armătura negativa. Inversarea
 polarităţii unui condensator electrolitic duce la distrugerea acelui
@@ -11349,7 +11349,7 @@ rezistenţa paralel (de scurgere) suprapuse peste caracteristicile sale
 pur capacitive:
 
 #+CAPTION: circuitul echivalent al unui condensator
-[[../poze/00300.png]]
+[[./poze/00300.png]]
 
 Din fericirea, realizarea condensatoarelor cu o rezisteţă serie foarte
 mică şi rezistenţă de scurgere foarte mare, este relativ uşoară.
@@ -11405,7 +11405,7 @@ magnetului în două: fiecare nouă bucată de material posedă propriul sau
 set de poli nord şi sud:
 
 #+CAPTION: secţionarea magnetului
-[[../poze/00302.png]]
+[[./poze/00302.png]]
 
 Asemenea sarcinilor electrice, există doar două tipuri de poli: nord şi
 sud, prin analogie cu sarcinile pozitive şi negative. Asemenea
@@ -11422,7 +11422,7 @@ Rezultatul experimentului arată faptul că liniile de câmp continuă
 neîntrerupte de la un pol al magnetului spre celălalt:
 
 #+CAPTION: liniile câmpului magnetic pentru un magnet permanent
-[[../poze/00303.png]]
+[[./poze/00303.png]]
 
 Precum este cazul oricărui tip de câmp (electric, magnetic,
 gravitaţional), cantitatea totală, sau efectul câpului este desemnată
@@ -11454,7 +11454,7 @@ sa, ceea ce se traduce printr-o atracţie faţă de magnetul permanent
 indiferent de orientarea acestuia faţă de corpul de fier:
 
 #+CAPTION: magnetizarea unui corp de fier
-[[../poze/00304.png]]
+[[./poze/00304.png]]
 
 Corpul de fier iniţial nemagnetizat devine magnetizat după ce este adus
 în apropierea magnetului permanent. Indiferent ce pol este adus în
@@ -11462,7 +11462,7 @@ apropierea fierului, acesta din urmă se va magnetiza în aşa fel încât să
 fie atras de magnet:
 
 #+CAPTION: magnetizarea unui corp de fier
-[[../poze/00305.png]]
+[[./poze/00305.png]]
 
 Luând ca şi referinţă proprietăţile magnetice naturale ale fierului,
 numim material /feromagnetic/ acel material care se magnetizează uşor
@@ -11475,7 +11475,7 @@ prezenţa unui câmp magnetic extern, devin uşor magnetizate în direcţie
 opusă, asfel că resping câmpul magnetic extern!
 
 #+CAPTION: magnetizarea unui material diamagnetic
-[[../poze/00306.png]]
+[[./poze/00306.png]]
 
 În cazul în care un material feromagnetic îşi menţine starea de
 polarizare şi după încetarea cămpului magnetic extern, spunem că acest
@@ -11517,7 +11517,7 @@ de la mâna stângă, atunci când aceastea sunt închise iar degetul mare
 este orientat în direcţia curentului:
 
 #+CAPTION: regula mâinii stângi
-[[../poze/00307.png]]
+[[./poze/00307.png]]
 
 Liniile câmpului magnetic încercuiesc conductorul de curent şi nu au un
 pol „nord” sau „sud” bine definit. În acest caz însă, forţa câpului este
@@ -11530,7 +11530,7 @@ forma un câmp magnetic mai puternic cu o polaritate nord-sud bine
 definită.
 
 #+CAPTION: formarea buclei de curent pentru creşterea câmpului magnetic
-[[../poze/00308.png]]
+[[./poze/00308.png]]
 
 Valoarea forţei magnetice generate de o asfel de buclă este
 proporţională cu valoarea curentului prin fir înmulţită cu numărul
@@ -11557,7 +11557,7 @@ electricitatea cu ajutorul electricităţii.
 
 #+CAPTION: închiderea contactului la trecerea curentului prin
 #+CAPTION: electromagnet
-[[../poze/00394.png]]
+[[./poze/00394.png]]
 
 Întrerupătoarele pot fi construite pentru a acţiona multiple contacte,
 sau pentru a funcţiona „invers” (/deschiderea/ contactelor la trecerea
@@ -11565,7 +11565,7 @@ curentului prin electromagnet şi /inchiderea/ lor la încetarea câmpului
 magnetic).
 
 #+CAPTION: întrerupător cu contacte multiple şi contact normal închis
-[[../poze/00395.png]]
+[[./poze/00395.png]]
 
 Sumar:
 
@@ -11662,14 +11662,14 @@ legea lui Ohm pentru circuite magnetice:
 
 #+CAPTION: comparaţie pentru legea lui Ohm între circuitele electrice şi
 #+CAPTION: magnetice
-[[../poze/10234.png]]
+[[./poze/10234.png]]
 
 Ştiind faptul că permeabilitatea este asemănătoare rezistenţei specifice
 (inversă), ecuaţia pentru aflarea reluctanţei materialului magnetic este
 similară celei pentru aflarea rezistenţei conductorului:
 
 #+CAPTION: comparaţie între rezistenţă electrică şi cea magnetică
-[[../poze/10235.png]]
+[[./poze/10235.png]]
 
 În fiecare dintre cele două cazuri, pentru o bucată mai lungă din
 acelaşi material opoziţia este mai mare, toţi ceilalţi factorii fiind
@@ -11697,7 +11697,7 @@ magnetomotoare (tmm) şi fluxul total (Φ), pentru ca alura graficului să
 rămână independentă de dimensiunile fizice ale materialului de măsură.
 
 #+CAPTION: curbe de magnetizare pentru diferite materiale
-[[../poze/00309.png]]
+[[./poze/00309.png]]
 
 Aceste curbe poartă denumirea de /curbe normale de magnetizare/ sau
 /curbe B-H/ pentru orice material. Putem observa de pe grafi că
@@ -11731,13 +11731,13 @@ prin spirele electromagnetului) crescătoare. Observăm creşterea
 densităţii fluxului după curba normală de magnetizare:
 
 #+CAPTION: curba de histerezis
-[[../poze/00310.png]]
+[[./poze/00310.png]]
 
 Apoi, oprim curentul prin infăşurarea electromagnetului şi observăm ce
 se întâmplă cu fluxul; lăsăm prima curbă pe grafic.
 
 #+CAPTION: curba de histerezis
-[[../poze/00311.png]]
+[[./poze/00311.png]]
 
 Datorită remanenţei materialului, vom avea un flux magnetic chiar şi
 fără existenţa forţei aplicate mai înainte (nu există curent prin
@@ -11746,7 +11746,7 @@ magnet permanent. Următorul pas este să aplicăm un câmp magnetic cu
 aceeiaşi forţă dar în direcţia /opusă/.
 
 #+CAPTION: curba de histerezis
-[[../poze/00312.png]]
+[[./poze/00312.png]]
 
 Densitatea fluxului magnet a atins acum un punct echivalent celui în
 care se afla în cazul aplicării unei intensităţi magnetice (H) pozitive,
@@ -11754,7 +11754,7 @@ doar că se află în direcţie opusă, negativă. Să observăm comportamentul
 electromagnetului dacă întrerupem din nou curentul prin înfăşurare:
 
 #+CAPTION: curba de histerezis
-[[../poze/00313.png]]
+[[./poze/00313.png]]
 
 Din nou, datorită remanenţei naturale a materialului, acesta va reţine
 un flux magnetic fără existenţa unui curent prin înfăşurare, doar că de
@@ -11764,7 +11764,7 @@ densitatea fluxului magnetic atinge din nou punctul maxim iniţial
 (dreapta sus pe grafic):
 
 #+CAPTION: curba completă de histerezis
-[[../poze/00314.png]]
+[[./poze/00314.png]]
 
 Această curbă în formă de „S” se numeşte /curba de histerezis/ al
 materialului feromagnetic pentru o anumită valoare a intensităţii
@@ -11789,7 +11789,7 @@ atenuează forţă semnalului de zgomot. Curba de histerezis pentru ferită
 este destul de extremă:
 
 #+CAPTION: curba de histerezis pentru ferită
-[[../poze/00317.png]]
+[[./poze/00317.png]]
 
 Sumar:
 
@@ -11825,7 +11825,7 @@ liniile de câmp să „taie” conductorul); în caz contrar, nu va exista
 tensiune indusă în fir:
 
 #+CAPTION: inducţia electromagnetică
-[[../poze/00318.png]]
+[[./poze/00318.png]]
 
 Expresia matematică pentru valoarea tensiunii generate în funcţie de
 fluxul câmpului magnetic, expresie dedusă tot de Faraday, este
@@ -11834,7 +11834,7 @@ referă la tensiuni /instantanee/, sau tensiune la un anumit moment din
 timp, şi nu o tensiune constantă, fixă):
 
 #+CAPTION: ecuaţia lui Faraday pentru inducţia electromagnetică
-[[../poze/10236.png]]
+[[./poze/10236.png]]
 
 Termenii „d” sunt specifici analizei matematice şi reprezintă rata de
 variaţie (creştere, deşcreştere) a fluxului magnetic cu timpul. „N” este
@@ -11910,7 +11910,7 @@ comportament al transformatorului este analog unui angrenaj mecanic:
 
 #+CAPTION: analogie între reducerea cuplului folosind roţi dinţate şi
 #+CAPTION: transformatorul coborâtor de tensiune
-[[../poze/00319.png]]
+[[./poze/00319.png]]
 
 Un transformator conceput pentru obţineare unei tensiune mai mari la
 bornele înfăşurări secundare (înfăşurare nealimentată) faţă de cea
@@ -11984,7 +11984,7 @@ nou pentru bobină nu mai reprezintă înfăşurărea propriu-zisă, ci se
 limitează la reprezentarea câtorva „cocoaşe” în serie:
 
 #+CAPTION: simbolul bobinei
-[[../poze/00355.png]]
+[[./poze/00355.png]]
 
 Curentul electric produce în cazul de mai sus un câmp magnetic
 concentrat în jurul bobinei, iar acest flux magnetic reprezintă o
@@ -11994,7 +11994,7 @@ atât va fi mai puternic câmpul magnetic şi cu atât mai mare va fi
 energia stocată de bobină.
 
 #+CAPTION: câmpul magnetic în jurul unei bobine conectate în circuit
-[[../poze/00320.png]]
+[[./poze/00320.png]]
 
 Datorită faptului că bobinele stochează energia cinetică a electronilor
 ce se deplasează prin înfăşurare sub forma câmpului magnetic,
@@ -12029,7 +12029,7 @@ extern:
 
 #+CAPTION: menţinerea constantă a curentului la bornele bobinei
 #+CAPTION: scurt-circuitate
-[[../poze/00321.png]]
+[[./poze/00321.png]]
 
 Practic însă, abilitatea unei bobine de susţinere individuală a unui
 curent la bornele sale se poate realiza doar cu ajutorul firelor
@@ -12045,7 +12045,7 @@ Observaţi polaritate tensiuni faţă de direcţia curentului:
 
 #+CAPTION: bobina se comportă ca o sarcină atunci când absoarbe curent
 #+CAPTION: din circuitul exterior
-[[../poze/00322.png]]
+[[./poze/00322.png]]
 
 Atunci când curentul prin bobină deşcreşte, căderea de tensiune generată
 de aceasta este îndreptată spre direcţia de deplasare a electronilor,
@@ -12056,7 +12056,7 @@ faţă de direcţia curentului:
 
 #+CAPTION: bobina se comportă precum o sursă atunci când eliberează
 #+CAPTION: curent în circuitul exterior
-[[../poze/00323.png]]
+[[./poze/00323.png]]
 
 Dacă conectăm bursc o bobină nemagnetizată la o sursă de putere, bobina
 va rezista iniţial curgeri electronilor prin generarea unei căderi de
@@ -12103,7 +12103,7 @@ conductoarele. Totuşi, există o relaţie matematică dintre tensiunea şi
 curentul unei bobine, asfel:
 
 #+CAPTION: Legea lui Ohm pentru bobine
-[[../poze/10269.png]]
+[[./poze/10269.png]]
 
 Forma acestei ecuaţii este asemănătoare cele pentru condensatoare.
 
@@ -12118,7 +12118,7 @@ introdusă într-un circuit în care putem varia cantitatea de curent cu
 ajutorul unui potenţiometru conectat ca şi rezistor variabil:
 
 #+CAPTION: curent constant printr-o bobină
-[[../poze/00404.png]]
+[[./poze/00404.png]]
 
 Dacă mecanismul potenţiometrului rămâne într-o poziţie fixă (perie nu se
 mişcă), ampermetrul conectat în serie va citi o valoarea constantă a
@@ -12134,14 +12134,14 @@ secundă), nu va există nicio cădere de tensiune în lungul bobinei
 datorată inducţiei.
 
 #+CAPTION: relaţia curent-tensiune în cazul bobinei - curent constant
-[[../poze/00405.png]]
+[[./poze/00405.png]]
 
 Dacă deplasăm uşor peria potenţiometrului în „sus”, rezistenţa sa,
 „văzută” de circuit, scade. Efectul este creşterea curentului prin
 circuit, asfel că indicaţia ampermetrului va creşte uşor:
 
 #+CAPTION: curent variabil printr-o bobină
-[[../poze/00406.png]]
+[[./poze/00406.png]]
 
 Presupunând că peria potenţiometrului se deplasează cu o /rată/
 constantă, asfel încât creşterea valorii curentului prin bobină să fie
@@ -12166,7 +12166,7 @@ partea pozitivă a tensiunii induse ca loc de ieşire al lor.
 
 #+CAPTION: relaţia curent-tensiune în cazul bobinei - rata de variaţie
 #+CAPTION: constantă a curentului
-[[../poze/00407.png]]
+[[./poze/00407.png]]
 
 Modificând rata de creştere a curentului prin bobine prin deplasarea în
 sus a periei potenţiometrului la diferite viteze rezultă în valori
@@ -12175,7 +12175,7 @@ polaritate ca şi mai înainte (opusă creşterii curentului).
 
 #+CAPTION: relaţia curent-tensiune în cazul bobinei - rata de variaţie a
 #+CAPTION: curentului nu este constantă
-[[../poze/00408.png]]
+[[./poze/00408.png]]
 
 Vedem că şi în acest caz avem de a face cu funcţia /derivată/ în cazul
 bobinei. În termenii analizei matematice, spunem că tensiunea indusă
@@ -12190,7 +12190,7 @@ se opune tot timpul variaţiei curentului, va produce o cădere de
 tensiune contrară direcţiei variaţiei:
 
 #+CAPTION: curent variabil printr-o bobină
-[[../poze/00409.png]]
+[[./poze/00409.png]]
 
 Valoarea tensiunii produse de bobina va depinde de rata (viteza) de
 descreştere a curentului prin aceasta. Conform legii lui Lenz, tensiunea
@@ -12216,7 +12216,7 @@ Dacă variaţia curentului prin circuit este foarte rapidă, se vor produce
 căderi de tensiuni foarte mari. Să considerăm următorul circuit:
 
 #+CAPTION: circuit electric
-[[../poze/00410.png]]
+[[./poze/00410.png]]
 
 În acest circuit, un neon este conectat la bornele unei bobine. Un
 întrerupător este folosit pentru controlul curentului din circuit, iar
@@ -12230,7 +12230,7 @@ tensiune datorată variaţiei curentului prin bobină la închiderea
 întrerupătorului:
 
 #+CAPTION: circuit electric
-[[../poze/00411.png]]
+[[./poze/00411.png]]
 
 Când circuitul este deschis însă, întrerupătorul introduce o rezistenţă
 extrem de mare în circuit (rezistenţa aerului dintre contactele sale).
@@ -12244,7 +12244,7 @@ stânga şi pozitivă în dreapta, chiar dacă doar pentru un scurt moment
 până când curentul scade la zero:
 
 #+CAPTION: circuit electric
-[[../poze/00412.png]]
+[[./poze/00412.png]]
 
 Pentru efect maxim, marimea bobine ar trebuie să fie cât mai mare
 posibil (o inductanţă de cel puţin 1 Henry).
@@ -12267,7 +12267,7 @@ prin bobină.
 
 #+CAPTION: valoarea inductanţei create de o bobină în funcţie de numărul
 #+CAPTION: de spire din înfăşurare
-[[../poze/00324.png]]
+[[./poze/00324.png]]
 
 **** Aria înfăşurării
 
@@ -12281,7 +12281,7 @@ câmpului magnetic.
 
 #+CAPTION: valoarea inductanţei create de o bobină în funcţie de aria
 #+CAPTION: înfăşurării
-[[../poze/00325.png]]
+[[./poze/00325.png]]
 
 **** Lungimea înfăşurării
 
@@ -12294,7 +12294,7 @@ a forţei magnetice.
 
 #+CAPTION: valoarea inductanţei create de o bobină în funcţie de
 #+CAPTION: lungimea înfăşurării
-[[../poze/00326.png]]
+[[./poze/00326.png]]
 
 **** Materialul miezului
 
@@ -12308,7 +12308,7 @@ a forţei magnetice.
 
 #+CAPTION: valoarea inductanţei create de o bobină în funcţie de
 #+CAPTION: materialul miezului - aer vs. fier
-[[../poze/00327.png]]
+[[./poze/00327.png]]
 
 **** Formula de calcul a inductanţei
 
@@ -12316,7 +12316,7 @@ O aproximare pentru calcularea inductanţei oricărei înfăşurări se poate
 obţine cu următoarea formulă:
 
 #+CAPTION: formula de calcul a inductanţei
-[[../poze/10237.png]]
+[[./poze/10237.png]]
 
 Această formulă este doar aproximativă, deoarece permeabilitatea
 magnetică variază odatată cu variaţia intensităţii câmpului magnetic
@@ -12352,7 +12352,7 @@ pentru aceeiaşi valoare a variaţiei curentului înseamnă o inductanţă mai
 mare.
 
 #+CAPTION: bobine legate în serie
-[[../poze/00328.png]]
+[[./poze/00328.png]]
 
 Asfel, inductanţa totală pentru bobinele serie este mai mare decât
 inductanţele individuale ale bobinelor. Formula pentru calcularea
@@ -12360,7 +12360,7 @@ inductanţei serie este asemănătoare celei pentru calculu rezistenţelor
 în serie:
 
 #+CAPTION: inductanţa totală a bobinelor serie
-[[../poze/10238.png]]
+[[./poze/10238.png]]
 
 **** Inductanţa bobinelor în paralel
 
@@ -12378,7 +12378,7 @@ tensiune mai mică pentru aceeiaşi rată de variaţie a curentului înseamnă
 o inductanţă mai mică.
 
 #+CAPTION: bobine legate în paralel
-[[../poze/00329.png]]
+[[./poze/00329.png]]
 
 Prin urmare, inductanţa totală este mai mică decât valoarea inductanţei
 ce ar fi fost posibilă pe fiecare bobină luată în parte. Formula de
@@ -12386,7 +12386,7 @@ calcul al inductanţei paralele are aceeiaşi formă ca şi a rezistenţelor
 conectate în paralel:
 
 #+CAPTION: inductanţa totală a bobinelor paralel
-[[../poze/10239.png]]
+[[./poze/10239.png]]
 
 Sumar:
 
@@ -12484,7 +12484,7 @@ sursei, încetează să mai tragă curent de la această, şi se comportă
 practic precum un circuit deschis.
 
 #+CAPTION: circuit RC
-[[../poze/00330.png]]
+[[./poze/00330.png]]
 
 Atunci când întrerupător este închis prima dată, tensiunea la bornele
 condensatorului (considerat complet descărcat) este de zero volţi; de
@@ -12500,7 +12500,7 @@ fi exact zero.
 
 #+CAPTION: circuit RC - graficul variaţiei tensiunii condensatorului cu
 #+CAPTION: timpul
-[[../poze/00331.png]] **
+[[./poze/00331.png]] **
 
 #+BEGIN_EXAMPLE
     ------------------------------------------------
@@ -12562,7 +12562,7 @@ volţi (pentru o bobină ideală), curentul rămâne la nivelul maxim, iar
 bobina se va comporta asemenea unui scurt circuit.
 
 #+CAPTION: circuit RL
-[[../poze/00332.png]]
+[[./poze/00332.png]]
 
 La închiderea întrerupătorului, căderea de tensiune pe bobină sare
 direct la valoarea tensiunii bateriei (precum un circuit deschis) şi
@@ -12579,7 +12579,7 @@ iar tensiunea pe condensator zero.
 
 #+CAPTION: raspunsul timp-tensiune al bobinei la conectarea unei surse
 #+CAPTION: de tensiune la bornele sale într-un circuit RL
-[[../poze/00333.png]] **
+[[./poze/00333.png]] **
 
 #+BEGIN_EXAMPLE
     ---------------------------------------------
@@ -12652,7 +12652,7 @@ raportul dintre inductanţa totală în Henry şi rezistenţa totală în ohmi.
 simbolizată prin litera grecească „tau”, τ:
 
 #+CAPTION: constanta de timp pentru circuitele serie RC şi L/R
-[[../poze/10240.png]]
+[[./poze/10240.png]]
 
 Creşterea şi descreşterea valorilor circuitului reactiv tranzitoriu,
 este asimptotică, curbele graficului sunt prin urmare exponenţiale.
@@ -12665,7 +12665,7 @@ Formula matematică pentru determinarea precisă a procentelor variaţiei
 este următoarea:
 
 #+CAPTION: formulă
-[[../poze/10241.png]]
+[[./poze/10241.png]]
 
 Litera /e/ este constanta lui Euler, aproximativ 2.7182818. La formula
 de mai sus s-a ajuns cu ajutorul analizei matematice, după analiza
@@ -12673,18 +12673,18 @@ asimptotică a valorilor circuitului. După un timp egal cu o constantă de
 timp, procentul variaţiei faţă de valoarea iniţială este de:
 
 #+CAPTION: formulă
-[[../poze/10242.png]]
+[[./poze/10242.png]]
 
 După o perioadă de două constante de timp, procentul variaţiei faţă de
 valoarea iniţială este:
 
 #+CAPTION: formulă
-[[../poze/10243.png]]
+[[./poze/10243.png]]
 
 După zece constante de timp:
 
 #+CAPTION: formulă
-[[../poze/10244.png]]
+[[./poze/10244.png]]
 
 Cu cât perioada de timp de la aplicarea tensiunii bateriei la bornele
 bobinei/condensatorului este mai lungă, cu atât este mai mare valoarea
@@ -12698,21 +12698,21 @@ tensiunii/curentului:
 
 #+CAPTION: formula universală de calcul a variaţiei valorilor dintr-un
 #+CAPTION: circuit ractiv de curent continuu tranzitoriu
-[[../poze/10245.png]]
+[[./poze/10245.png]]
 
 **** Analiza circuitului RC
 
 Să analizăm circuitul RC serie de la începutul capitolului:
 
 #+CAPTION: circuit serie RC
-[[../poze/00330.png]]
+[[./poze/00330.png]]
 
 Din moment ce constanta de timp (τ) a unui circuit RC serie este
 produsul dintre rezistenţă şi capacitate, valoarea obţinută este de 1
 secundă:
 
 #+CAPTION: formulă
-[[../poze/10246.png]]
+[[./poze/10246.png]]
 
 ***** Analiza tensiunii
 
@@ -12730,14 +12730,14 @@ tensiunea bateriei, 15 V. Formula universală pentru tensiunea
 condensatorului în acest circuit arată asfel:
 
 #+CAPTION: formulă
-[[../poze/10247.png]]
+[[./poze/10247.png]]
 
 După 7.25 de secunde de la aplicarea tensiunii la bornele
 condensatorului (prin închiderea întrerupătorului), tensiunea va creşte
 asfel:
 
 #+CAPTION: formulă
-[[../poze/10248.png]]
+[[./poze/10248.png]]
 
 Deoarece tensiunea iniţială la bornele condensatorului a fost de 0 V, o
 creştere cu 14.989 V se traduce printr-o cădere de tensiune de 14.989 la
@@ -12750,7 +12750,7 @@ circuit. Ştim că un condensator descărcat se comportă precum un scurt
 circuit, prin urmare, curentul iniţial va fi maximul posibil în circuit:
 
 #+CAPTION: formulă
-[[../poze/10249.png]]
+[[./poze/10249.png]]
 
 Ştim de asemenea că valoarea finală a curentului va fi zero, din moment
 ce condensatorul se va comporta eventual precum un circuit deschis, prin
@@ -12760,7 +12760,7 @@ determinarea valorii curentului după 7.25 de secunde de la închiderea
 aceluiaşi circuit RC de mai sus:
 
 #+CAPTION: formulă
-[[../poze/10250.png]]
+[[./poze/10250.png]]
 
 Observăm că valoarea obiţinută este negativă, nu pozitivă! Acest lucru
 înseamă o /descreştere/ a curentului şi nu creştere a acestuia în timp.
@@ -12776,20 +12776,20 @@ circuitul) folosing legea lui Ohm (I=E/R). În ambele cazuri, ar trebui
 să obţinem acelaşi răspuns:
 
 #+CAPTION: formulă
-[[../poze/10251.png]]
+[[./poze/10251.png]]
 
 **** Analiza circuitului L/R
 
 Să analizăm acum circuitul L/R serie de la începutul capitolului:
 
 #+CAPTION: circuitul L/R serie
-[[../poze/00332.png]]
+[[./poze/00332.png]]
 
 Cu o inductanţă de 1 Henry şi o rezistenţă serie de 1 ohm, constanta de
 timp a circuitului de faţă este de 1 secundă:
 
 #+CAPTION: formulă
-[[../poze/10252.png]]
+[[./poze/10252.png]]
 
 ***** Analiza curentului
 
@@ -12805,7 +12805,7 @@ Dacă vrem să aflăm valoarea curentului la 3.5 secunde după închiderea
 întrerupătorului, aplicăm formula universală asfel:
 
 #+CAPTION: formulă
-[[../poze/10253.png]]
+[[./poze/10253.png]]
 
 Din moment ce valoarea iniţială a curentului a fost zero, valoare
 acestuia după 3.5 secunde este de 14.547 amperi.
@@ -12816,18 +12816,18 @@ Având doar un singur rezistor în circuit, calculăm mai întâi căderea de
 tensiune pe acesta pentru timpul de 3.5 s:
 
 #+CAPTION: formulă
-[[../poze/10254.png]]
+[[./poze/10254.png]]
 
 Făcând diferenţa între tensiunea bateriei şi cea a rezistorului, căderea
 de tensiune pe bobină este de 0.453 pentru timpul de 3.5 s
 
 #+CAPTION: formulă
-[[../poze/10255.png]]
+[[./poze/10255.png]]
 
 Sumar:
 
 -  Formula universală a constantei de timp: #+CAPTION: formul universală
-   a constantei de timp [[../poze/10245.png]]
+   a constantei de timp [[./poze/10245.png]]
 
 Paşii pentru analiza circuitelor RC şi L/R:
 
@@ -12879,7 +12879,7 @@ reactiv în momentul /descărcării/, şi anume, atunci când energia stocată
 disipată de acesta sub formă de căldură:
 
 #+CAPTION: descărcarea condensatorului şi a bobinei
-[[../poze/00365.png]]
+[[./poze/00365.png]]
 
 În ambele cazuri, căldura disipată pe/de rezistor constituie energie ce
 /părăseşte/ circuitul, în consecinţă, componentul reactiv (condensatorul
@@ -12923,7 +12923,7 @@ energia stocată în acest ca fiind energie potenţială:
 
 #+CAPTION: stocarea şi eliberarea energiei potenţiale - analogie pentru
 #+CAPTION: modul de stocare al energiei pentru condensator
-[[../poze/00366.png]]
+[[./poze/00366.png]]
 
 Căruciorul, atunci când se afla în vârful pantei, posedă energie
 potenţială datorată influenţei gravitaţiei şi poziţiei sale din vârf.
@@ -12949,7 +12949,7 @@ energie stocată de acesta sub formă cinetică:
 
 #+CAPTION: stocarea şi eliberarea energiei cinetice - analogie pentru
 #+CAPTION: modul de stocare al energiei pentru bobină
-[[../poze/00367.png]]
+[[./poze/00367.png]]
 
 De această dată, căruciorul se află la nivelul solului şi este deja în
 mişcare. Energia sa în acest caz este energie cinetică (mişcare), nu
@@ -12982,7 +12982,7 @@ iniţial. Să luăm următorul circuit ca şi exemplu; iniţial întrerupătorul
 este deschis, iar la momentul final acesta este închis:
 
 #+CAPTION: circuit L/R
-[[../poze/00334.png]]
+[[./poze/00334.png]]
 
 Deoarece acesta este un circuit inductiv, începem analiza prin
 determinarea valorilor iniţiale şi finale ale /curentului/. Acest pas
@@ -12993,7 +12993,7 @@ după determinarea curentului! Cu întrerupătorul în poziţia deschis
 limitează valoarea finală a curentului din circuit la 5 A:
 
 #+CAPTION: formulă
-[[../poze/10256.png]]
+[[./poze/10256.png]]
 
 Asfel, chiar înainte de a închide întrerupătorul, avem un curent de 5 A
 prin bobină, faţă de 0 A în exemplul din secţiunea precedentă (link!).
@@ -13003,7 +13003,7 @@ reduce la 2 Ω (R_{1}); valoarea finală a curentului prin circuit cu
 întrerupătorul închis este:
 
 #+CAPTION: formulă
-[[../poze/10257.png]]
+[[./poze/10257.png]]
 
 Prin urmare, bobina din acest circuit are un curent iniţial de 5 A şi
 unul final de 7.5 A. Deoarece ne interesează ce se întâmplă în circuit
@@ -13019,7 +13019,7 @@ folosi aceste valori în formula universală a constantei (link!) de timp
 pentru a ajunge la aceleaşi rezultate:
 
 #+CAPTION: formulă
-[[../poze/10258.png]] **
+[[./poze/10258.png]] **
 
 #+BEGIN_EXAMPLE
     |-------------------------------------------|
@@ -13049,7 +13049,7 @@ configuraţiile serie considerate până acum? Să luăm acest circuit, de
 exemplu:
 
 #+CAPTION: circuit RC complex
-[[../poze/00335.png]]
+[[./poze/00335.png]]
 
 Formula constantei de timp (τ=RC) se bazează pe un circuit capacitiv
 serie simplu, format dintr-un condensator şi un rezistor conectate în
@@ -13075,8 +13075,8 @@ După ce am identificat condensatorul ca fiind „sarcina” circuitului, îl
 este închis)
 
 #+CAPTION: analiza circuitului RC complex folosind teorema lui Thevenin
-- tensiunea Thevenin [[../poze/00336.png]] #+CAPTION: tabel
-[[../poze/10259.png]]
+- tensiunea Thevenin [[./poze/00336.png]] #+CAPTION: tabel
+[[./poze/10259.png]]
 
 Acest pas al analizei reflectă faptul că tensiunea la bornele sarcinii
 (aceeiaşi ca la bornele rezistorului R_{2}) este de 1.8182 V atunci când
@@ -13091,21 +13091,21 @@ sursele de putere din circuitul original şi să recalculăm rezistenţa aşa
 cum este ea văzută de la terminalele sarcinii:
 
 #+CAPTION: analiza circuitului RC complex folosind teorema lui Thevenin
-- rezistenţa Thevenin [[../poze/00337.png]] #+CAPTION: formule
-[[../poze/10260.png]]
+- rezistenţa Thevenin [[./poze/00337.png]] #+CAPTION: formule
+[[./poze/10260.png]]
 
 Următorul pas este redesenarea circuitului original sub forma
 circuitului echivalent Thevenin:
 
 #+CAPTION: analiza circuitului RC complex folosind teorema lui Thevenin
-- circuitul echivalent [[../poze/00338.png]]
+- circuitul echivalent [[./poze/00338.png]]
 
 Constanta de timp pentru acest circuit va fi egală cu produsul dintre
 rezistenţa Thevenin şi capacitatea condensatorului (τ=RC). Cu valorile
 de mai sus, putem face următoarele calcule:
 
 #+CAPTION: formule
-[[../poze/10261.png]]
+[[./poze/10261.png]]
 
 În acest moment putem afla şi tensiunea la bornele condensatorului
 direct din formula universală de calcul a constantei de timp. Să facem
@@ -13113,7 +13113,7 @@ calculele pentru o valoare de 60 de milisecunde. Deoarece este o formulă
 capacitivă, vom face calculele în funcţie de tensiune:
 
 #+CAPTION: formule
-[[../poze/10262.png]]
+[[./poze/10262.png]]
 
 Din nou, deoarece valoarea iniţială a tensiunii condensatorului am
 presupus-o ca fiind zero volţi, căderea de tensiune actuală pe
@@ -13141,14 +13141,14 @@ modificăm formula universală a constantei de timp. Cea originală arată
 asfel:
 
 #+CAPTION: formulă
-[[../poze/10263.png]]
+[[./poze/10263.png]]
 
 În acest caz dorim însă să realizăm un calcul în funcţie de timp. Pentru
 aceasta, modificăm formula, şi scoatem variabila timp în stânga
 formulei, în loc de „variaţie”:
 
 #+CAPTION: formulă
-[[../poze/10276.png]]
+[[./poze/10276.png]]
 
 Unde /ln/ reprezintă /logaritmul natural/: inversa lui /e/:
 
@@ -13162,7 +13162,7 @@ Folosim acelasi circuit rezistor-condensator de la începutul capitolului
 pentru a ajunge la ele:
 
 #+CAPTION: circuit RC
-[[../poze/00330.png]]
+[[./poze/00330.png]]
 
 Constanta de timp este aceeiaşi, 1 secundă (10 kΩ înmulţit cu 100 µF);
 iar valorile iniţiale şi finale rămân şi ele neschimbate (tensiunea
@@ -13173,7 +13173,7 @@ de 12.970 V în formula determinată mai sus pentru a vedea dacă timpul
 rezultat este de 2 secunde:
 
 #+CAPTION: formulă
-[[../poze/10266.png]]
+[[./poze/10266.png]]
 
 Într-adevăr, răspunsul este cel aşteptat, şi anume 2 secunde. Putem însă
 afla duratele de timp necesare încărcarii condensatorului pentru oricare

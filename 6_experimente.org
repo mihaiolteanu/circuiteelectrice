@@ -11,7 +11,7 @@ mărimi. Multimetrele analogice indică mărimile de mai sus prin
 intermediul unui ac indicator în lungul unei scale gradate.
 
 #+CAPTION: multimetru analogic şi digital
-[[../poze/05035.png]]
+[[./poze/05035.png]]
 
 Multimetrele analogice sunt de obicei mai ieftine decât variantele
 digitale. De asemenea, ele sunt mult mai utile pentru începători, ca şi
@@ -58,7 +58,7 @@ analogic, o valoare negativă este observată prin deplasarea acului
 indicator în stânga, şi nu în dreapta.
 
 #+CAPTION:
-[[../poze/05036-1.png]]
+[[./poze/05036-1.png]]
 
 Dacă aveţi un multimetru manual, iar selectorul a fost pus pe cea mai
 mare valoare, indicaţia acestuia va fi slabă. Deplasaţi selectorul la
@@ -88,7 +88,7 @@ multimetrul conectat la bornele acestuia. Observaţi indicaţia aparatului
 de măsură:
 
 #+CAPTION: multimetru şi LED
-[[../poze/05037.png]]
+[[./poze/05037.png]]
 
 Bateriile generează tensiune electrică prin intermediul reacţiilor
 chimice. Când o baterie „moare”, acest lucru înseamnă de fapt că
@@ -114,7 +114,7 @@ ambele sonde pe bornele bateriei, puteţi folosi terminali tip crocodil,
 astfel:
 
 #+CAPTION: multimetru şi motor electric
-[[../poze/05038.png]]
+[[./poze/05038.png]]
 
 Puteţi determina relaţia dintre tensiune şi viteza de rotaţie a axului?
 Ce se întâmplă cu indicaţia voltmetrului dacă măriţi viteza acestuia?
@@ -172,10 +172,10 @@ locurile libere de pe placă, pentru a putea conecta sondele aparatului
 de măsură la placă. Testaţi continuitatea lor.
 
 #+CAPTION: măsurarea continuităţii unei plăci electronice de test
-[[../poze/05041.png]] 
+[[./poze/05041.png]] 
 #+CAPTION: măsurarea continuităţii unei plăci
 #+CAPTION: electronice de test
-[[../poze/05042.png]]
+[[./poze/05042.png]]
 
 Un concept foarte important în teoria electricităţii, strâns legat de
 cel al continuităţii, este cel al punctelor comune din punct de vedere
@@ -212,7 +212,7 @@ rezistorului conform figurii de mai jos, şi observaţi afişajul
 aparatului:
 
 #+CAPTION: măsurarea unui rezistor
-[[../poze/05040.png]]
+[[./poze/05040.png]]
 
 Dacă acul indicator se află foarte aproape de valoare de zero, va trebui
 să alegeţi o altă scară de măsură (mai mică), la fel ca în cazul
@@ -277,7 +277,7 @@ pix!). Măsuraţi rezistenţa liniei cu ajutorul ohmmetrului, poziţionând
 sondele la capătului liniei astfel:
 
 #+CAPTION: măsurarea rezistenţei grafitului
-[[../poze/05043.png]]
+[[./poze/05043.png]]
 
 Aduceţi vârful sondelor mai aproape una de celaltă, dar menţinând
 contactul cu linia. Ce se întâmplă cu rezistenţa în acest caz, creşte
@@ -297,7 +297,7 @@ apropierea unei surse de lumină şi schimba în acelaşi timp scara
 aparatului:
 
 #+CAPTION: măsurarea rezistenţei unei celule fotovoltaice
-[[../poze/05044.png]]
+[[./poze/05044.png]]
 
 Experimentăţi cu măsurarea rezistenţei diferitelor tipuri de materiale.
 Aveţi însă grijă să nu folosiţi ohmmetrul pe un component aflat sub
@@ -319,12 +319,12 @@ Sumar:
 o baterie, precum cel prezentat în figura de mai jos:
 
 #+CAPTION: circuit electric rezitiv simplu
-[[../poze/05045.png]]
+[[./poze/05045.png]]
 
 Practic, circuitul nostru va arăta astfel:
 
 #+CAPTION: circuit electric rezitiv simplu
-[[../poze/05046.png]]
+[[./poze/05046.png]]
 
 Acesta reprezintă de fapt cel mai simplu circuit pe care îl vom studia
 în întreg volumul: o baterie şi un bec. Conectaţi becul la baterie,
@@ -338,13 +338,13 @@ apariţiei unei astfel de discontinuităţi. Experimentaţi cu scenariile
 prezentate mai jos ca să vă convingeţi de acest lucru:
 
 #+CAPTION: discontinuitatea unui circuit electric
-[[../poze/05047.png]]
+[[./poze/05047.png]]
 #+CAPTION: discontinuitatea unui circuit electric
-[[../poze/05048.png]]
+[[./poze/05048.png]]
 #+CAPTION: discontinuitatea unui circuit electric
-[[../poze/05049.png]]
+[[./poze/05049.png]]
 #+CAPTION: discontinuitatea unui circuit electric
-[[../poze/05050.png]]
+[[./poze/05050.png]]
 
 *** Desfăşurarea experimentului
 
@@ -358,7 +358,7 @@ de puncte. Opţional, măsuraţi tensinea în locul întreruperii
 circuitului, astfel:
 
 #+CAPTION: discontinuitatea unui circuit electric
-[[../poze/05051.png]]
+[[./poze/05051.png]]
 
 Ce tensiuni sunt similare tensiunilor de dinainte? Ce tensiuni sunt
 diferite după introducerea întreruperii? Ce cantitate de tensiune se
@@ -376,7 +376,7 @@ becul şi firele pe placă astfel încât să există contact între ele
 placă:
 
 #+CAPTION: circuit electric pe o placă de test
-[[../poze/05052.png]]
+[[./poze/05052.png]]
 
 Experimentaţi cu diferite configuraţii ale circuitului pe placa de test.
 Dacă întâmpinaţi o situaţie în care becul nu se aprinde, iar firele
@@ -386,13 +386,13 @@ becului. Curentul va „prefera” acest drum în detrimentul becului. Să
 vedem un astfel de exemplu:
 
 #+CAPTION: circuit electric pe o placă de test; scurt-circuit
-[[../poze/05053.png]]
+[[./poze/05053.png]]
 
 Şi un exemplu tipic de scurt-circuit /accidental/ realizat de obicei de
 cei care nu sunt familiarizaţi încă cu folosirea plăcii de test:
 
 #+CAPTION: circuit electric pe o placă de test; scurt-circuit
-[[../poze/05054.png]]
+[[./poze/05054.png]]
 
 Vă daţi seama de unde rezultă scurt-circuitul? Astfel de scenarii
 trebuie însă evitate cu orice preţ, întrucât scurt-circuitele pot duce
@@ -402,7 +402,7 @@ Puteţi de asemenea realiza circuitul de mai sus folosindu-vă de o
 regletă de borne:
 
 #+CAPTION: circuit electric pe o regletă de borne
-[[../poze/05055.png]]
+[[./poze/05055.png]]
 
 Sumar:
 
@@ -417,12 +417,12 @@ Următorul experiment are ca principal scop realizarea şi înţelegearea
 circuitului de mai jos:
 
 #+CAPTION: circuit electric simplu
-[[../poze/05056.png]]
+[[./poze/05056.png]]
 
 Practic, circuitul de mai sus arată astfel:
 
 #+CAPTION: circuit electric simplu
-[[../poze/05057.png]]
+[[./poze/05057.png]]
 
 *** Atenţie la scurt-circuitarea accidentală a ampermetrului
 
@@ -447,7 +447,7 @@ substanţială de tensiune. Nu încercaţi totuşi să faceţi acest lucru.
 Curentul foarte mare rezultat poate duce la distrugerea aparatului:
 
 #+CAPTION: scurt-circuitarea ampermetrului
-[[../poze/05058.png]]
+[[./poze/05058.png]]
 
 Ampermetrele sunt de obicei protejate împotriva unor astfel de scenarii
 prin intermediul unei siguranţe fuzibile localizate în interiorul
@@ -458,7 +458,7 @@ trecând pe „Ω” (măsurare rezistenţe), şi măsurând continuitatea într
 cele două sonde (şi prin siguranţa fuzibilă), astfel:
 
 #+CAPTION: circuit electric simplu
-[[../poze/05059.png]]
+[[./poze/05059.png]]
 
 *** Desfăşurarea experimentului
 
@@ -491,7 +491,7 @@ curentului? De ce credeţi că se întâmplă acest lucru?
 Refaceţi circuitul pe o placă de test, astfel:
 
 #+CAPTION: circuit electric pe placa de test
-[[../poze/05052.png]]
+[[./poze/05052.png]]
 
 Este foarte posibil ca în acest moment să nu vă daţi seama cum aţi putea
 conecta un ampermetru la o placă de test. Cum putem conecta ampermetrul
@@ -499,7 +499,7 @@ pentru a măsura întreaga cantitate de curent şi a nu crea un
 scurt-circuit. Realizaţi circuitul de mai jos:
 
 #+CAPTION: circuit electric pe placa de test
-[[../poze/05060.png]]
+[[./poze/05060.png]]
 
 Din nou, măsuraţi valoarea curentului prin diferite fire ale acestui
 circuit. Urmaţi aceleaşi metode precum cele de mai sus. Ce observaţi în
@@ -511,7 +511,7 @@ Dacă ar fi să construim circuitul de mai sus pe o regletă de borne,
 rezultatul ar fi similar:
 
 #+CAPTION: circuit electric pe regleta de borne
-[[../poze/05061.png]]
+[[./poze/05061.png]]
 
 Sumar:
 
@@ -526,12 +526,12 @@ Sumar:
 Ohm, construind circuitul de mai jos:
 
 #+CAPTION: circuit electric simplu
-[[../poze/05062.png]]
+[[./poze/05062.png]]
 
 Practic, circuitul va arăta astfel:
 
 #+CAPTION: circuit electric simplu
-[[../poze/05063.png]]
+[[./poze/05063.png]]
 
 *** Desfăşurarea experimentului
 
@@ -608,12 +608,12 @@ variaţiei rezistenţei, vom face apel la „metoda ştiinţifică”. Pe
 parcurs, vom realiza circuitul de mai jos:
 
 #+CAPTION: circuit electric simplu
-[[../poze/05064.png]]
+[[./poze/05064.png]]
 
 Practic, circuitul de mai sus va arăta astfel:
 
 #+CAPTION: circuit electric simplu
-[[../poze/05065.png]]
+[[./poze/05065.png]]
 
 *** Desfăşurarea experimentului
 
@@ -700,13 +700,13 @@ punctelor electric comune. Circuit pe care îl vom realiza este
 următorul:
 
 #+CAPTION: circuit electric simplu
-[[../poze/05122.png]]
+[[./poze/05122.png]]
 
 Practic, circuitul va arăta conform figurii de mai jos. Atenţie însă, nu
 ţineţi rezistorul între degete atunci când este alimentat.
 
 #+CAPTION: circuit electric simplu
-[[../poze/05123.png]]
+[[./poze/05123.png]]
 
 *** Realizarea circuitului şi a măsurătorilor
 
@@ -734,7 +734,7 @@ este un principiu al punctelor electric comune, ceea ce avem şi în
 circuitul de mai jos:
 
 #+CAPTION: circuit electric simplu
-[[../poze/05124.png]]
+[[./poze/05124.png]]
 
 *** Calcularea puterii disipate
 
@@ -803,12 +803,12 @@ de veioză sau de perete, de exemplu). Vom realiza aşadar circuitul de
 mai jos:
 
 #+CAPTION: circuit electric cu întrerupător
-[[../poze/05066.png]]
+[[./poze/05066.png]]
 
 Practic, circuitul va arăta astfel:
 
 #+CAPTION: circuit electric cu întrerupător
-[[../poze/05067.png]]
+[[./poze/05067.png]]
 
 *** Desfăşurarea experimentului
 
@@ -849,12 +849,12 @@ fi folosit pe post de miez electromagnetic!
 Pe parcursul experimentului vom realiza circuitul de mai jos:
 
 #+CAPTION: circuit electric cu electromagnet
-[[../poze/05068.png]]
+[[./poze/05068.png]]
 
 Practic, circuitul va arăta astfel:
 
 #+CAPTION: circuit electric cu electromagnet
-[[../poze/05069.png]]
+[[./poze/05069.png]]
 
 *** Desfăşurarea experimentului
 
@@ -903,12 +903,12 @@ de mai jos, vom demonstra relaţia dintre intensitatea câmpului magnetic
 şi tensiunea indusă:
 
 #+CAPTION: exemplificarea inducţiei elecromagnetice
-[[../poze/05070.png]]
+[[./poze/05070.png]]
 
 Circuitul practic va arăta astfel:
 
 #+CAPTION: exemplificarea inducţiei elecromagnetice
-[[../poze/05071.png]]
+[[./poze/05071.png]]
 
 Inducţia electromagnetică este inversul fenomenului de electromagnetism.
 În exemplul precedent am produs un câmp magnetic cu ajutorul unei
@@ -956,9 +956,9 @@ ale tensiunii diferite, pentru a face experimentul mai interesant.
 Pe parcurs, vom realiza circuitul de mai jos (schemă + circuit practic):
 
 #+CAPTION: conectarea bateriilor în serie
-[[../poze/05072.png]]
+[[./poze/05072.png]]
 #+CAPTION: conectarea bateriilor în serie
-[[../poze/05073.png]]
+[[./poze/05073.png]]
 
 *** Desfăşurarea experimentului
 
@@ -972,7 +972,7 @@ celor două baterii conectate în serie. Veţi observa că cele două valori
 ale tensiunii se adună:
 
 #+CAPTION: conectarea bateriilor în serie
-[[../poze/05074.png]]
+[[./poze/05074.png]]
 
 Încercaţi să conectaţi baterii de tensiuni diferite în serie. De
 exemplu, conectaţi o baterie de 6 V cu una de 9 V. Care este valoarea
@@ -983,7 +983,7 @@ negativă(-) a uneia dintre baterii cu borna negativă(-) a celeilalte. Pe
 scurt, conectaţi-le în /contra-serie/, astfel:
 
 #+CAPTION: conectarea bateriilor în anti-serie
-[[../poze/05075.png]]
+[[./poze/05075.png]]
 
 Care este valoarea tensiunii în acest caz. Care este diferenţa faţă de
 cazul precedent? Puteţi deduce polaritatea căderii de tensiune,
@@ -1004,9 +1004,9 @@ practic), şi vom observa efectul conectării surselor de putere în
 paralel asupra tensiunii şi a curentului din circuit:
 
 #+CAPTION: conectarea bateriilor în paralel
-[[../poze/05076.png]]
+[[./poze/05076.png]]
 #+CAPTION: conectarea bateriilor în paralel
-[[../poze/05077.png]]
+[[./poze/05077.png]]
 
 *** Derularea experimentului
 
@@ -1015,7 +1015,7 @@ W. Becul va lumina relativ slab în acest caz. Utilizaţi voltmetrul
 pentru determinarea căderii de tensiune la bornele becului, astfel:
 
 #+CAPTION: conectarea bateriilor în paralel
-[[../poze/05078.png]]
+[[./poze/05078.png]]
 
 Indicaţia voltmetrului ar trebui să fie mai mică decât tensiunea normală
 a bateriei. Dacă veţi folosi voltmetrul pentru citirea căderii de
@@ -1036,7 +1036,7 @@ Adăugaţi pe rând bateriile în paralel, observând tensiunea becului cu
 fiecare nouă baterie:
 
 #+CAPTION: conectarea bateriilor în paralel
-[[../poze/05079.png]]
+[[./poze/05079.png]]
 
 De asemenea, intensitatea luminii becului ar trebui să crească cu
 fiecare nouă baterie adăugată în paralel. Încercaţi să măsuraţi curentul
@@ -1045,7 +1045,7 @@ unei baterii. Comparaţi această valoare cu valoarea curentului total
 baterii, este următoarea:
 
 #+CAPTION: conectarea bateriilor în paralel
-[[../poze/05080.png]]
+[[./poze/05080.png]]
 
 Întrerupem circuitul pentru o singură baterie. Introducem apoi
 ampermetrul în locul întreruperii, astfel încât circuitul este acum
@@ -1055,7 +1055,7 @@ care circulă curentul total şi conectăm ampermatrul între cei doi
 conductori liberi:
 
 #+CAPTION: conectarea bateriilor în paralel
-[[../poze/05081.png]]
+[[./poze/05081.png]]
 
 Observaţi diferenţa dintre curentul unei singure baterii şi curentul
 total. Pentru a obţinea cea mai mare iluminare, avem nevoie însă de o
@@ -1066,7 +1066,7 @@ curentului necesară alimentării becului. Tensiunea pe fiecare baterie va
 fi în acest caz mult mai aproape de 6 V:
 
 #+CAPTION: conectarea bateriilor în paralel
-[[../poze/05082.png]]
+[[./poze/05082.png]]
 
 ** Divizor de tensiune
 
@@ -1087,17 +1087,17 @@ legii lui Kirchhoff pentru tensiune, precum şi cu realizarea unui
 divizor de tensiune. Vom realiza circuitul de mai jos (diagrama):
 
 #+CAPTION: divizor de tensiune
-[[../poze/05083.png]]
+[[./poze/05083.png]]
 
 Practic, acest poate fi realizat în oricare din formele de mai jos (care
 va este mai la îndemână):
 
 #+CAPTION: divizor de tensiune; circuit practic
-[[../poze/05084.png]]
+[[./poze/05084.png]]
 #+CAPTION: divizor de tensiune; circuit practic
-[[../poze/05085.png]]
+[[./poze/05085.png]]
 #+CAPTION: divizor de tensiune; circuit practic
-[[../poze/05086.png]]
+[[./poze/05086.png]]
 
 Alternativ, puteţi încerca realizarea tuturor celor trei variante de mai
 sus. Vă veţi familiariza astfel cu toate cele trei metode. Fiecare are
@@ -1132,7 +1132,7 @@ cu un ampermetru astfel (metoda este similară indiferent de varianta
 circuitului):
 
 #+CAPTION: divizor de tensiune; măsurarea curentului
-[[../poze/05087.png]]
+[[./poze/05087.png]]
 
 Dacă valorile rezistorilor pe care i-aţi ales se află într-adevăr în
 intervalul 1 kΩ - 100 kΩ, iar tensiunea bateriei este de aproximativ 6
@@ -1171,14 +1171,14 @@ Identificaţi fiecare punct din circuit cu un număr. Punctele ce sunt
 electric comune trebuiesc notate cu acelaşi număr, astfel:
 
 #+CAPTION: divizor de tensiune; notarea punctelor din circuit
-[[../poze/05089.png]]
+[[./poze/05089.png]]
 
 Practic, circuitul se poate realiza prin lipirea unei benzi adezive la
 capătul conductorilor pe care este scris numărul punctului respectiv de
 contact din circuit:
 
 #+CAPTION: divizor de tensiune; notarea punctelor din circuit
-[[../poze/05088.png]]
+[[./poze/05088.png]]
 
 Folosiţi un voltmetru digital (acest lucru este important!). Măsuraţi
 căderile de tensiune în jurul buclei formate din punctele 0-1-2-3-0.
@@ -1190,21 +1190,21 @@ matematic este foarte important pentru exemplificarea legii lui
 Kirchhoff. Paşii pe care trebuie sa-i urmaţii sunt următorii:
 
 #+CAPTION: divizor de tensiune; măsurarea căderilor de tensiune
-[[../poze/05090.png]] 
+[[./poze/05090.png]] 
 #+CAPTION: divizor de tensiune; măsurarea
 #+CAPTION: căderilor de tensiune
-[[../poze/05091.png]] 
+[[./poze/05091.png]] 
 #+CAPTION: divizor de
 #+CAPTION: tensiune; măsurarea căderilor de tensiune
-[[../poze/05092.png]]
+[[./poze/05092.png]]
 #+CAPTION: divizor de tensiune; măsurarea căderilor de tensiune
-[[../poze/05093.png]]
+[[./poze/05093.png]]
 
 Folosind astfel voltmetrul pentru a „păşi” în jurul circuitului, veţi
 obţine trei tensiuni pozitive şi o tensiune negativă:
 
 #+CAPTION: divizor de tensiune; măsurarea căderilor de tensiune
-[[../poze/05094.png]]
+[[./poze/05094.png]]
 
 Adunaţi toate aceste valori algebric (respectând semnul). Rezultatul
 sumei trebuie să fie zero. Acesta este principiul fundamental al legii
@@ -1227,17 +1227,17 @@ exemplul precedent, ne vom familiariza cu legea lui Kirchhoff pentru
 curent şi cu funcţionarea unui circuit divizor de curent.
 
 #+CAPTION: divizor de curent
-[[../poze/05097.png]]
+[[./poze/05097.png]]
 
 Circuitul se poate realiza practic în mai multe moduri:
 
 #+CAPTION: divizor de curent
-[[../poze/05098.png]] 
+[[./poze/05098.png]] 
 #+CAPTION: divizor de
 #+CAPTION: curent
-[[../poze/05102.png]] 
+[[./poze/05102.png]] 
 #+CAPTION: divizor de curent
-[[../poze/05099.png]]
+[[./poze/05099.png]]
 
 În mod normal, nu este recomandat să conectaţi mai mult de doi
 conductori sub acelaşi terminal (şurub). În exemplul de mai sus, există
@@ -1275,9 +1275,9 @@ al rezistorilor. Observaţi atât atât valoarea cât şi polaritatea
 curentului. De exemplu, pentru a calcula curentul prin rezistorul R_{1}:
 
 #+CAPTION: divizor de curent; măsurarea curentului
-[[../poze/05100.png]]
+[[./poze/05100.png]]
 #+CAPTION: divizor de curent; măsurarea curentului
-[[../poze/05101.png]]
+[[./poze/05101.png]]
 
 Măsuraţi curentul pentru toţi cei trei rezistori. Comparaţi aceste
 valori cu rezultatele obţinute anterior. Conectând ampermetrul asemenea
@@ -1291,9 +1291,9 @@ ampermetrului într-un singur punct din circuit; deconectaţi conductorul
 ce duce la borna pozitivă (+) a bateriei şi atingeţi-l cu sonda neagră.
 
 #+CAPTION: divizor de curent; măsurarea curentului
-[[../poze/05103.png]]
+[[./poze/05103.png]]
 #+CAPTION: divizor de curent; măsurarea curentului
-[[../poze/05104.png]]
+[[./poze/05104.png]]
 
 Notaţi-vă atât valoarea cât şi semnul curentului indicat de ampermetru.
 Faceţi suma algebrică dintre această valoare şi valorile curenţilor
@@ -1327,13 +1327,13 @@ tensiunile în serie. Circuitul pe care îl vom realiza, este următorul
 (schema plus circuite implementate practic):
 
 #+CAPTION: divizor de tensiune cu potenţiometru
-[[../poze/05106.png]]
+[[./poze/05106.png]]
 #+CAPTION: divizor de tensiune cu potenţiometru
-[[../poze/05107.png]]
+[[./poze/05107.png]]
 #+CAPTION: divizor de tensiune cu potenţiometru
-[[../poze/05108.png]]
+[[./poze/05108.png]]
 #+CAPTION: divizor de tensiune cu potenţiometru
-[[../poze/05109.png]]
+[[./poze/05109.png]]
 
 *** Desfăşurarea experimentului
 
@@ -1350,13 +1350,13 @@ Raportul dintre cele două rezistenţe este stabilit de poziţia sondei
 roşii pe lungimea acestuia:
 
 #+CAPTION: divizor de tensiune cu potenţiometru
-[[../poze/05110.png]]
+[[./poze/05110.png]]
 
 Modificaţi apoi poziţia sondelor voltmetrului, astfel încât să măsuraţi
 tensiunea pe „rezistorul de sus” a minei, astfel:
 
 #+CAPTION: divizor de tensiune cu potenţiometru
-[[../poze/05111.png]]
+[[./poze/05111.png]]
 
 Repoziţionaţi sonda neagră pe lungimea minei şi observaţi indicaţia
 voltmetrului. Care este poziţia pentru care tensiunea indicată de
@@ -1381,7 +1381,7 @@ tensiunea totală măsurată pe baterie. Rezultatul ar trebui să fie 1/3,
 aceiaşi valoare a divizorului de tensiune ce am găsit-o şi înainte:
 
 #+CAPTION: divizor de tensiune cu potenţiometru
-[[../poze/05114.png]]
+[[./poze/05114.png]]
 
 ** Potenţiometrul ca şi reostat
 
@@ -1398,10 +1398,10 @@ Pe parcursul experimentului vom realiza circuitul de mai jos (diagramă
 plus implementare practică):
 
 #+CAPTION: circuit electric cu potenţiometru şi motor
-[[../poze/05144.png]] 
+[[./poze/05144.png]] 
 #+CAPTION: circuit electric cu potenţiometru şi
 #+CAPTION: motor
-[[../poze/05145.png]]
+[[./poze/05145.png]]
 
 *** Realizarea reostatului din potenţiometru
 
@@ -1417,10 +1417,10 @@ de reostat prin simpla utilizare a doi dintre terminalii acestuia. Cel
 de al treilea terminal este lăsat neconectat şi neutilizat:
 
 #+CAPTION: circuit electric cu potenţiometru şi motor
-[[../poze/05146.png]] 
+[[./poze/05146.png]] 
 #+CAPTION: circuit electric cu potenţiometru şi
 #+CAPTION: motor
-[[../poze/05147.png]]
+[[./poze/05147.png]]
 
 Deplasarea periei potenţiometrului astfel încât aceasta să se apropie de
 celălalt terminal utilizat rezultă în descreşterea rezistenţei. Direcţia
@@ -1428,7 +1428,7 @@ necesară creşterii sau descreşterii rezistenţei poate fi schimbată prin
 utilizarea unor seturi diferite de terminali:
 
 #+CAPTION: potenţiometru
-[[../poze/05148.png]]
+[[./poze/05148.png]]
 
 Fiţi atenţi însă să nu folosiţi cei doi terminali externi. Acest lucru
 nu va duce la modificarea rezistenţei atunci când poziţia periei se
@@ -1436,7 +1436,7 @@ schimbă. Cu alte cuvinte, potenţiometrul nu va mai funcţiona ca şi o
 rezistenţă variabilă:
 
 #+CAPTION: potenţiometru
-[[../poze/05149.png]]
+[[./poze/05149.png]]
 
 *** Controlul vitezei motorului
 
@@ -1463,7 +1463,7 @@ Când folosim potenţiometrul pe post de reostat, adesea, terminalul
 nefolosit este conectat la terminalul perie, astfel:
 
 #+CAPTION: circuit electric cu potenţiometru şi motor
-[[../poze/05150.png]]
+[[./poze/05150.png]]
 
 Într-o primă instanţă, acest lucru pare complet inutil, întrucât nu are
 niciun impact asupra controlului rezistenţei. Puteţi verifica acest
@@ -1471,7 +1471,7 @@ lucru prin introducerea unui nou fir în circuitul realizat. Comparati
 comportamentul motorului înainte şi după această modificare:
 
 #+CAPTION: circuit electric cu potenţiometru şi motor
-[[../poze/05151.png]]
+[[./poze/05151.png]]
 
 Dacă potenţiometrul este în stare bună de funcţionare, acest conductor
 adiţional nu are niciun efect asupra funcţionării motorului. Totuşi,
@@ -1484,7 +1484,7 @@ terminalul din mijloc al potenţiometrului din circuit. Măsuraţi
 tensiunea motorului pentru a vă asigura că acesta este încă alimentat:
 
 #+CAPTION: circuit electric cu potenţiometru şi motor
-[[../poze/05152.png]]
+[[./poze/05152.png]]
 
 *** Verificarea circuitelor cu voltmetrul în locui ampermetrului
 
@@ -1513,10 +1513,10 @@ bucăţi de gheaţă. Circuitul electric pe care îl vom realiza este cel de
 jos:
 
 #+CAPTION: realizarea unei termocuple
-[[../poze/05153.png]] 
+[[./poze/05153.png]] 
 #+CAPTION:
 #+CAPTION: realizarea unei termocuple
-[[../poze/05154.png]]
+[[./poze/05154.png]]
 
 *** Realizarea termocuplei
 
@@ -1542,7 +1542,7 @@ termocuplei din flacără şi lăsaţi-l să se răcească până când indicaţ
 voltmetrului se apropie din nou de zero.
 
 #+CAPTION: generarea tensiunii cu o termocuplă
-[[../poze/05156.png]]
+[[./poze/05156.png]]
 
 Atingeti apoi contactul termocuplei cu un cub de gheaţă şi observaţi
 indicaţia voltmetrului. Ce puteţi spune despre valoare tensiunii
@@ -1571,13 +1571,13 @@ diferită şi trei rezistori cu rezistenţe egale (între 10 kΩ şi 47 kΩ
 fiecare). Practic, vom realiza circuitul de mai jos:
 
 #+CAPTION: circuit de mediere a tensiunilor printr-o reţea de rezistori
-[[../poze/05115.png]] 
+[[./poze/05115.png]] 
 #+CAPTION: circuit de mediere a tensiunilor
 #+CAPTION: printr-o reţea de rezistori
-[[../poze/05116.png]] 
+[[./poze/05116.png]] 
 #+CAPTION: circuit de
 #+CAPTION: mediere a tensiunilor printr-o reţea de rezistori
-[[../poze/05117.png]]
+[[./poze/05117.png]]
 
 Acest circuit realizează funcţia matematică de mediere. Practic,
 intrarea circuitului constă din cele trei tensiuni, iar ieşirea din
@@ -1613,7 +1613,7 @@ realia media aritmetică a celor două tensiuni rămase împreună cu
 valoarea de 0 V. Tensiunea de ieşire va fi prin urmare mai mică:
 
 #+CAPTION: circuit de mediere a tensiunilor printr-o reţea de rezistori
-[[../poze/05118.png]]
+[[./poze/05118.png]]
 
 *** Concluzii şi notă istorică
 
@@ -1660,7 +1660,7 @@ electrozilor influenţează funcţionarea bateriei. Ciurcuitul realizat
 este următorul:
 
 #+CAPTION: baterie din cartof
-[[../poze/05167.png]]
+[[./poze/05167.png]]
 
 *** Realizarea bateriei din cartof
 
@@ -1696,11 +1696,11 @@ puţin 1000 µF, doi rezistori de 1 kΩ şi de un întrerupător. Circuitul
 realizat arată astfel:
 
 #+CAPTION: încărcarea şi decărcarea unui condensator
-[[../poze/05172.png]] 
+[[./poze/05172.png]] 
 #+CAPTION: încărcarea unui condensator
-[[../poze/05173.png]] 
+[[./poze/05173.png]] 
 #+CAPTION: decărcarea unui condensator
-[[../poze/05174.png]]
+[[./poze/05174.png]]
 
 *** Atenţie la condensatoarele electrolitice
 
@@ -1780,10 +1780,10 @@ potenţiometrului conduce la rezultate mai bune în acest experiment.
 Circuitul final arată astfel:
 
 #+CAPTION: circuit de diferenţiere
-[[../poze/05229.png]] 
+[[./poze/05229.png]] 
 #+CAPTION:
 #+CAPTION: circuit de diferenţiere
-[[../poze/05230.png]]
+[[./poze/05230.png]]
 
 *** Realizarea circuitului
 
@@ -1854,10 +1854,10 @@ siguranţă fuzibilă corespunzătoare.
 Circuitul final va arăta astfel:
 
 #+CAPTION: sursă de tensiune joasă de curent alternativ
-[[../poze/05001.png]] 
+[[./poze/05001.png]] 
 #+CAPTION: sursă de tensiune joasă de curent
 #+CAPTION: alternativ
-[[../poze/05002.png]]
+[[./poze/05002.png]]
 
 *** Realizarea sursei de tensiune joasă
 
@@ -1902,7 +1902,7 @@ tensiune astfel realizată va fi desemnată de acum înainte prin
 următoarea diagramă:
 
 #+CAPTION: sursă de tensiune joasă de curent alternativ
-[[../poze/05008.png]]
+[[./poze/05008.png]]
 
 ** Construirea unui transformator
 
@@ -1924,7 +1924,7 @@ spaţiu relativ îngust. Transformatorul final va arăta aproximativ
 astfel:
 
 #+CAPTION: construirea unui transformator
-[[../poze/05005.png]]
+[[./poze/05005.png]]
 
 *** Realizarea transformatorului
 
@@ -1986,10 +1986,10 @@ carton; conductor de cupru pentru magnet/transformator de 0,32 mm; sursă
 de tensiune de c.a. şi un bec. Schema electrică realizată arată astfel:
 
 #+CAPTION: circuit cu bobină variabilă
-[[../poze/05006.png]] 
+[[./poze/05006.png]] 
 #+CAPTION:
 #+CAPTION: circuit cu bobină variabilă
-[[../poze/05007.png]]
+[[./poze/05007.png]]
 
 *** Realizarea bobinei variabile
 
@@ -2039,10 +2039,10 @@ de transformator audio, sau puteţi folosi un transformator de putere
 (220 V/6 V). Circuitul realiza arată astfel:
 
 #+CAPTION: detector audio de semnal
-[[../poze/05009.png]] 
+[[./poze/05009.png]] 
 #+CAPTION:
 #+CAPTION: detector audio de semnal
-[[../poze/05010.png]]
+[[./poze/05010.png]]
 
 *** Realizarea detectorului audio de semnale
 
@@ -2053,7 +2053,7 @@ serie, fie în paralel. Aparent însă, cele mai bune rezultate se obţin
 folosind conexiunea serie:
 
 #+CAPTION: conectarea în serie serie şi paralel a difuzoarelor
-[[../poze/05011.png]]
+[[./poze/05011.png]]
 
 Lipiţi cu mare grijă toate conexiunile. Acest detector este extrem de
 sensibil. Orice conexiuni proaste existente în circuit vor genera
@@ -2075,10 +2075,10 @@ acestuia. Acest lucru se poate realiza prin conectarea unui divizor de
 tensiune la intrarea circuitului:
 
 #+CAPTION: atenuarea sensibilităţii detetorului audio
-[[../poze/05012.png]] 
+[[./poze/05012.png]] 
 #+CAPTION: atenuarea sensibilităţii detetorului
 #+CAPTION: audio
-[[../poze/05014.png]]
+[[./poze/05014.png]]
 
 Atunci când probaţi un semnal de tensiune cu o amplitudine necunoscută,
 ajustaţi potenţiometrul divizor de tensiune de 100 kΩ aproximativ la
@@ -2104,7 +2104,7 @@ La fel ca în cazul sursei de tensiune, puteţi introduce întreg circuitul
 rezultatul final ar putea arăta astfel:
 
 #+CAPTION: detector audio de semnal; forma finală
-[[../poze/05013.png]]
+[[./poze/05013.png]]
 
 ** Detectarea câpurilor magnetice
 
@@ -2121,10 +2121,10 @@ un solenoid (bobină cilindrică fără miez magnetic) este perfectă pentru
 această aplicaţie. Circuitul realizat arată astfel:
 
 #+CAPTION: circuit de detectare a câpurilor electromagnetice
-[[../poze/05015.png]] 
+[[./poze/05015.png]] 
 #+CAPTION: circuit de detectare a câpurilor
 #+CAPTION: electromagnetice
-[[../poze/05016.png]]
+[[./poze/05016.png]]
 
 *** Utilizarea detectorului de câpuri electromagnetice
 
@@ -2183,10 +2183,10 @@ electrostatică.
 Detector audio cu căşti. Circuitul realizat arată astfel:
 
 #+CAPTION: detector de câpuri electrice
-[[../poze/05017.png]] 
+[[./poze/05017.png]] 
 #+CAPTION:
 #+CAPTION: detector de câpuri electrice
-[[../poze/05018.png]]
+[[./poze/05018.png]]
 
 *** Utilizarea detectorului de câmpuri electrice
 
@@ -2227,4 +2227,4 @@ durabil. Evitaţi condensatorii marcaţi cu orice tip de polaritate,
 alternativ. Circuitul final va arăta astfel:
 
 #+CAPTION:
-[[../poze/00000.png]]
+[[./poze/00000.png]]
