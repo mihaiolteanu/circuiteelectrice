@@ -23,7 +23,7 @@ casuta este obligatorie). "Propose file change" fiind urmatorul pas. Pe urmatoar
 veti vedea apoi "Create pull request". Apasati acest buton verde si rescrieti sumarul modificari
 din nou, daca vi se cere.
 
-Voi incerca sa acept toate modificarile, atata timp cat sunt rezonabile, in cel mai scurt timp
+Voi incerca sa accept toate modificarile, atata timp cat sunt rezonabile, in cel mai scurt timp
 cu putinta.
 
 Folositi butonul "Star" pentru a fi instiintati automat de ultimele modificari sau discutii
