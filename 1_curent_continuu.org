@@ -2,10 +2,6 @@
 
 ** Electricitate statică
 
-#+CAPTION:
-http://upload.wikimedia.org/wikipedia/commons/4/44/Lightning\_strike\_jan\_2007.jpg
-[[poza\_meniu2]]
-
 Cu secole în urmă, a fost descoperit faptul că anumite tipuri de
 materiale se atrag misterios după au fost frecate unul de celălalt. De
 exemplu: după frecarea unei bucăţi de mătase de o bucată de sticlă, cele
@@ -828,10 +824,6 @@ Sumar:
 
 ** Rezistenţa
 
-#+CAPTION:
-http://upload.wikimedia.org/wikipedia/commons/e/e3/3\_Resistors.jpg
-[[poza\_meniu2]]
-
 Circuitele prezentate în capitolele precedente nu sunt foarte practice.
 De fapt, este chiar periculos (conectarea directă a polilor unei surse
 de tensiune electrică cu un singur fir conductor). Motivul pentru care
@@ -1568,9 +1560,6 @@ Sumar:
 
 ** Rezistori
 
-#+CAPTION: http://www.flickr.com/photos/maurymccown/2381599778/sizes/l/
-[[poza\_meniu2]]
-
 Datorită relaţiei dintre tensiune, curent şi rezistenţă în oricare
 circuit, putem controla oricare variabilă dintr-un circuit prin simplul
 control al celorlalte două. Probabil că cea mai uşor de controlat
@@ -1853,10 +1842,6 @@ a golului de aer), moment în care rezistenţa lor scade dramatic. Dar,
 faţă de străpungerea unui izolator, străpungerea unui varistor este
 repetabilă: adică, design-ul acesteia este de aşa natură încât permite
 străpungerile repetate fără apariţia distrugerii fizice a componentului.
-Mai jos este o poză a unui varistor:
-
-#+CAPTION: ../poze/varistor.jpg
-[[http://en.wikipedia.org/wiki/File:Varistor\_S14K385\_photo.jpg]]
 
 Alte componente electrice posedă curbe de variaţie curent/tensiune şi
 mai ciudate. Unele dispozitive suferă o /descreştere/ a rezistenţei
@@ -3726,9 +3711,6 @@ notaţie metrică. Diferenţa faţa de notaţia ştiinţifică o reprezintă
 faptul că puterile lui zece sunt reprezentate cu ajutorul prefixelor
 alfabetice. În imaginea alăturată sunt prezentate câteva dintre cele mai
 uzuale prefixe alături de reprezentarea sub forma puterilor lui zece
-Pentru o descriere completă a tuturor prefixelor metrice utilizate,
-vedeţi intrarea de pe wikipedia,
-[[http://ro.wikipedia.org/wiki/Prefix_SI][aici]].
 
 #+CAPTION:
 [[./poze/00356.png]]
@@ -4053,7 +4035,7 @@ curenţilor prin fiecare ramură (fiecare rezistor în parte):
 [[./poze/00093.png]] 
 #+CAPTION: calcule
 #+CAPTION: matematice
-[[./poze/10074\_2.png]]
+[[./poze/10074_2.png]]
 
 Pe măsură ce curentul iese prin terminalul negativ (-) al bateriei la
 punctul 8 şi se deplasează prin circuit, o parte din această cantitate
