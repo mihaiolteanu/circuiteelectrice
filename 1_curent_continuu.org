@@ -1,3 +1,6 @@
+#+TITLE: Curent continuu
+#+OPTIONS: toc:2
+
 * Concepte de baza
 
 ** Electricitate statică

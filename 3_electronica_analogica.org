@@ -1,3 +1,6 @@
+#+TITLE: Electronica analogică
+#+OPTIONS: toc:2
+
 * Amplificatoare
 
 ** Circuite electrice şi circuite electronice
@@ -274,7 +277,7 @@ Sumar:
 
 -  
 -  
-
+   
 * Fizica semiconductorilor
 
 ** Fizica cuantică

@@ -1,3 +1,6 @@
+#+TITLE: Experimente
+#+OPTIONS: toc:2
+
 * Concepte de baza
 
 ** Măsurarea tensiunii
