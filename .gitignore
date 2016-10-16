@@ -40,3 +40,6 @@ flycheck_*.el
 
 # projectiles files
 .projectile
+
+# Ignore generated files
+public_html/
