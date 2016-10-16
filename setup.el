@@ -4,7 +4,7 @@
 (setq org-publish-project-alist
       '(
         ;; Main project
-        ("circuiteelectrice" :components ("html-content-generate" ""))
+        ("circuiteelectrice" :components ("html-content-generate" "poze-copy"))
         ;; Generate html pages from org-mode files
         ("html-content-generate"
          :base-directory "."
