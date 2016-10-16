@@ -1307,7 +1307,7 @@ circuit, atunci când cunoaştem valorile tensiunii (E) şi a rezistenţei
 (R):
 
 #+CAPTION: aflarea curentului într-un circuit simplu, atunci când
-cunoaştem tensiunea şi rezistenţa folosind legea lui Ohm
+#+CAPTION: cunoaştem tensiunea şi rezistenţa folosind legea lui Ohm
 [[./poze/00033.png]]
 
 Care este valoarea curentului (I) din acest circuit?
@@ -1320,7 +1320,7 @@ circuit, atunci când cunoaştem valorile tensiunii (E) şi a curentului
 (I):
 
 #+CAPTION: aflarea rezistenţei într-un circuit simplu, atunci când
-cunoaştem tensiunea şi curentul folosind legea lui Ohm
+#+CAPTION: cunoaştem tensiunea şi curentul folosind legea lui Ohm
 [[./poze/00034.png]]
 
 Care este valoarea rezistenţei becului în acest caz?
@@ -1332,7 +1332,7 @@ Care este valoarea rezistenţei becului în acest caz?
 (E), atunci când cunoaştem valoarea curentului (I) şi a rezistenţei (R):
 
 #+CAPTION: aflarea tensiunii generate de baterie într-un circuit simplu,
-atunci când cunoaştem rezistenţa şi curentul folosind legea lui Ohm
+#+CAPTION: atunci când cunoaştem rezistenţa şi curentul folosind legea lui Ohm
 [[./poze/00035.png]]
 
 Care este valoarea tensiunii generate de baterie?
@@ -1942,17 +1942,15 @@ Dar, pentru că punctele 5 şi 4 sunt comune cu 6, iar punctele 2 şi 3
 sunt comune cu 1, între aceste două grupe de puncte se regăsesc de
 asemenea 10 volţi:
 
-#+BEGIN_EXAMPLE
-    Între punctele 1 şi 4 = 10 volţi                             
-    Între punctele 2 şi 4 = 10 volţi                               
-    Între punctele 3 şi 4 = 10 volţi (direct la bornele rezistorului) 
-    Între punctele 1 şi 5 = 10 volţi                              
-    Între punctele 2 şi 5 = 10 volţi                              
-    Între punctele 3 şi 5 = 10 volţi                               
-    Între punctele 1 şi 6 = 10 volţi (direct la bornele bateriei)  
-    Între punctele 2 şi 6 = 10 volţi                             
-    Între punctele 3 şi 6 = 10 volţi                      
-#+END_EXAMPLE
+- Între punctele 1 şi 4 = 10 volţi
+- Între punctele 2 şi 4 = 10 volţi
+- Între punctele 3 şi 4 = 10 volţi (direct la bornele rezistorului)
+- Între punctele 1 şi 5 = 10 volţi
+- Între punctele 2 şi 5 = 10 volţi
+- Între punctele 3 şi 5 = 10 volţi
+- Între punctele 1 şi 6 = 10 volţi (direct la bornele bateriei)
+- Între punctele 2 şi 6 = 10 volţi
+- Între punctele 3 şi 6 = 10 volţi
 
 Din moment ce aceste puncte sunt conectate înpreună prin fire cu
 rezistenţă zero (ideală), căderea de tensine dintre aceste puncte este
@@ -1960,15 +1958,13 @@ zero, indiferent ce cantitate de curent avem prin aceste puncte/fire.
 Dacă am fi să citim tensiunea între puncte comune, aceasta ar trebui să
 fie practic zero
 
-#+BEGIN_EXAMPLE
-    Între punctele 1 şi 2 = 0 volţi     Punctele 1, 2, şi 3 sunt  
-    Între punctele 2 şi 3 = 0 volţi     comune din punct de vedere electric    
-    Între punctele 1 şi 3 = 0 volţi                          
-                                                                 
-    Între punctele 4 şi 5 = 0 volţi     Punctele 4, 5, şi 6 sunt 
-    Între punctele 5 şi 6 = 0 volţi     comune din punct de vedere electric
-    Între punctele 4 şi 6 = 0 volţi                         
-#+END_EXAMPLE
+- Între punctele 1 şi 2 = 0 volţi     Punctele 1, 2, şi 3 sunt
+- Între punctele 2 şi 3 = 0 volţi     comune din punct de vedere electric
+- Între punctele 1 şi 3 = 0 volţ
+
+- Între punctele 4 şi 5 = 0 volţi     Punctele 4, 5, şi 6 sunt
+- Între punctele 5 şi 6 = 0 volţi     comune din punct de vedere electric
+- Între punctele 4 şi 6 = 0 volţi
 
 Acest lucru are sens şi din punct de vedere matematic. Cu o baterie de
 10 volţi şi un rezistor de 5 Ω, curentul va fi de 2 amperi. Rezistenţa
@@ -2050,17 +2046,15 @@ curentul /iese/ din rezistor este cea pozitivă.
 #+CAPTION: simplu
 [[./poze/00052.png]]
 
-#+BEGIN_EXAMPLE
-    Între punctele 1 (+) şi 4 (-) = 10 volţi                     
-    Între punctele 2 (+) şi 4 (-) = 10 volţi
-    Între punctele 3 (+) şi 4 (-) = 10 volţi 
-    Între punctele 1 (+) şi 5 (-) = 10 volţi                        
-    Între punctele 2 (+) şi 5 (-) = 10 volţi                       
-    Între punctele 3 (+) şi 5 (-) = 10 volţi  
-    Între punctele 1 (+) şi 6 (-) = 10 volţi 
-    Între punctele 2 (+) şi 6 (-) = 10 volţi                         
-    Între punctele 3 (+) şi 6 (-) = 10 volţi                          
-#+END_EXAMPLE
+    Între punctele 1 ( + ) şi 4 ( - ) = 10 volţi
+    Între punctele 2 ( + ) şi 4 ( - ) = 10 volţi
+    Între punctele 3 ( + ) şi 4 ( - ) = 10 volţi
+    Între punctele 1 ( + ) şi 5 ( - ) = 10 volţi
+    Între punctele 2 ( + ) şi 5 ( - ) = 10 volţi
+    Între punctele 3 ( + ) şi 5 ( - ) = 10 volţi
+    Între punctele 1 ( + ) şi 6 ( - ) = 10 volţi
+    Între punctele 2 ( + ) şi 6 ( - ) = 10 volţi
+    Între punctele 3 ( + ) şi 6 ( - ) = 10 volţi
 
 Chiar dacă pare puţin neinspirată realizarea unui tabel cuprinzând
 căderile de tensiune în întreg circuitul, acesta este un concept foarte
@@ -2605,8 +2599,6 @@ corpului scade iar curentul corespunzător creşte.
 Următoarele seturi de date au fost prelevate prin intermediul
 cercetărilor asupra valorilor rezistenţei corpului între diferite puncte
 şi condiţii de contact:
-
-**
 
 #+BEGIN_EXAMPLE
     ----------------------------------------------------------------------------------------------------
