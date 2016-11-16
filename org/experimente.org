@@ -1,10 +1,11 @@
 #+TITLE: Experimente
-#+OPTIONS: toc:2
-#+HTML_LINK_HOME: index.html
-#+HTML_LINK_UP: index.html
+#+INCLUDE: "./settings.org"
 
 * Concepte de baza
-
+  :PROPERTIES:
+  :CUSTOM_ID: concepte-baza
+  :END:
+  
 ** Măsurarea tensiunii
 
 *** Multimetrul analogic şi digital
