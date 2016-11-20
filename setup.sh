@@ -28,3 +28,5 @@ rsync -r ./org/* --exclude '*.org' public_html/
 # Cleanup.
 rm ./org/*.html ./org/*.pdf
 
+# Put all the generated content up for grabs.
+tar -czvf public_html/circuite.tar.gz public_html

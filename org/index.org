@@ -1,13 +1,10 @@
 #+TITLE: Introducere in circuite electrice si electronice
 #+OPTIONS: toc:nil
 
-* Capitole
-
 - [[file:curent_continuu.org][Curent continuu]]
 - [[file:curent_alternativ.org][Curent alternativ]]
 - [[file:electronica_analogica.org][Electronica analogica]]
 - [[file:electronica_digitala.org][Electronica digitala]]
 - [[file:experimente.org][Experimente]]
 
-
-
+[[file:circuite.tar.gz][Descarca]] varianta html si pdf (extragere arhiva cu 7zip).
