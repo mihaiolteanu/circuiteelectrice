@@ -1,8 +1,5 @@
 #+TITLE: Electronica digitală
-#+OPTIONS: toc:2
-#+HTML_LINK_HOME: index.html
-#+HTML_LINK_UP: index.html
-
+#+INCLUDE: "./settings.org"
 
 * Sisteme de numeratie
 
