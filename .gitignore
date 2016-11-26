@@ -42,4 +42,7 @@ flycheck_*.el
 .projectile
 
 # Ignore generated files
-public_html/
+/poze/
+*.pdf
+*.html
+*.gz

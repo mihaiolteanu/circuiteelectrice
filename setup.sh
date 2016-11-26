@@ -10,7 +10,7 @@ for orgfile in ./org/*.org; do
 
     # Don't regenerate files that are already up to date.
     htmlfile=${orgfile/\.org/\.html}
-    if [[ public_html/`basename $htmlfile` -nt $orgfile ]]; then
+    if [[ `basename $htmlfile` -nt $orgfile ]]; then
         continue
     fi
 
@@ -23,10 +23,10 @@ for orgfile in ./org/*.org; do
 done
 
 # Move all generated stuff to the place that matters.
-rsync -r ./org/* --exclude '*.org' public_html/
+rsync -r ./org/* --exclude '*.org' .
 
 # Cleanup.
 rm ./org/*.html ./org/*.pdf
 
 # Put all the generated content up for grabs.
-tar -czvf public_html/circuite.tar.gz public_html
+tar -czvf circuite.tar.gz *.html *.pdf poze/
