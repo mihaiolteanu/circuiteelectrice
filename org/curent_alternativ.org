@@ -2,8 +2,14 @@
 #+INCLUDE: "./settings.org"
 
 * Bazele teoriei
+:PROPERTIES:
+:CUSTOM_ID: bazele-teoriei
+:END:
 
 ** Ce este curentul alternativ
+:PROPERTIES:
+:CUSTOM_ID: ce-este-curentul-alternativ
+:END:
 
 În primul capitol am luat în considerare doar curentul continuu, termen
 folosit în electricitate pentru a defini deplasarea electronilor într-o
@@ -179,6 +185,9 @@ Sumar:
    primar / numărul de spire din secundar
 
 ** Forme de undă în curent alternativ
+:PROPERTIES:
+:CUSTOM_ID: forme-de-unda-in-curent-alternativ
+:END:
 
 Datorită modului de producere al energiei electrice, unda produsă de
 modificarea continuă a polarităţii tensiunii, respectiv direcţiei
@@ -282,6 +291,9 @@ Sumar:
 -  f = 1 / T
 
 ** Amplitudinea curentului alternativ
+:PROPERTIES:
+:CUSTOM_ID: amplitudinea-curentului-alternativ
+:END:
 
 În curent continuu, unde valoarea tensiunii şi a curentului sunt
 constante în timp, exprimarea cantităţii acestora în orice moment este
@@ -496,6 +508,9 @@ Sumar:
    valoarea sa efectivă şi cea medie
 
 ** Rezolvarea circuitelor simple de curent alternativ
+:PROPERTIES:
+:CUSTOM_ID: rezolvarea-circuitelor-simple-de-curent-alternativ
+:END:
 
 Rezolvarea circuitelor de curent alternativ se poate dovedi extrem de
 complexă în unele cazuri datorită comportamentului condensatoarelor şi
@@ -538,6 +553,9 @@ Sumar:
    într-o formă matematică mai complexă
 
 ** Fazele curentului alternativ
+:PROPERTIES:
+:CUSTOM_ID: fazele-curentului-alternativ
+:END:
 
 Lucrurile încep să se complice atunci când trebuie să comparăm două sau
 mai multe forme de undă alternative ce sunt defazate între ele. Prin
@@ -610,6 +628,9 @@ Sumar:
    complexe
 
 ** Principii ale undelor radio
+:PROPERTIES:
+:CUSTOM_ID: principii-ale-undelor-radio
+:END:
 
 Una dintre cele mai fascinante aplicaţii a energiei electrice constă în
 generarea undelor invizibile de energie, şi anume, a undelor radio. Deşi
@@ -708,8 +729,14 @@ Sumar:
 -  
 
 * Numere complexe
+:PROPERTIES:
+:CUSTOM_ID: numere-complexe
+:END:
 
 ** Introducere
+:PROPERTIES:
+:CUSTOM_ID: introducere-numere-complexe
+:END:
 
 Dacă dorim de exemplu să descriem distanţa dintre două oraşe, putem
 folosi o singură cifră, în kilometri, sau orice altă unitate de măsură
@@ -766,6 +793,9 @@ Sumar:
    reprezintă diferenţa de fază între formele de undă
 
 ** Vectori şi forme de undă în curent alternativ
+:PROPERTIES:
+:CUSTOM_ID: vectori-si-forme-de-unda-in-curent-alternativ
+:END:
 
 Să luăm câteva exemple de reprezentare a formelor de undă în curent
 alternativ cu ajutorul vectorilor, unde lungimea vectorului reprezintă
@@ -804,6 +834,9 @@ Sumar:
    referinţă
 
 ** Adunarea simplă a vectorilor
+:PROPERTIES:
+:CUSTOM_ID: adunarea-simpla-a-vectorilor
+:END:
 
 Operaţiile ce pot fi efectuate asupra vectorilor sunt aceleaşi care sunt
 posibile asupra oricărei mărimi scalare: adunare, scădere, înmulţire,
@@ -877,6 +910,9 @@ polaritatea schimbată şi faza modificată cu 180 de grade faţă de
 [[./poze/02266.png]]
 
 ** Adunarea complexă a vectorilor
+:PROPERTIES:
+:CUSTOM_ID: adunarea-complexa-a-vectorilor
+:END:
 
 Dacă adunăm doi vectori cu unghiuri diferite, lungimile lor se adună
 diferit faţă de cele scalare:
@@ -902,6 +938,9 @@ de curent alternativ, dar tensiunea totală indicată de acesta va fi de
 „doar” 10 volţi!
 
 ** Notaţia polară şi rectangulară a numerelor complexe
+:PROPERTIES:
+:CUSTOM_ID: notatia-polara-si-rectangulara-a-numerelor-complexe
+:END:
 
 Pentru a putea lucra cu aceste numere complexe fără a fi nevoiţi să
 desenăm tot timpul vectori, avem nevoie de o notaţie matematică
@@ -1028,6 +1067,9 @@ Sumar:
    „imaginară”
 
 ** Aritmetica numerelor complexe
+:PROPERTIES:
+:CUSTOM_ID: aritmetica-numerelor-complexe
+:END:
 
 **** Adunarea numerelor complexe
 
@@ -1078,6 +1120,9 @@ complex sub formă polară:
 [[./poze/12011.png]]
 
 ** Clarificări legate de polaritatea curentului alternativ
+:PROPERTIES:
+:CUSTOM_ID: clarificari-legate-de-polaritatea-curentului-alternativ
+:END:
 
 *** Polaritatea căderilor de tensiune
 
@@ -1153,8 +1198,14 @@ Sumar:
 -  
 
 * Reactanta inductiva
+:PROPERTIES:
+:CUSTOM_ID: reactanta-inductiva
+:END:
 
 ** Circuite rezistive în curent alternativ
+:PROPERTIES:
+:CUSTOM_ID: circuite-rezistive-in-curent-alternativ
+:END:
 
 Să considerăm un circuit de curent alternativ pur rezistiv, caz în care
 tensiunea şi curentul sunt în fază (unghiul de defazaj dintre ele este
@@ -1202,6 +1253,9 @@ de căldură. Indiferent de valoarea curentului, pozitivă sau negativă, un
 rezistor va disipa tot timpul energie.
 
 ** Circuite inductive în curent alternativ
+:PROPERTIES:
+:CUSTOM_ID: circuite-inductive-in-curent-alternativ
+:END:
 
 Bobinele au în schimb un comportament diferit faţă de cel al
 rezistorilor atunci când sunt introduse în circuit. Faţă de rezistor,
@@ -1403,6 +1457,9 @@ Sumar:
    alternativ
 
 ** Circuite rezistiv-inductive serie. Impedanţa
+:PROPERTIES:
+:CUSTOM_ID: circuite-rezistiv-inductive-serie.-impedanta
+:END:
 
 În secţiunile precedente, am văzut ce se întâmplă într-un circuit
 electric de curent alternativ simplu pur rezistiv, respectiv pur
@@ -1614,6 +1671,9 @@ Sumar:
    forma impedanţa totală
 
 ** Circuite rezistiv-inductive paralel în curent alternativ
+:PROPERTIES:
+:CUSTOM_ID: circuite-rezistiv-inductive-paralel-in-curent-alternativ
+:END:
 
 Să luăm în considerare aceleaşi componente din circuitul serie, dar să
 le conectăm de data aceasta în paralel:
@@ -1685,8 +1745,14 @@ Sumar:
    este mai mică decât impedanţa fiecărei ramuri luate în parte
 
 * Reactanta capacitiva
+:PROPERTIES:
+:CUSTOM_ID: reactanta-capacitiva
+:END:
 
 ** Circuite pur rezistive
+:PROPERTIES:
+:CUSTOM_ID: circuite-pur-rezistive
+:END:
 
 Vezi subcapitolul precedent (3.1)
 
@@ -1696,6 +1762,9 @@ Sumar:
 -  
 
 ** Circuite pur capacitive
+:PROPERTIES:
+:CUSTOM_ID: circuite-pur-capacitive
+:END:
 
 Comportamentul condensatoarelor este diferit faţă de cel al
 rezistorilor. Pe când rezistorii opun o rezistenţă direct proporţională
@@ -1834,6 +1903,9 @@ Sumar:
    curent este mai mică (cu atât conduce mai bine)
 
 ** Circuite rezistiv-capacitive serie
+:PROPERTIES:
+:CUSTOM_ID: circuite-rezistiv-capacitive-serie
+:END:
 
 Până acum am văzut doar ce se întâmplă într-un circuit pur rezistiv,
 respectiv pur inductiv. Acum vom analiza cele două componente conectate
@@ -1978,6 +2050,9 @@ Sumar:
    impedanţele se adună rezultând impedanţa totală
 
 ** Circuite rezistiv-capacitive paralel
+:PROPERTIES:
+:CUSTOM_ID: circuite-rezistiv-capacitive-paralel
+:END:
 
 Folosind aceleaşi valori, vom conecta rezistorul şi condensatorul în
 paralel, şi vom trece la analiza acestuia folosind metoda tabelului:
@@ -2060,8 +2135,14 @@ Sumar:
    ajutorul formulei echivalente)
 
 * Reactanta RLC
+:PROPERTIES:
+:CUSTOM_ID: reactanta-rlc
+:END:
 
 ** R, X şi Z - recapitulare
+:PROPERTIES:
+:CUSTOM_ID: r-x-si-z-recapitulare
+:END:
 
 Înainte de a începe să explorăm efectele rezistorilor, bobinelor şi a
 condensatoarelor conectate împreună în acelaşi circuit de curent
@@ -2147,6 +2228,9 @@ precum o face rezistenţă, conceptul de putere în circuitele de curent
 alternativ este radical diferit faţă de cele de curent alternativ.
 
 ** Circuite RLC serie
+:PROPERTIES:
+:CUSTOM_ID: circuite-rlc-serie
+:END:
 
 Să considerăm următorul circuit RLC serie:
 
@@ -2243,6 +2327,9 @@ Sumar:
    componente mai mari decât tensiunea sursei de alimentare
 
 ** Circuite RLC paralel
+:PROPERTIES:
+:CUSTOM_ID: circuite-rlc-paralel
+:END:
 
 Putem folosi aceleaşi componente de la circuitul serie, dar conectate în
 paralel de această dată:
@@ -2299,6 +2386,9 @@ Sumar:
 -  
 
 ** Circuite RLC serie-paralel
+:PROPERTIES:
+:CUSTOM_ID: circuite-rlc-serie-paralel
+:END:
 
 Să luăm ca şi exemplu următorul circuit serie-paralel:
 
@@ -2421,6 +2511,9 @@ Sumar:
    capacităţi (C)
 
 ** Susceptanţa şi admitanţa
+:PROPERTIES:
+:CUSTOM_ID: susceptanta-si-admitanta
+:END:
 
 În studiul circuitelor electrice de curent continuu am întâlnit termenul
 de /conductanţă/; aceasta se defineşte ca inversul rezistenţei.
@@ -2461,8 +2554,14 @@ Sumar:
 -  
 
 * Rezonanta
+:PROPERTIES:
+:CUSTOM_ID: rezonanta
+:END:
 
 ** Pendulul electric
+:PROPERTIES:
+:CUSTOM_ID: pendulul-electric
+:END:
 
 Condensatoarele stochează energie sub formă de câmp electric, iar
 această energie stocată se manifestă electric sub formă de potenţial:
@@ -2630,6 +2729,9 @@ Sumar:
    spunem că circuitul se află într-o stare de /rezonanţă/
 
 ** Rezonanţa paralel
+:PROPERTIES:
+:CUSTOM_ID: rezonanta-paralel
+:END:
 
 Putem ajunge la o stare de rezonanţă într-un circuit oscilator (LC),
 dacă reactanţele condensatorului şi a bobinei sunt egale între ele.
@@ -2699,6 +2801,9 @@ Sumar:
    rezonanţă
 
 ** Rezonanţa serie
+:PROPERTIES:
+:CUSTOM_ID: rezonanta-serie
+:END:
 
 Un efect similar rezonanţie parale are loc şi în circuitele
 inductiv/capacitive serie. Atunci când este atinsă o stare de rezonanţă
@@ -2749,6 +2854,9 @@ Sumar:
    componentelor
 
 ** Aplicaţii ale rezonanţei
+:PROPERTIES:
+:CUSTOM_ID: aplicatii-ale-rezonantei
+:END:
 
 Până acum, fenomenul rezonanţei pare doar o curiozitate nefolositoare,
 sau chiar dăunătoare,mai ales în cazul scurt-circuitării sursei de
@@ -2793,6 +2901,9 @@ Sumar:
    /filtre/
 
 ** Rezonanţa serie-paralel. Antirezonanţa
+:PROPERTIES:
+:CUSTOM_ID: rezonanta-serie-paralel-antirezonanta
+:END:
 
 În circuitele reactive simple fără rezistenţă (sau rezistenţă foarte
 mică), efectele impedanţelor la frecvenţa de rezonanţă vor fi cele
@@ -2984,8 +3095,14 @@ Sumar:
    produce antirezonanţă.
 
 * Frecvente combinate
+:PROPERTIES:
+:CUSTOM_ID: frecvente-combinate
+:END:
 
 ** Introducere
+:PROPERTIES:
+:CUSTOM_ID: introducere-frecvente-combinate
+:END:
 
 Circuitele studiate până în acest moment au fost alimentate integral
 într-o singură frecvenţă sinusoidală. În multe aplicaţii însă, frecvenţa
@@ -3120,6 +3237,9 @@ Sumar:
    multiplii ale frecvenţei fundamentale, şi poartă numele de /armonici/
 
 ** Forme de undă dreptunghiulare
+:PROPERTIES:
+:CUSTOM_ID: forme-de-unda-dreptunghiulare
+:END:
 
 Este cunoscut faptul că /orice/ semnal periodic (ce se repetă în timp)
 ne-sinusoidal poate fi reprezentat ca şi combinaţie de semnale continue,
@@ -3240,6 +3360,9 @@ Sumar:
    ale acesteia şi amplitudini descrescătoare
 
 ** Analiza spectrală
+:PROPERTIES:
+:CUSTOM_ID: analiza-spectrala
+:END:
 
 Analiza Fourier computerizată, în special sub forma algoritmului /FFT/
 (Fast Fourier Transform), este un instrument excelent pentru înţelegerea
@@ -3406,6 +3529,9 @@ Sumar:
    impact asupra conţinutului armonic al formei de undă în cauză
 
 ** Efecte asupra circuitelor
+:PROPERTIES:
+:CUSTOM_ID: efecte-asupra-circuitelor
+:END:
 
 Principiul conform căruia formele de undă periodice ne-sinusoidale sunt
 compuse dintr-o serie de unde sinusoidale de frecvenţe şi amplitudini
@@ -3494,8 +3620,14 @@ Sumar:
    combinaţie dintre acestea
 
 * Filtre
+:PROPERTIES:
+:CUSTOM_ID: filtre
+:END:
 
 ** Ce este un filtru
+:PROPERTIES:
+:CUSTOM_ID: ce-este-un-filtru
+:END:
 
 În unele cazuri este necesară folosirea unor circuite capabile să
 filtreze selectiv o anumită frecvenţă, sau un domeniu de frecvenţe,
@@ -3547,6 +3679,9 @@ Sumar:
    şi nu timpul
 
 ** Filtrul trece-jos
+:PROPERTIES:
+:CUSTOM_ID: filtrul-trece-jos
+:END:
 
 Prin definiţie, filtrul trece-jos permite trecerea (impedanţă mică)
 semnalelor de frecvenţă joasă şi blochează trecerea (impedanţă mare)
@@ -3707,6 +3842,9 @@ Sumar:
    sub 70.7% din tensiune de intrare, şi invers
 
 ** Filtrul trece-sus
+:PROPERTIES:
+:CUSTOM_ID: filtrul-trece-sus
+:END:
 
 Filtrul trece-sus este exact opusul filtrului trece-jos, după cum
 sugerează şi numele: permite trecerea semnalelor de frecvenţă înaltă şi
@@ -3810,6 +3948,9 @@ Sumar:
    mai mare decât 70.7% din tensiunea de intrare, şi invers
 
 ** Filtrul trece-bandă
+:PROPERTIES:
+:CUSTOM_ID: filtrul-trece-banda
+:END:
 
 Există aplicaţii în care este nevoie de filtrarea unei anumite benzi de
 frecvenţe din totalul frecvenţelor prezente în semnal. Circuitele de
@@ -3886,6 +4027,9 @@ Sumar:
    ordinea lor
 
 ** Filtrul stop-bandă
+:PROPERTIES:
+:CUSTOM_ID: filtrul-stop-banda
+:END:
 
 Filtrul stop-bandă permite trecerea tuturor frecvenţelor ce se află
 peste sau sub un anumit domeniu/bandă de frecvenţe determinat de
@@ -3945,6 +4089,9 @@ Sumar:
    şi sub numele de „filtru stop-bandă în dublu-T”
 
 ** Filtre rezonante
+:PROPERTIES:
+:CUSTOM_ID: filtre-rezonante
+:END:
 
 Filtrele considerate până în acest moment au fost compuse exclusiv din
 condensatoare /sau/ bobine, dar nu ambele tipuri de componente în
@@ -4131,8 +4278,14 @@ Sumar:
    trecere frecvenţelor dorite dinstre sursă spre sarcină
 
 * Transformatorul
+:PROPERTIES:
+:CUSTOM_ID: transformatorul
+:END:
 
 ** Inductanţa mutuală şi modul de funcţionare
+:PROPERTIES:
+:CUSTOM_ID: inductanta-mutuala-si-modul-de-functionare
+:END:
 
 Să presupunem că avem un miez feromagnetic închis (formă
 dreptunghiulară) şi înfăşurăm un conductor metalic izolat alimentat în
@@ -4543,6 +4696,9 @@ Sumar:
    când sursa ar fi conectată direct la sarcină
 
 ** Transformatorul ridicător şi coborâtor de tensiune
+:PROPERTIES:
+:CUSTOM_ID: transformatorul-ridicator-si-coborator-de-tensiune
+:END:
 
 Până în acest moment, am luat în considerare doar cazul în care cele
 două înfăşurări ale transformatorului aveau inductanţe identice, ducând
@@ -4657,6 +4813,9 @@ Sumar:
    poartă numele de transformator coborâtor de tensiune
 
 ** Tipuri de înfăşurări
+:PROPERTIES:
+:CUSTOM_ID: tipuri-de-infasurari
+:END:
 
 Nu este neapărat necesar ca transformatoarele să fie realizate din doar
 două seturi de înfăşurări. Să considerăm următorul circuit:
@@ -4774,8 +4933,14 @@ Sumar:
 -  Un autotransformator variabil poartă numele de Variac
 
 * Circuite polifazate
+:PROPERTIES:
+:CUSTOM_ID: circuite-polifazate
+:END:
 
 ** Sisteme de alimentare monofazate
+:PROPERTIES:
+:CUSTOM_ID: sisteme-de-alimentare-monofazate
+:END:
 
 #+CAPTION: schema electrică a unui circuit monofazat simplu; sarcini
 #+CAPTION: conectat în paralel
@@ -4952,6 +5117,9 @@ Sumar:
    tensiunii
 
 ** Sisteme de alimentare trifazate
+:PROPERTIES:
+:CUSTOM_ID: sisteme-de-alimentare-trifazate
+:END:
 
 Folosind modul „straniu” de însumare a vectorilor şi a numerelor
 complexe atunci când tensiunile alternative sunt defazate între ele,
@@ -5110,6 +5278,9 @@ Sumar:
    multiple de înfăşurări
 
 ** Secvenţa fazelor
+:PROPERTIES:
+:CUSTOM_ID: secventa-fazelor
+:END:
 
 Să considerăm din nou generatorul trifazat de curent alternativ din
 cazul precedent şi să analizăm rotaţia magneţilor şi efectele acesteia:
@@ -5234,6 +5405,9 @@ Sumar:
    de rotaţie a generatorului
 
 ** Funcţionarea motorului polifazat
+:PROPERTIES:
+:CUSTOM_ID: functionarea-motorului-polifazat
+:END:
 
 Probabil că cel mai mare avantaj al sistemelor de curent alternativ
 polifazata constă în proiectarea şi operarea motoarelor de curent
@@ -5381,6 +5555,9 @@ Sumar:
    de rotaţie a acestuia
 
 ** Configuraţii stea şi triunghi trifazate
+:PROPERTIES:
+:CUSTOM_ID: configuratii-stea-si-triunghi-trifazate
+:END:
 
 **** Configuraţia stea (Y)
 
@@ -5582,6 +5759,9 @@ Sumar:
    cu un curent de linie mai mic faţă de conexiunea triunghi.
 
 ** Transformatorul trifazat
+:PROPERTIES:
+:CUSTOM_ID: transformatorul-trifazat
+:END:
 
 Din moment ce sistemele trifazate sunt folosite atât de des în sistemele
 de distribuţie a energiei electrice, este necesară folosirea
@@ -5715,8 +5895,14 @@ Sumar:
 -  
 
 * Factorul de putere
+:PROPERTIES:
+:CUSTOM_ID: factorul-de-putere
+:END:
 
 ** Puterea în circuitele de curent alternativ rezistive şi reactive
+:PROPERTIES:
+:CUSTOM_ID: puterea-in-circuitele-de-curent-alternativ-rezistive-si-reactive
+:END:
 
 Să considerăm un circuit monofazat de curent alternativ, compus dintr-o
 sursă de tensiune de 120 V, la frecvenţa de 60 Hz, şi o sarcină
@@ -5808,6 +5994,9 @@ Sumar:
    între 0 şi 90 de grade
 
 ** Puterea reală, reactivă şi aparentă
+:PROPERTIES:
+:CUSTOM_ID: puterea-reala-reactiva-si-aparenta
+:END:
 
 Se ştie că elementele reactive precum bobinele şi condensatoarele nu
 disipă putere, dar existenţa căderii de tensiune şi curentului la
@@ -5888,6 +6077,9 @@ Sumar:
    este egal cu unghiul de fază al impedanţei din circuit (Z)
 
 ** Calcularea şi corectarea factorului de putere
+:PROPERTIES:
+:CUSTOM_ID: calcularea-si-corectarea-factorului-de-putere
+:END:
 
 Unghiul acestui „triunghi al puterilor” reprezintă raportul dintre
 valoarea puterii disipate (sau consumate) şi cantitatea de putere
@@ -6007,6 +6199,9 @@ Sumar:
    unui condensator în paralel cu sarcina
 
 ** Corectarea practică a factorului de putere
+:PROPERTIES:
+:CUSTOM_ID: corectarea-practica-a-factorului-de-putere
+:END:
 
 Atunci când avem nevoie de corectarea practică a factorului de putere
 într-un sistem de putere în curent alternativ, probabil că nu vom fi
@@ -6031,8 +6226,14 @@ Sumar:
 -  
 
 * Motoare electrice
+:PROPERTIES:
+:CUSTOM_ID: motoare-electrice
+:END:
 
 ** Scurtă introducere a motoarelor electrice
+:PROPERTIES:
+:CUSTOM_ID: scurta-introducere-a-motoarelor-electrice
+:END:
 
 *** De la curent continuu la curent alternativ
 
@@ -6090,6 +6291,9 @@ asemenea, motoarele de c.a. mai au şi alte tipuri de pierderi
 ne-întâlnite la motoarele de c.c.: histereza şi curenţii turbionari.
 
 ** Histereza şi curenţii turbionari
+:PROPERTIES:
+:CUSTOM_ID: histereza-si-curentii-turbionari
+:END:
 
 Primele experimente cu motoarele de c.a. s-au lovit de probleme
 specifice curenţilor alternativi. Aceste probleme au apărut la adaptarea
@@ -6152,6 +6356,9 @@ Sumar:
 -  
 
 ** Motorul sincron
+:PROPERTIES:
+:CUSTOM_ID: motorul-sincron
+:END:
 
 Motoarele sincrone monofazate de dimensiuni mici sunt folosite în
 aplicaţii ce necesită o sincronizare precisă, precum ceasuri, de
@@ -6304,6 +6511,9 @@ Sumar:
 -  
 
 ** Semnale analogice si digitale
+:PROPERTIES:
+:CUSTOM_ID: semnale-analogice-si-digitale
+:END:
 
 Motoarele sincrone introduc un factor de putere capacitiv în circuitul
 de alimentare. Acest lucru este adeseori folositor pentru anularea
@@ -6322,8 +6532,14 @@ Sumar:
 -  
 
 * Linii electrice lungi
+:PROPERTIES:
+:CUSTOM_ID: linii-electrice-lungi
+:END:
 
 ** Circuitele electrice şi viteza luminii
+:PROPERTIES:
+:CUSTOM_ID: circuitele-electrice-si-viteza-luminii
+:END:
 
 Să presupunem că avem un circuit electric simplu, format dintr-o
 baterie, o lampă şi un întrerupător. La închiderea întrerupătorului,
@@ -6399,6 +6615,9 @@ Sumar:
    mică
 
 ** Impedanţa caracteristică
+:PROPERTIES:
+:CUSTOM_ID: impedanta-caracteristica
+:END:
 
 Să presupunem totuşi, că am avea un set de conductori de lungime
 infinită, fără nicio lampă conectată la capăt. Ce s-ar întâmpla la
@@ -6574,6 +6793,9 @@ Sumar:
    permitivităţii relative a dielectricului dintre cei doi conductori
 
 ** Linii electrice finite
+:PROPERTIES:
+:CUSTOM_ID: linii-electrice-finite
+:END:
 
 O linie de transmisie inifită, precum cea considerată în secţiunea
 precedentă, este imposibil de realizat din punct de vedere fizic, prin
@@ -6715,6 +6937,9 @@ Sumar:
    caracteristică a liniei
 
 ** Linii electrice lungi şi linii electrice scurte
+:PROPERTIES:
+:CUSTOM_ID: linii-electrice-lungi-si-linii-electrice-scurte
+:END:
 
 În circuitele de curent continuu şi în cele de curent alternativ de
 frecvenţă joasă, impedanţa caracteristică a conductorilor paraleli este
@@ -6828,6 +7053,9 @@ Sumar:
    nedorite datorate lungimii liniei
 
 ** Unde staţionare şi rezonanţa
+:PROPERTIES:
+:CUSTOM_ID: unde-stationare-si-rezonanta
+:END:
 
 De câte ori există o diferenţă între impedanţa caracteristică a liniei
 şi impedanţa sarcinii, vor apărea şi reflexii ale undelor. Dacă unda

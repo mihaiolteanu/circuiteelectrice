@@ -2,8 +2,14 @@
 #+INCLUDE: "./settings.org"
 
 * Amplificatoare
+:PROPERTIES:
+:CUSTOM_ID: amplificatoare
+:END:
 
 ** Circuite electrice şi circuite electronice
+:PROPERTIES:
+:CUSTOM_ID: circuite-electrice-si-circuite-electronice
+:END:
 
 Circuitele electrice reprezintă conexiuni ale conductorilor electrici cu
 elemente de circuit, în cadrul cărora are loc o deplasare uniformă de
@@ -59,6 +65,9 @@ Sumar:
 -  
 
 ** Elemente active şi elemente pasive
+:PROPERTIES:
+:CUSTOM_ID: elemente-active-si-elemente-pasive
+:END:
 
 Un element de circuit /activ/ este orice tip de component ce poate
 controla deplasarea electronilor (curentul) pe cale electrică. Pentru ca
@@ -89,6 +98,9 @@ Sumar:
 -  
 
 ** Amplificatorul
+:PROPERTIES:
+:CUSTOM_ID: amplificatorul
+:END:
 
 Practic, elementele active sunt folosite pentru proprietatea lor de
 /amplificare/. Indiferent dacă dispozitivul în cauză este constrolat în
@@ -183,6 +195,9 @@ Sumar:
 -  
 
 ** Factorul de amplificare
+:PROPERTIES:
+:CUSTOM_ID: factorul-de-amplificare
+:END:
 
 Deoarece amplificatoarele pot să mărească amplitudinea semnalului de
 intrare, ar fi foarte util dacă am descrie această proprietatea a lor
@@ -233,6 +248,9 @@ Sumar:
 -  
 
 ** Decibelul
+:PROPERTIES:
+:CUSTOM_ID: decibelul
+:END:
 
 În cea mai simplă formă, factorul de amplificare al amplificatorului
 este un raport dintre semnalul de ieşire şi cel de intrare, fiind o
@@ -279,8 +297,14 @@ Sumar:
 -  
    
 * Fizica semiconductorilor
+:PROPERTIES:
+:CUSTOM_ID: fizica-semiconductorilor
+:END:
 
 ** Fizica cuantică
+:PROPERTIES:
+:CUSTOM_ID: fizica-cuantica
+:END:
 
 Invenţia dispozitivelor semiconductoare a constituit cu siguranţă o nouă
 revoluţie industrială. Aceste dispozitive au făcut posibilă
@@ -717,6 +741,9 @@ Sumar:
    legăturilor chimice ale elementelor
 
 ** Valenţa şi structura cristalină
+:PROPERTIES:
+:CUSTOM_ID: valenta-si-structura-cristalina
+:END:
 
 **** Valenţa
 
@@ -849,6 +876,9 @@ Sumar:
    monocristale
 
 ** Teoria benzilor de energie
+:PROPERTIES:
+:CUSTOM_ID: teoria-benzilor-de-energie
+:END:
 
 Fizica cuantică descrie starea electronilor dintr-un atom cu ajutorul
 celor patru numere cuantice. Aceste numere descriu /stările permise/ ale
@@ -945,6 +975,9 @@ Sumar:
    izolatori, nici buni conductori
 
 ** Electroni şi goluri
+:PROPERTIES:
+:CUSTOM_ID: electroni-si-goluri
+:END:
 
 Materialele semiconductoare pure sunt izolatori relativ buni, în
 comparaţie cu metalele, dar nu sunt la fel de bune precum sticla, de
@@ -1110,6 +1143,9 @@ Sumar:
    purtătorii de sarcină majoritari sunt în acest caz golurile
 
 ** Joncţiunea P-N
+:PROPERTIES:
+:CUSTOM_ID: jonctiunea-p-n
+:END:
 
 Dacă un bloc de material semiconductor de tip P este adus în contact cu
 un bloc de material semiconductor de tip N (figura de mai jos (a)),
@@ -1202,6 +1238,9 @@ Sumar:
 -  Joncţiunea PN polarizată învers, nu conduce aproape deloc curent
 
 ** Dioda
+:PROPERTIES:
+:CUSTOM_ID: dioda
+:END:
 
 După cum am precizat şi în secţiunea precedentă, dioda este realizată
 prin introducerea de impurităţi de tip N şi P în acelaşi cristal
@@ -1295,6 +1334,9 @@ Sumar:
 -  
 
 ** Tranzistorul bipolar cu joncţiune (BJT)
+:PROPERTIES:
+:CUSTOM_ID: tranzistorul-bipolar-cu-jonctiune-bjt
+:END:
 
 Primul tranzistor bipolar a fost inventat la „Bell Labs” de către
 William Shockley, Walter Brattain, şi John Bardeen în 1948 (de fapt,
@@ -1495,6 +1537,9 @@ Sumar:
    tranzistorii mici
 
 ** Tranzistorul cu efect de câmp (JFET)
+:PROPERTIES:
+:CUSTOM_ID: tranzistorul-cu-efect-de-camp-jfet
+:END:
 
 Tranzistorul cu efect de câmp a fost propus de Julius Liliendfel în 1926
 şi 1933 sub formă de patent. Shockley, Brattain şi Bardeen au investigat
@@ -1649,6 +1694,9 @@ Sumar:
    prin extinderea zonei de golire
 
 ** Tranzistorul cu efect de câmp cu poartă izolată (MOSFET)
+:PROPERTIES:
+:CUSTOM_ID: tranzistorul-cu-efect-de-camp-cu-poarta-izolata-mosfet
+:END:
 
 Tranzistorul cu efect de câmp cu poartă izolată (IGFET), cunoscut şi sub
 numele de „tranzistor cu efect de câmp cu metal oxid” (MOSFET), este un
@@ -1748,6 +1796,9 @@ Sumar:
    „condensatorului”
 
 ** Tiristorul
+:PROPERTIES:
+:CUSTOM_ID: tiristorul
+:END:
 
 Tiristoarele reprezintă o plajă largă de dispozitive semiconductoare
 bipolare folosind patru (sau mai multe) straturi alternante N-P-N-P. În
@@ -1808,8 +1859,14 @@ Sumar:
    asupra porţii
 
 * Dioda
+:PROPERTIES:
+:CUSTOM_ID: dioda
+:END:
 
 ** Principiul de funcţionare
+:PROPERTIES:
+:CUSTOM_ID: principiul-de-functionare
+:END:
 
 /Dioda/ este un dispozitiv electric ce permite trecerea curentului doar
 într-o singură direcţie. Cea mai folosită diodă în circuitele electrice
@@ -1975,6 +2032,9 @@ Sumar:
    la distrugerea acesteia, se numeşte /tensiune de străpungere/, V_{s}
 
 ** Verificarea diodei cu ajutorul ohmmetrului
+:PROPERTIES:
+:CUSTOM_ID: verificarea-diodei-cu-ajutorul-ohmmetrului
+:END:
 
 Din moment ce o diodă nu este nimic altceva decât o valvă
 uni-direcţională de curent, putem verifica acest lucru folosind un
@@ -2054,6 +2114,9 @@ Sumar:
    timpul măsurătorii
 
 ** Parametrii diodei
+:PROPERTIES:
+:CUSTOM_ID: parametrii-diodei
+:END:
 
 Pe lângă tensiunea de polarizare directă (V_{f}) şi tensiunea de
 străpungere (V_{s}), mai există mulţi alţi parametrii importanţi ai
@@ -2156,6 +2219,9 @@ niciun parametru. Prin urmare, producătorii pun la dispoziţie grafice
 ale variaţiilor parametrilor cu temperatura (sau alte variabile).
 
 ** Circuite redresoare
+:PROPERTIES:
+:CUSTOM_ID: circuite-redresoare
+:END:
 
 Cea mai populară aplicaţia e diodelor este /redresarea/. Pe scurt,
 redresarea reprezintă transformarea curentului alternativ în curent
@@ -2378,6 +2444,9 @@ Sumar:
    mult mai scăzută) decât redresarea tensiunii monofazate
 
 ** Dioda Zener
+:PROPERTIES:
+:CUSTOM_ID: dioda-zener
+:END:
 
 La conectarea unei diode în serie cu un rezistor într-un circuit de
 curent continuu, asfel încât dioda să fie polarizată direct, căderea de
@@ -2656,8 +2725,14 @@ Sumar:
 -  Dioda zener poate funcţiona pe post de stabilizator de tensiune
 
 * Tranzistorul
+:PROPERTIES:
+:CUSTOM_ID: tranzistorul
+:END:
 
 ** Introducere
+:PROPERTIES:
+:CUSTOM_ID: tranzistorul-introducere
+:END:
 
 Un tranzistor bipolar cu joncţiune (BJT) este alcătuit din trei straturi
 de materiale semiconductoare, fie de tipul PNP, fie de tipul NPN.
@@ -2715,6 +2790,9 @@ Sumar:
 -  
 
 ** Tranzistorul pe post de întrerupător
+:PROPERTIES:
+:CUSTOM_ID: tranzistorul-pe-post-de-intrerupator
+:END:
 
 Doarece curentul colectorului tranzistorului este limitat proporţional
 de curentul bazei, acesta poate fi folosit pe poste întrerupător
@@ -2818,6 +2896,9 @@ Sumar:
    /saturat/
 
 ** Verificarea tranzistorului cu ohmmetrul
+:PROPERTIES:
+:CUSTOM_ID: verificarea-tranzistorului-cu-ohmmetrul
+:END:
 
 Tranzistorii se comportă precum două diode puse spate-în-spate atunci
 când sunt verificaţi cu ajutorul multimetrului pe post de ohmmetru sau
@@ -2957,6 +3038,9 @@ Sumar:
    identificarea tranzistorilor
 
 ** Zona activă de funcţionare a tranzistorului
+:PROPERTIES:
+:CUSTOM_ID: zona-activa-de-functionare-a-tranzistorului
+:END:
 
 Când baza nu este polarizată, şi prin urmare nu există curent între
 emitor şi colector, spunem că tranzistorul este /blocat/. Invers, când
@@ -3133,6 +3217,9 @@ Sumar:
 -  β variază pentru diferite condiţii de operare
 
 ** Amplificator cu tranzistor în conexiune emitor comun
+:PROPERTIES:
+:CUSTOM_ID: amplificator-cu-tranzistor-in-conexiune-emitor-comun
+:END:
 
 Să reluăm exemplu studiat în secţiunile precedente, unde tranzistorul a
 fost folosit pe post de întrerupător:
@@ -3469,6 +3556,9 @@ Sumar:
    tranzistorului
 
 ** Amplificator cu tranzistor în conexiune colector comun
+:PROPERTIES:
+:CUSTOM_ID: amplificator-cu-tranzistor-in-conexiune-colector-comun
+:END:
 
 Configuraţa amplificatorului colector comun arată asfel:
 
@@ -3680,6 +3770,9 @@ Sumar:
    amplificare a fiecărui tranzistor din configuraţie
 
 ** Amplificator cu tranzistor în conexiune bază comună
+:PROPERTIES:
+:CUSTOM_ID: amplificator-cu-tranzistor-in-conexiune-baza-comuna
+:END:
 
 Această configuraţie este mai complexă decât celelalte două, emitor
 comun şi colector comun, şi este mai puţin folosită datorită
@@ -3803,6 +3896,9 @@ Sumar:
    tranzistor, factorul alfa este subunitar (mai mic decât 1)
 
 ** Amplificatoare clasa A, B, AB, C şi D
+:PROPERTIES:
+:CUSTOM_ID: amplificatoare-clasa-a-b-ab-c-si-d
+:END:
 
 După modul de reproducere la ieşire a formei de undă de la intrare,
 amplificatoarele pot fi împărţite pe /clase/. Aceaste clase sunt
@@ -3949,6 +4045,9 @@ Sumar:
    căldură foarte scăzută
 
 ** Punctul static de funcţionare al tranzistorului
+:PROPERTIES:
+:CUSTOM_ID: punctul-static-de-functionare-al-tranzistorului
+:END:
 
 O stare de /repaus/ se caracterizează prin faptul că semnalul de intrare
 al circuitului este zero. /Curentul de repaus/, de exemplu, este
@@ -4059,6 +4158,9 @@ Sumar:
    saturaţie a dreptei de sarcină
 
 ** Metode de polarizare ale tranzistorului
+:PROPERTIES:
+:CUSTOM_ID: metode-de-polarizare-ale-tranzistorului
+:END:
 
 Până în acest moment, am folosit o sursă de tensiune de curent continuu
 (baterie) conectată în serie cu semnalul de intrare în curent alternativ
@@ -4221,6 +4323,9 @@ Sumar:
    intrare
 
 ** Cuplajul de intrare şi cuplajul de ieşire
+:PROPERTIES:
+:CUSTOM_ID: cuplajul-de-intrare-si-cuplajul-de-iesire
+:END:
 
 *** Cuplaj de intrare
 
@@ -4400,6 +4505,9 @@ amplificatoarelor. În cazurile în care circuitul trebuie să amplifice şi
 semnale de c.c., aceasta este singura alternativă.
 
 ** Amplificatoare cu reacţie
+:PROPERTIES:
+:CUSTOM_ID: amplificatoare-cu-reactie
+:END:
 
 Dacă un anumit procent din semnalul de ieşire al amplifiatorului este
 conectat la intrarea acestuia, asfel încât amplificatorul amplifică o
@@ -4694,8 +4802,14 @@ Sumar:
    a semnalui de intrare
 
 * Dispozitive multijonctiune
+:PROPERTIES:
+:CUSTOM_ID: dispozitive-multijonctiune
+:END:
 
 ** Histerezis
+:PROPERTIES:
+:CUSTOM_ID: histerezis
+:END:
 
 Dispozitivele multijoncţiune sunt o clasă de componente semiconductoare
 cu histereză, o proprietate prin care un sistem nu se reîntoarce la
@@ -4732,6 +4846,9 @@ Sumar:
 -  
 
 ** Tuburi electronice cu descărcare în gaze
+:PROPERTIES:
+:CUSTOM_ID: tuburi-electronice-cu-descarcare-in-gaze
+:END:
 
 Înainte de a studia însă Dispozitivele multijoncţiune, este indicat să
 luăm în considerare şi predecesorul tehnologic al acestora, şi anume,
@@ -4880,6 +4997,9 @@ precum dispozitivul prezentat mai sus: pornirea şi oprirea curenţilor
 prin intermediul histerezei.
 
 ** Dioda Shockley
+:PROPERTIES:
+:CUSTOM_ID: dioda-shockley
+:END:
 
 Primul dispozitiv din seria dispozitivele multijoncţiune pe care îl vom
 studia este o diodă cu patru straturi, cunoscută sub numele de diodă
@@ -5078,6 +5198,9 @@ Sumar:
    curentului prin această sub un anumit prag critic
 
 ** DIAC-ul
+:PROPERTIES:
+:CUSTOM_ID: diac-ul
+:END:
 
 Şi diodele Shockley sunt dispozitive unidirecţionale, la fel ca toate
 diodele: acestea conduct curentul doar într-o singură direcţie. Dacă
@@ -5109,6 +5232,9 @@ DIAC-ul nu este aproape niciodată folosit singur ci combinat cu alte
 dispozitive multijoncţiune.
 
 ** Tiristorul
+:PROPERTIES:
+:CUSTOM_ID: tiristorul
+:END:
 
 Diodele Shockley sunt dispozitive interesante, dar aplicaţiile lor sunt
 limitate. Utilitatea lor poate fi extinsă prin echiparea lor cu o altă
@@ -5476,6 +5602,9 @@ Sumar:
    poartă şi catod, pozitivă pe poartă şi negativă pe catod
 
 ** TRIAC-ul
+:PROPERTIES:
+:CUSTOM_ID: triac-ul
+:END:
 
 TRIAC-ul nu este altceva decât două tiristoare în paralel aşezate spate
 în spate.
@@ -5577,6 +5706,9 @@ Sumar:
    terminalul A_{2}
 
 ** Optotiristorul
+:PROPERTIES:
+:CUSTOM_ID: optotiristorul
+:END:
 
 Asemenea tranzistorilor bipolari, atât tiristoarele cât şi triacele se
 pot construi sub forma dispozitivelor sensibile la lumină; în acest caz,
@@ -5597,8 +5729,14 @@ prezentat în figura alăturată.
 #+CAPTION: optotriacul; simbol
 [[./poze/03228.png]]
 * Amplificatorul operational
+:PROPERTIES:
+:CUSTOM_ID: amplificatorul-operational
+:END:
 
 ** Introducere
+:PROPERTIES:
+:CUSTOM_ID: amplificatorul-operational-introducere
+:END:
 
 Amplificatorul operaţional (AO) este cu siguranţă cel mai folositor
 dispozitiv din întreaga electronică analogică. Cu doar o mână de
@@ -5612,6 +5750,9 @@ prezentate aici în circuitele cu amplificatoare operaţionale, se extind
 cu mult dincolo de aplicaţiile lor imediate în electronică.
 
 ** Amplificatorul cu potenţial de referinţă şi amplificatorul
+:PROPERTIES:
+:CUSTOM_ID: amplificatorul-cu-potential-de-referinta-si-amplificatorul
+:END:
 diferenţial
 
 Pentru uşurinţa expunerii teoretice (desenării) a circuitelor
@@ -5761,6 +5902,9 @@ Sumar:
    ecuaţia V_{ieşire} = A_{V}(V_{(+)} - V_{(-)})
 
 ** Amplificatorul operaţional
+:PROPERTIES:
+:CUSTOM_ID: amplificatorul-operational
+:END:
 
 Cu mult înainte de apariţia tehnologiei digitale, calculatoarele erau
 construite electronic pentru efectuarea calculelor, folosind curenţi şi
@@ -5974,6 +6118,9 @@ Sumar:
    semnalului de ieşire
 
 ** Reacţia negativă
+:PROPERTIES:
+:CUSTOM_ID: reactia-negativa
+:END:
 
 Dacă ar fi să conectăm ieşirea unui AO la intrarea sa inversoare (-) şi
 în acelaşi timp să aplicăm un semnal te tensiune la intrarea sa
@@ -6098,6 +6245,9 @@ Sumar:
    saturaţie/, respectiv /tensiunea negativă de saturaţie/
 
 ** Reacţia prin divizor de tensiune
+:PROPERTIES:
+:CUSTOM_ID: reactia-prin-divizor-de-tensiune
+:END:
 
 Dacă adăugăm un divizor de tensiune la reacţia negativă, asfel încât
 doar o /fracţiune/ din tensiunea de ieşire este reintrodusă la intrarea
@@ -6231,6 +6381,9 @@ Sumar:
    următoarea formulă: A_{V} = -R_{2} / R_{1}
 
 ** Amplificatorul tensiune-curent
+:PROPERTIES:
+:CUSTOM_ID: amplificatorul-tensiune-curent
+:END:
 
 În circuitele de instrumentaţie, semnalele de c.c. sunt folosite adesea
 pentru reprezentarea analogică a unei mărimi fizice precum temperatura,
@@ -6295,6 +6448,9 @@ Sumar:
    prin circuitul de semnal la o valoarea bine stabilită
 
 ** Circuite sumatoare şi de mediere
+:PROPERTIES:
+:CUSTOM_ID: circuite-sumatoare-si-de-mediere
+:END:
 
 Dacă luăm trei rezistori egali şi conectăm unul din capetele fiecăruia
 dintre ei la un punct comun şi aplicăm apoi trei tensiuni de intrare,
@@ -6359,6 +6515,9 @@ Sumar:
    /neinversoare/ şi /inversoare/
 
 ** Realizarea unui amplificator diferenţial
+:PROPERTIES:
+:CUSTOM_ID: realizarea-unui-amplificator-diferential
+:END:
 
 Un aplificator fără reacţie negativă este deja un amplficator
 diferenţial, amplificând diferenţa de tensiune dintre cele două intrări.
@@ -6417,6 +6576,9 @@ Sumar:
 -  
 
 ** Amplificatorul de instrumentaţie
+:PROPERTIES:
+:CUSTOM_ID: amplificatorul-de-instrumentatie
+:END:
 
 După cum am spus şi în secţiunea precedentă, este de dorit modificarea
 factorul de amplificare al circuitului fără a schimba mai mult de un
@@ -6465,6 +6627,9 @@ Sumar:
    rezistenţei unui singur rezistor
 
 ** Circuite de derivare şi integrare
+:PROPERTIES:
+:CUSTOM_ID: circuite-de-derivare-si-integrare
+:END:
 
 Prin introducerea reactanţei electrice în buclele de reacţie ale
 amplificatoarelor operaţionale, ieşirea acestora va depinde de variaţie
@@ -6577,6 +6742,9 @@ Sumar:
    circuitului amplificatorului operational
 
 ** Reacţia pozitivă
+:PROPERTIES:
+:CUSTOM_ID: reactia-pozitiva
+:END:
 
 Spre deosebire de reacţia negativă, ce conectează ieşirea
 amplificatorului la intrarea sa inversoare (-), /reacţia pozitivă/

@@ -2,8 +2,14 @@
 #+INCLUDE: "./settings.org"
 
 * Concepte de baza
+:PROPERTIES:
+:CUSTOM_ID: concepte-de-baza
+:END:
 
 ** Electricitate statică
+:PROPERTIES:
+:CUSTOM_ID: electricitate-statica
+:END:
 
 Cu secole în urmă, a fost descoperit faptul că anumite tipuri de
 materiale se atrag misterios după au fost frecate unul de celălalt. De
@@ -241,6 +247,9 @@ Sumar:
    element unic
 
 ** Conductori, dielectrici şi deplasarea electronilor
+:PROPERTIES:
+:CUSTOM_ID: conductori-dielectrici-si-deplasarea-electronilor
+:END:
 
 Electronii diferitelor tipuri de atomi posedă grade diferite de
 libertate. În cazul unor tipuri de materiale, precum metalele,
@@ -477,6 +486,9 @@ Sumar:
    conductor
 
 ** Circuite electrice
+:PROPERTIES:
+:CUSTOM_ID: circuite-electrice
+:END:
 
 #+CAPTION: http://www.flickr.com/photos/judybaxter/2656574939/sizes/l/
 [[poza\_meniu2]]
@@ -538,6 +550,9 @@ Sumar:
    /oriunde/ în circuit împiedică curgerea electronilor prin acesta
 
 ** Tensiunea şi curentul
+:PROPERTIES:
+:CUSTOM_ID: tensiunea-si-curentul
+:END:
 
 Precum am menţionat mai sus, doar un drum continuu (circuit) nu este
 suficient pentru a putea deplasa electronii: avem de asemenea nevoie de
@@ -826,6 +841,9 @@ Sumar:
    referire.
 
 ** Rezistenţa
+:PROPERTIES:
+:CUSTOM_ID: rezistenta
+:END:
 
 Circuitele prezentate în capitolele precedente nu sunt foarte practice.
 De fapt, este chiar periculos (conectarea directă a polilor unei surse
@@ -979,6 +997,9 @@ Sumar:
    o rezistenţă scăzută, electronilor pentru curgere.
 
 ** Tensiune şi curent într-un circuit practic
+:PROPERTIES:
+:CUSTOM_ID: tensiune-si-curent-intr-un-circuit-practic
+:END:
 
 Deoarece este nevoie de energie pentru a forţa electronii să se
 deplaseze împotriva opoziţiei unei rezistenţe, va exista întotdeauna o
@@ -1031,6 +1052,9 @@ circuitului, cu toate că tensiunile pot varia între diferite seturi de
 puncte.
 
 ** Sensul convenţional şi sensul real de deplasare al electronilor
+:PROPERTIES:
+:CUSTOM_ID: sensul-conventional-si-sensul-real-de-deplasare-al-electronilor
+:END:
 
 /„Cel mai frumos lucru legat de standarde este că există atât de multe
 din care putem alege”/
@@ -1176,8 +1200,14 @@ dintr-un oarecare motiv.
 Pentru restul cărţii se va folosi notaţia reală de deplasare a
 electronilor.
 * Legea lui ohm
+:PROPERTIES:
+:CUSTOM_ID: legea-lui-ohm
+:END:
 
 ** Relaţia dintre tensiune, curent şi rezistenţă
+:PROPERTIES:
+:CUSTOM_ID: relatia-dintre-tensiune-curent-si-rezistenta
+:END:
 
 Un circuit electric este format atunci când este construit un drum prin
 care electronii se pot deplasa continuu. Această mişcare continuă de
@@ -1346,6 +1376,9 @@ Sumar:
 -  Legea lui Ohm: E = IR; I = E/R; R = E/I
 
 ** Puterea în circuitele electrice
+:PROPERTIES:
+:CUSTOM_ID: puterea-in-circuitele-electrice
+:END:
 
 Pe lângă tensiune şi curent, mai există o altă mărime a activităţii
 electronilor liberi din circuit: /puterea/. În primul rând trebuie să
@@ -1475,6 +1508,9 @@ Sumar:
    watti
 
 ** Calcularea puterii electrice
+:PROPERTIES:
+:CUSTOM_ID: calcularea-puterii-electrice
+:END:
 
 Am văzut formula pentru determinarea puterii într-un circuit electric:
 prin înmulţirea curentului (în amperi) cu tensiunea (în volţi) ajungem
@@ -1562,6 +1598,9 @@ Sumar:
    E^{2}/R
 
 ** Rezistori
+:PROPERTIES:
+:CUSTOM_ID: rezistori
+:END:
 
 Datorită relaţiei dintre tensiune, curent şi rezistenţă în oricare
 circuit, putem controla oricare variabilă dintr-un circuit prin simplul
@@ -1704,6 +1743,9 @@ Sumar:
 [[#meniu][↑ sus]]
 
 ** Conducţie neliniară
+:PROPERTIES:
+:CUSTOM_ID: conductie-neliniara
+:END:
 
 Legea lui Ohm este un instrument simplu şi puternic pentru analiza
 circuitelor electrice, dar are şi unele limitaţii pe care trebuie să le
@@ -1882,6 +1924,9 @@ Sumar:
 [[#meniu][↑ sus]]
 
 ** Conexiunea unui circuit
+:PROPERTIES:
+:CUSTOM_ID: conexiunea-unui-circuit
+:END:
 
 Până în acest moment am analizat circuite cu o singură baterie şi o
 singură rezistenţă fără a lua în calcul firele conductoare dintre
@@ -2023,6 +2068,9 @@ Sumar:
 [[#meniu][↑ sus]]
 
 ** Polaritatea căderilor de tensiune
+:PROPERTIES:
+:CUSTOM_ID: polaritatea-caderilor-de-tensiune
+:END:
 
 Putem determina direcţia curgerii electronilor într-un circuit, urmărind
 drumul ce duce de la terminalul negativ (-) la cel pozitiv (+) al
@@ -2074,8 +2122,14 @@ Sumar:
 
 [[#meniu][↑ sus]]
 * Electrocutarea
+:PROPERTIES:
+:CUSTOM_ID: electrocutarea
+:END:
 
 ** Siguranţa în domeniul electric
+:PROPERTIES:
+:CUSTOM_ID: siguranta-in-domeniul-electric
+:END:
 
 Pe măsură ce curentul electric „curge” printr-un material, orice
 opoziţie în calea deplasării electronilor (rezistenţă) are ca rezultat
@@ -2190,6 +2244,9 @@ Sumar:
    cunoscută sub numele de fibrilaţie
 
 ** Drumul curentului în cazul electrocutării
+:PROPERTIES:
+:CUSTOM_ID: drumul-curentului-in-cazul-electrocutarii
+:END:
 
 După cum am văzut deja, deplasarea continuă a electronilor necesită
 prezenţa unui circuit închis. Acesta este motivul pentru care şocul
@@ -2415,6 +2472,9 @@ Sumar:
    gravă sau chiar decesul persoane în cauză
 
 ** Legea lui Ohm (din nou!)
+:PROPERTIES:
+:CUSTOM_ID: legea-lui-ohm-din-nou
+:END:      
 
 În cadrul teoriei siguranţei electrice este rostită adeseori fraza: /Nu
 tensiunea omoară, ci curentul!/ Deşi există o urmă de adevăr în această
@@ -2735,6 +2795,9 @@ Sumar:
    preveni închiderea circuitului prin piept
 
 ** Practici de bază
+:PROPERTIES:
+:CUSTOM_ID: practici-de-baza
+:END:
 
 Dacă este posibil, închideţi întotdeauna alimentarea reţelei electrice
 înainte de atingerea oricăror elemente de circuit. Trebuie de asemenea
@@ -2873,6 +2936,9 @@ Sumar:
    pericolul existent
 
 ** Reacţia în cazuri de urgenţă
+:PROPERTIES:
+:CUSTOM_ID: reactia-in-cazuri-de-urgenta
+:END:
 
 În ciuda tuturor măsurilor de siguranţă luate, din când în când au loc
 şi accidente neplăcute. În majoritatea cazurilor acestea sunt urmarea
@@ -2945,6 +3011,9 @@ Sumar:
    sfârşit după acordarea imediată a asistenţei medicale
 
 ** Surse potenţiale de pericol
+:PROPERTIES:
+:CUSTOM_ID: surse-potentiale-de-pericol
+:END:
 
 Cu siguranţă că există un adevărat pericol de electrocutare atunci când
 lucrăm într-un circuit electric. Totuşi, posibilitatea apariţiei
@@ -3065,6 +3134,9 @@ Sumar:
    victimei şi nici posibilitatea apariţiei unui curent periculos
 
 ** Proiectarea aparatelor electrice
+:PROPERTIES:
+:CUSTOM_ID: proiectarea-aparatelor-electrice
+:END:
 
 Odată cu realizarea împământării circuitului, cel puţin un punct din
 circuit este comun cu pământul şi prin urmare nu prezintă niciun risc de
@@ -3244,6 +3316,9 @@ Sumar:
    electrocutării
 
 ** Utilizarea aparatelor de măsură
+:PROPERTIES:
+:CUSTOM_ID: utilizarea-aparatelor-de-masura
+:END:
 
 Utilizarea corectă şi în condiţii de siguranţă a unui aparat de măsură
 este o deprindere extrem de importantă pentru orice electrician sau
@@ -3528,8 +3603,14 @@ Sumar:
    curentul şi rezistenţa
 
 * Notatia stiintifica
+:PROPERTIES:
+:CUSTOM_ID: notatia-stiintifica
+:END:
 
 ** Notaţia ştiinţifică
+:PROPERTIES:
+:CUSTOM_ID: notatia-stiintifica
+:END:
 
 *** Scop
 
@@ -3624,6 +3705,9 @@ următoarea:
 greutatea = 3,005 x 10^{3} kg
 
 ** Aritmetica notaţiei ştiinţifice
+:PROPERTIES:
+:CUSTOM_ID: aritmetica-notatiei-stiintifice
+:END:
 
 *** Înmulţirea numerelor sub forma notaţiei ştiinţifice
 
@@ -3698,6 +3782,9 @@ Putem vedea că am ajuns la aceeiaşi valoarea, 3600 secunde (3,6 x
 10^{3}).
 
 ** Notaţia metrică
+:PROPERTIES:
+:CUSTOM_ID: notatia-metrica
+:END:
 
 [[http://ro.wikipedia.org/wiki/Sistemul_interna%C5%A3ional_de_unit%C4%83%C5%A3i][Sistemul
 metric]], pe lângă faptul că reprezintă o colecţie de unităţi de măsură
@@ -3759,8 +3846,14 @@ Sumar:
 -  
 
 * Serie paralel
+:PROPERTIES:
+:CUSTOM_ID: serie-paralel
+:END:
 
 ** Ce sunt circuitele „serie” şi „paralel”
+:PROPERTIES:
+:CUSTOM_ID: ce-sunt-circuitele-serie-si-paralel
+:END:
 
 Circuitele formate dintr-o singură baterie şi o singură rezistenţă sunt
 foarte uşor de analizat, dar nu sunt foarte des întâlnite în practică.
@@ -3843,6 +3936,9 @@ Sumar:
 -  Legea lui Ohm: E = IR; I = E/R; R = E/I
 
 ** Circuite serie simple
+:PROPERTIES:
+:CUSTOM_ID: circuite-serie-simple
+:END:
 
 Să începem cu un circuit electric format dintr-o baterie şi trei
 rezistori:
@@ -3990,6 +4086,9 @@ Sumar:
    E_{1} + E_{2} + . . . E_{n}.
 
 ** Circuite paralel simple
+:PROPERTIES:
+:CUSTOM_ID: circuite-paralel-simple
+:END:
 
 Să începem cu un circuit paralel format din trei rezistori şi o singură
 baterie:
@@ -4078,6 +4177,9 @@ Sumar:
    I_{n}.
 
 ** Conductanţa
+:PROPERTIES:
+:CUSTOM_ID: conductanta
+:END:
 
 Prin definiţie, rezistenţa este mărimea ce măsoară /frecarea/
 întâmpinată de electroni atunci când se deplasează prin componentul
@@ -4148,6 +4250,9 @@ Sumar:
 -  Matematic, conductanţa este inversul rezistenţei: G=1/R
 
 ** Calcularea puterii
+:PROPERTIES:
+:CUSTOM_ID: calcularea-puterii
+:END:
 
 La calcularea puterii disipate pe componentele rezistive, putem folosi
 oricare dintre ecuaţiile de putere în funcţie de mărimile cunoscute:
@@ -4206,6 +4311,9 @@ Sumar:
    P_{total} = P_{1} + P_{2} + ... + P_{n}
 
 ** Aplicarea corectă a legii lui Ohm
+:PROPERTIES:
+:CUSTOM_ID: aplicarea-corecta-a-legii-lui-ohm
+:END:
 
 Una dintre cele mai frecvente greşeli ale începătorilor în aplicarea
 legii lui Ohm constă în utilizarea greşită a mărimilor pentru tensiune,
@@ -4279,6 +4387,9 @@ Sumar:
    serie/paralel pe fiecare linie
 
 ** Analiza circuitelor defecte
+:PROPERTIES:
+:CUSTOM_ID: analiza-circuitelor-defecte
+:END:
 
 Sarcina unui tehnician presupune adesea localizarea şi remedierea sau
 înlocuirea componentelor dintr-un circuit defect. Identificarea
@@ -4782,6 +4893,9 @@ Sumar:
    normale de funcţionare
 
 ** Construirea circuitelor rezistive simple
+:PROPERTIES:
+:CUSTOM_ID: construirea-circuitelor-rezistive-simple
+:END:
 
 Pe măsură ce studiaţi circuitele electrice, veţi dori probabil să
 construiţi propriile circuite utilizând baterii şi rezistori (becuri, de
@@ -4978,8 +5092,14 @@ Sumar:
    teste, reglete de conexiuni sau plăci imprimate
 
 * Kirchhoff
+:PROPERTIES:
+:CUSTOM_ID: kirchhoff
+:END:
 
 ** Circuite divizoare de tensiune. Potenţiometrul
+:PROPERTIES:
+:CUSTOM_ID: circuite-divizoare-de-tensiune.-potentiometrul
+:END:
 
 Să analizăm un circuit electric serie simplu, determinând căderile de
 tensiune pe fiecare rezistor:
@@ -5162,6 +5282,9 @@ Sumar:
    ajustabil.
 
 ** Legea lui Kirchhoff pentru tensiune
+:PROPERTIES:
+:CUSTOM_ID: legea-lui-kirchhoff-pentru-tensiune
+:END:
 
 Să luam un circuit serie cu trei rezistori şi să notăm punctele din
 circuit:
@@ -5319,6 +5442,9 @@ Sumar:
    căderilor de tensiune dintr-o bulcă trebuie să fie egală cu zero”*
 
 ** Circuite divizoare de curent
+:PROPERTIES:
+:CUSTOM_ID: circuite-divizoare-de-curent
+:END:
 
 Să analizăm un circuit paralel simplu, determinând valorile curenţilor
 prin fiecare ramură, prin fiecare rezistor în parte:
@@ -5441,6 +5567,9 @@ Sumar:
    rezistenţelor: I_{n} = I_{Total} (R_{Total} / R_{n})
 
 ** Legea lui Kirchhoff pentru curent
+:PROPERTIES:
+:CUSTOM_ID: legea-lui-kirchhoff-pentru-curent
+:END:
 
 Să considerăm următorul circuit paralel:
 
@@ -5517,8 +5646,14 @@ Sumar:
    zero”*
 
 * Combinatii
+:PROPERTIES:
+:CUSTOM_ID: combinatii
+:END:
 
 ** Ce este un circuit serie-paralel
+:PROPERTIES:
+:CUSTOM_ID: ce-este-un-circuit-serie-paralel
+:END:
 
 În cazul circuitelor serie simple, toate componentele sunt legate cap la
 cap şi formează o singură cale pentru curgerea electronilor prin
@@ -5588,6 +5723,9 @@ Sumar:
    serie-paralel
 
 ** Tehnici de analiză a circuitelor
+:PROPERTIES:
+:CUSTOM_ID: tehnici-de-analiza-a-circuitelor
+:END:
 
 Scopul analizei circuitului serie-paralel este determinarea tuturor
 căderilor de tensiune, curenţilor şi puterilor disipate în circuit.
@@ -5742,8 +5880,14 @@ Sumar:
    „dezvoltarea„ circuitului redus spre forma iniţială
 
 * Aparate de masura
+:PROPERTIES:
+:CUSTOM_ID: aparate-de-masura
+:END:
 
 ** Ce este un aparat de măsură
+:PROPERTIES:
+:CUSTOM_ID: ce-este-un-aparat-de-masura
+:END:
 
 Un aparat de măsură este orice dispozitiv special realizat pentru
 afişarea unei mărimi electrice într-un format ce poate fi interpretat de
@@ -5935,6 +6079,9 @@ Sumar:
    dispozitivului
 
 ** Voltmetrul
+:PROPERTIES:
+:CUSTOM_ID: voltmetrul
+:END:
 
 Majoritatea aparatelor de măsură sunt dispozitive foarte sensibile.
 Unele modele, precum D'Arsonval, necesită un curent de doar 50 µA pentru
@@ -6118,6 +6265,9 @@ Sumar:
    de multiplicare pentru divizarea tensiunii totale de măsurat
 
 ** Impactul voltmetrului asupra circuitului
+:PROPERTIES:
+:CUSTOM_ID: impactul-voltmetrului-asupra-circuitului
+:END:
 
 Orice aparat de măsură introdus în circuit modifică comportamentul
 acestuia din urmă într-o oarecare măsură. Deşi impactul este inevitabil,
@@ -6353,6 +6503,9 @@ Sumar:
    sensibilitatea sa extrem de ridicată
 
 ** Ampermetrul
+:PROPERTIES:
+:CUSTOM_ID: ampermetrul
+:END:
 
 Un aparat de măsură conceput special pentru măsurarea valorii curentului
 electric (în amperi), poartă numele de ampermetru.
@@ -6553,6 +6706,9 @@ Sumar:
    valoare acurentului prin şunt
 
 ** Impactul ampermetrului asupra circuitului
+:PROPERTIES:
+:CUSTOM_ID: impactul-ampermetrului-asupra-circuitului
+:END:
 
 *** Ampermetrul ideal
 
@@ -6630,6 +6786,9 @@ Sumar:
    câmpului magnetic din jurul conductorului
 
 ** Ohmmetrul
+:PROPERTIES:
+:CUSTOM_ID: ohmmetrul
+:END:
 
 *** Scopul ohmmetrului
 
@@ -6794,6 +6953,9 @@ Sumar:
 -  
 
 ** Ohmmetre pentru tensiuni înalte
+:PROPERTIES:
+:CUSTOM_ID: ohmmetre-pentru-tensiuni-inalte
+:END:
 
 *** Limitările ohmmetrelor de joasă tensiune
 
@@ -6898,6 +7060,9 @@ Sumar:
 -  
 
 ** Multimetre
+:PROPERTIES:
+:CUSTOM_ID: multimetre
+:END:
 
 Am văzut modul în care un sistem electromecanic poate funcţiona pe post
 de voltmetru, ampermetru sau ohmmetru prin simpla conectare a unor
@@ -6944,6 +7109,9 @@ Sumar:
 -  
 
 ** Terminali tip Kelvin şi rezistori de precizie
+:PROPERTIES:
+:CUSTOM_ID: terminali-tip-kelvin-si-rezistori-de-precizie
+:END:
 
 *** Măsurarea rezistenţelor aflate la distanţă
 
@@ -7119,6 +7287,9 @@ Sumar:
 -  
 
 ** Circuite în punte - puntea Wheatstone şi Thomson
+:PROPERTIES:
+:CUSTOM_ID: circuite-in-punte-puntea-wheatstone-si-thomson
+:END:
 
 Circuitele în punte se foloesc de un detector de nul pentru a compara
 două tensiuni. Principiul este asemănător unei balanţe de laborator ce
@@ -7314,6 +7485,9 @@ Sumar:
 -  
 
 ** Wattmetrul
+:PROPERTIES:
+:CUSTOM_ID: wattmetrul
+:END:
 
 Puterea într-un circuit electric este produsul dintre tensiune şi
 curent. Prin urmare, orice aparat de măsura a puterii trebuie să poată
@@ -7352,6 +7526,9 @@ Sumar:
 -  
 
 ** Realizarea practică a rezistenţelor de calibrare
+:PROPERTIES:
+:CUSTOM_ID: realizarea-practica-a-rezistentelor-de-calibrare
+:END:
 
 De multe ori, în cazul realizării circuitelor de măsură, avem nevoie de
 rezistenţe precise pentru a obţine circuitul dorit. În majoritatea
@@ -7459,8 +7636,14 @@ Sumar:
 -  
 
 * Instrumentatie
+:PROPERTIES:
+:CUSTOM_ID: instrumentatie
+:END:
 
 ** Semnale analogice şi digitale
+:PROPERTIES:
+:CUSTOM_ID: semnale-analogice-si-digitale
+:END:
 
 Instrumentaţia este un domeniu bazat pe măsurarea şi constrolul
 proceselor fizice. Aceste procese fizice includ presiunea, temperatura,
@@ -7592,6 +7775,9 @@ Sumar:
    sistemului să poate fi uşor detectabil.
 
 ** Sisteme cu semnale de tensiune
+:PROPERTIES:
+:CUSTOM_ID: sisteme-cu-semnale-de-tensiune
+:END:
 
 Utilizarea tensiunii variabile pentru semnalele de instrumentaţie pare o
 soluţie bună în acest caz. Să vedem aşadar cum am putea folosi un semnal
@@ -7655,6 +7841,9 @@ Sumar:
    de-a lungul cablurilor electrice constituie o eroare de măsură.
 
 ** Sisteme cu semnale de curent
+:PROPERTIES:
+:CUSTOM_ID: sisteme-cu-semnale-de-curent
+:END:
 
 Folosind amplificatoare electronice putem construi circuite a căror
 ieşire să fie o cantitate constantă de curent în loc de o cantitate
@@ -7759,6 +7948,9 @@ Sumar:
    curent de 4-20 miliamperi
 
 ** Tahogeneratorul
+:PROPERTIES:
+:CUSTOM_ID: tahogeneratorul
+:END:
 
 Un generator electromecanic este un dispozitiv capabil să genereze
 putere electrică folosind energie mecanică, de obicei prin intermediul
@@ -7785,6 +7977,9 @@ Tehogeneratoarele sunt frecvent utulizate pentru determinarea vitezei
 motoarelor electrice
 
 ** Termocupla
+:PROPERTIES:
+:CUSTOM_ID: termocupla
+:END:
 
 Un fenomen interesant utilizat în domeniul instrumentaţiei este „efectul
 Seebeck” (notă: wikipedia), ce constă în producerea unei căderi de
@@ -7977,8 +8172,14 @@ Sumar:
    măsurătorii
 
 * Analiza retelei
+:PROPERTIES:
+:CUSTOM_ID: analiza-retelei
+:END:
 
 ** Ce înseamnă analiza unei reţele
+:PROPERTIES:
+:CUSTOM_ID: ce-inseamna-analiza-unei-retele
+:END:
 
 General vorbind, /analiza reţelei/ este o metodă matematică folosită
 pentru analiza unui circuit (o „reţea” de componente interconectate). În
@@ -8078,6 +8279,9 @@ Sumar:
    de ecuaţii.
 
 ** Metoda ramurii de curent
+:PROPERTIES:
+:CUSTOM_ID: metoda-ramurii-de-curent
+:END:
 
 Folosind aceasta metodă, presupunem şi indicăm un sens al curenţilor
 prin circuit şi scriem apoi ecuaţiile ce descriu relaţiile dintre
@@ -8270,6 +8474,9 @@ Sumar:
    (E=IR)
 
 ** Metoda buclei de curent
+:PROPERTIES:
+:CUSTOM_ID: metoda-buclei-de-curent
+:END:
 
 /Metoda buclei de curent/ sau /metoda ochiului de curent/ este
 asemănătoare metodei ramurii de curent prin faptul că foloseşte un
@@ -8454,6 +8661,9 @@ Sumar:
 7. Aflarea căderilor de tensiune pe toţi rezistorii (E=IR)
 
 ** Metoda nodului de tensiune
+:PROPERTIES:
+:CUSTOM_ID: metoda-nodului-de-tensiune
+:END:
 
 Metoda nodului de tensiune pentru analiza circuitelor determină
 tensiunea nodurilor în funcţie de ecuaţiile legii lui Kirchhoff pentru
@@ -8628,6 +8838,9 @@ Sumar:
    necunoscute
 
 ** Teorema lui Millman
+:PROPERTIES:
+:CUSTOM_ID: teorema-lui-millman
+:END:
 
 Prin intermediul teoremei lui Millman, circuitul este redesenat ca şi o
 reţea de ramuri paralele, fiecare ramură conţinând un rezistor sau o
@@ -8712,6 +8925,9 @@ Sumar:
    a circuitului)
 
 ** Teorema superpoziţiei
+:PROPERTIES:
+:CUSTOM_ID: teorema-superpozitiei
+:END:
 
 Teorema superpoziţiei reprezintă acea viziune de geniu ce transformă un
 subiect complex într-o versiune simplă şi uşor de înteles.
@@ -8832,6 +9048,9 @@ Sumar:
    sursele de curent cu un circuit deschis.
 
 ** Teorema lui Thevenin
+:PROPERTIES:
+:CUSTOM_ID: teorema-lui-thevenin
+:END:
 
 Teorema lui Thevenin susţine că orice circuit liniar poate fi
 simplificat, indiferent de complexitatea sa, la un circuit echivalent cu
@@ -8968,6 +9187,9 @@ Sumar:
    sarcină folosind regulile circuitelor serie
 
 ** Teorema lui Norton
+:PROPERTIES:
+:CUSTOM_ID: teorema-lui-norton
+:END:
 
 Conform teoremei lui Norton este posibilă simplificarea oricărui circuit
 liniar, indiferent de complexitate, la un circuit echivalent dotat cu o
@@ -9078,6 +9300,9 @@ Sumar:
    circuitelor paralele
 
 ** Echivalenţa teoremelor Thevenin-Norton
+:PROPERTIES:
+:CUSTOM_ID: echivalenta-teoremelor-thevenin-norton
+:END:
 
 Din moment ce ambele teoreme, atât Thevenin cât şi Norton, reprezintă
 metode valide de reducere a reţelelor complexe spre circuite mult mai
@@ -9146,6 +9371,9 @@ Sumar:
    rezistenţa Thevenin
 
 ** Teorema lui Millman revizuită
+:PROPERTIES:
+:CUSTOM_ID: teorema-lui-millman-revizuita
+:END:
 
 Revenim acum asupra teoremei lui Millman pentru a elucida forma
 „ciudată” a ecuaţiei şi provenienţa acesteia:
@@ -9224,6 +9452,9 @@ rezistenţei paralele pentru determinarea căderii de tensiune pe toate
 ramurile circuitului.
 
 ** Teorema transferului maxim de putere
+:PROPERTIES:
+:CUSTOM_ID: teorema-transferului-maxim-de-putere
+:END:
 
 Teorema transferului maxim de putere nu este neapărat o metodă de
 analiza a reţelelor ci este folosită pentru optimizarea design-ului
@@ -9283,6 +9514,9 @@ Sumar:
    alimentare a sarcinii
 
 ** Transformarea triunghi-stea şi stea-triunghi
+:PROPERTIES:
+:CUSTOM_ID: transformarea-triunghi-stea-si-stea-triunghi
+:END:
 
 De multe ori componentele sunt conectate într-o reţea cu trei terminale,
 asfel: conexiunea triunghi (Δ) cunoscută şi sub numele de delta sau Pi
@@ -9398,8 +9632,14 @@ Sumar:
    între punctele A, B şi C
 
 * Baterii
+:PROPERTIES:
+:CUSTOM_ID: baterii
+:END:
 
 ** Activitatea electronilor în reacţiile chimice
+:PROPERTIES:
+:CUSTOM_ID: activitatea-electronilor-in-reactiile-chimice
+:END:
 
 Până în acest moment nu am discutat în detaliu modul de funcţionare al
 bateriilor, ci am presupus pur şi simplu că acestea produc o tensiune
@@ -9552,6 +9792,9 @@ Sumar:
 -  
 
 ** Construcţia bateriilor electrice
+:PROPERTIES:
+:CUSTOM_ID: constructia-bateriilor-electrice
+:END:
 
 Cuvântul /baterie/ înseamnă pur şi simplu un grup de componente similare
 aduse împreună. O /baterie electrică/ este un set de pile voltaice
@@ -9654,6 +9897,9 @@ Sumar:
 -  
 
 ** Capacitatea bateriilor
+:PROPERTIES:
+:CUSTOM_ID: capacitatea-bateriilor
+:END:
 
 Datorită faptului că bateriile dau naştere unei curgeri de electroni
 prin circuit prin intermediul reacţiilor chimice (schimb de electroni),
@@ -9777,6 +10023,9 @@ Sumar:
 -  
 
 ** Baterii speciale
+:PROPERTIES:
+:CUSTOM_ID: baterii-speciale
+:END:
 
 *** Pila standard cu mercur
 
@@ -9877,6 +10126,9 @@ Sumar:
 -  
 
 ** Consideraţii practice
+:PROPERTIES:
+:CUSTOM_ID: consideratii-practice
+:END:
 
 La conectarea bateriilor în serie (sau paralel), trebuie să fim atenţi
 la caracteristicile fiecărei baterii, pentru a nu cauza probleme.
@@ -9984,8 +10236,14 @@ Sumar:
 -  
 
 * Fizica conductorilor
+:PROPERTIES:
+:CUSTOM_ID: fizica-conductorilor
+:END:
 
-** Introducere?
+** Introducere fizica conductorilor
+:PROPERTIES:
+:CUSTOM_ID: introducere-fizica-conductorilor
+:END:
 
 Ar trebui să fiţi deja familiarizaţi cu legătura ce există între
 conductivitatea electrică şi tipul materialului. Acele materiale ce
@@ -10110,6 +10368,9 @@ Sumar:
    tensiune în lungimea acelui conductor
 
 ** Mărimea şi amperajul conductorilor
+:PROPERTIES:
+:CUSTOM_ID: marimea-si-amperajul-conductorilor
+:END:
 
 *** Diametrul conductorilor si deplasarea electronilor
 
@@ -10201,6 +10462,9 @@ Sumar:
    conductor îl poate susţine, fără a duce la distrugerea acestuia
 
 ** Siguranţe fuzibile
+:PROPERTIES:
+:CUSTOM_ID: sigurante-fuzibile
+:END:
 
 *** Definiţia şi scopul siguranţelor fuzibile
 
@@ -10393,6 +10657,9 @@ Sumar:
    instalează pe faza acestuia şi nu pe neutru
 
 ** Rezistivitatea şi conductibilitatea electrică
+:PROPERTIES:
+:CUSTOM_ID: rezistivitatea-si-conductibilitatea-electrica
+:END:
 
 Amperajul unui conductor, bazat pe potenţialul curentului de a distruge
 conductorul. nu este cea mai bună metodă de reprezentare a rezistenţei
@@ -10500,6 +10767,9 @@ Sumar:
    material de a permite deplasarea electronilor prin acesta
 
 ** Coeficientul de temperatură al rezistenţei
+:PROPERTIES:
+:CUSTOM_ID: coeficientul-de-temperatura-al-rezistentei
+:END:
 
 Tabelul rezistivităţilor diferitelor materiale, prezentat în secţiunea
 precedentă, s-a referit doar la temperatura de 20^{o}. Prin urmare, dupa
@@ -10611,6 +10881,9 @@ Sumar:
     R = R_{ref}[1 + α(T - T_{ref})]
 
 ** Supraconductibilitatea
+:PROPERTIES:
+:CUSTOM_ID: supraconductibilitatea
+:END:
 
 În cazul răcirii la temperaturi extrem de scăzute, temperaturi apropiate
 de zero absolut (aproximativ -273^{o}C), rezistenţa conductorilor
@@ -10728,6 +11001,9 @@ Sumar:
    supraconducţie
 
 ** Străpungerea dielectricului
+:PROPERTIES:
+:CUSTOM_ID: strapungerea-dielectricului
+:END:
 
 *** Definiţia străpungerii dielectrice
 
@@ -10781,8 +11057,14 @@ Sumar:
    comportându-se precum un conductor
 
 * Condensatorul
+:PROPERTIES:
+:CUSTOM_ID: condensatorul
+:END:
 
 ** Câmpuri şi capacitatea electrică
+:PROPERTIES:
+:CUSTOM_ID: campuri-si-capacitatea-electrica
+:END:
 
 Atunci când între doi conductori există o tensiune electrică, spunem că
 există un câmp electric în spaţiul dintre ei. Vorbind de câmpuri ne
@@ -10986,6 +11268,9 @@ Sumar:
 -  Denumirea nouă pentru /condensator/ este /capacitor/
 
 ** Relaţia tensiune-curent pentru condensator
+:PROPERTIES:
+:CUSTOM_ID: relatia-tensiune-curent-pentru-condensator
+:END:
 
 Condensatorii nu au o „rezistenţă” stabilă precum am rezistorii. Totuşi,
 există o relaţie matematică precisă între tensiunea şi curentului unui
@@ -11124,6 +11409,9 @@ electronilor la descărcarea condensatorului, în sens opus faţă de
 încărcarea acestuia.
 
 ** Factori ce afectează capacitatea electrică
+:PROPERTIES:
+:CUSTOM_ID: factori-ce-afecteaza-capacitatea-electrica
+:END:
 
 Există trei factori de bază în construcţia condensatoarelor ce afectează
 valoarea capacităţii asfel create. Toţi aceşti factori afectează
@@ -11234,6 +11522,9 @@ afectând aria efectivă în care poate exista campul electric între cele
 două armături.
 
 ** Conectarea condensatorilor în serie şi paralel
+:PROPERTIES:
+:CUSTOM_ID: conectarea-condensatorilor-in-serie-si-paralel
+:END:
 
 **** Conectarea în serie
 
@@ -11283,6 +11574,9 @@ Sumar:
 -  Capacităţile condensatorilor se adună la conectarea în paralel
 
 ** Consideraţii practice (condensatorul)
+:PROPERTIES:
+:CUSTOM_ID: condensatorul-consideratii-practice
+:END:
 
 Condensatoarele, la fel ca toate celelalte componente, au unele limite
 de funcţionare şi utilizare. Acestea trebuie respectate dacă dorim o
@@ -11358,8 +11652,14 @@ Sumar:
 -  
 
 * Electromagnetism
+:PROPERTIES:
+:CUSTOM_ID: electromagnetism
+:END:
 
 ** Magneţi permanenţi
+:PROPERTIES:
+:CUSTOM_ID: magneti-permanenti
+:END:
 
 Faptul că unele tipuri de roci minerale posedă proprietăţi neobişnuite
 de atracţie atunci când se află în apropierea fierului, a fost
@@ -11471,6 +11771,9 @@ Sumar:
    magnetizarea în direcţie opusă
 
 ** Electromagnetism
+:PROPERTIES:
+:CUSTOM_ID: electromagnetism
+:END:
 
 Descoperirea relaţiei dintre magnetism şi electricitate a fost făcută,
 precum multe alte descoperiri ştiinţifice, aproape din întâmplare. În
@@ -11562,6 +11865,9 @@ Sumar:
    complete formate de conductor
 
 ** Unităţi de măsură ale câmpului magnetic
+:PROPERTIES:
+:CUSTOM_ID: unitati-de-masura-ale-campului-magnetic
+:END:
 
 În cadrul discuţiei despre magnetism, vom întâlni următoarele mărimi:
 
@@ -11663,6 +11969,9 @@ existenţei unui rezistor ce şi-ar modifica rezistenţa pe măsură ce
 curentul ce-l străbate variază.
 
 ** Permeabilitatea şi saturaţia
+:PROPERTIES:
+:CUSTOM_ID: permeabilitatea-si-saturatia
+:END:
 
 Nonliniaritatea permeabilităţii materialelor poate fi trasată pe un
 grafic pentru o mai bună înţelegere a ei. Plasăm intensitatea câmpului
@@ -11784,6 +12093,9 @@ Sumar:
    numele de /histerezis/
 
 ** Inducţia electromagnetică
+:PROPERTIES:
+:CUSTOM_ID: inductia-electromagnetica
+:END:
 
 Deşi Oersted a fost cel care a descoperit existenţa
 electromagnetismului, totuşi,
@@ -11852,6 +12164,9 @@ Sumar:
    principiu/efect se numeşte /bobină/
 
 ** Inductanţa mutuală. Transformatorul
+:PROPERTIES:
+:CUSTOM_ID: inductanta-mutuala.-transformatorul
+:END:
 
 Dacă două înfăşurări străbătute de curent electric sunt aduse una în
 vecinătatea celeilalte, asfel încât câmpul magnetic al uneia să se
@@ -11910,8 +12225,14 @@ Sumar:
    sunt dispozitive de curent alternativ şi nu de curent continuu
 
 * Bobina
+:PROPERTIES:
+:CUSTOM_ID: bobina
+:END:
 
 ** Câmpul magnetic şi inductanţa
+:PROPERTIES:
+:CUSTOM_ID: campul-magnetic-si-inductanta
+:END:
 
 Atunci când un conductor este parcurs de curent electric (deplasarea
 electronilor), se va forma tot timpul un câmp magnetic în jurul
@@ -12074,6 +12395,9 @@ Sumar:
    numeşte /inductanţă/ (L). Unitatea sa de măsură este /Henry/ (H)
 
 ** Relaţia tensiune-curent pentru bobină
+:PROPERTIES:
+:CUSTOM_ID: relatia-tensiune-curent-pentru-bobina
+:END:
 
 Bobinele nu au o „rezistenţă” stabilă precum rezistenţele sau
 conductoarele. Totuşi, există o relaţie matematică dintre tensiunea şi
@@ -12227,6 +12551,9 @@ Pentru efect maxim, marimea bobine ar trebuie să fie cât mai mare
 posibil (o inductanţă de cel puţin 1 Henry).
 
 ** Factori ce influenţează inductanţa
+:PROPERTIES:
+:CUSTOM_ID: factori-ce-influenteaza-inductanta
+:END:
 
 Există patru factori de bază în construcţia bobinelor ce influenţează
 valoarea inductanţei create. Toţi aceşti factori se referă la valoarea
@@ -12312,6 +12639,9 @@ variaţia numărului de înfăşurări folosite în orice moment, sau prin
 schimbarea miezului.
 
 ** Bobine serie şi paralel
+:PROPERTIES:
+:CUSTOM_ID: bobine-serie-si-paralel
+:END:
 
 **** Inductanţa bobinelor în serie
 
@@ -12371,6 +12701,9 @@ Sumar:
 -  Inductanţele paralel scad
 
 ** Consideraţii practice (bobina)
+:PROPERTIES:
+:CUSTOM_ID: bobina-consideratii-practice
+:END:
 
 Bobinele, la fel ca toate celelalte componente, au anumite limite ce
 trebuiesc luate în considerare dacă se doreşte operarea eficientă şi
@@ -12440,8 +12773,14 @@ Sumar:
 -  
 
 * Constante de timp
+:PROPERTIES:
+:CUSTOM_ID: constante-de-timp
+:END:
 
 ** Răspunsul tranzitoriu al condensatorului
+:PROPERTIES:
+:CUSTOM_ID: raspunsul-tranzitoriu-al-condensatorului
+:END:
 
 Condensatorii tind să se comporte asemenea bateriilor secundare datorită
 posibilităţii de stocare şi eliberare ulterioară a energiei sub formă de
@@ -12528,6 +12867,9 @@ Sumar:
    greu de valorile lor finale odată cu trecerea timpului
 
 ** Răspunsul tranzitoriu al bobinei
+:PROPERTIES:
+:CUSTOM_ID: raspunsul-tranzitoriu-al-bobinei
+:END:
 
 O bobină complet descărcată (nu există câno magnetic), prin care nu
 trece niciun curent, la conectarea unei surse de tensiune la bornele
@@ -12597,6 +12939,9 @@ Sumar:
    variabile au o variaţie puternică la început.
 
 ** Calcularea tensiunii şi a curentului
+:PROPERTIES:
+:CUSTOM_ID: calcularea-tensiunii-si-a-curentului
+:END:
 
 **** Valorile iniţiale şi cele finale
 
@@ -12821,6 +13166,9 @@ Paşii pentru analiza circuitelor RC şi L/R:
    variaţia calculată şi valoarea iniţială a variabilei
 
 ** De ce L/R şi nu LR
+:PROPERTIES:
+:CUSTOM_ID: de-ce-l/r-si-nu-lr
+:END:
 
 Pentru cei care studiază teoria circuitelor electrice pentru prima dată,
 este destul de greu de înţeles motivul pentru care calculul constantei
@@ -12948,6 +13296,9 @@ descarcă este mare şi invers, se descarcă lent dacă rezistenţa este
 mică.
 
 ** Cazuri speciale de calcul
+:PROPERTIES:
+:CUSTOM_ID: cazuri-speciale-de-calcul
+:END:
 
 Există cazuri de analiză a circuitelor de curent continuu tranzitorii în
 care componentele reactive (condensatori sau bobine) nu sunt iniţial
@@ -13020,6 +13371,9 @@ pentru a ajunge la aceleaşi rezultate:
 #+END_EXAMPLE
 
 ** Circuite complexe
+:PROPERTIES:
+:CUSTOM_ID: circuite-complexe
+:END:
 
 Ce facem în cazul în care avem un circuit mai complicat decât
 configuraţiile serie considerate până acum? Să luăm acest circuit, de
@@ -13109,6 +13463,9 @@ Sumar:
    universală a constantei de timp
 
 ** Rezolvarea circuitului pentru variabila timp
+:PROPERTIES:
+:CUSTOM_ID: rezolvarea-circuitului-pentru-variabila-timp
+:END:
 
 În unele cazuri este necesară determinarea duratei de timp pentru care
 circuitul va atinge o valoarea predeterminată. Acest lucru este în

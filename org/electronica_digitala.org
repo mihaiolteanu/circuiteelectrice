@@ -2,8 +2,14 @@
 #+INCLUDE: "./settings.org"
 
 * Sisteme de numeratie
+:PROPERTIES:
+:CUSTOM_ID: sisteme-de-numeratie
+:END:
 
 ** Numere şi simboluri
+:PROPERTIES:
+:CUSTOM_ID: numere-si-simboluri
+:END:
 
 Exprimarea cantităţilor sub formă numerică ni se pare un lucru natural.
 Această situaţie este atât în avantajul cât şi în dezavantajul nostru
@@ -81,6 +87,9 @@ Sumar:
 -  
 
 ** Sisteme de numeraţie
+:PROPERTIES:
+:CUSTOM_ID: sisteme-de-numeratie
+:END:
 
 *** Sistemul de numeraţie roman
 
@@ -185,8 +194,14 @@ format numeric: benzi magnetice, CD-uri, hard-disk-uri, etc.
    (stefamedia.ro)
 
 * Aritmetica binara
+:PROPERTIES:
+:CUSTOM_ID: aritmetica-binara
+:END:
 
 ** Valori şi sisteme de numeraţie
+:PROPERTIES:
+:CUSTOM_ID: valori-si-sisteme-de-numeratie
+:END:
 
 Este foarte important să înţelegem că sistemul de numeraţie ales pentru
 reprezentarea valorilor (numerelor) nu are absolut niciun impact asupra
@@ -219,6 +234,9 @@ calculator de mână, calculatorul însăşi foloseşte numerele binare pentru
 obţinerea rezultatului final.
 
 ** Adunarea binară
+:PROPERTIES:
+:CUSTOM_ID: adunarea-binara
+:END:
 
 Adunarea numerelor binare este relativ simplă, foarte asemănătoare cu
 adunarea numerelor zecimale. Adunarea se realizează adunând pe coloane
@@ -260,6 +278,9 @@ Sumar:
 -  
 
 ** Numere binare negative
+:PROPERTIES:
+:CUSTOM_ID: numere-binare-negative
+:END:
 
 *** Bit-ul de semn
 
@@ -386,6 +407,9 @@ obţinerea răspunsului final: 1011_{2}, sau -5_{10} în complement faţă de
 doi, exprimat cu patru biţi.
 
 ** Scăderea binară
+:PROPERTIES:
+:CUSTOM_ID: scaderea-binara
+:END:
 
 Putem realiza operaţia de scădere binară utilizând aceleaşi metode
 standard împrumutate de la scăderea zecimală. Totuşi, dacă putem utiliza
@@ -470,6 +494,9 @@ respective, astfel:
 Răspunsul obţinut este corect (18_{10} - 25_{10} = -7_{10}).
 
 ** Depăşirea binară
+:PROPERTIES:
+:CUSTOM_ID: depasirea-binara
+:END:
 
 Una din problemele numerelor binare cu semn, este bit-ului de depăşire.
 Acesta apare ca în cazul în care rezultatul adunării sau scăderii
@@ -578,6 +605,9 @@ uşor de implementat într-un circuit electronic.
 [[./poze/00000.png]]
 
 ** Grupări de biţi
+:PROPERTIES:
+:CUSTOM_ID: grupari-de-biti
+:END:
 
 La reprezentarea numerelor binare cu ajutorul circuitelor electronice,
 suntem nevoiţi să utilizăm un număr suficient de circuite cu tranzistori
@@ -622,8 +652,14 @@ Tot în funcţie de sistem sunt folosiţi şi termenii de „double word” sau
 standard), „half-word” (jumătatea lungimii) sau quar (de patru ori
 lungimea standard).
 * Porti logice
+:PROPERTIES:
+:CUSTOM_ID: porti-logice
+:END:
 
 ** Semnale digitale şi porţi
+:PROPERTIES:
+:CUSTOM_ID: semnale-digitale-si-porti
+:END:
 
 Deşi sistemul de numeraţie binar reprezintă un concept matematic
 abstract interesant, încă nu am spus nimic despre aplicaţiile practice
@@ -789,6 +825,9 @@ Sumar:
    circuit logic
 
 ** Porţi logice cu două intrări
+:PROPERTIES:
+:CUSTOM_ID: porti-logice-cu-doua-intrari
+:END:
 
 Având doar o intrare, singurele porţi „disponibile” sunt cele inversoare
 şi cele ne-inversoare. Pentru a lucra cu mai multe posibilităţi, trebuie
@@ -1077,6 +1116,9 @@ Sumar:
    1
 
 ** Principiul universalităţii
+:PROPERTIES:
+:CUSTOM_ID: principiul-universalitatii
+:END:
 
 Porţile logice ŞI-negat şi SAU-negat posedă o proprietate specială: sunt
 universale. Cu alte cuvinte, având un număr suficient de astfel de
@@ -1251,6 +1293,9 @@ Sumar:
 -  
 
 ** Modul de împachetare
+:PROPERTIES:
+:CUSTOM_ID: modul-de-impachetare
+:END:
 
 Circuitele digitale cu porţi logice sunt confecţionate ca şi circuite
 integrate: toţi tranzistori şi rezistorii ce intră în componenţa
@@ -1282,8 +1327,14 @@ Sumar:
 -  
 
 * Comutatoare
+:PROPERTIES:
+:CUSTOM_ID: comutatoare
+:END:
 
 ** Tipuri de comutatoare
+:PROPERTIES:
+:CUSTOM_ID: tipuri-de-comutatoare
+:END:
 
 Un comuntator electric este orice dispozitiv folosit pentru întreruperea
 deplasării electronilor prin circuit. Comutatoarele sunt practic
@@ -1562,6 +1613,9 @@ Sumar:
    variabile fizice de proces, precum temperatură, presiune, nivel, etc.
 
 ** Poziţia „normală” a contactelor
+:PROPERTIES:
+:CUSTOM_ID: pozitia-normala-a-contactelor
+:END:
 
 Orice tip de comutator poate fi proiectat astfel încât contactele sale
 să se închidă (stabilirea continuităţii circuitului), sau să se deschidă
@@ -1738,8 +1792,14 @@ Sumar:
    contactelor staţionare disponibile pentru fiecare contact mobil
 
 * Relee electromecanice
+:PROPERTIES:
+:CUSTOM_ID: relee-electromecanice
+:END:
 
 ** Construcţia releelor
+:PROPERTIES:
+:CUSTOM_ID: constructia-releelor
+:END:
 
 #+CAPTION: o bobină produce un câmp magnetic la trecerea curentului prin
 #+CAPTION: aceasta
@@ -1823,6 +1883,9 @@ Sumar:
    comutator
 
 ** Contactoare
+:PROPERTIES:
+:CUSTOM_ID: contactoare
+:END:
 
 Atunci când releele sunt folosite pentru comutarea unor puteri mari prin
 contactele sale, acestea poartă numele de contactoare. Contactorele au
@@ -1843,6 +1906,9 @@ Sumar:
 -  
 
 ** Relee temporizate
+:PROPERTIES:
+:CUSTOM_ID: relee-temporizate
+:END:
 
 Unele relee sunt prevăzute cun un fel de „amortizor”. Acest mecanism,
 ataşat arăturii releului previne deplasarea imediată şi completă a
@@ -1993,6 +2059,9 @@ Sumar:
    contactelor.
 
 ** Relee semiconductoare
+:PROPERTIES:
+:CUSTOM_ID: relee-semiconductoare
+:END:
 
 Pe cât de utile sunt, releele electromecanice au totuşi multe
 inconveniente. Acestea sunt relativ scumpe, au o durată de viaţă a
@@ -2045,8 +2114,14 @@ Sumar:
 -  
 
 * Logica ladder
+:PROPERTIES:
+:CUSTOM_ID: logica-ladder
+:END:
 
 ** Diagrame ladder
+:PROPERTIES:
+:CUSTOM_ID: diagrame-ladder
+:END:
 
 Diagramele ladder sunt diagrame speciale folosite de obicei în sistemele
 logice de control industrial. Denumirea de ladder (din engleză: scară)
@@ -2155,6 +2230,9 @@ Sumar:
    electromecanice dintr-un circuit logic
 
 ** Funcţii logice digitale
+:PROPERTIES:
+:CUSTOM_ID: functii-logice-digitale
+:END:
 
 *** Funcţia logică SAU
 
@@ -2400,6 +2478,9 @@ Sumar:
 -  Pentru inversarea ieşirii unei funcţii logice, se folosesc relee
 
 ** Circuite permisive şi de blocare
+:PROPERTIES:
+:CUSTOM_ID: circuite-permisive-si-de-blocare
+:END:
 
 *** Controlul aprinderii furnalelor
 
@@ -2506,6 +2587,9 @@ Sumar:
    directă şi indirecta a unui motor electric, simultan, de exemplu)
 
 ** Circuite logice cu autoprotecţie
+:PROPERTIES:
+:CUSTOM_ID: circuite-logice-cu-autoprotectie
+:END:
 
 Circuitele logic, fie că sunt compuse din relee electromecanice sau din
 porţi logice semiconductoare, pot fi construite sub mai multe variante
@@ -2598,6 +2682,9 @@ Sumar:
 -  
 
 ** Automate programabile (PLC)
+:PROPERTIES:
+:CUSTOM_ID: automate-programabile-plc
+:END:
 
 *** Scurtă istorie
 
@@ -2903,8 +2990,14 @@ Sumar:
 -  
 
 * Algebra booleana
+:PROPERTIES:
+:CUSTOM_ID: algebra-booleana
+:END:
 
 ** Introducere şi scurt istoric
+:PROPERTIES:
+:CUSTOM_ID: introducere-si-scurt-istoric
+:END:
 
 #+CAPTION:
 [[./poze/00000.png]]
@@ -2922,6 +3015,9 @@ Sumar:
 -  
 
 ** Aritmetica booleană
+:PROPERTIES:
+:CUSTOM_ID: aritmetica-booleana
+:END:
 
 *** Numere binare şi numere booleene
 
@@ -3045,6 +3141,9 @@ Sumar:
    şi contactelor normal-închise
 
 ** Identităţi algebrice booleene
+:PROPERTIES:
+:CUSTOM_ID: identitati-algebrice-booleene
+:END:
 
 *** Ce este o identitate
 
@@ -3161,6 +3260,9 @@ Sumar:
 -  
 
 ** Proprietăţi algebrice booleene
+:PROPERTIES:
+:CUSTOM_ID: proprietati-algebrice-booleene
+:END:
 
 Un alt tip de identitate matematică, denumită „proprietate”, descrie
 relaţia dintre variabilele unui sistem de numere.
@@ -3217,6 +3319,9 @@ Sumar:
 -  
 
 ** Reguli de simplificare booleană
+:PROPERTIES:
+:CUSTOM_ID: reguli-de-simplificare-booleana
+:END:
 
 Una dintre cele mai practice aplicaţii ale algebrei boolene constă în
 simplificarea circuitelor logice. Dacă transformăm funcţia logică a unui
@@ -3291,6 +3396,9 @@ Sumar:
 -  
 
 ** Simplificarea circuitelor logice
+:PROPERTIES:
+:CUSTOM_ID: simplificarea-circuitelor-logice
+:END:
 
 *** Simplificarea circuitelor cu porţi logice
 
@@ -3438,6 +3546,9 @@ Sumar:
 -  
 
 ** Funcţia SAU-exclusiv
+:PROPERTIES:
+:CUSTOM_ID: functia-sau-exclusiv
+:END:
 
 Un element ce nu l-am întâlnit până în acest moment în operaţiile
 booleene este SAU-exclusiv. Deşi funcţia SAU este echivalentă cu o
@@ -3469,6 +3580,9 @@ Sumar:
 -  
 
 ** Teoremele lui DeMorgan
+:PROPERTIES:
+:CUSTOM_ID: teoremele-lui-demorgan
+:END:
 
 DeMorgan a dezvoltat o serie de reguli importante în algebra liniară cu
 privire la complementul de grup. Prin complementul de grup ne referim la
@@ -3631,6 +3745,9 @@ Sumar:
    SAU-negat este echivalentă cu o poartă ŞI-negativă
 
 ** Transformarea tabelelor de adevăr în expresii booleene
+:PROPERTIES:
+:CUSTOM_ID: transformarea-tabelelor-de-adevar-in-expresii-booleene
+:END:
 
 Procesul de proiectare al circuitelor digitale începe adesea cu un tabel
 de adevăr. Acest tabel descrie modul de funcţionare al circuitului, pe
@@ -3797,8 +3914,14 @@ Sumar:
 -  
 
 * Harti karnaugh
+:PROPERTIES:
+:CUSTOM_ID: harti-karnaugh
+:END:
 
 ** De ce hărţi Karnaugh
+:PROPERTIES:
+:CUSTOM_ID: de-ce-harti-karnaugh
+:END:
 
 La ce ne folosesc hărţile Karnaugh? Harta Karnaugh, asemenea algebrei
 booleene, este o metodă de simplificare a circuitelor logice digitale.
@@ -3826,6 +3949,9 @@ Sumar:
 -  
 
 ** Diagrame Venn
+:PROPERTIES:
+:CUSTOM_ID: diagrame-venn
+:END:
 
 Matematicienii utilizează diagramele Venn pentru reprezentarea
 relaţiilor logice dintre mulţimi (colecţii de obiecte). Ne vom folosi de
@@ -3903,6 +4029,9 @@ Ambele mulţimi conţin elementele 3 şi 4. Acesta este şi motivul pentru
 care cele două cercuri sunt suprapuse.
 
 ** Relaţii booleene cu diagrame Venn
+:PROPERTIES:
+:CUSTOM_ID: relatii-booleene-cu-diagrame-venn
+:END:
 
 *** Funcţia logică SAU (adunarea booleană)
 
@@ -4016,6 +4145,9 @@ vedea că mărimea regiunii variază cu numărul variabilelor asociate
 expresiei ŞI.
 
 ** Transformarea diagramelor Venn în hărţi Karnaugh
+:PROPERTIES:
+:CUSTOM_ID: transformarea-diagramelor-venn-in-harti-karnaugh
+:END:
 
 *** Hărţi Karnaigh cu două variabile
 
@@ -4107,6 +4239,9 @@ este echivalentă cu 00, 01, 11 respectiv 10 din dreapta. A şi A' sunt
 echivalente cu 0 respectiv 1.
 
 ** Hărţi Karnaugh, tabele de adevăr şi expresii booleene
+:PROPERTIES:
+:CUSTOM_ID: harti-karnaugh-tabele-de-adevar-si-expresii-booleene
+:END:
 
 Hărţile Karnaugh simplifică funcţiile logice mult mai rapid şi mai uşor
 în comparaţie cu algebra booleană. Dorim simplificarea circuitelor logic
@@ -4298,6 +4433,9 @@ de două regiuni 1; prin urmare, simplificarea nu este posibilă, iar
 expresia finală este identică cu cea iniţială (SAU-exclusiv).
 
 ** Simplificarea circuitelor logice cu hărţi Karnaugh
+:PROPERTIES:
+:CUSTOM_ID: simplificarea-circuitelor-logice-cu-harti-karnaugh
+:END:
 
 Exemplele de simplificare a circuitelor logice de până acum puteau fi
 realizate la fel de bine şi cu ajutorul algebrei booleene. Problemele de
@@ -4440,6 +4578,9 @@ Sumar:
 -  
 
 ** Hărţi Karnaugh de patru variabile
+:PROPERTIES:
+:CUSTOM_ID: harti-karnaugh-de-patru-variabile
+:END:
 
 Folosindu-ne de codul Gray, putem construi hărţi Karnaugh mai mari. O
 hartă Karnaugh cu patru variabile arată precum cea de mai jos:
@@ -4581,6 +4722,9 @@ Sumar:
 -  
 
 ** Mintermeni şi maxtermeni
+:PROPERTIES:
+:CUSTOM_ID: mintermeni-si-maxtermeni
+:END:
 
 Până în acest moment am căutat soluţii sub forma unei sume de produse la
 problemele de simplificare booleană. Pentru fiecare dintre aceste
@@ -4965,6 +5109,9 @@ Sumar:
 -  
 
 ** Notaţia Σ (sumă) şi notaţia Π (produs)
+:PROPERTIES:
+:CUSTOM_ID: notatia-suma-si-notatia-produs
+:END:
 
 Ca şi referinţa, această secţiune introduce terminologia folosită în
 unele texte pentru descrierea mintermenilor şi maxtermenilor aparţinând
@@ -5018,6 +5165,9 @@ Sumar:
 -  
 
 ** Hărţi Karnaugh de 5 şi 6 variabile
+:PROPERTIES:
+:CUSTOM_ID: harti-karnaugh-de-5-si-6-variabile
+:END:
 
 Pentru reducerea circuitelor logice mai mari se folosesc, evident, hărţi
 Karnaugh mai mare. Dar care este mărimea maximă (practică) a unei hărţi
@@ -5163,8 +5313,14 @@ Sumar:
 -  
 
 * Circuite logice combinationale
+:PROPERTIES:
+:CUSTOM_ID: circuite-logice-combinationale
+:END:
 
 ** Circuite logice combinaţionale - introducere
+:PROPERTIES:
+:CUSTOM_ID: circuite-logice-combinationale-introducere
+:END:
 
 Termenul „combinaţional” provine din matematică. În matematică, o
 combinaţie reprezintă o mulţime neordonata. Pe scurt, este un mod de a
@@ -5217,6 +5373,9 @@ Sumar:
 -  
 
 ** Half-Adder
+:PROPERTIES:
+:CUSTOM_ID: half-adder
+:END:
 
 Ca şi prim exemplu a unui circuit logic combinaţional util, să realizăm
 un dispozitiv ce realizează adunarea a două numere binare. Putem calcula
@@ -5254,6 +5413,9 @@ Sumar:
 -  
 
 ** Full-Adder
+:PROPERTIES:
+:CUSTOM_ID: full-adder
+:END:
 
 Circuitul half-adder (semi-sumator) este extrem de util până în momentul
 în care dorim adăugarea unor valori ce nu pot fi reprezentate cu un

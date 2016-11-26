@@ -2,11 +2,14 @@
 #+INCLUDE: "./settings.org"
 
 * Concepte de baza
-  :PROPERTIES:
-  :CUSTOM_ID: concepte-baza
-  :END:
+:PROPERTIES:
+:CUSTOM_ID: concepte-de-baza
+:END:
   
 ** Măsurarea tensiunii
+:PROPERTIES:
+:CUSTOM_ID: masurarea-tensiunii
+:END:
 
 *** Multimetrul analogic şi digital
 
@@ -135,6 +138,9 @@ polaritatea tensiunii aplicate este inversă (negativ pe sonda roşie şi
 pozitiv pe cea neagră), indicaţia aparatului de măsură va fi „inversă”.
 
 ** Măsurarea rezistenţei
+:PROPERTIES:
+:CUSTOM_ID: masurarea-rezistentei
+:END:
 
 *** Scopul experimentului
 
@@ -318,6 +324,9 @@ Sumar:
 -  
 
 ** Realizarea unui circuit simplu
+:PROPERTIES:
+:CUSTOM_ID: realizarea-unui-circuit-simplu
+:END:
 
 *** Scopul experimentului
 
@@ -416,6 +425,9 @@ Sumar:
 -  
 
 ** Măsurarea curentului
+:PROPERTIES:
+:CUSTOM_ID: masurarea-curentului
+:END:
 
 *** Scopul experimentului
 
@@ -525,6 +537,9 @@ Sumar:
 -  
 
 ** Legea lui Ohm (experiment)
+:PROPERTIES:
+:CUSTOM_ID: legea-lui-ohm-(experiment)
+:END:
 
 *** Scopul experimentului
 
@@ -605,6 +620,9 @@ Sumar:
 -  
 
 ** Rezistenţa non-liniară
+:PROPERTIES:
+:CUSTOM_ID: rezistenta-non-liniara
+:END:
 
 *** Scopul experimentului
 
@@ -691,6 +709,9 @@ Sumar:
 -  
 
 ** Disiparea puterii
+:PROPERTIES:
+:CUSTOM_ID: disiparea-puterii
+:END:
 
 *** Scopul experimentului
 
@@ -800,6 +821,9 @@ Sumar:
 -  
 
 ** Circuit cu înrerupator
+:PROPERTIES:
+:CUSTOM_ID: circuit-cu-inrerupator
+:END:
 
 *** Scopul experimentului
 
@@ -838,6 +862,9 @@ Sumar:
 -  
 
 ** Realizarea unui electromagnet
+:PROPERTIES:
+:CUSTOM_ID: realizarea-unui-electromagnet
+:END:
 
 *** Scopul experimentului
 
@@ -900,6 +927,9 @@ Sumar:
 -  
 
 ** Inducţia electromagnetică
+:PROPERTIES:
+:CUSTOM_ID: inductia-electromagnetica
+:END:
 
 *** Scopul experimentului
 
@@ -949,8 +979,14 @@ Sumar:
 -  
 
 * Circuite de cc
+:PROPERTIES:
+:CUSTOM_ID: circuite-de-cc
+:END:
 
 ** Conectarea bateriilor în serie
+:PROPERTIES:
+:CUSTOM_ID: conectarea-bateriilor-in-serie
+:END:
 
 *** Scopul experimentului
 
@@ -1002,6 +1038,9 @@ Sumar:
 -  
 
 ** Conectarea bateriilor în paralel
+:PROPERTIES:
+:CUSTOM_ID: conectarea-bateriilor-in-paralel
+:END:
 
 *** Scopul experimentului
 
@@ -1075,6 +1114,9 @@ fi în acest caz mult mai aproape de 6 V:
 [[./poze/05082.png]]
 
 ** Divizor de tensiune
+:PROPERTIES:
+:CUSTOM_ID: divizor-de-tensiune
+:END:
 
 *** Scopul experimentului
 
@@ -1224,6 +1266,9 @@ Această lege este valabilă indiferent de configuraţia circuitului
 studiat: serie, paralel, serie-paralel sau circuit complex.
 
 ** Divizor de curent
+:PROPERTIES:
+:CUSTOM_ID: divizor-de-curent
+:END:
 
 *** Scopul experimentului
 
@@ -1319,6 +1364,9 @@ curentul total. Din acest motiv, acest tip de circuit (cu rezistori
 conectaţi în paralel) poartă numele de divizor de curent.
 
 ** Divizor de tensiune cu potenţiometru
+:PROPERTIES:
+:CUSTOM_ID: divizor-de-tensiune-cu-potentiometru
+:END:
 
 *** Scopul experimentului
 
@@ -1390,6 +1438,9 @@ aceiaşi valoare a divizorului de tensiune ce am găsit-o şi înainte:
 [[./poze/05114.png]]
 
 ** Potenţiometrul ca şi reostat
+:PROPERTIES:
+:CUSTOM_ID: potentiometrul-ca-si-reostat
+:END:
 
 *** Scopul experimentului
 
@@ -1509,6 +1560,9 @@ la fel de bine măsura tensiunea în detrimentul măsurării curentului
 verifica exact acelaşi lucru, varianta tensiunii este cea indicată.
 
 ** Termoelectricitate
+:PROPERTIES:
+:CUSTOM_ID: termoelectricitate
+:END:
 
 *** Scopul experimentului
 
@@ -1566,6 +1620,9 @@ tensiunea rezultată este destul de liniară. Prin măsurarea tensiunii,
 putem determina temperatura la punctul de contact.
 
 ** Circuit de mediere
+:PROPERTIES:
+:CUSTOM_ID: circuit-de-mediere
+:END:
 
 *** Scopul experimentului
 
@@ -1652,6 +1709,9 @@ circuitelor electrice în general. Ce alte operaţii matematice credeţi că
 pot fi realizate cu astfel de circuite analogice?
 
 ** Baterie din cartof
+:PROPERTIES:
+:CUSTOM_ID: baterie-din-cartof
+:END:
 
 *** Scopul experimentului
 
@@ -1687,6 +1747,9 @@ tensiune şi un curent destul de mare pentru alimentarea unei sarcini
 mici. Puteţi realiza acest lucru?
 
 ** Încărcarea şi descărcarea condensatorului
+:PROPERTIES:
+:CUSTOM_ID: încarcarea-si-descarcarea-condensatorului
+:END:
 
 *** Scopul experimentului
 
@@ -1769,6 +1832,9 @@ Experimentaţi şi în acest caz cu diferite combinaţii de rezistori şi
 condensatoare.
 
 ** Circuit de diferenţiere
+:PROPERTIES:
+:CUSTOM_ID: circuit-de-diferentiere
+:END:
 
 *** Scopul experimentului
 
@@ -1832,8 +1898,14 @@ calculelor matematice. Desigur, se pot realiza circuite de diferenţiere
 mult mai precise prin combinarea reţelelor rezistor-condensator cu
 circuite electronice de amplificare.
 * Circuite de ca
+:PROPERTIES:
+:CUSTOM_ID: circuite-de-ca
+:END:
 
 ** Transformator -- sursă de putere
+:PROPERTIES:
+:CUSTOM_ID: transformator----sursa-de-putere
+:END:
 
 *** Scopul experimentului
 
@@ -1911,6 +1983,9 @@ următoarea diagramă:
 [[./poze/05008.png]]
 
 ** Construirea unui transformator
+:PROPERTIES:
+:CUSTOM_ID: construirea-unui-transformator
+:END:
 
 *** Scopul experimentului
 
@@ -1976,6 +2051,9 @@ coborâtor, respectic ridicător de tensiune) şi conectaţi diferite
 sarcini de ca pe înfăşurărea secundară.
 
 ** Bobină variabilă
+:PROPERTIES:
+:CUSTOM_ID: bobina-variabila
+:END:
 
 *** Scopul experimentului
 
@@ -2013,6 +2091,9 @@ dacă aveţi la îndemână. Nu toate metalele vor avea acelaşi efect,
 datorită diferenţelor de permeabilitate magnetică.
 
 ** Detector audio de semnale
+:PROPERTIES:
+:CUSTOM_ID: detector-audio-de-semnale
+:END:
 
 *** Scopul experimentului
 
@@ -2113,6 +2194,9 @@ rezultatul final ar putea arăta astfel:
 [[./poze/05013.png]]
 
 ** Detectarea câpurilor magnetice
+:PROPERTIES:
+:CUSTOM_ID: detectarea-capurilor-magnetice
+:END:
 
 *** Scopul experimentului
 
@@ -2178,6 +2262,9 @@ spune acest rezultat legat de poziţionarea bobinelor atunci când
 interferanţa dintre circuite nu este dorită?
 
 ** Detectarea câmpurilor electrice
+:PROPERTIES:
+:CUSTOM_ID: detectarea-campurilor-electrice
+:END:
 
 *** Scopul experimentului
 
@@ -2216,6 +2303,9 @@ se compară acest lucru cu experimentul precedent (detectarea câmpurilor
 magnetice)?
 
 ** Circuit de detectare a defazajului
+:PROPERTIES:
+:CUSTOM_ID: circuit-de-detectare-a-defazajului
+:END:
 
 *** Scopul experimentului
 
