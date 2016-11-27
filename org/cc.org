@@ -3894,31 +3894,12 @@ P = IE P = E^{2} / R P = I^{2}R
 Acest lucru este mult mai uşor de realizat prin simpla adăugare a unui
 rând adiţional în tabelul tensiunilor, curenţilor şi rezistenţelor.
 
-R_{1}
-
-R_{2}
-
-R_{3}
-
-Total
-
-Unitate
-
-E
-
-V
-
-I
-
-A
-
-R
-
-Ω
-
-P
-
-W
+| Marime | R_{1} | R_{2} | R_{3} | Total | Unitate |
+|--------+-------+-------+-------+-------+---------|
+| E      |       |       |       |       | V       |
+| A      |       |       |       |       | I       |
+| R      |       |       |       |       | Ω       |
+| P      |       |       |       |       | W       |
 
 Indiferent de coloană, puterea se va afla folosind ecuaţia
 corespunzătoare a legii lui Ohm.
@@ -3964,31 +3945,12 @@ set de rezistori conectaţi în combinaţii serie, paralel sau
 serie-paralel. Vom folosi această metodă mai târziu pentru rezolvarea
 unor circuite mai complicate.
 
-R_{1}
-
-R_{2}
-
-R_{3}
-
-Total
-
-Unitate
-
-E
-
-V
-
-I
-
-A
-
-R
-
-Ω
-
-P
-
-W
+| Marime | R_{1} | R_{2} | R_{3} | Total | Unitate |
+|--------+-------+-------+-------+-------+---------|
+| E      |       |       |       |       | V       |
+| I      |       |       |       |       | A       |
+| R      |       |       |       |       | Ω       |
+| P      |       |       |       |       | W       |
 
 Astfel, în cazul circuitelor serie, coloana total poate fi foarte uşor
 calculată utilizând regulile circuitelor serie, şi anume: căderea totală
@@ -4032,51 +3994,11 @@ circuitelor paralel.
 
 Să considerăm circuitul alăturat
 
-R_{1}
-
-R_{2}
-
-R_{3}
-
-Total
-
-Unitate
-
-E
-
-2
-
-6
-
-1
-
-9
-
-V
-
-I
-
-20 m
-
-20 m
-
-20 m
-
-20 m
-
-A
-
-R
-
-100
-
-300
-
-50
-
-450
-
-Ω
+| Marime | R_{1} | R_{2} | R_{3} | Total | Unitate |
+|--------+-------+-------+-------+-------+---------|
+| E      |     2 |     6 |     1 |     9 | V       |
+| I      |  20 m |  20 m |  20 m |  20 m | A       |
+| R      |   100 |   300 |    50 |   450 | Ω       |
 
 Atunci când toate componentele acestui circuit funcţionează la
 parametrii normali, putem determina pe cale matematică toţi curenţi şi
@@ -4091,51 +4013,11 @@ prezintă o rezistenţa aproape nulă. Practic, în circuitul alăturat,
 spunem că am realizat o *şuntare* a rezistorului R_{2} iar firul
 utilizat poartă numele de conductor de şuntare, sau simplu, şunt.
 
-R_{1}
-
-R_{2}
-
-R_{3}
-
-Total
-
-Unitate
-
-E
-
-*6*
-
-*0*
-
-*3*
-
-9
-
-V
-
-I
-
-*60 m*
-
-*60 m*
-
-*60 m*
-
-*60 m*
-
-A
-
-R
-
-100
-
-*0*
-
-50
-
-*150*
-
-Ω
+| Marime | R_{1}  | R_{2}  | R_{3}  | Total  | Unitate |
+|--------+--------+--------+--------+--------+---------|
+| E      | *6*    | *0*    | *3*    | 9      | V       |
+| I      | *60 m* | *60 m* | *60 m* | *60 m* | A       |
+|R|100|*0*|50|*150*|Ω|
 
 Odată cu scurt-circuitarea rezistorului R_{2}, fie prin şuntarea
 intenţionată a acestuia fie printr-un defect intern, valoarea
@@ -4162,51 +4044,11 @@ natură încât circuitul va rămâne deschis în acel punct - rezistenţa
 spre infinit - efectele asupra circuitului iniţial vor fi diferite, dar
 la fel de radicale.
 
-R_{1}
-
-R_{2}
-
-R_{3}
-
-Total
-
-Unitate
-
-E
-
-*0*
-
-*9*
-
-*0*
-
-9
-
-V
-
-I
-
-*0*
-
-*0*
-
-*0*
-
-*0*
-
-A
-
-R
-
-100
-
-∞
-
-50
-
-∞
-
-Ω
+| Marime | R_{1} | R_{2} | R_{3} | Total | Unitate |
+|--------+-------+-------+-------+-------+---------|
+| E      | *0*   | *9*   | *0*   | 9     | V       |
+| I      | *0*   | *0*   | *0*   | *0*   | A       |
+| R      | 100   | ∞     | 50    | ∞     | Ω       |
 
 Cu R_{2} având o rezistenţă infinită, iar rezistenţa totală într-un
 circuit serie fiind dată de suma tuturor rezistenţelor individuale,
@@ -4223,51 +4065,11 @@ se va regăsi pe terminalele rezistorului R_{2}.
 
 Putem aplica aceleaşi metode şi în cazul unui circuit paralel.
 
-R_{1}
-
-R_{2}
-
-R_{3}
-
-Total
-
-Unitate
-
-E
-
-9
-
-9
-
-9
-
-9
-
-V
-
-I
-
-100 m
-
-200 m
-
-50 m
-
-350 m
-
-A
-
-R
-
-90
-
-45
-
-180
-
-25,71
-
-Ω
+| Marime | R_{1} | R_{2} | R_{3} | Total | Unitate |
+|--------+-------+-------+-------+-------+---------|
+| E      |     9 |     9 |     9 | 9     | V       |
+| I      | 100 m | 200 m |  50 m | 350 m | A       |
+| R      |    90 |    45 |   180 | 25,71 | Ω       |
 
 Să observăm prima dată comportamentul unui circuit paralel „sănătos”.
 
@@ -4279,51 +4081,11 @@ Să observăm prima dată comportamentul unui circuit paralel „sănătos”.
 Să presupunem acum deschiderea rezistenţei R_{2} în acest circuit
 paralel.
 
-R_{1}
-
-R_{2}
-
-R_{3}
-
-Total
-
-Unitate
-
-E
-
-9
-
-9
-
-9
-
-9
-
-V
-
-I
-
-100 m
-
-*0*
-
-50 m
-
-*150 m*
-
-A
-
-R
-
-90
-
-*∞*
-
-180
-
-*60*
-
-Ω
+| Marime | R_{1} | R_{2} | R_{3} | Total   | Unitate |
+|--------+-------+-------+-------+---------+---------|
+| E      |     9 | 9     |     9 | 9       | V       |
+| I      | 100 m | *0*   |  50 m | *150 m* | A       |
+| R      |    90 | *∞*   |   180 | *60*    | Ω       |
 
 Efectele acestui defect le putem observa în tabelul alăturat.
 
@@ -4359,51 +4121,11 @@ simplu nu vor avea niciun efect asupra comportamentului celorlalte
 ramuri din circuit. În realitate însă, efectul nu este acelaşi, după cum
 putem observa din exemplul alăturat.
 
-R_{1}
-
-R_{2}
-
-R_{3}
-
-Total
-
-Unitate
-
-E
-
-9
-
-9
-
-9
-
-9
-
-V
-
-I
-
-100 m
-
-*∞*
-
-50 m
-
-*∞*
-
-A
-
-R
-
-90
-
-*0*
-
-180
-
-*0*
-
-Ω
+| Marime | R_{1} | R_{2} | R_{3} | Total | Unitate |
+|--------+-------+-------+-------+-------+---------|
+| E      |     9 | 9     |     9 | 9     | V       |
+| I      | 100 m | *∞*   |  50 m | *∞*   | A       |
+| R      |    90 | *0*   |   180 | *0*   | Ω       |
 
 Un rezistor scurt-circuitat (rezistenţa de 0 Ω) va permite, teoretic,
 trecerea unui curent infinit de la oricare sursă finită de tensiune (I =
@@ -4441,51 +4163,11 @@ la situaţia în care întreaga cădere de tensiune se va regăsi pe
 rezistenţa internă a bateriei, căderile de tensiune pe R_{1}, R_{2} şi
 R_{3} fiind aproape zero.
 
-R_{1}
-
-R_{2}
-
-R_{3}
-
-Total
-
-Unitate
-
-E
-
-mică
-
-mică
-
-mică
-
-mică
-
-V
-
-I
-
-mic
-
-mare
-
-mic
-
-mare
-
-A
-
-R
-
-90
-
-0
-
-180
-
-0
-
-Ω
+| Marime | R_{1} | R_{2} | R_{3} | Total | Unitate |
+|--------+-------+-------+-------+-------+---------|
+| E      | mică  | mică  | mică  | mică  | V       |
+| I      | mic   | mare  | mic   | mare  | A       |
+| R      | 90    | 0     | 180   | 0     | Ω       |
 
 Ca şi concluzie, scurt-circuitarea intenţionată a terminanilor surselor
 de alimentare, indiferent de tipul acestora, trebuie evitată cu orice
@@ -4494,7 +4176,6 @@ scântei, explozii) nu duc la rănirea niciunei persoane din apropiere,
 sursa de tensiune va suferi cu siguranţă unele defecte în cazul în care
 nu este proiectată a rezista la curenţi de scurt-circuit (majoritatea
 surselor de tensiune nu sunt).
-
 ** Construirea circuitelor rezistive simple
 :PROPERTIES:
 :CUSTOM_ID: construirea-circuitelor-rezistive-simple
@@ -6011,8 +5692,6 @@ necesar funcţionăii acestuia va fi generat de către sursă. Atâta timp
 cât căderea de tensiune pe detectorul de nul este zero, nu va exista
 niciun curent între punctele 1 şi 2, impactul voltmetrului asupra
 circuitului fiind inexistent.
-
-.
 
 Merită să reamintim faptul că această metodă, executată perfect, aproape
 că nu introduce nicio rezistenţă suplimentară în circuitul de măsurat.
@@ -11062,48 +10741,15 @@ conductiv (ρ), doar că relaţia este inversă, o permeabilitate mai mare
 
 Mai jos este tabelul cu unităţile de măsură pentru fiecare mărime:
 
-Cantitate
-
-Simbol
-
-Unitate de măsură
-
-tensiunea magnetomotoare
-
-mmf
-
-Amper (A)
-
-fluxul magnetic
-
-Φ
-
-Weber (Wb)
-
-intensitatea magnetică
-
-H
-
-Amper / metru (A m^{-1})
-
-densitatea fluxului magnetic
-
-B
-
-Tesla (T)
-
-reluctanţa
-
-#+CAPTION: simbolul reluctanţei
-[[poze/reluctanta.png]]
-
-Amper / Weber (A Wb^{-1})
-
-permeabilitatea
-
-µ
-
-Henry / metru (H m^{-1})
+| Cantitate                    | Simbol              | Unitate de măsură         |
+|------------------------------+---------------------+---------------------------|
+| tensiunea magnetomotoare     | mmf                 | Amper (A)                 |
+| fluxul magnetic              | Φ                   | Weber (Wb)                |
+| intensitatea magnetică       | H                   | Amper / metru (A m^{-1})  |
+| densitatea fluxului magnetic | B                   | Tesla (T)                 |
+| reluctanţa                   | [[poze/reluctanta.png]] | Amper / Weber (A Wb^{-1}) |
+| permeabilitatea              | µ                   | Henry / metru (H m^{-1})  |
+|                              |                     |                           |
 
 Relaţiile dintre tensiunea magnetomotoare, fluxul magnet şi reluctanţă
 sunt asemenea relaţiilor dintre mărimile electrice precum tensiunea
