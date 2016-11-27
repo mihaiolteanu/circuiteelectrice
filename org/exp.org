@@ -2162,6 +2162,7 @@ această aplicaţie. Circuitul realizat arată astfel:
 
 #+CAPTION: circuit de detectare a câpurilor electromagnetice
 [[./poze/05015.png]] 
+
 #+CAPTION: circuit de detectare a câpurilor
 #+CAPTION: electromagnetice
 [[./poze/05016.png]]
@@ -2270,7 +2271,4 @@ folosiţi condensatori ceramici sub formă de disc, întrucât nu sunt
 sensibili la polaritatea tensiuni (nepolarizaţi), sunt ieftini şi
 durabil. Evitaţi condensatorii marcaţi cu orice tip de polaritate,
 întrucât aceştia se vor distruge dacă îi alimentaţi în curent
-alternativ. Circuitul final va arăta astfel:
-
-#+CAPTION:
-[[./poze/00000.png]]
+alternativ.

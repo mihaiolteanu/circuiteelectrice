@@ -71,9 +71,6 @@ este de fapt 35,7^{o}. Sau, dacă avem ochi foarte buni, sau un mijloc
 mult mai precis de citire a scalei, s-ar putea să vedem că temperatura
 reală este de fapt de 35,72545^{o}.
 
-#+CAPTION: termometru digital
-[[/sites/default/files/istock/termometru-digital.jpg]]
-
 Acest lucru nu este valabil şi în cazul unui termometru digital. De
 exemplu, termometrul din figura alăturată nu poată măsura temperatura cu
 o precizie mai mare de 0,1^{o}C. Astfel că putem citi o temperatură fie
@@ -263,9 +260,6 @@ să realizeze exact această operaţie aritmetică de adunare, prin
 reprezentarea fiecărui bit a fiecărui număr prin intermediul unui semnal
 de tensiune. Acest principiu reprezintă baza efectuării tuturor
 operaţiilor aritmetice realizate de calculatoarele moderne.
-
-#+CAPTION:
-[[./poze/00000.png]]
 
 ** Numere binare negative
 :PROPERTIES:
@@ -590,9 +584,6 @@ permisă de numărul de biţi.
 
 Din fericire, această metodă de identificare a erorii de depăşire este
 uşor de implementat într-un circuit electronic.
-
-#+CAPTION:
-[[./poze/00000.png]]
 
 ** Grupări de biţi
 :PROPERTIES:
@@ -2475,9 +2466,6 @@ contactoarelor pentru prevenirea scurt-circuitului. Unele contactoare
 sunt echipate cu dispozitive de blocare mecanice. Pentru siguranţa
 adiţională însă, se pot folosi şi metode de blocare electrice.
 
-#+CAPTION:
-[[./poze/00000.png]]
-
 ** Circuite logice cu autoprotecţie
 :PROPERTIES:
 :CUSTOM_ID: circuite-logice-cu-autoprotectie
@@ -2564,9 +2552,6 @@ introducerii releului de control CR1, iar sistemul poate şi în acest caz
 să nu funcţioneze corespunzător. Acest lucru se poate întâmpla dacă
 apare un defect în linia a doua a circuitului. Dar totuşi, acest circuit
 este mai sigur şi preferabil din acest punct de vedere.
-
-#+CAPTION:
-[[./poze/00000.png]]
 
 ** Automate programabile (PLC)
 :PROPERTIES:
@@ -2880,9 +2865,6 @@ intermediul reţelelor de calculatoare.
 :PROPERTIES:
 :CUSTOM_ID: introducere-si-scurt-istoric
 :END:
-
-#+CAPTION:
-[[./poze/00000.png]]
 
 Regulile matematice sunt bazate pe limitele impuse asupra cantităţilor
 numerice particulare cu care avem de a face. Când spunem că 1 + 1 = 2,
@@ -3770,9 +3752,6 @@ avem până la şase variabile de intrare. Între şase şi opt, mai putem
 încă folosi aceste hărţi. Peste această valoare, este indicat să folosim
 un program software specializat pentru realizarea simplificărilor
 logice.
-
-#+CAPTION:
-[[./poze/00000.png]]
 
 ** Diagrame Venn
 :PROPERTIES:

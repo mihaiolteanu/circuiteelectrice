@@ -84,9 +84,6 @@ controlul curentului în cauză sunt cunoscute sub numele de dispozitive
 /controlate în curent/. Tuburile cu vid sunt dispozitive controlate în
 tensiune iar tranzistoarele pot fi de ambele tipuri.
 
-#+CAPTION:
-[[./poze/00000.png]]
-
 ** Amplificatorul
 :PROPERTIES:
 :CUSTOM_ID: amplificatorul
@@ -3257,7 +3254,7 @@ Configuraţa amplificatorului colector comun arată asfel:
 
 #+CAPTION: configuraţia amplificatorului cu tranzistor în conexiune
 #+CAPTION: colector comun
-[[/sites/default/files/electronica\_analogica/03100.png]]
+[[./poze/03100.png]]
 
 Denumirea de /colector comun/ vine de la faptul că, ignorând sursa de
 alimentare (bateria), sursa de semnal şi sarcina au ca punct comun
@@ -3265,7 +3262,7 @@ contactul colectorului:
 
 #+CAPTION: configuraţia amplificatorului cu tranzistor în conexiune
 #+CAPTION: colector comun
-[[/sites/default/files/electronica\_analogica/03101.png]]
+[[./poze/03101.png]]
 
 Se poate observa că prin rezistorul de sarcină trece atât curentul
 colectorului cât şi curentul bazei, fiind conectat în serie cu emitorul.
@@ -3276,15 +3273,15 @@ al colectorului. Să analizăm însă circuitul de mai jos pentru a
 descoperi particularităţile acestei configuraţii:
 
 #+CAPTION: configuraţia amplificatorului cu tranzistor în conexiune
-colector comun; circuit practic
-[[/sites/default/files/electronica\_analogica/03103.png]]
+#+CAPTION: colector comun; circuit practic
+[[./poze/03103.png]]
 
 Graficul variaţiei căderii de tensiune de ieşire - cădere de tensiune de
 intrare, este următorul:
 
 #+CAPTION: configuraţia amplificatorului cu tranzistor în conexiune
-colector comun; variaţia tensiune ieşire - tensiune intrare
-[[/sites/default/files/electronica\_analogica/23009.png]]
+#+CAPTION: colector comun; variaţia tensiune ieşire - tensiune intrare
+[[./poze/23009.png]]
 
 Faţa de conexiunea emitor comun, amplificatorul colector comun produce
 la ieşire o cădere de tensiune de aceeiaşi polaritate cu tensiunea de
@@ -3310,9 +3307,9 @@ curentului de bază, asfel că putem considera această cădere de tensiune
 ca fiind constantă:
 
 #+CAPTION: configuraţia amplificatorului cu tranzistor în conexiune
-colector comun; modelul diodă-sursă-de-tensiune pentru explicarea
-comportamentului amplificatorului
-[[/sites/default/files/electronica\_analogica/03104.png]]
+#+CAPTION: colector comun; modelul diodă-sursă-de-tensiune pentru explicarea
+#+CAPTION: comportamentului amplificatorului
+[[./poze/03104.png]]
 
 Cunoscând polarităţile tensiunilor joncţiunii P-N bază-emitor şi a
 rezistorului de sarcină, putem vedea că tensiunea de intrare /trebuie/
@@ -3330,24 +3327,24 @@ cazul configuraţiei emitor comun. Rezultatul este însă de această dată
 un amplificator ne-inversor.
 
 #+CAPTION: configuraţia amplificatorului cu tranzistor în conexiune
-colector comun; adăugarea sursei de tensiune în curent continuu pentru
-polarizarea corectă a tranzistorului
-[[/sites/default/files/electronica\_analogica/03105.png]]
+#+CAPTION: colector comun; adăugarea sursei de tensiune în curent continuu pentru
+#+CAPTION: polarizarea corectă a tranzistorului
+[[./poze/03105.png]]
 
 Formele de undă a tensiunii de ieşire (albastru) şi a tensiunii de
 intrare (roşu) sunt prezentate în graficul de mai jos:
 
 #+CAPTION: formele de undă ale tensiunilor de intrare şi ieşire ale
-amplificatorului colector comun
-[[/sites/default/files/electronica\_analogica/23010.png]]
+#+CAPTION: amplificatorului colector comun
+[[./poze/23010.png]]
 
 Dacă ar să conectăm mai multe osciloscoape în circuit, vom vedea că
 formele de undă ale tensiunilor arată asfel:
 
 #+CAPTION: configuraţia amplificatorului cu tranzistor în conexiune
-colector comun; conectarea osciloscoapelor pentru vizualizarea formelor
+#+CAPTION: colector comun; conectarea osciloscoapelor pentru vizualizarea formelor
 #+CAPTION: de undă
-[[/sites/default/files/electronica\_analogica/03111.png]]
+[[./poze/03111.png]]
 
 *** Factorul de amplificare în curent
 
@@ -3364,8 +3361,8 @@ curentul colectorului /plus/ curentul bazei. Acest lucru înseamnă o
 amplificare în curent (A_{I}) egală cu β plus 1:
 
 #+CAPTION: configuraţia amplificatorului cu tranzistor în conexiune
-colector comun; calcularea factorului de amplificare în curent
-[[/sites/default/files/electronica\_analogica/13020.png]]
+#+CAPTION: colector comun; calcularea factorului de amplificare în curent
+[[./poze/13020.png]]
 
 *** Amplificator colector comun cu tranzistor PNP
 
@@ -3375,8 +3372,8 @@ diferenţă este inversarea polarităţii tensiunilor si a direcţiei
 curenţilor:
 
 #+CAPTION: configuraţia amplificatorului cu tranzistor de tip PNP în
-conexiune colector comun;
-[[/sites/default/files/electronica\_analogica/03113.png]]
+#+CAPTION: conexiune colector comun;
+[[./poze/03113.png]]
 
 *** Stabilizarea tensiunii cu tranzistor în conexiune colector comun
 
@@ -3386,7 +3383,7 @@ utilizează diode zener pentru tăierea tensiunilor mai mari decât
 tensiunea zener:
 
 #+CAPTION: stabilizarea tensiunii cu ajutorul diodelor zener
-[[/sites/default/files/electronica\_analogica/03106.png]]
+[[./poze/03106.png]]
 
 Totuşi, curentul ce poate fi transmis sursei este destul de limitat în
 această situaţie. În principiu, acest circuit regulează tensiunea la
@@ -3404,8 +3401,8 @@ prin sarcină, asfel ca dioda zener să nu fie nevoită să conducă decât
 curentul necesar bazei tranzistorului.
 
 #+CAPTION: stabilizarea tensiunii cu ajutorul diodelor zener şi a unui
-tranzistor în conexiune colector comun pentru acţionarea sarcinii
-[[/sites/default/files/electronica\_analogica/03107.png]]
+#+CAPTION: tranzistor în conexiune colector comun pentru acţionarea sarcinii
+[[./poze/03107.png]]
 
 Singura problemă este că tensiunea pe sarcină va fi cu aproximativ 0.7 V
 mai mică decât căderea de tensiune pe dioda zener. Acest lucru poate fi
@@ -3420,7 +3417,7 @@ caz, se pot conecta (etaja) mai mulţi tranzistori într-o /configuraţie
 Darlington/:
 
 #+CAPTION: tranzistori în configuraţie Darlington
-[[/sites/default/files/electronica\_analogica/03108.png]]
+[[./poze/03108.png]]
 
 Configuraţia Darlington constă în conectarea pe sarcina unui tranzistor
 colector comun a unui alt tranzistor, multiplicând asfel factorii de
@@ -3437,7 +3434,7 @@ toate că tensiunea de ieşire va fi mai mică cu 1,4 V decât tensiunea de
 intrare:
 
 #+CAPTION: amplificator cu tranzistori în configuraţie Darlington
-[[/sites/default/files/electronica\_analogica/03109.png]]
+[[./poze/03109.png]]
 
 Tranzistorii în configuraţie Darlington pot fi cumpăraţi ca şi
 dispozitive discrete, sau pot fi construiţi din tranzistori individuali.
@@ -6114,7 +6111,7 @@ proporţională cu valoarea acelui curent:
 *** Circuit de derivare
 
 #+CAPTION: circuit de derivare
-[[/sites/default/files/electronica\_analogica/03048.png]]
+[[./poze/03048.png]]
 
 Partea dreaptă a condensatorului este menţinută constantă la o tensiune
 de 0 V, datorită efectului „masei virtuale”. Prin urmare, curentul
@@ -6137,7 +6134,7 @@ următoarea:
 
 #+CAPTION: formula pentru determinarea tensiunii de ieşire a
 #+CAPTION: derivatorului
-[[/sites/default/files/electronica\_analogica/13012.png]]
+[[./poze/13012.png]]
 
 Pe lângă utilizarea acestor circuite ca şi funcţie matematică de
 derivare în calculatoarele numerice, acestea se folosesc ca şi
@@ -6159,7 +6156,7 @@ realiza acest lucru, trebuie doar să inversăm locul rezistorului cu cel
 al condensatorului din circuitul precedent:
 
 #+CAPTION: circuit de integrare
-[[/sites/default/files/electronica\_analogica/03048.png]]
+[[./poze/03048.png]]
 
 Ca şi în cazul precedent, AO asigură faptul că intrarea inversoare va fi
 menţinută la o tensiune de 0 V (masa virtuală). Dacă tensiunea de
@@ -6181,7 +6178,7 @@ Formula de determinare a tensiunii de ieşire a integratorului este
 următoarea:
 
 #+CAPTION: formula de calcul a tensiunii de ieşire a integratorului
-[[/sites/default/files/electronica\_analogica/13013.png]]
+[[./poze/13013.png]]
 
 unde,
 
