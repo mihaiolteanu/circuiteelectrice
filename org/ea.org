@@ -59,11 +59,6 @@ ajutorul materialelor /semiconductoare/ şi nu prin vid.
 #+CAPTION: efectul Edison
 [[./poze/03375.png]]
 
-Sumar:
-
--  
--  
-
 ** Elemente active şi elemente pasive
 :PROPERTIES:
 :CUSTOM_ID: elemente-active-si-elemente-pasive
@@ -91,11 +86,6 @@ tensiune iar tranzistoarele pot fi de ambele tipuri.
 
 #+CAPTION:
 [[./poze/00000.png]]
-
-Sumar:
-
--  
--  
 
 ** Amplificatorul
 :PROPERTIES:
@@ -189,11 +179,6 @@ limitată la un maxim de 100%. De obicei, amplificatoarele electronice au
 o eficienţă mult sub acest nivel, datorită pierderilor considerabile de
 energie sub formă de căldură.
 
-Sumar:
-
--  
--  
-
 ** Factorul de amplificare
 :PROPERTIES:
 :CUSTOM_ID: factorul-de-amplificare
@@ -242,11 +227,6 @@ ieşire fiind 15 V:
 etaje; amplificarea finală este produsul amplificărilor individuale
 [[./poze/03169.png]]
 
-Sumar:
-
--  
--  
-
 ** Decibelul
 :PROPERTIES:
 :CUSTOM_ID: decibelul
@@ -291,11 +271,6 @@ valorile sunt exprimate în dB:
 formă de raport şi aceleaşi pierderi de putere exprimate în decibeli
 [[./poze/13030.png]]
 
-Sumar:
-
--  
--  
-   
 * Fizica semiconductorilor
 :PROPERTIES:
 :CUSTOM_ID: fizica-semiconductorilor
@@ -697,49 +672,6 @@ celelalte elemente. Aceste elemente au fost clasificate în trecut ca
 /inerte/, crezându-se că sunt complet non-reactive, dar acestea pot
 forma compuşi cu alte elemente în condiţii specifice.
 
-Sumar:
-
--  Electronii există în atomi sub formă de „nori” ai probabilităţilor
-   distribuite, şi nu sub forma unor corpuri discrete ce orbitează în
-   jurul nucelului precum sateliţii în jurul planetelor
--  Fiecare electron din jurul nucleului atomului are o „stare” unică
-   descrisă de patru numere cuantice: numărul cuantic principal,
-   cunoscut sub numele de strat; numărul cuantic orbital, cunoscut sub
-   numele de substrat; numărul cuantic magnetic, ce descrie orbitalul
-   (orientarea stratului); numărul cuantic de spin, sau pur şi simplu
-   spin. Aceste stări sunt cuantificate, adică electronul nu poate
-   exista „între” aceste stări ce sunt definite de numerotaţia cuantică
--  Numărul cuantic principal (n) descrie stratul pe care se află
-   electronul. Cu cât acest număr este mai mare, cu atât raza norului
-   electronic este mai mare faţa de nucleul atomului, şi cu atât este
-   mai mare energia electronului. Aceste numere sunt numere întregi
-   pozitive
--  Numărul cuantic orbital (l) descrie forma norului electronic dintr-un
-   anumit strat şi este cunoscut adesea sub numele de substrat. Numărul
-   substraturilor (formelor norilor electronici) din oricare strat este
-   egal cu număru cuantic orbital. Acestea sunt numere întregi pozitive
-   ce încep de la zero şi se termină la n-1 (n - numărul cuantic
-   principal)
--  Numărul cuantic magnetic m_{l} descrie orientarea substratului (forma
-   norului electronic). Numărul orientărilor substraturilor este de 2l +
-   1 (l - numărul cuantic orbital). Fiecare orientare unică poartă
-   numele de orbital. Aceste numere sunt întregi, cu valor între -l şi l
--  Numărul cuantic de spin m_{s} descrie o altă proprietate a
-   electronului, iar valoarea acestuia poate să fie +1/2 sau -1/2
--  Principiul de excluziune al lui Pauli spune că, într-un atom, nu
-   există doi electroni cu acelaşi set de numere cuantice. Prin urmare,
-   numărul maxim de electroni pe fiecare orbital este de 2 (spin=1/2 şi
-   spin=-1/2), de exemplu
--  Notaţia spectroscopică este o convenţie folosită pentru descrierea
-   configuraţiei electronilor dintr-un atom. Straturile sunt descrise de
-   numere întregi, urmate de substraturi, descrise cu ajutorul literelor
-   (s, p, d, f), iar un indice superior este folosit pentru indicarea
-   numărului total de electroni de pe fiecare substrat în parte
--  Comportamentul chimic al unui atom este complet determinat de
-   electronii din straturile neocupate complet. Straturile inferioare
-   ocupate complet nu au aproape niciun efect asupra formării
-   legăturilor chimice ale elementelor
-
 ** Valenţa şi structura cristalină
 :PROPERTIES:
 :CUSTOM_ID: valenta-si-structura-cristalina
@@ -859,22 +791,6 @@ alţi patru atomi. Cristalul format este practic o singură moleculă.
 Structura cristalină este relativ rigidă şi rezistă deformaţiilor.
 Există un număr relativ mic de electroni liberi prin cirstal.
 
-Sumar:
-
--  Atomii încearcă să-şi completeze stratul exterior, de valenţă, cu
-   toţi cei 8 electroni (2 electroni pentru stratul inferior). Atomii
-   pot dona, accepta sau împărţi electroni pentru a completa un strat
--  Atomii formează adesea structuri ordonate şi rigide denumite cristale
--  Un ion pozitiv se formează prin cedarea unui elentron de către un
-   atom neutru
--  Un ion negativ se formează prin acceptarea unui elentron de către un
-   atom neutru
--  Elementele semiconductoare din grupa IVA, C, Si şi Ge au o structură
-   cristalină de tip diamant. Fiecare atom al cristalului este parte a
-   unei molecule gigantice, formând legături cu alţi patru atomi
--  Majoritatea dispozitivelor semiconductoare sunt confecţionate din
-   monocristale
-
 ** Teoria benzilor de energie
 :PROPERTIES:
 :CUSTOM_ID: teoria-benzilor-de-energie
@@ -953,26 +869,6 @@ conducţie este foarte mică, iar materialul semiconductor se comportă
 precum un izolator. La temperaturi înalte însă, energia termică devine
 suficient de mare pentru a forţa electronii peste „distanţa energetică”,
 iar materialul se va comporta precum un material conductor.
-
-Sumar:
-
--  Pentru îndepărtarea unui electron din banda de valenţă spre o bandă
-   neocupată, superioară, denumită bandă de conducţie, este nevoie de o
-   anumită energie exterioară. Pentru deplasarea electronilor între
-   straturi este nevoie de o energie mai mare decât pentru deplasarea
-   lor între substraturi.
--  Datorită faptului că banda de valenţă şi cea de conducţie se suprapun
-   în cazul metalelor, energia necesară pentru deplasarea unui electron
-   este mică. Prin urmare, metalele sunt conductori de electricitate
-   foarte buni
--  Spaţiul foarte mare existent între banda de valenţă şi cea de
-   conducţie în cazul materialelor izolatoare, necesită o energie foarte
-   mare pentru deplasare electronilor între aceste benzi. Din această
-   cauză, aceste materiale sunt bune izolatoare şi nu conduc
-   electricitate
--  Materialele semiconductoare au un spaţiu relativ mic între banda de
-   valenţă şi banda de conducţie. Semiconductorii puri nu sunt nici buni
-   izolatori, nici buni conductori
 
 ** Electroni şi goluri
 :PROPERTIES:
@@ -1129,19 +1025,6 @@ tip N; (b) (a) deplasarea electronilor într-un material semiconductor de
 #+CAPTION: tip P
 [[./poze/03407.png]]
 
-Sumar:
-
--  Materialele semiconductoare pure, cu un procent de 1 parte la 10
-   miliarde, nu sunt bune conductoare
--  Materialele semiconductoare de tip N sunt dopate cu o impuritate
-   petavalentă pentru crearea electronilor liber. Un asfel de material
-   este conductor, iar purtătorii de sarcină majoritari sunt în acest
-   caz electronii
--  Materialele semiconductoare de tip P sunt dopate cu o impuritate
-   trivalentă şi duce la crearea unei abundenţe de goluri în structura
-   semiconductorului. Un asfel de material este conductor, iar
-   purtătorii de sarcină majoritari sunt în acest caz golurile
-
 ** Joncţiunea P-N
 :PROPERTIES:
 :CUSTOM_ID: jonctiunea-p-n
@@ -1223,19 +1106,6 @@ joncţiunea PN este /polarizată invers/.
 
 Ceea ce am creat mai sus prin doparea aceluiaşi cristal atât cu material
 de tip N cât şi cu material de tip P, este o diodă.
-
-Sumar:
-
--  Joncţiunile PN sunt fabricate dintr-o bucată monocristalină de
-   material semiconductor şi conţin atât regiuni dopate cu materiale de
-   tip P cât şi regiuni dopate cu materiale de tip N, regiuniu separate
-   printr-o joncţiune
--  Transferul electronilor de la materialul de tip N spre golurile
-   materialului de tip P, produce o barieră de potenţial în jurul
-   joncţiuni. Valoarea acesteia este de 0.6-0.7 V pentru siliciu, dar
-   poate varia în cazul altor semiconductoare
--  Joncţiunea PN polarizată direct, conduce curent electric
--  Joncţiunea PN polarizată învers, nu conduce aproape deloc curent
 
 ** Dioda
 :PROPERTIES:
@@ -1325,13 +1195,6 @@ contactului. Diodele de joncţine mici, încapsulate în sticlă, pot
 conduce curenţi de ordinul zecilor sau sutelor de mA. Diodele de putere
 redresoare, încapsulate în plastic sau ceramică, pot conduce curenţi de
 ordinul miilor de amperi.
-
-Sumar:
-
--  
--  
--  
--  
 
 ** Tranzistorul bipolar cu joncţiune (BJT)
 :PROPERTIES:
@@ -1514,28 +1377,6 @@ precum cea a tranzistorilor NPN. Totuşi, tranzistorii PNP integraţi nu
 sunt la fel de buni precum cei de tipul NPN, prin urmare, circuitele
 integrate folosesc tranzistori de tipul NPN în marea lor majoritate.
 
-Sumar:
-
--  Tranzistorii bipolari conduct curentul folosind ca purtători de
-   sarcină atât electroni cât şi goluri în cadrul aceluiaşi circuit. De
-   aici şi denumirea de „bipolar”
--  Funcţionarea corectă a unui tranzistor bipolar ca şi amplificator de
-   curent necesită polarizarea inversă a joncţiunii colector-bază şi
-   polarizarea directă e joncţiunii emitor-bază
--  Diferenţa dintre un tranzistor şi două diode montate cap-la-cap,
-   constă în faptul că stratul de mijloc, baza, este foarte subţire.
-   Acest lucru permite purtătorilor de sarcină majoritari din emitor
-   (electronii) să treacă ca şi purtători de sarcină minoritari prin
-   bază în zona de golire joncţiunii bază-colector, de unde câmpul
-   electric foarte puternic îi „colectează” înspre colector
--  Eficienţa emitorului este îmbunătăţite printr-un dopaj puternic faţă
-   de dopajul colectorului. Eficienţa emitorului se exprimă prin α =
-   I_{C}/I_{E}, iar valoarea acesteia este de 0.99 (sau 99%) pentru
-   tranzistorii mici
--  Amplificarea în curent a tranzistorului este exprimată prin relaţia
-   β=I_{C}/I_{B}, iar valoarea ei este de la 100 la 300 pentru
-   tranzistorii mici
-
 ** Tranzistorul cu efect de câmp (JFET)
 :PROPERTIES:
 :CUSTOM_ID: tranzistorul-cu-efect-de-camp-jfet
@@ -1684,15 +1525,6 @@ transversală printr-un dispozitiv discret; (b) simbolul schematic; (c)
 #+CAPTION: secţiune transversală printr-un circuit integrat
 [[./poze/03303.png]]
 
-Sumar:
-
--  Conducţia canalului unui tranzistor (unipolar) cu efect de câmp (FET
-   sau JFET) se datorează unui singur tip de purtător de sarcină
--  Sursa, poarta şi drena unui JFET corespund emitorului, bazei şi
-   colectorului unui tranzistor bipolar
--  Polarizarea inversă a porţii duce la variaţia rezistenţei canalului
-   prin extinderea zonei de golire
-
 ** Tranzistorul cu efect de câmp cu poartă izolată (MOSFET)
 :PROPERTIES:
 :CUSTOM_ID: tranzistorul-cu-efect-de-camp-cu-poarta-izolata-mosfet
@@ -1784,17 +1616,6 @@ similară, U-MOS, este mult mai uşor de produs.
 #+CAPTION: schematic
 [[./poze/03306.png]]
 
-Sumar:
-
--  MOSFET-urile sunt dispozitive unipolare, precum FET-urile sau
-   BJT-urile
--  MOSFET-ul este un dispozitiv controlat în tensiune, precum FET-ul. O
-   tensiune de intrare pe poartă controlează curentul dinspre sursă spre
-   drenă
--  Poarta MOSFET-ului nu necesită prezenţa unui curent în timpul
-   funcţionării, ci doar prezenţa unui curent iniţial pentru încărcarea
-   „condensatorului”
-
 ** Tiristorul
 :PROPERTIES:
 :CUSTOM_ID: tiristorul
@@ -1845,18 +1666,6 @@ asemenea în figura de mai jos ((b) respectiv (c)).
 al redresorului controlat pe bază de siliciu (SCR) (c) simbolul
 #+CAPTION: tiristorului de tip GTO
 [[./poze/03307.png]]
-
-Sumar:
-
--  SCR sunt cele mai des întâlnite dispozitive din familia tiristoarelor
--  „Pornirea” conducţiei SCR-ului se realizează prin aplicarea unui
-   impuls pozitiv porţii. Conducţia continuă chiar şi după ce impulsul
-   asupra porţii încetează. Conducţia poate fi oprită doar dacă
-   tensiunea dintre anod şi catod atinge valoarea zero
--  SCR sunt folosite de obicei cu surse de tensiune de curent alternativ
-   (sau de curent continuu pulsatorii) datorită conducţiei continue
--  Un dispozitiv GTO poate fi oprit prin aplicarea unui puls negativ
-   asupra porţii
 
 * Dioda
 :PROPERTIES:
@@ -2014,23 +1823,6 @@ jos este prezentat graficul curent-tensiune al diodei:
 #+CAPTION: graficul curent-tensiune al diodei
 [[./poze/03253.png]]
 
-Sumar:
-
--  Dioda este un component electric ce se comportă precum o valvă
-   uni-direcţională de curent
--  Spunem că dioda este polarizată direct atunci când aceasta permite
-   trecerea curentului prin diodă
--  Spuenm că dioda este polarizată invers atunci când trecerea
-   curentului prin diodă este blocată
--  Căderea de tensiune la bornele unei diode polarizate direct poartă
-   numele de tensiune de polarizare directă, şi este de 0.7 V pentru
-   diodele din siliciu şi 0.3 V pentru cele din germaniu. Această
-   tensiune variază foarte puţin pentru diferite valori ale curentului
-   şi temperaturii
--  Tensiunea de polarizare inversă maximă pe care o poate suporta o
-   diodă fără apariţia fenomenului de „străpungere” ce duce inevitabil
-   la distrugerea acesteia, se numeşte /tensiune de străpungere/, V_{s}
-
 ** Verificarea diodei cu ajutorul ohmmetrului
 :PROPERTIES:
 :CUSTOM_ID: verificarea-diodei-cu-ajutorul-ohmmetrului
@@ -2099,19 +1891,6 @@ voltmetru:
 un aparat de măsură (voltmetru), o baterie şi un rezistor: (a) schema
 #+CAPTION: electrică; (b) schema practică
 [[./poze/03257.png]]
-
-Sumar:
-
--  Putem folosi un ohmmetru pentru verificarea calitativă a diodei.
-   Rezistenţa măsurată într-o anumită direcţie ar trebui să fie foarte
-   mică şi foarte mare când inversăm direcţia de măsurare. Atenţia la
-   polaritatea sondelor aparatului de măsură!
--  Unele multimetre digitale oferă o funcţie de „verificare a diodei” ce
-   indică tensiunea de polarizare directă a diodei atunci când aceasta
-   conduce curent. Asfel de aparate de măsură indică de obicei o
-   tensiune de polarizare direcţa mai mică decât valoarea normală a unei
-   diode, datorită curentului foarte mic generat de aparat prin diodă în
-   timpul măsurătorii
 
 ** Parametrii diodei
 :PROPERTIES:
@@ -2425,24 +2204,6 @@ punte conectate în paralel, folosind un transformator primar şi două
 #+CAPTION: secundare în configuraţie Y-Y, respectiv Y-Δ
 [[./poze/03270.png]]
 
-Sumar:
-
--  Redresarea este transformarea curentului alternativ în curent
-   continuu
--  Un redresor monoalternanţa este un circuit ce permite aplicarea doar
-   a unei semiperioade (o jumătate de perioadă) a tensiunii de curent
-   alternativ asupra sarcinii, rezultând într-o polaritate
-   non-alternantă a căderii de tensiune a sarcinii. Tensiunea de curent
-   continuu rezultată prezintă o „pulsaţie” semnificativă
--  Un redresor dublă alternanţă este un circuit ce transformă întreaga
-   perioadă (ambele semiperioade) a tensiunii de curent alternativ
-   într-o serie de pulsuri neîntrerupte de tensiune de aceeiaşi
-   polaritate. Tensiunea de curent continuu rezultată prezintă un număr
-   mai mic de pulsuri
--  Redresarea tensiunii de curent alternativ polifazate rezultă într-o
-   formă de undă de curent continuu mult mai „netedă” (tensiune de riplu
-   mult mai scăzută) decât redresarea tensiunii monofazate
-
 ** Dioda Zener
 :PROPERTIES:
 :CUSTOM_ID: dioda-zener
@@ -2717,13 +2478,6 @@ este valabil şi pentru semialternanţa negativă (-10.7 V):
 #+CAPTION: de alimentare şi a tensiunii de ieşire
 [[./poze/23034.png]]
 
-Sumar:
-
--  Diodele zener sunt proiectate să funcţioneze polarizate invers.
-   Tensiunea la care aceste diode încep să conducă este denumită
-   /tensiune zener/
--  Dioda zener poate funcţiona pe post de stabilizator de tensiune
-
 * Tranzistorul
 :PROPERTIES:
 :CUSTOM_ID: tranzistorul
@@ -2783,11 +2537,6 @@ este posibilă. Un curent de bază porneşte tranzistorul, acesta
 comportându-se precum un întrerupător închis şi permiţând trecerea unui
 curent proporţional prin colector. Curentul de colector este limitat de
 curentul bazei, indiferent de valoarea căderii de tensiune pe colector.
-
-Sumar:
-
--  
--  
 
 ** Tranzistorul pe post de întrerupător
 :PROPERTIES:
@@ -2884,16 +2633,6 @@ acest caz nu se comportă doar ca un întrerupător, ci şi ca un
 necesară aprinderii lămpii este furnizată de bateria din circuitul
 principal, şi /nu/ de celula solară, termocuplă sau microfon. Acestea
 din urmă doar /controlează/ puterea bateriei pentru aprinderea lămpii.
-
-Sumar:
-
--  Tranzistoarele pot fi folosite ca şi întrerupătoare pentru controlul
-   puterii de curent continuu asupra sarcinii. Curentul controlat trece
-   prin emitor-colector; curentul de control trece prin emitor-bază
--  Când curentul printr-un tranzistor este zero, spunem că acesta este
-   /blocat/
--  Când curentul printr-un tranzistor este maxim, spunem că acesta este
-   /saturat/
 
 ** Verificarea tranzistorului cu ohmmetrul
 :PROPERTIES:
@@ -3026,16 +2765,6 @@ acestora în circuitele practice.
 #+CAPTION: modelul celor două diode puse spate-în-spate nu poate fi
 folosi pentru explicare funcţionării tranzistorilor în circuitele reale
 [[./poze/03087.png]]
-
-Sumar:
-
--  Tranzistorul se comportă precum o pereche de diode conectate
-   spate-în-spate atunci când este verificat cu ajutorul unui multimetru
-   pe post de ohmmetru sau cu funcţia „verificare diodă”
--  Joncţiunea emitor-bază de tip P-N, are o tensiune directă puţin mai
-   mare decât joncţiunea colector-bază de tip P-N, datorită dopajului
-   mai puternic al emitorului. Acest lucru poate fi exploatat pentru
-   identificarea tranzistorilor
 
 ** Zona activă de funcţionare a tranzistorului
 :PROPERTIES:
@@ -3202,19 +2931,6 @@ folosirea unei surse de curent îi poate duce pe cei mai ne-experimentaţi
 în eroare; un tranzistor /nu/ este în niciun caz o sursă de energie
 electrică, dar pe model, faptul că sursa de energie este externă
 tranzistorului, nu este aparentă.
-
-Sumar:
-
--  Tranzistorul se află în /zona activă de funcţionare/, atunci când
-   funcţionează între starea de blocare şi cea de saturaţie
--  Curentul bazei regulează curentul colectorului. Acest lucru înseamnă
-   că prin colector nu poate trece un curent mai mare decât valoarea
-   permisă de câtre curentul bazei
--  Raportul dintre curentul colectorului şi curentul bazei poartă numele
-   de /factor beta/ sau /factor de amplificare în curent/ al
-   tranzistorului, şi se notează cu β sau h_{fe})
--  β variază pentru fiecare tranzistor în parte
--  β variază pentru diferite condiţii de operare
 
 ** Amplificator cu tranzistor în conexiune emitor comun
 :PROPERTIES:
@@ -3532,29 +3248,6 @@ cu tranzistor PNP, doar polarităţile bateriilor sunt diferite:
 #+CAPTION: tipul PNP
 [[./poze/03112.png]]
 
-Sumar:
-
--  Denumirea de /emitor-comun/ vine de la faptul că tensiunile de
-   intrare şi de ieşire ale tranzistorului au ca şi punct comun
-   contactul emitorului, neluând în considerare alte surse de putere
--  Tranzistorii sunt în principiu dispozitive de curent continuu: nu pot
-   conduce curenţi în direcţie inversă la polarizarea inversă. Pentru a
-   funcţiona cu semnale de curent alternativ, semnalul de intrare
-   (alternativ) trebuie să conţină şi o componentă de curent continuu
-   pentru menţinerea tranzistorului în zona activă de functionare pe
-   toată durata perioadei semnalului de intrare
--  Tensiunea de ieşire, între emitor şi colector, a unui amplificator în
-   conexiune emitor comun, este defazată cu 180^{o} faţă de tensiunea de
-   intrare. Amplificatorul emitor comun mai este cunoscut din această
-   cauză şi ca amplificator inversor
--  Amplificarea în curent a tranzistorului emitor-comun, cu sarcina
-   conectată în serie cu colectorul, este egală cu β
--  Amplificarea în tensiune a tranzistorului emitor-comun este dată de
-   relaţia A_{V} = β (R_{ieşire} / R_{intrare}), unde R_{ieşire}
-   reprezintă rezistorul conectat în serie cu colectorul, iar
-   R_{intrare} reprezintă rezistorul conectat în serie cu baza
-   tranzistorului
-
 ** Amplificator cu tranzistor în conexiune colector comun
 :PROPERTIES:
 :CUSTOM_ID: amplificator-cu-tranzistor-in-conexiune-colector-comun
@@ -3751,24 +3444,6 @@ dispozitive discrete, sau pot fi construiţi din tranzistori individuali.
 Desigur, dacă se doreşte obţinerea unor curenţi şi mai mari, se pot
 conecta chiar şi trei sau patru tranzistori în configuraţie Darlington.
 
-Sumar:
-
--  Denumirea de /colector comun/ vine de la faptul că tensiunea de
-   intrare şi cea de ieşire au ca şi punct comun terminalul colectorului
-   tranzistorului, neluând în considerare sursele de putere din circuit
--  Amplificator colector comun mai este cunoscut şi sub numele de
-   repetor pe emitor
--  Tensiunea de ieşire a unui amplificator în configuraţie colector
-   comun este în fază cu tensiunea de intrare, ceea ce înseamnă că acest
-   tip de amplificator este /ne-inversor/
--  Factorul de amplificare în curent (A_{I}) al amplificatorului
-   colector comun este egal cu β plus 1, iar factorul de amplficare în
-   tensiune (A_{V} este foarte aproape de 1
--  Conectarea în serie a mai multor tranzistori în configuraţie colector
-   comun, poartă numele de /configuraţie Darlington/. Factorul de
-   amplificare în curent rezultat este produsul dintre factorii de
-   amplificare a fiecărui tranzistor din configuraţie
-
 ** Amplificator cu tranzistor în conexiune bază comună
 :PROPERTIES:
 :CUSTOM_ID: amplificator-cu-tranzistor-in-conexiune-baza-comuna
@@ -3878,22 +3553,6 @@ prin emitor.
 Prin urmare, un factor de amplificare în curent subunitar şi un factor
 de amplificare în tensiune imprevizibil, fac ca această configuraţie să
 ofere puţine aplicaţii practice.
-
-Sumar:
-
--  Denumirea de /bază comună/ vine de la faptul că tensiunile de intrare
-   şi de ieşire ale amplificatorului au ca şi punct comun baza
-   tranzistorului, neluând în considerare sursele de putere
--  Factorul de amplificare în curent al amplificatorului bază comună
-   este tot timpul mai mic decât 1
--  Factorul de amplificare în tensiune depinde de rezistenţele de
-   intrare şi de ieşire, cât şi de rezistenţa internă a joncţiunii
-   emitor-bază a tranzistorului, rezistenţa ce variază cu variaţia
-   tensiunii de polarizare în curent continuu. Această amplificare este
-   însă foarte mare
--  Raportul dintre curentul colectorului şi curentul emitorului unui
-   tranzistor, poartă numele de factor alfa (α). Pentru orice
-   tranzistor, factorul alfa este subunitar (mai mic decât 1)
 
 ** Amplificatoare clasa A, B, AB, C şi D
 :PROPERTIES:
@@ -4022,28 +3681,6 @@ precum invertoarele industriale (dispozitive ce transformă curentul
 continuu în curent alternativ) şi amplificatoarele audio de înaltă
 performanţă.
 
-Sumar:
-
--  Amplificatorul clasa A se află în zona activă de funcţionare pe
-   întreaga perioadă a formei de undă de la intrare, prin urmare,
-   aceasta este reprodusă în totalitate la ieşire
--  Amplificatorul clasa B reproduce la ieşire doar o jumătate din forma
-   de undăde la intrare: fie jumătatea pozitivă, fie pe cea negativă.
-   Tranzistorul se află doar o jumătate din timp în zona activă de
-   funcţionarea, iar în rest este blocat
--  Amplificatorul clasa AB este o configuraţie ce se află între
-   amplficatorul de clasa A şi cel de clasă B în ceea ce priveşte timpul
-   petrecut de acesta în zona activă de funcţionare
--  Clasa D presupune (re)-proiectarea amplificatorului, şi nu se bazează
-   doar pe tensiunea de polarizare în curent continuu, aşa cum este
-   cazul claselor precedente. Forma semnalului de ieşire este
-   dreptunghiulară, iar factorul de umplere al acestuia depinde de
-   amplitudinea instantanee a semnalului de intrare. Tranzistorii unui
-   asfel de amplificator nu se află niciodată în zona activă de
-   funcţionare, ei sunt fie blocaţi fie saturaţi. Eficienţa acestui tip
-   de amplificator este mare datorită puterii dispiate sub formă de
-   căldură foarte scăzută
-
 ** Punctul static de funcţionare al tranzistorului
 :PROPERTIES:
 :CUSTOM_ID: punctul-static-de-functionare-al-tranzistorului
@@ -4148,14 +3785,6 @@ că, pentru funcţionarea corectă a amplificatorului de clasă A, pentru
 sarcina în cauză, curentul bazei trebuie să aibă o valoare de
 aproximativ 25 µA. Cunoscând această valoare, putem determina mai apoi
 şi tensiune de polarizare directă în curent continuu.
-
-Sumar:
-
--  Punctul static de funcţionare reprezintă valoarea curentului bazei
-   pentru care tranzistorul funcţionează corect
--  Pentru amplificatorul de clasă A, punctul static de funcţionare se
-   află la jumătatea distanţei dintre punctul de blocare şi zona de
-   saturaţie a dreptei de sarcină
 
 ** Metode de polarizare ale tranzistorului
 :PROPERTIES:
@@ -4312,15 +3941,6 @@ exact ceea ce urmăream:
 curent de ieşire nedistorsionat, semnal tipic pentru un amplificator de
 #+CAPTION: clasa A
 [[./poze/23014.png]]
-
-Sumar:
-
--  Tensiunea de polarizare în curent continuu, necesară pentru
-   funcţionarea amplificatoarelor de clasă A şi C, poate fi obţinută
-   prin utilizarea unui divizor de tensiune şi un condensator de cuplaj.
-   Această configuraţie este folosită practic în locul bateriei
-   conectate în serie cu sursa de semnal de curent alternativ de la
-   intrare
 
 ** Cuplajul de intrare şi cuplajul de ieşire
 :PROPERTIES:
@@ -4791,16 +4411,6 @@ asemenea că amplificarea variază foarte puţin cu temperatura. Acest
 principiu de stabilizare a amplificării este dus la extrem în cazul
 /amplificatoarelor operaţionale/.
 
-Sumar:
-
--  Reacţia înseamnă cuplarea ieşiri unui amplificator la intrarea
-   acestuia
--  Reacţia pozitivă produce oscilaţii într-un circuit, asfel că acesta
-   devine instabil
--  Reacţia negativă tinde să stabilizeze amplificatorul, asfel încât
-   variaţia semnalului de ieşire este mai mică pentru o anumită variaţie
-   a semnalui de intrare
-
 * Dispozitive multijonctiune
 :PROPERTIES:
 :CUSTOM_ID: dispozitive-multijonctiune
@@ -4839,11 +4449,6 @@ analizate ca şi circuite compuse din perechi de tranzistoare. Cum poate
 atunci un dispozitiv cu histereză să fie construit din dispozitive ce nu
 prezintă această proprietate? Răspunsul este de data de reacţia
 pozitivă. Acestă reacţie tinde să satureze dispozitivul.
-
-Sumar:
-
--  
--  
 
 ** Tuburi electronice cu descărcare în gaze
 :PROPERTIES:
@@ -5183,19 +4788,6 @@ mod de operare între aceste două extreme şi nu există o zonă activă de
 funcţionare precum în cazul tranzistoarelor bipolare de exemplu: acesta
 este undispozitiv pur oprit-pornit, asemenea tuturor dispozitivelor
 semiconductoare multijoncţiune.
-
-Sumar:
-
--  Dioda Shockley este un dispozitiv semiconductor format din patru
-   straturi PNPN. Aceste straturi se comportă precum o pereche de
-   tranzistori PNP şi NPN interconectaţi
--  La fel ca toate dispozitivele multijoncţiune, diodele Shockely tind
-   să rămână în stare de conducţie odată pornite şi în stare blocată
-   odată oprite
--  Pentru trecerea unei diode Shockley în stare de conducţie, este
-   necesară depăşirea tensiunii de străpungere anot-catod
--  Pentru blocarea unei diode Shockley, este necesară reducerea
-   curentului prin această sub un anumit prag critic
 
 ** DIAC-ul
 :PROPERTIES:
@@ -5593,14 +5185,6 @@ circuitele de aprindere.
 #+CAPTION: redresor comandat trifazat în punte cu tiristoare
 [[./poze/03222.png]]
 
-Sumar:
-
--  Tiristorul este practic o diodă Shockley cu un terminal în plus,
-   terminal denumit poartă şi folosit pentru aprinderea dispozitivului
-   folosind o tensiune mică
--  Pentru aprinderea tiristorului, tensiunea trebuie aplicată între
-   poartă şi catod, pozitivă pe poartă şi negativă pe catod
-
 ** TRIAC-ul
 :PROPERTIES:
 :CUSTOM_ID: triac-ul
@@ -5695,15 +5279,6 @@ indiferent ed valoarea rezistenţei de comandă. Aprinderea corectă a
 triacului se realizează asigurându-ne că poartă primeşte curentul de
 comandă de la terminalul principal A_{2}. Identificarea terminalilor
 A_{1} şi A_{2} se face folosind catalogul producătorului.
-
-Sumar:
-
--  Comportamentul triacului este asemănător unui număr de două
-   tiristoare conectate în paralel şi în direcţii diferite
--  Triacele se folosesc adesea în circuitele simple şi de puterea joasă
--  Terminalii A_{1} şi A_{2} nu se pot interschimba! Pentru o aprindere
-   corectă a triacului, curentul pe poartă trebuie să treacă prin
-   terminalul A_{2}
 
 ** Optotiristorul
 :PROPERTIES:
@@ -5885,21 +5460,6 @@ punctul de referinţă cu ajutorul unui amplificator diferenţial. În
 circuitele simple, ieşirea amplificatorului poate fi utilizată pentru
 acţionarea unui element final de control (precum o valvă) şi menţinerea
 procesului cât mai aproape de punctul de referinţă.
-
-Sumar:
-
--  Simbolul amplificatorului electronic este un triunghi, unde baza
-   semnifică intrarea iar vârful semnifică ieşirea acestuia. Alimentarea
-   amplificatorului este adesea omisă pentru simplificarea desenului
--  Pentru amplificarea semnalelor de c.a. se poate folosi o sursă de
-   tensiune duală, constând din două surse de c.c. conectate în serie cu
-   punctul median conectat la masă
--  Majoritatea amplificatoarelor au o singură intrare şi o singură
-   ieşire. /Amplificatoarele diferenţiale/ au două intrări şi o singură
-   ieşire, semnalul de intrare fiind direct proporţional cu diferenţa
-   dintre cele două semnale de intrare
--  Tensiunea de ieşire a unui amplificator diferenţial este dată de
-   ecuaţia V_{ieşire} = A_{V}(V_{(+)} - V_{(-)})
 
 ** Amplificatorul operaţional
 :PROPERTIES:
@@ -6091,32 +5651,6 @@ Aceeiaşi tehnologie este folosită şi în cazul convertorului
 analog-digital (CAD), pentru „traducerea” unui semnal analog într-o
 serie de tensiuni pornit/oprit, reprezentând un numări digital.
 
-Sumar:
-
--  Dacă nu este specificat altcumva, /toate/ tensiunile din circuitele
-   folosind amplificatoare au ca şi referinţa un punct comun, denumit
-   /masă/. Acest punct este de obicei conectat la unul dintre
-   terminalele sursei de alimentare. În acest fel, putem vorbi despre o
-   anumită tensiune ca fiind „pe” un singur fir, dar neuitând faptul că
-   tensiunea se măsoară /tot timpul/ între două puncte
--  Un /amplificator diferenţial/ este un dispozitiv ce amplifică
-   /diferenţa/ dintre două semnale de intrare. Una dintre intrări poartă
-   numele de intrare /inversoare(-)/, iar cealaltă de intrare
-   /neinversoare/(+)
--  Un /amplificator operaţional/ (AO) este un amplificator diferenţial
-   cu o amplificare în tensiune foarte mare (A_{V} = 200.000, sau mai
-   mult)
--  AO au de obicei impedanţe de intrare şi de ieşire foarte mari,
-   respectiv foarte mici
--  AO pot fi folosite pe post de /comparatoare/, funcţionând saturate
-   sau blocate în funcţie de care dintre intrări are o tensiune mai mare
--  Una dintre aplicaţiile comparatorului este /modularea pulsurilor în
-   durată/ (PWM), şi constă în copararea unui semnal de c.a. cu o
-   tensiune de referinţă de c.c. Factorul de umplere a forme de undă de
-   la ieşire poate fi controlat prin ajustarea tensiunii de c.c. de
-   referintă, ce controlează, sau /modulează/ durata (lăţimea) pulsului
-   semnalului de ieşire
-
 ** Reacţia negativă
 :PROPERTIES:
 :CUSTOM_ID: reactia-negativa
@@ -6225,24 +5759,6 @@ folosesc tranzistori cu efect de câmp pe etaju de ieşire, pot urma
 tensiunea de alimentare cu o aproximaţie de câţive milivolţi, în ambele
 părţi. Practic, tensiunile de saturaţie pozitivă, respectiv negativă,
 sunt egale cu tensiunile de alimentare.
-
-Sumar:
-
--  Comectarea ieşiri unui AO la intrarea sa inversoare (-) poartă numele
-   de /reacţie negativă/
--  Când ieşirea unui AO este conectată /direct/ la intrarea inversoare
-   (-), configuraţia creată poartă numele de /repetor de tensiune/.
-   Oricare ar fi semnalul de tensiune aplicat pe intrarea neinversoare
-   (+), valoarea semnalului de ieşire va fi egală cu acesta
--  Un AO cu reacţie negativă tinde să aducă tensiunea sa de ieşire la
-   nivelul necesar pentru ca diferenţa de tensiune dintre cele două
-   intrări ale sale să fie practic zero. Cu cât amplficarea AO este mai
-   mare, cu atât mai apropiată de zero va fi valoarea diferenţei de
-   tensiune
--  Unele AO nu pot produce la ieşire o tensiune egală cu tensiunea de
-   alimentare atunci când sunt saturate. Limita superioară şi inferioară
-   a tensiunii de saturaţie poartă numele de /tensiunea pozitivă de
-   saturaţie/, respectiv /tensiunea negativă de saturaţie/
 
 ** Reacţia prin divizor de tensiune
 :PROPERTIES:
@@ -6362,24 +5878,6 @@ Asfel de circuite studiate mai sus sunt folosite pentru efectuarea
 operaţiilor matematice de înmulţire şi împărţire în circuitele analogice
 ale calculatoarelor.
 
-Sumar:
-
--  Prin conectarea reacţiei negative a unui AO prin intermediul unui
-   divizor de tensiune, tensiune de ieşire devine un multiplu al
-   tensiunii de intrare
--  Un AO cu reacţie negativă, a cărui semnal de intrare este conectat la
-   intrarea noninversoare (+), poartă numele de /amplificator
-   neinversor/. Polaritatea tensiunii de ieşire va fi aceeiaşi cu a
-   tensiunii de intrare. Amplificarea în tensiune a circuitului este
-   dată de următoarea formula:
-    A_{V} = (R_{2} / R_{1}) + 1
--  Un AO cu reacţie negativă, a cărui semnal de intrare este conectat în
-   partea stângă a divizorului de tensiune, iar intrare neinversoare (+)
-   este conectată la masă, poartă numele de /amplificator inversor/.
-   Polaritatea tensiunii de ieşire va fi opusă polarităţii tensiunii de
-   intrare. Amplificarea în tensiune a circuitului este dată de
-   următoarea formulă: A_{V} = -R_{2} / R_{1}
-
 ** Amplificatorul tensiune-curent
 :PROPERTIES:
 :CUSTOM_ID: amplificatorul-tensiune-curent
@@ -6434,18 +5932,6 @@ reciproca matematică a rezistenţei. În acest circuit, valoarea
 raportului de transconductanţă este fixată de către valoarea de 250 Ω a
 rezistorului, asigurând o relaţie linieră
 curent-ieşire/tensiune-intrare.
-
-Sumar:
-
--  În industrie, semnalele de curent în c.c. sunt adesea folosite în
-   dauna semnalelor de tensiune în c.c., pentru reprezentarea mărimilor
-   fizice
--  Semnalele de tensiune se pot produce relativ uşor direct de la
-   dispozitivele traductoare, pe când semnalele de curent nu. AO pot fi
-   folosite pentru realizarea „conversiei” unui semnal de tensiune
-   într-un semnal de curent. În acest mod de funcţionare, AO vor genera
-   la ieşire o cădere de tensiune necesară pentru menţinerea curentului
-   prin circuitul de semnal la o valoarea bine stabilită
 
 ** Circuite sumatoare şi de mediere
 :PROPERTIES:
@@ -6508,12 +5994,6 @@ ieşire egală cu suma celor trei tensiuni, cu polaritate inversă, de aici
 
 V_{ieşire} = -(V_{1} + V_{2} + V_{3})
 
-Sumar:
-
--  Un circuit /sumator/ realizează suma algebrică a semnalelor de
-   tensiune de la intrare. Folosind AO, circuitele de sumare pot fi
-   /neinversoare/ şi /inversoare/
-
 ** Realizarea unui amplificator diferenţial
 :PROPERTIES:
 :CUSTOM_ID: realizarea-unui-amplificator-diferential
@@ -6570,11 +6050,6 @@ pentru generarea curentului (prin intermediul unei surse de tensiune de
 c.c. exterioare) necesar prin prin rezistori în locul surselor de
 tensiune de la intrare.
 
-Sumar:
-
--  
--  
-
 ** Amplificatorul de instrumentaţie
 :PROPERTIES:
 :CUSTOM_ID: amplificatorul-de-instrumentatie
@@ -6618,13 +6093,6 @@ A_{V} = (1 + 2R / R_{amplificare})
 
 Cea mai mică amplificare posibilă cu ajutorul configuraţiei de mai sus
 este 1, atunci când R_{amplificare} este deschis (rezistenţa infinită).
-
-Sumar:
-
--  Un /amplificator diferenţial/ este un circuit diferenţial cu
-   amplificatoare operaţionale, având impedanţa de intrare foarte mari
-   şi un factor de amplificare ajustabil prin intermediul variaţiei
-   rezistenţei unui singur rezistor
 
 ** Circuite de derivare şi integrare
 :PROPERTIES:
@@ -6730,16 +6198,6 @@ Circuitul de integrare poate fi folosit şi pentru integrarea unui semnal
 ce reprezintă curgerea unui lichid, producând la ieşire un semnal ce
 reprezintă cantitatea totală de lichid ce a trecut printr-un anumit
 punct, într-o anumită perioadă de timp.
-
-Sumar:
-
--  Un circuit /derivator/ produce o tensiune constantă la ieşire pentru
-   o tensiune variabilă la intrare
--  Un circuit /integrator/ produce o tensiune variabilă la ieşire pentru
-   o tensiune de intrare constantă
--  Ambele tipuri de dispozitive se construiesc uşor, folosind componente
-   reactive (de obicei condensatoare şi nu bobine) în bucla de reacţia a
-   circuitului amplificatorului operational
 
 ** Reacţia pozitivă
 :PROPERTIES:
@@ -6861,10 +6319,4 @@ direcţia (polaritatea) opusă. Oscilatia are loc datorită faptului că
 reacţia negativă este instantanee iar reacţia negativă este întârziată
 (printr-o constantă de timp RC). Frecvenţa acestui oscilator poate fi
 setată prin variaţia mărimii oricărui component.
-
-Sumar:
-
--  Reacţia pozitivă crează o condiţie de /histereză/: tendinţa de
-   „agăţare” într-una dintre cele două condiţii extreme, saturaţie
-   pozitivă sau saturaţie negativă
 

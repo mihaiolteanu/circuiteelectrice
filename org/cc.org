@@ -232,20 +232,6 @@ aplicaţii practice ale acestui tip de electricitate sunt xerografia,
 filtrul de aer electrostatic, şi generatorul Van de Graaf de tensiune
 înaltă.
 
-Sumar:
-
--  Toate materialele sunt făcute din „blocuri” numite /atomi/
--  Toţi atomii în mediul lor natural conţin particule numite
-   /electroni/, /protoni/ şi /neutroni/, cu excepţia isotopului de
-   protiu (_{1}H^{1}) al hidrogenului
--  Electronii au o sarcină electrică negativă (-)
--  Protonii au o sarcină electrică pozitivă (+)
--  Neutronii nu posedă nicio sarcină electrică
--  Electronii pot fi îndepărtaţi de atomi mult mai uşor decât protonii
-   şi neutronii
--  Numărul protoniilor din nucleu determină identitatea atomului ca şi
-   element unic
-
 ** Conductori, dielectrici şi deplasarea electronilor
 :PROPERTIES:
 :CUSTOM_ID: conductori-dielectrici-si-deplasarea-electronilor
@@ -465,26 +451,6 @@ care sunt eventual corodate în timp datorită curgerii apei. Electronii
 această rezistenţă generează căldură într-un conductor. Acesta este însă
 un topic ce-l vom discuta pe larg mai târziu.
 
-Sumar:
-
--  În /conductori/, electronii din învelişurile superioare ale atomilor
-   se pot deplasa cu uşurinţă, iar aceştia sunt denumiţi /electroni
-   liberi/
--  În /dielectrici/, electronii din înveluşurile superioare nu au
-   aceeiaşi libertate de mişcare
--  Toate metalele sunt conductive din punct de vedere electric
--  /Electricitatea dinamică/, sau /curentul electric/, reprezintă
-   mişcarea uniformă a electronilor printr-un conductor.
--  /Electricitatea statică/ este imobilă (în cazul unui dielectric),
-   sarcină electrică fiind acumulată fie printr-un exces sau o
-   deficienţa de electroni dintr-un corp. De obicei este formată prin
-   separare de sarcină atunci când două obiecte sunt aduse în contact şi
-   apoi despărţite
--  Pentru ca electronii să curgă continuu (la nesfârşit) printr-un
-   conductor, este necesară existenţă unui drum complet şi neîntrerup
-   pentru a facilita atât intrarea cât şi ieşirea electronilor din acel
-   conductor
-
 ** Circuite electrice
 :PROPERTIES:
 :CUSTOM_ID: circuite-electrice
@@ -537,17 +503,6 @@ deplasa.
 
 #+CAPTION: ciruit electric întrerupt 2
 [[./poze/00014.png]]
-
-Sumar:
-
--  Un /circuit/ este o buclă de material conductiv ce permite
-   electronilor curgerea continuă fără început sau sfârşit
--  Întreruperea unui circuit înseamnă că elementele sale conductoarea nu
-   mai formează un drum complet, iar curgerea continuă a electronilor nu
-   mai poate avea loc
--  Locul întreruperii este irelevant în ceea ce priveşte capacitatea
-   circuitului de a susţine curgerea electronilor. Orice întrerupere,
-   /oriunde/ în circuit împiedică curgerea electronilor prin acesta
 
 ** Tensiunea şi curentul
 :PROPERTIES:
@@ -816,30 +771,6 @@ a fost notat cu „+”). Este imposibil de precizat ce semn va avea punctul
 tensiune, nu reprezintă o caracteristică a unui singur punct, ci depinde
 tot timpul de două puncte distincte!
 
-Sumar:
-
--  Electronii pot fi „motivaţi” să se deplaseze printr-un conductor de
-   către aceeiaşi forţă prezentă în cadrul electricităţii statice
--  /Tensiunea/ este măsura energiei potenţiale specifice (energie
-   potenţială pe unitate de sarcină electrică) dintre două puncte. În
-   termeni non-ştiinţifici, este măsura „împingerii” disponibile pentru
-   motivarea electronilor
--  Tensiunea, ca şi expresie a energiei potenţiale, se măsoară tot
-   timpul între două puncte. Câteodată se mai numeşte şi cădere de
-   tensiune
--  Când o sursă de tensiune este conectată la un circuit, tensinea
-   electrică va determina o deplasare a electronilor prin acel circuit,
-   deplasare ce poartă numele de /curent/
--  Într-un circuit format dintr-o singură buclă, cantitatea de curent
-   din oricare punct este aceeiaşi cantitate prezentă în oricare alt
-   punct
--  Dacă un circuit ce conţine o sursă de tensiune este întrerupt,
-   întreaga tensiune electrică se va regăsi la capetele firelor unde a
-   avut loc întreruperea
--  Căderea de tensiune desemnată prin +/- se numeşte /polaritate/. Este
-   de asemenea relativă, ea depinde de ambele puncte la care se face
-   referire.
-
 ** Rezistenţa
 :PROPERTIES:
 :CUSTOM_ID: rezistenta
@@ -977,24 +908,6 @@ un întrerupător /închis/. Analog, un întrerupător ce crează o
 discontinuitate (ex.: întrerupătorul cuţit cu lama îndepărtată de
 contactul staţionar) nu va permite electronilor să treacă, şi se numeşte
 un întrerupător /deschis/.
-
-Sumar:
-
--  Prin /rezistenţă/ măsuram opoziţia faţă de curentul electric
--  Un /scurt circuit/ reprezintă un circuit electric ce oferă o
-   rezistenţă foarte scăzută curgerii electronilor (sau deloc). Scurt
-   circuitele sunt periculoase în cazul surselor de tensiune înaltă
-   datorită curenţilor intenşi ce pot cauză eliberarea unei cantităţi
-   mari de energie sub formă de căldură
--  Un /circuit deschis/ este un circuit electric ce nu are continuitate,
-   prin urmare nu există o cale pe care electronii să o poată urma
--  Un /circuit închis/ este un circuit electronic complet, continuu, cu
-   un drum pe care electronii îl pot urma
--  Termenii /deschis/ şi /închis/ se referă atât la întrerupătoare cât
-   şi la întregul circuit. Un întrerupător deschis este un întrerupător
-   fără continuitate: electronii nu se pot deplasa prin el. Un
-   întrerupător închis este un întrerupător ce oferă un drum direct, cu
-   o rezistenţă scăzută, electronilor pentru curgere.
 
 ** Tensiune şi curent într-un circuit practic
 :PROPERTIES:
@@ -1368,13 +1281,6 @@ Care este valoarea tensiunii generate de baterie?
 #+CAPTION: calcule matematice
 [[./poze/10006.png]]
 
-Sumar:
-
--  Tensiunea se măsoară în /volţi/ şi este simbolizată prin „E” sau „V”
--  Curentul se măsoară în /amperi/ şi este simbolizat prin „I”
--  Rezistenţa se măsoară în /ohmi/ şi este simbolizată prin „R”
--  Legea lui Ohm: E = IR; I = E/R; R = E/I
-
 ** Puterea în circuitele electrice
 :PROPERTIES:
 :CUSTOM_ID: puterea-in-circuitele-electrice
@@ -1494,19 +1400,6 @@ este:
 Prin urmare, cele două motoare de 100 de cai putere de mai sus pot fi de
 asemenea notate cu „74570” de watti, sau „74.57” kW.
 
-Sumar:
-
--  Puterea este mărimea lucrului mecanic într-o anumită perioadă de
-   timp.
--  Puterea mecanică se măsoară de obicei în „cal putere”.
--  Puterea electrică se măsoară aproape tot timpul în „watt” şi poate fi
-   calculată cu formula P=IE.
--  Puterea electrică este un produs al tensiunii /şi/ al curentului, nu
-   doar al unuia dintre aceşti termeni
--  Calul putere şi watt-ul sunt pur şi simplu două unităţi de măsură ce
-   descriu acelaşi principiu fizic, un cal putere fiind egal cu 745.7 de
-   watti
-
 ** Calcularea puterii electrice
 :PROPERTIES:
 :CUSTOM_ID: calcularea-puterii-electrice
@@ -1590,12 +1483,6 @@ I^{2}R), şi este cunoscută ca „Legea lui Joule”. Datorită faptului că
 aceste ecuaţii ale puterii sunt strâns legate de ecuaţiile legii lui Ohm
 legate de tensiune, curent şi rezistenţă (E=IR; I=E/R; R=E/I) sunt
 adeasea acreditate lui Ohm.
-
-Sumar:
-
--  Puterea se măsoară în /watt/i, simbolizat prin litera „W”.
--  Legea lui Joule (ecuaţiile de putere): P = I^{2}R ; P = IE ; P =
-   E^{2}/R
 
 ** Rezistori
 :PROPERTIES:
@@ -1723,24 +1610,6 @@ rezistorului trebuie şa fie de 5 Ω. Dacă ar fi să proiectăm un circuit
 pentru a opera la aceste valori, ar trebui să folosim un rezistor cu o
 putere de minim 20 de watti; în caz contrar, s-ar distruge din cauza
 supra-încălzirii.
-
-Sumar:
-
--  Dispozitivele numite /rezistori/ sunt construite pentru a asigura
-   cantităţi precise de rezistenţă electrică într-un circuit. Rezistorii
-   sunt clasificaţi atât în funcţie de rezistenţa lor (în ohmi) cât si
-   de capacitatea acestora de a disipa căldura (watt).
--  Rezistenţa unui rezistor nu poate fi determinată prin mărimea fizică
-   a acestuia, cu toate că valorile aproximative ale puterii pot fi
-   determinate. Cu cât este mai mare un rezistor, cu atât poate dispipa
-   mai multă putere sub formă de căldură fără a se strica.
--  Orice dispoizitiv electric ce transformă energia într-o manieră
-   practică poartă numele de /sarcină/. De multe ori, într-un circuit
-   electric, se foloseşte simbolul rezistenţei pentru a desemna şi alt
-   fel de dispozitive non-specifice, nu neapărat un rezistor
-   propriu-zis.
-
-[[#meniu][↑ sus]]
 
 ** Conducţie neliniară
 :PROPERTIES:
@@ -1904,25 +1773,6 @@ mică parte din complexitatea lumii reale, pentru a nu lăsa impresia
 falsă că toate fenomenele electrice pot fi însumate sub câteva ecuaţii
 simple.
 
-Sumar:
-
--  Marea majoritatea a materialelor posedă o rezistenţă stabilă în timp
-   sub diferite condiţii funcţionare, dar există şi materiale care fac
-   excepţie de la această regulă
--  Orice funcţia care poate fi descrisă pe un grafic printr-o linie
-   dreaptă se numeşte funcţie /liniară/. În cadrul circuitelor cu
-   rezistenţe constante, graficul curent-tensiune este liniar (I=E/R).
--  În circuitele în care rezistenţa variază odată cu variaţia tensiunii
-   sau a curentului, graficul cirent-tensiune va fi /neliniar/
--  Un /varistor/ este un component ce-şi modifică resitenţă cu valoarea
-   tensiunii aplicate la terminalele sale. Cu o tensiunea mică,
-   rezistenţa sa este mare. Apoi, la o anumită tensiune de
-   „străpungere”, rezistenţa sa scade dramatic.
--  /Rezistenţă negativă/ este porţiunea în care curentul printr-un
-   component scade odată cu creşterea tensiunii la bornele sale.
-
-[[#meniu][↑ sus]]
-
 ** Conexiunea unui circuit
 :PROPERTIES:
 :CUSTOM_ID: conexiunea-unui-circuit
@@ -2042,31 +1892,6 @@ că cele două puncte nu au o conexiune directă între ele (nu sunt
 comune), caz în care s-ar putea ca între cele două puncte, circuitul
 studiat să fie defapt (accidental) deschis.
 
-Sumar:
-
--  Presupunem că firele conductoare dintr-un circuit au rezistenţă zero.
--  Firele dintr-un circuit pot fi lungite sau scurtate fără a afecta
-   funcţia circuitului - ceea ce este important esta ca toate
-   componentele să fie legate unul de celălalt (circuit închis) în
-   aceeiaşi ordine.
--  Într-un circuit, punctele direct conectate între ele printr-un fir cu
-   rezistenţă zero, sunt considerate /comune din punct de vedere
-   electric/
--  Între punctele comune, cu rezistenţă zero între ele, va exista o
-   cădere de tensiune de zero volţi, indiferent de valoarea curentului
-   (caz ideal)
--  Valorile tensiunii sau curentului între seturi de puncte comune vor
-   fi egale
--  Toate aceste reguli se aplică doar în condiţii /ideale/, acolo unde
-   presupunem că firele conductoare posedă rezistenţă zero. În
-   realitate, nu este aproape niciodată cazul (excepţie în cazul
-   [[http://ro.wikipedia.org/wiki/Supraconductibilitate][supraconductibilităţii]],
-   dar rezistenţa firelor ar trebui totuşi să fie suficient de mică
-   asfel încât principiile generale prezentate aici să-şi menţină
-   valabilitatea
-
-[[#meniu][↑ sus]]
-
 ** Polaritatea căderilor de tensiune
 :PROPERTIES:
 :CUSTOM_ID: polaritatea-caderilor-de-tensiune
@@ -2113,14 +1938,6 @@ negative într-o ecuaţie a legii lui Ohm! Există într-adevăr alte
 principii electrice unde folosirea polarităţii (+ sau -) contează, dar
 nu este cazul legii lui Ohm.
 
-Sumar:
-
--  Polaritatea căderii de tensiune la bornele oricărui component
-   rezistiv este determinată de direcţia de curgere (deplasare) a
-   electronilor prin acesta, asfel: /nagativă/ pentru intrare,
-   /pozitivă/ pentru ieşire.
-
-[[#meniu][↑ sus]]
 * Electrocutarea
 :PROPERTIES:
 :CUSTOM_ID: electrocutarea
@@ -2228,20 +2045,6 @@ fibrilaţiei inimii pentru a permite inimiii să revină la normal.
 Oricare ar fi cazul, curenţii electrici suficienţi de mari pentru a
 cauza contracţia involuntară a muşchilor sunt periculoşi şi trebuie
 evitaţi cu orice preţ.
-
-Sumar:
-
--  Curentul electric poate produce arsuri adânci şi puternice asupra
-   corpului datorită disipării puterii asupra rezistenţei electrice a
-   acestuia
--  Apariţia contracţiei involuntare a muşchilor datorată trecerii unui
-   curent electric extern prin corp poartă denumirea de /tetanos/
--  Curentul electric afectează şi diafragma toracică, muşchiul
-   responsabil cu buna funcţionare a inimii şi a plămânilor. Chiar şi
-   curenţii mult prea slabi pentru a induce în mod normal tetanosul sunt
-   suficienţi pentru a da peste cap semnelele celulelor nervoase în aşa
-   măsură încât inima să nu mai funcţioneze corect ducând la o conduţie
-   cunoscută sub numele de fibrilaţie
 
 ** Drumul curentului în cazul electrocutării
 :PROPERTIES:
@@ -2449,27 +2252,6 @@ prezintă o rezistenţă mult mai mare decât majoritatea tipurilor de
 piatră sau pământ. Betonul pe de altă parte, posedă o rezistenţă
 electrică mică datorită conţinutului său de apă şi electrolit (substanţă
 chimică conductoare).
-
-Sumar:
-
--  Electrocutarea poate avea loc doar atunci când există un contact
-   între două puncte din circuit şi este aplicată o tensiune electrică
-   asupra corpului victimei
--  Circuitele electrice au de obicei un punct special legat la pământ:
-   tije sau plăci metalice îngropate în pământ pentru asigurarea
-   faptului că cel puţin o parte din circuit se află la potenţialul
-   pământului (tensiune zero între acel punct şi pământ)
--  Un /defect de împământare/ este o conexiune accidentală dintre un
-   conductor al circuitului şi pământ
--  Există echipamente speciale de protecţie la lucrul cu tensiuni
-   periculoase, precum încălţăminte şi preşuri din cauciuc, dar acestea
-   trebuiesc menţinute într-o stare perfectă de curăţenie şi uscate
-   pentru a-şi dovedi eficienţă. Încălţămintea obişnuită nu oferă o
-   protecţie suficient de bună la electrocutare prin izolarea
-   purtătorului faţă de pământ
--  Cu toate că pământul este un conductor slab de electricitate,
-   curentul pe care îl poate conduce este suficient pentru accidentarea
-   gravă sau chiar decesul persoane în cauză
 
 ** Legea lui Ohm (din nou!)
 :PROPERTIES:
@@ -2773,27 +2555,6 @@ acest caz este asigurată prin construirea şi menţinerea acestora la
 a evita în primul rând contactul accidental dintre acestea şi persoanele
 neautorizate.
 
-Sumar:
-
--  Efectele nedorite ale şocului electric asupra corpului sunt datorate
-   curentului electric. O tensiune mai mare permite producerea unui
-   curent mai mare şi mai periculos. Rezistenţa se opune curgerii
-   curentului; creşterea rezistenţei electrice este o măsură bună de
-   prevenire a şocului electric
--  Orice tensiune mai mare de 30 V este capabilă să producă şocuri de
-   curent periculoase
--  Nu este indicat să purtăm inele sau brăţări atunci când lucrăm cu
-   circuitele electrice. Acestea asigură un contact excelent între corp
-   şi circuitul electric, şi pot chiar ele să conducă curenţi suficienţi
-   de mari pentru producerea arsurilor chiar şi la tensiuni mici
--  Chiar şi tensiunile mici pot fi periculoase într-un mod indirect.
-   Aceste pot crea şocuri electrice suficiente pentru a arunca victima
-   într-un loc periculos din încăpere (elicele unui motor, ţevi încinse,
-   contact cu substanţe periculoase, etc.)
--  Atunci când trebuie neapărat să lucrăm cu un circuit electric
-   alimentat, este indicat să lucrăm doar cu o singură mână pentru a
-   preveni închiderea circuitului prin piept
-
 ** Practici de bază
 :PROPERTIES:
 :CUSTOM_ID: practici-de-baza
@@ -2913,28 +2674,6 @@ periculos. Acesta este însă ultima măsură de siguranţă ce trebuie luată
 şi nu prima, şi nu trebuie folosită ca şi metodă alternativă de
 verificare a existenţei tensiunilor periculoase în circuit.
 
-Sumar:
-
--  Orice circuit, echipament sau sistem trebuie adus într-o stare de
-   energie zero atunci când se doreşte atingerea directă a elementelor
-   din circuit
--  Întrerupătoarele de siguranţă trebuie să fie prezente în orice
-   circuit electric pentru a putea asigura cu uşurinţă o situaţie de
-   energie zero în circuit
--  Pentru o siguranţă suplimentară, la bornele sarcinii la care se
-   efectuează operaţii de reparaţie sau întreţinere, se poate conecta o
-   împământare temporară sau un conductor de scurt-circuit între cele
-   două părţi cu potenţiale diferite ale circuitului
--  Verificaţi întotdeauna dacă circuitul a fost adus într-o stare de
-   energie zero cu ajutorul aparatelor de măsură. Asiguraţi-vă de
-   funcţionalitatea aparatului şi înainte şi după ce aţi verificat
-   circuitul
--  După ce toate măsurile de siguranţă au fost luate, ultimul pas
-   înaintea contactului propriu-zis cu circuitul este atingerea scurtă
-   şi uşoară a acestuia cu partea posterioară a palmei; în cazul
-   apariţiei şocului electric, reacţia muşchilor va îndepărta mână de
-   pericolul existent
-
 ** Reacţia în cazuri de urgenţă
 :PROPERTIES:
 :CUSTOM_ID: reactia-in-cazuri-de-urgenta
@@ -2988,27 +2727,6 @@ insuficient pentru a cauza întreruperea imediată a bătăii inimii, să
 cauzeze probleme şi să duc la un infarct câteva ore mai târziu; victima
 va trebui să fie foarte atentă la condiţia ei generală după inicident,
 ideal, sub supraveghere.
-
-Sumar:
-
--  O persoană electrocutată trebuie să fie deconectată de la sursa de
-   energie electrică. Pentru aceasta, se va localiza şi acţiona cel mai
-   apropiat întrerupător de tensiune. Altfel, dacă este imposibilă
-   localizarea la timp a dispozitivului de înrerupere, victima poate fi
-   îndepărtate de pe circuit prin dezlipire sau lovire cu un obiect din
-   nemetalic, izolator.
--  Victimele electrocutărilor necesită asistenţă medicală de urgenţă:
-   verificaţi respiraţia şi pulsul, iar apoi aplicaţi metodele
-   resuscitare cardio-pulmonara pentru menţinerea oxigenării corpului
-   acesteia
--  Dacă victima este conştientă după electrocutare, este totuşi necesară
-   supravegherea atentă şi îngrijirea acesteia până la apariţia
-   personalului medical calificat. Există pericolul instalării şocului
-   fiziologic; asiguraţi prin urmare victimei un mediu călduros şi
-   confortabil
--  Victimele electrocutărilor pot prezenta probleme cu inima chiar şi
-   după câteva ore de la accident. Pericolul şocului electric nu ia
-   sfârşit după acordarea imediată a asistenţei medicale
 
 ** Surse potenţiale de pericol
 :PROPERTIES:
@@ -3115,23 +2833,6 @@ facem, alegatul este cea mai bună opţiune. Eliminând contactul în două
 puncte cu pământul, nu va exista o diferenţă de potenţial şi nici o
 cădere de tensiune asupra corpului pentru pentru apariţia unui potenţial
 curent periculos prin organism.
-
-Sumar:
-
--  Condiţiile de umezeală sporesc riscul apariţiei electrocutării prin
-   reducerea rezistenţei electrice a pielii
--  Scoateţi din funcţiune şi înlocuiţi imediat dispozitivele şi
-   aparatele electrice uzate sau defecte. Puteţi evita folosirea în
-   necunoştiinţă de cauză a unui prlungitor sau dispozitiv electric prin
-   tăierea capătului cablului de alimentare după scoaterea acestuia din
-   priză
--  Liniile electrice aeriene sunt deosebit de periculoase şi trebuie
-   evitate sub orice formă. Dacă vedeţi observaţi posibilitatea
-   existenţei unui punct de contact între o linie electrică şi pământ,
-   pentru evitarea riscului electrocutării staţi într-un picior sau
-   alergaţi (un singur picior atinge pământul în acelaşi moment); în
-   acest fel nu va exista o diferenţa de potenţial asupra corpului
-   victimei şi nici posibilitatea apariţiei unui curent periculos
 
 ** Proiectarea aparatelor electrice
 :PROPERTIES:
@@ -3295,25 +2996,6 @@ prevenirea electrocutării:
 reţeaua de alimentare; deschiderea automată a întrerupătorului în cazul
 existenţei unei diferenţe prea mari între curenţii fazei şi al neutrului
 [[./poze/00078.png]]
-
-Sumar:
-
--  Sistemele de alimentare au adesea conectată o parte a sursei de
-   tensiune la împământare pentru asigurarea împotriva electrocutării în
-   acel punct
--  Conductorul conectat la împământare într-un sistem de alimentare
-   poartă numele de conductor /neutru/, iar celălalt conductor se
-   numeşte /fază/
--  Împământarea sistemelor de alimentare se realizează pentru prevenirea
-   electrocutărilor şi nu afectează performanţa circuitului şi a
-   sarcinii
--  Siguranţa în utilizare a aparatelor electrice poate fi îmbunătăţită
-   prin folosirea prizelor şi conectorilor polarizaţi, a izolaţiei duble
-   sau a prizelor cu împământare
--  Întrerupătoarele automate pot detecta diferenţa de curent dintre fază
-   şi neutru; în cazul în care această diferenţă este prea mare,
-   circuitul se deschide automat pentru a preveni pericolul apariţiei
-   electrocutării
 
 ** Utilizarea aparatelor de măsură
 :PROPERTIES:
@@ -3597,11 +3279,6 @@ arsă va indica tot timpul un circuit deschis (O.L.). Valoarea
 măsurătorii nu este de o importanţă foarte mare, atâta timp cât este
 mica.
 
-Sumar:
-
--  *Multimetrul* este un aparat de măsură capabil să măsoare tensiunea,
-   curentul şi rezistenţa
-
 * Notatia stiintifica
 :PROPERTIES:
 :CUSTOM_ID: notatia-stiintifica
@@ -3840,11 +3517,6 @@ urmare, trebuie să deplasăm virgula decimală cu 9 poziţii spre drepta:
 
 50,3 MΩ = 50.300.000.000 mΩ
 
-Sumar:
-
--  
--  
-
 * Serie paralel
 :PROPERTIES:
 :CUSTOM_ID: serie-paralel
@@ -3923,17 +3595,6 @@ cădere de tensiune asupra tuturor componentelor"
 
 Cele două tipuri de configuraţii, serie şi paralel, prezintă proprietăţi
 electrice total diferite.
-
-Sumar:
-
--  Într-un circuit serie, toate componentele sunt conectate unul în
-   continuarea celuilalt, formând o singură cale pentru curgerea
-   electronilor.
--  Într-un circuit paralel, toate componentele sunt conectate la acelaşi
-   capăt, formând exact un set de două puncte electric comune.
--  O „ramură” într-un circuit paralel este o cale pentru curgerea
-   curentului formată din cel puţin o sarcină (rezistenţă) din circuit.
--  Legea lui Ohm: E = IR; I = E/R; R = E/I
 
 ** Circuite serie simple
 :PROPERTIES:
@@ -4074,17 +3735,6 @@ tensiunea la bornele bateriei, 9 V. Acesta reprezintă al treilea
 principiu al circuitelor serie: tensiune electromotoare (a bateriei)
 este egală cu suma căderilor de tensiune pe fiecare component în parte.
 
-Sumar:
-
--  Într-un circuit serie, curentul este acelaşi prin fiecare component:
-   I_{Total} = I_{1} = I_{2} = . . . I_{n}.
--  Într-un circuit serie, rezistenţa totală este egală cu suma
-   rezistenţelor individuale a tuturor rezistorilor din circuit:
-   R_{Total} = R_{1} + R_{2} + . . . R_{n}.
--  Într-un circuit serie, tensiunea totală este egală cu suma căderilor
-   individuale de tensiune pe fiecare component în parte: E_{Total} =
-   E_{1} + E_{2} + . . . E_{n}.
-
 ** Circuite paralel simple
 :PROPERTIES:
 :CUSTOM_ID: circuite-paralel-simple
@@ -4165,17 +3815,6 @@ circuit poate fi exprimată astfel:
 #+CAPTION: rezistenţa totală într-un circuit paralel
 [[./poze/10075.png]]
 
-Sumar:
-
--  Într-un circuit paralel, căderea de tensiune pe fiecare component
-   este aceeiaşi: E_{Total} = E_{1} = E_{2} = . . . E_{n}.
--  Într-un circuit paralel, rezistenţa totală este mai /mică/ decât
-   rezistenţele oricărui rezistor luat în parte: R_{Total} = 1 /
-   (1/R_{1} + 1/R_{2} + . . . 1/R_{n})
--  Într-un circuit paralel, curentul total este egal cu suma curenţilor
-   individual prin fiecare ramură: I_{Total} = I_{1} + I_{2} + . . .
-   I_{n}.
-
 ** Conductanţa
 :PROPERTIES:
 :CUSTOM_ID: conductanta
@@ -4241,14 +3880,6 @@ formulă:
 
 Asfel, ajungem la formula rezistenţei totale dintr-un circuit paralel.
 
-Sumar:
-
--  Conductanţa este opusul rezistenţei: măsoară cât de /uşor/ este
-   pentru electroni să curgă printr-un circuit/component.
--  Simbolul conductanţei este litera „G”, iar unitatea de măsură este
-   „Siemens”.
--  Matematic, conductanţa este inversul rezistenţei: G=1/R
-
 ** Calcularea puterii
 :PROPERTIES:
 :CUSTOM_ID: calcularea-puterii
@@ -4303,12 +3934,6 @@ conservării energiei).
 
 Atenţie, cele de mai sus se aplică doar în cazul calculării puterilor în
 circuitele pur rezistive (ce conţin doar rezistori).
-
-Sumar:
-
--  Indiferent de configuraţia circuitelor rezistive, puterea totală este
-   suma puterilor individuale de pe fiecare componente:
-   P_{total} = P_{1} + P_{2} + ... + P_{n}
 
 ** Aplicarea corectă a legii lui Ohm
 :PROPERTIES:
@@ -4378,13 +4003,6 @@ tensiune totală este aceiaşi cu tensiunea de pe fiecare component,
 curentul total este egal cu suma curenţilor individuali, rezistenţa
 totală se calculează cu formula rezistenţei totale a circuitelor parale,
 iar puterea totală este egală cu suma puterilor individuale.
-
-Sumar:
-
--  Folosind metoda tabelului, vom aplica legea lui Ohm vertical, pe
-   fiecare coloană din tabel
--  Folosind metoda tabelului, vom aplica regulie circuitelor
-   serie/paralel pe fiecare linie
 
 ** Analiza circuitelor defecte
 :PROPERTIES:
@@ -4877,21 +4495,6 @@ sursa de tensiune va suferi cu siguranţă unele defecte în cazul în care
 nu este proiectată a rezista la curenţi de scurt-circuit (majoritatea
 surselor de tensiune nu sunt).
 
-Sumar:
-
--  Pentru determinarea efectelor unui component defect asupra
-   funcţionării circuitului, redesenaţi circuitul iniţial înlocuind
-   rezistenţa iniţială a componentului cu rezistenţa echivalentă după
-   defect şi reanalizaţi circuitul
--  Un component scurt-circuitat este un component al cărei rezistenţă a
-   scăzut dramatic (spre zero)
--  Un component deschis este un component al cărei rezistenţa a crescut
-   dramatic (spre infinit)
--  Defectarea rezistorilor constă cel mai adesea în deschiderea
-   acestora, nu în scurt-circuitarea lor, iar acest lucru nu se întâmplă
-   decât dacă sunt supuşi unui stres fizic sau electric peste limitele
-   normale de funcţionare
-
 ** Construirea circuitelor rezistive simple
 :PROPERTIES:
 :CUSTOM_ID: construirea-circuitelor-rezistive-simple
@@ -5086,11 +4689,6 @@ folosind mai multe relgete localizate în puncte diferite.
 Pentru circuite permanente, se pot folosi plăci imprimate, un subiect
 destul de vast în ale cărui detalii nu vom intra aici.
 
-Sumar:
-
--  Pentru realizarea practică a circuitelor se pot utiliza placi de
-   teste, reglete de conexiuni sau plăci imprimate
-
 * Kirchhoff
 :PROPERTIES:
 :CUSTOM_ID: kirchhoff
@@ -5272,15 +4870,6 @@ baterie iar sarcina (bec, de exemplu) o conectăm între terminalul periei
 #+CAPTION: mai mică decât cea existentă la bornele bateriei
 [[./poze/00364.png]]
 
-Sumar:
-
--  Circuitele serie proporţionează, sau /divid/, cantitatea totală de
-   tensiune pe fiecare component în parte, aceaste proporţii depinzând
-   strict de rezistori: E_{Rn} = E_{Total} (R_{n} / R_{Total}).
--  Un potenţiometru este o componentă rezistivă variabilă cu trei puncte
-   de conectare, folosit frecvent pe post de divizor de tensiune
-   ajustabil.
-
 ** Legea lui Kirchhoff pentru tensiune
 :PROPERTIES:
 :CUSTOM_ID: legea-lui-kirchhoff-pentru-tensiune
@@ -5436,11 +5025,6 @@ Dacă încercăm orice combinaţie de paşi, pornind de la oricare terminal
 punctul de unde am plecat, vom vedea că suma algebrică a tuturor
 căderilor de tensiune va fi /tot timpul/ egală cu zero.
 
-Sumar:
-
--  Legea lui Kirchhoff pentru tensiune: *„Suma algebrică a tuturor
-   căderilor de tensiune dintr-o bulcă trebuie să fie egală cu zero”*
-
 ** Circuite divizoare de curent
 :PROPERTIES:
 :CUSTOM_ID: circuite-divizoare-de-curent
@@ -5560,12 +5144,6 @@ de curent prin dispozitiv în orice situaţie.
 #+CAPTION: circuit divizor curent pentru aparat de măsură
 [[./poze/00119.png]]
 
-Sumar:
-
--  Circuitele paralele împart cantitatea totală de curent pe fiecare
-   ramură în parte, proporţiile fiind strict dependente de valorile
-   rezistenţelor: I_{n} = I_{Total} (R_{Total} / R_{n})
-
 ** Legea lui Kirchhoff pentru curent
 :PROPERTIES:
 :CUSTOM_ID: legea-lui-kirchhoff-pentru-curent
@@ -5639,12 +5217,6 @@ nod sunt pur arbitrare, atâta timp cât reprezintă semne diferite pentru
 direcţii diferite şi prin urmare putem aplica legeal lui Kirchhoff
 pentru curenţi.
 
-Sumar:
-
--  Legea lui Kirchhoff pentru curent: *„Suma algebrică a tuturor
-   curenţilor ce intră şi ies dintr-un nod trebuie să fie egală cu
-   zero”*
-
 * Combinatii
 :PROPERTIES:
 :CUSTOM_ID: combinatii
@@ -5715,12 +5287,6 @@ putem analiza circuitul în mai multe etape, fiecare etapă pe rând,
 folosind regulile corecte pentru determinarea relaţiilor dintre
 tensiune, curent şi rezistenţă. Restul capitolului va fi dedicat acestor
 tehnici.
-
-Sumar:
-
--  Regulile circuitelor serie şi parelel trebuie să fie aplicate
-   selectiv atunci când avea de a face cu un circuit combinat
-   serie-paralel
 
 ** Tehnici de analiză a circuitelor
 :PROPERTIES:
@@ -5865,19 +5431,6 @@ rezistenţelor arată asfel:
 
 #+CAPTION: circuit electric
 [[./poze/00130.png]]
-
-Sumar:
-
--  *Paşii pentru analiza unui circuit serie-paralel combinat sunt
-   următorii:*
--  Reducerea circuitului original la un singur rezistor echivalent, cu
-   re-desenarea circuitului la fiecare pas, un pas însemnând reducerea
-   conxiunilor serie sau paralel la un singur rezistor echivalent
--  Calcularea rezistenţei totale
--  Caluclarea curentului total
--  Determinarea căderilor de tensiune pe fiecare rezistor echivalent şi
-   curenţii pe fiecare ramură la fiecare pas, un pas însemnând
-   „dezvoltarea„ circuitului redus spre forma iniţială
 
 * Aparate de masura
 :PROPERTIES:
@@ -6062,22 +5615,6 @@ dispozitiv poate indica variaţia tensiunii cu timpul, o abilitatea
 extrem de importantă în cazul circuitelor cu tensiuni şi curenţi
 variabili în timp.
 
-Sumar:
-
--  Mecanismul de afişaj al unui aparat de măsură analogic presupun
-   deplasarea unui ac indicator pe o scală gradată
--  Aparatele de măsură *electromagnetice* funcţionează pe principiul
-   generării unui câmp magnetic la trecerea unui curent electric
-   printr-un conductor
--  Aparatele de măsură *electrostatice* funcţionează pe principiul
-   generării unei forţe fizice datorită câmpului electric dintre două
-   plăci
--  *Tuburile catodice* utilizează un câmp electrostatic pentru devierea
-   unui fascicol de electroni; poziţia finală a fascicolului este redată
-   cu ajutorul unei unde luminoase emise în momentul ciocnirii
-   electronilor de sticla prevăzută cu fosfor de la capătul
-   dispozitivului
-
 ** Voltmetrul
 :PROPERTIES:
 :CUSTOM_ID: voltmetrul
@@ -6258,11 +5795,6 @@ Avantajul constă, desigur, în faptul că rezistorii de 900 kΩ, 90 kΩ şi 9
 kΩ sunt mult mai uşor de procurat decât cei precedenţi (999,5 kΩ, 99,5
 kΩ şi 9,5 kΩ). Din punct de vedere funcţional, nu există nicio diferenţa
 între cele două configuraţii prezentate.
-
-Sumar:
-
--  Realizarea practică a voltmetrelor constă în adăugarea rezistenţelor
-   de multiplicare pentru divizarea tensiunii totale de măsurat
 
 ** Impactul voltmetrului asupra circuitului
 :PROPERTIES:
@@ -6495,13 +6027,6 @@ această problemă cu ajutorul tehnologiei avansate, soluţia de faţă
 rezolvă problema aproape perfect utilizând o lege fundamentală a
 circuitelor electrice (legea lui Kirchhoff pentru tensiune).
 
-Sumar:
-
--  Un *voltmetru ideal* posedă o rezistenţă internă infinită
--  Un *detector de nul* este un dispozitiv pentru determinarea
-   curenţilor şi al tensiunilor. Acesta se evidenţiază prin
-   sensibilitatea sa extrem de ridicată
-
 ** Ampermetrul
 :PROPERTIES:
 :CUSTOM_ID: ampermetrul
@@ -6695,16 +6220,6 @@ se încadrează în limite acceptabile.
 #+CAPTION: ampermetru; adăugarea rezistenţelor de şunt
 [[./poze/00163.png]]
 
-Sumar:
-
--  Exitinderea domeniului de măsură a ampermetrului se realizează prin
-   introducerea în paralel a rezistorilor de şunt, realizându-se astfel
-   un divizor de curent
--  Curentul poate fi măsurat şi cu ajutorul voltmetrului, atunci când în
-   circuit este introdus un rezistor de şunt; căderea de tensiune pe
-   şunt măsurată de voltmetru este în acest caz direct proporţională cu
-   valoare acurentului prin şunt
-
 ** Impactul ampermetrului asupra circuitului
 :PROPERTIES:
 :CUSTOM_ID: impactul-ampermetrului-asupra-circuitului
@@ -6778,12 +6293,6 @@ Cu ajutorul acestor dispozitive se pot realiza măsurător rapide şi
 sigure, în special în cazul circuitelor de putere. Datorită faptului că
 clampmetrul nu introduce nicio rezistenţa suplimentară în circuitul de
 test, nu va exista practic nicio eroare de măsurătoare în acest caz.
-
-Sumar:
-
--  Rezistenţa unui ampermetru ideal este zero
--  Un *clampmetru* măsoară valoarea curentului prin determinarea
-   câmpului magnetic din jurul conductorului
 
 ** Ohmmetrul
 :PROPERTIES:
@@ -6947,11 +6456,6 @@ peste cap funcţionarea corectă a ohmmetrului. Dacă această cădere de
 tensiune este suficient de mare, poate duce chiar la distrugerea
 acestuia.
 
-Sumar:
-
--  
--  
-
 ** Ohmmetre pentru tensiuni înalte
 :PROPERTIES:
 :CUSTOM_ID: ohmmetre-pentru-tensiuni-inalte
@@ -7054,11 +6558,6 @@ ohmmetru nu este afectată de tensiunea bateriei: o anumită valoare a
 rezistenţei de măsurat va produce o anumită deplasare a acului
 indicator, indiferent de valoarea tensiunii produsă de baterie.
 
-Sumar:
-
--  
--  
-
 ** Multimetre
 :PROPERTIES:
 :CUSTOM_ID: multimetre
@@ -7102,11 +6601,6 @@ cunoscut şi sub numele de volt-ohm-miliampermetru.
 
 1. [[/curent-continuu/protectia-la-electrocutare/utilizarea-aparatelor-de-masura-multimetrul][Utilizarea
    multimetrului]]
-
-Sumar:
-
--  
--  
 
 ** Terminali tip Kelvin şi rezistori de precizie
 :PROPERTIES:
@@ -7280,11 +6774,6 @@ astfel:
 Toţi conductorii din figura de mai sus prin care trece curent sunt
 reprezentaţi cu linie îngroşată, pentru a face distincţie între
 conductorii.
-
-Sumar:
-
--  
--  
 
 ** Circuite în punte - puntea Wheatstone şi Thomson
 :PROPERTIES:
@@ -7479,11 +6968,6 @@ de a produce erori de măsură. De cele mai multe ori, cea mai bună
 soluţie reprezintă un compromis între două sau mai multe tipuri diferite
 de erori.
 
-Sumar:
-
--  
--  
-
 ** Wattmetrul
 :PROPERTIES:
 :CUSTOM_ID: wattmetrul
@@ -7519,11 +7003,6 @@ pentru a o inerţie minimă.
 
 #+CAPTION: electrodinamometru
 [[./poze/00182.png]]
-
-Sumar:
-
--  
--  
 
 ** Realizarea practică a rezistenţelor de calibrare
 :PROPERTIES:
@@ -7629,11 +7108,6 @@ totală de 8,25 kΩ, ci de 8,333 kΩ.
 Totuşi, aceasta este o îmbunătăţire a sensibilităţii circuitului, şi
 reprezintă o soluţie practică pentru problema construirii unei
 rezistenţe ajustabile pentru un instrument de precizie.
-
-Sumar:
-
--  
--  
 
 * Instrumentatie
 :PROPERTIES:
@@ -7759,21 +7233,6 @@ nefuncţionare a sistemului va rezulta într-o presiune de 1 bar, şi orice
 tip de măsurători efectuate se vor realiza doar pentru intervalul 1.1 -
 2 bar.
 
-Sumar:
-
--  Un /semnal/ este orice tip de cantiate ce poate fi detectată şi
-   folosită ca şi informaţie
--  Un semnal /analog/ este un semnal ce poate fi variat continu sau
-   infinit pentru a reprezenta o variaţie oricât de mică a unei mărimi
--  Semnalele /pneumatice/ erau folosite pe scară largă în sistemele de
-   instrumentaţie industriale. Aceste tehnici au fost însă abandonate
-   odată cu folosirea semnalelor electrice analogice precum tensiunea şi
-   curentul
--  Conceptul de /zero real/ se referă la o scară de măsură analogică în
-   care o cantitate diferită de zero este folosită pentru reprezentarea
-   valorii de 0% din variabila de măsurat, astfel încât orice defect al
-   sistemului să poate fi uşor detectabil.
-
 ** Sisteme cu semnale de tensiune
 :PROPERTIES:
 :CUSTOM_ID: sisteme-cu-semnale-de-tensiune
@@ -7828,17 +7287,6 @@ des folosit este de de 0-10 volţi, unde 0 volţi reprezintă 0% din
 valoarea de măsurat, 10 volţi 100%, 5 volţi 50%, etc. Un alt domeniu
 folosit este cel de 1-5 V, ce utilizează conceptul de „zero real” pentru
 detectarea cazurilor de defect.
-
-Sumar:
-
--  Tensiunea poate fi folosită ca şi semnal analogic pentru transmiterea
-   informaţiei
--  Un mare dejavantaj pentru utilizarea tensiunii pe post de informaţie
-   este posibilitatea ca tensiunea la bornele aparatului indicator
-   (voltmetru) să fie mai mică decât căderea de tensiune la bornele
-   sursei de tensiune datorită rezistenţei cablurilor şi utilizării unei
-   cantităţi de curent de către voltmetru. Această cădere de tensiune
-   de-a lungul cablurilor electrice constituie o eroare de măsură.
 
 ** Sisteme cu semnale de curent
 :PROPERTIES:
@@ -7933,19 +7381,6 @@ serie cu acest circuit va produce o cădere de tensiune de 1 V la 4 mA şi
     |    100      |  20.0 mA   |   5.0 V   |
     ----------------------------------------
 #+END_EXAMPLE
-
-Sumar:
-
--  O /sursă de curent/ este un dispozitiv, de obicei constituit din mai
-   multe componente electrice, ce păstrează o valoare constantă a
-   curentului prin circuit precum o sursă de curent (baterie ideală)
-   păstrează o valoarea constantă a tensiunii la bornele sale
--  Un sistem de instrumentaţie pe bază de curent exloatează principiul
-   conexiunii serie a circuitelor conform căruia curentul este acelaşi
-   prin toate componentele; acest fapt ajută la eliminarea erorilor de
-   măsură datorate rezistenţei conductorilor
--  Cel mai utilizat standard pentru curentul analogic este bucla de
-   curent de 4-20 miliamperi
 
 ** Tahogeneratorul
 :PROPERTIES:
@@ -8147,30 +7582,6 @@ rezistori cu valori egale, dar mult peste cele ale termocuplei asfel
 încât impactul rezistenţei firelor asupra măsurătorii să fie cât mai mic
 posibil.
 
-Sumar:
-
--  /Efectul Seebeck/ constă în producerea unei căderi de tensiune între
-   două metale disimilare conectate împreună, temperatură direct
-   proporţională cu temperatura acestui contact
--  În oricare circuit cu termocuple, există două contacte echivalente
-   formate între două metale diferite. Contactul plasat la locul de
-   măsurare se numeşte contact de /măsură/, iar celălalt contact (singur
-   sau echivalent) este numit contact /rece/
--  Două contacte de termocuplă pot fi poziţionate în opoziţie unul faţă
-   de celălalt pentru a genera un semnal de tensiune proporţionat cu
-   diferenţa de temperatură dintre ele. Un set de asfel de contacte
-   folosite în scopul producerii curentului electric poartă numele de
-   /termopilă/
--  Atunci când electronii se deplasează prin contactul unei termopile,
-   există un transfer de energie sub formă de căldură de la un set de
-   contacte la celălalt. Acesta este cunoscut ca şi /efectul Peltier/
--  Mai multe contacte de termocuplă pot fi aşezate în paralel pentru a
-   genera o cădere de tensiune ce reprezintă media temperaturilor
-   măsurate de fiecare contact în parte.
--  Este absolut necesar ca prin circuitul termocuplei curentul să fie
-   menţinut la o valoare cât mai mică posibil pentru acurateţea
-   măsurătorii
-
 * Analiza retelei
 :PROPERTIES:
 :CUSTOM_ID: analiza-retelei
@@ -8269,14 +7680,6 @@ destul de dificilă în unele cazuri. Din fericire, în cele ce urmează,
 vom prezenta unele metode de analiză a circuitelor pentru evitatea
 folosirii acestor sisteme de ecuaţii. Aceste metode poartă numele de
 /teoreme de analiză a reţelelor/.
-
-Sumar:
-
--  Unele configuraţii de reţea (circuite) nu pot fi rezolvate prin
-   reducerea conform regulilor circuitelor serie-paralel datorită
-   existenţei necunoscutelor multiple.
--  Pentru rezolvarea acestor tipuri de probleme se pot folosi sistemele
-   de ecuaţii.
 
 ** Metoda ramurii de curent
 :PROPERTIES:
@@ -8454,8 +7857,6 @@ Ohm (E=IR):
 
 #+CAPTION: formulă
 [[./poze/10180.png]]
-
-Sumar:
 
 *Paşii pentru aplicarea metodei ramurii de curent:*
 
@@ -8636,8 +8037,6 @@ ceea ce constituie un avantaj:
 #+CAPTION: formule
 [[./poze/10187.png]]
 
-Sumar:
-
 *Paşii pentru aplicarea metodei ramurii de curent:*
 
 1. Trasarea buclelor de curent în circuit asfel încât să fie cuprinse
@@ -8809,34 +8208,6 @@ Toţi ceilalţi coeficienţi sunt negativi.
 
 Soluţia este E_{1} = 24.000 V, E_{2} = 17.655 V, E_{3} = 19.310 V.
 
-Sumar:
-
-1. Înlocuirea surselor de tensiune conectate în serie cu un rezistor cu
-   o sursă de curent conectată în paralel cu un rezistor. Cele două
-   reprezentări sunt echivalente
-2. Schimbarea valorilor rezistorilor cu conductanţe
-3. Selectarea unui nod de referinţă (E_{0})
-4. Atribuirea de tensiuni necunoscute (E_{1})(E_{2}) ... (E_{n})
-   nodurilor rămase
-5. Scrierea legii lui Kirchhoff pentru curent pentru fiecare din
-   nodurile 1, 2, ... N. Coeficientul pozitiv al primei tensiuni din
-   prima ecuaţie reprezintă suma conductanţelor legate la acel nod.
-   Coeficientul pozitiv al celei de a doua tensiuni, din ecuaţia a doua,
-   este suma conductaţelor conectate la acel nod. Acelaşi lucru este
-   valabil şi pentru coeficientul celei de a treia tensiuni din ecuaţia
-   a treia, precum şi pentru toate celelalte ecuaţii. Toţi coeficienţii
-   se regăsesc pe diagonala principală
-6. Toţi ceilalţi coeficienţi ale celorlalte ecuaţii sunt negativi şi
-   reprezintă conductanţele dintre noduri. În prima ecuaţie, al doilea
-   coeficient reprezintă conductanţa dintre nodul 1 şi nodul 2;
-   coeficientul al treilea reprezintă conductanţa dintre nodul 1 şi
-   nodul 3. Acelaşi lucru este valabil pentru toţi ceilalţi coeficienţi
-   ai tuturor ecuaţiilor
-7. Termenii din partea dreapta a ecuyaţiei reprezintă sursele de curent
-   conectate la nodurile respective
-8. Se rezolvă sistemul de ecuaţii pentru aflarea tensiunilor de nod
-   necunoscute
-
 ** Teorema lui Millman
 :PROPERTIES:
 :CUSTOM_ID: teorema-lui-millman
@@ -8916,13 +8287,6 @@ acolo direcţie de curgere a curentului.
 
 #+CAPTION: circuit electric
 [[./poze/00226.png]]
-
-Sumar:
-
--  Teorema lui Millman consideră circuitul o reţea paralelă de ramuri.
--  Toate tensiunile introduse şi aflate din teorema lui Millman au ca
-   referinţă unul şi acelaşi punct din circuit (de obicei latura de jos
-   a circuitului)
 
 ** Teorema superpoziţiei
 :PROPERTIES:
@@ -9035,17 +8399,6 @@ cea de curent alternativ este prezentă; rezultatul final este
 superpoziţia celor două cazuri. Până una alta, folosind teorema
 superpoziţie nu mai suntem nevoiţi să folosim sistemele de ecuaţii
 pentru analiza circuitelor.
-
-Sumar:
-
--  Conform teremei superpoziţiei, un circuit poate fi analizat
-   considerând că în circuit funcţionează doar câte o singură sursă de
-   putere pe rând; valorile tensiunilor şi curenţilor pentru fiecare caz
-   în parte, se adună pentru aflarea soluţiei finale, atunci când în
-   circuit funcţionează toate sursele de putere
--  Pentru a scoate toate sursele de putere din circuit exceptând una
-   singură, toate sursele de tensiune se înlocuiesc cu un fir, şi toate
-   sursele de curent cu un circuit deschis.
 
 ** Teorema lui Thevenin
 :PROPERTIES:
@@ -9166,12 +8519,6 @@ De asemenea, valorile tensiunilior şi curenţilor pentru rezistenţa serie
 original. Teorem lui Thevenin este folositoare doar pentru determinarea
 comportamentului unui /singur/ rezistor din reţea: sarcina.
 
-Sumar:
-
--  Teorema lui Theveinn este o modalitate de reducere a unei reţele la
-   un circuit echivalent compus dinstr-o singură sursă de tensiune, o
-   rezistenţă serie şi rezistenţa de sarcină
-
 *Paşii pentru aplicarea teoremei lui Thevenin:*
 
 1. Găsirea sursei de tensiune Thevenin prin îndepărtarea sarcinii din
@@ -9278,12 +8625,6 @@ privire la circuit sunt irelevent. Avantajul constă în simplitatea
 analizei circuitului atunci când avem mai multe valori ale rezistenţei
 de sarcină pentru care vrem să aflăm tensiunea şi curentul.
 
-Sumar:
-
--  Teorema lui Norton este o metodă de reducere a reţelei la un circuit
-   echivalent compus dintr-o singură sursă de curent, un rezistor în
-   paralel şi o sarcină în paralel.
-
 *Paşii pentru implementarea teoremei lui Norton:*
 
 1. Găsirea sursei Norton de curent prin îndepărtarea tuturor rezstorilor
@@ -9361,14 +8702,6 @@ Thevenin:
 
 Vom utiliza relaţia de echivalenţă dintre cele două teorema în
 următoarea secţiune.
-
-Sumar:
-
--  Rezistenţele Thevenin şi Norton sunt egale
--  Tensiunea Norton este egală cu, curentul Norton înmulţi cu rezistenţa
-   Norton
--  Curentul Norton este egal cu tensiune Thevenin împărţită la
-   rezistenţa Thevenin
 
 ** Teorema lui Millman revizuită
 :PROPERTIES:
@@ -9506,13 +8839,6 @@ acesteia pentru 0.8 Ω:
 Această teoremă este foarte folositoare atunci când dezoltăm un circuit
 electric pentru folosirea (disiparea) puterii maxime pe sarcină .
 
-Sumar:
-
--  Conform teoremei transferului maxim de putere, cantitatea de putere
-   disipată pe o sarcină este maximă atunci când valoarea acestei
-   rezistenţe este egală cu rezistenţa Thevenin sau Norton a reţelei de
-   alimentare a sarcinii
-
 ** Transformarea triunghi-stea şi stea-triunghi
 :PROPERTIES:
 :CUSTOM_ID: transformarea-triunghi-stea-si-stea-triunghi
@@ -9615,21 +8941,6 @@ tensiuni şi aplicând repetat legea lui Ohm (I=E/R):
 
 #+CAPTION: formule
 [[./poze/10211.png]]
-
-Sumar:
-
--  Configuraţiile Δ (triunghi) mai sunt cunoscute şi sub numele de π
-   (Pi)
--  Configuraţiile Y (stea) mai sunt cunoscute şi sub numele de T
--  Atât configuraţiile Δ cât şi Y pot fi transformate (transfigurate) în
-   complementele lor echivalente cu ajutorul formulelor corecte ale
-   rezistenţelor. Prin „echivalent„, se înţelege faptul că cele două
-   reţele sunt electric identice atunci când sunt măsurate de la cele
-   trei terminale (A, B şi C)
--  O punte poate fi simplificată la un circuit serie/paralel prin
-   transformarea unei jumătăţi din circuit din Δ în Y. Valorile
-   căderilor de tensiune din circuitul Y sunt aceleaşi şi în circuitul Δ
-   între punctele A, B şi C
 
 * Baterii
 :PROPERTIES:
@@ -9786,11 +9097,6 @@ la inversarea reacţiilor chimice din interiorul acesteia:
 #+CAPTION: încărcarea pilei de plumb-acid
 [[./poze/00393.png]]
 
-Sumar:
-
--  
--  
-
 ** Construcţia bateriilor electrice
 :PROPERTIES:
 :CUSTOM_ID: constructia-bateriilor-electrice
@@ -9890,11 +9196,6 @@ circuit cu o singură sursă de tensiune şi un rezistor în serie. Acest
 circuit are aceeiaşi valoare a tensiunii (2.0 V) dar o rezistenţa mai
 mică (0.04Ω) decât oricare dintre rezistenţele individuale ale pilelor
 (0.2 Ω).
-
-Sumar:
-
--  
--  
 
 ** Capacitatea bateriilor
 :PROPERTIES:
@@ -10017,11 +9318,6 @@ verificarea bateriilor mari, precum bateriile auto (12 V) de plumb-acid,
 acest lucru înseamnă că va trebui să folosim un rezistor ce poate
 suporta o putere de câteva sute de W (watt).
 
-Sumar:
-
--  
--  
-
 ** Baterii speciale
 :PROPERTIES:
 :CUSTOM_ID: baterii-speciale
@@ -10119,11 +9415,6 @@ construite în jurul acestor mici pile. Pila chimică trebuie astfel
 proiectată încât să corespundă substenţei(lor) ce se doresc a fi
 detectate. Aceste pile tind să se uzeze, pe măsură de materialele
 chimice se epuizează sau se contaminează în decursul utilizării.
-
-Sumar:
-
--  
--  
 
 ** Consideraţii practice
 :PROPERTIES:
@@ -10229,11 +9520,6 @@ baterii, asiguraţi-vă că ultima conexiune (sau prima întrerupere a
 circuitului) se realizează la o distanţă suficientă faţă de baterie,
 astfel încât, orice scânteie rezultată să nu conducă la aprinderea
 hidrogenului.
-
-Sumar:
-
--  
--  
 
 * Fizica conductorilor
 :PROPERTIES:
@@ -10359,14 +9645,6 @@ trebuie să putem determina rezistenţa oricăror conductori, cunoscând
 materialul din care este confecţionat, diametrul precum şi lungimea
 acestuia, lucru ce-l vom explora în următoarele capitole.
 
-Sumar:
-
--  Conductivitatea electrică a materialelor este determinată de
-   configuraţia electronilor în cadrul atomilor şi moleculelor
-   materialului respectiv
--  Electronii ce se deplasează printr-un conductor produc o cădere de
-   tensiune în lungimea acelui conductor
-
 ** Mărimea şi amperajul conductorilor
 :PROPERTIES:
 :CUSTOM_ID: marimea-si-amperajul-conductorilor
@@ -10452,14 +9730,6 @@ calculează prin metode specifice.
 
 1. [[http://www.cabluri.net/cabluri-caracteristici-rezistenta-amperaje.html][Cabluri
    electrice - caracteristici]] (link extern, cabluri.net)
-
-Sumar:
-
--  Deplasarea electronilor se realizează mai uşor prin conductori cu
-   diametru mare decât prin conductori cu diametru mic, datorită ariei
-   secţiunii transversale prin care trebuie să treacă
--  *Amperajul* unui conductor reprezintă curentul maxim pe care un
-   conductor îl poate susţine, fără a duce la distrugerea acestuia
 
 ** Siguranţe fuzibile
 :PROPERTIES:
@@ -10645,17 +9915,6 @@ la electrocutare (detectoare de curenţi de defect), dar aceste
 dispozitive sunt utilizate stric pentru acel scop şi nu au nico legătură
 cu protecţia conductorilor la supra-încălzire.
 
-Sumar:
-
--  *Siguranţa fuzibilă* este un conductor electric subţire, proiectat a
-   se topi şi separa în două părţi, cu scopul de a deschide un circuit
-   în cazul apariţiei unor supra-curenţi
--  *Întrerupătorul automat* este un întrerupător special conceput pentru
-   deschiderea automată a circuitului în cazul apariţiei unui
-   supra-curent. Aceştia se pot reutiliza prin re-închiderea circuitului
--  Dispozitivele de siguranţa într-un circuit cu împământare se
-   instalează pe faza acestuia şi nu pe neutru
-
 ** Rezistivitatea şi conductibilitatea electrică
 :PROPERTIES:
 :CUSTOM_ID: rezistivitatea-si-conductibilitatea-electrica
@@ -10753,18 +10012,6 @@ unitatea de măsură este Siemens pe metru (S·m^{-1}). Practic,
 conductibilitatea electrică este inversa rezistivităţii electrice:
 
 σ = 1 / ρ
-
-Sumar:
-
--  *Rezistenţa unui conductor* creşte odată cu creşterea lungimii sale
-   şi descreşterea ariei secţiunii transversale, toţi ceilalţi factorii
-   fiind constanţi
--  *Rezistivitatea electrică* (ρ) este o proprietate a oricărui material
-   conductor, o mărume utilizată pentru determinarea rezistenţei dintre
-   cele două capeta ala unui conductor, atunci când se cunosc lungimea
-   şi aria secţiunii transversale cu formula: R = ρl/A
--  *Conductibilitatea electrică* caracterizează capacitatea unui
-   material de a permite deplasarea electronilor prin acesta
 
 ** Coeficientul de temperatură al rezistenţei
 :PROPERTIES:
@@ -10868,17 +10115,6 @@ temperaturii. Chiar dacă variaţiile par mici, acestea se pot dovedi
 semnificative în cazul liniilor electrice de transport ce se pot intinde
 pe kilometri întregi între centralale electrice şi staţiile de
 transformare şi între staţiile de transformare şi consumatori.
-
-Sumar:
-
--  Rezistenţa majorităţii materialelor conductoare variază odată cu
-   variaţia temperaturii de operare
--  *Coeficientul variaţiei cu temperatura* (α) reprezintă factorul de
-   variaţie pe grad Celsius al rezistenţei materialelor conductoare
--  Formula pentru determinarea rezistenţei unui conductor aflat la o
-   temperatură diferită faţă de temperatura de referinţă specificată în
-   tabel, este următoarea:
-    R = R_{ref}[1 + α(T - T_{ref})]
 
 ** Supraconductibilitatea
 :PROPERTIES:
@@ -10989,17 +10225,6 @@ nu poate genera mai multă energie decât consumă. În cel mai bun caz, o
 „maşină de mişcare perpetuă” poate doar să stocheze energie, nu să o şi
 genereze.
 
-Sumar:
-
--  *Materialele supraconductoare* sunt materiale ce o rezistenţă
-   electrică de exact zero ohmi
--  Toate materialele supraconductoare trebuiesc supra-răcite pentru a-şi
-   menifesta proprietatea de rezistenţă zero. Aceste temperaturi sunt în
-   jurul valori de zero absolut (aproximativ -272^{o}C
--  *Temperatura de tranziţie*, sau temperatura critică, este temperatura
-   minimă la care trebuie adus materialul pentru a intra în faza de
-   supraconducţie
-
 ** Străpungerea dielectricului
 :PROPERTIES:
 :CUSTOM_ID: strapungerea-dielectricului
@@ -11049,12 +10274,6 @@ m (10^{6}V / m).
 | Teflon                  | 6                                  |
 | Sticlă                  | 8 - 12                             |
 | Mică                    | 20                                 |
-
-Sumar:
-
--  *Tensiunea de străpungere* sau *rigiditatea dielectricului* este
-   tensiunea la care un dielectric permite trecerea unui curent, acesta
-   comportându-se precum un conductor
 
 * Condensatorul
 :PROPERTIES:
@@ -11252,20 +10471,6 @@ folosită în lucrările de specialitate, fiind înlocuită cu cea de
 /capacitor/. Întrucât în literatura de specialitate de la noi din ţară
 se foloseşte încă termenul de condensator, îl vom folosi şi noi în
 această carte.
-
-Sumar:
-
--  Condensatorii reacţionează împotriva variaţiei tensiunii prin
-   generarea sau tragerea de curent în/din circuit în direcţia necesară
-   opunerii variaţiei
--  Când tensiunea la bornele unui condensator creşte (alimentat de o
-   baterie, de ex), acesta se comportă precum o /sarcină/
--  Când tensiunea la bornele unui condensator scade (conectat la o
-   sarcină, de ex), acesta se comportă precum o /sursă/
--  Proprietatea condensatorului de a stoca energie sub formă de câmp
-   electric (şi prin urmare de a se opune variaţiei tensiuni) poartă
-   numele de /capacitate/. Unitatea de măsură este Farad-ul (F)
--  Denumirea nouă pentru /condensator/ este /capacitor/
 
 ** Relaţia tensiune-curent pentru condensator
 :PROPERTIES:
@@ -11568,11 +10773,6 @@ rezistorilor în serie:
 #+CAPTION: formula capacităţii paralel
 [[./poze/10232.png]]
 
-Sumar:
-
--  Capacităţile condensatorilor se reduc la conectarea în serie
--  Capacităţile condensatorilor se adună la conectarea în paralel
-
 ** Consideraţii practice (condensatorul)
 :PROPERTIES:
 :CUSTOM_ID: condensatorul-consideratii-practice
@@ -11645,11 +10845,6 @@ aprecia capacitatea unui condensator (în Farad) prin simpla observare a
 mărimii acestuia. Un condensator de o anumită marime, poate avea o
 capacitate mare şi o tensiune de lucru mică, sau o capacitate mică şi o
 tensiune de lucru mare, sau un compromis între cele două situaţii.
-
-Sumar:
-
--  
--  
 
 * Electromagnetism
 :PROPERTIES:
@@ -11759,17 +10954,6 @@ polarizare şi după încetarea cămpului magnetic extern, spunem că acest
 material are /remanenţă/ (magnetică) bună. Această proprietate este o
 calitate necesară pentru un magnet permanent.
 
-Sumar:
-
--  /Magnetul natural/ sau /magnetitul/ este un magnet permanent natural.
-   Prin permanent se înţelege faptul că materialul poate menţine câmpul
-   magnetic fără niciun ajutor extern. Proprietatea oricărui material
-   magnet de a realiza acest lucru se numeşte /remanenţă/
--  Materialele /feromagnetice/ sunt uşor de magnetizat
--  Materialele /paramagnetice/ sunt mai greu de magnetizat
--  Materialele /diamagnetice/ tind să respingă câmpurile magnetice prin
-   magnetizarea în direcţie opusă
-
 ** Electromagnetism
 :PROPERTIES:
 :CUSTOM_ID: electromagnetism
@@ -11846,23 +11030,6 @@ magnetic).
 
 #+CAPTION: întrerupător cu contacte multiple şi contact normal închis
 [[./poze/00395.png]]
-
-Sumar:
-
--  La trecerea curentului printr-un conductor, se va produce un câmp
-   magnetic în jurul acestuia
--  /Regula mâinii stângi/ spune că liniile câmpului magnetic produse de
-   un conductor traversat de curent electric vor fi orientate în
-   direcţia degetelor închise ale mâinii stângi atunci când degetul mare
-   indică direcţia deplasării electronilor.
--  Forţa câmpului magnetic produs de un conductor traversat de curent
-   electric creşte atunci când construim firul sub forma unei
-   înfăşurări. În acest caz, câmpulu magnetic se va orienta de-a lungul
-   lungimii axei înfăşurării
--  Forţă produsă de câmpul magnetic al unui electromagnet (denumită
-   /forţă magnetomotoare/, sau mmf) este proporţională cu produsul
-   dintre curentul ce parcurge electromagnetul şi numărul de înfăşurări
-   complete formate de conductor
 
 ** Unităţi de măsură ale câmpului magnetic
 :PROPERTIES:
@@ -12077,21 +11244,6 @@ este destul de extremă:
 #+CAPTION: curba de histerezis pentru ferită
 [[./poze/00317.png]]
 
-Sumar:
-
--  Permeabilitatea unui materiel depinde de valoarea forţei fluxului
-   magnetic prin acesta
--  Relaţia specifică dintre forţă şi flux (intensitatea câmpului H, şi
-   densitatea fluxului B) este trasată pe un grafic denumit /curba
-   normală de magnetizare/
--  Este posibilă aplicarea asupra unui material feromagnetic a unui câmp
-   magnetic atât de intens încât acesta atinge valoarea sa maximă a
-   fluxului. Această condiţie este cunoscută sub numele de /saturaţie/
-   magnetică
--  Când /remaneţa/ unui material feromagnetic interferează cu
-   re-magnetizarea sa în direcţia opusă, condiţia este cunoscută sub
-   numele de /histerezis/
-
 ** Inducţia electromagnetică
 :PROPERTIES:
 :CUSTOM_ID: inductia-electromagnetica
@@ -12149,20 +11301,6 @@ ridicată, acest efect de tensiune auto-indusă va fi şi mai prounţat. Un
 dospozitiv construit special pentru a profita de acest efect este
 /bobina/, dispozitiv studiat pe larg în următorul capitol.
 
-Sumar:
-
--  Un câmp magnetic de intensitatea variabilă perpendicular pe un
-   conductor electric va induce o tensiunea pe lungimea acestui fir.
-   Valoarea tensiunii induse depinde de rata variaţiei fluxului magnetic
-   şi de numărul de înfăşurări (dacă există) expuse variaţiei fluxului
--  Ecuaţia lui Faraday pentru tensiune indusă este: e = N(dΦ/dt)
--  De-a lungul unui conductor electric străbătut de un curent electric
-   variabil va apărea o tensiune electrică indusă; această variaţie duce
-   la variaţia fluxului magnetic perpendicular pe fir, ce induce la
-   rândul său o tensiune electrică pe lungimea firului conform ecuaţiei
-   lui Faraday. Un dispozitiv construit special pentru folosirea acestui
-   principiu/efect se numeşte /bobină/
-
 ** Inductanţa mutuală. Transformatorul
 :PROPERTIES:
 :CUSTOM_ID: inductanta-mutuala.-transformatorul
@@ -12211,18 +11349,6 @@ tensiune, iar unul construit pentru a realiza exact opusul se numeşte
 transformator coborâtor de tensiune. Valoarea curentului prin fiecare
 înfăşurare este exact inversă faţă de situaţia precedentă, cea a
 tensiunii.
-
-Sumar:
-
--  Inductanţa mutuală reprezintă situaţia în care câmpul magnetic
-   generat de o înfăşurare, induce tensiune electrică într-o înfăşurare
-   învecinată
--  Un /transformator/ este un dispozitiv special conceput şi format din
-   două sau mai multe înfăşurări, una în apropierea celeilalte, ce
-   foloseşte principiul inductanţei mutuale dintre înfăşurări
--  Transformatoarele pot fi folosite doar în cazul tensiunilor
-   variabile, nu şi în cazul celor constante. Din această cauză, ele
-   sunt dispozitive de curent alternativ şi nu de curent continuu
 
 * Bobina
 :PROPERTIES:
@@ -12377,22 +11503,6 @@ valoare a curentului se numeşte /inductanţă/. Inductanţă măsoară şi
 intensitate opoziţiei variaţiei de curent (valoarea tensiunii
 auto-induse pentru o anumită rată de variaţie a curentului). Simbolul
 acesteia este „L”, iar unitatea de măsură este Henry, prescurtat „H”.
-
-Sumar:
-
--  Bobinele reacţionează variaţiei curentului ce le străbate generând o
-   cădere de tensiune la bornele sale de polaritate opusă variaţiei
--  Atunci când curentul prin bobină creşte, aceasta se comportă precum o
-   sarcina: va exista o cădere de tensiune la bornele sale pe măsură ce
-   absoarbe energie din circuit (negativă la intrarea curentului în
-   bobină şi pozitivă la ieşire, precum un rezistor)
--  Atunci când curentul prin bobină descreşte, aceasta se comportă
-   precum o sarcină: crează o tensiune la bornele sale pe măsură ce
-   eliberează energie în circuit (pozitivă la intrarea curentului şi
-   negativă la ieşire, precum o baterie)
--  Proprietatea unei bobine de a stoca energie sub formă de câmp
-   magnetic (şi în consecinţă de a se opune variaţiei curentului) se
-   numeşte /inductanţă/ (L). Unitatea sa de măsură este /Henry/ (H)
 
 ** Relaţia tensiune-curent pentru bobină
 :PROPERTIES:
@@ -12695,11 +11805,6 @@ conectate în paralel:
 #+CAPTION: inductanţa totală a bobinelor paralel
 [[./poze/10239.png]]
 
-Sumar:
-
--  Inductanţele serie se adună
--  Inductanţele paralel scad
-
 ** Consideraţii practice (bobina)
 :PROPERTIES:
 :CUSTOM_ID: bobina-consideratii-practice
@@ -12766,11 +11871,6 @@ aleg de obicei condensatoare în dauna bobinelor, acolo unde acest lucru
 este posibil: câmpul electric al condensatoarelor nu se „împrăştie” pe o
 suprafaţă mare precum cel al bobinelor, şi nu generează efecte mutuale
 cu celelalte componente din circuit.
-
-Sumar:
-
--  
--  
 
 * Constante de timp
 :PROPERTIES:
@@ -12851,21 +11951,6 @@ practic însă, putem presupune că valoarea tensiunii la bornele
 condensatorului atinge la un moment dat 15 volţi, iar curentul zero
 amperi.
 
-Sumar:
-
--  Condensatoarele se comportă aproximativ asemenea bateriilor secundare
-   în cazul aplicării unei tensiuni la bornele lor: reacţia iniţială
-   este de a produce un curent foarte mare ce tinde spre zero cu timpul
--  Un condensator complet descărcat se comportă iniţial asemenea unui
-   scurt circuit atunci când la bornele sale se aplică o anumită
-   tensiune. După ce se încarcă la valoarea tensiunii sursei de
-   alimentare, se comportă precum un circuit deschis
--  Într-un circuit RC (rezistor-condensator) alimentat, tensiunea
-   condensatorului creşte de la zero la valoarea sursei de alimentare,
-   pe când curentul trece de la valoarea maximă spre zero; ambele
-   variabile au o variaţie puternică la început, şi se apropie tot mai
-   greu de valorile lor finale odată cu trecerea timpului
-
 ** Răspunsul tranzitoriu al bobinei
 :PROPERTIES:
 :CUSTOM_ID: raspunsul-tranzitoriu-al-bobinei
@@ -12927,16 +12012,6 @@ iar tensiunea pe condensator zero.
 
 La fel ca în cazul circuitului RC, graficul tensiunii şi al curentului
 cu timpul este /asimptotic/.
-
-Sumar:
-
--  O bobină complet descărcată se comportă iniţial precum un circuit
-   deschis atunci când la bornele sale este aplicată o tensiune. După ce
-   se încarcă, curentul prin ea este maxim, iar tensiunea zero,
-   comportamentul fiind asemenea unui scurt-circuit.
--  Într-un circuit rezistor-bobină, curentul bobinei trece de la zero la
-   valoarea maximă, iar tensiunea de la valoarea maximă la zero; ambele
-   variabile au o variaţie puternică la început.
 
 ** Calcularea tensiunii şi a curentului
 :PROPERTIES:
@@ -13145,25 +12220,6 @@ de tensiune pe bobină este de 0.453 pentru timpul de 3.5 s
 
 #+CAPTION: formulă
 [[./poze/10255.png]]
-
-Sumar:
-
--  Formula universală a constantei de timp: #+CAPTION: formul universală
-   a constantei de timp [[./poze/10245.png]]
-
-Paşii pentru analiza circuitelor RC şi L/R:
-
-1. Determinarea constantei de timp a circuitului (RC sau L/R)
-2. Identificarea variabilei de calculat (tensiune pentr condensator,
-   curentu pentru bobină)
-3. Determinarea valorilor iniţiale şi finale a variabilei alese
-4. Introducerea valorilor (iniţiale, finale, constantei de timp) în
-   formula universală a constantei de timp şi rezolvarea acesteia
-   (calcularea /variaţiei/)
-5. Dacă valoarea iniţială a fost zero, atunci valoarea actuală la timpul
-   specificat este egală cu variaţia calculată cu ajutorul formulei
-   universale. În caz contrar, valoarea actuală este suma dintre
-   variaţia calculată şi valoarea iniţială a variabilei
 
 ** De ce L/R şi nu LR
 :PROPERTIES:
@@ -13451,16 +12507,6 @@ presupus-o ca fiind zero volţi, căderea de tensiune actuală pe
 condensator dupa un interval de 60 ms de la închiderea întrerupătorului
 este suma dintre valoarea iniţială (0 V) şi cea finală (1.3325 V), adică
 1.3325 V.
-
-Sumar:
-
--  Pentru analiza circuitelor RC sau L/R mai complexe decăt cele serie
-   simple, putem transforma circuitul într-un circuit echivalent
-   Thevenin considerând compoentul reactiv (condensator sau bobină) ca
-   fiind „sarcina” şi reducând restul componentelor la un circuit
-   echivalent cu o sursă de tensiune şi un rezistor serie. Apoi,
-   analizăm comportamentul circuitului în timp, folosind formula
-   universală a constantei de timp
 
 ** Rezolvarea circuitului pentru variabila timp
 :PROPERTIES:

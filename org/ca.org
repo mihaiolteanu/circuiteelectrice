@@ -163,27 +163,6 @@ folosit sub formă de impulsuri prin înfăşurarea primară pentru crearea
 unui câmp magnetic variabil, dar acest curent pulsatoriu nu este foarte
 diferit până la urmă de curentul alternativ.
 
-Sumar:
-
--  Curentul continuu menţine tensiunea şi curentul la o polaritate
-   respectiv direcţie constante în timp
--  În curent alternativ, tensiunea şi curentul îşi schimbă polaritatea
-   respectiv direcţia în timp
--  Generatoarele electromacanice în curent alternativ, cunoscute sub
-   numele de /alternatoare/, sunt mult mai simplu de construit decât
-   generatoarele de curent continuu. Acelaşi lucru este valabil şi în
-   cazul motoarelor electrice
--  Un transformator reprezintă un set de înfăşurări mutual inductive,
-   folosite pentru transmiterea puterii electrice în curent alternativ
-   de la o înfăşurare la cealaltă. De obicei, numărul de spire din
-   fiecare înfăşurare este asfel stabilit încât transformatorul ridică
-   sau coboară tensiune din primar (înfăşurarea alimentată) spre
-   secundar (înfăşurarea nealimentată, indusă)
--  Tensiunea din secundar = Tensiunea din primar (numărul de spire din
-   secundar / numărul de spire din primar
--  Curentul din secundar = Curentul din primar (numărul de spire din
-   primar / numărul de spire din secundar
-
 ** Forme de undă în curent alternativ
 :PROPERTIES:
 :CUSTOM_ID: forme-de-unda-in-curent-alternativ
@@ -277,18 +256,6 @@ formă sinusoidală este denumită ca atare, toate celelalte fiind denumite
 ne-sinusoidale. Forma undei de tensiune sau curent are o importanţă
 crucială asupra comportamentului unui circuit şi trebuie să fim prin
 urmare atenţi la diferitele forme de undă existente în practică.
-
-Sumar:
-
--  Graficul curentului alternativ produs de un generator (alternator)
-   electromecanic este sinusoidal (formă de undă)
--  Perioada reprezintă timpul, luat din oricare punct al graficului
-   formei de undă până în punctul în care acesta începe să se repete,
-   măsurat în secunde
--  Frecvenţa este numărul perioadelor efectuate de o formă de undă
-   într-un interval de o secundă şi se măsoară în Hertz (Hz); 1 Hz este
-   egal cu o perioadă efectuată într-un interval de o secundă
--  f = 1 / T
 
 ** Amplitudinea curentului alternativ
 :PROPERTIES:
@@ -481,32 +448,6 @@ coeficienţi pentru calcularea relaţiei dintre valorile de vârf, vârf la
 #+CAPTION: vârf, medii şi efective
 [[./poze/02017.png]]
 
-Sumar:
-
--  Amplitudine unei unde alternative este valoarea sa pe grafic în
-   funcţie de timp, şi poate însemna valoare de vârf, vârf la vârf,
-   medii sau efective
--  Valoarea de vârf a unei forme de unde alternative se măsoară de la
-   intersecţia acesteia cu axa orizontală (timp) până la nivelul maxim
-   pozitiv pe grafic, sau nivelul minim negativ
--  Amplitudinea vârf la vârf reprezintă înălţimea totală a unei forme de
-   undă alternative măsurată pe grafic între valoarea sa maximă pozitivă
-   şi valoarea minimă negativă
--  Amplitudinea medie reprezintă media aritmetică a valorilor tuturor
-   punctelor de pe grafic în decurs de o perioadă. Pentru că valoarea
-   medie a unei forme de undă simetrice faţă de axa orizontală este tot
-   timpul zero, se foloseşte adesea valoarea medie practică a undei, ca
-   fiind valoarea medie a valorilor absolute a tuturor punctelor de pe
-   grafic (considerând valorile negative ca fiind pozitive)
--  Valoarea efectivă (RMS) a unei forme de undă alternative este un mod
-   de exprimare a echivalenţei dintre efectele curetului continuu şi cel
-   alternativ. RMS vine din engleză, şi înseamnă Root Mean Square, adică
-   metoda de calcul a acestei valori
--  Factorul de vârf a unei unde alternative este raportul dintre
-   valoarea sa de vârf şi cea efectivă
--  Factorul de formă a unei unde alternative este raportul dintre
-   valoarea sa efectivă şi cea medie
-
 ** Rezolvarea circuitelor simple de curent alternativ
 :PROPERTIES:
 :CUSTOM_ID: rezolvarea-circuitelor-simple-de-curent-alternativ
@@ -544,13 +485,6 @@ cazurile speciale ce vor fi descrise explicit, toate valorile
 tensiunilor şi curenţilor din circuite se vor considera a fi valorile
 efective ale formelor de undă alternative şi nu cele de vârf, vârf la
 vârf sau medii.
-
-Sumar:
-
--  Toate regulile şi legile circuitelor de curent continuu sunt valabile
-   şî în cazul circuitelor de curent alternativ. Totuşi, pentru
-   circuitele complexe, cantiăţile folosite vor trebui să fie exprimate
-   într-o formă matematică mai complexă
 
 ** Fazele curentului alternativ
 :PROPERTIES:
@@ -613,19 +547,6 @@ diferenţele de faze între undele de tensiune sau curent. Operaţiile de
 adunare, scădere, înmulţire sau împărţire trebuie să ia în considerare
 aceste lucruri, folosind sistemul /numerelor complexe/ pentru
 reprezentarea amplitidinii şi a fazei.
-
-Sumar:
-
--  Diferenţa de fază (defazajul) reprezintă nesincronizarea a două sau a
-   mai multor forme de undă între ele
--  Valoarea defazajului dintre două forme de undă poate fi exprimată
-   prin grade
--  Două sau mai multe forme de undă pot fi defazate înainte, înapoi sau
-   se pot afla în fază (diferenţa de fază de 0 grade)
--  Rezolvarea circuitelor de curent alternativ trebuie să ia în
-   considerare atât amplitudinea undei cât şi diferenţele de fază
-   existente; matematic, acest lucru se realizează cu ajutorul numerelor
-   complexe
 
 ** Principii ale undelor radio
 :PROPERTIES:
@@ -723,11 +644,6 @@ dispozitiv de recepţie:
 #+CAPTION: radioemiţători şi radioreceptori
 [[./poze/02024.png]]
 
-Sumar:
-
--  
--  
-
 * Numere complexe
 :PROPERTIES:
 :CUSTOM_ID: numere-complexe
@@ -781,17 +697,6 @@ sens. În acest caz, dreapta înseamnă 0^{o}, iar unghiurile sunt măsurate
 #+CAPTION: sistemul de referinţă al vectorilor
 [[./poze/02026.png]]
 
-Sumar:
-
--  Un număr scalar este un tip de obiect matematic uni-dimensional
-   folosit pentru măsurarea temparaturii, distanţei, greutăţii, etc.
--  Un număr complex este un tip de obiect matematic bi-dimensional (două
-   dimensiuni) folosit pentru reprezentarea valorii cât şi a direcţiei
--  Un vector, este reprezentarea grafică a unui număr complex, posedând
-   direcţie şi sens. Câteodată, în aplicaţiile electrice, mai este
-   folosit şi termenul de /fazor/, acolo unde unghiul vectorului
-   reprezintă diferenţa de fază între formele de undă
-
 ** Vectori şi forme de undă în curent alternativ
 :PROPERTIES:
 :CUSTOM_ID: vectori-si-forme-de-unda-in-curent-alternativ
@@ -825,13 +730,6 @@ ajutorul vectorilor; faze şi relaţii pentru defazaje de 0, 90, -90
 
 Cu cât defazajul dintre formele de undă considerate este mai mare, cu
 atât este mai mare unghiuld dintre vectorii corespunzători.
-
-Sumar:
-
--  Când este folosit pentru descrierea valorilor în curent alternativ,
-   lungimea unui vector reprezintă amplitudinea undei iar unghiul său
-   reprezintă diferenţa de fază (defazajul) undei faţă de unda de
-   referinţă
 
 ** Adunarea simplă a vectorilor
 :PROPERTIES:
@@ -1047,25 +945,6 @@ componentei imaginare şi componenta reală:
 #+CAPTION: transformarea formei rectangulare în formă polară
 [[./poze/12006.png]]
 
-Sumar:
-
--  Notaţia polară desemnează un număr complex ca fiind compus din
-   lungimea şi direcţia vectorului faţă de punctul de plecare
--  Notaţia rectangulară denesemnează un număr complex ca fiind compus
-   din dimensiunile orizontale şi verticale ale vectorului
--  În notaţia rectangulară, prima valoarea este componenta „reală”
-   (dimensiunea orizontală a vectorului) iar a doua este componenta
-   „imaginară” (dimensiunea verticală a vectorului). Componenta
-   imaginară este desemnată prin alăturarea literei „j” (operatorul j)
-   valorii imaginare
--  Atât forma polară cât şi cea rectangulară a numerelor complexe poate
-   fi reprezentată grafic sub forma unui triunghi, cu ipotenuza
-   reprezentând vectorul însăşi (formă polară: lungimea ipotenuzei =
-   lungimea vectorului; unghiul faţă de orizontală = unghiul
-   vectorului), latura orizontală reprezentând componenta „reală”, iar
-   latura opusă, verticală, reprezentând componenta rectangulară
-   „imaginară”
-
 ** Aritmetica numerelor complexe
 :PROPERTIES:
 :CUSTOM_ID: aritmetica-numerelor-complexe
@@ -1191,11 +1070,6 @@ c.a are sens doar dacă ştim care din cele două puncte este considerat
 punctul de „referinţă”. Din această cauză, polarităţile „+” şi „”¨sunt
 adesea folosite pentru bornele surselor de c.a.: pentru a specifica
 punctul de referinţă al unghiului de fază.
-
-Sumar:
-
--  
--  
 
 * Reactanta inductiva
 :PROPERTIES:
@@ -1439,23 +1313,6 @@ interacţiune între rezistenţă şi reactanţă. Se va dovedi extrem de
 benefică reprezentarea opoziţiei faţă de curent a /oricărei/ componente
 sub forma numerelor complexe şi nu sub forma cantităţilor scalare.
 
-Sumar:
-
--  Reactanţa inductivă reprezintă opoziţia bobinei faţă de curentul
-   alternativ datorată defazajului ce apare la stocarea şi eliberarea
-   energiei sub formă de câmp magnetic. Simbolul reactanţei este „X”,
-   iar unitatea de măsură este ohm-ul, exact ca în cazul rezistenţei (R)
--  Matematic, reactanţa inductivă se calculează folosind formula: X_{L}
-   = 2πfL
--  /Viteza unghiulară/ a unui circuit electric în curent alternativ
-   reprezintă un alt mod de exprimare a frecvenţei sale; unitatea de
-   măsură o reprezintă radiani electrici per secundă în loc de numărul
-   de perioade per secundă. Simbolul este litera grecească „omega”, ω
--  Reactanţa inductivă creşte odată cu creşterea frecvenţei, şi invers.
-   Cu alte cuvinte, cu cât frecvenţa este mai mare, cu atât mai mare
-   este opoziţia faţă de deplasarea electronilor (curent) în curent
-   alternativ
-
 ** Circuite rezistiv-inductive serie. Impedanţa
 :PROPERTIES:
 :CUSTOM_ID: circuite-rezistiv-inductive-serie.-impedanta
@@ -1645,31 +1502,6 @@ Găsiţi impedanţă totală a circuitului format dintr-un rezistor de 40 Ω
 conectat în serie cu o bobină de 79.59 mH, la o frecvenţă a sursei de
 alimentare de 60 Hz. Răspuns: Z = 40 + j30 = 50∠36.87^{o}.
 
-Sumar:
-
--  Impedanţa reprezintă valoarea totală a opoziţiei faţă de curentul
-   electric şi este suma complexă (vector) a rezistenţei (reale) şi a
-   reactanţei (imaginară). Simbolul este litera „Z” iar unitate sa de
-   măsură este Ohm-ul, la fel ca a rezistenţei (R) şi a reactanţei (X)
--  În analiza circuitelor, impedanţele (Z) serie se comportă precum
-   rezistenţele (R) serie: se adună pentru a forma impedanţa totală.
-   Ţineţi minte să efectuaţi toate calculele sub formă complexă, nu
-   scalară! Z_{Total} = Z_{1} + Z_{2} + . . . Z_{n}
--  O impedanţă pur rezistivă va avea tot timpul un unghi de fază de
-   exact 0^{o} (Z_{R} = R Ω ∠ 0^{o})
--  O impedanţă pur inductivă va avea tot timpul un unghi de fază de
-   exact +90^{o} (Z_{L} = X_{L} Ω ∠ 90^{o})
--  Legea lui Ohm pentru circuitele de curent alternativ: E=IZ; I=E/Z;
-   Z=E/I
--  Când într-un circuit avem şi rezistori şi bobine, impedanţă totală va
-   avea un unghi de fază între 0^{o} şi +90^{o}. Curentul din circuit va
-   avea un unghi de fază între 0^{o} şi -90^{o}
--  Circuitele serie în curent alternativ posedă aceleaşi proprietăţi
-   fundamentale precum circuitele de curent continuu: curentul este
-   acelaşi prin întreg circuitul, căderile de tensiune se adună pentru a
-   forma tensiunea totală din circuit, iar impedanţele se adună pentru a
-   forma impedanţa totală
-
 ** Circuite rezistiv-inductive paralel în curent alternativ
 :PROPERTIES:
 :CUSTOM_ID: circuite-rezistiv-inductive-paralel-in-curent-alternativ
@@ -1726,24 +1558,6 @@ Indiferent ce motodă folosim, rezultatul este acelaşi:
 #+CAPTION: tabel
 [[./poze/12037.png]]
 
-Sumar:
-
--  În analiza circuitelor, impedanţele paralel (Z) se comportă precum
-   rezistorii (R) paralel: impedanţa totală este mai mică decât
-   impedanţă fiecărei ramuri luată individual, folosind formula
-   echivalentă. Atenţie, realizaţi toate calculele sub formă complexă,
-   nu scalară! Z_{Total} = 1/(1/Z_{1} + 1/Z_{2} + . . . 1/Z_{n})
--  Legea lui Ohm pentru circuitele de curent alternativ: E = IZ ; I =
-   E/Z ; Z = E/I
--  Când rezistorii şi bobinele sunt conectate în parelel, impedanţa
-   totală va avea un unghi de fază între 0^{o} şi +90^{o}. Curentul din
-   circuit va avea un unghi de fază între ^{o} şi -90^{o}
--  Circuitele paralel în curent alternativ prezintă aceleaşi proprietăţi
-   ca şi circuitele în curent continuu: căderile de tensiune sunt
-   aceleaşi pe toate componentele circuitului, curenţii de ramură se
-   însumează şi dau naştere curentului total, iar impedanţele totală
-   este mai mică decât impedanţa fiecărei ramuri luate în parte
-
 * Reactanta capacitiva
 :PROPERTIES:
 :CUSTOM_ID: reactanta-capacitiva
@@ -1755,11 +1569,6 @@ Sumar:
 :END:
 
 Vezi subcapitolul precedent (3.1)
-
-Sumar:
-
--  
--  
 
 ** Circuite pur capacitive
 :PROPERTIES:
@@ -1891,17 +1700,6 @@ reactive a condensatorului faţă de curent:
 #+CAPTION: simplu - diagrama fazorială
 [[./poze/02073.png]]
 
-Sumar:
-
--  Reactanţa capacitiva reprezintă opoziţia condensatorului faţă de
-   curentul alternativ datorită modului său „defazat” de stocare şi
-   eliberare a energiei sub forma câmpului electric
--  Reactanţa capacitivă poate fi calculată folosind formula X_{C} =
-   1/(2πfC)
--  Reactanţă capacitivă scade odată cu creşterea frecvenţei. Cu alte
-   cuvinte, cu cât frecvenţa este mai mare, cu atât opoziţia faţa de
-   curent este mai mică (cu atât conduce mai bine)
-
 ** Circuite rezistiv-capacitive serie
 :PROPERTIES:
 :CUSTOM_ID: circuite-rezistiv-capacitive-serie
@@ -2021,34 +1819,6 @@ Găsiţi impedanţă unui circuit serie format dintr-un rezistor de 40 Ω şi
 un condensator de 88.42 mF la frecvenţa de 60 Hz. Răspuns: Z = 40 - j30
 = 50∠36.87^{o}.
 
-Sumar:
-
--  Impedanţa este cantitatea totală a opoziţiei faţă de curentul
-   electric şi este suma complexă (vector) dintre rezistenţă (reală) şi
-   ractanţa (imaginară)
--  În circuitele serie, impedanţele (Z) se comportă precum rezistenţele
-   (R) serie: acestea se adună pentru a forma impedanţa totală. Atenţie,
-   efectuaţi toate calculele sub formă complexă, nu scalară! Z_{Total} =
-   Z_{1} + Z_{2} + . . . Z_{n}
--  Ţineţi minte că impedanţele se însumează tot timpul atunci când sunt
-   conectate în serie, indiferent de tipul componentelor, rezistive,
-   inductive sau capacitive; din punct de vedere matematic, toate sunt
-   echivalente
--  O impedanţă pur rezistivă va avea tot timpul un unghi de fază de
-   exact 0^{o} (Z_{R} = R Ω ∠ 0^{o})
--  O impedanţă pur capacitivă va avea tot timpul un unghi de fază de
-   exact -90^{o} (Z_{C} = X_{C} Ω ∠ -90^{o})
--  Legea lui Ohm pentru circuitele de curent alternativ: E = IZ ; I =
-   E/Z ; Z = E/I
--  Atunci când rezistorii şi condensatoarele sunt conectate împreună în
-   circuite, impedanţa totală a circuitului va avea un unghi între 0^{o}
-   şi -90^{o}
--  Circuitele serie de curent alternativ prezintă aceleaşi proprietăţi
-   fundamentale ca şi în cazul circuitelor de curent continuu: curentul
-   este acelaşi prin tot circuitul (prin toate componentele), căderile
-   de tensiune se însumează, iar suma lor este tensiunea totală iar
-   impedanţele se adună rezultând impedanţa totală
-
 ** Circuite rezistiv-capacitive paralel
 :PROPERTIES:
 :CUSTOM_ID: circuite-rezistiv-capacitive-paralel
@@ -2113,26 +1883,6 @@ este identic:
 
 #+CAPTION: tabel
 [[./poze/12055.png]]
-
-Sumar:
-
--  În circuitele paralele, impedanţele (Z) se comportă precum
-   rezistenţele (R) în paral: valoarea totală a impedanţei este mai mică
-   decât valoarea fiecărei impedanţe luate individual, folosind formula
-   echivalentă. Atenţie, efectuaţi toate calculele sub formă complexă,
-   nu scalară! Z_{Total} = 1/(1/Z_{1} + 1/Z_{2} + . . . 1/Z_{n})
--  Legea lui Ohm pentru circuitele de curent alternativ: E = IZ ; I =
-   E/Z ; Z = E/I
--  Atunci când în circuit sunt conectaţi rezistori şi condensatori în
-   paralel, unghiul de fază al impedanţei totală va fi între 0^{o} şi
-   -90^{o}. Curentul din circuit va avea un unghi de fază între 0^{o} şi
-   +90^{o}
--  Circuitele paralele în curent alternativ au aceleaşi proprietăţi
-   fundamentale ca şi circuitele de curent continuu: tensiunea este
-   aceeiaşi în întreg circuitul (pe fiecare component), curentul total
-   este suma curenţilor de ramură iar impedanţa totală este mai mică
-   decât fiecare dintre impedanţele individuale luate separat (cu
-   ajutorul formulei echivalente)
 
 * Reactanta RLC
 :PROPERTIES:
@@ -2317,15 +2067,6 @@ element, mai mare decât în mod normal, pot apărea căderi de tensiune mai
 mari decât tensiunea sursei de alimentare, pe anumite elemente din
 circuit!
 
-Sumar:
-
--  Cu toate că impedanţele în serie se adună, impedanţa totală pentru un
-   circuit ce conţine atât bobine cât şi condensatoare poate să fie mai
-   mică decât impedanţele individuale, datorită faptului că impedanţele
-   inductive şi capacitive tind să se anuleze reciproc atunci când sunt
-   conectateîn serie. Acest lucru poate duce la căderi de tensiune pe
-   componente mai mari decât tensiunea sursei de alimentare
-
 ** Circuite RLC paralel
 :PROPERTIES:
 :CUSTOM_ID: circuite-rlc-paralel
@@ -2379,11 +2120,6 @@ ambele cazuri.
 
 #+CAPTION: tabel
 [[./poze/12068.png]]
-
-Sumar:
-
--  
--  
 
 ** Circuite RLC serie-paralel
 :PROPERTIES:
@@ -2497,19 +2233,6 @@ C_{2}):
 #+CAPTION: tabel
 [[./poze/12087.png]]
 
-Sumar:
-
--  Analiza circuitelor serie-paralel în curent continuu este similară
-   analizei circuitelor serie-paralel din curent cotinuu. Singura
-   diferenţă majoră constă în faptul că toate valorile şi calculele se
-   realizează sub formă complexă, nu scalară
--  Este important de ţinut minte ca înainte de simplificarea circuitului
-   serie-paralel, trebuie să determinăm impedanţele (Z) fiecărui
-   component, rezistor, bobină sau condensator. În acest fel, valorile
-   tuturor componentelor vor fi exprimate sub aceeiaşi formă (Z) şi se
-   evită asfel amestecarea rezistenţelor (R) cu inductanţe (L) şi
-   capacităţi (C)
-
 ** Susceptanţa şi admitanţa
 :PROPERTIES:
 :CUSTOM_ID: susceptanta-si-admitanta
@@ -2547,11 +2270,6 @@ este bine de ştiut că aceştia există.
 
 #+CAPTION:
 [[./poze/00000.png]]
-
-Sumar:
-
--  
--  
 
 * Rezonanta
 :PROPERTIES:
@@ -2717,17 +2435,6 @@ această condiţie de rezonanţă. Din acest motiv, trebuie să calculăm din
 timp frecvenţa de rezonanţă pentru diferite combinaţii de L şi C, şi să
 ţinem cont de efectele acesteia asupra circuitului.
 
-Sumar:
-
--  Un condensator şi o bobină conectate împreună formează un circuit
-   oscilator, ce rezonează (oscilează) pe o anumită frecvenţă. La
-   această frecvenţă, energia este transferată de la condensator spre
-   bobină şi invers sub formă de tensiune şi curent alternativ defazate
-   între ele cu 90^{o}
--  Atunci când frecvenţa sursei de alimentare în curent alternativ este
-   exact egală cu frecvenţa naturală de oscilaţie a circuitului LC,
-   spunem că circuitul se află într-o stare de /rezonanţă/
-
 ** Rezonanţa paralel
 :PROPERTIES:
 :CUSTOM_ID: rezonanta-paralel
@@ -2792,14 +2499,6 @@ sursei de alimentare arată asfel:
 Punctul de pe grafic unde curentul este zero, coincide cu frecvenţa de
 rezonanţă calculată mai sus, 159.155 Hz.
 
-Sumar:
-
--  Rezonanţa are loc atunci când reactanţa capacitivă este egală cu
-   reactanţă inductivă
--  Impedanţa totală a unui circuit LC paralel tinde spre infinit pe
-   măsură ce frecvenţa sursei de alimentare se apropie de frecvenţa de
-   rezonanţă
-
 ** Rezonanţa serie
 :PROPERTIES:
 :CUSTOM_ID: rezonanta-serie
@@ -2841,18 +2540,6 @@ căderile de tensiune pe cele două componente pot atinge valori
 impresionante de aproximativ 70 V ! Prin urmare, fiţi foarte atenţi
 atunci când experimentaţi cu asfel de circuite!
 
-Sumar:
-
--  Impedanţa totală a unui circuit LC serie se apropie de zero pe măsură
-   ce frecvenţa sursei de alimentare se apropie de frecvenţa de
-   rezonantă
--  Formula de calcul a frecvenţei de rezonanţă este aceeiaşi ca şi în
-   cazul circuitului LC paralel
--  Circuitele LC serie pot dezvolta căderi de tensiune extrem de mari pe
-   cele două componente atunci când se află la rezonantă, datorită
-   curenţilor mari din circuit şi a impedanţelor suficient de mari ale
-   componentelor
-
 ** Aplicaţii ale rezonanţei
 :PROPERTIES:
 :CUSTOM_ID: aplicatii-ale-rezonantei
@@ -2889,16 +2576,6 @@ frecvenţe în defavoarea altora. Aceste circuite sunt de fapt denumite
 În principiu, acesta este şi modul de funcţionare al unui aparat de
 radiorecepţie, ce selectează o anumită frecvenţă (post radio) din seria
 frecvenţelor variate recepţionate de antenă.
-
-Sumar:
-
--  Rezonanţa poate fi utilizată pentru menţinearea oscilaţiilor
-   circuitelor de curent alternativ la o frecvenţă constantă
--  Rezonanţa poate fi exploatată pentru proprietăţile sale cu privire la
-   impedanţă: creşterea sau descreşterea dramatică a impedanţei pentru
-   anumite frecvenţe. Circuitele concepute special pentru înlăturarea
-   tuturor frecvenţelor din circuit exceptând cele dorite, se numesc
-   /filtre/
 
 ** Rezonanţa serie-paralel. Antirezonanţa
 :PROPERTIES:
@@ -3083,17 +2760,6 @@ de a introduce un efect antirezonant puterni prin disiparea energiei pe
 cale hidraulică, în acelaşi fel în care un rezistor disipă energie pe
 cale electrică.
 
-Sumar:
-
--  Adaugarea unei rezistenţe într-un circuit LC poate duce efectul de
-   /antirezonanţă/, unde efectele de vârf ale impedanţei au loc la o
-   frecvenţă diferită faţă de frecvenţa de rezonanţă iniţială
--  Rezistenţa prezentă în bobinele reale poate contribui în mare măsură
-   la apariţia antirezonanţei. O sursă a unei asfel de rezistenţe este
-   efectul pelicular.
--  Într-un circuit RLC serie, rezistenţa adiţională în circuit /nu/
-   produce antirezonanţă.
-
 * Frecvente combinate
 :PROPERTIES:
 :CUSTOM_ID: frecvente-combinate
@@ -3229,13 +2895,6 @@ O formă de undă pur sinusoidală (frecvenţă unică, „curată”), neavând
 nicio armonică, sună „sec” urechii umane. Majoritatea instrumentelor
 muzicale nu sunt capabile să producă sunete atât de „simple”.
 
-Sumar:
-
--  Combinarea mai multor forme de undă cu frecvenţe diferite duce la
-   formarea unui semnal complex a cărei frecvenţă /fundamentală/ este
-   semnalul cu cea mai mică frecvenţă. Celelalte forme de undă sunt
-   multiplii ale frecvenţei fundamentale, şi poartă numele de /armonici/
-
 ** Forme de undă dreptunghiulare
 :PROPERTIES:
 :CUSTOM_ID: forme-de-unda-dreptunghiulare
@@ -3351,13 +3010,6 @@ Deşi poate părea ciudat, orice formă de undă periodică ne-sinusoidală
 este de fapt echivalentă cu suma unei serii de unde sinusoidale de
 frecvenţe şi amplitudini diferite. Formele dreptunghiulare sunt doar un
 singur caz, dar nu unicul.
-
-Sumar:
-
--  Formele de undă dreptunghiulare sunt echivalente unei forme de undă
-   sinusoidală de aceeiaşi frecvenţă (fundamentala) însumată cu o serie
-   infinită de unde sinusoidale (armonici) de frecvenţă multiplu impar
-   ale acesteia şi amplitudini descrescătoare
 
 ** Analiza spectrală
 :PROPERTIES:
@@ -3521,13 +3173,6 @@ de introducerea componentei de curent continuu:
 #+CAPTION: de undă pare
 [[./poze/02297.png]]
 
-Sumar:
-
--  Formele de undă simetrice faţă de axa lor orizontală nu conţin
-   armonici pare
--  Componenta de curent continuu prezentă în semnal nu are niciun fel de
-   impact asupra conţinutului armonic al formei de undă în cauză
-
 ** Efecte asupra circuitelor
 :PROPERTIES:
 :CUSTOM_ID: efecte-asupra-circuitelor
@@ -3599,26 +3244,6 @@ că tensiunile celor două surse de alimentare sunt, de fapt, /egale/.
 Este important de luat în considerare acest răspuns nesimetric al
 componentelor circuitului (cap. următor?!).
 
-Sumar:
-
--  Orice formă de undă periodică nesinusoidală este echivalentă cu o
-   anumită serie (infinită) de unde sinusodiale/cosinusoidale de
-   frecvenţe, faze şi amplitudini diferite, plus o componentă de
-   tensiune în curent continuu (în funcţie de caz). Metoda matematică de
-   determinarea formei de undă echivalente, poartă numele de analiza
-   Fourier
--  Simularea tensiunilor cu frecvenţe diferite se poate realiza prin
-   conectarea mai multor surse de tensiune, cu o singură frecvenţă, în
-   serie. Analiza curenţilor şi a tensiunilor se realizează folosind
-   teorema superpoziţiei. Atenţie, curenţii şi tensiunile de frecvenţe
-   diferite /nu/ pot fi adunaţi sub formă complexă folosind teorema
-   superpoziţie, din moment ce frecvenţa nu poate fi indicată cu
-   ajutorul numerelor complexe, ci numai amplitudinea şi faza
--  Armonicile pot cauza probleme prin inducerea de tensiuni nedorite
-   (zgomot) în circuitele învecinate. Aceste zgomote pot apărea prin
-   cuplaj capacitiv, cuplaj inductiv, radiaţie electromagnetică, sau o
-   combinaţie dintre acestea
-
 * Filtre
 :PROPERTIES:
 :CUSTOM_ID: filtre
@@ -3667,16 +3292,6 @@ folosind reprezentarea prin diagrame Bode (variaţia amplitudinii faţă de
 frecvenţă) pentru diferitele filtre considerate. Totuşi, aceste circuite
 pot fi analizate luând fiecare frecvenţă împarte şi aplicând teorema
 superpoziţiei, precum în cazul precedent.
-
-Sumar:
-
--  Un filtru, este un circuit special de curent alternativ, utilizat
-   pentru separarea anumitor frecvenţe într-un semnal cu frecvenţe
-   multiple
--  Amplicaţii ale filtrelor includ egalizatoarele şi reţelele de
-   crossover
--  O diagramă Bode este un grafic a cărei axă orizontală este frecvenţa,
-   şi nu timpul
 
 ** Filtrul trece-jos
 :PROPERTIES:
@@ -3826,21 +3441,6 @@ valorii de 0.1 µF, sau peste, fiind capacitatea minimă necesară pentru
 producerea unei impedanţe suficient de mari pentru scurt-circuitarea
 oricărui zgomot.
 
-Sumar:
-
--  Un filtru trece-jos permite trecerea semnalelor de frecvenţă joasă de
-   la sursă spre sarcină, şi blochează semnalele de frecvenţe înalte
--  Filtrele trece-jos inductive constau din introducerea unei bobine în
-   serie cu sarcina, prin blocarea semnalelor de frecvenţe nedorite
--  Filtrele trece-jos capacitive constau în introducerea unui rezistor
-   în serie cu un condensator, ambele componente fiind conecate în
-   paralel cu sarcina, prin scurt-circuitarea semnalelor de frecvenţe
-   nedorite
--  Frecvenţa de tăiere a unui filtru trece-jos este frecvenţa la care
-   tensiune de ieşire este egală cu 70.7% din tensiunea de intrare.
-   Peste acestă frecvenţa de tăiere, valoarea tensiunii de ieşire este
-   sub 70.7% din tensiune de intrare, şi invers
-
 ** Filtrul trece-sus
 :PROPERTIES:
 :CUSTOM_ID: filtrul-trece-sus
@@ -3933,20 +3533,6 @@ nu existe putere disipată (de frecvenţă înaltă sau joasă) pe un difuzor
 ce reproduce acest tip de sunete ineficient. Ceea ce vrem de fapt să
 realizăm, este un filtru /trece bandă/.
 
-Sumar:
-
--  Un filtru trece-sus permite trecerea semnalelor de frecvenţă înaltă
-   de la sursă spre sarcină, şi blochează semnalele de frecvenţă joasă
--  Circuitele trece-sus capacitive folosesc un condensator conectat în
-   serie cu sarcina, prin blocarea semnalelor de frecvenţe nedorite
--  Circuitele trece-sus inductive folosesc un rezistor conectat în serie
-   cu o bobină, ambele componente fiind conectate în paralel cu sarcina,
-   prin scurt-circuitarea semnalelor de frecvenţe nedorite
--  Frecvenţa de tăiere pentru un filtru trece-sus, reprezintă frecvenţa
-   la care tensiunea de ieşire este egală cu 70.7% din tensiunea de
-   intrare. Peste această frecvenţă de tăiere, tensiunea de ieşire este
-   mai mare decât 70.7% din tensiunea de intrare, şi invers
-
 ** Filtrul trece-bandă
 :PROPERTIES:
 :CUSTOM_ID: filtrul-trece-banda
@@ -4017,15 +3603,6 @@ de ieşire devine şi mai pronunţată în cazul în care filtrul are un scop
 mult mai restrictiv (pantă mai mare a undei, banda de trecere a
 frecvenţelor mai îngustă).
 
-Sumar:
-
--  Un filtru trece-bandă blochează frecvenţele care sunt prea mici sau
-   prea mari, permiţând trecerea acelor frecvenţe ce se regăsesc într-un
-   anumit domeniu de frecvenţe
--  Filtrele trece-bandă pot fi construite prin conectarea în serie a
-   unui filtru trece-jos şi a unui filtru trece-sus, indiferent de
-   ordinea lor
-
 ** Filtrul stop-bandă
 :PROPERTIES:
 :CUSTOM_ID: filtrul-stop-banda
@@ -4077,16 +3654,6 @@ folosind proprţiile de mai sus, în diagrama (Bode) de mai jos:
 #+CAPTION: răspunsul în frecvenţă al filtrului stop-bandă în
 #+CAPTION: configuraţie T
 [[./poze/22032.png]]
-
-Sumar:
-
--  Scopul filtrului stop-bandă este înlăturarea frecvenţelor aflate
-   într-un anumit domeniu, permiţând doar trecerea acelor frecvenţe ce
-   se află în afara acestuia
--  Filtrele stop-bandă pot fi realizate prin conectarea în paralel a
-   unui filtru trece-jos cu un filtru trece-sus. Ambele filtre sunt în
-   configuraţie „T”, prin urmare, acest tip de filtru mai este cunoscut
-   şi sub numele de „filtru stop-bandă în dublu-T”
 
 ** Filtre rezonante
 :PROPERTIES:
@@ -4269,13 +3836,6 @@ Răspunsul în frecvenţă al filtrului arată de data aceasta mult mai bine:
 #+CAPTION: răspunsul în frecvenţa a filtrului trece-jos LC cu
 impedanţele de intrare şi ieşire egalate; diagrama Bode
 [[./poze/22056.png]]
-
-Sumar:
-
--  Filtrele trece-jos, trece-sus, trece-bandă sau stop-bandă pot fi
-   proiectate utlizând combinaţii rezonante de condensatori şi bobine
-   fără a fi necesară conectarea rezistorilor ce doar ar „împiedica”
-   trecere frecvenţelor dorite dinstre sursă spre sarcină
 
 * Transformatorul
 :PROPERTIES:
@@ -4663,38 +4223,6 @@ transformatoarele trebuiesc proiectate pentru a funcţiona între anumite
 valori ale tensiunii şi sarcinii, valori cunoscute dinainte, pentru a
 oferi maximul de eficienţă.
 
-Sumar:
-
--  Inductanţa mutuală reprezintă situaţia în care fluxurile magnetice a
-   două sau a mai multor bobine sunt cuplate între ele, asfel încât
-   există o tensiune indusă într-una dintre bobine direc proporţională
-   cu rata de variaţie a curentului în cealaltă
--  Un transformator este un dispozitiv construit din două sau mai multe
-   bobine, una dintre ele alimentată în curent alternatic ce induce o
-   tensiune alternativă în cealaltă bobină. Dacă a doua bobină este
-   conectată la o sarcină, puterea sursei de tensiune a primei bobine
-   este cuplată electromagnetic la sarcina celei de a doua
--  Bobina transformatorului alimentată în curent alternativ se numeşte
-   /înfăşurare primară/. Bobina ne-alimentată a transformatorului se
-   numeşte /înfăşurare secundară/
--  Fluxul magnetic al miezului este defazat cu 90^{o} în urma tensiunii
-   de alimentare. Curentul furnizat de sursa de alimentare în
-   înfăşurarea primară pentru producerea acestui flux magnetic, poartă
-   numele de /curent de magnetizare/, şi este şi acesta defazat cu
-   90^{o} în urma tensiunii de alimentare
--  Curentul total din primar al unui transformator neconectat la
-   sarcină, se numeşte /curent de excitaţie/, şi este compus din
-   curentul de magnetizare plus curentul datorat pierderilor miezului
-   feromagnetic. Într-un transformator real, forma de undă a acestuia nu
-   este niciodată sinusoidală
--  Fluxul magnetic al miezului induce o tensiune electrică în orice
-   înfăşurare realizată în jurul acestuia. Tensiunile induse sunt,
-   ideal, în fază cu tensiunea primară (a sursei) şi au aceeiaşi formă
-   de undă
--  Orice curent prin secundar, datorită sarcinii, va produce un curent
-   echivalent în înfăşurarea primară, curent generat de sursă, ca şi
-   când sursa ar fi conectată direct la sarcină
-
 ** Transformatorul ridicător şi coborâtor de tensiune
 :PROPERTIES:
 :CUSTOM_ID: transformatorul-ridicator-si-coborator-de-tensiune
@@ -4798,20 +4326,6 @@ al unui transformator este egal cu raportul dintre numărul spirelor
 #+CAPTION: transformatorului electric
 [[./poze/raport\_transformare.png]]
 
-Sumar:
-
--  Transformatoarele sunt dispozitive utilizate la ridicarea sau
-   coborârea tensiunii în funcţie de raportul dintre numărul spirelor
-   înfăşurărilor
--  Un transformator proiectat să ridice tensiunea dinspre primar spre
-   secundar (numărul spirelor din înfăşurarea secundară este mai mare
-   decât numărul celor din primar), se numeşte transformator ridicător
-   de tensiune
--  Un transformator proiectat să realizeze chiar opusul, coborârea
-   tensiunii dinspre primar spre secundar (numărul spirelor din
-   înfăşurarea secundară este mai mic decât numărul celor din primar),
-   poartă numele de transformator coborâtor de tensiune
-
 ** Tipuri de înfăşurări
 :PROPERTIES:
 :CUSTOM_ID: tipuri-de-infasurari
@@ -4914,23 +4428,6 @@ numele de /Variac/:
 
 #+CAPTION: Variac - autotransformator variabil
 [[./poze/02149.png]]
-
-Sumar:
-
--  Este posibilă construirea transformatoarelor cu mai mult de o singură
-   înfăsurare primară şi secundară. Acest lucru permite obţinerea unor
-   raporturi de transformare variabile folosind acelaşi dispozitiv
--  Există posibilitatea de realizare a „prizelor” pe înfăşurările
-   transformatoarelor: intersecţia contactului electric în puncte
-   diferite din lungul înfăşurării
--  Transformatoarele variabile se pot realiza folosind un contact
-   variabil pe lungimea infăşurării, putându-se practic realiza prize în
-   orice punct de pe înfăşurare
--  Un autotransformator este un transformator ce foloseşte o singură
-   înfăşurare pentru ridicarea sau coborârea tensiunii; faţă de un
-   transformator normal, acesta nu oferă separare electrică între primar
-   şi secundar
--  Un autotransformator variabil poartă numele de Variac
 
 * Circuite polifazate
 :PROPERTIES:
@@ -5110,12 +4607,6 @@ datorită faptului că ambele forme de undă sunt în fază. De asemenea,
 toate circuitele electrice studiate până în acest moment au fost
 monofazate.
 
-Sumar:
-
--  Sistemele de alimentare monofazate constau dintr-o sursă de
-   alimentare (sau mai multe) având doar o singură formă de undă a
-   tensiunii
-
 ** Sisteme de alimentare trifazate
 :PROPERTIES:
 :CUSTOM_ID: sisteme-de-alimentare-trifazate
@@ -5265,18 +4756,6 @@ face asfel:
 
 Aceasta însă nu este singura schma de conectare posibilă.
 
-Sumar:
-
--  Un sistem de alimentare monofazat constă dintr-o singură sursă
-   alimentare (un singur tip de formă de undă)
--  Un sistem de alimentare polifazat utilozează mai multe surse de
-   tensiune defazate între ele (mai multe forme de undă existente). Un
-   sistem polifazat poate transmite o putere electrică mai mare folosind
-   conductor de secţiuni mai mici
--  Defazajul tensiunilor necesar pentru utilizarea unui sistem polifazat
-   este creat cu ajutorul generatoarelor polifazate ce utilizează seturi
-   multiple de înfăşurări
-
 ** Secvenţa fazelor
 :PROPERTIES:
 :CUSTOM_ID: secventa-fazelor
@@ -5390,19 +4869,6 @@ secvenţa rezultată.
 Indiferent de perechea fazelor alese pentru inversare, rezultatul este
 tot timpul o secvenţă inversată (1-2-3 devine 2-1-3, 1-3-2 sau 3-2-1,
 toate fiind echivalente).
-
-Sumar:
-
--  Secvenţa fazelor este ordinea formelor de undă, defazate între ele, a
-   unui sistem polifazat de curent alternativ. Pentru un sistem
-   trifazat, sunt posibile doar două secvenţe, 1-2-3 sau 3-2-1, secvenţe
-   ce corespund direcţie de rotaţie a generatorului de tensiune
--  Secvenţa fazelor nu are niciun efect asupra sarcinilor rezistive, dar
-   are efect asupra sarcinilor reactive dezechilibrate, cum este cazul
-   detectorului de secvenţă
--  Secvenţa fazelor poate fi inversată prin inversarea oricăror două
-   faze ale sistemului trifazat între ele, fără efect asupra direcţiei
-   de rotaţie a generatorului
 
 ** Funcţionarea motorului polifazat
 :PROPERTIES:
@@ -5533,26 +4999,6 @@ analoagă unui motor de curent alternativ trifazat cu trei seturi de
 
 #+CAPTION: înfăşurările unui motor de curent alternativ trifazat
 [[./poze/02193.png]]
-
-Sumar:
-
--  Direcţia de rotaţie a motoarelor de curent alternativ sincrone şi de
-   inducţie este dată de câmpurile magnetice alternative produse de
-   înfăşurările staţionare
--  Motoarele de curent alternativ monofazate au nevoie de ajutor pentru
-   pornirea lor într-o anumită direcţie
--  Prin introducerea unui defazaj mai mic de 180^{o} între câmpurile
-   magnetice ale unui motor de curent alternativ monofazat, se poate
-   obţine o direcţie precisă a rotorului
--  Motoarele de curent alternativ monofoazate folosesc adesea o
-   înfăşurare auxiliară conectată în serie cu un condensator pentru
-   crearea defazajului necesar
--  Motoarele polifazate nu au nevoie de asemenea măsuri; direcţia lor de
-   rotaţie este fixată de secvenţa de rotaţie a tensiunilor de la care
-   sunt alimentate
--  Inversarea fazelor unui motor de curent alternativ polifazat între
-   ele, va duce la înversare secvenţei fazelor, şi implicit la direcţia
-   de rotaţie a acestuia
 
 ** Configuraţii stea şi triunghi trifazate
 :PROPERTIES:
@@ -5731,33 +5177,6 @@ zero! Din această cauză, sursele de tensiune în configuraţie triunghi
 tensiune duală (120/208), sau curenţi de linie mai mici, sunt preferate
 sistemele în conexiune strea (Y).
 
-Sumar:
-
--  Conductorii conectaţi în cele trei puncte ale unei surse sau sarcini
-   trifazate, se numesc /linii/
--  Cele trei componente ale sursei sau sarcinii unui sistem trifazat,
-   poartă numele de /faze/
--  Tensiunea de linie, este tensiunea măsurată între oricare două linii
-   ale unui circuit trifazat
--  Tensiunea de fază, este tensiunea măsurată la bornele unui singur
-   component a sursei sau sarcinii unui sistem trifazat
--  Curentul de linie este curentul prin oricare dintre liniile sursei
-   sau sarcinii unui sistem trifazat
--  Curentul de fază este curentul prin oricare dintre componentele
-   sursei sau sarcinii unui sistem trifazat
--  În circuitele trifazate în configuraţie stea (Y) echilibrate,
-   tensiunea de linie este egală cu produsul dintre tensiunea de fază şi
-   radical de ordinul doi din trei, iar curentul de linie este egal cu
-   cel de fază
--  În circuitele trifazate în configuraţie stea (Y) echilibrate,
-   curentul de linie este egal cu produsul dintre curentul de fază şi
-   radical de ordinul doi din trei, iar tensiunea de linie este egală cu
-   tensiunea de fază
--  Fiabilitatea sistemelor în configuraţie triunghi este mult mai bună
-   decât cea a sistemelor în configuraţie stea în caz de avarie. Totuşi,
-   sursele în configuraţie stea pot asigura aceeiaşi putere pe sarcină
-   cu un curent de linie mai mic faţă de conexiunea triunghi.
-
 ** Transformatorul trifazat
 :PROPERTIES:
 :CUSTOM_ID: transformatorul-trifazat
@@ -5889,11 +5308,6 @@ aceeiaşi situaţie. Dacă unul din cele două transformatoare se
 defectează, tensiunile şi curenţii de sarcină vor avea cu siguranţă de
 suferit.
 
-Sumar:
-
--  
--  
-
 * Factorul de putere
 :PROPERTIES:
 :CUSTOM_ID: factorul-de-putere
@@ -5979,20 +5393,6 @@ pozitivă, dar valoarea puterii „pozitive” este mai mare decât cea
 negativă. Cu alte cuvinte, combinaţie serie rezistor-bobină, va consuma
 mai multă putere decât va introduce înapoi în circuit.
 
-Sumar:
-
--  Într-un circuit pur rezistiv, toată puterea se disipă pe rezistor,
-   iar tensiunea şi curentul sunt în fază
--  Într-un circuit pur reactiv, nu există putere disipată pe sarcină,
-   ci, puterea este absorbită şi reintrodusă alternativ dinspre şi
-   înspre sursă. Curentul şi tensiunea sunt defazate cu 90 de grade
--  Într-un cricuit mixt, ce conţine atât elemente rezistive cât şi
-   elemente reactive, puterea disipată de sarcină va fi mai mare decât
-   puterea reintrodusă în circuit, dar totuşi, o parte din putere se
-   disipă iar o parte este absorbită şi reintrodusă în circuit de către
-   elementele reactive. Tensiune şi curentul sunt defazate cu un unghi
-   între 0 şi 90 de grade
-
 ** Puterea reală, reactivă şi aparentă
 :PROPERTIES:
 :CUSTOM_ID: puterea-reala-reactiva-si-aparenta
@@ -6059,22 +5459,6 @@ Folosind teorema lui Pitagora, putem afla lungimea oricărei laturi a
 triunghiului dreptunghic, latură ce reprezintă de fapt puterea
 respectivă, dacă ştim „lungimile” celorlalte două laturi, sau o lungime
 şi unghiul de fază din circuit
-
-Sumar:
-
--  Puterea disipată de o sarcină, sub formă de rezistor, poartă numele
-   de /putere reală/. Simbol matematic: P, unitate de măsură: Watt (W)
--  Puterea absorbită şi returnată în circuit datorită proprietătilor
-   reactive ale sarcinii, sub formă de condensator sau bobină, poartă
-   numele de /putere reactivă/. Simbol matematic: Q, unitate de măsură:
-   Volt-Amper-Reactiv (VAR)
--  Puterea totală dintr-un circuit de curent alternativ, atât cea
-   disipată cât şi cea abosrbită/returnată, poartă numele de /putere
-   aparentă/. Simbol matematic: S, unitate de măsură: Volt-Amper (VA)
--  Relaţia dintre cele trei puteri se poate reprezenta sub formă
-   trigonometrică, si anume cu ajutorul „triunghiului puterii”, unde: P
-   - latura adiacentă, Q - latura opusă, S - ipotenuză, unghiul opus
-   este egal cu unghiul de fază al impedanţei din circuit (Z)
 
 ** Calcularea şi corectarea factorului de putere
 :PROPERTIES:
@@ -6190,14 +5574,6 @@ unei inductanţe prea mari. Trebuie să fim prin urmare foarte atenţi când
 realizăm corectarea factorului de putere, pentru a nu supra-corecta
 circuitul.
 
-Sumar:
-
--  Corectarea factorului de putere dintr-un circuit poate fi realizată
-   prin conectarea în paralel a unei reactanţă opuse faţă de reactanţa
-   sarcinii. Dacă reactanţă sarcinii este inductivă, ceea ce este cazul
-   aproape tot timpul, factorul de putere se corectează prin adăugarea
-   unui condensator în paralel cu sarcina
-
 ** Corectarea practică a factorului de putere
 :PROPERTIES:
 :CUSTOM_ID: corectarea-practica-a-factorului-de-putere
@@ -6219,11 +5595,6 @@ tensiunii totale cu a curentului total.
 
 #+CAPTION:
 [[./poze/00000.png]]
-
-Sumar:
-
--  
--  
 
 * Motoare electrice
 :PROPERTIES:
@@ -6349,11 +5720,6 @@ histerezei a fost aplicată mai întâi în realizarea motoarelor electrice
 a căror colector era similar celor de c.c. Astăzi, aceste motoare
 reprezintă doar o mică parte a motoarelor de c.a. Alţii au inventat noi
 tipuri de motoare de c.a. foarte diferite de cele de c.c.
-
-Sumar:
-
--  
--  
 
 ** Motorul sincron
 :PROPERTIES:
@@ -6505,11 +5871,6 @@ Rotorul cu mai mulţi magneţi permanenţi (figura de mai sus, dreapta)
 este utilizat pentru sarcini mai mare ale motorului. Motoarele
 industriale de putere mare sunt prevăzute cu sisteme de autopornire.
 
-Sumar:
-
--  
--  
-
 ** Semnale analogice si digitale
 :PROPERTIES:
 :CUSTOM_ID: semnale-analogice-si-digitale
@@ -6525,11 +5886,6 @@ asincrone.
 
 #+CAPTION:
 [[./poze/00000.png]]
-
-Sumar:
-
--  
--  
 
 * Linii electrice lungi
 :PROPERTIES:
@@ -6607,12 +5963,6 @@ luminii, deşi electronii individuali nu au o viteză într-atât de mare.
 „cuplare” a electronilor (exemplul trenului), devine vizibilă sub forma
 unei întârzieri între acţiunea întrerupătorului şi efectul asupra
 lămpii.
-
-Sumar:
-
--  Într-un circuit electric, curentul se „deplasează” cu viteza luminii,
-   cu toate că electronii ce compun aceast curent au o viteză mult mai
-   mică
 
 ** Impedanţa caracteristică
 :PROPERTIES:
@@ -6771,27 +6121,6 @@ capacitatea liniei pe unitate de lungime:
 #+CAPTION: caracteristice a liniilor electrice lungi
 [[./poze/12146.png]]
 
-Sumar:
-
--  O linie de transmisie (linie electrică lungă) este o pereche de
-   conductori cu anumite caracteristici specifice datorate capacităţilor
-   şi inductanţelor distribuite pe lungimea ei
--  Aplicarea unei tensiuni la capătul unei linii de transmisie, face ca
-   propagarea undei de tensiune şi curent să se realizeze cu viteza
-   luminii (aproximativ
--  Dacă se aplică o tensiune continuă unei linii de transmisie de
-   lungime infinită, din punctul de vedere al sursei, linia de
-   transmisie este o rezistenţă constantă
--  Impedanţa caracteristică (Z_{0}) a unei linii de transmisie este
-   echivalentă cu rezistenţa acestia dacă lungimea sa ar fi infinită.
-   Impedanţa caracteristică depinde doar de capacitatea şi de inductanţa
-   distribuită în lungul liniilor de trnasmisie, şi este prezentă chiar
-   şi atunci când dielectricul este perfect
--  Factorul de viteză este o valoare subunitară tipică pentru cabluri
-   coaxiale şi linii electrice lungi duble. Pentru oricare tip de cablu,
-   factorul de viteză este egal cu inversa rădăcinii pătrate a
-   permitivităţii relative a dielectricului dintre cei doi conductori
-
 ** Linii electrice finite
 :PROPERTIES:
 :CUSTOM_ID: linii-electrice-finite
@@ -6915,27 +6244,6 @@ cu cea a liniei. Acest tip de reflexii pot fi supărătoare, deoarece
 aparent, reflexia undei de către sursă duce la impresia că aceasta
 tocmai a emis un puls nou.
 
-Sumar:
-
--  O linie de transmisie de lungime finită va fi văzută de o sursă de
-   tensiune de curent continuu ca o rezistenţă constantă, pentru o
-   perioadă scurtă de timp. După această perioadă, rezistenţa liniei
-   este rezistenţa sarcinii de la capătul acesteia
--  Aplicarea unui semnal la unul dintre capetele unei linii de
-   transmisie deschise sau scurt-circuitate, duce la reflectarea
-   acestuia la capătul celălalt al liniei şi apariţia unei unde
-   secundare în lungul liniilor
--  Un semnal ce se deplasează într-o linie de transmisie de la sursă
-   spre sarcină poartă numele de undă incidentă
--  Un semnal ce se reflectă într-o linie de transmisie de la sarcină
-   spre sursă poartă numele de undă reflectată
--  Undele reflectate pot fi eliminate prin conectarea la capătul
-   celălalt al liniei a unei rezistor a cărui rezistenţă este egală cu
-   impedanţa caracteristică a liniei
--  O undă reflectată poate să fie re-reflectată de către sursă, dacă
-   impedanţa internă a acesteia nu este exact egală cu impedanţa
-   caracteristică a liniei
-
 ** Linii electrice lungi şi linii electrice scurte
 :PROPERTIES:
 :CUSTOM_ID: linii-electrice-lungi-si-linii-electrice-scurte
@@ -7032,26 +6340,6 @@ doar durata de timp necesară pentru transmiterii semnalului de la sursă
 la sarcină. Totuşi, egalarea perfectă a impedanţelor nu este tot timpul
 practică sau posibilă.
 
-Sumar:
-
--  Atunci când perioada de transmitere a semnalului de curent sau
-   tensiune este mult mai mare decât timpul de propagare al semnalului
-   de-a lungul liniei de transmisie, spunem că linia este electric
-   scurtă. Invers, când timpul de propagare este o fracţiune mai mare
-   sau chiar un multiplu al perioadei semnalului transmis, spune că
-   linia este electric lungă
--  Lungimea de undă a unui semnal reprezintă distanţa fizică pe care
-   aceasta o poate parcurge pe durata unei perioade. Formula de calcul a
-   lungii de undă este λ=v/f, unde „λ” reprezintă lungimea de undă, „v”
-   este viteza de propagare iar „f” este frecvenţa semnalului
--  Ca şi regulă, lungimea liniei trebuie să fie mai mare decât un sfert
-   (1/4) din lungimea de undă a semnalului pentru a fi considerată linie
-   electrică lungă
--  Când la capătul unei linii de transmisie este conectatăo sarcină de
-   impedanţă exact egală cu impedanţa caracteristică a linie, nu vor
-   exista unde reflectată, şi prin urmare, nu vor exista nici efecte
-   nedorite datorate lungimii liniei
-
 ** Unde staţionare şi rezonanţa
 :PROPERTIES:
 :CUSTOM_ID: unde-stationare-si-rezonanta
@@ -7111,9 +6399,4 @@ comportament. Diferenţa majoră este că aceasta vibrează la frecvenţa sa
 
 #+CAPTION: vibraţia coardei fixe
 [[./poze/02374.png]]
-
-Sumar:
-
--  
--  
 

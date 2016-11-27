@@ -81,11 +81,6 @@ de 33,0^{o}C, fie o temperatură de 33,1^{o}C, dar în niciun caz nu putem
 citi o valoare între aceste două puncte (de exemplu, 33,0125^{o}C), aşa
 cum am fi putut face cu un termometru analogic.
 
-Sumar:
-
--  
--  
-
 ** Sisteme de numeraţie
 :PROPERTIES:
 :CUSTOM_ID: sisteme-de-numeratie
@@ -271,11 +266,6 @@ operaţiilor aritmetice realizate de calculatoarele moderne.
 
 #+CAPTION:
 [[./poze/00000.png]]
-
-Sumar:
-
--  
--  
 
 ** Numere binare negative
 :PROPERTIES:
@@ -816,14 +806,6 @@ Pentru porţi mai complexe, tabelele de adevăr sunt mai mari decât
 acesta. Numărul liniilor unui astfel de tabel trebuie să fie egal cu
 2^{n}, unde n reprezintă numărul intrărilor porţii logice considerate.
 
-Sumar:
-
--  O poartă logică este un amplificator special proiectat pentru
-   reprezentarea numerelor binare sub forma tensiunilor de nivel logic
--  Un tabel de adevăr este o metodă standard de reprezentare a
-   relaţiilor dintre mărimile de intrare şi cele de ieşire dintr-un
-   circuit logic
-
 ** Porţi logice cu două intrări
 :PROPERTIES:
 :CUSTOM_ID: porti-logice-cu-doua-intrari
@@ -1109,12 +1091,6 @@ Aşa cum reiese din acest tabel, scopul unei porţi logice
 SAU-negat-exclusiv este de a genera un nivel logic 1 atunci când ambele
 intrări sunt la acelaşi nivel (fie 00, fie 11).
 
-Sumar:
-
--  Poarta logică ŞI: ieşirea este 1 doar dacă ambele intrări sunt 1
--  Poarta logică SAU: ieşirea este 1 dacă intrarea A sau intrarea B este
-   1
-
 ** Principiul universalităţii
 :PROPERTIES:
 :CUSTOM_ID: principiul-universalitatii
@@ -1287,11 +1263,6 @@ Pentru realizarea acestei fucţii folosind porţi ŞI-negat, trebuie să
 inversăm toate intrările şi ieşirea. Procedeul este asemănător cu cel
 prin care am realizat funcţia ŞI-negat folosind porţi logice SAU-negat.
 
-Sumar:
-
--  
--  
-
 ** Modul de împachetare
 :PROPERTIES:
 :CUSTOM_ID: modul-de-impachetare
@@ -1320,11 +1291,6 @@ utilizate:
 
 #+CAPTION: capsule DIP
 [[./poze/04160.png]]
-
-Sumar:
-
--  
--  
 
 * Comutatoare
 :PROPERTIES:
@@ -1601,17 +1567,6 @@ deşi unele prezintă câteva avantaje clare faţă de altele. Comutatoarele
 trebuie alese inteligent în funcţie de aplicaţia în cauză. Acest lucru
 va determina funcţionarea lor eficientă şi sigură.
 
-Sumar:
-
--  Un comutator este un dispozitiv electric, de obicei electromecanic,
-   folosit pentru a controla continuitatea electrică dintre două puncte
-   distincte
--  Comutatoarele manuale sunt acţionate de operatori umani
--  Comutatoarele de limitare sunt acţionate de poziţia elementelor
-   mecanice
--  Comutatoarele de proces sunt acţionate de variaţia unei anumite
-   variabile fizice de proces, precum temperatură, presiune, nivel, etc.
-
 ** Poziţia „normală” a contactelor
 :PROPERTIES:
 :CUSTOM_ID: pozitia-normala-a-contactelor
@@ -1777,20 +1732,6 @@ Comutator bipolar cu două direcţii
 
 Comutator cvadripolar cu patru direcţii
 
-Sumar:
-
--  Prin poziţia normala a unui comutator se înţelege poziţia în care
-   acesta nu este acţionat. Pentru comutatoarele de proces, această
-   poziţie este poziţia în care se regăseşte dispozitivul atunci când nu
-   este instalat
--  Un comutator deschis atunci când nu este acţionat poartă numele de
-   comutator normal-deschis (N.D.)
--  Un comutator închis atunci când nu este acţionat poartă numele de
-   comutator normal-închis (N.Î.)
--  Numărul de poli a unui comutator se referă la numărul de contacte
-   mobile. Numărul de direcţi a unui comutator se referă la numărul
-   contactelor staţionare disponibile pentru fiecare contact mobil
-
 * Relee electromecanice
 :PROPERTIES:
 :CUSTOM_ID: relee-electromecanice
@@ -1874,14 +1815,6 @@ sunt izolate din punct de vedere electric una de cealaltă. Unul din
 circuite poate fi de c.c, iar celălalt de c.a., precum în exemplul
 anterior, sau chiar şi la tensiuni diferite.
 
-Sumar:
-
--  Un releu electromecanic este compus dintr-o bobină şi un element
-   magnetic mobil, ce poartă numele de armătură.
--  La trecerea curentului prin bobină, aceasta produce un câmp magnetic
-   ce atrage armătura. Armătura acţionează la rândul său contactele unui
-   comutator
-
 ** Contactoare
 :PROPERTIES:
 :CUSTOM_ID: contactoare
@@ -1899,11 +1832,6 @@ bobina nu este energizată.
 
 Probabil cea mai des întâlnită aplicaţie a contactoarelor constă în
 controlul motoarelor electrice.
-
-Sumar:
-
--  
--  
 
 ** Relee temporizate
 :PROPERTIES:
@@ -2052,12 +1980,6 @@ se blochează, semnalul de intrare pe releu nu se va mai modifica (se va
 bloca la ultima stare). La puţin timp după aceasta, contactul releului
 se va închide semnalizând o problemă.
 
-Sumar:
-
--  Releele temporizate introduc o anumită întârziere de la momentul
-   energizării/de-energizării bobinei şi până la închiderea/deschiderea
-   contactelor.
-
 ** Relee semiconductoare
 :PROPERTIES:
 :CUSTOM_ID: relee-semiconductoare
@@ -2107,11 +2029,6 @@ deschidă la defect. Dintre cele două stări, deschiderea la defect este
 considerată mai sigură faţă de scurt-circuitarea la defect. Din acest
 motiv, în anumite aplicaţii, releele electromecanice sunt încă folosite
 în dauna celor semiconductoare.
-
-Sumar:
-
--  
--  
 
 * Logica ladder
 :PROPERTIES:
@@ -2221,13 +2138,6 @@ pot fi controlate în cazul aceluiaşi defect. Din această cauză,
 sarcina(le) unei diagrame ladder trebuie tot timpul conectată lângă
 conductorul legat la masă (comun din punct de vedere electric cu
 acesta).
-
-Sumar:
-
--  Diagramele ladder, cuoscute şi sub numele de „logica ladder”, sunt un
-   tip de notaţii şi reprezentări folosite frecvent pentru ilustrarea
-   modului de interconectare a comutatoarelor şi a releelor
-   electromecanice dintr-un circuit logic
 
 ** Funcţii logice digitale
 :PROPERTIES:
@@ -2468,15 +2378,6 @@ De la comutator la bobina CR1, funcţia logică realizată este cea a unei
 porţi ŞI-negat. Contactele CR1 normal-închise inversează şi transformă
 ieşirea funcţiei ŞI-negat într-o funcţie ŞI.
 
-Sumar:
-
--  Contactele conectate în parelel sunt echivalente cu o poartă SAU
--  Contactele conectate în serei sunt echivalente cu o poartă ŞI
--  Contactele normal-închise sunt echivalente cu o poartă NU
--  Pentru inversarea intrărilor pe porţi, se folosesc contacte
-   normal-închis
--  Pentru inversarea ieşirii unei funcţii logice, se folosesc relee
-
 ** Circuite permisive şi de blocare
 :PROPERTIES:
 :CUSTOM_ID: circuite-permisive-si-de-blocare
@@ -2577,15 +2478,6 @@ adiţională însă, se pot folosi şi metode de blocare electrice.
 #+CAPTION:
 [[./poze/00000.png]]
 
-Sumar:
-
--  Contactele permisive sunt instalate pentru întreruperea funcţionării
-   circuitului în cazul în care una sau mai multe condiţii fizice nu
-   sunt îndeplinite
--  Contactele de blocare sunt instalate pentru întâmpinarea situaţie în
-   care două acţiuni ce au loc simultan sunt incompativile (alimentarea
-   directă şi indirecta a unui motor electric, simultan, de exemplu)
-
 ** Circuite logice cu autoprotecţie
 :PROPERTIES:
 :CUSTOM_ID: circuite-logice-cu-autoprotectie
@@ -2675,11 +2567,6 @@ este mai sigur şi preferabil din acest punct de vedere.
 
 #+CAPTION:
 [[./poze/00000.png]]
-
-Sumar:
-
--  
--  
 
 ** Automate programabile (PLC)
 :PROPERTIES:
@@ -2984,11 +2871,6 @@ duplicat cu ajutorul releelor electromecanice, constă în posibilitatea
 supravegherii şi controlului la distanţa a dispozitivelor prin
 intermediul reţelelor de calculatoare.
 
-Sumar:
-
--  
--  
-
 * Algebra booleana
 :PROPERTIES:
 :CUSTOM_ID: algebra-booleana
@@ -3008,11 +2890,6 @@ sau 3 + 4 = 7, presupunem din start că utilizăm un sistem de numeraţie
 zecimal. Regulile aritmetice pe care le considerăm de la sine înţelese -
 adevărate tot timpul şi în orice situaţie - depind de fapt de ceea ce
 înţelegem printr-un număr.
-
-Sumar:
-
--  
--  
 
 ** Aritmetica booleană
 :PROPERTIES:
@@ -3131,15 +3008,6 @@ un contact normal-închis:
 variabile booleene; poartă logică SAU şi contact normal-închis
 [[./poze/14018.png]]
 
-Sumar:
-
--  Adunarea booleană este echivalentă unei porţi logice SAU, precum şi
-   contactelor conectate în paralel
--  Înmulţirea booleană este echivalentă unei porţi logice ŞI, precum şi
-   contactelor conectate în serie
--  Complementarea booleană este echivalentă unei porţi logice NU, precum
-   şi contactelor normal-închise
-
 ** Identităţi algebrice booleene
 :PROPERTIES:
 :CUSTOM_ID: identitati-algebrice-booleene
@@ -3254,11 +3122,6 @@ rezultatul final este valoarea iniţială:
 #+CAPTION: identitate algebrică booleeană; complementul dublu
 [[./poze/14033.png]]
 
-Sumar:
-
--  
--  
-
 ** Proprietăţi algebrice booleene
 :PROPERTIES:
 :CUSTOM_ID: proprietati-algebrice-booleene
@@ -3312,11 +3175,6 @@ asociativitatea şi distributivitatea:
 #+CAPTION: proprietăţi boolene: comutativitatea, asociativitatea şi
 #+CAPTION: distributivitatea
 [[./poze/14034.png]]
-
-Sumar:
-
--  
--  
 
 ** Reguli de simplificare booleană
 :PROPERTIES:
@@ -3389,11 +3247,6 @@ Pe scurt, acestea sunt cele trei reguli ale simplificării booleene:
 
 #+CAPTION: regulile simplificării booleene
 [[./poze/14041.png]]
-
-Sumar:
-
--  
--  
 
 ** Simplificarea circuitelor logice
 :PROPERTIES:
@@ -3540,11 +3393,6 @@ originalul, dar funcţia logică pe care o îndeplineşte este neschimbată:
 #+CAPTION: circuit logic cu relee electromecanice; forma simplificată
 [[./poze/04296.png]]
 
-Sumar:
-
--  
--  
-
 ** Funcţia SAU-exclusiv
 :PROPERTIES:
 :CUSTOM_ID: functia-sau-exclusiv
@@ -3573,11 +3421,6 @@ Ca şi echivalenţă booleeană. această regulă poate fi folositoare în
 cazul simplificării anumitor expresii booleene. Orice expresie de forma
 AB' + A'B (două porţi ŞI şi o poartă SAU), poate fi înlocuită de o
 singură poartă SAU-exclusiv.
-
-Sumar:
-
--  
--  
 
 ** Teoremele lui DeMorgan
 :PROPERTIES:
@@ -3736,13 +3579,6 @@ Circuitul echivalent al expresiei mult simplificate:
 
 #+CAPTION: circuit cu porţi logice echivalent (simplificat)
 [[./poze/04306.png]]
-
-Sumar:
-
--  Teoremele lui DeMorgan descriu echivalenţă dintre porţile cu intrări
-   inversate şi porţi cu ieşirei inversate
--  O poartă ŞI-negat este echivalentă cu o poartă SAU-negativă; O poartă
-   SAU-negat este echivalentă cu o poartă ŞI-negativă
 
 ** Transformarea tabelelor de adevăr în expresii booleene
 :PROPERTIES:
@@ -3908,11 +3744,6 @@ Fie cu relee electromecanice:
 #+CAPTION: electromecanice
 [[./poze/04367.png]]
 
-Sumar:
-
--  
--  
-
 * Harti karnaugh
 :PROPERTIES:
 :CUSTOM_ID: harti-karnaugh
@@ -3942,11 +3773,6 @@ logice.
 
 #+CAPTION:
 [[./poze/00000.png]]
-
-Sumar:
-
--  
--  
 
 ** Diagrame Venn
 :PROPERTIES:
@@ -4572,11 +4398,6 @@ Putem lesne vedea motivul pentru care hărţile Karnaugh sunt preferate
 pentru simplificarea circuitelor logice în detrimentul simplificării
 booleene.
 
-Sumar:
-
--  
--  
-
 ** Hărţi Karnaugh de patru variabile
 :PROPERTIES:
 :CUSTOM_ID: harti-karnaugh-de-patru-variabile
@@ -4715,11 +4536,6 @@ urmare C' + ABD.
 Cazul de mai sus este un exemplu rar a unei probleme cu patru variabile
 ce poate fi redusă destul de uşor şi cu algebra booleană. Asta în cazul
 în care vă amintiţi teoremele de simplificare booleană.
-
-Sumar:
-
--  
--  
 
 ** Mintermeni şi maxtermeni
 :PROPERTIES:
@@ -5103,11 +4919,6 @@ Rezultatul de mai sus este singura modalitate practică de realizarea a
 circuitului folosind TTL cu porţi logice ŞI-negat-ŞI-negat în locul
 porţilor ŞI-SAU.
 
-Sumar:
-
--  
--  
-
 ** Notaţia Σ (sumă) şi notaţia Π (produs)
 :PROPERTIES:
 :CUSTOM_ID: notatia-suma-si-notatia-produs
@@ -5158,11 +4969,6 @@ forma produsului de sume se scrie ca de obicei.
 
 #+CAPTION: harta Karnaugh
 [[./poze/14163.png]]
-
-Sumar:
-
--  
--  
 
 ** Hărţi Karnaugh de 5 şi 6 variabile
 :PROPERTIES:
@@ -5307,11 +5113,6 @@ de mai sus, a redus numărul termenilor la şapte, fiecare cu un număr de
 patru sau mai puţin de patru intrări. Acesta este de fapt scopul
 hărţilor Karnaugh!
 
-Sumar:
-
--  
--  
-
 * Circuite logice combinationale
 :PROPERTIES:
 :CUSTOM_ID: circuite-logice-combinationale
@@ -5367,11 +5168,6 @@ a intrărilor. Acelaşi lucru este valabil şi pentru celelalte porţi
 logice discutate până în acest moment (ŞI, SAU-exclusiv, SAU, SAU-negat,
 SAU-negat-exclusiv şi NU).
 
-Sumar:
-
--  
--  
-
 ** Half-Adder
 :PROPERTIES:
 :CUSTOM_ID: half-adder
@@ -5406,11 +5202,6 @@ Sub forma unei diagrame ladder, circuitul de mai sus arată astfel:
 
 #+CAPTION: diagramă ladder
 [[./poze/04475.png]]
-
-Sumar:
-
--  
--  
 
 ** Full-Adder
 :PROPERTIES:
@@ -5564,9 +5355,4 @@ maxim pentru obţinerea rezultatului final, putem începe partea de
 proiectare prin utilizarea circuitelor sdimple. Putem încerca apoi
 înlocuirea porţiunilor de circuit ce sunt prea „lente”. În acest fel, ne
 putem concentra pe porţiunile de circuit care contează cel mai mult.
-
-Sumar:
-
--  
--  
 

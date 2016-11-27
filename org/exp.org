@@ -318,11 +318,6 @@ următoarelor materiale, de exemplu: plastic, lemn, metal, apă curată,
 apă murdară, apă sărată, sticlă, diamant (de pe un inel), hârtie,
 cauciuc şi hârtie.
 
-Sumar:
-
--  
--  
-
 ** Realizarea unui circuit simplu
 :PROPERTIES:
 :CUSTOM_ID: realizarea-unui-circuit-simplu
@@ -418,11 +413,6 @@ regletă de borne:
 
 #+CAPTION: circuit electric pe o regletă de borne
 [[./poze/05055.png]]
-
-Sumar:
-
--  
--  
 
 ** Măsurarea curentului
 :PROPERTIES:
@@ -531,11 +521,6 @@ rezultatul ar fi similar:
 #+CAPTION: circuit electric pe regleta de borne
 [[./poze/05061.png]]
 
-Sumar:
-
--  
--  
-
 ** Legea lui Ohm (experiment)
 :PROPERTIES:
 :CUSTOM_ID: legea-lui-ohm-(experiment)
@@ -613,11 +598,6 @@ curentului din circuit. Tensiunea ar trebui însă să rămână aproximativ
 egală pentru oricare din rezistorii introduşi în circuit, deoarece
 acesta este rolul unei baterii: să menţină o cădere de tensiune
 constantă între bornele sale.
-
-Sumar:
-
--  
--  
 
 ** Rezistenţa non-liniară
 :PROPERTIES:
@@ -702,11 +682,6 @@ scenarii, atunci ipoteza voastră s-ar putea să fie adevărată, deoarece
 aţi demonstrat-o experimental. În caz contrar, ipoteza voastră s-a
 dovedit falsă. Acest lucru înseamnă că există o altă cauză pentru
 variaţia rezistenţei. Care este aceasta?
-
-Sumar:
-
--  
--  
 
 ** Disiparea puterii
 :PROPERTIES:
@@ -815,11 +790,6 @@ baterie de 6 V va disipa o putere de 3,6 W, de 14,4 ori mai mult decât
 puterea nominală a acestuia. Nu e de mirare atunci că „ia foc” aşa de
 repede după conectarea la baterie.
 
-Sumar:
-
--  
--  
-
 ** Circuit cu înrerupator
 :PROPERTIES:
 :CUSTOM_ID: circuit-cu-inrerupator
@@ -855,11 +825,6 @@ ambele poziţii ale întrerupătorului. Când întrerupătorul este dezactivat
 exemplele precedente, orice întrerupere a circuitului, indiferent de
 locatie, duce la întreruperea curentului prin întreg circuitul.
 Rezultatul este, evident, stingerea becului.
-
-Sumar:
-
--  
--  
 
 ** Realizarea unui electromagnet
 :PROPERTIES:
@@ -921,11 +886,6 @@ folosiţi electromagnetul pentru a atrage diferite obiecte metalice ce le
 aveţi la îndemână (agrafe, ace de gămălie, etc.), la fel cum aţi folosi
 un magnet permanent.
 
-Sumar:
-
--  
--  
-
 ** Inducţia electromagnetică
 :PROPERTIES:
 :CUSTOM_ID: inductia-electromagnetica
@@ -972,11 +932,6 @@ Dacă folosiţi un multimetru analogic, utilizati conductori de legătură
 bobină. Câmpul magnetic generat de magnetul permanent poate afecta buna
 funcţionare a aparatului şi poate indica citiri greşite. Multimetrele
 digitale nu sunt afectate de câpurile magnetice.
-
-Sumar:
-
--  
--  
 
 * Circuite de cc
 :PROPERTIES:
@@ -1031,11 +986,6 @@ Care este valoarea tensiunii în acest caz. Care este diferenţa faţă de
 cazul precedent? Puteţi deduce polaritatea căderii de tensiune,
 cunoscând polarităţile individuale ale bateriilor şi valorile
 tensiunilor lor?
-
-Sumar:
-
--  
--  
 
 ** Conectarea bateriilor în paralel
 :PROPERTIES:
