@@ -1,0 +1,39 @@
+#!/bin/bash
+
+# Update gh-pages. The gh-pages branch is used to publish the
+# generated content to github. Only the useful files are kept in this
+# branch, like html, pdf and image files.  Because the files that are
+# kept in this branch are generated on another branch, and because on
+# that brach the files are .gitignore'd (so not part of the project) I
+# can't switch from the branch that generates to content (after I
+# generate the content, of course) to this gh-pages branch because git
+# complains that the untracked files might be overwriten (which is
+# fair, because they would be). So, for this to work, I first checkout
+# the gh-pages branch and delete all the content and commit the
+# changes. Then checkout the other branch, generate the content, and
+# now I can checkout back into the gh-pages branch, as this does not
+# contain any files now, so there is nothing to be overwriten so not
+# git bitching anymore. Now I can add all the files back in again and
+# make a commit. Sure, the results are two commits for each update,
+# and they look ugly, but hey, the gh-branch only serves to as an
+# up-to-date publish location, so I'm not interested in the history at
+# all. If necessary, all the commits in the gh-pages branch can be
+# reproduced by generating the content from different commits in the
+# other branch.
+
+branch=$(git branch | awk '/\*/{print $2}')
+git checkout gh-pages
+rm *.html *.pdf *.gz
+git add -A
+git commit -m "Cleanup for the next update"
+git checkout master
+./setup.sh
+git checkout gh-pages
+git add -A
+git commit -m "Update content"
+# Go back to where we came from.
+git checkout $branch
+
+
+
+
