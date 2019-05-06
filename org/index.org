@@ -3,69 +3,25 @@
 #+OPTIONS: toc:nil num:nil
 
 * Prefata
-Carte de fata reprezinta o introducere cat se poate de accesibila
-asupra unor subiecte care de multe ori se pradau atat in liceu cat si
-la facultate la sectiile cu profil tehnic.  Acele lectii sau cursuri
-sunt insa, adesea, croite parca pentru genii, desii impresia mea
-formata de-a lungul anilor este ca de cele mai mult ori chiar
-profesorii care ar trebui sa aduca lumina in acest domeniu, nu sunt
-foarte luminati nici ei. Iar cartile si manualele stufoase existente
-nu ajuta nici ele in acest sens. De aici si nevoia cartii de fata,
-care isi propune sa elucideze fenomene si concepte fundamentale,
-precum curentul, tensiunea, electromagnetismul, rolul rezistentei
-intr-un circuit, dar si tranzistori si amplificatoare, folosind
-exemple concrete in jurul unui limbaj usor digerabil chiar si de catre
-incepatori.
+Traducerea in romana a cartii
+[[https://www.ibiblio.org/kuphaldt/electricCircuits/][Lessons in
+Electric Circuits]], de Tony R. Kuphaldt. 
 
-Pentru ca asa este frumos, voi mentiona ca lucrarea de fata este o
-traducere din limba engleza a cartii [[https://www.ibiblio.org/kuphaldt/electricCircuits/][Lessons in Electric Circuits]], de
-Tony R. Kuphaldt si este publicata sub licenta [[https://www.ibiblio.org/kuphaldt/electricCircuits/Devel/dsl.html][DSL]].
+Continut aflat sub licenta
+[[https://www.ibiblio.org/kuphaldt/electricCircuits/Devel/dsl.html][DSL]].
 
-De-a lungul anilor am avut ocazia sa-mi confirm faptul ca cea mai buna
-metoda de a invata este de a experimenta pe cont propriu. Desigur,
-teoria isi are locul ei incontestabil, dar cativa rezistori si doua
-LED-uri pot foarte rapid sa-ti cimenteze conceptele invatate.  Asadar,
-iti recomand, daca ai ocazia, sa-ti achizionezi cateva componente de
-baza, precum un multimetru, un breadboard, cativa rezistori, cateve
-LED-uri, condensatori, o baterie.  Desigur, pare infricosator la
-inceput, dar nu o sa dai foc la casa in caze ca nu-ti iese din
-prima. In cel mai rau caz ai sa arzi un LED. Asta va fi prima ta
-lectie, si, dupa cum vei vedea mult mai incolo, cea mai valoroasa.
+Traducerea: [[http://mihaiolteanu.me/][Mihai Olteanu]]
 
 * Capitole
-*** [[file:cc.org][Curent continuu]]
-*** [[file:ca.org][Curent alternativ]]
-*** [[file:ea.org][Electronica analogica]]
-*** [[file:ed.org][Electronica digitala]]
-*** [[file:exp.org][Experimente]]
+*** [[file:curent-continuu.org][Curent continuu]]
+*** [[file:curent-alternativ.org][Curent alternativ]]
+*** [[file:electronica-analogica.org][Electronica analogica]]
+*** [[file:electronica-digitala.org][Electronica digitala]]
+*** [[file:experimente.org][Experimente]]
 
 
-* Descarca PDF si HTML
-Mai jos am pregatit toate capitolele in format html, cat si pdf in caz
-ca vrei sa accesezi continutul offline sau poate vrei sa-l printezi si
-sa-l ai la indemana tot timpul. Vei avea nevoie de programul 7zip
-pentru extragerea arhivei.
-
+* Varianta PDF si HTML
 [[file:circuite.tar.gz][Descarca]]
 
 * Codul sursa
-Daca te pricepi, sau vrei sa te pricepi, proiectul de fata se
-regaseste pe [[https://github.com/mihaiolteanu/circuiteelectrice][Github]]. Poti copia, modifica, sau face ce doresti cu
-acest continut, atata timp cat respecti licenta DSL.  Printre altele,
-sa mentionezi sursa de unde ai preluat continutul. Desigur, in cazul
-in care consideri ca poti aduce imbunatatiri continutului, o poti face
-printr-un [[https://help.github.com/articles/about-pull-requests/][PR]] sau printr-un [[https://github.com/mihaiolteanu/circuiteelectrice/issues][New Issue]], sau imi poti trimite un mail.
-
-Intregul continut este sub forma de fisiere org-mode. Aceste este un
-tip de continut folosit de [[https://www.gnu.org/software/emacs/][Emacs]]. Seamana cu fisierele de tip text,
-dar contine si adnotari care sunt folosite fie pentru a naviga mai
-facil in interiorul fisierului dar si pentru a genera un alt tip de
-continut bazat pe aceste fisiere org-mode. Asadar, folosind un mic
-shell script, se genereaza automate fisiere html din aceste fisiere
-org-mode. Iar din fisierele html se genereaza, tot automat, si
-PDF-urile. Prin urmare, daca ai Linux si vrei sa incerci (nu stiu pe
-Windows cum ar putea functiona toata treaba asta, probabil cu
-[[https://babun.github.io/][babun]]?!), doar trebuie sa copiezi proiectul local si apoi sa lansezi
-script-ul de care aminteam mai sus:
-: $ git clone https://github.com/mihaiolteanu/circuiteelectrice
-: $ ./setup.sh
+[[https://github.com/mihaiolteanu/circuite-electrice][Github]]

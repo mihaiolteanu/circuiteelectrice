@@ -456,9 +456,6 @@ un topic ce-l vom discuta pe larg mai târziu.
 :CUSTOM_ID: circuite-electrice
 :END:
 
-#+CAPTION: http://www.flickr.com/photos/judybaxter/2656574939/sizes/l/
-[[poza\_meniu2]]
-
 Poate vă întrebaţi cum este posibil ca electronii să se deplaseze
 continuu într-o direcţie uniformă prin fire dacă nu am lua în
 considerare aceste Surse şi Destinaţii ipotetice. Pentru ca aceste
@@ -10741,15 +10738,15 @@ conductiv (ρ), doar că relaţia este inversă, o permeabilitate mai mare
 
 Mai jos este tabelul cu unităţile de măsură pentru fiecare mărime:
 
-| Cantitate                    | Simbol              | Unitate de măsură         |
-|------------------------------+---------------------+---------------------------|
-| tensiunea magnetomotoare     | mmf                 | Amper (A)                 |
-| fluxul magnetic              | Φ                   | Weber (Wb)                |
-| intensitatea magnetică       | H                   | Amper / metru (A m^{-1})  |
-| densitatea fluxului magnetic | B                   | Tesla (T)                 |
-| reluctanţa                   | [[poze/reluctanta.png]] | Amper / Weber (A Wb^{-1}) |
-| permeabilitatea              | µ                   | Henry / metru (H m^{-1})  |
-|                              |                     |                           |
+| Cantitate                    | Simbol | Unitate de măsură         |
+|------------------------------+--------+---------------------------|
+| tensiunea magnetomotoare     | mmf    | Amper (A)                 |
+| fluxul magnetic              | Φ      | Weber (Wb)                |
+| intensitatea magnetică       | H      | Amper / metru (A m^{-1})  |
+| densitatea fluxului magnetic | B      | Tesla (T)                 |
+| reluctanţa                   | -      | Amper / Weber (A Wb^{-1}) |
+| permeabilitatea              | µ      | Henry / metru (H m^{-1})  |
+|                              |        |                           |
 
 Relaţiile dintre tensiunea magnetomotoare, fluxul magnet şi reluctanţă
 sunt asemenea relaţiilor dintre mărimile electrice precum tensiunea
