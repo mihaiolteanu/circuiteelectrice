@@ -2179,7 +2179,7 @@ pământ, dar de data aceasta avem /doi/ oameni ce ating circuitul în două
 puncte cu potenţiale diferite:
 
 #+CAPTION: circuit fără împământare - electrocutarea ambelor persoane
-atunci când fiecare dintre ele atunge un punct din circuit cu potenţial
+#+CAPTION: atunci când fiecare dintre ele atunge un punct din circuit cu potenţial
 #+CAPTION: electric diferit
 [[./poze/00061.png]]
 
@@ -2519,7 +2519,7 @@ valoarea oricărei rezistenţe luată individual (link!).
 #+CAPTION: rezistenţa corpului într-un circuit electric
 [[./poze/00062.png]] 
 #+CAPTION: persoanele ce intră în contact direct
-cu sursele de tensiune: curentul este limitat doar de rezistenţa
+#+CAPTION: cu sursele de tensiune: curentul este limitat doar de rezistenţa
 #+CAPTION: corpului
 [[./poze/10029.png]]
 
@@ -2529,9 +2529,8 @@ purtând mănuşi şi încălţăminte de protecţie (izolate electric):
 #+CAPTION: rezistenţa corpului plus cea a încălţăminte şi mănuşilor de
 #+CAPTION: protecţie într-un circuit electric
 [[./poze/00063.png]] 
-#+CAPTION:
-persoanele ce poartă mănuşi şi încălţăminte de protecţie: curentul este
-limitat acum de valoarea totală a rezistenţei din circuit
+#+CAPTION: persoanele ce poartă mănuşi şi încălţăminte de protecţie: curentul este
+#+CAPTION: limitat acum de valoarea totală a rezistenţei din circuit
 [[./poze/10030.png]]
 
 Deoarece curentul trebuie acum să treacă prin încălţăminte, prin corp şi
@@ -2597,7 +2596,7 @@ circuitului, pentru a ne asigura că nu este posibilă în niciun fel
 apariţia unei căderi de tensiune la bornele sarcinii:
 
 #+CAPTION: asigurarea suplimentară a unui circuit deconectat de la sursa
-de putere prin realizarea unei împământări temporare a părţii din
+#+CAPTION: de putere prin realizarea unei împământări temporare a părţii din
 #+CAPTION: circuit neconectate iniţial la împământare
 [[./poze/00065.png]]
 
@@ -2610,7 +2609,7 @@ Din moment ce existenţa împământărilor pe ambele părţi ale circuitului
 asigura circuitul prin exact această metodă:
 
 #+CAPTION: asigurarea suplimentară a unui circuit deconectat de la sursa
-de putere prin realizarea unui scurt-circuit cu ajutorul unui conductor
+#+CAPTION: de putere prin realizarea unui scurt-circuit cu ajutorul unui conductor
 #+CAPTION: plasat între cele două părţi ale circuitului
 [[./poze/00066.png]]
 
@@ -2813,7 +2812,7 @@ de potenţial dintre picioarele sale (!!! Curentul „alege” calea cea mai
 puţin rezistentă din punct de vedere electric !!!)
 
 #+CAPTION: linie electrică căzută la pământ - electrocutarea persoanei
-ce se află între punctul de contact al liniei electrice şi punctul de
+#+CAPTION: ce se află între punctul de contact al liniei electrice şi punctul de
 #+CAPTION: împământare al reţelei
 [[./poze/00069.png]]
 
@@ -2870,7 +2869,7 @@ curentul spre elementul de încălzire sunt izolate faţă de carcasa
 metalică, precum şi între ele, cu un material plastic sau de cauciuc.
 
 #+CAPTION: conectarea unui aparat electric cu carcasă metalică la
-reţeaua de alimentare - căderea de tensiune între carcasa metalică şi
+#+CAPTION: reţeaua de alimentare - căderea de tensiune între carcasa metalică şi
 #+CAPTION: pământ este de 0 volţi
 [[./poze/00071.png]]
 
@@ -2882,8 +2881,8 @@ directă a firului. Dacă aceasta situaţie duce sau nu la electrocutare
 depinde de natura firului ce atinge carcasa:
 
 #+CAPTION: conectarea unui aparat electric cu carcasă metalică la
-reţeaua de alimentare; la contactul accidental dintre fază şi carcasa
-metalică, există o cădere de tensiune potenţial periculoasă între
+#+CAPTION: reţeaua de alimentare; la contactul accidental dintre fază şi carcasa
+#+CAPTION: metalică, există o cădere de tensiune potenţial periculoasă între
 #+CAPTION: carcasă şi pământ
 [[./poze/00072.png]]
 
@@ -2893,8 +2892,8 @@ real pericol. Pe de altă parte, dacă neutrul este cel ce atinge carcasa
 metalică, nu există niciun pericol de electrocutare:
 
 #+CAPTION: conectarea unui aparat electric cu carcasă metalică la
-reţeaua de alimentare; la contactul accidental dintre neutru şi carcasa
-metalică, nu există niciun pericol de electrocutare
+#+CAPTION: reţeaua de alimentare; la contactul accidental dintre neutru şi carcasa
+#+CAPTION: metalică, nu există niciun pericol de electrocutare
 [[./poze/00073.png]]
 
 Pentru a se asigura că primul caz este mai puţin probabil decât
@@ -2906,8 +2905,8 @@ acesteia poate fi inversată, atunci firul ce intră în contact cu carcasa
 poate la fel de bine să fie cel aflat sub tensiune:
 
 #+CAPTION: conectarea unui aparat electric cu carcasă metalică la
-reţeaua de alimentare; inversarea polarităţii prizei înseamnă ca orice
-fir care vine în contact cu carcasa prezintă un potenţial pericol de
+#+CAPTION: reţeaua de alimentare; inversarea polarităţii prizei înseamnă ca orice
+#+CAPTION: fir care vine în contact cu carcasa prezintă un potenţial pericol de
 #+CAPTION: electrocutare
 [[./poze/00074.png]]
 
@@ -2932,7 +2931,7 @@ carcasa metalică pentru asigurarea unei legături directe şi sigure între
 aceasta şi pământ:
 
 #+CAPTION: conectarea unui aparat electric cu carcasă metalică la
-reţeaua de alimentare; folosirea prizei cu împământare pentru
+#+CAPTION: reţeaua de alimentare; folosirea prizei cu împământare pentru
 #+CAPTION: înlăturarea pericolului electrocutării
 [[./poze/00075.png]]
 
@@ -2976,7 +2975,7 @@ prin neutru şi amplifică valoarea sa prin fază, ducând la o diferenţă de
 curent între cele două:
 
 #+CAPTION: conectarea unui aparat electric cu carcasă metalică la
-reţeaua de alimentare; diferenţa de curent între fază şi neutru în cazul
+#+CAPTION: reţeaua de alimentare; diferenţa de curent între fază şi neutru în cazul
 #+CAPTION: electrocutării
 [[./poze/00077.png]]
 
@@ -2991,8 +2990,8 @@ acesteia poate fi folosită pentru deschiderea unui întrerupător pentru a
 prevenirea electrocutării:
 
 #+CAPTION: conectarea unui aparat electric cu carcasă metalică la
-reţeaua de alimentare; deschiderea automată a întrerupătorului în cazul
-existenţei unei diferenţe prea mari între curenţii fazei şi al neutrului
+#+CAPTION: reţeaua de alimentare; deschiderea automată a întrerupătorului în cazul
+#+CAPTION: existenţei unei diferenţe prea mari între curenţii fazei şi al neutrului
 [[./poze/00078.png]]
 
 ** Utilizarea aparatelor de măsură
@@ -3251,7 +3250,7 @@ tinde practic la 0 Ω. În poziţia „V”, lucrurile stau exact invers,
 rezistenţa dintre vârfurile sondelor este de ordinul mega-ohmilor (MΩ).
 
 #+CAPTION: multimetru digital setat pentru măsurarea curentului dar
-folosit pentru măsurarea tensiunii; apariţia scurt-circuitului
+#+CAPTION: folosit pentru măsurarea tensiunii; apariţia scurt-circuitului
 [[./poze/00351.png]]
 
 Pentru a preveni acest lucru, majoritatea multimetrlor produc un
@@ -3630,8 +3629,7 @@ circuit:
 
 #+CAPTION: circuit serie
 [[./poze/00088.png]] 
-#+CAPTION: relaţii
-#+CAPTION: matematice
+#+CAPTION: relaţii matematice
 [[./poze/10056.png]]
 
 Din moment ce punctele 1 şi 2 sunt conectate împreună printr-un fir de o
@@ -3775,8 +3773,7 @@ curenţilor prin fiecare ramură (fiecare rezistor în parte):
 
 #+CAPTION: circuit paralel
 [[./poze/00093.png]] 
-#+CAPTION: calcule
-#+CAPTION: matematice
+#+CAPTION: calcule matematice
 [[./poze/10074_2.png]]
 
 Pe măsură ce curentul iese prin terminalul negativ (-) al bateriei la
@@ -5639,7 +5636,7 @@ Luând în considerare acest principiu, un detector de nul sensibil poate
 fi realizat dintr-o simplă pereche de căşti şi un întrerupător.
 
 #+CAPTION: detector de nul realizat cu ajutorul unei perechi de căşti şi
-un întrerupător; adăugarea în circuit a unui transformator
+#+CAPTION: un întrerupător; adăugarea în circuit a unui transformator
 [[./poze/00426.png]]
 
 Dacă folosim o pereche de căşti de 8 Ω, sensibilitatea aparatului poate
@@ -7427,8 +7424,7 @@ plecat:
 
 #+CAPTION: circuit electric
 [[./poze/00384.png]] 
-#+CAPTION: circuit
-#+CAPTION: electric
+#+CAPTION: circuit electric
 [[./poze/00385.png]] 
 #+CAPTION: circuit electric
 [[./poze/00386.png]] 
@@ -7469,8 +7465,7 @@ ecuaţie.
 
 #+CAPTION: circuit electric
 [[./poze/00388.png]] 
-#+CAPTION: circuit
-#+CAPTION: electric
+#+CAPTION: circuit electric
 [[./poze/00389.png]] 
 #+CAPTION: circuit electric
 [[./poze/00390.png]] 
@@ -8335,8 +8330,7 @@ prin urmare egale:
 
 #+CAPTION: circuit electric
 [[./poze/00241.png]] 
-#+CAPTION: circuit
-#+CAPTION: electric
+#+CAPTION: circuit electric
 [[./poze/00245.png]] 
 #+CAPTION: formulă [[./poze/10197.png]]
 
@@ -9887,7 +9881,7 @@ efecte unice. Într-un astfel de circuit, menţinerea curenţilor mari este
 posibilă fără aplicarea niciunei tensiuni externe.
 
 #+CAPTION: într-un circuit închis, format din fire supraconductoare,
-curentul electric poate fi susţinut pentru o perioadă de timp practic
+#+CAPTION: curentul electric poate fi susţinut pentru o perioadă de timp practic
 #+CAPTION: infinită, fără aplicarea unei tensiuni externe
 [[./poze/00290.png]]
 
@@ -10235,8 +10229,7 @@ acest caz:
 
 #+CAPTION: circuit electric
 [[./poze/00400.png]] 
-#+CAPTION: tensiunea
-#+CAPTION: şi curentul printr-un condensator
+#+CAPTION: tensiunea şi curentul printr-un condensator
 [[./poze/00401.png]]
 
 Analiza matematica introduce de fapt conceptul de /rată de variaţie/
@@ -10476,7 +10469,7 @@ numele de condensatoare /electrolitice/, iar polaritatea lor este tot
 timpul precizată. Simbolul condensatorului electrolitic este prezentat
 în următoarea figură:
 
-#+CAPTION: simbolul condensatorului electrolotic
+#+CAPTION: simbolul condensatorului electrolitic
 [[./poze/00301.png]]
 
 Armătura curbată reprezintă tot timpul armătura negativa. Inversarea
@@ -12106,7 +12099,9 @@ După ce am identificat condensatorul ca fiind „sarcina” circuitului, îl
 este închis)
 
 #+CAPTION: analiza circuitului RC complex folosind teorema lui Thevenin
-- tensiunea Thevenin [[./poze/00336.png]] #+CAPTION: tabel
+#+CAPTION: - tensiunea Thevenin 
+[[./poze/00336.png]]
+ #+CAPTION: tabel
 [[./poze/10259.png]]
 
 Acest pas al analizei reflectă faptul că tensiunea la bornele sarcinii
@@ -12122,14 +12117,17 @@ sursele de putere din circuitul original şi să recalculăm rezistenţa aşa
 cum este ea văzută de la terminalele sarcinii:
 
 #+CAPTION: analiza circuitului RC complex folosind teorema lui Thevenin
-- rezistenţa Thevenin [[./poze/00337.png]] #+CAPTION: formule
+#+CAPTION: - rezistenţa Thevenin 
+[[./poze/00337.png]]
+ #+CAPTION: formule
 [[./poze/10260.png]]
 
 Următorul pas este redesenarea circuitului original sub forma
 circuitului echivalent Thevenin:
 
 #+CAPTION: analiza circuitului RC complex folosind teorema lui Thevenin
-- circuitul echivalent [[./poze/00338.png]]
+#+CAPTION: - circuitul echivalent
+ [[./poze/00338.png]]
 
 Constanta de timp pentru acest circuit va fi egală cu produsul dintre
 rezistenţa Thevenin şi capacitatea condensatorului (τ=RC). Cu valorile

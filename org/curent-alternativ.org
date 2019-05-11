@@ -131,7 +131,7 @@ analogie mecanică, folosind cuplul şi viteza pentru reprezentarea
 tensiunii şi respectiv a curentului.
 
 #+CAPTION: analogie între transformator şi angrenajul mecanic unde
-cuplul reprezintă tensiunea şi viteza reprezintă curentul
+#+CAPTION: cuplul reprezintă tensiunea şi viteza reprezintă curentul
 [[./poze/02005.png]]
 
 Dacă inversăm raportul numărului de spire dintre primar şi secundar,
@@ -148,7 +148,7 @@ urmare şi pierderile sunt mai mici), si coborârea acesteia pentru
 utilizarea de către consumatori.
 
 #+CAPTION: principiul reţelei de distribuţie a energiei electrice -
-folosirea transformatoarelor ridicătoare şi coborâtoare de tensiune
+#+CAPTION: folosirea transformatoarelor ridicătoare şi coborâtoare de tensiune
 [[./poze/02007.png]]
 
 Tehnologia proiectării transformatoarelor face posibilă existenţa
@@ -294,7 +294,7 @@ triunghiulară cu aceeiaşi valoare maximă de 10 V. Efectele acestor două
 tipuri de undă asupra unei sarcini sunt diferite:
 
 #+CAPTION: efectele undelor dreptunghiulare şi triunghiulare, ambele cu
-o amplitudine de vârf de 10 V, asupra aceleiaşi sarcini sunt diferite
+#+CAPTION: o amplitudine de vârf de 10 V, asupra aceleiaşi sarcini sunt diferite
 [[./poze/02013.png]]
 
 O modalitate de exprimare a amplitudinilor diferitelor forme de undă
@@ -307,7 +307,7 @@ va fi zero, datorită anulării reciproce dintre valorile pozitive şi cele
 negative pe o perioadă completă:
 
 #+CAPTION: valoarea medie a tuturor punctelor de pe graficul unei forme
-de undă sinusoidală, luând în considerare şi semnul acestora, este zero
+#+CAPTION: de undă sinusoidală, luând în considerare şi semnul acestora, este zero
 [[./poze/02412.png]]
 
 Acest lucru este valabil pentru oricare formă de undă constituită din
@@ -320,7 +320,7 @@ considerând toate punctele de pe grafic ca fiind pozitive, prin
 orizontală:
 
 #+CAPTION: valoarea medie practică a tuturor punctelor de pe graficul
-unei forme de undă sinusoidală, considerând toate punctele de pe grafic
+#+CAPTION: unei forme de undă sinusoidală, considerând toate punctele de pe grafic
 #+CAPTION: ca fiind pozitive
 [[./poze/02413.png]]
 
@@ -377,7 +377,7 @@ sau tensiunii în curent continuu ce ar produce aceeişi cantitate de
 energie disipată pe o rezistenţă egală.
 
 #+CAPTION: disiparea unei puteri egale pe două rezistoare egale folosind
-valoarea efectivă a tensiunii şi a curentului alternativ
+#+CAPTION: valoarea efectivă a tensiunii şi a curentului alternativ
 [[./poze/02015.png]]
 
 În cele două circuite de mai sus, avem aceeiaşi valoare a sarcinii,
@@ -422,7 +422,7 @@ relaţiei dintre valorile de vârf, vârf la vârf, medii practice şi
 valorii efective ale acestora:
 
 #+CAPTION: coeficienţi pentru calcularea relaţiei dintre valorile de
-vârf, vârf la vârf, medii practice şi valorii efective pentru formele de
+#+CAPTION: vârf, vârf la vârf, medii practice şi valorii efective pentru formele de
 #+CAPTION: undă sinusoidale, dreptunghiulare şi triunghiulare
 [[./poze/02016.png]]
 
@@ -445,7 +445,7 @@ aceste constante, nu se pot aplica în cazul formele de undă
 distorsionate:
 
 #+CAPTION: pentru o formă de undă distorsionată nu putem folosi aceeiaşi
-coeficienţi pentru calcularea relaţiei dintre valorile de vârf, vârf la
+#+CAPTION: coeficienţi pentru calcularea relaţiei dintre valorile de vârf, vârf la
 #+CAPTION: vârf, medii şi efective
 [[./poze/02017.png]]
 
@@ -512,7 +512,7 @@ grade. Putem folosi această scară pentru axa orizontală pentru a exprima
 valoarea defazajului dintre cele două unde:
 
 #+CAPTION: folosirea axei orizontale gradate de la 0 la 360 de grade
-pentru vizualizarea defazajului dintre două forme de undă sinusoidale -
+#+CAPTION: pentru vizualizarea defazajului dintre două forme de undă sinusoidale -
 #+CAPTION: defazaj de 45 de grade
 [[./poze/02020.png]]
 
@@ -708,7 +708,7 @@ alternativ cu ajutorul vectorilor, unde lungimea vectorului reprezintă
 amplitudinea undei, asfel:
 
 #+CAPTION: reprezentarea formelor de undă în curent alternativ cu
-ajutorul vectorilor, unde lungimea vectorului reprezintă amplitudinea
+#+CAPTION: ajutorul vectorilor, unde lungimea vectorului reprezintă amplitudinea
 #+CAPTION: undei
 [[./poze/02031.png]]
 
@@ -722,7 +722,7 @@ faza este tot timpul o mărime relativă dintre două unde şi nu o
 proprietate absolută a undelor.
 
 #+CAPTION: reprezentarea formelor de undă în curent alternativ cu
-ajutorul vectorilor; faze şi relaţii pentru defazaje de 0, 90, -90
+#+CAPTION: ajutorul vectorilor; faze şi relaţii pentru defazaje de 0, 90, -90
 #+CAPTION: respectiv 180 de grade
 [[./poze/02032.png]] 
 #+CAPTION: relaţia grafică
@@ -752,7 +752,7 @@ fază sunt conectate în serie, tensiunile lor se adună asemenea
 tensiunilor bateriilor:
 
 #+CAPTION: dacă două sau mai multe surse de curent alternativ cu
-aceeiaşi fază sunt conectate în serie, tensiunile lor se adună asemenea
+#+CAPTION: aceeiaşi fază sunt conectate în serie, tensiunile lor se adună asemenea
 #+CAPTION: tensiunilor bateriilor
 [[./poze/02034.png]]
 
@@ -774,7 +774,8 @@ negativ:
 asemenea bateriilor de curent continuu conectate în opoziţie:
 
 #+CAPTION: adunarea tensiunilor în curent alternativ aflate în antifază
-(180 grade) [[./poze/02036.png]]
+#+CAPTION: (180 grade)
+ [[./poze/02036.png]]
 
 Pentru a determina dacă cele două surse se află în opoziţie una faţă de
 celalată, este nevoie de o examinare atentă atât a polarităţii (+ sau -)
@@ -791,7 +792,8 @@ pentru a da tensiunea finală, deoarece faza uneia dintre ele este de
 Un alt exemplu în care tensiunile se scad este următorul:
 
 #+CAPTION: adunarea tensiunilor în curent alternativ aflate în antifază
-(180 grade) [[./poze/02267.png]]
+#+CAPTION: (180 grade)
+ [[./poze/02267.png]]
 
 După cât am văzut mai sus, există două moduri de reprezentare a
 rezultatului final:
@@ -804,7 +806,7 @@ O inversare a firelor sursei de curent alternativ este echivalentă cu
 schimbarea fazei acelei surse cu 180 de grade:
 
 #+CAPTION: echivalenţa dintre două surse de tensiune alternative; una cu
-polaritatea schimbată şi faza modificată cu 180 de grade faţă de
+#+CAPTION: polaritatea schimbată şi faza modificată cu 180 de grade faţă de
 #+CAPTION: cealaltă
 [[./poze/02266.png]]
 
@@ -1373,7 +1375,7 @@ este atât de mare, doar 37.016^{o}, faţă de 90^{o} în cazul circuitului
 pur inductiv.
 
 #+CAPTION: formele de undă ale curentului şi tensiunii pentru un circuit
-electric rezistiv-inductiv serie în curent alternativ
+#+CAPTION: electric rezistiv-inductiv serie în curent alternativ
 [[./poze/02063.png]]
 
 Relaţiile de fază pentru rezistor şi bobină, luate individual, nu s-au
@@ -1589,7 +1591,7 @@ Matematic, relaţia dintre curentul condensatorului şi rata de variaţie a
 tensiunii la bornele acestuia, se exprimă asfel:
 
 #+CAPTION: expresia matematică a relaţiei dintre curentul
-condensatorului şi rata de variaţie a tensiunii la bornele acestuia
+#+CAPTION: condensatorului şi rata de variaţie a tensiunii la bornele acestuia
 [[./poze/12041.png]]
 
 Expresia /de/dt/ exprimă rata de variaţie a tensiunii instantanee (e) în
@@ -1684,8 +1686,7 @@ circuit:
 
 #+CAPTION: circuit capacitiv simplu
 [[./poze/02072.png]] 
-#+CAPTION:
-calcularea curentului într-un circuit pur capacitiv
+#+CAPTION: calcularea curentului într-un circuit pur capacitiv
 [[./poze/12043.png]]
 
 Totuşi, trebuie să ne reamintim faptul că tensiunea şi curentul nu sunt
@@ -2298,7 +2299,7 @@ va încărca foarte repede, iar bobina se va opune variaţiei curentului;
 prin urmare condensatorul va fi încărcat, iar bobina descărcată:
 
 #+CAPTION: pendul electric - încărcarea circuitului; condansator
-încărcat la tensiunea de vârf, bobina descărcată, curent zero
+#+CAPTION: încărcat la tensiunea de vârf, bobina descărcată, curent zero
 [[./poze/02086.png]]
 
 Condensatorul va începe să-şi descarce energia înmagazinată pe bobină,
@@ -2325,7 +2326,7 @@ elementul ce primeşte acest curent, va începe să acumuleze o sarcină de
 polaritate inversă faţă de polaritatea sa iniţială:
 
 #+CAPTION: pendul electric - încărcarea condensatorului, creşterea
-tensiunii; descărcarea bobine, descreşterea curentului
+#+CAPTION: tensiunii; descărcarea bobine, descreşterea curentului
 [[./poze/02089.png]]
 
 Atunci când curentul prin bobină se epuizează iar energia înmagazinată
@@ -2360,7 +2361,7 @@ menţinerea acestuia. În acest fel, condensatorul va începe să se încarce
 din nou, iar amplitudinea curentului din circuit va descreşte din nou:
 
 #+CAPTION: pendul electric - încărcarea condensatorului, creşterea
-tensiunii; descărcarea bobinei, descreşterea curentului
+#+CAPTION: tensiunii; descărcarea bobinei, descreşterea curentului
 [[./poze/02093.png]]
 
 Până la urmă condensatorul se va încărca complet (din nou) pe măsură ce
@@ -2509,7 +2510,6 @@ se anulează reciproc iar impedanţa totală scade la zero!
 
 #+CAPTION: circuit rezonant serie (LC)
 [[./poze/02098.png]] 
-#+CAPTION:
 #+CAPTION: formule
 [[./poze/12092.png]]
 
@@ -2528,7 +2528,8 @@ anterior este valabilă atât pentru circuitele LC paralel cât şi pentru
 cele serie:
 
 #+CAPTION: formula de calcul a frecvenţei de rezonanţă pentru circuitele
-LC serie şi paralel [[./poze/12091.png]]
+#+CAPTION: LC serie şi paralel
+ [[./poze/12091.png]]
 
 Atenţie, datorită curenţilor mari ce se pot dezvoltă într-un circuit LC
 serie la rezonantă, este posibilă apariţia unor căderi de tensiune
@@ -2614,7 +2615,7 @@ calculată.
 #+CAPTION: circuit LC paralel; rezistor serie cu condensatorul
 [[./poze/02103.png]] 
 #+CAPTION: circuit LC paralel; rezistor serie cu
-condensatorul; graficul variaţiei curentului cu frecvenţa
+#+CAPTION: condensatorul; graficul variaţiei curentului cu frecvenţa
 [[./poze/22009.png]]
 
 Curentul minim în acest caz este la frecvenţa de 180 Hz, nu la 159.2.
@@ -2643,7 +2644,7 @@ bobina, prezintă un curent maxim la o frecvenţă de 180 Hz, faţă de
 #+CAPTION: circuit LC serie; rezistor paralel cu condensatorul
 [[./poze/02105.png]] 
 #+CAPTION: circuit LC serie; rezistor paralel cu
-condensatorul; graficul variaţiei curentului cu frecvenţa
+#+CAPTION: condensatorul; graficul variaţiei curentului cu frecvenţa
 [[./poze/22011.png]]
 
 Şi în acest caz, curentul maxim prin circuit nu se mai produce la
@@ -2687,9 +2688,8 @@ prezentat mai jos:
 
 #+CAPTION: circuit RLC serie; frecvenţa de rezonanţă nu este afectată de
 #+CAPTION: introducerea unei rezistenţe în serie
-[[./poze/02106.png]] 
-#+CAPTION:
-circuit RLC serie; graficul variaţiei curentului cu frecvenţa
+[[./poze/02106.png]]
+#+CAPTION: circuit RLC serie; graficul variaţiei curentului cu frecvenţa
 [[./poze/22012.png]]
 
 Valoarea curentului maxim este din nou atinsă pentru frecvenţa de 159.2
@@ -2819,8 +2819,8 @@ cablurilor răsucite (twisted) formate din doi conductori, şi nu doar
 printr-un singur fir şi conexiunea acestuia la împământare:
 
 #+CAPTION: cuplaj inductiv şi cuplaj capacitiv între un circuit de
-curent continuu şi unul de curent alternativ; folosirea cablurilor
-răsucite şi ecranate pentru reducerea efectelor cuplajelor
+#+CAPTION: curent continuu şi unul de curent alternativ; folosirea cablurilor
+#+CAPTION: răsucite şi ecranate pentru reducerea efectelor cuplajelor
 [[./poze/02303.png]]
 
 Ecranajul cablului - o folie metalică înfăşurată în jurul celor doi
@@ -2959,8 +2959,7 @@ Adăugăm pe rând şi armonicele a 7-a, respectiv a 9-a:
 #+CAPTION: graficul formei de undă sinusoidale fundamentale, la 50 Hz,
 #+CAPTION: plus armonicele a 3-a, a 5-a şi a 7-a
 [[./poze/22016.png]] 
-#+CAPTION:
-graficul formei de undă sinusoidale fundamentale, la 50 Hz, plus
+#+CAPTION: graficul formei de undă sinusoidale fundamentale, la 50 Hz, plus
 #+CAPTION: armonicele a 3-a, a 5-a, a 7-a şi a 9-a
 [[./poze/22017.png]]
 
@@ -3134,7 +3133,7 @@ axa orizontală a undei. O formă de undă simetrică faţă de axa orizontală
 nu va prezenta armonici pare:
 
 #+CAPTION: forme de undă ce nu conţin armonici pare (dreptunghiulară,
-triunghiulară şi pur sinusoidală) - simetrice faţă de axa orizontală
+#+CAPTION: triunghiulară şi pur sinusoidală) - simetrice faţă de axa orizontală
 [[./poze/02293.png]]
 
 Formele de undă de mai sus, fiind toate simetrice faţă de orizontală,
@@ -3159,7 +3158,7 @@ diferenţă fiind componenta de curent continuu, care însă nu afectează în
 niciun fel conţinutul armonicilor (frecvenţa ei este zero):
 
 #+CAPTION: forme de undă ce nu conţin armonici pare (dreptunghiulară,
-triunghiulară şi pur sinusoidală plus o componentă de curent continuu) -
+#+CAPTION: triunghiulară şi pur sinusoidală plus o componentă de curent continuu) -
 #+CAPTION: simetrice faţă de axa lor orizontală
 [[./poze/02296.png]]
 
@@ -3205,7 +3204,7 @@ Primul pas constă în analiza circuitului alimentat doar cu sursa de
 tensiune de 60 Hz:
 
 #+CAPTION: circuit electric alimentat printr-o combinaţie de frecvenţe
-de 60 Hz, respectiv 90 Hz - analiza circuitului doar cu sursa de
+#+CAPTION: de 60 Hz, respectiv 90 Hz - analiza circuitului doar cu sursa de
 #+CAPTION: tensiune de 60 Hz
 [[./poze/02114.png]] 
 #+CAPTION: tabel
@@ -3215,7 +3214,7 @@ Apoi analizăm circuitul considerând doar efectele sursei de tensiune de
 90 Hz:
 
 #+CAPTION: circuit electric alimentat printr-o combinaţie de frecvenţe
-de 60 Hz, respectiv 90 Hz - analiza circuitului doar cu sursa de
+#+CAPTION: de 60 Hz, respectiv 90 Hz - analiza circuitului doar cu sursa de
 #+CAPTION: tensiune de 90 Hz
 [[./poze/02115.png]] 
 #+CAPTION: tabel
@@ -3405,7 +3404,7 @@ circuitelor sensibile prin capacitatea şi inductanţa mutuală parazită
 (C_{p} şi M_{p}:
 
 #+CAPTION: zgomotul inductiv şi capacitiv introdus de un circuit de
-curent alternativ într-un circuit de curent continuu sensibil
+#+CAPTION: curent alternativ într-un circuit de curent continuu sensibil
 [[./poze/02300.png]]
 
 Aparatul de măsură din stânga măsoară o tensiune de alimentare în curent
@@ -3430,7 +3429,7 @@ orice zgomot de curent alternativ. Un asfel de condensator poartă numele
 de /condensator de decuplare/.
 
 #+CAPTION: zgomotul inductiv şi capacitiv introdus de un circuit de
-curent alternativ într-un circuit de curent continuu sensibil; folosirea
+#+CAPTION: curent alternativ într-un circuit de curent continuu sensibil; folosirea
 #+CAPTION: condensatorului de decuplare
 [[./poze/02301.png]]
 
@@ -3557,7 +3556,7 @@ Folosind componente reale, circuitul electric al filtrului trece-bandă
 asfel conceput, arată asfel:
 
 #+CAPTION: circuitul electric al filtrului trece-bandă compus dintr-un
-filtru trece-jos capacitiv şi un filtru trece-sus capacitiv conectate în
+#+CAPTION: filtru trece-jos capacitiv şi un filtru trece-sus capacitiv conectate în
 #+CAPTION: serie
 [[./poze/02121.png]]
 
@@ -3565,7 +3564,7 @@ Să vedem şi răspunsul în frecvenţă (diagrama Bode) a filtrului capacitiv
 trece-bandă:
 
 #+CAPTION: răspunsul în frecvenţă (diagrama Bode) al filtrului
-trece-bandă compus dintr-un filtru trece-jos capacitiv şi un filtru
+#+CAPTION: trece-bandă compus dintr-un filtru trece-jos capacitiv şi un filtru
 #+CAPTION: trece-sus capacitiv conectate în serie
 [[./poze/22031.png]]
 
@@ -3615,7 +3614,7 @@ filtrului trece-bandă. Mai jos este prezentată diagrama bloc a
 filtrului:
 
 #+CAPTION: diagrama bloc al filtrului stop-bandă format din conectarea
-în paralel a unui filtru trece-jos cu un filtru trece-sus
+#+CAPTION: în paralel a unui filtru trece-jos cu un filtru trece-sus
 [[./poze/02261.png]]
 
 **** Filtrul stop-bandă capacitiv
@@ -3624,7 +3623,7 @@ Folosind componente reale, circuitul stop-bandă capacitiv arată în felul
 următor:
 
 #+CAPTION: circuitul electric al filtrului stop-bandă în configuraţie T,
-format din conectarea în paralel a unui filtru trece-jos cu un filtru
+#+CAPTION: format din conectarea în paralel a unui filtru trece-jos cu un filtru
 #+CAPTION: trece-sus
 [[./poze/02123.png]]
 
@@ -3826,13 +3825,13 @@ serie cu sursa de tensiune şi modificăm R_{sarcină} de la 1.000 Ω la 316
 putut modifica raportul L/C pentru a păstra egalitatea faţă de sarcină.
 
 #+CAPTION: răspunsul în frecvenţa a filtrului trece-jos LC cu
-impedanţele de intrare şi ieşire egalate; diagrama Bode
+#+CAPTION: impedanţele de intrare şi ieşire egalate; diagrama Bode
 [[./poze/02517.png]]
 
 Răspunsul în frecvenţă al filtrului arată de data aceasta mult mai bine:
 
 #+CAPTION: răspunsul în frecvenţa a filtrului trece-jos LC cu
-impedanţele de intrare şi ieşire egalate; diagrama Bode
+#+CAPTION: impedanţele de intrare şi ieşire egalate; diagrama Bode
 [[./poze/22056.png]]
 
 * Transformatorul
@@ -3942,8 +3941,8 @@ poate atince valori mari, aproape de saturaţie, rezultatul fiind o formă
 de undă a curentului de magnetizare ce arată aproximativ asfel:
 
 #+CAPTION: formele de undă ale tensiunii induse, a curentului prin
-înfăşurare şi a fluxului magnetic; forma de undă a curentului este
-distorsionată datorită saturaţiei miezului feromagnetic
+#+CAPTION: înfăşurare şi a fluxului magnetic; forma de undă a curentului este
+#+CAPTION: distorsionată datorită saturaţiei miezului feromagnetic
 [[./poze/02336.png]]
 
 Atunci când un material feromagnetic se apropie de fluxul magnetic de
@@ -4074,7 +4073,7 @@ electric al transformatorului îl reprezintă două bobine (înfăşurarea
 primară şi secundară) şi un miez feromagnetic comun celor două:
 
 #+CAPTION: simbolul transformatorului electric, constând din două bobine
-(înfăşurarea primară şi secundară) şi un miez feromagnetic comun celor
+#+CAPTION: (înfăşurarea primară şi secundară) şi un miez feromagnetic comun celor
 #+CAPTION: două
 [[./poze/02131.png]]
 
@@ -4360,7 +4359,7 @@ exploatat pentru obţinerea unui domeniu mult mai lar de raporturi de
 transformare:
 
 #+CAPTION: transformator cu înfăşurări secundare multiple folosind
-prize; utilizarea comutatoarelor pentru alegerea raportului de
+#+CAPTION: prize; utilizarea comutatoarelor pentru alegerea raportului de
 #+CAPTION: transformare
 [[./poze/02143.png]]
 
@@ -4370,7 +4369,7 @@ secundară expusă a transformatorului, fiind posibilă conectarea acestuia
 în oricare punct (priză variabilă).
 
 #+CAPTION: transformator variabil; utilizarea unui contact variabil ce
-se deplasează pe înfăşurarea secundară expusă a transformatorului
+#+CAPTION: se deplasează pe înfăşurarea secundară expusă a transformatorului
 [[./poze/02144.png]]
 
 Utlizarea acestor contacte variabile nu este practică în proiectarea
@@ -4406,10 +4405,10 @@ conectată în serie, fie pentru amplificarea tensiunii sau pentru
 reducerea ei (anti-serie).
 
 #+CAPTION: folosirea unui autotransformator coborâtor de tensiune cu
-înfăşurarea secundară conectată în serie pentru amplificarea tensiunii
+#+CAPTION: înfăşurarea secundară conectată în serie pentru amplificarea tensiunii
 [[./poze/02147.png]] 
 #+CAPTION: folosirea unui autotransformator
-coborâtor de tensiune cu înfăşurarea secundară conectată în serie pentru
+#+CAPTION: coborâtor de tensiune cu înfăşurarea secundară conectată în serie pentru
 #+CAPTION: reducerea tensiunii
 [[./poze/02148.png]]
 
@@ -4546,7 +4545,7 @@ vom avea practic un circuit deschis, curentul scăzând la zero şi
 Din acest motiv, trebuie să modificăm puţin circuitul:
 
 #+CAPTION: schema electrică a unui circuit monofazat simplu; sarcinile
-sunt conectate în serie; adăugarea unui conductor neutru
+#+CAPTION: sunt conectate în serie; adăugarea unui conductor neutru
 [[./poze/02168.png]] 
 #+CAPTION: calcule matematice
 [[./poze/12111.png]]
@@ -4574,7 +4573,7 @@ tensiune, acel transformator poate fi construit cu o priză mediană pe
 înfăşurarea secundară:
 
 #+CAPTION: transformator coborâtor de tensiune cu priză mediană pe
-înfăşurarea secundară pentru alimentarea unui sistem de alimentare în
+#+CAPTION: înfăşurarea secundară pentru alimentarea unui sistem de alimentare în
 #+CAPTION: curent continuu dual
 [[./poze/02169.png]]
 
@@ -4642,7 +4641,7 @@ pentru curent, vom vedea că acesta /nu/ este zero, chiar şi în cazul
 sarcinilor echilibrate (egale între ele).
 
 #+CAPTION: sistem de alimentare folosind două surse de tensiune de 120 V
-defazate între ele cu un unghi de 120 de grade; calcului curentului prin
+#+CAPTION: defazate între ele cu un unghi de 120 de grade; calcului curentului prin
 #+CAPTION: neutru
 [[./poze/02172.png]] 
 #+CAPTION: calcule matematice
@@ -4666,7 +4665,7 @@ transmite mai multă putere (10 kW în plus), fără a fi nevoie de
 adăugarea unor conductori în plus.
 
 #+CAPTION: sistem de alimentare folosind trei surse de tensiune de 120 V
-defazate între ele cu un unghi de 120 de grade; folosirea neutrului pe
+#+CAPTION: defazate între ele cu un unghi de 120 de grade; folosirea neutrului pe
 #+CAPTION: post de fază
 [[./poze/02173.png]]
 
@@ -4812,7 +4811,7 @@ apoi folosite pentru detectarea secvenţei prin comparaţie dintre
 intensitatea luminoasă a două lămpi.
 
 #+CAPTION: folosirea unei scheme electrice cu condensator şi două
-corpuri de iluminat pentru detectarea secvenţei fazelor unui sistem de
+#+CAPTION: corpuri de iluminat pentru detectarea secvenţei fazelor unui sistem de
 #+CAPTION: alimentare trifazat
 [[./poze/02183.png]]
 
@@ -4922,7 +4921,7 @@ condesator pentru introducerea unui defazat între curenţii celor două
 seturi de înfăşurări.
 
 #+CAPTION: utilizarea condensatorului pentru introducerea unui defazaj
-între curenţii înfăşurărilor de pornire a motorului de curent alternativ
+#+CAPTION: între curenţii înfăşurărilor de pornire a motorului de curent alternativ
 #+CAPTION: monofazat
 [[./poze/02189.png]]
 
@@ -4981,7 +4980,7 @@ stânga la dreapta. Ne putem acum imagna acelaşi set de becuri, dar
 aranjate într-un cerc:
 
 #+CAPTION: analogie pentru funcţionarea motorului de curent alternativ
-trifazat; secvenţa fazelor unui set de becuri; rearanjarea acestora
+#+CAPTION: trifazat; secvenţa fazelor unui set de becuri; rearanjarea acestora
 #+CAPTION: într-o combinaţie circulară
 [[./poze/02192.png]]
 
@@ -5050,7 +5049,7 @@ echilibrată, tensiunea de linie va fi egală cu produsul dintre tensiunea
 de fază şi radical de ordin doi din trei:
 
 #+CAPTION: relaţia dintre tensiunile/curenţii de linie şi
-tensiunile/curenţii de fază într-o sistem de tensiuni trifazate în
+#+CAPTION: tensiunile/curenţii de fază într-o sistem de tensiuni trifazate în
 #+CAPTION: configuraţie stea
 [[./poze/12115.png]]
 
@@ -5090,9 +5089,9 @@ electric în jurul circuitului format de cele trei surse de alimentare
 calculăm diferenţa de potenţial (tensiunea) dintre cele două ramuri:
 
 #+CAPTION: conexiunea unui sistem alternativ trifazat în configuraţie
-triunghi; deschiderea circuitului la unul din noduri pentru asigurarea
-faptului că nu există circulaţie de curent prin bucla formată din
-laturile triunghiului; tensiunea măsurată între cele două ramuri trebuie
+#+CAPTION: triunghi; deschiderea circuitului la unul din noduri pentru asigurarea
+#+CAPTION: faptului că nu există circulaţie de curent prin bucla formată din
+#+CAPTION: laturile triunghiului; tensiunea măsurată între cele două ramuri trebuie
 #+CAPTION: să fie zero
 [[./poze/02198.png]]
 
@@ -5115,7 +5114,7 @@ datorită faptului că fiecare conductor are un punct comun cu două
 fază.
 
 #+CAPTION: relaţia dintre tensiunile/curenţii de linie şi
-tensiunile/curenţii de fază într-o sistem de tensiuni trifazate în
+#+CAPTION: tensiunile/curenţii de fază într-o sistem de tensiuni trifazate în
 #+CAPTION: configuraţie triunghi
 [[./poze/12118.png]]
 
@@ -5144,8 +5143,8 @@ sistemului în caz de defect. Defectarea uneia dintre înfăşurări nu va
 influenţa tensiunea sarcinii şi nici curentul!
 
 #+CAPTION: defectarea unei dintre înfăşurări, într-un sistem trifazat în
-configuraţie triunghi, nu afectează tensiunea de linie şi de fază;
-singura diferenţă este creşterea curentului în înfăşurările funcţionale
+#+CAPTION: configuraţie triunghi, nu afectează tensiunea de linie şi de fază;
+#+CAPTION: singura diferenţă este creşterea curentului în înfăşurările funcţionale
 #+CAPTION: rămase
 [[./poze/02200.png]]
 
@@ -5156,7 +5155,7 @@ unui sistem în configuraţie stea, dar cu aceeiaşi configuraţie sa
 sarcinii (triunghi):
 
 #+CAPTION: defectarea unei dintre înfăşurări, într-un sistem trifazat în
-configuraţie stea, alimentând o sarcină în configuraţie triunghi
+#+CAPTION: configuraţie stea, alimentând o sarcină în configuraţie triunghi
 [[./poze/02201.png]]
 
 Cu o sarcină în configuraţie triunghi (Δ), căderea de tensiune pe două
@@ -5165,7 +5164,7 @@ la tensiunea originală, 208 V. O sarcină în configuraţie Y, suferă şi
 mai mult de pe urma aceluiaşi defect al înfăşurării:
 
 #+CAPTION: defectarea unei dintre înfăşurări, într-un sistem trifazat în
-configuraţie stea, alimentând o sarcină în configuraţie stea
+#+CAPTION: configuraţie stea, alimentând o sarcină în configuraţie stea
 [[./poze/02202.png]]
 
 În acest caz, numărul sarcinilor ce suferă o reducere a tensiunii se
@@ -5232,15 +5231,16 @@ plus cea secundară, întreg ansamblul fiind echivalent din punct de
 vedere funcţional unui transformator trifazat:
 
 #+CAPTION: intrările A1, B1, C1 pot fi conectate fie în configuraţie
-stea, fie triunghi; acelaşi lucru este valabil şi pentru intrările A2,
-B2, C2 [[./poze/02205.png]]
+#+CAPTION: stea, fie triunghi; acelaşi lucru este valabil şi pentru intrările A2,
+#+CAPTION: B2, C2
+[[./poze/02205.png]]
 
 Cele trei transformatoare monofazate sunt vor fi conectate împreună
 pentru transformarea puterii dintr-un sistem trifazat în altul. Să
 considerăm conexiunea Y-Y:
 
 #+CAPTION: conectarea unui transformator trifazat în configuraţie
-triunghi-triunghi - Y-Y; exemplificare cu ajutorul a trei
+#+CAPTION: triunghi-triunghi - Y-Y; exemplificare cu ajutorul a trei
 #+CAPTION: transformatoare monofazate echivalente
 [[./poze/02206.png]]
 
@@ -5254,7 +5254,7 @@ fiecare sistem trifazat.
 Următoarea configuraţie, stea-triunghi (Y-Δ), arată asfel:
 
 #+CAPTION: conectarea unui transformator trifazat în configuraţie
-stea-triunghi - Y-Δ; exemplificare cu ajutorul a trei transformatoare
+#+CAPTION: stea-triunghi - Y-Δ; exemplificare cu ajutorul a trei transformatoare
 #+CAPTION: monofazate echivalente
 [[./poze/02207.png]]
 
@@ -5265,7 +5265,7 @@ o buclă Δ.
 Configuraţia triunghi-stea (Δ-Y):
 
 #+CAPTION: conectarea unui transformator trifazat în configuraţie
-triunghi-stea - Δ-Y; exemplificare cu ajutorul a trei transformatoare
+#+CAPTION: triunghi-stea - Δ-Y; exemplificare cu ajutorul a trei transformatoare
 #+CAPTION: monofazate echivalente
 [[./poze/02208.png]]
 
@@ -5276,7 +5276,7 @@ un sistem primar fără neutru.
 Configuraţia triunghi-triunghi (Δ-Δ):
 
 #+CAPTION: conectarea unui transformator trifazat în configuraţie
-triunghi-triunghi - Δ-Δ; exemplificare cu ajutorul a trei
+#+CAPTION: triunghi-triunghi - Δ-Δ; exemplificare cu ajutorul a trei
 #+CAPTION: transformatoare monofazate echivalente
 [[./poze/02209.png]]
 
@@ -5291,7 +5291,7 @@ configuraţie triunghi-triunghi, dar fără una dintre înfăşurările primare
 şi secundare:
 
 #+CAPTION: conectarea unui transformator trifazat în configuraţie
-triunghi-triunghi deschisă- Δ-Δ; exemplificare cu ajutorul a două
+#+CAPTION: triunghi-triunghi deschisă- Δ-Δ; exemplificare cu ajutorul a două
 #+CAPTION: transformatoare monofazate echivalente
 [[./poze/02210.png]]
 
@@ -5333,7 +5333,7 @@ curent continuu. Formele de undă ale tensiunii, curentului şi puterii,
 arată asfel:
 
 #+CAPTION: Formele de undă ale tensiunii, curentului şi puterii într-un
-circuit monofazat de curent alternativ cu sarcină pur rezistivă
+#+CAPTION: circuit monofazat de curent alternativ cu sarcină pur rezistivă
 [[./poze/02055.png]]
 
 Puterea este tot timpul pozitivă în acest caz. Acest lucru înseamnă că
@@ -5360,7 +5360,7 @@ Ca şi comparaţie, să considerăm un circuit simplu cu o sarcină reactivă:
 #+CAPTION: calcule matematice
 [[./poze/12121.png]] 
 #+CAPTION: Formele de undă ale tensiunii,
-curentului şi puterii într-un circuit monofazat de curent alternativ cu
+#+CAPTION: curentului şi puterii într-un circuit monofazat de curent alternativ cu
 #+CAPTION: sarcină pur inductivă
 [[./poze/02059.png]]
 
@@ -5382,8 +5382,8 @@ Aceasta este valoarea efectivă a curentului (1.41 A) pe care ar arăta-o
 un ampermetru conectat în serie cu rezistorul şi bobina. Graficul
 formelor de undă arată în acest caz asfel:
 
-#+CAPTION: cFormele de undă ale tensiunii, curentului şi puterii într-un
-circuit monofazat de curent alternativ cu sarcină rezistiv-inductivă
+#+CAPTION: Formele de undă ale tensiunii, curentului şi puterii într-un
+#+CAPTION: circuit monofazat de curent alternativ cu sarcină rezistiv-inductivă
 [[./poze/02214.png]]
 
 Şi în acest caz, puterea alternează între partea negativă şi cea
@@ -5420,7 +5420,7 @@ Relaţiile dintre cele trei tipuri de putere şi rezistenţă, reactanţă şi
 impedanţa (folosind valori scalare), sunt următoarele:
 
 #+CAPTION: formulele de calcul pentru puterea reală, reactivă şi
-aparentă, în funcţie de rezistenţă, reactanţă şi impedanţă
+#+CAPTION: aparentă, în funcţie de rezistenţă, reactanţă şi impedanţă
 [[./poze/12123.png]]
 
 Există două ecuaţii pentru calcularea puterilor reale şi reactive, dar
@@ -5441,7 +5441,7 @@ Pentru un circuit pur inductiv (pur reactiv):
 Pentru un circuit rezistiv-inductiv:
 
 #+CAPTION: calcularea puterii reale, reactive şi aparente într-un
-circuit electric de curent alternativ pur rezistiv-inductiv
+#+CAPTION: circuit electric de curent alternativ pur rezistiv-inductiv
 [[./poze/02217.png]]
 
 **** Triunghiul puterii
@@ -5527,7 +5527,7 @@ urmare, vom folosi următoarea formulă:
 Folosim un condensator cu o capacitate de 22 µF:
 
 #+CAPTION: corectarea factorului de putere prin adăugarea unui
-condensator în paralel cu sarcină rezistiv-inductivă
+#+CAPTION: condensator în paralel cu sarcină rezistiv-inductivă
 [[./poze/02219.png]] 
 #+CAPTION: calcule matematice
 [[./poze/12126.png]]
@@ -5913,7 +5913,7 @@ asfel că acţionarea întrerupătorului şi aprinderea/stingerea lămpii nu
 ar mai fi instantanee:
 
 #+CAPTION: circuit electric simplu, format dintr-o baterie, o lampă şi
-un întrerupător; conductori de 300.000 de km lungime
+#+CAPTION: un întrerupător; conductori de 300.000 de km lungime
 [[./poze/02353.png]]
 
 Presupunând că filamentul lămpii nu necesită încălzire, iar rezistenţa
@@ -5935,7 +5935,7 @@ permisă de cursă, dar la o viteză mult mai mare decât viteza individuală
 a vagoanelor:
 
 #+CAPTION: analogie pentru deplasarea electronilor în conductori;
-pornirea trenului de pe loc şi deplasarea vagoanelor
+#+CAPTION: pornirea trenului de pe loc şi deplasarea vagoanelor
 [[./poze/02354.png]]
 
 O altă analogie estea cea a valurilor în apă. Să presupunem că punem în
@@ -5978,7 +5978,7 @@ conductori separaţi între ei printr-un mediu izolant, prezintă o anumită
 capacitate electrică parazită între ei.
 
 #+CAPTION: circuit electric simplu format din baterie şi întrerupător şi
-conductori de lungime infinită; apariţia capacităţilor parazite între
+#+CAPTION: conductori de lungime infinită; apariţia capacităţilor parazite între
 #+CAPTION: cei doi conductori
 [[./poze/02359.png]]
 
@@ -6006,7 +6006,7 @@ tensiune limitează rata de variaţie a tensiunii în lungul capacitătilor
 distribuite, prevenind creşterea curentului spre infinit.
 
 #+CAPTION: circuit electric simplu format din baterie şi întrerupător şi
-conductori de lungime infinită; capacităţile şi inductanţele parazite
+#+CAPTION: conductori de lungime infinită; capacităţile şi inductanţele parazite
 [[./poze/02357.png]] 
 #+CAPTION: circuit electric simplu format din
 baterie şi întrerupător şi conductori de lungime infinită; închiderea
@@ -6023,12 +6023,11 @@ inductanţelor distribuite, asfel:
 #+CAPTION: linie electrică lungă neîncărcată; închiderea
 #+CAPTION: întrerupătorului şi propagarea undei
 [[./poze/02361.png]] 
-#+CAPTION:
-linie electrică lungă neîncărcată; închiderea întrerupătorului şi
+#+CAPTION: linie electrică lungă neîncărcată; închiderea întrerupătorului şi
 #+CAPTION: propagarea undei
 [[./poze/02362.png]] 
 #+CAPTION: linie electrică lungă
-neîncărcată; închiderea întrerupătorului şi propagarea undei cu
+#+CAPTION: neîncărcată; închiderea întrerupătorului şi propagarea undei cu
 #+CAPTION: aproximativ viteza luminii
 [[./poze/02363.png]]
 

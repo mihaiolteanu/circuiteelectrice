@@ -847,12 +847,11 @@ ieşire, se foloseşte un LED:
 #+CAPTION: exemplificarea tabelului de adevăr a porţii logice ŞI
 #+CAPTION: printr-un circuit practic
 [[./poze/04102.png]] 
-#+CAPTION:
-exemplificarea tabelului de adevăr a porţii logice ŞI printr-un circuit
-#+CAPTION: practic
+#+CAPTION: exemplificarea tabelului de adevăr a porţii logice ŞI printr-un
+#+CAPTION: circuit practic
 [[./poze/04103.png]] 
 #+CAPTION: exemplificarea tabelului de
-adevăr a porţii logice ŞI printr-un circuit practic
+#+CAPTION: adevăr a porţii logice ŞI printr-un circuit practic
 [[./poze/04104.png]] 
 #+CAPTION: exemplificarea tabelului de adevăr a
 #+CAPTION: porţii logice ŞI printr-un circuit practic
@@ -913,12 +912,11 @@ vizuală a ieşirii este furnizată de un LED:
 #+CAPTION: exemplificarea tabelului de adevăr a porţii logice SAU
 #+CAPTION: printr0un circuit practic
 [[./poze/04109.png]] 
-#+CAPTION:
-exemplificarea tabelului de adevăr a porţii logice SAU printr-un circuit
+#+CAPTION: exemplificarea tabelului de adevăr a porţii logice SAU printr-un circuit
 #+CAPTION: practic
 [[./poze/04110.png]] 
 #+CAPTION: exemplificarea tabelului de
-adevăr a porţii logice SAU printr-un circuit practic
+#+CAPTION: adevăr a porţii logice SAU printr-un circuit practic
 [[./poze/04111.png]] 
 #+CAPTION: exemplificarea tabelului de adevăr a
 #+CAPTION: porţii logice SAU printr-un circuit practic
@@ -1113,13 +1111,14 @@ Să revedem prima dată simbolul şi tabelul de adevăr pentru poarta NU:
 [[./poze/04070.png]]
 
 #+CAPTION: funcţia logică NU realizată cu porţi logice ŞI-negat şi
-SAU-negat prin interconectarea intrărilor [[./poze/04154-1.png]]
+#+CAPTION: SAU-negat prin interconectarea intrărilor
+[[./poze/04154-1.png]]
 
 În figura alăturată este prezentat modul de realizare a acestei funcţii
 folosind porţi logice ŞI-negat şi SAU-negat.
 
 #+CAPTION: funcţia logică NU realizată cu porţi logice ŞI-negat şi
-SAU-negat prin legarea uneia dintre intrări la masă
+#+CAPTION: SAU-negat prin legarea uneia dintre intrări la masă
 [[./poze/04154.png]]
 
 Această metodă de conectare împreună a intrărilor duce la creşterea
@@ -1142,7 +1141,8 @@ ne-inversoare:
 [[./poze/04088.png]]
 
 #+CAPTION: realizarea funcţiei ne-inversoare cu două etaje de porţi
-ŞI-negat şi SAU-negat conectate împreună [[./poze/04155.png]]
+#+CAPTION: ŞI-negat şi SAU-negat conectate împreună
+[[./poze/04155.png]]
 
 Conform celor spuse mai sus, realizarea acestei funcţii folosind porţi
 logice ŞI-negat şi SAU-negat se realizează conectând două etaje
@@ -1163,7 +1163,8 @@ Simbolul şi tabelul de adevăr al porţii logice ŞI:
 [[./poze/04156-1.png]]
 
 #+CAPTION: realizarea funcţiei ŞI prin intermediul a două porţi logice
-ŞI-negat [[./poze/04156-2.png]]
+#+CAPTION: ŞI-negat
+[[./poze/04156-2.png]]
 
 Folosind porţi logice ŞI-negat pentru realizarea funcţiei ŞI, avem
 nevoie de adăugarea unui etaj inversor (poartă NU) pe ieşirea porţii
@@ -1172,7 +1173,8 @@ folosind o poartă ŞI-negat. Prin urmare, schema finală este cea din
 figura alăturată.
 
 #+CAPTION: realizarea funcţiei ŞI prin intermediul a două porţi logice
-ŞI-negat [[./poze/04156.png]]
+#+CAPTION: ŞI-negat
+[[./poze/04156.png]]
 
 Acelaşi lucru se poate realiza folosind porţi logice SAU-negat, prin
 inversarea (poartă NU) tuturor intrărilor printr-o poartă SAU-negat. Din
@@ -1215,13 +1217,15 @@ cu ajutorul porţii SAU-negat.
 [[./poze/04107.png]]
 
 #+CAPTION: realizarea funcţiei logice SAU cu ajutorul porţilor logice
-SAU-negat [[./poze/04158-1.png]]
+#+CAPTION: SAU-negat
+[[./poze/04158-1.png]]
 
 Inversarea ieşirii unei porţi SAU-negat (cu ajutorul unei alte porţi
 SAU-negat conectată ca şi poartă NU) are ca rezultat funcţia SAU.
 
 #+CAPTION: realizarea funcţiei logice SAU cu ajutorul porţilor logice
-SAU-negat [[./poze/04158.png]]
+#+CAPTION: SAU-negat
+[[./poze/04158.png]]
 
 Folosind porţi SAU-negat, trebuie să inversăm toate intrările pentru
 simularea funcţiei SAU, la fel cum a trebui să inversăm toate intrările
@@ -1249,7 +1253,8 @@ transformări sunt cunoscute sub numele de „teorema lui DeMorgan”.
 [[./poze/04113.png]]
 
 #+CAPTION: realizarea funcţiei SAU-negat prin intermediul porţilor
-ŞI-negat [[./poze/04159.png]]
+#+CAPTION: ŞI-negat
+[[./poze/04159.png]]
 
 Pentru realizarea acestei fucţii folosind porţi ŞI-negat, trebuie să
 inversăm toate intrările şi ieşirea. Procedeul este asemănător cu cel
@@ -2362,8 +2367,7 @@ ajutorul unui releu pentru realizarea unei funcţii ne-inversate.
 
 #+CAPTION: funcţia logică ŞI
 [[./poze/04056-2.png]] 
-#+CAPTION: simbolul
-#+CAPTION: porţii logice ŞI
+#+CAPTION: simbolul porţii logice ŞI
 [[./poze/04056.png]]
 
 De la comutator la bobina CR1, funcţia logică realizată este cea a unei
@@ -2956,7 +2960,9 @@ comutatoarelor conectate în serie:
 #+CAPTION: poartă logică ŞI şi comutatoare serie (0 x 0)
 [[./poze/14013.png]] 
 #+CAPTION: poartă logică ŞI şi comutatoare serie
-(0 x 1) [[./poze/14014.png]] #+CAPTION: poartă logică ŞI şi comutatoare
+#+CAPTION: (0 x 1) 
+[[./poze/14014.png]]
+#+CAPTION: poartă logică ŞI şi comutatoare
 #+CAPTION: serie (1 x 0)
 [[./poze/14015.png]] 
 #+CAPTION: poartă logică ŞI şi
@@ -2988,7 +2994,7 @@ un contact normal-închis:
 #+CAPTION: contact normal-închis
 [[./poze/14017.png]] 
 #+CAPTION: complementul unei
-variabile booleene; poartă logică SAU şi contact normal-închis
+#+CAPTION: variabile booleene; poartă logică SAU şi contact normal-închis
 [[./poze/14018.png]]
 
 ** Identităţi algebrice booleene
@@ -3498,13 +3504,15 @@ paranteze, dar în alte cazuri s-ar putea să conteze. Să luăm un alt
 exemplu, meţinând parantezele:
 
 #+CAPTION: simplificarea expresiei booleene cu ajutorul teoremei lui
-DeMorgan [[./poze/14048.png]]
+#+CAPTION: DeMorgan
+[[./poze/14048.png]]
 
 În cazul în care nu menţinem parantezele, riscăm să obţinem un răspuns
 greşit:
 
 #+CAPTION: simplificarea expresiei booleene cu ajutorul teoremei lui
-DeMorgan [[./poze/14049.png]]
+#+CAPTION: DeMorgan
+[[./poze/14049.png]]
 
 După cum se poate observa, menţinerea grupării realizate implicit prin
 liniile de complementare, este cruciale pentru obţinerea răspunsului
@@ -3608,7 +3616,7 @@ lipsă flacăra, închis - flacără detectată) necesar activării intrărilor
 unui sistem logic:
 
 #+CAPTION: incinerator deşeuri toxice; utilizarea senzorilor şi a
-circuitului logic pentru închiderea alimentării în cazul în care flacăra
+#+CAPTION: circuitului logic pentru închiderea alimentării în cazul în care flacăra
 #+CAPTION: nu este detectată
 [[./poze/04361.png]]
 
@@ -4286,7 +4294,8 @@ formarea sumei de produse simplificate a circuitului logic (expresiei
 booleene).
 
 #+CAPTION: simplificarea unei expresii booleene prin intermediul hărţii
-Karnaugh [[./poze/14107.png]]
+#+CAPTION: Karnaugh
+[[./poze/14107.png]]
 
 Dându-se expresia (A'B'C' + A'B'C), primul pas este introducerea
 valorilor de 1 pe harta Karnaugh corespunzător poziţiei fiecărui produs
@@ -4297,36 +4306,42 @@ produsul de termeni pentru acest grup, ceea ce reprezintă rezultatul
 simplificat.
 
 #+CAPTION: simplificarea unei expresii booleene prin intermediul hărţii
-Karnaugh [[./poze/14108.png]]
+#+CAPTION: Karnaugh
+[[./poze/14108.png]]
 
 Grupând cei patru termeni de 1 pe harta Karnaugh, rezultatul este
 asigurat de expresia A'.
 
 #+CAPTION: simplificarea unei expresii booleene prin intermediul hărţii
-Karnaugh [[./poze/14109.png]]
+#+CAPTION: Karnaugh
+[[./poze/14109.png]]
 
 Identic, grupând ce patru termeni de 1, putem foarte uşor observa că
 singura variabilă ce acoperă toate cele patru regiuni este C.
 
 #+CAPTION: simplificarea unei expresii booleene prin intermediul hărţii
-Karnaugh [[./poze/14110.png]]
+#+CAPTION: Karnaugh
+[[./poze/14110.png]]
 
 Din moment ce avem două grupuri pe harta Karnaugh de mai sus, rezultatul
 va fi o sumă de produse, şi anume, A' + B.
 
 #+CAPTION: simplificarea unei expresii booleene prin intermediul hărţii
-Karnaugh [[./poze/14111.png]]
+#+CAPTION: Karnaugh
+[[./poze/14111.png]]
 
 Cele două produse de mai sus formează un grup de doi termeni ce se
 simplifică la BC.
 
 #+CAPTION: simplificarea unei expresii booleene prin intermediul hărţii
-Karnaugh [[./poze/14112.png]]
+#+CAPTION: Karnaugh
+[[./poze/14112.png]]
 
 Variabila comună celor patru termeni grupaţi mai sus este B
 
 #+CAPTION: simplificarea unei expresii booleene prin intermediul hărţii
-Karnaugh [[./poze/14113.png]]
+#+CAPTION: Karnaugh
+[[./poze/14113.png]]
 
 Cei patru termeni de mai sus formează un singur grup. Putem vizualiza
 acest grup dacă îndoim extremităţile hărţii pentru a forma un cilindru.
@@ -4336,7 +4351,8 @@ B, C), singura variabilă comună este C'. C' este zero în toate cele
 patru regiuni. Acesta este atunci rezultatul final al simplificării.
 
 #+CAPTION: simplificarea unei expresii booleene prin intermediul hărţii
-Karnaugh [[./poze/14114.png]]
+#+CAPTION: Karnaugh
+[[./poze/14114.png]]
 
 Cele şase regiuni rezultate din ecuaţia nesimplificată pot fi organizate
 în două grupuri de câte patru. Aceste grupuri trebuie să rezulte într-o
@@ -4566,7 +4582,8 @@ mintermeni, corespunzând mai multor regiuni pe o hartă Karnaugh, precum
 în exemplul de mai jos:
 
 #+CAPTION: simplificarea expresiei booleene prin intermediul hărţii
-Karnaugh [[./poze/14127.png]]
+#+CAPTION: Karnaugh
+[[./poze/14127.png]]
 
 Mintermenii multiplii de pe această hartă sunt mintermenii individuali
 ce i-am analizat mai sus. Ceea ce vrem să reamintim este faptul că
@@ -4601,7 +4618,8 @@ Să considerăm acum o funcţie booleană ce este 0 pentru o singură regiune
 şi 1 în rest:
 
 #+CAPTION: simplificarea expresiei booleene prin intermediul hărţii
-Karnaugh [[./poze/14128.png]]
+#+CAPTION: Karnaugh
+[[./poze/14128.png]]
 
 Un maxtermen este o expresie booleană a cărei valori este 0 pentru o
 singură regiune, toate celelalte regiunii ale hărţii Karnaugh sau ale
@@ -4645,7 +4663,8 @@ Introducem o valoare de 0 pentru maxtermenul (A' + B' + C') la această
 adresă (1, 1, 1) a hărţii Karnaugh de mai jos:
 
 #+CAPTION: simplificarea expresiei booleene prin intermediul hărţii
-Karnaugh [[./poze/14129.png]]
+#+CAPTION: Karnaugh
+[[./poze/14129.png]]
 
 *** Scrierea expresiei booleene simplificate ca şi produs de sume
 
@@ -4653,7 +4672,8 @@ O expresie booleană sub formă produsului de sume poate avea mai mulţi
 maxtermeni, conform figurii de mai jos:
 
 #+CAPTION: simplificarea expresiei booleene prin intermediul hărţii
-Karnaugh [[./poze/14130.png]]
+#+CAPTION: Karnaugh
+[[./poze/14130.png]]
 
 Maxtermenul (A + B + C) sub formă numerică este 111, iar complementat
 este 000. Plasăm prin urmare un 0 la adresa (0, 0, 0). Maxtermenul (A +
@@ -4666,7 +4686,8 @@ de produs de sume. Primul pas este gruparea termenilor de 0, precum
 grupul de mai jos:
 
 #+CAPTION: simplificarea expresiei booleene prin intermediul hărţii
-Karnaugh [[./poze/14131.png]]
+#+CAPTION: Karnaugh
+[[./poze/14131.png]]
 
 Scriem apoi valoarea binară corespunzătoare termenului-sumă, ce arată
 astfel: (0, 0, X). Pentru grupul format, atât A cât şi B sunt 0. Dar C
@@ -4699,7 +4720,8 @@ Soluţie: completăm o hartă Karnaugh cu cei şapte maxtermeni de mai sus
 pentru găsirea adresei corespunzătoare:
 
 #+CAPTION: simplificarea expresiei booleene prin intermediul hărţii
-Karnaugh [[./poze/14133.png]]
+#+CAPTION: Karnaugh
+[[./poze/14133.png]]
 
 După ce am introdus toţi maxtermenii în tabel, trecem la gruparea
 regiunilor, precum în figura de mai jos. Grupurile mai mari se traduc
@@ -4707,7 +4729,8 @@ printr-un termen-sumă cu mai puţine intrări. Cu cât avem mai puţine
 grupuri, cu atât vom avea mai puţin termeni-sumă în expresia finală:
 
 #+CAPTION: simplificarea expresiei booleene prin intermediul hărţii
-Karnaugh [[./poze/14134.png]]
+#+CAPTION: Karnaugh
+[[./poze/14134.png]]
 
 Avem trei grupuri, prin urmare, trebuie să avem trei termeni-sumă în
 rezultatul final. Detaliile simplificării sunt prezentate în figura de
@@ -4731,7 +4754,8 @@ Trecem maxtermenii (0) din expresia iniţială pe harta Karnaugh de mai
 jos (stânga), exact ca în exemplul precedent:
 
 #+CAPTION: simplificarea expresiei booleene prin intermediul hărţii
-Karnaugh [[./poze/14135.png]]
+#+CAPTION: Karnaugh
+[[./poze/14135.png]]
 
 Completăm apoi toate celelalte regiuni rămase libere cu valori de 1
 (dreapta sus).
@@ -4742,7 +4766,8 @@ secţiunii precedente a acestui capitol. Acest lucru este identic
 problemei precedente:
 
 #+CAPTION: simplificarea expresiei booleene prin intermediul hărţii
-Karnaugh [[./poze/14136.png]]
+#+CAPTION: Karnaugh
+[[./poze/14136.png]]
 
 *** Comparaţie între soluţiile cu mintermeni şi maxtermeni
 
@@ -4750,7 +4775,8 @@ Karnaugh [[./poze/14136.png]]
 pentru comparaţie:
 
 #+CAPTION: simplificarea expresiei booleene prin intermediul hărţii
-Karnaugh [[./poze/14137.png]]
+#+CAPTION: Karnaugh
+[[./poze/14137.png]]
 
 Care soluţie este mai simplă? Dacă ar fi să implementăm fizic rezultatul
 sub formă de produs de sume, am avea nevoie de trei porţi logice SAU şi
@@ -4776,7 +4802,8 @@ Circuitele cu porţi logice pentru ambele cazuri sunt prezentate mai jos,
 produsul de sume în stânga şi suma de produse în dreapta:
 
 #+CAPTION: simplificarea expresiei booleene prin intermediul hărţii
-Karnaugh [[./poze/14138.png]]
+#+CAPTION: Karnaugh
+[[./poze/14138.png]]
 
 Reluăm mai jos (stânga) circuitul sub forma sumei de produse:
 
@@ -5131,17 +5158,20 @@ alimentate în diferite combinaţii.
 Când ambele intrări sunt 0:
 
 #+CAPTION: circuit logic combinaţional format din două porţi logice
-ŞI-negat [[./poze/04451.png]]
+#+CAPTION: ŞI-negat
+[[./poze/04451.png]]
 
 Când una dintre intrări este 1:
 
 #+CAPTION: circuit logic combinaţional format din două porţi logice
-ŞI-negat [[./poze/04452.png]]
+#+CAPTION: ŞI-negat
+[[./poze/04452.png]]
 
 Când şi cealaltă intrare este 1:
 
 #+CAPTION: circuit logic combinaţional format din două porţi logice
-ŞI-negat [[./poze/04453.png]]
+#+CAPTION: ŞI-negat
+[[./poze/04453.png]]
 
 Prin urmare, porţile ŞI-negat sunt indiferente la ordinea de alimentare
 a intrărilor. Acelaşi lucru este valabil şi pentru celelalte porţi

@@ -222,7 +222,7 @@ intrarea unui amplificator cu factorul de amplificare 5, semnalul de la
 ieşire fiind 15 V:
 
 #+CAPTION: schema bloc de principiu al legării amplificatoarelor în
-etaje; amplificarea finală este produsul amplificărilor individuale
+#+CAPTION: etaje; amplificarea finală este produsul amplificărilor individuale
 [[./poze/03169.png]]
 
 ** Decibelul
@@ -253,7 +253,7 @@ putere exprimate sub formă de raport şi aceleaşi pierderi exprimate sub
 formă de bel:
 
 #+CAPTION: tabel; comparaţia între pierderile de putere exprimate sub
-formă de raport şi aceleaşi pierderi de putere exprimate în beli
+#+CAPTION: formă de raport şi aceleaşi pierderi de putere exprimate în beli
 [[./poze/13029.png]]
 
 Mai târziu a fost realizat faptul că bel-ul este o unitate de măsură
@@ -266,7 +266,7 @@ Următorul tabel este asemănător celui precedent, dar de data aceasta
 valorile sunt exprimate în dB:
 
 #+CAPTION: tabel; comparaţia între pierderile de putere exprimate sub
-formă de raport şi aceleaşi pierderi de putere exprimate în decibeli
+#+CAPTION: formă de raport şi aceleaşi pierderi de putere exprimate în decibeli
 [[./poze/13030.png]]
 
 * Fizica semiconductorilor
@@ -335,7 +335,7 @@ explica decât prin prezenţă unui nucleu minuscul, încărcat cu sarcină
 pozitivă.
 
 #+CAPTION: Experimentul de împrăştiere al lui Rutherford; bombardarea
-unei foiţe de aur cu particule Alfa încărcate pozitiv
+#+CAPTION: unei foiţe de aur cu particule Alfa încărcate pozitiv
 [[./poze/03389.png]]
 
 Cu toate că acest model al atomului era mai precis decât cel al lui
@@ -548,7 +548,7 @@ cuanti orbital. Asfel, primul strat (n=1) are un substrat, numerotat cu
 (l=2) şi f (l=3)
 
 #+CAPTION: (a) reprezentarea lui Bohr a atomului de argint, (b)
-reprezentarea substraturilor atomului de Ag; notaţia spectroscopică
+#+CAPTION: reprezentarea substraturilor atomului de Ag; notaţia spectroscopică
 [[./poze/03392.png]]
 
 **** Numărul cuantic magnetic
@@ -698,7 +698,7 @@ elemente, iar această proprietatea face ca aceste elemente să fie
 conductoare excelente de electricitate.
 
 #+CAPTION: elementele din grupa I; toate au un singur electron de
-valenţă, electron care este cedat în reacţia cu alte elemente chimice
+#+CAPTION: valenţă, electron care este cedat în reacţia cu alte elemente chimice
 [[./poze/03394.png]]
 
 Elementele din grupa VIIA, Fl, Cl şi BR, au toate câte 7 electroni în
@@ -709,7 +709,7 @@ negativi. Din moment ce nu cedeazăelectroni, aceste elemente sunt foarte
 buni izolatori electrici.
 
 #+CAPTION: elementele din grupa VIIA; toate au şapte electroni de
-valenţă, prin urmare, acestea acceptă un electron pentru completarea
+#+CAPTION: valenţă, prin urmare, acestea acceptă un electron pentru completarea
 #+CAPTION: stratului de valenţă
 [[./poze/03394.png]]
 
@@ -738,8 +738,8 @@ chimice cu alte elemente. Toate sunt izolatori electrici şi se găsesc
 sub formă de gaz la temperatura camerei.
 
 #+CAPTION: elementele din grupa VIIIA au toate câte 8 electroni pe
-stratul de valentă, prin urmare, aceste elemente nu cedează şi nici nu
-acceptă electroni, ceea ce înseamnă ca nu pot participa la reacţii
+#+CAPTION: stratul de valentă, prin urmare, aceste elemente nu cedează şi nici nu
+#+CAPTION: acceptă electroni, ceea ce înseamnă ca nu pot participa la reacţii
 #+CAPTION: chimice
 [[./poze/03396.png]]
 
@@ -753,7 +753,7 @@ aranjament tri-dimensional. Elementele din această grupă prezintă
 proprietăţile semiconductoare pe care le vom studia în continuare.
 
 #+CAPTION: elementele din grupa IVA au toate câte 4 electroni pe stratul
-de valenţă; aceste elemente sunt studiate în electronică pentru
+#+CAPTION: de valenţă; aceste elemente sunt studiate în electronică pentru
 #+CAPTION: proprietăţile lor semiconductoare
 [[./poze/03397.png]]
 
@@ -960,9 +960,10 @@ material conductor cu o conductivitate scăzută, a fost „transformat”
 într-un material conductor destul de bun.
 
 #+CAPTION: (a) configuraţia electronică a donorului de tip N (fosfor),
-acceptorului de tip P (bor) şi a siliciului (pentru referinţă)
-(b)impuritatea donorului de tip N crează electroni liberi;
-(c)impuritatea acceptorului de tip P crează goluri [[./poze/03404.png]]
+#+CAPTION: acceptorului de tip P (bor) şi a siliciului (pentru referinţă)
+#+CAPTION: (b)impuritatea donorului de tip N crează electroni liberi;
+#+CAPTION: (c)impuritatea acceptorului de tip P crează goluri
+ [[./poze/03404.png]]
 
 **** Impuritatea acceptoare de tip P
 
@@ -1019,7 +1020,7 @@ traversează structura acestuia şi ies prin partea dreaptă (+),
 terminalul pozitiv al bateriei.
 
 #+CAPTION: (a) deplasarea electronilor într-un material semiconductor de
-tip N; (b) (a) deplasarea electronilor într-un material semiconductor de
+#+CAPTION: tip N; (b) (a) deplasarea electronilor într-un material semiconductor de
 #+CAPTION: tip P
 [[./poze/03407.png]]
 
@@ -1056,8 +1057,8 @@ devine un material semiconductor pur, non-conductor. De fapt, aproape că
 avem un material izolator ce separă cele două regiuni conductive P şi N.
 
 #+CAPTION: (a) două blocuri P şi N de material semiconductor nu au nicio
-proprietate remarcabilă; (b) un singur cristal dopat atât cu impurităţi
-P cât şi cu impurităţi N duce la formarea unei bariere de potenţial
+#+CAPTION: proprietate remarcabilă; (b) un singur cristal dopat atât cu impurităţi
+#+CAPTION: P cât şi cu impurităţi N duce la formarea unei bariere de potenţial
 [[./poze/03408.png]]
 
 Această separare de sarcini în jurul joncţiunii P-N (zona de golire)
@@ -1179,7 +1180,7 @@ străpungere inversă/ este mult mai mare, lucru important pentru diodele
 de putere folosite în rederesare.
 
 #+CAPTION: (a) dioda cu contact punctiform; (b) dioda cu joncţiune PN;
-(c) simbolul diodei; (d) modul de împachetare al unei diode
+#+CAPTION: (c) simbolul diodei; (d) modul de împachetare al unei diode
 [[./poze/03301.png]]
 
 Diodele de puteri mai mici, chiar şi redresoarele de putere de tensiuni
@@ -1253,8 +1254,8 @@ tensiunea bazei scade sub aproximativ 0.6 V, curentul emitor-colector
 scade la zero.
 
 #+CAPTION: tranzistor bipolar cu joncţiune NPN şi polarizarea inversă a
-joncţiunii colector-bază: (a) polarizarea directă a joncţiunii
-bază-emitor duce la (b) apariţia unui curent de bază mic şi a unui
+#+CAPTION: joncţiunii colector-bază: (a) polarizarea directă a joncţiunii
+#+CAPTION: bază-emitor duce la (b) apariţia unui curent de bază mic şi a unui
 #+CAPTION: curent emitor-colector mare
 [[./poze/03413.png]]
 
@@ -1269,10 +1270,10 @@ corespunde cu deplasarea acestor dinspre bază spre borna pozitivă a
 bateriei. Acesta este un curent foarte mic faţă de curentul din emitor.
 
 #+CAPTION: comportamentul electronilor la intrarea în bază dinspre
-emitor: (a) pierduţi datorită recombinării cu golurile bazei; (b) se
-deplasează spre contactul bazei şi înspre borna pozitivă a sursei de
-aplimentare; (c) moajoritatea trec prin zona îngustă de golire
-bază-colector înspre colector; (d) electronii sunt atraşi de câmpul
+#+CAPTION: emitor: (a) pierduţi datorită recombinării cu golurile bazei; (b) se
+#+CAPTION: deplasează spre contactul bazei şi înspre borna pozitivă a sursei de
+#+CAPTION: aplimentare; (c) moajoritatea trec prin zona îngustă de golire
+#+CAPTION: bază-colector înspre colector; (d) electronii sunt atraşi de câmpul
 #+CAPTION: electric al zonei de golire înspre colector
 [[./poze/03414.png]]
 
@@ -1346,7 +1347,7 @@ normal, dar aceasta este mult mai subţire în realitate decât este
 prezentat în această figură (a).
 
 #+CAPTION: tranzistor bipolar cu joncţiune: (a) secţiune transversală;
-(b) simbol; (c) secţiune transversală într-un circuit integrat
+#+CAPTION: (b) simbol; (c) secţiune transversală într-un circuit integrat
 [[./poze/03302.png]]
 
 Procentul de dopaj al colectorului este scăzut, după cum indică notaţia
@@ -1433,10 +1434,10 @@ purtătorilor de sarcină în zona joncţiunii şi o zonă de golire
 non-conductivă la joncţiune.
 
 #+CAPTION: canalul tranzistorului cu efect de câmp cu joncţiune (JFET):
-(a) zona de golire a porţii; (b) creşterea zonei de golire la
-polarizarea inversă; (c) zona de golire creşte tot mai mult cu creşterea
-tensiunii de polarizare inversă; (d) blocarea canalului sursă-drenă
-(S-D) datorită creşterii tensiunii de polarizare inversă
+#+CAPTION: (a) zona de golire a porţii; (b) creşterea zonei de golire la
+#+CAPTION: polarizarea inversă; (c) zona de golire creşte tot mai mult cu creşterea
+#+CAPTION: tensiunii de polarizare inversă; (d) blocarea canalului sursă-drenă
+#+CAPTION: (S-D) datorită creşterii tensiunii de polarizare inversă
 [[./poze/03416.png]]
 
 Grosimea zonei de golire poate fi crescută prin aplicarea unei tensiuni
@@ -1464,7 +1465,7 @@ rămânem la denumirea de poartă, iar aceasta este notată corespunzător pe
 desene cu P. În orice caz, cele două exprimări sunt echivalente.
 
 #+CAPTION: direcţia curentului într-un tranzistor cu efect de câmp de
-tip N: (a) secţiune transversală; (b) simbolul schematic
+#+CAPTION: tip N: (a) secţiune transversală; (b) simbolul schematic
 [[./poze/03417.png]]
 
 Această sursă de tensiune a drenei, ce nu este prezentă în figurile
@@ -1500,8 +1501,8 @@ canal de tip N (figura de mai jos (a)). Săgeata în acest caz este
 mai jos (b)).
 
 #+CAPTION: tranzistor cu efect de câmp cu canal de tip P: (a) tensiunile
-surselor de alimentare sunt inversată faţă de tranzistorul cu canal de
-tip N; (b) simbolul schematic - direcţia săgeţii porţii este inversată
+#+CAPTION: surselor de alimentare sunt inversată faţă de tranzistorul cu canal de
+#+CAPTION: tip N; (b) simbolul schematic - direcţia săgeţii porţii este inversată
 [[./poze/03418.png]]
 
 Modul de funcţionare este asemănător tranzistorului cu efect de câmp cu
@@ -1519,7 +1520,7 @@ Totuşi, canalului din jurul porţii este dopat uşor, N^{-}, pentru a
 permiter trecerea golurilor dinspre poartă înspre canal.
 
 #+CAPTION: tranzistorul cu efect de câmp cu joncţiune: (a) secţiune
-transversală printr-un dispozitiv discret; (b) simbolul schematic; (c)
+#+CAPTION: transversală printr-un dispozitiv discret; (b) simbolul schematic; (c)
 #+CAPTION: secţiune transversală printr-un circuit integrat
 [[./poze/03303.png]]
 
@@ -1634,7 +1635,7 @@ Redresorul controlat pe bază de siliciu este o diodă cu patru straturi
 şi o poartă, asemenea figurii de mai jos (a):
 
 #+CAPTION: tiristorul SCR (redresor controlat pe bază de siliciu): (a)
-modul de dopare al straturilor; (b) circuit cu tranzistoare bipolare cu
+#+CAPTION: modul de dopare al straturilor; (b) circuit cu tranzistoare bipolare cu
 #+CAPTION: joncţiune echivalent
 [[./poze/03424.png]]
 
@@ -1661,7 +1662,7 @@ mai jos (a)). Simbolurile tiristoarelor SCR şi GTO sunt prezentate de
 asemenea în figura de mai jos ((b) respectiv (c)).
 
 #+CAPTION: tiristoare: (a) secţiune transversală; (b) simbolul schematic
-al redresorului controlat pe bază de siliciu (SCR) (c) simbolul
+#+CAPTION: al redresorului controlat pe bază de siliciu (SCR) (c) simbolul
 #+CAPTION: tiristorului de tip GTO
 [[./poze/03307.png]]
 
@@ -1691,7 +1692,7 @@ dioda fie va permite trecerea curentului spre lampă, fie o va bloca, în
 funcţie de polaritatea tensiunii aplicate.
 
 #+CAPTION: modul de funcţionare al diodei: (a) polarizarea directă a
-diodei - trecerea curentului este permisă; (b) dioda este polarizată
+#+CAPTION: diodei - trecerea curentului este permisă; (b) dioda este polarizată
 #+CAPTION: invers - trecerea curentului este blocată
 [[./poze/03247.png]]
 
@@ -1707,7 +1708,7 @@ hidraulic denumit /supapă de închidere/. O supapă de închidere permite
 trecerea fluidului doar într-o singură direcţie:
 
 #+CAPTION: analogie dintre o diodă şi o supapă de închidere hidraulică:
-(a) supapa este deschisă şi permite trecerea fluidului; (b) supapa este
+#+CAPTION: (a) supapa este deschisă şi permite trecerea fluidului; (b) supapa este
 #+CAPTION: blocată şi nu permite trecerea fluidului
 [[./poze/03248.png]]
 
@@ -1724,7 +1725,7 @@ dar folosind de această dată un aparat de măsură pentru determinarea
 căderilor de tensiune pe diferite componente ale circuitului.
 
 #+CAPTION: măsurarea căderilor de tensiune într-un circuit simplu cu
-diodă: (a) polarizarea directă a diodei; (b) polarizarea inversă a
+#+CAPTION: diodă: (a) polarizarea directă a diodei; (b) polarizarea inversă a
 #+CAPTION: diodei
 [[./poze/03249.png]]
 
@@ -1837,10 +1838,11 @@ indicată de aparatul de măsură (din engl. Over-Limit); în acest caz,
 putem considera rezistenţa ca fiind infinită).
 
 #+CAPTION: determinarea polarităţii diodei cu ajutorul aparatului de
-măsură: (a) rezistenţa mică între anod şi catod indică polarizarea
-directă a diodei; (b) inversarea sondelor aparatului de măsură duce la
-polarizarea inversă a diodei, indicată de rezistenţa foarte mare
-(infinită) [[./poze/03254.png]]
+#+CAPTION: măsură: (a) rezistenţa mică între anod şi catod indică polarizarea
+#+CAPTION: directă a diodei; (b) inversarea sondelor aparatului de măsură duce la
+#+CAPTION: polarizarea inversă a diodei, indicată de rezistenţa foarte mare
+#+CAPTION: (infinită)
+ [[./poze/03254.png]]
 
 Desigur, determinarea polarităţii diodei (care terminal este anodul şi
 care catodul) necesită ca în primul rând să cunoaştem care din sondele
@@ -1872,7 +1874,7 @@ unui curent mic prin diodă şi măsurarea căderii de tensiune dintre cele
 două borne ale diodei.
 
 #+CAPTION: determinarea tensiunii de polarizare directă a diodei
-folosind un multimetru digital echipat cu funcţia de verificare a
+#+CAPTION: folosind un multimetru digital echipat cu funcţia de verificare a
 #+CAPTION: diodelor
 [[./poze/03256.png]]
 
@@ -1886,7 +1888,7 @@ precum în figura de mai jos, folosind o baterie, un rezistor şi un
 voltmetru:
 
 #+CAPTION: măsurarea tensiunii de polarizare directă a diodei folosind
-un aparat de măsură (voltmetru), o baterie şi un rezistor: (a) schema
+#+CAPTION: un aparat de măsură (voltmetru), o baterie şi un rezistor: (a) schema
 #+CAPTION: electrică; (b) schema practică
 [[./poze/03257.png]]
 
@@ -2061,7 +2063,7 @@ Sarcina „vede” prima jumătate a formei de undă sinusoidale, pozitiv sus
 transformatorului conduce curent în acest caz:
 
 #+CAPTION: redresor dublă alternanţă cu punct median; observarea primei
-jumătăţi a periodei tensiunii de alimentare alternative
+#+CAPTION: jumătăţi a periodei tensiunii de alimentare alternative
 [[./poze/03261.png]]
 
 În a doua parte a perioadei, polaritatea tensiunii alternative se
@@ -2073,7 +2075,7 @@ formă de undă sinusoidală, de /aceeiaşi/ polaritate ca şi în cazul
 precedent: pozitiv în partea de sus şi negativ în partea de jos:
 
 #+CAPTION: redresor dublă alternanţă cu punct median; observarea celei
-de a doua jumătăţi a periodei tensiunii de alimentare alternative
+#+CAPTION: de a doua jumătăţi a periodei tensiunii de alimentare alternative
 [[./poze/03262.png]]
 
 Un mare dezavantaj al acestei configuraţii este necesitatea folosirii
@@ -2130,7 +2132,7 @@ echivalentă, a acestui circuit este mult mai uşor de ţinut minte şi de
 poziţionate orizontal, şi toate indică în aceeiaşi direcţie:
 
 #+CAPTION: Redresor dublă alternanţă în punte; reprezentare echivalentă
-- toate diodele sunt poziţionate orizontal şi indică aceeiaşi direcţie
+#+CAPTION: - toate diodele sunt poziţionate orizontal şi indică aceeiaşi direcţie
 [[./poze/03266.png]]
 
 Un avantaj al acestei notaţii este că poate fi uşor aplicată unei
@@ -2198,7 +2200,7 @@ lor va fi mai mică decât tensiunea de riplu luată individual pentru cele
 două redresoare: 12 pulsuri pentru o perioadă (360^{o}) în loc de 6.
 
 #+CAPTION: redresor polifazat dublu alternanţa cu două redresoare în
-punte conectate în paralel, folosind un transformator primar şi două
+#+CAPTION: punte conectate în paralel, folosind un transformator primar şi două
 #+CAPTION: secundare în configuraţie Y-Y, respectiv Y-Δ
 [[./poze/03270.png]]
 
@@ -2247,7 +2249,7 @@ am conecta zece diode în serie, valoarea tensiunii stabilizate ar fi de
 zece ori mai mare faţă de cazul precedent, adică 7 V.
 
 #+CAPTION: sursă de tensiune stabilizată folosind diode: (a) o singură
-diodă (0.7 V); (b) zece diode conectate în serie (7 V)
+#+CAPTION: diodă (0.7 V); (b) zece diode conectate în serie (7 V)
 [[./poze/03284.png]]
 
 Atâta timp cât tensiunea bateriei nu scade sub 7 V, vor exista tot
@@ -2268,7 +2270,7 @@ nepermiţând tensiunii să crească peste această valoare (figura de jos
 (a)).
 
 #+CAPTION: (a) tensiunea inversă de străpungere pentru o diodă de
-siliciu este aproximativ 100 V; (b) simbolul diodei Zener
+#+CAPTION: siliciu este aproximativ 100 V; (b) simbolul diodei Zener
 [[./poze/03285.png]]
 
 Din păcate, când diodele redresoare normale ating punctul de stăpungere,
@@ -2321,7 +2323,7 @@ tensiune zener de 12.6 V, o sursă de tensiune de 45 V şi o valoare a
 rezistorului de 1.000 Ω (figura de mai jos (a)).
 
 #+CAPTION: (a) stabilizator de tensiune cu diodă zener şi un rezistor de
-1.000 Ω; (b) calcularea căderilor de tensiune şi ale curenţilor
+#+CAPTION: 1.000 Ω; (b) calcularea căderilor de tensiune şi ale curenţilor
 [[./poze/03289.png]]
 
 Să calculăm prima dată puterile pe rezistor şi pe diodă:
@@ -2363,7 +2365,7 @@ considerăm primul circuit, conectat de această dată la o sarcină de 500
 Ω în paralel cu dioda zener:
 
 #+CAPTION: (a) stabilizator de tensiune cu diodă zener şi un rezistor de
-1.000 Ω; conectarea unei sarcini de 500 Ω în paralel cu dioda zener
+#+CAPTION: 1.000 Ω; conectarea unei sarcini de 500 Ω în paralel cu dioda zener
 [[./poze/03291.png]]
 
 Dacă se menţine o tensiune de 12.6 V pe sarcina de 500 Ω, aceasta va
@@ -2380,7 +2382,7 @@ trebui să facă acest circuit, este să menţină o cădere de tensiune de
 cum putem vedea, circuitul stabilizator /nu poate/ realiza acest lucru:
 
 #+CAPTION: (a) stabilizator de tensiune cu diodă zener şi un rezistor de
-100 kΩ în serie; conectarea unei sarcini de 500 Ω în paralel cu dioda
+#+CAPTION: 100 kΩ în serie; conectarea unei sarcini de 500 Ω în paralel cu dioda
 #+CAPTION: zener
 [[./poze/03292.png]]
 
@@ -2401,7 +2403,7 @@ dioda zener din circuit şi analizăm doar comportamentul celor doi
 rezistori:
 
 #+CAPTION: (a) stabilizator de tensiune cu diodă zener şi un rezistor de
-100 kΩ în serie; conectarea unei sarcini de 500 Ω în paralel cu dioda
+#+CAPTION: 100 kΩ în serie; conectarea unei sarcini de 500 Ω în paralel cu dioda
 #+CAPTION: zener; îndepărtarea temporară a diodei zener
 [[./poze/03293.png]]
 
@@ -2492,8 +2494,9 @@ Fiecare strat are un nume specific şi un contact pentru conexiunea la
 circuit:
 
 #+CAPTION: tranzistorul bipolar cu joncţiune: (a) simbolul PNP; (b)
-secţiune transversală PNP; (c) simbolul NPN; (d) secţiune transversală
-NPN [[./poze/03071.png]]
+#+CAPTION: secţiune transversală PNP; (c) simbolul NPN; (d) secţiune transversală
+#+CAPTION: NPN
+[[./poze/03071.png]]
 
 Diferenţa funcţională dintre tranzistorul PNP şi NPN, este modul de
 polarizare corectă a joncţiunii. Indiferent de starea în care se află,
@@ -2551,8 +2554,8 @@ Să presupunem că avem o lampă pe care vrei să o pornim/oprim cu ajutorul
 unui întrerupător (figura de mai jos (a)):
 
 #+CAPTION: (a) controlul unei lămpi cu ajutorul unui întrerupător; (b)
-introducerea în circuit a unui tranzistor NPN în locul întrerupătorului;
-(c) introducerea în circuit a unui tranzistor PNP în locul
+#+CAPTION: introducerea în circuit a unui tranzistor NPN în locul întrerupătorului;
+#+CAPTION: (c) introducerea în circuit a unui tranzistor PNP în locul
 #+CAPTION: întrerupătorului;
 [[./poze/03075.png]]
 
@@ -2581,7 +2584,7 @@ conectăm un întrerupător între baza şi colector, precum în figura de mai
 jos (a):
 
 #+CAPTION: controlul unei lămpi cu ajutorul unui tranzistor: (a)
-tranzistor blocat; (b) tranzistor în stare de conducţie
+#+CAPTION: tranzistor blocat; (b) tranzistor în stare de conducţie
 [[./poze/03078.png]]
 
 Dacă întrerupătorul este deschis (a), baza tranzistorului nu va fi
@@ -2644,8 +2647,8 @@ Tranzistorul de mai jos este de tip PNP; sonda neagră este terminalul
 negativ (-) iar cea roşie corespunde terminalului pozitiv (+)
 
 #+CAPTION: verificarea unui tranzistor PNP cu ajutorul unui ohmetru: (a)
-joncţiunile bază-emitor şi bază-colector sunt polarizate direct,
-rezistenţa este mică; (b) joncţiunile bază-emitor şi bază-colector sunt
+#+CAPTION: joncţiunile bază-emitor şi bază-colector sunt polarizate direct,
+#+CAPTION: rezistenţa este mică; (b) joncţiunile bază-emitor şi bază-colector sunt
 #+CAPTION: polarizare invers, rezistenţa este infinită
 [[./poze/03077.png]]
 
@@ -2761,7 +2764,7 @@ cu ajutorul aparatului de măsură, nu şi pentru înţelegerea funcţionării
 acestora în circuitele practice.
 
 #+CAPTION: modelul celor două diode puse spate-în-spate nu poate fi
-folosi pentru explicare funcţionării tranzistorilor în circuitele reale
+#+CAPTION: folosi pentru explicare funcţionării tranzistorilor în circuitele reale
 [[./poze/03087.png]]
 
 ** Zona activă de funcţionare a tranzistorului
@@ -2794,8 +2797,8 @@ varia tensiunea sursei (V_{1}) între 0 V şi 2 V; vom observa apoi
 curentul ce trece prin sursă.
 
 #+CAPTION: variaţia curent-tensiune pentru o tensiune de alimentare a
-tranzistorului între 0 V şi 2 V şi un curent de alimentare constant de
-20 µA; curentul prin colector este un curent constant de 2 mA
+#+CAPTION: tranzistorului între 0 V şi 2 V şi un curent de alimentare constant de
+#+CAPTION: 20 µA; curentul prin colector este un curent constant de 2 mA
 [[./poze/23000.png]]
 
 Un curent de bază constant de 20 µA /controlează/ un curent maxim de 2
@@ -2811,8 +2814,8 @@ bateriei, de la intervalul 0 - 2 V, la intervalul 0 - 50 V, menţinând un
 curent de bază constant de 20 µA:
 
 #+CAPTION: variaţia curent-tensiune pentru o tensiune de alimentare a
-tranzistorului între 0 V şi 50 V şi un curent de alimentare constant de
-20 µA; curentul prin colector este şi de această dată un curent constant
+#+CAPTION: tranzistorului între 0 V şi 50 V şi un curent de alimentare constant de
+#+CAPTION: 20 µA; curentul prin colector este şi de această dată un curent constant
 #+CAPTION: de 2 mA
 [[./poze/23001.png]]
 
@@ -2831,8 +2834,8 @@ Urmarea evidentă este creşterea curentului bazei, de la 20 µA la 75 µA,
 menţinând tensiunea bateriei în intervalul 0 - 50 V:
 
 #+CAPTION: variaţia curent-tensiune pentru o tensiune de alimentare a
-tranzistorului între 0 V şi 50 V şi un curent de alimentare variabil
-între 15 µA şi 75 µA; în acest caz există şi alte curbe de variaţie
+#+CAPTION: tranzistorului între 0 V şi 50 V şi un curent de alimentare variabil
+#+CAPTION: între 15 µA şi 75 µA; în acest caz există şi alte curbe de variaţie
 #+CAPTION: curent-tensiune
 [[./poze/23002.png]]
 
@@ -2966,7 +2969,7 @@ un instrument de măsură (ampermetru). Una dintre soluţii ar consta în
 conectarea ampermetrului direct la celula solară:
 
 #+CAPTION: măsurarea intenstăţii luminoase cu ajutorului unui circuit
-format dintr-o celulă solară şi un ampermetru pentru măsurarea
+#+CAPTION: format dintr-o celulă solară şi un ampermetru pentru măsurarea
 #+CAPTION: curentului de la ieşirea celulei
 [[./poze/03093.png]]
 
@@ -2986,7 +2989,7 @@ deviaţia acului indicator al aparatului de măsură, pentru o valoare mult
 mai mică a curentului generat de celula solară.
 
 #+CAPTION: amplificarea semnalului de curent generat de celula solară cu
-ajutorului unui tranzistor în conexiune emitor-comun
+#+CAPTION: ajutorului unui tranzistor în conexiune emitor-comun
 [[./poze/03094.png]]
 
 De această dată, curentul prin circuit (şi prin aparatul de măsură) va
@@ -3095,7 +3098,7 @@ polarizare directă a joncţiunii bază-emitor, vom conecta şi un rezistor
 asfel:
 
 #+CAPTION: amplificator cu tranzistor în conexiune emitor comun legat la
-difuzor şi acţionat cu ajutorul unui semnal audio; circuitul practic
+#+CAPTION: difuzor şi acţionat cu ajutorul unui semnal audio; circuitul practic
 [[./poze/03098.png]]
 
 Graficul variaţiei tensiune-curent, tensiunea de alimentare, V_{1} (1,5
@@ -3104,8 +3107,8 @@ grafic decât curentul real, pentru observarea mai clară a acestuia), cu
 albastru, este prezentat mai jos:
 
 #+CAPTION: amplificator cu tranzistor în conexiune emitor comun legat la
-difuzor şi acţionat cu ajutorul unui semnal audio; formele de undă ale
-tensiunii de intrare şi a curentului emitor-colector (prin difuzor)
+#+CAPTION: difuzor şi acţionat cu ajutorul unui semnal audio; formele de undă ale
+#+CAPTION: tensiunii de intrare şi a curentului emitor-colector (prin difuzor)
 [[./poze/23004.png]]
 
 Curentul prin difuzor este acelaşi cu cel prin baterie. Putem vedea că
@@ -3149,7 +3152,7 @@ prin conectarea unei surse de curent continuu în serie cu semnalul de
 intrare:
 
 #+CAPTION: adăugarea unei surse de tensiune în curent continuu pentru
-polarizarea directă a jocţiunii bază-emitor pe toată perioada semnalului
+#+CAPTION: polarizarea directă a jocţiunii bază-emitor pe toată perioada semnalului
 #+CAPTION: de intrare
 [[./poze/03099.png]]
 
@@ -3171,7 +3174,7 @@ Dacă am conecta simultan mai multe osciloscoape în circuitul de mai sus,
 formele de undă ale tensiunilor ar arăta asfel:
 
 #+CAPTION: observarea formelor de undă ale tensiunilor în diferite
-puncte critice ale unui amplificator cu tranzistor în conexiune
+#+CAPTION: puncte critice ale unui amplificator cu tranzistor în conexiune
 #+CAPTION: emitor-comun
 [[./poze/03110.png]]
 
@@ -3208,8 +3211,9 @@ curenţilor, rezultând o formă de undă de ieşire mai mare. Să urmărim şi
 graficul formelor de undă pentru sarcina de 30 Ω:
 
 #+CAPTION: graficul formelor de undă a tensiunii pe difuzor (albastru)
-şi al tensiunii de intrare a tranzistorului (roşu), pentru o sarcină de
-30 Ω în loc de 8 Ω [[./poze/23007.png]]
+#+CAPTION: şi al tensiunii de intrare a tranzistorului (roşu), pentru o sarcină de
+#+CAPTION: 30 Ω în loc de 8 Ω
+[[./poze/23007.png]]
 
 De data aceasta, amplitudinea formei de undă a tensiunii de ieşire
 (albastru) este mult mai mare decât tensiunea de intrare. Dacă ne uităm
@@ -3739,7 +3743,7 @@ cu un punct de saturaţie (stânga sus) diferit, dar cu un punct de
 blocare (dreapta jos) identic:
 
 #+CAPTION: punctul static de funcţionare al amplificatorului clasa A;
-modificarea pantei dreptei de sarcină prin creşterea valorii rezistenţei
+#+CAPTION: modificarea pantei dreptei de sarcină prin creşterea valorii rezistenţei
 #+CAPTION: sarcinii
 [[./poze/03146.png]]
 
@@ -3761,7 +3765,7 @@ caracteristice pe grafic, pentru a putea observa până unde putem
 intre în zona de saturaţie.
 
 #+CAPTION: punctul static de funcţionare al amplificatorului clasa A;
-adăugarea unor curbe de sarcină suplimentară pentru observarea intrării
+#+CAPTION: adăugarea unor curbe de sarcină suplimentară pentru observarea intrării
 #+CAPTION: în zona de saturaţie
 [[./poze/03147.png]]
 
@@ -3803,7 +3807,7 @@ scade, iar amplificatorul se ve îndrepta spre clasa de funcţionare B.
 Să (re)-considerăm acest circuit, de exemplu:
 
 #+CAPTION: utilizarea unei baterii conectate în serie cu sursa de semnal
-în curent alternativ pentru polarizarea tranzistorului
+#+CAPTION: în curent alternativ pentru polarizarea tranzistorului
 [[./poze/03099.png]]
 
 Includerea unei baterii cu o tensiune de polarizare (V_{polarizare})
@@ -3841,7 +3845,7 @@ posibil să nu fie evident /de ce/, este prin conectarea unui
 tensiune, asfel:
 
 #+CAPTION: conectarea unui condensator de cuplaj între sursa de semnal
-de curent alternativ şi circuitul divizor de tensiune pentru polarizarea
+#+CAPTION: de curent alternativ şi circuitul divizor de tensiune pentru polarizarea
 #+CAPTION: tranzistorului
 [[./poze/03131.png]]
 
@@ -3866,7 +3870,7 @@ frecvenţa de semnal, acesta se comportă precum un scurt-circuit (fir
 simplu), prin urmare, poate fi omis din figura de mai jos:
 
 #+CAPTION: aplicarea teoremei superpoziţiei; studierea circuitului de
-intrare al amplificatorului atunci când doar sursa de semnal de curent
+#+CAPTION: intrare al amplificatorului atunci când doar sursa de semnal de curent
 #+CAPTION: alternativ este conectată în circuit
 [[./poze/03133.png]]
 
@@ -3877,8 +3881,8 @@ alternativ nu vor avea niciun efect asupra modului de funcţionare al
 divizorului de tensiune R_{2}--R_{3}:
 
 #+CAPTION: aplicarea teoremei superpoziţiei; studierea circuitului de
-intrare al amplificatorului atunci când doar sursa de tensiune de curent
-continuu (bateria de 15 V) este conectată în circuit
+#+CAPTION: intrare al amplificatorului atunci când doar sursa de tensiune de curent
+#+CAPTION: continuu (bateria de 15 V) este conectată în circuit
 [[./poze/03134.png]]
 
 Folosind teorema superpoziţiei, şi combinând cele două analize separate
@@ -3915,7 +3919,7 @@ disponibilă pentru tranzistor. Folosind modelul diodă-sursă-de-curent al
 tranzistorului, problema polarizării devine mai clară:
 
 #+CAPTION: conectarea tranzistorului la reţeaua formată din condensator
-şi divizorul de tensiune; analiza circuitului folosind modelul
+#+CAPTION: şi divizorul de tensiune; analiza circuitului folosind modelul
 #+CAPTION: diodă-sursă-de-curent al tranzistorului
 [[./poze/03135.png]]
 
@@ -3936,7 +3940,7 @@ kΩ), graficul formelor de undă corespunde unui amplificator de clasă A,
 exact ceea ce urmăream:
 
 #+CAPTION: modificarea rezistorilor duce la obţinerea unui semnal de
-curent de ieşire nedistorsionat, semnal tipic pentru un amplificator de
+#+CAPTION: curent de ieşire nedistorsionat, semnal tipic pentru un amplificator de
 #+CAPTION: clasa A
 [[./poze/23014.png]]
 
@@ -3974,7 +3978,7 @@ fiecare dintre armonicele sale constituente. Un exemplu extrem ar fi un
 semnal dreptunghiular de frecvenţa joasă:
 
 #+CAPTION: un semnal de intrare dreptunghiular, de frecvenţă joasă,
-conectat la intrarea unui amplifcator folosind un condensator de cuplaj
+#+CAPTION: conectat la intrarea unui amplifcator folosind un condensator de cuplaj
 #+CAPTION: la intrare, este puternic distorsionat la ieşire
 [[./poze/03136.png]]
 
@@ -4070,7 +4074,7 @@ de ieşire, este utilizarea unui condensator de cuplaj pe ieşire, într-o
 manieră similară cuplajului capacitiv de intrare:
 
 #+CAPTION: folosirea cuplajului capacitiv la ieşirea amplificatorului
-pentru eliminarea componentei de curent continuu pe sarcină
+#+CAPTION: pentru eliminarea componentei de curent continuu pe sarcină
 [[./poze/03141.png]]
 
 Circuitul de mai sus seamănă foarte bine cu un amplificator în conexiune
@@ -4747,8 +4751,8 @@ semnalului de intrare iniţial (tensiunea necesară străpungerii unuia
 dintre tranzistori).
 
 #+CAPTION: circuit cu dioda Shockley; graficul curent-tensiune;
-tranzistorii rămân în starea de conducţie chiar şi după ce tensiunea
-iniţială scade cu mult sub valoarea de străpungere iniţială
+#+CAPTION: tranzistorii rămân în starea de conducţie chiar şi după ce tensiunea
+#+CAPTION: iniţială scade cu mult sub valoarea de străpungere iniţială
 [[./poze/03200.png]]
 
 Dacă tensiunea sursei de alimentare în c.c. scade la o valoare mult prea
@@ -4761,7 +4765,7 @@ tranzistor. Acest cerc vicios continuă rapid până în momentul în care
 ambii tranzistori intră în starea de blocare.
 
 #+CAPTION: circuit cu dioda Shockley; graficul curent-tensiune;
-reintrarea tranzistorilor în stare de blocare pe măsură ce tensiunea
+#+CAPTION: reintrarea tranzistorilor în stare de blocare pe măsură ce tensiunea
 #+CAPTION: sursei de c.c. scade sub o anumită valoare
 [[./poze/03201.png]]
 
@@ -4778,7 +4782,8 @@ măsură ce semnalul de intrare (tensiune) creşte şi descreşte, ieşirea
 acesteia.
 
 #+CAPTION: graficul sub formă de histereză al comportamentului diodei
-Shockley [[./poze/03202.png]]
+#+CAPTION: Shockley
+[[./poze/03202.png]]
 
 Pe scurt, dioda Shockley tinde să rămână în stare de conducţie odată ce
 a fost pornită şi în stare blocată o dată ce a fost oprită. Nu există un
@@ -5610,7 +5615,7 @@ intersecţie a undei sinusoidale; rezultatul este o formă de undă
 dreptunghiulară cu un /factor de umplere/ diferit:
 
 #+CAPTION: amplificator operaţional pe post de comparator; modificarea
-tensiunii de referintă duce la modificarea factorului de umplere a undei
+#+CAPTION: tensiunii de referintă duce la modificarea factorului de umplere a undei
 #+CAPTION: dreptunghiulare de la ieşire
 [[./poze/03032.png]]
 
@@ -5698,7 +5703,7 @@ tensiune dintre cele două intrări este menţinută prin intermediul
 reacţiei negative la exact 0 V.
 
 #+CAPTION: amplificator operaţional cu recţie negativă; diferenţa de
-tensiune dintre cele două intrări este foarte aproape de zero volţi
+#+CAPTION: tensiune dintre cele două intrări este foarte aproape de zero volţi
 [[./poze/03035.png]] 
 #+CAPTION: aproximarea efectelor unui amplificator
 #+CAPTION: operaţional cu reacţie negativă
@@ -5822,7 +5827,7 @@ prin simpla modificare a valorilor celor doi rezistori. Amplificarea
 poate fi calculată asfel:
 
 #+CAPTION: formula de calcul a amplificării în tensiune al
-amplificatorului operaţional cu reacţie negativă divizată
+#+CAPTION: amplificatorului operaţional cu reacţie negativă divizată
 [[./poze/13004.png]]
 
 Se poate observa că amplificarea unui asfel de amplificator nu poate să
@@ -5861,7 +5866,7 @@ modificarea valorilor rezistorilor R_{1} şi R_{2}. Amplificarea poate fi
 calculată cu următoarea formulă:
 
 #+CAPTION: formula de calcul a amplificării în tensiune al
-amplificatorului operaţional cu reacţie negativă divizată
+#+CAPTION: amplificatorului operaţional cu reacţie negativă divizată
 [[./poze/13005.png]]
 
 De această dată, amplificarea în tensiune a circuitului /poate/ fi sub
