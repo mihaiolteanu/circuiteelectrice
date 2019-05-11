@@ -3,6 +3,9 @@
 #+OPTIONS: toc:nil num:nil
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
 
+Romanian translation of [[https://www.ibiblio.org/kuphaldt/electricCircuits/][Lessons in
+Electric Circuits]] by Tony R. Kuphaldt. 
+
 * Prefata
 Traducerea in romana a cartii
 [[https://www.ibiblio.org/kuphaldt/electricCircuits/][Lessons in
