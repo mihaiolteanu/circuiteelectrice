@@ -1,5 +1,6 @@
 #+TITLE: Curent continuu
 #+INCLUDE: "./settings.org"
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
 
 * Concepte de baza
 :PROPERTIES:

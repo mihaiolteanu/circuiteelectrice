@@ -1,5 +1,6 @@
 #+TITLE: Curent alternativ
 #+INCLUDE: "./settings.org"
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
 
 * Bazele teoriei
 :PROPERTIES:

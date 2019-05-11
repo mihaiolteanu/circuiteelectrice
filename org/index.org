@@ -1,6 +1,7 @@
 #+TITLE: Introducere in circuite electrice si electronice
 #+AUTHOR: Mihai Olteanu
 #+OPTIONS: toc:nil num:nil
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
 
 * Prefata
 Traducerea in romana a cartii
