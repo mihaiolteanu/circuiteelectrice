@@ -8,18 +8,16 @@ Traducerea in romana a cartii
 [[https://www.ibiblio.org/kuphaldt/electricCircuits/][Lessons in
 Electric Circuits]], de Tony R. Kuphaldt. 
 
-Continut aflat sub licenta
-[[https://www.ibiblio.org/kuphaldt/electricCircuits/Devel/dsl.html][DSL]].
+*Licenta*: [[https://www.ibiblio.org/kuphaldt/electricCircuits/Devel/dsl.html][DSL]].
 
-Traducerea: [[http://mihaiolteanu.me/][Mihai Olteanu]]
+*Traducerea*: [[http://mihaiolteanu.me/][Mihai Olteanu]]
 
-* Capitole
-*** [[file:curent-continuu.org][Curent continuu]]
-*** [[file:curent-alternativ.org][Curent alternativ]]
-*** [[file:electronica-analogica.org][Electronica analogica]]
-*** [[file:electronica-digitala.org][Electronica digitala]]
-*** [[file:experimente.org][Experimente]]
-
+* Cuprins
+** [[file:curent-continuu.org][Curent continuu]]
+** [[file:curent-alternativ.org][Curent alternativ]]
+** [[file:electronica-analogica.org][Electronica analogica]]
+** [[file:electronica-digitala.org][Electronica digitala]]
+** [[file:experimente.org][Exemple Practice]]
 
 * Varianta PDF si HTML
 [[file:circuite.tar.gz][Descarca]]
