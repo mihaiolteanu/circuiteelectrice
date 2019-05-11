@@ -1114,7 +1114,7 @@ Putem de asemenea să calculăm puterea disipată de rezistor şi să
 completăm graficul asfel:
 
 #+CAPTION: graficul tensiunii, curentului şi a puterii disipate în cazul
-unui circuit circuit de curent alternativ pur rezistiv
+#+CAPTION: unui circuit de curent alternativ pur rezistiv
 [[./poze/02055.png]]
 
 Se poate observa de pe grafic faptul că puterea nu are niciodată o
