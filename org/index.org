@@ -1,29 +1,30 @@
-#+TITLE: Introducere in circuite electrice si electronice
+#+TITLE: Introducere în circuite electrice şi electronice
 #+AUTHOR: Mihai Olteanu
-#+OPTIONS: toc:nil num:nil
+#+OPTIONS: toc:nil num:nil author:nil date:nil html-postamble:nil
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="https://gongzhitaao.org/orgcss/org.css"/>
 
-Romanian translation of [[https://www.ibiblio.org/kuphaldt/electricCircuits/][Lessons in
-Electric Circuits]] by Tony R. Kuphaldt. 
+(EN) Romanian translation of [[https://www.ibiblio.org/kuphaldt/electricCircuits/][Lessons in Electric Circuits]] by Tony
+R. Kuphaldt.
+\\
+(RO) Traducerea in romana a cartii [[https://www.ibiblio.org/kuphaldt/electricCircuits/][Lessons in Electric Circuits]], de Tony
+R. Kuphaldt.
 
-* Prefata
-Traducerea in romana a cartii
-[[https://www.ibiblio.org/kuphaldt/electricCircuits/][Lessons in
-Electric Circuits]], de Tony R. Kuphaldt. 
 
-*Licenta*: [[https://www.ibiblio.org/kuphaldt/electricCircuits/Devel/dsl.html][DSL]].
+| [[./poze/baterii.jpg]]    | [[./poze/motor-electric.jpg]] |
+| [[file:curent-continuu.org][Curent continuu]]       | [[file:curent-alternativ.org][Curent alternativ]]         |
+|-----------------------+---------------------------|
+| [[./poze/diagrama.jpg]]   | [[./poze/procesor.jpg]]       |
+| [[file:electronica-analogica.org][Electronica analogica]] | [[file:electronica-digitala.org][Electronica digitala]]      |
+|-----------------------+---------------------------|
+| [[./poze/sonde.jpg]]      |                           |
+| [[file:experimente.org][Exemple Practice]]      |                           |
+
+\\
+[[file:circuite.tar.gz][Variante PDF si HTML]]
+\\
+[[https://github.com/mihaiolteanu/circuite-electrice][Codul sursa (Github)]]
+
+\\
+*Licenta*: [[https://www.ibiblio.org/kuphaldt/electricCircuits/Devel/dsl.html][DSL]]
 
 *Traducerea*: [[http://mihaiolteanu.me/][Mihai Olteanu]]
-
-* Cuprins
-** [[file:curent-continuu.org][Curent continuu]]
-** [[file:curent-alternativ.org][Curent alternativ]]
-** [[file:electronica-analogica.org][Electronica analogica]]
-** [[file:electronica-digitala.org][Electronica digitala]]
-** [[file:experimente.org][Exemple Practice]]
-
-* Varianta PDF si HTML
-[[file:circuite.tar.gz][Descarca]]
-
-* Codul sursa
-[[https://github.com/mihaiolteanu/circuite-electrice][Github]]
