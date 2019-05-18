@@ -10,14 +10,12 @@ R. Kuphaldt.
 R. Kuphaldt.
 
 
-| [[./poze/baterii.jpg]]    | [[./poze/motor-electric.jpg]] |
-| [[file:curent-continuu.org][Curent continuu]]       | [[file:curent-alternativ.org][Curent alternativ]]         |
-|-----------------------+---------------------------|
-| [[./poze/diagrama.jpg]]   | [[./poze/procesor.jpg]]       |
-| [[file:electronica-analogica.org][Electronica analogica]] | [[file:electronica-digitala.org][Electronica digitala]]      |
-|-----------------------+---------------------------|
-| [[./poze/sonde.jpg]]      |                           |
-| [[file:experimente.org][Exemple Practice]]      |                           |
+| [[./poze/baterii.jpg]]   | [[./poze/motor-electric.jpg]] | [[./poze/diagrama.jpg]]   |
+| [[file:curent-continuu.org][Curent continuu]]      | [[file:curent-alternativ.org][Curent alternativ]]         | [[file:electronica-analogica.org][Electronica analogica]] |
+|----------------------+---------------------------+-----------------------|
+| [[./poze/procesor.jpg]]  | [[./poze/sonde.jpg]]          |                       |
+| [[file:electronica-digitala.org][Electronica digitala]] | [[file:experimente.org][Exemple Practice]]          |                       |
+|----------------------+---------------------------+-----------------------|
 
 \\
 [[file:circuite.tar.gz][Variante PDF si HTML]]
